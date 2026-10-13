@@ -1,0 +1,626 @@
+{
+  "id": "us-graduate-earnings",
+  "title": "US Colleges by Graduate Earnings",
+  "short": "Graduate earnings",
+  "sort": 3,
+  "category": "education",
+  "icon": "💼",
+  "desc": "Median yearly earnings of former students working 10 years after they first enrolled.",
+  "unit": "USD per year",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "U.S. Department of Education — College Scorecard",
+    "url": "https://collegescorecard.ed.gov/data/",
+    "license": "Public domain (U.S. government work)",
+    "note": "Earnings of students who received federal financial aid and are working, not enrolled. Only four-year schools with at least 800 undergraduates are ranked."
+  },
+  "updatedAt": "2026-10-13T19:00:08.729Z",
+  "items": [
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "value": 143372,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "Harvey Mudd College",
+      "country": "US",
+      "value": 138687,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "California Institute of Technology",
+      "country": "US",
+      "value": 128566,
+      "detail": "Pasadena, CA"
+    },
+    {
+      "name": "Massachusetts College of Pharmacy and Health Sciences",
+      "country": "US",
+      "value": 125557,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "value": 124080,
+      "detail": "Stanford, CA"
+    },
+    {
+      "name": "Babson College",
+      "country": "US",
+      "value": 123938,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Bentley University",
+      "country": "US",
+      "value": 120959,
+      "detail": "Waltham, MA"
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "country": "US",
+      "value": 114862,
+      "detail": "Pittsburgh, PA"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "value": 111371,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "Princeton University",
+      "country": "US",
+      "value": 110066,
+      "detail": "Princeton, NJ"
+    },
+    {
+      "name": "Santa Clara University",
+      "country": "US",
+      "value": 109183,
+      "detail": "Santa Clara, CA"
+    },
+    {
+      "name": "Stevens Institute of Technology",
+      "country": "US",
+      "value": 108772,
+      "detail": "Hoboken, NJ"
+    },
+    {
+      "name": "Lehigh University",
+      "country": "US",
+      "value": 105584,
+      "detail": "Bethlehem, PA"
+    },
+    {
+      "name": "Claremont McKenna College",
+      "country": "US",
+      "value": 104736,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Cornell University",
+      "country": "US",
+      "value": 104043,
+      "detail": "Ithaca, NY"
+    },
+    {
+      "name": "Boston College",
+      "country": "US",
+      "value": 103937,
+      "detail": "Chestnut Hill, MA"
+    },
+    {
+      "name": "Georgetown University",
+      "country": "US",
+      "value": 103494,
+      "detail": "Washington, DC"
+    },
+    {
+      "name": "Worcester Polytechnic Institute",
+      "country": "US",
+      "value": 103470,
+      "detail": "Worcester, MA"
+    },
+    {
+      "name": "Georgia Institute of Technology-Main Campus",
+      "country": "US",
+      "value": 102772,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "West Coast University-Anaheim-Orange County",
+      "country": "US",
+      "value": 102672,
+      "detail": "Anaheim, CA"
+    },
+    {
+      "name": "West Coast University-Miami",
+      "country": "US",
+      "value": 102672,
+      "detail": "Doral, FL"
+    },
+    {
+      "name": "West Coast University-Ontario",
+      "country": "US",
+      "value": 102672,
+      "detail": "Ontario, CA"
+    },
+    {
+      "name": "West Coast University-Texas",
+      "country": "US",
+      "value": 102672,
+      "detail": "Richardson, TX"
+    },
+    {
+      "name": "Columbia University in the City of New York",
+      "country": "US",
+      "value": 102491,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Rensselaer Polytechnic Institute",
+      "country": "US",
+      "value": 102051,
+      "detail": "Troy, NY"
+    },
+    {
+      "name": "Harvard University",
+      "country": "US",
+      "value": 101817,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "Rose-Hulman Institute of Technology",
+      "country": "US",
+      "value": 101253,
+      "detail": "Terre Haute, IN"
+    },
+    {
+      "name": "Oregon Health & Science University",
+      "country": "US",
+      "value": 101028,
+      "detail": "Portland, OR"
+    },
+    {
+      "name": "Yale University",
+      "country": "US",
+      "value": 100533,
+      "detail": "New Haven, CT"
+    },
+    {
+      "name": "Villanova University",
+      "country": "US",
+      "value": 100423,
+      "detail": "Villanova, PA"
+    },
+    {
+      "name": "University of Notre Dame",
+      "country": "US",
+      "value": 99980,
+      "detail": "Notre Dame, IN"
+    },
+    {
+      "name": "Duke University",
+      "country": "US",
+      "value": 97800,
+      "detail": "Durham, NC"
+    },
+    {
+      "name": "Dartmouth College",
+      "country": "US",
+      "value": 97434,
+      "detail": "Hanover, NH"
+    },
+    {
+      "name": "Colorado School of Mines",
+      "country": "US",
+      "value": 97335,
+      "detail": "Golden, CO"
+    },
+    {
+      "name": "SUNY Maritime College",
+      "country": "US",
+      "value": 95951,
+      "detail": "Throggs Neck, NY"
+    },
+    {
+      "name": "Kettering University",
+      "country": "US",
+      "value": 94823,
+      "detail": "Flint, MI"
+    },
+    {
+      "name": "Washington and Lee University",
+      "country": "US",
+      "value": 94810,
+      "detail": "Lexington, VA"
+    },
+    {
+      "name": "Cal Poly Maritime Academy",
+      "country": "US",
+      "value": 94784,
+      "detail": "Vallejo, CA"
+    },
+    {
+      "name": "Bucknell University",
+      "country": "US",
+      "value": 93807,
+      "detail": "Lewisburg, PA"
+    },
+    {
+      "name": "Brown University",
+      "country": "US",
+      "value": 93487,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "Northeastern University",
+      "country": "US",
+      "value": 92538,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Northeastern University Professional Programs",
+      "country": "US",
+      "value": 92538,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "University of Southern California",
+      "country": "US",
+      "value": 92498,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "University of California-Berkeley",
+      "country": "US",
+      "value": 92446,
+      "detail": "Berkeley, CA"
+    },
+    {
+      "name": "Chamberlain University-Florida",
+      "country": "US",
+      "value": 92405,
+      "detail": "Jacksonville, FL"
+    },
+    {
+      "name": "Chamberlain University-Georgia",
+      "country": "US",
+      "value": 92405,
+      "detail": "Sandy Springs, GA"
+    },
+    {
+      "name": "Chamberlain University-Illinois",
+      "country": "US",
+      "value": 92405,
+      "detail": "Addison, IL"
+    },
+    {
+      "name": "Chamberlain University-New Jersey",
+      "country": "US",
+      "value": 92405,
+      "detail": "North Brunswick, NJ"
+    },
+    {
+      "name": "Chamberlain University-Texas",
+      "country": "US",
+      "value": 92405,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Texas Tech University Health Sciences Center",
+      "country": "US",
+      "value": 92348,
+      "detail": "Lubbock, TX"
+    },
+    {
+      "name": "University of Chicago",
+      "country": "US",
+      "value": 91885,
+      "detail": "Chicago, IL"
+    },
+    {
+      "name": "Vanderbilt University",
+      "country": "US",
+      "value": 91565,
+      "detail": "Nashville, TN"
+    },
+    {
+      "name": "Lafayette College",
+      "country": "US",
+      "value": 91410,
+      "detail": "Easton, PA"
+    },
+    {
+      "name": "George Washington University",
+      "country": "US",
+      "value": 90873,
+      "detail": "Washington, DC"
+    },
+    {
+      "name": "Trinity College",
+      "country": "US",
+      "value": 90779,
+      "detail": "Hartford, CT"
+    },
+    {
+      "name": "California Polytechnic State University-San Luis Obispo",
+      "country": "US",
+      "value": 90768,
+      "detail": "San Luis Obispo, CA"
+    },
+    {
+      "name": "United States Merchant Marine Academy",
+      "country": "US",
+      "value": 90610,
+      "detail": "Kings Point, NY"
+    },
+    {
+      "name": "College of the Holy Cross",
+      "country": "US",
+      "value": 90543,
+      "detail": "Worcester, MA"
+    },
+    {
+      "name": "Bryant University",
+      "country": "US",
+      "value": 90008,
+      "detail": "Smithfield, RI"
+    },
+    {
+      "name": "Maine Maritime Academy",
+      "country": "US",
+      "value": 89964,
+      "detail": "Castine, ME"
+    },
+    {
+      "name": "Loma Linda University",
+      "country": "US",
+      "value": 89816,
+      "detail": "Loma Linda, CA"
+    },
+    {
+      "name": "University of San Francisco",
+      "country": "US",
+      "value": 89812,
+      "detail": "San Francisco, CA"
+    },
+    {
+      "name": "Rice University",
+      "country": "US",
+      "value": 89718,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Clarkson University",
+      "country": "US",
+      "value": 89696,
+      "detail": "Potsdam, NY"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "US",
+      "value": 89363,
+      "detail": "Evanston, IL"
+    },
+    {
+      "name": "Milwaukee School of Engineering",
+      "country": "US",
+      "value": 89070,
+      "detail": "Milwaukee, WI"
+    },
+    {
+      "name": "Fairfield University",
+      "country": "US",
+      "value": 88794,
+      "detail": "Fairfield, CT"
+    },
+    {
+      "name": "Williams College",
+      "country": "US",
+      "value": 88665,
+      "detail": "Williamstown, MA"
+    },
+    {
+      "name": "Union College",
+      "country": "US",
+      "value": 88604,
+      "detail": "Schenectady, NY"
+    },
+    {
+      "name": "University of Maryland Baltimore",
+      "country": "US",
+      "value": 88174,
+      "detail": "Baltimore, MD"
+    },
+    {
+      "name": "Case Western Reserve University",
+      "country": "US",
+      "value": 87989,
+      "detail": "Cleveland, OH"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "country": "US",
+      "value": 87555,
+      "detail": "Baltimore, MD"
+    },
+    {
+      "name": "Providence College",
+      "country": "US",
+      "value": 87054,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "Saint Joseph's University - Philadelphia",
+      "country": "US",
+      "value": 86881,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "University of Virginia-Main Campus",
+      "country": "US",
+      "value": 86863,
+      "detail": "Charlottesville, VA"
+    },
+    {
+      "name": "University of San Diego",
+      "country": "US",
+      "value": 86522,
+      "detail": "San Diego, CA"
+    },
+    {
+      "name": "Manhattan University",
+      "country": "US",
+      "value": 86316,
+      "detail": "Riverdale, NY"
+    },
+    {
+      "name": "Washington University in St Louis",
+      "country": "US",
+      "value": 86182,
+      "detail": "St. Louis, MO"
+    },
+    {
+      "name": "Fordham University",
+      "country": "US",
+      "value": 85569,
+      "detail": "Bronx, NY"
+    },
+    {
+      "name": "Colgate University",
+      "country": "US",
+      "value": 85139,
+      "detail": "Hamilton, NY"
+    },
+    {
+      "name": "University of California-San Diego",
+      "country": "US",
+      "value": 84943,
+      "detail": "La Jolla, CA"
+    },
+    {
+      "name": "Wellesley College",
+      "country": "US",
+      "value": 84803,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Dominican University of California",
+      "country": "US",
+      "value": 84713,
+      "detail": "San Rafael, CA"
+    },
+    {
+      "name": "Drexel University",
+      "country": "US",
+      "value": 84648,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "New Jersey Institute of Technology",
+      "country": "US",
+      "value": 84276,
+      "detail": "Newark, NJ"
+    },
+    {
+      "name": "Embry-Riddle Aeronautical University-Daytona Beach",
+      "country": "US",
+      "value": 84131,
+      "detail": "Daytona Beach, FL"
+    },
+    {
+      "name": "Embry-Riddle Aeronautical University-Prescott",
+      "country": "US",
+      "value": 84131,
+      "detail": "Prescott, AZ"
+    },
+    {
+      "name": "Embry-Riddle Aeronautical University-Worldwide",
+      "country": "US",
+      "value": 84131,
+      "detail": "Daytona Beach, FL"
+    },
+    {
+      "name": "The Cooper Union for the Advancement of Science and Art",
+      "country": "US",
+      "value": 83847,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Quinnipiac University",
+      "country": "US",
+      "value": 83759,
+      "detail": "Hamden, CT"
+    },
+    {
+      "name": "University of Michigan-Ann Arbor",
+      "country": "US",
+      "value": 83648,
+      "detail": "Ann Arbor, MI"
+    },
+    {
+      "name": "Boston University",
+      "country": "US",
+      "value": 83238,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Tufts University",
+      "country": "US",
+      "value": 83214,
+      "detail": "Medford, MA"
+    },
+    {
+      "name": "Missouri University of Science and Technology",
+      "country": "US",
+      "value": 82957,
+      "detail": "Rolla, MO"
+    },
+    {
+      "name": "Pepperdine University",
+      "country": "US",
+      "value": 82939,
+      "detail": "Malibu, CA"
+    },
+    {
+      "name": "University of Maryland-College Park",
+      "country": "US",
+      "value": 82860,
+      "detail": "College Park, MD"
+    },
+    {
+      "name": "University of Portland",
+      "country": "US",
+      "value": 82804,
+      "detail": "Portland, OR"
+    },
+    {
+      "name": "Bowdoin College",
+      "country": "US",
+      "value": 82735,
+      "detail": "Brunswick, ME"
+    },
+    {
+      "name": "Wentworth Institute of Technology",
+      "country": "US",
+      "value": 82721,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Loyola University Maryland",
+      "country": "US",
+      "value": 82652,
+      "detail": "Baltimore, MD"
+    }
+  ]
+}

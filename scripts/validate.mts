@@ -50,7 +50,10 @@ for (const f of files) {
     codes.add(i.country);
   }
   // Rankings meant to be one-row-per-country (everything except lists of institutions/landmarks) must not repeat a country.
-  if (r.source?.kind !== "manual") need(codes.size === r.items.length, "a country appears more than once");
+  if (r.scope) {
+    need(countries.byCode2.has(r.scope), `unknown scope "${r.scope}"`);
+    need(codes.size === 1 && codes.has(r.scope), `every item of a regional ranking must have country "${r.scope}"`);
+  } else if (r.source?.kind !== "manual" && !r.multi) need(codes.size === r.items.length, "a country appears more than once");
 
   const ageDays = (Date.now() - Date.parse(r.updatedAt)) / 864e5;
   if (!Number.isFinite(ageDays)) problems.push("updatedAt is not a date");

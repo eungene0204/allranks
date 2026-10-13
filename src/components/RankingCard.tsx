@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getCategory } from "@/lib/categories";
-import { formatValue, ranked } from "@/lib/format";
+import { flagEmoji, formatValue, ranked } from "@/lib/format";
 import type { Ranking } from "@/lib/types";
 import Mark from "./Mark";
 import RankBadge from "./RankBadge";
@@ -10,6 +10,7 @@ export default function RankingCard({ ranking: r }: { ranking: Ranking }) {
   return (
     <Link className="card" href={`/ranking/${r.id}`}>
       <span className="tag">
+        {r.scope && `${flagEmoji(r.scope)} `}
         {r.icon} {getCategory(r.category)?.name}
       </span>
       <h3>{r.title}</h3>
@@ -18,7 +19,7 @@ export default function RankingCard({ ranking: r }: { ranking: Ranking }) {
           <li key={t.name}>
             <RankBadge rank={t.rank} />
             <span className="entry">
-              {t.logo && <Mark icon="" logo={t.logo} />} {t.flag} {t.name}
+              {t.logo && <Mark icon="" logo={t.logo} />} {!r.scope && t.flag} {t.name}
             </span>
             <span className="v">{formatValue(r, t.value)}</span>
           </li>

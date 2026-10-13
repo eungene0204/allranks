@@ -15,9 +15,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Header rankingCategories={Object.fromEntries(allRankings().map((r) => [r.id, r.category]))} />
-        <div className="notice">
-          Prototype · Rankings marked “Sample data” use illustrative values and are not suitable for citation.
-        </div>
         <main className="wrap">{children}</main>
         <footer className="site-footer">
           <div className="wrap">

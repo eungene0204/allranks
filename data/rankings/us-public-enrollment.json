@@ -1,0 +1,85 @@
+{
+  "id": "us-public-enrollment",
+  "title": "Largest US Public Universities",
+  "short": "Enrollment",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "The ten public university campuses with the most students.",
+  "unit": "students",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "University systems and the Integrated Postsecondary Education Data System, 2025–26 (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_United_States_public_university_campuses_by_enrollment",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited agency"
+  },
+  "updatedAt": "2026-10-13T19:00:05.209Z",
+  "items": [
+    {
+      "name": "Texas A&M University",
+      "country": "US",
+      "value": 81354,
+      "detail": "College Station, Texas"
+    },
+    {
+      "name": "University of Central Florida",
+      "country": "US",
+      "value": 70658,
+      "detail": "Orlando, Florida"
+    },
+    {
+      "name": "Ohio State University",
+      "country": "US",
+      "value": 67255,
+      "detail": "Columbus, Ohio"
+    },
+    {
+      "name": "University of Florida",
+      "country": "US",
+      "value": 63148,
+      "detail": "Gainesville, Florida"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "country": "US",
+      "value": 60848,
+      "detail": "Urbana/Champaign, Illinois"
+    },
+    {
+      "name": "University of Minnesota",
+      "country": "US",
+      "value": 57879,
+      "detail": "Minneapolis, Minnesota"
+    },
+    {
+      "name": "Purdue University",
+      "country": "US",
+      "value": 57310,
+      "detail": "West Lafayette, Indiana"
+    },
+    {
+      "name": "Florida International University",
+      "country": "US",
+      "value": 55673,
+      "detail": "Miami, Florida"
+    },
+    {
+      "name": "Arizona State University",
+      "country": "US",
+      "value": 55468,
+      "detail": "Tempe, Arizona"
+    },
+    {
+      "name": "University of Texas at Austin",
+      "country": "US",
+      "value": 55000,
+      "detail": "Austin, Texas"
+    }
+  ]
+}

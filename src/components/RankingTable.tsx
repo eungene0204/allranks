@@ -13,6 +13,8 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
   const [reversed, setReversed] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
+  // Regional rankings (≈50 states) are short enough to show in full.
+  const limit = r.scope ? Infinity : LIMIT;
   const all = useMemo(() => ranked(r), [r]);
   const max = Math.max(...all.map((x) => x.value));
 
@@ -21,7 +23,7 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
   if (reversed) rows = [...rows].reverse();
   const total = rows.length;
   // Long lists (e.g. 200+ countries) start collapsed; searching shows every match.
-  if (!showAll && !q && total > LIMIT) rows = rows.slice(0, LIMIT);
+  if (!showAll && !q && total > limit) rows = rows.slice(0, limit);
 
   return (
     <>
@@ -46,9 +48,14 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
             <div className="row" key={x.name}>
               <RankBadge rank={x.rank} />
               <div className="name">
-                {x.logo ? <Mark icon="" logo={x.logo} /> : <span>{x.flag}</span>}
-                <span title={x.name}>{x.name}</span>
-                {x.logo && <span className="muted">{x.flag}</span>}
+                {x.logo ? <Mark icon="" logo={x.logo} /> : !r.scope && <span>{x.flag}</span>}
+                <span className="name-block">
+                  <span className="name-text" title={x.name}>
+                    {x.name}
+                  </span>
+                  {x.detail && <span className="muted row-detail">{x.detail}</span>}
+                </span>
+                {x.logo && !r.scope && <span className="muted">{x.flag}</span>}
               </div>
               <div className="track">
                 <div className="fill" style={{ width: `${pct.toFixed(1)}%` }} />

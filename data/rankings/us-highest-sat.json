@@ -1,0 +1,626 @@
+{
+  "id": "us-highest-sat",
+  "title": "US Colleges by Average SAT",
+  "short": "SAT scores",
+  "sort": 4,
+  "category": "education",
+  "icon": "📝",
+  "desc": "Average SAT score (math + reading/writing) of admitted students, for schools that report it.",
+  "unit": "SAT points",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "U.S. Department of Education — College Scorecard",
+    "url": "https://collegescorecard.ed.gov/data/",
+    "license": "Public domain (U.S. government work)",
+    "note": "Mid-range SAT average of the entering class. Only four-year schools with at least 800 undergraduates are ranked."
+  },
+  "updatedAt": "2026-10-13T19:00:08.730Z",
+  "items": [
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "value": 1560,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "University of Chicago",
+      "country": "US",
+      "value": 1554,
+      "detail": "Chicago, IL"
+    },
+    {
+      "name": "Columbia University in the City of New York",
+      "country": "US",
+      "value": 1553,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Harvard University",
+      "country": "US",
+      "value": 1553,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "country": "US",
+      "value": 1553,
+      "detail": "Baltimore, MD"
+    },
+    {
+      "name": "Princeton University",
+      "country": "US",
+      "value": 1553,
+      "detail": "Princeton, NJ"
+    },
+    {
+      "name": "Rice University",
+      "country": "US",
+      "value": 1553,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "value": 1553,
+      "detail": "Stanford, CA"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "value": 1553,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "Vanderbilt University",
+      "country": "US",
+      "value": 1549,
+      "detail": "Nashville, TN"
+    },
+    {
+      "name": "Duke University",
+      "country": "US",
+      "value": 1548,
+      "detail": "Durham, NC"
+    },
+    {
+      "name": "Brown University",
+      "country": "US",
+      "value": 1546,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "country": "US",
+      "value": 1546,
+      "detail": "Pittsburgh, PA"
+    },
+    {
+      "name": "Harvey Mudd College",
+      "country": "US",
+      "value": 1545,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Cornell University",
+      "country": "US",
+      "value": 1535,
+      "detail": "Ithaca, NY"
+    },
+    {
+      "name": "Dartmouth College",
+      "country": "US",
+      "value": 1534,
+      "detail": "Hanover, NH"
+    },
+    {
+      "name": "Pomona College",
+      "country": "US",
+      "value": 1534,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Swarthmore College",
+      "country": "US",
+      "value": 1534,
+      "detail": "Swarthmore, PA"
+    },
+    {
+      "name": "Yale University",
+      "country": "US",
+      "value": 1534,
+      "detail": "New Haven, CT"
+    },
+    {
+      "name": "Amherst College",
+      "country": "US",
+      "value": 1533,
+      "detail": "Amherst, MA"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "US",
+      "value": 1533,
+      "detail": "Evanston, IL"
+    },
+    {
+      "name": "Williams College",
+      "country": "US",
+      "value": 1533,
+      "detail": "Williamstown, MA"
+    },
+    {
+      "name": "Washington University in St Louis",
+      "country": "US",
+      "value": 1530,
+      "detail": "St. Louis, MO"
+    },
+    {
+      "name": "Claremont McKenna College",
+      "country": "US",
+      "value": 1527,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Barnard College",
+      "country": "US",
+      "value": 1520,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Bowdoin College",
+      "country": "US",
+      "value": 1520,
+      "detail": "Brunswick, ME"
+    },
+    {
+      "name": "Emory University",
+      "country": "US",
+      "value": 1520,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "New York University",
+      "country": "US",
+      "value": 1520,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "University of Notre Dame",
+      "country": "US",
+      "value": 1520,
+      "detail": "Notre Dame, IN"
+    },
+    {
+      "name": "Wellesley College",
+      "country": "US",
+      "value": 1520,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Carleton College",
+      "country": "US",
+      "value": 1517,
+      "detail": "Northfield, MN"
+    },
+    {
+      "name": "Case Western Reserve University",
+      "country": "US",
+      "value": 1513,
+      "detail": "Cleveland, OH"
+    },
+    {
+      "name": "Haverford College",
+      "country": "US",
+      "value": 1513,
+      "detail": "Haverford, PA"
+    },
+    {
+      "name": "Tufts University",
+      "country": "US",
+      "value": 1513,
+      "detail": "Medford, MA"
+    },
+    {
+      "name": "Colgate University",
+      "country": "US",
+      "value": 1508,
+      "detail": "Hamilton, NY"
+    },
+    {
+      "name": "Middlebury College",
+      "country": "US",
+      "value": 1508,
+      "detail": "Middlebury, VT"
+    },
+    {
+      "name": "Boston College",
+      "country": "US",
+      "value": 1507,
+      "detail": "Chestnut Hill, MA"
+    },
+    {
+      "name": "Hamilton College",
+      "country": "US",
+      "value": 1506,
+      "detail": "Clinton, NY"
+    },
+    {
+      "name": "Colby College",
+      "country": "US",
+      "value": 1501,
+      "detail": "Waterville, ME"
+    },
+    {
+      "name": "Wesleyan University",
+      "country": "US",
+      "value": 1501,
+      "detail": "Middletown, CT"
+    },
+    {
+      "name": "Smith College",
+      "country": "US",
+      "value": 1500,
+      "detail": "Northampton, MA"
+    },
+    {
+      "name": "Washington and Lee University",
+      "country": "US",
+      "value": 1498,
+      "detail": "Lexington, VA"
+    },
+    {
+      "name": "Northeastern University",
+      "country": "US",
+      "value": 1497,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "University of Richmond",
+      "country": "US",
+      "value": 1497,
+      "detail": "University of Richmond, VA"
+    },
+    {
+      "name": "University of Southern California",
+      "country": "US",
+      "value": 1495,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "Vassar College",
+      "country": "US",
+      "value": 1494,
+      "detail": "Poughkeepsie, NY"
+    },
+    {
+      "name": "Scripps College",
+      "country": "US",
+      "value": 1492,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "University of Rochester",
+      "country": "US",
+      "value": 1488,
+      "detail": "Rochester, NY"
+    },
+    {
+      "name": "Georgetown University",
+      "country": "US",
+      "value": 1487,
+      "detail": "Washington, DC"
+    },
+    {
+      "name": "Grinnell College",
+      "country": "US",
+      "value": 1486,
+      "detail": "Grinnell, IA"
+    },
+    {
+      "name": "Boston University",
+      "country": "US",
+      "value": 1480,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Georgia Institute of Technology-Main Campus",
+      "country": "US",
+      "value": 1480,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "University of Virginia-Main Campus",
+      "country": "US",
+      "value": 1480,
+      "detail": "Charlottesville, VA"
+    },
+    {
+      "name": "Wake Forest University",
+      "country": "US",
+      "value": 1475,
+      "detail": "Winston-Salem, NC"
+    },
+    {
+      "name": "Rhode Island School of Design",
+      "country": "US",
+      "value": 1473,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "University of Maryland-College Park",
+      "country": "US",
+      "value": 1473,
+      "detail": "College Park, MD"
+    },
+    {
+      "name": "William & Mary",
+      "country": "US",
+      "value": 1473,
+      "detail": "Williamsburg, VA"
+    },
+    {
+      "name": "Davidson College",
+      "country": "US",
+      "value": 1469,
+      "detail": "Davidson, NC"
+    },
+    {
+      "name": "Bates College",
+      "country": "US",
+      "value": 1468,
+      "detail": "Lewiston, ME"
+    },
+    {
+      "name": "University of Michigan-Ann Arbor",
+      "country": "US",
+      "value": 1465,
+      "detail": "Ann Arbor, MI"
+    },
+    {
+      "name": "Mount Holyoke College",
+      "country": "US",
+      "value": 1463,
+      "detail": "South Hadley, MA"
+    },
+    {
+      "name": "Brandeis University",
+      "country": "US",
+      "value": 1462,
+      "detail": "Waltham, MA"
+    },
+    {
+      "name": "Villanova University",
+      "country": "US",
+      "value": 1460,
+      "detail": "Villanova, PA"
+    },
+    {
+      "name": "Babson College",
+      "country": "US",
+      "value": 1457,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Rensselaer Polytechnic Institute",
+      "country": "US",
+      "value": 1456,
+      "detail": "Troy, NY"
+    },
+    {
+      "name": "Occidental College",
+      "country": "US",
+      "value": 1452,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "Tulane University of Louisiana",
+      "country": "US",
+      "value": 1448,
+      "detail": "New Orleans, LA"
+    },
+    {
+      "name": "Oberlin College",
+      "country": "US",
+      "value": 1447,
+      "detail": "Oberlin, OH"
+    },
+    {
+      "name": "Stevens Institute of Technology",
+      "country": "US",
+      "value": 1446,
+      "detail": "Hoboken, NJ"
+    },
+    {
+      "name": "Lehigh University",
+      "country": "US",
+      "value": 1440,
+      "detail": "Bethlehem, PA"
+    },
+    {
+      "name": "Macalester College",
+      "country": "US",
+      "value": 1440,
+      "detail": "Saint Paul, MN"
+    },
+    {
+      "name": "Simpson College",
+      "country": "US",
+      "value": 1440,
+      "detail": "Indianola, IA"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "country": "US",
+      "value": 1440,
+      "detail": "Champaign, IL"
+    },
+    {
+      "name": "University of North Carolina at Chapel Hill",
+      "country": "US",
+      "value": 1439,
+      "detail": "Chapel Hill, NC"
+    },
+    {
+      "name": "Reed College",
+      "country": "US",
+      "value": 1437,
+      "detail": "Portland, OR"
+    },
+    {
+      "name": "George Washington University",
+      "country": "US",
+      "value": 1433,
+      "detail": "Washington, DC"
+    },
+    {
+      "name": "Connecticut College",
+      "country": "US",
+      "value": 1432,
+      "detail": "New London, CT"
+    },
+    {
+      "name": "Kenyon College",
+      "country": "US",
+      "value": 1429,
+      "detail": "Gambier, OH"
+    },
+    {
+      "name": "Southern Methodist University",
+      "country": "US",
+      "value": 1428,
+      "detail": "Dallas, TX"
+    },
+    {
+      "name": "Rose-Hulman Institute of Technology",
+      "country": "US",
+      "value": 1427,
+      "detail": "Terre Haute, IN"
+    },
+    {
+      "name": "University of Wisconsin-Madison",
+      "country": "US",
+      "value": 1427,
+      "detail": "Madison, WI"
+    },
+    {
+      "name": "Santa Clara University",
+      "country": "US",
+      "value": 1426,
+      "detail": "Santa Clara, CA"
+    },
+    {
+      "name": "Yeshiva University",
+      "country": "US",
+      "value": 1426,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Lafayette College",
+      "country": "US",
+      "value": 1424,
+      "detail": "Easton, PA"
+    },
+    {
+      "name": "University of Massachusetts-Amherst",
+      "country": "US",
+      "value": 1423,
+      "detail": "Amherst, MA"
+    },
+    {
+      "name": "Stony Brook University",
+      "country": "US",
+      "value": 1419,
+      "detail": "Stony Brook, NY"
+    },
+    {
+      "name": "Fordham University",
+      "country": "US",
+      "value": 1418,
+      "detail": "Bronx, NY"
+    },
+    {
+      "name": "Trinity University",
+      "country": "US",
+      "value": 1416,
+      "detail": "San Antonio, TX"
+    },
+    {
+      "name": "Binghamton University",
+      "country": "US",
+      "value": 1415,
+      "detail": "Vestal, NY"
+    },
+    {
+      "name": "Hillsdale College",
+      "country": "US",
+      "value": 1415,
+      "detail": "Hillsdale, MI"
+    },
+    {
+      "name": "Trinity College",
+      "country": "US",
+      "value": 1415,
+      "detail": "Hartford, CT"
+    },
+    {
+      "name": "University of Miami",
+      "country": "US",
+      "value": 1415,
+      "detail": "Coral Gables, FL"
+    },
+    {
+      "name": "Colorado School of Mines",
+      "country": "US",
+      "value": 1412,
+      "detail": "Golden, CO"
+    },
+    {
+      "name": "Bucknell University",
+      "country": "US",
+      "value": 1410,
+      "detail": "Lewisburg, PA"
+    },
+    {
+      "name": "Denison University",
+      "country": "US",
+      "value": 1410,
+      "detail": "Granville, OH"
+    },
+    {
+      "name": "Rutgers University-New Brunswick",
+      "country": "US",
+      "value": 1410,
+      "detail": "New Brunswick, NJ"
+    },
+    {
+      "name": "The Cooper Union for the Advancement of Science and Art",
+      "country": "US",
+      "value": 1410,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Whitman College",
+      "country": "US",
+      "value": 1410,
+      "detail": "Walla Walla, WA"
+    },
+    {
+      "name": "Skidmore College",
+      "country": "US",
+      "value": 1405,
+      "detail": "Saratoga Springs, NY"
+    },
+    {
+      "name": "University of Florida",
+      "country": "US",
+      "value": 1403,
+      "detail": "Gainesville, FL"
+    }
+  ]
+}

@@ -6,7 +6,8 @@ import { allRankings, countrySummaries, rankingsIn } from "@/lib/data";
 
 export default function HomePage() {
   const countries = countrySummaries();
-  const rankings = allRankings();
+  // Country-specific rankings (US states…) live on their country page; the home page shows the world ones.
+  const rankings = allRankings().filter((r) => !r.scope);
   return (
     <>
       <section className="hero center">

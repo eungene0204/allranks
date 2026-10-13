@@ -30,9 +30,28 @@ scripts/                   fetchers + validation (plain Node, no extra dependenc
 | GDP, population, life expectancy | World Bank Open Data API (latest year with ≥150 countries, one year for all rows) |
 | Big Mac prices | The Economist's open Big Mac Index (GitHub CSV) |
 | Internet speed (fixed, mobile) | Ookla Speedtest Global Index, tabulated on Wikipedia (CC BY-SA) |
+| GDP per capita (nominal / PPP), tax revenue, inflation, unemployment, health spending, fertility, urbanisation, ageing, homicide, internet use, R&D, military spending, land area, forest area, renewables, CO₂, Gini | World Bank Open Data (`worldBankRankings()` in `scripts/registry.mts`) |
+| Billionaires (Forbes), millionaires (UBS), Nobel laureates, largest cities (UN), most visited websites (Similarweb), oil reserves (EIA), coffee and wine production (FAO) | Wikipedia tables via `scripts/sources/wikipedia-world.mts` (CC BY-SA) |
 
 Safety nets: a failed or suspicious fetch (non-numeric values, duplicate countries, < 20 items, > 30 % fewer items than before)
 **keeps the old file** and exits non-zero. `validate` fails the build on malformed data and warns when automated data is > 120 days old.
+
+### Country-specific rankings (US first)
+
+A ranking with `"scope": "US"` exists only inside that country: its items carry `country: "US"` and name a state, city, university,
+company, airport… (optional `detail` shows a muted second line, e.g. the state). Clicking a country's flag on the globe opens
+`/country/US`, which leads with these rankings (tabs grouped by category) and lists the world rankings below. They never count toward
+the world totals or the home page.
+
+The US university rankings (most selective, graduation rate, graduate earnings, average SAT) come from the U.S. Department of Education's
+College Scorecard bulk file (public domain; `scripts/sources/college-scorecard.mts` unzips it with node's zlib and keeps only four-year
+schools with ≥ 800 undergraduates). U.S. News & World Report's overall ranking is proprietary and is not used.
+
+The other US rankings (endowments, public-university enrollment, state unemployment / income / poverty / GDP / population / density /
+area / life expectancy / homicide and gun rates / household gun ownership, largest cities and companies, skyscrapers, airports,
+national parks) are defined in `usRankings()` in `scripts/registry.mts` and read from Wikipedia's tables by
+`scripts/sources/wikipedia-us.mts` (throttled and cached in `scripts/lib/wikipedia.mts`). To add another country, add rankings with its
+`scope` code; its page picks them up automatically.
 
 ### Manual rankings
 

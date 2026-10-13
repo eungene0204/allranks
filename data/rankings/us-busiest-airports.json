@@ -1,0 +1,415 @@
+{
+  "id": "us-busiest-airports",
+  "title": "Busiest US Airports",
+  "short": "Airports",
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Large and medium hub airports ranked by passengers per year.",
+  "unit": "million passengers",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "FAA / Bureau of Transportation Statistics, passenger enplanements (2025) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_United_States",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited agency",
+    "note": "Large and medium hub airports."
+  },
+  "updatedAt": "2026-10-13T18:37:31.315Z",
+  "items": [
+    {
+      "name": "Hartsfield–Jackson Atlanta International Airport",
+      "country": "US",
+      "value": 51.46,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "Dallas/Fort Worth International Airport",
+      "country": "US",
+      "value": 41.297,
+      "detail": "Dallas and Fort Worth, TX"
+    },
+    {
+      "name": "O'Hare International Airport",
+      "country": "US",
+      "value": 40.681,
+      "detail": "Chicago, IL"
+    },
+    {
+      "name": "Denver International Airport",
+      "country": "US",
+      "value": 39.977,
+      "detail": "Denver, CO"
+    },
+    {
+      "name": "Los Angeles International Airport",
+      "country": "US",
+      "value": 36.497,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "John F. Kennedy International Airport",
+      "country": "US",
+      "value": 30.793,
+      "detail": "New York City, NY"
+    },
+    {
+      "name": "Orlando International Airport",
+      "country": "US",
+      "value": 28,
+      "detail": "Orlando, FL"
+    },
+    {
+      "name": "Harry Reid International Airport",
+      "country": "US",
+      "value": 26.532,
+      "detail": "Las Vegas, NV"
+    },
+    {
+      "name": "Miami International Airport",
+      "country": "US",
+      "value": 26.451,
+      "detail": "Miami, FL"
+    },
+    {
+      "name": "San Francisco International Airport",
+      "country": "US",
+      "value": 26.252,
+      "detail": "San Francisco, CA"
+    },
+    {
+      "name": "Charlotte Douglas International Airport",
+      "country": "US",
+      "value": 25.874,
+      "detail": "Charlotte, NC"
+    },
+    {
+      "name": "Seattle–Tacoma International Airport",
+      "country": "US",
+      "value": 25.417,
+      "detail": "Seattle and Tacoma, WA"
+    },
+    {
+      "name": "Phoenix Sky Harbor International Airport",
+      "country": "US",
+      "value": 25.095,
+      "detail": "Phoenix, AZ"
+    },
+    {
+      "name": "Newark Liberty International Airport",
+      "country": "US",
+      "value": 23.464,
+      "detail": "Newark and New York City, NJ"
+    },
+    {
+      "name": "George Bush Intercontinental Airport",
+      "country": "US",
+      "value": 23.265,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Logan International Airport",
+      "country": "US",
+      "value": 21.021,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Minneapolis–Saint Paul International Airport",
+      "country": "US",
+      "value": 17.488,
+      "detail": "Minneapolis and Saint Paul, MN"
+    },
+    {
+      "name": "Detroit Metropolitan Airport",
+      "country": "US",
+      "value": 16.295,
+      "detail": "Detroit, MI"
+    },
+    {
+      "name": "LaGuardia Airport",
+      "country": "US",
+      "value": 16.279,
+      "detail": "New York City, NY"
+    },
+    {
+      "name": "Fort Lauderdale–Hollywood International Airport",
+      "country": "US",
+      "value": 15.647,
+      "detail": "Fort Lauderdale and Hollywood, FL"
+    },
+    {
+      "name": "Philadelphia International Airport",
+      "country": "US",
+      "value": 14.78,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "Dulles International Airport",
+      "country": "US",
+      "value": 13.86,
+      "detail": "Washington, D.C., VA"
+    },
+    {
+      "name": "Salt Lake City International Airport",
+      "country": "US",
+      "value": 13.429,
+      "detail": "Salt Lake City, UT"
+    },
+    {
+      "name": "San Diego International Airport",
+      "country": "US",
+      "value": 12.676,
+      "detail": "San Diego, CA"
+    },
+    {
+      "name": "Nashville International Airport",
+      "country": "US",
+      "value": 12.549,
+      "detail": "Nashville, TN"
+    },
+    {
+      "name": "Baltimore/Washington International Airport",
+      "country": "US",
+      "value": 12.274,
+      "detail": "Baltimore and Washington, D.C., MD"
+    },
+    {
+      "name": "Tampa International Airport",
+      "country": "US",
+      "value": 12.11,
+      "detail": "Tampa, FL"
+    },
+    {
+      "name": "Ronald Reagan Washington National Airport",
+      "country": "US",
+      "value": 12.004,
+      "detail": "Washington, D.C., VA"
+    },
+    {
+      "name": "Austin–Bergstrom International Airport",
+      "country": "US",
+      "value": 10.652,
+      "detail": "Austin, TX"
+    },
+    {
+      "name": "Daniel K. Inouye International Airport",
+      "country": "US",
+      "value": 10.43,
+      "detail": "Honolulu, HI"
+    },
+    {
+      "name": "Midway International Airport",
+      "country": "US",
+      "value": 9.368,
+      "detail": "Chicago, IL"
+    },
+    {
+      "name": "Portland International Airport",
+      "country": "US",
+      "value": 9.054,
+      "detail": "Portland, OR"
+    },
+    {
+      "name": "Dallas Love Field",
+      "country": "US",
+      "value": 8.151,
+      "detail": "Dallas, TX"
+    },
+    {
+      "name": "Raleigh–Durham International Airport",
+      "country": "US",
+      "value": 7.671,
+      "detail": "Raleigh, NC"
+    },
+    {
+      "name": "St. Louis Lambert International Airport",
+      "country": "US",
+      "value": 7.484,
+      "detail": "St. Louis, MO"
+    },
+    {
+      "name": "Sacramento International Airport",
+      "country": "US",
+      "value": 6.806,
+      "detail": "Sacramento, CA"
+    },
+    {
+      "name": "William P. Hobby Airport",
+      "country": "US",
+      "value": 6.79,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Luis Muñoz Marín International Airport",
+      "country": "US",
+      "value": 6.658,
+      "detail": "San Juan, PR"
+    },
+    {
+      "name": "Louis Armstrong New Orleans International Airport",
+      "country": "US",
+      "value": 6.221,
+      "detail": "New Orleans, LA"
+    },
+    {
+      "name": "Kansas City International Airport",
+      "country": "US",
+      "value": 5.614,
+      "detail": "Kansas City, MO"
+    },
+    {
+      "name": "John Wayne Airport",
+      "country": "US",
+      "value": 5.522,
+      "detail": "Santa Ana, CA"
+    },
+    {
+      "name": "Southwest Florida International Airport",
+      "country": "US",
+      "value": 5.504,
+      "detail": "Fort Myers, FL"
+    },
+    {
+      "name": "Norman Y. Mineta San José International Airport",
+      "country": "US",
+      "value": 5.257,
+      "detail": "San Jose, CA"
+    },
+    {
+      "name": "San Antonio International Airport",
+      "country": "US",
+      "value": 5.238,
+      "detail": "San Antonio, TX"
+    },
+    {
+      "name": "Indianapolis International Airport",
+      "country": "US",
+      "value": 5.221,
+      "detail": "Indianapolis, IN"
+    },
+    {
+      "name": "Cleveland Hopkins International Airport",
+      "country": "US",
+      "value": 4.856,
+      "detail": "Cleveland, OH"
+    },
+    {
+      "name": "Pittsburgh International Airport",
+      "country": "US",
+      "value": 4.792,
+      "detail": "Pittsburgh, PA"
+    },
+    {
+      "name": "Oakland San Francisco Bay Airport",
+      "country": "US",
+      "value": 4.532,
+      "detail": "Oakland, CA"
+    },
+    {
+      "name": "John Glenn Columbus International Airport",
+      "country": "US",
+      "value": 4.397,
+      "detail": "Columbus, OH"
+    },
+    {
+      "name": "Cincinnati/Northern Kentucky International Airport",
+      "country": "US",
+      "value": 4.367,
+      "detail": "Cincinnati, KY"
+    },
+    {
+      "name": "President Donald J. Trump International Airport",
+      "country": "US",
+      "value": 4.257,
+      "detail": "West Palm Beach, FL"
+    },
+    {
+      "name": "Jacksonville International Airport",
+      "country": "US",
+      "value": 3.72,
+      "detail": "Jacksonville, FL"
+    },
+    {
+      "name": "Ontario International Airport",
+      "country": "US",
+      "value": 3.474,
+      "detail": "Ontario, CA"
+    },
+    {
+      "name": "Kahului Airport",
+      "country": "US",
+      "value": 3.45,
+      "detail": "Kahului, HI"
+    },
+    {
+      "name": "Bradley International Airport",
+      "country": "US",
+      "value": 3.283,
+      "detail": "Hartford, CT"
+    },
+    {
+      "name": "Hollywood Burbank Airport",
+      "country": "US",
+      "value": 3.218,
+      "detail": "Burbank, CA"
+    },
+    {
+      "name": "Charleston International Airport",
+      "country": "US",
+      "value": 3.142,
+      "detail": "Charleston, SC"
+    },
+    {
+      "name": "Milwaukee Mitchell International Airport",
+      "country": "US",
+      "value": 2.889,
+      "detail": "Milwaukee, WI"
+    },
+    {
+      "name": "Ted Stevens Anchorage International Airport",
+      "country": "US",
+      "value": 2.729,
+      "detail": "Anchorage, AK"
+    },
+    {
+      "name": "Boise Airport",
+      "country": "US",
+      "value": 2.58,
+      "detail": "Boise, ID"
+    },
+    {
+      "name": "Eppley Airfield",
+      "country": "US",
+      "value": 2.565,
+      "detail": "Omaha, NE"
+    },
+    {
+      "name": "Albuquerque International Sunport",
+      "country": "US",
+      "value": 2.562,
+      "detail": "Albuquerque, NM"
+    },
+    {
+      "name": "Buffalo Niagara International Airport",
+      "country": "US",
+      "value": 2.533,
+      "detail": "Buffalo, NY"
+    },
+    {
+      "name": "Richmond International Airport",
+      "country": "US",
+      "value": 2.482,
+      "detail": "Richmond, VA"
+    },
+    {
+      "name": "Norfolk International Airport",
+      "country": "US",
+      "value": 2.466,
+      "detail": "Norfolk, VA"
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "id": "us-most-selective",
+  "title": "Most Selective US Colleges",
+  "short": "Most selective",
+  "sort": 1,
+  "category": "education",
+  "icon": "🎯",
+  "desc": "Four-year colleges that admit the smallest share of applicants.",
+  "unit": "% admitted",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "asc",
+  "scope": "US",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "U.S. Department of Education — College Scorecard",
+    "url": "https://collegescorecard.ed.gov/data/",
+    "license": "Public domain (U.S. government work)",
+    "note": "Admission rate of the most recent entering class. Only four-year schools with at least 800 undergraduates are ranked."
+  },
+  "updatedAt": "2026-10-13T19:00:08.725Z",
+  "items": [
+    {
+      "name": "California Institute of Technology",
+      "country": "US",
+      "value": 2.57,
+      "detail": "Pasadena, CA"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "value": 3.61,
+      "detail": "Stanford, CA"
+    },
+    {
+      "name": "Harvard University",
+      "country": "US",
+      "value": 3.65,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "Yale University",
+      "country": "US",
+      "value": 3.87,
+      "detail": "New Haven, CT"
+    },
+    {
+      "name": "Columbia University in the City of New York",
+      "country": "US",
+      "value": 3.99,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "University of Chicago",
+      "country": "US",
+      "value": 4.48,
+      "detail": "Chicago, IL"
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "value": 4.55,
+      "detail": "Cambridge, MA"
+    },
+    {
+      "name": "Princeton University",
+      "country": "US",
+      "value": 4.62,
+      "detail": "Princeton, NJ"
+    },
+    {
+      "name": "Northeastern University",
+      "country": "US",
+      "value": 5.22,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "Brown University",
+      "country": "US",
+      "value": 5.39,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "Dartmouth College",
+      "country": "US",
+      "value": 5.4,
+      "detail": "Hanover, NH"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "value": 5.4,
+      "detail": "Philadelphia, PA"
+    },
+    {
+      "name": "Duke University",
+      "country": "US",
+      "value": 5.71,
+      "detail": "Durham, NC"
+    },
+    {
+      "name": "Vanderbilt University",
+      "country": "US",
+      "value": 5.86,
+      "detail": "Nashville, TN"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "country": "US",
+      "value": 6.44,
+      "detail": "Baltimore, MD"
+    },
+    {
+      "name": "Colby College",
+      "country": "US",
+      "value": 7.09,
+      "detail": "Waterville, ME"
+    },
+    {
+      "name": "Pomona College",
+      "country": "US",
+      "value": 7.09,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Bowdoin College",
+      "country": "US",
+      "value": 7.13,
+      "detail": "Brunswick, ME"
+    },
+    {
+      "name": "Swarthmore College",
+      "country": "US",
+      "value": 7.46,
+      "detail": "Swarthmore, PA"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "US",
+      "value": 7.69,
+      "detail": "Evanston, IL"
+    },
+    {
+      "name": "Rice University",
+      "country": "US",
+      "value": 8,
+      "detail": "Houston, TX"
+    },
+    {
+      "name": "Williams College",
+      "country": "US",
+      "value": 8.25,
+      "detail": "Williamstown, MA"
+    },
+    {
+      "name": "Cornell University",
+      "country": "US",
+      "value": 8.76,
+      "detail": "Ithaca, NY"
+    },
+    {
+      "name": "Barnard College",
+      "country": "US",
+      "value": 8.84,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "University of California-Los Angeles",
+      "country": "US",
+      "value": 8.97,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "Amherst College",
+      "country": "US",
+      "value": 9.01,
+      "detail": "Amherst, MA"
+    },
+    {
+      "name": "New York University",
+      "country": "US",
+      "value": 9.23,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "United States Naval Academy",
+      "country": "US",
+      "value": 9.27,
+      "detail": "Annapolis, MD"
+    },
+    {
+      "name": "Claremont McKenna College",
+      "country": "US",
+      "value": 9.59,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "University of Southern California",
+      "country": "US",
+      "value": 9.81,
+      "detail": "Los Angeles, CA"
+    },
+    {
+      "name": "Stanbridge University",
+      "country": "US",
+      "value": 10,
+      "detail": "Irvine, CA"
+    },
+    {
+      "name": "Emory University",
+      "country": "US",
+      "value": 10.65,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "Middlebury College",
+      "country": "US",
+      "value": 10.75,
+      "detail": "Middlebury, VT"
+    },
+    {
+      "name": "University of California-Berkeley",
+      "country": "US",
+      "value": 10.98,
+      "detail": "Berkeley, CA"
+    },
+    {
+      "name": "Boston University",
+      "country": "US",
+      "value": 11.11,
+      "detail": "Boston, MA"
+    },
+    {
+      "name": "University of Notre Dame",
+      "country": "US",
+      "value": 11.27,
+      "detail": "Notre Dame, IN"
+    },
+    {
+      "name": "Tufts University",
+      "country": "US",
+      "value": 11.49,
+      "detail": "Medford, MA"
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "country": "US",
+      "value": 11.66,
+      "detail": "Pittsburgh, PA"
+    },
+    {
+      "name": "College of the Ozarks",
+      "country": "US",
+      "value": 11.99,
+      "detail": "Point Lookout, MO"
+    },
+    {
+      "name": "Washington University in St Louis",
+      "country": "US",
+      "value": 12.06,
+      "detail": "St. Louis, MO"
+    },
+    {
+      "name": "Haverford College",
+      "country": "US",
+      "value": 12.37,
+      "detail": "Haverford, PA"
+    },
+    {
+      "name": "United States Military Academy",
+      "country": "US",
+      "value": 12.45,
+      "detail": "West  Point, NY"
+    },
+    {
+      "name": "Harvey Mudd College",
+      "country": "US",
+      "value": 12.66,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Georgetown University",
+      "country": "US",
+      "value": 12.91,
+      "detail": "Washington, DC"
+    },
+    {
+      "name": "Bates College",
+      "country": "US",
+      "value": 13.32,
+      "detail": "Lewiston, ME"
+    },
+    {
+      "name": "Davidson College",
+      "country": "US",
+      "value": 13.37,
+      "detail": "Davidson, NC"
+    },
+    {
+      "name": "Hamilton College",
+      "country": "US",
+      "value": 13.62,
+      "detail": "Clinton, NY"
+    },
+    {
+      "name": "Colgate University",
+      "country": "US",
+      "value": 13.88,
+      "detail": "Hamilton, NY"
+    },
+    {
+      "name": "Washington and Lee University",
+      "country": "US",
+      "value": 13.97,
+      "detail": "Lexington, VA"
+    },
+    {
+      "name": "Tulane University of Louisiana",
+      "country": "US",
+      "value": 13.98,
+      "detail": "New Orleans, LA"
+    },
+    {
+      "name": "Wellesley College",
+      "country": "US",
+      "value": 14.05,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Georgia Institute of Technology-Main Campus",
+      "country": "US",
+      "value": 14.07,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "United States Air Force Academy",
+      "country": "US",
+      "value": 14.09,
+      "detail": "USAF Academy, CO"
+    },
+    {
+      "name": "Grinnell College",
+      "country": "US",
+      "value": 14.51,
+      "detail": "Grinnell, IA"
+    },
+    {
+      "name": "University of North Carolina at Chapel Hill",
+      "country": "US",
+      "value": 15.34,
+      "detail": "Chapel Hill, NC"
+    },
+    {
+      "name": "University of Michigan-Ann Arbor",
+      "country": "US",
+      "value": 15.64,
+      "detail": "Ann Arbor, MI"
+    },
+    {
+      "name": "Boston College",
+      "country": "US",
+      "value": 16.43,
+      "detail": "Chestnut Hill, MA"
+    },
+    {
+      "name": "Wesleyan University",
+      "country": "US",
+      "value": 16.49,
+      "detail": "Middletown, CT"
+    },
+    {
+      "name": "University of Virginia-Main Campus",
+      "country": "US",
+      "value": 16.81,
+      "detail": "Charlottesville, VA"
+    },
+    {
+      "name": "Babson College",
+      "country": "US",
+      "value": 17.09,
+      "detail": "Wellesley, MA"
+    },
+    {
+      "name": "Denison University",
+      "country": "US",
+      "value": 17.39,
+      "detail": "Granville, OH"
+    },
+    {
+      "name": "College of the Holy Cross",
+      "country": "US",
+      "value": 17.61,
+      "detail": "Worcester, MA"
+    },
+    {
+      "name": "Colorado College",
+      "country": "US",
+      "value": 18.47,
+      "detail": "Colorado Springs, CO"
+    },
+    {
+      "name": "Vassar College",
+      "country": "US",
+      "value": 18.57,
+      "detail": "Poughkeepsie, NY"
+    },
+    {
+      "name": "Rhode Island School of Design",
+      "country": "US",
+      "value": 18.66,
+      "detail": "Providence, RI"
+    },
+    {
+      "name": "University of Miami",
+      "country": "US",
+      "value": 18.9,
+      "detail": "Coral Gables, FL"
+    },
+    {
+      "name": "Berea College",
+      "country": "US",
+      "value": 19.34,
+      "detail": "Berea, KY"
+    },
+    {
+      "name": "Carleton College",
+      "country": "US",
+      "value": 20.41,
+      "detail": "Northfield, MN"
+    },
+    {
+      "name": "Florida Agricultural and Mechanical University",
+      "country": "US",
+      "value": 20.56,
+      "detail": "Tallahassee, FL"
+    },
+    {
+      "name": "The Cooper Union for the Advancement of Science and Art",
+      "country": "US",
+      "value": 20.71,
+      "detail": "New York, NY"
+    },
+    {
+      "name": "Hillsdale College",
+      "country": "US",
+      "value": 20.72,
+      "detail": "Hillsdale, MI"
+    },
+    {
+      "name": "Smith College",
+      "country": "US",
+      "value": 21,
+      "detail": "Northampton, MA"
+    },
+    {
+      "name": "Skidmore College",
+      "country": "US",
+      "value": 21.05,
+      "detail": "Saratoga Springs, NY"
+    },
+    {
+      "name": "Wake Forest University",
+      "country": "US",
+      "value": 21.67,
+      "detail": "Winston-Salem, NC"
+    },
+    {
+      "name": "University of Richmond",
+      "country": "US",
+      "value": 22.2,
+      "detail": "University of Richmond, VA"
+    },
+    {
+      "name": "United States Coast Guard Academy",
+      "country": "US",
+      "value": 22.44,
+      "detail": "New London, CT"
+    },
+    {
+      "name": "Citadel Military College of South Carolina",
+      "country": "US",
+      "value": 22.72,
+      "detail": "Charleston, SC"
+    },
+    {
+      "name": "University of Florida",
+      "country": "US",
+      "value": 24.2,
+      "detail": "Gainesville, FL"
+    },
+    {
+      "name": "Florida State University",
+      "country": "US",
+      "value": 24.22,
+      "detail": "Tallahassee, FL"
+    },
+    {
+      "name": "Reed College",
+      "country": "US",
+      "value": 24.61,
+      "detail": "Portland, OR"
+    },
+    {
+      "name": "Spelman College",
+      "country": "US",
+      "value": 24.87,
+      "detail": "Atlanta, GA"
+    },
+    {
+      "name": "Pitzer College",
+      "country": "US",
+      "value": 25.16,
+      "detail": "Claremont, CA"
+    },
+    {
+      "name": "Trinity University",
+      "country": "US",
+      "value": 25.92,
+      "detail": "San Antonio, TX"
+    },
+    {
+      "name": "Lehigh University",
+      "country": "US",
+      "value": 25.93,
+      "detail": "Bethlehem, PA"
+    },
+    {
+      "name": "Inter American University of Puerto Rico-Fajardo",
+      "country": "US",
+      "value": 26.54,
+      "detail": "Fajardo, PR"
+    },
+    {
+      "name": "The University of Texas at Austin",
+      "country": "US",
+      "value": 26.64,
+      "detail": "Austin, TX"
+    },
+    {
+      "name": "University of California-San Diego",
+      "country": "US",
+      "value": 26.71,
+      "detail": "La Jolla, CA"
+    },
+    {
+      "name": "Villanova University",
+      "country": "US",
+      "value": 26.98,
+      "detail": "Villanova, PA"
+    },
+    {
+      "name": "Franklin and Marshall College",
+      "country": "US",
+      "value": 28.19,
+      "detail": "Lancaster, PA"
+    },
+    {
+      "name": "Macalester College",
+      "country": "US",
+      "value": 28.52,
+      "detail": "Saint Paul, MN"
+    },
+    {
+      "name": "University of Virginia's College at Wise",
+      "country": "US",
+      "value": 28.54,
+      "detail": "Wise, VA"
+    },
+    {
+      "name": "University of California-Irvine",
+      "country": "US",
+      "value": 28.57,
+      "detail": "Irvine, CA"
+    },
+    {
+      "name": "Bucknell University",
+      "country": "US",
+      "value": 28.93,
+      "detail": "Lewisburg, PA"
+    },
+    {
+      "name": "Mississippi Christian University",
+      "country": "US",
+      "value": 29.11,
+      "detail": "Clinton, MS"
+    },
+    {
+      "name": "Trinity College",
+      "country": "US",
+      "value": 29.25,
+      "detail": "Hartford, CT"
+    },
+    {
+      "name": "Bryn Mawr College",
+      "country": "US",
+      "value": 29.43,
+      "detail": "Bryn Mawr, PA"
+    },
+    {
+      "name": "University of North Carolina School of the Arts",
+      "country": "US",
+      "value": 29.97,
+      "detail": "Winston Salem, NC"
+    },
+    {
+      "name": "Kenyon College",
+      "country": "US",
+      "value": 31.03,
+      "detail": "Gambier, OH"
+    },
+    {
+      "name": "California Polytechnic State University-San Luis Obispo",
+      "country": "US",
+      "value": 31.32,
+      "detail": "San Luis Obispo, CA"
+    },
+    {
+      "name": "Lafayette College",
+      "country": "US",
+      "value": 31.45,
+      "detail": "Easton, PA"
+    }
+  ]
+}

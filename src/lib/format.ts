@@ -15,6 +15,7 @@ export function ranked(r: Ranking): RankedEntry[] {
       flag: flagEmoji(e.country),
       value: e.value,
       logo: e.logo ? `/logos/${e.logo}.png` : undefined,
+      detail: e.detail,
     }));
 }
 

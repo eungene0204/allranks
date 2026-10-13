@@ -28,12 +28,16 @@ for (const p of PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id)))
     // Guards: refuse data that looks broken rather than overwrite good data with it.
     const bad = got.items.filter((i) => !Number.isFinite(i.value));
     if (bad.length) throw new Error(`${bad.length} non-numeric value(s), e.g. ${bad[0].name}`);
+    // One row per country — or, for a regional ranking (`scope`), one row per region name.
     const seen = new Set<string>();
     for (const i of got.items) {
-      if (seen.has(i.country)) throw new Error(`duplicate country ${i.country} (${i.name})`);
-      seen.add(i.country);
+      const byName = p.meta.scope || p.meta.multi;
+      const key = byName ? i.name : i.country;
+      if (seen.has(key)) throw new Error(`duplicate ${byName ? "entry" : "country"} ${key}`);
+      seen.add(key);
+      if (p.meta.scope && i.country !== p.meta.scope) throw new Error(`${i.name}: country must be ${p.meta.scope}`);
     }
-    if (got.items.length < 20) throw new Error(`only ${got.items.length} items — source layout probably changed`);
+    if (got.items.length < (p.meta.scope ? 5 : 20)) throw new Error(`only ${got.items.length} items — source layout probably changed`);
 
     const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
     if (prev && got.items.length < prev.items.length * 0.7)
