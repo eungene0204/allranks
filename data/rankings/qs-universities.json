@@ -1,0 +1,82 @@
+{
+  "id": "qs-universities",
+  "title": "Best Universities in the World",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Top universities in the QS World University Rankings. Ranked by overall position, shown with country.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "QS World University Rankings 2025",
+    "verified": false,
+    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+  },
+  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "items": [
+    {
+      "name": "MIT",
+      "country": "US",
+      "value": 1,
+      "logo": "mit.edu"
+    },
+    {
+      "name": "Imperial College London",
+      "country": "GB",
+      "value": 2,
+      "logo": "imperial.ac.uk"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "value": 3,
+      "logo": "stanford.edu"
+    },
+    {
+      "name": "University of Oxford",
+      "country": "GB",
+      "value": 4,
+      "logo": "ox.ac.uk"
+    },
+    {
+      "name": "Harvard University",
+      "country": "US",
+      "value": 5,
+      "logo": "harvard.edu"
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "GB",
+      "value": 6,
+      "logo": "cam.ac.uk"
+    },
+    {
+      "name": "ETH Zurich",
+      "country": "CH",
+      "value": 7,
+      "logo": "ethz.ch"
+    },
+    {
+      "name": "National University of Singapore",
+      "country": "SG",
+      "value": 8,
+      "logo": "nus.edu.sg"
+    },
+    {
+      "name": "UCL",
+      "country": "GB",
+      "value": 9,
+      "logo": "ucl.ac.uk"
+    },
+    {
+      "name": "Caltech",
+      "country": "US",
+      "value": 10,
+      "logo": "caltech.edu"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "happiness",
+  "title": "World Happiness Ranking",
+  "category": "society",
+  "icon": "😊",
+  "desc": "Average life evaluation on a 0–10 scale from national surveys.",
+  "unit": "score (0–10)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "World Happiness Report",
+    "verified": false,
+    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+  },
+  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 7.74
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 7.52
+    },
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 7.52
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 7.34
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 7.31
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 7.27
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 7.26
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 7.23
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 7.12
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 6.98
+    }
+  ]
+}

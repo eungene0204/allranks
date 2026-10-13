@@ -1,0 +1,288 @@
+{
+  "id": "big-mac",
+  "title": "Big Mac Prices Around the World",
+  "category": "prices",
+  "icon": "🍔",
+  "desc": "The Economist's Big Mac Index: a burger-sized look at purchasing power. Local price converted to USD.",
+  "unit": "USD",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2026,
+  "asOf": "2026-07",
+  "source": {
+    "kind": "csv",
+    "name": "The Economist — Big Mac Index",
+    "url": "https://github.com/TheEconomist/big-mac-data",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-13T17:20:21.564Z",
+  "items": [
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 9.0419
+    },
+    {
+      "name": "Uruguay",
+      "country": "UY",
+      "value": 8.9381
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 8.0532
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 8.003
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 7.6685
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 7.4002
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 7.1614
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 7.0373
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 6.9956
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 6.9109
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 6.2694
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 6.22
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 6.2183
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 5.9496
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 5.9064
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 5.8143
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 5.775
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 5.4341
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 5.408
+    },
+    {
+      "name": "Lebanon",
+      "country": "LB",
+      "value": 5.3601
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 5.2976
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 5.1924
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 5.1731
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 5.1361
+    },
+    {
+      "name": "Nicaragua",
+      "country": "NI",
+      "value": 5.1059
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 5.0599
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 4.9916
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 4.9437
+    },
+    {
+      "name": "Bahrain",
+      "country": "BH",
+      "value": 4.7739
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 4.7053
+    },
+    {
+      "name": "Moldova",
+      "country": "MD",
+      "value": 4.5584
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 4.5234
+    },
+    {
+      "name": "Venezuela",
+      "country": "VE",
+      "value": 4.5072
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 4.462
+    },
+    {
+      "name": "Azerbaijan",
+      "country": "AZ",
+      "value": 4.2647
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 4.0155
+    },
+    {
+      "name": "Romania",
+      "country": "RO",
+      "value": 4.0051
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 3.9735
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 3.9139
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 3.8859
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 3.8361
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 3.5679
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 3.5261
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 3.4855
+    },
+    {
+      "name": "Ukraine",
+      "country": "UA",
+      "value": 3.3356
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 3.253
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 3.0838
+    },
+    {
+      "name": "Vietnam",
+      "country": "VN",
+      "value": 2.8946
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 2.8696
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 2.7397
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 2.4542
+    },
+    {
+      "name": "Taiwan",
+      "country": "TW",
+      "value": 2.4233
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 2.3803
+    }
+  ]
+}

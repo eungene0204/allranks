@@ -1,0 +1,28 @@
+{
+  "name": "allranks",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "lint": "tsc --noEmit",
+    "data:countries": "node scripts/countries.mts",
+    "data:update": "node scripts/update.mts",
+    "data:validate": "node scripts/validate.mts",
+    "prebuild": "node scripts/validate.mts"
+  },
+  "dependencies": {
+    "cobe": "^2.0.1",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "gasoline",
+  "title": "Gasoline Prices by Country",
+  "category": "prices",
+  "icon": "⛽",
+  "desc": "Average pump price for one liter of gasoline, in US dollars. Highest first.",
+  "unit": "USD per liter",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2024,
+  "source": {
+    "kind": "manual",
+    "name": "GlobalPetrolPrices",
+    "verified": false,
+    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+  },
+  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 2.9
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 2.2
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 2.1
+    },
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 2.1
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 2
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 2
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 2
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 1.9
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 1.8
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 1
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 0.9
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 0.7
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 0.6
+    },
+    {
+      "name": "Iran",
+      "country": "IR",
+      "value": 0.03
+    },
+    {
+      "name": "Venezuela",
+      "country": "VE",
+      "value": 0.03
+    }
+  ]
+}

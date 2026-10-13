@@ -1,0 +1,72 @@
+{
+  "id": "tallest-buildings",
+  "title": "Tallest Buildings in the World",
+  "category": "world",
+  "icon": "🏙️",
+  "desc": "Completed buildings ranked by architectural height.",
+  "unit": "meters",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "CTBUH",
+    "verified": false,
+    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+  },
+  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Burj Khalifa — Dubai",
+      "country": "AE",
+      "value": 828
+    },
+    {
+      "name": "Merdeka 118 — Kuala Lumpur",
+      "country": "MY",
+      "value": 679
+    },
+    {
+      "name": "Shanghai Tower",
+      "country": "CN",
+      "value": 632
+    },
+    {
+      "name": "Abraj Al-Bait — Mecca",
+      "country": "SA",
+      "value": 601
+    },
+    {
+      "name": "Ping An Finance Center — Shenzhen",
+      "country": "CN",
+      "value": 599
+    },
+    {
+      "name": "Lotte World Tower — Seoul",
+      "country": "KR",
+      "value": 555
+    },
+    {
+      "name": "One World Trade Center — New York",
+      "country": "US",
+      "value": 541
+    },
+    {
+      "name": "Guangzhou CTF Finance Centre",
+      "country": "CN",
+      "value": 530
+    },
+    {
+      "name": "Tianjin CTF Finance Centre",
+      "country": "CN",
+      "value": 530
+    },
+    {
+      "name": "CITIC Tower — Beijing",
+      "country": "CN",
+      "value": 528
+    }
+  ]
+}
