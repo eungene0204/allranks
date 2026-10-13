@@ -1,8 +1,6 @@
-import Link from "next/link";
 import GlobeExplorer from "@/components/GlobeExplorer";
 import RankingCard from "@/components/RankingCard";
-import { CATEGORIES } from "@/lib/categories";
-import { allRankings, countrySummaries, rankingsIn } from "@/lib/data";
+import { allRankings, countrySummaries } from "@/lib/data";
 
 export default function HomePage() {
   const countries = countrySummaries();
@@ -21,19 +19,6 @@ export default function HomePage() {
       </section>
 
       <GlobeExplorer countries={countries} />
-
-      <h2 className="section">Browse by category</h2>
-      <div className="cats">
-        {CATEGORIES.map((c) => (
-          <Link key={c.id} className="cat" href={`/category/${c.id}`}>
-            <span className="ico">{c.icon}</span>
-            <b>{c.name}</b>
-            <span>
-              {rankingsIn(c.id).length} rankings · {c.blurb}
-            </span>
-          </Link>
-        ))}
-      </div>
 
       <h2 className="section">Popular rankings</h2>
       <div className="cards">

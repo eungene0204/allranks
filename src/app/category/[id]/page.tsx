@@ -22,7 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CategoryPage({ params }: Props) {
   const c = getCategory((await params).id);
   if (!c) notFound();
-  const list = rankingsIn(c.id);
+  const list = rankingsIn(c.id)
+    .filter((r) => c.id !== "world" || !r.scope)
+    .sort((a, b) => Number(Boolean(a.scope)) - Number(Boolean(b.scope)));
   return (
     <>
       <div className="page-head">

@@ -1,6 +1,7 @@
 import "server-only";
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { cache } from "react";
 import { CATEGORIES, getCategory } from "./categories";
 import { flagEmoji, formatValue, ranked } from "./format";
 import type { CountrySummary, RankedEntry, Ranking } from "./types";
@@ -31,9 +32,10 @@ export const getRanking = (id: string) => allRankings().find((r) => r.id === id)
 export const rankingsIn = (categoryId: string) => allRankings().filter((r) => r.category === categoryId);
 
 /** Every country that appears in at least one ranking, best performers first. */
-export function countrySummaries(): CountrySummary[] {
+export const countrySummaries = cache(function countrySummaries(): CountrySummary[] {
+  const rankings = allRankings();
   const map = new Map<string, CountrySummary>();
-  for (const r of allRankings()) {
+  for (const r of rankings) {
     // Regional rankings (US states…) are listed on the country's own page and never count toward world totals.
     if (r.scope) continue;
     for (const e of ranked(r)) {
@@ -58,7 +60,7 @@ export function countrySummaries(): CountrySummary[] {
   const list = [...map.values()];
   for (const s of list) {
     s.appearances.sort((a, b) => a.rank - b.rank);
-    s.regional = allRankings()
+    s.regional = rankings
       .filter((r) => r.scope === s.code)
       .map((r) => ({ id: r.id, title: r.title, short: r.short ?? r.title, icon: r.icon }));
   }
@@ -66,7 +68,7 @@ export function countrySummaries(): CountrySummary[] {
     (a, b) =>
       b.firsts - a.firsts || b.top3 - a.top3 || b.appearances.length - a.appearances.length || a.name.localeCompare(b.name),
   );
-}
+});
 
 export function searchRankings(query: string): Ranking[] {
   const q = query.trim().toLowerCase();
@@ -94,11 +96,12 @@ export type CountryDetail = {
 
 export const countryCodes = () => countrySummaries().map((c) => c.code);
 
-export function countryDetail(code: string): CountryDetail | undefined {
+export const countryDetail = cache(function countryDetail(code: string): CountryDetail | undefined {
   const summary = countrySummaries().find((c) => c.code === code);
   if (!summary) return undefined;
+  const rankings = allRankings();
   const world: CountryRankingRow[] = [];
-  for (const r of allRankings()) {
+  for (const r of rankings) {
     if (r.scope) continue;
     const all = ranked(r);
     const entries = all.filter((e) => e.country === code).map((e) => ({ ...e, formatted: formatValue(r, e.value) }));
@@ -109,6 +112,6 @@ export function countryDetail(code: string): CountryDetail | undefined {
     summary,
     region: countries().get(code)?.region ?? "",
     world,
-    regional: allRankings().filter((r) => r.scope === code),
+    regional: rankings.filter((r) => r.scope === code),
   };
-}
+});

@@ -3,6 +3,7 @@
 import { geoBounds, geoCentroid, geoDistance, geoGraticule, geoOrthographic, geoPath } from "d3-geo";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import { feature } from "topojson-client";
@@ -72,6 +73,7 @@ const angleDiff = (from: number, to: number) => {
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 
 export default function GlobeExplorer({ countries }: { countries: CountrySummary[] }) {
+  const router = useRouter();
   const wrapRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const hitRefs = useRef<(HTMLAnchorElement | null)[]>([]);
@@ -396,14 +398,20 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     const c = countries.find((x) => x.flag === flag);
     setSelected(c ? c.flag : null);
     const v = view.current;
+    v.selected = c ? c.flag : null;
+    v.dirty = true;
     v.target = c ? [c.lng * DEG, c.lat * DEG] : null;
     v.spin = false; // any interaction ends the idle auto-rotation for good
+    if (c) router.prefetch(`/country/${c.code}`);
   }
 
   const onPointerDown = (e: React.PointerEvent) => {
     const v = view.current;
     v.spin = false; // the first click or drag anywhere on the globe stops the idle auto-rotation for good
     if ((e.target as HTMLElement).closest(".marker-hit")) return; // let the click through
+    select(null);
+    // Clear keyboard/touch focus too, so a previously focused flag cannot keep its tooltip open.
+    hitRefs.current.forEach((marker) => marker?.blur());
     v.dragging = true;
     v.anchor = null;
     v.lastX = e.clientX;
@@ -453,6 +461,8 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
               key={c.flag}
               href={`/country/${c.code}`}
               prefetch={false}
+              onMouseEnter={() => router.prefetch(`/country/${c.code}`)}
+              onFocus={() => router.prefetch(`/country/${c.code}`)}
               className={`marker-hit ${c.flag === selected ? "on" : ""} ${leads.length ? "has-lead" : ""}`}
               aria-label={`${c.name}: ${c.appearances.length} rankings${leads.length ? `, #1 in ${leads.map((l) => l.title).join(", ")}` : ""}. Open details`}
               ref={(el) => {

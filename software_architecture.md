@@ -46,7 +46,7 @@ scripts/
 src/
   app/
     layout.tsx, globals.css, not-found.tsx, sitemap.ts
-    page.tsx                         홈 (지구본 + 카테고리 + 랭킹 카드)
+    page.tsx                         홈 (지구본 + 랭킹 카드, 카테고리 탐색은 헤더에서 제공)
     ranking/[id]/page.tsx            랭킹 상세
     category/[id]/page.tsx           카테고리별 목록
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)
@@ -85,6 +85,19 @@ public/logos/           항목 로고 (<domain>.png)
 5. 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
 
 ## 6. 렌더링 전략
+
+- 카테고리 목록은 세계 랭킹(`scope` 없음)을 먼저, 국가 내부 랭킹을 다음에 표시한다. 각 그룹에서는 기존 sort 값 및 제목 순서를 유지한다.
+
+- World Records 카테고리 페이지는 `scope`가 없는 세계 기준 랭킹만 표시한다. 국가 내부 기록은 국가 상세페이지에서 제공한다.
+
+- 국가 요약 집계는 한 번 읽은 랭킹 목록을 재사용하여 국가 수에 비례한 JSON 재읽기를 방지한다. `countrySummaries`와 `countryDetail`은 React `cache`로 요청 안에서 중복 계산을 제거하며, 다음 요청에는 개발 중 데이터 변경을 반영한다.
+- 지구본 국기의 hover/focus 및 국가 선택 시 `router.prefetch`로 해당 상세페이지를 미리 불러온다. 전체 국기 링크의 일괄 prefetch는 비활성화한다.
+
+- 지구본 배경에서 포인터 조작을 시작하면 국가 선택과 국기 포커스를 해제하여 고정된 버블을 닫는다. 국기 및 버블 내부 조작은 상세 페이지 링크로 유지한다.
+
+- `RankingCard`는 항목 이름을 별도 `.entry-name` 요소로 감싸 남은 너비에서 말줄임표로 표시한다. 카드와 행의 최소 너비를 0으로 설정하고 값은 축소하지 않아 긴 이름이 카드 밖으로 값을 밀어내지 않는다. 전체 이름은 title 속성으로 제공한다.
+
+- 헤더는 최대 1440px 너비에서 카테고리를 한 줄로 가운데 정렬한다 (`justify-content: safe center`). 공간이 부족하면 시작점부터 가로 스크롤할 수 있으며, 모바일에서는 카테고리 한 줄을 별도 행에서 가로 스크롤한다.
 
 - 모든 페이지는 빌드 시 `src/lib/data.ts`가 `data/`를 읽어 정적으로 생성된다 (`generateStaticParams` 사용).
 - `data.ts`는 `server-only`; 프로덕션에서는 랭킹 목록을 메모리에 캐시한다.
