@@ -10,7 +10,6 @@ import { feature } from "topojson-client";
 import countries110 from "world-atlas/countries-110m.json";
 import type { CountrySummary } from "@/lib/types";
 import Mark from "./Mark";
-import RankBadge from "./RankBadge";
 
 const ACCENT = "#e4572e";
 
@@ -34,7 +33,6 @@ const PALETTES: Record<"light" | "dark", Palette> = {
   },
 };
 
-const CHIP_LIMIT = 24;
 const TIP_LINES = 6; // rankings listed in a flag's hover card
 const TILT = (23.4 * Math.PI) / 180; // axial tilt of a real desk globe
 const MIN_ZOOM = 1;
@@ -79,7 +77,6 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
   const hitRefs = useRef<(HTMLAnchorElement | null)[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
   const [dark, setDark] = useState(false);
-  const [allChips, setAllChips] = useState(false);
 
   // Mutable view state, read every frame without re-rendering. lng/lat (radians) is the point facing the viewer.
   const view = useRef({
@@ -438,8 +435,6 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     view.current.dragging = false;
   };
 
-  const current = countries.find((c) => c.flag === selected);
-
   return (
     <section className="globe-section">
       <div
@@ -509,102 +504,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
           );
         })}
       </div>
-      <p className="globe-hint">
-        Badges show what a country ranks <b>#1</b> in &nbsp;·&nbsp; flags mark ranked countries · hover a flag for its rankings, click for details · drag to rotate · scroll to zoom
-      </p>
 
-      <div className="globe-panel">
-        <div className="lb">
-          <h2 className="section" style={{ marginTop: 0 }}>
-            Country leaderboard
-          </h2>
-          <div className="table">
-            <div className="row lb-head">
-              <span>#</span>
-              <span>Country</span>
-              <span className="lb-num">#1s</span>
-              <span className="lb-num">Top 3</span>
-            </div>
-            {countries.slice(0, 10).map((c, i) => (
-              <button
-                key={c.flag}
-                type="button"
-                className={`row lb-row ${c.flag === selected ? "selected" : ""}`}
-                onClick={() => select(c.flag === selected ? null : c.flag)}
-              >
-                <RankBadge rank={i + 1} />
-                <span className="name">
-                  <span>{c.flag}</span>
-                  <span>{c.name}</span>
-                  <span className="mini-marks">
-                    {c.appearances
-                      .filter((a) => a.rank === 1)
-                      .map((a) => (
-                        <Mark key={a.id} icon={a.icon} logo={a.logo} />
-                      ))}
-                  </span>
-                </span>
-                <span className="lb-num">{c.firsts}</span>
-                <span className="lb-num">{c.top3}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div className="detail">
-          {current ? (
-            <>
-              <h3>
-                {current.flag} {current.name}
-              </h3>
-              <p className="muted">
-                {current.firsts} × #1 · {current.top3} × top 3 · {current.appearances.length} rankings ·{" "}
-                <Link className="detail-link" href={`/country/${current.code}`}>
-                  Full details →
-                </Link>
-              </p>
-              <ul>
-                {current.appearances.map((a) => (
-                  <li key={a.id}>
-                    <RankBadge rank={a.rank} />
-                    <Mark icon={a.icon} logo={a.logo} />
-                    <span>
-                      <Link href={`/ranking/${a.id}`}>{a.title}</Link>
-                      <span className="muted">
-                        {a.entry !== current.name && ` · ${a.entry}`}
-                        {a.count > 1 && ` +${a.count - 1} more`}
-                      </span>
-                    </span>
-                    <span className="v">{a.value}</span>
-                  </li>
-                ))}
-              </ul>
-            </>
-          ) : (
-            <p className="muted detail-empty">
-              Select a country on the leaderboard or pick one below to spin the globe and see every ranking it appears in.
-            </p>
-          )}
-        </div>
-      </div>
-
-      <div className="chips" aria-label="All countries">
-        {(allChips ? countries : countries.slice(0, CHIP_LIMIT)).map((c) => (
-          <button
-            key={c.flag}
-            type="button"
-            className={`chip chip-btn ${c.flag === selected ? "on" : ""}`}
-            onClick={() => select(c.flag === selected ? null : c.flag)}
-          >
-            {c.flag} {c.name}
-          </button>
-        ))}
-        {countries.length > CHIP_LIMIT && (
-          <button type="button" className="chip chip-btn" onClick={() => setAllChips((v) => !v)}>
-            {allChips ? "Show fewer" : `Show all ${countries.length} countries`}
-          </button>
-        )}
-      </div>
     </section>
   );
 }

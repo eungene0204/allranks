@@ -70,12 +70,31 @@ export const countrySummaries = cache(function countrySummaries(): CountrySummar
   );
 });
 
+const searchText = (value: string) => value.normalize("NFKC").toLowerCase();
+
+export function searchCountries(query: string): CountrySummary[] {
+  const q = searchText(query.trim());
+  if (!q) return [];
+  return countrySummaries().filter((c) => searchText(c.name).includes(q) || c.code.toLowerCase() === q);
+}
+
 export function searchRankings(query: string): Ranking[] {
-  const q = query.trim().toLowerCase();
+  const q = searchText(query.trim());
   if (!q) return [];
   return allRankings().filter((r) =>
-    [r.title, r.desc, getCategory(r.category)?.name ?? "", ...r.items.map((i) => i.name)].join(" ").toLowerCase().includes(q),
+    [r.title, r.short ?? "", r.desc, getCategory(r.category)?.name ?? "",
+      ...r.items.flatMap((i) => [i.name, i.detail ?? "", countries().get(i.country)?.name ?? ""]),
+    ].some((value) => searchText(value).includes(q)) || r.items.some((i) => i.country.toLowerCase() === q),
   );
+}
+
+/** Matching entries retain their position in the complete ranking. */
+export function searchEntries(query: string) {
+  const q = searchText(query.trim());
+  if (!q) return [];
+  return allRankings().flatMap((r) => ranked(r)
+    .filter((e) => [e.name, e.detail ?? ""].some((value) => searchText(value).includes(q)))
+    .map((entry) => ({ ranking: r, entry })));
 }
 
 /** A world ranking, narrowed to the entries that belong to one country. */

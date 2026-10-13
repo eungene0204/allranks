@@ -1,3 +1,4 @@
+import SearchForm from "@/components/SearchForm";
 import GlobeExplorer from "@/components/GlobeExplorer";
 import RankingCard from "@/components/RankingCard";
 import { allRankings, countrySummaries } from "@/lib/data";
@@ -19,6 +20,8 @@ export default function HomePage() {
       </section>
 
       <GlobeExplorer countries={countries} />
+
+      <SearchForm />
 
       <h2 className="section">Popular rankings</h2>
       <div className="cards">

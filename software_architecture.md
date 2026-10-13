@@ -52,12 +52,14 @@ src/
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)
     search/page.tsx                  검색
   components/
-    GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, ~600줄)
+    GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
     RankingCard / RankingTable / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 페이지의 지역(주·도시 등) 랭킹 탭
+    SearchForm.tsx      홈·검색 결과 페이지 공유 GET 검색 폼 (/search?q=…)
+    Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
   lib/
     types.ts            웹과 스크립트가 공유하는 타입 (RankingFile 등)
-    categories.ts       카테고리 정의
+    categories.ts       카테고리 정의 (기존 7개 + 신규 8개, 총 15개)
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
 public/logos/           항목 로고 (<domain>.png)
@@ -96,6 +98,7 @@ public/logos/           항목 로고 (<domain>.png)
 - 지구본 배경에서 포인터 조작을 시작하면 국가 선택과 국기 포커스를 해제하여 고정된 버블을 닫는다. 국기 및 버블 내부 조작은 상세 페이지 링크로 유지한다.
 
 - `RankingCard`는 항목 이름을 별도 `.entry-name` 요소로 감싸 남은 너비에서 말줄임표로 표시한다. 카드와 행의 최소 너비를 0으로 설정하고 값은 축소하지 않아 긴 이름이 카드 밖으로 값을 밀어내지 않는다. 전체 이름은 title 속성으로 제공한다.
+- 카드 내부 순위 배지는 `.card .rk`로 원 크기 32px, 숫자 18px를 적용한다. 상세 순위표의 공통 배지(22px/12px)는 유지한다.
 
 - 헤더는 최대 1440px 너비에서 카테고리를 한 줄로 가운데 정렬한다 (`justify-content: safe center`). 공간이 부족하면 시작점부터 가로 스크롤할 수 있으며, 모바일에서는 카테고리 한 줄을 별도 행에서 가로 스크롤한다.
 
@@ -106,6 +109,19 @@ public/logos/           항목 로고 (<domain>.png)
 - 사이트 URL은 `NEXT_PUBLIC_SITE_URL`(없으면 `http://localhost:3000`)을 사이트맵에서 사용한다.
 
 ## 7. 확장 지점
+
+지구본 아래에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
+국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다.
+문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다.
+추가 클라이언트 데이터나 API 없이 서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다.
+
+홈 지구본 하단의 국가 리더보드, 선택 국가 상세 패널, 국가 선택 칩 목록을 제거했다.
+`GlobeExplorer`는 지구본·국기 툴팁만 렌더링하며, 삭제된 패널과 조작 안내 전용 상태·스타일도 제거했다.
+국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
+
+카테고리 등록부에 AI, Markets, Energy, Money, Demographics, Mining, Autos, Green을 추가했다.
+기존 카테고리 ID·순서와 랭킹 분류는 유지한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다.
+데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |
 | --- | --- |

@@ -37,6 +37,7 @@ export default async function CategoryPage({ params }: Props) {
         <p>{c.blurb}</p>
       </div>
       <h2 className="section">{list.length} rankings</h2>
+      {list.length === 0 && <p>Rankings in this category are coming soon.</p>}
       <div className="cards">
         {list.map((r) => (
           <RankingCard key={r.id} ranking={r} />

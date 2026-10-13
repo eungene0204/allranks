@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { CATEGORIES } from "@/lib/categories";
 
 function activeCategory(pathname: string, rankingCategories: Record<string, string>): string | undefined {
@@ -13,15 +12,7 @@ function activeCategory(pathname: string, rankingCategories: Record<string, stri
 
 export default function Header({ rankingCategories }: { rankingCategories: Record<string, string> }) {
   const pathname = usePathname();
-  const router = useRouter();
-  const [query, setQuery] = useState("");
   const active = activeCategory(pathname, rankingCategories);
-
-  function onSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const q = query.trim();
-    router.push(q ? `/search?q=${encodeURIComponent(q)}` : "/");
-  }
 
   return (
     <header className="site-header">
@@ -36,16 +27,6 @@ export default function Header({ rankingCategories }: { rankingCategories: Recor
             </Link>
           ))}
         </nav>
-        <form className="search" role="search" onSubmit={onSubmit}>
-          <input
-            type="search"
-            placeholder="Search rankings…"
-            autoComplete="off"
-            aria-label="Search rankings"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </form>
       </div>
     </header>
   );
