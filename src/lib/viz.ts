@@ -22,7 +22,10 @@ export const VIZ_KINDS: VizKind[] = [
 ];
 
 /** Hand-picked exceptions to the rules below (ranking id → kind). Prefer fixing the rule if several rankings need the same exception. */
-export const VIZ_OVERRIDES: Record<string, VizKind> = {};
+export const VIZ_OVERRIDES: Record<string, VizKind> = {
+  // A few Gulf states (Qatar 83 t vs. median 2.6 t, min 0) squash a strip into the left edge; quintile shading on a map holds up.
+  "co2-per-capita": "map",
+};
 
 /**
  * Rankings drawn against another ranking: id → the id whose values go on the x axis. Opt-in and empty on purpose: a ranking page
