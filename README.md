@@ -102,9 +102,8 @@ not teaching quality or prestige, and favours large, old universities; China, th
 
 ### Ranking visualizations
 
-Each ranking page leads with one picture chosen by what the numbers are (`pickViz` in `src/lib/viz.ts`): a map for percentages and rates, a treemap for additive totals,
-a per-region distribution strip for per-capita figures and scores, diverging bars when values go below zero, a bubble map for lists of companies/cities, a lollipop chart for short lists.
-`npm run viz:report [-- <id>…]` shows the pick; exceptions go in `VIZ_OVERRIDES`. The procedure lives in the `ranking-viz` skill (`.claude/skills/ranking-viz`).
+Each ranking page leads with one picture chosen by what the numbers are (`pickViz` in `src/lib/viz.ts`): one of 12 forms — map, treemap, region bar, packed bubbles, waffle, distribution strip, histogram, scatter against a related ranking, diverging bars, bubble map, podium, lollipop.
+`npm run viz:report [-- <id>…]` shows the pick; exceptions go in `VIZ_OVERRIDES`, opt-in scatters against a related ranking in `VIZ_PAIRS` (empty by default). The procedure lives in the `ranking-viz` skill (`.claude/skills/ranking-viz`).
 
 ### World map
 

@@ -2,7 +2,7 @@
 //   npm run viz:report                 summary: counts per kind, world rankings listed
 //   npm run viz:report -- <id> [<id>…] the pick for those rankings, with the unit and size it was based on
 import { readdirSync, readFileSync } from "node:fs";
-import { VIZ_OVERRIDES, isAdditive, pickViz } from "../src/lib/viz.ts";
+import { VIZ_OVERRIDES, VIZ_PAIRS, isAdditive, pickViz } from "../src/lib/viz.ts";
 import type { RankingFile } from "../src/lib/types.ts";
 
 const dir = new URL("../data/rankings/", import.meta.url);
@@ -15,7 +15,7 @@ if (ids.length) {
   for (const id of ids) {
     const r = all.find((x) => x.id === id);
     if (!r) { console.log(`${id}: not found`); process.exitCode = 1; continue; }
-    const why = VIZ_OVERRIDES[id] ? "override" : r.items.some((i) => i.value < 0) ? "has negative values" : r.scope ? "regional" : r.multi ? "list of things" : isAdditive(r) ? "additive total" : "ratio / level";
+    const why = VIZ_OVERRIDES[id] ? "override" : VIZ_PAIRS[id] ? `paired with ${VIZ_PAIRS[id]}` : r.items.some((i) => i.value < 0) ? "has negative values" : r.scope ? "regional" : r.multi ? "list of things" : isAdditive(r) ? "additive total" : "ratio / level";
     console.log(`${id}: ${pickViz(r) ?? "none"}  (${why}; unit "${r.unit}", ${r.items.length} entries)`);
   }
 } else {
@@ -27,4 +27,8 @@ if (ids.length) {
   for (const [k, v] of [...kinds].sort()) {
     console.log(`${k.padEnd(20)} ${String(v.length).padStart(4)}${k.startsWith("regional") ? "" : `  ${v.join(", ")}`}`);
   }
+}
+// A pair whose partner ranking is gone would silently draw nothing.
+for (const [id, other] of Object.entries(VIZ_PAIRS)) {
+  for (const x of [id, other]) if (!all.some((r) => r.id === x)) { console.log(`VIZ_PAIRS: "${x}" does not exist (${id} ↔ ${other})`); process.exitCode = 1; }
 }

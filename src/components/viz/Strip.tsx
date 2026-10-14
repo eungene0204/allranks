@@ -85,7 +85,7 @@ export default function Strip({ ranking: r }: { ranking: Ranking }) {
           <div className="strip-label" />
           <div className="strip-plot">
             {scale.ticks.map((t) => (
-              <span key={t} style={{ left: `${at(t)}%` }}>{compact(t)}</span>
+              <span key={t} style={{ left: `${at(t)}%` }}>{compact(t)} {r.unit}</span>
             ))}
           </div>
         </div>
