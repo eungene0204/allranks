@@ -1,5 +1,5 @@
 import "server-only";
-import { geoNaturalEarth1, geoPath } from "d3-geo";
+import { geoNaturalEarth1, geoPath, type GeoProjection } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import { feature } from "topojson-client";
@@ -13,6 +13,7 @@ export type MapShape = { code: string; name: string; d: string };
 
 // Projected once per server process; every ranking page reuses the same outlines.
 let shapes: MapShape[] | undefined;
+let projection: GeoProjection | undefined;
 
 /** World outlines (110m), projected to a Natural Earth map and tagged with the ISO code of each country. */
 export function mapShapes(): MapShape[] {
@@ -20,7 +21,7 @@ export function mapShapes(): MapShape[] {
   const topo = countries110 as unknown as Topology;
   const fc = feature(topo, topo.objects.countries as GeometryCollection) as FeatureCollection<Geometry, { name?: string }>;
   const land = { ...fc, features: fc.features.filter((f) => f.properties?.name !== "Antarctica") };
-  const projection = geoNaturalEarth1().fitExtent([[4, 4], [MAP_W - 4, MAP_H - 4]], land);
+  projection = geoNaturalEarth1().fitExtent([[4, 4], [MAP_W - 4, MAP_H - 4]], land);
   const path = geoPath(projection).digits(0);
   const codes = mapCodes as Record<string, string>;
   shapes = land.features.flatMap((f) => {
@@ -29,4 +30,10 @@ export function mapShapes(): MapShape[] {
     return d ? [{ code: codes[name] ?? "", name, d }] : [];
   });
   return shapes;
+}
+
+/** Pixel position (in the MAP_W × MAP_H box) of a latitude/longitude, or null when it falls off the map. */
+export function projectPoint(lat: number, lng: number): [number, number] | null {
+  mapShapes();
+  return projection?.([lng, lat]) ?? null;
 }

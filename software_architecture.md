@@ -58,6 +58,7 @@ scripts/
     prompts.mts             시스템 프롬프트(안정, 캐시 대상) + 모드별 작업 프롬프트
     store.mts               랭킹 파일 접근, data/agent/ 상태(notes.json, last-run.json/.md)
   lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
+  viz-report.mts            랭킹별 시각화 선택 보고 (`npm run viz:report [-- <id>…]`)
   map-codes.mts             지도 도형 이름 → ISO 코드 매핑(data/map-codes.json) 생성 (`npm run data:map`)
   sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
 src/
@@ -73,7 +74,7 @@ src/
     ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
-    RankingCard / RankingTable / RankingMap(상단 세계지도) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
+    RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Strip·Diverging·Bubbles·Lollipop) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 페이지의 지역(주·도시 등) 랭킹 탭
     SearchForm.tsx      홈·검색 결과 페이지 공유 GET 검색 폼 (/search?q=…)
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
@@ -83,7 +84,10 @@ src/
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
     map.ts              world-atlas(110m)를 Natural Earth 투영의 SVG 경로로 변환(프로세스당 1회), `data/map-codes.json`으로 도형→ISO 코드 연결
+    viz.ts              랭킹 성격(단위·개수·음수·scope·multi)으로 시각화 6종 중 하나를 고르는 `pickViz`, 예외 `VIZ_OVERRIDES`
+    treemap.ts / scale.ts  squarified 트리맵 배치 / 선형·로그 눈금과 틱
     insights.ts         랭킹 값으로 해설 문장·meta description 생성 (순수 함수, 외부 지식/LLM 없음)
+.claude/skills/ranking-viz/  시각화 선택·검증 절차 프로젝트 스킬 (랭킹 추가·변경 시마다 사용)
 public/logos/           항목 로고 (<domain>.png)
 ```
 
@@ -126,6 +130,8 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 - 환경 변수: `ANTHROPIC_API_KEY`(또는 `ant auth login`), `AGENT_MODEL`, `AGENT_EFFORT`.
 
 ## 6. 렌더링 전략
+
+- 랭킹 상세 상단 시각화는 `RankingViz`가 `pickViz` 결과로 분기한다. 지도·버블맵의 도형만 SVG이고, 글자가 있는 트리맵·스트립·발산 막대·롤리팝은 퍼센트 좌표 HTML로 그려 모바일에서도 글자 크기가 유지된다. 모두 서버 컴포넌트라 클라이언트 JS가 없다. 색은 `--bar` 단일 색 + 중립 회색(음수만 `--neg`), 범주 색 대신 대륙별 행(facet)을 쓴다. 버블맵은 `lib/map.ts`의 `projectPoint`와 `data.ts`의 `countryCoords`로 국가 좌표를 투영한다.
 
 - 카테고리 목록은 세계 랭킹(`scope` 없음)을 먼저, 국가 내부 랭킹을 다음에 표시한다. 각 그룹에서는 기존 sort 값 및 제목 순서를 유지한다.
 

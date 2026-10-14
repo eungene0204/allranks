@@ -100,9 +100,15 @@ not teaching quality or prestige, and favours large, old universities; China, th
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | AdSense publisher ID (`ca-pub-…`, default `ca-pub-8335444243080631`). Enables the ad script, the verification meta tag and `/ads.txt`; set it to `off` to turn ads off |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Contact address shown on the About and Privacy pages (default `allworldranks@gmail.com`) |
 
+### Ranking visualizations
+
+Each ranking page leads with one picture chosen by what the numbers are (`pickViz` in `src/lib/viz.ts`): a map for percentages and rates, a treemap for additive totals,
+a per-region distribution strip for per-capita figures and scores, diverging bars when values go below zero, a bubble map for lists of companies/cities, a lollipop chart for short lists.
+`npm run viz:report [-- <id>…]` shows the pick; exceptions go in `VIZ_OVERRIDES`. The procedure lives in the `ranking-viz` skill (`.claude/skills/ranking-viz`).
+
 ### World map
 
-World rankings show a map built from `world-atlas`. `data/map-codes.json` links each map shape to an ISO code; regenerate it with `npm run data:map` if the atlas changes.
+Map-type rankings use a map built from `world-atlas`. `data/map-codes.json` links each map shape to an ISO code; regenerate it with `npm run data:map` if the atlas changes.
 
 ### Manual rankings
 
@@ -116,7 +122,7 @@ until someone checks the values against the source and flips `verified` to `true
    `ctx.countries.byName()` / `byCode3` to map names), then register it with its metadata in `scripts/registry.mts`, and run `npm run data:update -- <id>`.
 2. **Manual:** create `data/rankings/<id>.json` following `RankingFile` in `src/lib/types.ts`.
 
-Then `npm run data:validate`. Pages, sitemap, search and the globe pick the new ranking up automatically.
+Then `npm run data:validate` and check the page's visualization with `npm run viz:report -- <id>` (see above). Pages, sitemap, search and the globe pick the new ranking up automatically.
 New category? Add it to `src/lib/categories.ts`.
 
 ### Logos

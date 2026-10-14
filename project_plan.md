@@ -10,6 +10,7 @@
 
 - Next.js 16 정적 사이트, JSON 기반 데이터, 자동 수집 파이프라인 구축 완료
 - 랭킹 647개 (세계 90 + US 24 + 165개국 533), OECD·G20·BRICS·EU·ASEAN 회원국 모두 국가 상세 보유(AU는 20개국 지역 랭킹 + 전 회원국 대학 순위), 153개국에 대학 순위, 7개 카테고리 (Economy, Education, Technology, AI, Society & Health, Energy & Industry, World Records)
+- 랭킹 상단 시각화는 성격별 6종(지도·트리맵·분포 스트립·발산 막대·버블맵·롤리팝)이며 `pickViz` 가 고르고 `ranking-viz` 스킬로 관리
 - 페이지: 홈(지구본), 랭킹, 카테고리, 국가, 검색
 - 커밋: 프로토타입 → 지구본 재작성 + 국가 페이지/국가 한정 랭킹 → 프로젝트 문서 추가
 
@@ -22,7 +23,7 @@
 | M3 | 랭킹 확장: 세계 36개, 국가 한정(scope) 랭킹 구조, US 20개 | ✅ 완료 | |
 | M4 | 국가 상세 페이지 + 로고 지원 | ✅ 완료 | |
 | M5 | 정리·품질: 수동 랭킹 4종 검증, 메타데이터/SEO 점검, 테스트 | ⬜ 예정 | 다음 작업 후보 |
-| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | 🚧 진행 | Vercel, `www.allranks.world` 접속 가능. AdSense 준비물(ads.txt·정보 페이지·스크립트)은 코드에 있으나 미배포이고 게시자 ID 환경변수가 필요 |
+| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | 🚧 진행 | Vercel, `www.allranks.world` 접속 가능. AdSense 준비물(ads.txt·정보 페이지·스크립트·메타 태그)은 배포되어 `/ads.txt`와 스크립트가 라이브에서 확인됨. AdSense 사이트 확인·심사와 Search Console 등록은 남음 |
 | M10 | 빈 카테고리 채우기: AI, Markets, Energy, Money, Demographics, Mining, Autos, Green 주제에 자동 수집 랭킹 39개(이후 7개 카테고리로 통합) | ✅ 완료 | `scripts/topics.mts`. 수집 대상은 모두 어댑터(재현 가능). 금 생산국은 출처 표 결측 때문에 제외 |
 | M7 | 자동화: 정기 데이터 갱신(CI/cron), 데이터 신선도 알림 | 🚧 진행 | 주간 워크플로 작성됨(미실행). 신선도 알림은 미구현 |
 | M9 | AI 데이터 수집 에이전트: 없는 랭킹 발굴(discover) + 기존 랭킹 최신화(refresh) | 🚧 v0 구현 | 도구·루프·가드·CLI 완료, 모의 클라이언트로 검증. **실제 API 실행 미검증** |
@@ -37,7 +38,7 @@
 - 🟡 Google Search Console 등록(도메인 속성, DNS TXT 인증) 후 `sitemap.xml` 제출 — 재배포 뒤에 진행
 - 🟢 시각화 확장: 상위 N 막대 차트(공유용 이미지), 국가 페이지 레이더/비교, 연도별 추이
 - 🟢 해설 확장: 국가·카테고리 페이지에도 자동 해설, 랭킹별 사람이 쓴 설명 추가
-- 🔴 AdSense: 도메인 배포 → 커밋·푸시로 재배포 → `/ads.txt` 확인 → AdSense에서 사이트 추가·심사 요청 → Privacy & messaging에서 EEA 동의 메시지 설정. 다른 사이트에서 'Low value content'로 반려된 사례가 있어, 순위별 해설 문장 등 독자 가치 보강 필요
+- 🔴 AdSense: AdSense 화면의 "I've placed the code" 체크 후 Verify(라이브 사이트에 스크립트 배치 완료) → 심사 요청 → Privacy & messaging에서 EEA 동의 메시지 설정. 다른 사이트에서 'Low value content'로 반려된 사례가 있어, 순위별 해설 문장 등 독자 가치 보강 필요
 - 🟡 배포 환경 결정 및 배포
 - 🟡 기본 테스트 추가 (데이터 로더, 포맷, 순위 계산)
 - 🟢 국가별 랭킹 보강: KR·JP 등 대학 순위(공개 소스 없음), 오래된 표(JP 기업 2022·KR 기업 2023·BR 공항 2022) 갱신, 더 많은 국가
@@ -68,6 +69,8 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-14 | 랭킹마다 다른 시각화: `lib/viz.ts`(`pickViz`)와 트리맵·분포 스트립·발산 막대·버블맵·롤리팝 컴포넌트 추가, 지도는 비율 랭킹 전용으로 축소. 선택·검증 절차를 프로젝트 스킬 `.claude/skills/ranking-viz` 와 `npm run viz:report` 로 정리하고 CLAUDE.md 에 매번 사용 규칙 추가 |
+| 2026-10-14 | AdSense 배포 상태 반영: 라이브 사이트에서 `/ads.txt`(pub-8335444243080631)와 AdSense 스크립트·메타 태그 확인. M6 비고와 백로그의 AdSense 단계(배포·ads.txt 확인 완료분 제외) 갱신 |
 | 2026-10-14 | 랭킹 페이지에 국가별 색상 세계지도 추가(`RankingMap`, `lib/map.ts`, `scripts/map-codes.mts`, `data/map-codes.json`): 순위 5등분 색, 범례, 클릭 시 국가 페이지, 서버 렌더링 SVG |
 | 2026-10-14 | 랭킹 페이지에 자동 생성 해설 "Highlights" 추가(`lib/insights.ts`, `RankingInsights`): 1~3위, 격차, 범위·중앙값, 대륙 분포, 국가별 항목 수, 출처. meta description 에도 상위 3개 요약 반영(AdSense 'Low value content' 대응) |
 | 2026-10-14 | `robots.txt`(`src/app/robots.ts`) 추가: 전체 허용, `/search` 제외, 사이트맵 위치 명시(Search Console 등록 준비) |

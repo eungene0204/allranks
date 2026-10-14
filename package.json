@@ -9,6 +9,7 @@
     "lint": "tsc --noEmit",
     "data:countries": "node scripts/countries.mts",
     "data:map": "node scripts/map-codes.mts",
+    "viz:report": "NODE_NO_WARNINGS=1 node scripts/viz-report.mts",
     "data:update": "node scripts/update.mts",
     "data:validate": "node scripts/validate.mts",
     "agent": "node scripts/agent/index.mts",

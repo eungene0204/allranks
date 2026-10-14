@@ -34,6 +34,12 @@ export const countryInfo = (code: string) => {
   return c ? { name: c.name, region: c.region ?? "" } : undefined;
 };
 
+/** Latitude/longitude of a country's centre point, for placing bubbles on the map. */
+export const countryCoords = (code: string) => {
+  const c = countries().get(code);
+  return c ? { lat: c.lat, lng: c.lng } : undefined;
+};
+
 export const getRanking = (id: string) => allRankings().find((r) => r.id === id);
 export const rankingsIn = (categoryId: string) => allRankings().filter((r) => r.category === categoryId);
 

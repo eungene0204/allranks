@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import RankingInsights from "@/components/RankingInsights";
-import RankingMap from "@/components/RankingMap";
+import RankingViz from "@/components/RankingViz";
 import RankingTable from "@/components/RankingTable";
 import SourceLine from "@/components/SourceLine";
 import { getCategory } from "@/lib/categories";
@@ -54,7 +54,7 @@ export default async function RankingPage({ params }: Props) {
         {sample && <span className="chip chip-warn">Sample data</span>}
         {r.source.kind === "agent" && r.source.verified === false && <span className="chip chip-warn">AI-collected · unverified</span>}
       </div>
-      <RankingMap ranking={r} />
+      <RankingViz ranking={r} />
       <RankingTable ranking={r} />
       <RankingInsights ranking={r} />
       <SourceLine ranking={r} />
