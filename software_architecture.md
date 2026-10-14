@@ -39,7 +39,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 647개: 세계 90 + US 24 + 기타 165개국 533)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 648개: 세계 91 + US 24 + 기타 165개국 533)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI
   validate.mts              data/rankings 검증 (prebuild에서 자동 실행)

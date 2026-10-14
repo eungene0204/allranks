@@ -9,7 +9,7 @@
 ## 2. 현재 상태 요약
 
 - Next.js 16 정적 사이트, JSON 기반 데이터, 자동 수집 파이프라인 구축 완료
-- 랭킹 647개 (세계 90 + US 24 + 165개국 533), OECD·G20·BRICS·EU·ASEAN 회원국 모두 국가 상세 보유(AU는 20개국 지역 랭킹 + 전 회원국 대학 순위), 153개국에 대학 순위, 7개 카테고리 (Economy, Education, Technology, AI, Society & Health, Energy & Industry, World Records)
+- 랭킹 648개 (세계 91 + US 24 + 165개국 533), OECD·G20·BRICS·EU·ASEAN 회원국 모두 국가 상세 보유(AU는 20개국 지역 랭킹 + 전 회원국 대학 순위), 153개국에 대학 순위, 7개 카테고리 (Economy, Education, Technology, AI, Society & Health, Energy & Industry, World Records)
 - 랭킹 상단 시각화는 성격별 12종(지도·트리맵·대륙별 막대·원 패킹·와플·분포 스트립·히스토그램·산점도·발산 막대·버블맵·포디움·롤리팝)이며 `pickViz` 가 고르고 `ranking-viz` 스킬로 관리
 - 페이지: 홈(지구본), 랭킹, 카테고리, 국가, 검색
 - 커밋: 프로토타입 → 지구본 재작성 + 국가 페이지/국가 한정 랭킹 → 프로젝트 문서 추가
@@ -107,3 +107,4 @@
 | 2026-10-14 | 문서 3종(project_plan / srs / software_architecture) 및 CLAUDE.md 최초 작성. 현재 코드베이스 기준으로 상태 정리 |
 | 2026-10-15 | 시각화 6종 추가(`regions`·`packed`·`waffle`·`histogram`·`scatter`·`podium`), `d3-hierarchy` 의존성 추가, `VIZ_PAIRS` 로 관련 랭킹 산점도, 대륙 고정색 팔레트 검증, `ranking-viz` 스킬 규칙 표를 순서 있는 12종으로 개정 |
 | 2026-10-15 | 랭킹 페이지가 자기 값만 그리도록 `VIZ_PAIRS`(산점도 짝)를 비움(인터넷 이용률 페이지에 GDP 축이 나오던 문제), 산점도 축 이름 `AXIS_NAMES` 추가, 원 패킹 버블에 즉시 뜨는 툴팁(`data-tip`) 적용 |
+| 2026-10-15 | PISA 2025 수학 점수 랭킹(`math-scores`, 40개국·지역, Education) 수동 추가: Visual Capitalist 그래픽을 2차 출처로 옮겨 출처 표기만 남김. 시각화는 `strip`. 세계 랭킹 91개 |

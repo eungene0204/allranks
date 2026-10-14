@@ -59,7 +59,7 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 | FR-24 | World Bank 지표 기반 랭킹을 자동 수집한다 (표본 ≥150개국인 최신 연도, 전 행 동일 연도) | ✅ |
 | FR-25 | Big Mac, Ookla 속도, Wikipedia 표(세계/US) 기반 랭킹을 자동 수집한다 | ✅ |
 | FR-26 | 수동 랭킹은 `verified` 플래그로 관리하고 미검증이면 "Sample data"로 표시한다 | ✅ |
-| FR-27 | 현재 세계 90개 + US 24개 + 기타 165개국 533개(국가 한정) 랭킹을 제공한다 | ✅ |
+| FR-27 | 현재 세계 91개 + US 24개 + 기타 165개국 533개(국가 한정) 랭킹을 제공한다 | ✅ |
 | FR-29 | 모든 카테고리에 세계 랭킹이 1개 이상 있고(Markets·Money·Demographics·Mining·Autos·Green 주제는 통합 카테고리 안에서 제공, AI는 독립), 신규 39개와 AI 카테고리 추가 14개(AI 슈퍼컴퓨터 수·연산력·전력, 최대 클러스터, TOP500, 반도체 수출, AI 논문, AI 채용 비중, 생성형 AI 이용률, 로봇 밀도, 연구원, 첨단기술·IT서비스 수출)는 모두 자동 어댑터(World Bank, Our World in Data, Epoch AI, Wikipedia 표)로 수집한다. 국가별 데이터센터 수(`data-centers`, 상위 25개국)는 자동 어댑터가 가능한 공개 출처가 없어 웹 조사로 수집한 `source.kind: "agent"` 랭킹(미검증, 출처 URL 2개 명시)이며, AI 슈퍼컴퓨터 센서스(Epoch AI)와는 별개다. 수동 입력 없음 | ✅ |
 | FR-28 | US 외 다른 국가의 지역 랭킹을 제공한다 — KR·JP·CN·IN·DE·GB·FR·IT·ES·CA·AU·BR·MX·RU·ID·TR·NL·CH·PL·SE·AR·ZA·TH·MY·SA·EG·PK·AT·BE·NO·FI·GR·NZ·UA + 나머지 OECD 16개국(CL·CO·CR·CZ·DK·EE·HU·IE·IL·IS·LT·LU·LV·PT·SI·SK) + BRICS 신규·파트너(AE·ET·IR·NG·VN·KZ·BY·UZ) + EU 잔여(BG·HR·CY·MT·RO) + ASEAN 잔여(SG·PH·MM·KH·LA·BN·TL) + 아프리카연합 주요국(DZ·MA·KE·GH·TZ·UG·TN·AO·CI·CM·SN·ZM·ZW·MZ·SD·CD). OECD 38개국·G20·BRICS·EU 27·ASEAN 11 회원국 전부 포함. 아프리카연합 55개국 중 지역 랭킹은 위키피디아 표가 있는 20개국만(나머지는 FR-70 대학 순위만)(지역 인구·GDP, 도시, 마천루, 공항, 일부 기업) | ✅ |
 | FR-70 | 독립국 153개국에 "연구 영향력 대학 순위"(OpenAlex 총 피인용수, CC0)를 제공한다. 미국은 College Scorecard 순위 사용. 대학이 5개 미만인 40개국 제외. 평판·교육 품질이 아닌 연구 영향력 지표임을 출처에 명시 | ✅ |
