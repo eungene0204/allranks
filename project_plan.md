@@ -22,7 +22,7 @@
 | M3 | 랭킹 확장: 세계 36개, 국가 한정(scope) 랭킹 구조, US 20개 | ✅ 완료 | |
 | M4 | 국가 상세 페이지 + 로고 지원 | ✅ 완료 | |
 | M5 | 정리·품질: 수동 랭킹 4종 검증, 메타데이터/SEO 점검, 테스트 | ⬜ 예정 | 다음 작업 후보 |
-| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | ⬜ 예정 | |
+| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | 🚧 진행 | Vercel, `www.allranks.world` 접속 가능. AdSense 준비물(ads.txt·정보 페이지·스크립트)은 코드에 있으나 미배포이고 게시자 ID 환경변수가 필요 |
 | M10 | 빈 카테고리 채우기: AI, Markets, Energy, Money, Demographics, Mining, Autos, Green 주제에 자동 수집 랭킹 39개(이후 7개 카테고리로 통합) | ✅ 완료 | `scripts/topics.mts`. 수집 대상은 모두 어댑터(재현 가능). 금 생산국은 출처 표 결측 때문에 제외 |
 | M7 | 자동화: 정기 데이터 갱신(CI/cron), 데이터 신선도 알림 | 🚧 진행 | 주간 워크플로 작성됨(미실행). 신선도 알림은 미구현 |
 | M9 | AI 데이터 수집 에이전트: 없는 랭킹 발굴(discover) + 기존 랭킹 최신화(refresh) | 🚧 v0 구현 | 도구·루프·가드·CLI 완료, 모의 클라이언트로 검증. **실제 API 실행 미검증** |
@@ -34,6 +34,8 @@
 
 - 🔴 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩) 값 검증 → `verified: true`
 - 🟡 페이지별 메타데이터/OG 이미지 점검 (FR-41)
+- 🟡 Google Search Console 등록(도메인 속성, DNS TXT 인증) 후 `sitemap.xml` 제출 — 재배포 뒤에 진행
+- 🔴 AdSense: 도메인 배포 → 커밋·푸시로 재배포 → `/ads.txt` 확인 → AdSense에서 사이트 추가·심사 요청 → Privacy & messaging에서 EEA 동의 메시지 설정. 다른 사이트에서 'Low value content'로 반려된 사례가 있어, 순위별 해설 문장 등 독자 가치 보강 필요
 - 🟡 배포 환경 결정 및 배포
 - 🟡 기본 테스트 추가 (데이터 로더, 포맷, 순위 계산)
 - 🟢 국가별 랭킹 보강: KR·JP 등 대학 순위(공개 소스 없음), 오래된 표(JP 기업 2022·KR 기업 2023·BR 공항 2022) 갱신, 더 많은 국가
@@ -64,6 +66,11 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-14 | `robots.txt`(`src/app/robots.ts`) 추가: 전체 허용, `/search` 제외, 사이트맵 위치 명시(Search Console 등록 준비) |
+| 2026-10-14 | AdSense 게시자 ID(`pub-8335444243080631`)를 기본값으로 설정해 환경변수 없이도 `/ads.txt`·스크립트 활성화 |
+| 2026-10-14 | 사이트 URL 기본값을 `https://www.allranks.world` 로 설정(Vercel에 환경변수가 없어 사이트맵이 localhost로 나가던 문제 수정) |
+| 2026-10-14 | 연락처 이메일 `allworldranks@gmail.com` 을 About·Privacy 페이지 기본값으로 설정 |
+| 2026-10-14 | AdSense 준비: `/ads.txt`(환경변수 `NEXT_PUBLIC_ADSENSE_CLIENT` 설정 시), About·Methodology·Privacy 페이지, 푸터 링크, AdSense 스크립트·메타 태그(`src/lib/site.ts`) |
 | 2026-10-14 | 국가별 데이터센터 수 랭킹(`data-centers`, 25개국, 2025년) 추가: 웹 조사로 수집한 agent 랭킹(`verified:false`), 가드(`Toolbox.create_ranking`) 통과. 세계 랭킹 90개 |
 | 2026-10-14 | AI 카테고리 랭킹 14개 추가(2→16): Epoch AI GPU 클러스터(`sources/epoch.mts`)로 AI 슈퍼컴퓨터 수·연산력·전력·최대 클러스터, TOP500·반도체 수출(Wikipedia), AI 논문·채용·생성형 AI 이용률·로봇 밀도(OWID), 연구원·첨단기술·IT서비스 수출(World Bank). 총 469개 |
 | 2026-10-14 | 헤더 메뉴 15개를 7개로 통합(AI는 독립): Prices·Markets·Money→Economy, Health·Demographics→Society & Health, Mining·Autos·Green→Energy & Industry. 랭킹 JSON 36개와 파이프라인 정의의 `category` 갱신 |

@@ -95,8 +95,12 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 
 | ID | 요구사항 | 상태 |
 | --- | --- | --- |
-| FR-40 | 사이트맵에 홈·카테고리·랭킹·국가 페이지를 포함한다 | ✅ |
+| FR-40 | 사이트맵에 홈·카테고리·랭킹·국가·정보 페이지를 포함하고, `robots.txt` 가 사이트맵 위치를 알려준다(검색 결과 페이지 `/search` 는 크롤링 제외) | ✅ |
 | FR-41 | 페이지별 메타데이터(title/description) 제공 | 🚧 확인 필요 |
+| FR-70 | `/about`, `/methodology`, `/privacy` 정보 페이지를 제공하고 푸터와 사이트맵에서 연결한다. 방법론 페이지는 실제 데이터에서 출처·라이선스·랭킹 수를 집계해 보여준다 | ✅ |
+| FR-71 | AdSense 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT` 로 변경, `off` 면 비활성)가 유효할 때 AdSense 스크립트, `google-adsense-account` 메타 태그, `/ads.txt` 를 내보낸다. 비활성이면 광고 없음, `/ads.txt` 404 | ✅ |
+| FR-72 | 방문자 개인정보를 저장하지 않으며 계정·로그인·자체 쿠키가 없다. 개인정보처리방침에 서버 로그, 광고 쿠키(Google), 옵트아웃 방법을 명시한다. EEA·영국·스위스용 동의 메시지는 코드가 아니라 AdSense의 Privacy & messaging(Google 인증 CMP)에서 설정한다 | 🚧 (AdSense 콘솔 설정 필요) |
+| FR-73 | About·개인정보 페이지에 연락처(기본 `allworldranks@gmail.com`, `NEXT_PUBLIC_CONTACT_EMAIL` 로 변경 가능)를 표시한다 | ✅ |
 
 ## 4. 비기능 요구사항
 

@@ -60,13 +60,16 @@ scripts/
   lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
   sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
 src/
+  lib/site.ts                        배포 환경변수(ADSENSE_CLIENT, CONTACT_EMAIL, SITE_URL)
   app/
-    layout.tsx, globals.css, not-found.tsx, sitemap.ts
+    layout.tsx, globals.css, not-found.tsx, sitemap.ts, robots.ts(전체 허용·`/search` 제외·사이트맵 위치)
     page.tsx                         홈 (지구본 + 랭킹 카드, 카테고리 탐색은 헤더에서 제공)
     ranking/[id]/page.tsx            랭킹 상세
     category/[id]/page.tsx           카테고리별 목록
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)
     search/page.tsx                  검색
+    about / methodology / privacy    정보 페이지 (methodology는 데이터에서 출처 표 생성)
+    ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
     RankingCard / RankingTable / RankBadge / SourceLine / Header / Mark
@@ -139,7 +142,8 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 - `data.ts`는 `server-only`; 프로덕션에서는 랭킹 목록을 메모리에 캐시한다.
 - `GlobeExplorer`만 클라이언트 컴포넌트이며, 서버에서 만든 `CountrySummary[]`를 props로 받는다.
 - 국가 순위 집계: 1위 횟수 → 3위 이내 횟수 → 등장 횟수 → 이름순.
-- 사이트 URL은 `NEXT_PUBLIC_SITE_URL`(없으면 `http://localhost:3000`)을 사이트맵에서 사용한다.
+- 사이트 URL은 `src/lib/site.ts`의 `SITE_URL`(`NEXT_PUBLIC_SITE_URL`, 없으면 `https://www.allranks.world`)을 사이트맵과 `metadataBase`에서 사용한다. 호스팅은 Vercel.
+- 광고: `src/lib/site.ts`의 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT`로 덮어쓰기, `off`면 비활성)가 유효하면 `layout.tsx`가 `next/script`로 AdSense 스크립트와 `google-adsense-account` 메타를 넣고 `/ads.txt` 가 활성화된다. 연락처는 기본 `allworldranks@gmail.com`이고 `NEXT_PUBLIC_CONTACT_EMAIL`로 바꿀 수 있다. 환경변수는 빌드 때 고정되므로 바꾸면 다시 빌드한다.
 
 ## 7. 확장 지점
 

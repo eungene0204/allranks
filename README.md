@@ -92,6 +92,14 @@ also gets a **research-impact university ranking** from [OpenAlex](https://opena
 the total citations their papers have received (`scripts/regional/openalex.mts`, one API call per country). It measures research output,
 not teaching quality or prestige, and favours large, old universities; China, the UK and Canada also keep their QS / league-table rankings.
 
+### Site settings (environment variables, read at build time)
+
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Canonical URL used by the sitemap and metadata (default `https://www.allranks.world`) |
+| `NEXT_PUBLIC_ADSENSE_CLIENT` | AdSense publisher ID (`ca-pub-…`, default `ca-pub-8335444243080631`). Enables the ad script, the verification meta tag and `/ads.txt`; set it to `off` to turn ads off |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact address shown on the About and Privacy pages (default `allworldranks@gmail.com`) |
+
 ### Manual rankings
 
 QS universities, gasoline prices, happiness and tallest buildings have no stable free API, so they live directly in

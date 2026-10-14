@@ -185,6 +185,18 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 24px 0; font-size: 14px; color: var(--muted); }
 .site-footer strong { color: var(--text); }
+.footer-links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 8px; }
+.footer-links a:hover { color: var(--text); text-decoration: underline; }
+
+/* Text pages (About, Methodology, Privacy) */
+.prose { max-width: 44em; padding-bottom: 40px; }
+.prose h2 { font-size: 20px; letter-spacing: -.02em; margin: 28px 0 8px; }
+.prose p, .prose li { color: var(--text); }
+.prose ul { padding-left: 1.2em; }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.prose table.plain { width: 100%; border-collapse: collapse; font-size: 14px; }
+.prose table.plain th, .prose table.plain td { text-align: left; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.prose table.plain th { color: var(--muted); font-weight: 600; }
 
 /* Centered hero + globe */
 .hero.center { text-align: center; padding: 28px 0 0; }
