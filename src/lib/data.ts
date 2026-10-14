@@ -28,6 +28,12 @@ export function allRankings(): Ranking[] {
 const countries = () =>
   (countriesCache ??= new Map(readJson<CountryRow[]>("countries.json").map((c) => [c.code, c])));
 
+/** Name and world region of a country code, for generated text. */
+export const countryInfo = (code: string) => {
+  const c = countries().get(code);
+  return c ? { name: c.name, region: c.region ?? "" } : undefined;
+};
+
 export const getRanking = (id: string) => allRankings().find((r) => r.id === id);
 export const rankingsIn = (categoryId: string) => allRankings().filter((r) => r.category === categoryId);
 

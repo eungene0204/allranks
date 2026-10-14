@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import RankingInsights from "@/components/RankingInsights";
 import RankingTable from "@/components/RankingTable";
 import SourceLine from "@/components/SourceLine";
 import { getCategory } from "@/lib/categories";
 import { allRankings, getRanking } from "@/lib/data";
 import { flagEmoji } from "@/lib/format";
+import { rankingSnippet } from "@/lib/insights";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -18,7 +20,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = getRanking((await params).id);
   if (!r) return {};
-  return { title: `${r.title} (${r.asOf ?? r.year})`, description: r.desc };
+  return { title: `${r.title} (${r.asOf ?? r.year})`, description: rankingSnippet(r) };
 }
 
 const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
@@ -52,6 +54,7 @@ export default async function RankingPage({ params }: Props) {
         {r.source.kind === "agent" && r.source.verified === false && <span className="chip chip-warn">AI-collected · unverified</span>}
       </div>
       <RankingTable ranking={r} />
+      <RankingInsights ranking={r} />
       <SourceLine ranking={r} />
     </>
   );

@@ -188,6 +188,11 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 8px; }
 .footer-links a:hover { color: var(--text); text-decoration: underline; }
 
+/* Generated highlights under a ranking */
+.insights { margin: 28px 0 0; max-width: 46em; }
+.insights h2 { font-size: 18px; letter-spacing: -.02em; margin: 0 0 8px; }
+.insights p { margin: 0 0 10px; color: var(--text); }
+
 /* Text pages (About, Methodology, Privacy) */
 .prose { max-width: 44em; padding-bottom: 40px; }
 .prose h2 { font-size: 20px; letter-spacing: -.02em; margin: 28px 0 8px; }

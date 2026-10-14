@@ -72,7 +72,7 @@ src/
     ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
-    RankingCard / RankingTable / RankBadge / SourceLine / Header / Mark
+    RankingCard / RankingTable / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 페이지의 지역(주·도시 등) 랭킹 탭
     SearchForm.tsx      홈·검색 결과 페이지 공유 GET 검색 폼 (/search?q=…)
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
@@ -81,6 +81,7 @@ src/
     categories.ts       카테고리 정의 (7개로 통합: economy, education, tech, ai, society, energy, world)
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
+    insights.ts         랭킹 값으로 해설 문장·meta description 생성 (순수 함수, 외부 지식/LLM 없음)
 public/logos/           항목 로고 (<domain>.png)
 ```
 

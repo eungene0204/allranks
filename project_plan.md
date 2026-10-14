@@ -35,6 +35,7 @@
 - 🔴 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩) 값 검증 → `verified: true`
 - 🟡 페이지별 메타데이터/OG 이미지 점검 (FR-41)
 - 🟡 Google Search Console 등록(도메인 속성, DNS TXT 인증) 후 `sitemap.xml` 제출 — 재배포 뒤에 진행
+- 🟢 해설 확장: 국가·카테고리 페이지에도 자동 해설, 랭킹별 사람이 쓴 설명 추가
 - 🔴 AdSense: 도메인 배포 → 커밋·푸시로 재배포 → `/ads.txt` 확인 → AdSense에서 사이트 추가·심사 요청 → Privacy & messaging에서 EEA 동의 메시지 설정. 다른 사이트에서 'Low value content'로 반려된 사례가 있어, 순위별 해설 문장 등 독자 가치 보강 필요
 - 🟡 배포 환경 결정 및 배포
 - 🟡 기본 테스트 추가 (데이터 로더, 포맷, 순위 계산)
@@ -66,6 +67,7 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-14 | 랭킹 페이지에 자동 생성 해설 "Highlights" 추가(`lib/insights.ts`, `RankingInsights`): 1~3위, 격차, 범위·중앙값, 대륙 분포, 국가별 항목 수, 출처. meta description 에도 상위 3개 요약 반영(AdSense 'Low value content' 대응) |
 | 2026-10-14 | `robots.txt`(`src/app/robots.ts`) 추가: 전체 허용, `/search` 제외, 사이트맵 위치 명시(Search Console 등록 준비) |
 | 2026-10-14 | AdSense 게시자 ID(`pub-8335444243080631`)를 기본값으로 설정해 환경변수 없이도 `/ads.txt`·스크립트 활성화 |
 | 2026-10-14 | 사이트 URL 기본값을 `https://www.allranks.world` 로 설정(Vercel에 환경변수가 없어 사이트맵이 localhost로 나가던 문제 수정) |
