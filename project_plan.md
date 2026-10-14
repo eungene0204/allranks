@@ -106,3 +106,4 @@
 | 2026-10-14 | 문서 갱신 규칙을 "커밋 시점에 반영, 같은 커밋에 포함"으로 변경하고 커밋 관련 낡은 문구 정리 |
 | 2026-10-14 | 문서 3종(project_plan / srs / software_architecture) 및 CLAUDE.md 최초 작성. 현재 코드베이스 기준으로 상태 정리 |
 | 2026-10-15 | 시각화 6종 추가(`regions`·`packed`·`waffle`·`histogram`·`scatter`·`podium`), `d3-hierarchy` 의존성 추가, `VIZ_PAIRS` 로 관련 랭킹 산점도, 대륙 고정색 팔레트 검증, `ranking-viz` 스킬 규칙 표를 순서 있는 12종으로 개정 |
+| 2026-10-15 | 랭킹 페이지가 자기 값만 그리도록 `VIZ_PAIRS`(산점도 짝)를 비움(인터넷 이용률 페이지에 GDP 축이 나오던 문제), 산점도 축 이름 `AXIS_NAMES` 추가, 원 패킹 버블에 즉시 뜨는 툴팁(`data-tip`) 적용 |

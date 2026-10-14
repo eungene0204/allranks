@@ -85,7 +85,7 @@ src/
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
     map.ts              world-atlas(110m)를 Natural Earth 투영의 SVG 경로로 변환(프로세스당 1회), `data/map-codes.json`으로 도형→ISO 코드 연결
-    viz.ts              랭킹 성격(단위·개수·음수·scope·multi)으로 시각화 6종 중 하나를 고르는 `pickViz`, 예외 `VIZ_OVERRIDES`, 산점도 짝 `VIZ_PAIRS`
+    viz.ts              랭킹 성격(단위·개수·음수·scope·multi)으로 시각화 6종 중 하나를 고르는 `pickViz`, 예외 `VIZ_OVERRIDES`, 산점도 짝 `VIZ_PAIRS`(현재 비어 있음)·축 이름 `AXIS_NAMES`
     treemap.ts / scale.ts  squarified 트리맵 배치 / 선형·로그 눈금과 틱
     insights.ts         랭킹 값으로 해설 문장·meta description 생성 (순수 함수, 외부 지식/LLM 없음)
 .claude/skills/ranking-viz/  시각화 선택·검증 절차 프로젝트 스킬 (랭킹 추가·변경 시마다 사용)
