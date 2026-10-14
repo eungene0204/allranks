@@ -22,7 +22,7 @@ export default function Podium({ ranking: r }: { ranking: Ranking }) {
               <span className="pd-rank" style={{ background: MEDAL[i] }}>{x.rank}</span>
               <span className="pd-name">
                 {x.logo ? <Mark icon="" logo={x.logo} /> : !r.scope && <span>{x.flag}</span>}
-                <span title={x.name}>{x.name}</span>
+                <span data-tip={x.name}>{x.name}</span>
               </span>
               <b className="pd-val">{formatValue(r, x.value)}</b>
               <span className="pd-rel">{i === 0 ? r.unit : `${Math.round((x.value / lead) * 100)}% of #1`}</span>
@@ -35,7 +35,7 @@ export default function Podium({ ranking: r }: { ranking: Ranking }) {
       {rest.length > 0 && (
         <ul className="pd-rest">
           {rest.map((x) => (
-            <li key={x.name} title={`#${x.rank} ${x.name}: ${formatValue(r, x.value)}`}>
+            <li key={x.name} data-tip={`#${x.rank} ${x.name}: ${formatValue(r, x.value)}`}>
               <span className="muted">#{x.rank}</span> {!r.scope && x.flag} {x.name} <b>{formatValue(r, x.value)}</b>
             </li>
           ))}

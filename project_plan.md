@@ -108,3 +108,4 @@
 | 2026-10-15 | 시각화 6종 추가(`regions`·`packed`·`waffle`·`histogram`·`scatter`·`podium`), `d3-hierarchy` 의존성 추가, `VIZ_PAIRS` 로 관련 랭킹 산점도, 대륙 고정색 팔레트 검증, `ranking-viz` 스킬 규칙 표를 순서 있는 12종으로 개정 |
 | 2026-10-15 | 랭킹 페이지가 자기 값만 그리도록 `VIZ_PAIRS`(산점도 짝)를 비움(인터넷 이용률 페이지에 GDP 축이 나오던 문제), 산점도 축 이름 `AXIS_NAMES` 추가, 원 패킹 버블에 즉시 뜨는 툴팁(`data-tip`) 적용 |
 | 2026-10-15 | PISA 2025 수학 점수 랭킹(`math-scores`, 40개국·지역, Education) 수동 추가: Visual Capitalist 그래픽을 2차 출처로 옮겨 출처 표기만 남김. 시각화는 `strip`. 세계 랭킹 91개 |
+| 2026-10-15 | 시각화 툴팁을 `TipLayer`(즉시 표시)로 통일하고, 버블·지도·산점도의 이름 라벨 겹침을 `src/lib/labels.ts`로 회피 |

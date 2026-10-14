@@ -68,14 +68,14 @@ export default function Strip({ ranking: r }: { ranking: Ranking }) {
               {scale.ticks.map((t) => (
                 <i key={t} className="strip-grid" style={{ left: `${at(t)}%` }} />
               ))}
-              <i className="strip-med" style={{ left: `${at(row.med)}%` }} title={`Median: ${fmt(row.med)}`} />
+              <i className="strip-med" style={{ left: `${at(row.med)}%` }} data-tip={`Median: ${fmt(row.med)}`} />
               {row.dots.map((d) => {
                 const style = { left: `${d.x}%`, top: `${-row.top + d.y - D / 2}px` };
                 const title = `${d.name}: ${fmt(d.value)} (#${d.rank})`;
                 return !r.scope && !r.multi ? (
-                  <Link key={d.name} className="strip-dot" style={style} href={`/country/${d.country}`} prefetch={false} title={title} aria-label={title} />
+                  <Link key={d.name} className="strip-dot" style={style} href={`/country/${d.country}`} prefetch={false} data-tip={title} aria-label={title} />
                 ) : (
-                  <span key={d.name} className="strip-dot" style={style} title={title} />
+                  <span key={d.name} className="strip-dot" style={style} data-tip={title} />
                 );
               })}
             </div>

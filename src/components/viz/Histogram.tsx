@@ -33,7 +33,7 @@ export default function Histogram({ ranking: r }: { ranking: Ranking }) {
           {bins.map((b, i) => {
             const names = b.slice(0, 6).map((x) => x.name).join(", ");
             return (
-              <div className="hg-col" key={i} title={`${fmt(edge(i))} – ${fmt(edge(i + 1))}: ${b.length} ${b.length === 1 ? "entry" : "entries"}${b.length ? ` — ${names}${b.length > 6 ? "…" : ""}` : ""}`}>
+              <div className="hg-col" key={i} data-tip={`${fmt(edge(i))} – ${fmt(edge(i + 1))}: ${b.length} ${b.length === 1 ? "entry" : "entries"}${b.length ? ` — ${names}${b.length > 6 ? "…" : ""}` : ""}`}>
                 <span className="hg-n">{b.length || ""}</span>
                 <i style={{ height: `${(b.length / peak) * 100}%` }} />
               </div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getRanking } from "@/lib/data";
 import { formatValue, ranked } from "@/lib/format";
 import { compact, makeScale } from "@/lib/scale";
+import { placeLabels } from "@/lib/labels";
 import { AXIS_NAMES, VIZ_PAIRS } from "@/lib/viz";
 import type { Ranking } from "@/lib/types";
 
@@ -23,6 +24,14 @@ export default function Scatter({ ranking: r }: { ranking: Ranking }) {
   const py = (v: number) => 4 + (1 - sy.pos(v)) * 90;
   // Label the extremes on each axis; they are the entries a reader will look for.
   const named = new Set([...pts.slice(0, 4), ...pts.slice(-2), ...[...pts].sort((a, b) => b.x - a.x).slice(0, 3)].slice(0, LABELS + 4).map((p) => p.name));
+  // Names go where they fit (nominal 800×450 plot, the 16:9 desktop size); crowded ones stay hover-only.
+  const cands = pts.filter((p) => named.has(p.name));
+  const sides = placeLabels(
+    cands.map((p) => ({ x: px(p.x) * 8, y: py(p.value) * 4.5, r: 4.5, text: `${p.flag} ${p.name}` })),
+    { w: 800, h: 450 },
+    { hideCrowded: true },
+  );
+  const sideOf = new Map(cands.map((p, i) => [p.name, sides[i]]));
   const fmtY = (v: number) => formatValue(r, v);
   const fmtX = (v: number) => formatValue(other, v);
   const nameY = AXIS_NAMES[r.id] ?? r.short ?? r.title;
@@ -40,8 +49,8 @@ export default function Scatter({ ranking: r }: { ranking: Ranking }) {
             const title = `${p.name}: ${fmtY(p.value)} · ${nameX} ${fmtX(p.x)}`;
             const style = { left: `${px(p.x)}%`, top: `${py(p.value)}%` };
             return (
-              <Link key={p.name} className="sc-dot" style={style} href={`/country/${p.country}`} prefetch={false} title={title} aria-label={title}>
-                {named.has(p.name) && <span className={px(p.x) > 80 ? "left" : undefined}>{p.flag} {p.name}</span>}
+              <Link key={p.name} className="sc-dot" style={style} href={`/country/${p.country}`} prefetch={false} data-tip={title} aria-label={title}>
+                {sideOf.get(p.name) && <span className={`map-name ${sideOf.get(p.name)}`}>{p.flag} {p.name}</span>}
               </Link>
             );
           })}

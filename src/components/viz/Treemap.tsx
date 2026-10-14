@@ -46,11 +46,11 @@ export default function Treemap({ ranking: r }: { ranking: Ranking }) {
           );
           const title = `${t.name}: ${formatValue(r, t.value)} · ${pct(t.value)} of the total${t.other ? "" : ` (#${t.rank})`}`;
           return !r.scope && !t.other && t.country ? (
-            <Link key={t.name} className={`tm-tile ${shade}`} style={style} href={`/country/${t.country}`} prefetch={false} title={title}>
+            <Link key={t.name} className={`tm-tile ${shade}`} style={style} href={`/country/${t.country}`} prefetch={false} data-tip={title}>
               {body}
             </Link>
           ) : (
-            <div key={t.name} className={`tm-tile ${shade}`} style={style} title={title}>
+            <div key={t.name} className={`tm-tile ${shade}`} style={style} data-tip={title}>
               {body}
             </div>
           );

@@ -132,7 +132,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 ## 6. 렌더링 전략
 
-- 랭킹 상세 상단 시각화는 `RankingViz`가 `pickViz` 결과로 분기한다. 지도·버블맵의 도형만 SVG이고, 글자가 있는 트리맵·스트립·발산 막대·롤리팝은 퍼센트 좌표 HTML로 그려 모바일에서도 글자 크기가 유지된다. 모두 서버 컴포넌트라 클라이언트 JS가 없다. 색은 `--bar` 단일 색 + 중립 회색(음수만 `--neg`)이며, 대륙 구분은 행(facet)으로 한다. 예외는 `Regions` 누적 막대의 대륙 고정색 `--c1`~`--c5`(dataviz `validate_palette.js` 검증 팔레트)뿐이다. 버블맵은 `lib/map.ts`의 `projectPoint`와 `data.ts`의 `countryCoords`로 국가 좌표를 투영한다.
+- 랭킹 상세 상단 시각화는 `RankingViz`가 `pickViz` 결과로 분기한다. 지도·버블맵의 도형만 SVG이고, 글자가 있는 트리맵·스트립·발산 막대·롤리팝은 퍼센트 좌표 HTML로 그려 모바일에서도 글자 크기가 유지된다. 시각화 본체는 서버 컴포넌트이고, 클라이언트 JS는 즉시 툴팁을 띄우는 `TipLayer`(`data-tip` 속성을 읽는 작은 클라이언트 컴포넌트)뿐이다. 이름 라벨 배치(겹침 회피)는 `src/lib/labels.ts`의 `placeLabels`가 맡는다. 색은 `--bar` 단일 색 + 중립 회색(음수만 `--neg`)이며, 대륙 구분은 행(facet)으로 한다. 예외는 `Regions` 누적 막대의 대륙 고정색 `--c1`~`--c5`(dataviz `validate_palette.js` 검증 팔레트)뿐이다. 버블맵은 `lib/map.ts`의 `projectPoint`와 `data.ts`의 `countryCoords`로 국가 좌표를 투영한다.
 
 - 카테고리 목록은 세계 랭킹(`scope` 없음)을 먼저, 국가 내부 랭킹을 다음에 표시한다. 각 그룹에서는 기존 sort 값 및 제목 순서를 유지한다.
 

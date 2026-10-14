@@ -20,7 +20,7 @@ export default function Lollipop({ ranking: r }: { ranking: Ranking }) {
           const name = (
             <>
               {x.logo ? <Mark icon="" logo={x.logo} /> : !r.scope && <span>{x.flag}</span>}
-              <span className="lp-text" title={x.name}>{x.name}</span>
+              <span className="lp-text" data-tip={x.name}>{x.name}</span>
             </>
           );
           return (

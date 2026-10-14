@@ -26,7 +26,7 @@ export default function Regions({ ranking: r }: { ranking: Ranking }) {
       <div className="rg" role="img" aria-label={`${r.title} by world region: ${parts.map((p) => `${p.name} ${fmtPct(p.value)}`).join(", ")}.`}>
         <div className="rg-bar">
           {parts.map((p) => (
-            <div key={p.name} className={`c${SLOT[p.name] ?? 0}`} style={{ width: `${pct(p.value)}%` }} title={`${p.name}: ${formatValue(r, p.value)} (${fmtPct(p.value)})`}>
+            <div key={p.name} className={`c${SLOT[p.name] ?? 0}`} style={{ width: `${pct(p.value)}%` }} data-tip={`${p.name}: ${formatValue(r, p.value)} (${fmtPct(p.value)})`}>
               {pct(p.value) >= 7 && <span>{p.name} {fmtPct(p.value)}</span>}
             </div>
           ))}
@@ -41,7 +41,7 @@ export default function Regions({ ranking: r }: { ranking: Ranking }) {
               </div>
               <div className="rg-top">
                 {p.xs.slice(0, 3).map((x) => (
-                  <Link key={x.name} href={`/country/${x.country}`} prefetch={false} title={`${x.name}: ${formatValue(r, x.value)}`}>
+                  <Link key={x.name} href={`/country/${x.country}`} prefetch={false} data-tip={`${x.name}: ${formatValue(r, x.value)}`}>
                     {x.flag} {x.name} <span className="muted">{formatValue(r, x.value)}</span>
                   </Link>
                 ))}

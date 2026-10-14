@@ -260,10 +260,21 @@ a.strip-dot:hover, a.strip-dot:focus-visible { outline: 2px solid var(--text); o
 .lp-plot b { position: absolute; top: 0; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%; background: var(--bar); box-shadow: 0 0 0 2px var(--surface); }
 .lp-val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; font-size: 14px; }
 
-.bubbles svg { display: block; width: 100%; height: auto; }
+.bb-plot { position: relative; aspect-ratio: 2 / 1; }
+.bb-plot > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* Name labels for maps and plots. src/lib/labels.ts picks the side (r/l/t/b) per mark so names do not cover each other. */
+.map-anchor { position: absolute; width: 0; height: 0; }
+.map-name { position: absolute; white-space: nowrap; font-size: 11px; font-weight: 600; color: var(--text); pointer-events: none; text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg), 0 0 3px var(--bg); }
+.map-name.r { left: calc(100% + 5px); top: 50%; translate: 0 -50%; }
+.map-name.l { right: calc(100% + 5px); top: 50%; translate: 0 -50%; }
+.map-name.t { bottom: calc(100% + 4px); left: 50%; translate: -50% 0; }
+.map-name.b { top: calc(100% + 4px); left: 50%; translate: -50% 0; }
+.rank-map-plot { position: relative; aspect-ratio: 2 / 1; }
+.rank-map-plot > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .bubbles path { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
-.bubbles circle { fill: color-mix(in srgb, var(--bar) 75%, transparent); stroke: var(--bar); stroke-width: 1.5; }
-.bubbles a:hover circle, .bubbles a:focus-visible circle { stroke: var(--text); stroke-width: 2.5; }
+.bb-dot { position: absolute; translate: -50% -50%; aspect-ratio: 1 / 1; border-radius: 50%; box-sizing: border-box; background: color-mix(in srgb, var(--bar) 75%, transparent); border: 1.5px solid var(--bar); z-index: var(--z); }
+.bb-dot:hover, .bb-dot:focus-visible { outline: none; border-color: var(--text); border-width: 2.5px; z-index: 50; }
+/* Bubble = a link box sized in % of the map; its name label is placed by src/lib/labels.ts (see .map-name). */
 a.map-key:hover { color: var(--text); text-decoration: underline; }
 
 @media (max-width: 640px) {
@@ -303,13 +314,8 @@ a.map-key:hover { color: var(--text); text-decoration: underline; }
 .pk-dot b { font-size: 13px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pk-dot span { font-variant-numeric: tabular-nums; opacity: .85; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 a.pk-dot:hover, a.pk-dot:focus-visible { outline: 2px solid var(--text); outline-offset: -2px; z-index: 1; }
-/* Instant tooltip (a native title waits about a second): the small circles carry only a flag, so hovering must name the entry. */
+/* Hover tooltips are drawn by TipLayer (src/components/TipLayer.tsx) from data-tip. */
 .pk-dot:hover, .pk-dot:focus-visible { z-index: 2; }
-.pk-dot:hover::after, .pk-dot:focus-visible::after {
-  content: attr(data-tip); position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
-  padding: 5px 9px; border-radius: 6px; background: var(--text); color: var(--bg); font-size: 12px; font-weight: 600;
-  line-height: 1.3; white-space: nowrap; pointer-events: none; box-shadow: 0 2px 8px rgb(0 0 0 / .3);
-}
 
 .hg { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 14px 8px; }
 .hg-plot { position: relative; display: flex; gap: 3px; align-items: stretch; height: 220px; border-bottom: 1px solid var(--line); }
@@ -340,8 +346,6 @@ a.pk-dot:hover, a.pk-dot:focus-visible { outline: 2px solid var(--text); outline
 .sc-gy { position: absolute; left: 0; right: 0; border-top: 1px solid var(--line); opacity: .6; }
 .sc-ty { position: absolute; right: 100%; translate: -4px -50%; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .sc-dot { position: absolute; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%; background: color-mix(in srgb, var(--bar) 80%, transparent); box-shadow: 0 0 0 1px var(--surface); }
-.sc-dot span.left { left: auto; right: 10px; }
-.sc-dot span { position: absolute; left: 10px; top: -5px; white-space: nowrap; font-size: 11px; color: var(--text); pointer-events: none; }
 a.sc-dot:hover, a.sc-dot:focus-visible { outline: 2px solid var(--text); outline-offset: 1px; z-index: 2; }
 .sc-axis { grid-column: 2; grid-row: 3; position: relative; height: 22px; }
 .sc-axis span { position: absolute; top: 4px; translate: -50% 0; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -464,3 +468,7 @@ a.pd-card:hover { border-color: var(--accent); }
 .show-all:hover { border-color: var(--accent); }
 .source a { text-decoration: underline; text-underline-offset: 2px; }
 .source a:hover { color: var(--accent); }
+
+/* Instant tooltip box, positioned by TipLayer. */
+.tip-pop { position: fixed; top: 0; left: 0; z-index: 100; max-width: 260px; padding: 5px 9px; border-radius: 6px; background: var(--text); color: var(--bg); font-size: 12px; font-weight: 600; line-height: 1.3; pointer-events: none; box-shadow: 0 2px 8px rgb(0 0 0 / .3); }
+.tip-pop[hidden] { display: none; }
