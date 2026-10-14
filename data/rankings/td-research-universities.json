@@ -1,0 +1,74 @@
+{
+  "id": "td-research-universities",
+  "title": "Top Research Universities in Chad",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Chad ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:24.000Z",
+  "items": [
+    {
+      "name": "University of N'Djamena",
+      "country": "TD",
+      "value": 23533,
+      "detail": "2,227 papers"
+    },
+    {
+      "name": "Institut National Supérieur des Sciences et Techniques d'Abéché",
+      "country": "TD",
+      "value": 1668,
+      "detail": "313 papers"
+    },
+    {
+      "name": "Université Adam Barka d'Abéché",
+      "country": "TD",
+      "value": 1547,
+      "detail": "252 papers"
+    },
+    {
+      "name": "Université de Moundou",
+      "country": "TD",
+      "value": 927,
+      "detail": "183 papers"
+    },
+    {
+      "name": "Institut Universitaire Polytechnique de Mongo",
+      "country": "TD",
+      "value": 537,
+      "detail": "125 papers"
+    },
+    {
+      "name": "Université de Sarh",
+      "country": "TD",
+      "value": 477,
+      "detail": "181 papers"
+    },
+    {
+      "name": "Université des Sciences et de Technologie d'Ati",
+      "country": "TD",
+      "value": 136,
+      "detail": "52 papers"
+    },
+    {
+      "name": "Université Saint Charles Lwanga",
+      "country": "TD",
+      "value": 7,
+      "detail": "7 papers"
+    }
+  ]
+}

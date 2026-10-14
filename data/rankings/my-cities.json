@@ -1,0 +1,325 @@
+{
+  "id": "my-cities",
+  "title": "Largest Cities in Malaysia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Malaysia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.675Z",
+  "items": [
+    {
+      "name": "Kuala Lumpur",
+      "country": "MY",
+      "value": 1453975,
+      "detail": "Kuala Lumpur"
+    },
+    {
+      "name": "Johor Bahru",
+      "country": "MY",
+      "value": 858118,
+      "detail": "Johor"
+    },
+    {
+      "name": "Kampung Baru Subang",
+      "country": "MY",
+      "value": 833571,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Petaling Jaya",
+      "country": "MY",
+      "value": 807879,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Ipoh",
+      "country": "MY",
+      "value": 759952,
+      "detail": "Perak"
+    },
+    {
+      "name": "Shah Alam",
+      "country": "MY",
+      "value": 740750,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Subang Jaya",
+      "country": "MY",
+      "value": 708296,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Bukit Rahman Putra",
+      "country": "MY",
+      "value": 607000,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Pelentong",
+      "country": "MY",
+      "value": 583640,
+      "detail": "Johor"
+    },
+    {
+      "name": "Malacca",
+      "country": "MY",
+      "value": 579000,
+      "detail": "Melaka"
+    },
+    {
+      "name": "Iskandar Puteri",
+      "country": "MY",
+      "value": 575977,
+      "detail": "Johor"
+    },
+    {
+      "name": "Kota Bharu",
+      "country": "MY",
+      "value": 568900,
+      "detail": "Kelantan"
+    },
+    {
+      "name": "Kuantan",
+      "country": "MY",
+      "value": 548014,
+      "detail": "Pahang"
+    },
+    {
+      "name": "Kota Kuala Muda",
+      "country": "MY",
+      "value": 544984,
+      "detail": "Kedah"
+    },
+    {
+      "name": "Sungai Petani",
+      "country": "MY",
+      "value": 544851,
+      "detail": "Kedah"
+    },
+    {
+      "name": "Selayang Baru Utara",
+      "country": "MY",
+      "value": 542409,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Pasir Gudang",
+      "country": "MY",
+      "value": 534659,
+      "detail": "Johor"
+    },
+    {
+      "name": "Mukim Pulai",
+      "country": "MY",
+      "value": 505661,
+      "detail": "Johor"
+    },
+    {
+      "name": "Kota Kinabalu",
+      "country": "MY",
+      "value": 500421,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Kampung Larkin Lama",
+      "country": "MY",
+      "value": 500000,
+      "detail": "Johor"
+    },
+    {
+      "name": "Kota Damansara",
+      "country": "MY",
+      "value": 500000,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Sandakan",
+      "country": "MY",
+      "value": 439050,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Kuala Terengganu",
+      "country": "MY",
+      "value": 426500,
+      "detail": "Terengganu"
+    },
+    {
+      "name": "Taman Petaling",
+      "country": "MY",
+      "value": 423062,
+      "detail": "Kuala Lumpur"
+    },
+    {
+      "name": "Alor Setar",
+      "country": "MY",
+      "value": 417800,
+      "detail": "Kedah"
+    },
+    {
+      "name": "Kampung Kangkar Teberau",
+      "country": "MY",
+      "value": 412373,
+      "detail": "Johor"
+    },
+    {
+      "name": "Kuching",
+      "country": "MY",
+      "value": 402738,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Puchong",
+      "country": "MY",
+      "value": 375181,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Seremban",
+      "country": "MY",
+      "value": 372917,
+      "detail": "Negeri Sembilan"
+    },
+    {
+      "name": "Tawau",
+      "country": "MY",
+      "value": 372615,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Setapak",
+      "country": "MY",
+      "value": 353268,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Kluang",
+      "country": "MY",
+      "value": 323762,
+      "detail": "Johor"
+    },
+    {
+      "name": "Muar",
+      "country": "MY",
+      "value": 314776,
+      "detail": "Johor"
+    },
+    {
+      "name": "Miri",
+      "country": "MY",
+      "value": 300543,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Kapar",
+      "country": "MY",
+      "value": 269627,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Batu Caves",
+      "country": "MY",
+      "value": 254083,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Klang",
+      "country": "MY",
+      "value": 240016,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Kajang",
+      "country": "MY",
+      "value": 236240,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Teluk Intan",
+      "country": "MY",
+      "value": 232800,
+      "detail": "Perak"
+    },
+    {
+      "name": "Kampong Baharu Cheras Batu Sebelas",
+      "country": "MY",
+      "value": 232100,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Pasir Mas",
+      "country": "MY",
+      "value": 230424,
+      "detail": "Kelantan"
+    },
+    {
+      "name": "Paya Terubong",
+      "country": "MY",
+      "value": 226712,
+      "detail": "Penang"
+    },
+    {
+      "name": "Sungai Buloh",
+      "country": "MY",
+      "value": 222858,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Bandar Seri Alam",
+      "country": "MY",
+      "value": 220000,
+      "detail": "Johor"
+    },
+    {
+      "name": "Taiping",
+      "country": "MY",
+      "value": 217647,
+      "detail": "Perak"
+    },
+    {
+      "name": "Wangsa Maju",
+      "country": "MY",
+      "value": 215600,
+      "detail": "Kuala Lumpur"
+    },
+    {
+      "name": "Bukit Mertajam",
+      "country": "MY",
+      "value": 212329,
+      "detail": "Penang"
+    },
+    {
+      "name": "Sepang",
+      "country": "MY",
+      "value": 212050,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Bandar Sunway",
+      "country": "MY",
+      "value": 200000,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Bandar Utama",
+      "country": "MY",
+      "value": 200000,
+      "detail": "Kuala Lumpur"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "ge-cities",
+  "title": "Largest Cities in Georgia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Georgia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.668Z",
+  "items": [
+    {
+      "name": "Tbilisi",
+      "country": "GE",
+      "value": 1049498,
+      "detail": "Tbilisi"
+    },
+    {
+      "name": "Batumi",
+      "country": "GE",
+      "value": 186949,
+      "detail": "Adjara"
+    },
+    {
+      "name": "Kutaisi",
+      "country": "GE",
+      "value": 135201,
+      "detail": "Imereti"
+    },
+    {
+      "name": "Rustavi",
+      "country": "GE",
+      "value": 128249,
+      "detail": "Kvemo Kartli"
+    },
+    {
+      "name": "Sokhumi",
+      "country": "GE",
+      "value": 65439,
+      "detail": "Abkhazia"
+    },
+    {
+      "name": "Gori",
+      "country": "GE",
+      "value": 41933,
+      "detail": "Shida Kartli"
+    },
+    {
+      "name": "Poti",
+      "country": "GE",
+      "value": 41175,
+      "detail": "Samegrelo and Zemo Svaneti"
+    },
+    {
+      "name": "Zugdidi",
+      "country": "GE",
+      "value": 40067,
+      "detail": "Samegrelo and Zemo Svaneti"
+    },
+    {
+      "name": "Ts’khinvali",
+      "country": "GE",
+      "value": 32180,
+      "detail": "Shida Kartli"
+    },
+    {
+      "name": "Stantsiya Novyy Afon",
+      "country": "GE",
+      "value": 26636,
+      "detail": "Abkhazia"
+    },
+    {
+      "name": "Marneuli",
+      "country": "GE",
+      "value": 26400,
+      "detail": "Kvemo Kartli"
+    },
+    {
+      "name": "Khashuri",
+      "country": "GE",
+      "value": 23949,
+      "detail": "Shida Kartli"
+    },
+    {
+      "name": "Samtredia",
+      "country": "GE",
+      "value": 21063,
+      "detail": "Imereti"
+    },
+    {
+      "name": "Zestaponi",
+      "country": "GE",
+      "value": 20183,
+      "detail": "Imereti"
+    },
+    {
+      "name": "Telavi",
+      "country": "GE",
+      "value": 19875,
+      "detail": "Kakheti"
+    },
+    {
+      "name": "Kobuleti",
+      "country": "GE",
+      "value": 17538,
+      "detail": "Adjara"
+    },
+    {
+      "name": "Akhaltsikhe",
+      "country": "GE",
+      "value": 17445,
+      "detail": "Samtskhe-Javakheti"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "cy-research-universities",
+  "title": "Top Research Universities in Cyprus",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Cyprus ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CY",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:33.127Z",
+  "items": [
+    {
+      "name": "University of Cyprus",
+      "country": "CY",
+      "value": 1841436,
+      "detail": "27,471 papers"
+    },
+    {
+      "name": "Cyprus University of Technology",
+      "country": "CY",
+      "value": 402275,
+      "detail": "9,191 papers"
+    },
+    {
+      "name": "Near East University",
+      "country": "CY",
+      "value": 382645,
+      "detail": "16,488 papers"
+    },
+    {
+      "name": "Eastern Mediterranean University",
+      "country": "CY",
+      "value": 376115,
+      "detail": "10,133 papers"
+    },
+    {
+      "name": "University of Nicosia",
+      "country": "CY",
+      "value": 213187,
+      "detail": "9,888 papers"
+    },
+    {
+      "name": "Cyprus International University",
+      "country": "CY",
+      "value": 128599,
+      "detail": "4,336 papers"
+    },
+    {
+      "name": "European University Cyprus",
+      "country": "CY",
+      "value": 124874,
+      "detail": "5,561 papers"
+    },
+    {
+      "name": "Open University of Cyprus",
+      "country": "CY",
+      "value": 64206,
+      "detail": "2,550 papers"
+    },
+    {
+      "name": "Frederick University",
+      "country": "CY",
+      "value": 57272,
+      "detail": "2,918 papers"
+    },
+    {
+      "name": "KIOS Research and Innovation Center of Excellence",
+      "country": "CY",
+      "value": 31887,
+      "detail": "1,159 papers"
+    },
+    {
+      "name": "Girne American University",
+      "country": "CY",
+      "value": 30742,
+      "detail": "1,668 papers"
+    },
+    {
+      "name": "Intercollege",
+      "country": "CY",
+      "value": 27971,
+      "detail": "472 papers"
+    },
+    {
+      "name": "The Cyprus Institute of Neurology & Genetics - Postgraduate Education",
+      "country": "CY",
+      "value": 23066,
+      "detail": "330 papers"
+    },
+    {
+      "name": "University of Kyrenia",
+      "country": "CY",
+      "value": 20080,
+      "detail": "1,396 papers"
+    },
+    {
+      "name": "Neapolis University Pafos",
+      "country": "CY",
+      "value": 19783,
+      "detail": "1,241 papers"
+    },
+    {
+      "name": "University of Central Lancashire Cyprus",
+      "country": "CY",
+      "value": 12644,
+      "detail": "815 papers"
+    },
+    {
+      "name": "Final International University",
+      "country": "CY",
+      "value": 10241,
+      "detail": "683 papers"
+    },
+    {
+      "name": "University of Mediterranean Karpasia",
+      "country": "CY",
+      "value": 7567,
+      "detail": "345 papers"
+    },
+    {
+      "name": "Cyprus College",
+      "country": "CY",
+      "value": 7462,
+      "detail": "166 papers"
+    },
+    {
+      "name": "University of Limassol",
+      "country": "CY",
+      "value": 5581,
+      "detail": "380 papers"
+    },
+    {
+      "name": "Cyprus Aydin University",
+      "country": "CY",
+      "value": 4784,
+      "detail": "451 papers"
+    },
+    {
+      "name": "American College",
+      "country": "CY",
+      "value": 4537,
+      "detail": "159 papers"
+    },
+    {
+      "name": "PHAETHON Centre of Excellence",
+      "country": "CY",
+      "value": 4470,
+      "detail": "63 papers"
+    },
+    {
+      "name": "Cyprus Institute of Marketing",
+      "country": "CY",
+      "value": 1468,
+      "detail": "29 papers"
+    },
+    {
+      "name": "American University of Cyprus",
+      "country": "CY",
+      "value": 1210,
+      "detail": "126 papers"
+    },
+    {
+      "name": "Mediterranean Institute of Management",
+      "country": "CY",
+      "value": 874,
+      "detail": "81 papers"
+    },
+    {
+      "name": "Philips College",
+      "country": "CY",
+      "value": 817,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Atatürk Teacher Training Academy",
+      "country": "CY",
+      "value": 789,
+      "detail": "97 papers"
+    },
+    {
+      "name": "Ctl Eurocollege",
+      "country": "CY",
+      "value": 593,
+      "detail": "40 papers"
+    },
+    {
+      "name": "Larnaca College",
+      "country": "CY",
+      "value": 440,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Association for Historical Dialogue and Research",
+      "country": "CY",
+      "value": 351,
+      "detail": "16 papers"
+    },
+    {
+      "name": "KES College",
+      "country": "CY",
+      "value": 316,
+      "detail": "46 papers"
+    },
+    {
+      "name": "CDA College",
+      "country": "CY",
+      "value": 247,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Philips University",
+      "country": "CY",
+      "value": 211,
+      "detail": "71 papers"
+    },
+    {
+      "name": "Theological School of the Church of Cyprus",
+      "country": "CY",
+      "value": 205,
+      "detail": "24 papers"
+    },
+    {
+      "name": "American University of Beirut – Mediterraneo",
+      "country": "CY",
+      "value": 160,
+      "detail": "53 papers"
+    },
+    {
+      "name": "College of Tourism and Hotel Management",
+      "country": "CY",
+      "value": 136,
+      "detail": "63 papers"
+    },
+    {
+      "name": "Alexander College",
+      "country": "CY",
+      "value": 81,
+      "detail": "60 papers"
+    },
+    {
+      "name": "Global College",
+      "country": "CY",
+      "value": 42,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Casa College",
+      "country": "CY",
+      "value": 20,
+      "detail": "11 papers"
+    }
+  ]
+}

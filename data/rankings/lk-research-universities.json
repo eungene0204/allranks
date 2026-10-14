@@ -1,0 +1,224 @@
+{
+  "id": "lk-research-universities",
+  "title": "Top Research Universities in Sri Lanka",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Sri Lanka ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LK",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:56.833Z",
+  "items": [
+    {
+      "name": "University of Peradeniya",
+      "country": "LK",
+      "value": 677006,
+      "detail": "16,198 papers"
+    },
+    {
+      "name": "University of Colombo",
+      "country": "LK",
+      "value": 430050,
+      "detail": "15,227 papers"
+    },
+    {
+      "name": "University of Sri Jayewardenepura",
+      "country": "LK",
+      "value": 218726,
+      "detail": "10,945 papers"
+    },
+    {
+      "name": "University of Kelaniya",
+      "country": "LK",
+      "value": 214900,
+      "detail": "8,429 papers"
+    },
+    {
+      "name": "University of Moratuwa",
+      "country": "LK",
+      "value": 195914,
+      "detail": "9,701 papers"
+    },
+    {
+      "name": "University of Ruhuna",
+      "country": "LK",
+      "value": 150182,
+      "detail": "6,519 papers"
+    },
+    {
+      "name": "Rajarata University of Sri Lanka",
+      "country": "LK",
+      "value": 74946,
+      "detail": "3,003 papers"
+    },
+    {
+      "name": "University of Jaffna",
+      "country": "LK",
+      "value": 74886,
+      "detail": "3,659 papers"
+    },
+    {
+      "name": "Sri Lanka Institute of Information Technology",
+      "country": "LK",
+      "value": 61967,
+      "detail": "4,081 papers"
+    },
+    {
+      "name": "Sabaragamuwa University of Sri Lanka",
+      "country": "LK",
+      "value": 39714,
+      "detail": "2,876 papers"
+    },
+    {
+      "name": "Uva Wellassa University",
+      "country": "LK",
+      "value": 34605,
+      "detail": "1,867 papers"
+    },
+    {
+      "name": "Wayamba University of Sri Lanka",
+      "country": "LK",
+      "value": 31071,
+      "detail": "2,484 papers"
+    },
+    {
+      "name": "Open University of Sri Lanka",
+      "country": "LK",
+      "value": 24627,
+      "detail": "2,555 papers"
+    },
+    {
+      "name": "General Sir John Kotelawala Defence University",
+      "country": "LK",
+      "value": 20996,
+      "detail": "2,257 papers"
+    },
+    {
+      "name": "Eastern University, Sri Lanka",
+      "country": "LK",
+      "value": 16677,
+      "detail": "1,929 papers"
+    },
+    {
+      "name": "South Eastern University of Sri Lanka",
+      "country": "LK",
+      "value": 13517,
+      "detail": "1,385 papers"
+    },
+    {
+      "name": "Post Graduate Institute of Medicine, University of Colombo, Sri Lanka",
+      "country": "LK",
+      "value": 9853,
+      "detail": "769 papers"
+    },
+    {
+      "name": "Informatics Institute of Technology",
+      "country": "LK",
+      "value": 3318,
+      "detail": "529 papers"
+    },
+    {
+      "name": "NSBM Green University",
+      "country": "LK",
+      "value": 2033,
+      "detail": "427 papers"
+    },
+    {
+      "name": "KIU University Sri Lanka",
+      "country": "LK",
+      "value": 1556,
+      "detail": "210 papers"
+    },
+    {
+      "name": "Ladies College",
+      "country": "LK",
+      "value": 1279,
+      "detail": "12 papers"
+    },
+    {
+      "name": "CINEC Campus (Pvt) Ltd.",
+      "country": "LK",
+      "value": 882,
+      "detail": "246 papers"
+    },
+    {
+      "name": "University of Vocational Technology",
+      "country": "LK",
+      "value": 604,
+      "detail": "192 papers"
+    },
+    {
+      "name": "Sri Lanka Law College",
+      "country": "LK",
+      "value": 586,
+      "detail": "76 papers"
+    },
+    {
+      "name": "National Institute of Business Management",
+      "country": "LK",
+      "value": 438,
+      "detail": "47 papers"
+    },
+    {
+      "name": "National Institute of Education, Sri Lanka",
+      "country": "LK",
+      "value": 397,
+      "detail": "66 papers"
+    },
+    {
+      "name": "University of the Visual & Performing Arts",
+      "country": "LK",
+      "value": 222,
+      "detail": "143 papers"
+    },
+    {
+      "name": "University Grants Commission Sri Lanka",
+      "country": "LK",
+      "value": 165,
+      "detail": "12 papers"
+    },
+    {
+      "name": "ESOFT Uni",
+      "country": "LK",
+      "value": 156,
+      "detail": "66 papers"
+    },
+    {
+      "name": "Eco Astronomy Inc",
+      "country": "LK",
+      "value": 54,
+      "detail": "18 papers"
+    },
+    {
+      "name": "Buddhist and Pali University of Sri Lanka",
+      "country": "LK",
+      "value": 43,
+      "detail": "79 papers"
+    },
+    {
+      "name": "Buddhasravaka Bhiksu University",
+      "country": "LK",
+      "value": 28,
+      "detail": "30 papers"
+    },
+    {
+      "name": "Bandaranaike Centre for International Studies",
+      "country": "LK",
+      "value": 7,
+      "detail": "12 papers"
+    }
+  ]
+}

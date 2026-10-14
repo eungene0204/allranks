@@ -1,0 +1,200 @@
+{
+  "id": "qa-research-universities",
+  "title": "Top Research Universities in Qatar",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Qatar ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "QA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:14.848Z",
+  "items": [
+    {
+      "name": "Qatar University",
+      "country": "QA",
+      "value": 1794408,
+      "detail": "40,569 papers"
+    },
+    {
+      "name": "Hamad bin Khalifa University",
+      "country": "QA",
+      "value": 742129,
+      "detail": "13,806 papers"
+    },
+    {
+      "name": "Weill Cornell Medical College in Qatar",
+      "country": "QA",
+      "value": 486344,
+      "detail": "8,100 papers"
+    },
+    {
+      "name": "Texas A&M University at Qatar",
+      "country": "QA",
+      "value": 359032,
+      "detail": "8,680 papers"
+    },
+    {
+      "name": "Aspire Academy",
+      "country": "QA",
+      "value": 49563,
+      "detail": "508 papers"
+    },
+    {
+      "name": "Carnegie Mellon University Qatar",
+      "country": "QA",
+      "value": 33778,
+      "detail": "1,028 papers"
+    },
+    {
+      "name": "Al Azhar University",
+      "country": "QA",
+      "value": 31705,
+      "detail": "12,217 papers"
+    },
+    {
+      "name": "University of Doha for Science and Technology",
+      "country": "QA",
+      "value": 25353,
+      "detail": "1,834 papers"
+    },
+    {
+      "name": "Doha Institute for Graduate Studies",
+      "country": "QA",
+      "value": 8572,
+      "detail": "933 papers"
+    },
+    {
+      "name": "Georgetown University in Qatar",
+      "country": "QA",
+      "value": 7523,
+      "detail": "802 papers"
+    },
+    {
+      "name": "Northwestern University in Qatar",
+      "country": "QA",
+      "value": 6555,
+      "detail": "535 papers"
+    },
+    {
+      "name": "Ahmed Bin Mohammed Military College",
+      "country": "QA",
+      "value": 6513,
+      "detail": "264 papers"
+    },
+    {
+      "name": "Community College of Qatar",
+      "country": "QA",
+      "value": 6461,
+      "detail": "441 papers"
+    },
+    {
+      "name": "University of Calgary in Qatar",
+      "country": "QA",
+      "value": 5700,
+      "detail": "291 papers"
+    },
+    {
+      "name": "University College London Qatar",
+      "country": "QA",
+      "value": 5267,
+      "detail": "217 papers"
+    },
+    {
+      "name": "Academic Bridge Program",
+      "country": "QA",
+      "value": 3416,
+      "detail": "49 papers"
+    },
+    {
+      "name": "VCUQatar",
+      "country": "QA",
+      "value": 2374,
+      "detail": "284 papers"
+    },
+    {
+      "name": "HEC Paris in Qatar",
+      "country": "QA",
+      "value": 1044,
+      "detail": "64 papers"
+    },
+    {
+      "name": "FIKRA",
+      "country": "QA",
+      "value": 925,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Stenden University Qatar",
+      "country": "QA",
+      "value": 655,
+      "detail": "57 papers"
+    },
+    {
+      "name": "American School of Doha",
+      "country": "QA",
+      "value": 613,
+      "detail": "26 papers"
+    },
+    {
+      "name": "Qatar Faculty of Islamic Studies",
+      "country": "QA",
+      "value": 312,
+      "detail": "50 papers"
+    },
+    {
+      "name": "Joaan Bin Jassim Academy for Defence Studies",
+      "country": "QA",
+      "value": 307,
+      "detail": "86 papers"
+    },
+    {
+      "name": "Philippine School Doha",
+      "country": "QA",
+      "value": 180,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Center for International Policy Research",
+      "country": "QA",
+      "value": 88,
+      "detail": "36 papers"
+    },
+    {
+      "name": "Awsaj Academy",
+      "country": "QA",
+      "value": 60,
+      "detail": "1 papers"
+    },
+    {
+      "name": "Gulf English School",
+      "country": "QA",
+      "value": 18,
+      "detail": "11 papers"
+    },
+    {
+      "name": "The National University of Malaysia-Qatar",
+      "country": "QA",
+      "value": 16,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Al Kawther Secondary Independent School for Girls",
+      "country": "QA",
+      "value": 14,
+      "detail": "1 papers"
+    }
+  ]
+}

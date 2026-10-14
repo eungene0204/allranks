@@ -1,0 +1,326 @@
+{
+  "id": "pk-research-universities",
+  "title": "Top Research Universities in Pakistan",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Pakistan ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PK",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:46.831Z",
+  "items": [
+    {
+      "name": "Quaid-i-Azam University",
+      "country": "PK",
+      "value": 2576004,
+      "detail": "33,798 papers"
+    },
+    {
+      "name": "COMSATS University Islamabad",
+      "country": "PK",
+      "value": 2460902,
+      "detail": "46,122 papers"
+    },
+    {
+      "name": "Aga Khan University",
+      "country": "PK",
+      "value": 2264165,
+      "detail": "22,106 papers"
+    },
+    {
+      "name": "University of Agriculture Faisalabad",
+      "country": "PK",
+      "value": 1581859,
+      "detail": "26,418 papers"
+    },
+    {
+      "name": "National University of Sciences and Technology",
+      "country": "PK",
+      "value": 1266008,
+      "detail": "31,987 papers"
+    },
+    {
+      "name": "University of the Punjab",
+      "country": "PK",
+      "value": 1158934,
+      "detail": "38,017 papers"
+    },
+    {
+      "name": "Government College University, Faisalabad",
+      "country": "PK",
+      "value": 1119939,
+      "detail": "22,454 papers"
+    },
+    {
+      "name": "Bahauddin Zakariya University",
+      "country": "PK",
+      "value": 724128,
+      "detail": "20,614 papers"
+    },
+    {
+      "name": "University of Karachi",
+      "country": "PK",
+      "value": 723738,
+      "detail": "26,741 papers"
+    },
+    {
+      "name": "Islamia University of Bahawalpur",
+      "country": "PK",
+      "value": 707799,
+      "detail": "21,906 papers"
+    },
+    {
+      "name": "University of Lahore",
+      "country": "PK",
+      "value": 522823,
+      "detail": "22,556 papers"
+    },
+    {
+      "name": "University of Peshawar",
+      "country": "PK",
+      "value": 491651,
+      "detail": "14,481 papers"
+    },
+    {
+      "name": "Abdul Wali Khan University Mardan",
+      "country": "PK",
+      "value": 459323,
+      "detail": "13,470 papers"
+    },
+    {
+      "name": "University of Engineering and Technology Lahore",
+      "country": "PK",
+      "value": 417773,
+      "detail": "12,371 papers"
+    },
+    {
+      "name": "University of Sargodha",
+      "country": "PK",
+      "value": 386050,
+      "detail": "16,389 papers"
+    },
+    {
+      "name": "International Islamic University, Islamabad",
+      "country": "PK",
+      "value": 359293,
+      "detail": "15,836 papers"
+    },
+    {
+      "name": "Government College University, Lahore",
+      "country": "PK",
+      "value": 352168,
+      "detail": "12,679 papers"
+    },
+    {
+      "name": "University of Management and Technology",
+      "country": "PK",
+      "value": 329301,
+      "detail": "13,540 papers"
+    },
+    {
+      "name": "Pir Mehr Ali Shah Arid Agriculture University",
+      "country": "PK",
+      "value": 307737,
+      "detail": "9,028 papers"
+    },
+    {
+      "name": "Dow University of Health Sciences",
+      "country": "PK",
+      "value": 301659,
+      "detail": "16,361 papers"
+    },
+    {
+      "name": "Riphah International University",
+      "country": "PK",
+      "value": 301529,
+      "detail": "15,755 papers"
+    },
+    {
+      "name": "University of Malakand",
+      "country": "PK",
+      "value": 295455,
+      "detail": "7,279 papers"
+    },
+    {
+      "name": "University of Gujrat",
+      "country": "PK",
+      "value": 286790,
+      "detail": "9,573 papers"
+    },
+    {
+      "name": "University of Engineering and Technology Taxila",
+      "country": "PK",
+      "value": 282671,
+      "detail": "6,426 papers"
+    },
+    {
+      "name": "University of Sindh",
+      "country": "PK",
+      "value": 267505,
+      "detail": "8,821 papers"
+    },
+    {
+      "name": "Pakistan Institute of Engineering and Applied Sciences",
+      "country": "PK",
+      "value": 265844,
+      "detail": "5,613 papers"
+    },
+    {
+      "name": "Hazara University",
+      "country": "PK",
+      "value": 258580,
+      "detail": "8,546 papers"
+    },
+    {
+      "name": "University of Veterinary and Animal Sciences",
+      "country": "PK",
+      "value": 256541,
+      "detail": "8,946 papers"
+    },
+    {
+      "name": "National Institute for Biotechnology and Genetic Engineering",
+      "country": "PK",
+      "value": 253398,
+      "detail": "2,789 papers"
+    },
+    {
+      "name": "The University of Agriculture, Peshawar",
+      "country": "PK",
+      "value": 209194,
+      "detail": "6,950 papers"
+    },
+    {
+      "name": "Lahore University of Management Sciences",
+      "country": "PK",
+      "value": 203490,
+      "detail": "6,915 papers"
+    },
+    {
+      "name": "University of Engineering and Technology Peshawar",
+      "country": "PK",
+      "value": 196046,
+      "detail": "6,127 papers"
+    },
+    {
+      "name": "National University of Computer and Emerging Sciences",
+      "country": "PK",
+      "value": 184582,
+      "detail": "6,833 papers"
+    },
+    {
+      "name": "Khwaja Fareed University of Engineering and Information Technology",
+      "country": "PK",
+      "value": 178315,
+      "detail": "5,202 papers"
+    },
+    {
+      "name": "Kohat University of Science and Technology",
+      "country": "PK",
+      "value": 176263,
+      "detail": "5,233 papers"
+    },
+    {
+      "name": "Bahria University",
+      "country": "PK",
+      "value": 173838,
+      "detail": "10,657 papers"
+    },
+    {
+      "name": "Air University",
+      "country": "PK",
+      "value": 169500,
+      "detail": "6,459 papers"
+    },
+    {
+      "name": "University of Education",
+      "country": "PK",
+      "value": 169130,
+      "detail": "10,584 papers"
+    },
+    {
+      "name": "Mehran University of Engineering and Technology",
+      "country": "PK",
+      "value": 162081,
+      "detail": "5,951 papers"
+    },
+    {
+      "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+      "country": "PK",
+      "value": 160000,
+      "detail": "4,422 papers"
+    },
+    {
+      "name": "University of Okara",
+      "country": "PK",
+      "value": 143959,
+      "detail": "7,370 papers"
+    },
+    {
+      "name": "National Textile University",
+      "country": "PK",
+      "value": 132566,
+      "detail": "2,938 papers"
+    },
+    {
+      "name": "Islamia College University",
+      "country": "PK",
+      "value": 130770,
+      "detail": "5,248 papers"
+    },
+    {
+      "name": "Gomal University",
+      "country": "PK",
+      "value": 130632,
+      "detail": "6,751 papers"
+    },
+    {
+      "name": "Centre of Excellence in Molecular Biology",
+      "country": "PK",
+      "value": 126117,
+      "detail": "1,618 papers"
+    },
+    {
+      "name": "University of Central Punjab",
+      "country": "PK",
+      "value": 119967,
+      "detail": "6,337 papers"
+    },
+    {
+      "name": "Lahore College for Women University",
+      "country": "PK",
+      "value": 116276,
+      "detail": "6,519 papers"
+    },
+    {
+      "name": "University of Azad Jammu and Kashmir",
+      "country": "PK",
+      "value": 115748,
+      "detail": "4,183 papers"
+    },
+    {
+      "name": "University of Health Sciences Lahore",
+      "country": "PK",
+      "value": 114577,
+      "detail": "3,319 papers"
+    },
+    {
+      "name": "NED University of Engineering and Technology",
+      "country": "PK",
+      "value": 110666,
+      "detail": "5,312 papers"
+    }
+  ]
+}

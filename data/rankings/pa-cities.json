@@ -1,0 +1,187 @@
+{
+  "id": "pa-cities",
+  "title": "Largest Cities in Panama",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Panama with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.677Z",
+  "items": [
+    {
+      "name": "Panama City",
+      "country": "PA",
+      "value": 408168,
+      "detail": "Panamá"
+    },
+    {
+      "name": "San Miguelito",
+      "country": "PA",
+      "value": 321501,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Juan Díaz",
+      "country": "PA",
+      "value": 100636,
+      "detail": "Panamá"
+    },
+    {
+      "name": "David",
+      "country": "PA",
+      "value": 82907,
+      "detail": "Chiriquí Province"
+    },
+    {
+      "name": "Colón",
+      "country": "PA",
+      "value": 78000,
+      "detail": "Colón"
+    },
+    {
+      "name": "Arraiján",
+      "country": "PA",
+      "value": 76815,
+      "detail": "Panamá Oeste Province"
+    },
+    {
+      "name": "Las Cumbres",
+      "country": "PA",
+      "value": 69102,
+      "detail": "Panamá"
+    },
+    {
+      "name": "La Chorrera",
+      "country": "PA",
+      "value": 61232,
+      "detail": "Panamá Oeste Province"
+    },
+    {
+      "name": "Pedregal",
+      "country": "PA",
+      "value": 51641,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Tocumen",
+      "country": "PA",
+      "value": 50844,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Santiago de Veraguas",
+      "country": "PA",
+      "value": 45355,
+      "detail": "Veraguas Province"
+    },
+    {
+      "name": "Parque Lefevre",
+      "country": "PA",
+      "value": 36997,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Chilibre",
+      "country": "PA",
+      "value": 33536,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Cativá",
+      "country": "PA",
+      "value": 29607,
+      "detail": "Colón"
+    },
+    {
+      "name": "Río Abajo",
+      "country": "PA",
+      "value": 26607,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Nuevo Belén",
+      "country": "PA",
+      "value": 24056,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Ancón",
+      "country": "PA",
+      "value": 20706,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Alcalde Díaz",
+      "country": "PA",
+      "value": 20285,
+      "detail": "Panamá"
+    },
+    {
+      "name": "El Chorrillo",
+      "country": "PA",
+      "value": 18302,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Changuinola",
+      "country": "PA",
+      "value": 17997,
+      "detail": "Bocas del Toro Province"
+    },
+    {
+      "name": "La Cabima",
+      "country": "PA",
+      "value": 17975,
+      "detail": "Panamá"
+    },
+    {
+      "name": "La Concepción",
+      "country": "PA",
+      "value": 17698,
+      "detail": "Chiriquí Province"
+    },
+    {
+      "name": "Pedregal (Chiriquí Province)",
+      "country": "PA",
+      "value": 17427,
+      "detail": "Chiriquí Province"
+    },
+    {
+      "name": "Veracruz",
+      "country": "PA",
+      "value": 17144,
+      "detail": "Panamá Oeste Province"
+    },
+    {
+      "name": "Curundú",
+      "country": "PA",
+      "value": 16361,
+      "detail": "Panamá"
+    },
+    {
+      "name": "Penonomé",
+      "country": "PA",
+      "value": 16250,
+      "detail": "Coclé"
+    },
+    {
+      "name": "Sabanitas",
+      "country": "PA",
+      "value": 15577,
+      "detail": "Colón"
+    }
+  ]
+}

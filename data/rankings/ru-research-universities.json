@@ -1,0 +1,326 @@
+{
+  "id": "ru-research-universities",
+  "title": "Top Research Universities in Russia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Russia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:38.391Z",
+  "items": [
+    {
+      "name": "Lomonosov Moscow State University",
+      "country": "RU",
+      "value": 8537321,
+      "detail": "228,137 papers"
+    },
+    {
+      "name": "Institute for Theoretical and Experimental Physics",
+      "country": "RU",
+      "value": 3523605,
+      "detail": "17,747 papers"
+    },
+    {
+      "name": "National Research Nuclear University MEPhI",
+      "country": "RU",
+      "value": 2768484,
+      "detail": "33,655 papers"
+    },
+    {
+      "name": "St Petersburg University",
+      "country": "RU",
+      "value": 2420576,
+      "detail": "98,385 papers"
+    },
+    {
+      "name": "Novosibirsk State University",
+      "country": "RU",
+      "value": 1986698,
+      "detail": "42,209 papers"
+    },
+    {
+      "name": "Sechenov University",
+      "country": "RU",
+      "value": 1003597,
+      "detail": "50,066 papers"
+    },
+    {
+      "name": "Moscow Institute of Physics and Technology",
+      "country": "RU",
+      "value": 984442,
+      "detail": "35,923 papers"
+    },
+    {
+      "name": "Kazan Federal University",
+      "country": "RU",
+      "value": 896463,
+      "detail": "45,615 papers"
+    },
+    {
+      "name": "ITMO University",
+      "country": "RU",
+      "value": 845002,
+      "detail": "31,224 papers"
+    },
+    {
+      "name": "National Research University Higher School of Economics",
+      "country": "RU",
+      "value": 819919,
+      "detail": "117,179 papers"
+    },
+    {
+      "name": "National University of Science and Technology",
+      "country": "RU",
+      "value": 755778,
+      "detail": "22,531 papers"
+    },
+    {
+      "name": "Ural Federal University",
+      "country": "RU",
+      "value": 713286,
+      "detail": "49,515 papers"
+    },
+    {
+      "name": "National Research Tomsk State University",
+      "country": "RU",
+      "value": 675549,
+      "detail": "35,854 papers"
+    },
+    {
+      "name": "Tomsk Polytechnic University",
+      "country": "RU",
+      "value": 664326,
+      "detail": "32,610 papers"
+    },
+    {
+      "name": "Skolkovo Institute of Science and Technology",
+      "country": "RU",
+      "value": 590244,
+      "detail": "13,016 papers"
+    },
+    {
+      "name": "Peter the Great St. Petersburg Polytechnic University",
+      "country": "RU",
+      "value": 567648,
+      "detail": "34,240 papers"
+    },
+    {
+      "name": "Southern Federal University",
+      "country": "RU",
+      "value": 548891,
+      "detail": "33,661 papers"
+    },
+    {
+      "name": "Saint Petersburg Academic University",
+      "country": "RU",
+      "value": 504377,
+      "detail": "2,182 papers"
+    },
+    {
+      "name": "Peoples' Friendship University of Russia",
+      "country": "RU",
+      "value": 476483,
+      "detail": "50,802 papers"
+    },
+    {
+      "name": "Pirogov Russian National Research Medical University",
+      "country": "RU",
+      "value": 400864,
+      "detail": "26,607 papers"
+    },
+    {
+      "name": "South Ural State University",
+      "country": "RU",
+      "value": 360210,
+      "detail": "21,859 papers"
+    },
+    {
+      "name": "N. I. Lobachevsky State University of Nizhny Novgorod",
+      "country": "RU",
+      "value": 337906,
+      "detail": "18,811 papers"
+    },
+    {
+      "name": "Saratov State University",
+      "country": "RU",
+      "value": 337074,
+      "detail": "17,420 papers"
+    },
+    {
+      "name": "Siberian Federal University",
+      "country": "RU",
+      "value": 289697,
+      "detail": "20,240 papers"
+    },
+    {
+      "name": "Bauman Moscow State Technical University",
+      "country": "RU",
+      "value": 244521,
+      "detail": "27,369 papers"
+    },
+    {
+      "name": "Far Eastern Federal University",
+      "country": "RU",
+      "value": 242915,
+      "detail": "16,706 papers"
+    },
+    {
+      "name": "First Pavlov State Medical University of St. Petersburg",
+      "country": "RU",
+      "value": 212027,
+      "detail": "13,004 papers"
+    },
+    {
+      "name": "D. Mendeleyev University of Chemical Technology of Russia",
+      "country": "RU",
+      "value": 178931,
+      "detail": "11,495 papers"
+    },
+    {
+      "name": "Samara National Research University",
+      "country": "RU",
+      "value": 170090,
+      "detail": "15,358 papers"
+    },
+    {
+      "name": "Irkutsk State University",
+      "country": "RU",
+      "value": 166399,
+      "detail": "7,691 papers"
+    },
+    {
+      "name": "Ufa State Aviation Technical University",
+      "country": "RU",
+      "value": 164799,
+      "detail": "6,212 papers"
+    },
+    {
+      "name": "Novosibirsk State Technical University",
+      "country": "RU",
+      "value": 161454,
+      "detail": "14,617 papers"
+    },
+    {
+      "name": "Belgorod National Research University",
+      "country": "RU",
+      "value": 161292,
+      "detail": "12,104 papers"
+    },
+    {
+      "name": "Yandex School of Data Analysis",
+      "country": "RU",
+      "value": 159144,
+      "detail": "456 papers"
+    },
+    {
+      "name": "Voronezh State University",
+      "country": "RU",
+      "value": 158048,
+      "detail": "15,001 papers"
+    },
+    {
+      "name": "St. Petersburg State Technological Institute",
+      "country": "RU",
+      "value": 146770,
+      "detail": "9,481 papers"
+    },
+    {
+      "name": "Saint Petersburg State Electrotechnical University",
+      "country": "RU",
+      "value": 145846,
+      "detail": "13,075 papers"
+    },
+    {
+      "name": "Russian University of Medicine",
+      "country": "RU",
+      "value": 128522,
+      "detail": "8,252 papers"
+    },
+    {
+      "name": "Moscow Power Engineering Institute",
+      "country": "RU",
+      "value": 123792,
+      "detail": "13,881 papers"
+    },
+    {
+      "name": "Immanuel Kant Baltic Federal University",
+      "country": "RU",
+      "value": 116069,
+      "detail": "8,154 papers"
+    },
+    {
+      "name": "Moscow State Pedagogical University",
+      "country": "RU",
+      "value": 115269,
+      "detail": "11,820 papers"
+    },
+    {
+      "name": "Moscow Aviation Institute",
+      "country": "RU",
+      "value": 112254,
+      "detail": "13,951 papers"
+    },
+    {
+      "name": "Don State Technical University",
+      "country": "RU",
+      "value": 109802,
+      "detail": "14,509 papers"
+    },
+    {
+      "name": "Kuban State University",
+      "country": "RU",
+      "value": 107385,
+      "detail": "10,290 papers"
+    },
+    {
+      "name": "MIREA - Russian Technological University",
+      "country": "RU",
+      "value": 96593,
+      "detail": "11,388 papers"
+    },
+    {
+      "name": "Bashkir State University",
+      "country": "RU",
+      "value": 95768,
+      "detail": "8,056 papers"
+    },
+    {
+      "name": "Financial University",
+      "country": "RU",
+      "value": 93193,
+      "detail": "23,613 papers"
+    },
+    {
+      "name": "Kazan State Technical University named after A. N. Tupolev",
+      "country": "RU",
+      "value": 92903,
+      "detail": "10,593 papers"
+    },
+    {
+      "name": "Ivanovo State University of Chemistry and Technology",
+      "country": "RU",
+      "value": 92204,
+      "detail": "5,119 papers"
+    },
+    {
+      "name": "Gubkin Russian State University of Oil and Gas",
+      "country": "RU",
+      "value": 89777,
+      "detail": "7,117 papers"
+    }
+  ]
+}

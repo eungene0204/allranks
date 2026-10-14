@@ -1,0 +1,121 @@
+{
+  "id": "ss-cities",
+  "title": "Largest Cities in South Sudan",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of South Sudan with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.681Z",
+  "items": [
+    {
+      "name": "Juba",
+      "country": "SS",
+      "value": 450000,
+      "detail": "Central Equatoria"
+    },
+    {
+      "name": "Winejok",
+      "country": "SS",
+      "value": 300000,
+      "detail": "Northern Bahr al Ghazal"
+    },
+    {
+      "name": "Yei",
+      "country": "SS",
+      "value": 260720,
+      "detail": "Central Equatoria"
+    },
+    {
+      "name": "Malakal",
+      "country": "SS",
+      "value": 160765,
+      "detail": "Upper Nile"
+    },
+    {
+      "name": "Wau",
+      "country": "SS",
+      "value": 127384,
+      "detail": "Western Bahr al Ghazal"
+    },
+    {
+      "name": "Kuacjok",
+      "country": "SS",
+      "value": 78000,
+      "detail": "Warrap"
+    },
+    {
+      "name": "Pajok",
+      "country": "SS",
+      "value": 49000,
+      "detail": "Eastern Equatoria"
+    },
+    {
+      "name": "Gogrial",
+      "country": "SS",
+      "value": 44600,
+      "detail": "Warrap"
+    },
+    {
+      "name": "Yambio",
+      "country": "SS",
+      "value": 40382,
+      "detail": "Western Equatoria"
+    },
+    {
+      "name": "Aweil",
+      "country": "SS",
+      "value": 38745,
+      "detail": "Northern Bahr al Ghazal"
+    },
+    {
+      "name": "Rumbek",
+      "country": "SS",
+      "value": 32083,
+      "detail": "Lakes"
+    },
+    {
+      "name": "Bor",
+      "country": "SS",
+      "value": 26782,
+      "detail": "Jonglei"
+    },
+    {
+      "name": "Torit",
+      "country": "SS",
+      "value": 20048,
+      "detail": "Eastern Equatoria"
+    },
+    {
+      "name": "Leer",
+      "country": "SS",
+      "value": 17827,
+      "detail": "Unity"
+    },
+    {
+      "name": "Tonj",
+      "country": "SS",
+      "value": 17338,
+      "detail": "Warrap"
+    },
+    {
+      "name": "Kafia Kingi",
+      "country": "SS",
+      "value": 16000,
+      "detail": "Western Bahr al Ghazal"
+    }
+  ]
+}

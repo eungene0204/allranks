@@ -1,0 +1,325 @@
+{
+  "id": "ng-cities",
+  "title": "Largest Cities in Nigeria",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Nigeria with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.676Z",
+  "items": [
+    {
+      "name": "Lagos",
+      "country": "NG",
+      "value": 15388000,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Kano",
+      "country": "NG",
+      "value": 4910000,
+      "detail": "Kano State"
+    },
+    {
+      "name": "Ibadan",
+      "country": "NG",
+      "value": 3649000,
+      "detail": "Oyo State"
+    },
+    {
+      "name": "Abuja",
+      "country": "NG",
+      "value": 2690000,
+      "detail": "FCT"
+    },
+    {
+      "name": "Port Harcourt",
+      "country": "NG",
+      "value": 2120000,
+      "detail": "Rivers State"
+    },
+    {
+      "name": "Kaduna",
+      "country": "NG",
+      "value": 1850000,
+      "detail": "Kaduna State"
+    },
+    {
+      "name": "Benin City",
+      "country": "NG",
+      "value": 1782000,
+      "detail": "Edo State"
+    },
+    {
+      "name": "Onitsha",
+      "country": "NG",
+      "value": 1553000,
+      "detail": "Anambra"
+    },
+    {
+      "name": "Aba",
+      "country": "NG",
+      "value": 1160000,
+      "detail": "Abia State"
+    },
+    {
+      "name": "Maiduguri",
+      "country": "NG",
+      "value": 1110000,
+      "detail": "Borno State"
+    },
+    {
+      "name": "Ilorin",
+      "country": "NG",
+      "value": 1080000,
+      "detail": "Kwara State"
+    },
+    {
+      "name": "Jos",
+      "country": "NG",
+      "value": 1040000,
+      "detail": "Plateau State"
+    },
+    {
+      "name": "Sokoto",
+      "country": "NG",
+      "value": 1040000,
+      "detail": "Sokoto"
+    },
+    {
+      "name": "Zaria",
+      "country": "NG",
+      "value": 980000,
+      "detail": "Kaduna State"
+    },
+    {
+      "name": "Enugu",
+      "country": "NG",
+      "value": 950000,
+      "detail": "Enugu State"
+    },
+    {
+      "name": "Warri",
+      "country": "NG",
+      "value": 910000,
+      "detail": "Delta"
+    },
+    {
+      "name": "Oyo",
+      "country": "NG",
+      "value": 736072,
+      "detail": "Oyo State"
+    },
+    {
+      "name": "Abeokuta",
+      "country": "NG",
+      "value": 735000,
+      "detail": "Ogun State"
+    },
+    {
+      "name": "Akure",
+      "country": "NG",
+      "value": 730000,
+      "detail": "Ondo State"
+    },
+    {
+      "name": "Bauchi",
+      "country": "NG",
+      "value": 693700,
+      "detail": "Bauchi"
+    },
+    {
+      "name": "Agege",
+      "country": "NG",
+      "value": 683600,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Katsina",
+      "country": "NG",
+      "value": 670000,
+      "detail": "Katsina State"
+    },
+    {
+      "name": "Osogbo",
+      "country": "NG",
+      "value": 645000,
+      "detail": "Osun State"
+    },
+    {
+      "name": "Gombe",
+      "country": "NG",
+      "value": 560000,
+      "detail": "Gombe State"
+    },
+    {
+      "name": "Ile-Ife",
+      "country": "NG",
+      "value": 560000,
+      "detail": "Osun State"
+    },
+    {
+      "name": "Ajegunle",
+      "country": "NG",
+      "value": 550000,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Ogbia",
+      "country": "NG",
+      "value": 549774,
+      "detail": "Bayelsa State"
+    },
+    {
+      "name": "Owerri",
+      "country": "NG",
+      "value": 545000,
+      "detail": "Imo State"
+    },
+    {
+      "name": "Calabar",
+      "country": "NG",
+      "value": 540000,
+      "detail": "Cross River State"
+    },
+    {
+      "name": "Ebute Ikorodu",
+      "country": "NG",
+      "value": 535619,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Okene",
+      "country": "NG",
+      "value": 479178,
+      "detail": "Kogi State"
+    },
+    {
+      "name": "Ikare",
+      "country": "NG",
+      "value": 465000,
+      "detail": "Ondo State"
+    },
+    {
+      "name": "Yola",
+      "country": "NG",
+      "value": 460000,
+      "detail": "Adamawa"
+    },
+    {
+      "name": "Uyo",
+      "country": "NG",
+      "value": 436606,
+      "detail": "Akwa Ibom State"
+    },
+    {
+      "name": "Ado-Ekiti",
+      "country": "NG",
+      "value": 435000,
+      "detail": "Ekiti State"
+    },
+    {
+      "name": "Ogbomoso",
+      "country": "NG",
+      "value": 433030,
+      "detail": "Oyo State"
+    },
+    {
+      "name": "Minna",
+      "country": "NG",
+      "value": 425000,
+      "detail": "Niger State"
+    },
+    {
+      "name": "Lekki",
+      "country": "NG",
+      "value": 401272,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Bida",
+      "country": "NG",
+      "value": 400000,
+      "detail": "Niger State"
+    },
+    {
+      "name": "Makurdi",
+      "country": "NG",
+      "value": 390000,
+      "detail": "Benue State"
+    },
+    {
+      "name": "Ondo",
+      "country": "NG",
+      "value": 375000,
+      "detail": "Ondo State"
+    },
+    {
+      "name": "Umuahia",
+      "country": "NG",
+      "value": 370000,
+      "detail": "Abia State"
+    },
+    {
+      "name": "Iseyin",
+      "country": "NG",
+      "value": 365300,
+      "detail": "Oyo State"
+    },
+    {
+      "name": "Gboko",
+      "country": "NG",
+      "value": 365000,
+      "detail": "Benue State"
+    },
+    {
+      "name": "Yenagoa",
+      "country": "NG",
+      "value": 365000,
+      "detail": "Bayelsa State"
+    },
+    {
+      "name": "Ijebu Ode",
+      "country": "NG",
+      "value": 360000,
+      "detail": "Ogun State"
+    },
+    {
+      "name": "Obalende",
+      "country": "NG",
+      "value": 342000,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Ilesa",
+      "country": "NG",
+      "value": 325000,
+      "detail": "Osun State"
+    },
+    {
+      "name": "Ikeja",
+      "country": "NG",
+      "value": 313196,
+      "detail": "Lagos"
+    },
+    {
+      "name": "Akowonjo",
+      "country": "NG",
+      "value": 308900,
+      "detail": "Lagos"
+    }
+  ]
+}

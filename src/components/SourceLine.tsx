@@ -15,8 +15,9 @@ export default function SourceLine({ ranking: r }: { ranking: Ranking }) {
       ) : (
         r.source.name
       )}
-      {r.source.license && ` · ${r.source.license}`} · {r.source.kind === "manual" ? "entered by hand" : "fetched"}{" "}
+      {r.source.license && ` · ${r.source.license}`} · {r.source.kind === "manual" ? "entered by hand" : r.source.kind === "agent" ? "collected by AI" : "fetched"}{" "}
       {DAY.format(new Date(r.updatedAt))}
+      {r.source.kind === "agent" && r.source.verified === false && <span className="muted"> · not yet human-verified</span>}
       {r.source.note && (sample || r.source.kind !== "manual") && <span className="muted"> — {r.source.note}</span>}
     </p>
   );

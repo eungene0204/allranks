@@ -1,0 +1,326 @@
+{
+  "id": "dk-research-universities",
+  "title": "Top Research Universities in Denmark",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Denmark ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DK",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:49.296Z",
+  "items": [
+    {
+      "name": "University of Copenhagen",
+      "country": "DK",
+      "value": 30850396,
+      "detail": "340,767 papers"
+    },
+    {
+      "name": "Aarhus University",
+      "country": "DK",
+      "value": 14845461,
+      "detail": "251,783 papers"
+    },
+    {
+      "name": "Technical University of Denmark",
+      "country": "DK",
+      "value": 12796539,
+      "detail": "147,731 papers"
+    },
+    {
+      "name": "University of Southern Denmark",
+      "country": "DK",
+      "value": 6679523,
+      "detail": "103,038 papers"
+    },
+    {
+      "name": "Aalborg University",
+      "country": "DK",
+      "value": 4617645,
+      "detail": "108,335 papers"
+    },
+    {
+      "name": "Copenhagen Business School",
+      "country": "DK",
+      "value": 843928,
+      "detail": "31,476 papers"
+    },
+    {
+      "name": "Roskilde University",
+      "country": "DK",
+      "value": 547962,
+      "detail": "26,488 papers"
+    },
+    {
+      "name": "IT University of Copenhagen",
+      "country": "DK",
+      "value": 228183,
+      "detail": "9,082 papers"
+    },
+    {
+      "name": "Copenhagen Academy for Medical Education and Simulation",
+      "country": "DK",
+      "value": 38394,
+      "detail": "1,158 papers"
+    },
+    {
+      "name": "University College Copenhagen",
+      "country": "DK",
+      "value": 28886,
+      "detail": "3,474 papers"
+    },
+    {
+      "name": "Royal Academy of Music",
+      "country": "DK",
+      "value": 27871,
+      "detail": "513 papers"
+    },
+    {
+      "name": "The Royal School of Library and Information Science",
+      "country": "DK",
+      "value": 23073,
+      "detail": "746 papers"
+    },
+    {
+      "name": "VIA University College",
+      "country": "DK",
+      "value": 22836,
+      "detail": "4,438 papers"
+    },
+    {
+      "name": "Metropolitan University College",
+      "country": "DK",
+      "value": 21135,
+      "detail": "1,166 papers"
+    },
+    {
+      "name": "Novo Nordisk Foundation Center for Stem Cell Medicine",
+      "country": "DK",
+      "value": 18126,
+      "detail": "453 papers"
+    },
+    {
+      "name": "University College Lillebaelt",
+      "country": "DK",
+      "value": 17523,
+      "detail": "1,093 papers"
+    },
+    {
+      "name": "Royal Danish Academy – Architecture, Design, Conservation",
+      "country": "DK",
+      "value": 17511,
+      "detail": "2,720 papers"
+    },
+    {
+      "name": "University College of Northern Denmark",
+      "country": "DK",
+      "value": 15521,
+      "detail": "2,130 papers"
+    },
+    {
+      "name": "University College Absalon",
+      "country": "DK",
+      "value": 8357,
+      "detail": "790 papers"
+    },
+    {
+      "name": "Aarhus Business College",
+      "country": "DK",
+      "value": 6064,
+      "detail": "81 papers"
+    },
+    {
+      "name": "Aarhus School of Architecture",
+      "country": "DK",
+      "value": 5770,
+      "detail": "1,358 papers"
+    },
+    {
+      "name": "University College South Denmark",
+      "country": "DK",
+      "value": 5284,
+      "detail": "897 papers"
+    },
+    {
+      "name": "Design School Kolding",
+      "country": "DK",
+      "value": 3762,
+      "detail": "746 papers"
+    },
+    {
+      "name": "Royal Danish Defence College",
+      "country": "DK",
+      "value": 2889,
+      "detail": "472 papers"
+    },
+    {
+      "name": "Niels Brock",
+      "country": "DK",
+      "value": 1962,
+      "detail": "107 papers"
+    },
+    {
+      "name": "Schools of Visual Arts, The Royal Danish Academy of Fine Arts",
+      "country": "DK",
+      "value": 1879,
+      "detail": "236 papers"
+    },
+    {
+      "name": "University College Capital",
+      "country": "DK",
+      "value": 1661,
+      "detail": "704 papers"
+    },
+    {
+      "name": "Nordic Institute of Asian Studies",
+      "country": "DK",
+      "value": 1609,
+      "detail": "188 papers"
+    },
+    {
+      "name": "Zealand Institute of Business and Technology",
+      "country": "DK",
+      "value": 1525,
+      "detail": "39 papers"
+    },
+    {
+      "name": "Copenhagen School of Design and Technology",
+      "country": "DK",
+      "value": 1140,
+      "detail": "183 papers"
+    },
+    {
+      "name": "Danish School of Media and Journalism",
+      "country": "DK",
+      "value": 1109,
+      "detail": "284 papers"
+    },
+    {
+      "name": "Erhvervsakademi MidtVest",
+      "country": "DK",
+      "value": 1063,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Danish College of General Practitioners",
+      "country": "DK",
+      "value": 992,
+      "detail": "53 papers"
+    },
+    {
+      "name": "VUC Aarhus",
+      "country": "DK",
+      "value": 797,
+      "detail": "46 papers"
+    },
+    {
+      "name": "Business Academy Aarhus",
+      "country": "DK",
+      "value": 794,
+      "detail": "26 papers"
+    },
+    {
+      "name": "HF & VUC Klar",
+      "country": "DK",
+      "value": 746,
+      "detail": "122 papers"
+    },
+    {
+      "name": "The Danish Town Planning Institute",
+      "country": "DK",
+      "value": 698,
+      "detail": "16 papers"
+    },
+    {
+      "name": "Svendborg International Maritime Academy",
+      "country": "DK",
+      "value": 586,
+      "detail": "24 papers"
+    },
+    {
+      "name": "Copenhagen Business Academy",
+      "country": "DK",
+      "value": 572,
+      "detail": "35 papers"
+    },
+    {
+      "name": "Institute for the Blind and Partially Sighted",
+      "country": "DK",
+      "value": 559,
+      "detail": "29 papers"
+    },
+    {
+      "name": "Samsø Energy Academy",
+      "country": "DK",
+      "value": 446,
+      "detail": "14 papers"
+    },
+    {
+      "name": "International Business Academy",
+      "country": "DK",
+      "value": 386,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Copenhagen Institute of Interaction Design",
+      "country": "DK",
+      "value": 290,
+      "detail": "31 papers"
+    },
+    {
+      "name": "Dania Academy of Higher Education",
+      "country": "DK",
+      "value": 284,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Rhythmic Music Conservatory",
+      "country": "DK",
+      "value": 235,
+      "detail": "23 papers"
+    },
+    {
+      "name": "Danish Institute for Quality and Accreditation in Healthcare",
+      "country": "DK",
+      "value": 208,
+      "detail": "22 papers"
+    },
+    {
+      "name": "Business Academy SouthWest",
+      "country": "DK",
+      "value": 184,
+      "detail": "22 papers"
+    },
+    {
+      "name": "Danish National Academy of Music",
+      "country": "DK",
+      "value": 181,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Royal Danish Academy of Music",
+      "country": "DK",
+      "value": 169,
+      "detail": "33 papers"
+    },
+    {
+      "name": "Lillebaelt Academy University of Applied Sciences",
+      "country": "DK",
+      "value": 136,
+      "detail": "32 papers"
+    }
+  ]
+}

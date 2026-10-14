@@ -1,0 +1,97 @@
+{
+  "id": "sr-cities",
+  "title": "Largest Cities in Suriname",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Suriname with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.681Z",
+  "items": [
+    {
+      "name": "Paramaribo",
+      "country": "SR",
+      "value": 223757,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Blauwgrond",
+      "country": "SR",
+      "value": 31483,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Latour",
+      "country": "SR",
+      "value": 29526,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Pontbuiten",
+      "country": "SR",
+      "value": 23211,
+      "detail": "Wanica District"
+    },
+    {
+      "name": "Rainville",
+      "country": "SR",
+      "value": 22747,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Flora",
+      "country": "SR",
+      "value": 19538,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Welgelegen",
+      "country": "SR",
+      "value": 19304,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Lelydorp",
+      "country": "SR",
+      "value": 18223,
+      "detail": "Wanica District"
+    },
+    {
+      "name": "Munder Buiten",
+      "country": "SR",
+      "value": 17234,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Beekhuizen",
+      "country": "SR",
+      "value": 17185,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Weg naar Zee",
+      "country": "SR",
+      "value": 16037,
+      "detail": "Paramaribo District"
+    },
+    {
+      "name": "Tammenga",
+      "country": "SR",
+      "value": 15819,
+      "detail": "Paramaribo District"
+    }
+  ]
+}

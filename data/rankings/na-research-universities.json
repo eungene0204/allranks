@@ -1,0 +1,56 @@
+{
+  "id": "na-research-universities",
+  "title": "Top Research Universities in Namibia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Namibia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:06.896Z",
+  "items": [
+    {
+      "name": "University of Namibia",
+      "country": "NA",
+      "value": 156042,
+      "detail": "6,885 papers"
+    },
+    {
+      "name": "Namibia University of Science and Technology",
+      "country": "NA",
+      "value": 43235,
+      "detail": "3,427 papers"
+    },
+    {
+      "name": "International University of Management",
+      "country": "NA",
+      "value": 4069,
+      "detail": "409 papers"
+    },
+    {
+      "name": "Namibia Institute of Pathology",
+      "country": "NA",
+      "value": 3409,
+      "detail": "101 papers"
+    },
+    {
+      "name": "The University Centre for Studies in Namibia",
+      "country": "NA",
+      "value": 5,
+      "detail": "1 papers"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "id": "fr-cities",
+  "title": "Largest Communes in France",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "The 100 most populous French communes at the 2023 estimate.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FR",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "INSEE, population légale (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_communes_in_France_with_over_20,000_inhabitants",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:28:21.004Z",
+  "items": [
+    {
+      "name": "Paris",
+      "country": "FR",
+      "value": 2103778,
+      "detail": "Paris"
+    },
+    {
+      "name": "Marseille",
+      "country": "FR",
+      "value": 886040,
+      "detail": "Bouches-du-Rhône"
+    },
+    {
+      "name": "Lyon",
+      "country": "FR",
+      "value": 519127,
+      "detail": "Lyon Metropolis"
+    },
+    {
+      "name": "Toulouse",
+      "country": "FR",
+      "value": 514819,
+      "detail": "Haute-Garonne"
+    },
+    {
+      "name": "Nice",
+      "country": "FR",
+      "value": 357737,
+      "detail": "Alpes-Maritimes"
+    },
+    {
+      "name": "Nantes",
+      "country": "FR",
+      "value": 327734,
+      "detail": "Loire-Atlantique"
+    },
+    {
+      "name": "Montpellier",
+      "country": "FR",
+      "value": 310240,
+      "detail": "Hérault"
+    },
+    {
+      "name": "Strasbourg",
+      "country": "FR",
+      "value": 293771,
+      "detail": "Bas-Rhin"
+    },
+    {
+      "name": "Bordeaux",
+      "country": "FR",
+      "value": 267991,
+      "detail": "Gironde"
+    },
+    {
+      "name": "Lille",
+      "country": "FR",
+      "value": 238246,
+      "detail": "Nord"
+    },
+    {
+      "name": "Rennes",
+      "country": "FR",
+      "value": 230890,
+      "detail": "Ille-et-Vilaine"
+    },
+    {
+      "name": "Toulon",
+      "country": "FR",
+      "value": 179116,
+      "detail": "Var"
+    },
+    {
+      "name": "Reims",
+      "country": "FR",
+      "value": 177674,
+      "detail": "Marne"
+    },
+    {
+      "name": "Saint-Étienne",
+      "country": "FR",
+      "value": 173136,
+      "detail": "Loire"
+    },
+    {
+      "name": "Le Havre",
+      "country": "FR",
+      "value": 166687,
+      "detail": "Seine-Maritime"
+    },
+    {
+      "name": "Villeurbanne",
+      "country": "FR",
+      "value": 163684,
+      "detail": "Lyon Metropolis"
+    },
+    {
+      "name": "Dijon",
+      "country": "FR",
+      "value": 161830,
+      "detail": "Côte-d'Or"
+    },
+    {
+      "name": "Angers",
+      "country": "FR",
+      "value": 159022,
+      "detail": "Maine-et-Loire"
+    },
+    {
+      "name": "Grenoble",
+      "country": "FR",
+      "value": 156140,
+      "detail": "Isère"
+    },
+    {
+      "name": "Saint-Denis",
+      "country": "FR",
+      "value": 155634,
+      "detail": "Réunion"
+    },
+    {
+      "name": "Nîmes",
+      "country": "FR",
+      "value": 151839,
+      "detail": "Gard"
+    },
+    {
+      "name": "Aix-en-Provence",
+      "country": "FR",
+      "value": 149695,
+      "detail": "Bouches-du-Rhône"
+    },
+    {
+      "name": "Saint-Denis (Seine-Saint-Denis)",
+      "country": "FR",
+      "value": 149077,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Clermont-Ferrand",
+      "country": "FR",
+      "value": 146351,
+      "detail": "Puy-de-Dôme"
+    },
+    {
+      "name": "Le Mans",
+      "country": "FR",
+      "value": 146249,
+      "detail": "Sarthe"
+    },
+    {
+      "name": "Brest",
+      "country": "FR",
+      "value": 142346,
+      "detail": "Finistère"
+    },
+    {
+      "name": "Tours",
+      "country": "FR",
+      "value": 139259,
+      "detail": "Indre-et-Loire"
+    },
+    {
+      "name": "Amiens",
+      "country": "FR",
+      "value": 136449,
+      "detail": "Somme"
+    },
+    {
+      "name": "Annecy",
+      "country": "FR",
+      "value": 132117,
+      "detail": "Haute-Savoie"
+    },
+    {
+      "name": "Limoges",
+      "country": "FR",
+      "value": 129937,
+      "detail": "Haute-Vienne"
+    },
+    {
+      "name": "Metz",
+      "country": "FR",
+      "value": 122572,
+      "detail": "Moselle"
+    },
+    {
+      "name": "Perpignan",
+      "country": "FR",
+      "value": 121616,
+      "detail": "Pyrénées-Orientales"
+    },
+    {
+      "name": "Boulogne-Billancourt",
+      "country": "FR",
+      "value": 119019,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Besançon",
+      "country": "FR",
+      "value": 118489,
+      "detail": "Doubs"
+    },
+    {
+      "name": "Rouen",
+      "country": "FR",
+      "value": 117662,
+      "detail": "Seine-Maritime"
+    },
+    {
+      "name": "Orléans",
+      "country": "FR",
+      "value": 116357,
+      "detail": "Loiret"
+    },
+    {
+      "name": "Montreuil",
+      "country": "FR",
+      "value": 111934,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Caen",
+      "country": "FR",
+      "value": 109400,
+      "detail": "Calvados"
+    },
+    {
+      "name": "Saint-Paul",
+      "country": "FR",
+      "value": 108088,
+      "detail": "Réunion"
+    },
+    {
+      "name": "Argenteuil",
+      "country": "FR",
+      "value": 106130,
+      "detail": "Val-d'Oise"
+    },
+    {
+      "name": "Mulhouse",
+      "country": "FR",
+      "value": 104978,
+      "detail": "Haut-Rhin"
+    },
+    {
+      "name": "Nancy",
+      "country": "FR",
+      "value": 103671,
+      "detail": "Meurthe-et-Moselle"
+    },
+    {
+      "name": "Tourcoing",
+      "country": "FR",
+      "value": 98772,
+      "detail": "Nord"
+    },
+    {
+      "name": "Roubaix",
+      "country": "FR",
+      "value": 98286,
+      "detail": "Nord"
+    },
+    {
+      "name": "Nanterre",
+      "country": "FR",
+      "value": 97783,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Vitry-sur-Seine",
+      "country": "FR",
+      "value": 93963,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Asnières-sur-Seine",
+      "country": "FR",
+      "value": 93941,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Créteil",
+      "country": "FR",
+      "value": 93397,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Avignon",
+      "country": "FR",
+      "value": 92188,
+      "detail": "Vaucluse"
+    },
+    {
+      "name": "Colombes",
+      "country": "FR",
+      "value": 91053,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Poitiers",
+      "country": "FR",
+      "value": 89916,
+      "detail": "Vienne"
+    },
+    {
+      "name": "Aubervilliers",
+      "country": "FR",
+      "value": 88365,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Aulnay-sous-Bois",
+      "country": "FR",
+      "value": 87599,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Dunkirk",
+      "country": "FR",
+      "value": 86263,
+      "detail": "Nord"
+    },
+    {
+      "name": "Saint-Pierre",
+      "country": "FR",
+      "value": 85038,
+      "detail": "Réunion"
+    },
+    {
+      "name": "Versailles",
+      "country": "FR",
+      "value": 84095,
+      "detail": "Yvelines"
+    },
+    {
+      "name": "Courbevoie",
+      "country": "FR",
+      "value": 82902,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Rueil-Malmaison",
+      "country": "FR",
+      "value": 82874,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Le Tampon",
+      "country": "FR",
+      "value": 82579,
+      "detail": "Réunion"
+    },
+    {
+      "name": "Béziers",
+      "country": "FR",
+      "value": 81545,
+      "detail": "Hérault"
+    },
+    {
+      "name": "Pau",
+      "country": "FR",
+      "value": 80441,
+      "detail": "Pyrénées-Atlantiques"
+    },
+    {
+      "name": "La Rochelle",
+      "country": "FR",
+      "value": 79851,
+      "detail": "Charente-Maritime"
+    },
+    {
+      "name": "Cherbourg-en-Cotentin",
+      "country": "FR",
+      "value": 78258,
+      "detail": "Manche"
+    },
+    {
+      "name": "Mérignac",
+      "country": "FR",
+      "value": 78090,
+      "detail": "Gironde"
+    },
+    {
+      "name": "Champigny-sur-Marne",
+      "country": "FR",
+      "value": 78072,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Antibes",
+      "country": "FR",
+      "value": 77637,
+      "detail": "Alpes-Maritimes"
+    },
+    {
+      "name": "Saint-Maur-des-Fossés",
+      "country": "FR",
+      "value": 76572,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Ajaccio",
+      "country": "FR",
+      "value": 76320,
+      "detail": "Corse-du-Sud"
+    },
+    {
+      "name": "Fort-de-France",
+      "country": "FR",
+      "value": 75506,
+      "detail": "Martinique"
+    },
+    {
+      "name": "Saint-Nazaire",
+      "country": "FR",
+      "value": 74568,
+      "detail": "Loire-Atlantique"
+    },
+    {
+      "name": "Cannes",
+      "country": "FR",
+      "value": 74350,
+      "detail": "Alpes-Maritimes"
+    },
+    {
+      "name": "Noisy-le-Grand",
+      "country": "FR",
+      "value": 72978,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Drancy",
+      "country": "FR",
+      "value": 72390,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Cergy",
+      "country": "FR",
+      "value": 70906,
+      "detail": "Val-d'Oise"
+    },
+    {
+      "name": "Levallois-Perret",
+      "country": "FR",
+      "value": 68092,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Issy-les-Moulineaux",
+      "country": "FR",
+      "value": 67669,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Calais",
+      "country": "FR",
+      "value": 67571,
+      "detail": "Pas-de-Calais"
+    },
+    {
+      "name": "Pessac",
+      "country": "FR",
+      "value": 67339,
+      "detail": "Gironde"
+    },
+    {
+      "name": "Colmar",
+      "country": "FR",
+      "value": 66970,
+      "detail": "Haut-Rhin"
+    },
+    {
+      "name": "Évry-Courcouronnes",
+      "country": "FR",
+      "value": 66919,
+      "detail": "Essonne"
+    },
+    {
+      "name": "Vénissieux",
+      "country": "FR",
+      "value": 65502,
+      "detail": "Lyon Metropolis"
+    },
+    {
+      "name": "Ivry-sur-Seine",
+      "country": "FR",
+      "value": 65064,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Valence",
+      "country": "FR",
+      "value": 64458,
+      "detail": "Drôme"
+    },
+    {
+      "name": "Clichy",
+      "country": "FR",
+      "value": 64410,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Quimper",
+      "country": "FR",
+      "value": 64385,
+      "detail": "Finistère"
+    },
+    {
+      "name": "Antony",
+      "country": "FR",
+      "value": 64263,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Bourges",
+      "country": "FR",
+      "value": 64186,
+      "detail": "Cher"
+    },
+    {
+      "name": "La Seyne-sur-Mer",
+      "country": "FR",
+      "value": 63732,
+      "detail": "Var"
+    },
+    {
+      "name": "Montauban",
+      "country": "FR",
+      "value": 62945,
+      "detail": "Tarn-et-Garonne"
+    },
+    {
+      "name": "Villeneuve-d'Ascq",
+      "country": "FR",
+      "value": 62868,
+      "detail": "Nord"
+    },
+    {
+      "name": "Cayenne",
+      "country": "FR",
+      "value": 62675,
+      "detail": "Guyane"
+    },
+    {
+      "name": "Le Blanc-Mesnil",
+      "country": "FR",
+      "value": 62376,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Troyes",
+      "country": "FR",
+      "value": 62088,
+      "detail": "Aube"
+    },
+    {
+      "name": "Pantin",
+      "country": "FR",
+      "value": 61929,
+      "detail": "Seine-Saint-Denis"
+    },
+    {
+      "name": "Villejuif",
+      "country": "FR",
+      "value": 60183,
+      "detail": "Val-de-Marne"
+    },
+    {
+      "name": "Chambéry",
+      "country": "FR",
+      "value": 59964,
+      "detail": "Savoie"
+    },
+    {
+      "name": "Niort",
+      "country": "FR",
+      "value": 59854,
+      "detail": "Deux-Sèvres"
+    },
+    {
+      "name": "Fréjus",
+      "country": "FR",
+      "value": 59719,
+      "detail": "Var"
+    },
+    {
+      "name": "Neuilly-sur-Seine",
+      "country": "FR",
+      "value": 59538,
+      "detail": "Hauts-de-Seine"
+    },
+    {
+      "name": "Sarcelles",
+      "country": "FR",
+      "value": 59173,
+      "detail": "Val-d'Oise"
+    }
+  ]
+}

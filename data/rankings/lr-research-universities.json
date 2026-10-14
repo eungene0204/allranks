@@ -1,0 +1,62 @@
+{
+  "id": "lr-research-universities",
+  "title": "Top Research Universities in Liberia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Liberia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:57.201Z",
+  "items": [
+    {
+      "name": "University of Liberia",
+      "country": "LR",
+      "value": 17993,
+      "detail": "890 papers"
+    },
+    {
+      "name": "William V. S. Tubman University",
+      "country": "LR",
+      "value": 1891,
+      "detail": "244 papers"
+    },
+    {
+      "name": "Cuttington University",
+      "country": "LR",
+      "value": 584,
+      "detail": "168 papers"
+    },
+    {
+      "name": "United Methodist University",
+      "country": "LR",
+      "value": 165,
+      "detail": "29 papers"
+    },
+    {
+      "name": "African Methodist Episcopal University",
+      "country": "LR",
+      "value": 155,
+      "detail": "58 papers"
+    },
+    {
+      "name": "Stella Maris Polytechnic",
+      "country": "LR",
+      "value": 116,
+      "detail": "80 papers"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "md-cities",
+  "title": "Largest Cities in Moldova",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Moldova with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.673Z",
+  "items": [
+    {
+      "name": "Chisinau",
+      "country": "MD",
+      "value": 635994,
+      "detail": "Chișinău Municipality"
+    },
+    {
+      "name": "Tiraspol",
+      "country": "MD",
+      "value": 157000,
+      "detail": "Transnistria"
+    },
+    {
+      "name": "Bălţi",
+      "country": "MD",
+      "value": 125000,
+      "detail": "Bălţi"
+    },
+    {
+      "name": "Bender",
+      "country": "MD",
+      "value": 110175,
+      "detail": "Bender Municipality"
+    },
+    {
+      "name": "Rîbniţa",
+      "country": "MD",
+      "value": 55455,
+      "detail": "Transnistria"
+    },
+    {
+      "name": "Cahul",
+      "country": "MD",
+      "value": 34492,
+      "detail": "Cahul"
+    },
+    {
+      "name": "Ungheni",
+      "country": "MD",
+      "value": 34422,
+      "detail": "Ungheni"
+    },
+    {
+      "name": "Soroca",
+      "country": "MD",
+      "value": 27423,
+      "detail": "Soroca District"
+    },
+    {
+      "name": "Durleşti",
+      "country": "MD",
+      "value": 26308,
+      "detail": "Chișinău Municipality"
+    },
+    {
+      "name": "Orhei",
+      "country": "MD",
+      "value": 24918,
+      "detail": "Orhei"
+    },
+    {
+      "name": "Dubăsari",
+      "country": "MD",
+      "value": 23254,
+      "detail": "Transnistria"
+    },
+    {
+      "name": "Comrat",
+      "country": "MD",
+      "value": 22911,
+      "detail": "Gagauzia"
+    },
+    {
+      "name": "Edineţ",
+      "country": "MD",
+      "value": 22872,
+      "detail": "Raionul Edineţ"
+    },
+    {
+      "name": "Ceadîr-Lunga",
+      "country": "MD",
+      "value": 22700,
+      "detail": "Gagauzia"
+    },
+    {
+      "name": "Căuşeni",
+      "country": "MD",
+      "value": 21690,
+      "detail": "Căuşeni"
+    },
+    {
+      "name": "Strășeni",
+      "country": "MD",
+      "value": 19225,
+      "detail": "Strășeni"
+    },
+    {
+      "name": "Hînceşti",
+      "country": "MD",
+      "value": 16900,
+      "detail": "Hînceşti"
+    },
+    {
+      "name": "Floreşti",
+      "country": "MD",
+      "value": 16759,
+      "detail": "Floreşti"
+    },
+    {
+      "name": "Drochia",
+      "country": "MD",
+      "value": 16080,
+      "detail": "Drochia"
+    },
+    {
+      "name": "Codru",
+      "country": "MD",
+      "value": 15934,
+      "detail": "Chișinău Municipality"
+    },
+    {
+      "name": "Bilicenii Vechi",
+      "country": "MD",
+      "value": 15479,
+      "detail": "Sîngerei"
+    },
+    {
+      "name": "Slobozia",
+      "country": "MD",
+      "value": 15356,
+      "detail": "Transnistria"
+    }
+  ]
+}

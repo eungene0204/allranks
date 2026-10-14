@@ -1,0 +1,326 @@
+{
+  "id": "uz-research-universities",
+  "title": "Top Research Universities in Uzbekistan",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Uzbekistan ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:56.802Z",
+  "items": [
+    {
+      "name": "National University of Uzbekistan",
+      "country": "UZ",
+      "value": 79915,
+      "detail": "15,889 papers"
+    },
+    {
+      "name": "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers",
+      "country": "UZ",
+      "value": 74473,
+      "detail": "7,406 papers"
+    },
+    {
+      "name": "Tashkent State Technical University named after Islam Karimov",
+      "country": "UZ",
+      "value": 44670,
+      "detail": "6,844 papers"
+    },
+    {
+      "name": "Tashkent State University of Economics",
+      "country": "UZ",
+      "value": 37350,
+      "detail": "13,371 papers"
+    },
+    {
+      "name": "Samarkand State University named after Sharof Rashidov",
+      "country": "UZ",
+      "value": 31984,
+      "detail": "9,398 papers"
+    },
+    {
+      "name": "Tashkent University of Information Technology",
+      "country": "UZ",
+      "value": 27421,
+      "detail": "5,816 papers"
+    },
+    {
+      "name": "New Uzbekistan University",
+      "country": "UZ",
+      "value": 20464,
+      "detail": "1,967 papers"
+    },
+    {
+      "name": "Tashkent State Transport University",
+      "country": "UZ",
+      "value": 20312,
+      "detail": "5,778 papers"
+    },
+    {
+      "name": "Urgench State University",
+      "country": "UZ",
+      "value": 17854,
+      "detail": "6,910 papers"
+    },
+    {
+      "name": "Central Asian University",
+      "country": "UZ",
+      "value": 16408,
+      "detail": "1,215 papers"
+    },
+    {
+      "name": "Institute of Genetics and Plant Experimental Biology of the Academy Sciences of Uzbekistan",
+      "country": "UZ",
+      "value": 14310,
+      "detail": "386 papers"
+    },
+    {
+      "name": "National Pedagogical University of Uzbekistan named after Nizami",
+      "country": "UZ",
+      "value": 13952,
+      "detail": "6,473 papers"
+    },
+    {
+      "name": "Tashkent State Agrarian University",
+      "country": "UZ",
+      "value": 13283,
+      "detail": "3,699 papers"
+    },
+    {
+      "name": "Ferghana Polytechnical Institute",
+      "country": "UZ",
+      "value": 11927,
+      "detail": "4,012 papers"
+    },
+    {
+      "name": "Bukhara State University",
+      "country": "UZ",
+      "value": 10999,
+      "detail": "9,358 papers"
+    },
+    {
+      "name": "Turin Polytechnic University",
+      "country": "UZ",
+      "value": 10143,
+      "detail": "1,128 papers"
+    },
+    {
+      "name": "Karshi State Technical University",
+      "country": "UZ",
+      "value": 9055,
+      "detail": "3,486 papers"
+    },
+    {
+      "name": "Karakalpak State University",
+      "country": "UZ",
+      "value": 7926,
+      "detail": "4,067 papers"
+    },
+    {
+      "name": "University of Tashkent for Applied Sciences",
+      "country": "UZ",
+      "value": 7924,
+      "detail": "3,297 papers"
+    },
+    {
+      "name": "Tashkent Medical Academy",
+      "country": "UZ",
+      "value": 7865,
+      "detail": "5,971 papers"
+    },
+    {
+      "name": "Tashkent Chemical-Technological Institute",
+      "country": "UZ",
+      "value": 7049,
+      "detail": "2,716 papers"
+    },
+    {
+      "name": "Institute of Polymer Chemistry and Physics",
+      "country": "UZ",
+      "value": 6811,
+      "detail": "412 papers"
+    },
+    {
+      "name": "Westminster International University in Tashkent",
+      "country": "UZ",
+      "value": 6622,
+      "detail": "1,240 papers"
+    },
+    {
+      "name": "Ferghana State University",
+      "country": "UZ",
+      "value": 5480,
+      "detail": "8,247 papers"
+    },
+    {
+      "name": "Navoi State University of Mining and Technologies",
+      "country": "UZ",
+      "value": 5123,
+      "detail": "1,850 papers"
+    },
+    {
+      "name": "Namangan Institute of Engineering and Technology",
+      "country": "UZ",
+      "value": 4860,
+      "detail": "2,066 papers"
+    },
+    {
+      "name": "Buxoro muhandislik-texnologiya instituti",
+      "country": "UZ",
+      "value": 4707,
+      "detail": "1,321 papers"
+    },
+    {
+      "name": "Karshi State University",
+      "country": "UZ",
+      "value": 4653,
+      "detail": "5,382 papers"
+    },
+    {
+      "name": "Andijan State University",
+      "country": "UZ",
+      "value": 4643,
+      "detail": "4,087 papers"
+    },
+    {
+      "name": "Mamun University",
+      "country": "UZ",
+      "value": 4440,
+      "detail": "2,382 papers"
+    },
+    {
+      "name": "Tashkent State University of Law",
+      "country": "UZ",
+      "value": 4179,
+      "detail": "5,293 papers"
+    },
+    {
+      "name": "Namangan State University",
+      "country": "UZ",
+      "value": 3785,
+      "detail": "5,365 papers"
+    },
+    {
+      "name": "Inha University in Tashkent",
+      "country": "UZ",
+      "value": 3750,
+      "detail": "339 papers"
+    },
+    {
+      "name": "Termez State University",
+      "country": "UZ",
+      "value": 3439,
+      "detail": "7,482 papers"
+    },
+    {
+      "name": "Tashkent Financial Institute",
+      "country": "UZ",
+      "value": 3427,
+      "detail": "1,934 papers"
+    },
+    {
+      "name": "Tashkent Institute of Textile and Light Industry",
+      "country": "UZ",
+      "value": 3347,
+      "detail": "1,572 papers"
+    },
+    {
+      "name": "Jizzakh State Pedagogical University",
+      "country": "UZ",
+      "value": 3063,
+      "detail": "4,725 papers"
+    },
+    {
+      "name": "Jizzakh Polytechnic Institute",
+      "country": "UZ",
+      "value": 2975,
+      "detail": "2,173 papers"
+    },
+    {
+      "name": "Tashkent Pharmaceutical Institute",
+      "country": "UZ",
+      "value": 2638,
+      "detail": "909 papers"
+    },
+    {
+      "name": "Tashkent Institute of Architecture and Civil Engineering",
+      "country": "UZ",
+      "value": 2467,
+      "detail": "1,735 papers"
+    },
+    {
+      "name": "Alfraganus University",
+      "country": "UZ",
+      "value": 2352,
+      "detail": "2,468 papers"
+    },
+    {
+      "name": "Gulistan State University",
+      "country": "UZ",
+      "value": 2195,
+      "detail": "3,577 papers"
+    },
+    {
+      "name": "Shakhrisabz State Pedagogical Institute",
+      "country": "UZ",
+      "value": 2184,
+      "detail": "1,362 papers"
+    },
+    {
+      "name": "Russian Economic University after G.V. Plekhanov",
+      "country": "UZ",
+      "value": 2069,
+      "detail": "2,209 papers"
+    },
+    {
+      "name": "Tashkent State University of Oriental Studies",
+      "country": "UZ",
+      "value": 2032,
+      "detail": "3,648 papers"
+    },
+    {
+      "name": "Chirchik State Pedagogical University",
+      "country": "UZ",
+      "value": 1993,
+      "detail": "2,765 papers"
+    },
+    {
+      "name": "Termez University of Economics and Service",
+      "country": "UZ",
+      "value": 1811,
+      "detail": "4,975 papers"
+    },
+    {
+      "name": "Andijan Machine-building Institute",
+      "country": "UZ",
+      "value": 1783,
+      "detail": "968 papers"
+    },
+    {
+      "name": "Buxoro davlat pedagogika instituti",
+      "country": "UZ",
+      "value": 1594,
+      "detail": "1,767 papers"
+    },
+    {
+      "name": "University of World Economy and Diplomacy",
+      "country": "UZ",
+      "value": 1541,
+      "detail": "1,545 papers"
+    }
+  ]
+}

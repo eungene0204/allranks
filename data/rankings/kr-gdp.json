@@ -1,0 +1,109 @@
+{
+  "id": "kr-gdp",
+  "title": "South Korean Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Economic output of the nine provinces and the special and metropolitan cities, in current US dollars.",
+  "unit": "USD billion",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "KR",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Korea, regional income accounts (2024) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_South_Korean_regions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:10:48.183Z",
+  "items": [
+    {
+      "name": "Gyeonggi",
+      "country": "KR",
+      "value": 455.992
+    },
+    {
+      "name": "Seoul",
+      "country": "KR",
+      "value": 402.525
+    },
+    {
+      "name": "South Gyeongsang",
+      "country": "KR",
+      "value": 105.869
+    },
+    {
+      "name": "South Chungcheong",
+      "country": "KR",
+      "value": 105.477
+    },
+    {
+      "name": "North Gyeongsang",
+      "country": "KR",
+      "value": 94.289
+    },
+    {
+      "name": "Incheon",
+      "country": "KR",
+      "value": 87.914
+    },
+    {
+      "name": "Busan",
+      "country": "KR",
+      "value": 84.747
+    },
+    {
+      "name": "South Jeolla",
+      "country": "KR",
+      "value": 72.78
+    },
+    {
+      "name": "Ulsan",
+      "country": "KR",
+      "value": 65.769
+    },
+    {
+      "name": "North Chungcheong",
+      "country": "KR",
+      "value": 64.256
+    },
+    {
+      "name": "Daegu",
+      "country": "KR",
+      "value": 52.167
+    },
+    {
+      "name": "North Jeolla",
+      "country": "KR",
+      "value": 46.754
+    },
+    {
+      "name": "Gangwon",
+      "country": "KR",
+      "value": 45.231
+    },
+    {
+      "name": "Daejeon",
+      "country": "KR",
+      "value": 39.409
+    },
+    {
+      "name": "Gwangju",
+      "country": "KR",
+      "value": 38.386
+    },
+    {
+      "name": "Jeju",
+      "country": "KR",
+      "value": 18.85
+    },
+    {
+      "name": "Sejong",
+      "country": "KR",
+      "value": 12.153
+    }
+  ]
+}

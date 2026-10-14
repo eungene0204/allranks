@@ -1,0 +1,59 @@
+{
+  "id": "pk-province-gdp",
+  "title": "Pakistani Provinces by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Estimated gross state product of each province and region, in billions of US dollars.",
+  "unit": "USD billion",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "PK",
+  "year": 2026,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Pakistan Bureau of Statistics and provincial estimates (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Pakistani_administrative_units_by_gross_state_product",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:56:13.231Z",
+  "items": [
+    {
+      "name": "Punjab",
+      "country": "PK",
+      "value": 265.6
+    },
+    {
+      "name": "Sindh",
+      "country": "PK",
+      "value": 103.9
+    },
+    {
+      "name": "Khyber Pakhtunkhwa (including former FATA)",
+      "country": "PK",
+      "value": 44.9
+    },
+    {
+      "name": "Balochistan",
+      "country": "PK",
+      "value": 23.6
+    },
+    {
+      "name": "Azad Jammu and Kashmir",
+      "country": "PK",
+      "value": 5.9
+    },
+    {
+      "name": "Islamabad (ICT)",
+      "country": "PK",
+      "value": 5.9
+    },
+    {
+      "name": "Gilgit Baltistan",
+      "country": "PK",
+      "value": 2.9
+    }
+  ]
+}

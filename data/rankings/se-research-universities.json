@@ -1,0 +1,326 @@
+{
+  "id": "se-research-universities",
+  "title": "Top Research Universities in Sweden",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Sweden ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:40.648Z",
+  "items": [
+    {
+      "name": "Karolinska Institutet",
+      "country": "SE",
+      "value": 32719815,
+      "detail": "233,104 papers"
+    },
+    {
+      "name": "Lund University",
+      "country": "SE",
+      "value": 23550134,
+      "detail": "235,209 papers"
+    },
+    {
+      "name": "Uppsala University",
+      "country": "SE",
+      "value": 20388430,
+      "detail": "210,593 papers"
+    },
+    {
+      "name": "University of Gothenburg",
+      "country": "SE",
+      "value": 15104902,
+      "detail": "155,651 papers"
+    },
+    {
+      "name": "Stockholm University",
+      "country": "SE",
+      "value": 13022521,
+      "detail": "129,823 papers"
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "country": "SE",
+      "value": 8799593,
+      "detail": "118,462 papers"
+    },
+    {
+      "name": "Umeå University",
+      "country": "SE",
+      "value": 8098680,
+      "detail": "80,952 papers"
+    },
+    {
+      "name": "Linköping University",
+      "country": "SE",
+      "value": 6522213,
+      "detail": "88,103 papers"
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "country": "SE",
+      "value": 5747244,
+      "detail": "88,549 papers"
+    },
+    {
+      "name": "Swedish University of Agricultural Sciences",
+      "country": "SE",
+      "value": 5637325,
+      "detail": "63,730 papers"
+    },
+    {
+      "name": "Luleå University of Technology",
+      "country": "SE",
+      "value": 1437071,
+      "detail": "27,189 papers"
+    },
+    {
+      "name": "Örebro University",
+      "country": "SE",
+      "value": 1154156,
+      "detail": "21,680 papers"
+    },
+    {
+      "name": "Stockholm Resilience Centre",
+      "country": "SE",
+      "value": 1041913,
+      "detail": "3,694 papers"
+    },
+    {
+      "name": "Linnaeus University",
+      "country": "SE",
+      "value": 984310,
+      "detail": "16,501 papers"
+    },
+    {
+      "name": "Stockholm School of Economics",
+      "country": "SE",
+      "value": 577734,
+      "detail": "8,257 papers"
+    },
+    {
+      "name": "Malmö University",
+      "country": "SE",
+      "value": 547015,
+      "detail": "13,838 papers"
+    },
+    {
+      "name": "Jönköping University",
+      "country": "SE",
+      "value": 475065,
+      "detail": "11,084 papers"
+    },
+    {
+      "name": "Karlstad University",
+      "country": "SE",
+      "value": 466374,
+      "detail": "11,140 papers"
+    },
+    {
+      "name": "Mid Sweden University",
+      "country": "SE",
+      "value": 436937,
+      "detail": "10,259 papers"
+    },
+    {
+      "name": "Mälardalen University",
+      "country": "SE",
+      "value": 397585,
+      "detail": "11,585 papers"
+    },
+    {
+      "name": "Swedish University of Agricultural Sciences, Alnarp",
+      "country": "SE",
+      "value": 387574,
+      "detail": "5,114 papers"
+    },
+    {
+      "name": "Swedish Institute of Space Physics",
+      "country": "SE",
+      "value": 305247,
+      "detail": "4,781 papers"
+    },
+    {
+      "name": "University of Borås",
+      "country": "SE",
+      "value": 283133,
+      "detail": "5,586 papers"
+    },
+    {
+      "name": "Blekinge Institute of Technology",
+      "country": "SE",
+      "value": 255181,
+      "detail": "6,742 papers"
+    },
+    {
+      "name": "Halmstad University",
+      "country": "SE",
+      "value": 226078,
+      "detail": "6,514 papers"
+    },
+    {
+      "name": "University of Gävle",
+      "country": "SE",
+      "value": 216671,
+      "detail": "5,895 papers"
+    },
+    {
+      "name": "Dalarna University",
+      "country": "SE",
+      "value": 205828,
+      "detail": "5,802 papers"
+    },
+    {
+      "name": "University of Skövde",
+      "country": "SE",
+      "value": 200430,
+      "detail": "5,947 papers"
+    },
+    {
+      "name": "Nordic School of Public Health",
+      "country": "SE",
+      "value": 166961,
+      "detail": "1,601 papers"
+    },
+    {
+      "name": "Swedish School of Sport and Health Sciences",
+      "country": "SE",
+      "value": 157277,
+      "detail": "2,014 papers"
+    },
+    {
+      "name": "Södertörn University",
+      "country": "SE",
+      "value": 156722,
+      "detail": "5,445 papers"
+    },
+    {
+      "name": "Kristianstad University",
+      "country": "SE",
+      "value": 133704,
+      "detail": "3,610 papers"
+    },
+    {
+      "name": "University West",
+      "country": "SE",
+      "value": 128285,
+      "detail": "4,014 papers"
+    },
+    {
+      "name": "Marie Cederschiöld University",
+      "country": "SE",
+      "value": 44685,
+      "detail": "1,516 papers"
+    },
+    {
+      "name": "Sophiahemmet University College",
+      "country": "SE",
+      "value": 31215,
+      "detail": "1,146 papers"
+    },
+    {
+      "name": "World Maritime University",
+      "country": "SE",
+      "value": 30878,
+      "detail": "1,861 papers"
+    },
+    {
+      "name": "Swedish Defence University",
+      "country": "SE",
+      "value": 27929,
+      "detail": "1,782 papers"
+    },
+    {
+      "name": "Röda Korsets Högskola",
+      "country": "SE",
+      "value": 22667,
+      "detail": "650 papers"
+    },
+    {
+      "name": "Swedish Collegium for Advanced Study",
+      "country": "SE",
+      "value": 14234,
+      "detail": "636 papers"
+    },
+    {
+      "name": "Royal Swedish Academy of Engineering Sciences",
+      "country": "SE",
+      "value": 5331,
+      "detail": "81 papers"
+    },
+    {
+      "name": "Skandinaviska Naprapathögskolan AB",
+      "country": "SE",
+      "value": 3269,
+      "detail": "90 papers"
+    },
+    {
+      "name": "University College of Arts Crafts and Design",
+      "country": "SE",
+      "value": 2177,
+      "detail": "190 papers"
+    },
+    {
+      "name": "Raoul Wallenberg Institute of Human Rights and Humanitarian Law",
+      "country": "SE",
+      "value": 1765,
+      "detail": "244 papers"
+    },
+    {
+      "name": "Royal College of Music in Stockholm",
+      "country": "SE",
+      "value": 1540,
+      "detail": "156 papers"
+    },
+    {
+      "name": "Stockholm University College of Music Education",
+      "country": "SE",
+      "value": 1383,
+      "detail": "65 papers"
+    },
+    {
+      "name": "Specialpedagogiska Skolmyndigheten",
+      "country": "SE",
+      "value": 1146,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Skandinaviska Kiropraktorhögskolan",
+      "country": "SE",
+      "value": 838,
+      "detail": "9 papers"
+    },
+    {
+      "name": "University College Stockholm",
+      "country": "SE",
+      "value": 807,
+      "detail": "262 papers"
+    },
+    {
+      "name": "Studieförbundet Näringsliv och Samhälle",
+      "country": "SE",
+      "value": 707,
+      "detail": "52 papers"
+    },
+    {
+      "name": "Swedish Institute for Studies in Education and Research",
+      "country": "SE",
+      "value": 623,
+      "detail": "16 papers"
+    }
+  ]
+}

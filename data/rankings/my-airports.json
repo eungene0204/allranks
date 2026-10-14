@@ -1,0 +1,114 @@
+{
+  "id": "my-airports",
+  "title": "Busiest Airports in Malaysia",
+  "short": "Airports",
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Malaysian airports ranked by passengers in 2024.",
+  "unit": "million passengers",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "MY",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Malaysia Airports Holdings Berhad (2024) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Malaysia",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:05:25.646Z",
+  "items": [
+    {
+      "name": "Kuala Lumpur International Airport",
+      "country": "MY",
+      "value": 57.009,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Kota Kinabalu International Airport",
+      "country": "MY",
+      "value": 7.954,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Penang International Airport",
+      "country": "MY",
+      "value": 7.642,
+      "detail": "Penang"
+    },
+    {
+      "name": "Kuching International Airport",
+      "country": "MY",
+      "value": 5.384,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Senai International Airport",
+      "country": "MY",
+      "value": 3.361,
+      "detail": "Johor"
+    },
+    {
+      "name": "Langkawi International Airport",
+      "country": "MY",
+      "value": 2.547,
+      "detail": "Kedah"
+    },
+    {
+      "name": "Miri Airport",
+      "country": "MY",
+      "value": 2.067,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Tawau Airport",
+      "country": "MY",
+      "value": 1.962,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Sultan Ismail Petra Airport",
+      "country": "MY",
+      "value": 1.473,
+      "detail": "Kelantan"
+    },
+    {
+      "name": "Sibu Airport",
+      "country": "MY",
+      "value": 1.459,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Sultan Abdul Aziz Shah Airport",
+      "country": "MY",
+      "value": 1.422,
+      "detail": "Selangor"
+    },
+    {
+      "name": "Sandakan Airport",
+      "country": "MY",
+      "value": 0.98,
+      "detail": "Sabah"
+    },
+    {
+      "name": "Bintulu Airport",
+      "country": "MY",
+      "value": 0.85,
+      "detail": "Sarawak"
+    },
+    {
+      "name": "Sultan Mahmud Airport",
+      "country": "MY",
+      "value": 0.652,
+      "detail": "Terengganu"
+    },
+    {
+      "name": "Sultan Abdul Halim Airport",
+      "country": "MY",
+      "value": 0.547,
+      "detail": "Kedah"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "zm-research-universities",
+  "title": "Top Research Universities in Zambia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Zambia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ZM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:33.898Z",
+  "items": [
+    {
+      "name": "University of Zambia",
+      "country": "ZM",
+      "value": 417201,
+      "detail": "15,461 papers"
+    },
+    {
+      "name": "Copperbelt University",
+      "country": "ZM",
+      "value": 55497,
+      "detail": "2,550 papers"
+    },
+    {
+      "name": "Mulungushi University",
+      "country": "ZM",
+      "value": 10644,
+      "detail": "1,083 papers"
+    },
+    {
+      "name": "Lusaka Apex Medical University",
+      "country": "ZM",
+      "value": 5960,
+      "detail": "338 papers"
+    },
+    {
+      "name": "Levy Mwanawasa Medical University",
+      "country": "ZM",
+      "value": 5695,
+      "detail": "474 papers"
+    },
+    {
+      "name": "Information and Communications University",
+      "country": "ZM",
+      "value": 5423,
+      "detail": "719 papers"
+    },
+    {
+      "name": "South Valley University",
+      "country": "ZM",
+      "value": 2633,
+      "detail": "427 papers"
+    },
+    {
+      "name": "Kapasa Makasa University",
+      "country": "ZM",
+      "value": 2566,
+      "detail": "81 papers"
+    },
+    {
+      "name": "University of Lusaka",
+      "country": "ZM",
+      "value": 2408,
+      "detail": "562 papers"
+    },
+    {
+      "name": "Mukuba University",
+      "country": "ZM",
+      "value": 2365,
+      "detail": "205 papers"
+    },
+    {
+      "name": "Eden University",
+      "country": "ZM",
+      "value": 2230,
+      "detail": "215 papers"
+    },
+    {
+      "name": "Kwame Nkrumah University",
+      "country": "ZM",
+      "value": 1222,
+      "detail": "428 papers"
+    },
+    {
+      "name": "DMI St. Eugene University",
+      "country": "ZM",
+      "value": 1171,
+      "detail": "414 papers"
+    },
+    {
+      "name": "Chalimbana University",
+      "country": "ZM",
+      "value": 1032,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Zambia Centre for Accountancy Studies",
+      "country": "ZM",
+      "value": 804,
+      "detail": "288 papers"
+    },
+    {
+      "name": "National Institute of Public Administration",
+      "country": "ZM",
+      "value": 801,
+      "detail": "216 papers"
+    },
+    {
+      "name": "Unicaf University Zambia",
+      "country": "ZM",
+      "value": 739,
+      "detail": "202 papers"
+    },
+    {
+      "name": "Cavendish University Zambia",
+      "country": "ZM",
+      "value": 643,
+      "detail": "117 papers"
+    },
+    {
+      "name": "University of Africa",
+      "country": "ZM",
+      "value": 453,
+      "detail": "289 papers"
+    },
+    {
+      "name": "Zambia Forestry College",
+      "country": "ZM",
+      "value": 424,
+      "detail": "58 papers"
+    },
+    {
+      "name": "Northrise University",
+      "country": "ZM",
+      "value": 409,
+      "detail": "61 papers"
+    },
+    {
+      "name": "Rusangu University",
+      "country": "ZM",
+      "value": 359,
+      "detail": "136 papers"
+    },
+    {
+      "name": "Zambian Open University",
+      "country": "ZM",
+      "value": 290,
+      "detail": "99 papers"
+    },
+    {
+      "name": "Texila American University Zambia",
+      "country": "ZM",
+      "value": 279,
+      "detail": "132 papers"
+    },
+    {
+      "name": "Evelyn Hone College",
+      "country": "ZM",
+      "value": 270,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Justo Mwale University",
+      "country": "ZM",
+      "value": 200,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Examinations Council of Zambia",
+      "country": "ZM",
+      "value": 116,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Copperstone University",
+      "country": "ZM",
+      "value": 90,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Supershine University",
+      "country": "ZM",
+      "value": 1,
+      "detail": "7 papers"
+    }
+  ]
+}

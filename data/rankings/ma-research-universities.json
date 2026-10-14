@@ -1,0 +1,326 @@
+{
+  "id": "ma-research-universities",
+  "title": "Top Research Universities in Morocco",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Morocco ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:59.676Z",
+  "items": [
+    {
+      "name": "Mohammed V University",
+      "country": "MA",
+      "value": 1551045,
+      "detail": "49,950 papers"
+    },
+    {
+      "name": "University of Hassan II Casablanca",
+      "country": "MA",
+      "value": 1185684,
+      "detail": "31,413 papers"
+    },
+    {
+      "name": "Cadi Ayyad University",
+      "country": "MA",
+      "value": 1041244,
+      "detail": "27,518 papers"
+    },
+    {
+      "name": "Mohamed I University",
+      "country": "MA",
+      "value": 670150,
+      "detail": "16,409 papers"
+    },
+    {
+      "name": "Sidi Mohamed Ben Abdellah University",
+      "country": "MA",
+      "value": 658367,
+      "detail": "25,124 papers"
+    },
+    {
+      "name": "Université Ibn-Tofail",
+      "country": "MA",
+      "value": 461312,
+      "detail": "19,568 papers"
+    },
+    {
+      "name": "Université Ibn Zohr",
+      "country": "MA",
+      "value": 417419,
+      "detail": "15,417 papers"
+    },
+    {
+      "name": "Abdelmalek Essaâdi University",
+      "country": "MA",
+      "value": 331530,
+      "detail": "16,850 papers"
+    },
+    {
+      "name": "Université Mohammed VI Polytechnique",
+      "country": "MA",
+      "value": 323888,
+      "detail": "10,811 papers"
+    },
+    {
+      "name": "Université Moulay Ismail de Meknes",
+      "country": "MA",
+      "value": 309483,
+      "detail": "13,159 papers"
+    },
+    {
+      "name": "Chouaib Doukkali University",
+      "country": "MA",
+      "value": 280686,
+      "detail": "10,458 papers"
+    },
+    {
+      "name": "Université Sultan Moulay Slimane",
+      "country": "MA",
+      "value": 239340,
+      "detail": "11,718 papers"
+    },
+    {
+      "name": "Université Hassan II Mohammedia",
+      "country": "MA",
+      "value": 192627,
+      "detail": "5,745 papers"
+    },
+    {
+      "name": "Université Hassan 1er",
+      "country": "MA",
+      "value": 139777,
+      "detail": "8,201 papers"
+    },
+    {
+      "name": "Institut Agronomique et Vétérinaire Hassan II",
+      "country": "MA",
+      "value": 100486,
+      "detail": "3,782 papers"
+    },
+    {
+      "name": "Ecole Mohammadia d'Ingénieurs",
+      "country": "MA",
+      "value": 92709,
+      "detail": "4,766 papers"
+    },
+    {
+      "name": "International University of Rabat",
+      "country": "MA",
+      "value": 60476,
+      "detail": "2,837 papers"
+    },
+    {
+      "name": "Al Akhawayn University",
+      "country": "MA",
+      "value": 46566,
+      "detail": "2,197 papers"
+    },
+    {
+      "name": "École Nationale d'Agriculture de Meknès",
+      "country": "MA",
+      "value": 39240,
+      "detail": "1,526 papers"
+    },
+    {
+      "name": "Euro-Mediterranean University of Fes",
+      "country": "MA",
+      "value": 33102,
+      "detail": "1,468 papers"
+    },
+    {
+      "name": "École Normale Supérieure de l'Enseignement Technique de Mohammedia",
+      "country": "MA",
+      "value": 32262,
+      "detail": "1,376 papers"
+    },
+    {
+      "name": "Université Mohammed VI des Sciences et de la Santé",
+      "country": "MA",
+      "value": 29664,
+      "detail": "2,295 papers"
+    },
+    {
+      "name": "Institut National des Postes et Télécommunications",
+      "country": "MA",
+      "value": 20788,
+      "detail": "1,518 papers"
+    },
+    {
+      "name": "Instituts Supérieurs des Professions Infirmières et Techniques de Santé",
+      "country": "MA",
+      "value": 18851,
+      "detail": "2,345 papers"
+    },
+    {
+      "name": "École Normale Supérieure - Marrakech",
+      "country": "MA",
+      "value": 14043,
+      "detail": "414 papers"
+    },
+    {
+      "name": "National School of Mineral Industry",
+      "country": "MA",
+      "value": 13786,
+      "detail": "966 papers"
+    },
+    {
+      "name": "Hassania School of Public Works",
+      "country": "MA",
+      "value": 13321,
+      "detail": "899 papers"
+    },
+    {
+      "name": "Institut National des Sciences de l'Archéologie et du Patrimoine",
+      "country": "MA",
+      "value": 12694,
+      "detail": "623 papers"
+    },
+    {
+      "name": "École Supérieure des Industries du Textile et de l'Habillement",
+      "country": "MA",
+      "value": 11323,
+      "detail": "406 papers"
+    },
+    {
+      "name": "École Normale Supérieure de Tétouan",
+      "country": "MA",
+      "value": 8857,
+      "detail": "725 papers"
+    },
+    {
+      "name": "École Marocaine des Sciences de l'Ingénieur",
+      "country": "MA",
+      "value": 7934,
+      "detail": "787 papers"
+    },
+    {
+      "name": "École Normale Supérieure de Fès",
+      "country": "MA",
+      "value": 7121,
+      "detail": "610 papers"
+    },
+    {
+      "name": "École Normale Supérieure Casablanca",
+      "country": "MA",
+      "value": 6554,
+      "detail": "313 papers"
+    },
+    {
+      "name": "Institut National de Statistique et d'Economie Appliquée",
+      "country": "MA",
+      "value": 5101,
+      "detail": "523 papers"
+    },
+    {
+      "name": "École Royale Navale",
+      "country": "MA",
+      "value": 4658,
+      "detail": "223 papers"
+    },
+    {
+      "name": "ESCA Ecole de Management",
+      "country": "MA",
+      "value": 4648,
+      "detail": "313 papers"
+    },
+    {
+      "name": "Université Privée de Fès",
+      "country": "MA",
+      "value": 3409,
+      "detail": "351 papers"
+    },
+    {
+      "name": "Universiapolis - Université Internationale d'Agadir",
+      "country": "MA",
+      "value": 3068,
+      "detail": "345 papers"
+    },
+    {
+      "name": "École des Sciences de I'information",
+      "country": "MA",
+      "value": 3030,
+      "detail": "310 papers"
+    },
+    {
+      "name": "Institut Supérieur de Commerce et d'Administration des Entreprises",
+      "country": "MA",
+      "value": 2398,
+      "detail": "316 papers"
+    },
+    {
+      "name": "National School of Architecture",
+      "country": "MA",
+      "value": 2111,
+      "detail": "378 papers"
+    },
+    {
+      "name": "Ecole Centrale Casablanca",
+      "country": "MA",
+      "value": 2004,
+      "detail": "190 papers"
+    },
+    {
+      "name": "Institut Supérieur des Professions Infirmières et Techniques de Santé de Casablanca",
+      "country": "MA",
+      "value": 1745,
+      "detail": "310 papers"
+    },
+    {
+      "name": "École Nationale de Commerce et de Gestion de Tanger",
+      "country": "MA",
+      "value": 1723,
+      "detail": "524 papers"
+    },
+    {
+      "name": "Institut Supérieur d'Études Maritimes",
+      "country": "MA",
+      "value": 1654,
+      "detail": "172 papers"
+    },
+    {
+      "name": "National School of Business and Management in Settat",
+      "country": "MA",
+      "value": 1535,
+      "detail": "526 papers"
+    },
+    {
+      "name": "École Royale de l'Air de Marrakech",
+      "country": "MA",
+      "value": 1410,
+      "detail": "197 papers"
+    },
+    {
+      "name": "École Nationale Supérieure de l'Administration",
+      "country": "MA",
+      "value": 1369,
+      "detail": "107 papers"
+    },
+    {
+      "name": "Université Internationale de Casablanca",
+      "country": "MA",
+      "value": 1363,
+      "detail": "184 papers"
+    },
+    {
+      "name": "Royal Centre for Remote Sensing",
+      "country": "MA",
+      "value": 1274,
+      "detail": "74 papers"
+    }
+  ]
+}

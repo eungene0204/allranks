@@ -29,7 +29,7 @@ const ENTRY_LIMIT = 8;
 export default async function CountryPage({ params }: Props) {
   const d = countryDetail((await params).code);
   if (!d) notFound();
-  const { summary: c, world, regional } = d;
+  const { summary: c, world, regional, keyStats } = d;
   return (
     <>
       <div className="page-head">
@@ -52,6 +52,22 @@ export default async function CountryPage({ params }: Props) {
         <span className="chip">📊 {world.length} world rankings</span>
         {regional.length > 0 && <span className="chip">🗺️ {regional.length} rankings inside {c.name}</span>}
       </div>
+
+      {keyStats.length > 0 && (
+        <div className="keystats">
+          {keyStats.map((k) => (
+            <Link className="keystat" href={`/ranking/${k.id}`} key={k.id}>
+              <span className="ks-label">
+                {k.icon} {k.label}
+              </span>
+              <b>{k.value}</b>
+              <span className="ks-rank">
+                #{k.rank} of {k.total}
+              </span>
+            </Link>
+          ))}
+        </div>
+      )}
 
       {regional.length > 0 && (
         <>

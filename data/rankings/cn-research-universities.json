@@ -1,0 +1,326 @@
+{
+  "id": "cn-research-universities",
+  "title": "Top Research Universities in China",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in China ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:33.720Z",
+  "items": [
+    {
+      "name": "Tsinghua University",
+      "country": "CN",
+      "value": 34967978,
+      "detail": "387,870 papers"
+    },
+    {
+      "name": "Zhejiang University",
+      "country": "CN",
+      "value": 34861877,
+      "detail": "425,764 papers"
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "country": "CN",
+      "value": 33264272,
+      "detail": "414,686 papers"
+    },
+    {
+      "name": "University of Chinese Academy of Sciences",
+      "country": "CN",
+      "value": 31299260,
+      "detail": "394,293 papers"
+    },
+    {
+      "name": "Peking University",
+      "country": "CN",
+      "value": 29709631,
+      "detail": "326,343 papers"
+    },
+    {
+      "name": "Fudan University",
+      "country": "CN",
+      "value": 25269519,
+      "detail": "275,077 papers"
+    },
+    {
+      "name": "Huazhong University of Science and Technology",
+      "country": "CN",
+      "value": 24951126,
+      "detail": "271,499 papers"
+    },
+    {
+      "name": "University of Science and Technology of China",
+      "country": "CN",
+      "value": 24186458,
+      "detail": "215,983 papers"
+    },
+    {
+      "name": "Sun Yat-sen University",
+      "country": "CN",
+      "value": 21121340,
+      "detail": "250,963 papers"
+    },
+    {
+      "name": "Sichuan University",
+      "country": "CN",
+      "value": 20059935,
+      "detail": "250,985 papers"
+    },
+    {
+      "name": "Nanjing University",
+      "country": "CN",
+      "value": 18702979,
+      "detail": "207,872 papers"
+    },
+    {
+      "name": "Central South University",
+      "country": "CN",
+      "value": 17695801,
+      "detail": "222,139 papers"
+    },
+    {
+      "name": "Shandong University",
+      "country": "CN",
+      "value": 16574223,
+      "detail": "218,578 papers"
+    },
+    {
+      "name": "Wuhan University",
+      "country": "CN",
+      "value": 15256767,
+      "detail": "199,424 papers"
+    },
+    {
+      "name": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+      "country": "CN",
+      "value": 15244468,
+      "detail": "170,298 papers"
+    },
+    {
+      "name": "Xi'an Jiaotong University",
+      "country": "CN",
+      "value": 15170409,
+      "detail": "225,006 papers"
+    },
+    {
+      "name": "Jilin University",
+      "country": "CN",
+      "value": 14979835,
+      "detail": "181,392 papers"
+    },
+    {
+      "name": "Harbin Institute of Technology",
+      "country": "CN",
+      "value": 14847386,
+      "detail": "228,036 papers"
+    },
+    {
+      "name": "Tianjin University",
+      "country": "CN",
+      "value": 13179631,
+      "detail": "175,444 papers"
+    },
+    {
+      "name": "Tongji University",
+      "country": "CN",
+      "value": 12116860,
+      "detail": "206,671 papers"
+    },
+    {
+      "name": "South China University of Technology",
+      "country": "CN",
+      "value": 11716426,
+      "detail": "152,405 papers"
+    },
+    {
+      "name": "Southeast University",
+      "country": "CN",
+      "value": 10725494,
+      "detail": "193,898 papers"
+    },
+    {
+      "name": "Xiamen University",
+      "country": "CN",
+      "value": 10369632,
+      "detail": "123,311 papers"
+    },
+    {
+      "name": "Nankai University",
+      "country": "CN",
+      "value": 10330334,
+      "detail": "112,616 papers"
+    },
+    {
+      "name": "Hunan University",
+      "country": "CN",
+      "value": 10222578,
+      "detail": "96,015 papers"
+    },
+    {
+      "name": "Soochow University",
+      "country": "CN",
+      "value": 10214124,
+      "detail": "112,513 papers"
+    },
+    {
+      "name": "Dalian University of Technology",
+      "country": "CN",
+      "value": 9838701,
+      "detail": "137,034 papers"
+    },
+    {
+      "name": "Capital Medical University",
+      "country": "CN",
+      "value": 9507470,
+      "detail": "143,824 papers"
+    },
+    {
+      "name": "China Agricultural University",
+      "country": "CN",
+      "value": 9196823,
+      "detail": "92,723 papers"
+    },
+    {
+      "name": "Zhengzhou University",
+      "country": "CN",
+      "value": 8496292,
+      "detail": "135,356 papers"
+    },
+    {
+      "name": "Chongqing University",
+      "country": "CN",
+      "value": 8296888,
+      "detail": "137,291 papers"
+    },
+    {
+      "name": "Beijing Institute of Technology",
+      "country": "CN",
+      "value": 8267497,
+      "detail": "143,191 papers"
+    },
+    {
+      "name": "Beihang University",
+      "country": "CN",
+      "value": 8207933,
+      "detail": "157,014 papers"
+    },
+    {
+      "name": "University of Electronic Science and Technology of China",
+      "country": "CN",
+      "value": 8032385,
+      "detail": "149,395 papers"
+    },
+    {
+      "name": "Northwestern Polytechnical University",
+      "country": "CN",
+      "value": 7887067,
+      "detail": "143,140 papers"
+    },
+    {
+      "name": "Lanzhou University",
+      "country": "CN",
+      "value": 7582417,
+      "detail": "101,981 papers"
+    },
+    {
+      "name": "Nanjing Medical University",
+      "country": "CN",
+      "value": 7505384,
+      "detail": "101,940 papers"
+    },
+    {
+      "name": "Jiangsu University",
+      "country": "CN",
+      "value": 7218370,
+      "detail": "89,604 papers"
+    },
+    {
+      "name": "Northwest A&F University",
+      "country": "CN",
+      "value": 7041680,
+      "detail": "63,319 papers"
+    },
+    {
+      "name": "Nanjing Agricultural University",
+      "country": "CN",
+      "value": 6964008,
+      "detail": "64,765 papers"
+    },
+    {
+      "name": "Southern Medical University",
+      "country": "CN",
+      "value": 6779157,
+      "detail": "94,408 papers"
+    },
+    {
+      "name": "Beijing Normal University",
+      "country": "CN",
+      "value": 6698323,
+      "detail": "115,401 papers"
+    },
+    {
+      "name": "Huazhong Agricultural University",
+      "country": "CN",
+      "value": 6627980,
+      "detail": "57,156 papers"
+    },
+    {
+      "name": "Shenzhen University",
+      "country": "CN",
+      "value": 6622444,
+      "detail": "98,082 papers"
+    },
+    {
+      "name": "University of Science and Technology Beijing",
+      "country": "CN",
+      "value": 6511870,
+      "detail": "100,199 papers"
+    },
+    {
+      "name": "East China University of Science and Technology",
+      "country": "CN",
+      "value": 6488785,
+      "detail": "70,564 papers"
+    },
+    {
+      "name": "Wuhan University of Technology",
+      "country": "CN",
+      "value": 6226242,
+      "detail": "92,459 papers"
+    },
+    {
+      "name": "Beijing University of Chemical Technology",
+      "country": "CN",
+      "value": 6117104,
+      "detail": "55,082 papers"
+    },
+    {
+      "name": "Shanghai Medical College of Fudan University",
+      "country": "CN",
+      "value": 5838973,
+      "detail": "53,415 papers"
+    },
+    {
+      "name": "Jiangnan University",
+      "country": "CN",
+      "value": 5748117,
+      "detail": "74,918 papers"
+    }
+  ]
+}

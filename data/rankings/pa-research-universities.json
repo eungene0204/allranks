@@ -1,0 +1,182 @@
+{
+  "id": "pa-research-universities",
+  "title": "Top Research Universities in Panama",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Panama ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:10.992Z",
+  "items": [
+    {
+      "name": "Universidad de Panamá",
+      "country": "PA",
+      "value": 81591,
+      "detail": "10,035 papers"
+    },
+    {
+      "name": "Universidad Tecnológica de Panamá",
+      "country": "PA",
+      "value": 23076,
+      "detail": "3,312 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Chiriquí",
+      "country": "PA",
+      "value": 8366,
+      "detail": "1,228 papers"
+    },
+    {
+      "name": "Florida State University-Panama",
+      "country": "PA",
+      "value": 5012,
+      "detail": "292 papers"
+    },
+    {
+      "name": "Coiba Scientific Station (Coiba AIP)",
+      "country": "PA",
+      "value": 3556,
+      "detail": "723 papers"
+    },
+    {
+      "name": "Universidad Metropolitana de Educación, Ciencia y Tecnología",
+      "country": "PA",
+      "value": 3402,
+      "detail": "2,201 papers"
+    },
+    {
+      "name": "Universidad Interamericana de Panamá",
+      "country": "PA",
+      "value": 3228,
+      "detail": "160 papers"
+    },
+    {
+      "name": "Latin University of Panama",
+      "country": "PA",
+      "value": 2566,
+      "detail": "372 papers"
+    },
+    {
+      "name": "Universidad Especializada de las Américas",
+      "country": "PA",
+      "value": 1638,
+      "detail": "1,555 papers"
+    },
+    {
+      "name": "International Maritime University of Panama",
+      "country": "PA",
+      "value": 1390,
+      "detail": "101 papers"
+    },
+    {
+      "name": "Columbus University",
+      "country": "PA",
+      "value": 1245,
+      "detail": "26 papers"
+    },
+    {
+      "name": "Universidad del Istmo",
+      "country": "PA",
+      "value": 637,
+      "detail": "330 papers"
+    },
+    {
+      "name": "Universidad de Santander",
+      "country": "PA",
+      "value": 630,
+      "detail": "177 papers"
+    },
+    {
+      "name": "Universidad Católica Santa María La Antigua",
+      "country": "PA",
+      "value": 620,
+      "detail": "312 papers"
+    },
+    {
+      "name": "Universidad del Caribe Panamá",
+      "country": "PA",
+      "value": 377,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Latin American University of Science and Technology",
+      "country": "PA",
+      "value": 341,
+      "detail": "262 papers"
+    },
+    {
+      "name": "Quality Leadership University Panama",
+      "country": "PA",
+      "value": 155,
+      "detail": "77 papers"
+    },
+    {
+      "name": "Universidad Cristiana de Panamá",
+      "country": "PA",
+      "value": 150,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Universidad Tecnológica Oteima",
+      "country": "PA",
+      "value": 92,
+      "detail": "63 papers"
+    },
+    {
+      "name": "ISAE Universidad",
+      "country": "PA",
+      "value": 49,
+      "detail": "45 papers"
+    },
+    {
+      "name": "Breyer State Theology University",
+      "country": "PA",
+      "value": 20,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Universidad UNIDOS",
+      "country": "PA",
+      "value": 18,
+      "detail": "33 papers"
+    },
+    {
+      "name": "Universidad Interamericana de Educación a Distancia de Panamá",
+      "country": "PA",
+      "value": 15,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Universidad Abierta y a Distancia de Panamá",
+      "country": "PA",
+      "value": 6,
+      "detail": "7 papers"
+    },
+    {
+      "name": "Universidad Americana",
+      "country": "PA",
+      "value": 2,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Universidad del Arte Ganexa",
+      "country": "PA",
+      "value": 2,
+      "detail": "3 papers"
+    }
+  ]
+}

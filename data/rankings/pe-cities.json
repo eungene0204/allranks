@@ -1,0 +1,325 @@
+{
+  "id": "pe-cities",
+  "title": "Largest Cities in Peru",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Peru with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.678Z",
+  "items": [
+    {
+      "name": "Lima",
+      "country": "PE",
+      "value": 7737002,
+      "detail": "Lima Province"
+    },
+    {
+      "name": "Callao",
+      "country": "PE",
+      "value": 1226200,
+      "detail": "Callao"
+    },
+    {
+      "name": "Arequipa",
+      "country": "PE",
+      "value": 1195700,
+      "detail": "Arequipa"
+    },
+    {
+      "name": "Trujillo",
+      "country": "PE",
+      "value": 1067700,
+      "detail": "La Libertad"
+    },
+    {
+      "name": "Piura",
+      "country": "PE",
+      "value": 630000,
+      "detail": "Piura"
+    },
+    {
+      "name": "Chiclayo",
+      "country": "PE",
+      "value": 609400,
+      "detail": "Lambayeque"
+    },
+    {
+      "name": "Huancayo",
+      "country": "PE",
+      "value": 456250,
+      "detail": "Junin"
+    },
+    {
+      "name": "Cusco",
+      "country": "PE",
+      "value": 428450,
+      "detail": "Cuzco Department"
+    },
+    {
+      "name": "Iquitos",
+      "country": "PE",
+      "value": 377609,
+      "detail": "Loreto"
+    },
+    {
+      "name": "Pucallpa",
+      "country": "PE",
+      "value": 326040,
+      "detail": "Ucayali"
+    },
+    {
+      "name": "Chimbote",
+      "country": "PE",
+      "value": 316966,
+      "detail": "Ancash"
+    },
+    {
+      "name": "Tacna",
+      "country": "PE",
+      "value": 286240,
+      "detail": "Tacna"
+    },
+    {
+      "name": "Ica",
+      "country": "PE",
+      "value": 282407,
+      "detail": "Ica"
+    },
+    {
+      "name": "Santiago de Surco",
+      "country": "PE",
+      "value": 251648,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Juliaca",
+      "country": "PE",
+      "value": 245675,
+      "detail": "Puno"
+    },
+    {
+      "name": "Cajamarca",
+      "country": "PE",
+      "value": 201329,
+      "detail": "Cajamarca Department"
+    },
+    {
+      "name": "Huánuco",
+      "country": "PE",
+      "value": 196627,
+      "detail": "Huánuco Department"
+    },
+    {
+      "name": "Miraflores",
+      "country": "PE",
+      "value": 187401,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Santa Anita - Los Ficus",
+      "country": "PE",
+      "value": 184614,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Sullana",
+      "country": "PE",
+      "value": 160789,
+      "detail": "Piura"
+    },
+    {
+      "name": "Chincha Alta",
+      "country": "PE",
+      "value": 153076,
+      "detail": "Ica"
+    },
+    {
+      "name": "Ayacucho",
+      "country": "PE",
+      "value": 140033,
+      "detail": "Ayacucho"
+    },
+    {
+      "name": "San Martin",
+      "country": "PE",
+      "value": 130000,
+      "detail": "Piura"
+    },
+    {
+      "name": "Puno",
+      "country": "PE",
+      "value": 128637,
+      "detail": "Puno"
+    },
+    {
+      "name": "Huaraz",
+      "country": "PE",
+      "value": 118836,
+      "detail": "Ancash"
+    },
+    {
+      "name": "San Francisco De Borja",
+      "country": "PE",
+      "value": 105076,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Talara",
+      "country": "PE",
+      "value": 99074,
+      "detail": "Piura"
+    },
+    {
+      "name": "Tumbes",
+      "country": "PE",
+      "value": 96946,
+      "detail": "Tumbes"
+    },
+    {
+      "name": "Chosica",
+      "country": "PE",
+      "value": 88606,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Puerto Maldonado",
+      "country": "PE",
+      "value": 85024,
+      "detail": "Madre de Dios"
+    },
+    {
+      "name": "Breña",
+      "country": "PE",
+      "value": 81909,
+      "detail": "Lima region"
+    },
+    {
+      "name": "San Juan",
+      "country": "PE",
+      "value": 78153,
+      "detail": "Loreto"
+    },
+    {
+      "name": "Ciudad Satelite",
+      "country": "PE",
+      "value": 76410,
+      "detail": "Arequipa"
+    },
+    {
+      "name": "Chilca",
+      "country": "PE",
+      "value": 73371,
+      "detail": "Junin"
+    },
+    {
+      "name": "Selva Alegre",
+      "country": "PE",
+      "value": 72696,
+      "detail": "Arequipa"
+    },
+    {
+      "name": "Abancay",
+      "country": "PE",
+      "value": 72277,
+      "detail": "Apurímac Department"
+    },
+    {
+      "name": "Moquegua",
+      "country": "PE",
+      "value": 69882,
+      "detail": "Moquegua Department"
+    },
+    {
+      "name": "Chulucanas",
+      "country": "PE",
+      "value": 68835,
+      "detail": "Piura"
+    },
+    {
+      "name": "San Isidro",
+      "country": "PE",
+      "value": 68309,
+      "detail": "Lima region"
+    },
+    {
+      "name": "San Fernando",
+      "country": "PE",
+      "value": 67844,
+      "detail": "Ucayali"
+    },
+    {
+      "name": "Jesus Maria",
+      "country": "PE",
+      "value": 66171,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Santiago",
+      "country": "PE",
+      "value": 64075,
+      "detail": "Cuzco Department"
+    },
+    {
+      "name": "Huaral",
+      "country": "PE",
+      "value": 62174,
+      "detail": "Lima region"
+    },
+    {
+      "name": "Pisco",
+      "country": "PE",
+      "value": 61869,
+      "detail": "Ica"
+    },
+    {
+      "name": "Villa Poeta José Gálvez Barrenechea",
+      "country": "PE",
+      "value": 61000,
+      "detail": "Lima region"
+    },
+    {
+      "name": "San Miguel",
+      "country": "PE",
+      "value": 60850,
+      "detail": "Puno"
+    },
+    {
+      "name": "Wanchaq",
+      "country": "PE",
+      "value": 59134,
+      "detail": "Cuzco Department"
+    },
+    {
+      "name": "Cerro de Pasco",
+      "country": "PE",
+      "value": 58899,
+      "detail": "Pasco"
+    },
+    {
+      "name": "Belen",
+      "country": "PE",
+      "value": 57824,
+      "detail": "Loreto"
+    },
+    {
+      "name": "Catacaos",
+      "country": "PE",
+      "value": 57304,
+      "detail": "Piura"
+    }
+  ]
+}

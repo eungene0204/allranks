@@ -1,0 +1,180 @@
+{
+  "id": "mr-cities",
+  "title": "Largest Cities in Mauritania",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Mauritania with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.675Z",
+  "items": [
+    {
+      "name": "Nouakchott",
+      "country": "MR",
+      "value": 1184530
+    },
+    {
+      "name": "Nouadhibou",
+      "country": "MR",
+      "value": 146048,
+      "detail": "Dakhlet Nouadhibou"
+    },
+    {
+      "name": "Kiffa",
+      "country": "MR",
+      "value": 62051,
+      "detail": "Assaba"
+    },
+    {
+      "name": "Dar Naim",
+      "country": "MR",
+      "value": 61089,
+      "detail": "Nouakchott North"
+    },
+    {
+      "name": "Néma",
+      "country": "MR",
+      "value": 60000,
+      "detail": "Hodh Ech Chargi"
+    },
+    {
+      "name": "Mbera",
+      "country": "MR",
+      "value": 58985,
+      "detail": "Hodh Ech Chargi"
+    },
+    {
+      "name": "Ksar",
+      "country": "MR",
+      "value": 57758,
+      "detail": "Nouakchott West"
+    },
+    {
+      "name": "Kaédi",
+      "country": "MR",
+      "value": 56283,
+      "detail": "Gorgol"
+    },
+    {
+      "name": "Zouérat",
+      "country": "MR",
+      "value": 55183,
+      "detail": "Tiris Zemmour"
+    },
+    {
+      "name": "Tevragh Zeina",
+      "country": "MR",
+      "value": 48093,
+      "detail": "Nouakchott West"
+    },
+    {
+      "name": "Bougadoum",
+      "country": "MR",
+      "value": 40341,
+      "detail": "Hodh Ech Chargi"
+    },
+    {
+      "name": "Sélibaby",
+      "country": "MR",
+      "value": 32653,
+      "detail": "Guidimaka"
+    },
+    {
+      "name": "Atar",
+      "country": "MR",
+      "value": 31133,
+      "detail": "Adrar"
+    },
+    {
+      "name": "Ayoun El Atrous",
+      "country": "MR",
+      "value": 28174,
+      "detail": "Hodh El Gharbi"
+    },
+    {
+      "name": "Guerou",
+      "country": "MR",
+      "value": 27590,
+      "detail": "Assaba"
+    },
+    {
+      "name": "Boutilimitt",
+      "country": "MR",
+      "value": 27170,
+      "detail": "Trarza"
+    },
+    {
+      "name": "El ’Ayoûn",
+      "country": "MR",
+      "value": 22896,
+      "detail": "Assaba"
+    },
+    {
+      "name": "Tékane",
+      "country": "MR",
+      "value": 22041,
+      "detail": "Trarza"
+    },
+    {
+      "name": "Bogué",
+      "country": "MR",
+      "value": 20291,
+      "detail": "Brakna"
+    },
+    {
+      "name": "Aleg",
+      "country": "MR",
+      "value": 19183,
+      "detail": "Brakna"
+    },
+    {
+      "name": "Tembedgha",
+      "country": "MR",
+      "value": 17465,
+      "detail": "Hodh Ech Chargi"
+    },
+    {
+      "name": "Rosso",
+      "country": "MR",
+      "value": 15870,
+      "detail": "Trarza"
+    },
+    {
+      "name": "Akjoujt",
+      "country": "MR",
+      "value": 15851,
+      "detail": "Inchiri"
+    },
+    {
+      "name": "Ṭinṭâne",
+      "country": "MR",
+      "value": 15684,
+      "detail": "Hodh El Gharbi"
+    },
+    {
+      "name": "Elghabra",
+      "country": "MR",
+      "value": 15480,
+      "detail": "Assaba"
+    },
+    {
+      "name": "Magṭa‘ Laḥjar",
+      "country": "MR",
+      "value": 15446,
+      "detail": "Brakna"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "do-research-universities",
+  "title": "Top Research Universities in Dominican Republic",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Dominican Republic ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:35.612Z",
+  "items": [
+    {
+      "name": "Universidad Nacional Pedro Henríquez Ureña",
+      "country": "DO",
+      "value": 18271,
+      "detail": "787 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica Madre y Maestra",
+      "country": "DO",
+      "value": 17136,
+      "detail": "1,580 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Santo Domingo",
+      "country": "DO",
+      "value": 13721,
+      "detail": "1,886 papers"
+    },
+    {
+      "name": "Instituto Tecnológico de Santo Domingo",
+      "country": "DO",
+      "value": 12573,
+      "detail": "2,042 papers"
+    },
+    {
+      "name": "Universidad Iberoamericana",
+      "country": "DO",
+      "value": 6882,
+      "detail": "849 papers"
+    },
+    {
+      "name": "Universidad Tecnológica de Santiago",
+      "country": "DO",
+      "value": 4059,
+      "detail": "226 papers"
+    },
+    {
+      "name": "Universidad ISA",
+      "country": "DO",
+      "value": 2045,
+      "detail": "158 papers"
+    },
+    {
+      "name": "Instituto Superior de Formación Docente Salomé Ureña",
+      "country": "DO",
+      "value": 1702,
+      "detail": "719 papers"
+    },
+    {
+      "name": "Universidad Eugenio María de Hostos",
+      "country": "DO",
+      "value": 1354,
+      "detail": "14 papers"
+    },
+    {
+      "name": "Universidad Católica Santo Domingo",
+      "country": "DO",
+      "value": 1309,
+      "detail": "133 papers"
+    },
+    {
+      "name": "Universidad Federico Henríquez y Carvajal",
+      "country": "DO",
+      "value": 1214,
+      "detail": "103 papers"
+    },
+    {
+      "name": "Universidad Central del Este",
+      "country": "DO",
+      "value": 1167,
+      "detail": "410 papers"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales República Dominicana",
+      "country": "DO",
+      "value": 707,
+      "detail": "104 papers"
+    },
+    {
+      "name": "Universidad Dominicana Organización & Métodos",
+      "country": "DO",
+      "value": 544,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Universidad Agroforestal Fernando Arturo de Meriño",
+      "country": "DO",
+      "value": 527,
+      "detail": "45 papers"
+    },
+    {
+      "name": "Universidad Acción Pro-Educación y Cultura",
+      "country": "DO",
+      "value": 494,
+      "detail": "117 papers"
+    },
+    {
+      "name": "Universidad Nacional Evangelica",
+      "country": "DO",
+      "value": 381,
+      "detail": "43 papers"
+    },
+    {
+      "name": "Universidad Católica del Cibao",
+      "country": "DO",
+      "value": 306,
+      "detail": "180 papers"
+    },
+    {
+      "name": "Universidad Adventista Dominicana",
+      "country": "DO",
+      "value": 289,
+      "detail": "65 papers"
+    },
+    {
+      "name": "Universidad del Caribe (UNICARIBE)",
+      "country": "DO",
+      "value": 236,
+      "detail": "84 papers"
+    },
+    {
+      "name": "Universidad Católica Nordestana",
+      "country": "DO",
+      "value": 177,
+      "detail": "161 papers"
+    },
+    {
+      "name": "Universidad Abierta Para Adultos",
+      "country": "DO",
+      "value": 151,
+      "detail": "233 papers"
+    },
+    {
+      "name": "Universidad de la Tercera Edad",
+      "country": "DO",
+      "value": 80,
+      "detail": "30 papers"
+    },
+    {
+      "name": "Universidad Tecnológica del Sur",
+      "country": "DO",
+      "value": 28,
+      "detail": "142 papers"
+    },
+    {
+      "name": "Universidad Domínico Americana",
+      "country": "DO",
+      "value": 20,
+      "detail": "7 papers"
+    },
+    {
+      "name": "Universidad Nacional Tecnológica",
+      "country": "DO",
+      "value": 20,
+      "detail": "44 papers"
+    },
+    {
+      "name": "Universidad Instituto Nacional de Ciencias Exactas",
+      "country": "DO",
+      "value": 17,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Universidad Psicología Industrial Dominicana",
+      "country": "DO",
+      "value": 8,
+      "detail": "7 papers"
+    },
+    {
+      "name": "Instituto Superior Pedro Francisco Bono",
+      "country": "DO",
+      "value": 3,
+      "detail": "41 papers"
+    },
+    {
+      "name": "Universidad Católica Tecnológica de Barahona",
+      "country": "DO",
+      "value": 2,
+      "detail": "15 papers"
+    }
+  ]
+}

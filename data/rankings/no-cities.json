@@ -1,0 +1,277 @@
+{
+  "id": "no-cities",
+  "title": "Largest Cities in Norway",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Norway with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.677Z",
+  "items": [
+    {
+      "name": "Oslo",
+      "country": "NO",
+      "value": 1082575,
+      "detail": "Oslo"
+    },
+    {
+      "name": "Bergen",
+      "country": "NO",
+      "value": 294029,
+      "detail": "Vestland"
+    },
+    {
+      "name": "Trondheim",
+      "country": "NO",
+      "value": 216518,
+      "detail": "Trøndelag"
+    },
+    {
+      "name": "Stavanger",
+      "country": "NO",
+      "value": 151669,
+      "detail": "Rogaland"
+    },
+    {
+      "name": "Kristiansand",
+      "country": "NO",
+      "value": 117237,
+      "detail": "Agder"
+    },
+    {
+      "name": "Drammen",
+      "country": "NO",
+      "value": 106013,
+      "detail": "Buskerud"
+    },
+    {
+      "name": "Lillestrøm",
+      "country": "NO",
+      "value": 89684,
+      "detail": "Akershus"
+    },
+    {
+      "name": "Sandnes",
+      "country": "NO",
+      "value": 85386,
+      "detail": "Rogaland"
+    },
+    {
+      "name": "Fredrikstad",
+      "country": "NO",
+      "value": 83761,
+      "detail": "Østfold"
+    },
+    {
+      "name": "Sandefjord",
+      "country": "NO",
+      "value": 64345,
+      "detail": "Vestfold"
+    },
+    {
+      "name": "Asker",
+      "country": "NO",
+      "value": 61906,
+      "detail": "Akershus"
+    },
+    {
+      "name": "Sarpsborg",
+      "country": "NO",
+      "value": 59038,
+      "detail": "Østfold"
+    },
+    {
+      "name": "Tønsberg",
+      "country": "NO",
+      "value": 55387,
+      "detail": "Vestfold"
+    },
+    {
+      "name": "Ålesund",
+      "country": "NO",
+      "value": 52626,
+      "detail": "Møre og Romsdal"
+    },
+    {
+      "name": "Skien",
+      "country": "NO",
+      "value": 50595,
+      "detail": "Telemark"
+    },
+    {
+      "name": "Moss",
+      "country": "NO",
+      "value": 49668,
+      "detail": "Østfold"
+    },
+    {
+      "name": "Tromsø",
+      "country": "NO",
+      "value": 41915,
+      "detail": "Troms"
+    },
+    {
+      "name": "Haugesund",
+      "country": "NO",
+      "value": 40321,
+      "detail": "Rogaland"
+    },
+    {
+      "name": "Åsane",
+      "country": "NO",
+      "value": 40146,
+      "detail": "Vestland"
+    },
+    {
+      "name": "Nesttun",
+      "country": "NO",
+      "value": 35638,
+      "detail": "Vestland"
+    },
+    {
+      "name": "Porsgrunn",
+      "country": "NO",
+      "value": 34377,
+      "detail": "Telemark"
+    },
+    {
+      "name": "Bodø",
+      "country": "NO",
+      "value": 34073,
+      "detail": "Nordland"
+    },
+    {
+      "name": "Arendal",
+      "country": "NO",
+      "value": 30916,
+      "detail": "Agder"
+    },
+    {
+      "name": "Sola",
+      "country": "NO",
+      "value": 29541,
+      "detail": "Rogaland"
+    },
+    {
+      "name": "Hamar",
+      "country": "NO",
+      "value": 29479,
+      "detail": "Innlandet"
+    },
+    {
+      "name": "Lillehammer",
+      "country": "NO",
+      "value": 29011,
+      "detail": "Innlandet"
+    },
+    {
+      "name": "Horten",
+      "country": "NO",
+      "value": 27178,
+      "detail": "Vestfold"
+    },
+    {
+      "name": "Ytrebygda",
+      "country": "NO",
+      "value": 24044,
+      "detail": "Vestland"
+    },
+    {
+      "name": "Grimstad",
+      "country": "NO",
+      "value": 24017,
+      "detail": "Agder"
+    },
+    {
+      "name": "Kristiansund",
+      "country": "NO",
+      "value": 24013,
+      "detail": "Møre og Romsdal"
+    },
+    {
+      "name": "Larvik",
+      "country": "NO",
+      "value": 23113,
+      "detail": "Vestfold"
+    },
+    {
+      "name": "Molde",
+      "country": "NO",
+      "value": 22410,
+      "detail": "Møre og Romsdal"
+    },
+    {
+      "name": "Halden",
+      "country": "NO",
+      "value": 21970,
+      "detail": "Østfold"
+    },
+    {
+      "name": "Harstad",
+      "country": "NO",
+      "value": 20953,
+      "detail": "Troms"
+    },
+    {
+      "name": "Levanger",
+      "country": "NO",
+      "value": 20171,
+      "detail": "Trøndelag"
+    },
+    {
+      "name": "Time",
+      "country": "NO",
+      "value": 19781,
+      "detail": "Rogaland"
+    },
+    {
+      "name": "Mo i Rana",
+      "country": "NO",
+      "value": 18866,
+      "detail": "Nordland"
+    },
+    {
+      "name": "Tromsdalen",
+      "country": "NO",
+      "value": 18291,
+      "detail": "Troms"
+    },
+    {
+      "name": "Kongsberg",
+      "country": "NO",
+      "value": 17667,
+      "detail": "Buskerud"
+    },
+    {
+      "name": "Gjøvik",
+      "country": "NO",
+      "value": 17596,
+      "detail": "Innlandet"
+    },
+    {
+      "name": "Stjørdalshalsen",
+      "country": "NO",
+      "value": 15693,
+      "detail": "Trøndelag"
+    },
+    {
+      "name": "Alta",
+      "country": "NO",
+      "value": 15094,
+      "detail": "Finnmark"
+    }
+  ]
+}

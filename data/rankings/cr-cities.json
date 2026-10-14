@@ -1,0 +1,271 @@
+{
+  "id": "cr-cities",
+  "title": "Largest Cities in Costa Rica",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Costa Rica with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.664Z",
+  "items": [
+    {
+      "name": "San José",
+      "country": "CR",
+      "value": 335007,
+      "detail": "San José"
+    },
+    {
+      "name": "Limón",
+      "country": "CR",
+      "value": 63081,
+      "detail": "Limón Province"
+    },
+    {
+      "name": "San Francisco",
+      "country": "CR",
+      "value": 55923,
+      "detail": "Heredia Province"
+    },
+    {
+      "name": "Alajuela",
+      "country": "CR",
+      "value": 47494,
+      "detail": "Alajuela Province"
+    },
+    {
+      "name": "Liberia",
+      "country": "CR",
+      "value": 45380,
+      "detail": "Guanacaste Province"
+    },
+    {
+      "name": "Paraíso",
+      "country": "CR",
+      "value": 39702,
+      "detail": "Cartago Province"
+    },
+    {
+      "name": "Puntarenas",
+      "country": "CR",
+      "value": 35650,
+      "detail": "Puntarenas Province"
+    },
+    {
+      "name": "San Isidro",
+      "country": "CR",
+      "value": 34877,
+      "detail": "San José"
+    },
+    {
+      "name": "Curridabat",
+      "country": "CR",
+      "value": 34586,
+      "detail": "San José"
+    },
+    {
+      "name": "San Vicente",
+      "country": "CR",
+      "value": 34447,
+      "detail": "San José"
+    },
+    {
+      "name": "San Vicente de Moravia",
+      "country": "CR",
+      "value": 34447,
+      "detail": "San José"
+    },
+    {
+      "name": "San José (Alajuela Province)",
+      "country": "CR",
+      "value": 31430,
+      "detail": "Alajuela Province"
+    },
+    {
+      "name": "Purral",
+      "country": "CR",
+      "value": 30034,
+      "detail": "San José"
+    },
+    {
+      "name": "Turrialba",
+      "country": "CR",
+      "value": 28955,
+      "detail": "Cartago Province"
+    },
+    {
+      "name": "San Miguel",
+      "country": "CR",
+      "value": 28827,
+      "detail": "San José"
+    },
+    {
+      "name": "San Pedro",
+      "country": "CR",
+      "value": 27477,
+      "detail": "San José"
+    },
+    {
+      "name": "San Rafael Abajo",
+      "country": "CR",
+      "value": 27419,
+      "detail": "San José"
+    },
+    {
+      "name": "Quesada",
+      "country": "CR",
+      "value": 27310,
+      "detail": "Alajuela Province"
+    },
+    {
+      "name": "Ipís",
+      "country": "CR",
+      "value": 26669,
+      "detail": "San José"
+    },
+    {
+      "name": "Cartago",
+      "country": "CR",
+      "value": 26594,
+      "detail": "Cartago Province"
+    },
+    {
+      "name": "Chacarita",
+      "country": "CR",
+      "value": 26354,
+      "detail": "Puntarenas Province"
+    },
+    {
+      "name": "San Juan",
+      "country": "CR",
+      "value": 26047,
+      "detail": "San José"
+    },
+    {
+      "name": "Mercedes Norte",
+      "country": "CR",
+      "value": 26007,
+      "detail": "Heredia Province"
+    },
+    {
+      "name": "Guadalupe",
+      "country": "CR",
+      "value": 26005,
+      "detail": "San José"
+    },
+    {
+      "name": "Aserrí",
+      "country": "CR",
+      "value": 25874,
+      "detail": "San José"
+    },
+    {
+      "name": "San Rafael",
+      "country": "CR",
+      "value": 25410,
+      "detail": "San José"
+    },
+    {
+      "name": "San Felipe",
+      "country": "CR",
+      "value": 24985,
+      "detail": "San José"
+    },
+    {
+      "name": "Patarrá",
+      "country": "CR",
+      "value": 23983,
+      "detail": "San José"
+    },
+    {
+      "name": "Tejar",
+      "country": "CR",
+      "value": 22433,
+      "detail": "San José"
+    },
+    {
+      "name": "Heredia",
+      "country": "CR",
+      "value": 21947,
+      "detail": "Heredia Province"
+    },
+    {
+      "name": "San Pablo",
+      "country": "CR",
+      "value": 21662,
+      "detail": "Heredia Province"
+    },
+    {
+      "name": "Calle Blancos",
+      "country": "CR",
+      "value": 20710,
+      "detail": "San José"
+    },
+    {
+      "name": "Cañas",
+      "country": "CR",
+      "value": 20306,
+      "detail": "Guanacaste Province"
+    },
+    {
+      "name": "Guápiles",
+      "country": "CR",
+      "value": 19092,
+      "detail": "Limón Province"
+    },
+    {
+      "name": "Siquirres",
+      "country": "CR",
+      "value": 18231,
+      "detail": "Limón Province"
+    },
+    {
+      "name": "San Diego",
+      "country": "CR",
+      "value": 16991,
+      "detail": "Cartago Province"
+    },
+    {
+      "name": "Colima",
+      "country": "CR",
+      "value": 15875,
+      "detail": "San José"
+    },
+    {
+      "name": "Esparza",
+      "country": "CR",
+      "value": 15575,
+      "detail": "Puntarenas Province"
+    },
+    {
+      "name": "San Juan de Dios",
+      "country": "CR",
+      "value": 15469,
+      "detail": "San José"
+    },
+    {
+      "name": "Nicoya",
+      "country": "CR",
+      "value": 15313,
+      "detail": "Guanacaste Province"
+    },
+    {
+      "name": "San Rafael Arriba",
+      "country": "CR",
+      "value": 15051,
+      "detail": "San José"
+    }
+  ]
+}

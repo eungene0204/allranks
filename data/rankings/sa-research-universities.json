@@ -1,0 +1,326 @@
+{
+  "id": "sa-research-universities",
+  "title": "Top Research Universities in Saudi Arabia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Saudi Arabia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:42.437Z",
+  "items": [
+    {
+      "name": "King Saud University",
+      "country": "SA",
+      "value": 6692381,
+      "detail": "148,454 papers"
+    },
+    {
+      "name": "King Abdulaziz University",
+      "country": "SA",
+      "value": 5383814,
+      "detail": "100,543 papers"
+    },
+    {
+      "name": "King Abdullah University of Science and Technology",
+      "country": "SA",
+      "value": 5087002,
+      "detail": "48,199 papers"
+    },
+    {
+      "name": "King Fahd University of Petroleum and Minerals",
+      "country": "SA",
+      "value": 2236925,
+      "detail": "47,957 papers"
+    },
+    {
+      "name": "King Khalid University",
+      "country": "SA",
+      "value": 1234572,
+      "detail": "50,558 papers"
+    },
+    {
+      "name": "Imam Abdulrahman Bin Faisal University",
+      "country": "SA",
+      "value": 874502,
+      "detail": "23,773 papers"
+    },
+    {
+      "name": "Taif University",
+      "country": "SA",
+      "value": 809010,
+      "detail": "31,788 papers"
+    },
+    {
+      "name": "King Saud bin Abdulaziz University for Health Sciences",
+      "country": "SA",
+      "value": 748406,
+      "detail": "17,591 papers"
+    },
+    {
+      "name": "Prince Sattam Bin Abdulaziz University",
+      "country": "SA",
+      "value": 727520,
+      "detail": "31,875 papers"
+    },
+    {
+      "name": "King Faisal University",
+      "country": "SA",
+      "value": 721105,
+      "detail": "28,134 papers"
+    },
+    {
+      "name": "Umm al-Qura University",
+      "country": "SA",
+      "value": 706054,
+      "detail": "32,808 papers"
+    },
+    {
+      "name": "Qassim University",
+      "country": "SA",
+      "value": 624446,
+      "detail": "31,082 papers"
+    },
+    {
+      "name": "Princess Nourah bint Abdulrahman University",
+      "country": "SA",
+      "value": 603800,
+      "detail": "34,611 papers"
+    },
+    {
+      "name": "Jazan University",
+      "country": "SA",
+      "value": 592188,
+      "detail": "22,036 papers"
+    },
+    {
+      "name": "Taibah University",
+      "country": "SA",
+      "value": 559061,
+      "detail": "22,385 papers"
+    },
+    {
+      "name": "Jouf University",
+      "country": "SA",
+      "value": 448525,
+      "detail": "16,034 papers"
+    },
+    {
+      "name": "University of Ha'il",
+      "country": "SA",
+      "value": 444648,
+      "detail": "17,009 papers"
+    },
+    {
+      "name": "University of Tabuk",
+      "country": "SA",
+      "value": 404528,
+      "detail": "17,633 papers"
+    },
+    {
+      "name": "Alfaisal University",
+      "country": "SA",
+      "value": 370234,
+      "detail": "9,973 papers"
+    },
+    {
+      "name": "Imam Mohammad ibn Saud Islamic University",
+      "country": "SA",
+      "value": 357546,
+      "detail": "24,007 papers"
+    },
+    {
+      "name": "Najran University",
+      "country": "SA",
+      "value": 328657,
+      "detail": "10,217 papers"
+    },
+    {
+      "name": "Prince Sultan University",
+      "country": "SA",
+      "value": 324772,
+      "detail": "11,173 papers"
+    },
+    {
+      "name": "University of Jeddah",
+      "country": "SA",
+      "value": 294556,
+      "detail": "15,458 papers"
+    },
+    {
+      "name": "Majmaah University",
+      "country": "SA",
+      "value": 255351,
+      "detail": "10,794 papers"
+    },
+    {
+      "name": "Northern Border University",
+      "country": "SA",
+      "value": 159699,
+      "detail": "11,833 papers"
+    },
+    {
+      "name": "Shaqra University",
+      "country": "SA",
+      "value": 148453,
+      "detail": "8,506 papers"
+    },
+    {
+      "name": "Prince Mohammad bin Fahd University",
+      "country": "SA",
+      "value": 137679,
+      "detail": "6,653 papers"
+    },
+    {
+      "name": "Al Baha University",
+      "country": "SA",
+      "value": 100428,
+      "detail": "8,081 papers"
+    },
+    {
+      "name": "University of Bisha",
+      "country": "SA",
+      "value": 97049,
+      "detail": "6,562 papers"
+    },
+    {
+      "name": "Islamic University of Madinah",
+      "country": "SA",
+      "value": 91105,
+      "detail": "7,021 papers"
+    },
+    {
+      "name": "Saudi Electronic University",
+      "country": "SA",
+      "value": 84412,
+      "detail": "4,365 papers"
+    },
+    {
+      "name": "University of Hafr Al-Batin",
+      "country": "SA",
+      "value": 76117,
+      "detail": "4,055 papers"
+    },
+    {
+      "name": "Effat University",
+      "country": "SA",
+      "value": 52833,
+      "detail": "2,474 papers"
+    },
+    {
+      "name": "Riyadh Elm University",
+      "country": "SA",
+      "value": 42193,
+      "detail": "2,026 papers"
+    },
+    {
+      "name": "University of Business and Technology",
+      "country": "SA",
+      "value": 34461,
+      "detail": "4,446 papers"
+    },
+    {
+      "name": "Al-Farabi College",
+      "country": "SA",
+      "value": 27115,
+      "detail": "592 papers"
+    },
+    {
+      "name": "Ibn Sina National College for Medical Studies",
+      "country": "SA",
+      "value": 26276,
+      "detail": "1,923 papers"
+    },
+    {
+      "name": "Jubail Industrial College",
+      "country": "SA",
+      "value": 24558,
+      "detail": "1,339 papers"
+    },
+    {
+      "name": "Dar Al Uloom University",
+      "country": "SA",
+      "value": 21024,
+      "detail": "1,578 papers"
+    },
+    {
+      "name": "Yanbu Industrial College",
+      "country": "SA",
+      "value": 20451,
+      "detail": "1,110 papers"
+    },
+    {
+      "name": "Sulaiman Al Rajhi Colleges",
+      "country": "SA",
+      "value": 19819,
+      "detail": "801 papers"
+    },
+    {
+      "name": "Buraydah Colleges",
+      "country": "SA",
+      "value": 17620,
+      "detail": "911 papers"
+    },
+    {
+      "name": "Al Yamamah University",
+      "country": "SA",
+      "value": 14820,
+      "detail": "969 papers"
+    },
+    {
+      "name": "Fakeeh College for Medical Sciences",
+      "country": "SA",
+      "value": 13955,
+      "detail": "943 papers"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "SA",
+      "value": 13651,
+      "detail": "1,484 papers"
+    },
+    {
+      "name": "Fahd bin Sultan University",
+      "country": "SA",
+      "value": 10252,
+      "detail": "590 papers"
+    },
+    {
+      "name": "Naif Arab University for Security Sciences",
+      "country": "SA",
+      "value": 9848,
+      "detail": "943 papers"
+    },
+    {
+      "name": "Yanbu University College",
+      "country": "SA",
+      "value": 8322,
+      "detail": "479 papers"
+    },
+    {
+      "name": "Jubail University College",
+      "country": "SA",
+      "value": 8128,
+      "detail": "411 papers"
+    },
+    {
+      "name": "Dar Al-Hekma University",
+      "country": "SA",
+      "value": 7776,
+      "detail": "545 papers"
+    }
+  ]
+}

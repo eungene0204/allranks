@@ -1,0 +1,64 @@
+{
+  "id": "sk-region-gdp",
+  "title": "Slovak Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross domestic product of the eight regions in 2022, in billions of euros.",
+  "unit": "EUR billion",
+  "prefix": "€",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "SK",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "OECD regional statistics (2022) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Slovak_regions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:31:37.264Z",
+  "items": [
+    {
+      "name": "Bratislava Region",
+      "country": "SK",
+      "value": 30.709
+    },
+    {
+      "name": "Košice Region",
+      "country": "SK",
+      "value": 13.289
+    },
+    {
+      "name": "Žilina Region",
+      "country": "SK",
+      "value": 12.396
+    },
+    {
+      "name": "Trnava Region",
+      "country": "SK",
+      "value": 12.102
+    },
+    {
+      "name": "Nitra Region",
+      "country": "SK",
+      "value": 11.242
+    },
+    {
+      "name": "Trenčín Region",
+      "country": "SK",
+      "value": 10.02
+    },
+    {
+      "name": "Prešov Region",
+      "country": "SK",
+      "value": 9.995
+    },
+    {
+      "name": "Banská Bystrica Region",
+      "country": "SK",
+      "value": 9.892
+    }
+  ]
+}

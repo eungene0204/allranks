@@ -1,0 +1,236 @@
+{
+  "id": "om-research-universities",
+  "title": "Top Research Universities in Oman",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Oman ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "OM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:10.436Z",
+  "items": [
+    {
+      "name": "Sultan Qaboos University",
+      "country": "OM",
+      "value": 1038696,
+      "detail": "28,978 papers"
+    },
+    {
+      "name": "University of Nizwa",
+      "country": "OM",
+      "value": 229705,
+      "detail": "5,484 papers"
+    },
+    {
+      "name": "Dhofar University",
+      "country": "OM",
+      "value": 72650,
+      "detail": "3,596 papers"
+    },
+    {
+      "name": "Sohar University",
+      "country": "OM",
+      "value": 61185,
+      "detail": "4,138 papers"
+    },
+    {
+      "name": "National University of Science and Technology",
+      "country": "OM",
+      "value": 35244,
+      "detail": "1,823 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences",
+      "country": "OM",
+      "value": 24791,
+      "detail": "3,294 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences-Salalah",
+      "country": "OM",
+      "value": 22387,
+      "detail": "1,384 papers"
+    },
+    {
+      "name": "University of Buraimi",
+      "country": "OM",
+      "value": 20519,
+      "detail": "1,225 papers"
+    },
+    {
+      "name": "Middle East College",
+      "country": "OM",
+      "value": 18504,
+      "detail": "1,225 papers"
+    },
+    {
+      "name": "German University of Technology",
+      "country": "OM",
+      "value": 17075,
+      "detail": "1,047 papers"
+    },
+    {
+      "name": "Al-Buraimi University College",
+      "country": "OM",
+      "value": 17051,
+      "detail": "504 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences, Muscat",
+      "country": "OM",
+      "value": 11500,
+      "detail": "1,554 papers"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "OM",
+      "value": 8865,
+      "detail": "1,097 papers"
+    },
+    {
+      "name": "Modern College of Business and Science",
+      "country": "OM",
+      "value": 8753,
+      "detail": "932 papers"
+    },
+    {
+      "name": "Caledonian College of Engineering",
+      "country": "OM",
+      "value": 8322,
+      "detail": "363 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences - Shinas",
+      "country": "OM",
+      "value": 8100,
+      "detail": "802 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences - Ibra",
+      "country": "OM",
+      "value": 7914,
+      "detail": "851 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences — Ibri",
+      "country": "OM",
+      "value": 7706,
+      "detail": "942 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences-Suhar",
+      "country": "OM",
+      "value": 7184,
+      "detail": "358 papers"
+    },
+    {
+      "name": "International Maritime College Oman",
+      "country": "OM",
+      "value": 7162,
+      "detail": "335 papers"
+    },
+    {
+      "name": "Military Technological College",
+      "country": "OM",
+      "value": 6247,
+      "detail": "600 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences - Al Mussanah",
+      "country": "OM",
+      "value": 5433,
+      "detail": "847 papers"
+    },
+    {
+      "name": "University of Technology and Applied Sciences-Nizwa",
+      "country": "OM",
+      "value": 4170,
+      "detail": "628 papers"
+    },
+    {
+      "name": "Muscat College",
+      "country": "OM",
+      "value": 4081,
+      "detail": "365 papers"
+    },
+    {
+      "name": "Oman College of Health Sciences",
+      "country": "OM",
+      "value": 3876,
+      "detail": "428 papers"
+    },
+    {
+      "name": "Rustaq College of Education",
+      "country": "OM",
+      "value": 3822,
+      "detail": "339 papers"
+    },
+    {
+      "name": "Sur University College",
+      "country": "OM",
+      "value": 3398,
+      "detail": "237 papers"
+    },
+    {
+      "name": "Al-Zahra College for Women",
+      "country": "OM",
+      "value": 2445,
+      "detail": "330 papers"
+    },
+    {
+      "name": "College of Applied Sciences- Ibri",
+      "country": "OM",
+      "value": 2409,
+      "detail": "116 papers"
+    },
+    {
+      "name": "College of Applied Sciences, Nizwa",
+      "country": "OM",
+      "value": 2138,
+      "detail": "186 papers"
+    },
+    {
+      "name": "Majan College",
+      "country": "OM",
+      "value": 2024,
+      "detail": "268 papers"
+    },
+    {
+      "name": "Waljat Colleges of Applied Sciences",
+      "country": "OM",
+      "value": 969,
+      "detail": "100 papers"
+    },
+    {
+      "name": "Bayan College",
+      "country": "OM",
+      "value": 36,
+      "detail": "85 papers"
+    },
+    {
+      "name": "College of Sharia Sciences",
+      "country": "OM",
+      "value": 4,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Sultan Qaboos Academy for Police Sciences",
+      "country": "OM",
+      "value": 2,
+      "detail": "40 papers"
+    }
+  ]
+}

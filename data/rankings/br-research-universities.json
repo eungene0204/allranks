@@ -1,0 +1,326 @@
+{
+  "id": "br-research-universities",
+  "title": "Top Research Universities in Brazil",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Brazil ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:37.577Z",
+  "items": [
+    {
+      "name": "Universidade de São Paulo",
+      "country": "BR",
+      "value": 27338502,
+      "detail": "579,816 papers"
+    },
+    {
+      "name": "Universidade Federal do Rio de Janeiro",
+      "country": "BR",
+      "value": 8549549,
+      "detail": "194,649 papers"
+    },
+    {
+      "name": "Universidade Estadual de Campinas (UNICAMP)",
+      "country": "BR",
+      "value": 8505893,
+      "detail": "220,964 papers"
+    },
+    {
+      "name": "Universidade Estadual Paulista (Unesp)",
+      "country": "BR",
+      "value": 7934677,
+      "detail": "218,254 papers"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande do Sul",
+      "country": "BR",
+      "value": 6818615,
+      "detail": "177,266 papers"
+    },
+    {
+      "name": "Universidade Federal de Minas Gerais",
+      "country": "BR",
+      "value": 6318564,
+      "detail": "158,598 papers"
+    },
+    {
+      "name": "Universidade Federal de São Paulo",
+      "country": "BR",
+      "value": 4977340,
+      "detail": "96,970 papers"
+    },
+    {
+      "name": "Universidade Federal de Santa Catarina",
+      "country": "BR",
+      "value": 3383794,
+      "detail": "124,396 papers"
+    },
+    {
+      "name": "Universidade do Estado do Rio de Janeiro",
+      "country": "BR",
+      "value": 3339102,
+      "detail": "78,026 papers"
+    },
+    {
+      "name": "Universidade Federal do Paraná",
+      "country": "BR",
+      "value": 2771419,
+      "detail": "112,320 papers"
+    },
+    {
+      "name": "Universidade Federal de Pernambuco",
+      "country": "BR",
+      "value": 2519997,
+      "detail": "104,757 papers"
+    },
+    {
+      "name": "Universidade Federal do Ceará",
+      "country": "BR",
+      "value": 2446684,
+      "detail": "78,907 papers"
+    },
+    {
+      "name": "Universidade Federal de Santa Maria",
+      "country": "BR",
+      "value": 2349197,
+      "detail": "75,468 papers"
+    },
+    {
+      "name": "Universidade de Brasília",
+      "country": "BR",
+      "value": 2288415,
+      "detail": "108,512 papers"
+    },
+    {
+      "name": "Universidade Federal de Viçosa",
+      "country": "BR",
+      "value": 2214252,
+      "detail": "60,490 papers"
+    },
+    {
+      "name": "Universidade Federal de São Carlos",
+      "country": "BR",
+      "value": 2080983,
+      "detail": "73,663 papers"
+    },
+    {
+      "name": "Universidade Federal da Bahia",
+      "country": "BR",
+      "value": 1957100,
+      "detail": "72,945 papers"
+    },
+    {
+      "name": "Universidade Federal Fluminense",
+      "country": "BR",
+      "value": 1763295,
+      "detail": "89,349 papers"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande do Norte",
+      "country": "BR",
+      "value": 1719483,
+      "detail": "66,418 papers"
+    },
+    {
+      "name": "Universidade Federal de Pelotas",
+      "country": "BR",
+      "value": 1718655,
+      "detail": "47,010 papers"
+    },
+    {
+      "name": "Universidade Estadual de Maringá",
+      "country": "BR",
+      "value": 1608234,
+      "detail": "49,251 papers"
+    },
+    {
+      "name": "Universidade Federal de Goiás",
+      "country": "BR",
+      "value": 1443173,
+      "detail": "63,290 papers"
+    },
+    {
+      "name": "Universidade Federal da Paraíba",
+      "country": "BR",
+      "value": 1350241,
+      "detail": "69,132 papers"
+    },
+    {
+      "name": "Universidade Federal do Pará",
+      "country": "BR",
+      "value": 1264620,
+      "detail": "65,584 papers"
+    },
+    {
+      "name": "Universidade Estadual de Londrina",
+      "country": "BR",
+      "value": 1237499,
+      "detail": "47,283 papers"
+    },
+    {
+      "name": "Universidade Federal de Lavras",
+      "country": "BR",
+      "value": 1178040,
+      "detail": "35,200 papers"
+    },
+    {
+      "name": "Universidade Federal de Uberlândia",
+      "country": "BR",
+      "value": 1162044,
+      "detail": "57,285 papers"
+    },
+    {
+      "name": "Pontifícia Universidade Católica do Rio Grande do Sul",
+      "country": "BR",
+      "value": 1161486,
+      "detail": "41,084 papers"
+    },
+    {
+      "name": "Universidade Federal de Juiz de Fora",
+      "country": "BR",
+      "value": 1107262,
+      "detail": "42,436 papers"
+    },
+    {
+      "name": "Universidade Federal do Espírito Santo",
+      "country": "BR",
+      "value": 1089090,
+      "detail": "51,233 papers"
+    },
+    {
+      "name": "Universidade Federal do ABC",
+      "country": "BR",
+      "value": 1015704,
+      "detail": "26,253 papers"
+    },
+    {
+      "name": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "country": "BR",
+      "value": 942329,
+      "detail": "44,301 papers"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande",
+      "country": "BR",
+      "value": 764175,
+      "detail": "25,453 papers"
+    },
+    {
+      "name": "Universidade Federal de Sergipe",
+      "country": "BR",
+      "value": 730915,
+      "detail": "36,888 papers"
+    },
+    {
+      "name": "Universidade Federal Rural de Pernambuco",
+      "country": "BR",
+      "value": 682158,
+      "detail": "32,674 papers"
+    },
+    {
+      "name": "Instituto de Física de São Carlos",
+      "country": "BR",
+      "value": 653714,
+      "detail": "12,412 papers"
+    },
+    {
+      "name": "Universidade Tecnológica Federal do Paraná",
+      "country": "BR",
+      "value": 640727,
+      "detail": "39,401 papers"
+    },
+    {
+      "name": "Universidade Federal de Campina Grande",
+      "country": "BR",
+      "value": 621016,
+      "detail": "38,050 papers"
+    },
+    {
+      "name": "Universidade Federal do Piauí",
+      "country": "BR",
+      "value": 602077,
+      "detail": "34,365 papers"
+    },
+    {
+      "name": "Universidade Federal de Mato Grosso do Sul",
+      "country": "BR",
+      "value": 601563,
+      "detail": "36,306 papers"
+    },
+    {
+      "name": "Universidade Federal de Alagoas",
+      "country": "BR",
+      "value": 560651,
+      "detail": "32,292 papers"
+    },
+    {
+      "name": "Pontifícia Universidade Católica do Paraná",
+      "country": "BR",
+      "value": 536778,
+      "detail": "24,342 papers"
+    },
+    {
+      "name": "Instituto de Química de São Carlos",
+      "country": "BR",
+      "value": 522146,
+      "detail": "8,200 papers"
+    },
+    {
+      "name": "Universidade Federal de Mato Grosso",
+      "country": "BR",
+      "value": 514541,
+      "detail": "35,182 papers"
+    },
+    {
+      "name": "Universidade Federal de Ouro Preto",
+      "country": "BR",
+      "value": 508257,
+      "detail": "22,109 papers"
+    },
+    {
+      "name": "Universidade Federal Rural do Rio de Janeiro",
+      "country": "BR",
+      "value": 504679,
+      "detail": "26,445 papers"
+    },
+    {
+      "name": "Universidade Federal do Maranhão",
+      "country": "BR",
+      "value": 468893,
+      "detail": "30,759 papers"
+    },
+    {
+      "name": "State University of Norte Fluminense",
+      "country": "BR",
+      "value": 455165,
+      "detail": "12,478 papers"
+    },
+    {
+      "name": "Federal University of São João del-Rei",
+      "country": "BR",
+      "value": 436977,
+      "detail": "17,890 papers"
+    },
+    {
+      "name": "Universidade do Estado de Santa Catarina",
+      "country": "BR",
+      "value": 429422,
+      "detail": "28,018 papers"
+    }
+  ]
+}

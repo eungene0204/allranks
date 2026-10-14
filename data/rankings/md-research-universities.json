@@ -1,0 +1,152 @@
+{
+  "id": "md-research-universities",
+  "title": "Top Research Universities in Moldova",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Moldova ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:00.408Z",
+  "items": [
+    {
+      "name": "Technical University of Moldova",
+      "country": "MD",
+      "value": 76224,
+      "detail": "3,913 papers"
+    },
+    {
+      "name": "Moldova State University",
+      "country": "MD",
+      "value": 53238,
+      "detail": "8,612 papers"
+    },
+    {
+      "name": "Nicolae Testemițanu State University of Medicine and Pharmacy",
+      "country": "MD",
+      "value": 47456,
+      "detail": "5,069 papers"
+    },
+    {
+      "name": "Shevchenko Transnistria State University",
+      "country": "MD",
+      "value": 4972,
+      "detail": "930 papers"
+    },
+    {
+      "name": "Academy of Economic Studies of Moldova",
+      "country": "MD",
+      "value": 2704,
+      "detail": "2,106 papers"
+    },
+    {
+      "name": "State Agrarian University of Moldova",
+      "country": "MD",
+      "value": 1803,
+      "detail": "666 papers"
+    },
+    {
+      "name": "Ion Creangă Pedagogical State University",
+      "country": "MD",
+      "value": 801,
+      "detail": "1,734 papers"
+    },
+    {
+      "name": "State University of Physical Education and Sport",
+      "country": "MD",
+      "value": 790,
+      "detail": "712 papers"
+    },
+    {
+      "name": "Alecu Russo State University of Bălți",
+      "country": "MD",
+      "value": 502,
+      "detail": "432 papers"
+    },
+    {
+      "name": "Comrat State University",
+      "country": "MD",
+      "value": 501,
+      "detail": "261 papers"
+    },
+    {
+      "name": "Free International University of Moldova",
+      "country": "MD",
+      "value": 438,
+      "detail": "787 papers"
+    },
+    {
+      "name": "Universitatea de Stat „Bogdan Petriceicu Hasdeu\" din Cahul",
+      "country": "MD",
+      "value": 388,
+      "detail": "351 papers"
+    },
+    {
+      "name": "Universitatea de Stat din Tiraspol",
+      "country": "MD",
+      "value": 277,
+      "detail": "236 papers"
+    },
+    {
+      "name": "Trade Co-operative University of Moldova",
+      "country": "MD",
+      "value": 64,
+      "detail": "68 papers"
+    },
+    {
+      "name": "Institute of Educational Sciences",
+      "country": "MD",
+      "value": 62,
+      "detail": "137 papers"
+    },
+    {
+      "name": "Academy of Music Theatre and Fine Arts",
+      "country": "MD",
+      "value": 38,
+      "detail": "571 papers"
+    },
+    {
+      "name": "Universitatea Slavonă din Moldova",
+      "country": "MD",
+      "value": 35,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Academy of Public Administration",
+      "country": "MD",
+      "value": 31,
+      "detail": "116 papers"
+    },
+    {
+      "name": "Institute of International Relations of Moldova",
+      "country": "MD",
+      "value": 21,
+      "detail": "66 papers"
+    },
+    {
+      "name": "Univers Moldova",
+      "country": "MD",
+      "value": 11,
+      "detail": "7 papers"
+    },
+    {
+      "name": "Taraclia State University",
+      "country": "MD",
+      "value": 3,
+      "detail": "12 papers"
+    }
+  ]
+}

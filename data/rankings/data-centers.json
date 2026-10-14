@@ -1,0 +1,152 @@
+{
+  "id": "data-centers",
+  "title": "Countries with the Most Data Centers",
+  "category": "ai",
+  "icon": "🏢",
+  "desc": "Number of data centers (colocation, cloud and enterprise facilities) located in each country.",
+  "unit": "data centers",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "asOf": "2025-03",
+  "source": {
+    "kind": "agent",
+    "name": "Straits Research and Statista (underlying data: Cloudscene), via Mappr",
+    "url": "https://www.mappr.co/countries-with-most-data-centers/",
+    "verified": false,
+    "urls": [
+      "https://straitsresearch.com/statistic/countries-with-the-most-data-centers"
+    ],
+    "note": "Top 25 countries only, 2025 data. Figures differ between trackers (Data Center Map and Cloudscene count differently), so treat them as approximate. The top ten were cross-checked against a second page; ranks 11–25 come from one page."
+  },
+  "updatedAt": "2026-10-14T02:48:10.796Z",
+  "items": [
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 5426
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 529
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 523
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 449
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 322
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 314
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 298
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 293
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 271
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 251
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 242
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 195
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 194
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 182
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 173
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 168
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 144
+    },
+    {
+      "name": "Ireland",
+      "country": "IE",
+      "value": 139
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 117
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 114
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 103
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 95
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 93
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 87
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 86
+    }
+  ]
+}

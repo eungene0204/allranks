@@ -1,0 +1,326 @@
+{
+  "id": "mx-research-universities",
+  "title": "Top Research Universities in Mexico",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mexico ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MX",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:37.965Z",
+  "items": [
+    {
+      "name": "Universidad Nacional Autónoma de México",
+      "country": "MX",
+      "value": 10279844,
+      "detail": "274,044 papers"
+    },
+    {
+      "name": "Instituto Politécnico Nacional",
+      "country": "MX",
+      "value": 3192725,
+      "detail": "81,591 papers"
+    },
+    {
+      "name": "Tecnológico de Monterrey",
+      "country": "MX",
+      "value": 1193724,
+      "detail": "37,822 papers"
+    },
+    {
+      "name": "Universidad Autónoma Metropolitana",
+      "country": "MX",
+      "value": 1145444,
+      "detail": "60,939 papers"
+    },
+    {
+      "name": "Benemérita Universidad Autónoma de Puebla",
+      "country": "MX",
+      "value": 1106580,
+      "detail": "27,456 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Nuevo León",
+      "country": "MX",
+      "value": 927327,
+      "detail": "35,000 papers"
+    },
+    {
+      "name": "Universidad de Guadalajara",
+      "country": "MX",
+      "value": 927317,
+      "detail": "47,884 papers"
+    },
+    {
+      "name": "Autonomous University of San Luis Potosí",
+      "country": "MX",
+      "value": 687561,
+      "detail": "18,550 papers"
+    },
+    {
+      "name": "Universidad de Guanajuato",
+      "country": "MX",
+      "value": 581692,
+      "detail": "23,760 papers"
+    },
+    {
+      "name": "Universidad Michoacana de San Nicolás de Hidalgo",
+      "country": "MX",
+      "value": 455264,
+      "detail": "19,730 papers"
+    },
+    {
+      "name": "Universidad de Sonora",
+      "country": "MX",
+      "value": 426905,
+      "detail": "13,442 papers"
+    },
+    {
+      "name": "Universidad Autónoma del Estado de México",
+      "country": "MX",
+      "value": 388170,
+      "detail": "23,604 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Baja California",
+      "country": "MX",
+      "value": 381343,
+      "detail": "18,391 papers"
+    },
+    {
+      "name": "Universidad Autónoma del Estado de Morelos",
+      "country": "MX",
+      "value": 358258,
+      "detail": "15,087 papers"
+    },
+    {
+      "name": "Autonomous University of Queretaro",
+      "country": "MX",
+      "value": 356472,
+      "detail": "13,048 papers"
+    },
+    {
+      "name": "Universidad Veracruzana",
+      "country": "MX",
+      "value": 351073,
+      "detail": "24,917 papers"
+    },
+    {
+      "name": "Universidad Iberoamericana",
+      "country": "MX",
+      "value": 319868,
+      "detail": "10,928 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Sinaloa",
+      "country": "MX",
+      "value": 314262,
+      "detail": "10,088 papers"
+    },
+    {
+      "name": "Autonomous University of Yucatán",
+      "country": "MX",
+      "value": 300560,
+      "detail": "12,120 papers"
+    },
+    {
+      "name": "Universidad Autónoma del Estado de Hidalgo",
+      "country": "MX",
+      "value": 298041,
+      "detail": "19,931 papers"
+    },
+    {
+      "name": "Colegio de Postgraduados",
+      "country": "MX",
+      "value": 270039,
+      "detail": "16,096 papers"
+    },
+    {
+      "name": "Centro de Investigación Científica de Yucatán, A.C",
+      "country": "MX",
+      "value": 221111,
+      "detail": "4,648 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Coahuila",
+      "country": "MX",
+      "value": 211178,
+      "detail": "7,251 papers"
+    },
+    {
+      "name": "Universidad de Colima",
+      "country": "MX",
+      "value": 175314,
+      "detail": "7,981 papers"
+    },
+    {
+      "name": "Universidad Nacional Autónoma de México, Facultad de Estudios Superiores Iztacala",
+      "country": "MX",
+      "value": 154772,
+      "detail": "6,655 papers"
+    },
+    {
+      "name": "Autonomous University of Chihuahua",
+      "country": "MX",
+      "value": 143913,
+      "detail": "7,604 papers"
+    },
+    {
+      "name": "Universidad de las Américas Puebla",
+      "country": "MX",
+      "value": 141405,
+      "detail": "5,129 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Zacatecas \"Francisco García Salinas\"",
+      "country": "MX",
+      "value": 129124,
+      "detail": "10,616 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Ciudad Juárez",
+      "country": "MX",
+      "value": 123259,
+      "detail": "8,458 papers"
+    },
+    {
+      "name": "Universidad Juárez Autónoma de Tabasco",
+      "country": "MX",
+      "value": 112879,
+      "detail": "9,352 papers"
+    },
+    {
+      "name": "Chapingo Autonomous University",
+      "country": "MX",
+      "value": 109152,
+      "detail": "9,358 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Guerrero",
+      "country": "MX",
+      "value": 104078,
+      "detail": "6,161 papers"
+    },
+    {
+      "name": "Facultad de Estudios Superiores Cuautitlán",
+      "country": "MX",
+      "value": 103026,
+      "detail": "3,108 papers"
+    },
+    {
+      "name": "Autonomous University of Tamaulipas",
+      "country": "MX",
+      "value": 100366,
+      "detail": "8,488 papers"
+    },
+    {
+      "name": "Universidad Autónoma Agraria Antonio Narro",
+      "country": "MX",
+      "value": 98221,
+      "detail": "4,995 papers"
+    },
+    {
+      "name": "Instituto Tecnológico de Tijuana",
+      "country": "MX",
+      "value": 97695,
+      "detail": "2,917 papers"
+    },
+    {
+      "name": "Sonora Institute of Technology",
+      "country": "MX",
+      "value": 88858,
+      "detail": "3,875 papers"
+    },
+    {
+      "name": "Universidad Juárez del Estado de Durango",
+      "country": "MX",
+      "value": 88594,
+      "detail": "4,179 papers"
+    },
+    {
+      "name": "Autonomous University of Aguascalientes",
+      "country": "MX",
+      "value": 76906,
+      "detail": "7,215 papers"
+    },
+    {
+      "name": "Technological Institute of Celaya",
+      "country": "MX",
+      "value": 74941,
+      "detail": "2,968 papers"
+    },
+    {
+      "name": "Instituto Tecnológico Autónomo de México",
+      "country": "MX",
+      "value": 68399,
+      "detail": "5,445 papers"
+    },
+    {
+      "name": "Universidad Panamericana",
+      "country": "MX",
+      "value": 67904,
+      "detail": "5,655 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Tlaxcala",
+      "country": "MX",
+      "value": 67697,
+      "detail": "3,916 papers"
+    },
+    {
+      "name": "Universidad Anáhuac",
+      "country": "MX",
+      "value": 63462,
+      "detail": "5,149 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Chiapas",
+      "country": "MX",
+      "value": 61292,
+      "detail": "4,688 papers"
+    },
+    {
+      "name": "Instituto Tecnológico de Veracruz",
+      "country": "MX",
+      "value": 58551,
+      "detail": "1,483 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Nayarit",
+      "country": "MX",
+      "value": 55715,
+      "detail": "4,409 papers"
+    },
+    {
+      "name": "Universidad de León",
+      "country": "MX",
+      "value": 52391,
+      "detail": "7,123 papers"
+    },
+    {
+      "name": "University of Monterrey",
+      "country": "MX",
+      "value": 52295,
+      "detail": "3,374 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Baja California Sur",
+      "country": "MX",
+      "value": 51992,
+      "detail": "3,116 papers"
+    }
+  ]
+}

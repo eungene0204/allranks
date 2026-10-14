@@ -1,0 +1,326 @@
+{
+  "id": "nl-research-universities",
+  "title": "Top Research Universities in Netherlands",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Netherlands ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:39.754Z",
+  "items": [
+    {
+      "name": "University of Amsterdam",
+      "country": "NL",
+      "value": 26638526,
+      "detail": "223,640 papers"
+    },
+    {
+      "name": "Utrecht University",
+      "country": "NL",
+      "value": 24031362,
+      "detail": "245,871 papers"
+    },
+    {
+      "name": "University of Groningen",
+      "country": "NL",
+      "value": 22608182,
+      "detail": "194,467 papers"
+    },
+    {
+      "name": "Radboud University Nijmegen",
+      "country": "NL",
+      "value": 19520486,
+      "detail": "160,439 papers"
+    },
+    {
+      "name": "Wageningen University & Research",
+      "country": "NL",
+      "value": 14905654,
+      "detail": "138,932 papers"
+    },
+    {
+      "name": "Vrije Universiteit Amsterdam",
+      "country": "NL",
+      "value": 14525012,
+      "detail": "146,383 papers"
+    },
+    {
+      "name": "Leiden University",
+      "country": "NL",
+      "value": 14118837,
+      "detail": "160,372 papers"
+    },
+    {
+      "name": "Maastricht University",
+      "country": "NL",
+      "value": 12083999,
+      "detail": "120,877 papers"
+    },
+    {
+      "name": "Delft University of Technology",
+      "country": "NL",
+      "value": 11365407,
+      "detail": "172,267 papers"
+    },
+    {
+      "name": "Erasmus University Rotterdam",
+      "country": "NL",
+      "value": 8495193,
+      "detail": "82,049 papers"
+    },
+    {
+      "name": "Eindhoven University of Technology",
+      "country": "NL",
+      "value": 6995593,
+      "detail": "95,488 papers"
+    },
+    {
+      "name": "University of Twente",
+      "country": "NL",
+      "value": 6089879,
+      "detail": "87,410 papers"
+    },
+    {
+      "name": "Tilburg University",
+      "country": "NL",
+      "value": 2251364,
+      "detail": "47,954 papers"
+    },
+    {
+      "name": "Academic Center for Dentistry Amsterdam",
+      "country": "NL",
+      "value": 926668,
+      "detail": "8,938 papers"
+    },
+    {
+      "name": "Oncode Institute",
+      "country": "NL",
+      "value": 664493,
+      "detail": "3,185 papers"
+    },
+    {
+      "name": "IHE Delft Institute for Water Education",
+      "country": "NL",
+      "value": 490632,
+      "detail": "7,450 papers"
+    },
+    {
+      "name": "Open University of the Netherlands",
+      "country": "NL",
+      "value": 486926,
+      "detail": "9,327 papers"
+    },
+    {
+      "name": "European Graduate School of Neuroscience",
+      "country": "NL",
+      "value": 395907,
+      "detail": "1,309 papers"
+    },
+    {
+      "name": "TiFN",
+      "country": "NL",
+      "value": 281948,
+      "detail": "1,157 papers"
+    },
+    {
+      "name": "Tinbergen Institute",
+      "country": "NL",
+      "value": 272338,
+      "detail": "7,249 papers"
+    },
+    {
+      "name": "Fontys University of Applied Sciences",
+      "country": "NL",
+      "value": 212283,
+      "detail": "2,345 papers"
+    },
+    {
+      "name": "University of Applied Sciences Utrecht",
+      "country": "NL",
+      "value": 132683,
+      "detail": "4,399 papers"
+    },
+    {
+      "name": "Amsterdam University of Applied Sciences",
+      "country": "NL",
+      "value": 128100,
+      "detail": "4,447 papers"
+    },
+    {
+      "name": "HAN University of Applied Sciences",
+      "country": "NL",
+      "value": 120891,
+      "detail": "3,304 papers"
+    },
+    {
+      "name": "Transnational University Limburg",
+      "country": "NL",
+      "value": 100564,
+      "detail": "918 papers"
+    },
+    {
+      "name": "Zuyd University of Applied Sciences",
+      "country": "NL",
+      "value": 99569,
+      "detail": "1,699 papers"
+    },
+    {
+      "name": "Hanze University of Applied Sciences",
+      "country": "NL",
+      "value": 96314,
+      "detail": "2,756 papers"
+    },
+    {
+      "name": "International Institute of Social Studies",
+      "country": "NL",
+      "value": 75861,
+      "detail": "2,805 papers"
+    },
+    {
+      "name": "Rotterdam University of Applied Sciences",
+      "country": "NL",
+      "value": 59954,
+      "detail": "2,023 papers"
+    },
+    {
+      "name": "Nyenrode Business University",
+      "country": "NL",
+      "value": 51165,
+      "detail": "1,810 papers"
+    },
+    {
+      "name": "Medicines Evaluation Board",
+      "country": "NL",
+      "value": 49136,
+      "detail": "1,045 papers"
+    },
+    {
+      "name": "Breda University of Applied Sciences",
+      "country": "NL",
+      "value": 47515,
+      "detail": "1,188 papers"
+    },
+    {
+      "name": "Center for Language Studies",
+      "country": "NL",
+      "value": 46539,
+      "detail": "1,330 papers"
+    },
+    {
+      "name": "Interuniversity Center for Social Science Theory and Methodology",
+      "country": "NL",
+      "value": 40421,
+      "detail": "566 papers"
+    },
+    {
+      "name": "Windesheim University of Applied Sciences",
+      "country": "NL",
+      "value": 39465,
+      "detail": "1,397 papers"
+    },
+    {
+      "name": "Avans University of Applied Sciences",
+      "country": "NL",
+      "value": 38483,
+      "detail": "1,083 papers"
+    },
+    {
+      "name": "The Hague University of Applied Sciences",
+      "country": "NL",
+      "value": 38354,
+      "detail": "2,313 papers"
+    },
+    {
+      "name": "Saxion",
+      "country": "NL",
+      "value": 36073,
+      "detail": "1,830 papers"
+    },
+    {
+      "name": "Graduate School Neurosciences Amsterdam Rotterdam",
+      "country": "NL",
+      "value": 29393,
+      "detail": "110 papers"
+    },
+    {
+      "name": "University of Humanistic Studies",
+      "country": "NL",
+      "value": 27803,
+      "detail": "1,558 papers"
+    },
+    {
+      "name": "University of Applied Sciences Leiden",
+      "country": "NL",
+      "value": 27156,
+      "detail": "968 papers"
+    },
+    {
+      "name": "Inholland University of Applied Sciences",
+      "country": "NL",
+      "value": 24182,
+      "detail": "1,114 papers"
+    },
+    {
+      "name": "Maastricht School of Management",
+      "country": "NL",
+      "value": 21645,
+      "detail": "702 papers"
+    },
+    {
+      "name": "Van Hall Larenstein University of Applied Sciences",
+      "country": "NL",
+      "value": 17665,
+      "detail": "797 papers"
+    },
+    {
+      "name": "TIAS School for Business and Society",
+      "country": "NL",
+      "value": 13990,
+      "detail": "582 papers"
+    },
+    {
+      "name": "HZ University of Applied Sciences",
+      "country": "NL",
+      "value": 12945,
+      "detail": "358 papers"
+    },
+    {
+      "name": "Nefrovisie",
+      "country": "NL",
+      "value": 12486,
+      "detail": "140 papers"
+    },
+    {
+      "name": "C.T. de Wit Graduate School for Production Ecology and Resource Conservation",
+      "country": "NL",
+      "value": 11362,
+      "detail": "77 papers"
+    },
+    {
+      "name": "Royal Dutch Kentalis",
+      "country": "NL",
+      "value": 9773,
+      "detail": "292 papers"
+    },
+    {
+      "name": "Stenden University of Applied Sciences",
+      "country": "NL",
+      "value": 9341,
+      "detail": "444 papers"
+    }
+  ]
+}

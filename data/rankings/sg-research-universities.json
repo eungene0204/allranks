@@ -1,0 +1,326 @@
+{
+  "id": "sg-research-universities",
+  "title": "Top Research Universities in Singapore",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Singapore ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:18.928Z",
+  "items": [
+    {
+      "name": "National University of Singapore",
+      "country": "SG",
+      "value": 27227097,
+      "detail": "289,930 papers"
+    },
+    {
+      "name": "Nanyang Technological University",
+      "country": "SG",
+      "value": 18235064,
+      "detail": "199,409 papers"
+    },
+    {
+      "name": "Duke-NUS Medical School",
+      "country": "SG",
+      "value": 2962050,
+      "detail": "27,650 papers"
+    },
+    {
+      "name": "National University Health System",
+      "country": "SG",
+      "value": 1888687,
+      "detail": "20,291 papers"
+    },
+    {
+      "name": "Singapore University of Technology and Design",
+      "country": "SG",
+      "value": 915313,
+      "detail": "14,621 papers"
+    },
+    {
+      "name": "Singapore Management University",
+      "country": "SG",
+      "value": 683370,
+      "detail": "19,485 papers"
+    },
+    {
+      "name": "Singapore-MIT Alliance for Research and Technology",
+      "country": "SG",
+      "value": 354210,
+      "detail": "3,924 papers"
+    },
+    {
+      "name": "INSEAD",
+      "country": "SG",
+      "value": 307411,
+      "detail": "5,066 papers"
+    },
+    {
+      "name": "National University Cancer Institute, Singapore",
+      "country": "SG",
+      "value": 239445,
+      "detail": "3,459 papers"
+    },
+    {
+      "name": "Ngee Ann Polytechnic",
+      "country": "SG",
+      "value": 228409,
+      "detail": "1,850 papers"
+    },
+    {
+      "name": "Singapore University of Social Sciences",
+      "country": "SG",
+      "value": 99833,
+      "detail": "3,488 papers"
+    },
+    {
+      "name": "TUM CREATE",
+      "country": "SG",
+      "value": 92621,
+      "detail": "911 papers"
+    },
+    {
+      "name": "Yale-NUS College",
+      "country": "SG",
+      "value": 82456,
+      "detail": "2,165 papers"
+    },
+    {
+      "name": "Singapore Institute of Technology",
+      "country": "SG",
+      "value": 65030,
+      "detail": "4,637 papers"
+    },
+    {
+      "name": "Singapore Polytechnic",
+      "country": "SG",
+      "value": 46596,
+      "detail": "1,411 papers"
+    },
+    {
+      "name": "ESSEC Business School",
+      "country": "SG",
+      "value": 42328,
+      "detail": "2,376 papers"
+    },
+    {
+      "name": "James Cook University Singapore",
+      "country": "SG",
+      "value": 40007,
+      "detail": "1,692 papers"
+    },
+    {
+      "name": "Temasek Polytechnic",
+      "country": "SG",
+      "value": 31431,
+      "detail": "800 papers"
+    },
+    {
+      "name": "Nanyang Polytechnic",
+      "country": "SG",
+      "value": 30271,
+      "detail": "799 papers"
+    },
+    {
+      "name": "Newcastle University Singapore",
+      "country": "SG",
+      "value": 26559,
+      "detail": "985 papers"
+    },
+    {
+      "name": "Republic Polytechnic",
+      "country": "SG",
+      "value": 24274,
+      "detail": "591 papers"
+    },
+    {
+      "name": "SEAMEO Regional Language Centre",
+      "country": "SG",
+      "value": 20101,
+      "detail": "382 papers"
+    },
+    {
+      "name": "University of Wales Institute Cardiff",
+      "country": "SG",
+      "value": 17605,
+      "detail": "234 papers"
+    },
+    {
+      "name": "Waseda Bioscience Research Institute in Singapore",
+      "country": "SG",
+      "value": 10357,
+      "detail": "208 papers"
+    },
+    {
+      "name": "Hwa Chong Institution",
+      "country": "SG",
+      "value": 9419,
+      "detail": "314 papers"
+    },
+    {
+      "name": "Institute of Technical Education",
+      "country": "SG",
+      "value": 6660,
+      "detail": "207 papers"
+    },
+    {
+      "name": "Newcastle Australia Institute of Higher Education",
+      "country": "SG",
+      "value": 4966,
+      "detail": "287 papers"
+    },
+    {
+      "name": "University of Glasgow Singapore",
+      "country": "SG",
+      "value": 3824,
+      "detail": "284 papers"
+    },
+    {
+      "name": "Raffles Institution",
+      "country": "SG",
+      "value": 3096,
+      "detail": "249 papers"
+    },
+    {
+      "name": "Kaplan Higher Education Academy",
+      "country": "SG",
+      "value": 2717,
+      "detail": "102 papers"
+    },
+    {
+      "name": "Academy of Medicine",
+      "country": "SG",
+      "value": 2584,
+      "detail": "141 papers"
+    },
+    {
+      "name": "College of Family Physicians Singapore",
+      "country": "SG",
+      "value": 2274,
+      "detail": "23 papers"
+    },
+    {
+      "name": "Nanyang Centre for Public Administration",
+      "country": "SG",
+      "value": 1765,
+      "detail": "124 papers"
+    },
+    {
+      "name": "Civil Service College",
+      "country": "SG",
+      "value": 1581,
+      "detail": "88 papers"
+    },
+    {
+      "name": "Institute for Adult Learning",
+      "country": "SG",
+      "value": 1453,
+      "detail": "132 papers"
+    },
+    {
+      "name": "Management Development Institute of Singapore",
+      "country": "SG",
+      "value": 1383,
+      "detail": "218 papers"
+    },
+    {
+      "name": "East Asia School of Theology",
+      "country": "SG",
+      "value": 1234,
+      "detail": "14 papers"
+    },
+    {
+      "name": "DigiPen Institute of Technology Singapore",
+      "country": "SG",
+      "value": 1218,
+      "detail": "79 papers"
+    },
+    {
+      "name": "LASALLE College of the Arts",
+      "country": "SG",
+      "value": 1008,
+      "detail": "298 papers"
+    },
+    {
+      "name": "Curtin Singapore",
+      "country": "SG",
+      "value": 948,
+      "detail": "163 papers"
+    },
+    {
+      "name": "Ageing Research Institute for Society and Education",
+      "country": "SG",
+      "value": 893,
+      "detail": "42 papers"
+    },
+    {
+      "name": "TUM Asia",
+      "country": "SG",
+      "value": 845,
+      "detail": "39 papers"
+    },
+    {
+      "name": "PSB Academy",
+      "country": "SG",
+      "value": 731,
+      "detail": "134 papers"
+    },
+    {
+      "name": "TMC Academy",
+      "country": "SG",
+      "value": 610,
+      "detail": "43 papers"
+    },
+    {
+      "name": "A*STAR Graduate Academy",
+      "country": "SG",
+      "value": 592,
+      "detail": "38 papers"
+    },
+    {
+      "name": "Singapore American School",
+      "country": "SG",
+      "value": 516,
+      "detail": "116 papers"
+    },
+    {
+      "name": "United World College of South East Asia",
+      "country": "SG",
+      "value": 472,
+      "detail": "193 papers"
+    },
+    {
+      "name": "Global Indian International School",
+      "country": "SG",
+      "value": 328,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Nanyang Academy of Fine Arts",
+      "country": "SG",
+      "value": 311,
+      "detail": "85 papers"
+    },
+    {
+      "name": "Dulwich College (Singapore)",
+      "country": "SG",
+      "value": 285,
+      "detail": "87 papers"
+    }
+  ]
+}

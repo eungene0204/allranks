@@ -1,0 +1,325 @@
+{
+  "id": "ec-cities",
+  "title": "Largest Cities in Ecuador",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Ecuador with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EC",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.666Z",
+  "items": [
+    {
+      "name": "Quito",
+      "country": "EC",
+      "value": 2781641,
+      "detail": "Pichincha"
+    },
+    {
+      "name": "Guayaquil",
+      "country": "EC",
+      "value": 2723665,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Cuenca",
+      "country": "EC",
+      "value": 636996,
+      "detail": "Azuay"
+    },
+    {
+      "name": "Santo Domingo de los Colorados",
+      "country": "EC",
+      "value": 458580,
+      "detail": "Santo Domingo de los Tsáchilas"
+    },
+    {
+      "name": "Ambato",
+      "country": "EC",
+      "value": 387309,
+      "detail": "Tungurahua Province"
+    },
+    {
+      "name": "Portoviejo",
+      "country": "EC",
+      "value": 321800,
+      "detail": "Manabí"
+    },
+    {
+      "name": "Eloy Alfaro",
+      "country": "EC",
+      "value": 315724,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Machala",
+      "country": "EC",
+      "value": 289141,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Loja",
+      "country": "EC",
+      "value": 274112,
+      "detail": "Loja"
+    },
+    {
+      "name": "Manta",
+      "country": "EC",
+      "value": 264281,
+      "detail": "Manabí"
+    },
+    {
+      "name": "Riobamba",
+      "country": "EC",
+      "value": 264048,
+      "detail": "Chimborazo Province"
+    },
+    {
+      "name": "Ibarra",
+      "country": "EC",
+      "value": 221149,
+      "detail": "Imbabura"
+    },
+    {
+      "name": "Esmeraldas",
+      "country": "EC",
+      "value": 218727,
+      "detail": "Esmeraldas"
+    },
+    {
+      "name": "Quevedo",
+      "country": "EC",
+      "value": 213842,
+      "detail": "Los Ríos"
+    },
+    {
+      "name": "Latacunga",
+      "country": "EC",
+      "value": 205624,
+      "detail": "Cotopaxi"
+    },
+    {
+      "name": "Daule",
+      "country": "EC",
+      "value": 173684,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Milagro",
+      "country": "EC",
+      "value": 133508,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Tulcán",
+      "country": "EC",
+      "value": 86498,
+      "detail": "Carchi"
+    },
+    {
+      "name": "Babahoyo",
+      "country": "EC",
+      "value": 76279,
+      "detail": "Los Ríos"
+    },
+    {
+      "name": "La Libertad",
+      "country": "EC",
+      "value": 75881,
+      "detail": "Guayas"
+    },
+    {
+      "name": "El Empalme",
+      "country": "EC",
+      "value": 48754,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Puerto Francisco de Orellana",
+      "country": "EC",
+      "value": 48144,
+      "detail": "Orellana Province"
+    },
+    {
+      "name": "Pasaje",
+      "country": "EC",
+      "value": 44860,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Chone",
+      "country": "EC",
+      "value": 44751,
+      "detail": "Manabí"
+    },
+    {
+      "name": "Salinas",
+      "country": "EC",
+      "value": 43862,
+      "detail": "Santa Elena"
+    },
+    {
+      "name": "Santa Elena",
+      "country": "EC",
+      "value": 42214,
+      "detail": "Santa Elena"
+    },
+    {
+      "name": "Rosa Zarate",
+      "country": "EC",
+      "value": 42121,
+      "detail": "Esmeraldas"
+    },
+    {
+      "name": "Santa Rosa",
+      "country": "EC",
+      "value": 41816,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Balzar",
+      "country": "EC",
+      "value": 40115,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Huaquillas",
+      "country": "EC",
+      "value": 39757,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Ventanas",
+      "country": "EC",
+      "value": 38168,
+      "detail": "Los Ríos"
+    },
+    {
+      "name": "Bahía de Caráquez",
+      "country": "EC",
+      "value": 37056,
+      "detail": "Manabí"
+    },
+    {
+      "name": "La Troncal",
+      "country": "EC",
+      "value": 36353,
+      "detail": "Canar"
+    },
+    {
+      "name": "Jipijapa",
+      "country": "EC",
+      "value": 35901,
+      "detail": "Manabí"
+    },
+    {
+      "name": "Azogues",
+      "country": "EC",
+      "value": 34877,
+      "detail": "Canar"
+    },
+    {
+      "name": "Naranjito",
+      "country": "EC",
+      "value": 34206,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Vinces",
+      "country": "EC",
+      "value": 32497,
+      "detail": "Los Ríos"
+    },
+    {
+      "name": "Otavalo",
+      "country": "EC",
+      "value": 32330,
+      "detail": "Imbabura"
+    },
+    {
+      "name": "El Triunfo",
+      "country": "EC",
+      "value": 32282,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Naranjal",
+      "country": "EC",
+      "value": 32045,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Posorja",
+      "country": "EC",
+      "value": 30886,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Playas",
+      "country": "EC",
+      "value": 30564,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Pomasqui",
+      "country": "EC",
+      "value": 28724,
+      "detail": "Pichincha"
+    },
+    {
+      "name": "Yaguachi Nuevo",
+      "country": "EC",
+      "value": 27947,
+      "detail": "Guayas"
+    },
+    {
+      "name": "Guabo",
+      "country": "EC",
+      "value": 26635,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Cayambe",
+      "country": "EC",
+      "value": 26582,
+      "detail": "Pichincha"
+    },
+    {
+      "name": "Arenillas",
+      "country": "EC",
+      "value": 26000,
+      "detail": "El Oro"
+    },
+    {
+      "name": "Machachi",
+      "country": "EC",
+      "value": 25742,
+      "detail": "Pichincha"
+    },
+    {
+      "name": "Puyo",
+      "country": "EC",
+      "value": 24881,
+      "detail": "Pastaza Province"
+    },
+    {
+      "name": "Nueva Loja",
+      "country": "EC",
+      "value": 24211,
+      "detail": "Sucumbíos"
+    }
+  ]
+}

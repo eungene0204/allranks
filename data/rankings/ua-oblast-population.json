@@ -1,0 +1,145 @@
+{
+  "id": "ua-oblast-population",
+  "title": "Ukrainian Oblasts by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the oblasts before the full-scale invasion (2022 estimate).",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "UA",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "State Statistics Service of Ukraine (2022 estimate) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Ukrainian_oblasts_and_territories_by_population",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher",
+    "note": "Pre-war estimate; it does not reflect displacement since 2022."
+  },
+  "updatedAt": "2026-10-13T20:07:30.091Z",
+  "items": [
+    {
+      "name": "Donetsk",
+      "country": "UA",
+      "value": 4.0594
+    },
+    {
+      "name": "Dnipropetrovsk",
+      "country": "UA",
+      "value": 3.0965
+    },
+    {
+      "name": "Kyiv",
+      "country": "UA",
+      "value": 2.9523
+    },
+    {
+      "name": "Kharkiv",
+      "country": "UA",
+      "value": 2.599
+    },
+    {
+      "name": "Lviv",
+      "country": "UA",
+      "value": 2.4781
+    },
+    {
+      "name": "Odesa",
+      "country": "UA",
+      "value": 2.3514
+    },
+    {
+      "name": "Luhansk",
+      "country": "UA",
+      "value": 2.1029
+    },
+    {
+      "name": "Zaporizhzhia",
+      "country": "UA",
+      "value": 1.6385
+    },
+    {
+      "name": "Vinnytsia",
+      "country": "UA",
+      "value": 1.5095
+    },
+    {
+      "name": "Poltava",
+      "country": "UA",
+      "value": 1.3523
+    },
+    {
+      "name": "Ivano-Frankivsk",
+      "country": "UA",
+      "value": 1.3518
+    },
+    {
+      "name": "Zakarpattia",
+      "country": "UA",
+      "value": 1.2445
+    },
+    {
+      "name": "Khmelnytskyi",
+      "country": "UA",
+      "value": 1.2288
+    },
+    {
+      "name": "Zhytomyr",
+      "country": "UA",
+      "value": 1.179
+    },
+    {
+      "name": "Cherkasy",
+      "country": "UA",
+      "value": 1.1607
+    },
+    {
+      "name": "Rivne",
+      "country": "UA",
+      "value": 1.1418
+    },
+    {
+      "name": "Mykolaiv",
+      "country": "UA",
+      "value": 1.0918
+    },
+    {
+      "name": "Sumy",
+      "country": "UA",
+      "value": 1.0358
+    },
+    {
+      "name": "Ternopil",
+      "country": "UA",
+      "value": 1.0217
+    },
+    {
+      "name": "Volyn",
+      "country": "UA",
+      "value": 1.0214
+    },
+    {
+      "name": "Kherson",
+      "country": "UA",
+      "value": 1.0016
+    },
+    {
+      "name": "Chernihiv",
+      "country": "UA",
+      "value": 0.9593
+    },
+    {
+      "name": "Kirovohrad",
+      "country": "UA",
+      "value": 0.9037
+    },
+    {
+      "name": "Chernivtsi",
+      "country": "UA",
+      "value": 0.8905
+    }
+  ]
+}

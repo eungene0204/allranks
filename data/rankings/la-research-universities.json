@@ -1,0 +1,80 @@
+{
+  "id": "la-research-universities",
+  "title": "Top Research Universities in Laos",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Laos ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:55.252Z",
+  "items": [
+    {
+      "name": "National University of Laos",
+      "country": "LA",
+      "value": 31858,
+      "detail": "2,818 papers"
+    },
+    {
+      "name": "University of Health Sciences Vientiane",
+      "country": "LA",
+      "value": 22359,
+      "detail": "631 papers"
+    },
+    {
+      "name": "Souphanouvong University",
+      "country": "LA",
+      "value": 1227,
+      "detail": "700 papers"
+    },
+    {
+      "name": "Savannakhet University",
+      "country": "LA",
+      "value": 1026,
+      "detail": "189 papers"
+    },
+    {
+      "name": "Champasack University",
+      "country": "LA",
+      "value": 389,
+      "detail": "159 papers"
+    },
+    {
+      "name": "Savannakhet Teacher Training College",
+      "country": "LA",
+      "value": 387,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Pakse Teacher Training College",
+      "country": "LA",
+      "value": 59,
+      "detail": "14 papers"
+    },
+    {
+      "name": "Luangnamtha Teacher Training College",
+      "country": "LA",
+      "value": 58,
+      "detail": "18 papers"
+    },
+    {
+      "name": "Rattana Institute of Business Administration",
+      "country": "LA",
+      "value": 4,
+      "detail": "5 papers"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bb-research-universities",
+  "title": "Top Research Universities in Barbados",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Barbados ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BB",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:20.911Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "BB",
+      "value": 315380,
+      "detail": "6,370 papers"
+    },
+    {
+      "name": "Ross University School of Medicine",
+      "country": "BB",
+      "value": 20341,
+      "detail": "1,295 papers"
+    },
+    {
+      "name": "Barbados Community College",
+      "country": "BB",
+      "value": 248,
+      "detail": "48 papers"
+    },
+    {
+      "name": "Bridgetown International University",
+      "country": "BB",
+      "value": 120,
+      "detail": "27 papers"
+    },
+    {
+      "name": "Erdiston Teachers' Training College",
+      "country": "BB",
+      "value": 78,
+      "detail": "5 papers"
+    }
+  ]
+}

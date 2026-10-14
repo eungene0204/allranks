@@ -1,0 +1,176 @@
+{
+  "id": "ba-research-universities",
+  "title": "Top Research Universities in Bosnia and Herzegovina",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Bosnia and Herzegovina ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:20.547Z",
+  "items": [
+    {
+      "name": "University of Sarajevo",
+      "country": "BA",
+      "value": 315716,
+      "detail": "18,452 papers"
+    },
+    {
+      "name": "University of Banja Luka",
+      "country": "BA",
+      "value": 96444,
+      "detail": "9,425 papers"
+    },
+    {
+      "name": "University of Tuzla",
+      "country": "BA",
+      "value": 65318,
+      "detail": "5,178 papers"
+    },
+    {
+      "name": "University of East Sarajevo",
+      "country": "BA",
+      "value": 46710,
+      "detail": "4,470 papers"
+    },
+    {
+      "name": "University of Mostar",
+      "country": "BA",
+      "value": 39463,
+      "detail": "4,153 papers"
+    },
+    {
+      "name": "International Burch University",
+      "country": "BA",
+      "value": 31041,
+      "detail": "1,671 papers"
+    },
+    {
+      "name": "International University of Sarajevo",
+      "country": "BA",
+      "value": 23658,
+      "detail": "1,908 papers"
+    },
+    {
+      "name": "University of Zenica",
+      "country": "BA",
+      "value": 11304,
+      "detail": "1,787 papers"
+    },
+    {
+      "name": "Sarajevo School of Science and Technology",
+      "country": "BA",
+      "value": 9002,
+      "detail": "839 papers"
+    },
+    {
+      "name": "University of Bihać",
+      "country": "BA",
+      "value": 7331,
+      "detail": "1,245 papers"
+    },
+    {
+      "name": "Dzemal Bijedic University of Mostar",
+      "country": "BA",
+      "value": 4715,
+      "detail": "876 papers"
+    },
+    {
+      "name": "University of Bijeljina",
+      "country": "BA",
+      "value": 1804,
+      "detail": "393 papers"
+    },
+    {
+      "name": "University Sinergija",
+      "country": "BA",
+      "value": 1760,
+      "detail": "243 papers"
+    },
+    {
+      "name": "University of Travnik",
+      "country": "BA",
+      "value": 1157,
+      "detail": "448 papers"
+    },
+    {
+      "name": "Independent University Banja Luka",
+      "country": "BA",
+      "value": 1119,
+      "detail": "242 papers"
+    },
+    {
+      "name": "International University of Travnik",
+      "country": "BA",
+      "value": 1086,
+      "detail": "297 papers"
+    },
+    {
+      "name": "University of Business Engineering and Management",
+      "country": "BA",
+      "value": 638,
+      "detail": "130 papers"
+    },
+    {
+      "name": "Univerzitet Vitez",
+      "country": "BA",
+      "value": 585,
+      "detail": "254 papers"
+    },
+    {
+      "name": "American University in Bosnia and Herzegovina",
+      "country": "BA",
+      "value": 572,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Herzegovina University",
+      "country": "BA",
+      "value": 357,
+      "detail": "140 papers"
+    },
+    {
+      "name": "Univerzitet Za Poslovne Studije",
+      "country": "BA",
+      "value": 294,
+      "detail": "125 papers"
+    },
+    {
+      "name": "Slobomir P University",
+      "country": "BA",
+      "value": 278,
+      "detail": "98 papers"
+    },
+    {
+      "name": "\"International business-information academy\" Tuzla (IPI Academy)",
+      "country": "BA",
+      "value": 105,
+      "detail": "27 papers"
+    },
+    {
+      "name": "Visoka škola \"Logos centar\" Mostaru",
+      "country": "BA",
+      "value": 62,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Univerzitet \"Privredna Akademija\" Brčko distrikt Bosne i Hercegovine",
+      "country": "BA",
+      "value": 2,
+      "detail": "14 papers"
+    }
+  ]
+}

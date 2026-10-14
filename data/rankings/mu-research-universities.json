@@ -1,0 +1,62 @@
+{
+  "id": "mu-research-universities",
+  "title": "Top Research Universities in Mauritius",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mauritius ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:04.298Z",
+  "items": [
+    {
+      "name": "University of Mauritius",
+      "country": "MU",
+      "value": 226408,
+      "detail": "6,369 papers"
+    },
+    {
+      "name": "University of Technology, Mauritius",
+      "country": "MU",
+      "value": 13654,
+      "detail": "762 papers"
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "country": "MU",
+      "value": 3211,
+      "detail": "213 papers"
+    },
+    {
+      "name": "Mauritius Institute of Education",
+      "country": "MU",
+      "value": 2963,
+      "detail": "262 papers"
+    },
+    {
+      "name": "Open University of Mauritius",
+      "country": "MU",
+      "value": 1699,
+      "detail": "209 papers"
+    },
+    {
+      "name": "Mahatma Gandhi Institute",
+      "country": "MU",
+      "value": 136,
+      "detail": "75 papers"
+    }
+  ]
+}

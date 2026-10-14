@@ -1,0 +1,326 @@
+{
+  "id": "ec-research-universities",
+  "title": "Top Research Universities in Ecuador",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Ecuador ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EC",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:36.411Z",
+  "items": [
+    {
+      "name": "Universidad San Francisco de Quito",
+      "country": "EC",
+      "value": 367121,
+      "detail": "12,165 papers"
+    },
+    {
+      "name": "National Polytechnic School",
+      "country": "EC",
+      "value": 189678,
+      "detail": "8,150 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador",
+      "country": "EC",
+      "value": 186697,
+      "detail": "11,562 papers"
+    },
+    {
+      "name": "Escuela Superior Politecnica del Litoral",
+      "country": "EC",
+      "value": 156082,
+      "detail": "8,056 papers"
+    },
+    {
+      "name": "University of Cuenca",
+      "country": "EC",
+      "value": 133369,
+      "detail": "8,255 papers"
+    },
+    {
+      "name": "Universidad de Las Américas",
+      "country": "EC",
+      "value": 119953,
+      "detail": "6,224 papers"
+    },
+    {
+      "name": "Universidad Técnica Particular de Loja",
+      "country": "EC",
+      "value": 102819,
+      "detail": "6,855 papers"
+    },
+    {
+      "name": "Universidad de las Fuerzas Armadas ESPE",
+      "country": "EC",
+      "value": 102769,
+      "detail": "7,622 papers"
+    },
+    {
+      "name": "Central University of Ecuador",
+      "country": "EC",
+      "value": 90147,
+      "detail": "11,745 papers"
+    },
+    {
+      "name": "Politecnica Salesiana University",
+      "country": "EC",
+      "value": 69478,
+      "detail": "7,013 papers"
+    },
+    {
+      "name": "Universidad Espíritu Santo",
+      "country": "EC",
+      "value": 65275,
+      "detail": "5,514 papers"
+    },
+    {
+      "name": "Universidad UTE",
+      "country": "EC",
+      "value": 65063,
+      "detail": "3,720 papers"
+    },
+    {
+      "name": "Universidad Yachay Tech",
+      "country": "EC",
+      "value": 53907,
+      "detail": "2,245 papers"
+    },
+    {
+      "name": "Universidad Técnica de Manabí",
+      "country": "EC",
+      "value": 50161,
+      "detail": "9,860 papers"
+    },
+    {
+      "name": "Universidad Técnica de Ambato",
+      "country": "EC",
+      "value": 49165,
+      "detail": "8,842 papers"
+    },
+    {
+      "name": "University of Guayaquil",
+      "country": "EC",
+      "value": 48219,
+      "detail": "13,690 papers"
+    },
+    {
+      "name": "Escuela Superior Politécnica del Chimborazo",
+      "country": "EC",
+      "value": 45106,
+      "detail": "8,000 papers"
+    },
+    {
+      "name": "Universidad Católica de Santiago de Guayaquil",
+      "country": "EC",
+      "value": 43094,
+      "detail": "4,203 papers"
+    },
+    {
+      "name": "Universidad del Azuay",
+      "country": "EC",
+      "value": 39848,
+      "detail": "3,068 papers"
+    },
+    {
+      "name": "Universidad Católica de Cuenca",
+      "country": "EC",
+      "value": 39102,
+      "detail": "9,563 papers"
+    },
+    {
+      "name": "Instituto Geofísico de la Escuela Politécnica Nacional",
+      "country": "EC",
+      "value": 37598,
+      "detail": "568 papers"
+    },
+    {
+      "name": "Universidad Nacional de Loja",
+      "country": "EC",
+      "value": 34159,
+      "detail": "4,436 papers"
+    },
+    {
+      "name": "Universidad Indoamérica",
+      "country": "EC",
+      "value": 29701,
+      "detail": "4,072 papers"
+    },
+    {
+      "name": "Universidad Estatal Amazónica",
+      "country": "EC",
+      "value": 28325,
+      "detail": "2,453 papers"
+    },
+    {
+      "name": "Universidad Estatal de Milagro",
+      "country": "EC",
+      "value": 28086,
+      "detail": "13,732 papers"
+    },
+    {
+      "name": "Universidad Tecnica de Machala",
+      "country": "EC",
+      "value": 28086,
+      "detail": "5,683 papers"
+    },
+    {
+      "name": "Universidad Nacional de Chimborazo",
+      "country": "EC",
+      "value": 25406,
+      "detail": "5,665 papers"
+    },
+    {
+      "name": "Universidad Técnica del Norte",
+      "country": "EC",
+      "value": 25109,
+      "detail": "2,548 papers"
+    },
+    {
+      "name": "Universidad Regional Amazónica IKIAM",
+      "country": "EC",
+      "value": 24442,
+      "detail": "1,302 papers"
+    },
+    {
+      "name": "Universidad Técnica Estatal de Quevedo",
+      "country": "EC",
+      "value": 22152,
+      "detail": "5,069 papers"
+    },
+    {
+      "name": "Universidad Laica Eloy Alfaro de Manabí",
+      "country": "EC",
+      "value": 22099,
+      "detail": "6,307 papers"
+    },
+    {
+      "name": "Universidad Internacional del Ecuador",
+      "country": "EC",
+      "value": 19270,
+      "detail": "2,482 papers"
+    },
+    {
+      "name": "Universidad Estatal del Sur de Manabi",
+      "country": "EC",
+      "value": 14868,
+      "detail": "5,684 papers"
+    },
+    {
+      "name": "Universidad Técnica Federico Santa María",
+      "country": "EC",
+      "value": 13601,
+      "detail": "870 papers"
+    },
+    {
+      "name": "Universidad Estatal Península de Santa Elena",
+      "country": "EC",
+      "value": 13087,
+      "detail": "4,038 papers"
+    },
+    {
+      "name": "Universidad Indoamérica, Sede Quito",
+      "country": "EC",
+      "value": 12998,
+      "detail": "735 papers"
+    },
+    {
+      "name": "Universidad Regional Autónoma de Los Andes",
+      "country": "EC",
+      "value": 10696,
+      "detail": "9,036 papers"
+    },
+    {
+      "name": "Universidad Técnica \"Luis Vargas Torres\"",
+      "country": "EC",
+      "value": 10017,
+      "detail": "1,826 papers"
+    },
+    {
+      "name": "Universidad Técnica de Cotopaxi",
+      "country": "EC",
+      "value": 9154,
+      "detail": "3,589 papers"
+    },
+    {
+      "name": "Universidad Ecotec",
+      "country": "EC",
+      "value": 9116,
+      "detail": "1,746 papers"
+    },
+    {
+      "name": "Universidad Agraria del Ecuador",
+      "country": "EC",
+      "value": 7665,
+      "detail": "1,413 papers"
+    },
+    {
+      "name": "Universidad Internacional SEK",
+      "country": "EC",
+      "value": 7477,
+      "detail": "1,040 papers"
+    },
+    {
+      "name": "Universidad Andina Simón Bolívar, Sede Ecuador",
+      "country": "EC",
+      "value": 7355,
+      "detail": "1,570 papers"
+    },
+    {
+      "name": "Universidad Estatal de Bolívar",
+      "country": "EC",
+      "value": 6673,
+      "detail": "1,905 papers"
+    },
+    {
+      "name": "Escuela Superior Politécnica Agropecuaria de Manabí Manuel Félix López",
+      "country": "EC",
+      "value": 6416,
+      "detail": "1,768 papers"
+    },
+    {
+      "name": "Universidad Técnica de Babahoyo",
+      "country": "EC",
+      "value": 6319,
+      "detail": "2,901 papers"
+    },
+    {
+      "name": "Universidad Metropolitana",
+      "country": "EC",
+      "value": 5605,
+      "detail": "2,455 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador Sede Manabí",
+      "country": "EC",
+      "value": 5544,
+      "detail": "759 papers"
+    },
+    {
+      "name": "Universidad Politécnica Estatal del Carchi",
+      "country": "EC",
+      "value": 4155,
+      "detail": "1,404 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador Sede Ambato",
+      "country": "EC",
+      "value": 4050,
+      "detail": "781 papers"
+    }
+  ]
+}

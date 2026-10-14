@@ -1,0 +1,91 @@
+{
+  "id": "ls-cities",
+  "title": "Largest Cities in Lesotho",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Lesotho with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.673Z",
+  "items": [
+    {
+      "name": "Maseru",
+      "country": "LS",
+      "value": 359753,
+      "detail": "Maseru District"
+    },
+    {
+      "name": "Maputsoe",
+      "country": "LS",
+      "value": 61916,
+      "detail": "Leribe"
+    },
+    {
+      "name": "Mohale's Hoek",
+      "country": "LS",
+      "value": 46593,
+      "detail": "Mohale's Hoek District"
+    },
+    {
+      "name": "Mafeteng",
+      "country": "LS",
+      "value": 45287,
+      "detail": "Mafeteng District"
+    },
+    {
+      "name": "Hlotse",
+      "country": "LS",
+      "value": 43967,
+      "detail": "Leribe"
+    },
+    {
+      "name": "Butha-Buthe",
+      "country": "LS",
+      "value": 40599,
+      "detail": "Butha-Buthe"
+    },
+    {
+      "name": "Mabote",
+      "country": "LS",
+      "value": 38047,
+      "detail": "Berea"
+    },
+    {
+      "name": "Quthing",
+      "country": "LS",
+      "value": 33910,
+      "detail": "Quthing"
+    },
+    {
+      "name": "Teyateyaneng",
+      "country": "LS",
+      "value": 27272,
+      "detail": "Berea"
+    },
+    {
+      "name": "Qacha’s Nek",
+      "country": "LS",
+      "value": 25573,
+      "detail": "Qacha's Nek District"
+    },
+    {
+      "name": "Thaba-Tseka",
+      "country": "LS",
+      "value": 16765,
+      "detail": "Thaba-Tseka"
+    }
+  ]
+}

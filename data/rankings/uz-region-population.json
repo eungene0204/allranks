@@ -1,0 +1,89 @@
+{
+  "id": "uz-region-population",
+  "title": "Uzbek Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each region.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "UZ",
+  "year": 2026,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Agency of Uzbekistan (2026) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_Uzbekistan",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:41:36.291Z",
+  "items": [
+    {
+      "name": "Samarqand",
+      "country": "UZ",
+      "value": 4.3968
+    },
+    {
+      "name": "Fergana",
+      "country": "UZ",
+      "value": 4.2394
+    },
+    {
+      "name": "Qashqadaryo",
+      "country": "UZ",
+      "value": 3.7318
+    },
+    {
+      "name": "Andijan",
+      "country": "UZ",
+      "value": 3.5339
+    },
+    {
+      "name": "Namangan",
+      "country": "UZ",
+      "value": 3.2027
+    },
+    {
+      "name": "Tashkent",
+      "country": "UZ",
+      "value": 3.1959
+    },
+    {
+      "name": "Surxondaryo",
+      "country": "UZ",
+      "value": 3.0249
+    },
+    {
+      "name": "Bukhara",
+      "country": "UZ",
+      "value": 2.1122
+    },
+    {
+      "name": "Xorazm",
+      "country": "UZ",
+      "value": 2.075
+    },
+    {
+      "name": "Republic of Karakalpakstan",
+      "country": "UZ",
+      "value": 2.0469
+    },
+    {
+      "name": "Jizzakh",
+      "country": "UZ",
+      "value": 1.5599
+    },
+    {
+      "name": "Navoiy",
+      "country": "UZ",
+      "value": 1.1186
+    },
+    {
+      "name": "Sirdaryo",
+      "country": "UZ",
+      "value": 0.9426
+    }
+  ]
+}

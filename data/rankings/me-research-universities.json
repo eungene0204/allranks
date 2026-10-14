@@ -1,0 +1,68 @@
+{
+  "id": "me-research-universities",
+  "title": "Top Research Universities in Montenegro",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Montenegro ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ME",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:00.776Z",
+  "items": [
+    {
+      "name": "University of Montenegro",
+      "country": "ME",
+      "value": 207851,
+      "detail": "12,192 papers"
+    },
+    {
+      "name": "University of Donja Gorica",
+      "country": "ME",
+      "value": 7094,
+      "detail": "798 papers"
+    },
+    {
+      "name": "Mediterranean University",
+      "country": "ME",
+      "value": 3678,
+      "detail": "446 papers"
+    },
+    {
+      "name": "Fakultet za Poslovni Menadžment u Baru",
+      "country": "ME",
+      "value": 219,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Fakultet za menadžment Herceg Novi",
+      "country": "ME",
+      "value": 102,
+      "detail": "53 papers"
+    },
+    {
+      "name": "Fakultet za Mediteranske Poslovne Studije",
+      "country": "ME",
+      "value": 9,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Faculty for State and European Studies",
+      "country": "ME",
+      "value": 4,
+      "detail": "18 papers"
+    }
+  ]
+}

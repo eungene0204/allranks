@@ -1,0 +1,98 @@
+{
+  "id": "gn-research-universities",
+  "title": "Top Research Universities in Guinea",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Guinea ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:42.961Z",
+  "items": [
+    {
+      "name": "Gamal Abdel Nasser University of Conakry",
+      "country": "GN",
+      "value": 47177,
+      "detail": "2,471 papers"
+    },
+    {
+      "name": "Centre d’excellence africain pour la prévention et le contrôle des maladies transmissibles",
+      "country": "GN",
+      "value": 3230,
+      "detail": "173 papers"
+    },
+    {
+      "name": "Institut Supérieur Agronomique et Vétérinaire Valéry Giscard d'Estaing",
+      "country": "GN",
+      "value": 2872,
+      "detail": "137 papers"
+    },
+    {
+      "name": "Institut Supérieur des Sciences et de Médecine Vétérinaire",
+      "country": "GN",
+      "value": 2112,
+      "detail": "259 papers"
+    },
+    {
+      "name": "Julius Nyerere University of Kankan",
+      "country": "GN",
+      "value": 1469,
+      "detail": "168 papers"
+    },
+    {
+      "name": "Université Général Lansana Conté",
+      "country": "GN",
+      "value": 712,
+      "detail": "113 papers"
+    },
+    {
+      "name": "Université de Kindia",
+      "country": "GN",
+      "value": 275,
+      "detail": "121 papers"
+    },
+    {
+      "name": "Université Kofi Annan de Guinée",
+      "country": "GN",
+      "value": 234,
+      "detail": "53 papers"
+    },
+    {
+      "name": "Institut Supérieur de Technologie de Mamou",
+      "country": "GN",
+      "value": 54,
+      "detail": "55 papers"
+    },
+    {
+      "name": "Institut Supérieur des Sciences de l'Éducation de Guinée",
+      "country": "GN",
+      "value": 44,
+      "detail": "42 papers"
+    },
+    {
+      "name": "Centre Universitaire de Labé",
+      "country": "GN",
+      "value": 21,
+      "detail": "33 papers"
+    },
+    {
+      "name": "Institut Supérieur de Formation à Distance",
+      "country": "GN",
+      "value": 7,
+      "detail": "8 papers"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "nz-region-gdp-per-capita",
+  "title": "New Zealand Regions by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Gross domestic product per resident, in US dollars.",
+  "unit": "USD per person",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NZ",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Stats NZ, regional gross domestic product (year to March 2024) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_regions_of_New_Zealand_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:56:10.712Z",
+  "items": [
+    {
+      "name": "Wellington",
+      "country": "NZ",
+      "value": 55665
+    },
+    {
+      "name": "Auckland",
+      "country": "NZ",
+      "value": 53013
+    },
+    {
+      "name": "Taranaki",
+      "country": "NZ",
+      "value": 51217
+    },
+    {
+      "name": "Marlborough",
+      "country": "NZ",
+      "value": 50577
+    },
+    {
+      "name": "Southland",
+      "country": "NZ",
+      "value": 50172
+    },
+    {
+      "name": "West Coast",
+      "country": "NZ",
+      "value": 45034
+    },
+    {
+      "name": "Canterbury",
+      "country": "NZ",
+      "value": 44863
+    },
+    {
+      "name": "Otago",
+      "country": "NZ",
+      "value": 42667
+    },
+    {
+      "name": "Waikato",
+      "country": "NZ",
+      "value": 41158
+    },
+    {
+      "name": "Bay of Plenty",
+      "country": "NZ",
+      "value": 40590
+    },
+    {
+      "name": "Tasman / Nelson",
+      "country": "NZ",
+      "value": 39775
+    },
+    {
+      "name": "Hawke's Bay",
+      "country": "NZ",
+      "value": 38961
+    },
+    {
+      "name": "Manawatū-Whanganui",
+      "country": "NZ",
+      "value": 35900
+    },
+    {
+      "name": "Gisborne",
+      "country": "NZ",
+      "value": 33195
+    },
+    {
+      "name": "Northland",
+      "country": "NZ",
+      "value": 32877
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "es-research-universities",
+  "title": "Top Research Universities in Spain",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Spain ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ES",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:36.358Z",
+  "items": [
+    {
+      "name": "Universitat de Barcelona",
+      "country": "ES",
+      "value": 18557786,
+      "detail": "203,616 papers"
+    },
+    {
+      "name": "Universitat Autònoma de Barcelona",
+      "country": "ES",
+      "value": 13200341,
+      "detail": "171,286 papers"
+    },
+    {
+      "name": "Universitat de València",
+      "country": "ES",
+      "value": 12179974,
+      "detail": "137,227 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "country": "ES",
+      "value": 9510504,
+      "detail": "123,539 papers"
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "country": "ES",
+      "value": 9037150,
+      "detail": "178,539 papers"
+    },
+    {
+      "name": "Universidad de Granada",
+      "country": "ES",
+      "value": 7213454,
+      "detail": "125,171 papers"
+    },
+    {
+      "name": "Universidade de Santiago de Compostela",
+      "country": "ES",
+      "value": 5776543,
+      "detail": "77,330 papers"
+    },
+    {
+      "name": "University of the Basque Country",
+      "country": "ES",
+      "value": 5666986,
+      "detail": "103,049 papers"
+    },
+    {
+      "name": "Universidad de Sevilla",
+      "country": "ES",
+      "value": 5367072,
+      "detail": "116,195 papers"
+    },
+    {
+      "name": "Universitat Pompeu Fabra",
+      "country": "ES",
+      "value": 5106841,
+      "detail": "52,498 papers"
+    },
+    {
+      "name": "Universidad de Zaragoza",
+      "country": "ES",
+      "value": 4913402,
+      "detail": "87,516 papers"
+    },
+    {
+      "name": "Universidad de Cantabria",
+      "country": "ES",
+      "value": 4747416,
+      "detail": "34,090 papers"
+    },
+    {
+      "name": "Universitat Politècnica de València",
+      "country": "ES",
+      "value": 4668185,
+      "detail": "80,013 papers"
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "country": "ES",
+      "value": 4323196,
+      "detail": "92,193 papers"
+    },
+    {
+      "name": "Universidad de Oviedo",
+      "country": "ES",
+      "value": 4187670,
+      "detail": "59,960 papers"
+    },
+    {
+      "name": "Barcelona Institute of Science and Technology",
+      "country": "ES",
+      "value": 3729123,
+      "detail": "16,153 papers"
+    },
+    {
+      "name": "Universidad Politécnica de Madrid",
+      "country": "ES",
+      "value": 3424869,
+      "detail": "79,488 papers"
+    },
+    {
+      "name": "Universidad de Navarra",
+      "country": "ES",
+      "value": 3402156,
+      "detail": "48,886 papers"
+    },
+    {
+      "name": "Universidad de Salamanca",
+      "country": "ES",
+      "value": 3042737,
+      "detail": "66,299 papers"
+    },
+    {
+      "name": "Universidad de Murcia",
+      "country": "ES",
+      "value": 2911688,
+      "detail": "61,295 papers"
+    },
+    {
+      "name": "Universitat Rovira i Virgili",
+      "country": "ES",
+      "value": 2860346,
+      "detail": "40,438 papers"
+    },
+    {
+      "name": "University of Córdoba",
+      "country": "ES",
+      "value": 2808799,
+      "detail": "47,245 papers"
+    },
+    {
+      "name": "Universidade de Vigo",
+      "country": "ES",
+      "value": 2764072,
+      "detail": "47,513 papers"
+    },
+    {
+      "name": "Universidad de La Laguna",
+      "country": "ES",
+      "value": 2674286,
+      "detail": "43,748 papers"
+    },
+    {
+      "name": "Universidad de Málaga",
+      "country": "ES",
+      "value": 2580680,
+      "detail": "59,309 papers"
+    },
+    {
+      "name": "Universitat de les Illes Balears",
+      "country": "ES",
+      "value": 2511278,
+      "detail": "31,099 papers"
+    },
+    {
+      "name": "University of Castilla-La Mancha",
+      "country": "ES",
+      "value": 2362228,
+      "detail": "47,275 papers"
+    },
+    {
+      "name": "University of Alicante",
+      "country": "ES",
+      "value": 2235527,
+      "detail": "50,367 papers"
+    },
+    {
+      "name": "Universidad de Alcalá",
+      "country": "ES",
+      "value": 2063847,
+      "detail": "46,510 papers"
+    },
+    {
+      "name": "Universidad de Valladolid",
+      "country": "ES",
+      "value": 1924366,
+      "detail": "47,891 papers"
+    },
+    {
+      "name": "Universidad de Extremadura",
+      "country": "ES",
+      "value": 1816891,
+      "detail": "36,961 papers"
+    },
+    {
+      "name": "Universitat de Girona",
+      "country": "ES",
+      "value": 1732906,
+      "detail": "28,489 papers"
+    },
+    {
+      "name": "Universitat Jaume I",
+      "country": "ES",
+      "value": 1665165,
+      "detail": "30,654 papers"
+    },
+    {
+      "name": "Institut de Ciències del Cosmos",
+      "country": "ES",
+      "value": 1466630,
+      "detail": "5,250 papers"
+    },
+    {
+      "name": "Universidade da Coruña",
+      "country": "ES",
+      "value": 1432620,
+      "detail": "31,967 papers"
+    },
+    {
+      "name": "Universidad Rey Juan Carlos",
+      "country": "ES",
+      "value": 1429148,
+      "detail": "37,384 papers"
+    },
+    {
+      "name": "Universidad Carlos III de Madrid",
+      "country": "ES",
+      "value": 1401917,
+      "detail": "46,455 papers"
+    },
+    {
+      "name": "Universitat de Lleida",
+      "country": "ES",
+      "value": 1396814,
+      "detail": "21,228 papers"
+    },
+    {
+      "name": "Universitat de Miguel Hernández d'Elx",
+      "country": "ES",
+      "value": 1358496,
+      "detail": "23,540 papers"
+    },
+    {
+      "name": "Universidad de Las Palmas de Gran Canaria",
+      "country": "ES",
+      "value": 1342066,
+      "detail": "25,448 papers"
+    },
+    {
+      "name": "Universidad de Cádiz",
+      "country": "ES",
+      "value": 1291734,
+      "detail": "31,447 papers"
+    },
+    {
+      "name": "University of Almería",
+      "country": "ES",
+      "value": 1244497,
+      "detail": "23,913 papers"
+    },
+    {
+      "name": "Universidad de Jaén",
+      "country": "ES",
+      "value": 1107194,
+      "detail": "25,892 papers"
+    },
+    {
+      "name": "Universidad Pública de Navarra (UPNA)",
+      "country": "ES",
+      "value": 1071593,
+      "detail": "20,036 papers"
+    },
+    {
+      "name": "Universidad de León",
+      "country": "ES",
+      "value": 1045525,
+      "detail": "23,481 papers"
+    },
+    {
+      "name": "Universidad Nacional de Educación a Distancia",
+      "country": "ES",
+      "value": 840332,
+      "detail": "35,772 papers"
+    },
+    {
+      "name": "Universidad Pablo de Olavide",
+      "country": "ES",
+      "value": 831816,
+      "detail": "21,059 papers"
+    },
+    {
+      "name": "Navarre Institute of Health Research",
+      "country": "ES",
+      "value": 783850,
+      "detail": "7,567 papers"
+    },
+    {
+      "name": "Universidad de Huelva",
+      "country": "ES",
+      "value": 657778,
+      "detail": "17,630 papers"
+    },
+    {
+      "name": "Universidad Politécnica de Cartagena",
+      "country": "ES",
+      "value": 570181,
+      "detail": "13,122 papers"
+    }
+  ]
+}

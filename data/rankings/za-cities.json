@@ -1,0 +1,325 @@
+{
+  "id": "za-cities",
+  "title": "Largest Cities in South Africa",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of South Africa with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ZA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.687Z",
+  "items": [
+    {
+      "name": "Johannesburg",
+      "country": "ZA",
+      "value": 9418183,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Cape Town",
+      "country": "ZA",
+      "value": 4772846,
+      "detail": "Western Cape"
+    },
+    {
+      "name": "Durban",
+      "country": "ZA",
+      "value": 3338026,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Pretoria",
+      "country": "ZA",
+      "value": 2112693,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Soweto",
+      "country": "ZA",
+      "value": 1695047,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Gqeberha",
+      "country": "ZA",
+      "value": 1050078,
+      "detail": "Eastern Cape"
+    },
+    {
+      "name": "Soshanguve",
+      "country": "ZA",
+      "value": 872309,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Pietermaritzburg",
+      "country": "ZA",
+      "value": 839327,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Evaton",
+      "country": "ZA",
+      "value": 725468,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Benoni",
+      "country": "ZA",
+      "value": 605344,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Bloemfontein",
+      "country": "ZA",
+      "value": 556637,
+      "detail": "Free State"
+    },
+    {
+      "name": "Thembisa",
+      "country": "ZA",
+      "value": 511655,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "East London",
+      "country": "ZA",
+      "value": 478676,
+      "detail": "Eastern Cape"
+    },
+    {
+      "name": "Vereeniging",
+      "country": "ZA",
+      "value": 474681,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Boksburg",
+      "country": "ZA",
+      "value": 445168,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Welkom",
+      "country": "ZA",
+      "value": 431944,
+      "detail": "Free State"
+    },
+    {
+      "name": "Newcastle",
+      "country": "ZA",
+      "value": 404838,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Krugersdorp",
+      "country": "ZA",
+      "value": 378821,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Rustenburg",
+      "country": "ZA",
+      "value": 373695,
+      "detail": "North West"
+    },
+    {
+      "name": "Emalahleni",
+      "country": "ZA",
+      "value": 373403,
+      "detail": "Mpumalanga"
+    },
+    {
+      "name": "Diepsloot",
+      "country": "ZA",
+      "value": 350000,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Randburg",
+      "country": "ZA",
+      "value": 337053,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Roodepoort",
+      "country": "ZA",
+      "value": 326416,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Botshabelo",
+      "country": "ZA",
+      "value": 309714,
+      "detail": "Free State"
+    },
+    {
+      "name": "Brakpan",
+      "country": "ZA",
+      "value": 305692,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Kariega",
+      "country": "ZA",
+      "value": 291052,
+      "detail": "Eastern Cape"
+    },
+    {
+      "name": "Polokwane",
+      "country": "ZA",
+      "value": 272461,
+      "detail": "Limpopo"
+    },
+    {
+      "name": "Germiston",
+      "country": "ZA",
+      "value": 255863,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Richards Bay",
+      "country": "ZA",
+      "value": 252968,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Vanderbijlpark",
+      "country": "ZA",
+      "value": 246754,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Athlone",
+      "country": "ZA",
+      "value": 237414,
+      "detail": "Western Cape"
+    },
+    {
+      "name": "Paarl",
+      "country": "ZA",
+      "value": 236910,
+      "detail": "Western Cape"
+    },
+    {
+      "name": "Centurion",
+      "country": "ZA",
+      "value": 236580,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Klerksdorp",
+      "country": "ZA",
+      "value": 227039,
+      "detail": "North West"
+    },
+    {
+      "name": "Somerset West",
+      "country": "ZA",
+      "value": 225289,
+      "detail": "Western Cape"
+    },
+    {
+      "name": "Mdantsane",
+      "country": "ZA",
+      "value": 205504,
+      "detail": "Eastern Cape"
+    },
+    {
+      "name": "Middelburg",
+      "country": "ZA",
+      "value": 196263,
+      "detail": "Mpumalanga"
+    },
+    {
+      "name": "George",
+      "country": "ZA",
+      "value": 188580,
+      "detail": "Western Cape"
+    },
+    {
+      "name": "Springs",
+      "country": "ZA",
+      "value": 186394,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Ivory Park",
+      "country": "ZA",
+      "value": 184383,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Carletonville",
+      "country": "ZA",
+      "value": 182304,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Alexandra",
+      "country": "ZA",
+      "value": 179624,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Potchefstroom",
+      "country": "ZA",
+      "value": 178285,
+      "detail": "North West"
+    },
+    {
+      "name": "Mthatha",
+      "country": "ZA",
+      "value": 164848,
+      "detail": "Eastern Cape"
+    },
+    {
+      "name": "KwaDukuza",
+      "country": "ZA",
+      "value": 161177,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Westonaria",
+      "country": "ZA",
+      "value": 156831,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Etwatwa",
+      "country": "ZA",
+      "value": 151866,
+      "detail": "Gauteng"
+    },
+    {
+      "name": "Vryheid",
+      "country": "ZA",
+      "value": 150012,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Pinetown",
+      "country": "ZA",
+      "value": 144026,
+      "detail": "KwaZulu-Natal"
+    },
+    {
+      "name": "Ladysmith",
+      "country": "ZA",
+      "value": 143446,
+      "detail": "KwaZulu-Natal"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "bg-research-universities",
+  "title": "Top Research Universities in Bulgaria",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Bulgaria ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:22.768Z",
+  "items": [
+    {
+      "name": "Sofia University \"St. Kliment Ohridski\"",
+      "country": "BG",
+      "value": 1514928,
+      "detail": "32,655 papers"
+    },
+    {
+      "name": "Medical University of Sofia",
+      "country": "BG",
+      "value": 515980,
+      "detail": "12,973 papers"
+    },
+    {
+      "name": "Medical University Plovdiv",
+      "country": "BG",
+      "value": 162147,
+      "detail": "6,960 papers"
+    },
+    {
+      "name": "Plovdiv University",
+      "country": "BG",
+      "value": 121143,
+      "detail": "6,887 papers"
+    },
+    {
+      "name": "Technical University of Sofia",
+      "country": "BG",
+      "value": 106020,
+      "detail": "12,504 papers"
+    },
+    {
+      "name": "Medical University of Varna",
+      "country": "BG",
+      "value": 103104,
+      "detail": "7,902 papers"
+    },
+    {
+      "name": "University of Chemical Technology and Metallurgy",
+      "country": "BG",
+      "value": 93806,
+      "detail": "3,965 papers"
+    },
+    {
+      "name": "Trakia University",
+      "country": "BG",
+      "value": 82992,
+      "detail": "5,713 papers"
+    },
+    {
+      "name": "University of Food Technologies",
+      "country": "BG",
+      "value": 60309,
+      "detail": "2,271 papers"
+    },
+    {
+      "name": "Prof. Assen Zlatarov University",
+      "country": "BG",
+      "value": 54428,
+      "detail": "2,002 papers"
+    },
+    {
+      "name": "National Center of Infectious and Parasitic Diseases",
+      "country": "BG",
+      "value": 47567,
+      "detail": "1,153 papers"
+    },
+    {
+      "name": "Angel Kanchev University of Ruse",
+      "country": "BG",
+      "value": 40991,
+      "detail": "4,541 papers"
+    },
+    {
+      "name": "Medical University Pleven",
+      "country": "BG",
+      "value": 32397,
+      "detail": "2,813 papers"
+    },
+    {
+      "name": "New Bulgarian University",
+      "country": "BG",
+      "value": 31521,
+      "detail": "2,368 papers"
+    },
+    {
+      "name": "University of Forestry",
+      "country": "BG",
+      "value": 28783,
+      "detail": "2,446 papers"
+    },
+    {
+      "name": "Agricultural University Plovdiv",
+      "country": "BG",
+      "value": 23593,
+      "detail": "2,008 papers"
+    },
+    {
+      "name": "South-West University \"Neofit Rilski\"",
+      "country": "BG",
+      "value": 22924,
+      "detail": "2,876 papers"
+    },
+    {
+      "name": "Shumen University",
+      "country": "BG",
+      "value": 19031,
+      "detail": "2,229 papers"
+    },
+    {
+      "name": "Technical University of Varna",
+      "country": "BG",
+      "value": 18064,
+      "detail": "2,663 papers"
+    },
+    {
+      "name": "University of Architecture, Civil Engineering and Geodesy",
+      "country": "BG",
+      "value": 18008,
+      "detail": "1,857 papers"
+    },
+    {
+      "name": "Varna University of Management",
+      "country": "BG",
+      "value": 15653,
+      "detail": "400 papers"
+    },
+    {
+      "name": "Technical University of Gabrovo",
+      "country": "BG",
+      "value": 13988,
+      "detail": "1,327 papers"
+    },
+    {
+      "name": "University of National and World Economy",
+      "country": "BG",
+      "value": 11954,
+      "detail": "3,488 papers"
+    },
+    {
+      "name": "University of Mining and Geology \"Saint Ivan Rilski\"",
+      "country": "BG",
+      "value": 10828,
+      "detail": "1,059 papers"
+    },
+    {
+      "name": "St. Cyril and St. Methodius University of Veliko Tarnovo",
+      "country": "BG",
+      "value": 6013,
+      "detail": "1,560 papers"
+    },
+    {
+      "name": "American University in Bulgaria",
+      "country": "BG",
+      "value": 5928,
+      "detail": "698 papers"
+    },
+    {
+      "name": "Nikola Vaptsarov Naval Academy",
+      "country": "BG",
+      "value": 4951,
+      "detail": "734 papers"
+    },
+    {
+      "name": "University of Economics Varna",
+      "country": "BG",
+      "value": 4724,
+      "detail": "1,638 papers"
+    },
+    {
+      "name": "Vasil Levski National Military University",
+      "country": "BG",
+      "value": 4677,
+      "detail": "1,282 papers"
+    },
+    {
+      "name": "University of Library Studies and Information Technologies",
+      "country": "BG",
+      "value": 4664,
+      "detail": "1,013 papers"
+    },
+    {
+      "name": "Institute of Mineralogy and Crystallography \"Acad. Ivan Kostov\" Bulgarian Academy of Sciences",
+      "country": "BG",
+      "value": 4049,
+      "detail": "328 papers"
+    },
+    {
+      "name": "Plant Protection Institute",
+      "country": "BG",
+      "value": 3441,
+      "detail": "161 papers"
+    },
+    {
+      "name": "National Sports Academy Vassil Levski",
+      "country": "BG",
+      "value": 3375,
+      "detail": "1,026 papers"
+    },
+    {
+      "name": "D. A. Tsenov Academy of Economics",
+      "country": "BG",
+      "value": 3279,
+      "detail": "749 papers"
+    },
+    {
+      "name": "University of Telecommunications and Post",
+      "country": "BG",
+      "value": 2966,
+      "detail": "407 papers"
+    },
+    {
+      "name": "Burgas Free University",
+      "country": "BG",
+      "value": 2492,
+      "detail": "642 papers"
+    },
+    {
+      "name": "Todor Kableshkov University of Transport",
+      "country": "BG",
+      "value": 2264,
+      "detail": "575 papers"
+    },
+    {
+      "name": "Big Data for Smart Society (GATE) Institute",
+      "country": "BG",
+      "value": 2164,
+      "detail": "221 papers"
+    },
+    {
+      "name": "Varna Free University",
+      "country": "BG",
+      "value": 1880,
+      "detail": "468 papers"
+    },
+    {
+      "name": "University of Agribusiness and Rural Development",
+      "country": "BG",
+      "value": 1764,
+      "detail": "668 papers"
+    },
+    {
+      "name": "G. S. Rakovski National Defence College",
+      "country": "BG",
+      "value": 1458,
+      "detail": "1,036 papers"
+    },
+    {
+      "name": "Food Research and Development Institute",
+      "country": "BG",
+      "value": 1095,
+      "detail": "79 papers"
+    },
+    {
+      "name": "International Business School",
+      "country": "BG",
+      "value": 1065,
+      "detail": "88 papers"
+    },
+    {
+      "name": "University of Security and Economics",
+      "country": "BG",
+      "value": 804,
+      "detail": "156 papers"
+    },
+    {
+      "name": "Bulgarian Air Force Academy",
+      "country": "BG",
+      "value": 629,
+      "detail": "127 papers"
+    },
+    {
+      "name": "Institute for Bulgarian Language",
+      "country": "BG",
+      "value": 605,
+      "detail": "559 papers"
+    },
+    {
+      "name": "European Polytechnical University",
+      "country": "BG",
+      "value": 454,
+      "detail": "81 papers"
+    },
+    {
+      "name": "University of Finance, Business and Entrepreneurship",
+      "country": "BG",
+      "value": 426,
+      "detail": "176 papers"
+    },
+    {
+      "name": "University of Structural Engineering and Architecture Lyuben Karavelov",
+      "country": "BG",
+      "value": 415,
+      "detail": "137 papers"
+    },
+    {
+      "name": "National Academy of Arts",
+      "country": "BG",
+      "value": 175,
+      "detail": "58 papers"
+    }
+  ]
+}

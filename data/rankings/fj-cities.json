@@ -1,0 +1,67 @@
+{
+  "id": "fj-cities",
+  "title": "Largest Cities in Fiji",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Fiji with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.667Z",
+  "items": [
+    {
+      "name": "Nasinu",
+      "country": "FJ",
+      "value": 92043,
+      "detail": "Central"
+    },
+    {
+      "name": "Suva",
+      "country": "FJ",
+      "value": 77366,
+      "detail": "Central"
+    },
+    {
+      "name": "Lautoka",
+      "country": "FJ",
+      "value": 52500,
+      "detail": "Western"
+    },
+    {
+      "name": "Nadi",
+      "country": "FJ",
+      "value": 42284,
+      "detail": "Western"
+    },
+    {
+      "name": "Labasa",
+      "country": "FJ",
+      "value": 27949,
+      "detail": "Northern"
+    },
+    {
+      "name": "Lami",
+      "country": "FJ",
+      "value": 24639,
+      "detail": "Central"
+    },
+    {
+      "name": "Sigatoka",
+      "country": "FJ",
+      "value": 17622,
+      "detail": "Western"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "ci-research-universities",
+  "title": "Top Research Universities in Ivory Coast",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Ivory Coast ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:29.748Z",
+  "items": [
+    {
+      "name": "Université Félix Houphouët-Boigny",
+      "country": "CI",
+      "value": 213481,
+      "detail": "27,991 papers"
+    },
+    {
+      "name": "Université Nangui Abrogoua",
+      "country": "CI",
+      "value": 76126,
+      "detail": "10,563 papers"
+    },
+    {
+      "name": "Institut National Polytechnique Félix Houphouët-Boigny",
+      "country": "CI",
+      "value": 39858,
+      "detail": "2,507 papers"
+    },
+    {
+      "name": "Université Jean Lorougnon Guédé",
+      "country": "CI",
+      "value": 15816,
+      "detail": "3,210 papers"
+    },
+    {
+      "name": "Université Alassane Ouattara",
+      "country": "CI",
+      "value": 13741,
+      "detail": "6,346 papers"
+    },
+    {
+      "name": "Université Pelefero Gon Coulibaly",
+      "country": "CI",
+      "value": 9450,
+      "detail": "2,858 papers"
+    },
+    {
+      "name": "Institut National d’Hygiène Publique",
+      "country": "CI",
+      "value": 7527,
+      "detail": "449 papers"
+    },
+    {
+      "name": "École Nationale Supérieure de Statistique et d'Économie Appliquée",
+      "country": "CI",
+      "value": 5403,
+      "detail": "520 papers"
+    },
+    {
+      "name": "École Normale Supérieure d'Abidjan",
+      "country": "CI",
+      "value": 3136,
+      "detail": "603 papers"
+    },
+    {
+      "name": "École Supérieure Africaine des TIC",
+      "country": "CI",
+      "value": 863,
+      "detail": "212 papers"
+    },
+    {
+      "name": "Université Virtuelle de Côte d'Ivoire",
+      "country": "CI",
+      "value": 843,
+      "detail": "688 papers"
+    },
+    {
+      "name": "International University of Grand Bassam",
+      "country": "CI",
+      "value": 777,
+      "detail": "103 papers"
+    },
+    {
+      "name": "University of Science and Technology of Ivory Coast",
+      "country": "CI",
+      "value": 267,
+      "detail": "27 papers"
+    },
+    {
+      "name": "Institut Universitaire d'Abidjan",
+      "country": "CI",
+      "value": 65,
+      "detail": "69 papers"
+    },
+    {
+      "name": "Université Tertiaire et Technologique-Lokko",
+      "country": "CI",
+      "value": 9,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Université de Bondoukou",
+      "country": "CI",
+      "value": 5,
+      "detail": "45 papers"
+    },
+    {
+      "name": "Agitel-Formation",
+      "country": "CI",
+      "value": 1,
+      "detail": "1 papers"
+    }
+  ]
+}

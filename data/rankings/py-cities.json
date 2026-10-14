@@ -1,0 +1,205 @@
+{
+  "id": "py-cities",
+  "title": "Largest Cities in Paraguay",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Paraguay with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.678Z",
+  "items": [
+    {
+      "name": "Asunción",
+      "country": "PY",
+      "value": 1482200,
+      "detail": "Asuncion"
+    },
+    {
+      "name": "Ciudad del Este",
+      "country": "PY",
+      "value": 301815,
+      "detail": "Alto Paraná Department"
+    },
+    {
+      "name": "San Lorenzo",
+      "country": "PY",
+      "value": 227876,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Capiatá",
+      "country": "PY",
+      "value": 198553,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Lambaré",
+      "country": "PY",
+      "value": 126377,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Fernando de la Mora",
+      "country": "PY",
+      "value": 120167,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Limpio",
+      "country": "PY",
+      "value": 96143,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Nemby",
+      "country": "PY",
+      "value": 94641,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Pedro Juan Caballero",
+      "country": "PY",
+      "value": 75109,
+      "detail": "Amambay Department"
+    },
+    {
+      "name": "Encarnación",
+      "country": "PY",
+      "value": 74983,
+      "detail": "Itapúa"
+    },
+    {
+      "name": "Mariano Roque Alonso",
+      "country": "PY",
+      "value": 72008,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Itauguá",
+      "country": "PY",
+      "value": 64997,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Villa Elisa",
+      "country": "PY",
+      "value": 64099,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Villa Hayes",
+      "country": "PY",
+      "value": 57217,
+      "detail": "Presidente Hayes"
+    },
+    {
+      "name": "Caacupé",
+      "country": "PY",
+      "value": 56864,
+      "detail": "Cordillera Department"
+    },
+    {
+      "name": "San Antonio",
+      "country": "PY",
+      "value": 55754,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Caaguazú",
+      "country": "PY",
+      "value": 54808,
+      "detail": "Caaguazú Department"
+    },
+    {
+      "name": "Presidente Franco",
+      "country": "PY",
+      "value": 54292,
+      "detail": "Alto Paraná Department"
+    },
+    {
+      "name": "Coronel Oviedo",
+      "country": "PY",
+      "value": 51286,
+      "detail": "Caaguazú Department"
+    },
+    {
+      "name": "Concepción",
+      "country": "PY",
+      "value": 48123,
+      "detail": "Concepción"
+    },
+    {
+      "name": "Villarrica",
+      "country": "PY",
+      "value": 41157,
+      "detail": "Guairá"
+    },
+    {
+      "name": "Doctor Juan Eulogio Estigarribia",
+      "country": "PY",
+      "value": 38894,
+      "detail": "Caaguazú Department"
+    },
+    {
+      "name": "Villeta",
+      "country": "PY",
+      "value": 36985,
+      "detail": "Central Department"
+    },
+    {
+      "name": "Pilar",
+      "country": "PY",
+      "value": 32810,
+      "detail": "Ñeembucú Department"
+    },
+    {
+      "name": "Yby Yaú",
+      "country": "PY",
+      "value": 31290,
+      "detail": "Concepción"
+    },
+    {
+      "name": "Caazapá",
+      "country": "PY",
+      "value": 23996,
+      "detail": "Caazapá"
+    },
+    {
+      "name": "Filadelfia",
+      "country": "PY",
+      "value": 19927,
+      "detail": "Boquerón Department"
+    },
+    {
+      "name": "Itá",
+      "country": "PY",
+      "value": 18459,
+      "detail": "Central Department"
+    },
+    {
+      "name": "San Juan Bautista",
+      "country": "PY",
+      "value": 16593,
+      "detail": "Misiones Department"
+    },
+    {
+      "name": "Loma Plata",
+      "country": "PY",
+      "value": 16460,
+      "detail": "Boquerón Department"
+    }
+  ]
+}

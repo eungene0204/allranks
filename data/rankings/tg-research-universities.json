@@ -1,0 +1,62 @@
+{
+  "id": "tg-research-universities",
+  "title": "Top Research Universities in Togo",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Togo ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:24.372Z",
+  "items": [
+    {
+      "name": "University of Lomé",
+      "country": "TG",
+      "value": 133781,
+      "detail": "7,772 papers"
+    },
+    {
+      "name": "University of Kara",
+      "country": "TG",
+      "value": 6083,
+      "detail": "1,917 papers"
+    },
+    {
+      "name": "University of Science and Technology of Togo",
+      "country": "TG",
+      "value": 118,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Global Wealth University",
+      "country": "TG",
+      "value": 106,
+      "detail": "61 papers"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "TG",
+      "value": 55,
+      "detail": "13 papers"
+    },
+    {
+      "name": "École Africaine des Métiers de l'Architecture et de l'Urbanisme",
+      "country": "TG",
+      "value": 40,
+      "detail": "42 papers"
+    }
+  ]
+}

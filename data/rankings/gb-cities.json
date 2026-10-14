@@ -1,0 +1,325 @@
+{
+  "id": "gb-cities",
+  "title": "Largest Cities in United Kingdom",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of United Kingdom with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.668Z",
+  "items": [
+    {
+      "name": "London",
+      "country": "GB",
+      "value": 8961989,
+      "detail": "England"
+    },
+    {
+      "name": "Birmingham",
+      "country": "GB",
+      "value": 1157603,
+      "detail": "England"
+    },
+    {
+      "name": "Glasgow",
+      "country": "GB",
+      "value": 626410,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Manchester",
+      "country": "GB",
+      "value": 568996,
+      "detail": "England"
+    },
+    {
+      "name": "Sheffield",
+      "country": "GB",
+      "value": 556500,
+      "detail": "England"
+    },
+    {
+      "name": "Leeds",
+      "country": "GB",
+      "value": 536280,
+      "detail": "England"
+    },
+    {
+      "name": "Edinburgh",
+      "country": "GB",
+      "value": 514990,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Liverpool",
+      "country": "GB",
+      "value": 496770,
+      "detail": "England"
+    },
+    {
+      "name": "Bristol",
+      "country": "GB",
+      "value": 479024,
+      "detail": "England"
+    },
+    {
+      "name": "Cardiff",
+      "country": "GB",
+      "value": 372089,
+      "detail": "Wales"
+    },
+    {
+      "name": "Leicester",
+      "country": "GB",
+      "value": 368600,
+      "detail": "England"
+    },
+    {
+      "name": "Bradford",
+      "country": "GB",
+      "value": 366187,
+      "detail": "England"
+    },
+    {
+      "name": "Belfast",
+      "country": "GB",
+      "value": 348005,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Coventry",
+      "country": "GB",
+      "value": 345324,
+      "detail": "England"
+    },
+    {
+      "name": "Brent",
+      "country": "GB",
+      "value": 329100,
+      "detail": "England"
+    },
+    {
+      "name": "Birkenhead",
+      "country": "GB",
+      "value": 325264,
+      "detail": "England"
+    },
+    {
+      "name": "Nottingham",
+      "country": "GB",
+      "value": 323632,
+      "detail": "England"
+    },
+    {
+      "name": "Islington",
+      "country": "GB",
+      "value": 319143,
+      "detail": "England"
+    },
+    {
+      "name": "Reading",
+      "country": "GB",
+      "value": 318014,
+      "detail": "England"
+    },
+    {
+      "name": "Kingston upon Hull",
+      "country": "GB",
+      "value": 314018,
+      "detail": "England"
+    },
+    {
+      "name": "Preston",
+      "country": "GB",
+      "value": 313332,
+      "detail": "England"
+    },
+    {
+      "name": "Swansea",
+      "country": "GB",
+      "value": 300352,
+      "detail": "Wales"
+    },
+    {
+      "name": "Newcastle upon Tyne",
+      "country": "GB",
+      "value": 300125,
+      "detail": "England"
+    },
+    {
+      "name": "Southend-on-Sea",
+      "country": "GB",
+      "value": 295310,
+      "detail": "England"
+    },
+    {
+      "name": "Brighton",
+      "country": "GB",
+      "value": 283870,
+      "detail": "England"
+    },
+    {
+      "name": "Derby",
+      "country": "GB",
+      "value": 270468,
+      "detail": "England"
+    },
+    {
+      "name": "Southampton",
+      "country": "GB",
+      "value": 269781,
+      "detail": "England"
+    },
+    {
+      "name": "Wolverhampton",
+      "country": "GB",
+      "value": 263700,
+      "detail": "England"
+    },
+    {
+      "name": "Plymouth",
+      "country": "GB",
+      "value": 260203,
+      "detail": "England"
+    },
+    {
+      "name": "Stoke-on-Trent",
+      "country": "GB",
+      "value": 258366,
+      "detail": "England"
+    },
+    {
+      "name": "Milton Keynes",
+      "country": "GB",
+      "value": 256385,
+      "detail": "England"
+    },
+    {
+      "name": "City of Westminster",
+      "country": "GB",
+      "value": 247614,
+      "detail": "England"
+    },
+    {
+      "name": "Northampton",
+      "country": "GB",
+      "value": 245899,
+      "detail": "England"
+    },
+    {
+      "name": "Oldham",
+      "country": "GB",
+      "value": 237110,
+      "detail": "England"
+    },
+    {
+      "name": "Bexley",
+      "country": "GB",
+      "value": 228000,
+      "detail": "England"
+    },
+    {
+      "name": "Luton",
+      "country": "GB",
+      "value": 225262,
+      "detail": "England"
+    },
+    {
+      "name": "Barking",
+      "country": "GB",
+      "value": 218534,
+      "detail": "England"
+    },
+    {
+      "name": "Archway",
+      "country": "GB",
+      "value": 215667,
+      "detail": "England"
+    },
+    {
+      "name": "Portsmouth",
+      "country": "GB",
+      "value": 208100,
+      "detail": "England"
+    },
+    {
+      "name": "Swindon",
+      "country": "GB",
+      "value": 201669,
+      "detail": "England"
+    },
+    {
+      "name": "Dudley",
+      "country": "GB",
+      "value": 199059,
+      "detail": "England"
+    },
+    {
+      "name": "Aberdeen",
+      "country": "GB",
+      "value": 198590,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Sutton",
+      "country": "GB",
+      "value": 187600,
+      "detail": "England"
+    },
+    {
+      "name": "St Helens",
+      "country": "GB",
+      "value": 183200,
+      "detail": "England"
+    },
+    {
+      "name": "Ipswich",
+      "country": "GB",
+      "value": 178835,
+      "detail": "England"
+    },
+    {
+      "name": "Wigan",
+      "country": "GB",
+      "value": 175405,
+      "detail": "England"
+    },
+    {
+      "name": "Croydon",
+      "country": "GB",
+      "value": 173314,
+      "detail": "England"
+    },
+    {
+      "name": "Warrington",
+      "country": "GB",
+      "value": 172330,
+      "detail": "England"
+    },
+    {
+      "name": "Walsall",
+      "country": "GB",
+      "value": 172141,
+      "detail": "England"
+    },
+    {
+      "name": "Mansfield",
+      "country": "GB",
+      "value": 171958,
+      "detail": "England"
+    }
+  ]
+}

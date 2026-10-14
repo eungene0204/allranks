@@ -1,0 +1,89 @@
+{
+  "id": "gr-region-gdp",
+  "title": "Greek Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross domestic product of the 13 regions, in billions of euros.",
+  "unit": "EUR billion",
+  "prefix": "€",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "GR",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "ELSTAT, regional accounts (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Greek_subdivisions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:55:50.534Z",
+  "items": [
+    {
+      "name": "Attica",
+      "country": "GR",
+      "value": 95.758
+    },
+    {
+      "name": "Central Macedonia",
+      "country": "GR",
+      "value": 27.207
+    },
+    {
+      "name": "Crete",
+      "country": "GR",
+      "value": 10.068
+    },
+    {
+      "name": "Thessaly",
+      "country": "GR",
+      "value": 9.963
+    },
+    {
+      "name": "Central Greece",
+      "country": "GR",
+      "value": 8.807
+    },
+    {
+      "name": "Peloponnese",
+      "country": "GR",
+      "value": 8.755
+    },
+    {
+      "name": "Western Greece",
+      "country": "GR",
+      "value": 8.478
+    },
+    {
+      "name": "Eastern Macedonia and Thrace",
+      "country": "GR",
+      "value": 7.097
+    },
+    {
+      "name": "South Aegean",
+      "country": "GR",
+      "value": 6.479
+    },
+    {
+      "name": "Epirus",
+      "country": "GR",
+      "value": 3.934
+    },
+    {
+      "name": "Western Macedonia",
+      "country": "GR",
+      "value": 3.51
+    },
+    {
+      "name": "Ionian Islands",
+      "country": "GR",
+      "value": 3.402
+    },
+    {
+      "name": "North Aegean",
+      "country": "GR",
+      "value": 2.595
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mr-research-universities",
+  "title": "Top Research Universities in Mauritania",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mauritania ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:03.541Z",
+  "items": [
+    {
+      "name": "Université de Nouakchott",
+      "country": "MR",
+      "value": 21828,
+      "detail": "1,647 papers"
+    },
+    {
+      "name": "Université des Sciences, de Technologie et de Médecine",
+      "country": "MR",
+      "value": 2802,
+      "detail": "104 papers"
+    },
+    {
+      "name": "École Normale Supérieure de Nouakchott",
+      "country": "MR",
+      "value": 983,
+      "detail": "119 papers"
+    },
+    {
+      "name": "Institut Supérieur de Génie Industriel",
+      "country": "MR",
+      "value": 13,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Lebanese International University of Mauritania",
+      "country": "MR",
+      "value": 2,
+      "detail": "2 papers"
+    }
+  ]
+}

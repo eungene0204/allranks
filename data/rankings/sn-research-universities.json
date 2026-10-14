@@ -1,0 +1,164 @@
+{
+  "id": "sn-research-universities",
+  "title": "Top Research Universities in Senegal",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Senegal ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:20.989Z",
+  "items": [
+    {
+      "name": "Cheikh Anta Diop University",
+      "country": "SN",
+      "value": 439782,
+      "detail": "18,963 papers"
+    },
+    {
+      "name": "Université Gaston Berger",
+      "country": "SN",
+      "value": 35247,
+      "detail": "5,087 papers"
+    },
+    {
+      "name": "Ziguinchor University",
+      "country": "SN",
+      "value": 15818,
+      "detail": "1,966 papers"
+    },
+    {
+      "name": "Université de Thiès",
+      "country": "SN",
+      "value": 11142,
+      "detail": "1,649 papers"
+    },
+    {
+      "name": "Université Alioune Diop de Bambey",
+      "country": "SN",
+      "value": 9534,
+      "detail": "1,695 papers"
+    },
+    {
+      "name": "École Inter-États des Sciences et Médecine Vétérinaires de Dakar",
+      "country": "SN",
+      "value": 7711,
+      "detail": "418 papers"
+    },
+    {
+      "name": "École Polytechnique de Thiès",
+      "country": "SN",
+      "value": 4337,
+      "detail": "406 papers"
+    },
+    {
+      "name": "École Nationale Supérieure d'Agriculture",
+      "country": "SN",
+      "value": 2967,
+      "detail": "257 papers"
+    },
+    {
+      "name": "École Supérieure Multinationale des Télécommunications",
+      "country": "SN",
+      "value": 944,
+      "detail": "134 papers"
+    },
+    {
+      "name": "Université du Sine Saloum El-Hâdj Ibrahima NIASS",
+      "country": "SN",
+      "value": 881,
+      "detail": "224 papers"
+    },
+    {
+      "name": "Ecole Supérieure d’Economie Appliquée",
+      "country": "SN",
+      "value": 672,
+      "detail": "34 papers"
+    },
+    {
+      "name": "Université Amadou Mahtar Mbow",
+      "country": "SN",
+      "value": 587,
+      "detail": "247 papers"
+    },
+    {
+      "name": "Centre Africain d'Études Supérieures en Gestion",
+      "country": "SN",
+      "value": 132,
+      "detail": "62 papers"
+    },
+    {
+      "name": "Groupe AFI",
+      "country": "SN",
+      "value": 72,
+      "detail": "12 papers"
+    },
+    {
+      "name": "International School of Dakar",
+      "country": "SN",
+      "value": 70,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Université Amadou Hampaté Ba",
+      "country": "SN",
+      "value": 61,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Institut International des Sciences et de Technologie",
+      "country": "SN",
+      "value": 59,
+      "detail": "9 papers"
+    },
+    {
+      "name": "St. Christopher Iba Mar Diop College of Medicine",
+      "country": "SN",
+      "value": 51,
+      "detail": "30 papers"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "SN",
+      "value": 39,
+      "detail": "26 papers"
+    },
+    {
+      "name": "Groupe École Supérieure de Commerce de Dakar",
+      "country": "SN",
+      "value": 38,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Université Dakar-Bourguiba",
+      "country": "SN",
+      "value": 12,
+      "detail": "4 papers"
+    },
+    {
+      "name": "National Archives of Senegal",
+      "country": "SN",
+      "value": 6,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Université du Sahel",
+      "country": "SN",
+      "value": 5,
+      "detail": "6 papers"
+    }
+  ]
+}

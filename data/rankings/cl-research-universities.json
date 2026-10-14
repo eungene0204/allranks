@@ -1,0 +1,326 @@
+{
+  "id": "cl-research-universities",
+  "title": "Top Research Universities in Chile",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Chile ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:47.660Z",
+  "items": [
+    {
+      "name": "University of Chile",
+      "country": "CL",
+      "value": 5075662,
+      "detail": "118,334 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica de Chile",
+      "country": "CL",
+      "value": 4230328,
+      "detail": "87,197 papers"
+    },
+    {
+      "name": "University of Concepción",
+      "country": "CL",
+      "value": 1618941,
+      "detail": "41,285 papers"
+    },
+    {
+      "name": "Universidad Técnica Federico Santa María",
+      "country": "CL",
+      "value": 1198959,
+      "detail": "15,954 papers"
+    },
+    {
+      "name": "Austral University of Chile",
+      "country": "CL",
+      "value": 745427,
+      "detail": "22,133 papers"
+    },
+    {
+      "name": "Universidad de Santiago de Chile",
+      "country": "CL",
+      "value": 719561,
+      "detail": "24,947 papers"
+    },
+    {
+      "name": "Universidad de La Frontera",
+      "country": "CL",
+      "value": 628574,
+      "detail": "16,520 papers"
+    },
+    {
+      "name": "Universidad Andrés Bello",
+      "country": "CL",
+      "value": 605907,
+      "detail": "20,659 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica de Valparaíso",
+      "country": "CL",
+      "value": 484540,
+      "detail": "22,563 papers"
+    },
+    {
+      "name": "University of Valparaíso",
+      "country": "CL",
+      "value": 396208,
+      "detail": "14,716 papers"
+    },
+    {
+      "name": "Universidad Católica del Norte",
+      "country": "CL",
+      "value": 372677,
+      "detail": "13,544 papers"
+    },
+    {
+      "name": "University of Talca",
+      "country": "CL",
+      "value": 359998,
+      "detail": "12,909 papers"
+    },
+    {
+      "name": "Universidad del Desarrollo",
+      "country": "CL",
+      "value": 307621,
+      "detail": "9,366 papers"
+    },
+    {
+      "name": "Universidad de Antofagasta",
+      "country": "CL",
+      "value": 277546,
+      "detail": "6,127 papers"
+    },
+    {
+      "name": "Universidad Diego Portales",
+      "country": "CL",
+      "value": 259872,
+      "detail": "12,061 papers"
+    },
+    {
+      "name": "University of La Serena",
+      "country": "CL",
+      "value": 236379,
+      "detail": "5,988 papers"
+    },
+    {
+      "name": "Universidad de Los Andes, Chile",
+      "country": "CL",
+      "value": 231397,
+      "detail": "7,568 papers"
+    },
+    {
+      "name": "University of Tarapacá",
+      "country": "CL",
+      "value": 199855,
+      "detail": "10,588 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Chile",
+      "country": "CL",
+      "value": 194668,
+      "detail": "10,766 papers"
+    },
+    {
+      "name": "Adolfo Ibáñez University",
+      "country": "CL",
+      "value": 175131,
+      "detail": "11,539 papers"
+    },
+    {
+      "name": "Universidad Mayor",
+      "country": "CL",
+      "value": 159917,
+      "detail": "6,359 papers"
+    },
+    {
+      "name": "University of Bío-Bío",
+      "country": "CL",
+      "value": 148127,
+      "detail": "9,006 papers"
+    },
+    {
+      "name": "Catholic University of the Maule",
+      "country": "CL",
+      "value": 112731,
+      "detail": "9,144 papers"
+    },
+    {
+      "name": "San Sebastián University",
+      "country": "CL",
+      "value": 109910,
+      "detail": "9,297 papers"
+    },
+    {
+      "name": "Universidad de Los Lagos",
+      "country": "CL",
+      "value": 103165,
+      "detail": "5,685 papers"
+    },
+    {
+      "name": "Universidad Católica de la Santísima Concepción",
+      "country": "CL",
+      "value": 101698,
+      "detail": "7,794 papers"
+    },
+    {
+      "name": "Universidad de Magallanes",
+      "country": "CL",
+      "value": 98813,
+      "detail": "4,162 papers"
+    },
+    {
+      "name": "Universidad Santo Tomás",
+      "country": "CL",
+      "value": 84233,
+      "detail": "10,091 papers"
+    },
+    {
+      "name": "Universidad Católica de Temuco",
+      "country": "CL",
+      "value": 83439,
+      "detail": "6,759 papers"
+    },
+    {
+      "name": "ESE Business School",
+      "country": "CL",
+      "value": 59656,
+      "detail": "1,798 papers"
+    },
+    {
+      "name": "Arturo Prat University",
+      "country": "CL",
+      "value": 58955,
+      "detail": "4,139 papers"
+    },
+    {
+      "name": "University of Atacama",
+      "country": "CL",
+      "value": 58420,
+      "detail": "3,349 papers"
+    },
+    {
+      "name": "Metropolitan University of Technology",
+      "country": "CL",
+      "value": 47873,
+      "detail": "3,716 papers"
+    },
+    {
+      "name": "Universidad Bernardo O'Higgins",
+      "country": "CL",
+      "value": 42837,
+      "detail": "3,989 papers"
+    },
+    {
+      "name": "Alberto Hurtado University",
+      "country": "CL",
+      "value": 38029,
+      "detail": "6,339 papers"
+    },
+    {
+      "name": "University of the Americas",
+      "country": "CL",
+      "value": 33511,
+      "detail": "5,487 papers"
+    },
+    {
+      "name": "Finis Terrae University",
+      "country": "CL",
+      "value": 32979,
+      "detail": "3,247 papers"
+    },
+    {
+      "name": "Universidad Central de Chile",
+      "country": "CL",
+      "value": 32452,
+      "detail": "3,212 papers"
+    },
+    {
+      "name": "Centro Científico Tecnológico de Valparaíso",
+      "country": "CL",
+      "value": 30143,
+      "detail": "993 papers"
+    },
+    {
+      "name": "University of O'Higgins",
+      "country": "CL",
+      "value": 24133,
+      "detail": "2,181 papers"
+    },
+    {
+      "name": "Millennium Institute for Subatomic Physics at High-Energy Frontier, Saphir",
+      "country": "CL",
+      "value": 22439,
+      "detail": "588 papers"
+    },
+    {
+      "name": "Universidad de Playa Ancha de Ciencias de la Educación",
+      "country": "CL",
+      "value": 22160,
+      "detail": "2,939 papers"
+    },
+    {
+      "name": "Metropolitan University of Educational Sciences",
+      "country": "CL",
+      "value": 20799,
+      "detail": "3,309 papers"
+    },
+    {
+      "name": "Viña del Mar University",
+      "country": "CL",
+      "value": 10148,
+      "detail": "1,504 papers"
+    },
+    {
+      "name": "Universidad del Mar",
+      "country": "CL",
+      "value": 8596,
+      "detail": "648 papers"
+    },
+    {
+      "name": "Universidad Adventista de Chile",
+      "country": "CL",
+      "value": 8264,
+      "detail": "1,239 papers"
+    },
+    {
+      "name": "Universidad Católica Silva Henríquez",
+      "country": "CL",
+      "value": 8081,
+      "detail": "2,079 papers"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales",
+      "country": "CL",
+      "value": 6692,
+      "detail": "1,587 papers"
+    },
+    {
+      "name": "University of the Pacific",
+      "country": "CL",
+      "value": 5342,
+      "detail": "376 papers"
+    },
+    {
+      "name": "Academy of Christian Humanism University",
+      "country": "CL",
+      "value": 5236,
+      "detail": "1,414 papers"
+    }
+  ]
+}

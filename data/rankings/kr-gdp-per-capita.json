@@ -1,0 +1,109 @@
+{
+  "id": "kr-gdp-per-capita",
+  "title": "South Korean Regions by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Economic output per resident of each province and metropolitan city, in current US dollars.",
+  "unit": "USD per person",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KR",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Korea, regional income accounts (2024) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_South_Korean_regions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:10:48.186Z",
+  "items": [
+    {
+      "name": "Ulsan",
+      "country": "KR",
+      "value": 59636
+    },
+    {
+      "name": "South Chungcheong",
+      "country": "KR",
+      "value": 47431
+    },
+    {
+      "name": "Seoul",
+      "country": "KR",
+      "value": 42851
+    },
+    {
+      "name": "South Jeolla",
+      "country": "KR",
+      "value": 41424
+    },
+    {
+      "name": "North Chungcheong",
+      "country": "KR",
+      "value": 39430
+    },
+    {
+      "name": "North Gyeongsang",
+      "country": "KR",
+      "value": 36609
+    },
+    {
+      "name": "Gyeonggi",
+      "country": "KR",
+      "value": 32897
+    },
+    {
+      "name": "South Gyeongsang",
+      "country": "KR",
+      "value": 32585
+    },
+    {
+      "name": "Sejong",
+      "country": "KR",
+      "value": 31227
+    },
+    {
+      "name": "Incheon",
+      "country": "KR",
+      "value": 28831
+    },
+    {
+      "name": "Jeju",
+      "country": "KR",
+      "value": 27940
+    },
+    {
+      "name": "Gangwon",
+      "country": "KR",
+      "value": 27794
+    },
+    {
+      "name": "Daejeon",
+      "country": "KR",
+      "value": 26754
+    },
+    {
+      "name": "North Jeolla",
+      "country": "KR",
+      "value": 26526
+    },
+    {
+      "name": "Gwangju",
+      "country": "KR",
+      "value": 26373
+    },
+    {
+      "name": "Busan",
+      "country": "KR",
+      "value": 25960
+    },
+    {
+      "name": "Daegu",
+      "country": "KR",
+      "value": 21962
+    }
+  ]
+}

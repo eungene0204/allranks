@@ -1,0 +1,326 @@
+{
+  "id": "tr-research-universities",
+  "title": "Top Research Universities in Türkiye",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Türkiye ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:41.052Z",
+  "items": [
+    {
+      "name": "Hacettepe University",
+      "country": "TR",
+      "value": 3839981,
+      "detail": "83,285 papers"
+    },
+    {
+      "name": "Istanbul University",
+      "country": "TR",
+      "value": 3711317,
+      "detail": "88,709 papers"
+    },
+    {
+      "name": "Cukurova University",
+      "country": "TR",
+      "value": 2900399,
+      "detail": "33,708 papers"
+    },
+    {
+      "name": "Middle East Technical University",
+      "country": "TR",
+      "value": 2661868,
+      "detail": "50,040 papers"
+    },
+    {
+      "name": "Ankara University",
+      "country": "TR",
+      "value": 2608519,
+      "detail": "71,385 papers"
+    },
+    {
+      "name": "Istanbul Technical University",
+      "country": "TR",
+      "value": 2378386,
+      "detail": "53,344 papers"
+    },
+    {
+      "name": "Boğaziçi University",
+      "country": "TR",
+      "value": 2035623,
+      "detail": "24,440 papers"
+    },
+    {
+      "name": "Ege University",
+      "country": "TR",
+      "value": 1970699,
+      "detail": "53,219 papers"
+    },
+    {
+      "name": "Gazi University",
+      "country": "TR",
+      "value": 1820265,
+      "detail": "61,288 papers"
+    },
+    {
+      "name": "Bilkent University",
+      "country": "TR",
+      "value": 1560897,
+      "detail": "21,384 papers"
+    },
+    {
+      "name": "Atatürk University",
+      "country": "TR",
+      "value": 1457493,
+      "detail": "42,638 papers"
+    },
+    {
+      "name": "Istanbul University-Cerrahpaşa",
+      "country": "TR",
+      "value": 1446797,
+      "detail": "40,929 papers"
+    },
+    {
+      "name": "Marmara University",
+      "country": "TR",
+      "value": 1377380,
+      "detail": "47,316 papers"
+    },
+    {
+      "name": "Dokuz Eylül University",
+      "country": "TR",
+      "value": 1355193,
+      "detail": "42,013 papers"
+    },
+    {
+      "name": "Erciyes University",
+      "country": "TR",
+      "value": 1252496,
+      "detail": "35,625 papers"
+    },
+    {
+      "name": "Selçuk University",
+      "country": "TR",
+      "value": 994993,
+      "detail": "38,739 papers"
+    },
+    {
+      "name": "Fırat University",
+      "country": "TR",
+      "value": 993431,
+      "detail": "29,810 papers"
+    },
+    {
+      "name": "Karadeniz Technical University",
+      "country": "TR",
+      "value": 899131,
+      "detail": "27,456 papers"
+    },
+    {
+      "name": "Koç University",
+      "country": "TR",
+      "value": 875376,
+      "detail": "24,528 papers"
+    },
+    {
+      "name": "Akdeniz University",
+      "country": "TR",
+      "value": 867273,
+      "detail": "31,695 papers"
+    },
+    {
+      "name": "Sağlık Bilimleri Üniversitesi",
+      "country": "TR",
+      "value": 860471,
+      "detail": "53,831 papers"
+    },
+    {
+      "name": "Gaziantep University",
+      "country": "TR",
+      "value": 827936,
+      "detail": "21,776 papers"
+    },
+    {
+      "name": "Yıldız Technical University",
+      "country": "TR",
+      "value": 827139,
+      "detail": "30,982 papers"
+    },
+    {
+      "name": "Bursa Uludağ Üni̇versi̇tesi̇",
+      "country": "TR",
+      "value": 781879,
+      "detail": "30,330 papers"
+    },
+    {
+      "name": "Ondokuz Mayıs University",
+      "country": "TR",
+      "value": 738222,
+      "detail": "32,697 papers"
+    },
+    {
+      "name": "Inonu University",
+      "country": "TR",
+      "value": 650091,
+      "detail": "23,636 papers"
+    },
+    {
+      "name": "Süleyman Demirel Üniversitesi",
+      "country": "TR",
+      "value": 636257,
+      "detail": "24,053 papers"
+    },
+    {
+      "name": "Kocaeli Üniversitesi",
+      "country": "TR",
+      "value": 632901,
+      "detail": "25,927 papers"
+    },
+    {
+      "name": "Başkent University",
+      "country": "TR",
+      "value": 632326,
+      "detail": "22,955 papers"
+    },
+    {
+      "name": "Sakarya University",
+      "country": "TR",
+      "value": 617804,
+      "detail": "28,239 papers"
+    },
+    {
+      "name": "Eskişehir Osmangazi University",
+      "country": "TR",
+      "value": 599752,
+      "detail": "23,532 papers"
+    },
+    {
+      "name": "Anadolu University",
+      "country": "TR",
+      "value": 592367,
+      "detail": "19,540 papers"
+    },
+    {
+      "name": "Sabancı Üniversitesi",
+      "country": "TR",
+      "value": 576612,
+      "detail": "12,553 papers"
+    },
+    {
+      "name": "Dicle University",
+      "country": "TR",
+      "value": 516963,
+      "detail": "19,531 papers"
+    },
+    {
+      "name": "Sivas Cumhuriyet Üniversitesi",
+      "country": "TR",
+      "value": 487252,
+      "detail": "22,798 papers"
+    },
+    {
+      "name": "Mersin Üniversitesi",
+      "country": "TR",
+      "value": 485264,
+      "detail": "19,807 papers"
+    },
+    {
+      "name": "Pamukkale University",
+      "country": "TR",
+      "value": 477597,
+      "detail": "23,474 papers"
+    },
+    {
+      "name": "Gebze Technical University",
+      "country": "TR",
+      "value": 451266,
+      "detail": "12,488 papers"
+    },
+    {
+      "name": "Van Yüzüncü Yıl Üniversitesi",
+      "country": "TR",
+      "value": 449049,
+      "detail": "21,924 papers"
+    },
+    {
+      "name": "Manisa Celal Bayar University",
+      "country": "TR",
+      "value": 380746,
+      "detail": "18,335 papers"
+    },
+    {
+      "name": "Çanakkale Onsekiz Mart Üniversitesi",
+      "country": "TR",
+      "value": 372614,
+      "detail": "22,287 papers"
+    },
+    {
+      "name": "Tokat Gaziosmanpaşa Üniversitesi",
+      "country": "TR",
+      "value": 371830,
+      "detail": "15,825 papers"
+    },
+    {
+      "name": "Harran University",
+      "country": "TR",
+      "value": 366251,
+      "detail": "14,981 papers"
+    },
+    {
+      "name": "Trakya University",
+      "country": "TR",
+      "value": 351115,
+      "detail": "15,979 papers"
+    },
+    {
+      "name": "Adnan Menderes University",
+      "country": "TR",
+      "value": 344299,
+      "detail": "17,665 papers"
+    },
+    {
+      "name": "Bolu Abant İzzet Baysal University",
+      "country": "TR",
+      "value": 333393,
+      "detail": "15,725 papers"
+    },
+    {
+      "name": "Yeditepe University",
+      "country": "TR",
+      "value": 325756,
+      "detail": "11,227 papers"
+    },
+    {
+      "name": "Afyon Kocatepe University",
+      "country": "TR",
+      "value": 321948,
+      "detail": "14,512 papers"
+    },
+    {
+      "name": "Zonguldak Bülent Ecevit University",
+      "country": "TR",
+      "value": 313524,
+      "detail": "13,189 papers"
+    },
+    {
+      "name": "Istanbul Medeniyet University",
+      "country": "TR",
+      "value": 311070,
+      "detail": "13,006 papers"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "ba-cities",
+  "title": "Largest Cities in Bosnia and Herzegovina",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Bosnia and Herzegovina with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.658Z",
+  "items": [
+    {
+      "name": "Sarajevo",
+      "country": "BA",
+      "value": 696731,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Banja Luka",
+      "country": "BA",
+      "value": 221106,
+      "detail": "Srpska"
+    },
+    {
+      "name": "Zenica",
+      "country": "BA",
+      "value": 164423,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Tuzla",
+      "country": "BA",
+      "value": 142486,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Mostar",
+      "country": "BA",
+      "value": 104518,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Bihać",
+      "country": "BA",
+      "value": 75641,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Ilidža",
+      "country": "BA",
+      "value": 71277,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Lukavac",
+      "country": "BA",
+      "value": 44520,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Bugojno",
+      "country": "BA",
+      "value": 41378,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Brčko",
+      "country": "BA",
+      "value": 38968,
+      "detail": "Brčko"
+    },
+    {
+      "name": "Bijeljina",
+      "country": "BA",
+      "value": 37692,
+      "detail": "Srpska"
+    },
+    {
+      "name": "Prijedor",
+      "country": "BA",
+      "value": 36347,
+      "detail": "Srpska"
+    },
+    {
+      "name": "Trebinje",
+      "country": "BA",
+      "value": 33178,
+      "detail": "Srpska"
+    },
+    {
+      "name": "Travnik",
+      "country": "BA",
+      "value": 31127,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Doboj",
+      "country": "BA",
+      "value": 27235,
+      "detail": "Srpska"
+    },
+    {
+      "name": "Cazin",
+      "country": "BA",
+      "value": 21741,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Velika Kladuša",
+      "country": "BA",
+      "value": 19330,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Visoko",
+      "country": "BA",
+      "value": 17890,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Goražde",
+      "country": "BA",
+      "value": 17650,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Konjic",
+      "country": "BA",
+      "value": 15950,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Gračanica",
+      "country": "BA",
+      "value": 15758,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Gradačac",
+      "country": "BA",
+      "value": 15659,
+      "detail": "Federation of B&H"
+    },
+    {
+      "name": "Bosanska Krupa",
+      "country": "BA",
+      "value": 15193,
+      "detail": "Federation of B&H"
+    }
+  ]
+}

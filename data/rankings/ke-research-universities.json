@@ -1,0 +1,326 @@
+{
+  "id": "ke-research-universities",
+  "title": "Top Research Universities in Kenya",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Kenya ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:51.345Z",
+  "items": [
+    {
+      "name": "University of Nairobi",
+      "country": "KE",
+      "value": 957844,
+      "detail": "28,773 papers"
+    },
+    {
+      "name": "Moi University",
+      "country": "KE",
+      "value": 239248,
+      "detail": "8,389 papers"
+    },
+    {
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "country": "KE",
+      "value": 211385,
+      "detail": "14,936 papers"
+    },
+    {
+      "name": "Kenyatta University",
+      "country": "KE",
+      "value": 198523,
+      "detail": "12,744 papers"
+    },
+    {
+      "name": "Egerton University",
+      "country": "KE",
+      "value": 139404,
+      "detail": "5,840 papers"
+    },
+    {
+      "name": "Aga Khan University Nairobi",
+      "country": "KE",
+      "value": 97795,
+      "detail": "3,114 papers"
+    },
+    {
+      "name": "Maseno University",
+      "country": "KE",
+      "value": 68855,
+      "detail": "4,350 papers"
+    },
+    {
+      "name": "University of Eldoret",
+      "country": "KE",
+      "value": 32023,
+      "detail": "2,493 papers"
+    },
+    {
+      "name": "Pwani University",
+      "country": "KE",
+      "value": 31457,
+      "detail": "2,184 papers"
+    },
+    {
+      "name": "University of Embu",
+      "country": "KE",
+      "value": 28233,
+      "detail": "1,378 papers"
+    },
+    {
+      "name": "Technical University of Kenya",
+      "country": "KE",
+      "value": 26913,
+      "detail": "2,537 papers"
+    },
+    {
+      "name": "Strathmore University",
+      "country": "KE",
+      "value": 25081,
+      "detail": "2,766 papers"
+    },
+    {
+      "name": "Jaramogi Oginga Odinga University of Science and Technology",
+      "country": "KE",
+      "value": 24971,
+      "detail": "2,070 papers"
+    },
+    {
+      "name": "Masinde Muliro University of Science and Technology",
+      "country": "KE",
+      "value": 24693,
+      "detail": "3,433 papers"
+    },
+    {
+      "name": "Pan African University Institute for Basic Sciences, Technology and Innovation",
+      "country": "KE",
+      "value": 18978,
+      "detail": "1,440 papers"
+    },
+    {
+      "name": "Mount Kenya University",
+      "country": "KE",
+      "value": 17560,
+      "detail": "3,321 papers"
+    },
+    {
+      "name": "South Eastern Kenya University",
+      "country": "KE",
+      "value": 15951,
+      "detail": "1,305 papers"
+    },
+    {
+      "name": "Dedan Kimathi University of Technology",
+      "country": "KE",
+      "value": 14532,
+      "detail": "1,396 papers"
+    },
+    {
+      "name": "Technical University of Mombasa",
+      "country": "KE",
+      "value": 13494,
+      "detail": "1,256 papers"
+    },
+    {
+      "name": "United States International University Africa",
+      "country": "KE",
+      "value": 12733,
+      "detail": "1,522 papers"
+    },
+    {
+      "name": "Karatina University",
+      "country": "KE",
+      "value": 11181,
+      "detail": "1,045 papers"
+    },
+    {
+      "name": "Chuka University",
+      "country": "KE",
+      "value": 10133,
+      "detail": "1,448 papers"
+    },
+    {
+      "name": "Kisii University",
+      "country": "KE",
+      "value": 9354,
+      "detail": "2,139 papers"
+    },
+    {
+      "name": "Maasai Mara University",
+      "country": "KE",
+      "value": 9325,
+      "detail": "984 papers"
+    },
+    {
+      "name": "Great Lakes University of Kisumu",
+      "country": "KE",
+      "value": 9166,
+      "detail": "310 papers"
+    },
+    {
+      "name": "Meru University of Science and Technology",
+      "country": "KE",
+      "value": 9043,
+      "detail": "1,035 papers"
+    },
+    {
+      "name": "University of Kabianga",
+      "country": "KE",
+      "value": 8038,
+      "detail": "992 papers"
+    },
+    {
+      "name": "Catholic University of Eastern Africa",
+      "country": "KE",
+      "value": 7511,
+      "detail": "2,016 papers"
+    },
+    {
+      "name": "Kenya Methodist University",
+      "country": "KE",
+      "value": 6400,
+      "detail": "1,437 papers"
+    },
+    {
+      "name": "Kenya Medical Training College",
+      "country": "KE",
+      "value": 5936,
+      "detail": "442 papers"
+    },
+    {
+      "name": "Machakos University",
+      "country": "KE",
+      "value": 5614,
+      "detail": "645 papers"
+    },
+    {
+      "name": "Taita Taveta University",
+      "country": "KE",
+      "value": 4586,
+      "detail": "504 papers"
+    },
+    {
+      "name": "Tom Mboya University College",
+      "country": "KE",
+      "value": 4537,
+      "detail": "311 papers"
+    },
+    {
+      "name": "Kabarak University",
+      "country": "KE",
+      "value": 4492,
+      "detail": "1,335 papers"
+    },
+    {
+      "name": "Daystar University",
+      "country": "KE",
+      "value": 4389,
+      "detail": "797 papers"
+    },
+    {
+      "name": "Murang'a University of Technology",
+      "country": "KE",
+      "value": 3287,
+      "detail": "713 papers"
+    },
+    {
+      "name": "Bomet University",
+      "country": "KE",
+      "value": 2936,
+      "detail": "258 papers"
+    },
+    {
+      "name": "Rongo University",
+      "country": "KE",
+      "value": 2890,
+      "detail": "846 papers"
+    },
+    {
+      "name": "Laikipia University",
+      "country": "KE",
+      "value": 2839,
+      "detail": "614 papers"
+    },
+    {
+      "name": "Kaimosi Friends University",
+      "country": "KE",
+      "value": 2769,
+      "detail": "489 papers"
+    },
+    {
+      "name": "Kibabii University",
+      "country": "KE",
+      "value": 2663,
+      "detail": "1,035 papers"
+    },
+    {
+      "name": "St. Paul's University",
+      "country": "KE",
+      "value": 2603,
+      "detail": "874 papers"
+    },
+    {
+      "name": "KCA University",
+      "country": "KE",
+      "value": 2581,
+      "detail": "496 papers"
+    },
+    {
+      "name": "Multimedia University of Kenya",
+      "country": "KE",
+      "value": 2580,
+      "detail": "456 papers"
+    },
+    {
+      "name": "University of Eastern Africa, Baraton",
+      "country": "KE",
+      "value": 2283,
+      "detail": "352 papers"
+    },
+    {
+      "name": "Tangaza University",
+      "country": "KE",
+      "value": 2194,
+      "detail": "512 papers"
+    },
+    {
+      "name": "Kirinyaga University",
+      "country": "KE",
+      "value": 2079,
+      "detail": "479 papers"
+    },
+    {
+      "name": "Amref International University",
+      "country": "KE",
+      "value": 1616,
+      "detail": "265 papers"
+    },
+    {
+      "name": "The Co-operative University of Kenya",
+      "country": "KE",
+      "value": 1555,
+      "detail": "347 papers"
+    },
+    {
+      "name": "Africa Nazarene University",
+      "country": "KE",
+      "value": 1259,
+      "detail": "282 papers"
+    }
+  ]
+}

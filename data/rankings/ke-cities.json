@@ -1,0 +1,325 @@
+{
+  "id": "ke-cities",
+  "title": "Largest Cities in Kenya",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Kenya with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.671Z",
+  "items": [
+    {
+      "name": "Nairobi",
+      "country": "KE",
+      "value": 4397073,
+      "detail": "Nairobi County"
+    },
+    {
+      "name": "Kakamega",
+      "country": "KE",
+      "value": 1867579,
+      "detail": "Kakamega County"
+    },
+    {
+      "name": "Mombasa",
+      "country": "KE",
+      "value": 1208333,
+      "detail": "Mombasa County"
+    },
+    {
+      "name": "Nakuru",
+      "country": "KE",
+      "value": 570674,
+      "detail": "Nakuru County"
+    },
+    {
+      "name": "Ruiru",
+      "country": "KE",
+      "value": 490120,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Eldoret",
+      "country": "KE",
+      "value": 475716,
+      "detail": "Uasin Gishu County"
+    },
+    {
+      "name": "Kisumu",
+      "country": "KE",
+      "value": 397957,
+      "detail": "Kisumu County"
+    },
+    {
+      "name": "Kikuyu",
+      "country": "KE",
+      "value": 323881,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Thika",
+      "country": "KE",
+      "value": 251407,
+      "detail": "Nairobi County"
+    },
+    {
+      "name": "Naivasha",
+      "country": "KE",
+      "value": 198444,
+      "detail": "Nakuru County"
+    },
+    {
+      "name": "Karuri",
+      "country": "KE",
+      "value": 194342,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Karuri (Murang'A)",
+      "country": "KE",
+      "value": 194342,
+      "detail": "Murang'A"
+    },
+    {
+      "name": "Matuga",
+      "country": "KE",
+      "value": 194252,
+      "detail": "Kwale County"
+    },
+    {
+      "name": "Mwala",
+      "country": "KE",
+      "value": 181896,
+      "detail": "Machakos County"
+    },
+    {
+      "name": "Lang'ata",
+      "country": "KE",
+      "value": 172569,
+      "detail": "Nairobi County"
+    },
+    {
+      "name": "Ongata Rongai",
+      "country": "KE",
+      "value": 172569,
+      "detail": "Kajiado County"
+    },
+    {
+      "name": "Jomvu",
+      "country": "KE",
+      "value": 163415,
+      "detail": "Mombasa County"
+    },
+    {
+      "name": "Garissa",
+      "country": "KE",
+      "value": 163399,
+      "detail": "Garissa County"
+    },
+    {
+      "name": "Kitale",
+      "country": "KE",
+      "value": 162174,
+      "detail": "Trans Nzoia"
+    },
+    {
+      "name": "Limuru",
+      "country": "KE",
+      "value": 159314,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Juja",
+      "country": "KE",
+      "value": 156041,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Kitengela",
+      "country": "KE",
+      "value": 154436,
+      "detail": "Kajiado County"
+    },
+    {
+      "name": "Kiambu",
+      "country": "KE",
+      "value": 147870,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Mlolongo",
+      "country": "KE",
+      "value": 136351,
+      "detail": "Machakos County"
+    },
+    {
+      "name": "Malindi",
+      "country": "KE",
+      "value": 119859,
+      "detail": "Kilifi County"
+    },
+    {
+      "name": "Mandera",
+      "country": "KE",
+      "value": 114718,
+      "detail": "Mandera County"
+    },
+    {
+      "name": "Khwisero",
+      "country": "KE",
+      "value": 113294,
+      "detail": "Kakamega County"
+    },
+    {
+      "name": "Kisii",
+      "country": "KE",
+      "value": 112417,
+      "detail": "Kisii County"
+    },
+    {
+      "name": "Ngong",
+      "country": "KE",
+      "value": 102323,
+      "detail": "Kajiado County"
+    },
+    {
+      "name": "Mtwapa",
+      "country": "KE",
+      "value": 90677,
+      "detail": "Kilifi County"
+    },
+    {
+      "name": "Wajir",
+      "country": "KE",
+      "value": 90116,
+      "detail": "Wajir County"
+    },
+    {
+      "name": "Lodwar",
+      "country": "KE",
+      "value": 82970,
+      "detail": "Turkana County"
+    },
+    {
+      "name": "Athi River",
+      "country": "KE",
+      "value": 81302,
+      "detail": "Machakos County"
+    },
+    {
+      "name": "Meru",
+      "country": "KE",
+      "value": 80191,
+      "detail": "Meru County"
+    },
+    {
+      "name": "Nyeri",
+      "country": "KE",
+      "value": 80081,
+      "detail": "Nyeri County"
+    },
+    {
+      "name": "Isiolo",
+      "country": "KE",
+      "value": 78650,
+      "detail": "Isiolo County"
+    },
+    {
+      "name": "Ukunda",
+      "country": "KE",
+      "value": 77686,
+      "detail": "Kwale County"
+    },
+    {
+      "name": "Kiserian",
+      "country": "KE",
+      "value": 76903,
+      "detail": "Kajiado County"
+    },
+    {
+      "name": "Kilifi",
+      "country": "KE",
+      "value": 74270,
+      "detail": "Kilifi County"
+    },
+    {
+      "name": "Nanyuki",
+      "country": "KE",
+      "value": 72813,
+      "detail": "Laikipia"
+    },
+    {
+      "name": "Busia",
+      "country": "KE",
+      "value": 71886,
+      "detail": "Busia County"
+    },
+    {
+      "name": "Migori",
+      "country": "KE",
+      "value": 71668,
+      "detail": "Migori County"
+    },
+    {
+      "name": "Bungoma",
+      "country": "KE",
+      "value": 68031,
+      "detail": "Bungoma County"
+    },
+    {
+      "name": "Narok",
+      "country": "KE",
+      "value": 65430,
+      "detail": "Narok County"
+    },
+    {
+      "name": "Embu",
+      "country": "KE",
+      "value": 64979,
+      "detail": "Embu County"
+    },
+    {
+      "name": "Machakos",
+      "country": "KE",
+      "value": 63767,
+      "detail": "Machakos County"
+    },
+    {
+      "name": "Githunguri",
+      "country": "KE",
+      "value": 63319,
+      "detail": "Kiambu County"
+    },
+    {
+      "name": "Githunguri (Machakos County)",
+      "country": "KE",
+      "value": 63319,
+      "detail": "Machakos County"
+    },
+    {
+      "name": "El Wak",
+      "country": "KE",
+      "value": 60732,
+      "detail": "Mandera County"
+    },
+    {
+      "name": "Gilgil",
+      "country": "KE",
+      "value": 60711,
+      "detail": "Nakuru County"
+    }
+  ]
+}

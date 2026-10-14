@@ -1,0 +1,109 @@
+{
+  "id": "mu-cities",
+  "title": "Largest Cities in Mauritius",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Mauritius with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MU",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.675Z",
+  "items": [
+    {
+      "name": "Port Louis",
+      "country": "MU",
+      "value": 155226,
+      "detail": "Port Louis"
+    },
+    {
+      "name": "Vacoas",
+      "country": "MU",
+      "value": 115289,
+      "detail": "Plaines Wilhems"
+    },
+    {
+      "name": "Beau Bassin-Rose Hill",
+      "country": "MU",
+      "value": 111355,
+      "detail": "Plaines Wilhems"
+    },
+    {
+      "name": "Curepipe",
+      "country": "MU",
+      "value": 78618,
+      "detail": "Plaines Wilhems"
+    },
+    {
+      "name": "Quatre Bornes",
+      "country": "MU",
+      "value": 77308,
+      "detail": "Plaines Wilhems"
+    },
+    {
+      "name": "Triolet",
+      "country": "MU",
+      "value": 24361,
+      "detail": "Pamplemousses"
+    },
+    {
+      "name": "Goodlands",
+      "country": "MU",
+      "value": 21063,
+      "detail": "Rivière du Rempart"
+    },
+    {
+      "name": "Bel Air Rivière Sèche",
+      "country": "MU",
+      "value": 18036,
+      "detail": "Flacq"
+    },
+    {
+      "name": "Bambous",
+      "country": "MU",
+      "value": 17818,
+      "detail": "Black River"
+    },
+    {
+      "name": "Centre de Flacq",
+      "country": "MU",
+      "value": 17710,
+      "detail": "Flacq"
+    },
+    {
+      "name": "Mahébourg",
+      "country": "MU",
+      "value": 17042,
+      "detail": "Grand Port"
+    },
+    {
+      "name": "Saint Pierre",
+      "country": "MU",
+      "value": 16704,
+      "detail": "Moka"
+    },
+    {
+      "name": "Le Hochet",
+      "country": "MU",
+      "value": 15662,
+      "detail": "Pamplemousses"
+    },
+    {
+      "name": "Baie du Tombeau",
+      "country": "MU",
+      "value": 15301,
+      "detail": "Pamplemousses"
+    }
+  ]
+}

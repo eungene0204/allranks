@@ -1,0 +1,103 @@
+{
+  "id": "jm-cities",
+  "title": "Largest Cities in Jamaica",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Jamaica with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.671Z",
+  "items": [
+    {
+      "name": "Kingston",
+      "country": "JM",
+      "value": 937700,
+      "detail": "Kingston"
+    },
+    {
+      "name": "New Kingston",
+      "country": "JM",
+      "value": 583958,
+      "detail": "Saint Andrew Parish"
+    },
+    {
+      "name": "Spanish Town",
+      "country": "JM",
+      "value": 145018,
+      "detail": "Saint Catherine Parish"
+    },
+    {
+      "name": "Portmore",
+      "country": "JM",
+      "value": 102861,
+      "detail": "Saint Catherine Parish"
+    },
+    {
+      "name": "Montego Bay",
+      "country": "JM",
+      "value": 82867,
+      "detail": "Saint James Parish"
+    },
+    {
+      "name": "Mandeville",
+      "country": "JM",
+      "value": 47115,
+      "detail": "Manchester"
+    },
+    {
+      "name": "May Pen",
+      "country": "JM",
+      "value": 44755,
+      "detail": "Clarendon"
+    },
+    {
+      "name": "Ocho Rios",
+      "country": "JM",
+      "value": 26503,
+      "detail": "Saint Ann Parish"
+    },
+    {
+      "name": "Old Harbour",
+      "country": "JM",
+      "value": 26024,
+      "detail": "Saint Catherine Parish"
+    },
+    {
+      "name": "Linstead",
+      "country": "JM",
+      "value": 20660,
+      "detail": "Saint Catherine Parish"
+    },
+    {
+      "name": "Half Way Tree",
+      "country": "JM",
+      "value": 18552,
+      "detail": "Saint Andrew Parish"
+    },
+    {
+      "name": "Barrett Town",
+      "country": "JM",
+      "value": 17169,
+      "detail": "Saint James Parish"
+    },
+    {
+      "name": "Savanna-la-Mar",
+      "country": "JM",
+      "value": 16553,
+      "detail": "Westmoreland"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "pe-research-universities",
+  "title": "Top Research Universities in Peru",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Peru ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:11.466Z",
+  "items": [
+    {
+      "name": "Universidad Peruana Cayetano Heredia",
+      "country": "PE",
+      "value": 981934,
+      "detail": "17,822 papers"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Perú",
+      "country": "PE",
+      "value": 351965,
+      "detail": "29,500 papers"
+    },
+    {
+      "name": "National University of San Marcos",
+      "country": "PE",
+      "value": 332714,
+      "detail": "38,751 papers"
+    },
+    {
+      "name": "National University of Saint Anthony the Abbot in Cuzco",
+      "country": "PE",
+      "value": 114191,
+      "detail": "3,617 papers"
+    },
+    {
+      "name": "Universidad Nacional Agraria La Molina",
+      "country": "PE",
+      "value": 103723,
+      "detail": "6,545 papers"
+    },
+    {
+      "name": "Peruvian University of Applied Sciences",
+      "country": "PE",
+      "value": 85701,
+      "detail": "8,640 papers"
+    },
+    {
+      "name": "Universidad Científica del Sur",
+      "country": "PE",
+      "value": 83510,
+      "detail": "8,022 papers"
+    },
+    {
+      "name": "Universidad San Ignacio de Loyola",
+      "country": "PE",
+      "value": 67954,
+      "detail": "5,371 papers"
+    },
+    {
+      "name": "Universidad César Vallejo",
+      "country": "PE",
+      "value": 66344,
+      "detail": "16,693 papers"
+    },
+    {
+      "name": "National University of Engineering",
+      "country": "PE",
+      "value": 63317,
+      "detail": "4,712 papers"
+    },
+    {
+      "name": "Universidad Nacional de San Agustin de Arequipa",
+      "country": "PE",
+      "value": 62431,
+      "detail": "5,506 papers"
+    },
+    {
+      "name": "Universidad de San Martín de Porres",
+      "country": "PE",
+      "value": 56720,
+      "detail": "6,283 papers"
+    },
+    {
+      "name": "National University of Trujillo",
+      "country": "PE",
+      "value": 43546,
+      "detail": "6,308 papers"
+    },
+    {
+      "name": "Universidad Nacional de la Amazonía Peruana",
+      "country": "PE",
+      "value": 39408,
+      "detail": "1,824 papers"
+    },
+    {
+      "name": "University of the Pacific",
+      "country": "PE",
+      "value": 34802,
+      "detail": "3,380 papers"
+    },
+    {
+      "name": "National University Toribio Rodríguez de Mendoza",
+      "country": "PE",
+      "value": 33305,
+      "detail": "2,812 papers"
+    },
+    {
+      "name": "Universidad de Lima",
+      "country": "PE",
+      "value": 32738,
+      "detail": "5,058 papers"
+    },
+    {
+      "name": "Universidad Nacional del Altiplano",
+      "country": "PE",
+      "value": 29400,
+      "detail": "5,073 papers"
+    },
+    {
+      "name": "Universidad Peruana Unión",
+      "country": "PE",
+      "value": 28566,
+      "detail": "3,555 papers"
+    },
+    {
+      "name": "Universidad Continental",
+      "country": "PE",
+      "value": 27601,
+      "detail": "4,366 papers"
+    },
+    {
+      "name": "Universidad Ricardo Palma",
+      "country": "PE",
+      "value": 26131,
+      "detail": "4,529 papers"
+    },
+    {
+      "name": "Private University of the North",
+      "country": "PE",
+      "value": 25480,
+      "detail": "4,559 papers"
+    },
+    {
+      "name": "Universidad Nacional de San Martín",
+      "country": "PE",
+      "value": 24368,
+      "detail": "4,692 papers"
+    },
+    {
+      "name": "Federico Villarreal National University",
+      "country": "PE",
+      "value": 24272,
+      "detail": "5,199 papers"
+    },
+    {
+      "name": "San Cristóbal of Huamanga University",
+      "country": "PE",
+      "value": 23119,
+      "detail": "1,609 papers"
+    },
+    {
+      "name": "Catholic University of Santa María",
+      "country": "PE",
+      "value": 21655,
+      "detail": "2,439 papers"
+    },
+    {
+      "name": "Universidad Tecnológica del Perú",
+      "country": "PE",
+      "value": 19394,
+      "detail": "4,853 papers"
+    },
+    {
+      "name": "Universidad Nacional del Centro del Perú",
+      "country": "PE",
+      "value": 18890,
+      "detail": "2,467 papers"
+    },
+    {
+      "name": "University of Piura",
+      "country": "PE",
+      "value": 17672,
+      "detail": "2,006 papers"
+    },
+    {
+      "name": "Universidad Privada San Juan Bautista",
+      "country": "PE",
+      "value": 15327,
+      "detail": "1,945 papers"
+    },
+    {
+      "name": "Universidad Norbert Wiener",
+      "country": "PE",
+      "value": 15145,
+      "detail": "2,308 papers"
+    },
+    {
+      "name": "Universidad Señor de Sipán",
+      "country": "PE",
+      "value": 14259,
+      "detail": "2,638 papers"
+    },
+    {
+      "name": "Universidad de Ingeniería y Tecnología",
+      "country": "PE",
+      "value": 12893,
+      "detail": "1,203 papers"
+    },
+    {
+      "name": "Esan University",
+      "country": "PE",
+      "value": 11777,
+      "detail": "1,457 papers"
+    },
+    {
+      "name": "Amazon National University of Madre de Dios",
+      "country": "PE",
+      "value": 11613,
+      "detail": "1,102 papers"
+    },
+    {
+      "name": "Universidad Católica San Pablo",
+      "country": "PE",
+      "value": 11536,
+      "detail": "1,739 papers"
+    },
+    {
+      "name": "Jorge Basadre Grohmann National University",
+      "country": "PE",
+      "value": 11278,
+      "detail": "2,430 papers"
+    },
+    {
+      "name": "Universidad Nacional San Luis Gonzaga",
+      "country": "PE",
+      "value": 11007,
+      "detail": "1,662 papers"
+    },
+    {
+      "name": "Universidad Nacional Santiago Antúnez de Mayolo",
+      "country": "PE",
+      "value": 10525,
+      "detail": "1,510 papers"
+    },
+    {
+      "name": "Universidad Nacional Pedro Ruíz Gallo",
+      "country": "PE",
+      "value": 9998,
+      "detail": "2,151 papers"
+    },
+    {
+      "name": "Universidad de Ciencias y Humanidades",
+      "country": "PE",
+      "value": 8435,
+      "detail": "1,215 papers"
+    },
+    {
+      "name": "Antenor Orrego Private University",
+      "country": "PE",
+      "value": 8341,
+      "detail": "2,531 papers"
+    },
+    {
+      "name": "Universidad Nacional de Piura",
+      "country": "PE",
+      "value": 8298,
+      "detail": "1,446 papers"
+    },
+    {
+      "name": "Universidad Nacional José María Arguedas",
+      "country": "PE",
+      "value": 8023,
+      "detail": "577 papers"
+    },
+    {
+      "name": "Universidad Nacional de Huancavelica",
+      "country": "PE",
+      "value": 7458,
+      "detail": "1,570 papers"
+    },
+    {
+      "name": "Universidad Nacional de Moquegua",
+      "country": "PE",
+      "value": 7132,
+      "detail": "895 papers"
+    },
+    {
+      "name": "Universidad Nacional del Santa",
+      "country": "PE",
+      "value": 6744,
+      "detail": "864 papers"
+    },
+    {
+      "name": "National University of Cajamarca",
+      "country": "PE",
+      "value": 6455,
+      "detail": "1,429 papers"
+    },
+    {
+      "name": "Universidad Andina del Cusco",
+      "country": "PE",
+      "value": 5983,
+      "detail": "966 papers"
+    },
+    {
+      "name": "Universidad Nacional Hermilio Valdizán",
+      "country": "PE",
+      "value": 5838,
+      "detail": "1,493 papers"
+    }
+  ]
+}

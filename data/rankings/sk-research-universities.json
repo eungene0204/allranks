@@ -1,0 +1,266 @@
+{
+  "id": "sk-research-universities",
+  "title": "Top Research Universities in Slovakia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Slovakia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SK",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:53.879Z",
+  "items": [
+    {
+      "name": "Comenius University Bratislava",
+      "country": "SK",
+      "value": 2730945,
+      "detail": "46,168 papers"
+    },
+    {
+      "name": "Slovak University of Technology in Bratislava",
+      "country": "SK",
+      "value": 862859,
+      "detail": "29,611 papers"
+    },
+    {
+      "name": "University of Pavol Jozef Šafárik",
+      "country": "SK",
+      "value": 655555,
+      "detail": "16,113 papers"
+    },
+    {
+      "name": "Technical University of Košice",
+      "country": "SK",
+      "value": 442399,
+      "detail": "20,190 papers"
+    },
+    {
+      "name": "University of Žilina",
+      "country": "SK",
+      "value": 280473,
+      "detail": "16,151 papers"
+    },
+    {
+      "name": "Slovak University of Agriculture in Nitra",
+      "country": "SK",
+      "value": 258152,
+      "detail": "8,295 papers"
+    },
+    {
+      "name": "Slovak Medical University",
+      "country": "SK",
+      "value": 136512,
+      "detail": "3,140 papers"
+    },
+    {
+      "name": "Technická univerzita vo Zvolene",
+      "country": "SK",
+      "value": 135846,
+      "detail": "4,186 papers"
+    },
+    {
+      "name": "University of Veterinary Medicine in Košice",
+      "country": "SK",
+      "value": 119317,
+      "detail": "3,574 papers"
+    },
+    {
+      "name": "Constantine the Philosopher University in Nitra",
+      "country": "SK",
+      "value": 118957,
+      "detail": "5,454 papers"
+    },
+    {
+      "name": "University of Trnava",
+      "country": "SK",
+      "value": 109743,
+      "detail": "3,250 papers"
+    },
+    {
+      "name": "University of Prešov",
+      "country": "SK",
+      "value": 65047,
+      "detail": "4,934 papers"
+    },
+    {
+      "name": "Matej Bel University",
+      "country": "SK",
+      "value": 51119,
+      "detail": "5,044 papers"
+    },
+    {
+      "name": "University of Ss. Cyril and Methodius in Trnava",
+      "country": "SK",
+      "value": 49538,
+      "detail": "3,207 papers"
+    },
+    {
+      "name": "Trencianska Univerzita Alexandra Dubceka V Trencine",
+      "country": "SK",
+      "value": 46326,
+      "detail": "2,285 papers"
+    },
+    {
+      "name": "Bratislava University of Economics and Business",
+      "country": "SK",
+      "value": 36977,
+      "detail": "3,721 papers"
+    },
+    {
+      "name": "J. Selye University",
+      "country": "SK",
+      "value": 21748,
+      "detail": "1,423 papers"
+    },
+    {
+      "name": "Catholic University in Ruzomberok",
+      "country": "SK",
+      "value": 15825,
+      "detail": "1,895 papers"
+    },
+    {
+      "name": "Pan-European University",
+      "country": "SK",
+      "value": 11838,
+      "detail": "1,193 papers"
+    },
+    {
+      "name": "Slovak Organization for Space Activities",
+      "country": "SK",
+      "value": 9409,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Bratislava University of Economics and Management",
+      "country": "SK",
+      "value": 5853,
+      "detail": "399 papers"
+    },
+    {
+      "name": "Vysoká Škola Zdravotníctva a Sociálnej Práce sv. Alžbety",
+      "country": "SK",
+      "value": 4354,
+      "detail": "675 papers"
+    },
+    {
+      "name": "Armed Forces Academy",
+      "country": "SK",
+      "value": 2673,
+      "detail": "507 papers"
+    },
+    {
+      "name": "DTI University",
+      "country": "SK",
+      "value": 1999,
+      "detail": "404 papers"
+    },
+    {
+      "name": "Academy of the Police Force in Bratislava",
+      "country": "SK",
+      "value": 1183,
+      "detail": "297 papers"
+    },
+    {
+      "name": "International School of Management Slovakia",
+      "country": "SK",
+      "value": 931,
+      "detail": "149 papers"
+    },
+    {
+      "name": "University of Security Management in Košice",
+      "country": "SK",
+      "value": 906,
+      "detail": "181 papers"
+    },
+    {
+      "name": "Welding Research Institute - Industrial Institute SR",
+      "country": "SK",
+      "value": 851,
+      "detail": "134 papers"
+    },
+    {
+      "name": "Danubius University",
+      "country": "SK",
+      "value": 666,
+      "detail": "233 papers"
+    },
+    {
+      "name": "University of Central Europe in Skalica",
+      "country": "SK",
+      "value": 590,
+      "detail": "36 papers"
+    },
+    {
+      "name": "Vysoká škola manažmentu, City University of Seattle",
+      "country": "SK",
+      "value": 466,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Academy of Fine Arts and Design in Bratislava",
+      "country": "SK",
+      "value": 264,
+      "detail": "88 papers"
+    },
+    {
+      "name": "Grammar School",
+      "country": "SK",
+      "value": 256,
+      "detail": "51 papers"
+    },
+    {
+      "name": "Institute of History of the Slovak Academy of Sciences",
+      "country": "SK",
+      "value": 195,
+      "detail": "203 papers"
+    },
+    {
+      "name": "Academy of Performing Arts in Bratislava",
+      "country": "SK",
+      "value": 76,
+      "detail": "62 papers"
+    },
+    {
+      "name": "Bratislava International School of Liberal Arts",
+      "country": "SK",
+      "value": 47,
+      "detail": "26 papers"
+    },
+    {
+      "name": "Stredná Odborná Skola Lesnícka Tvrdošín",
+      "country": "SK",
+      "value": 4,
+      "detail": "3 papers"
+    },
+    {
+      "name": "Akadémia Umení v Banskej Bystrici",
+      "country": "SK",
+      "value": 3,
+      "detail": "14 papers"
+    },
+    {
+      "name": "Jan Albrecht Music and Art Academy",
+      "country": "SK",
+      "value": 1,
+      "detail": "1 papers"
+    },
+    {
+      "name": "Štátny Inštitút Odborného Vzdelávania",
+      "country": "SK",
+      "value": 1,
+      "detail": "1 papers"
+    }
+  ]
+}

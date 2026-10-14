@@ -37,7 +37,8 @@ for (const p of PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id)))
       seen.add(key);
       if (p.meta.scope && i.country !== p.meta.scope) throw new Error(`${i.name}: country must be ${p.meta.scope}`);
     }
-    if (got.items.length < (p.meta.scope ? 5 : 20)) throw new Error(`only ${got.items.length} items — source layout probably changed`);
+    const minItems = p.minItems ?? (p.meta.scope ? 5 : 20);
+    if (got.items.length < minItems) throw new Error(`only ${got.items.length} items (< ${minItems}) — source layout probably changed`);
 
     const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
     if (prev && got.items.length < prev.items.length * 0.7)

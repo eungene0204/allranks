@@ -1,0 +1,326 @@
+{
+  "id": "hr-research-universities",
+  "title": "Top Research Universities in Croatia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Croatia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:45.695Z",
+  "items": [
+    {
+      "name": "University of Zagreb",
+      "country": "HR",
+      "value": 3549454,
+      "detail": "121,029 papers"
+    },
+    {
+      "name": "University of Split",
+      "country": "HR",
+      "value": 1795373,
+      "detail": "24,514 papers"
+    },
+    {
+      "name": "University of Rijeka",
+      "country": "HR",
+      "value": 642848,
+      "detail": "23,251 papers"
+    },
+    {
+      "name": "University of Osijek",
+      "country": "HR",
+      "value": 488100,
+      "detail": "22,782 papers"
+    },
+    {
+      "name": "Faculty of Electrical Engineering and Computing in Zagreb",
+      "country": "HR",
+      "value": 271361,
+      "detail": "9,325 papers"
+    },
+    {
+      "name": "Faculty of Mechanical Engineering and Naval Architecture in Zagreb",
+      "country": "HR",
+      "value": 150236,
+      "detail": "4,565 papers"
+    },
+    {
+      "name": "Ekonomski fakultet - Zagreb",
+      "country": "HR",
+      "value": 56909,
+      "detail": "3,871 papers"
+    },
+    {
+      "name": "Faculty of Humanities and Social Sciences in Zagreb",
+      "country": "HR",
+      "value": 43809,
+      "detail": "9,841 papers"
+    },
+    {
+      "name": "University of Zadar",
+      "country": "HR",
+      "value": 38854,
+      "detail": "7,367 papers"
+    },
+    {
+      "name": "University North",
+      "country": "HR",
+      "value": 35454,
+      "detail": "2,553 papers"
+    },
+    {
+      "name": "University of Dubrovnik",
+      "country": "HR",
+      "value": 30400,
+      "detail": "2,466 papers"
+    },
+    {
+      "name": "Juraj Dobrila University of Pula",
+      "country": "HR",
+      "value": 24831,
+      "detail": "2,741 papers"
+    },
+    {
+      "name": "Catholic University of Croatia",
+      "country": "HR",
+      "value": 23772,
+      "detail": "2,624 papers"
+    },
+    {
+      "name": "Zagreb School of Economics and Management",
+      "country": "HR",
+      "value": 12566,
+      "detail": "662 papers"
+    },
+    {
+      "name": "Tehničko Veleučilište u Zagrebu",
+      "country": "HR",
+      "value": 10335,
+      "detail": "919 papers"
+    },
+    {
+      "name": "University of Applied Health Sciences",
+      "country": "HR",
+      "value": 8234,
+      "detail": "1,134 papers"
+    },
+    {
+      "name": "Institute for Social Research",
+      "country": "HR",
+      "value": 7990,
+      "detail": "881 papers"
+    },
+    {
+      "name": "University of Slavonski Brod",
+      "country": "HR",
+      "value": 7646,
+      "detail": "880 papers"
+    },
+    {
+      "name": "Algebra Bernays University",
+      "country": "HR",
+      "value": 6625,
+      "detail": "628 papers"
+    },
+    {
+      "name": "Karlovac University of Applied Sciences",
+      "country": "HR",
+      "value": 5903,
+      "detail": "480 papers"
+    },
+    {
+      "name": "Polytechnic of Rijeka",
+      "country": "HR",
+      "value": 4404,
+      "detail": "731 papers"
+    },
+    {
+      "name": "Rochester Institute of Technology Croatia",
+      "country": "HR",
+      "value": 4202,
+      "detail": "247 papers"
+    },
+    {
+      "name": "Institute of Public Health Osijek-Baranja County",
+      "country": "HR",
+      "value": 4106,
+      "detail": "411 papers"
+    },
+    {
+      "name": "Polytechnic Marko Marulic",
+      "country": "HR",
+      "value": 3132,
+      "detail": "410 papers"
+    },
+    {
+      "name": "Libertas International University",
+      "country": "HR",
+      "value": 2885,
+      "detail": "647 papers"
+    },
+    {
+      "name": "Brodarski Institute",
+      "country": "HR",
+      "value": 2590,
+      "detail": "156 papers"
+    },
+    {
+      "name": "College of Agriculture at Križevci",
+      "country": "HR",
+      "value": 2257,
+      "detail": "306 papers"
+    },
+    {
+      "name": "Polytecnic in Požega",
+      "country": "HR",
+      "value": 1698,
+      "detail": "263 papers"
+    },
+    {
+      "name": "Šibenik University of Applied Sciences",
+      "country": "HR",
+      "value": 1187,
+      "detail": "365 papers"
+    },
+    {
+      "name": "Polytechnic of Međimurje in Čakovec",
+      "country": "HR",
+      "value": 1023,
+      "detail": "322 papers"
+    },
+    {
+      "name": "Institute of Croatian Language and Linguistics",
+      "country": "HR",
+      "value": 966,
+      "detail": "1,168 papers"
+    },
+    {
+      "name": "VERN' University",
+      "country": "HR",
+      "value": 859,
+      "detail": "376 papers"
+    },
+    {
+      "name": "Akademija medicinskih znanosti Hrvatske",
+      "country": "HR",
+      "value": 729,
+      "detail": "202 papers"
+    },
+    {
+      "name": "Baltazar Zaprešić University of Applied Sciences",
+      "country": "HR",
+      "value": 608,
+      "detail": "225 papers"
+    },
+    {
+      "name": "Polytechnic Lavoslav Ružička Vukovar",
+      "country": "HR",
+      "value": 581,
+      "detail": "233 papers"
+    },
+    {
+      "name": "Akademija za umjetnost i kulturu u Osijeku",
+      "country": "HR",
+      "value": 578,
+      "detail": "299 papers"
+    },
+    {
+      "name": "Akademija likovnih umjetnosti u Zagrebu",
+      "country": "HR",
+      "value": 371,
+      "detail": "113 papers"
+    },
+    {
+      "name": "Veleučilište Velika Gorica",
+      "country": "HR",
+      "value": 338,
+      "detail": "138 papers"
+    },
+    {
+      "name": "Istarsko veleučilište",
+      "country": "HR",
+      "value": 336,
+      "detail": "112 papers"
+    },
+    {
+      "name": "EFFECTUS veleučilište",
+      "country": "HR",
+      "value": 325,
+      "detail": "77 papers"
+    },
+    {
+      "name": "Muzička akademija",
+      "country": "HR",
+      "value": 319,
+      "detail": "150 papers"
+    },
+    {
+      "name": "Veleučilište PAR",
+      "country": "HR",
+      "value": 300,
+      "detail": "43 papers"
+    },
+    {
+      "name": "Polytechnic of Varaždin",
+      "country": "HR",
+      "value": 260,
+      "detail": "182 papers"
+    },
+    {
+      "name": "Veleučilište Aspira",
+      "country": "HR",
+      "value": 237,
+      "detail": "120 papers"
+    },
+    {
+      "name": "Umjetnička akademija u Splitu",
+      "country": "HR",
+      "value": 220,
+      "detail": "190 papers"
+    },
+    {
+      "name": "Veleučilište u Virovitici",
+      "country": "HR",
+      "value": 206,
+      "detail": "119 papers"
+    },
+    {
+      "name": "Dr. Franjo Tudman Defense and Security University",
+      "country": "HR",
+      "value": 193,
+      "detail": "176 papers"
+    },
+    {
+      "name": "Policijska akademija",
+      "country": "HR",
+      "value": 182,
+      "detail": "282 papers"
+    },
+    {
+      "name": "Zagreb School of Business",
+      "country": "HR",
+      "value": 145,
+      "detail": "147 papers"
+    },
+    {
+      "name": "Polytechnic Pula",
+      "country": "HR",
+      "value": 135,
+      "detail": "28 papers"
+    }
+  ]
+}

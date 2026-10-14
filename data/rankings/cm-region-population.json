@@ -1,0 +1,84 @@
+{
+  "id": "cm-region-population",
+  "title": "Cameroonian Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Estimated population of each of Cameroon's ten regions (2022).",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CM",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "National Institute of Statistics (INS), 2022 estimate (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_Cameroon",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:41:22.559Z",
+  "items": [
+    {
+      "name": "Centre",
+      "country": "CM",
+      "value": 3.905,
+      "detail": "Yaoundé"
+    },
+    {
+      "name": "Far North",
+      "country": "CM",
+      "value": 3.796,
+      "detail": "Maroua"
+    },
+    {
+      "name": "Littoral",
+      "country": "CM",
+      "value": 3.178,
+      "detail": "Douala"
+    },
+    {
+      "name": "North",
+      "country": "CM",
+      "value": 2.297,
+      "detail": "Garoua"
+    },
+    {
+      "name": "Northwest",
+      "country": "CM",
+      "value": 1.906,
+      "detail": "Bamenda"
+    },
+    {
+      "name": "West",
+      "country": "CM",
+      "value": 1.875,
+      "detail": "Bafoussam"
+    },
+    {
+      "name": "Southwest",
+      "country": "CM",
+      "value": 1.503,
+      "detail": "Buea"
+    },
+    {
+      "name": "Adamawa",
+      "country": "CM",
+      "value": 1.124,
+      "detail": "Ngaoundéré"
+    },
+    {
+      "name": "East",
+      "country": "CM",
+      "value": 0.83,
+      "detail": "Bertoua"
+    },
+    {
+      "name": "South",
+      "country": "CM",
+      "value": 0.773,
+      "detail": "Ebolowa"
+    }
+  ]
+}

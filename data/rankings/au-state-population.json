@@ -1,0 +1,54 @@
+{
+  "id": "au-state-population",
+  "title": "Australian States by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Estimated resident population of the six states and the mainland territories.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AU",
+  "year": 2026,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Australian Bureau of Statistics, estimated resident population (March 2026) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/States_and_territories_of_Australia",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:01:24.172Z",
+  "items": [
+    {
+      "name": "New South Wales",
+      "country": "AU",
+      "value": 8.6701
+    },
+    {
+      "name": "Victoria",
+      "country": "AU",
+      "value": 7.1542
+    },
+    {
+      "name": "Queensland",
+      "country": "AU",
+      "value": 5.7395
+    },
+    {
+      "name": "Western Australia",
+      "country": "AU",
+      "value": 3.0962
+    },
+    {
+      "name": "South Australia",
+      "country": "AU",
+      "value": 1.9168
+    },
+    {
+      "name": "Tasmania",
+      "country": "AU",
+      "value": 0.5807
+    }
+  ]
+}

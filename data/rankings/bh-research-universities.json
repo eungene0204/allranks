@@ -1,0 +1,110 @@
+{
+  "id": "bh-research-universities",
+  "title": "Top Research Universities in Bahrain",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Bahrain ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:23.148Z",
+  "items": [
+    {
+      "name": "University of Bahrain",
+      "country": "BH",
+      "value": 212132,
+      "detail": "9,648 papers"
+    },
+    {
+      "name": "Arabian Gulf University",
+      "country": "BH",
+      "value": 151285,
+      "detail": "4,508 papers"
+    },
+    {
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "country": "BH",
+      "value": 47660,
+      "detail": "1,880 papers"
+    },
+    {
+      "name": "Ahlia University",
+      "country": "BH",
+      "value": 32940,
+      "detail": "2,007 papers"
+    },
+    {
+      "name": "Applied Science University",
+      "country": "BH",
+      "value": 21222,
+      "detail": "1,726 papers"
+    },
+    {
+      "name": "Kingdom University",
+      "country": "BH",
+      "value": 12055,
+      "detail": "825 papers"
+    },
+    {
+      "name": "University of Technology Bahrain",
+      "country": "BH",
+      "value": 10011,
+      "detail": "883 papers"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "BH",
+      "value": 6957,
+      "detail": "767 papers"
+    },
+    {
+      "name": "Bahrain Polytechnic",
+      "country": "BH",
+      "value": 4864,
+      "detail": "897 papers"
+    },
+    {
+      "name": "University College of Bahrain",
+      "country": "BH",
+      "value": 3499,
+      "detail": "371 papers"
+    },
+    {
+      "name": "Royal University for Women",
+      "country": "BH",
+      "value": 1405,
+      "detail": "282 papers"
+    },
+    {
+      "name": "American University of Bahrain",
+      "country": "BH",
+      "value": 677,
+      "detail": "217 papers"
+    },
+    {
+      "name": "Delmon University for Science & Technology",
+      "country": "BH",
+      "value": 64,
+      "detail": "13 papers"
+    },
+    {
+      "name": "Euro University of Bahrain",
+      "country": "BH",
+      "value": 37,
+      "detail": "11 papers"
+    }
+  ]
+}

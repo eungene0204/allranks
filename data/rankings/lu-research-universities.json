@@ -1,0 +1,86 @@
+{
+  "id": "lu-research-universities",
+  "title": "Top Research Universities in Luxembourg",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Luxembourg ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:52.072Z",
+  "items": [
+    {
+      "name": "University of Luxembourg",
+      "country": "LU",
+      "value": 1610605,
+      "detail": "65,373 papers"
+    },
+    {
+      "name": "Luxembourg Centre for Systems Biomedicine",
+      "country": "LU",
+      "value": 432313,
+      "detail": "3,390 papers"
+    },
+    {
+      "name": "Interdisciplinary Centre for Security, Reliability and Trust",
+      "country": "LU",
+      "value": 251668,
+      "detail": "5,818 papers"
+    },
+    {
+      "name": "LUNEX",
+      "country": "LU",
+      "value": 7868,
+      "detail": "475 papers"
+    },
+    {
+      "name": "Luxembourg School of Business",
+      "country": "LU",
+      "value": 2539,
+      "detail": "157 papers"
+    },
+    {
+      "name": "Luxembourg Centre for Contemporary and Digital History",
+      "country": "LU",
+      "value": 1861,
+      "detail": "2,059 papers"
+    },
+    {
+      "name": "Sacred Heart University",
+      "country": "LU",
+      "value": 958,
+      "detail": "58 papers"
+    },
+    {
+      "name": "Luxembourg Centre for European Law",
+      "country": "LU",
+      "value": 306,
+      "detail": "85 papers"
+    },
+    {
+      "name": "Miami University Dolibois European Center",
+      "country": "LU",
+      "value": 18,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Luxembourg Centre for Socio-Environmental Systems",
+      "country": "LU",
+      "value": 14,
+      "detail": "13 papers"
+    }
+  ]
+}

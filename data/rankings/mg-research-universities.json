@@ -1,0 +1,134 @@
+{
+  "id": "mg-research-universities",
+  "title": "Top Research Universities in Madagascar",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Madagascar ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:01.149Z",
+  "items": [
+    {
+      "name": "University of Antananarivo",
+      "country": "MG",
+      "value": 154367,
+      "detail": "7,494 papers"
+    },
+    {
+      "name": "Université de Mahajanga",
+      "country": "MG",
+      "value": 10664,
+      "detail": "748 papers"
+    },
+    {
+      "name": "University of Toliara",
+      "country": "MG",
+      "value": 10017,
+      "detail": "897 papers"
+    },
+    {
+      "name": "Université de Fianarantsoa",
+      "country": "MG",
+      "value": 4645,
+      "detail": "844 papers"
+    },
+    {
+      "name": "Université d’Antsiranana",
+      "country": "MG",
+      "value": 3116,
+      "detail": "355 papers"
+    },
+    {
+      "name": "Institute and Observatory of Geophysics of Antananarivo",
+      "country": "MG",
+      "value": 1995,
+      "detail": "116 papers"
+    },
+    {
+      "name": "University of Toamasina",
+      "country": "MG",
+      "value": 1614,
+      "detail": "475 papers"
+    },
+    {
+      "name": "Catholic University of Madagascar",
+      "country": "MG",
+      "value": 1498,
+      "detail": "167 papers"
+    },
+    {
+      "name": "École supérieure polytechnique d'Antananarivo",
+      "country": "MG",
+      "value": 1377,
+      "detail": "302 papers"
+    },
+    {
+      "name": "Unité de Recherche en Génie des Procédés et en Génie de l’Environnement",
+      "country": "MG",
+      "value": 815,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Institut National des Sciences et Techniques Nucléaires - Madagascar",
+      "country": "MG",
+      "value": 800,
+      "detail": "89 papers"
+    },
+    {
+      "name": "École Supérieure Polytechnique d'Antsiranana",
+      "country": "MG",
+      "value": 720,
+      "detail": "89 papers"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antananarivo",
+      "country": "MG",
+      "value": 451,
+      "detail": "95 papers"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antsiranana",
+      "country": "MG",
+      "value": 326,
+      "detail": "41 papers"
+    },
+    {
+      "name": "École Nationale d'Administration de Madagascar",
+      "country": "MG",
+      "value": 226,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Institut Supérieur de la Communication, des Affaires et du Management",
+      "country": "MG",
+      "value": 89,
+      "detail": "63 papers"
+    },
+    {
+      "name": "Institut National des Sciences Comptables et de l’Administration d’Entreprises",
+      "country": "MG",
+      "value": 55,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Hautes Études Chrétiennes de Management et de Mathématiques Appliquées",
+      "country": "MG",
+      "value": 1,
+      "detail": "1 papers"
+    }
+  ]
+}

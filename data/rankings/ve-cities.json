@@ -1,0 +1,325 @@
+{
+  "id": "ve-cities",
+  "title": "Largest Cities in Venezuela",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Venezuela with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "VE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.686Z",
+  "items": [
+    {
+      "name": "Caracas",
+      "country": "VE",
+      "value": 3000000,
+      "detail": "Distrito Federal"
+    },
+    {
+      "name": "Maracaibo",
+      "country": "VE",
+      "value": 1752602,
+      "detail": "Zulia"
+    },
+    {
+      "name": "Valencia",
+      "country": "VE",
+      "value": 1619470,
+      "detail": "Carabobo"
+    },
+    {
+      "name": "Barquisimeto",
+      "country": "VE",
+      "value": 1240714,
+      "detail": "Lara"
+    },
+    {
+      "name": "Ciudad Guayana",
+      "country": "VE",
+      "value": 978202,
+      "detail": "Bolívar"
+    },
+    {
+      "name": "Barcelona",
+      "country": "VE",
+      "value": 815141,
+      "detail": "Anzoátegui"
+    },
+    {
+      "name": "Maturín",
+      "country": "VE",
+      "value": 647459,
+      "detail": "Monagas"
+    },
+    {
+      "name": "Maracay",
+      "country": "VE",
+      "value": 464700,
+      "detail": "Aragua"
+    },
+    {
+      "name": "Ciudad Bolívar",
+      "country": "VE",
+      "value": 412619,
+      "detail": "Bolívar"
+    },
+    {
+      "name": "Cumaná",
+      "country": "VE",
+      "value": 405626,
+      "detail": "Sucre"
+    },
+    {
+      "name": "Barinas",
+      "country": "VE",
+      "value": 397279,
+      "detail": "Barinas"
+    },
+    {
+      "name": "Puerto La Cruz",
+      "country": "VE",
+      "value": 370000,
+      "detail": "Anzoátegui"
+    },
+    {
+      "name": "Petare",
+      "country": "VE",
+      "value": 364684,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Cabimas",
+      "country": "VE",
+      "value": 351736,
+      "detail": "Zulia"
+    },
+    {
+      "name": "Turmero",
+      "country": "VE",
+      "value": 344700,
+      "detail": "Aragua"
+    },
+    {
+      "name": "Mérida",
+      "country": "VE",
+      "value": 300000,
+      "detail": "Mérida"
+    },
+    {
+      "name": "San Cristóbal",
+      "country": "VE",
+      "value": 289852,
+      "detail": "Táchira"
+    },
+    {
+      "name": "Alto Barinas",
+      "country": "VE",
+      "value": 284289,
+      "detail": "Barinas"
+    },
+    {
+      "name": "Santa Teresa del Tuy",
+      "country": "VE",
+      "value": 278890,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Los Teques",
+      "country": "VE",
+      "value": 252242,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Guarenas",
+      "country": "VE",
+      "value": 248588,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Coro",
+      "country": "VE",
+      "value": 246657,
+      "detail": "Falcón"
+    },
+    {
+      "name": "Valera",
+      "country": "VE",
+      "value": 244708,
+      "detail": "Trujillo"
+    },
+    {
+      "name": "Baruta",
+      "country": "VE",
+      "value": 244216,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Ciudad Ojeda",
+      "country": "VE",
+      "value": 240283,
+      "detail": "Zulia"
+    },
+    {
+      "name": "San Fernando de Apure",
+      "country": "VE",
+      "value": 229197,
+      "detail": "Apure"
+    },
+    {
+      "name": "Guatire",
+      "country": "VE",
+      "value": 227666,
+      "detail": "Miranda"
+    },
+    {
+      "name": "El Tigre",
+      "country": "VE",
+      "value": 222450,
+      "detail": "Anzoátegui"
+    },
+    {
+      "name": "Porlamar",
+      "country": "VE",
+      "value": 216234,
+      "detail": "Nueva Esparta"
+    },
+    {
+      "name": "San Felipe",
+      "country": "VE",
+      "value": 206270,
+      "detail": "Yaracuy"
+    },
+    {
+      "name": "Guacara",
+      "country": "VE",
+      "value": 198883,
+      "detail": "Carabobo"
+    },
+    {
+      "name": "Acarigua",
+      "country": "VE",
+      "value": 188278,
+      "detail": "Portuguesa"
+    },
+    {
+      "name": "Cúa",
+      "country": "VE",
+      "value": 182558,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Araure",
+      "country": "VE",
+      "value": 181820,
+      "detail": "Portuguesa"
+    },
+    {
+      "name": "Lander",
+      "country": "VE",
+      "value": 176346,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Puerto Cabello",
+      "country": "VE",
+      "value": 174000,
+      "detail": "Carabobo"
+    },
+    {
+      "name": "Calabozo",
+      "country": "VE",
+      "value": 168605,
+      "detail": "Guárico"
+    },
+    {
+      "name": "Carúpano",
+      "country": "VE",
+      "value": 167187,
+      "detail": "Sucre"
+    },
+    {
+      "name": "Ocumare del Tuy",
+      "country": "VE",
+      "value": 166072,
+      "detail": "Miranda"
+    },
+    {
+      "name": "El Vigía",
+      "country": "VE",
+      "value": 162289,
+      "detail": "Mérida"
+    },
+    {
+      "name": "San Juan de los Morros",
+      "country": "VE",
+      "value": 160868,
+      "detail": "Guárico"
+    },
+    {
+      "name": "Valle de La Pascua",
+      "country": "VE",
+      "value": 153136,
+      "detail": "Guárico"
+    },
+    {
+      "name": "El Limón",
+      "country": "VE",
+      "value": 148247,
+      "detail": "Aragua"
+    },
+    {
+      "name": "Punto Fijo",
+      "country": "VE",
+      "value": 141729,
+      "detail": "Falcón"
+    },
+    {
+      "name": "Anaco",
+      "country": "VE",
+      "value": 139397,
+      "detail": "Anzoátegui"
+    },
+    {
+      "name": "Táriba",
+      "country": "VE",
+      "value": 138402,
+      "detail": "Táchira"
+    },
+    {
+      "name": "Machiques",
+      "country": "VE",
+      "value": 132734,
+      "detail": "Zulia"
+    },
+    {
+      "name": "Charallave",
+      "country": "VE",
+      "value": 129182,
+      "detail": "Miranda"
+    },
+    {
+      "name": "Palo Negro",
+      "country": "VE",
+      "value": 128875,
+      "detail": "Aragua"
+    },
+    {
+      "name": "La Victoria",
+      "country": "VE",
+      "value": 126721,
+      "detail": "Aragua"
+    }
+  ]
+}

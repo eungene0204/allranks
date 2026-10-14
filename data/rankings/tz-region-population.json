@@ -1,0 +1,210 @@
+{
+  "id": "tz-region-population",
+  "title": "Tanzanian Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each region at the 2022 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TZ",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "National Bureau of Statistics (NBS), 2022 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_Tanzania",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:40:18.562Z",
+  "items": [
+    {
+      "name": "Dar es Salaam",
+      "country": "TZ",
+      "value": 5.3837,
+      "detail": "Dar es Salaam"
+    },
+    {
+      "name": "Mwanza",
+      "country": "TZ",
+      "value": 3.6999,
+      "detail": "Mwanza"
+    },
+    {
+      "name": "Tabora",
+      "country": "TZ",
+      "value": 3.3917,
+      "detail": "Tabora"
+    },
+    {
+      "name": "Morogoro",
+      "country": "TZ",
+      "value": 3.1971,
+      "detail": "Morogoro"
+    },
+    {
+      "name": "Dodoma",
+      "country": "TZ",
+      "value": 3.0856,
+      "detail": "Dodoma"
+    },
+    {
+      "name": "Kagera",
+      "country": "TZ",
+      "value": 2.9893,
+      "detail": "Bukoba"
+    },
+    {
+      "name": "Geita",
+      "country": "TZ",
+      "value": 2.9776,
+      "detail": "Geita"
+    },
+    {
+      "name": "Tanga",
+      "country": "TZ",
+      "value": 2.6156,
+      "detail": "Tanga"
+    },
+    {
+      "name": "Kigoma",
+      "country": "TZ",
+      "value": 2.471,
+      "detail": "Kigoma"
+    },
+    {
+      "name": "Mara",
+      "country": "TZ",
+      "value": 2.372,
+      "detail": "Musoma"
+    },
+    {
+      "name": "Arusha",
+      "country": "TZ",
+      "value": 2.3563,
+      "detail": "Arusha"
+    },
+    {
+      "name": "Mbeya",
+      "country": "TZ",
+      "value": 2.3438,
+      "detail": "Mbeya"
+    },
+    {
+      "name": "Shinyanga",
+      "country": "TZ",
+      "value": 2.2413,
+      "detail": "Shinyanga"
+    },
+    {
+      "name": "Simiyu",
+      "country": "TZ",
+      "value": 2.1405,
+      "detail": "Bariadi"
+    },
+    {
+      "name": "Pwani",
+      "country": "TZ",
+      "value": 2.0249,
+      "detail": "Kibaha"
+    },
+    {
+      "name": "Singida",
+      "country": "TZ",
+      "value": 2.0081,
+      "detail": "Singida"
+    },
+    {
+      "name": "Manyara",
+      "country": "TZ",
+      "value": 1.8925,
+      "detail": "Babati"
+    },
+    {
+      "name": "Kilimanjaro",
+      "country": "TZ",
+      "value": 1.8619,
+      "detail": "Moshi"
+    },
+    {
+      "name": "Ruvuma",
+      "country": "TZ",
+      "value": 1.8488,
+      "detail": "Songea"
+    },
+    {
+      "name": "Mtwara",
+      "country": "TZ",
+      "value": 1.6349,
+      "detail": "Mtwara"
+    },
+    {
+      "name": "Rukwa",
+      "country": "TZ",
+      "value": 1.5405,
+      "detail": "Sumbawanga"
+    },
+    {
+      "name": "Songwe",
+      "country": "TZ",
+      "value": 1.3447,
+      "detail": "Vwawa"
+    },
+    {
+      "name": "Lindi",
+      "country": "TZ",
+      "value": 1.194,
+      "detail": "Lindi"
+    },
+    {
+      "name": "Iringa",
+      "country": "TZ",
+      "value": 1.1927,
+      "detail": "Iringa"
+    },
+    {
+      "name": "Katavi",
+      "country": "TZ",
+      "value": 1.153,
+      "detail": "Mpanda"
+    },
+    {
+      "name": "Mjini Magharibi Region (Zanzibar Urban West)",
+      "country": "TZ",
+      "value": 0.8932,
+      "detail": "Zanzibar City"
+    },
+    {
+      "name": "Njombe",
+      "country": "TZ",
+      "value": 0.8899,
+      "detail": "Njombe"
+    },
+    {
+      "name": "Pemba North",
+      "country": "TZ",
+      "value": 0.2721,
+      "detail": "Wete"
+    },
+    {
+      "name": "Pemba South",
+      "country": "TZ",
+      "value": 0.2713,
+      "detail": "Chake-Chake"
+    },
+    {
+      "name": "Unguja North Region (Zanzibar North)",
+      "country": "TZ",
+      "value": 0.2573,
+      "detail": "Mkokotoni"
+    },
+    {
+      "name": "Unguja South Region (Zanzibar South)",
+      "country": "TZ",
+      "value": 0.1959,
+      "detail": "Koani"
+    }
+  ]
+}

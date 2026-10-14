@@ -104,9 +104,23 @@ export type CountryRankingRow = {
   entries: (RankedEntry & { formatted: string })[];
 };
 
+/** One headline figure of a country (population, GDP…) with its place in the matching world ranking. */
+export type KeyStat = { id: string; label: string; icon: string; value: string; rank: number; total: number };
+
+/** The world rankings whose figures head every country page, in display order. */
+const KEY_STATS: [id: string, label: string][] = [
+  ["population", "Population"],
+  ["gdp-nominal", "GDP"],
+  ["gdp-per-capita", "GDP per capita"],
+  ["life-expectancy", "Life expectancy"],
+  ["land-area", "Area"],
+];
+
 export type CountryDetail = {
   summary: CountrySummary;
   region: string;
+  /** Headline figures, for the ones the country has data for. */
+  keyStats: KeyStat[];
   /** World rankings that include the country, best placement first. */
   world: CountryRankingRow[];
   /** Rankings that exist only inside this country (its states, cities, universities…). */
@@ -127,9 +141,18 @@ export const countryDetail = cache(function countryDetail(code: string): Country
     if (entries.length) world.push({ ranking: r, total: all.length, entries });
   }
   world.sort((a, b) => a.entries[0].rank - b.entries[0].rank || a.ranking.title.localeCompare(b.ranking.title));
+  const keyStats: KeyStat[] = [];
+  for (const [id, label] of KEY_STATS) {
+    const r = getRanking(id);
+    if (!r) continue;
+    const all = ranked(r);
+    const e = all.find((x) => x.country === code);
+    if (e) keyStats.push({ id, label, icon: r.icon, value: formatValue(r, e.value), rank: e.rank, total: all.length });
+  }
   return {
     summary,
     region: countries().get(code)?.region ?? "",
+    keyStats,
     world,
     regional: rankings.filter((r) => r.scope === code),
   };

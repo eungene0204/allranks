@@ -1,0 +1,357 @@
+{
+  "id": "listed-companies",
+  "title": "Most Listed Companies",
+  "category": "economy",
+  "icon": "🏷️",
+  "desc": "Number of domestic companies listed on a country's stock exchanges.",
+  "unit": "listed companies",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Listed domestic companies, total",
+    "url": "https://data.worldbank.org/indicator/CM.MKT.LDOM.NO",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-13T20:33:23.116Z",
+  "items": [
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 11149
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 8510
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 4377
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 3942
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 3908
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 2653
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 2508
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 1782
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 1072
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 956
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 868
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 737
+    },
+    {
+      "name": "Iran",
+      "country": "IR",
+      "value": 630
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 569
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 535
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 433
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 416
+    },
+    {
+      "name": "Vietnam",
+      "country": "VN",
+      "value": 400
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 394
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 391
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 360
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 357
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 288
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 279
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 272
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 244
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 212
+    },
+    {
+      "name": "Bulgaria",
+      "country": "BG",
+      "value": 203
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 201
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 176
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 165
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 162
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 153
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 139
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 135
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 108
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 106
+    },
+    {
+      "name": "Jamaica",
+      "country": "JM",
+      "value": 100
+    },
+    {
+      "name": "Mauritius",
+      "country": "MU",
+      "value": 92
+    },
+    {
+      "name": "Cyprus",
+      "country": "CY",
+      "value": 87
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 85
+    },
+    {
+      "name": "Romania",
+      "country": "RO",
+      "value": 83
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 81
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 80
+    },
+    {
+      "name": "Morocco",
+      "country": "MA",
+      "value": 78
+    },
+    {
+      "name": "Tunisia",
+      "country": "TN",
+      "value": 75
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 70
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 67
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 61
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 59
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 54
+    },
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 48
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 40
+    },
+    {
+      "name": "Bahrain",
+      "country": "BH",
+      "value": 39
+    },
+    {
+      "name": "Azerbaijan",
+      "country": "AZ",
+      "value": 36
+    },
+    {
+      "name": "Malta",
+      "country": "MT",
+      "value": 35
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 31
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 28
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 26
+    },
+    {
+      "name": "Botswana",
+      "country": "BW",
+      "value": 23
+    },
+    {
+      "name": "Tanzania",
+      "country": "TZ",
+      "value": 22
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 20
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 17
+    },
+    {
+      "name": "Seychelles",
+      "country": "SC",
+      "value": 15
+    },
+    {
+      "name": "Belarus",
+      "country": "BY",
+      "value": 12
+    },
+    {
+      "name": "Bermuda",
+      "country": "BM",
+      "value": 9
+    },
+    {
+      "name": "Rwanda",
+      "country": "RW",
+      "value": 5
+    }
+  ]
+}

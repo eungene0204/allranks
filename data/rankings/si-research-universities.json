@@ -1,0 +1,326 @@
+{
+  "id": "si-research-universities",
+  "title": "Top Research Universities in Slovenia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Slovenia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:53.470Z",
+  "items": [
+    {
+      "name": "University of Ljubljana",
+      "country": "SI",
+      "value": 5291449,
+      "detail": "101,131 papers"
+    },
+    {
+      "name": "University of Maribor",
+      "country": "SI",
+      "value": 1052067,
+      "detail": "30,884 papers"
+    },
+    {
+      "name": "Jožef Stefan International Postgraduate School",
+      "country": "SI",
+      "value": 990044,
+      "detail": "17,743 papers"
+    },
+    {
+      "name": "University of Nova Gorica",
+      "country": "SI",
+      "value": 239626,
+      "detail": "4,572 papers"
+    },
+    {
+      "name": "University of Primorska",
+      "country": "SI",
+      "value": 161308,
+      "detail": "9,659 papers"
+    },
+    {
+      "name": "Univerzitetni Rehabilitacijski Inštitut",
+      "country": "SI",
+      "value": 22430,
+      "detail": "716 papers"
+    },
+    {
+      "name": "Alma Mater Europaea",
+      "country": "SI",
+      "value": 19427,
+      "detail": "1,258 papers"
+    },
+    {
+      "name": "College of Accounting",
+      "country": "SI",
+      "value": 7158,
+      "detail": "1,579 papers"
+    },
+    {
+      "name": "College of Environmental Protection",
+      "country": "SI",
+      "value": 6756,
+      "detail": "219 papers"
+    },
+    {
+      "name": "Faculty of Polymer Technology",
+      "country": "SI",
+      "value": 5591,
+      "detail": "272 papers"
+    },
+    {
+      "name": "International School for Social and Business Studies",
+      "country": "SI",
+      "value": 3994,
+      "detail": "366 papers"
+    },
+    {
+      "name": "Higher School of Applied Sciences",
+      "country": "SI",
+      "value": 3001,
+      "detail": "98 papers"
+    },
+    {
+      "name": "Faculty of Design",
+      "country": "SI",
+      "value": 2617,
+      "detail": "794 papers"
+    },
+    {
+      "name": "School Centre Nova Gorica",
+      "country": "SI",
+      "value": 2454,
+      "detail": "69 papers"
+    },
+    {
+      "name": "Higher Education Centre Novo Mesto",
+      "country": "SI",
+      "value": 2194,
+      "detail": "42 papers"
+    },
+    {
+      "name": "IEDC-Bled School of Management",
+      "country": "SI",
+      "value": 1691,
+      "detail": "132 papers"
+    },
+    {
+      "name": "College of Nursing in Celje",
+      "country": "SI",
+      "value": 1444,
+      "detail": "86 papers"
+    },
+    {
+      "name": "Fakulteta za zdravstvene in socialne vede Slovenj Gradec",
+      "country": "SI",
+      "value": 1384,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Institute of Information Science",
+      "country": "SI",
+      "value": 1304,
+      "detail": "109 papers"
+    },
+    {
+      "name": "GEA College",
+      "country": "SI",
+      "value": 1240,
+      "detail": "85 papers"
+    },
+    {
+      "name": "Chamber of Agriculture and Forestry of Slovenia",
+      "country": "SI",
+      "value": 1167,
+      "detail": "93 papers"
+    },
+    {
+      "name": "European Faculty of Law",
+      "country": "SI",
+      "value": 1138,
+      "detail": "196 papers"
+    },
+    {
+      "name": "Faculty of Commercial and Business Sciences",
+      "country": "SI",
+      "value": 904,
+      "detail": "143 papers"
+    },
+    {
+      "name": "Faculty of Industrial Engineering Novo Mesto",
+      "country": "SI",
+      "value": 843,
+      "detail": "117 papers"
+    },
+    {
+      "name": "DOBA Business School",
+      "country": "SI",
+      "value": 752,
+      "detail": "206 papers"
+    },
+    {
+      "name": "Faculty of Applied Social Studies in Nova Gorica",
+      "country": "SI",
+      "value": 693,
+      "detail": "369 papers"
+    },
+    {
+      "name": "School Centre Celje",
+      "country": "SI",
+      "value": 636,
+      "detail": "139 papers"
+    },
+    {
+      "name": "School of Business and Management Novo Mesto",
+      "country": "SI",
+      "value": 597,
+      "detail": "78 papers"
+    },
+    {
+      "name": "Euro Mediterranean University",
+      "country": "SI",
+      "value": 569,
+      "detail": "133 papers"
+    },
+    {
+      "name": "National Education Institute of the Republic of Slovenia",
+      "country": "SI",
+      "value": 530,
+      "detail": "127 papers"
+    },
+    {
+      "name": "Graduate School of Government and European Studies",
+      "country": "SI",
+      "value": 489,
+      "detail": "75 papers"
+    },
+    {
+      "name": "S&T Slovenija",
+      "country": "SI",
+      "value": 482,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Kranj School Centre",
+      "country": "SI",
+      "value": 480,
+      "detail": "85 papers"
+    },
+    {
+      "name": "College of Industrial Engineering",
+      "country": "SI",
+      "value": 356,
+      "detail": "57 papers"
+    },
+    {
+      "name": "Izobraževalni Center Piramida Maribor",
+      "country": "SI",
+      "value": 310,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Faculty of Media",
+      "country": "SI",
+      "value": 305,
+      "detail": "104 papers"
+    },
+    {
+      "name": "Social Protection Institute of the Republic of Slovenia",
+      "country": "SI",
+      "value": 187,
+      "detail": "44 papers"
+    },
+    {
+      "name": "Tehniški Solski Center Maribor",
+      "country": "SI",
+      "value": 180,
+      "detail": "32 papers"
+    },
+    {
+      "name": "School Center Novo mesto",
+      "country": "SI",
+      "value": 167,
+      "detail": "92 papers"
+    },
+    {
+      "name": "Biotehniški Center Naklo",
+      "country": "SI",
+      "value": 163,
+      "detail": "41 papers"
+    },
+    {
+      "name": "Institute for Project Management and Information Technology",
+      "country": "SI",
+      "value": 147,
+      "detail": "5 papers"
+    },
+    {
+      "name": "Celje School of Economics",
+      "country": "SI",
+      "value": 134,
+      "detail": "23 papers"
+    },
+    {
+      "name": "Sigmund Freud Privatuniversität - Standort Ljubljana",
+      "country": "SI",
+      "value": 131,
+      "detail": "26 papers"
+    },
+    {
+      "name": "Tehnološko raziskovalni center JUB",
+      "country": "SI",
+      "value": 105,
+      "detail": "5 papers"
+    },
+    {
+      "name": "Biotechnical Educational Centre Ljubljana",
+      "country": "SI",
+      "value": 98,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Šolski Center Škofja Loka",
+      "country": "SI",
+      "value": 71,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Univerzitetno Središče Novo mesto",
+      "country": "SI",
+      "value": 68,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Higher Vocational College for Hospitality and Tourism Bled",
+      "country": "SI",
+      "value": 62,
+      "detail": "17 papers"
+    },
+    {
+      "name": "B & B",
+      "country": "SI",
+      "value": 59,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Katoliski institut Izredni študij prava in ekonomije na Fakulteti za pravo in ekonomijo",
+      "country": "SI",
+      "value": 49,
+      "detail": "6 papers"
+    }
+  ]
+}

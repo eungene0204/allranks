@@ -1,0 +1,326 @@
+{
+  "id": "au-research-universities",
+  "title": "Top Research Universities in Australia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Australia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:37.172Z",
+  "items": [
+    {
+      "name": "The University of Melbourne",
+      "country": "AU",
+      "value": 34342585,
+      "detail": "347,319 papers"
+    },
+    {
+      "name": "The University of Sydney",
+      "country": "AU",
+      "value": 31140452,
+      "detail": "337,776 papers"
+    },
+    {
+      "name": "The University of Adelaide",
+      "country": "AU",
+      "value": 30535403,
+      "detail": "149,247 papers"
+    },
+    {
+      "name": "The University of Queensland",
+      "country": "AU",
+      "value": 29083376,
+      "detail": "276,893 papers"
+    },
+    {
+      "name": "Monash University",
+      "country": "AU",
+      "value": 23435914,
+      "detail": "284,625 papers"
+    },
+    {
+      "name": "UNSW Sydney",
+      "country": "AU",
+      "value": 22010029,
+      "detail": "274,823 papers"
+    },
+    {
+      "name": "Australian National University",
+      "country": "AU",
+      "value": 15048147,
+      "detail": "191,729 papers"
+    },
+    {
+      "name": "The University of Western Australia",
+      "country": "AU",
+      "value": 14175999,
+      "detail": "165,001 papers"
+    },
+    {
+      "name": "University of Newcastle Australia",
+      "country": "AU",
+      "value": 6174905,
+      "detail": "84,398 papers"
+    },
+    {
+      "name": "Deakin University",
+      "country": "AU",
+      "value": 6021754,
+      "detail": "93,271 papers"
+    },
+    {
+      "name": "Queensland University of Technology",
+      "country": "AU",
+      "value": 5940959,
+      "detail": "91,894 papers"
+    },
+    {
+      "name": "Macquarie University",
+      "country": "AU",
+      "value": 5746848,
+      "detail": "98,256 papers"
+    },
+    {
+      "name": "Curtin University",
+      "country": "AU",
+      "value": 5684374,
+      "detail": "95,683 papers"
+    },
+    {
+      "name": "Griffith University",
+      "country": "AU",
+      "value": 5646644,
+      "detail": "96,001 papers"
+    },
+    {
+      "name": "University of Wollongong",
+      "country": "AU",
+      "value": 5311141,
+      "detail": "83,157 papers"
+    },
+    {
+      "name": "University of Technology Sydney",
+      "country": "AU",
+      "value": 5241222,
+      "detail": "93,387 papers"
+    },
+    {
+      "name": "La Trobe University",
+      "country": "AU",
+      "value": 4539574,
+      "detail": "83,560 papers"
+    },
+    {
+      "name": "University of Tasmania",
+      "country": "AU",
+      "value": 4480189,
+      "detail": "73,119 papers"
+    },
+    {
+      "name": "RMIT University",
+      "country": "AU",
+      "value": 4316124,
+      "detail": "84,890 papers"
+    },
+    {
+      "name": "James Cook University",
+      "country": "AU",
+      "value": 3847670,
+      "detail": "50,577 papers"
+    },
+    {
+      "name": "Flinders University",
+      "country": "AU",
+      "value": 3847396,
+      "detail": "67,880 papers"
+    },
+    {
+      "name": "University of South Australia",
+      "country": "AU",
+      "value": 3685116,
+      "detail": "55,580 papers"
+    },
+    {
+      "name": "Swinburne University of Technology",
+      "country": "AU",
+      "value": 3060133,
+      "detail": "59,261 papers"
+    },
+    {
+      "name": "Western Sydney University",
+      "country": "AU",
+      "value": 3025621,
+      "detail": "62,587 papers"
+    },
+    {
+      "name": "Murdoch University",
+      "country": "AU",
+      "value": 2026675,
+      "detail": "35,674 papers"
+    },
+    {
+      "name": "Edith Cowan University",
+      "country": "AU",
+      "value": 1651173,
+      "detail": "32,233 papers"
+    },
+    {
+      "name": "University of New England",
+      "country": "AU",
+      "value": 1464544,
+      "detail": "32,462 papers"
+    },
+    {
+      "name": "Central Queensland University",
+      "country": "AU",
+      "value": 1273761,
+      "detail": "20,128 papers"
+    },
+    {
+      "name": "Victoria University",
+      "country": "AU",
+      "value": 1147043,
+      "detail": "25,782 papers"
+    },
+    {
+      "name": "University of Southern Queensland",
+      "country": "AU",
+      "value": 1137067,
+      "detail": "24,910 papers"
+    },
+    {
+      "name": "Charles Sturt University",
+      "country": "AU",
+      "value": 1098762,
+      "detail": "27,587 papers"
+    },
+    {
+      "name": "Australian Catholic University",
+      "country": "AU",
+      "value": 978048,
+      "detail": "22,771 papers"
+    },
+    {
+      "name": "Charles Darwin University",
+      "country": "AU",
+      "value": 865232,
+      "detail": "17,427 papers"
+    },
+    {
+      "name": "University of Canberra",
+      "country": "AU",
+      "value": 858819,
+      "detail": "27,896 papers"
+    },
+    {
+      "name": "Bond University",
+      "country": "AU",
+      "value": 740880,
+      "detail": "14,356 papers"
+    },
+    {
+      "name": "Southern Cross University",
+      "country": "AU",
+      "value": 737765,
+      "detail": "16,163 papers"
+    },
+    {
+      "name": "University of the Sunshine Coast",
+      "country": "AU",
+      "value": 668344,
+      "detail": "17,167 papers"
+    },
+    {
+      "name": "Federation University",
+      "country": "AU",
+      "value": 334569,
+      "detail": "10,706 papers"
+    },
+    {
+      "name": "Australian Defence Force Academy",
+      "country": "AU",
+      "value": 321876,
+      "detail": "6,989 papers"
+    },
+    {
+      "name": "Mount Stromlo Observatory",
+      "country": "AU",
+      "value": 285768,
+      "detail": "3,164 papers"
+    },
+    {
+      "name": "The University of Notre Dame Australia",
+      "country": "AU",
+      "value": 269302,
+      "detail": "10,229 papers"
+    },
+    {
+      "name": "Adelaide University",
+      "country": "AU",
+      "value": 239874,
+      "detail": "7,513 papers"
+    },
+    {
+      "name": "Torrens University Australia",
+      "country": "AU",
+      "value": 116419,
+      "detail": "3,322 papers"
+    },
+    {
+      "name": "Australian Maritime College",
+      "country": "AU",
+      "value": 93258,
+      "detail": "1,678 papers"
+    },
+    {
+      "name": "Australian and New Zealand Intensive Care Society",
+      "country": "AU",
+      "value": 77882,
+      "detail": "604 papers"
+    },
+    {
+      "name": "Royal Australasian College of Surgeons",
+      "country": "AU",
+      "value": 70441,
+      "detail": "1,010 papers"
+    },
+    {
+      "name": "Melbourne Bioinformatics",
+      "country": "AU",
+      "value": 66114,
+      "detail": "511 papers"
+    },
+    {
+      "name": "Australian Council for Educational Research",
+      "country": "AU",
+      "value": 50511,
+      "detail": "1,528 papers"
+    },
+    {
+      "name": "UCL Australia",
+      "country": "AU",
+      "value": 38645,
+      "detail": "378 papers"
+    },
+    {
+      "name": "Nursing Research Institute",
+      "country": "AU",
+      "value": 38486,
+      "detail": "385 papers"
+    }
+  ]
+}

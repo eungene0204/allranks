@@ -1,0 +1,99 @@
+{
+  "id": "cl-region-population",
+  "title": "Chilean Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the 16 regions.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Instituto Nacional de Estadísticas (INE) Chile (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Ranked_lists_of_Chilean_regions",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:28:04.197Z",
+  "items": [
+    {
+      "name": "Santiago",
+      "country": "CL",
+      "value": 7.3142
+    },
+    {
+      "name": "Biobío",
+      "country": "CL",
+      "value": 2.1143
+    },
+    {
+      "name": "Valparaíso",
+      "country": "CL",
+      "value": 1.8258
+    },
+    {
+      "name": "Maule",
+      "country": "CL",
+      "value": 1.043
+    },
+    {
+      "name": "Araucanía",
+      "country": "CL",
+      "value": 0.9898
+    },
+    {
+      "name": "O'Higgins",
+      "country": "CL",
+      "value": 0.9188
+    },
+    {
+      "name": "Los Lagos",
+      "country": "CL",
+      "value": 0.8411
+    },
+    {
+      "name": "Coquimbo",
+      "country": "CL",
+      "value": 0.7711
+    },
+    {
+      "name": "Antofagasta",
+      "country": "CL",
+      "value": 0.6226
+    },
+    {
+      "name": "Los Ríos",
+      "country": "CL",
+      "value": 0.4044
+    },
+    {
+      "name": "Tarapacá",
+      "country": "CL",
+      "value": 0.3368
+    },
+    {
+      "name": "Atacama",
+      "country": "CL",
+      "value": 0.3125
+    },
+    {
+      "name": "Arica and Parinacota",
+      "country": "CL",
+      "value": 0.2391
+    },
+    {
+      "name": "Magallanes",
+      "country": "CL",
+      "value": 0.1647
+    },
+    {
+      "name": "Aisén",
+      "country": "CL",
+      "value": 0.1083
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "mt-research-universities",
+  "title": "Top Research Universities in Malta",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Malta ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:03.920Z",
+  "items": [
+    {
+      "name": "University of Malta",
+      "country": "MT",
+      "value": 581011,
+      "detail": "30,098 papers"
+    },
+    {
+      "name": "Malta College of Arts, Science and Technology",
+      "country": "MT",
+      "value": 12389,
+      "detail": "804 papers"
+    },
+    {
+      "name": "Middlesex University Malta",
+      "country": "MT",
+      "value": 460,
+      "detail": "59 papers"
+    },
+    {
+      "name": "EIM - European Institute of Management",
+      "country": "MT",
+      "value": 353,
+      "detail": "56 papers"
+    },
+    {
+      "name": "IMO International Maritime Law Institute",
+      "country": "MT",
+      "value": 195,
+      "detail": "29 papers"
+    },
+    {
+      "name": "College of Remote and Offshore Medicine",
+      "country": "MT",
+      "value": 50,
+      "detail": "28 papers"
+    },
+    {
+      "name": "IDEA College, Malta",
+      "country": "MT",
+      "value": 49,
+      "detail": "31 papers"
+    },
+    {
+      "name": "Malta Leadership Institute",
+      "country": "MT",
+      "value": 47,
+      "detail": "2 papers"
+    },
+    {
+      "name": "GIOYA Higher Education Institution",
+      "country": "MT",
+      "value": 17,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Open Institute of Technology",
+      "country": "MT",
+      "value": 13,
+      "detail": "14 papers"
+    }
+  ]
+}

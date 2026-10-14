@@ -1,0 +1,86 @@
+{
+  "id": "is-research-universities",
+  "title": "Top Research Universities in Iceland",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Iceland ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:51.283Z",
+  "items": [
+    {
+      "name": "University of Iceland",
+      "country": "IS",
+      "value": 2960140,
+      "detail": "32,670 papers"
+    },
+    {
+      "name": "Reykjavík University",
+      "country": "IS",
+      "value": 294610,
+      "detail": "6,544 papers"
+    },
+    {
+      "name": "Institute of Earth Sciences",
+      "country": "IS",
+      "value": 182229,
+      "detail": "2,303 papers"
+    },
+    {
+      "name": "University of Akureyri",
+      "country": "IS",
+      "value": 70969,
+      "detail": "1,860 papers"
+    },
+    {
+      "name": "Agricultural University of Iceland",
+      "country": "IS",
+      "value": 36933,
+      "detail": "879 papers"
+    },
+    {
+      "name": "Hólar University College",
+      "country": "IS",
+      "value": 12205,
+      "detail": "503 papers"
+    },
+    {
+      "name": "University Centre of the Westfjords",
+      "country": "IS",
+      "value": 2645,
+      "detail": "138 papers"
+    },
+    {
+      "name": "Bifröst University",
+      "country": "IS",
+      "value": 2113,
+      "detail": "222 papers"
+    },
+    {
+      "name": "Árni Magnússon Institute for Icelandic Studies",
+      "country": "IS",
+      "value": 775,
+      "detail": "241 papers"
+    },
+    {
+      "name": "Iceland University of the Arts",
+      "country": "IS",
+      "value": 122,
+      "detail": "47 papers"
+    }
+  ]
+}

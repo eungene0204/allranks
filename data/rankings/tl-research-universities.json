@@ -1,0 +1,86 @@
+{
+  "id": "tl-research-universities",
+  "title": "Top Research Universities in Timor-Leste",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Timor-Leste ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:25.562Z",
+  "items": [
+    {
+      "name": "National University of East Timor",
+      "country": "TL",
+      "value": 5407,
+      "detail": "1,002 papers"
+    },
+    {
+      "name": "Dili Institute of Technology",
+      "country": "TL",
+      "value": 1331,
+      "detail": "223 papers"
+    },
+    {
+      "name": "Universidade da Paz",
+      "country": "TL",
+      "value": 851,
+      "detail": "491 papers"
+    },
+    {
+      "name": "Instituto da Ciências da Saúde",
+      "country": "TL",
+      "value": 653,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Instituto Superior Cristal",
+      "country": "TL",
+      "value": 599,
+      "detail": "295 papers"
+    },
+    {
+      "name": "Institute of Business",
+      "country": "TL",
+      "value": 327,
+      "detail": "94 papers"
+    },
+    {
+      "name": "Universidade Oriental Timor Lorosa'e",
+      "country": "TL",
+      "value": 120,
+      "detail": "197 papers"
+    },
+    {
+      "name": "Instituto Católico para a Formação de Professores",
+      "country": "TL",
+      "value": 77,
+      "detail": "115 papers"
+    },
+    {
+      "name": "Instituto Superior de Filosofia e de Teologia Dom Jaime Garcia Goulart",
+      "country": "TL",
+      "value": 22,
+      "detail": "25 papers"
+    },
+    {
+      "name": "East Timor Coffee Institute",
+      "country": "TL",
+      "value": 4,
+      "detail": "17 papers"
+    }
+  ]
+}

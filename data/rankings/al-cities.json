@@ -1,0 +1,175 @@
+{
+  "id": "al-cities",
+  "title": "Largest Cities in Albania",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Albania with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.657Z",
+  "items": [
+    {
+      "name": "Tirana",
+      "country": "AL",
+      "value": 418495,
+      "detail": "Tirana"
+    },
+    {
+      "name": "Durrës",
+      "country": "AL",
+      "value": 195920,
+      "detail": "Durrës County"
+    },
+    {
+      "name": "Vlorë",
+      "country": "AL",
+      "value": 115261,
+      "detail": "Vlorë County"
+    },
+    {
+      "name": "Elbasan",
+      "country": "AL",
+      "value": 100903,
+      "detail": "Elbasan County"
+    },
+    {
+      "name": "Shkodër",
+      "country": "AL",
+      "value": 95553,
+      "detail": "Shkodër County"
+    },
+    {
+      "name": "Lushnjë",
+      "country": "AL",
+      "value": 63135,
+      "detail": "Fier County"
+    },
+    {
+      "name": "Berat",
+      "country": "AL",
+      "value": 62232,
+      "detail": "Berat County"
+    },
+    {
+      "name": "Fier-Çifçi",
+      "country": "AL",
+      "value": 60995,
+      "detail": "Fier County"
+    },
+    {
+      "name": "Korçë",
+      "country": "AL",
+      "value": 58259,
+      "detail": "Korçë County"
+    },
+    {
+      "name": "Fier",
+      "country": "AL",
+      "value": 56297,
+      "detail": "Fier County"
+    },
+    {
+      "name": "Krujë",
+      "country": "AL",
+      "value": 51191,
+      "detail": "Durrës County"
+    },
+    {
+      "name": "Pogradec",
+      "country": "AL",
+      "value": 46070,
+      "detail": "Korçë County"
+    },
+    {
+      "name": "Kukës",
+      "country": "AL",
+      "value": 36125,
+      "detail": "Kukës County"
+    },
+    {
+      "name": "Kuçovë",
+      "country": "AL",
+      "value": 31077,
+      "detail": "Berat County"
+    },
+    {
+      "name": "Kavajë",
+      "country": "AL",
+      "value": 30012,
+      "detail": "Tirana"
+    },
+    {
+      "name": "Bulqizë",
+      "country": "AL",
+      "value": 26826,
+      "detail": "Dibër County"
+    },
+    {
+      "name": "Gjirokastër",
+      "country": "AL",
+      "value": 23437,
+      "detail": "Gjirokastër County"
+    },
+    {
+      "name": "Librazhd",
+      "country": "AL",
+      "value": 23312,
+      "detail": "Elbasan County"
+    },
+    {
+      "name": "Patos Fshat",
+      "country": "AL",
+      "value": 22679,
+      "detail": "Fier County"
+    },
+    {
+      "name": "Sarandë",
+      "country": "AL",
+      "value": 22613,
+      "detail": "Vlorë County"
+    },
+    {
+      "name": "Rrashbull",
+      "country": "AL",
+      "value": 20099,
+      "detail": "Durrës County"
+    },
+    {
+      "name": "Lezhë",
+      "country": "AL",
+      "value": 18695,
+      "detail": "Lezhë County"
+    },
+    {
+      "name": "Fushë-Krujë",
+      "country": "AL",
+      "value": 17877,
+      "detail": "Durrës County"
+    },
+    {
+      "name": "Peqin",
+      "country": "AL",
+      "value": 16580,
+      "detail": "Elbasan County"
+    },
+    {
+      "name": "Patos",
+      "country": "AL",
+      "value": 16000,
+      "detail": "Fier County"
+    }
+  ]
+}

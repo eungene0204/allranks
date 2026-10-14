@@ -1,0 +1,192 @@
+{
+  "id": "bg-province-population",
+  "title": "Bulgarian Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each province (oblast) at the 2021 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BG",
+  "year": 2021,
+  "source": {
+    "kind": "wikipedia",
+    "name": "National Statistical Institute (NSI), 2021 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Provinces_of_Bulgaria",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:43:43.960Z",
+  "items": [
+    {
+      "name": "Sofia City",
+      "country": "BG",
+      "value": 1.2743,
+      "detail": "South Western"
+    },
+    {
+      "name": "Plovdiv",
+      "country": "BG",
+      "value": 0.6345,
+      "detail": "South Central"
+    },
+    {
+      "name": "Varna",
+      "country": "BG",
+      "value": 0.4322,
+      "detail": "North Eastern"
+    },
+    {
+      "name": "Burgas",
+      "country": "BG",
+      "value": 0.3803,
+      "detail": "South Eastern"
+    },
+    {
+      "name": "Stara Zagora",
+      "country": "BG",
+      "value": 0.2965,
+      "detail": "South Eastern"
+    },
+    {
+      "name": "Blagoevgrad",
+      "country": "BG",
+      "value": 0.2922,
+      "detail": "South Western"
+    },
+    {
+      "name": "Sofia Province",
+      "country": "BG",
+      "value": 0.232,
+      "detail": "South Western"
+    },
+    {
+      "name": "Pazardzhik",
+      "country": "BG",
+      "value": 0.2298,
+      "detail": "South Central"
+    },
+    {
+      "name": "Pleven",
+      "country": "BG",
+      "value": 0.2261,
+      "detail": "North Western"
+    },
+    {
+      "name": "Haskovo",
+      "country": "BG",
+      "value": 0.2116,
+      "detail": "South Central"
+    },
+    {
+      "name": "Veliko Tarnovo",
+      "country": "BG",
+      "value": 0.2074,
+      "detail": "North Central"
+    },
+    {
+      "name": "Ruse",
+      "country": "BG",
+      "value": 0.1935,
+      "detail": "North Central"
+    },
+    {
+      "name": "Sliven",
+      "country": "BG",
+      "value": 0.1727,
+      "detail": "South Eastern"
+    },
+    {
+      "name": "Vratsa",
+      "country": "BG",
+      "value": 0.1528,
+      "detail": "North Western"
+    },
+    {
+      "name": "Shumen",
+      "country": "BG",
+      "value": 0.1515,
+      "detail": "North Eastern"
+    },
+    {
+      "name": "Dobrich",
+      "country": "BG",
+      "value": 0.1501,
+      "detail": "North Eastern"
+    },
+    {
+      "name": "Kardzhali",
+      "country": "BG",
+      "value": 0.1412,
+      "detail": "South Central"
+    },
+    {
+      "name": "Montana",
+      "country": "BG",
+      "value": 0.12,
+      "detail": "North Western"
+    },
+    {
+      "name": "Lovech",
+      "country": "BG",
+      "value": 0.1164,
+      "detail": "North Western"
+    },
+    {
+      "name": "Pernik",
+      "country": "BG",
+      "value": 0.1142,
+      "detail": "South Western"
+    },
+    {
+      "name": "Kyustendil",
+      "country": "BG",
+      "value": 0.1117,
+      "detail": "South Western"
+    },
+    {
+      "name": "Yambol",
+      "country": "BG",
+      "value": 0.1097,
+      "detail": "South Eastern"
+    },
+    {
+      "name": "Razgrad",
+      "country": "BG",
+      "value": 0.1032,
+      "detail": "North Central"
+    },
+    {
+      "name": "Gabrovo",
+      "country": "BG",
+      "value": 0.0984,
+      "detail": "North Central"
+    },
+    {
+      "name": "Targovishte",
+      "country": "BG",
+      "value": 0.0981,
+      "detail": "North Eastern"
+    },
+    {
+      "name": "Silistra",
+      "country": "BG",
+      "value": 0.0978,
+      "detail": "North Central"
+    },
+    {
+      "name": "Smolyan",
+      "country": "BG",
+      "value": 0.0963,
+      "detail": "South Central"
+    },
+    {
+      "name": "Vidin",
+      "country": "BG",
+      "value": 0.0754,
+      "detail": "North Western"
+    }
+  ]
+}

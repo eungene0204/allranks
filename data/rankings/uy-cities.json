@@ -1,0 +1,211 @@
+{
+  "id": "uy-cities",
+  "title": "Largest Cities in Uruguay",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Uruguay with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.686Z",
+  "items": [
+    {
+      "name": "Montevideo",
+      "country": "UY",
+      "value": 1270737,
+      "detail": "Montevideo Department"
+    },
+    {
+      "name": "Salto",
+      "country": "UY",
+      "value": 114084,
+      "detail": "Salto Department"
+    },
+    {
+      "name": "Maldonado",
+      "country": "UY",
+      "value": 102000,
+      "detail": "Maldonado"
+    },
+    {
+      "name": "Rivera",
+      "country": "UY",
+      "value": 84775,
+      "detail": "Rivera Department"
+    },
+    {
+      "name": "Paysandú",
+      "country": "UY",
+      "value": 81550,
+      "detail": "Paysandú Department"
+    },
+    {
+      "name": "Las Piedras",
+      "country": "UY",
+      "value": 69682,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Tacuarembó",
+      "country": "UY",
+      "value": 60586,
+      "detail": "Tacuarembó Department"
+    },
+    {
+      "name": "Melo",
+      "country": "UY",
+      "value": 56013,
+      "detail": "Cerro Largo"
+    },
+    {
+      "name": "Artigas",
+      "country": "UY",
+      "value": 43897,
+      "detail": "Artigas"
+    },
+    {
+      "name": "Mercedes",
+      "country": "UY",
+      "value": 43543,
+      "detail": "Soriano"
+    },
+    {
+      "name": "Durazno",
+      "country": "UY",
+      "value": 40279,
+      "detail": "Durazno Department"
+    },
+    {
+      "name": "Minas",
+      "country": "UY",
+      "value": 38645,
+      "detail": "Lavalleja"
+    },
+    {
+      "name": "Florida",
+      "country": "UY",
+      "value": 36471,
+      "detail": "Florida"
+    },
+    {
+      "name": "San José de Mayo",
+      "country": "UY",
+      "value": 35883,
+      "detail": "San José Department"
+    },
+    {
+      "name": "Colonia del Sacramento",
+      "country": "UY",
+      "value": 32164,
+      "detail": "Colonia"
+    },
+    {
+      "name": "Barros Blancos",
+      "country": "UY",
+      "value": 31650,
+      "detail": "Canelones"
+    },
+    {
+      "name": "San Carlos",
+      "country": "UY",
+      "value": 27471,
+      "detail": "Maldonado"
+    },
+    {
+      "name": "Rocha",
+      "country": "UY",
+      "value": 26784,
+      "detail": "Rocha Department"
+    },
+    {
+      "name": "Fray Bentos",
+      "country": "UY",
+      "value": 26297,
+      "detail": "Río Negro Department"
+    },
+    {
+      "name": "Treinta y Tres",
+      "country": "UY",
+      "value": 25890,
+      "detail": "Treinta y Tres Department"
+    },
+    {
+      "name": "Canelones",
+      "country": "UY",
+      "value": 24185,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Pando",
+      "country": "UY",
+      "value": 24047,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Trinidad",
+      "country": "UY",
+      "value": 22897,
+      "detail": "Flores Department"
+    },
+    {
+      "name": "La Paz",
+      "country": "UY",
+      "value": 19913,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Carmelo",
+      "country": "UY",
+      "value": 18041,
+      "detail": "Colonia"
+    },
+    {
+      "name": "Delta del Tigre",
+      "country": "UY",
+      "value": 17973,
+      "detail": "San José Department"
+    },
+    {
+      "name": "Dolores",
+      "country": "UY",
+      "value": 17174,
+      "detail": "Soriano"
+    },
+    {
+      "name": "Young",
+      "country": "UY",
+      "value": 16756,
+      "detail": "Río Negro Department"
+    },
+    {
+      "name": "Santa Lucía",
+      "country": "UY",
+      "value": 16438,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Progreso",
+      "country": "UY",
+      "value": 16244,
+      "detail": "Canelones"
+    },
+    {
+      "name": "Paso de Carrasco",
+      "country": "UY",
+      "value": 15393,
+      "detail": "Canelones"
+    }
+  ]
+}

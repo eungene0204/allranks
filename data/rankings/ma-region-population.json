@@ -1,0 +1,96 @@
+{
+  "id": "ma-region-population",
+  "title": "Moroccan Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each region at the 2024 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "MA",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "High Commission for Planning (HCP), 2024 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_Morocco",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:40:03.123Z",
+  "items": [
+    {
+      "name": "Casablanca-Settat",
+      "country": "MA",
+      "value": 7.689,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "Rabat-Salé-Kénitra",
+      "country": "MA",
+      "value": 5.1326,
+      "detail": "Rabat"
+    },
+    {
+      "name": "Marrakesh-Safi",
+      "country": "MA",
+      "value": 4.8924,
+      "detail": "Marrakesh"
+    },
+    {
+      "name": "Fès-Meknès",
+      "country": "MA",
+      "value": 4.4679,
+      "detail": "Fès"
+    },
+    {
+      "name": "Tangier-Tetouan-Al Hoceima",
+      "country": "MA",
+      "value": 4.0302,
+      "detail": "Tangier"
+    },
+    {
+      "name": "Souss-Massa",
+      "country": "MA",
+      "value": 3.0204,
+      "detail": "Agadir"
+    },
+    {
+      "name": "Béni Mellal-Khénifra",
+      "country": "MA",
+      "value": 2.5258,
+      "detail": "Beni Mellal"
+    },
+    {
+      "name": "Oriental",
+      "country": "MA",
+      "value": 2.2947,
+      "detail": "Oujda"
+    },
+    {
+      "name": "Drâa-Tafilalet",
+      "country": "MA",
+      "value": 1.6556,
+      "detail": "Errachidia"
+    },
+    {
+      "name": "Laâyoune-Sakia El Hamra",
+      "country": "MA",
+      "value": 0.451,
+      "detail": "Laayoune"
+    },
+    {
+      "name": "Guelmim-Oued Noun",
+      "country": "MA",
+      "value": 0.4487,
+      "detail": "Guelmim"
+    },
+    {
+      "name": "Dakhla-Oued Ed-Dahab",
+      "country": "MA",
+      "value": 0.22,
+      "detail": "Dakhla"
+    }
+  ]
+}

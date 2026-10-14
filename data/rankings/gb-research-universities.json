@@ -1,0 +1,326 @@
+{
+  "id": "gb-research-universities",
+  "title": "Top Research Universities in United Kingdom",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in United Kingdom ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:35.027Z",
+  "items": [
+    {
+      "name": "University of Oxford",
+      "country": "GB",
+      "value": 74391898,
+      "detail": "625,716 papers"
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "GB",
+      "value": 61857290,
+      "detail": "509,419 papers"
+    },
+    {
+      "name": "University College London",
+      "country": "GB",
+      "value": 59018406,
+      "detail": "498,440 papers"
+    },
+    {
+      "name": "Imperial College London",
+      "country": "GB",
+      "value": 49644857,
+      "detail": "401,904 papers"
+    },
+    {
+      "name": "University of Manchester",
+      "country": "GB",
+      "value": 31753979,
+      "detail": "326,408 papers"
+    },
+    {
+      "name": "University of Edinburgh",
+      "country": "GB",
+      "value": 29012617,
+      "detail": "298,406 papers"
+    },
+    {
+      "name": "King's College London",
+      "country": "GB",
+      "value": 26544212,
+      "detail": "268,571 papers"
+    },
+    {
+      "name": "University of Glasgow",
+      "country": "GB",
+      "value": 25896604,
+      "detail": "199,901 papers"
+    },
+    {
+      "name": "University of Birmingham",
+      "country": "GB",
+      "value": 25548810,
+      "detail": "220,933 papers"
+    },
+    {
+      "name": "University of Bristol",
+      "country": "GB",
+      "value": 23312514,
+      "detail": "217,418 papers"
+    },
+    {
+      "name": "University of Sheffield",
+      "country": "GB",
+      "value": 16651267,
+      "detail": "189,620 papers"
+    },
+    {
+      "name": "University of Liverpool",
+      "country": "GB",
+      "value": 16490755,
+      "detail": "188,342 papers"
+    },
+    {
+      "name": "Queen Mary University of London",
+      "country": "GB",
+      "value": 15799521,
+      "detail": "144,587 papers"
+    },
+    {
+      "name": "University of Leeds",
+      "country": "GB",
+      "value": 14746583,
+      "detail": "195,901 papers"
+    },
+    {
+      "name": "University of Nottingham",
+      "country": "GB",
+      "value": 14614759,
+      "detail": "190,368 papers"
+    },
+    {
+      "name": "Cardiff University",
+      "country": "GB",
+      "value": 14397168,
+      "detail": "134,259 papers"
+    },
+    {
+      "name": "University of Southampton",
+      "country": "GB",
+      "value": 14048798,
+      "detail": "185,401 papers"
+    },
+    {
+      "name": "Newcastle University",
+      "country": "GB",
+      "value": 13131580,
+      "detail": "178,399 papers"
+    },
+    {
+      "name": "London School of Hygiene & Tropical Medicine",
+      "country": "GB",
+      "value": 11604294,
+      "detail": "106,109 papers"
+    },
+    {
+      "name": "University of Warwick",
+      "country": "GB",
+      "value": 9414240,
+      "detail": "136,868 papers"
+    },
+    {
+      "name": "University of Leicester",
+      "country": "GB",
+      "value": 9332402,
+      "detail": "104,426 papers"
+    },
+    {
+      "name": "University of London",
+      "country": "GB",
+      "value": 8754143,
+      "detail": "132,602 papers"
+    },
+    {
+      "name": "University of Exeter",
+      "country": "GB",
+      "value": 8523054,
+      "detail": "114,128 papers"
+    },
+    {
+      "name": "UCL Queen Square Institute of Neurology",
+      "country": "GB",
+      "value": 8122295,
+      "detail": "37,394 papers"
+    },
+    {
+      "name": "University of Aberdeen",
+      "country": "GB",
+      "value": 7849464,
+      "detail": "96,116 papers"
+    },
+    {
+      "name": "University of York",
+      "country": "GB",
+      "value": 7819898,
+      "detail": "104,456 papers"
+    },
+    {
+      "name": "Queen's University Belfast",
+      "country": "GB",
+      "value": 7733080,
+      "detail": "114,114 papers"
+    },
+    {
+      "name": "Institute of Cancer Research",
+      "country": "GB",
+      "value": 7466976,
+      "detail": "29,034 papers"
+    },
+    {
+      "name": "University of Dundee",
+      "country": "GB",
+      "value": 7300537,
+      "detail": "63,336 papers"
+    },
+    {
+      "name": "Durham University",
+      "country": "GB",
+      "value": 6996073,
+      "detail": "109,689 papers"
+    },
+    {
+      "name": "University of Sussex",
+      "country": "GB",
+      "value": 6739119,
+      "detail": "83,369 papers"
+    },
+    {
+      "name": "Lancaster University",
+      "country": "GB",
+      "value": 6658886,
+      "detail": "87,868 papers"
+    },
+    {
+      "name": "University of East Anglia",
+      "country": "GB",
+      "value": 5599425,
+      "detail": "72,346 papers"
+    },
+    {
+      "name": "St George's, University of London",
+      "country": "GB",
+      "value": 5451712,
+      "detail": "41,703 papers"
+    },
+    {
+      "name": "University of Reading",
+      "country": "GB",
+      "value": 5396851,
+      "detail": "85,914 papers"
+    },
+    {
+      "name": "Scottish Universities Physics Alliance",
+      "country": "GB",
+      "value": 5229688,
+      "detail": "4,295 papers"
+    },
+    {
+      "name": "University of St Andrews",
+      "country": "GB",
+      "value": 4893944,
+      "detail": "78,665 papers"
+    },
+    {
+      "name": "University of Bath",
+      "country": "GB",
+      "value": 4737997,
+      "detail": "73,929 papers"
+    },
+    {
+      "name": "University of Strathclyde",
+      "country": "GB",
+      "value": 4624936,
+      "detail": "86,983 papers"
+    },
+    {
+      "name": "University of Surrey",
+      "country": "GB",
+      "value": 4347795,
+      "detail": "80,760 papers"
+    },
+    {
+      "name": "University of Wales",
+      "country": "GB",
+      "value": 3989523,
+      "detail": "51,436 papers"
+    },
+    {
+      "name": "Royal Holloway University of London",
+      "country": "GB",
+      "value": 3935479,
+      "detail": "43,071 papers"
+    },
+    {
+      "name": "Swansea University",
+      "country": "GB",
+      "value": 3736017,
+      "detail": "63,306 papers"
+    },
+    {
+      "name": "Loughborough University",
+      "country": "GB",
+      "value": 3433072,
+      "detail": "79,369 papers"
+    },
+    {
+      "name": "Brunel University of London",
+      "country": "GB",
+      "value": 3307503,
+      "detail": "51,767 papers"
+    },
+    {
+      "name": "London School of Economics and Political Science",
+      "country": "GB",
+      "value": 3123471,
+      "detail": "75,963 papers"
+    },
+    {
+      "name": "Bangor University",
+      "country": "GB",
+      "value": 2524216,
+      "detail": "37,372 papers"
+    },
+    {
+      "name": "The Open University",
+      "country": "GB",
+      "value": 2468687,
+      "detail": "55,126 papers"
+    },
+    {
+      "name": "Keele University",
+      "country": "GB",
+      "value": 2452324,
+      "detail": "41,683 papers"
+    },
+    {
+      "name": "Liverpool John Moores University",
+      "country": "GB",
+      "value": 2395337,
+      "detail": "37,788 papers"
+    }
+  ]
+}

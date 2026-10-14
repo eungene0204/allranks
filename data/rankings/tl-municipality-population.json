@@ -1,0 +1,108 @@
+{
+  "id": "tl-municipality-population",
+  "title": "Timor-Leste Municipalities by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each municipality at the 2022 census.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "General Directorate of Statistics, 2022 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Municipalities_of_East_Timor",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:39:38.688Z",
+  "items": [
+    {
+      "name": "Dili",
+      "country": "TL",
+      "value": 324269,
+      "detail": "Dili"
+    },
+    {
+      "name": "Ermera",
+      "country": "TL",
+      "value": 138080,
+      "detail": "Gleno"
+    },
+    {
+      "name": "Baucau",
+      "country": "TL",
+      "value": 133881,
+      "detail": "Baucau"
+    },
+    {
+      "name": "Bobonaro",
+      "country": "TL",
+      "value": 106543,
+      "detail": "Maliana"
+    },
+    {
+      "name": "Liquiçá",
+      "country": "TL",
+      "value": 83689,
+      "detail": "Liquiçá"
+    },
+    {
+      "name": "Oecusse",
+      "country": "TL",
+      "value": 80726,
+      "detail": "Pante Macassar"
+    },
+    {
+      "name": "Viqueque",
+      "country": "TL",
+      "value": 80054,
+      "detail": "Viqueque"
+    },
+    {
+      "name": "Cova Lima",
+      "country": "TL",
+      "value": 73909,
+      "detail": "Suai"
+    },
+    {
+      "name": "Ainaro",
+      "country": "TL",
+      "value": 72989,
+      "detail": "Ainaro"
+    },
+    {
+      "name": "Lautém",
+      "country": "TL",
+      "value": 69836,
+      "detail": "Lospalos"
+    },
+    {
+      "name": "Manufahi",
+      "country": "TL",
+      "value": 60536,
+      "detail": "Same"
+    },
+    {
+      "name": "Aileu",
+      "country": "TL",
+      "value": 54631,
+      "detail": "Aileu"
+    },
+    {
+      "name": "Manatuto",
+      "country": "TL",
+      "value": 50989,
+      "detail": "Manatuto"
+    },
+    {
+      "name": "Atauro",
+      "country": "TL",
+      "value": 10302,
+      "detail": "Vila Maumeta"
+    }
+  ]
+}

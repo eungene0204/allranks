@@ -1,0 +1,85 @@
+{
+  "id": "ls-region-population",
+  "title": "Lesotho Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Lesotho ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LS",
+  "year": 2016,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-14T03:30:39.815Z",
+  "items": [
+    {
+      "name": "Maseru",
+      "country": "LS",
+      "value": 519186,
+      "detail": "2016"
+    },
+    {
+      "name": "Leribe",
+      "country": "LS",
+      "value": 337521,
+      "detail": "2016"
+    },
+    {
+      "name": "Berea",
+      "country": "LS",
+      "value": 262616,
+      "detail": "2016"
+    },
+    {
+      "name": "Mafeteng",
+      "country": "LS",
+      "value": 178222,
+      "detail": "2016"
+    },
+    {
+      "name": "Mohale's Hoek",
+      "country": "LS",
+      "value": 165590,
+      "detail": "2016"
+    },
+    {
+      "name": "Thaba-Tseka",
+      "country": "LS",
+      "value": 135347,
+      "detail": "2016"
+    },
+    {
+      "name": "Butha-Buthe",
+      "country": "LS",
+      "value": 118242,
+      "detail": "2016"
+    },
+    {
+      "name": "Quthing",
+      "country": "LS",
+      "value": 115469,
+      "detail": "2016"
+    },
+    {
+      "name": "Mokhotlong",
+      "country": "LS",
+      "value": 100442,
+      "detail": "2016"
+    },
+    {
+      "name": "Qacha's Nek",
+      "country": "LS",
+      "value": 74566,
+      "detail": "2016"
+    }
+  ]
+}

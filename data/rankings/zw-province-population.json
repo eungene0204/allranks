@@ -1,0 +1,74 @@
+{
+  "id": "zw-province-population",
+  "title": "Zimbabwean Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each province at the 2022 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ZW",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Zimbabwe National Statistics Agency (ZIMSTAT), 2022 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Provinces_of_Zimbabwe",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:41:32.176Z",
+  "items": [
+    {
+      "name": "Harare",
+      "country": "ZW",
+      "value": 2.4272
+    },
+    {
+      "name": "Manicaland",
+      "country": "ZW",
+      "value": 2.0377
+    },
+    {
+      "name": "Midlands",
+      "country": "ZW",
+      "value": 1.8119
+    },
+    {
+      "name": "Mashonaland East",
+      "country": "ZW",
+      "value": 1.7312
+    },
+    {
+      "name": "Masvingo",
+      "country": "ZW",
+      "value": 1.6385
+    },
+    {
+      "name": "Mashonaland Central",
+      "country": "ZW",
+      "value": 1.3849
+    },
+    {
+      "name": "Bulawayo",
+      "country": "ZW",
+      "value": 0.666
+    },
+    {
+      "name": "Mashonaland West",
+      "country": "ZW",
+      "value": 0.002
+    },
+    {
+      "name": "Matabeleland North",
+      "country": "ZW",
+      "value": 0.002
+    },
+    {
+      "name": "Matabeleland South",
+      "country": "ZW",
+      "value": 0.002
+    }
+  ]
+}

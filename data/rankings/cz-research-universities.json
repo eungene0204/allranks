@@ -1,0 +1,326 @@
+{
+  "id": "cz-research-universities",
+  "title": "Top Research Universities in Czechia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Czechia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:48.890Z",
+  "items": [
+    {
+      "name": "Charles University",
+      "country": "CZ",
+      "value": 9895421,
+      "detail": "155,095 papers"
+    },
+    {
+      "name": "Czech Technical University in Prague",
+      "country": "CZ",
+      "value": 4259435,
+      "detail": "51,069 papers"
+    },
+    {
+      "name": "Masaryk University",
+      "country": "CZ",
+      "value": 2449783,
+      "detail": "58,930 papers"
+    },
+    {
+      "name": "Palacký University Olomouc",
+      "country": "CZ",
+      "value": 2287684,
+      "detail": "37,429 papers"
+    },
+    {
+      "name": "Brno University of Technology",
+      "country": "CZ",
+      "value": 1101001,
+      "detail": "32,982 papers"
+    },
+    {
+      "name": "University of Chemistry and Technology, Prague",
+      "country": "CZ",
+      "value": 1068197,
+      "detail": "27,723 papers"
+    },
+    {
+      "name": "University of South Bohemia in České Budějovice",
+      "country": "CZ",
+      "value": 975799,
+      "detail": "20,357 papers"
+    },
+    {
+      "name": "Czech University of Life Sciences Prague",
+      "country": "CZ",
+      "value": 885319,
+      "detail": "24,160 papers"
+    },
+    {
+      "name": "Mendel University in Brno",
+      "country": "CZ",
+      "value": 585400,
+      "detail": "16,333 papers"
+    },
+    {
+      "name": "VSB - Technical University of Ostrava",
+      "country": "CZ",
+      "value": 514156,
+      "detail": "24,780 papers"
+    },
+    {
+      "name": "Central European Institute of Technology",
+      "country": "CZ",
+      "value": 431871,
+      "detail": "7,050 papers"
+    },
+    {
+      "name": "Central European Institute of Technology – Masaryk University",
+      "country": "CZ",
+      "value": 402832,
+      "detail": "6,031 papers"
+    },
+    {
+      "name": "University of Pardubice",
+      "country": "CZ",
+      "value": 401279,
+      "detail": "11,606 papers"
+    },
+    {
+      "name": "University of West Bohemia in Pilsen",
+      "country": "CZ",
+      "value": 340442,
+      "detail": "15,133 papers"
+    },
+    {
+      "name": "Tomas Bata University in Zlín",
+      "country": "CZ",
+      "value": 325548,
+      "detail": "8,861 papers"
+    },
+    {
+      "name": "University of Veterinary Sciences Brno",
+      "country": "CZ",
+      "value": 292184,
+      "detail": "6,627 papers"
+    },
+    {
+      "name": "University of Ostrava",
+      "country": "CZ",
+      "value": 250471,
+      "detail": "11,249 papers"
+    },
+    {
+      "name": "University of Hradec Králové",
+      "country": "CZ",
+      "value": 239117,
+      "detail": "9,075 papers"
+    },
+    {
+      "name": "Technical University of Liberec",
+      "country": "CZ",
+      "value": 227165,
+      "detail": "7,847 papers"
+    },
+    {
+      "name": "University of Defence",
+      "country": "CZ",
+      "value": 135713,
+      "detail": "5,550 papers"
+    },
+    {
+      "name": "Jan Evangelista Purkyně University in Ústí nad Labem",
+      "country": "CZ",
+      "value": 106694,
+      "detail": "5,035 papers"
+    },
+    {
+      "name": "Prague University of Economics and Business",
+      "country": "CZ",
+      "value": 89218,
+      "detail": "7,938 papers"
+    },
+    {
+      "name": "Silesian University in Opava",
+      "country": "CZ",
+      "value": 72411,
+      "detail": "3,486 papers"
+    },
+    {
+      "name": "Military University Hospital Prague",
+      "country": "CZ",
+      "value": 49097,
+      "detail": "1,620 papers"
+    },
+    {
+      "name": "Center for Economic Research and Graduate Education – Economics Institute",
+      "country": "CZ",
+      "value": 47432,
+      "detail": "2,210 papers"
+    },
+    {
+      "name": "Institute of Technology and Business",
+      "country": "CZ",
+      "value": 44766,
+      "detail": "2,068 papers"
+    },
+    {
+      "name": "Jan Evangelista Purkyně Military Medical Academy",
+      "country": "CZ",
+      "value": 18703,
+      "detail": "338 papers"
+    },
+    {
+      "name": "Institute for Postgraduate Medical Education",
+      "country": "CZ",
+      "value": 10337,
+      "detail": "689 papers"
+    },
+    {
+      "name": "Výzkumný Ústav Mlékárenský",
+      "country": "CZ",
+      "value": 7852,
+      "detail": "256 papers"
+    },
+    {
+      "name": "College of Polytechnics Jihlava",
+      "country": "CZ",
+      "value": 6740,
+      "detail": "642 papers"
+    },
+    {
+      "name": "Metropolitan University Prague",
+      "country": "CZ",
+      "value": 5351,
+      "detail": "696 papers"
+    },
+    {
+      "name": "Academy of Fine Arts Prague",
+      "country": "CZ",
+      "value": 4422,
+      "detail": "122 papers"
+    },
+    {
+      "name": "University of Finance and Administration",
+      "country": "CZ",
+      "value": 4366,
+      "detail": "611 papers"
+    },
+    {
+      "name": "Škoda Auto University",
+      "country": "CZ",
+      "value": 3429,
+      "detail": "415 papers"
+    },
+    {
+      "name": "Pan-European University",
+      "country": "CZ",
+      "value": 3262,
+      "detail": "333 papers"
+    },
+    {
+      "name": "Anglo-American University",
+      "country": "CZ",
+      "value": 2865,
+      "detail": "248 papers"
+    },
+    {
+      "name": "University of New York in Prague",
+      "country": "CZ",
+      "value": 2795,
+      "detail": "353 papers"
+    },
+    {
+      "name": "University of Economics and Management",
+      "country": "CZ",
+      "value": 2443,
+      "detail": "241 papers"
+    },
+    {
+      "name": "Karel Englis College",
+      "country": "CZ",
+      "value": 2160,
+      "detail": "60 papers"
+    },
+    {
+      "name": "Prague College of Psychosocial Studies",
+      "country": "CZ",
+      "value": 2129,
+      "detail": "112 papers"
+    },
+    {
+      "name": "Jan Amos Komensky University",
+      "country": "CZ",
+      "value": 1978,
+      "detail": "74 papers"
+    },
+    {
+      "name": "Ambis University",
+      "country": "CZ",
+      "value": 1904,
+      "detail": "372 papers"
+    },
+    {
+      "name": "Moravská Vysoká Skola Olomouc",
+      "country": "CZ",
+      "value": 1641,
+      "detail": "181 papers"
+    },
+    {
+      "name": "University of Business in Prague",
+      "country": "CZ",
+      "value": 1436,
+      "detail": "134 papers"
+    },
+    {
+      "name": "Centre for Higher Education Studies",
+      "country": "CZ",
+      "value": 1220,
+      "detail": "62 papers"
+    },
+    {
+      "name": "Jan Palach Private High School",
+      "country": "CZ",
+      "value": 1053,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Prague Business School",
+      "country": "CZ",
+      "value": 987,
+      "detail": "123 papers"
+    },
+    {
+      "name": "BIVŠ Vysoká škola v Praze a v Brně",
+      "country": "CZ",
+      "value": 887,
+      "detail": "50 papers"
+    },
+    {
+      "name": "College of Business and Hotel Management",
+      "country": "CZ",
+      "value": 856,
+      "detail": "39 papers"
+    },
+    {
+      "name": "CEVRO University",
+      "country": "CZ",
+      "value": 838,
+      "detail": "108 papers"
+    }
+  ]
+}

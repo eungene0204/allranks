@@ -1,0 +1,89 @@
+{
+  "id": "ca-province-gdp-per-capita",
+  "title": "Canadian Provinces by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Nominal GDP per resident in 2024, in Canadian dollars.",
+  "unit": "CAD per person",
+  "prefix": "C$",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Canada, 2024 (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Canadian_provinces_and_territories_by_gross_domestic_product",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:29:39.413Z",
+  "items": [
+    {
+      "name": "Nunavut",
+      "country": "CA",
+      "value": 136763
+    },
+    {
+      "name": "Northwest Territories",
+      "country": "CA",
+      "value": 113155
+    },
+    {
+      "name": "Alberta",
+      "country": "CA",
+      "value": 96686
+    },
+    {
+      "name": "Yukon",
+      "country": "CA",
+      "value": 91207
+    },
+    {
+      "name": "Saskatchewan",
+      "country": "CA",
+      "value": 90619
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "country": "CA",
+      "value": 77455
+    },
+    {
+      "name": "British Columbia",
+      "country": "CA",
+      "value": 75821
+    },
+    {
+      "name": "Ontario",
+      "country": "CA",
+      "value": 74394
+    },
+    {
+      "name": "Quebec",
+      "country": "CA",
+      "value": 68665
+    },
+    {
+      "name": "Manitoba",
+      "country": "CA",
+      "value": 64602
+    },
+    {
+      "name": "Prince Edward Island",
+      "country": "CA",
+      "value": 60877
+    },
+    {
+      "name": "Nova Scotia",
+      "country": "CA",
+      "value": 60481
+    },
+    {
+      "name": "New Brunswick",
+      "country": "CA",
+      "value": 56354
+    }
+  ]
+}

@@ -8,6 +8,8 @@ import {
 import { scorecard } from "./sources/college-scorecard.mts";
 import { worldBank } from "./sources/worldbank.mts";
 import { billionaires, coffee, largestCities, millionaires, nobelLaureates, oilReserves, topWebsites, wine } from "./sources/wikipedia-world.mts";
+import { REGIONAL } from "./regional/index.mts";
+import { TOPICS } from "./topics.mts";
 import type { Pipeline } from "./lib/types.mts";
 
 /**
@@ -36,7 +38,7 @@ export const PIPELINES: Pipeline[] = [
   },
   {
     meta: {
-      id: "life-expectancy", title: "Life Expectancy at Birth", category: "health", icon: "❤️",
+      id: "life-expectancy", title: "Life Expectancy at Birth", category: "society", icon: "❤️",
       desc: "Average number of years a newborn is expected to live.",
       unit: "years", prefix: "", suffix: " yrs", decimals: 1, order: "desc",
     },
@@ -44,7 +46,7 @@ export const PIPELINES: Pipeline[] = [
   },
   {
     meta: {
-      id: "big-mac", title: "Big Mac Prices Around the World", category: "prices", icon: "🍔",
+      id: "big-mac", title: "Big Mac Prices Around the World", category: "economy", icon: "🍔",
       desc: "The Economist's Big Mac Index: a burger-sized look at purchasing power. Local price converted to USD.",
       unit: "USD", prefix: "$", suffix: "", decimals: 2, order: "desc",
     },
@@ -101,9 +103,13 @@ export const PIPELINES: Pipeline[] = [
     meta: { id: "wine-production", title: "Top Wine Producers", category: "world", icon: "🍷", desc: "Wine production in thousands of tonnes.", unit: "thousand tonnes", prefix: "", suffix: "k t", decimals: 0, order: "desc" },
     fetch: wine(),
   },
+  // Topics for the categories that started out empty (AI, Markets, Energy, Money, Demographics, Mining, Autos).
+  ...TOPICS,
   // Rankings that exist only inside one country. `scope` ties them to that country's page (reached from the
   // globe) instead of the world totals; items carry that country's code and name the state / city / school.
   ...usRankings(),
+  // The same for other countries: one module per country in scripts/regional/.
+  ...REGIONAL,
 ];
 
 function usRankings(): Pipeline[] {
@@ -145,7 +151,7 @@ function usRankings(): Pipeline[] {
     us("us-gun-suicide-rate", "US States by Gun Suicide Rate", "society", "🕊️", "Firearm suicides per 100,000 residents.", "per 100,000 people", "", "", 1, usGunDeathRate("suicide")),
     us("us-homicide-rate", "US States by Homicide Rate", "society", "⚖️", "Intentional homicides per 100,000 residents, as reported to the FBI.", "per 100,000 people", "", "", 1, usHomicideRate),
     // Health
-    us("us-life-expectancy", "US States by Life Expectancy", "health", "❤️", "Average number of years a newborn is expected to live in each state.", "years", "", " yrs", 1, usLifeExpectancy),
+    us("us-life-expectancy", "US States by Life Expectancy", "society", "❤️", "Average number of years a newborn is expected to live in each state.", "years", "", " yrs", 1, usLifeExpectancy),
     // World records
     us("us-tallest-buildings", "Tallest Buildings in the US", "world", "🏙️", "The tallest completed buildings in the United States, by architectural height.", "metres", "", " m", 0, usTallestBuildings),
     us("us-busiest-airports", "Busiest US Airports", "world", "✈️", "Large and medium hub airports ranked by passengers per year.", "million passengers", "", "M", 1, usAirports),
@@ -168,7 +174,7 @@ function worldBankRankings(): Pipeline[] {
     wb("tax-revenue", "Most Taxed Countries", "economy", "🧾", "Government tax revenue as a share of GDP.", "% of GDP", "", "%", 1, "GC.TAX.TOTL.GD.ZS", { minCountries: 80 }),
     wb("inflation", "Highest Inflation", "economy", "📈", "Yearly change in consumer prices.", "% per year", "", "%", 1, "FP.CPI.TOTL.ZG", { minCountries: 120 }),
     wb("unemployment", "Highest Unemployment", "economy", "📉", "Share of the labour force without work (ILO estimate).", "% of labour force", "", "%", 1, "SL.UEM.TOTL.ZS", { minCountries: 120 }),
-    wb("health-spending", "Health Spending", "health", "🏥", "Total health expenditure as a share of GDP.", "% of GDP", "", "%", 1, "SH.XPD.CHEX.GD.ZS"),
+    wb("health-spending", "Health Spending", "society", "🏥", "Total health expenditure as a share of GDP.", "% of GDP", "", "%", 1, "SH.XPD.CHEX.GD.ZS"),
     wb("fertility-rate", "Highest Fertility Rates", "society", "👶", "Average number of children per woman.", "births per woman", "", "", 2, "SP.DYN.TFRT.IN"),
     wb("urban-population", "Most Urbanised Countries", "society", "🏙️", "Share of the population living in cities.", "% urban", "", "%", 1, "SP.URB.TOTL.IN.ZS"),
     wb("older-population", "Oldest Populations", "society", "👴", "Share of the population aged 65 and over.", "% aged 65+", "", "%", 1, "SP.POP.65UP.TO.ZS"),

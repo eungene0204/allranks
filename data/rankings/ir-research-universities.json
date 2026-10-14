@@ -1,0 +1,326 @@
+{
+  "id": "ir-research-universities",
+  "title": "Top Research Universities in Iran",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Iran ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:55.585Z",
+  "items": [
+    {
+      "name": "Tehran University of Medical Sciences",
+      "country": "IR",
+      "value": 6998336,
+      "detail": "121,868 papers"
+    },
+    {
+      "name": "University of Tehran",
+      "country": "IR",
+      "value": 4728350,
+      "detail": "164,247 papers"
+    },
+    {
+      "name": "Shahid Beheshti University",
+      "country": "IR",
+      "value": 3244462,
+      "detail": "105,902 papers"
+    },
+    {
+      "name": "Shahid Beheshti University of Medical Sciences",
+      "country": "IR",
+      "value": 2920628,
+      "detail": "78,593 papers"
+    },
+    {
+      "name": "Islamic Azad University, Tehran",
+      "country": "IR",
+      "value": 2416255,
+      "detail": "129,907 papers"
+    },
+    {
+      "name": "Tarbiat Modares University",
+      "country": "IR",
+      "value": 2349765,
+      "detail": "75,707 papers"
+    },
+    {
+      "name": "Tabriz University of Medical Sciences",
+      "country": "IR",
+      "value": 2330949,
+      "detail": "39,135 papers"
+    },
+    {
+      "name": "Amirkabir University of Technology",
+      "country": "IR",
+      "value": 2011172,
+      "detail": "50,202 papers"
+    },
+    {
+      "name": "Sharif University of Technology",
+      "country": "IR",
+      "value": 1959245,
+      "detail": "47,810 papers"
+    },
+    {
+      "name": "Mashhad University of Medical Sciences",
+      "country": "IR",
+      "value": 1903357,
+      "detail": "42,180 papers"
+    },
+    {
+      "name": "Shiraz University",
+      "country": "IR",
+      "value": 1859039,
+      "detail": "58,439 papers"
+    },
+    {
+      "name": "Shiraz University of Medical Sciences",
+      "country": "IR",
+      "value": 1787966,
+      "detail": "44,144 papers"
+    },
+    {
+      "name": "Iran University of Science and Technology",
+      "country": "IR",
+      "value": 1783462,
+      "detail": "45,271 papers"
+    },
+    {
+      "name": "Iran University of Medical Sciences",
+      "country": "IR",
+      "value": 1778297,
+      "detail": "51,373 papers"
+    },
+    {
+      "name": "Isfahan University of Medical Sciences",
+      "country": "IR",
+      "value": 1611077,
+      "detail": "41,900 papers"
+    },
+    {
+      "name": "University of Tabriz",
+      "country": "IR",
+      "value": 1548649,
+      "detail": "46,643 papers"
+    },
+    {
+      "name": "Isfahan University of Technology",
+      "country": "IR",
+      "value": 1535625,
+      "detail": "33,260 papers"
+    },
+    {
+      "name": "Ferdowsi University of Mashhad",
+      "country": "IR",
+      "value": 1330827,
+      "detail": "52,897 papers"
+    },
+    {
+      "name": "Islamic Azad University, Science and Research Branch",
+      "country": "IR",
+      "value": 963076,
+      "detail": "50,871 papers"
+    },
+    {
+      "name": "Kermanshah University of Medical Sciences",
+      "country": "IR",
+      "value": 797529,
+      "detail": "17,150 papers"
+    },
+    {
+      "name": "K. N. Toosi University of Technology",
+      "country": "IR",
+      "value": 731997,
+      "detail": "24,137 papers"
+    },
+    {
+      "name": "University of Isfahan",
+      "country": "IR",
+      "value": 702652,
+      "detail": "37,573 papers"
+    },
+    {
+      "name": "Kerman University of Medical Sciences",
+      "country": "IR",
+      "value": 654104,
+      "detail": "19,096 papers"
+    },
+    {
+      "name": "University of Guilan",
+      "country": "IR",
+      "value": 651354,
+      "detail": "26,961 papers"
+    },
+    {
+      "name": "Ahvaz Jundishapur University of Medical Sciences",
+      "country": "IR",
+      "value": 647955,
+      "detail": "20,203 papers"
+    },
+    {
+      "name": "Urmia University",
+      "country": "IR",
+      "value": 644138,
+      "detail": "26,144 papers"
+    },
+    {
+      "name": "Babol Noshirvani University of Technology",
+      "country": "IR",
+      "value": 582725,
+      "detail": "11,554 papers"
+    },
+    {
+      "name": "Mazandaran University of Medical Sciences",
+      "country": "IR",
+      "value": 563901,
+      "detail": "16,755 papers"
+    },
+    {
+      "name": "Bu-Ali Sina University",
+      "country": "IR",
+      "value": 557537,
+      "detail": "20,248 papers"
+    },
+    {
+      "name": "University of Kashan",
+      "country": "IR",
+      "value": 549042,
+      "detail": "12,589 papers"
+    },
+    {
+      "name": "Baqiyatallah University of Medical Sciences",
+      "country": "IR",
+      "value": 541654,
+      "detail": "12,842 papers"
+    },
+    {
+      "name": "Razi University",
+      "country": "IR",
+      "value": 540339,
+      "detail": "19,557 papers"
+    },
+    {
+      "name": "Hamedan University of Medical Sciences",
+      "country": "IR",
+      "value": 526741,
+      "detail": "16,506 papers"
+    },
+    {
+      "name": "Shahid Bahonar University of Kerman",
+      "country": "IR",
+      "value": 519841,
+      "detail": "20,803 papers"
+    },
+    {
+      "name": "Payame Noor University",
+      "country": "IR",
+      "value": 487332,
+      "detail": "42,739 papers"
+    },
+    {
+      "name": "Semnan University",
+      "country": "IR",
+      "value": 464006,
+      "detail": "18,215 papers"
+    },
+    {
+      "name": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "country": "IR",
+      "value": 374036,
+      "detail": "15,249 papers"
+    },
+    {
+      "name": "Shahid Chamran University of Ahvaz",
+      "country": "IR",
+      "value": 366176,
+      "detail": "21,722 papers"
+    },
+    {
+      "name": "Kashan University of Medical Sciences",
+      "country": "IR",
+      "value": 363946,
+      "detail": "7,758 papers"
+    },
+    {
+      "name": "University of Mohaghegh Ardabili",
+      "country": "IR",
+      "value": 356269,
+      "detail": "17,515 papers"
+    },
+    {
+      "name": "University of Mazandaran",
+      "country": "IR",
+      "value": 343110,
+      "detail": "17,493 papers"
+    },
+    {
+      "name": "Babol University of Medical Sciences",
+      "country": "IR",
+      "value": 340514,
+      "detail": "9,808 papers"
+    },
+    {
+      "name": "Yazd University",
+      "country": "IR",
+      "value": 339602,
+      "detail": "18,450 papers"
+    },
+    {
+      "name": "University of Kurdistan",
+      "country": "IR",
+      "value": 339311,
+      "detail": "12,314 papers"
+    },
+    {
+      "name": "Gorgan University of Agricultural Sciences and Natural Resources",
+      "country": "IR",
+      "value": 339014,
+      "detail": "11,865 papers"
+    },
+    {
+      "name": "Kharazmi University",
+      "country": "IR",
+      "value": 335384,
+      "detail": "23,227 papers"
+    },
+    {
+      "name": "Sahand University of Technology",
+      "country": "IR",
+      "value": 332022,
+      "detail": "8,555 papers"
+    },
+    {
+      "name": "University of Shahrood",
+      "country": "IR",
+      "value": 321372,
+      "detail": "13,272 papers"
+    },
+    {
+      "name": "Guilan University of Medical Sciences",
+      "country": "IR",
+      "value": 309965,
+      "detail": "11,758 papers"
+    },
+    {
+      "name": "University of Zanjan",
+      "country": "IR",
+      "value": 295792,
+      "detail": "13,917 papers"
+    }
+  ]
+}

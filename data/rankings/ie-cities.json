@@ -1,0 +1,283 @@
+{
+  "id": "ie-cities",
+  "title": "Largest Cities in Ireland",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Ireland with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.670Z",
+  "items": [
+    {
+      "name": "Dublin",
+      "country": "IE",
+      "value": 1024027,
+      "detail": "Leinster"
+    },
+    {
+      "name": "South Dublin",
+      "country": "IE",
+      "value": 301075,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Cork",
+      "country": "IE",
+      "value": 224004,
+      "detail": "Munster"
+    },
+    {
+      "name": "Limerick",
+      "country": "IE",
+      "value": 102287,
+      "detail": "Munster"
+    },
+    {
+      "name": "Galway",
+      "country": "IE",
+      "value": 85910,
+      "detail": "Connacht"
+    },
+    {
+      "name": "Tallaght",
+      "country": "IE",
+      "value": 81022,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Waterford",
+      "country": "IE",
+      "value": 60079,
+      "detail": "Munster"
+    },
+    {
+      "name": "Drogheda",
+      "country": "IE",
+      "value": 44135,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Dundalk",
+      "country": "IE",
+      "value": 43112,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Swords",
+      "country": "IE",
+      "value": 40776,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Navan",
+      "country": "IE",
+      "value": 33886,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Bray",
+      "country": "IE",
+      "value": 33512,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Dún Laoghaire",
+      "country": "IE",
+      "value": 31239,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Ennis",
+      "country": "IE",
+      "value": 27923,
+      "detail": "Munster"
+    },
+    {
+      "name": "Carlow",
+      "country": "IE",
+      "value": 27351,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Douglas",
+      "country": "IE",
+      "value": 26883,
+      "detail": "Munster"
+    },
+    {
+      "name": "Tralee",
+      "country": "IE",
+      "value": 26079,
+      "detail": "Munster"
+    },
+    {
+      "name": "Portlaoise",
+      "country": "IE",
+      "value": 23494,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Athlone",
+      "country": "IE",
+      "value": 22869,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Droichead Nua",
+      "country": "IE",
+      "value": 22742,
+      "detail": "Leinster"
+    },
+    {
+      "name": "An Muileann gCearr",
+      "country": "IE",
+      "value": 22667,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Letterkenny",
+      "country": "IE",
+      "value": 22549,
+      "detail": "Ulster"
+    },
+    {
+      "name": "Sandyford",
+      "country": "IE",
+      "value": 22288,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Greystones",
+      "country": "IE",
+      "value": 22009,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Balbriggan",
+      "country": "IE",
+      "value": 21722,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Kilkenny",
+      "country": "IE",
+      "value": 21589,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Wexford",
+      "country": "IE",
+      "value": 21524,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Naas",
+      "country": "IE",
+      "value": 20713,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Sligo",
+      "country": "IE",
+      "value": 20608,
+      "detail": "Connacht"
+    },
+    {
+      "name": "Celbridge",
+      "country": "IE",
+      "value": 20288,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Finglas",
+      "country": "IE",
+      "value": 19768,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Ballincollig",
+      "country": "IE",
+      "value": 18621,
+      "detail": "Munster"
+    },
+    {
+      "name": "Cluain Meala",
+      "country": "IE",
+      "value": 18369,
+      "detail": "Munster"
+    },
+    {
+      "name": "Carrigaline",
+      "country": "IE",
+      "value": 18239,
+      "detail": "Munster"
+    },
+    {
+      "name": "Templeogue",
+      "country": "IE",
+      "value": 18076,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Rathfarnham",
+      "country": "IE",
+      "value": 17333,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Maynooth",
+      "country": "IE",
+      "value": 17259,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Malahide",
+      "country": "IE",
+      "value": 16550,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Blanchardstown",
+      "country": "IE",
+      "value": 16511,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Tullamore",
+      "country": "IE",
+      "value": 15598,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Leixlip",
+      "country": "IE",
+      "value": 15504,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Donaghmede",
+      "country": "IE",
+      "value": 15299,
+      "detail": "Leinster"
+    },
+    {
+      "name": "Lucan",
+      "country": "IE",
+      "value": 15269,
+      "detail": "Leinster"
+    }
+  ]
+}

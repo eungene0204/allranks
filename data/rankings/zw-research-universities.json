@@ -1,0 +1,170 @@
+{
+  "id": "zw-research-universities",
+  "title": "Top Research Universities in Zimbabwe",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Zimbabwe ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ZW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:34.928Z",
+  "items": [
+    {
+      "name": "University of Zimbabwe",
+      "country": "ZW",
+      "value": 566073,
+      "detail": "15,187 papers"
+    },
+    {
+      "name": "National University of Science and Technology",
+      "country": "ZW",
+      "value": 54438,
+      "detail": "4,043 papers"
+    },
+    {
+      "name": "Midlands State University",
+      "country": "ZW",
+      "value": 40099,
+      "detail": "3,991 papers"
+    },
+    {
+      "name": "Chinhoyi University of Technology",
+      "country": "ZW",
+      "value": 38815,
+      "detail": "1,907 papers"
+    },
+    {
+      "name": "Bindura University of Science Education",
+      "country": "ZW",
+      "value": 33389,
+      "detail": "1,934 papers"
+    },
+    {
+      "name": "Great Zimbabwe University",
+      "country": "ZW",
+      "value": 15471,
+      "detail": "2,202 papers"
+    },
+    {
+      "name": "Marondera University of Agricultural Sciences and Technology",
+      "country": "ZW",
+      "value": 8722,
+      "detail": "497 papers"
+    },
+    {
+      "name": "Zimbabwe Open University",
+      "country": "ZW",
+      "value": 7405,
+      "detail": "2,342 papers"
+    },
+    {
+      "name": "Africa University",
+      "country": "ZW",
+      "value": 6904,
+      "detail": "1,037 papers"
+    },
+    {
+      "name": "Harare Institute of Technology",
+      "country": "ZW",
+      "value": 6716,
+      "detail": "691 papers"
+    },
+    {
+      "name": "Lupane State University",
+      "country": "ZW",
+      "value": 6275,
+      "detail": "661 papers"
+    },
+    {
+      "name": "Women's University in Africa",
+      "country": "ZW",
+      "value": 2686,
+      "detail": "461 papers"
+    },
+    {
+      "name": "Manicaland State University of Applied Sciences",
+      "country": "ZW",
+      "value": 2533,
+      "detail": "323 papers"
+    },
+    {
+      "name": "Zimbabwe Ezekiel Guti University",
+      "country": "ZW",
+      "value": 1147,
+      "detail": "396 papers"
+    },
+    {
+      "name": "Gwanda State University",
+      "country": "ZW",
+      "value": 761,
+      "detail": "128 papers"
+    },
+    {
+      "name": "Catholic University of Zimbabwe",
+      "country": "ZW",
+      "value": 415,
+      "detail": "201 papers"
+    },
+    {
+      "name": "Reformed Church University",
+      "country": "ZW",
+      "value": 408,
+      "detail": "172 papers"
+    },
+    {
+      "name": "Solusi University",
+      "country": "ZW",
+      "value": 364,
+      "detail": "105 papers"
+    },
+    {
+      "name": "Zimbabwe National Defence University",
+      "country": "ZW",
+      "value": 56,
+      "detail": "24 papers"
+    },
+    {
+      "name": "Arrupe Jesuit University",
+      "country": "ZW",
+      "value": 55,
+      "detail": "81 papers"
+    },
+    {
+      "name": "Mutare Polytechnic",
+      "country": "ZW",
+      "value": 51,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Hillside Teachers' College",
+      "country": "ZW",
+      "value": 49,
+      "detail": "18 papers"
+    },
+    {
+      "name": "Joshua Mqabuko Nkomo Polytechnic",
+      "country": "ZW",
+      "value": 25,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Gweru Polytechnic Institute",
+      "country": "ZW",
+      "value": 13,
+      "detail": "10 papers"
+    }
+  ]
+}

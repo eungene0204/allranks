@@ -1,0 +1,326 @@
+{
+  "id": "ca-research-universities",
+  "title": "Top Research Universities in Canada",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Canada ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:36.789Z",
+  "items": [
+    {
+      "name": "University of Toronto",
+      "country": "CA",
+      "value": 67254568,
+      "detail": "580,145 papers"
+    },
+    {
+      "name": "University of British Columbia",
+      "country": "CA",
+      "value": 35392941,
+      "detail": "383,421 papers"
+    },
+    {
+      "name": "McGill University",
+      "country": "CA",
+      "value": 31704535,
+      "detail": "303,931 papers"
+    },
+    {
+      "name": "University of Alberta",
+      "country": "CA",
+      "value": 23029578,
+      "detail": "266,917 papers"
+    },
+    {
+      "name": "McMaster University",
+      "country": "CA",
+      "value": 21793324,
+      "detail": "185,802 papers"
+    },
+    {
+      "name": "Université de Montréal",
+      "country": "CA",
+      "value": 17087559,
+      "detail": "191,324 papers"
+    },
+    {
+      "name": "University of Calgary",
+      "country": "CA",
+      "value": 16131758,
+      "detail": "198,535 papers"
+    },
+    {
+      "name": "Western University",
+      "country": "CA",
+      "value": 13450107,
+      "detail": "174,237 papers"
+    },
+    {
+      "name": "University of Ottawa",
+      "country": "CA",
+      "value": 13347041,
+      "detail": "167,411 papers"
+    },
+    {
+      "name": "Université Laval",
+      "country": "CA",
+      "value": 10363984,
+      "detail": "135,509 papers"
+    },
+    {
+      "name": "University of Waterloo",
+      "country": "CA",
+      "value": 9982306,
+      "detail": "157,274 papers"
+    },
+    {
+      "name": "Queen's University",
+      "country": "CA",
+      "value": 8669080,
+      "detail": "122,023 papers"
+    },
+    {
+      "name": "University of Manitoba",
+      "country": "CA",
+      "value": 8195156,
+      "detail": "119,387 papers"
+    },
+    {
+      "name": "Dalhousie University",
+      "country": "CA",
+      "value": 7888373,
+      "detail": "107,737 papers"
+    },
+    {
+      "name": "University of Guelph",
+      "country": "CA",
+      "value": 6338927,
+      "detail": "93,136 papers"
+    },
+    {
+      "name": "Simon Fraser University",
+      "country": "CA",
+      "value": 6332717,
+      "detail": "87,190 papers"
+    },
+    {
+      "name": "University of Victoria",
+      "country": "CA",
+      "value": 6026210,
+      "detail": "74,099 papers"
+    },
+    {
+      "name": "University of Saskatchewan",
+      "country": "CA",
+      "value": 5755732,
+      "detail": "95,303 papers"
+    },
+    {
+      "name": "Carleton University",
+      "country": "CA",
+      "value": 4573651,
+      "detail": "77,208 papers"
+    },
+    {
+      "name": "York University",
+      "country": "CA",
+      "value": 4288646,
+      "detail": "90,925 papers"
+    },
+    {
+      "name": "Université de Sherbrooke",
+      "country": "CA",
+      "value": 3751470,
+      "detail": "58,798 papers"
+    },
+    {
+      "name": "Concordia University",
+      "country": "CA",
+      "value": 3477531,
+      "detail": "76,212 papers"
+    },
+    {
+      "name": "Memorial University of Newfoundland",
+      "country": "CA",
+      "value": 2935897,
+      "detail": "58,315 papers"
+    },
+    {
+      "name": "Université du Québec à Montréal",
+      "country": "CA",
+      "value": 2339738,
+      "detail": "62,930 papers"
+    },
+    {
+      "name": "Polytechnique Montréal",
+      "country": "CA",
+      "value": 2100405,
+      "detail": "38,164 papers"
+    },
+    {
+      "name": "Institut National de la Recherche Scientifique",
+      "country": "CA",
+      "value": 1959699,
+      "detail": "25,701 papers"
+    },
+    {
+      "name": "Lady Davis Institute for Medical Research",
+      "country": "CA",
+      "value": 1740573,
+      "detail": "10,146 papers"
+    },
+    {
+      "name": "University of New Brunswick",
+      "country": "CA",
+      "value": 1491739,
+      "detail": "34,943 papers"
+    },
+    {
+      "name": "Toronto Metropolitan University",
+      "country": "CA",
+      "value": 1462564,
+      "detail": "53,251 papers"
+    },
+    {
+      "name": "University of Windsor",
+      "country": "CA",
+      "value": 1454211,
+      "detail": "38,902 papers"
+    },
+    {
+      "name": "Institut universitaire de cardiologie et de pneumologie de Québec",
+      "country": "CA",
+      "value": 1400936,
+      "detail": "9,103 papers"
+    },
+    {
+      "name": "Hotchkiss Brain Institute",
+      "country": "CA",
+      "value": 1266089,
+      "detail": "9,724 papers"
+    },
+    {
+      "name": "University of Regina",
+      "country": "CA",
+      "value": 1222565,
+      "detail": "24,550 papers"
+    },
+    {
+      "name": "University of British Columbia, Okanagan Campus",
+      "country": "CA",
+      "value": 1016547,
+      "detail": "16,721 papers"
+    },
+    {
+      "name": "Brock University",
+      "country": "CA",
+      "value": 964266,
+      "detail": "23,864 papers"
+    },
+    {
+      "name": "Université du Québec",
+      "country": "CA",
+      "value": 886064,
+      "detail": "13,935 papers"
+    },
+    {
+      "name": "University of Lethbridge",
+      "country": "CA",
+      "value": 767881,
+      "detail": "15,664 papers"
+    },
+    {
+      "name": "Rotman Research Institute",
+      "country": "CA",
+      "value": 740412,
+      "detail": "4,525 papers"
+    },
+    {
+      "name": "Lakehead University",
+      "country": "CA",
+      "value": 731958,
+      "detail": "16,417 papers"
+    },
+    {
+      "name": "McGill University and Génome Québec Innovation Centre",
+      "country": "CA",
+      "value": 707899,
+      "detail": "1,399 papers"
+    },
+    {
+      "name": "Laurentian University",
+      "country": "CA",
+      "value": 700872,
+      "detail": "13,212 papers"
+    },
+    {
+      "name": "Université du Québec à Trois-Rivières",
+      "country": "CA",
+      "value": 695316,
+      "detail": "19,897 papers"
+    },
+    {
+      "name": "Wilfrid Laurier University",
+      "country": "CA",
+      "value": 686444,
+      "detail": "22,169 papers"
+    },
+    {
+      "name": "University of Toronto Scarborough",
+      "country": "CA",
+      "value": 685084,
+      "detail": "11,226 papers"
+    },
+    {
+      "name": "Ontario Tech University",
+      "country": "CA",
+      "value": 684003,
+      "detail": "15,876 papers"
+    },
+    {
+      "name": "École de Technologie Supérieure",
+      "country": "CA",
+      "value": 681772,
+      "detail": "17,897 papers"
+    },
+    {
+      "name": "HEC Montréal",
+      "country": "CA",
+      "value": 657733,
+      "detail": "12,833 papers"
+    },
+    {
+      "name": "Trent University",
+      "country": "CA",
+      "value": 655227,
+      "detail": "14,080 papers"
+    },
+    {
+      "name": "St. Boniface Hospital",
+      "country": "CA",
+      "value": 564173,
+      "detail": "5,059 papers"
+    },
+    {
+      "name": "Collège MacDonald",
+      "country": "CA",
+      "value": 493181,
+      "detail": "6,219 papers"
+    }
+  ]
+}

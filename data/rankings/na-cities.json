@@ -1,0 +1,139 @@
+{
+  "id": "na-cities",
+  "title": "Largest Cities in Namibia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Namibia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.675Z",
+  "items": [
+    {
+      "name": "Windhoek",
+      "country": "NA",
+      "value": 386219,
+      "detail": "Khomas Region"
+    },
+    {
+      "name": "Rundu",
+      "country": "NA",
+      "value": 75180,
+      "detail": "Kavango East"
+    },
+    {
+      "name": "Walvis Bay",
+      "country": "NA",
+      "value": 73598,
+      "detail": "Erongo Region"
+    },
+    {
+      "name": "Swakopmund",
+      "country": "NA",
+      "value": 53009,
+      "detail": "Erongo Region"
+    },
+    {
+      "name": "Oshakati",
+      "country": "NA",
+      "value": 43309,
+      "detail": "Oshana Region"
+    },
+    {
+      "name": "Rehoboth",
+      "country": "NA",
+      "value": 34185,
+      "detail": "Hardap Region"
+    },
+    {
+      "name": "Katima Mulilo",
+      "country": "NA",
+      "value": 33615,
+      "detail": "Zambezi Region"
+    },
+    {
+      "name": "Otjiwarongo",
+      "country": "NA",
+      "value": 33481,
+      "detail": "Otjozondjupa Region"
+    },
+    {
+      "name": "Ondangwa",
+      "country": "NA",
+      "value": 27049,
+      "detail": "Oshana Region"
+    },
+    {
+      "name": "Okahandja",
+      "country": "NA",
+      "value": 26832,
+      "detail": "Otjozondjupa Region"
+    },
+    {
+      "name": "Grootfontein",
+      "country": "NA",
+      "value": 24099,
+      "detail": "Otjozondjupa Region"
+    },
+    {
+      "name": "Ongwediva",
+      "country": "NA",
+      "value": 24012,
+      "detail": "Oshana Region"
+    },
+    {
+      "name": "Keetmanshoop",
+      "country": "NA",
+      "value": 23049,
+      "detail": "Karas Region"
+    },
+    {
+      "name": "Helao Nafidi",
+      "country": "NA",
+      "value": 22963,
+      "detail": "Ohangwena Region"
+    },
+    {
+      "name": "Tsumeb",
+      "country": "NA",
+      "value": 22845,
+      "detail": "Oshikoto Region"
+    },
+    {
+      "name": "Gobabis",
+      "country": "NA",
+      "value": 22639,
+      "detail": "Omaheke Region"
+    },
+    {
+      "name": "Katutura",
+      "country": "NA",
+      "value": 21243,
+      "detail": "Khomas Region"
+    },
+    {
+      "name": "Ndiyona",
+      "country": "NA",
+      "value": 20633,
+      "detail": "Kavango East"
+    },
+    {
+      "name": "Lüderitz",
+      "country": "NA",
+      "value": 15137,
+      "detail": "Karas Region"
+    }
+  ]
+}

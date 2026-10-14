@@ -1,0 +1,121 @@
+{
+  "id": "lr-cities",
+  "title": "Largest Cities in Liberia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Liberia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.673Z",
+  "items": [
+    {
+      "name": "Monrovia",
+      "country": "LR",
+      "value": 1542549,
+      "detail": "Montserrado County"
+    },
+    {
+      "name": "Gbarnga",
+      "country": "LR",
+      "value": 86031,
+      "detail": "Bong County"
+    },
+    {
+      "name": "Buchanan",
+      "country": "LR",
+      "value": 75854,
+      "detail": "Grand Bassa County"
+    },
+    {
+      "name": "Ganta",
+      "country": "LR",
+      "value": 63523,
+      "detail": "Nimba"
+    },
+    {
+      "name": "Kakata",
+      "country": "LR",
+      "value": 52247,
+      "detail": "Margibi County"
+    },
+    {
+      "name": "Zwedru",
+      "country": "LR",
+      "value": 38269,
+      "detail": "Grand Gedeh County"
+    },
+    {
+      "name": "Harbel",
+      "country": "LR",
+      "value": 38208,
+      "detail": "Margibi County"
+    },
+    {
+      "name": "Harper",
+      "country": "LR",
+      "value": 35503,
+      "detail": "Maryland County"
+    },
+    {
+      "name": "Pleebo City",
+      "country": "LR",
+      "value": 35423,
+      "detail": "Maryland County"
+    },
+    {
+      "name": "Foya Kamara",
+      "country": "LR",
+      "value": 31052,
+      "detail": "Lofa County"
+    },
+    {
+      "name": "New Yekepa",
+      "country": "LR",
+      "value": 24695,
+      "detail": "Nimba"
+    },
+    {
+      "name": "Voinjama",
+      "country": "LR",
+      "value": 23051,
+      "detail": "Lofa County"
+    },
+    {
+      "name": "Tubmanburg",
+      "country": "LR",
+      "value": 22005,
+      "detail": "Bomi County"
+    },
+    {
+      "name": "Saclepea",
+      "country": "LR",
+      "value": 20818,
+      "detail": "Nimba"
+    },
+    {
+      "name": "Greenville",
+      "country": "LR",
+      "value": 20184,
+      "detail": "Sinoe County"
+    },
+    {
+      "name": "Sanniquellie",
+      "country": "LR",
+      "value": 17895,
+      "detail": "Nimba"
+    }
+  ]
+}

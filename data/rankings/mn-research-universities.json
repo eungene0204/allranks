@@ -1,0 +1,170 @@
+{
+  "id": "mn-research-universities",
+  "title": "Top Research Universities in Mongolia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mongolia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:03.134Z",
+  "items": [
+    {
+      "name": "National University of Mongolia",
+      "country": "MN",
+      "value": 73844,
+      "detail": "5,063 papers"
+    },
+    {
+      "name": "Mongolian National University of Medical Sciences",
+      "country": "MN",
+      "value": 51765,
+      "detail": "2,273 papers"
+    },
+    {
+      "name": "Mongolian University of Science and Technology",
+      "country": "MN",
+      "value": 23404,
+      "detail": "2,228 papers"
+    },
+    {
+      "name": "Mongolian University of Life Sciences",
+      "country": "MN",
+      "value": 13410,
+      "detail": "1,169 papers"
+    },
+    {
+      "name": "Mongolian National University",
+      "country": "MN",
+      "value": 8053,
+      "detail": "547 papers"
+    },
+    {
+      "name": "Mongolian National University of Education",
+      "country": "MN",
+      "value": 3367,
+      "detail": "855 papers"
+    },
+    {
+      "name": "University of Finance and Economics",
+      "country": "MN",
+      "value": 913,
+      "detail": "192 papers"
+    },
+    {
+      "name": "Mongolian University of Pharmaceutical Sciences",
+      "country": "MN",
+      "value": 861,
+      "detail": "145 papers"
+    },
+    {
+      "name": "University of the Humanities",
+      "country": "MN",
+      "value": 714,
+      "detail": "176 papers"
+    },
+    {
+      "name": "National Academy of Governance",
+      "country": "MN",
+      "value": 554,
+      "detail": "74 papers"
+    },
+    {
+      "name": "Mongolia International University",
+      "country": "MN",
+      "value": 530,
+      "detail": "74 papers"
+    },
+    {
+      "name": "Graduate University of Mongolia",
+      "country": "MN",
+      "value": 430,
+      "detail": "663 papers"
+    },
+    {
+      "name": "New Mongol Institute of Technology",
+      "country": "MN",
+      "value": 273,
+      "detail": "46 papers"
+    },
+    {
+      "name": "Mongolian National Institute of Physical Education",
+      "country": "MN",
+      "value": 244,
+      "detail": "13 papers"
+    },
+    {
+      "name": "Mongolian National Defense University",
+      "country": "MN",
+      "value": 170,
+      "detail": "150 papers"
+    },
+    {
+      "name": "Ulaanbaatar International University",
+      "country": "MN",
+      "value": 155,
+      "detail": "53 papers"
+    },
+    {
+      "name": "Mongolian National Institute for Educational Research",
+      "country": "MN",
+      "value": 86,
+      "detail": "110 papers"
+    },
+    {
+      "name": "University of Internal Affairs of Mongolia",
+      "country": "MN",
+      "value": 85,
+      "detail": "273 papers"
+    },
+    {
+      "name": "Mandakh University",
+      "country": "MN",
+      "value": 84,
+      "detail": "118 papers"
+    },
+    {
+      "name": "Otgontenger University",
+      "country": "MN",
+      "value": 66,
+      "detail": "93 papers"
+    },
+    {
+      "name": "Ider University",
+      "country": "MN",
+      "value": 49,
+      "detail": "50 papers"
+    },
+    {
+      "name": "American University of Mongolia",
+      "country": "MN",
+      "value": 45,
+      "detail": "16 papers"
+    },
+    {
+      "name": "Ikh Zasag International University",
+      "country": "MN",
+      "value": 21,
+      "detail": "49 papers"
+    },
+    {
+      "name": "Mongolian State University of Culture and Art",
+      "country": "MN",
+      "value": 16,
+      "detail": "48 papers"
+    }
+  ]
+}

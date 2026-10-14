@@ -49,6 +49,7 @@ export default async function RankingPage({ params }: Props) {
           </Link>
         )}
         {sample && <span className="chip chip-warn">Sample data</span>}
+        {r.source.kind === "agent" && r.source.verified === false && <span className="chip chip-warn">AI-collected · unverified</span>}
       </div>
       <RankingTable ranking={r} />
       <SourceLine ranking={r} />

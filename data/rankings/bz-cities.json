@@ -1,0 +1,55 @@
+{
+  "id": "bz-cities",
+  "title": "Largest Cities in Belize",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Belize with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.662Z",
+  "items": [
+    {
+      "name": "Belize City",
+      "country": "BZ",
+      "value": 65222,
+      "detail": "Belize District"
+    },
+    {
+      "name": "San Ignacio",
+      "country": "BZ",
+      "value": 21229,
+      "detail": "Cayo District"
+    },
+    {
+      "name": "San Pedro",
+      "country": "BZ",
+      "value": 17429,
+      "detail": "Belize District"
+    },
+    {
+      "name": "Orange Walk",
+      "country": "BZ",
+      "value": 15298,
+      "detail": "Orange Walk District"
+    },
+    {
+      "name": "Belmopan",
+      "country": "BZ",
+      "value": 13381,
+      "detail": "Cayo District"
+    }
+  ]
+}

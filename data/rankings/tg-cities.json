@@ -1,0 +1,145 @@
+{
+  "id": "tg-cities",
+  "title": "Largest Cities in Togo",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Togo with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.682Z",
+  "items": [
+    {
+      "name": "Lomé",
+      "country": "TG",
+      "value": 2188376,
+      "detail": "Maritime"
+    },
+    {
+      "name": "Sokodé",
+      "country": "TG",
+      "value": 117811,
+      "detail": "Centrale"
+    },
+    {
+      "name": "Kara",
+      "country": "TG",
+      "value": 104207,
+      "detail": "Kara"
+    },
+    {
+      "name": "Atakpamé",
+      "country": "TG",
+      "value": 80683,
+      "detail": "Plateaux"
+    },
+    {
+      "name": "Kpalimé",
+      "country": "TG",
+      "value": 75084,
+      "detail": "Plateaux"
+    },
+    {
+      "name": "Bassar",
+      "country": "TG",
+      "value": 61845,
+      "detail": "Kara"
+    },
+    {
+      "name": "Dapaong",
+      "country": "TG",
+      "value": 58071,
+      "detail": "Savanes"
+    },
+    {
+      "name": "Tsévié",
+      "country": "TG",
+      "value": 55775,
+      "detail": "Maritime"
+    },
+    {
+      "name": "Aného",
+      "country": "TG",
+      "value": 47579,
+      "detail": "Maritime"
+    },
+    {
+      "name": "Mango",
+      "country": "TG",
+      "value": 37748,
+      "detail": "Savanes"
+    },
+    {
+      "name": "Anié",
+      "country": "TG",
+      "value": 37398,
+      "detail": "Plateaux"
+    },
+    {
+      "name": "Notsé",
+      "country": "TG",
+      "value": 35039,
+      "detail": "Plateaux"
+    },
+    {
+      "name": "Sinkassé",
+      "country": "TG",
+      "value": 26926,
+      "detail": "Savanes"
+    },
+    {
+      "name": "Tchamba",
+      "country": "TG",
+      "value": 25668,
+      "detail": "Centrale"
+    },
+    {
+      "name": "Sotouboua",
+      "country": "TG",
+      "value": 24332,
+      "detail": "Centrale"
+    },
+    {
+      "name": "Badou",
+      "country": "TG",
+      "value": 24000,
+      "detail": "Plateaux"
+    },
+    {
+      "name": "Niamtougou",
+      "country": "TG",
+      "value": 23261,
+      "detail": "Kara"
+    },
+    {
+      "name": "Bafilo",
+      "country": "TG",
+      "value": 22543,
+      "detail": "Kara"
+    },
+    {
+      "name": "Tabligbo",
+      "country": "TG",
+      "value": 22304,
+      "detail": "Maritime"
+    },
+    {
+      "name": "Vogan",
+      "country": "TG",
+      "value": 20569,
+      "detail": "Maritime"
+    }
+  ]
+}

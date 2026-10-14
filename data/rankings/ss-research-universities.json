@@ -1,0 +1,74 @@
+{
+  "id": "ss-research-universities",
+  "title": "Top Research Universities in South Sudan",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in South Sudan ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:22.081Z",
+  "items": [
+    {
+      "name": "Bridge University",
+      "country": "SS",
+      "value": 12540,
+      "detail": "461 papers"
+    },
+    {
+      "name": "University of Juba",
+      "country": "SS",
+      "value": 12398,
+      "detail": "1,543 papers"
+    },
+    {
+      "name": "University of Bahr El-Ghazal",
+      "country": "SS",
+      "value": 1526,
+      "detail": "248 papers"
+    },
+    {
+      "name": "Upper Nile University",
+      "country": "SS",
+      "value": 527,
+      "detail": "235 papers"
+    },
+    {
+      "name": "Rumbek University",
+      "country": "SS",
+      "value": 273,
+      "detail": "38 papers"
+    },
+    {
+      "name": "John Garang Memorial University of Science and Technology",
+      "country": "SS",
+      "value": 106,
+      "detail": "35 papers"
+    },
+    {
+      "name": "Akobo Heritage and Memorial University",
+      "country": "SS",
+      "value": 1,
+      "detail": "2 papers"
+    },
+    {
+      "name": "Catholic University of South Sudan",
+      "country": "SS",
+      "value": 1,
+      "detail": "116 papers"
+    }
+  ]
+}

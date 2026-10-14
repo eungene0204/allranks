@@ -1,0 +1,110 @@
+{
+  "id": "bi-research-universities",
+  "title": "Top Research Universities in Burundi",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Burundi ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:23.534Z",
+  "items": [
+    {
+      "name": "Université du Burundi",
+      "country": "BI",
+      "value": 24537,
+      "detail": "2,140 papers"
+    },
+    {
+      "name": "École Normale Supérieure",
+      "country": "BI",
+      "value": 4481,
+      "detail": "666 papers"
+    },
+    {
+      "name": "Institut National de sante publique",
+      "country": "BI",
+      "value": 2457,
+      "detail": "150 papers"
+    },
+    {
+      "name": "Light University of Bujumbur",
+      "country": "BI",
+      "value": 1363,
+      "detail": "68 papers"
+    },
+    {
+      "name": "Hope Africa University",
+      "country": "BI",
+      "value": 1054,
+      "detail": "134 papers"
+    },
+    {
+      "name": "University of Ngozi",
+      "country": "BI",
+      "value": 264,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Université Polytechnique de Gitega",
+      "country": "BI",
+      "value": 141,
+      "detail": "5 papers"
+    },
+    {
+      "name": "Institut de Statistiques et d’Études Économiques du Burundi",
+      "country": "BI",
+      "value": 94,
+      "detail": "7 papers"
+    },
+    {
+      "name": "Université du Lac Tanganyika",
+      "country": "BI",
+      "value": 80,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Institut Supérieur de Gestion des Entreprises",
+      "country": "BI",
+      "value": 46,
+      "detail": "2 papers"
+    },
+    {
+      "name": "Université des Grands Lacs",
+      "country": "BI",
+      "value": 24,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Université Polytechnique Intégrée",
+      "country": "BI",
+      "value": 24,
+      "detail": "3 papers"
+    },
+    {
+      "name": "École Normale d'Administration",
+      "country": "BI",
+      "value": 8,
+      "detail": "13 papers"
+    },
+    {
+      "name": "Bujumbura Christian University",
+      "country": "BI",
+      "value": 1,
+      "detail": "3 papers"
+    }
+  ]
+}

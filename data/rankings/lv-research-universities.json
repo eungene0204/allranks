@@ -1,0 +1,278 @@
+{
+  "id": "lv-research-universities",
+  "title": "Top Research Universities in Latvia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Latvia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LV",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:52.553Z",
+  "items": [
+    {
+      "name": "University of Latvia",
+      "country": "LV",
+      "value": 609568,
+      "detail": "23,801 papers"
+    },
+    {
+      "name": "Riga Technical University",
+      "country": "LV",
+      "value": 336750,
+      "detail": "15,827 papers"
+    },
+    {
+      "name": "Riga Stradiņš University",
+      "country": "LV",
+      "value": 167275,
+      "detail": "8,651 papers"
+    },
+    {
+      "name": "Latvia University of Life Sciences and Technologies",
+      "country": "LV",
+      "value": 48272,
+      "detail": "4,225 papers"
+    },
+    {
+      "name": "Daugavpils University",
+      "country": "LV",
+      "value": 41315,
+      "detail": "4,612 papers"
+    },
+    {
+      "name": "Latvian State Forest Research Institute \"Silava\"",
+      "country": "LV",
+      "value": 32147,
+      "detail": "985 papers"
+    },
+    {
+      "name": "Stockholm School of Economics in Riga",
+      "country": "LV",
+      "value": 10450,
+      "detail": "351 papers"
+    },
+    {
+      "name": "Transport and Telecommunication Institute",
+      "country": "LV",
+      "value": 7925,
+      "detail": "1,036 papers"
+    },
+    {
+      "name": "University of Latvia FinTech Business School",
+      "country": "LV",
+      "value": 7546,
+      "detail": "399 papers"
+    },
+    {
+      "name": "Rezekne Academy of Technologies",
+      "country": "LV",
+      "value": 5994,
+      "detail": "1,744 papers"
+    },
+    {
+      "name": "Ventspils University of Applied Sciences",
+      "country": "LV",
+      "value": 5883,
+      "detail": "709 papers"
+    },
+    {
+      "name": "Vidzeme University of Applied Sciences",
+      "country": "LV",
+      "value": 4630,
+      "detail": "496 papers"
+    },
+    {
+      "name": "College of Business Administration",
+      "country": "LV",
+      "value": 4361,
+      "detail": "454 papers"
+    },
+    {
+      "name": "RISEBA University of Applied Sciences",
+      "country": "LV",
+      "value": 3974,
+      "detail": "539 papers"
+    },
+    {
+      "name": "Latvian Academy of Sport Education",
+      "country": "LV",
+      "value": 3135,
+      "detail": "472 papers"
+    },
+    {
+      "name": "University of Liepāja",
+      "country": "LV",
+      "value": 2906,
+      "detail": "592 papers"
+    },
+    {
+      "name": "Turība University",
+      "country": "LV",
+      "value": 2620,
+      "detail": "586 papers"
+    },
+    {
+      "name": "EKA University of Applied Sciences",
+      "country": "LV",
+      "value": 2116,
+      "detail": "260 papers"
+    },
+    {
+      "name": "Baltic International Academy",
+      "country": "LV",
+      "value": 1866,
+      "detail": "528 papers"
+    },
+    {
+      "name": "Latvian Maritime Academy",
+      "country": "LV",
+      "value": 1737,
+      "detail": "122 papers"
+    },
+    {
+      "name": "Rīgas Ziemeļvalstu augstskola",
+      "country": "LV",
+      "value": 1551,
+      "detail": "399 papers"
+    },
+    {
+      "name": "Rēzeknes Augstskola",
+      "country": "LV",
+      "value": 1380,
+      "detail": "311 papers"
+    },
+    {
+      "name": "Jāzeps Vītols Latvian Academy of Music",
+      "country": "LV",
+      "value": 941,
+      "detail": "107 papers"
+    },
+    {
+      "name": "Latvian Academy of Culture",
+      "country": "LV",
+      "value": 729,
+      "detail": "376 papers"
+    },
+    {
+      "name": "Riga Aeronautical Institute",
+      "country": "LV",
+      "value": 718,
+      "detail": "118 papers"
+    },
+    {
+      "name": "Riga Technical College",
+      "country": "LV",
+      "value": 554,
+      "detail": "60 papers"
+    },
+    {
+      "name": "College of Law",
+      "country": "LV",
+      "value": 504,
+      "detail": "132 papers"
+    },
+    {
+      "name": "Riga High Tech University",
+      "country": "LV",
+      "value": 378,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Art Academy of Latvia",
+      "country": "LV",
+      "value": 343,
+      "detail": "154 papers"
+    },
+    {
+      "name": "Riga Graduate School of Law",
+      "country": "LV",
+      "value": 343,
+      "detail": "124 papers"
+    },
+    {
+      "name": "Alberta College",
+      "country": "LV",
+      "value": 291,
+      "detail": "25 papers"
+    },
+    {
+      "name": "National Defence Academy of Latvia",
+      "country": "LV",
+      "value": 208,
+      "detail": "49 papers"
+    },
+    {
+      "name": "Baltic Psychology and Management University College",
+      "country": "LV",
+      "value": 199,
+      "detail": "55 papers"
+    },
+    {
+      "name": "Riga Building College",
+      "country": "LV",
+      "value": 60,
+      "detail": "3 papers"
+    },
+    {
+      "name": "Higher School of Social Technologies",
+      "country": "LV",
+      "value": 11,
+      "detail": "3 papers"
+    },
+    {
+      "name": "Latvian Christian Academy",
+      "country": "LV",
+      "value": 10,
+      "detail": "15 papers"
+    },
+    {
+      "name": "State Police College",
+      "country": "LV",
+      "value": 8,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Latvia Business College",
+      "country": "LV",
+      "value": 7,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Daugavpils Medical College",
+      "country": "LV",
+      "value": 5,
+      "detail": "9 papers"
+    },
+    {
+      "name": "International Cosmetology College",
+      "country": "LV",
+      "value": 4,
+      "detail": "6 papers"
+    },
+    {
+      "name": "International Higher School of Practical Psychology",
+      "country": "LV",
+      "value": 3,
+      "detail": "18 papers"
+    },
+    {
+      "name": "Riga College of Accounting and Finance",
+      "country": "LV",
+      "value": 2,
+      "detail": "3 papers"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "cu-cities",
+  "title": "Largest Cities in Cuba",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Cuba with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CU",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.666Z",
+  "items": [
+    {
+      "name": "Havana",
+      "country": "CU",
+      "value": 2163824,
+      "detail": "Havana"
+    },
+    {
+      "name": "Santiago de Cuba",
+      "country": "CU",
+      "value": 555865,
+      "detail": "Santiago de Cuba Province"
+    },
+    {
+      "name": "Camagüey",
+      "country": "CU",
+      "value": 347562,
+      "detail": "Camagüey"
+    },
+    {
+      "name": "Holguín",
+      "country": "CU",
+      "value": 319102,
+      "detail": "Holguín Province"
+    },
+    {
+      "name": "Guantánamo",
+      "country": "CU",
+      "value": 272801,
+      "detail": "Guantánamo Province"
+    },
+    {
+      "name": "Santa Clara",
+      "country": "CU",
+      "value": 250512,
+      "detail": "Villa Clara Province"
+    },
+    {
+      "name": "Almendares",
+      "country": "CU",
+      "value": 240000,
+      "detail": "Havana"
+    },
+    {
+      "name": "Diez de Octubre",
+      "country": "CU",
+      "value": 227293,
+      "detail": "Havana"
+    },
+    {
+      "name": "Arroyo Naranjo",
+      "country": "CU",
+      "value": 210053,
+      "detail": "Havana"
+    },
+    {
+      "name": "Mantilla",
+      "country": "CU",
+      "value": 206918,
+      "detail": "Havana"
+    },
+    {
+      "name": "Las Tunas",
+      "country": "CU",
+      "value": 203684,
+      "detail": "Las Tunas Province"
+    },
+    {
+      "name": "Bayamo",
+      "country": "CU",
+      "value": 192632,
+      "detail": "Granma Province"
+    },
+    {
+      "name": "Boyeros",
+      "country": "CU",
+      "value": 188593,
+      "detail": "Havana"
+    },
+    {
+      "name": "Pinar del Río",
+      "country": "CU",
+      "value": 186990,
+      "detail": "Pinar del Río"
+    },
+    {
+      "name": "Cienfuegos",
+      "country": "CU",
+      "value": 186644,
+      "detail": "Cienfuegos Province"
+    },
+    {
+      "name": "Fontanar",
+      "country": "CU",
+      "value": 178601,
+      "detail": "Havana"
+    },
+    {
+      "name": "Ciudad Camilo Cienfuegos",
+      "country": "CU",
+      "value": 178041,
+      "detail": "Havana"
+    },
+    {
+      "name": "San Miguel del Padrón",
+      "country": "CU",
+      "value": 159273,
+      "detail": "Havana"
+    },
+    {
+      "name": "Centro Habana",
+      "country": "CU",
+      "value": 158151,
+      "detail": "Havana"
+    },
+    {
+      "name": "Balcón de la Lisa",
+      "country": "CU",
+      "value": 147415,
+      "detail": "Havana"
+    },
+    {
+      "name": "Matanzas",
+      "country": "CU",
+      "value": 146733,
+      "detail": "Matanzas Province"
+    },
+    {
+      "name": "Ciego de Ávila",
+      "country": "CU",
+      "value": 142027,
+      "detail": "Ciego de Ávila Province"
+    },
+    {
+      "name": "Plaza de la Revolución",
+      "country": "CU",
+      "value": 139135,
+      "detail": "Havana"
+    },
+    {
+      "name": "Marianao",
+      "country": "CU",
+      "value": 134057,
+      "detail": "Havana"
+    },
+    {
+      "name": "Cerro",
+      "country": "CU",
+      "value": 132351,
+      "detail": "Havana"
+    },
+    {
+      "name": "Manzanillo",
+      "country": "CU",
+      "value": 128188,
+      "detail": "Granma Province"
+    },
+    {
+      "name": "Sancti Spíritus",
+      "country": "CU",
+      "value": 127069,
+      "detail": "Sancti Spíritus Province"
+    },
+    {
+      "name": "Guanabacoa",
+      "country": "CU",
+      "value": 112964,
+      "detail": "Havana"
+    },
+    {
+      "name": "Vedado",
+      "country": "CU",
+      "value": 108369,
+      "detail": "Havana"
+    },
+    {
+      "name": "Palma Soriano",
+      "country": "CU",
+      "value": 102826,
+      "detail": "Santiago de Cuba Province"
+    },
+    {
+      "name": "Alamar",
+      "country": "CU",
+      "value": 100000,
+      "detail": "Havana"
+    },
+    {
+      "name": "Cárdenas",
+      "country": "CU",
+      "value": 98515,
+      "detail": "Matanzas Province"
+    },
+    {
+      "name": "La Habana Vieja",
+      "country": "CU",
+      "value": 95383,
+      "detail": "Havana"
+    },
+    {
+      "name": "Moa",
+      "country": "CU",
+      "value": 92852,
+      "detail": "Holguín Province"
+    },
+    {
+      "name": "Puerto Padre",
+      "country": "CU",
+      "value": 76838,
+      "detail": "Las Tunas Province"
+    },
+    {
+      "name": "Vedado del Cotorro",
+      "country": "CU",
+      "value": 74650,
+      "detail": "Havana"
+    },
+    {
+      "name": "Contramaestre",
+      "country": "CU",
+      "value": 70438,
+      "detail": "Santiago de Cuba Province"
+    },
+    {
+      "name": "Güira de Melena",
+      "country": "CU",
+      "value": 69879,
+      "detail": "Artemisa"
+    },
+    {
+      "name": "Consolación del Sur",
+      "country": "CU",
+      "value": 69857,
+      "detail": "Pinar del Río"
+    },
+    {
+      "name": "Güines",
+      "country": "CU",
+      "value": 68935,
+      "detail": "Mayabeque"
+    },
+    {
+      "name": "Artemisa",
+      "country": "CU",
+      "value": 68073,
+      "detail": "Artemisa"
+    },
+    {
+      "name": "San Luis",
+      "country": "CU",
+      "value": 67293,
+      "detail": "Santiago de Cuba Province"
+    },
+    {
+      "name": "Morón",
+      "country": "CU",
+      "value": 66060,
+      "detail": "Ciego de Ávila Province"
+    },
+    {
+      "name": "Colón",
+      "country": "CU",
+      "value": 63882,
+      "detail": "Matanzas Province"
+    },
+    {
+      "name": "Florida",
+      "country": "CU",
+      "value": 63007,
+      "detail": "Camagüey"
+    },
+    {
+      "name": "Sagua la Grande",
+      "country": "CU",
+      "value": 62073,
+      "detail": "Villa Clara Province"
+    },
+    {
+      "name": "Trinidad",
+      "country": "CU",
+      "value": 60206,
+      "detail": "Sancti Spíritus Province"
+    },
+    {
+      "name": "San Cristobal",
+      "country": "CU",
+      "value": 59579,
+      "detail": "Artemisa"
+    },
+    {
+      "name": "Placetas",
+      "country": "CU",
+      "value": 55408,
+      "detail": "Villa Clara Province"
+    },
+    {
+      "name": "San José de las Lajas",
+      "country": "CU",
+      "value": 54847,
+      "detail": "Mayabeque"
+    }
+  ]
+}

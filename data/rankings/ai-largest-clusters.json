@@ -1,0 +1,172 @@
+{
+  "id": "ai-largest-clusters",
+  "title": "Largest AI Supercomputers",
+  "category": "ai",
+  "icon": "🧠",
+  "desc": "The biggest operational AI supercomputers, measured in NVIDIA H100-equivalent chips, with their owners.",
+  "unit": "H100-equivalent chips",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "multi": true,
+  "year": 2025,
+  "asOf": "2025-07",
+  "source": {
+    "kind": "csv",
+    "name": "Epoch AI, GPU Clusters",
+    "url": "https://epoch.ai/data/gpu-clusters",
+    "license": "CC BY 4.0 (Epoch AI)",
+    "note": "Operational clusters only. Compute is expressed in H100-equivalents; some clusters are estimates (Epoch marks them 'Likely')."
+  },
+  "updatedAt": "2026-10-14T02:33:56.163Z",
+  "items": [
+    {
+      "name": "xAI Colossus Memphis Phase 3",
+      "country": "US",
+      "value": 275796,
+      "detail": "xAI"
+    },
+    {
+      "name": "Meta 100k",
+      "country": "US",
+      "value": 100000,
+      "detail": "Meta AI"
+    },
+    {
+      "name": "OpenAI/Microsoft Goodyear Arizona",
+      "country": "US",
+      "value": 100000,
+      "detail": "Microsoft, OpenAI"
+    },
+    {
+      "name": "Oracle OCI Supercluster H200s",
+      "country": "US",
+      "value": 65536,
+      "detail": "Oracle"
+    },
+    {
+      "name": "Tesla Cortex Phase 1",
+      "country": "US",
+      "value": 50000,
+      "detail": "Tesla"
+    },
+    {
+      "name": "Lawrence Livermore NL El Capitan Phase 2",
+      "country": "US",
+      "value": 44143,
+      "detail": "US Department of Energy"
+    },
+    {
+      "name": "CoreWeave H200s",
+      "country": "US",
+      "value": 42000,
+      "detail": "CoreWeave"
+    },
+    {
+      "name": "Meta GenAI 2024a",
+      "country": "US",
+      "value": 24576,
+      "detail": "Meta AI"
+    },
+    {
+      "name": "Meta GenAI 2024b",
+      "country": "US",
+      "value": 24576,
+      "detail": "Meta AI"
+    },
+    {
+      "name": "\"Jupiter, Jülich\"",
+      "country": "DE",
+      "value": 23536,
+      "detail": "EuroHPC JU, Julich Supercomputing Center"
+    },
+    {
+      "name": "Oracle OCI MI300x",
+      "country": "US",
+      "value": 21649,
+      "detail": "Oracle"
+    },
+    {
+      "name": "NexGen Cloud Hyperstack AQ Compute Supercomputer",
+      "country": "NO",
+      "value": 16384,
+      "detail": "NexGen Cloud"
+    },
+    {
+      "name": "Oracle OCI Supercluster H100s",
+      "country": "US",
+      "value": 16384,
+      "detail": "Oracle"
+    },
+    {
+      "name": "Microsoft Azure Eagle",
+      "country": "US",
+      "value": 14400,
+      "detail": "Microsoft"
+    },
+    {
+      "name": "Alps Supercomputer Phase 2",
+      "country": "CH",
+      "value": 10752,
+      "detail": "ETH Domain"
+    },
+    {
+      "name": "NVIDIA CoreWeave Eos-DFW Phase 1",
+      "country": "US",
+      "value": 10752,
+      "detail": "Nvidia, CoreWeave"
+    },
+    {
+      "name": "Oracle OCI Supercluster A100s",
+      "country": "US",
+      "value": 10332,
+      "detail": "Oracle"
+    },
+    {
+      "name": "Anonymized Chinese System",
+      "country": "CN",
+      "value": 10000
+    },
+    {
+      "name": "Anonymized Chinese System #2",
+      "country": "CN",
+      "value": 10000
+    },
+    {
+      "name": "Imbue 10k Cluster",
+      "country": "US",
+      "value": 10000,
+      "detail": "Imbue"
+    },
+    {
+      "name": "Tesla 10k H100 Cluster",
+      "country": "US",
+      "value": 10000,
+      "detail": "Tesla"
+    },
+    {
+      "name": "Sesterce Nordics",
+      "country": "AE",
+      "value": 8192,
+      "detail": "Sesterce"
+    },
+    {
+      "name": "Anonymized Chinese System #3",
+      "country": "CN",
+      "value": 8000
+    },
+    {
+      "name": "Magic G4 Google Cloud Rental",
+      "country": "US",
+      "value": 8000,
+      "detail": "Google"
+    },
+    {
+      "name": "Nebius 8k Finland Phase 1",
+      "country": "FI",
+      "value": 8000,
+      "detail": "Nebius AI"
+    }
+  ]
+}

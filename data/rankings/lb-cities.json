@@ -1,0 +1,133 @@
+{
+  "id": "lb-cities",
+  "title": "Largest Cities in Lebanon",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Lebanon with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.672Z",
+  "items": [
+    {
+      "name": "Beirut",
+      "country": "LB",
+      "value": 1916100,
+      "detail": "Beirut"
+    },
+    {
+      "name": "Ra’s Bayrūt",
+      "country": "LB",
+      "value": 1251739,
+      "detail": "Beirut"
+    },
+    {
+      "name": "Tripoli",
+      "country": "LB",
+      "value": 229398,
+      "detail": "North Lebanon"
+    },
+    {
+      "name": "Sidon",
+      "country": "LB",
+      "value": 163554,
+      "detail": "South Governorate"
+    },
+    {
+      "name": "Tyre",
+      "country": "LB",
+      "value": 135204,
+      "detail": "South Governorate"
+    },
+    {
+      "name": "Aley",
+      "country": "LB",
+      "value": 130000,
+      "detail": "Mount Lebanon"
+    },
+    {
+      "name": "Nabatîyé et Tahta",
+      "country": "LB",
+      "value": 120000,
+      "detail": "Nabatieh"
+    },
+    {
+      "name": "Habboûch",
+      "country": "LB",
+      "value": 98433,
+      "detail": "Nabatieh"
+    },
+    {
+      "name": "Jounieh",
+      "country": "LB",
+      "value": 96315,
+      "detail": "Mount Lebanon"
+    },
+    {
+      "name": "Zahlé",
+      "country": "LB",
+      "value": 78145,
+      "detail": "Bekaa"
+    },
+    {
+      "name": "Aarsâl",
+      "country": "LB",
+      "value": 50000,
+      "detail": "Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Ghazieh",
+      "country": "LB",
+      "value": 50000,
+      "detail": "South Governorate"
+    },
+    {
+      "name": "Baalbek",
+      "country": "LB",
+      "value": 30916,
+      "detail": "Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Chmistâr",
+      "country": "LB",
+      "value": 30000,
+      "detail": "Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "En Nâqoûra",
+      "country": "LB",
+      "value": 24910,
+      "detail": "South Governorate"
+    },
+    {
+      "name": "El Hermel",
+      "country": "LB",
+      "value": 22250,
+      "detail": "Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Byblos",
+      "country": "LB",
+      "value": 20784,
+      "detail": "Mount Lebanon"
+    },
+    {
+      "name": "Bsharri",
+      "country": "LB",
+      "value": 20000,
+      "detail": "North Lebanon"
+    }
+  ]
+}

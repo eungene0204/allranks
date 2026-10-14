@@ -1,0 +1,325 @@
+{
+  "id": "rs-cities",
+  "title": "Largest Cities in Serbia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Serbia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.679Z",
+  "items": [
+    {
+      "name": "Belgrade",
+      "country": "RS",
+      "value": 1273651,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Niš",
+      "country": "RS",
+      "value": 250000,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Novi Sad",
+      "country": "RS",
+      "value": 215400,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Novi Beograd",
+      "country": "RS",
+      "value": 209763,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Zemun",
+      "country": "RS",
+      "value": 155591,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Kragujevac",
+      "country": "RS",
+      "value": 147473,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Čačak",
+      "country": "RS",
+      "value": 117072,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Subotica",
+      "country": "RS",
+      "value": 100000,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Leskovac",
+      "country": "RS",
+      "value": 94758,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Novi Pazar",
+      "country": "RS",
+      "value": 85996,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Kraljevo",
+      "country": "RS",
+      "value": 82846,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Zrenjanin",
+      "country": "RS",
+      "value": 79773,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Pančevo",
+      "country": "RS",
+      "value": 76654,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Kruševac",
+      "country": "RS",
+      "value": 75256,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Užice",
+      "country": "RS",
+      "value": 63577,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Smederevo",
+      "country": "RS",
+      "value": 62000,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Valjevo",
+      "country": "RS",
+      "value": 61035,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Vranje",
+      "country": "RS",
+      "value": 56199,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Šabac",
+      "country": "RS",
+      "value": 55114,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Zaječar",
+      "country": "RS",
+      "value": 49800,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Trstenik",
+      "country": "RS",
+      "value": 49043,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Sombor",
+      "country": "RS",
+      "value": 48454,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Kikinda",
+      "country": "RS",
+      "value": 41935,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Požarevac",
+      "country": "RS",
+      "value": 41736,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Pirot",
+      "country": "RS",
+      "value": 40678,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Bor",
+      "country": "RS",
+      "value": 39387,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Sremska Mitrovica",
+      "country": "RS",
+      "value": 39084,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Vršac",
+      "country": "RS",
+      "value": 36300,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Jagodina",
+      "country": "RS",
+      "value": 35589,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Ruma",
+      "country": "RS",
+      "value": 32229,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Bačka Palanka",
+      "country": "RS",
+      "value": 29449,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Prokuplje",
+      "country": "RS",
+      "value": 27673,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Smederevska Palanka",
+      "country": "RS",
+      "value": 27000,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Vrbas",
+      "country": "RS",
+      "value": 25907,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Bečej",
+      "country": "RS",
+      "value": 25774,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Knjazevac",
+      "country": "RS",
+      "value": 25000,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Inđija",
+      "country": "RS",
+      "value": 24450,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Aranđelovac",
+      "country": "RS",
+      "value": 24309,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Gornji Milanovac",
+      "country": "RS",
+      "value": 23982,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Lazarevac",
+      "country": "RS",
+      "value": 23551,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Sremčica",
+      "country": "RS",
+      "value": 23000,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Ćuprija",
+      "country": "RS",
+      "value": 20585,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Senta",
+      "country": "RS",
+      "value": 20302,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Loznica",
+      "country": "RS",
+      "value": 19515,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Apatin",
+      "country": "RS",
+      "value": 18320,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Futog",
+      "country": "RS",
+      "value": 18018,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Negotin",
+      "country": "RS",
+      "value": 17612,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Obrenovac",
+      "country": "RS",
+      "value": 16821,
+      "detail": "Central Serbia"
+    },
+    {
+      "name": "Stara Pazova",
+      "country": "RS",
+      "value": 16217,
+      "detail": "Vojvodina"
+    },
+    {
+      "name": "Bačka Topola",
+      "country": "RS",
+      "value": 16154,
+      "detail": "Vojvodina"
+    }
+  ]
+}

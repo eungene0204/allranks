@@ -1,0 +1,115 @@
+{
+  "id": "ee-cities",
+  "title": "Largest Cities in Estonia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Estonia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.667Z",
+  "items": [
+    {
+      "name": "Tallinn",
+      "country": "EE",
+      "value": 394024,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Lasnamäe",
+      "country": "EE",
+      "value": 115008,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Tartu",
+      "country": "EE",
+      "value": 91407,
+      "detail": "Tartu"
+    },
+    {
+      "name": "Mustamäe",
+      "country": "EE",
+      "value": 67968,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Kesklinn",
+      "country": "EE",
+      "value": 67766,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Põhja-Tallinn",
+      "country": "EE",
+      "value": 63240,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Narva",
+      "country": "EE",
+      "value": 54409,
+      "detail": "Ida-Virumaa"
+    },
+    {
+      "name": "Haabersti",
+      "country": "EE",
+      "value": 51423,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Pärnu",
+      "country": "EE",
+      "value": 40228,
+      "detail": "Pärnumaa"
+    },
+    {
+      "name": "Nõmme",
+      "country": "EE",
+      "value": 39422,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Kohtla-Järve",
+      "country": "EE",
+      "value": 35395,
+      "detail": "Ida-Virumaa"
+    },
+    {
+      "name": "Kristiine",
+      "country": "EE",
+      "value": 34306,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Pirita",
+      "country": "EE",
+      "value": 18310,
+      "detail": "Harjumaa"
+    },
+    {
+      "name": "Viljandi",
+      "country": "EE",
+      "value": 17407,
+      "detail": "Viljandimaa"
+    },
+    {
+      "name": "Maardu",
+      "country": "EE",
+      "value": 16630,
+      "detail": "Harjumaa"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "be-cities",
+  "title": "Largest Cities in Belgium",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Belgium with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.659Z",
+  "items": [
+    {
+      "name": "Brussels",
+      "country": "BE",
+      "value": 1019022,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Antwerp",
+      "country": "BE",
+      "value": 529247,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Gent",
+      "country": "BE",
+      "value": 265086,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Charleroi",
+      "country": "BE",
+      "value": 200132,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Liège",
+      "country": "BE",
+      "value": 195278,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Anderlecht",
+      "country": "BE",
+      "value": 160553,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Schaerbeek",
+      "country": "BE",
+      "value": 132761,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Brugge",
+      "country": "BE",
+      "value": 118509,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Namur",
+      "country": "BE",
+      "value": 110939,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Leuven",
+      "country": "BE",
+      "value": 101032,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Molenbeek-Saint-Jean",
+      "country": "BE",
+      "value": 97037,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Mons",
+      "country": "BE",
+      "value": 95299,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Ixelles",
+      "country": "BE",
+      "value": 86671,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Uccle",
+      "country": "BE",
+      "value": 82929,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Deurne",
+      "country": "BE",
+      "value": 78747,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Hasselt",
+      "country": "BE",
+      "value": 77651,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Aalst",
+      "country": "BE",
+      "value": 77534,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Mechelen",
+      "country": "BE",
+      "value": 77530,
+      "detail": "Flanders"
+    },
+    {
+      "name": "La Louvière",
+      "country": "BE",
+      "value": 76668,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Kortrijk",
+      "country": "BE",
+      "value": 73879,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Tournai",
+      "country": "BE",
+      "value": 69554,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Ostend",
+      "country": "BE",
+      "value": 69011,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Sint-Niklaas",
+      "country": "BE",
+      "value": 69010,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Genk",
+      "country": "BE",
+      "value": 63666,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Seraing",
+      "country": "BE",
+      "value": 60737,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Woluwe-Saint-Lambert",
+      "country": "BE",
+      "value": 56584,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Forest",
+      "country": "BE",
+      "value": 56254,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Roeselare",
+      "country": "BE",
+      "value": 56016,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Verviers",
+      "country": "BE",
+      "value": 52824,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Jette",
+      "country": "BE",
+      "value": 52490,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Mouscron",
+      "country": "BE",
+      "value": 52069,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Saint-Gilles",
+      "country": "BE",
+      "value": 50221,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Etterbeek",
+      "country": "BE",
+      "value": 48344,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Borgerhout",
+      "country": "BE",
+      "value": 46087,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Dendermonde",
+      "country": "BE",
+      "value": 45673,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Beveren",
+      "country": "BE",
+      "value": 45179,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Merksem",
+      "country": "BE",
+      "value": 44435,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Turnhout",
+      "country": "BE",
+      "value": 44000,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Berchem",
+      "country": "BE",
+      "value": 43511,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Evere",
+      "country": "BE",
+      "value": 41667,
+      "detail": "Brussels Capital"
+    },
+    {
+      "name": "Lokeren",
+      "country": "BE",
+      "value": 41438,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Wilrijk",
+      "country": "BE",
+      "value": 41403,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Beringen",
+      "country": "BE",
+      "value": 40930,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Dilbeek",
+      "country": "BE",
+      "value": 39482,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Heist-op-den-Berg",
+      "country": "BE",
+      "value": 37873,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Sint-Truiden",
+      "country": "BE",
+      "value": 37859,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Braine-l'Alleud",
+      "country": "BE",
+      "value": 37512,
+      "detail": "Wallonia"
+    },
+    {
+      "name": "Brasschaat",
+      "country": "BE",
+      "value": 37040,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Grimbergen",
+      "country": "BE",
+      "value": 37000,
+      "detail": "Flanders"
+    },
+    {
+      "name": "Vilvoorde",
+      "country": "BE",
+      "value": 36955,
+      "detail": "Flanders"
+    }
+  ]
+}

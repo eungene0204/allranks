@@ -1,0 +1,67 @@
+{
+  "id": "sb-cities",
+  "title": "Largest Cities in Solomon Islands",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Solomon Islands with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.679Z",
+  "items": [
+    {
+      "name": "Honiara",
+      "country": "SB",
+      "value": 56298,
+      "detail": "Honiara"
+    },
+    {
+      "name": "Panatina",
+      "country": "SB",
+      "value": 32712,
+      "detail": "Honiara"
+    },
+    {
+      "name": "Nggosi",
+      "country": "SB",
+      "value": 26009,
+      "detail": "Guadalcanal Province"
+    },
+    {
+      "name": "Tandai",
+      "country": "SB",
+      "value": 24592,
+      "detail": "Guadalcanal Province"
+    },
+    {
+      "name": "Kola'a",
+      "country": "SB",
+      "value": 20783,
+      "detail": "Honiara"
+    },
+    {
+      "name": "Vura",
+      "country": "SB",
+      "value": 18753,
+      "detail": "Honiara"
+    },
+    {
+      "name": "Malango",
+      "country": "SB",
+      "value": 15560,
+      "detail": "Guadalcanal Province"
+    }
+  ]
+}

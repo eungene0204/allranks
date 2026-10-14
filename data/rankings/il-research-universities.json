@@ -1,0 +1,326 @@
+{
+  "id": "il-research-universities",
+  "title": "Top Research Universities in Israel",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Israel ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:50.903Z",
+  "items": [
+    {
+      "name": "Tel Aviv University",
+      "country": "IL",
+      "value": 18812160,
+      "detail": "209,225 papers"
+    },
+    {
+      "name": "Weizmann Institute of Science",
+      "country": "IL",
+      "value": 13865698,
+      "detail": "77,713 papers"
+    },
+    {
+      "name": "Hebrew University of Jerusalem",
+      "country": "IL",
+      "value": 13032962,
+      "detail": "163,685 papers"
+    },
+    {
+      "name": "Technion – Israel Institute of Technology",
+      "country": "IL",
+      "value": 9347428,
+      "detail": "122,336 papers"
+    },
+    {
+      "name": "Ben-Gurion University of the Negev",
+      "country": "IL",
+      "value": 5484764,
+      "detail": "96,559 papers"
+    },
+    {
+      "name": "Bar-Ilan University",
+      "country": "IL",
+      "value": 3562203,
+      "detail": "60,055 papers"
+    },
+    {
+      "name": "University of Haifa",
+      "country": "IL",
+      "value": 2007339,
+      "detail": "48,843 papers"
+    },
+    {
+      "name": "Ariel University",
+      "country": "IL",
+      "value": 363425,
+      "detail": "15,362 papers"
+    },
+    {
+      "name": "Reichman University",
+      "country": "IL",
+      "value": 232024,
+      "detail": "7,113 papers"
+    },
+    {
+      "name": "Open University of Israel",
+      "country": "IL",
+      "value": 168794,
+      "detail": "5,441 papers"
+    },
+    {
+      "name": "Tel Hai Academic College",
+      "country": "IL",
+      "value": 116328,
+      "detail": "3,675 papers"
+    },
+    {
+      "name": "Holon Institute of Technology",
+      "country": "IL",
+      "value": 91649,
+      "detail": "4,091 papers"
+    },
+    {
+      "name": "Interuniversity Institute for Marine Sciences in Eilat",
+      "country": "IL",
+      "value": 70619,
+      "detail": "1,053 papers"
+    },
+    {
+      "name": "Academic College of Tel Aviv-Yafo",
+      "country": "IL",
+      "value": 68216,
+      "detail": "2,476 papers"
+    },
+    {
+      "name": "Ruppin Academic Center",
+      "country": "IL",
+      "value": 57531,
+      "detail": "2,325 papers"
+    },
+    {
+      "name": "Jerusalem College of Technology",
+      "country": "IL",
+      "value": 56729,
+      "detail": "2,814 papers"
+    },
+    {
+      "name": "Braude College of Engineering Karmiel",
+      "country": "IL",
+      "value": 48037,
+      "detail": "2,138 papers"
+    },
+    {
+      "name": "The Max Stern Yezreel Valley College",
+      "country": "IL",
+      "value": 47588,
+      "detail": "2,319 papers"
+    },
+    {
+      "name": "Oranim Academic College of Education",
+      "country": "IL",
+      "value": 45371,
+      "detail": "1,809 papers"
+    },
+    {
+      "name": "Sami Shamoon College of Engineering",
+      "country": "IL",
+      "value": 39513,
+      "detail": "2,341 papers"
+    },
+    {
+      "name": "Sapir College",
+      "country": "IL",
+      "value": 31967,
+      "detail": "1,687 papers"
+    },
+    {
+      "name": "Ono Academic College",
+      "country": "IL",
+      "value": 29460,
+      "detail": "1,846 papers"
+    },
+    {
+      "name": "Beit Berl College",
+      "country": "IL",
+      "value": 29088,
+      "detail": "1,628 papers"
+    },
+    {
+      "name": "College of Management Academic Studies",
+      "country": "IL",
+      "value": 28124,
+      "detail": "1,374 papers"
+    },
+    {
+      "name": "Ashkelon Academic College",
+      "country": "IL",
+      "value": 24787,
+      "detail": "1,359 papers"
+    },
+    {
+      "name": "Achva Academic College",
+      "country": "IL",
+      "value": 21917,
+      "detail": "1,287 papers"
+    },
+    {
+      "name": "Shenkar College of Engineering and Design",
+      "country": "IL",
+      "value": 20280,
+      "detail": "940 papers"
+    },
+    {
+      "name": "Netanya Academic College",
+      "country": "IL",
+      "value": 19713,
+      "detail": "1,091 papers"
+    },
+    {
+      "name": "Jerusalem Multidisciplinary College",
+      "country": "IL",
+      "value": 19329,
+      "detail": "885 papers"
+    },
+    {
+      "name": "Kinneret College on the Sea of Galilee",
+      "country": "IL",
+      "value": 16799,
+      "detail": "791 papers"
+    },
+    {
+      "name": "Afeka College of Engineering",
+      "country": "IL",
+      "value": 15796,
+      "detail": "945 papers"
+    },
+    {
+      "name": "Gordon Academic College of Education",
+      "country": "IL",
+      "value": 14998,
+      "detail": "719 papers"
+    },
+    {
+      "name": "Al-Qasemi Academic College of Education",
+      "country": "IL",
+      "value": 14592,
+      "detail": "752 papers"
+    },
+    {
+      "name": "Kibbutzim College of Education, Technology and the Arts",
+      "country": "IL",
+      "value": 14136,
+      "detail": "1,043 papers"
+    },
+    {
+      "name": "Zefat Academic College",
+      "country": "IL",
+      "value": 12921,
+      "detail": "1,163 papers"
+    },
+    {
+      "name": "Azrieli College of Engineering Jerusalem",
+      "country": "IL",
+      "value": 12089,
+      "detail": "860 papers"
+    },
+    {
+      "name": "Western Galilee College",
+      "country": "IL",
+      "value": 11627,
+      "detail": "1,260 papers"
+    },
+    {
+      "name": "Peres Academic Center",
+      "country": "IL",
+      "value": 9951,
+      "detail": "561 papers"
+    },
+    {
+      "name": "Academic College at Wingate",
+      "country": "IL",
+      "value": 9938,
+      "detail": "406 papers"
+    },
+    {
+      "name": "Levinsky College of Education",
+      "country": "IL",
+      "value": 7937,
+      "detail": "514 papers"
+    },
+    {
+      "name": "Kaye Academic College of Education",
+      "country": "IL",
+      "value": 7260,
+      "detail": "570 papers"
+    },
+    {
+      "name": "David Yellin College of Education",
+      "country": "IL",
+      "value": 6507,
+      "detail": "523 papers"
+    },
+    {
+      "name": "Sakhnin College",
+      "country": "IL",
+      "value": 5073,
+      "detail": "482 papers"
+    },
+    {
+      "name": "The Arab Academic College for Education in Israel",
+      "country": "IL",
+      "value": 4856,
+      "detail": "443 papers"
+    },
+    {
+      "name": "The Mofet Institute",
+      "country": "IL",
+      "value": 3090,
+      "detail": "262 papers"
+    },
+    {
+      "name": "Schechter Institute of Jewish Studies",
+      "country": "IL",
+      "value": 2996,
+      "detail": "138 papers"
+    },
+    {
+      "name": "Van Leer Jerusalem Institute",
+      "country": "IL",
+      "value": 2871,
+      "detail": "437 papers"
+    },
+    {
+      "name": "Levinsky-Wingate Academic College",
+      "country": "IL",
+      "value": 2290,
+      "detail": "414 papers"
+    },
+    {
+      "name": "Bezalel Academy of Arts and Design",
+      "country": "IL",
+      "value": 2266,
+      "detail": "292 papers"
+    },
+    {
+      "name": "Israel Sports Center for the Disabled",
+      "country": "IL",
+      "value": 2226,
+      "detail": "44 papers"
+    }
+  ]
+}

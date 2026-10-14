@@ -1,0 +1,104 @@
+{
+  "id": "gt-research-universities",
+  "title": "Top Research Universities in Guatemala",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Guatemala ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:44.084Z",
+  "items": [
+    {
+      "name": "Universidad del Valle de Guatemala",
+      "country": "GT",
+      "value": 70110,
+      "detail": "1,916 papers"
+    },
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "country": "GT",
+      "value": 58287,
+      "detail": "6,636 papers"
+    },
+    {
+      "name": "Universidad Francisco Marroquín",
+      "country": "GT",
+      "value": 17553,
+      "detail": "1,084 papers"
+    },
+    {
+      "name": "Galileo University",
+      "country": "GT",
+      "value": 4973,
+      "detail": "339 papers"
+    },
+    {
+      "name": "Universidad Rafael Landívar",
+      "country": "GT",
+      "value": 2871,
+      "detail": "597 papers"
+    },
+    {
+      "name": "Mesoamerican University",
+      "country": "GT",
+      "value": 2429,
+      "detail": "41 papers"
+    },
+    {
+      "name": "Universidad Mariano Galvez",
+      "country": "GT",
+      "value": 2208,
+      "detail": "210 papers"
+    },
+    {
+      "name": "Universidad del Istmo",
+      "country": "GT",
+      "value": 1720,
+      "detail": "381 papers"
+    },
+    {
+      "name": "Universidad Panamericana",
+      "country": "GT",
+      "value": 1412,
+      "detail": "401 papers"
+    },
+    {
+      "name": "Centro Universitario de Occidente",
+      "country": "GT",
+      "value": 538,
+      "detail": "97 papers"
+    },
+    {
+      "name": "Consejo Superior Universitario Centroamericano",
+      "country": "GT",
+      "value": 88,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Probigua",
+      "country": "GT",
+      "value": 71,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Universidad Rural de Guatemala",
+      "country": "GT",
+      "value": 70,
+      "detail": "8 papers"
+    }
+  ]
+}

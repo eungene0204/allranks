@@ -1,0 +1,84 @@
+{
+  "id": "ma-skyscrapers",
+  "title": "Tallest Buildings in Morocco",
+  "short": "Skyscrapers",
+  "category": "world",
+  "icon": "🏙️",
+  "desc": "The tallest buildings in Morocco, by height.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MA",
+  "year": 2026,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Council on Tall Buildings and Urban Habitat / Emporis (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Morocco",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:40:05.730Z",
+  "items": [
+    {
+      "name": "Mohammed VI Tower",
+      "country": "MA",
+      "value": 250,
+      "detail": "Salé"
+    },
+    {
+      "name": "Hassan II Mosque",
+      "country": "MA",
+      "value": 210,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "Ibn Sina University Hospital",
+      "country": "MA",
+      "value": 150,
+      "detail": "Rabat"
+    },
+    {
+      "name": "Maroc Telecom HQ",
+      "country": "MA",
+      "value": 139,
+      "detail": "Rabat"
+    },
+    {
+      "name": "Casablanca Finance City Tower",
+      "country": "MA",
+      "value": 136,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "The Mohammed VI International University Hospital",
+      "country": "MA",
+      "value": 120,
+      "detail": "Rabat"
+    },
+    {
+      "name": "Casablanca Twin Center (East)",
+      "country": "MA",
+      "value": 115,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "AWB Tower",
+      "country": "MA",
+      "value": 114,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "BCP Tower",
+      "country": "MA",
+      "value": 105.4,
+      "detail": "Casablanca"
+    },
+    {
+      "name": "ANP Tower",
+      "country": "MA",
+      "value": 105,
+      "detail": "Casablanca"
+    }
+  ]
+}

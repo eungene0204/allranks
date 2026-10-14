@@ -1,0 +1,326 @@
+{
+  "id": "ua-research-universities",
+  "title": "Top Research Universities in Ukraine",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Ukraine ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:47.226Z",
+  "items": [
+    {
+      "name": "Taras Shevchenko National University of Kyiv",
+      "country": "UA",
+      "value": 625287,
+      "detail": "55,340 papers"
+    },
+    {
+      "name": "Sumy State University",
+      "country": "UA",
+      "value": 278609,
+      "detail": "14,360 papers"
+    },
+    {
+      "name": "Lviv Polytechnic National University",
+      "country": "UA",
+      "value": 261441,
+      "detail": "36,022 papers"
+    },
+    {
+      "name": "V. N. Karazin Kharkiv National University",
+      "country": "UA",
+      "value": 232208,
+      "detail": "29,101 papers"
+    },
+    {
+      "name": "Lviv University",
+      "country": "UA",
+      "value": 211649,
+      "detail": "34,387 papers"
+    },
+    {
+      "name": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+      "country": "UA",
+      "value": 211033,
+      "detail": "39,941 papers"
+    },
+    {
+      "name": "Ivano-Frankivsk National Medical University",
+      "country": "UA",
+      "value": 110002,
+      "detail": "6,192 papers"
+    },
+    {
+      "name": "National Technical University \"Kharkiv Polytechnic Institute\"",
+      "country": "UA",
+      "value": 108891,
+      "detail": "20,903 papers"
+    },
+    {
+      "name": "National University of Life and Environmental Sciences of Ukraine",
+      "country": "UA",
+      "value": 97701,
+      "detail": "18,930 papers"
+    },
+    {
+      "name": "Yuriy Fedkovych Chernivtsi National University",
+      "country": "UA",
+      "value": 92649,
+      "detail": "13,796 papers"
+    },
+    {
+      "name": "Vasyl Stefanyk Carpathian National University",
+      "country": "UA",
+      "value": 91073,
+      "detail": "11,771 papers"
+    },
+    {
+      "name": "Odesa I. I. Mechnikov National University",
+      "country": "UA",
+      "value": 88842,
+      "detail": "14,540 papers"
+    },
+    {
+      "name": "Uzhhorod National University",
+      "country": "UA",
+      "value": 78689,
+      "detail": "14,496 papers"
+    },
+    {
+      "name": "Danylo Halytsky Lviv National Medical University",
+      "country": "UA",
+      "value": 77863,
+      "detail": "9,568 papers"
+    },
+    {
+      "name": "Bogomolets National Medical University",
+      "country": "UA",
+      "value": 76988,
+      "detail": "14,259 papers"
+    },
+    {
+      "name": "National University \"Kyiv Aviation Institute\"",
+      "country": "UA",
+      "value": 75408,
+      "detail": "19,121 papers"
+    },
+    {
+      "name": "Kharkiv National University of Radio Electronics",
+      "country": "UA",
+      "value": 66064,
+      "detail": "10,690 papers"
+    },
+    {
+      "name": "Oles Honchar Dnipro National University",
+      "country": "UA",
+      "value": 64540,
+      "detail": "14,520 papers"
+    },
+    {
+      "name": "National Aerospace University – Kharkiv Aviation Institute",
+      "country": "UA",
+      "value": 59365,
+      "detail": "6,565 papers"
+    },
+    {
+      "name": "I.Horbachevsky Ternopil National Medical University",
+      "country": "UA",
+      "value": 49341,
+      "detail": "10,697 papers"
+    },
+    {
+      "name": "V.I. Vernadsky Crimean Federal University",
+      "country": "UA",
+      "value": 45299,
+      "detail": "7,941 papers"
+    },
+    {
+      "name": "West Ukrainian National University",
+      "country": "UA",
+      "value": 43600,
+      "detail": "10,392 papers"
+    },
+    {
+      "name": "Kyiv National University of Construction and Architecture",
+      "country": "UA",
+      "value": 42747,
+      "detail": "9,696 papers"
+    },
+    {
+      "name": "Ukrainian State University of Chemical Technology",
+      "country": "UA",
+      "value": 41123,
+      "detail": "2,834 papers"
+    },
+    {
+      "name": "Lesya Ukrainka Volyn National University",
+      "country": "UA",
+      "value": 38646,
+      "detail": "7,723 papers"
+    },
+    {
+      "name": "Sumy National Agrarian University",
+      "country": "UA",
+      "value": 36991,
+      "detail": "5,804 papers"
+    },
+    {
+      "name": "Dnipro University of Technology",
+      "country": "UA",
+      "value": 36284,
+      "detail": "6,184 papers"
+    },
+    {
+      "name": "State University of Trade and Economics",
+      "country": "UA",
+      "value": 34031,
+      "detail": "9,621 papers"
+    },
+    {
+      "name": "National University of Pharmacy",
+      "country": "UA",
+      "value": 33968,
+      "detail": "5,531 papers"
+    },
+    {
+      "name": "National University of Water and Environmental Engineering",
+      "country": "UA",
+      "value": 32463,
+      "detail": "6,348 papers"
+    },
+    {
+      "name": "Kharkiv National Medical University",
+      "country": "UA",
+      "value": 31368,
+      "detail": "8,632 papers"
+    },
+    {
+      "name": "Ivano-Frankivsk National Technical University of Oil and Gas",
+      "country": "UA",
+      "value": 31282,
+      "detail": "6,180 papers"
+    },
+    {
+      "name": "Shupyk National Healthcare University of Ukraine",
+      "country": "UA",
+      "value": 31062,
+      "detail": "7,889 papers"
+    },
+    {
+      "name": "Odesа Polytechnic National University",
+      "country": "UA",
+      "value": 29332,
+      "detail": "8,940 papers"
+    },
+    {
+      "name": "Cherkasy National University",
+      "country": "UA",
+      "value": 29214,
+      "detail": "4,658 papers"
+    },
+    {
+      "name": "Donetsk National Medical University",
+      "country": "UA",
+      "value": 28204,
+      "detail": "3,839 papers"
+    },
+    {
+      "name": "Khmelnytskyi National University",
+      "country": "UA",
+      "value": 27599,
+      "detail": "7,557 papers"
+    },
+    {
+      "name": "Kyiv National Economic University named after Vadym Hetman",
+      "country": "UA",
+      "value": 26557,
+      "detail": "8,413 papers"
+    },
+    {
+      "name": "Zaporizhzhia State Medical and Pharmaceutical University",
+      "country": "UA",
+      "value": 26552,
+      "detail": "6,647 papers"
+    },
+    {
+      "name": "Ternopil Ivan Pului National Technical University",
+      "country": "UA",
+      "value": 26538,
+      "detail": "3,827 papers"
+    },
+    {
+      "name": "National Pirogov Memorial Medical University, Vinnytsya",
+      "country": "UA",
+      "value": 26496,
+      "detail": "6,441 papers"
+    },
+    {
+      "name": "National University of Kyiv-Mohyla Academy",
+      "country": "UA",
+      "value": 26202,
+      "detail": "5,280 papers"
+    },
+    {
+      "name": "Stepan Gzhytskyi National University of Veterinary Medicine and Biotechnologies Lviv",
+      "country": "UA",
+      "value": 25844,
+      "detail": "3,909 papers"
+    },
+    {
+      "name": "Vinnytsia National Technical University",
+      "country": "UA",
+      "value": 25597,
+      "detail": "13,267 papers"
+    },
+    {
+      "name": "National University of Food Technologies",
+      "country": "UA",
+      "value": 25059,
+      "detail": "6,934 papers"
+    },
+    {
+      "name": "Bukovinian State Medical University",
+      "country": "UA",
+      "value": 24440,
+      "detail": "7,895 papers"
+    },
+    {
+      "name": "Odessa National Medical University",
+      "country": "UA",
+      "value": 24316,
+      "detail": "5,077 papers"
+    },
+    {
+      "name": "O.M. Beketov National University of Urban Economy in Kharkiv",
+      "country": "UA",
+      "value": 23761,
+      "detail": "6,664 papers"
+    },
+    {
+      "name": "Admiral Makarov National University of Shipbuilding",
+      "country": "UA",
+      "value": 23595,
+      "detail": "4,479 papers"
+    },
+    {
+      "name": "Kryvyi Rih State Pedagogical University",
+      "country": "UA",
+      "value": 23349,
+      "detail": "4,194 papers"
+    }
+  ]
+}

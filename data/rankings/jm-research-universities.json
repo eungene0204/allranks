@@ -1,0 +1,74 @@
+{
+  "id": "jm-research-universities",
+  "title": "Top Research Universities in Jamaica",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Jamaica ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:50.075Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "JM",
+      "value": 811670,
+      "detail": "16,640 papers"
+    },
+    {
+      "name": "University of the West Indies System",
+      "country": "JM",
+      "value": 78696,
+      "detail": "1,835 papers"
+    },
+    {
+      "name": "University of Technology, Jamaica",
+      "country": "JM",
+      "value": 10802,
+      "detail": "772 papers"
+    },
+    {
+      "name": "Northern Caribbean University",
+      "country": "JM",
+      "value": 1575,
+      "detail": "262 papers"
+    },
+    {
+      "name": "Mico University College",
+      "country": "JM",
+      "value": 463,
+      "detail": "66 papers"
+    },
+    {
+      "name": "University of the Commonwealth Caribbean",
+      "country": "JM",
+      "value": 419,
+      "detail": "99 papers"
+    },
+    {
+      "name": "International University of the Caribbean",
+      "country": "JM",
+      "value": 111,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Edna Manley College of the Visual and Performing Arts",
+      "country": "JM",
+      "value": 11,
+      "detail": "11 papers"
+    }
+  ]
+}

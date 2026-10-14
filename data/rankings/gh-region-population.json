@@ -1,0 +1,120 @@
+{
+  "id": "gh-region-population",
+  "title": "Ghanaian Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each of Ghana's 16 regions at the 2021 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GH",
+  "year": 2021,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Ghana Statistical Service, 2021 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_Ghana",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-14T02:40:13.793Z",
+  "items": [
+    {
+      "name": "Greater Accra",
+      "country": "GH",
+      "value": 5.4457,
+      "detail": "Accra"
+    },
+    {
+      "name": "Ashanti",
+      "country": "GH",
+      "value": 5.4405,
+      "detail": "Kumasi"
+    },
+    {
+      "name": "Eastern",
+      "country": "GH",
+      "value": 2.9257,
+      "detail": "Koforidua"
+    },
+    {
+      "name": "Central",
+      "country": "GH",
+      "value": 2.8598,
+      "detail": "Cape Coast"
+    },
+    {
+      "name": "Northern",
+      "country": "GH",
+      "value": 2.3109,
+      "detail": "Tamale"
+    },
+    {
+      "name": "Western",
+      "country": "GH",
+      "value": 2.0606,
+      "detail": "Takoradi"
+    },
+    {
+      "name": "Volta",
+      "country": "GH",
+      "value": 1.659,
+      "detail": "Ho"
+    },
+    {
+      "name": "Upper East",
+      "country": "GH",
+      "value": 1.3012,
+      "detail": "Bolgatanga"
+    },
+    {
+      "name": "Bono",
+      "country": "GH",
+      "value": 1.2086,
+      "detail": "Sunyani"
+    },
+    {
+      "name": "Bono East",
+      "country": "GH",
+      "value": 1.2034,
+      "detail": "Techiman"
+    },
+    {
+      "name": "Upper West",
+      "country": "GH",
+      "value": 0.9015,
+      "detail": "Wa"
+    },
+    {
+      "name": "Western North",
+      "country": "GH",
+      "value": 0.8809,
+      "detail": "Sefwi Wiawso"
+    },
+    {
+      "name": "Oti",
+      "country": "GH",
+      "value": 0.7472,
+      "detail": "Dambai"
+    },
+    {
+      "name": "North East Region",
+      "country": "GH",
+      "value": 0.6589,
+      "detail": "Nalerigu"
+    },
+    {
+      "name": "Savannah",
+      "country": "GH",
+      "value": 0.6533,
+      "detail": "Damongo"
+    },
+    {
+      "name": "Ahafo",
+      "country": "GH",
+      "value": 0.5647,
+      "detail": "Goaso"
+    }
+  ]
+}

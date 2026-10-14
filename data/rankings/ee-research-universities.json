@@ -1,0 +1,152 @@
+{
+  "id": "ee-research-universities",
+  "title": "Top Research Universities in Estonia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Estonia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:49.699Z",
+  "items": [
+    {
+      "name": "University of Tartu",
+      "country": "EE",
+      "value": 4597668,
+      "detail": "48,293 papers"
+    },
+    {
+      "name": "Tallinn University of Technology",
+      "country": "EE",
+      "value": 883993,
+      "detail": "23,509 papers"
+    },
+    {
+      "name": "Estonian University of Life Sciences",
+      "country": "EE",
+      "value": 429250,
+      "detail": "8,236 papers"
+    },
+    {
+      "name": "Tallinn University",
+      "country": "EE",
+      "value": 146156,
+      "detail": "7,055 papers"
+    },
+    {
+      "name": "Estonian Business School",
+      "country": "EE",
+      "value": 7876,
+      "detail": "674 papers"
+    },
+    {
+      "name": "Estonian Entrepreneurship University of Applied Sciences",
+      "country": "EE",
+      "value": 2572,
+      "detail": "227 papers"
+    },
+    {
+      "name": "Estonian Academy of Arts",
+      "country": "EE",
+      "value": 1839,
+      "detail": "303 papers"
+    },
+    {
+      "name": "Tartu Health Care College",
+      "country": "EE",
+      "value": 1821,
+      "detail": "132 papers"
+    },
+    {
+      "name": "Estonian National Defense College",
+      "country": "EE",
+      "value": 1529,
+      "detail": "174 papers"
+    },
+    {
+      "name": "Tallinn Health University of Applied Sciences",
+      "country": "EE",
+      "value": 1411,
+      "detail": "156 papers"
+    },
+    {
+      "name": "Estonian Academy of Music and Theatre",
+      "country": "EE",
+      "value": 1348,
+      "detail": "200 papers"
+    },
+    {
+      "name": "Tallinn University of Applied Sciences",
+      "country": "EE",
+      "value": 1026,
+      "detail": "192 papers"
+    },
+    {
+      "name": "Estonian Academy of Security Sciences",
+      "country": "EE",
+      "value": 662,
+      "detail": "258 papers"
+    },
+    {
+      "name": "Estonian Aviation Academy",
+      "country": "EE",
+      "value": 503,
+      "detail": "65 papers"
+    },
+    {
+      "name": "EuroAcademy",
+      "country": "EE",
+      "value": 324,
+      "detail": "48 papers"
+    },
+    {
+      "name": "Estonian Information Technology College",
+      "country": "EE",
+      "value": 273,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Tartu Art College",
+      "country": "EE",
+      "value": 65,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Institute of Theology of Estonian Evangelical Lutheran Church",
+      "country": "EE",
+      "value": 11,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Informaatika ja Arvutustehnika Instituut",
+      "country": "EE",
+      "value": 10,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Lääne-Viru College",
+      "country": "EE",
+      "value": 8,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Tartu Theological Seminary",
+      "country": "EE",
+      "value": 1,
+      "detail": "8 papers"
+    }
+  ]
+}

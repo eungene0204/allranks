@@ -1,0 +1,85 @@
+{
+  "id": "ss-region-population",
+  "title": "South Sudan Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of South Sudan ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2017,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-14T03:31:00.400Z",
+  "items": [
+    {
+      "name": "Upper Nile",
+      "country": "SS",
+      "value": 1385478,
+      "detail": "2017"
+    },
+    {
+      "name": "Jonglei",
+      "country": "SS",
+      "value": 1358602,
+      "detail": "2008"
+    },
+    {
+      "name": "Central Equatoria",
+      "country": "SS",
+      "value": 1103592,
+      "detail": "2008"
+    },
+    {
+      "name": "Warrap",
+      "country": "SS",
+      "value": 972928,
+      "detail": "2008"
+    },
+    {
+      "name": "Eastern Equatoria",
+      "country": "SS",
+      "value": 906126,
+      "detail": "2008"
+    },
+    {
+      "name": "Northern Bahr el Ghazal",
+      "country": "SS",
+      "value": 720898,
+      "detail": "2008"
+    },
+    {
+      "name": "Lakes",
+      "country": "SS",
+      "value": 695730,
+      "detail": "2008"
+    },
+    {
+      "name": "Western Equatoria",
+      "country": "SS",
+      "value": 619029,
+      "detail": "2008"
+    },
+    {
+      "name": "Unity",
+      "country": "SS",
+      "value": 585801,
+      "detail": "2008"
+    },
+    {
+      "name": "Western Bahr el Ghazal",
+      "country": "SS",
+      "value": 333431,
+      "detail": "2008"
+    }
+  ]
+}

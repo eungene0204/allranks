@@ -1,0 +1,140 @@
+{
+  "id": "bj-research-universities",
+  "title": "Top Research Universities in Benin",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Benin ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BJ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:23.990Z",
+  "items": [
+    {
+      "name": "Université d'Abomey-Calavi",
+      "country": "BJ",
+      "value": 367389,
+      "detail": "15,438 papers"
+    },
+    {
+      "name": "Université de Parakou",
+      "country": "BJ",
+      "value": 47958,
+      "detail": "4,037 papers"
+    },
+    {
+      "name": "Université Nationale d'Agriculture",
+      "country": "BJ",
+      "value": 16110,
+      "detail": "1,336 papers"
+    },
+    {
+      "name": "National University of Sciences, Technologies, Engineering and Mathematics",
+      "country": "BJ",
+      "value": 14208,
+      "detail": "1,413 papers"
+    },
+    {
+      "name": "Université d'Agriculture de Kétou",
+      "country": "BJ",
+      "value": 8764,
+      "detail": "533 papers"
+    },
+    {
+      "name": "University of Science and Technology of Benin",
+      "country": "BJ",
+      "value": 2919,
+      "detail": "84 papers"
+    },
+    {
+      "name": "Institut Universitaire du Bénin",
+      "country": "BJ",
+      "value": 324,
+      "detail": "20 papers"
+    },
+    {
+      "name": "Catholic University of West Africa",
+      "country": "BJ",
+      "value": 281,
+      "detail": "144 papers"
+    },
+    {
+      "name": "ESEP-LE BERGER University",
+      "country": "BJ",
+      "value": 53,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Université Africaine de Technologie et de Management",
+      "country": "BJ",
+      "value": 47,
+      "detail": "15 papers"
+    },
+    {
+      "name": "École Supérieure de Génie Civil Véréchaguine AK",
+      "country": "BJ",
+      "value": 27,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Université Protestante d'Afrique de l'Ouest",
+      "country": "BJ",
+      "value": 20,
+      "detail": "23 papers"
+    },
+    {
+      "name": "Haute École de Commerce et de Management",
+      "country": "BJ",
+      "value": 14,
+      "detail": "14 papers"
+    },
+    {
+      "name": "Institute for Empirical Research in Political Economy",
+      "country": "BJ",
+      "value": 14,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Espam Formation University",
+      "country": "BJ",
+      "value": 13,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Edexcel University",
+      "country": "BJ",
+      "value": 9,
+      "detail": "5 papers"
+    },
+    {
+      "name": "International University & Polytechnic of Benin",
+      "country": "BJ",
+      "value": 7,
+      "detail": "3 papers"
+    },
+    {
+      "name": "Université Africaine de Développement Coopératif",
+      "country": "BJ",
+      "value": 2,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Poma International Business University",
+      "country": "BJ",
+      "value": 1,
+      "detail": "2 papers"
+    }
+  ]
+}

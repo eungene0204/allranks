@@ -26,23 +26,39 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 프레임워크 | Next.js 16 (App Router) — **AGENTS.md 참고: 기존 지식과 다른 변경점이 있으므로 코드 작성 전 `node_modules/next/dist/docs/` 확인** |
 | UI | React 19, TypeScript 5.9, 순수 CSS (`src/app/globals.css`) |
 | 지구본 | `d3-geo`(orthographic 투영), `topojson-client`, `world-atlas`(110m) — Canvas/SVG 직접 렌더링 |
-| 데이터 스크립트 | Node 네이티브 TypeScript 실행(`.mts`), 추가 의존성 없음 |
+| 데이터 스크립트 | Node 네이티브 TypeScript 실행(`.mts`, type-stripping — enum·parameter property 사용 불가), 추가 의존성 없음 |
+| 데이터 수집 에이전트 | `@anthropic-ai/sdk`(devDependency), 모델 기본값 `claude-sonnet-5-5`(`AGENT_MODEL`로 변경), 서버 도구 web_search/web_fetch + 커스텀 도구, 수동 에이전트 루프 |
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
 ## 3. 디렉터리 구조
 
 ```
+.github/workflows/data-agent.yml  주간 스케줄: 파이프라인 + 에이전트 실행 → PR 생성
 data/
+  agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 56개: 세계 36 + US 20)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 647개: 세계 90 + US 24 + 기타 165개국 533)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI
   validate.mts              data/rankings 검증 (prebuild에서 자동 실행)
   countries.mts             countries.json 갱신
   registry.mts              자동 랭킹 등록부 (메타데이터 + 소스 어댑터 연결)
+  topics.mts                AI·Markets·Energy·Money·Demographics·Mining·Autos·Green 랭킹 39개 정의
+  regional/geonames.mts      지역 랭킹이 없는 나라의 대도시 순위(GeoNames cities15000 덤프 1회 다운로드·zip 해제, 도시 5개 미만 국가는 `NO_CITIES` 로 제외)
+  regional/wikidata.mts      위키피디아 표가 없는 나라의 1차 행정구역 인구(Wikidata SPARQL, 구역별 최신 기준일 값, `WIKIDATA_REGIONS` 목록)
+  regional/openalex.mts     모든 독립국의 대학 순위(OpenAlex API, 나라당 1회 호출) — index.mts 가 국가 목록으로 자동 생성, 5개 미만 국가는 `NO_UNIVERSITIES` 로 제외
+  regional/                 국가별 랭킹 모듈 (<cc>.mts 1국가 1파일) + index.mts. lib.mts 의 `rank()`·`fromTable()` 로 Wikipedia 표 → 랭킹을 선언적으로 정의
   lib/                      http, wikipedia(캐시·스로틀), countries, csv, types
-  sources/                  소스 어댑터: worldbank, bigmac, wikipedia-world, wikipedia-us, wikipedia-speed
+  agent/                    AI 데이터 수집 에이전트 (§5.1)
+    index.mts               CLI: plan | discover | refresh | run
+    loop.mts                에이전트 루프 (스트리밍, pause_turn·refusal·토큰/턴 한도 처리, 거부 시 fallback)
+    tools.mts               list_rankings, read_ranking, create_ranking, update_ranking, record_finding + 가드
+    gaps.mts                결정적 갭 분석 (빈 카테고리, 갱신 대상) — LLM 없음
+    prompts.mts             시스템 프롬프트(안정, 캐시 대상) + 모드별 작업 프롬프트
+    store.mts               랭킹 파일 접근, data/agent/ 상태(notes.json, last-run.json/.md)
+  lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
+  sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
 src/
   app/
     layout.tsx, globals.css, not-found.tsx, sitemap.ts
@@ -59,7 +75,7 @@ src/
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
   lib/
     types.ts            웹과 스크립트가 공유하는 타입 (RankingFile 등)
-    categories.ts       카테고리 정의 (기존 7개 + 신규 8개, 총 15개)
+    categories.ts       카테고리 정의 (7개로 통합: economy, education, tech, ai, society, energy, world)
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
 public/logos/           항목 로고 (<domain>.png)
@@ -72,7 +88,7 @@ public/logos/           항목 로고 (<domain>.png)
 - **RankingFile**: `id`(파일명과 동일), `title`, `short?`, `category`, `icon`, `desc`, `unit/prefix/suffix/decimals`,
   `order`(`asc`|`desc`), `scope?`, `multi?`, `year`, `asOf?`, `source`, `updatedAt`, `items[]`
 - **Item**: `name`, `country`(ISO-2), `value`, `logo?`, `detail?`
-- **Source**: `kind`(`api`|`csv`|`wikipedia`|`manual`), `name`, `url?`, `license?`, `verified?`, `note?`
+- **Source**: `kind`(`api`|`csv`|`wikipedia`|`manual`|`agent`), `name`, `url?`, `urls?`(추가 참고 페이지), `license?`, `verified?`, `note?`
 - **scope**: ISO-2 코드가 있으면 "그 나라 내부 랭킹"(예: US 주). 세계 집계·홈에서 제외되고 `/country/<code>`에만 표시된다.
 - **multi**: 한 국가가 여러 번 등장 가능한 목록(도시, 웹사이트 등).
 
@@ -82,9 +98,26 @@ public/logos/           항목 로고 (<domain>.png)
 
 1. `registry.mts`가 자동 랭킹의 메타데이터와 소스 어댑터를 선언한다 (`worldBankRankings()`, `usRankings()` 등).
 2. `update.mts`가 어댑터를 실행해 `{ year, source, items }`를 받고 JSON을 다시 쓴다. 내용이 바뀐 경우에만 쓴다.
-3. **안전장치**: 숫자가 아닌 값, 중복 국가, 항목 20개 미만, 이전 대비 30% 초과 감소 시 **기존 파일 유지 + 비정상 종료**.
+3. **안전장치**: 숫자가 아닌 값, 중복 국가, 항목 20개 미만(`Pipeline.minItems` 로 조정 가능, 예: 리튬 생산국 10), 이전 대비 30% 초과 감소 시 **기존 파일 유지 + 비정상 종료**.
 4. `validate.mts`가 스키마·국가 코드·중복·카테고리를 검사한다. 오류면 빌드 실패, 120일 초과 자동 데이터는 경고.
 5. 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
+
+### 5.1 데이터 수집 에이전트
+
+```
+npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → PR)
+  1. refresh: scripts/update.mts 실행 (자동 파이프라인, LLM 없음)
+  2. refresh: 수동·agent 랭킹 중 갱신 대상(30일 경과, 또는 미검증 manual)을 Claude가 조사 → update_ranking
+  3. discover: 커버리지 리포트(빈 카테고리 8개 우선)를 보고 Claude가 새 랭킹 조사 → create_ranking
+  4. data:validate 실행, data/agent/last-run.{json,md} 기록
+```
+
+- 모델은 파일에 직접 쓰지 않는다. 도구 핸들러(`tools.mts`)가 `checkRanking`(= `data:validate` 규칙) + 자체 가드를 통과한 경우에만 `data/rankings/<id>.json` 을 쓴다. 거부되면 사유를 `is_error` tool_result 로 돌려 모델이 고쳐 재제출한다.
+- 가드: id 형식·중복(파이프라인 id 포함), 세계 랭킹 20행 이상, source URL은 http(s), 갱신은 `manual`/`agent` 소스만 허용·더 새로운 데이터만·행 30% 초과 감소 금지·값 3배 초과 변동 시 `confirm_large_changes` 필요. 같은 `manual` 목록의 국가 중복은 `multi` 로 유지.
+- 신규/갱신 데이터는 `source.kind: "agent"`, `verified: false`. 사이트가 "AI-collected · unverified" 로 표시하고 `validate` 가 미검증 경고를 낸다.
+- 비용 통제: 실행당 신규/갱신 개수, 턴 수(`--max-turns`), 토큰 합계(`--max-tokens`), 요청당 web 도구 사용 횟수 한도. 시스템 프롬프트·도구 목록은 안정적으로 유지하고 `cache_control` 로 프롬프트 캐시를 쓴다.
+- `record_finding` 으로 거절/후보 주제를 `data/agent/notes.json` 에 남겨 다음 실행 프롬프트에 주입한다.
+- 환경 변수: `ANTHROPIC_API_KEY`(또는 `ant auth login`), `AGENT_MODEL`, `AGENT_EFFORT`.
 
 ## 6. 렌더링 전략
 
@@ -119,8 +152,7 @@ public/logos/           항목 로고 (<domain>.png)
 `GlobeExplorer`는 지구본·국기 툴팁만 렌더링하며, 삭제된 패널과 조작 안내 전용 상태·스타일도 제거했다.
 국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
 
-카테고리 등록부에 AI, Markets, Energy, Money, Demographics, Mining, Autos, Green을 추가했다.
-기존 카테고리 ID·순서와 랭킹 분류는 유지한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다.
+카테고리 등록부는 헤더 메뉴가 길어지는 것을 막기 위해 7개로 통합했다(ai는 독립 유지). prices·markets·money→`economy`, health·demographics→`society`, mining·autos·green→`energy`(Energy & Industry)로 합쳤고, 각 `data/rankings/*.json`의 `category`와 `scripts/` 파이프라인 정의도 같은 ID로 바꿨다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다.
 데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |
@@ -128,8 +160,9 @@ public/logos/           항목 로고 (<domain>.png)
 | 자동 랭킹 추가 | `scripts/sources/`에 어댑터 → `scripts/registry.mts` 등록 → `npm run data:update -- <id>` |
 | 수동 랭킹 추가 | `data/rankings/<id>.json` 작성 (`RankingFile` 준수) |
 | 카테고리 추가 | `src/lib/categories.ts` |
-| 새 나라의 지역 랭킹 | `scope`에 ISO-2 코드를 가진 랭킹 추가 (국가 페이지가 자동 반영) |
+| 새 나라의 지역 랭킹 | `scripts/regional/<cc>.mts` 작성(`rank()`+`fromTable()`) → `scripts/regional/index.mts` 에 등록 → `npm run data:update -- <cc>-<slug>` (국가 페이지가 자동 반영) |
 | 항목 로고 | `public/logos/<domain>.png` + 항목에 `logo` |
+| 에이전트에 새 도구/규칙 추가 | `scripts/agent/tools.mts`(도구 정의+핸들러), 지침은 `scripts/agent/prompts.mts` |
 
 ## 8. 제약과 알려진 사항
 

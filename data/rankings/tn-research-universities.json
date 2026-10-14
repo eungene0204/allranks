@@ -1,0 +1,326 @@
+{
+  "id": "tn-research-universities",
+  "title": "Top Research Universities in Tunisia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Tunisia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:26.341Z",
+  "items": [
+    {
+      "name": "University of Sfax",
+      "country": "TN",
+      "value": 1691985,
+      "detail": "43,692 papers"
+    },
+    {
+      "name": "Tunis El Manar University",
+      "country": "TN",
+      "value": 1031758,
+      "detail": "39,388 papers"
+    },
+    {
+      "name": "University of Monastir",
+      "country": "TN",
+      "value": 1014704,
+      "detail": "27,311 papers"
+    },
+    {
+      "name": "Tunis University",
+      "country": "TN",
+      "value": 859243,
+      "detail": "33,408 papers"
+    },
+    {
+      "name": "University of Carthage",
+      "country": "TN",
+      "value": 524356,
+      "detail": "21,754 papers"
+    },
+    {
+      "name": "Faculty of Sciences of Sfax",
+      "country": "TN",
+      "value": 430348,
+      "detail": "11,215 papers"
+    },
+    {
+      "name": "University of Sousse",
+      "country": "TN",
+      "value": 350209,
+      "detail": "17,505 papers"
+    },
+    {
+      "name": "University of Gabès",
+      "country": "TN",
+      "value": 259893,
+      "detail": "10,114 papers"
+    },
+    {
+      "name": "National Engineering School of Tunis",
+      "country": "TN",
+      "value": 238276,
+      "detail": "10,398 papers"
+    },
+    {
+      "name": "Manouba University",
+      "country": "TN",
+      "value": 219287,
+      "detail": "9,357 papers"
+    },
+    {
+      "name": "Institut National Agronomique de Tunisie",
+      "country": "TN",
+      "value": 106329,
+      "detail": "3,626 papers"
+    },
+    {
+      "name": "Faculty of Economics and Management of Sfax",
+      "country": "TN",
+      "value": 81368,
+      "detail": "3,764 papers"
+    },
+    {
+      "name": "Institut Supérieur du Sport et de l’Éducation Physique de Sfax",
+      "country": "TN",
+      "value": 70586,
+      "detail": "1,082 papers"
+    },
+    {
+      "name": "Université Tunis Carthage",
+      "country": "TN",
+      "value": 70217,
+      "detail": "3,609 papers"
+    },
+    {
+      "name": "École Nationale d'Ingénieurs de Gabès",
+      "country": "TN",
+      "value": 66874,
+      "detail": "2,276 papers"
+    },
+    {
+      "name": "University of Gafsa",
+      "country": "TN",
+      "value": 64282,
+      "detail": "3,087 papers"
+    },
+    {
+      "name": "University of Jendouba",
+      "country": "TN",
+      "value": 61678,
+      "detail": "3,516 papers"
+    },
+    {
+      "name": "National School of Computer Science",
+      "country": "TN",
+      "value": 50935,
+      "detail": "3,060 papers"
+    },
+    {
+      "name": "ENSIT",
+      "country": "TN",
+      "value": 49957,
+      "detail": "2,346 papers"
+    },
+    {
+      "name": "Institut National de la Recherche Agronomique de Tunisie",
+      "country": "TN",
+      "value": 44503,
+      "detail": "17,376 papers"
+    },
+    {
+      "name": "Tunisia Polytechnic School",
+      "country": "TN",
+      "value": 44405,
+      "detail": "1,995 papers"
+    },
+    {
+      "name": "University of Kairouan",
+      "country": "TN",
+      "value": 41845,
+      "detail": "3,201 papers"
+    },
+    {
+      "name": "Institut Supérieur de Gestion de Tunis",
+      "country": "TN",
+      "value": 36350,
+      "detail": "1,652 papers"
+    },
+    {
+      "name": "École Supérieure des Communications de Tunis",
+      "country": "TN",
+      "value": 27565,
+      "detail": "1,914 papers"
+    },
+    {
+      "name": "Institut Supérieur de Biotechnologie de Sfax",
+      "country": "TN",
+      "value": 21623,
+      "detail": "537 papers"
+    },
+    {
+      "name": "Higher Institute of Food Industries of Tunis",
+      "country": "TN",
+      "value": 20967,
+      "detail": "419 papers"
+    },
+    {
+      "name": "Institut Supérieur d'Informatique et des Technologies de Communication de Hammam Sousse",
+      "country": "TN",
+      "value": 19582,
+      "detail": "1,241 papers"
+    },
+    {
+      "name": "National School of Electronics and Telecommunications of Sfax, Tunisia",
+      "country": "TN",
+      "value": 12187,
+      "detail": "1,059 papers"
+    },
+    {
+      "name": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
+      "country": "TN",
+      "value": 11761,
+      "detail": "555 papers"
+    },
+    {
+      "name": "Institut préparatoire aux études d'ingénieurs de Sfax",
+      "country": "TN",
+      "value": 9500,
+      "detail": "418 papers"
+    },
+    {
+      "name": "Institut Supérieur des Études Technologiques de Nabeul",
+      "country": "TN",
+      "value": 8837,
+      "detail": "303 papers"
+    },
+    {
+      "name": "Mateur Higher School of Agriculture",
+      "country": "TN",
+      "value": 6952,
+      "detail": "279 papers"
+    },
+    {
+      "name": "Military Academy, Tunisia",
+      "country": "TN",
+      "value": 4486,
+      "detail": "241 papers"
+    },
+    {
+      "name": "École Supérieure Privée d'Ingénierie et de Technologies",
+      "country": "TN",
+      "value": 3923,
+      "detail": "478 papers"
+    },
+    {
+      "name": "Institut Supérieur des Technologies de l'Information et de la Communication",
+      "country": "TN",
+      "value": 2974,
+      "detail": "240 papers"
+    },
+    {
+      "name": "École Supérieure des Ingénieurs de l'Équipement Rural",
+      "country": "TN",
+      "value": 2673,
+      "detail": "120 papers"
+    },
+    {
+      "name": "Université Ibn Khaldoun",
+      "country": "TN",
+      "value": 1549,
+      "detail": "239 papers"
+    },
+    {
+      "name": "Tunisia Private University",
+      "country": "TN",
+      "value": 1547,
+      "detail": "84 papers"
+    },
+    {
+      "name": "South Mediterranean University",
+      "country": "TN",
+      "value": 1534,
+      "detail": "253 papers"
+    },
+    {
+      "name": "Institut Supérieur des Études Technologiques de Gafsa",
+      "country": "TN",
+      "value": 1491,
+      "detail": "110 papers"
+    },
+    {
+      "name": "Institut Supérieur des Etudes Technologiques de Zaghouan",
+      "country": "TN",
+      "value": 1154,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Mediterranean School of Business",
+      "country": "TN",
+      "value": 924,
+      "detail": "120 papers"
+    },
+    {
+      "name": "Virtual University of Tunis",
+      "country": "TN",
+      "value": 868,
+      "detail": "211 papers"
+    },
+    {
+      "name": "Université Centrale de Tunis",
+      "country": "TN",
+      "value": 740,
+      "detail": "63 papers"
+    },
+    {
+      "name": "Institut Supérieur des Études Technologiques en Communications de Tunis",
+      "country": "TN",
+      "value": 726,
+      "detail": "101 papers"
+    },
+    {
+      "name": "Université Arabe des Sciences",
+      "country": "TN",
+      "value": 603,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Institut des Hautes Études de Tunis",
+      "country": "TN",
+      "value": 493,
+      "detail": "47 papers"
+    },
+    {
+      "name": "Time Université",
+      "country": "TN",
+      "value": 470,
+      "detail": "33 papers"
+    },
+    {
+      "name": "Ez-Zitouna University",
+      "country": "TN",
+      "value": 437,
+      "detail": "484 papers"
+    },
+    {
+      "name": "Institut Supérieur des Etudes Technologiques de Tozeur",
+      "country": "TN",
+      "value": 190,
+      "detail": "15 papers"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "pg-research-universities",
+  "title": "Top Research Universities in Papua New Guinea",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Papua New Guinea ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:11.829Z",
+  "items": [
+    {
+      "name": "University of Papua New Guinea",
+      "country": "PG",
+      "value": 103824,
+      "detail": "2,468 papers"
+    },
+    {
+      "name": "Papua New Guinea University of Technology",
+      "country": "PG",
+      "value": 27510,
+      "detail": "1,698 papers"
+    },
+    {
+      "name": "Divine Word University",
+      "country": "PG",
+      "value": 3500,
+      "detail": "189 papers"
+    },
+    {
+      "name": "University of Goroka",
+      "country": "PG",
+      "value": 2799,
+      "detail": "161 papers"
+    },
+    {
+      "name": "Pacific Adventist University",
+      "country": "PG",
+      "value": 1689,
+      "detail": "99 papers"
+    },
+    {
+      "name": "Papua New Guinea University of Natural Resources and Environment",
+      "country": "PG",
+      "value": 586,
+      "detail": "63 papers"
+    },
+    {
+      "name": "IBSUniversity",
+      "country": "PG",
+      "value": 107,
+      "detail": "56 papers"
+    }
+  ]
+}

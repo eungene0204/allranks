@@ -5,14 +5,14 @@ import type { Ctx, Fetched, Item } from "../lib/types.mts";
 // Worldwide rankings whose numbers have no free API (wealth, Nobel prizes, websites, cities, commodities).
 // Read from the tables of the English Wikipedia (CC BY-SA); each `source` names the original publisher.
 
-const LICENSE = "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher";
-const wiki = (title: string) => `https://en.wikipedia.org/wiki/${title.replace(/ /g, "_")}`;
-const tablesOf = async (title: string) => wikiTables(await wikiHtml(title));
-const thisYear = () => new Date().getFullYear();
-const clean = (s: string | undefined) => (s ?? "").replace(/\[[^\]]*\]/g, "").replace(/\s*\*?\s*\(OPEC\+?\)\s*$/, "").replace(/[*†‡]+/g, "").trim();
+export const LICENSE = "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher";
+export const wiki = (title: string) => `https://en.wikipedia.org/wiki/${title.replace(/ /g, "_")}`;
+export const tablesOf = async (title: string) => wikiTables(await wikiHtml(title));
+export const thisYear = () => new Date().getFullYear();
+export const clean = (s: string | undefined) => (s ?? "").replace(/\[[^\]]*\]/g, "").replace(/\s*\*?\s*\(OPEC\+?\)\s*$/, "").replace(/[*†‡]+/g, "").trim();
 
 /** One row per country: [name in column `nameCol`, number in column `valueCol`]. Unmatched names are reported, not guessed. */
-function byCountry(ctx: Ctx, table: WikiTable, nameCol: number, valueCol: number, scale = 1, label = ""): Item[] {
+export function byCountry(ctx: Ctx, table: WikiTable, nameCol: number, valueCol: number, scale = 1, label = ""): Item[] {
   const items: Item[] = [];
   const unmatched: string[] = [];
   const seen = new Set<string>();
@@ -22,7 +22,7 @@ function byCountry(ctx: Ctx, table: WikiTable, nameCol: number, valueCol: number
     if (at < 0) continue;
     const name = clean(row[at]);
     const value = parseNum(row[at + (valueCol - Math.max(nameCol, 0))]) * scale;
-    if (!name || /^[\d,.\s]*$/.test(name) || !Number.isFinite(value) || /^(world|total|global)/i.test(name)) continue;
+    if (!name || /^[\d,.\s]*$/.test(name) || !Number.isFinite(value) || /^(world|total|global|other)/i.test(name)) continue;
     const c = ctx.countries.byName(name);
     if (!c) {
       unmatched.push(name);

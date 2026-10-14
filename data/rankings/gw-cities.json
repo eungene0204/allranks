@@ -1,0 +1,115 @@
+{
+  "id": "gw-cities",
+  "title": "Largest Cities in Guinea-Bissau",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Guinea-Bissau with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.669Z",
+  "items": [
+    {
+      "name": "Bissau",
+      "country": "GW",
+      "value": 439704,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Bairro Militar",
+      "country": "GW",
+      "value": 65274,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Gabú",
+      "country": "GW",
+      "value": 49371,
+      "detail": "Gabú"
+    },
+    {
+      "name": "Contumo",
+      "country": "GW",
+      "value": 45482,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Reino de Bandim",
+      "country": "GW",
+      "value": 44718,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Missira",
+      "country": "GW",
+      "value": 38838,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Bafatá",
+      "country": "GW",
+      "value": 33502,
+      "detail": "Bafatá"
+    },
+    {
+      "name": "Reino de Antula",
+      "country": "GW",
+      "value": 30778,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Quelele",
+      "country": "GW",
+      "value": 28898,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Plaque",
+      "country": "GW",
+      "value": 27633,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Luanda",
+      "country": "GW",
+      "value": 25236,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Sintra-Nema",
+      "country": "GW",
+      "value": 21451,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Xitole",
+      "country": "GW",
+      "value": 19424,
+      "detail": "Bafatá"
+    },
+    {
+      "name": "Belem",
+      "country": "GW",
+      "value": 17263,
+      "detail": "Bissau"
+    },
+    {
+      "name": "Santa-Luzia",
+      "country": "GW",
+      "value": 17204,
+      "detail": "Bissau"
+    }
+  ]
+}

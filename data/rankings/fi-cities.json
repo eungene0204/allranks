@@ -1,0 +1,325 @@
+{
+  "id": "fi-cities",
+  "title": "Largest Cities in Finland",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Finland with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.667Z",
+  "items": [
+    {
+      "name": "Helsinki",
+      "country": "FI",
+      "value": 658864,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Espoo",
+      "country": "FI",
+      "value": 323910,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Tampere",
+      "country": "FI",
+      "value": 260646,
+      "detail": "Pirkanmaa"
+    },
+    {
+      "name": "Vantaa",
+      "country": "FI",
+      "value": 252724,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Oulu",
+      "country": "FI",
+      "value": 216066,
+      "detail": "North Ostrobothnia"
+    },
+    {
+      "name": "Turku",
+      "country": "FI",
+      "value": 206655,
+      "detail": "Southwest Finland"
+    },
+    {
+      "name": "East Helsinki",
+      "country": "FI",
+      "value": 170557,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Jyväskylä",
+      "country": "FI",
+      "value": 148744,
+      "detail": "Central Finland"
+    },
+    {
+      "name": "Kuopio",
+      "country": "FI",
+      "value": 125462,
+      "detail": "North Savo"
+    },
+    {
+      "name": "Lahti",
+      "country": "FI",
+      "value": 121622,
+      "detail": "Paijat-Hame"
+    },
+    {
+      "name": "Pori",
+      "country": "FI",
+      "value": 83157,
+      "detail": "Satakunta"
+    },
+    {
+      "name": "Joensuu",
+      "country": "FI",
+      "value": 78398,
+      "detail": "North Karelia"
+    },
+    {
+      "name": "Kouvola",
+      "country": "FI",
+      "value": 78094,
+      "detail": "Kymenlaakso"
+    },
+    {
+      "name": "Lappeenranta",
+      "country": "FI",
+      "value": 72909,
+      "detail": "South Karelia"
+    },
+    {
+      "name": "Vaasa",
+      "country": "FI",
+      "value": 69819,
+      "detail": "Ostrobothnia"
+    },
+    {
+      "name": "Hämeenlinna",
+      "country": "FI",
+      "value": 68473,
+      "detail": "Kanta-Häme"
+    },
+    {
+      "name": "Seinäjoki",
+      "country": "FI",
+      "value": 66848,
+      "detail": "South Ostrobothnia"
+    },
+    {
+      "name": "Rovaniemi",
+      "country": "FI",
+      "value": 65670,
+      "detail": "Lapland"
+    },
+    {
+      "name": "Porvoo",
+      "country": "FI",
+      "value": 51853,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Mikkeli",
+      "country": "FI",
+      "value": 51661,
+      "detail": "South Savo"
+    },
+    {
+      "name": "Salo",
+      "country": "FI",
+      "value": 50794,
+      "detail": "Southwest Finland"
+    },
+    {
+      "name": "Kotka",
+      "country": "FI",
+      "value": 50157,
+      "detail": "Kymenlaakso"
+    },
+    {
+      "name": "Kokkola",
+      "country": "FI",
+      "value": 48361,
+      "detail": "Central Ostrobothnia"
+    },
+    {
+      "name": "Järvenpää",
+      "country": "FI",
+      "value": 46942,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Lohja",
+      "country": "FI",
+      "value": 45686,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Nurmijärvi",
+      "country": "FI",
+      "value": 45356,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Hyvinge",
+      "country": "FI",
+      "value": 43515,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Tuusula",
+      "country": "FI",
+      "value": 42624,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Kirkkonummi",
+      "country": "FI",
+      "value": 41821,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Vuosaari",
+      "country": "FI",
+      "value": 38961,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Rauma",
+      "country": "FI",
+      "value": 38909,
+      "detail": "Satakunta"
+    },
+    {
+      "name": "Kerava",
+      "country": "FI",
+      "value": 38535,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Kaarina",
+      "country": "FI",
+      "value": 36631,
+      "detail": "Southwest Finland"
+    },
+    {
+      "name": "Nokia",
+      "country": "FI",
+      "value": 36486,
+      "detail": "Pirkanmaa"
+    },
+    {
+      "name": "Kajaani",
+      "country": "FI",
+      "value": 36458,
+      "detail": "Kainuu"
+    },
+    {
+      "name": "Mellunkylä",
+      "country": "FI",
+      "value": 36360,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Kangasala",
+      "country": "FI",
+      "value": 34315,
+      "detail": "Pirkanmaa"
+    },
+    {
+      "name": "Ylöjärvi",
+      "country": "FI",
+      "value": 33731,
+      "detail": "Pirkanmaa"
+    },
+    {
+      "name": "Savonlinna",
+      "country": "FI",
+      "value": 31283,
+      "detail": "South Savo"
+    },
+    {
+      "name": "Vartiokylä",
+      "country": "FI",
+      "value": 30244,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Vihti",
+      "country": "FI",
+      "value": 28864,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Riihimäki",
+      "country": "FI",
+      "value": 28610,
+      "detail": "Kanta-Häme"
+    },
+    {
+      "name": "Leppävaara",
+      "country": "FI",
+      "value": 28409,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Haaga",
+      "country": "FI",
+      "value": 27761,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Kallio",
+      "country": "FI",
+      "value": 27051,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Raseborg",
+      "country": "FI",
+      "value": 26982,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Kaarela",
+      "country": "FI",
+      "value": 26414,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Herttoniemi",
+      "country": "FI",
+      "value": 26047,
+      "detail": "Uusimaa"
+    },
+    {
+      "name": "Raisio",
+      "country": "FI",
+      "value": 25846,
+      "detail": "Southwest Finland"
+    },
+    {
+      "name": "Hervanta",
+      "country": "FI",
+      "value": 25231,
+      "detail": "Pirkanmaa"
+    }
+  ]
+}

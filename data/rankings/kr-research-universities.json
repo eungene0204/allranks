@@ -1,0 +1,326 @@
+{
+  "id": "kr-research-universities",
+  "title": "Top Research Universities in South Korea",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in South Korea ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:32.935Z",
+  "items": [
+    {
+      "name": "Seoul National University",
+      "country": "KR",
+      "value": 26436715,
+      "detail": "278,535 papers"
+    },
+    {
+      "name": "Yonsei University",
+      "country": "KR",
+      "value": 14483144,
+      "detail": "181,975 papers"
+    },
+    {
+      "name": "Sungkyunkwan University",
+      "country": "KR",
+      "value": 12445046,
+      "detail": "131,030 papers"
+    },
+    {
+      "name": "Korea University",
+      "country": "KR",
+      "value": 10357288,
+      "detail": "131,312 papers"
+    },
+    {
+      "name": "Korea Advanced Institute of Science and Technology",
+      "country": "KR",
+      "value": 9612150,
+      "detail": "117,991 papers"
+    },
+    {
+      "name": "University of Ulsan",
+      "country": "KR",
+      "value": 6303455,
+      "detail": "67,178 papers"
+    },
+    {
+      "name": "Hanyang University",
+      "country": "KR",
+      "value": 6095596,
+      "detail": "95,650 papers"
+    },
+    {
+      "name": "Pohang University of Science and Technology",
+      "country": "KR",
+      "value": 5947618,
+      "detail": "54,989 papers"
+    },
+    {
+      "name": "Kyungpook National University",
+      "country": "KR",
+      "value": 5753333,
+      "detail": "77,764 papers"
+    },
+    {
+      "name": "Kyung Hee University",
+      "country": "KR",
+      "value": 5148558,
+      "detail": "80,111 papers"
+    },
+    {
+      "name": "Pusan National University",
+      "country": "KR",
+      "value": 4498475,
+      "detail": "73,958 papers"
+    },
+    {
+      "name": "Chonnam National University",
+      "country": "KR",
+      "value": 4160343,
+      "detail": "60,059 papers"
+    },
+    {
+      "name": "Catholic University of Korea",
+      "country": "KR",
+      "value": 3793973,
+      "detail": "59,124 papers"
+    },
+    {
+      "name": "Jeonbuk National University",
+      "country": "KR",
+      "value": 3202100,
+      "detail": "50,242 papers"
+    },
+    {
+      "name": "Ewha Womans University",
+      "country": "KR",
+      "value": 3156463,
+      "detail": "46,370 papers"
+    },
+    {
+      "name": "Ulsan National Institute of Science and Technology",
+      "country": "KR",
+      "value": 2909466,
+      "detail": "23,582 papers"
+    },
+    {
+      "name": "Konkuk University",
+      "country": "KR",
+      "value": 2882371,
+      "detail": "43,910 papers"
+    },
+    {
+      "name": "Chungnam National University",
+      "country": "KR",
+      "value": 2832842,
+      "detail": "57,916 papers"
+    },
+    {
+      "name": "Inha University",
+      "country": "KR",
+      "value": 2557091,
+      "detail": "48,627 papers"
+    },
+    {
+      "name": "Gyeongsang National University",
+      "country": "KR",
+      "value": 2357821,
+      "detail": "37,654 papers"
+    },
+    {
+      "name": "Chung-Ang University",
+      "country": "KR",
+      "value": 2330152,
+      "detail": "49,476 papers"
+    },
+    {
+      "name": "Ajou University",
+      "country": "KR",
+      "value": 2251898,
+      "detail": "43,499 papers"
+    },
+    {
+      "name": "Yeungnam University",
+      "country": "KR",
+      "value": 2250919,
+      "detail": "42,988 papers"
+    },
+    {
+      "name": "Gwangju Institute of Science and Technology",
+      "country": "KR",
+      "value": 2068645,
+      "detail": "24,906 papers"
+    },
+    {
+      "name": "Kangwon National University",
+      "country": "KR",
+      "value": 1872427,
+      "detail": "37,303 papers"
+    },
+    {
+      "name": "Chungbuk National University",
+      "country": "KR",
+      "value": 1828682,
+      "detail": "39,305 papers"
+    },
+    {
+      "name": "Sejong University",
+      "country": "KR",
+      "value": 1802308,
+      "detail": "31,433 papers"
+    },
+    {
+      "name": "Korea University of Science and Technology",
+      "country": "KR",
+      "value": 1576051,
+      "detail": "26,886 papers"
+    },
+    {
+      "name": "Hallym University",
+      "country": "KR",
+      "value": 1489166,
+      "detail": "25,815 papers"
+    },
+    {
+      "name": "Dongguk University",
+      "country": "KR",
+      "value": 1459507,
+      "detail": "27,422 papers"
+    },
+    {
+      "name": "Pukyong National University",
+      "country": "KR",
+      "value": 1229433,
+      "detail": "28,640 papers"
+    },
+    {
+      "name": "Inje University",
+      "country": "KR",
+      "value": 1229008,
+      "detail": "22,655 papers"
+    },
+    {
+      "name": "University of Seoul",
+      "country": "KR",
+      "value": 1188623,
+      "detail": "15,541 papers"
+    },
+    {
+      "name": "Gachon University",
+      "country": "KR",
+      "value": 1115457,
+      "detail": "27,814 papers"
+    },
+    {
+      "name": "Dankook University",
+      "country": "KR",
+      "value": 1063462,
+      "detail": "25,628 papers"
+    },
+    {
+      "name": "Soonchunhyang University",
+      "country": "KR",
+      "value": 1034870,
+      "detail": "23,054 papers"
+    },
+    {
+      "name": "Jeju National University",
+      "country": "KR",
+      "value": 1018126,
+      "detail": "20,518 papers"
+    },
+    {
+      "name": "CHA University",
+      "country": "KR",
+      "value": 882771,
+      "detail": "15,196 papers"
+    },
+    {
+      "name": "Sogang University",
+      "country": "KR",
+      "value": 865805,
+      "detail": "19,279 papers"
+    },
+    {
+      "name": "Chosun University",
+      "country": "KR",
+      "value": 864637,
+      "detail": "22,907 papers"
+    },
+    {
+      "name": "Dong-A University",
+      "country": "KR",
+      "value": 804647,
+      "detail": "17,693 papers"
+    },
+    {
+      "name": "Wonkwang University",
+      "country": "KR",
+      "value": 796501,
+      "detail": "15,681 papers"
+    },
+    {
+      "name": "Keimyung University",
+      "country": "KR",
+      "value": 715349,
+      "detail": "18,950 papers"
+    },
+    {
+      "name": "Daegu Gyeongbuk Institute of Science and Technology",
+      "country": "KR",
+      "value": 700419,
+      "detail": "10,259 papers"
+    },
+    {
+      "name": "Kwangwoon University",
+      "country": "KR",
+      "value": 627263,
+      "detail": "14,073 papers"
+    },
+    {
+      "name": "Myongji University",
+      "country": "KR",
+      "value": 532370,
+      "detail": "9,853 papers"
+    },
+    {
+      "name": "Kookmin University",
+      "country": "KR",
+      "value": 531654,
+      "detail": "14,109 papers"
+    },
+    {
+      "name": "Soongsil University",
+      "country": "KR",
+      "value": 516828,
+      "detail": "15,940 papers"
+    },
+    {
+      "name": "Incheon National University",
+      "country": "KR",
+      "value": 502158,
+      "detail": "14,843 papers"
+    },
+    {
+      "name": "Korea Institute of Materials Science",
+      "country": "KR",
+      "value": 498437,
+      "detail": "6,803 papers"
+    }
+  ]
+}

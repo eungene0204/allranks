@@ -1,0 +1,86 @@
+{
+  "id": "ne-research-universities",
+  "title": "Top Research Universities in Niger",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Niger ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:07.277Z",
+  "items": [
+    {
+      "name": "Université Abdou Moumouni",
+      "country": "NE",
+      "value": 51087,
+      "detail": "4,050 papers"
+    },
+    {
+      "name": "Université de Maradi",
+      "country": "NE",
+      "value": 7769,
+      "detail": "960 papers"
+    },
+    {
+      "name": "Université André Salifou",
+      "country": "NE",
+      "value": 2881,
+      "detail": "759 papers"
+    },
+    {
+      "name": "Université de Diffa",
+      "country": "NE",
+      "value": 1501,
+      "detail": "314 papers"
+    },
+    {
+      "name": "Maryam Abacha American University of Niger",
+      "country": "NE",
+      "value": 732,
+      "detail": "169 papers"
+    },
+    {
+      "name": "Université Djibo Hamani",
+      "country": "NE",
+      "value": 287,
+      "detail": "225 papers"
+    },
+    {
+      "name": "Higher Institute of Mining, Industry and Geology",
+      "country": "NE",
+      "value": 256,
+      "detail": "99 papers"
+    },
+    {
+      "name": "École Africaine de la Météorologie et de l'Aviation Civile",
+      "country": "NE",
+      "value": 228,
+      "detail": "21 papers"
+    },
+    {
+      "name": "École Nationale d'Administration et de Magistrature",
+      "country": "NE",
+      "value": 9,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Islamic University of Niger",
+      "country": "NE",
+      "value": 6,
+      "detail": "117 papers"
+    }
+  ]
+}

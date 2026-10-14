@@ -1,0 +1,67 @@
+{
+  "id": "bn-cities",
+  "title": "Largest Cities in Brunei",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Brunei with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.661Z",
+  "items": [
+    {
+      "name": "Bandar Seri Begawan",
+      "country": "BN",
+      "value": 64409,
+      "detail": "Brunei-Muara District"
+    },
+    {
+      "name": "Sengkurong",
+      "country": "BN",
+      "value": 40972,
+      "detail": "Brunei-Muara District"
+    },
+    {
+      "name": "Mentiri",
+      "country": "BN",
+      "value": 39324,
+      "detail": "Brunei-Muara District"
+    },
+    {
+      "name": "Kuala Belait",
+      "country": "BN",
+      "value": 31178,
+      "detail": "Belait"
+    },
+    {
+      "name": "Tutong",
+      "country": "BN",
+      "value": 19151,
+      "detail": "Tutong"
+    },
+    {
+      "name": "Serasa",
+      "country": "BN",
+      "value": 18569,
+      "detail": "Brunei-Muara District"
+    },
+    {
+      "name": "Liang",
+      "country": "BN",
+      "value": 16813,
+      "detail": "Belait"
+    }
+  ]
+}

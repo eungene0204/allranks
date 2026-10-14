@@ -1,0 +1,326 @@
+{
+  "id": "my-research-universities",
+  "title": "Top Research Universities in Malaysia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Malaysia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MY",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:41.898Z",
+  "items": [
+    {
+      "name": "University of Malaya",
+      "country": "MY",
+      "value": 6232361,
+      "detail": "106,835 papers"
+    },
+    {
+      "name": "Universiti Putra Malaysia",
+      "country": "MY",
+      "value": 4591857,
+      "detail": "82,130 papers"
+    },
+    {
+      "name": "Universiti Sains Malaysia",
+      "country": "MY",
+      "value": 4113495,
+      "detail": "94,862 papers"
+    },
+    {
+      "name": "University of Technology Malaysia",
+      "country": "MY",
+      "value": 3638314,
+      "detail": "80,775 papers"
+    },
+    {
+      "name": "National University of Malaysia",
+      "country": "MY",
+      "value": 3563644,
+      "detail": "93,072 papers"
+    },
+    {
+      "name": "Universiti Teknologi MARA",
+      "country": "MY",
+      "value": 1512819,
+      "detail": "90,690 papers"
+    },
+    {
+      "name": "Universiti Teknologi Petronas",
+      "country": "MY",
+      "value": 1228629,
+      "detail": "25,056 papers"
+    },
+    {
+      "name": "Universiti Teknologi MARA System",
+      "country": "MY",
+      "value": 1129543,
+      "detail": "63,052 papers"
+    },
+    {
+      "name": "Monash University Malaysia",
+      "country": "MY",
+      "value": 920328,
+      "detail": "15,842 papers"
+    },
+    {
+      "name": "Universiti Malaysia Pahang Al-Sultan Abdullah",
+      "country": "MY",
+      "value": 882163,
+      "detail": "23,654 papers"
+    },
+    {
+      "name": "International Islamic University Malaysia",
+      "country": "MY",
+      "value": 694430,
+      "detail": "35,149 papers"
+    },
+    {
+      "name": "Universiti Malaysia Perlis",
+      "country": "MY",
+      "value": 634356,
+      "detail": "22,264 papers"
+    },
+    {
+      "name": "Tun Hussein Onn University of Malaysia",
+      "country": "MY",
+      "value": 562376,
+      "detail": "30,163 papers"
+    },
+    {
+      "name": "Universiti of Malaysia Sabah",
+      "country": "MY",
+      "value": 525285,
+      "detail": "22,037 papers"
+    },
+    {
+      "name": "Universiti Malaysia Terengganu",
+      "country": "MY",
+      "value": 523636,
+      "detail": "16,987 papers"
+    },
+    {
+      "name": "Universiti Tenaga Nasional",
+      "country": "MY",
+      "value": 516608,
+      "detail": "12,506 papers"
+    },
+    {
+      "name": "University of Nottingham Malaysia Campus",
+      "country": "MY",
+      "value": 516410,
+      "detail": "9,702 papers"
+    },
+    {
+      "name": "Universiti Tunku Abdul Rahman",
+      "country": "MY",
+      "value": 475892,
+      "detail": "13,476 papers"
+    },
+    {
+      "name": "Multimedia University",
+      "country": "MY",
+      "value": 427799,
+      "detail": "16,659 papers"
+    },
+    {
+      "name": "Universiti Utara Malaysia",
+      "country": "MY",
+      "value": 410650,
+      "detail": "23,341 papers"
+    },
+    {
+      "name": "Universiti Malaysia Sarawak",
+      "country": "MY",
+      "value": 388608,
+      "detail": "15,491 papers"
+    },
+    {
+      "name": "Sunway University",
+      "country": "MY",
+      "value": 351042,
+      "detail": "12,508 papers"
+    },
+    {
+      "name": "IMU University",
+      "country": "MY",
+      "value": 332158,
+      "detail": "7,491 papers"
+    },
+    {
+      "name": "Taylor's University",
+      "country": "MY",
+      "value": 307457,
+      "detail": "10,787 papers"
+    },
+    {
+      "name": "Universiti Teknikal Malaysia Melaka",
+      "country": "MY",
+      "value": 303985,
+      "detail": "15,570 papers"
+    },
+    {
+      "name": "UCSI University",
+      "country": "MY",
+      "value": 290930,
+      "detail": "9,444 papers"
+    },
+    {
+      "name": "Sultan Idris Education University",
+      "country": "MY",
+      "value": 232747,
+      "detail": "16,623 papers"
+    },
+    {
+      "name": "Sultan Zainal Abidin University",
+      "country": "MY",
+      "value": 199397,
+      "detail": "12,942 papers"
+    },
+    {
+      "name": "Curtin University Sarawak",
+      "country": "MY",
+      "value": 182540,
+      "detail": "3,431 papers"
+    },
+    {
+      "name": "University of Kuala Lumpur",
+      "country": "MY",
+      "value": 180050,
+      "detail": "10,420 papers"
+    },
+    {
+      "name": "Universiti Tunku Abdul Rahman Sungai Long Campus",
+      "country": "MY",
+      "value": 168739,
+      "detail": "4,843 papers"
+    },
+    {
+      "name": "Xiamen University Malaysia",
+      "country": "MY",
+      "value": 168243,
+      "detail": "4,304 papers"
+    },
+    {
+      "name": "Swinburne University of Technology Sarawak Campus",
+      "country": "MY",
+      "value": 162665,
+      "detail": "3,382 papers"
+    },
+    {
+      "name": "Universiti Malaysia Kelantan",
+      "country": "MY",
+      "value": 149693,
+      "detail": "8,470 papers"
+    },
+    {
+      "name": "Universiti Sains Islam Malaysia",
+      "country": "MY",
+      "value": 139312,
+      "detail": "11,382 papers"
+    },
+    {
+      "name": "National Defence University of Malaysia",
+      "country": "MY",
+      "value": 135419,
+      "detail": "6,049 papers"
+    },
+    {
+      "name": "AIMST University",
+      "country": "MY",
+      "value": 102084,
+      "detail": "2,803 papers"
+    },
+    {
+      "name": "INTI International University",
+      "country": "MY",
+      "value": 83675,
+      "detail": "9,264 papers"
+    },
+    {
+      "name": "Management and Science University",
+      "country": "MY",
+      "value": 78908,
+      "detail": "5,521 papers"
+    },
+    {
+      "name": "Mahsa University",
+      "country": "MY",
+      "value": 63508,
+      "detail": "2,747 papers"
+    },
+    {
+      "name": "Tunku Abdul Rahman University of Management and Technology",
+      "country": "MY",
+      "value": 62916,
+      "detail": "3,660 papers"
+    },
+    {
+      "name": "Tropical Infectious Diseases Research & Education Centre",
+      "country": "MY",
+      "value": 53028,
+      "detail": "748 papers"
+    },
+    {
+      "name": "Asia Pacific University of Technology & Innovation",
+      "country": "MY",
+      "value": 40850,
+      "detail": "3,697 papers"
+    },
+    {
+      "name": "SEGi University",
+      "country": "MY",
+      "value": 38324,
+      "detail": "3,389 papers"
+    },
+    {
+      "name": "Lincoln University College",
+      "country": "MY",
+      "value": 36700,
+      "detail": "5,429 papers"
+    },
+    {
+      "name": "Manipal University College Malaysia",
+      "country": "MY",
+      "value": 35642,
+      "detail": "1,707 papers"
+    },
+    {
+      "name": "Institut Nanosains dan Nanoteknologi",
+      "country": "MY",
+      "value": 31315,
+      "detail": "962 papers"
+    },
+    {
+      "name": "Perdana University",
+      "country": "MY",
+      "value": 30850,
+      "detail": "1,029 papers"
+    },
+    {
+      "name": "Institut Oseanografi dan Sekitaran",
+      "country": "MY",
+      "value": 29832,
+      "detail": "1,356 papers"
+    },
+    {
+      "name": "Heriot-Watt University Malaysia",
+      "country": "MY",
+      "value": 28935,
+      "detail": "1,410 papers"
+    }
+  ]
+}

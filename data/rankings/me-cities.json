@@ -1,0 +1,73 @@
+{
+  "id": "me-cities",
+  "title": "Largest Cities in Montenegro",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Montenegro with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ME",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.674Z",
+  "items": [
+    {
+      "name": "Podgorica",
+      "country": "ME",
+      "value": 236852,
+      "detail": "Podgorica"
+    },
+    {
+      "name": "Nikšić",
+      "country": "ME",
+      "value": 58212,
+      "detail": "Opština Nikšić"
+    },
+    {
+      "name": "Herceg Novi",
+      "country": "ME",
+      "value": 19536,
+      "detail": "Herceg Novi"
+    },
+    {
+      "name": "Pljevlja",
+      "country": "ME",
+      "value": 19489,
+      "detail": "Pljevlja"
+    },
+    {
+      "name": "Budva",
+      "country": "ME",
+      "value": 18000,
+      "detail": "Budva"
+    },
+    {
+      "name": "Bar",
+      "country": "ME",
+      "value": 15868,
+      "detail": "Bar"
+    },
+    {
+      "name": "Bijelo Polje",
+      "country": "ME",
+      "value": 15400,
+      "detail": "Bijelo Polje"
+    },
+    {
+      "name": "Cetinje",
+      "country": "ME",
+      "value": 15137,
+      "detail": "Cetinje"
+    }
+  ]
+}

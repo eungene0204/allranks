@@ -1,0 +1,85 @@
+{
+  "id": "tl-cities",
+  "title": "Largest Cities in Timor-Leste",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Timor-Leste with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.683Z",
+  "items": [
+    {
+      "name": "Dili",
+      "country": "TL",
+      "value": 150000,
+      "detail": "Dili Municipality"
+    },
+    {
+      "name": "Maliana",
+      "country": "TL",
+      "value": 22000,
+      "detail": "Bobonaro"
+    },
+    {
+      "name": "Suai",
+      "country": "TL",
+      "value": 21539,
+      "detail": "Cova Lima"
+    },
+    {
+      "name": "Likisá",
+      "country": "TL",
+      "value": 19000,
+      "detail": "Liquiçá"
+    },
+    {
+      "name": "Aileu",
+      "country": "TL",
+      "value": 17356,
+      "detail": "Aileu"
+    },
+    {
+      "name": "Lospalos",
+      "country": "TL",
+      "value": 17186,
+      "detail": "Lautém"
+    },
+    {
+      "name": "Atsabe",
+      "country": "TL",
+      "value": 16304,
+      "detail": "Ermera"
+    },
+    {
+      "name": "Maubara",
+      "country": "TL",
+      "value": 16300,
+      "detail": "Liquiçá"
+    },
+    {
+      "name": "Baukau",
+      "country": "TL",
+      "value": 16000,
+      "detail": "Baucau"
+    },
+    {
+      "name": "Venilale",
+      "country": "TL",
+      "value": 16000,
+      "detail": "Baucau"
+    }
+  ]
+}

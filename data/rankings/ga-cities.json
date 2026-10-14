@@ -1,0 +1,115 @@
+{
+  "id": "ga-cities",
+  "title": "Largest Cities in Gabon",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Gabon with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.668Z",
+  "items": [
+    {
+      "name": "Libreville",
+      "country": "GA",
+      "value": 846090,
+      "detail": "Estuaire"
+    },
+    {
+      "name": "Port-Gentil",
+      "country": "GA",
+      "value": 164018,
+      "detail": "Ogooué-Maritime"
+    },
+    {
+      "name": "Franceville",
+      "country": "GA",
+      "value": 132895,
+      "detail": "Haut-Ogooué"
+    },
+    {
+      "name": "Owendo",
+      "country": "GA",
+      "value": 95313,
+      "detail": "Estuaire"
+    },
+    {
+      "name": "Oyem",
+      "country": "GA",
+      "value": 72939,
+      "detail": "Woleu-Ntem"
+    },
+    {
+      "name": "Moanda",
+      "country": "GA",
+      "value": 71099,
+      "detail": "Haut-Ogooué"
+    },
+    {
+      "name": "Ntoum",
+      "country": "GA",
+      "value": 62445,
+      "detail": "Estuaire"
+    },
+    {
+      "name": "Lambaréné",
+      "country": "GA",
+      "value": 46605,
+      "detail": "Moyen-Ogooué"
+    },
+    {
+      "name": "Mouila",
+      "country": "GA",
+      "value": 43342,
+      "detail": "Ngouni"
+    },
+    {
+      "name": "Akanda",
+      "country": "GA",
+      "value": 41524,
+      "detail": "Estuaire"
+    },
+    {
+      "name": "Tchibanga",
+      "country": "GA",
+      "value": 36108,
+      "detail": "Nyanga"
+    },
+    {
+      "name": "Bitam",
+      "country": "GA",
+      "value": 33561,
+      "detail": "Woleu-Ntem"
+    },
+    {
+      "name": "Koulamoutou",
+      "country": "GA",
+      "value": 30830,
+      "detail": "Ogooué-Lolo"
+    },
+    {
+      "name": "Oyam",
+      "country": "GA",
+      "value": 30100,
+      "detail": "Moyen-Ogooué"
+    },
+    {
+      "name": "Makokou",
+      "country": "GA",
+      "value": 24823,
+      "detail": "Ogooué-Ivindo"
+    }
+  ]
+}

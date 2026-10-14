@@ -1,0 +1,326 @@
+{
+  "id": "fr-research-universities",
+  "title": "Top Research Universities in France",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in France ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:35.537Z",
+  "items": [
+    {
+      "name": "Université Pierre-et-Marie-Curie",
+      "country": "FR",
+      "value": 20413789,
+      "detail": "155,908 papers"
+    },
+    {
+      "name": "Université Paris-Sud",
+      "country": "FR",
+      "value": 18915266,
+      "detail": "119,016 papers"
+    },
+    {
+      "name": "Aix-Marseille Université",
+      "country": "FR",
+      "value": 13973260,
+      "detail": "189,123 papers"
+    },
+    {
+      "name": "Université Paris Diderot",
+      "country": "FR",
+      "value": 13635337,
+      "detail": "106,317 papers"
+    },
+    {
+      "name": "Université Paris-Saclay",
+      "country": "FR",
+      "value": 13258615,
+      "detail": "161,712 papers"
+    },
+    {
+      "name": "Lyon 1 Université",
+      "country": "FR",
+      "value": 12987803,
+      "detail": "125,256 papers"
+    },
+    {
+      "name": "Université Paris Descartes",
+      "country": "FR",
+      "value": 11341852,
+      "detail": "77,888 papers"
+    },
+    {
+      "name": "Sorbonne Université",
+      "country": "FR",
+      "value": 10232121,
+      "detail": "172,365 papers"
+    },
+    {
+      "name": "Université Toulouse III - Paul Sabatier",
+      "country": "FR",
+      "value": 9101357,
+      "detail": "99,615 papers"
+    },
+    {
+      "name": "Université de Strasbourg",
+      "country": "FR",
+      "value": 8347982,
+      "detail": "109,265 papers"
+    },
+    {
+      "name": "Université de Toulouse",
+      "country": "FR",
+      "value": 7964856,
+      "detail": "103,662 papers"
+    },
+    {
+      "name": "Université de Bordeaux",
+      "country": "FR",
+      "value": 7547138,
+      "detail": "114,018 papers"
+    },
+    {
+      "name": "Université Paris Cité",
+      "country": "FR",
+      "value": 7528880,
+      "detail": "118,721 papers"
+    },
+    {
+      "name": "Université de Lyon",
+      "country": "FR",
+      "value": 7232171,
+      "detail": "53,566 papers"
+    },
+    {
+      "name": "École Polytechnique",
+      "country": "FR",
+      "value": 6917916,
+      "detail": "61,516 papers"
+    },
+    {
+      "name": "Université Joseph Fourier",
+      "country": "FR",
+      "value": 6794212,
+      "detail": "44,178 papers"
+    },
+    {
+      "name": "Université Grenoble Alpes",
+      "country": "FR",
+      "value": 6708707,
+      "detail": "126,294 papers"
+    },
+    {
+      "name": "Université de Montpellier",
+      "country": "FR",
+      "value": 6504164,
+      "detail": "108,127 papers"
+    },
+    {
+      "name": "Université de Lille",
+      "country": "FR",
+      "value": 6215526,
+      "detail": "124,075 papers"
+    },
+    {
+      "name": "Université Paris Sciences et Lettres",
+      "country": "FR",
+      "value": 5421926,
+      "detail": "62,639 papers"
+    },
+    {
+      "name": "Nantes Université",
+      "country": "FR",
+      "value": 4771514,
+      "detail": "96,310 papers"
+    },
+    {
+      "name": "Université de Rennes",
+      "country": "FR",
+      "value": 4409802,
+      "detail": "87,843 papers"
+    },
+    {
+      "name": "Université Savoie Mont Blanc",
+      "country": "FR",
+      "value": 3929159,
+      "detail": "31,633 papers"
+    },
+    {
+      "name": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "country": "FR",
+      "value": 3686776,
+      "detail": "45,681 papers"
+    },
+    {
+      "name": "Université de Lorraine",
+      "country": "FR",
+      "value": 3647444,
+      "detail": "155,282 papers"
+    },
+    {
+      "name": "Collège de France",
+      "country": "FR",
+      "value": 3375071,
+      "detail": "32,372 papers"
+    },
+    {
+      "name": "Université Côte d'Azur",
+      "country": "FR",
+      "value": 3373330,
+      "detail": "42,080 papers"
+    },
+    {
+      "name": "Université de Nantes",
+      "country": "FR",
+      "value": 3240671,
+      "detail": "49,118 papers"
+    },
+    {
+      "name": "Université Blaise Pascal",
+      "country": "FR",
+      "value": 3193302,
+      "detail": "23,282 papers"
+    },
+    {
+      "name": "Université de Bourgogne",
+      "country": "FR",
+      "value": 3027958,
+      "detail": "63,772 papers"
+    },
+    {
+      "name": "École Normale Supérieure de Lyon",
+      "country": "FR",
+      "value": 2800188,
+      "detail": "44,124 papers"
+    },
+    {
+      "name": "Université Rennes 1",
+      "country": "FR",
+      "value": 2787745,
+      "detail": "44,048 papers"
+    },
+    {
+      "name": "Université Nice Sophia Antipolis",
+      "country": "FR",
+      "value": 2474090,
+      "detail": "27,089 papers"
+    },
+    {
+      "name": "Université Clermont Auvergne",
+      "country": "FR",
+      "value": 2384387,
+      "detail": "39,178 papers"
+    },
+    {
+      "name": "Université Paris-Est Créteil",
+      "country": "FR",
+      "value": 2325253,
+      "detail": "47,770 papers"
+    },
+    {
+      "name": "Université Bordeaux Segalen",
+      "country": "FR",
+      "value": 2125771,
+      "detail": "15,693 papers"
+    },
+    {
+      "name": "Université de Haute-Alsace",
+      "country": "FR",
+      "value": 2108672,
+      "detail": "17,533 papers"
+    },
+    {
+      "name": "Université de Tours",
+      "country": "FR",
+      "value": 2094826,
+      "detail": "40,165 papers"
+    },
+    {
+      "name": "AgroParisTech",
+      "country": "FR",
+      "value": 2088154,
+      "detail": "34,060 papers"
+    },
+    {
+      "name": "Institut polytechnique de Grenoble",
+      "country": "FR",
+      "value": 2016326,
+      "detail": "43,132 papers"
+    },
+    {
+      "name": "Université de Rouen Normandie",
+      "country": "FR",
+      "value": 1996565,
+      "detail": "40,990 papers"
+    },
+    {
+      "name": "Université de Poitiers",
+      "country": "FR",
+      "value": 1979923,
+      "detail": "55,864 papers"
+    },
+    {
+      "name": "Université de Caen Normandie",
+      "country": "FR",
+      "value": 1961719,
+      "detail": "45,874 papers"
+    },
+    {
+      "name": "Institut National des Sciences Appliquées de Lyon",
+      "country": "FR",
+      "value": 1826112,
+      "detail": "39,929 papers"
+    },
+    {
+      "name": "Université d'Angers",
+      "country": "FR",
+      "value": 1640069,
+      "detail": "33,585 papers"
+    },
+    {
+      "name": "Université de Picardie Jules Verne",
+      "country": "FR",
+      "value": 1592621,
+      "detail": "39,166 papers"
+    },
+    {
+      "name": "Université Sorbonne Paris Nord",
+      "country": "FR",
+      "value": 1550196,
+      "detail": "38,042 papers"
+    },
+    {
+      "name": "ESPCI Paris",
+      "country": "FR",
+      "value": 1431566,
+      "detail": "14,858 papers"
+    },
+    {
+      "name": "Université d'Orléans",
+      "country": "FR",
+      "value": 1392680,
+      "detail": "31,857 papers"
+    },
+    {
+      "name": "Université de Bretagne Occidentale",
+      "country": "FR",
+      "value": 1362301,
+      "detail": "34,885 papers"
+    }
+  ]
+}

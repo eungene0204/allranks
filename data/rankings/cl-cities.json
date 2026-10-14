@@ -1,0 +1,325 @@
+{
+  "id": "cl-cities",
+  "title": "Largest Cities in Chile",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Chile with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.663Z",
+  "items": [
+    {
+      "name": "Santiago",
+      "country": "CL",
+      "value": 4837295,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Puente Alto",
+      "country": "CL",
+      "value": 568106,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Maipú",
+      "country": "CL",
+      "value": 503635,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Antofagasta",
+      "country": "CL",
+      "value": 401096,
+      "detail": "Antofagasta"
+    },
+    {
+      "name": "Viña del Mar",
+      "country": "CL",
+      "value": 334248,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "Valparaíso",
+      "country": "CL",
+      "value": 282448,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "Ñuñoa",
+      "country": "CL",
+      "value": 255823,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "San Bernardo",
+      "country": "CL",
+      "value": 249858,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Puerto Montt",
+      "country": "CL",
+      "value": 245902,
+      "detail": "Los Lagos Region"
+    },
+    {
+      "name": "Arica",
+      "country": "CL",
+      "value": 241653,
+      "detail": "Arica y Parinacota Region"
+    },
+    {
+      "name": "Peñalolén",
+      "country": "CL",
+      "value": 241599,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Temuco",
+      "country": "CL",
+      "value": 238129,
+      "detail": "Araucania"
+    },
+    {
+      "name": "Concepción",
+      "country": "CL",
+      "value": 223574,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Rancagua",
+      "country": "CL",
+      "value": 212695,
+      "detail": "O'Higgins Region"
+    },
+    {
+      "name": "Quilicura",
+      "country": "CL",
+      "value": 210410,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "La Pintana",
+      "country": "CL",
+      "value": 201178,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Iquique",
+      "country": "CL",
+      "value": 199587,
+      "detail": "Tarapacá"
+    },
+    {
+      "name": "Talca",
+      "country": "CL",
+      "value": 197479,
+      "detail": "Maule Region"
+    },
+    {
+      "name": "Calama",
+      "country": "CL",
+      "value": 166334,
+      "detail": "Antofagasta"
+    },
+    {
+      "name": "Coquimbo",
+      "country": "CL",
+      "value": 161317,
+      "detail": "Coquimbo Region"
+    },
+    {
+      "name": "La Serena",
+      "country": "CL",
+      "value": 154521,
+      "detail": "Coquimbo Region"
+    },
+    {
+      "name": "Talcahuano",
+      "country": "CL",
+      "value": 150499,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Chillán",
+      "country": "CL",
+      "value": 150396,
+      "detail": "Ñuble"
+    },
+    {
+      "name": "Renca",
+      "country": "CL",
+      "value": 147151,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Colina",
+      "country": "CL",
+      "value": 146207,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Alto Hospicio",
+      "country": "CL",
+      "value": 142086,
+      "detail": "Tarapacá"
+    },
+    {
+      "name": "Osorno",
+      "country": "CL",
+      "value": 135773,
+      "detail": "Los Lagos Region"
+    },
+    {
+      "name": "Valdivia",
+      "country": "CL",
+      "value": 133419,
+      "detail": "Los Ríos Region"
+    },
+    {
+      "name": "Villa Mercedes",
+      "country": "CL",
+      "value": 131936,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Quilpué",
+      "country": "CL",
+      "value": 130263,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "Copiapó",
+      "country": "CL",
+      "value": 129280,
+      "detail": "Atacama"
+    },
+    {
+      "name": "Los Ángeles",
+      "country": "CL",
+      "value": 125430,
+      "detail": "Biobio"
+    },
+    {
+      "name": "San Pedro de la Paz",
+      "country": "CL",
+      "value": 121631,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Punta Arenas",
+      "country": "CL",
+      "value": 117430,
+      "detail": "Region of Magallanes"
+    },
+    {
+      "name": "Coronel",
+      "country": "CL",
+      "value": 107759,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Lo Prado",
+      "country": "CL",
+      "value": 104316,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Curicó",
+      "country": "CL",
+      "value": 102438,
+      "detail": "Maule Region"
+    },
+    {
+      "name": "Lampa",
+      "country": "CL",
+      "value": 102234,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Villa Alemana",
+      "country": "CL",
+      "value": 97320,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "San Antonio",
+      "country": "CL",
+      "value": 87675,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "Hualpén",
+      "country": "CL",
+      "value": 86639,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Peñaflor",
+      "country": "CL",
+      "value": 85671,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Chiguayante",
+      "country": "CL",
+      "value": 84718,
+      "detail": "Biobio"
+    },
+    {
+      "name": "Ovalle",
+      "country": "CL",
+      "value": 77138,
+      "detail": "Coquimbo Region"
+    },
+    {
+      "name": "Padre Las Casas",
+      "country": "CL",
+      "value": 72892,
+      "detail": "Araucania"
+    },
+    {
+      "name": "Paine",
+      "country": "CL",
+      "value": 72759,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Linares",
+      "country": "CL",
+      "value": 69535,
+      "detail": "Maule Region"
+    },
+    {
+      "name": "Quillota",
+      "country": "CL",
+      "value": 67779,
+      "detail": "Valparaiso"
+    },
+    {
+      "name": "Buin",
+      "country": "CL",
+      "value": 63419,
+      "detail": "Santiago Metropolitan"
+    },
+    {
+      "name": "Padre Hurtado",
+      "country": "CL",
+      "value": 63250,
+      "detail": "Santiago Metropolitan"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "lk-cities",
+  "title": "Largest Cities in Sri Lanka",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Sri Lanka with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.672Z",
+  "items": [
+    {
+      "name": "Colombo",
+      "country": "LK",
+      "value": 648034,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Dehiwala-Mount Lavinia",
+      "country": "LK",
+      "value": 219827,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Maharagama",
+      "country": "LK",
+      "value": 195355,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Jaffna",
+      "country": "LK",
+      "value": 169102,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Moratuwa",
+      "country": "LK",
+      "value": 168280,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Negombo",
+      "country": "LK",
+      "value": 137223,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Pita Kotte",
+      "country": "LK",
+      "value": 118179,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Sri Jayewardenepura Kotte",
+      "country": "LK",
+      "value": 115826,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Kandy",
+      "country": "LK",
+      "value": 111701,
+      "detail": "Central Province"
+    },
+    {
+      "name": "Trincomalee",
+      "country": "LK",
+      "value": 108420,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Kalmunai",
+      "country": "LK",
+      "value": 100171,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Galle",
+      "country": "LK",
+      "value": 93118,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Point Pedro",
+      "country": "LK",
+      "value": 89810,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Batticaloa",
+      "country": "LK",
+      "value": 86742,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Katunayaka",
+      "country": "LK",
+      "value": 84643,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Ambalantota",
+      "country": "LK",
+      "value": 80506,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Valvedditturai",
+      "country": "LK",
+      "value": 78205,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Matara",
+      "country": "LK",
+      "value": 76254,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Battaramulla South",
+      "country": "LK",
+      "value": 75633,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Dambulla",
+      "country": "LK",
+      "value": 66716,
+      "detail": "Central Province"
+    },
+    {
+      "name": "Kolonnawa",
+      "country": "LK",
+      "value": 64887,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Kotikawatta",
+      "country": "LK",
+      "value": 64565,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Anuradhapura",
+      "country": "LK",
+      "value": 60943,
+      "detail": "North Central Province"
+    },
+    {
+      "name": "Vavuniya",
+      "country": "LK",
+      "value": 60176,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Beliatta",
+      "country": "LK",
+      "value": 58675,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Hendala",
+      "country": "LK",
+      "value": 56978,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Ambalangoda",
+      "country": "LK",
+      "value": 56783,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Ratnapura",
+      "country": "LK",
+      "value": 47832,
+      "detail": "Sabaragamuwa Province"
+    },
+    {
+      "name": "Badulla",
+      "country": "LK",
+      "value": 47587,
+      "detail": "Uva Province"
+    },
+    {
+      "name": "Pottuvil",
+      "country": "LK",
+      "value": 45727,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Puttalam",
+      "country": "LK",
+      "value": 45661,
+      "detail": "North Western Province"
+    },
+    {
+      "name": "Devinuwara",
+      "country": "LK",
+      "value": 45000,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Ampara",
+      "country": "LK",
+      "value": 43720,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Welisara",
+      "country": "LK",
+      "value": 41306,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Kalutara",
+      "country": "LK",
+      "value": 37081,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Bentota",
+      "country": "LK",
+      "value": 37000,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Matale",
+      "country": "LK",
+      "value": 36462,
+      "detail": "Central Province"
+    },
+    {
+      "name": "Mannar",
+      "country": "LK",
+      "value": 35817,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Homagama",
+      "country": "LK",
+      "value": 34664,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Beruwala",
+      "country": "LK",
+      "value": 34250,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Panadura",
+      "country": "LK",
+      "value": 33735,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Mulleriyawa",
+      "country": "LK",
+      "value": 33540,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Kandana",
+      "country": "LK",
+      "value": 33424,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Ja Ela",
+      "country": "LK",
+      "value": 32175,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Wattala",
+      "country": "LK",
+      "value": 30725,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Mullaittivu",
+      "country": "LK",
+      "value": 28973,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Kelaniya",
+      "country": "LK",
+      "value": 28846,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Peliyagoda",
+      "country": "LK",
+      "value": 28784,
+      "detail": "Western Province"
+    },
+    {
+      "name": "Kurunegala",
+      "country": "LK",
+      "value": 28571,
+      "detail": "North Western Province"
+    },
+    {
+      "name": "Nuwara Eliya",
+      "country": "LK",
+      "value": 27500,
+      "detail": "Central Province"
+    }
+  ]
+}

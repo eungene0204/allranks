@@ -1,14 +1,16 @@
 // Types shared by the website and the data pipeline (scripts/ imports this file too).
 
-export type SourceKind = "api" | "csv" | "wikipedia" | "manual";
+export type SourceKind = "api" | "csv" | "wikipedia" | "manual" | "agent";
 
 export type Source = {
   kind: SourceKind;
   name: string;
   url?: string;
   license?: string;
-  /** Manual data stays `false` until someone has checked it against the source. */
+  /** Manual and agent-collected data stays `false` until someone has checked it against the source. */
   verified?: boolean;
+  /** Further pages the numbers were read from (agent-collected rankings cite every page they used). */
+  urls?: string[];
   note?: string;
 };
 

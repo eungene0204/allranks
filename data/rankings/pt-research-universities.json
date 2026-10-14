@@ -1,0 +1,326 @@
+{
+  "id": "pt-research-universities",
+  "title": "Top Research Universities in Portugal",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Portugal ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:53.066Z",
+  "items": [
+    {
+      "name": "Universidade do Porto",
+      "country": "PT",
+      "value": 8840843,
+      "detail": "156,203 papers"
+    },
+    {
+      "name": "University of Lisbon",
+      "country": "PT",
+      "value": 8054622,
+      "detail": "147,186 papers"
+    },
+    {
+      "name": "University of Coimbra",
+      "country": "PT",
+      "value": 4999781,
+      "detail": "96,795 papers"
+    },
+    {
+      "name": "University of Aveiro",
+      "country": "PT",
+      "value": 4209820,
+      "detail": "69,413 papers"
+    },
+    {
+      "name": "Instituto Superior Técnico",
+      "country": "PT",
+      "value": 4105407,
+      "detail": "65,159 papers"
+    },
+    {
+      "name": "University of Minho",
+      "country": "PT",
+      "value": 4046575,
+      "detail": "71,170 papers"
+    },
+    {
+      "name": "Universidade Nova de Lisboa",
+      "country": "PT",
+      "value": 3633188,
+      "detail": "74,223 papers"
+    },
+    {
+      "name": "Universidade Técnica de Lisboa",
+      "country": "PT",
+      "value": 1215191,
+      "detail": "17,465 papers"
+    },
+    {
+      "name": "University of Algarve",
+      "country": "PT",
+      "value": 1076074,
+      "detail": "21,466 papers"
+    },
+    {
+      "name": "University of Trás-os-Montes and Alto Douro",
+      "country": "PT",
+      "value": 921824,
+      "detail": "20,415 papers"
+    },
+    {
+      "name": "University of Beira Interior",
+      "country": "PT",
+      "value": 860466,
+      "detail": "19,446 papers"
+    },
+    {
+      "name": "Instituto de Ciências Biomédicas Albel Salazar",
+      "country": "PT",
+      "value": 752094,
+      "detail": "12,947 papers"
+    },
+    {
+      "name": "Universidade Católica Portuguesa",
+      "country": "PT",
+      "value": 617625,
+      "detail": "17,160 papers"
+    },
+    {
+      "name": "Universidade Politécnica de Bragança",
+      "country": "PT",
+      "value": 600809,
+      "detail": "12,462 papers"
+    },
+    {
+      "name": "University of Évora",
+      "country": "PT",
+      "value": 565541,
+      "detail": "18,645 papers"
+    },
+    {
+      "name": "Instituto Gulbenkian de Ciência",
+      "country": "PT",
+      "value": 560095,
+      "detail": "4,496 papers"
+    },
+    {
+      "name": "Universidade Técnica do Porto",
+      "country": "PT",
+      "value": 519059,
+      "detail": "16,345 papers"
+    },
+    {
+      "name": "Centro de Química Estrutural",
+      "country": "PT",
+      "value": 514931,
+      "detail": "6,815 papers"
+    },
+    {
+      "name": "Iscte – Instituto Universitário de Lisboa",
+      "country": "PT",
+      "value": 363596,
+      "detail": "16,782 papers"
+    },
+    {
+      "name": "Universidade dos Açores",
+      "country": "PT",
+      "value": 356807,
+      "detail": "8,327 papers"
+    },
+    {
+      "name": "Centro de Astrofísica da Universidade do Porto",
+      "country": "PT",
+      "value": 303658,
+      "detail": "3,447 papers"
+    },
+    {
+      "name": "Universidade de Leiria e Oeste",
+      "country": "PT",
+      "value": 286463,
+      "detail": "8,848 papers"
+    },
+    {
+      "name": "Universidade da Madeira",
+      "country": "PT",
+      "value": 250567,
+      "detail": "6,681 papers"
+    },
+    {
+      "name": "Universidade Politécnica de Lisboa",
+      "country": "PT",
+      "value": 194868,
+      "detail": "9,179 papers"
+    },
+    {
+      "name": "Polytechnic Institute of Coimbra",
+      "country": "PT",
+      "value": 163118,
+      "detail": "7,512 papers"
+    },
+    {
+      "name": "Fernando Pessoa University",
+      "country": "PT",
+      "value": 157494,
+      "detail": "5,850 papers"
+    },
+    {
+      "name": "Polytechnic Institute of Viseu",
+      "country": "PT",
+      "value": 129612,
+      "detail": "4,940 papers"
+    },
+    {
+      "name": "Cooperativa de Ensino Superior Politécnico e Universitário",
+      "country": "PT",
+      "value": 126251,
+      "detail": "3,301 papers"
+    },
+    {
+      "name": "Centro de Inovação em Biomedicina e Biotecnologia",
+      "country": "PT",
+      "value": 116814,
+      "detail": "2,060 papers"
+    },
+    {
+      "name": "ISPA - Instituto Universitário",
+      "country": "PT",
+      "value": 111864,
+      "detail": "3,980 papers"
+    },
+    {
+      "name": "Centro de Química da Madeira",
+      "country": "PT",
+      "value": 111638,
+      "detail": "1,027 papers"
+    },
+    {
+      "name": "Universidade Politécnica de Viana do Castelo",
+      "country": "PT",
+      "value": 110020,
+      "detail": "4,771 papers"
+    },
+    {
+      "name": "Universidade Lusófona",
+      "country": "PT",
+      "value": 107371,
+      "detail": "7,109 papers"
+    },
+    {
+      "name": "Centro de Ciência Animal e Veterinária",
+      "country": "PT",
+      "value": 95591,
+      "detail": "2,508 papers"
+    },
+    {
+      "name": "NOVA School of Business and Economics",
+      "country": "PT",
+      "value": 95122,
+      "detail": "3,511 papers"
+    },
+    {
+      "name": "Universidade Lusófona de Humanidades e Tecnologias",
+      "country": "PT",
+      "value": 94908,
+      "detail": "4,405 papers"
+    },
+    {
+      "name": "Universidade Politécnica de Setúbal",
+      "country": "PT",
+      "value": 81559,
+      "detail": "5,063 papers"
+    },
+    {
+      "name": "Universidade do Minho Centro de Engenharia Biológica",
+      "country": "PT",
+      "value": 78000,
+      "detail": "586 papers"
+    },
+    {
+      "name": "Universidade Politécnica de Castelo Branco",
+      "country": "PT",
+      "value": 75126,
+      "detail": "3,352 papers"
+    },
+    {
+      "name": "Escola Superior de Enfermagem de Coimbra",
+      "country": "PT",
+      "value": 75067,
+      "detail": "2,572 papers"
+    },
+    {
+      "name": "ISEG - Instituto Superior de Economia e Gestão",
+      "country": "PT",
+      "value": 72607,
+      "detail": "2,796 papers"
+    },
+    {
+      "name": "Grupo de Investigação em Engenharia e Computação Inteligente para a Inovação e o Desenvolvimento",
+      "country": "PT",
+      "value": 68944,
+      "detail": "1,745 papers"
+    },
+    {
+      "name": "Unidade de Investigação em Desenvolvimento Empresarial",
+      "country": "PT",
+      "value": 68624,
+      "detail": "2,028 papers"
+    },
+    {
+      "name": "Comprehensive Health Research Centre",
+      "country": "PT",
+      "value": 65850,
+      "detail": "2,815 papers"
+    },
+    {
+      "name": "Universidade Aberta",
+      "country": "PT",
+      "value": 55355,
+      "detail": "4,918 papers"
+    },
+    {
+      "name": "Universidade Politécnica da Guarda",
+      "country": "PT",
+      "value": 52040,
+      "detail": "4,328 papers"
+    },
+    {
+      "name": "Centro de Química de Évora",
+      "country": "PT",
+      "value": 51850,
+      "detail": "596 papers"
+    },
+    {
+      "name": "Grupo de Lasers e Plasmas",
+      "country": "PT",
+      "value": 51439,
+      "detail": "463 papers"
+    },
+    {
+      "name": "Escola Superior de Saúde Egas Moniz",
+      "country": "PT",
+      "value": 51036,
+      "detail": "2,036 papers"
+    },
+    {
+      "name": "Labbels",
+      "country": "PT",
+      "value": 50683,
+      "detail": "1,422 papers"
+    }
+  ]
+}

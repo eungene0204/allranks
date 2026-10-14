@@ -1,0 +1,325 @@
+{
+  "id": "ir-cities",
+  "title": "Largest Cities in Iran",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Iran with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.670Z",
+  "items": [
+    {
+      "name": "Tehran",
+      "country": "IR",
+      "value": 7153309,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Mashhad",
+      "country": "IR",
+      "value": 2307177,
+      "detail": "Razavi Khorasan"
+    },
+    {
+      "name": "Isfahan",
+      "country": "IR",
+      "value": 1547164,
+      "detail": "Isfahan"
+    },
+    {
+      "name": "Karaj",
+      "country": "IR",
+      "value": 1448075,
+      "detail": "Alborz Province"
+    },
+    {
+      "name": "Tabriz",
+      "country": "IR",
+      "value": 1424641,
+      "detail": "East Azerbaijan"
+    },
+    {
+      "name": "Shiraz",
+      "country": "IR",
+      "value": 1249942,
+      "detail": "Fars"
+    },
+    {
+      "name": "Qom",
+      "country": "IR",
+      "value": 900000,
+      "detail": "Qom Province"
+    },
+    {
+      "name": "Ahvaz",
+      "country": "IR",
+      "value": 841145,
+      "detail": "Khuzestan"
+    },
+    {
+      "name": "Kermanshah",
+      "country": "IR",
+      "value": 621100,
+      "detail": "Kermanshah Province"
+    },
+    {
+      "name": "Rasht",
+      "country": "IR",
+      "value": 594590,
+      "detail": "Gilan Province"
+    },
+    {
+      "name": "Kerman",
+      "country": "IR",
+      "value": 577514,
+      "detail": "Kerman"
+    },
+    {
+      "name": "Orūmīyeh",
+      "country": "IR",
+      "value": 577307,
+      "detail": "West Azerbaijan"
+    },
+    {
+      "name": "Zahedan",
+      "country": "IR",
+      "value": 551980,
+      "detail": "Sistan and Baluchestan"
+    },
+    {
+      "name": "Hamadān",
+      "country": "IR",
+      "value": 528256,
+      "detail": "Hamadan Province"
+    },
+    {
+      "name": "Arāk",
+      "country": "IR",
+      "value": 503647,
+      "detail": "Markazi"
+    },
+    {
+      "name": "Yazd",
+      "country": "IR",
+      "value": 477905,
+      "detail": "Yazd Province"
+    },
+    {
+      "name": "Eslamshahr",
+      "country": "IR",
+      "value": 450000,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Ardabīl",
+      "country": "IR",
+      "value": 410753,
+      "detail": "Ardabil Province"
+    },
+    {
+      "name": "Zanjan",
+      "country": "IR",
+      "value": 357471,
+      "detail": "Zanjan"
+    },
+    {
+      "name": "Bandar Abbas",
+      "country": "IR",
+      "value": 352173,
+      "detail": "Hormozgan"
+    },
+    {
+      "name": "Sanandaj",
+      "country": "IR",
+      "value": 349176,
+      "detail": "Kurdistan Province"
+    },
+    {
+      "name": "Qazvin",
+      "country": "IR",
+      "value": 333635,
+      "detail": "Qazvin Province"
+    },
+    {
+      "name": "Khorramshahr",
+      "country": "IR",
+      "value": 330606,
+      "detail": "Khuzestan"
+    },
+    {
+      "name": "Khorramabad",
+      "country": "IR",
+      "value": 329825,
+      "detail": "Lorestan Province"
+    },
+    {
+      "name": "Shahrīār",
+      "country": "IR",
+      "value": 309607,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Qods",
+      "country": "IR",
+      "value": 309605,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Kashan",
+      "country": "IR",
+      "value": 304487,
+      "detail": "Isfahan"
+    },
+    {
+      "name": "Kāshān",
+      "country": "IR",
+      "value": 304487,
+      "detail": "Isfahan"
+    },
+    {
+      "name": "Khomeynī Shahr",
+      "country": "IR",
+      "value": 277334,
+      "detail": "Isfahan"
+    },
+    {
+      "name": "Dezful",
+      "country": "IR",
+      "value": 264709,
+      "detail": "Khuzestan"
+    },
+    {
+      "name": "Marāgheh",
+      "country": "IR",
+      "value": 262604,
+      "detail": "East Azerbaijan"
+    },
+    {
+      "name": "Marāgheh (Razavi Khorasan)",
+      "country": "IR",
+      "value": 262604,
+      "detail": "Razavi Khorasan"
+    },
+    {
+      "name": "Sari",
+      "country": "IR",
+      "value": 255396,
+      "detail": "Māzandarān"
+    },
+    {
+      "name": "Borūjerd",
+      "country": "IR",
+      "value": 251958,
+      "detail": "Lorestan Province"
+    },
+    {
+      "name": "Qarchak",
+      "country": "IR",
+      "value": 251834,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Gorgān",
+      "country": "IR",
+      "value": 244937,
+      "detail": "Golestan"
+    },
+    {
+      "name": "Sabzevar",
+      "country": "IR",
+      "value": 243700,
+      "detail": "Razavi Khorasan"
+    },
+    {
+      "name": "Golestān",
+      "country": "IR",
+      "value": 240000,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Āmol",
+      "country": "IR",
+      "value": 237528,
+      "detail": "Māzandarān"
+    },
+    {
+      "name": "Pākdasht",
+      "country": "IR",
+      "value": 236319,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Najafābād",
+      "country": "IR",
+      "value": 235281,
+      "detail": "Isfahan"
+    },
+    {
+      "name": "Abadan",
+      "country": "IR",
+      "value": 231476,
+      "detail": "Khuzestan"
+    },
+    {
+      "name": "Varāmīn",
+      "country": "IR",
+      "value": 225628,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Neyshābūr",
+      "country": "IR",
+      "value": 220929,
+      "detail": "Razavi Khorasan"
+    },
+    {
+      "name": "Sāveh",
+      "country": "IR",
+      "value": 220762,
+      "detail": "Markazi"
+    },
+    {
+      "name": "Naz̧arābād",
+      "country": "IR",
+      "value": 213388,
+      "detail": "Alborz Province"
+    },
+    {
+      "name": "Qā’em Shahr",
+      "country": "IR",
+      "value": 204953,
+      "detail": "Māzandarān"
+    },
+    {
+      "name": "Bābol",
+      "country": "IR",
+      "value": 202796,
+      "detail": "Māzandarān"
+    },
+    {
+      "name": "Nasīm Shahr",
+      "country": "IR",
+      "value": 200393,
+      "detail": "Tehran"
+    },
+    {
+      "name": "Nasimshahr",
+      "country": "IR",
+      "value": 200393,
+      "detail": "Tehran"
+    }
+  ]
+}

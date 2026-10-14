@@ -1,0 +1,290 @@
+{
+  "id": "ie-research-universities",
+  "title": "Top Research Universities in Ireland",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Ireland ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:50.496Z",
+  "items": [
+    {
+      "name": "Trinity College Dublin",
+      "country": "IE",
+      "value": 8419970,
+      "detail": "96,772 papers"
+    },
+    {
+      "name": "University College Dublin",
+      "country": "IE",
+      "value": 7217121,
+      "detail": "106,403 papers"
+    },
+    {
+      "name": "University College Cork",
+      "country": "IE",
+      "value": 4790201,
+      "detail": "60,853 papers"
+    },
+    {
+      "name": "Ollscoil na Gaillimhe – University of Galway",
+      "country": "IE",
+      "value": 3247611,
+      "detail": "51,158 papers"
+    },
+    {
+      "name": "Royal College of Surgeons in Ireland",
+      "country": "IE",
+      "value": 1841336,
+      "detail": "26,533 papers"
+    },
+    {
+      "name": "University of Limerick",
+      "country": "IE",
+      "value": 1558168,
+      "detail": "34,355 papers"
+    },
+    {
+      "name": "Dublin City University",
+      "country": "IE",
+      "value": 1540465,
+      "detail": "32,702 papers"
+    },
+    {
+      "name": "National University of Ireland",
+      "country": "IE",
+      "value": 933547,
+      "detail": "8,800 papers"
+    },
+    {
+      "name": "National University of Ireland, Maynooth",
+      "country": "IE",
+      "value": 819733,
+      "detail": "22,380 papers"
+    },
+    {
+      "name": "Dublin Institute of Technology",
+      "country": "IE",
+      "value": 520895,
+      "detail": "7,952 papers"
+    },
+    {
+      "name": "Technological University Dublin",
+      "country": "IE",
+      "value": 182654,
+      "detail": "10,241 papers"
+    },
+    {
+      "name": "Institute of Technology Sligo",
+      "country": "IE",
+      "value": 82293,
+      "detail": "1,103 papers"
+    },
+    {
+      "name": "Galway-Mayo Institute of Technology",
+      "country": "IE",
+      "value": 80764,
+      "detail": "1,232 papers"
+    },
+    {
+      "name": "Athlone Institute of Technology",
+      "country": "IE",
+      "value": 78917,
+      "detail": "1,165 papers"
+    },
+    {
+      "name": "Dundalk Institute of Technology",
+      "country": "IE",
+      "value": 53554,
+      "detail": "1,699 papers"
+    },
+    {
+      "name": "Institute of Technology Tallaght",
+      "country": "IE",
+      "value": 43829,
+      "detail": "698 papers"
+    },
+    {
+      "name": "Institute of Technology Tralee",
+      "country": "IE",
+      "value": 36083,
+      "detail": "327 papers"
+    },
+    {
+      "name": "Atlantic Technological University",
+      "country": "IE",
+      "value": 33180,
+      "detail": "2,426 papers"
+    },
+    {
+      "name": "National College of Ireland",
+      "country": "IE",
+      "value": 31851,
+      "detail": "1,685 papers"
+    },
+    {
+      "name": "Mary Immaculate College",
+      "country": "IE",
+      "value": 27650,
+      "detail": "1,738 papers"
+    },
+    {
+      "name": "South East Technological University",
+      "country": "IE",
+      "value": 18713,
+      "detail": "1,638 papers"
+    },
+    {
+      "name": "Letterkenny Institute of Technology",
+      "country": "IE",
+      "value": 18160,
+      "detail": "2,495 papers"
+    },
+    {
+      "name": "Limerick Institute of Technology",
+      "country": "IE",
+      "value": 13078,
+      "detail": "433 papers"
+    },
+    {
+      "name": "Institute of Technology, Blanchardstown",
+      "country": "IE",
+      "value": 11328,
+      "detail": "240 papers"
+    },
+    {
+      "name": "Royal College of Physicians of Ireland",
+      "country": "IE",
+      "value": 9640,
+      "detail": "633 papers"
+    },
+    {
+      "name": "Dublin Business School",
+      "country": "IE",
+      "value": 5519,
+      "detail": "361 papers"
+    },
+    {
+      "name": "Dún Laoghaire Institute of Art, Design and Technology",
+      "country": "IE",
+      "value": 2809,
+      "detail": "281 papers"
+    },
+    {
+      "name": "Irish Management Institute",
+      "country": "IE",
+      "value": 1766,
+      "detail": "69 papers"
+    },
+    {
+      "name": "Institute of Child Education and Psychology Europe",
+      "country": "IE",
+      "value": 1270,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Discovery Programme",
+      "country": "IE",
+      "value": 878,
+      "detail": "73 papers"
+    },
+    {
+      "name": "Griffith College",
+      "country": "IE",
+      "value": 790,
+      "detail": "119 papers"
+    },
+    {
+      "name": "National College of Art and Design",
+      "country": "IE",
+      "value": 715,
+      "detail": "173 papers"
+    },
+    {
+      "name": "King's Inns",
+      "country": "IE",
+      "value": 711,
+      "detail": "98 papers"
+    },
+    {
+      "name": "The American College",
+      "country": "IE",
+      "value": 428,
+      "detail": "48 papers"
+    },
+    {
+      "name": "Milltown Institute of Theology and Philosophy",
+      "country": "IE",
+      "value": 299,
+      "detail": "179 papers"
+    },
+    {
+      "name": "Free University of Ireland",
+      "country": "IE",
+      "value": 284,
+      "detail": "42 papers"
+    },
+    {
+      "name": "Transport Infrastructure Ireland",
+      "country": "IE",
+      "value": 221,
+      "detail": "67 papers"
+    },
+    {
+      "name": "All Hallows College",
+      "country": "IE",
+      "value": 217,
+      "detail": "61 papers"
+    },
+    {
+      "name": "Griffith College Cork",
+      "country": "IE",
+      "value": 82,
+      "detail": "29 papers"
+    },
+    {
+      "name": "IBAT College",
+      "country": "IE",
+      "value": 47,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Garda Síochána College",
+      "country": "IE",
+      "value": 23,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Irish Archaeology Field School",
+      "country": "IE",
+      "value": 17,
+      "detail": "3 papers"
+    },
+    {
+      "name": "Griffith College Limerick",
+      "country": "IE",
+      "value": 7,
+      "detail": "2 papers"
+    },
+    {
+      "name": "Kerry Education and Training Board",
+      "country": "IE",
+      "value": 7,
+      "detail": "2 papers"
+    }
+  ]
+}

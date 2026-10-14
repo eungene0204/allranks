@@ -1,0 +1,326 @@
+{
+  "id": "at-research-universities",
+  "title": "Top Research Universities in Austria",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Austria ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:43.680Z",
+  "items": [
+    {
+      "name": "University of Vienna",
+      "country": "AT",
+      "value": 12563837,
+      "detail": "188,069 papers"
+    },
+    {
+      "name": "Medical University of Vienna",
+      "country": "AT",
+      "value": 11546680,
+      "detail": "103,845 papers"
+    },
+    {
+      "name": "Universität Innsbruck",
+      "country": "AT",
+      "value": 9517104,
+      "detail": "113,352 papers"
+    },
+    {
+      "name": "TU Wien",
+      "country": "AT",
+      "value": 5576105,
+      "detail": "116,916 papers"
+    },
+    {
+      "name": "Innsbruck Medical University",
+      "country": "AT",
+      "value": 4854904,
+      "detail": "43,987 papers"
+    },
+    {
+      "name": "University of Graz",
+      "country": "AT",
+      "value": 4149169,
+      "detail": "80,903 papers"
+    },
+    {
+      "name": "Medical University of Graz",
+      "country": "AT",
+      "value": 4147011,
+      "detail": "43,144 papers"
+    },
+    {
+      "name": "Graz University of Technology",
+      "country": "AT",
+      "value": 2852623,
+      "detail": "71,257 papers"
+    },
+    {
+      "name": "BOKU University",
+      "country": "AT",
+      "value": 2401093,
+      "detail": "31,658 papers"
+    },
+    {
+      "name": "Johannes Kepler University of Linz",
+      "country": "AT",
+      "value": 1851237,
+      "detail": "41,481 papers"
+    },
+    {
+      "name": "University of Salzburg",
+      "country": "AT",
+      "value": 1345013,
+      "detail": "29,788 papers"
+    },
+    {
+      "name": "Paracelsus Medical University",
+      "country": "AT",
+      "value": 1301131,
+      "detail": "16,841 papers"
+    },
+    {
+      "name": "University of Veterinary Medicine Vienna",
+      "country": "AT",
+      "value": 1163511,
+      "detail": "16,783 papers"
+    },
+    {
+      "name": "Montanuniversität Leoben",
+      "country": "AT",
+      "value": 690814,
+      "detail": "16,128 papers"
+    },
+    {
+      "name": "Vienna University of Economics and Business",
+      "country": "AT",
+      "value": 573504,
+      "detail": "18,897 papers"
+    },
+    {
+      "name": "University of Klagenfurt",
+      "country": "AT",
+      "value": 440440,
+      "detail": "12,728 papers"
+    },
+    {
+      "name": "Institute of Science and Technology Austria",
+      "country": "AT",
+      "value": 421137,
+      "detail": "9,093 papers"
+    },
+    {
+      "name": "Universität für Weiterbildung Krems",
+      "country": "AT",
+      "value": 338548,
+      "detail": "6,103 papers"
+    },
+    {
+      "name": "Nawi Graz",
+      "country": "AT",
+      "value": 318445,
+      "detail": "3,837 papers"
+    },
+    {
+      "name": "Vienna Center for Quantum Science and Technology",
+      "country": "AT",
+      "value": 262283,
+      "detail": "1,481 papers"
+    },
+    {
+      "name": "Central European University",
+      "country": "AT",
+      "value": 200790,
+      "detail": "8,514 papers"
+    },
+    {
+      "name": "UMIT TIROL - Private University for Health Sciences and Health Technology",
+      "country": "AT",
+      "value": 163470,
+      "detail": "4,141 papers"
+    },
+    {
+      "name": "University of Applied Sciences Upper Austria",
+      "country": "AT",
+      "value": 153904,
+      "detail": "5,060 papers"
+    },
+    {
+      "name": "Sigmund Freud Privatuniversität Wien",
+      "country": "AT",
+      "value": 89009,
+      "detail": "4,873 papers"
+    },
+    {
+      "name": "Karl Landsteiner University of Health Sciences",
+      "country": "AT",
+      "value": 60703,
+      "detail": "2,611 papers"
+    },
+    {
+      "name": "Fachhochschule Salzburg",
+      "country": "AT",
+      "value": 49034,
+      "detail": "1,508 papers"
+    },
+    {
+      "name": "Institute for Interdisciplinary Studies of Austrian Universities",
+      "country": "AT",
+      "value": 41305,
+      "detail": "286 papers"
+    },
+    {
+      "name": "MODUL University Vienna",
+      "country": "AT",
+      "value": 39558,
+      "detail": "944 papers"
+    },
+    {
+      "name": "Hochschule Campus Wien",
+      "country": "AT",
+      "value": 37273,
+      "detail": "1,181 papers"
+    },
+    {
+      "name": "Management Center Innsbruck",
+      "country": "AT",
+      "value": 35590,
+      "detail": "1,446 papers"
+    },
+    {
+      "name": "Fachhochschule Wiener Neustadt",
+      "country": "AT",
+      "value": 32657,
+      "detail": "874 papers"
+    },
+    {
+      "name": "University of Applied Sciences Technikum Wien",
+      "country": "AT",
+      "value": 32251,
+      "detail": "1,607 papers"
+    },
+    {
+      "name": "Danube Private University",
+      "country": "AT",
+      "value": 32067,
+      "detail": "1,243 papers"
+    },
+    {
+      "name": "University of Applied Sciences St Pölten",
+      "country": "AT",
+      "value": 28354,
+      "detail": "1,438 papers"
+    },
+    {
+      "name": "FH JOANNEUM University of Applied Sciences",
+      "country": "AT",
+      "value": 24691,
+      "detail": "2,073 papers"
+    },
+    {
+      "name": "Vorarlberg University of Applied Sciences",
+      "country": "AT",
+      "value": 24436,
+      "detail": "1,005 papers"
+    },
+    {
+      "name": "FH Kärnten",
+      "country": "AT",
+      "value": 21762,
+      "detail": "1,339 papers"
+    },
+    {
+      "name": "Webster Vienna Private University",
+      "country": "AT",
+      "value": 18344,
+      "detail": "510 papers"
+    },
+    {
+      "name": "Akademie der bildenden Künste Wien",
+      "country": "AT",
+      "value": 13691,
+      "detail": "948 papers"
+    },
+    {
+      "name": "IMC University of Applied Sciences Krems",
+      "country": "AT",
+      "value": 13612,
+      "detail": "826 papers"
+    },
+    {
+      "name": "Wolfgang Pauli Institute",
+      "country": "AT",
+      "value": 13284,
+      "detail": "447 papers"
+    },
+    {
+      "name": "University of Music and Performing Arts Vienna",
+      "country": "AT",
+      "value": 9003,
+      "detail": "2,202 papers"
+    },
+    {
+      "name": "Seeburg Castle University",
+      "country": "AT",
+      "value": 8791,
+      "detail": "461 papers"
+    },
+    {
+      "name": "University of Applied Sciences Kufstein",
+      "country": "AT",
+      "value": 8774,
+      "detail": "600 papers"
+    },
+    {
+      "name": "University of Applied Arts Vienna",
+      "country": "AT",
+      "value": 8527,
+      "detail": "1,290 papers"
+    },
+    {
+      "name": "FHWien der WKW",
+      "country": "AT",
+      "value": 7486,
+      "detail": "543 papers"
+    },
+    {
+      "name": "University of Music and Performing Arts Graz",
+      "country": "AT",
+      "value": 6717,
+      "detail": "703 papers"
+    },
+    {
+      "name": "University of Applied Sciences Burgenland",
+      "country": "AT",
+      "value": 6111,
+      "detail": "583 papers"
+    },
+    {
+      "name": "Kirchliche Pädagogische Hochschule Wien/Niederösterreich",
+      "country": "AT",
+      "value": 4992,
+      "detail": "426 papers"
+    },
+    {
+      "name": "University of Arts and Industrial Design Linz",
+      "country": "AT",
+      "value": 4850,
+      "detail": "1,069 papers"
+    }
+  ]
+}

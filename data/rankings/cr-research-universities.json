@@ -1,0 +1,326 @@
+{
+  "id": "cr-research-universities",
+  "title": "Top Research Universities in Costa Rica",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Costa Rica ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:48.477Z",
+  "items": [
+    {
+      "name": "Universidad de Costa Rica",
+      "country": "CR",
+      "value": 785530,
+      "detail": "43,038 papers"
+    },
+    {
+      "name": "Universidad Nacional",
+      "country": "CR",
+      "value": 190442,
+      "detail": "9,786 papers"
+    },
+    {
+      "name": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie",
+      "country": "CR",
+      "value": 180626,
+      "detail": "2,741 papers"
+    },
+    {
+      "name": "Instituto Tecnológico de Costa Rica",
+      "country": "CR",
+      "value": 67181,
+      "detail": "5,219 papers"
+    },
+    {
+      "name": "Universidad del Valle",
+      "country": "CR",
+      "value": 25975,
+      "detail": "6,315 papers"
+    },
+    {
+      "name": "Instituto Centroamericano de Administración de Empresas",
+      "country": "CR",
+      "value": 15636,
+      "detail": "532 papers"
+    },
+    {
+      "name": "Distance State University",
+      "country": "CR",
+      "value": 14813,
+      "detail": "3,765 papers"
+    },
+    {
+      "name": "Latin University of Costa Rica",
+      "country": "CR",
+      "value": 12111,
+      "detail": "565 papers"
+    },
+    {
+      "name": "Earth University",
+      "country": "CR",
+      "value": 9652,
+      "detail": "360 papers"
+    },
+    {
+      "name": "Universidad de Ciencias Medicas",
+      "country": "CR",
+      "value": 8290,
+      "detail": "1,905 papers"
+    },
+    {
+      "name": "University for Peace",
+      "country": "CR",
+      "value": 3704,
+      "detail": "288 papers"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Costa Rica",
+      "country": "CR",
+      "value": 2722,
+      "detail": "708 papers"
+    },
+    {
+      "name": "Iberoamerican University",
+      "country": "CR",
+      "value": 2396,
+      "detail": "293 papers"
+    },
+    {
+      "name": "Universidad Autónoma de Centro América",
+      "country": "CR",
+      "value": 2013,
+      "detail": "242 papers"
+    },
+    {
+      "name": "Universidad Hispanoamerica",
+      "country": "CR",
+      "value": 1255,
+      "detail": "471 papers"
+    },
+    {
+      "name": "Universidad Latinoamericana de Ciencia y Tecnología",
+      "country": "CR",
+      "value": 1075,
+      "detail": "453 papers"
+    },
+    {
+      "name": "International Christian University",
+      "country": "CR",
+      "value": 1048,
+      "detail": "170 papers"
+    },
+    {
+      "name": "Universidad Veritas",
+      "country": "CR",
+      "value": 560,
+      "detail": "93 papers"
+    },
+    {
+      "name": "Universidad para la Cooperación Internacional",
+      "country": "CR",
+      "value": 459,
+      "detail": "84 papers"
+    },
+    {
+      "name": "Universidad de San Jose",
+      "country": "CR",
+      "value": 412,
+      "detail": "55 papers"
+    },
+    {
+      "name": "Universidad Internacional de las Américas",
+      "country": "CR",
+      "value": 335,
+      "detail": "119 papers"
+    },
+    {
+      "name": "Universidad Católica de Costa Rica",
+      "country": "CR",
+      "value": 317,
+      "detail": "139 papers"
+    },
+    {
+      "name": "Universidad Central",
+      "country": "CR",
+      "value": 247,
+      "detail": "240 papers"
+    },
+    {
+      "name": "Quetzal Education and Research Center",
+      "country": "CR",
+      "value": 236,
+      "detail": "18 papers"
+    },
+    {
+      "name": "Universidad San Marcos",
+      "country": "CR",
+      "value": 203,
+      "detail": "242 papers"
+    },
+    {
+      "name": "University of Tourism",
+      "country": "CR",
+      "value": 190,
+      "detail": "59 papers"
+    },
+    {
+      "name": "Universidad La Salle Costa Rica",
+      "country": "CR",
+      "value": 188,
+      "detail": "111 papers"
+    },
+    {
+      "name": "Business University of Costa Rica",
+      "country": "CR",
+      "value": 180,
+      "detail": "55 papers"
+    },
+    {
+      "name": "Fidélitas University",
+      "country": "CR",
+      "value": 178,
+      "detail": "164 papers"
+    },
+    {
+      "name": "Instituto Centroamericano de Administración Pública",
+      "country": "CR",
+      "value": 154,
+      "detail": "162 papers"
+    },
+    {
+      "name": "Universidad Santa Paula",
+      "country": "CR",
+      "value": 119,
+      "detail": "96 papers"
+    },
+    {
+      "name": "Universidad Libre de Costa Rica",
+      "country": "CR",
+      "value": 80,
+      "detail": "29 papers"
+    },
+    {
+      "name": "Universidad Metropolitana Castro Carazo",
+      "country": "CR",
+      "value": 63,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Universidad Creativa",
+      "country": "CR",
+      "value": 57,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Universidad Escuela Libre de Derecho",
+      "country": "CR",
+      "value": 52,
+      "detail": "71 papers"
+    },
+    {
+      "name": "Universidad Independiente",
+      "country": "CR",
+      "value": 52,
+      "detail": "283 papers"
+    },
+    {
+      "name": "Universidad Florencio del Castillo",
+      "country": "CR",
+      "value": 39,
+      "detail": "206 papers"
+    },
+    {
+      "name": "Universidad Bíblica Latinoamericana",
+      "country": "CR",
+      "value": 27,
+      "detail": "65 papers"
+    },
+    {
+      "name": "Universidad Centroamericana de Ciencias Sociales",
+      "country": "CR",
+      "value": 25,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Central American Adventist University",
+      "country": "CR",
+      "value": 21,
+      "detail": "13 papers"
+    },
+    {
+      "name": "Universidad Americana",
+      "country": "CR",
+      "value": 19,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Universidad Santa Lucía",
+      "country": "CR",
+      "value": 16,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Universidad de las Ciencias y el Arte de Costa Rica",
+      "country": "CR",
+      "value": 13,
+      "detail": "8 papers"
+    },
+    {
+      "name": "Universidad Braulio Carrillo",
+      "country": "CR",
+      "value": 11,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Universidad Autónoma Monterrey",
+      "country": "CR",
+      "value": 8,
+      "detail": "42 papers"
+    },
+    {
+      "name": "Universidad Evangélica de las Américas",
+      "country": "CR",
+      "value": 7,
+      "detail": "4 papers"
+    },
+    {
+      "name": "Colegio Metodista de Costa Rica",
+      "country": "CR",
+      "value": 5,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Universidad Juan Pablo II",
+      "country": "CR",
+      "value": 5,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Universidad Fundepos",
+      "country": "CR",
+      "value": 4,
+      "detail": "35 papers"
+    },
+    {
+      "name": "Universidad Internacional San Isidro Labrador",
+      "country": "CR",
+      "value": 4,
+      "detail": "50 papers"
+    }
+  ]
+}

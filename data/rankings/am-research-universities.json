@@ -1,0 +1,146 @@
+{
+  "id": "am-research-universities",
+  "title": "Top Research Universities in Armenia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Armenia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:18.020Z",
+  "items": [
+    {
+      "name": "Yerevan State University",
+      "country": "AM",
+      "value": 160241,
+      "detail": "12,557 papers"
+    },
+    {
+      "name": "Yerevan State Medical University",
+      "country": "AM",
+      "value": 55373,
+      "detail": "3,298 papers"
+    },
+    {
+      "name": "Russian-Armenian University",
+      "country": "AM",
+      "value": 21160,
+      "detail": "2,213 papers"
+    },
+    {
+      "name": "American University of Armenia",
+      "country": "AM",
+      "value": 16454,
+      "detail": "1,060 papers"
+    },
+    {
+      "name": "National Polytechnic University of Armenia",
+      "country": "AM",
+      "value": 10972,
+      "detail": "1,908 papers"
+    },
+    {
+      "name": "L. A. Orbeli Institute of Physiology NAS RA",
+      "country": "AM",
+      "value": 7282,
+      "detail": "567 papers"
+    },
+    {
+      "name": "Armenian National Agrarian University",
+      "country": "AM",
+      "value": 6256,
+      "detail": "1,121 papers"
+    },
+    {
+      "name": "Armenian State Pedagogical University after Khachatur Abovian",
+      "country": "AM",
+      "value": 3125,
+      "detail": "1,545 papers"
+    },
+    {
+      "name": "National University of Architecture and Construction of Armenia",
+      "country": "AM",
+      "value": 2971,
+      "detail": "792 papers"
+    },
+    {
+      "name": "Armenian State University of Economics",
+      "country": "AM",
+      "value": 2508,
+      "detail": "1,834 papers"
+    },
+    {
+      "name": "Shirak State University",
+      "country": "AM",
+      "value": 714,
+      "detail": "506 papers"
+    },
+    {
+      "name": "Yerevan Haybusak University",
+      "country": "AM",
+      "value": 227,
+      "detail": "75 papers"
+    },
+    {
+      "name": "Brusov State University",
+      "country": "AM",
+      "value": 108,
+      "detail": "232 papers"
+    },
+    {
+      "name": "Northern University",
+      "country": "AM",
+      "value": 94,
+      "detail": "28 papers"
+    },
+    {
+      "name": "Eurasia International University",
+      "country": "AM",
+      "value": 67,
+      "detail": "205 papers"
+    },
+    {
+      "name": "Vanadzor State University",
+      "country": "AM",
+      "value": 54,
+      "detail": "342 papers"
+    },
+    {
+      "name": "Fondation Université Française en Arménie",
+      "country": "AM",
+      "value": 24,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Gavar State University",
+      "country": "AM",
+      "value": 8,
+      "detail": "33 papers"
+    },
+    {
+      "name": "St. Theresa's Medical University of Yerevan",
+      "country": "AM",
+      "value": 2,
+      "detail": "2 papers"
+    },
+    {
+      "name": "State Academy of Fine Arts of Armenia",
+      "country": "AM",
+      "value": 2,
+      "detail": "34 papers"
+    }
+  ]
+}

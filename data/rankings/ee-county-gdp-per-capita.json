@@ -1,0 +1,99 @@
+{
+  "id": "ee-county-gdp-per-capita",
+  "title": "Estonian Counties by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Gross domestic product per resident, in euros.",
+  "unit": "EUR per person",
+  "prefix": "€",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Estonia (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Counties_of_Estonia",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:29:21.171Z",
+  "items": [
+    {
+      "name": "Harju",
+      "country": "EE",
+      "value": 34615
+    },
+    {
+      "name": "Tartu",
+      "country": "EE",
+      "value": 26151
+    },
+    {
+      "name": "Järva",
+      "country": "EE",
+      "value": 20405
+    },
+    {
+      "name": "Ida-Viru",
+      "country": "EE",
+      "value": 19778
+    },
+    {
+      "name": "Viljandi",
+      "country": "EE",
+      "value": 19692
+    },
+    {
+      "name": "Pärnu",
+      "country": "EE",
+      "value": 18334
+    },
+    {
+      "name": "Lääne-Viru",
+      "country": "EE",
+      "value": 18150
+    },
+    {
+      "name": "Hiiu",
+      "country": "EE",
+      "value": 17225
+    },
+    {
+      "name": "Võru",
+      "country": "EE",
+      "value": 17041
+    },
+    {
+      "name": "Jõgeva",
+      "country": "EE",
+      "value": 16768
+    },
+    {
+      "name": "Saare",
+      "country": "EE",
+      "value": 16380
+    },
+    {
+      "name": "Rapla",
+      "country": "EE",
+      "value": 15985
+    },
+    {
+      "name": "Lääne",
+      "country": "EE",
+      "value": 15658
+    },
+    {
+      "name": "Valga",
+      "country": "EE",
+      "value": 15260
+    },
+    {
+      "name": "Põlva",
+      "country": "EE",
+      "value": 14450
+    }
+  ]
+}

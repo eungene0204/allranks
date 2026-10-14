@@ -1,0 +1,326 @@
+{
+  "id": "np-research-universities",
+  "title": "Top Research Universities in Nepal",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Nepal ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:09.281Z",
+  "items": [
+    {
+      "name": "Tribhuvan University",
+      "country": "NP",
+      "value": 590302,
+      "detail": "37,174 papers"
+    },
+    {
+      "name": "B.P. Koirala Institute of Health Sciences",
+      "country": "NP",
+      "value": 174403,
+      "detail": "5,579 papers"
+    },
+    {
+      "name": "Kathmandu University",
+      "country": "NP",
+      "value": 166081,
+      "detail": "8,603 papers"
+    },
+    {
+      "name": "Institute of Medicine",
+      "country": "NP",
+      "value": 148010,
+      "detail": "5,874 papers"
+    },
+    {
+      "name": "Patan Academy of Health Sciences",
+      "country": "NP",
+      "value": 59819,
+      "detail": "2,867 papers"
+    },
+    {
+      "name": "Pokhara University",
+      "country": "NP",
+      "value": 47975,
+      "detail": "3,920 papers"
+    },
+    {
+      "name": "Institute of Engineering",
+      "country": "NP",
+      "value": 41735,
+      "detail": "2,485 papers"
+    },
+    {
+      "name": "Manipal College of Medical Sciences",
+      "country": "NP",
+      "value": 37316,
+      "detail": "1,704 papers"
+    },
+    {
+      "name": "Agriculture and Forestry University",
+      "country": "NP",
+      "value": 35271,
+      "detail": "3,409 papers"
+    },
+    {
+      "name": "Pulchowk Campus",
+      "country": "NP",
+      "value": 33608,
+      "detail": "2,110 papers"
+    },
+    {
+      "name": "Maharajgunj Medical Campus",
+      "country": "NP",
+      "value": 30351,
+      "detail": "2,480 papers"
+    },
+    {
+      "name": "Tri-Chandra Multiple Campus",
+      "country": "NP",
+      "value": 28469,
+      "detail": "1,846 papers"
+    },
+    {
+      "name": "Nepal Academy of Science and Technology",
+      "country": "NP",
+      "value": 23084,
+      "detail": "1,015 papers"
+    },
+    {
+      "name": "Nepal Medical College Teaching Hospital",
+      "country": "NP",
+      "value": 22229,
+      "detail": "2,164 papers"
+    },
+    {
+      "name": "National Academy of Medical Sciences",
+      "country": "NP",
+      "value": 20025,
+      "detail": "2,467 papers"
+    },
+    {
+      "name": "Purbanchal University",
+      "country": "NP",
+      "value": 17208,
+      "detail": "1,292 papers"
+    },
+    {
+      "name": "KIST Medical College",
+      "country": "NP",
+      "value": 14643,
+      "detail": "1,389 papers"
+    },
+    {
+      "name": "Manmohan Memorial Institute of Health Sciences",
+      "country": "NP",
+      "value": 12898,
+      "detail": "632 papers"
+    },
+    {
+      "name": "Gandaki Medical College",
+      "country": "NP",
+      "value": 7713,
+      "detail": "1,088 papers"
+    },
+    {
+      "name": "Nobel College",
+      "country": "NP",
+      "value": 7271,
+      "detail": "378 papers"
+    },
+    {
+      "name": "Karnali Academy of Health Sciences",
+      "country": "NP",
+      "value": 7195,
+      "detail": "678 papers"
+    },
+    {
+      "name": "Patan Multiple Campus",
+      "country": "NP",
+      "value": 6877,
+      "detail": "1,550 papers"
+    },
+    {
+      "name": "National College",
+      "country": "NP",
+      "value": 6745,
+      "detail": "304 papers"
+    },
+    {
+      "name": "Birendra Multiple Campus",
+      "country": "NP",
+      "value": 3631,
+      "detail": "581 papers"
+    },
+    {
+      "name": "Far-western University",
+      "country": "NP",
+      "value": 3398,
+      "detail": "864 papers"
+    },
+    {
+      "name": "CiST College",
+      "country": "NP",
+      "value": 2945,
+      "detail": "145 papers"
+    },
+    {
+      "name": "Institute of Engineering Thapathali Campus",
+      "country": "NP",
+      "value": 2854,
+      "detail": "422 papers"
+    },
+    {
+      "name": "People's Dental College and Hospital",
+      "country": "NP",
+      "value": 2788,
+      "detail": "312 papers"
+    },
+    {
+      "name": "Padma Kanya Multiple Campus",
+      "country": "NP",
+      "value": 2509,
+      "detail": "617 papers"
+    },
+    {
+      "name": "Bhaktapur Multiple Campus",
+      "country": "NP",
+      "value": 2325,
+      "detail": "294 papers"
+    },
+    {
+      "name": "Khwopa College of Engineering",
+      "country": "NP",
+      "value": 2163,
+      "detail": "270 papers"
+    },
+    {
+      "name": "Pokhara Academy of Health Sciences",
+      "country": "NP",
+      "value": 1989,
+      "detail": "479 papers"
+    },
+    {
+      "name": "Mid-West University",
+      "country": "NP",
+      "value": 1705,
+      "detail": "865 papers"
+    },
+    {
+      "name": "Khwopa Engineering College",
+      "country": "NP",
+      "value": 1702,
+      "detail": "236 papers"
+    },
+    {
+      "name": "Gandaki University",
+      "country": "NP",
+      "value": 1610,
+      "detail": "198 papers"
+    },
+    {
+      "name": "Devdaha Medical College & Research Institute",
+      "country": "NP",
+      "value": 1553,
+      "detail": "235 papers"
+    },
+    {
+      "name": "Purwanchal Campus",
+      "country": "NP",
+      "value": 1387,
+      "detail": "133 papers"
+    },
+    {
+      "name": "Council for Technical Education and Vocational Training",
+      "country": "NP",
+      "value": 1123,
+      "detail": "97 papers"
+    },
+    {
+      "name": "Makawanpur Multiple Campus",
+      "country": "NP",
+      "value": 822,
+      "detail": "183 papers"
+    },
+    {
+      "name": "Samriddhi College",
+      "country": "NP",
+      "value": 727,
+      "detail": "27 papers"
+    },
+    {
+      "name": "Nepal College of Information Technology",
+      "country": "NP",
+      "value": 724,
+      "detail": "181 papers"
+    },
+    {
+      "name": "Tribhuvan University Sanothimi Campus",
+      "country": "NP",
+      "value": 631,
+      "detail": "359 papers"
+    },
+    {
+      "name": "Nepal Sanskrit University",
+      "country": "NP",
+      "value": 552,
+      "detail": "394 papers"
+    },
+    {
+      "name": "Oxford College of Engineering and Management",
+      "country": "NP",
+      "value": 548,
+      "detail": "123 papers"
+    },
+    {
+      "name": "Kathmandu College of Management",
+      "country": "NP",
+      "value": 400,
+      "detail": "144 papers"
+    },
+    {
+      "name": "Kantipur City College",
+      "country": "NP",
+      "value": 358,
+      "detail": "37 papers"
+    },
+    {
+      "name": "Rapti Academy of Health Sciences, Dang, Nepal",
+      "country": "NP",
+      "value": 314,
+      "detail": "188 papers"
+    },
+    {
+      "name": "Lumbini Buddhist University",
+      "country": "NP",
+      "value": 290,
+      "detail": "168 papers"
+    },
+    {
+      "name": "Physics Research Initiatives",
+      "country": "NP",
+      "value": 289,
+      "detail": "19 papers"
+    },
+    {
+      "name": "Softwarica College",
+      "country": "NP",
+      "value": 240,
+      "detail": "12 papers"
+    }
+  ]
+}

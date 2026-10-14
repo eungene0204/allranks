@@ -1,0 +1,79 @@
+{
+  "id": "no-county-gdp",
+  "title": "Norwegian Counties by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross domestic product of each county in 2021, in billions of Norwegian kroner.",
+  "unit": "NOK billion",
+  "prefix": "",
+  "suffix": " bn NOK",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NO",
+  "year": 2021,
+  "source": {
+    "kind": "wikipedia",
+    "name": "OECD regional statistics (2021) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_counties_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:56:08.328Z",
+  "items": [
+    {
+      "name": "Oslo",
+      "country": "NO",
+      "value": 721.29
+    },
+    {
+      "name": "Viken",
+      "country": "NO",
+      "value": 627.54
+    },
+    {
+      "name": "Vestland",
+      "country": "NO",
+      "value": 371.13
+    },
+    {
+      "name": "Rogaland",
+      "country": "NO",
+      "value": 320.98
+    },
+    {
+      "name": "Trøndelag",
+      "country": "NO",
+      "value": 265.7
+    },
+    {
+      "name": "Vestfold og Telemark",
+      "country": "NO",
+      "value": 208.06
+    },
+    {
+      "name": "Innlandet",
+      "country": "NO",
+      "value": 181.3
+    },
+    {
+      "name": "Agder",
+      "country": "NO",
+      "value": 156.69
+    },
+    {
+      "name": "Møre og Romsdal",
+      "country": "NO",
+      "value": 145.28
+    },
+    {
+      "name": "Troms og Finnmark",
+      "country": "NO",
+      "value": 134.15
+    },
+    {
+      "name": "Nordland",
+      "country": "NO",
+      "value": 131.21
+    }
+  ]
+}

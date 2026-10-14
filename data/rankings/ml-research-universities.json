@@ -1,0 +1,80 @@
+{
+  "id": "ml-research-universities",
+  "title": "Top Research Universities in Mali",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mali ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:02.253Z",
+  "items": [
+    {
+      "name": "University of Bamako",
+      "country": "ML",
+      "value": 190865,
+      "detail": "2,376 papers"
+    },
+    {
+      "name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+      "country": "ML",
+      "value": 171319,
+      "detail": "3,996 papers"
+    },
+    {
+      "name": "Institut Polytechnique Rural de Formation et de Recherche Appliquée",
+      "country": "ML",
+      "value": 4296,
+      "detail": "389 papers"
+    },
+    {
+      "name": "Ecole Nationale d’Ingénieurs – Abderhamane Baba Touré",
+      "country": "ML",
+      "value": 1678,
+      "detail": "135 papers"
+    },
+    {
+      "name": "Université des Lettres et des Sciences Humaines de Bamako",
+      "country": "ML",
+      "value": 459,
+      "detail": "191 papers"
+    },
+    {
+      "name": "Université des Sciences Juridiques et Politiques de Bamako",
+      "country": "ML",
+      "value": 132,
+      "detail": "92 papers"
+    },
+    {
+      "name": "Centre d'Intelligence Artificielle et de Robotique du Mali",
+      "country": "ML",
+      "value": 62,
+      "detail": "13 papers"
+    },
+    {
+      "name": "École normale d'Enseignement technique et professionnel",
+      "country": "ML",
+      "value": 28,
+      "detail": "25 papers"
+    },
+    {
+      "name": "University of Timbuktu",
+      "country": "ML",
+      "value": 14,
+      "detail": "3 papers"
+    }
+  ]
+}

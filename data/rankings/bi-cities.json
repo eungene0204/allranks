@@ -1,0 +1,109 @@
+{
+  "id": "bi-cities",
+  "title": "Largest Cities in Burundi",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Burundi with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.660Z",
+  "items": [
+    {
+      "name": "Bujumbura",
+      "country": "BI",
+      "value": 769317,
+      "detail": "Bujumbura Mairie"
+    },
+    {
+      "name": "Gitega",
+      "country": "BI",
+      "value": 64904,
+      "detail": "Gitega"
+    },
+    {
+      "name": "Ngozi",
+      "country": "BI",
+      "value": 61716,
+      "detail": "Ngozi"
+    },
+    {
+      "name": "Mpanda",
+      "country": "BI",
+      "value": 58913,
+      "detail": "Bubanza"
+    },
+    {
+      "name": "Rumonge",
+      "country": "BI",
+      "value": 55599,
+      "detail": "Rumonge"
+    },
+    {
+      "name": "Cibitoke",
+      "country": "BI",
+      "value": 36959,
+      "detail": "Cibitoke"
+    },
+    {
+      "name": "Kayanza",
+      "country": "BI",
+      "value": 33682,
+      "detail": "Kayanza"
+    },
+    {
+      "name": "Cendajuru",
+      "country": "BI",
+      "value": 32458,
+      "detail": "Cankuzo"
+    },
+    {
+      "name": "Bubanza",
+      "country": "BI",
+      "value": 30996,
+      "detail": "Bubanza"
+    },
+    {
+      "name": "Vyanda",
+      "country": "BI",
+      "value": 29685,
+      "detail": "Bururi"
+    },
+    {
+      "name": "Zanandore",
+      "country": "BI",
+      "value": 27867,
+      "detail": "Gitega"
+    },
+    {
+      "name": "Gatumba",
+      "country": "BI",
+      "value": 18104,
+      "detail": "Bujumbura Rural"
+    },
+    {
+      "name": "Karusi",
+      "country": "BI",
+      "value": 15964,
+      "detail": "Gitega"
+    },
+    {
+      "name": "Kirundo",
+      "country": "BI",
+      "value": 15511,
+      "detail": "Kirundo"
+    }
+  ]
+}

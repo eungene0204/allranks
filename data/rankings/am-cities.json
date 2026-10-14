@@ -1,0 +1,199 @@
+{
+  "id": "am-cities",
+  "title": "Largest Cities in Armenia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Armenia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.658Z",
+  "items": [
+    {
+      "name": "Yerevan",
+      "country": "AM",
+      "value": 1144700,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Malatia-Sebastia",
+      "country": "AM",
+      "value": 150500,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Shengavit",
+      "country": "AM",
+      "value": 140600,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Nor Nork",
+      "country": "AM",
+      "value": 137300,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Kentron",
+      "country": "AM",
+      "value": 133000,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Erebuni",
+      "country": "AM",
+      "value": 129700,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Ajapnyak",
+      "country": "AM",
+      "value": 122800,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Arabkir",
+      "country": "AM",
+      "value": 119300,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Gyumri",
+      "country": "AM",
+      "value": 114667,
+      "detail": "Shirak"
+    },
+    {
+      "name": "Vanadzor",
+      "country": "AM",
+      "value": 78100,
+      "detail": "Lori"
+    },
+    {
+      "name": "Kanaker-Zeytun",
+      "country": "AM",
+      "value": 75500,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Avan",
+      "country": "AM",
+      "value": 58800,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Davtashen",
+      "country": "AM",
+      "value": 52100,
+      "detail": "Yerevan"
+    },
+    {
+      "name": "Abovyan",
+      "country": "AM",
+      "value": 50556,
+      "detail": "Kotayk"
+    },
+    {
+      "name": "Hrazdan",
+      "country": "AM",
+      "value": 49500,
+      "detail": "Kotayk"
+    },
+    {
+      "name": "Vagharshapat",
+      "country": "AM",
+      "value": 47989,
+      "detail": "Armavir"
+    },
+    {
+      "name": "Kapan",
+      "country": "AM",
+      "value": 32900,
+      "detail": "Syunik"
+    },
+    {
+      "name": "Armavir",
+      "country": "AM",
+      "value": 29700,
+      "detail": "Armavir"
+    },
+    {
+      "name": "Masis",
+      "country": "AM",
+      "value": 23136,
+      "detail": "Ararat"
+    },
+    {
+      "name": "Artashat",
+      "country": "AM",
+      "value": 22800,
+      "detail": "Ararat"
+    },
+    {
+      "name": "Charentsavan",
+      "country": "AM",
+      "value": 22071,
+      "detail": "Kotayk"
+    },
+    {
+      "name": "Sevan",
+      "country": "AM",
+      "value": 19652,
+      "detail": "Gegharkunik"
+    },
+    {
+      "name": "Ijevan",
+      "country": "AM",
+      "value": 19500,
+      "detail": "Tavush"
+    },
+    {
+      "name": "Gavar",
+      "country": "AM",
+      "value": 18900,
+      "detail": "Gegharkunik"
+    },
+    {
+      "name": "Artik",
+      "country": "AM",
+      "value": 18145,
+      "detail": "Shirak"
+    },
+    {
+      "name": "Ashtarak",
+      "country": "AM",
+      "value": 17600,
+      "detail": "Aragatsotn"
+    },
+    {
+      "name": "Ararat",
+      "country": "AM",
+      "value": 17598,
+      "detail": "Ararat"
+    },
+    {
+      "name": "Goris",
+      "country": "AM",
+      "value": 17592,
+      "detail": "Syunik"
+    },
+    {
+      "name": "Dilijan",
+      "country": "AM",
+      "value": 15914,
+      "detail": "Tavush"
+    }
+  ]
+}

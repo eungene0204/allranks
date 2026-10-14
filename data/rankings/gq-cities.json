@@ -1,0 +1,61 @@
+{
+  "id": "gq-cities",
+  "title": "Largest Cities in Equatorial Guinea",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Equatorial Guinea with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GQ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.669Z",
+  "items": [
+    {
+      "name": "Bata",
+      "country": "GQ",
+      "value": 173046,
+      "detail": "Litoral"
+    },
+    {
+      "name": "Malabo",
+      "country": "GQ",
+      "value": 155963,
+      "detail": "Bioko Norte"
+    },
+    {
+      "name": "Ebebiyin",
+      "country": "GQ",
+      "value": 24831,
+      "detail": "Kié-Ntem"
+    },
+    {
+      "name": "Añisoc",
+      "country": "GQ",
+      "value": 16626,
+      "detail": "Wele-Nzas"
+    },
+    {
+      "name": "Aconibe",
+      "country": "GQ",
+      "value": 16543,
+      "detail": "Wele-Nzas"
+    },
+    {
+      "name": "Ciudad de la Paz",
+      "country": "GQ",
+      "value": 2000,
+      "detail": "Djibloho"
+    }
+  ]
+}

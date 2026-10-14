@@ -9,7 +9,7 @@
 ## 2. 현재 상태 요약
 
 - Next.js 16 정적 사이트, JSON 기반 데이터, 자동 수집 파이프라인 구축 완료
-- 기존 기준 랭킹 56개 (세계 36 + US 20), 15개 카테고리 (기존 7개 + 신규 8개). 다른 국가 지역 데이터 확장은 별도 진행 중
+- 랭킹 647개 (세계 90 + US 24 + 165개국 533), OECD·G20·BRICS·EU·ASEAN 회원국 모두 국가 상세 보유(AU는 20개국 지역 랭킹 + 전 회원국 대학 순위), 153개국에 대학 순위, 7개 카테고리 (Economy, Education, Technology, AI, Society & Health, Energy & Industry, World Records)
 - 페이지: 홈(지구본), 랭킹, 카테고리, 국가, 검색
 - 커밋: 프로토타입 → 지구본 재작성 + 국가 페이지/국가 한정 랭킹 → 프로젝트 문서 추가
 
@@ -23,8 +23,10 @@
 | M4 | 국가 상세 페이지 + 로고 지원 | ✅ 완료 | |
 | M5 | 정리·품질: 수동 랭킹 4종 검증, 메타데이터/SEO 점검, 테스트 | ⬜ 예정 | 다음 작업 후보 |
 | M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | ⬜ 예정 | |
-| M7 | 자동화: 정기 데이터 갱신(CI/cron), 데이터 신선도 알림 | ⬜ 예정 | |
-| M8 | 확장: 다른 나라 지역 랭킹, 카테고리 추가, 다국어 | ⬜ 아이디어 | |
+| M10 | 빈 카테고리 채우기: AI, Markets, Energy, Money, Demographics, Mining, Autos, Green 주제에 자동 수집 랭킹 39개(이후 7개 카테고리로 통합) | ✅ 완료 | `scripts/topics.mts`. 수집 대상은 모두 어댑터(재현 가능). 금 생산국은 출처 표 결측 때문에 제외 |
+| M7 | 자동화: 정기 데이터 갱신(CI/cron), 데이터 신선도 알림 | 🚧 진행 | 주간 워크플로 작성됨(미실행). 신선도 알림은 미구현 |
+| M9 | AI 데이터 수집 에이전트: 없는 랭킹 발굴(discover) + 기존 랭킹 최신화(refresh) | 🚧 v0 구현 | 도구·루프·가드·CLI 완료, 모의 클라이언트로 검증. **실제 API 실행 미검증** |
+| M8 | 확장: 다른 나라 지역 랭킹, 카테고리 추가, 다국어 | 🚧 진행 | 165개국 533개 국가 한정 랭킹 완료(OECD·G20·BRICS·EU·ASEAN·AU 주요국 포함, 대학 순위 153개국). 카테고리·다국어는 미착수 |
 
 ## 4. 백로그
 
@@ -33,17 +35,25 @@
 - 🔴 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩) 값 검증 → `verified: true`
 - 🟡 페이지별 메타데이터/OG 이미지 점검 (FR-41)
 - 🟡 배포 환경 결정 및 배포
-- 🟡 데이터 갱신 자동화 (FR-35)
 - 🟡 기본 테스트 추가 (데이터 로더, 포맷, 순위 계산)
-- 🟢 US 외 국가 지역 랭킹 (FR-28)
+- 🟢 국가별 랭킹 보강: KR·JP 등 대학 순위(공개 소스 없음), 오래된 표(JP 기업 2022·KR 기업 2023·BR 공항 2022) 갱신, 더 많은 국가
 - 🟢 접근성·반응형 기준 정의 및 점검 (NFR-07)
 - 🟢 다국어 지원 검토
-- 🟡 신규 8개 분야의 출처 선정 및 실제 랭킹 데이터 수집 (메뉴·카테고리 페이지 구현 완료)
+- 🔴 에이전트 첫 실제 실행: `ANTHROPIC_API_KEY` 설정 후 `npm run agent -- discover --dry --max-new 1` → 결과 품질 점검 → 비드라이 실행
+- 🔴 GitHub 저장소에 `ANTHROPIC_API_KEY` 시크릿, Actions의 PR 생성 권한 설정 후 `data-agent.yml` 수동 실행(workflow_dispatch)
+- 🟡 신규 카테고리 추가 랭킹: 어댑터로 계속 확장 (금/은 등 광물은 더 나은 출처 탐색, 국가별 데이터센터 수는 현재 25개국 agent 랭킹이라 사람 검증·더 나은 공개 출처 필요)
+- 🟡 신규 39개 랭킹의 값·단위를 사람이 한 번 훑어 검증 (특히 `ai-private-investment` 2025년 값)
+- 🟡 에이전트: 자동 파이프라인 실패 시 원인 진단·어댑터 수정 제안 (v1)
+- 🟡 에이전트: 출처 페이지 재검증 단계(독립 검증 호출) 및 `verified` 승격 절차
+- 🟡 에이전트: 실행 비용 기록·월 상한, 데이터 신선도 알림
+- 🟢 에이전트: 국가 내부 랭킹(`scope`) 발굴 전략, 정규 소스 목록(source registry) 관리
 
 ## 5. 리스크
 
 | 리스크 | 영향 | 대응 |
 | --- | --- | --- |
+| AI 에이전트가 틀린 값·출처를 제출 | 신뢰도 하락 | 도구 가드 + `verified:false` 표기 + PR 사람 검토 + 시스템 프롬프트의 "기억으로 채우지 말 것" 규칙. 장기적으로 독립 재검증 단계 |
+| 에이전트 API 비용 폭주 | 예산 초과 | 턴·토큰·개수 한도, 주 1회 스케줄, 프롬프트 캐시 |
 | Wikipedia 표 구조 변경으로 어댑터 실패 | 데이터 갱신 불가 | 안전장치로 기존 파일 유지, 어댑터 수정 |
 | 수동 데이터 부정확 | 신뢰도 하락 | "Sample data" 라벨, 검증 일정 수립 |
 | Next.js 16 breaking change | 코드 작성 오류 | 작업 전 `node_modules/next/dist/docs/` 확인 (AGENTS.md) |
@@ -54,6 +64,16 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-14 | 국가별 데이터센터 수 랭킹(`data-centers`, 25개국, 2025년) 추가: 웹 조사로 수집한 agent 랭킹(`verified:false`), 가드(`Toolbox.create_ranking`) 통과. 세계 랭킹 90개 |
+| 2026-10-14 | AI 카테고리 랭킹 14개 추가(2→16): Epoch AI GPU 클러스터(`sources/epoch.mts`)로 AI 슈퍼컴퓨터 수·연산력·전력·최대 클러스터, TOP500·반도체 수출(Wikipedia), AI 논문·채용·생성형 AI 이용률·로봇 밀도(OWID), 연구원·첨단기술·IT서비스 수출(World Bank). 총 469개 |
+| 2026-10-14 | 헤더 메뉴 15개를 7개로 통합(AI는 독립): Prices·Markets·Money→Economy, Health·Demographics→Society & Health, Mining·Autos·Green→Energy & Industry. 랭킹 JSON 36개와 파이프라인 정의의 `category` 갱신 |
+| 2026-10-14 | GeoNames 대도시 순위(`scripts/regional/geonames.mts`) 110개국 + Wikidata 1차 행정구역 인구 순위(`scripts/regional/wikidata.mts`) AU 16개국 추가: 총 647개(165개국 533). AU 55개국 중 위키피디아 표가 없던 나라도 도시·(일부) 지역 랭킹 보유 |
+| 2026-10-14 | EU 잔여 5개국(BG·HR·CY·MT·RO), ASEAN 잔여 7개국(SG·PH·MM·KH·LA·BN·TL), 아프리카연합 주요 16개국(DZ·MA·KE·GH·TZ·UG·TN·AO·CI·CM·SN·ZM·ZW·MZ·SD·CD)의 국가 한정 랭킹 51개 추가: 총 520개. EU 27·ASEAN 11 전 회원국이 국가 상세 보유, AU는 표가 있는 20개국만 지역 랭킹 |
+| 2026-10-14 | BRICS 신규·파트너(AE·ET·IR·NG·VN·KZ·BY·UZ) 추가(G20은 기존 국가로 이미 충족). 독립국 153개국에 OpenAlex 기반 대학 순위(`scripts/regional/openalex.mts`) 추가: 총 455개 |
+| 2026-10-14 | OECD 나머지 16개국(CL·CO·CR·CZ·DK·EE·HU·IE·IL·IS·LT·LU·LV·PT·SI·SK) 국가 랭킹 41개 추가: OECD 38개 회원국 전부 국가 상세 보유(총 244개) |
+| 2026-10-14 | 주요 32개국(한국 포함) 국가 상세 확장: `scripts/regional/` 모듈로 지역 인구·GDP, 도시, 마천루, 공항, 일부 대학·기업 랭킹 143개 추가(총 203개). 국가 페이지 상단에 핵심 지표(인구·GDP·1인당 GDP·기대수명·면적)+세계 순위 추가 |
+| 2026-10-14 | 빈 카테고리 8개를 자동 어댑터 랭킹 39개로 채움: World Bank 지표 21개, Our World in Data(`sources/owid.mts`) 2개, Wikipedia 표(`sources/wikipedia-topics.mts`) 16개. `Pipeline.minItems` 추가(짧은 목록 허용), Wikipedia 병합 셀 오파싱 방지 |
+| 2026-10-14 | AI 데이터 수집 에이전트 v0 시작: `scripts/agent/`(discover/refresh/plan), 검증 로직 공용화(`scripts/lib/check.mts`), `source.kind: "agent"` 와 사이트 표시, `@anthropic-ai/sdk` 추가, 주간 워크플로 `.github/workflows/data-agent.yml` |
 | 2026-10-14 | 랭킹 카드의 순위 숫자를 12px → 18px, 원형 배지를 22px → 32px로 확대 |
 | 2026-10-14 | 상단 헤더 검색창과 관련 상태·이벤트·전용 스타일 삭제. 홈 통합 검색창과 결과 페이지 재검색은 유지 |
 | 2026-10-14 | 지구본 하단 Badges show… 조작 안내 문구와 전용 CSS 삭제 |

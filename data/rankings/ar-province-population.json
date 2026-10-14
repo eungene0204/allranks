@@ -1,0 +1,144 @@
+{
+  "id": "ar-province-population",
+  "title": "Argentine Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the provinces and Buenos Aires city.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AR",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "INDEC, 2022 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Argentine_regions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:04:26.118Z",
+  "items": [
+    {
+      "name": "Buenos Aires Province",
+      "country": "AR",
+      "value": 17.4314
+    },
+    {
+      "name": "Córdoba",
+      "country": "AR",
+      "value": 3.8
+    },
+    {
+      "name": "Santa Fe",
+      "country": "AR",
+      "value": 3.56
+    },
+    {
+      "name": "City of Buenos Aires",
+      "country": "AR",
+      "value": 3.0937
+    },
+    {
+      "name": "Mendoza",
+      "country": "AR",
+      "value": 2.01
+    },
+    {
+      "name": "Tucumán",
+      "country": "AR",
+      "value": 1.73
+    },
+    {
+      "name": "Salta",
+      "country": "AR",
+      "value": 1.45
+    },
+    {
+      "name": "Entre Ríos",
+      "country": "AR",
+      "value": 1.4
+    },
+    {
+      "name": "Misiones",
+      "country": "AR",
+      "value": 1.27
+    },
+    {
+      "name": "Chaco",
+      "country": "AR",
+      "value": 1.22
+    },
+    {
+      "name": "Corrientes",
+      "country": "AR",
+      "value": 1.14
+    },
+    {
+      "name": "Santiago del Estero",
+      "country": "AR",
+      "value": 0.99
+    },
+    {
+      "name": "San Juan",
+      "country": "AR",
+      "value": 0.79
+    },
+    {
+      "name": "Jujuy",
+      "country": "AR",
+      "value": 0.78
+    },
+    {
+      "name": "Río Negro",
+      "country": "AR",
+      "value": 0.76
+    },
+    {
+      "name": "Neuquén",
+      "country": "AR",
+      "value": 0.68
+    },
+    {
+      "name": "Chubut",
+      "country": "AR",
+      "value": 0.63
+    },
+    {
+      "name": "Formosa",
+      "country": "AR",
+      "value": 0.61
+    },
+    {
+      "name": "San Luis",
+      "country": "AR",
+      "value": 0.52
+    },
+    {
+      "name": "Catamarca",
+      "country": "AR",
+      "value": 0.42
+    },
+    {
+      "name": "La Rioja",
+      "country": "AR",
+      "value": 0.4
+    },
+    {
+      "name": "Santa Cruz",
+      "country": "AR",
+      "value": 0.38
+    },
+    {
+      "name": "La Pampa",
+      "country": "AR",
+      "value": 0.36
+    },
+    {
+      "name": "Tierra del Fuego",
+      "country": "AR",
+      "value": 0.18
+    }
+  ]
+}

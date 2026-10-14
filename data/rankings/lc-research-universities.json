@@ -1,0 +1,56 @@
+{
+  "id": "lc-research-universities",
+  "title": "Top Research Universities in Saint Lucia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Saint Lucia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LC",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:56.012Z",
+  "items": [
+    {
+      "name": "Spartan Health Sciences University",
+      "country": "LC",
+      "value": 2334,
+      "detail": "148 papers"
+    },
+    {
+      "name": "American International Medical University",
+      "country": "LC",
+      "value": 1458,
+      "detail": "100 papers"
+    },
+    {
+      "name": "International American University",
+      "country": "LC",
+      "value": 1339,
+      "detail": "233 papers"
+    },
+    {
+      "name": "Sir Arthur Lewis Community College",
+      "country": "LC",
+      "value": 371,
+      "detail": "44 papers"
+    },
+    {
+      "name": "Commonwealth University College of Medicine",
+      "country": "LC",
+      "value": 8,
+      "detail": "15 papers"
+    }
+  ]
+}

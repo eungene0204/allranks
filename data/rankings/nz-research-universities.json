@@ -1,0 +1,254 @@
+{
+  "id": "nz-research-universities",
+  "title": "Top Research Universities in New Zealand",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in New Zealand ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:46.393Z",
+  "items": [
+    {
+      "name": "University of Auckland",
+      "country": "NZ",
+      "value": 10272593,
+      "detail": "139,688 papers"
+    },
+    {
+      "name": "Auckland University of Technology",
+      "country": "NZ",
+      "value": 8135013,
+      "detail": "29,782 papers"
+    },
+    {
+      "name": "University of Otago",
+      "country": "NZ",
+      "value": 6881289,
+      "detail": "90,763 papers"
+    },
+    {
+      "name": "Massey University",
+      "country": "NZ",
+      "value": 2876410,
+      "detail": "53,153 papers"
+    },
+    {
+      "name": "University of Canterbury",
+      "country": "NZ",
+      "value": 2615938,
+      "detail": "52,150 papers"
+    },
+    {
+      "name": "Victoria University of Wellington",
+      "country": "NZ",
+      "value": 1984032,
+      "detail": "60,734 papers"
+    },
+    {
+      "name": "University of Waikato",
+      "country": "NZ",
+      "value": 1428272,
+      "detail": "30,439 papers"
+    },
+    {
+      "name": "Lincoln University",
+      "country": "NZ",
+      "value": 763502,
+      "detail": "13,186 papers"
+    },
+    {
+      "name": "Unitec Institute of Technology",
+      "country": "NZ",
+      "value": 63300,
+      "detail": "3,373 papers"
+    },
+    {
+      "name": "Nelson Marlborough Institute of Technology",
+      "country": "NZ",
+      "value": 25761,
+      "detail": "299 papers"
+    },
+    {
+      "name": "Eastern Institute of Technology",
+      "country": "NZ",
+      "value": 23242,
+      "detail": "1,243 papers"
+    },
+    {
+      "name": "Waikato Institute of Technology",
+      "country": "NZ",
+      "value": 19837,
+      "detail": "1,085 papers"
+    },
+    {
+      "name": "Manukau Institute of Technology",
+      "country": "NZ",
+      "value": 17530,
+      "detail": "655 papers"
+    },
+    {
+      "name": "Otago Polytechnic",
+      "country": "NZ",
+      "value": 17125,
+      "detail": "1,154 papers"
+    },
+    {
+      "name": "Ara Institute of Canterbury",
+      "country": "NZ",
+      "value": 16879,
+      "detail": "824 papers"
+    },
+    {
+      "name": "New Zealand College of Chiropractic",
+      "country": "NZ",
+      "value": 9854,
+      "detail": "294 papers"
+    },
+    {
+      "name": "Open Polytechnic",
+      "country": "NZ",
+      "value": 7174,
+      "detail": "674 papers"
+    },
+    {
+      "name": "Toi Ohomai Institute of Technology",
+      "country": "NZ",
+      "value": 6562,
+      "detail": "361 papers"
+    },
+    {
+      "name": "Te Pūkenga",
+      "country": "NZ",
+      "value": 5953,
+      "detail": "529 papers"
+    },
+    {
+      "name": "Universal College of Learning",
+      "country": "NZ",
+      "value": 5496,
+      "detail": "189 papers"
+    },
+    {
+      "name": "Waiariki Institute of Technology",
+      "country": "NZ",
+      "value": 4409,
+      "detail": "97 papers"
+    },
+    {
+      "name": "Auckland Institute of Studies",
+      "country": "NZ",
+      "value": 3848,
+      "detail": "153 papers"
+    },
+    {
+      "name": "Wellington Institute of Technology",
+      "country": "NZ",
+      "value": 3796,
+      "detail": "328 papers"
+    },
+    {
+      "name": "Royal New Zealand College of General Practitioners",
+      "country": "NZ",
+      "value": 2702,
+      "detail": "117 papers"
+    },
+    {
+      "name": "Southern Institute of Technology",
+      "country": "NZ",
+      "value": 2025,
+      "detail": "189 papers"
+    },
+    {
+      "name": "Institute of the Pacific United",
+      "country": "NZ",
+      "value": 1787,
+      "detail": "142 papers"
+    },
+    {
+      "name": "Te Whare Wānanga o Awanuiārangi",
+      "country": "NZ",
+      "value": 1635,
+      "detail": "119 papers"
+    },
+    {
+      "name": "Te Rito Maioha Early Childhood New Zealand",
+      "country": "NZ",
+      "value": 892,
+      "detail": "87 papers"
+    },
+    {
+      "name": "Te Wānanga o Aotearoa",
+      "country": "NZ",
+      "value": 712,
+      "detail": "162 papers"
+    },
+    {
+      "name": "Media Design School",
+      "country": "NZ",
+      "value": 575,
+      "detail": "173 papers"
+    },
+    {
+      "name": "Laidlaw College",
+      "country": "NZ",
+      "value": 486,
+      "detail": "132 papers"
+    },
+    {
+      "name": "Waikato-Tainui College for Research and Development",
+      "country": "NZ",
+      "value": 273,
+      "detail": "10 papers"
+    },
+    {
+      "name": "Chelsea Primary School",
+      "country": "NZ",
+      "value": 230,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Whitecliffe College of Arts and Design",
+      "country": "NZ",
+      "value": 218,
+      "detail": "66 papers"
+    },
+    {
+      "name": "Carey Baptist College",
+      "country": "NZ",
+      "value": 130,
+      "detail": "80 papers"
+    },
+    {
+      "name": "Good Shepherd College",
+      "country": "NZ",
+      "value": 90,
+      "detail": "22 papers"
+    },
+    {
+      "name": "Mt Albert Primary School",
+      "country": "NZ",
+      "value": 50,
+      "detail": "6 papers"
+    },
+    {
+      "name": "Toi Whakaari: NZ Drama School",
+      "country": "NZ",
+      "value": 6,
+      "detail": "7 papers"
+    }
+  ]
+}

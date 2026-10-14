@@ -1,0 +1,109 @@
+{
+  "id": "tt-cities",
+  "title": "Largest Cities in Trinidad and Tobago",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Trinidad and Tobago with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.685Z",
+  "items": [
+    {
+      "name": "Chaguanas",
+      "country": "TT",
+      "value": 67433,
+      "detail": "Chaguanas"
+    },
+    {
+      "name": "Mon Repos",
+      "country": "TT",
+      "value": 56380,
+      "detail": "San Fernando"
+    },
+    {
+      "name": "San Fernando",
+      "country": "TT",
+      "value": 55419,
+      "detail": "San Fernando"
+    },
+    {
+      "name": "Port of Spain",
+      "country": "TT",
+      "value": 49031,
+      "detail": "Port of Spain"
+    },
+    {
+      "name": "Rio Claro",
+      "country": "TT",
+      "value": 35650,
+      "detail": "Mayaro"
+    },
+    {
+      "name": "Arima",
+      "country": "TT",
+      "value": 35000,
+      "detail": "Borough of Arima"
+    },
+    {
+      "name": "Marabella",
+      "country": "TT",
+      "value": 26700,
+      "detail": "San Fernando"
+    },
+    {
+      "name": "Diego Martin",
+      "country": "TT",
+      "value": 25370,
+      "detail": "Diego Martin Regional Corporation"
+    },
+    {
+      "name": "Laventille",
+      "country": "TT",
+      "value": 21000,
+      "detail": "San Juan/Laventille"
+    },
+    {
+      "name": "Point Fortin",
+      "country": "TT",
+      "value": 19056,
+      "detail": "Point Fortin"
+    },
+    {
+      "name": "Tunapuna",
+      "country": "TT",
+      "value": 17758,
+      "detail": "Tunapuna/Piarco"
+    },
+    {
+      "name": "Scarborough",
+      "country": "TT",
+      "value": 17000,
+      "detail": "Tobago"
+    },
+    {
+      "name": "Sangre Grande",
+      "country": "TT",
+      "value": 15968,
+      "detail": "Sangre Grande Regional Corporation"
+    },
+    {
+      "name": "Paradise",
+      "country": "TT",
+      "value": 15067,
+      "detail": "Tunapuna/Piarco"
+    }
+  ]
+}

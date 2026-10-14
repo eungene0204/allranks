@@ -1,0 +1,56 @@
+{
+  "id": "tt-research-universities",
+  "title": "Top Research Universities in Trinidad and Tobago",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Trinidad and Tobago ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:27.471Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "TT",
+      "value": 511664,
+      "detail": "16,339 papers"
+    },
+    {
+      "name": "University of Trinidad and Tobago",
+      "country": "TT",
+      "value": 14772,
+      "detail": "1,195 papers"
+    },
+    {
+      "name": "University of the Southern Caribbean",
+      "country": "TT",
+      "value": 2919,
+      "detail": "145 papers"
+    },
+    {
+      "name": "College of Science, Technology and Applied Arts of Trinidad and Tobago",
+      "country": "TT",
+      "value": 285,
+      "detail": "35 papers"
+    },
+    {
+      "name": "Hugh Wooding Law School",
+      "country": "TT",
+      "value": 127,
+      "detail": "15 papers"
+    }
+  ]
+}

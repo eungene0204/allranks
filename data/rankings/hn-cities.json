@@ -1,0 +1,325 @@
+{
+  "id": "hn-cities",
+  "title": "Largest Cities in Honduras",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Honduras with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.670Z",
+  "items": [
+    {
+      "name": "Tegucigalpa",
+      "country": "HN",
+      "value": 850848,
+      "detail": "Francisco Morazán Department"
+    },
+    {
+      "name": "San Pedro Sula",
+      "country": "HN",
+      "value": 801259,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Danlí",
+      "country": "HN",
+      "value": 233789,
+      "detail": "El Paraíso Department"
+    },
+    {
+      "name": "La Ceiba",
+      "country": "HN",
+      "value": 222055,
+      "detail": "Atlántida Department"
+    },
+    {
+      "name": "La Ceiba (Atlántida Department)",
+      "country": "HN",
+      "value": 215973,
+      "detail": "Atlántida Department"
+    },
+    {
+      "name": "Puerto Cortez",
+      "country": "HN",
+      "value": 142311,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Catacamas",
+      "country": "HN",
+      "value": 140548,
+      "detail": "Olancho Department"
+    },
+    {
+      "name": "Choloma",
+      "country": "HN",
+      "value": 139100,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Siguatepeque",
+      "country": "HN",
+      "value": 127468,
+      "detail": "Comayagua Department"
+    },
+    {
+      "name": "Olanchito",
+      "country": "HN",
+      "value": 124286,
+      "detail": "Yoro Department"
+    },
+    {
+      "name": "Tocoa",
+      "country": "HN",
+      "value": 111972,
+      "detail": "Colón Department"
+    },
+    {
+      "name": "El Progreso",
+      "country": "HN",
+      "value": 100810,
+      "detail": "Yoro Department"
+    },
+    {
+      "name": "Santa Cruz de Yojoa",
+      "country": "HN",
+      "value": 97848,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Ciudad Choluteca",
+      "country": "HN",
+      "value": 75872,
+      "detail": "Choluteca Department"
+    },
+    {
+      "name": "San Pedro de Copán",
+      "country": "HN",
+      "value": 63829,
+      "detail": "Copán Department"
+    },
+    {
+      "name": "Comayagua",
+      "country": "HN",
+      "value": 58784,
+      "detail": "Comayagua Department"
+    },
+    {
+      "name": "Omoa",
+      "country": "HN",
+      "value": 58172,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "El Negrito",
+      "country": "HN",
+      "value": 50550,
+      "detail": "Yoro Department"
+    },
+    {
+      "name": "Sonaguera",
+      "country": "HN",
+      "value": 48087,
+      "detail": "Colón Department"
+    },
+    {
+      "name": "Quimistán",
+      "country": "HN",
+      "value": 47993,
+      "detail": "Santa Bárbara Department"
+    },
+    {
+      "name": "La Lima",
+      "country": "HN",
+      "value": 45955,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Teupasenti",
+      "country": "HN",
+      "value": 43477,
+      "detail": "El Paraíso Department"
+    },
+    {
+      "name": "Lepaera",
+      "country": "HN",
+      "value": 37876,
+      "detail": "Lempira Department"
+    },
+    {
+      "name": "Macuelizo",
+      "country": "HN",
+      "value": 34401,
+      "detail": "Santa Bárbara Department"
+    },
+    {
+      "name": "Victoria",
+      "country": "HN",
+      "value": 34215,
+      "detail": "Yoro Department"
+    },
+    {
+      "name": "Sabá",
+      "country": "HN",
+      "value": 33879,
+      "detail": "Colón Department"
+    },
+    {
+      "name": "Juticalpa",
+      "country": "HN",
+      "value": 33686,
+      "detail": "Olancho Department"
+    },
+    {
+      "name": "Villa de San Antonio",
+      "country": "HN",
+      "value": 32419,
+      "detail": "Comayagua Department"
+    },
+    {
+      "name": "Villanueva",
+      "country": "HN",
+      "value": 31571,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Dulce Nombre de Culmí",
+      "country": "HN",
+      "value": 30543,
+      "detail": "Olancho Department"
+    },
+    {
+      "name": "El Rosario",
+      "country": "HN",
+      "value": 30042,
+      "detail": "Comayagua Department"
+    },
+    {
+      "name": "Tela",
+      "country": "HN",
+      "value": 29325,
+      "detail": "Atlántida Department"
+    },
+    {
+      "name": "Santa Rosa de Copán",
+      "country": "HN",
+      "value": 27753,
+      "detail": "Copán Department"
+    },
+    {
+      "name": "Potrerillos",
+      "country": "HN",
+      "value": 26954,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "La Iguala",
+      "country": "HN",
+      "value": 26805,
+      "detail": "Lempira Department"
+    },
+    {
+      "name": "Arizona",
+      "country": "HN",
+      "value": 25320,
+      "detail": "Atlántida Department"
+    },
+    {
+      "name": "San Francisco de Yojoa",
+      "country": "HN",
+      "value": 24740,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Marcovia",
+      "country": "HN",
+      "value": 24646,
+      "detail": "Choluteca Department"
+    },
+    {
+      "name": "San Luis",
+      "country": "HN",
+      "value": 24606,
+      "detail": "Santa Bárbara Department"
+    },
+    {
+      "name": "Sabanagrande",
+      "country": "HN",
+      "value": 23943,
+      "detail": "Francisco Morazán Department"
+    },
+    {
+      "name": "San Antonio de Cortés",
+      "country": "HN",
+      "value": 22884,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Gualaco",
+      "country": "HN",
+      "value": 22327,
+      "detail": "Olancho Department"
+    },
+    {
+      "name": "San Lorenzo",
+      "country": "HN",
+      "value": 22289,
+      "detail": "Valle Department"
+    },
+    {
+      "name": "Yamaranguila",
+      "country": "HN",
+      "value": 21633,
+      "detail": "Intibucá Department"
+    },
+    {
+      "name": "Santa Rita",
+      "country": "HN",
+      "value": 21536,
+      "detail": "Yoro Department"
+    },
+    {
+      "name": "Iriona",
+      "country": "HN",
+      "value": 21207,
+      "detail": "Colón Department"
+    },
+    {
+      "name": "Esquías",
+      "country": "HN",
+      "value": 21009,
+      "detail": "Comayagua Department"
+    },
+    {
+      "name": "Langue",
+      "country": "HN",
+      "value": 20944,
+      "detail": "Valle Department"
+    },
+    {
+      "name": "Cofradía",
+      "country": "HN",
+      "value": 20353,
+      "detail": "Cortés Department"
+    },
+    {
+      "name": "Azacualpa",
+      "country": "HN",
+      "value": 20210,
+      "detail": "Santa Bárbara Department"
+    }
+  ]
+}

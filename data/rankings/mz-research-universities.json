@@ -1,0 +1,170 @@
+{
+  "id": "mz-research-universities",
+  "title": "Top Research Universities in Mozambique",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Mozambique ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:06.433Z",
+  "items": [
+    {
+      "name": "Eduardo Mondlane University",
+      "country": "MZ",
+      "value": 285257,
+      "detail": "6,694 papers"
+    },
+    {
+      "name": "Pedagogical University",
+      "country": "MZ",
+      "value": 14418,
+      "detail": "1,769 papers"
+    },
+    {
+      "name": "Lúrio University",
+      "country": "MZ",
+      "value": 10499,
+      "detail": "1,001 papers"
+    },
+    {
+      "name": "Catholic University of Mozambique",
+      "country": "MZ",
+      "value": 6745,
+      "detail": "1,169 papers"
+    },
+    {
+      "name": "Universidade Zambeze",
+      "country": "MZ",
+      "value": 2643,
+      "detail": "429 papers"
+    },
+    {
+      "name": "Universidade Rovuma",
+      "country": "MZ",
+      "value": 2352,
+      "detail": "592 papers"
+    },
+    {
+      "name": "Instituto Superior de Ciencias de Saude",
+      "country": "MZ",
+      "value": 2005,
+      "detail": "124 papers"
+    },
+    {
+      "name": "Instituto Superior Politécnico de Gaza",
+      "country": "MZ",
+      "value": 1751,
+      "detail": "191 papers"
+    },
+    {
+      "name": "Instituto Superior Politécnico de Manica",
+      "country": "MZ",
+      "value": 1040,
+      "detail": "150 papers"
+    },
+    {
+      "name": "Instituto Superior de Ciências e Tecnologia de Moçambique",
+      "country": "MZ",
+      "value": 654,
+      "detail": "99 papers"
+    },
+    {
+      "name": "Universidade Técnica de Moçambique",
+      "country": "MZ",
+      "value": 274,
+      "detail": "122 papers"
+    },
+    {
+      "name": "Universidade Politecnica",
+      "country": "MZ",
+      "value": 255,
+      "detail": "313 papers"
+    },
+    {
+      "name": "Universidade Aberta ISCED",
+      "country": "MZ",
+      "value": 243,
+      "detail": "240 papers"
+    },
+    {
+      "name": "Instituto Superior Politecnico de Tete",
+      "country": "MZ",
+      "value": 238,
+      "detail": "50 papers"
+    },
+    {
+      "name": "Instituto Superior de Comunicação e Imagem de Moçambique",
+      "country": "MZ",
+      "value": 222,
+      "detail": "38 papers"
+    },
+    {
+      "name": "Universidade São Tomás de Moçambique",
+      "country": "MZ",
+      "value": 165,
+      "detail": "106 papers"
+    },
+    {
+      "name": "Instituto Superior Cristão",
+      "country": "MZ",
+      "value": 84,
+      "detail": "35 papers"
+    },
+    {
+      "name": "Instituto Superior Politécnico de Songo",
+      "country": "MZ",
+      "value": 69,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Escola Superior de Jornalismo",
+      "country": "MZ",
+      "value": 23,
+      "detail": "60 papers"
+    },
+    {
+      "name": "Instituto Superior Monitor",
+      "country": "MZ",
+      "value": 13,
+      "detail": "5 papers"
+    },
+    {
+      "name": "Instituto Superior de Transportes e Comunicaçõe",
+      "country": "MZ",
+      "value": 4,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Instituto Superior de Artes e Cultura",
+      "country": "MZ",
+      "value": 2,
+      "detail": "12 papers"
+    },
+    {
+      "name": "Instituto Superior de Ciências e Tecnologia Alberto Chipande",
+      "country": "MZ",
+      "value": 2,
+      "detail": "10 papers"
+    },
+    {
+      "name": "One World University",
+      "country": "MZ",
+      "value": 2,
+      "detail": "7 papers"
+    }
+  ]
+}

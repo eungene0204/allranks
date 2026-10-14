@@ -1,0 +1,109 @@
+{
+  "id": "sl-cities",
+  "title": "Largest Cities in Sierra Leone",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Sierra Leone with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.680Z",
+  "items": [
+    {
+      "name": "Freetown",
+      "country": "SL",
+      "value": 802639,
+      "detail": "Western Area"
+    },
+    {
+      "name": "Kenema",
+      "country": "SL",
+      "value": 255110,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Bo",
+      "country": "SL",
+      "value": 233684,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Koidu",
+      "country": "SL",
+      "value": 128030,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Makeni",
+      "country": "SL",
+      "value": 85116,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Waterloo",
+      "country": "SL",
+      "value": 55000,
+      "detail": "Western Area"
+    },
+    {
+      "name": "Port Loko",
+      "country": "SL",
+      "value": 44900,
+      "detail": "North West"
+    },
+    {
+      "name": "Njala",
+      "country": "SL",
+      "value": 40000,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Lunsar",
+      "country": "SL",
+      "value": 22461,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Goderich",
+      "country": "SL",
+      "value": 19209,
+      "detail": "Western Area"
+    },
+    {
+      "name": "Kabala",
+      "country": "SL",
+      "value": 17948,
+      "detail": "Northern Province"
+    },
+    {
+      "name": "Segbwema",
+      "country": "SL",
+      "value": 16532,
+      "detail": "Eastern Province"
+    },
+    {
+      "name": "Bumpe",
+      "country": "SL",
+      "value": 16123,
+      "detail": "Southern Province"
+    },
+    {
+      "name": "Mile 91",
+      "country": "SL",
+      "value": 15491,
+      "detail": "Northern Province"
+    }
+  ]
+}

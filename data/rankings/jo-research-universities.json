@@ -1,0 +1,212 @@
+{
+  "id": "jo-research-universities",
+  "title": "Top Research Universities in Jordan",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Jordan ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:50.479Z",
+  "items": [
+    {
+      "name": "University of Jordan",
+      "country": "JO",
+      "value": 1116768,
+      "detail": "37,966 papers"
+    },
+    {
+      "name": "Jordan University of Science and Technology",
+      "country": "JO",
+      "value": 1054133,
+      "detail": "25,844 papers"
+    },
+    {
+      "name": "Hashemite University",
+      "country": "JO",
+      "value": 316766,
+      "detail": "13,060 papers"
+    },
+    {
+      "name": "Yarmouk University",
+      "country": "JO",
+      "value": 281083,
+      "detail": "15,789 papers"
+    },
+    {
+      "name": "Al-Balqa Applied University",
+      "country": "JO",
+      "value": 265532,
+      "detail": "13,849 papers"
+    },
+    {
+      "name": "Applied Science Private University",
+      "country": "JO",
+      "value": 171080,
+      "detail": "9,414 papers"
+    },
+    {
+      "name": "Philadelphia University",
+      "country": "JO",
+      "value": 158657,
+      "detail": "2,265 papers"
+    },
+    {
+      "name": "Al-Ahliyya Amman University",
+      "country": "JO",
+      "value": 149296,
+      "detail": "8,257 papers"
+    },
+    {
+      "name": "Mutah University",
+      "country": "JO",
+      "value": 135373,
+      "detail": "7,664 papers"
+    },
+    {
+      "name": "Al al-Bayt University",
+      "country": "JO",
+      "value": 109272,
+      "detail": "5,708 papers"
+    },
+    {
+      "name": "Al-Zaytoonah University of Jordan",
+      "country": "JO",
+      "value": 106449,
+      "detail": "5,527 papers"
+    },
+    {
+      "name": "Zarqa University",
+      "country": "JO",
+      "value": 99688,
+      "detail": "7,513 papers"
+    },
+    {
+      "name": "Middle East University",
+      "country": "JO",
+      "value": 83757,
+      "detail": "4,565 papers"
+    },
+    {
+      "name": "German Jordanian University",
+      "country": "JO",
+      "value": 83042,
+      "detail": "3,528 papers"
+    },
+    {
+      "name": "Princess Sumaya University for Technology",
+      "country": "JO",
+      "value": 76231,
+      "detail": "3,403 papers"
+    },
+    {
+      "name": "Isra University",
+      "country": "JO",
+      "value": 71261,
+      "detail": "4,077 papers"
+    },
+    {
+      "name": "Al-Hussein Bin Talal University",
+      "country": "JO",
+      "value": 68487,
+      "detail": "3,341 papers"
+    },
+    {
+      "name": "Amman Arab University",
+      "country": "JO",
+      "value": 66283,
+      "detail": "2,887 papers"
+    },
+    {
+      "name": "Petra University",
+      "country": "JO",
+      "value": 57701,
+      "detail": "3,746 papers"
+    },
+    {
+      "name": "Jadara University",
+      "country": "JO",
+      "value": 53300,
+      "detail": "4,347 papers"
+    },
+    {
+      "name": "Tafila Technical University",
+      "country": "JO",
+      "value": 40563,
+      "detail": "2,637 papers"
+    },
+    {
+      "name": "Irbid National University",
+      "country": "JO",
+      "value": 20941,
+      "detail": "1,570 papers"
+    },
+    {
+      "name": "Jerash University",
+      "country": "JO",
+      "value": 18580,
+      "detail": "2,017 papers"
+    },
+    {
+      "name": "American University of Madaba",
+      "country": "JO",
+      "value": 17199,
+      "detail": "891 papers"
+    },
+    {
+      "name": "World Islamic Sciences and Education University",
+      "country": "JO",
+      "value": 16925,
+      "detail": "2,150 papers"
+    },
+    {
+      "name": "Aqaba University of Technology",
+      "country": "JO",
+      "value": 11404,
+      "detail": "672 papers"
+    },
+    {
+      "name": "Al Hussein Technical University",
+      "country": "JO",
+      "value": 9340,
+      "detail": "547 papers"
+    },
+    {
+      "name": "Ajloun National University",
+      "country": "JO",
+      "value": 6873,
+      "detail": "1,202 papers"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "JO",
+      "value": 3207,
+      "detail": "462 papers"
+    },
+    {
+      "name": "Ibn Sina University for Medical Sciences",
+      "country": "JO",
+      "value": 850,
+      "detail": "134 papers"
+    },
+    {
+      "name": "Khawarizmi University Technical College",
+      "country": "JO",
+      "value": 555,
+      "detail": "81 papers"
+    }
+  ]
+}

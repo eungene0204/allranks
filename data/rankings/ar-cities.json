@@ -1,0 +1,325 @@
+{
+  "id": "ar-cities",
+  "title": "Largest Cities in Argentina",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Argentina with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.658Z",
+  "items": [
+    {
+      "name": "Buenos Aires",
+      "country": "AR",
+      "value": 2891082,
+      "detail": "Buenos Aires F.D."
+    },
+    {
+      "name": "Córdoba",
+      "country": "AR",
+      "value": 2106734,
+      "detail": "Cordoba"
+    },
+    {
+      "name": "Rosario",
+      "country": "AR",
+      "value": 948312,
+      "detail": "Santa Fe"
+    },
+    {
+      "name": "Mar del Plata",
+      "country": "AR",
+      "value": 593337,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "San Miguel de Tucumán",
+      "country": "AR",
+      "value": 548866,
+      "detail": "Tucuman"
+    },
+    {
+      "name": "Salta",
+      "country": "AR",
+      "value": 520683,
+      "detail": "Salta"
+    },
+    {
+      "name": "Santa Fe",
+      "country": "AR",
+      "value": 391164,
+      "detail": "Santa Fe"
+    },
+    {
+      "name": "Avellaneda",
+      "country": "AR",
+      "value": 367554,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Corrientes",
+      "country": "AR",
+      "value": 346334,
+      "detail": "Corrientes"
+    },
+    {
+      "name": "Posadas",
+      "country": "AR",
+      "value": 305874,
+      "detail": "Misiones"
+    },
+    {
+      "name": "Bahía Blanca",
+      "country": "AR",
+      "value": 299101,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Resistencia",
+      "country": "AR",
+      "value": 290793,
+      "detail": "Chaco"
+    },
+    {
+      "name": "Merlo",
+      "country": "AR",
+      "value": 268961,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Quilmes",
+      "country": "AR",
+      "value": 262379,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "San Salvador de Jujuy",
+      "country": "AR",
+      "value": 257970,
+      "detail": "Jujuy"
+    },
+    {
+      "name": "Santiago del Estero",
+      "country": "AR",
+      "value": 252192,
+      "detail": "Santiago del Estero"
+    },
+    {
+      "name": "Palermo",
+      "country": "AR",
+      "value": 249016,
+      "detail": "Buenos Aires F.D."
+    },
+    {
+      "name": "Laferrere",
+      "country": "AR",
+      "value": 248362,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Paraná",
+      "country": "AR",
+      "value": 247139,
+      "detail": "Entre Rios"
+    },
+    {
+      "name": "Neuquén",
+      "country": "AR",
+      "value": 231198,
+      "detail": "Neuquen"
+    },
+    {
+      "name": "José C. Paz",
+      "country": "AR",
+      "value": 230208,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Formosa",
+      "country": "AR",
+      "value": 222226,
+      "detail": "Formosa"
+    },
+    {
+      "name": "Lanús",
+      "country": "AR",
+      "value": 212252,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "La Plata",
+      "country": "AR",
+      "value": 195443,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Ciudad de Las Heras",
+      "country": "AR",
+      "value": 189067,
+      "detail": "Mendoza"
+    },
+    {
+      "name": "Berazategui",
+      "country": "AR",
+      "value": 180523,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "La Rioja",
+      "country": "AR",
+      "value": 178872,
+      "detail": "La Rioja"
+    },
+    {
+      "name": "San Luis",
+      "country": "AR",
+      "value": 169947,
+      "detail": "San Luis"
+    },
+    {
+      "name": "San Miguel",
+      "country": "AR",
+      "value": 168762,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Ituzaingó",
+      "country": "AR",
+      "value": 168419,
+      "detail": "Corrientes"
+    },
+    {
+      "name": "Catamarca",
+      "country": "AR",
+      "value": 159139,
+      "detail": "Catamarca"
+    },
+    {
+      "name": "Río Cuarto",
+      "country": "AR",
+      "value": 157010,
+      "detail": "Cordoba"
+    },
+    {
+      "name": "Balvanera",
+      "country": "AR",
+      "value": 152198,
+      "detail": "Buenos Aires F.D."
+    },
+    {
+      "name": "Moreno",
+      "country": "AR",
+      "value": 148290,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Concordia",
+      "country": "AR",
+      "value": 145210,
+      "detail": "Entre Rios"
+    },
+    {
+      "name": "Comodoro Rivadavia",
+      "country": "AR",
+      "value": 140850,
+      "detail": "Chubut"
+    },
+    {
+      "name": "Belgrano",
+      "country": "AR",
+      "value": 138942,
+      "detail": "Buenos Aires F.D."
+    },
+    {
+      "name": "San Nicolás de los Arroyos",
+      "country": "AR",
+      "value": 134217,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Isidro Casanova",
+      "country": "AR",
+      "value": 131981,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Rawson",
+      "country": "AR",
+      "value": 130258,
+      "detail": "San Juan"
+    },
+    {
+      "name": "San Rafael",
+      "country": "AR",
+      "value": 118009,
+      "detail": "Mendoza"
+    },
+    {
+      "name": "Tandil",
+      "country": "AR",
+      "value": 115877,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Ezeiza",
+      "country": "AR",
+      "value": 115021,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Mendoza",
+      "country": "AR",
+      "value": 114893,
+      "detail": "Mendoza"
+    },
+    {
+      "name": "Villa Lugano",
+      "country": "AR",
+      "value": 114000,
+      "detail": "Buenos Aires F.D."
+    },
+    {
+      "name": "Lomas de Zamora",
+      "country": "AR",
+      "value": 111897,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "San Juan",
+      "country": "AR",
+      "value": 109123,
+      "detail": "San Juan"
+    },
+    {
+      "name": "Castelar",
+      "country": "AR",
+      "value": 107786,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "San Justo",
+      "country": "AR",
+      "value": 105274,
+      "detail": "Buenos Aires"
+    },
+    {
+      "name": "Santa Rosa",
+      "country": "AR",
+      "value": 102860,
+      "detail": "La Pampa"
+    }
+  ]
+}

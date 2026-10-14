@@ -1,0 +1,67 @@
+{
+  "id": "dj-cities",
+  "title": "Largest Cities in Djibouti",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Djibouti with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.666Z",
+  "items": [
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 626512,
+      "detail": "Djibouti"
+    },
+    {
+      "name": "Balbala",
+      "country": "DJ",
+      "value": 554350,
+      "detail": "Djibouti"
+    },
+    {
+      "name": "Ali Sabih",
+      "country": "DJ",
+      "value": 50006,
+      "detail": "Ali Sabieh"
+    },
+    {
+      "name": "Dikhil",
+      "country": "DJ",
+      "value": 32801,
+      "detail": "Dikhil"
+    },
+    {
+      "name": "Tadjoura",
+      "country": "DJ",
+      "value": 19533,
+      "detail": "Tadjourah"
+    },
+    {
+      "name": "Arta",
+      "country": "DJ",
+      "value": 17477,
+      "detail": "Arta"
+    },
+    {
+      "name": "Obock",
+      "country": "DJ",
+      "value": 15429,
+      "detail": "Obock"
+    }
+  ]
+}

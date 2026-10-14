@@ -1,0 +1,74 @@
+{
+  "id": "lt-county-gdp",
+  "title": "Lithuanian Counties by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Nominal GDP of each county, in billions of euros.",
+  "unit": "EUR billion",
+  "prefix": "€",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "LT",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Lithuania (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Counties_of_Lithuania",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:30:33.224Z",
+  "items": [
+    {
+      "name": "Vilnius",
+      "country": "LT",
+      "value": 24.2
+    },
+    {
+      "name": "Kaunas",
+      "country": "LT",
+      "value": 11.6
+    },
+    {
+      "name": "Klaipėda",
+      "country": "LT",
+      "value": 6
+    },
+    {
+      "name": "Šiauliai",
+      "country": "LT",
+      "value": 3.9
+    },
+    {
+      "name": "Panevėžys",
+      "country": "LT",
+      "value": 3
+    },
+    {
+      "name": "Telšiai",
+      "country": "LT",
+      "value": 1.8
+    },
+    {
+      "name": "Alytus",
+      "country": "LT",
+      "value": 1.6
+    },
+    {
+      "name": "Marijampolė",
+      "country": "LT",
+      "value": 1.6
+    },
+    {
+      "name": "Utena",
+      "country": "LT",
+      "value": 1.4
+    },
+    {
+      "name": "Tauragė",
+      "country": "LT",
+      "value": 1.1
+    }
+  ]
+}

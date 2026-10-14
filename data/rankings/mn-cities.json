@@ -1,0 +1,169 @@
+{
+  "id": "mn-cities",
+  "title": "Largest Cities in Mongolia",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Mongolia with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.674Z",
+  "items": [
+    {
+      "name": "Ulan Bator",
+      "country": "MN",
+      "value": 844818,
+      "detail": "Ulaanbaatar"
+    },
+    {
+      "name": "Erdenet",
+      "country": "MN",
+      "value": 97814,
+      "detail": "Orhon"
+    },
+    {
+      "name": "Darhan",
+      "country": "MN",
+      "value": 83883,
+      "detail": "Darhan Uul"
+    },
+    {
+      "name": "Choibalsan",
+      "country": "MN",
+      "value": 44835,
+      "detail": "East Aimak"
+    },
+    {
+      "name": "Nalayh",
+      "country": "MN",
+      "value": 39579,
+      "detail": "Ulaanbaatar"
+    },
+    {
+      "name": "Mörön",
+      "country": "MN",
+      "value": 39404,
+      "detail": "Khövsgöl Province"
+    },
+    {
+      "name": "Bayanhongor",
+      "country": "MN",
+      "value": 30931,
+      "detail": "Bayankhongor"
+    },
+    {
+      "name": "Ulaangom",
+      "country": "MN",
+      "value": 30092,
+      "detail": "Uvs Province"
+    },
+    {
+      "name": "Khovd",
+      "country": "MN",
+      "value": 29800,
+      "detail": "Hovd"
+    },
+    {
+      "name": "Arvayheer",
+      "country": "MN",
+      "value": 29420,
+      "detail": "Övörhangay"
+    },
+    {
+      "name": "Ölgii",
+      "country": "MN",
+      "value": 28400,
+      "detail": "Bayan-Ölgii Province"
+    },
+    {
+      "name": "Bogd",
+      "country": "MN",
+      "value": 27924,
+      "detail": "Övörhangay"
+    },
+    {
+      "name": "Dalandzadgad",
+      "country": "MN",
+      "value": 24863,
+      "detail": "Ömnögovĭ"
+    },
+    {
+      "name": "Sühbaatar",
+      "country": "MN",
+      "value": 22741,
+      "detail": "Selenge Province"
+    },
+    {
+      "name": "Undurkhaan",
+      "country": "MN",
+      "value": 22741,
+      "detail": "Hentiy"
+    },
+    {
+      "name": "Tsetserleg",
+      "country": "MN",
+      "value": 21620,
+      "detail": "Arkhangai Province"
+    },
+    {
+      "name": "Saynshand",
+      "country": "MN",
+      "value": 19891,
+      "detail": "East Gobi Aymag"
+    },
+    {
+      "name": "Dzüünharaa",
+      "country": "MN",
+      "value": 18830,
+      "detail": "Selenge Province"
+    },
+    {
+      "name": "Baruun-Urt",
+      "country": "MN",
+      "value": 18190,
+      "detail": "Sühbaatar"
+    },
+    {
+      "name": "Altai",
+      "country": "MN",
+      "value": 17617,
+      "detail": "Govi-Altai Province"
+    },
+    {
+      "name": "Bulgan",
+      "country": "MN",
+      "value": 17348,
+      "detail": "Bulgan"
+    },
+    {
+      "name": "Dzuunmod",
+      "country": "MN",
+      "value": 16953,
+      "detail": "Central Aimak"
+    },
+    {
+      "name": "Zuunmod",
+      "country": "MN",
+      "value": 16953,
+      "detail": "Central Aimak"
+    },
+    {
+      "name": "Uliastay",
+      "country": "MN",
+      "value": 16265,
+      "detail": "Dzabkhan"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "pg-cities",
+  "title": "Largest Cities in Papua New Guinea",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Papua New Guinea with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.678Z",
+  "items": [
+    {
+      "name": "Port Moresby",
+      "country": "PG",
+      "value": 283733,
+      "detail": "National Capital"
+    },
+    {
+      "name": "Lae",
+      "country": "PG",
+      "value": 76255,
+      "detail": "Morobe Province"
+    },
+    {
+      "name": "Arawa",
+      "country": "PG",
+      "value": 40266,
+      "detail": "Bougainville"
+    },
+    {
+      "name": "Mount Hagen",
+      "country": "PG",
+      "value": 33623,
+      "detail": "Western Highlands Province"
+    },
+    {
+      "name": "Popondetta",
+      "country": "PG",
+      "value": 28198,
+      "detail": "Oro Province"
+    },
+    {
+      "name": "Madang",
+      "country": "PG",
+      "value": 27419,
+      "detail": "Madang Province"
+    },
+    {
+      "name": "Kokopo",
+      "country": "PG",
+      "value": 26273,
+      "detail": "East New Britain Province"
+    },
+    {
+      "name": "Mendi",
+      "country": "PG",
+      "value": 26252,
+      "detail": "Southern Highlands Province"
+    },
+    {
+      "name": "Kimbe",
+      "country": "PG",
+      "value": 18847,
+      "detail": "West New Britain Province"
+    },
+    {
+      "name": "Goroka",
+      "country": "PG",
+      "value": 18503,
+      "detail": "Eastern Highlands Province"
+    },
+    {
+      "name": "Wewak",
+      "country": "PG",
+      "value": 18230,
+      "detail": "East Sepik Province"
+    },
+    {
+      "name": "Bulolo",
+      "country": "PG",
+      "value": 16042,
+      "detail": "Morobe Province"
+    },
+    {
+      "name": "Daru",
+      "country": "PG",
+      "value": 15214,
+      "detail": "Western Province"
+    }
+  ]
+}

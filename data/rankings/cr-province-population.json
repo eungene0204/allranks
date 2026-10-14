@@ -1,0 +1,59 @@
+{
+  "id": "cr-province-population",
+  "title": "Costa Rican Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the seven provinces.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CR",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "INEC Costa Rica, 2022 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Provinces_of_Costa_Rica",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:28:19.591Z",
+  "items": [
+    {
+      "name": "San José",
+      "country": "CR",
+      "value": 1.4042
+    },
+    {
+      "name": "Alajuela",
+      "country": "CR",
+      "value": 0.8856
+    },
+    {
+      "name": "Cartago",
+      "country": "CR",
+      "value": 0.4909
+    },
+    {
+      "name": "Heredia",
+      "country": "CR",
+      "value": 0.4337
+    },
+    {
+      "name": "Puntarenas",
+      "country": "CR",
+      "value": 0.4109
+    },
+    {
+      "name": "Limón",
+      "country": "CR",
+      "value": 0.3869
+    },
+    {
+      "name": "Guanacaste",
+      "country": "CR",
+      "value": 0.3542
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cg-region-population",
+  "title": "Congo Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Congo ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CG",
+  "year": 2023,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-14T03:30:36.956Z",
+  "items": [
+    {
+      "name": "Pool",
+      "country": "CG",
+      "value": 394532,
+      "detail": "2023"
+    },
+    {
+      "name": "Bouenza",
+      "country": "CG",
+      "value": 363850,
+      "detail": "2023"
+    },
+    {
+      "name": "Likouala",
+      "country": "CG",
+      "value": 355570,
+      "detail": "2023"
+    },
+    {
+      "name": "Niari",
+      "country": "CG",
+      "value": 334863,
+      "detail": "2023"
+    },
+    {
+      "name": "Cuvette",
+      "country": "CG",
+      "value": 316599,
+      "detail": "2023"
+    },
+    {
+      "name": "Plateaux",
+      "country": "CG",
+      "value": 283421,
+      "detail": "2023"
+    },
+    {
+      "name": "Sangha",
+      "country": "CG",
+      "value": 209701,
+      "detail": "2023"
+    },
+    {
+      "name": "Cuvette-Ouest",
+      "country": "CG",
+      "value": 119328,
+      "detail": "2023"
+    },
+    {
+      "name": "Lékoumou",
+      "country": "CG",
+      "value": 100559,
+      "detail": "2023"
+    },
+    {
+      "name": "Kouilou",
+      "country": "CG",
+      "value": 97362,
+      "detail": "2023"
+    }
+  ]
+}

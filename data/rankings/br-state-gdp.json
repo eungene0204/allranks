@@ -1,0 +1,159 @@
+{
+  "id": "br-state-gdp",
+  "title": "Brazilian States by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross regional domestic product of each state in 2023, in billions of US dollars.",
+  "unit": "USD billion",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "BR",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "IBGE, regional accounts (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Brazilian_federative_units_by_gross_regional_domestic_product",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:39:23.990Z",
+  "items": [
+    {
+      "name": "São Paulo",
+      "country": "BR",
+      "value": 689.652
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "BR",
+      "value": 234.809
+    },
+    {
+      "name": "Minas Gerais",
+      "country": "BR",
+      "value": 194.59
+    },
+    {
+      "name": "Paraná",
+      "country": "BR",
+      "value": 134.318
+    },
+    {
+      "name": "Rio Grande do Sul",
+      "country": "BR",
+      "value": 130.152
+    },
+    {
+      "name": "Santa Catarina",
+      "country": "BR",
+      "value": 102.781
+    },
+    {
+      "name": "Bahia",
+      "country": "BR",
+      "value": 86.284
+    },
+    {
+      "name": "Distrito Federal",
+      "country": "BR",
+      "value": 73.207
+    },
+    {
+      "name": "Goiás",
+      "country": "BR",
+      "value": 67.417
+    },
+    {
+      "name": "Mato Grosso",
+      "country": "BR",
+      "value": 54.656
+    },
+    {
+      "name": "Pernambuco",
+      "country": "BR",
+      "value": 54.149
+    },
+    {
+      "name": "Pará",
+      "country": "BR",
+      "value": 50.96
+    },
+    {
+      "name": "Ceará",
+      "country": "BR",
+      "value": 46.494
+    },
+    {
+      "name": "Espírito Santo",
+      "country": "BR",
+      "value": 42.008
+    },
+    {
+      "name": "Mato Grosso do Sul",
+      "country": "BR",
+      "value": 36.917
+    },
+    {
+      "name": "Amazonas",
+      "country": "BR",
+      "value": 32.391
+    },
+    {
+      "name": "Maranhão",
+      "country": "BR",
+      "value": 29.875
+    },
+    {
+      "name": "Rio Grande do Norte",
+      "country": "BR",
+      "value": 20.368
+    },
+    {
+      "name": "Paraíba",
+      "country": "BR",
+      "value": 18.811
+    },
+    {
+      "name": "Alagoas",
+      "country": "BR",
+      "value": 17.956
+    },
+    {
+      "name": "Piauí",
+      "country": "BR",
+      "value": 16.2
+    },
+    {
+      "name": "Rondônia",
+      "country": "BR",
+      "value": 15.307
+    },
+    {
+      "name": "Tocantins",
+      "country": "BR",
+      "value": 12.876
+    },
+    {
+      "name": "Sergipe",
+      "country": "BR",
+      "value": 12.176
+    },
+    {
+      "name": "Amapá",
+      "country": "BR",
+      "value": 5.61
+    },
+    {
+      "name": "Acre",
+      "country": "BR",
+      "value": 5.264
+    },
+    {
+      "name": "Roraima",
+      "country": "BR",
+      "value": 5.03
+    }
+  ]
+}

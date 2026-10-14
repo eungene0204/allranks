@@ -1,0 +1,325 @@
+{
+  "id": "tr-cities",
+  "title": "Largest Cities in Türkiye",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Türkiye with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.684Z",
+  "items": [
+    {
+      "name": "Istanbul",
+      "country": "TR",
+      "value": 15701602,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Ankara",
+      "country": "TR",
+      "value": 3517182,
+      "detail": "Ankara"
+    },
+    {
+      "name": "Bursa",
+      "country": "TR",
+      "value": 3101833,
+      "detail": "Bursa Province"
+    },
+    {
+      "name": "İzmir",
+      "country": "TR",
+      "value": 2938292,
+      "detail": "İzmir Province"
+    },
+    {
+      "name": "Gaziantep",
+      "country": "TR",
+      "value": 2222415,
+      "detail": "Gaziantep"
+    },
+    {
+      "name": "Diyarbakır",
+      "country": "TR",
+      "value": 1833684,
+      "detail": "Diyarbakır Province"
+    },
+    {
+      "name": "Adana",
+      "country": "TR",
+      "value": 1816750,
+      "detail": "Adana"
+    },
+    {
+      "name": "Kayseri",
+      "country": "TR",
+      "value": 1452458,
+      "detail": "Kayseri"
+    },
+    {
+      "name": "Konya",
+      "country": "TR",
+      "value": 1433861,
+      "detail": "Konya"
+    },
+    {
+      "name": "Antalya",
+      "country": "TR",
+      "value": 1335002,
+      "detail": "Antalya"
+    },
+    {
+      "name": "Esenyurt",
+      "country": "TR",
+      "value": 983571,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Eskişehir",
+      "country": "TR",
+      "value": 921630,
+      "detail": "Eskişehir"
+    },
+    {
+      "name": "Çankaya",
+      "country": "TR",
+      "value": 792189,
+      "detail": "Ankara"
+    },
+    {
+      "name": "Küçükçekmece",
+      "country": "TR",
+      "value": 792030,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Erzurum",
+      "country": "TR",
+      "value": 767848,
+      "detail": "Erzurum"
+    },
+    {
+      "name": "Malatya",
+      "country": "TR",
+      "value": 750491,
+      "detail": "Malatya"
+    },
+    {
+      "name": "Bağcılar",
+      "country": "TR",
+      "value": 740069,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Bahçelievler",
+      "country": "TR",
+      "value": 576799,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Ümraniye",
+      "country": "TR",
+      "value": 573265,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Mersin",
+      "country": "TR",
+      "value": 537842,
+      "detail": "Mersin"
+    },
+    {
+      "name": "Nilüfer",
+      "country": "TR",
+      "value": 536365,
+      "detail": "Bursa Province"
+    },
+    {
+      "name": "Van",
+      "country": "TR",
+      "value": 525016,
+      "detail": "Van"
+    },
+    {
+      "name": "Üsküdar",
+      "country": "TR",
+      "value": 524452,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Esenler",
+      "country": "TR",
+      "value": 520235,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Sancaktepe",
+      "country": "TR",
+      "value": 489848,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Karabağlar",
+      "country": "TR",
+      "value": 479338,
+      "detail": "İzmir Province"
+    },
+    {
+      "name": "Bornova",
+      "country": "TR",
+      "value": 452479,
+      "detail": "İzmir Province"
+    },
+    {
+      "name": "Batman",
+      "country": "TR",
+      "value": 452157,
+      "detail": "Batman"
+    },
+    {
+      "name": "Muratpaşa",
+      "country": "TR",
+      "value": 450000,
+      "detail": "Antalya"
+    },
+    {
+      "name": "Şanlıurfa",
+      "country": "TR",
+      "value": 449549,
+      "detail": "Şanlıurfa"
+    },
+    {
+      "name": "Elazığ",
+      "country": "TR",
+      "value": 443363,
+      "detail": "Elazığ"
+    },
+    {
+      "name": "Sultangazi",
+      "country": "TR",
+      "value": 436935,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Maltepe",
+      "country": "TR",
+      "value": 427040,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Beylikdüzü",
+      "country": "TR",
+      "value": 415290,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Antakya",
+      "country": "TR",
+      "value": 399045,
+      "detail": "Hatay"
+    },
+    {
+      "name": "Samsun",
+      "country": "TR",
+      "value": 394050,
+      "detail": "Samsun"
+    },
+    {
+      "name": "Kahramanmaraş",
+      "country": "TR",
+      "value": 384953,
+      "detail": "Kahramanmaraş"
+    },
+    {
+      "name": "Uşak",
+      "country": "TR",
+      "value": 369433,
+      "detail": "Uşak"
+    },
+    {
+      "name": "Alanya",
+      "country": "TR",
+      "value": 364180,
+      "detail": "Antalya"
+    },
+    {
+      "name": "Ataşehir",
+      "country": "TR",
+      "value": 361615,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Sultanbeyli",
+      "country": "TR",
+      "value": 358201,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Fatih",
+      "country": "TR",
+      "value": 356025,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Tarsus",
+      "country": "TR",
+      "value": 350732,
+      "detail": "Mersin"
+    },
+    {
+      "name": "Karşıyaka",
+      "country": "TR",
+      "value": 339624,
+      "detail": "İzmir Province"
+    },
+    {
+      "name": "Konak",
+      "country": "TR",
+      "value": 332277,
+      "detail": "İzmir Province"
+    },
+    {
+      "name": "Aksaray",
+      "country": "TR",
+      "value": 327575,
+      "detail": "Aksaray"
+    },
+    {
+      "name": "Şişli",
+      "country": "TR",
+      "value": 314684,
+      "detail": "Istanbul"
+    },
+    {
+      "name": "Denizli",
+      "country": "TR",
+      "value": 313238,
+      "detail": "Denizli"
+    },
+    {
+      "name": "Batikent",
+      "country": "TR",
+      "value": 300000,
+      "detail": "Ankara"
+    },
+    {
+      "name": "Adıyaman",
+      "country": "TR",
+      "value": 290883,
+      "detail": "Adıyaman Province"
+    }
+  ]
+}

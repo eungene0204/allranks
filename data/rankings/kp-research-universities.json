@@ -1,0 +1,74 @@
+{
+  "id": "kp-research-universities",
+  "title": "Top Research Universities in North Korea",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in North Korea ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:43:53.608Z",
+  "items": [
+    {
+      "name": "Kim Il-sung University",
+      "country": "KP",
+      "value": 44832,
+      "detail": "1,907 papers"
+    },
+    {
+      "name": "Kim Chaek University of Technology",
+      "country": "KP",
+      "value": 21525,
+      "detail": "1,114 papers"
+    },
+    {
+      "name": "Pyongyang University of Science and Technology",
+      "country": "KP",
+      "value": 4205,
+      "detail": "214 papers"
+    },
+    {
+      "name": "Institute of Natural Science",
+      "country": "KP",
+      "value": 934,
+      "detail": "131 papers"
+    },
+    {
+      "name": "Pyongyang Medical University",
+      "country": "KP",
+      "value": 906,
+      "detail": "202 papers"
+    },
+    {
+      "name": "Hamhŭng University of Chemical Industry",
+      "country": "KP",
+      "value": 364,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Huichon University of Telecommunications",
+      "country": "KP",
+      "value": 7,
+      "detail": "1 papers"
+    },
+    {
+      "name": "Rajin University of Marine Transport",
+      "country": "KP",
+      "value": 6,
+      "detail": "10 papers"
+    }
+  ]
+}

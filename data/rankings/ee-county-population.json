@@ -1,0 +1,99 @@
+{
+  "id": "ee-county-population",
+  "title": "Estonian Counties by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the 15 counties.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Estonia (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Counties_of_Estonia",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:29:21.169Z",
+  "items": [
+    {
+      "name": "Harju",
+      "country": "EE",
+      "value": 0.6381
+    },
+    {
+      "name": "Tartu",
+      "country": "EE",
+      "value": 0.1624
+    },
+    {
+      "name": "Ida-Viru",
+      "country": "EE",
+      "value": 0.1334
+    },
+    {
+      "name": "Pärnu",
+      "country": "EE",
+      "value": 0.0874
+    },
+    {
+      "name": "Lääne-Viru",
+      "country": "EE",
+      "value": 0.0596
+    },
+    {
+      "name": "Viljandi",
+      "country": "EE",
+      "value": 0.0456
+    },
+    {
+      "name": "Võru",
+      "country": "EE",
+      "value": 0.0343
+    },
+    {
+      "name": "Rapla",
+      "country": "EE",
+      "value": 0.034
+    },
+    {
+      "name": "Saare",
+      "country": "EE",
+      "value": 0.0319
+    },
+    {
+      "name": "Järva",
+      "country": "EE",
+      "value": 0.0301
+    },
+    {
+      "name": "Valga",
+      "country": "EE",
+      "value": 0.0281
+    },
+    {
+      "name": "Jõgeva",
+      "country": "EE",
+      "value": 0.0277
+    },
+    {
+      "name": "Põlva",
+      "country": "EE",
+      "value": 0.024
+    },
+    {
+      "name": "Lääne",
+      "country": "EE",
+      "value": 0.0207
+    },
+    {
+      "name": "Hiiu",
+      "country": "EE",
+      "value": 0.0085
+    }
+  ]
+}

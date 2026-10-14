@@ -1,0 +1,278 @@
+{
+  "id": "lt-research-universities",
+  "title": "Top Research Universities in Lithuania",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Lithuania ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:51.690Z",
+  "items": [
+    {
+      "name": "Vilnius University",
+      "country": "LT",
+      "value": 1693349,
+      "detail": "44,272 papers"
+    },
+    {
+      "name": "Lithuanian University of Health Sciences",
+      "country": "LT",
+      "value": 690659,
+      "detail": "13,509 papers"
+    },
+    {
+      "name": "Kaunas University of Technology",
+      "country": "LT",
+      "value": 541782,
+      "detail": "18,284 papers"
+    },
+    {
+      "name": "Vilnius Gediminas Technical University",
+      "country": "LT",
+      "value": 410755,
+      "detail": "17,466 papers"
+    },
+    {
+      "name": "Vytautas Magnus University",
+      "country": "LT",
+      "value": 195857,
+      "detail": "9,656 papers"
+    },
+    {
+      "name": "Klaipėda University",
+      "country": "LT",
+      "value": 95779,
+      "detail": "4,883 papers"
+    },
+    {
+      "name": "Lithuanian Sports University",
+      "country": "LT",
+      "value": 70857,
+      "detail": "2,311 papers"
+    },
+    {
+      "name": "Mykolas Romeris University",
+      "country": "LT",
+      "value": 63776,
+      "detail": "5,141 papers"
+    },
+    {
+      "name": "Aleksandras Stulginskis University",
+      "country": "LT",
+      "value": 33240,
+      "detail": "1,335 papers"
+    },
+    {
+      "name": "Šiauliai University",
+      "country": "LT",
+      "value": 13062,
+      "detail": "1,509 papers"
+    },
+    {
+      "name": "ISM University of Management and Economics",
+      "country": "LT",
+      "value": 12867,
+      "detail": "517 papers"
+    },
+    {
+      "name": "Lithuanian Geological Survey",
+      "country": "LT",
+      "value": 10667,
+      "detail": "239 papers"
+    },
+    {
+      "name": "Northern Lithuania College",
+      "country": "LT",
+      "value": 7577,
+      "detail": "17 papers"
+    },
+    {
+      "name": "Lithuanian University of Educational Sciences",
+      "country": "LT",
+      "value": 6546,
+      "detail": "1,368 papers"
+    },
+    {
+      "name": "Vilnius University of Applied Sciences",
+      "country": "LT",
+      "value": 4025,
+      "detail": "646 papers"
+    },
+    {
+      "name": "Lithuanian Institute of History",
+      "country": "LT",
+      "value": 3951,
+      "detail": "807 papers"
+    },
+    {
+      "name": "Kauno kolegija Higher Education Institution",
+      "country": "LT",
+      "value": 2912,
+      "detail": "924 papers"
+    },
+    {
+      "name": "Kazimieras Simonavičius University",
+      "country": "LT",
+      "value": 2424,
+      "detail": "362 papers"
+    },
+    {
+      "name": "Klaipėdos valstybinė kolegija / Higher Education Institution",
+      "country": "LT",
+      "value": 2205,
+      "detail": "559 papers"
+    },
+    {
+      "name": "International Business School at Vilnius University",
+      "country": "LT",
+      "value": 1352,
+      "detail": "83 papers"
+    },
+    {
+      "name": "European Humanities University",
+      "country": "LT",
+      "value": 1277,
+      "detail": "320 papers"
+    },
+    {
+      "name": "Vilnius College of Technologies and Design",
+      "country": "LT",
+      "value": 1126,
+      "detail": "116 papers"
+    },
+    {
+      "name": "LCC International University",
+      "country": "LT",
+      "value": 1068,
+      "detail": "291 papers"
+    },
+    {
+      "name": "Kaunas University of Applied Engineering Sciences",
+      "country": "LT",
+      "value": 1015,
+      "detail": "165 papers"
+    },
+    {
+      "name": "Šiauliai State Higher Education Institution",
+      "country": "LT",
+      "value": 832,
+      "detail": "353 papers"
+    },
+    {
+      "name": "Marijampole College",
+      "country": "LT",
+      "value": 729,
+      "detail": "85 papers"
+    },
+    {
+      "name": "International School of Law and Business",
+      "country": "LT",
+      "value": 706,
+      "detail": "25 papers"
+    },
+    {
+      "name": "Utenos kolegija Higher Education Institution",
+      "country": "LT",
+      "value": 555,
+      "detail": "135 papers"
+    },
+    {
+      "name": "Vilnius Academy of Arts",
+      "country": "LT",
+      "value": 515,
+      "detail": "311 papers"
+    },
+    {
+      "name": "Lithuanian Maritime Academy",
+      "country": "LT",
+      "value": 402,
+      "detail": "142 papers"
+    },
+    {
+      "name": "Lithuania Business University of Applied Science",
+      "country": "LT",
+      "value": 365,
+      "detail": "88 papers"
+    },
+    {
+      "name": "Panevėžys College",
+      "country": "LT",
+      "value": 349,
+      "detail": "101 papers"
+    },
+    {
+      "name": "Vilnius Business College",
+      "country": "LT",
+      "value": 223,
+      "detail": "114 papers"
+    },
+    {
+      "name": "SMK University of Applied Social Sciences",
+      "country": "LT",
+      "value": 206,
+      "detail": "105 papers"
+    },
+    {
+      "name": "Lithuanian Academy of Music and Theatre",
+      "country": "LT",
+      "value": 163,
+      "detail": "211 papers"
+    },
+    {
+      "name": "St. Ignatius Loyola College",
+      "country": "LT",
+      "value": 137,
+      "detail": "69 papers"
+    },
+    {
+      "name": "Alytus College",
+      "country": "LT",
+      "value": 82,
+      "detail": "33 papers"
+    },
+    {
+      "name": "Vilnius College of Design",
+      "country": "LT",
+      "value": 17,
+      "detail": "20 papers"
+    },
+    {
+      "name": "Kolping University of Applied Sciences",
+      "country": "LT",
+      "value": 14,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Kauno Mišku ir Aplinkos Inžinerijos Kolegija",
+      "country": "LT",
+      "value": 5,
+      "detail": "9 papers"
+    },
+    {
+      "name": "Vilnius Cooperative College",
+      "country": "LT",
+      "value": 3,
+      "detail": "15 papers"
+    },
+    {
+      "name": "Zemaitija College",
+      "country": "LT",
+      "value": 3,
+      "detail": "6 papers"
+    }
+  ]
+}

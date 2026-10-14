@@ -1,0 +1,124 @@
+{
+  "id": "it-region-gdp",
+  "title": "Italian Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross domestic product of each region in 2019, in billions of euros.",
+  "unit": "EUR billion",
+  "prefix": "€",
+  "suffix": "B",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IT",
+  "year": 2019,
+  "source": {
+    "kind": "wikipedia",
+    "name": "ISTAT, regional accounts (2019) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Italian_regions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:28:26.337Z",
+  "items": [
+    {
+      "name": "Lombardy",
+      "country": "IT",
+      "value": 468.77
+    },
+    {
+      "name": "Lazio",
+      "country": "IT",
+      "value": 200.84
+    },
+    {
+      "name": "Veneto",
+      "country": "IT",
+      "value": 164.86
+    },
+    {
+      "name": "Emilia-Romagna",
+      "country": "IT",
+      "value": 163.75
+    },
+    {
+      "name": "Piedmont",
+      "country": "IT",
+      "value": 137.78
+    },
+    {
+      "name": "Tuscany",
+      "country": "IT",
+      "value": 118.72
+    },
+    {
+      "name": "Campania",
+      "country": "IT",
+      "value": 109.63
+    },
+    {
+      "name": "Sicily",
+      "country": "IT",
+      "value": 89.36
+    },
+    {
+      "name": "Apulia",
+      "country": "IT",
+      "value": 77.47
+    },
+    {
+      "name": "Liguria",
+      "country": "IT",
+      "value": 49.74
+    },
+    {
+      "name": "Trentino-Alto Adige",
+      "country": "IT",
+      "value": 46.55
+    },
+    {
+      "name": "Marche",
+      "country": "IT",
+      "value": 42.39
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "country": "IT",
+      "value": 38.77
+    },
+    {
+      "name": "Sardinia",
+      "country": "IT",
+      "value": 35.25
+    },
+    {
+      "name": "Calabria",
+      "country": "IT",
+      "value": 33.61
+    },
+    {
+      "name": "Abruzzo",
+      "country": "IT",
+      "value": 33.13
+    },
+    {
+      "name": "Umbria",
+      "country": "IT",
+      "value": 23.26
+    },
+    {
+      "name": "Basilicata",
+      "country": "IT",
+      "value": 13.09
+    },
+    {
+      "name": "Molise",
+      "country": "IT",
+      "value": 6.49
+    },
+    {
+      "name": "Aosta Valley",
+      "country": "IT",
+      "value": 4.86
+    }
+  ]
+}

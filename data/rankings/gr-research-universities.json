@@ -1,0 +1,326 @@
+{
+  "id": "gr-research-universities",
+  "title": "Top Research Universities in Greece",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Greece ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:42:45.496Z",
+  "items": [
+    {
+      "name": "National and Kapodistrian University of Athens",
+      "country": "GR",
+      "value": 11863773,
+      "detail": "139,805 papers"
+    },
+    {
+      "name": "Aristotle University of Thessaloniki",
+      "country": "GR",
+      "value": 7400934,
+      "detail": "112,480 papers"
+    },
+    {
+      "name": "National Technical University of Athens",
+      "country": "GR",
+      "value": 4638693,
+      "detail": "60,781 papers"
+    },
+    {
+      "name": "University of Ioannina",
+      "country": "GR",
+      "value": 3578369,
+      "detail": "38,071 papers"
+    },
+    {
+      "name": "University of Patras",
+      "country": "GR",
+      "value": 3246039,
+      "detail": "58,602 papers"
+    },
+    {
+      "name": "University of Crete",
+      "country": "GR",
+      "value": 2706388,
+      "detail": "39,784 papers"
+    },
+    {
+      "name": "University of Thessaly",
+      "country": "GR",
+      "value": 1575861,
+      "detail": "32,573 papers"
+    },
+    {
+      "name": "Democritus University of Thrace",
+      "country": "GR",
+      "value": 1269239,
+      "detail": "25,866 papers"
+    },
+    {
+      "name": "Agricultural University of Athens",
+      "country": "GR",
+      "value": 951505,
+      "detail": "13,570 papers"
+    },
+    {
+      "name": "Technical University of Crete",
+      "country": "GR",
+      "value": 617008,
+      "detail": "11,316 papers"
+    },
+    {
+      "name": "Harokopio University of Athens",
+      "country": "GR",
+      "value": 598118,
+      "detail": "7,399 papers"
+    },
+    {
+      "name": "University of the Aegean",
+      "country": "GR",
+      "value": 574439,
+      "detail": "16,186 papers"
+    },
+    {
+      "name": "Athens University of Economics and Business",
+      "country": "GR",
+      "value": 435261,
+      "detail": "10,958 papers"
+    },
+    {
+      "name": "University of Piraeus",
+      "country": "GR",
+      "value": 348112,
+      "detail": "11,944 papers"
+    },
+    {
+      "name": "Academy of Athens",
+      "country": "GR",
+      "value": 339591,
+      "detail": "6,206 papers"
+    },
+    {
+      "name": "Hellenic Mediterranean University",
+      "country": "GR",
+      "value": 270615,
+      "detail": "7,280 papers"
+    },
+    {
+      "name": "University of Macedonia",
+      "country": "GR",
+      "value": 223423,
+      "detail": "8,114 papers"
+    },
+    {
+      "name": "University of West Attica",
+      "country": "GR",
+      "value": 219301,
+      "detail": "11,079 papers"
+    },
+    {
+      "name": "International Hellenic University",
+      "country": "GR",
+      "value": 189831,
+      "detail": "6,913 papers"
+    },
+    {
+      "name": "University of Western Macedonia",
+      "country": "GR",
+      "value": 183851,
+      "detail": "6,864 papers"
+    },
+    {
+      "name": "University of Peloponnese",
+      "country": "GR",
+      "value": 166170,
+      "detail": "7,741 papers"
+    },
+    {
+      "name": "Hellenic Open University",
+      "country": "GR",
+      "value": 155972,
+      "detail": "7,954 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Athens",
+      "country": "GR",
+      "value": 154608,
+      "detail": "4,002 papers"
+    },
+    {
+      "name": "Alexander Technological Educational Institute of Thessaloniki",
+      "country": "GR",
+      "value": 100524,
+      "detail": "2,780 papers"
+    },
+    {
+      "name": "National School of Public Health",
+      "country": "GR",
+      "value": 96418,
+      "detail": "1,498 papers"
+    },
+    {
+      "name": "Ionian University",
+      "country": "GR",
+      "value": 78036,
+      "detail": "4,043 papers"
+    },
+    {
+      "name": "Panteion University",
+      "country": "GR",
+      "value": 75263,
+      "detail": "4,322 papers"
+    },
+    {
+      "name": "Mediterranean Agronomic Institute of Chania",
+      "country": "GR",
+      "value": 64245,
+      "detail": "833 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Thessaly",
+      "country": "GR",
+      "value": 63868,
+      "detail": "1,535 papers"
+    },
+    {
+      "name": "University Mental Health Research Institute",
+      "country": "GR",
+      "value": 56007,
+      "detail": "590 papers"
+    },
+    {
+      "name": "Western Macedonia University Of Applied Science",
+      "country": "GR",
+      "value": 52924,
+      "detail": "1,259 papers"
+    },
+    {
+      "name": "School of Pedagogical and Technological Education",
+      "country": "GR",
+      "value": 46163,
+      "detail": "1,367 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Piraeus",
+      "country": "GR",
+      "value": 45634,
+      "detail": "1,345 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Eastern Macedonia and Thrace",
+      "country": "GR",
+      "value": 44997,
+      "detail": "1,118 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Central Greece",
+      "country": "GR",
+      "value": 32157,
+      "detail": "938 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Western Greece",
+      "country": "GR",
+      "value": 31327,
+      "detail": "930 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Epirus",
+      "country": "GR",
+      "value": 28747,
+      "detail": "932 papers"
+    },
+    {
+      "name": "Alba Graduate Business School, The American College of Greece",
+      "country": "GR",
+      "value": 24811,
+      "detail": "457 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Peloponnese",
+      "country": "GR",
+      "value": 15458,
+      "detail": "528 papers"
+    },
+    {
+      "name": "Hellenic Air Force Academy",
+      "country": "GR",
+      "value": 12988,
+      "detail": "813 papers"
+    },
+    {
+      "name": "Hellenic Naval Academy",
+      "country": "GR",
+      "value": 12697,
+      "detail": "989 papers"
+    },
+    {
+      "name": "Hellenic Military Academy",
+      "country": "GR",
+      "value": 12439,
+      "detail": "1,081 papers"
+    },
+    {
+      "name": "American Community Schools",
+      "country": "GR",
+      "value": 12347,
+      "detail": "153 papers"
+    },
+    {
+      "name": "Technological Educational Institute of Central Macedonia",
+      "country": "GR",
+      "value": 12233,
+      "detail": "637 papers"
+    },
+    {
+      "name": "Technological Educational Institute of the Ionian Islands",
+      "country": "GR",
+      "value": 9357,
+      "detail": "334 papers"
+    },
+    {
+      "name": "Institute of Accelerating Systems and Applications",
+      "country": "GR",
+      "value": 8719,
+      "detail": "361 papers"
+    },
+    {
+      "name": "American School of Classical Studies at Athens",
+      "country": "GR",
+      "value": 6818,
+      "detail": "388 papers"
+    },
+    {
+      "name": "Ellinogermaniki Agogi",
+      "country": "GR",
+      "value": 5790,
+      "detail": "252 papers"
+    },
+    {
+      "name": "Metropolitan College",
+      "country": "GR",
+      "value": 5066,
+      "detail": "451 papers"
+    },
+    {
+      "name": "British School at Athens",
+      "country": "GR",
+      "value": 4442,
+      "detail": "519 papers"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "rs-research-universities",
+  "title": "Top Research Universities in Serbia",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Serbia ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:15.637Z",
+  "items": [
+    {
+      "name": "University of Belgrade",
+      "country": "RS",
+      "value": 6346292,
+      "detail": "127,904 papers"
+    },
+    {
+      "name": "University of Novi Sad",
+      "country": "RS",
+      "value": 1486407,
+      "detail": "53,179 papers"
+    },
+    {
+      "name": "University of Nis",
+      "country": "RS",
+      "value": 621303,
+      "detail": "28,185 papers"
+    },
+    {
+      "name": "University of Kragujevac",
+      "country": "RS",
+      "value": 569367,
+      "detail": "19,145 papers"
+    },
+    {
+      "name": "University of Defence",
+      "country": "RS",
+      "value": 102739,
+      "detail": "3,712 papers"
+    },
+    {
+      "name": "Singidunum University",
+      "country": "RS",
+      "value": 88767,
+      "detail": "4,423 papers"
+    },
+    {
+      "name": "Institute of Food Technology",
+      "country": "RS",
+      "value": 79333,
+      "detail": "1,519 papers"
+    },
+    {
+      "name": "State University of Novi Pazar",
+      "country": "RS",
+      "value": 21551,
+      "detail": "1,759 papers"
+    },
+    {
+      "name": "Megatrend University",
+      "country": "RS",
+      "value": 16533,
+      "detail": "1,177 papers"
+    },
+    {
+      "name": "Univerzitet Union Nikola Tesla",
+      "country": "RS",
+      "value": 14438,
+      "detail": "2,355 papers"
+    },
+    {
+      "name": "Institute of Public Health of Vojvodina",
+      "country": "RS",
+      "value": 13889,
+      "detail": "670 papers"
+    },
+    {
+      "name": "Educons University",
+      "country": "RS",
+      "value": 12955,
+      "detail": "1,102 papers"
+    },
+    {
+      "name": "Union University",
+      "country": "RS",
+      "value": 12096,
+      "detail": "1,300 papers"
+    },
+    {
+      "name": "Gulf University",
+      "country": "RS",
+      "value": 11961,
+      "detail": "972 papers"
+    },
+    {
+      "name": "Institute of Forestry",
+      "country": "RS",
+      "value": 9353,
+      "detail": "673 papers"
+    },
+    {
+      "name": "Metropolitan University",
+      "country": "RS",
+      "value": 8597,
+      "detail": "881 papers"
+    },
+    {
+      "name": "Univerzitet u Novom Pazaru",
+      "country": "RS",
+      "value": 5569,
+      "detail": "902 papers"
+    },
+    {
+      "name": "Kriminalističko-policijski univerzitet",
+      "country": "RS",
+      "value": 4658,
+      "detail": "726 papers"
+    },
+    {
+      "name": "Academy of Applied Studies Belgrade",
+      "country": "RS",
+      "value": 2858,
+      "detail": "438 papers"
+    },
+    {
+      "name": "European University",
+      "country": "RS",
+      "value": 2028,
+      "detail": "159 papers"
+    },
+    {
+      "name": "Academy of Applied Studies Šabac",
+      "country": "RS",
+      "value": 1874,
+      "detail": "347 papers"
+    },
+    {
+      "name": "Academy of Technical and Art Applied Studies",
+      "country": "RS",
+      "value": 1874,
+      "detail": "371 papers"
+    },
+    {
+      "name": "University of Arts in Belgrade",
+      "country": "RS",
+      "value": 1660,
+      "detail": "854 papers"
+    },
+    {
+      "name": "ITS - Visoka škola strukovnih studija za informacione tehnologije",
+      "country": "RS",
+      "value": 1491,
+      "detail": "88 papers"
+    },
+    {
+      "name": "Belgrade Business and Arts Academy of Applied Studies",
+      "country": "RS",
+      "value": 1413,
+      "detail": "274 papers"
+    },
+    {
+      "name": "Technical College of Applied Sciences",
+      "country": "RS",
+      "value": 1324,
+      "detail": "173 papers"
+    },
+    {
+      "name": "Belgrade Open School",
+      "country": "RS",
+      "value": 1288,
+      "detail": "221 papers"
+    },
+    {
+      "name": "Sportska Akademija Beograd",
+      "country": "RS",
+      "value": 1127,
+      "detail": "90 papers"
+    },
+    {
+      "name": "Academy of Applied Studies Southern Serbia",
+      "country": "RS",
+      "value": 1073,
+      "detail": "197 papers"
+    },
+    {
+      "name": "Institute for Recent History of Serbia",
+      "country": "RS",
+      "value": 533,
+      "detail": "402 papers"
+    },
+    {
+      "name": "Institut za Reumatologiju",
+      "country": "RS",
+      "value": 432,
+      "detail": "63 papers"
+    },
+    {
+      "name": "Western Serbia Academy of Applied Studies",
+      "country": "RS",
+      "value": 330,
+      "detail": "101 papers"
+    },
+    {
+      "name": "Akademija strukovnih studija Politehnika",
+      "country": "RS",
+      "value": 326,
+      "detail": "177 papers"
+    },
+    {
+      "name": "Visoka strukovna vaspitačka i medicinska škola u Vršcu",
+      "country": "RS",
+      "value": 254,
+      "detail": "77 papers"
+    },
+    {
+      "name": "Visoka škola za komunikacije",
+      "country": "RS",
+      "value": 49,
+      "detail": "21 papers"
+    },
+    {
+      "name": "Beopolis University",
+      "country": "RS",
+      "value": 20,
+      "detail": "20 papers"
+    },
+    {
+      "name": "Novi Sad Open University",
+      "country": "RS",
+      "value": 1,
+      "detail": "6 papers"
+    }
+  ]
+}

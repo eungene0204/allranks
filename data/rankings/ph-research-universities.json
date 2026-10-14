@@ -1,0 +1,326 @@
+{
+  "id": "ph-research-universities",
+  "title": "Top Research Universities in Philippines",
+  "short": "Research impact",
+  "sort": 2,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges in Philippines ranked by the total citations their research has received (OpenAlex).",
+  "unit": "citations",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, citations received by each institution's papers",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "Counts every citation to papers by authors affiliated with the institution, so large and old universities score high. It measures research impact, not teaching quality."
+  },
+  "updatedAt": "2026-10-13T20:44:12.263Z",
+  "items": [
+    {
+      "name": "University of the Philippines Manila",
+      "country": "PH",
+      "value": 467147,
+      "detail": "10,421 papers"
+    },
+    {
+      "name": "University of the Philippines Diliman",
+      "country": "PH",
+      "value": 373796,
+      "detail": "14,805 papers"
+    },
+    {
+      "name": "De La Salle University",
+      "country": "PH",
+      "value": 255430,
+      "detail": "12,119 papers"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "PH",
+      "value": 244035,
+      "detail": "4,998 papers"
+    },
+    {
+      "name": "University of the Philippines Los Baños",
+      "country": "PH",
+      "value": 221972,
+      "detail": "8,450 papers"
+    },
+    {
+      "name": "University of Santo Tomas",
+      "country": "PH",
+      "value": 148622,
+      "detail": "7,940 papers"
+    },
+    {
+      "name": "University of the Philippines System",
+      "country": "PH",
+      "value": 113134,
+      "detail": "5,494 papers"
+    },
+    {
+      "name": "Ateneo de Manila University",
+      "country": "PH",
+      "value": 110541,
+      "detail": "6,084 papers"
+    },
+    {
+      "name": "University of San Carlos",
+      "country": "PH",
+      "value": 104163,
+      "detail": "2,161 papers"
+    },
+    {
+      "name": "Mindanao State University – Iligan Institute of Technology",
+      "country": "PH",
+      "value": 38568,
+      "detail": "4,801 papers"
+    },
+    {
+      "name": "University of the East",
+      "country": "PH",
+      "value": 27139,
+      "detail": "616 papers"
+    },
+    {
+      "name": "Central Luzon State University",
+      "country": "PH",
+      "value": 27123,
+      "detail": "2,042 papers"
+    },
+    {
+      "name": "Cebu Technological University",
+      "country": "PH",
+      "value": 26890,
+      "detail": "2,888 papers"
+    },
+    {
+      "name": "University of the Philippines Visayas",
+      "country": "PH",
+      "value": 25199,
+      "detail": "1,776 papers"
+    },
+    {
+      "name": "National University",
+      "country": "PH",
+      "value": 24992,
+      "detail": "3,622 papers"
+    },
+    {
+      "name": "Silliman University",
+      "country": "PH",
+      "value": 20837,
+      "detail": "636 papers"
+    },
+    {
+      "name": "Visayas State University",
+      "country": "PH",
+      "value": 20638,
+      "detail": "1,793 papers"
+    },
+    {
+      "name": "Far Eastern University",
+      "country": "PH",
+      "value": 20443,
+      "detail": "1,606 papers"
+    },
+    {
+      "name": "Asian Institute of Management",
+      "country": "PH",
+      "value": 16700,
+      "detail": "745 papers"
+    },
+    {
+      "name": "Technological University of the Philippines",
+      "country": "PH",
+      "value": 16065,
+      "detail": "811 papers"
+    },
+    {
+      "name": "Saint Louis University",
+      "country": "PH",
+      "value": 12707,
+      "detail": "833 papers"
+    },
+    {
+      "name": "Mindanao State University",
+      "country": "PH",
+      "value": 12611,
+      "detail": "2,484 papers"
+    },
+    {
+      "name": "Adamson University",
+      "country": "PH",
+      "value": 12218,
+      "detail": "1,413 papers"
+    },
+    {
+      "name": "University of Science and Technology of Southern Philippines",
+      "country": "PH",
+      "value": 11135,
+      "detail": "1,154 papers"
+    },
+    {
+      "name": "Polytechnic University of the Philippines",
+      "country": "PH",
+      "value": 10522,
+      "detail": "2,174 papers"
+    },
+    {
+      "name": "FEU Institute of Technology",
+      "country": "PH",
+      "value": 10500,
+      "detail": "648 papers"
+    },
+    {
+      "name": "Central Mindanao University",
+      "country": "PH",
+      "value": 10313,
+      "detail": "1,708 papers"
+    },
+    {
+      "name": "Angeles University Foundation",
+      "country": "PH",
+      "value": 10259,
+      "detail": "963 papers"
+    },
+    {
+      "name": "University of the Philippines Baguio",
+      "country": "PH",
+      "value": 9965,
+      "detail": "656 papers"
+    },
+    {
+      "name": "De La Salle Medical and Health Sciences Institute",
+      "country": "PH",
+      "value": 9324,
+      "detail": "362 papers"
+    },
+    {
+      "name": "Caraga State University",
+      "country": "PH",
+      "value": 8976,
+      "detail": "1,648 papers"
+    },
+    {
+      "name": "Philippine Normal University",
+      "country": "PH",
+      "value": 8610,
+      "detail": "1,326 papers"
+    },
+    {
+      "name": "University of Southern Mindanao",
+      "country": "PH",
+      "value": 8426,
+      "detail": "879 papers"
+    },
+    {
+      "name": "Nueva Ecija University of Science and Technology",
+      "country": "PH",
+      "value": 8375,
+      "detail": "1,879 papers"
+    },
+    {
+      "name": "Our Lady of Fatima University",
+      "country": "PH",
+      "value": 8024,
+      "detail": "653 papers"
+    },
+    {
+      "name": "University of the Philippines Mindanao",
+      "country": "PH",
+      "value": 7838,
+      "detail": "626 papers"
+    },
+    {
+      "name": "Xavier University",
+      "country": "PH",
+      "value": 7685,
+      "detail": "5,948 papers"
+    },
+    {
+      "name": "University of Mindanao",
+      "country": "PH",
+      "value": 7674,
+      "detail": "2,195 papers"
+    },
+    {
+      "name": "West Visayas State University",
+      "country": "PH",
+      "value": 7474,
+      "detail": "863 papers"
+    },
+    {
+      "name": "University of the Philippines Cebu",
+      "country": "PH",
+      "value": 7313,
+      "detail": "594 papers"
+    },
+    {
+      "name": "Ateneo de Davao University",
+      "country": "PH",
+      "value": 7296,
+      "detail": "555 papers"
+    },
+    {
+      "name": "Bataan Peninsula State University",
+      "country": "PH",
+      "value": 7278,
+      "detail": "468 papers"
+    },
+    {
+      "name": "Cebu Normal University",
+      "country": "PH",
+      "value": 7032,
+      "detail": "1,032 papers"
+    },
+    {
+      "name": "Technological Institute of the Philippines",
+      "country": "PH",
+      "value": 6980,
+      "detail": "842 papers"
+    },
+    {
+      "name": "University of the Philippines Open University",
+      "country": "PH",
+      "value": 6877,
+      "detail": "1,049 papers"
+    },
+    {
+      "name": "Capiz State University",
+      "country": "PH",
+      "value": 6367,
+      "detail": "413 papers"
+    },
+    {
+      "name": "Bulacan State University",
+      "country": "PH",
+      "value": 6238,
+      "detail": "1,811 papers"
+    },
+    {
+      "name": "Northern Iloilo State University",
+      "country": "PH",
+      "value": 6150,
+      "detail": "259 papers"
+    },
+    {
+      "name": "Technological Institute of the Philippines-Quezon City",
+      "country": "PH",
+      "value": 6129,
+      "detail": "525 papers"
+    },
+    {
+      "name": "De La Salle University – Dasmariñas",
+      "country": "PH",
+      "value": 6119,
+      "detail": "853 papers"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "rw-region-population",
+  "title": "Rwanda Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Rwanda ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RW",
+  "year": 2022,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-14T03:31:03.014Z",
+  "items": [
+    {
+      "name": "Eastern",
+      "country": "RW",
+      "value": 3563145,
+      "detail": "2022"
+    },
+    {
+      "name": "Southern",
+      "country": "RW",
+      "value": 3002699,
+      "detail": "2022"
+    },
+    {
+      "name": "Western",
+      "country": "RW",
+      "value": 2896484,
+      "detail": "2022"
+    },
+    {
+      "name": "Northern",
+      "country": "RW",
+      "value": 2038511,
+      "detail": "2022"
+    },
+    {
+      "name": "Kigali",
+      "country": "RW",
+      "value": 1745555,
+      "detail": "2022"
+    }
+  ]
+}

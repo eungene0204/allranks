@@ -1,0 +1,73 @@
+{
+  "id": "bh-cities",
+  "title": "Largest Cities in Bahrain",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Bahrain with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.660Z",
+  "items": [
+    {
+      "name": "Al Muharraq",
+      "country": "BH",
+      "value": 176583,
+      "detail": "Muharraq"
+    },
+    {
+      "name": "Manama",
+      "country": "BH",
+      "value": 147074,
+      "detail": "Manama"
+    },
+    {
+      "name": "Madīnat Ḩamad",
+      "country": "BH",
+      "value": 133550,
+      "detail": "Northern"
+    },
+    {
+      "name": "Ar Rifā‘",
+      "country": "BH",
+      "value": 115495,
+      "detail": "Southern Governorate"
+    },
+    {
+      "name": "Sitrah",
+      "country": "BH",
+      "value": 72601,
+      "detail": "Manama"
+    },
+    {
+      "name": "Jidd Ḩafş",
+      "country": "BH",
+      "value": 66588,
+      "detail": "Manama"
+    },
+    {
+      "name": "Dār Kulayb",
+      "country": "BH",
+      "value": 65466,
+      "detail": "Southern Governorate"
+    },
+    {
+      "name": "Madīnat ‘Īsá",
+      "country": "BH",
+      "value": 38090,
+      "detail": "Southern Governorate"
+    }
+  ]
+}

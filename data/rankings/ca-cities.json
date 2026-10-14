@@ -1,0 +1,325 @@
+{
+  "id": "ca-cities",
+  "title": "Largest Cities in Canada",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Canada with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.662Z",
+  "items": [
+    {
+      "name": "Toronto",
+      "country": "CA",
+      "value": 2794356,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Montréal",
+      "country": "CA",
+      "value": 1762949,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Calgary",
+      "country": "CA",
+      "value": 1306784,
+      "detail": "Alberta"
+    },
+    {
+      "name": "Ottawa",
+      "country": "CA",
+      "value": 1017449,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Edmonton",
+      "country": "CA",
+      "value": 1010899,
+      "detail": "Alberta"
+    },
+    {
+      "name": "Winnipeg",
+      "country": "CA",
+      "value": 749607,
+      "detail": "Manitoba"
+    },
+    {
+      "name": "Mississauga",
+      "country": "CA",
+      "value": 717961,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Vancouver",
+      "country": "CA",
+      "value": 662248,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Brampton",
+      "country": "CA",
+      "value": 656480,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Hamilton",
+      "country": "CA",
+      "value": 569353,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Surrey",
+      "country": "CA",
+      "value": 568322,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Québec",
+      "country": "CA",
+      "value": 531902,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Halifax",
+      "country": "CA",
+      "value": 471559,
+      "detail": "Nova Scotia"
+    },
+    {
+      "name": "Laval",
+      "country": "CA",
+      "value": 438366,
+      "detail": "Quebec"
+    },
+    {
+      "name": "London",
+      "country": "CA",
+      "value": 422324,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Etobicoke",
+      "country": "CA",
+      "value": 365000,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Markham",
+      "country": "CA",
+      "value": 338503,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Vaughan",
+      "country": "CA",
+      "value": 323103,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Gatineau",
+      "country": "CA",
+      "value": 300045,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Victoria",
+      "country": "CA",
+      "value": 289625,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Saskatoon",
+      "country": "CA",
+      "value": 266141,
+      "detail": "Saskatchewan"
+    },
+    {
+      "name": "Kitchener",
+      "country": "CA",
+      "value": 256885,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Burnaby",
+      "country": "CA",
+      "value": 249125,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Windsor",
+      "country": "CA",
+      "value": 229660,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Longueuil",
+      "country": "CA",
+      "value": 229330,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Regina",
+      "country": "CA",
+      "value": 226404,
+      "detail": "Saskatchewan"
+    },
+    {
+      "name": "Oakville",
+      "country": "CA",
+      "value": 213759,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Richmond",
+      "country": "CA",
+      "value": 209937,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Richmond Hill",
+      "country": "CA",
+      "value": 202022,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Burlington",
+      "country": "CA",
+      "value": 186948,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Nepean",
+      "country": "CA",
+      "value": 180000,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Oshawa",
+      "country": "CA",
+      "value": 175383,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Greater Sudbury",
+      "country": "CA",
+      "value": 166004,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Newton",
+      "country": "CA",
+      "value": 159390,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Gloucester",
+      "country": "CA",
+      "value": 150012,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Saguenay",
+      "country": "CA",
+      "value": 148886,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Coquitlam",
+      "country": "CA",
+      "value": 148625,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Barrie",
+      "country": "CA",
+      "value": 147829,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Rosemont–La Petite-Patrie",
+      "country": "CA",
+      "value": 146501,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Villeray–Saint-Michel–Parc-Extension",
+      "country": "CA",
+      "value": 144814,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Kelowna",
+      "country": "CA",
+      "value": 144576,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Trois-Rivières",
+      "country": "CA",
+      "value": 144472,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Guelph",
+      "country": "CA",
+      "value": 143740,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Lévis",
+      "country": "CA",
+      "value": 143414,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Mercier–Hochelaga-Maisonneuve",
+      "country": "CA",
+      "value": 142753,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Abbotsford",
+      "country": "CA",
+      "value": 141397,
+      "detail": "British Columbia"
+    },
+    {
+      "name": "Whitby",
+      "country": "CA",
+      "value": 138501,
+      "detail": "Ontario"
+    },
+    {
+      "name": "St. Catharines",
+      "country": "CA",
+      "value": 136803,
+      "detail": "Ontario"
+    },
+    {
+      "name": "Ahuntsic-Cartierville",
+      "country": "CA",
+      "value": 135336,
+      "detail": "Quebec"
+    },
+    {
+      "name": "Le Vieux-Longueuil",
+      "country": "CA",
+      "value": 135218,
+      "detail": "Quebec"
+    }
+  ]
+}

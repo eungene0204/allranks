@@ -1,0 +1,129 @@
+{
+  "id": "se-county-gdp-per-capita",
+  "title": "Swedish Counties by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Gross domestic product per resident of each county, in Swedish kronor.",
+  "unit": "SEK per person",
+  "prefix": "",
+  "suffix": " SEK",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SE",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Sweden (SCB), regional accounts (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Swedish_counties_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:44:57.300Z",
+  "items": [
+    {
+      "name": "Stockholm",
+      "country": "SE",
+      "value": 729000
+    },
+    {
+      "name": "Norrbotten",
+      "country": "SE",
+      "value": 648000
+    },
+    {
+      "name": "Västra Götaland",
+      "country": "SE",
+      "value": 517000
+    },
+    {
+      "name": "Kronoberg",
+      "country": "SE",
+      "value": 508000
+    },
+    {
+      "name": "Uppsala",
+      "country": "SE",
+      "value": 482000
+    },
+    {
+      "name": "Västerbotten",
+      "country": "SE",
+      "value": 473000
+    },
+    {
+      "name": "Jönköping",
+      "country": "SE",
+      "value": 472000
+    },
+    {
+      "name": "Västernorrland",
+      "country": "SE",
+      "value": 468000
+    },
+    {
+      "name": "Östergötland",
+      "country": "SE",
+      "value": 464000
+    },
+    {
+      "name": "Örebro",
+      "country": "SE",
+      "value": 456000
+    },
+    {
+      "name": "Skåne",
+      "country": "SE",
+      "value": 453000
+    },
+    {
+      "name": "Blekinge",
+      "country": "SE",
+      "value": 433000
+    },
+    {
+      "name": "Värmland",
+      "country": "SE",
+      "value": 426000
+    },
+    {
+      "name": "Dalarna",
+      "country": "SE",
+      "value": 425000
+    },
+    {
+      "name": "Jämtland",
+      "country": "SE",
+      "value": 422000
+    },
+    {
+      "name": "Västmanland",
+      "country": "SE",
+      "value": 415000
+    },
+    {
+      "name": "Halland",
+      "country": "SE",
+      "value": 409000
+    },
+    {
+      "name": "Gävleborg",
+      "country": "SE",
+      "value": 408000
+    },
+    {
+      "name": "Kalmar",
+      "country": "SE",
+      "value": 406000
+    },
+    {
+      "name": "Gotland",
+      "country": "SE",
+      "value": 379000
+    },
+    {
+      "name": "Södermanland",
+      "country": "SE",
+      "value": 378000
+    }
+  ]
+}

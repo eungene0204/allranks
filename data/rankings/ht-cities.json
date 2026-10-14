@@ -1,0 +1,217 @@
+{
+  "id": "ht-cities",
+  "title": "Largest Cities in Haiti",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Cities of Haiti with more than 15,000 inhabitants, ranked by population (GeoNames).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "GeoNames aggregates census and estimate figures, so the reference year varies by city, and a few figures cover the metropolitan area rather than the city proper."
+  },
+  "updatedAt": "2026-10-14T03:30:27.670Z",
+  "items": [
+    {
+      "name": "Port-au-Prince",
+      "country": "HT",
+      "value": 1234742,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Carrefour",
+      "country": "HT",
+      "value": 511345,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Delmas",
+      "country": "HT",
+      "value": 395260,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Pétionville",
+      "country": "HT",
+      "value": 376834,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Port-de-Paix",
+      "country": "HT",
+      "value": 306217,
+      "detail": "Nord-Ouest"
+    },
+    {
+      "name": "Saint-Marc",
+      "country": "HT",
+      "value": 266642,
+      "detail": "Artibonite"
+    },
+    {
+      "name": "Cité Soleil",
+      "country": "HT",
+      "value": 265072,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Croix-des-Bouquets",
+      "country": "HT",
+      "value": 229127,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Dessalines",
+      "country": "HT",
+      "value": 181903,
+      "detail": "Artibonite"
+    },
+    {
+      "name": "Jacmel",
+      "country": "HT",
+      "value": 137966,
+      "detail": "Sud-Est"
+    },
+    {
+      "name": "Cap-Haïtien",
+      "country": "HT",
+      "value": 134815,
+      "detail": "Nord"
+    },
+    {
+      "name": "Léogâne",
+      "country": "HT",
+      "value": 134190,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Arcahaie",
+      "country": "HT",
+      "value": 130306,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Les Cayes",
+      "country": "HT",
+      "value": 125799,
+      "detail": "Sud"
+    },
+    {
+      "name": "Tigwav",
+      "country": "HT",
+      "value": 117504,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Jérémie",
+      "country": "HT",
+      "value": 97503,
+      "detail": "Grand'Anse"
+    },
+    {
+      "name": "Saint-Michel de l'Atalaye",
+      "country": "HT",
+      "value": 95216,
+      "detail": "Artibonite"
+    },
+    {
+      "name": "Miragoâne",
+      "country": "HT",
+      "value": 89202,
+      "detail": "Nippes"
+    },
+    {
+      "name": "Gonaïves",
+      "country": "HT",
+      "value": 84961,
+      "detail": "Artibonite"
+    },
+    {
+      "name": "Thomazeau",
+      "country": "HT",
+      "value": 52017,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Grangwav",
+      "country": "HT",
+      "value": 49288,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Verrettes",
+      "country": "HT",
+      "value": 48724,
+      "detail": "Artibonite"
+    },
+    {
+      "name": "Kenscoff",
+      "country": "HT",
+      "value": 42175,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Saint-Raphaël",
+      "country": "HT",
+      "value": 37739,
+      "detail": "Nord"
+    },
+    {
+      "name": "Ti Port-de-Paix",
+      "country": "HT",
+      "value": 34657,
+      "detail": "Nord-Ouest"
+    },
+    {
+      "name": "Lenbe",
+      "country": "HT",
+      "value": 32645,
+      "detail": "Nord"
+    },
+    {
+      "name": "Gressier",
+      "country": "HT",
+      "value": 25947,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Terrier Rouge",
+      "country": "HT",
+      "value": 21328,
+      "detail": "Nord-Est"
+    },
+    {
+      "name": "Hinche",
+      "country": "HT",
+      "value": 18590,
+      "detail": "Centre"
+    },
+    {
+      "name": "Fond Parisien",
+      "country": "HT",
+      "value": 18256,
+      "detail": "Ouest"
+    },
+    {
+      "name": "Grand Gosier",
+      "country": "HT",
+      "value": 17059,
+      "detail": "Sud-Est"
+    },
+    {
+      "name": "Désarmes",
+      "country": "HT",
+      "value": 15594,
+      "detail": "Artibonite"
+    }
+  ]
+}
