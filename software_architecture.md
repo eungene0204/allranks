@@ -58,6 +58,7 @@ scripts/
     prompts.mts             시스템 프롬프트(안정, 캐시 대상) + 모드별 작업 프롬프트
     store.mts               랭킹 파일 접근, data/agent/ 상태(notes.json, last-run.json/.md)
   lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
+  map-codes.mts             지도 도형 이름 → ISO 코드 매핑(data/map-codes.json) 생성 (`npm run data:map`)
   sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
 src/
   lib/site.ts                        배포 환경변수(ADSENSE_CLIENT, CONTACT_EMAIL, SITE_URL)
@@ -72,7 +73,7 @@ src/
     ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
-    RankingCard / RankingTable / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
+    RankingCard / RankingTable / RankingMap(상단 세계지도) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 페이지의 지역(주·도시 등) 랭킹 탭
     SearchForm.tsx      홈·검색 결과 페이지 공유 GET 검색 폼 (/search?q=…)
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
@@ -81,6 +82,7 @@ src/
     categories.ts       카테고리 정의 (7개로 통합: economy, education, tech, ai, society, energy, world)
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
+    map.ts              world-atlas(110m)를 Natural Earth 투영의 SVG 경로로 변환(프로세스당 1회), `data/map-codes.json`으로 도형→ISO 코드 연결
     insights.ts         랭킹 값으로 해설 문장·meta description 생성 (순수 함수, 외부 지식/LLM 없음)
 public/logos/           항목 로고 (<domain>.png)
 ```

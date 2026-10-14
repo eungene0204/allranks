@@ -100,6 +100,10 @@ not teaching quality or prestige, and favours large, old universities; China, th
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | AdSense publisher ID (`ca-pub-…`, default `ca-pub-8335444243080631`). Enables the ad script, the verification meta tag and `/ads.txt`; set it to `off` to turn ads off |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Contact address shown on the About and Privacy pages (default `allworldranks@gmail.com`) |
 
+### World map
+
+World rankings show a map built from `world-atlas`. `data/map-codes.json` links each map shape to an ISO code; regenerate it with `npm run data:map` if the atlas changes.
+
 ### Manual rankings
 
 QS universities, gasoline prices, happiness and tallest buildings have no stable free API, so they live directly in

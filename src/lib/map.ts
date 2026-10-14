@@ -1,0 +1,32 @@
+import "server-only";
+import { geoNaturalEarth1, geoPath } from "d3-geo";
+import type { FeatureCollection, Geometry } from "geojson";
+import type { GeometryCollection, Topology } from "topojson-specification";
+import { feature } from "topojson-client";
+import countries110 from "world-atlas/countries-110m.json";
+import mapCodes from "../../data/map-codes.json";
+
+export const MAP_W = 960;
+export const MAP_H = 480;
+
+export type MapShape = { code: string; name: string; d: string };
+
+// Projected once per server process; every ranking page reuses the same outlines.
+let shapes: MapShape[] | undefined;
+
+/** World outlines (110m), projected to a Natural Earth map and tagged with the ISO code of each country. */
+export function mapShapes(): MapShape[] {
+  if (shapes) return shapes;
+  const topo = countries110 as unknown as Topology;
+  const fc = feature(topo, topo.objects.countries as GeometryCollection) as FeatureCollection<Geometry, { name?: string }>;
+  const land = { ...fc, features: fc.features.filter((f) => f.properties?.name !== "Antarctica") };
+  const projection = geoNaturalEarth1().fitExtent([[4, 4], [MAP_W - 4, MAP_H - 4]], land);
+  const path = geoPath(projection).digits(0);
+  const codes = mapCodes as Record<string, string>;
+  shapes = land.features.flatMap((f) => {
+    const name = f.properties?.name ?? "";
+    const d = path(f);
+    return d ? [{ code: codes[name] ?? "", name, d }] : [];
+  });
+  return shapes;
+}

@@ -188,6 +188,20 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 8px; }
 .footer-links a:hover { color: var(--text); text-decoration: underline; }
 
+/* World map under the ranking header */
+.rank-map { margin: 0 0 20px; }
+.rank-map svg { display: block; width: 100%; height: auto; }
+.rank-map path { stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
+.rank-map .s0, .map-key .s0 { --c: 100%; } .rank-map .s1, .map-key .s1 { --c: 76%; } .rank-map .s2, .map-key .s2 { --c: 56%; } .rank-map .s3, .map-key .s3 { --c: 42%; } .rank-map .s4, .map-key .s4 { --c: 30%; }
+.rank-map path.s0, .rank-map path.s1, .rank-map path.s2, .rank-map path.s3, .rank-map path.s4 { fill: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
+.rank-map path.none { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); }
+.rank-map a:hover path, .rank-map a:focus-visible path { stroke: var(--text); stroke-width: 1.5; }
+.map-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; font-size: 12px; color: var(--muted); }
+.map-key { display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
+.map-key i { width: 14px; height: 14px; border-radius: 3px; display: inline-block; border: 1px solid var(--line); }
+.map-key i.s0, .map-key i.s1, .map-key i.s2, .map-key i.s3, .map-key i.s4 { background: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
+.map-key i.none { background: color-mix(in srgb, var(--text) 7%, var(--bg)); }
+
 /* Generated highlights under a ranking */
 .insights { margin: 28px 0 0; max-width: 46em; }
 .insights h2 { font-size: 18px; letter-spacing: -.02em; margin: 0 0 8px; }
