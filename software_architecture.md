@@ -151,7 +151,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 - `data.ts`는 `server-only`; 프로덕션에서는 랭킹 목록을 메모리에 캐시한다.
 - `GlobeExplorer`만 클라이언트 컴포넌트이며, 서버에서 만든 `CountrySummary[]`를 props로 받는다.
 - 국가 순위 집계: 1위 횟수 → 3위 이내 횟수 → 등장 횟수 → 이름순.
-- 사이트 URL은 `src/lib/site.ts`의 `SITE_URL`(`NEXT_PUBLIC_SITE_URL`, 없으면 `https://www.allranks.world`)을 사이트맵과 `metadataBase`에서 사용한다. 호스팅은 Vercel.
+- 사이트 URL은 `src/lib/site.ts`의 `SITE_URL`(`NEXT_PUBLIC_SITE_URL`, 없으면 `https://allranks.world`)을 사이트맵과 `metadataBase`에서 사용한다. 호스팅은 Vercel.
 - 광고: `src/lib/site.ts`의 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT`로 덮어쓰기, `off`면 비활성)가 유효하면 `layout.tsx`가 `next/script`로 AdSense 스크립트와 `google-adsense-account` 메타를 넣고 `/ads.txt` 가 활성화된다. 연락처는 기본 `allworldranks@gmail.com`이고 `NEXT_PUBLIC_CONTACT_EMAIL`로 바꿀 수 있다. 환경변수는 빌드 때 고정되므로 바꾸면 다시 빌드한다.
 
 ## 7. 확장 지점

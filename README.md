@@ -96,7 +96,7 @@ not teaching quality or prestige, and favours large, old universities; China, th
 
 | Variable | Purpose |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical URL used by the sitemap and metadata (default `https://www.allranks.world`) |
+| `NEXT_PUBLIC_SITE_URL` | Canonical URL used by the sitemap and metadata (default `https://allranks.world`) |
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | AdSense publisher ID (`ca-pub-…`, default `ca-pub-8335444243080631`). Enables the ad script, the verification meta tag and `/ads.txt`; set it to `off` to turn ads off |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Contact address shown on the About and Privacy pages (default `allworldranks@gmail.com`) |
 

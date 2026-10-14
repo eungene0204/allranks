@@ -8,4 +8,4 @@ export const ADSENSE_CLIENT = /^ca-pub-\d+$/.test(PUBLISHER) ? PUBLISHER : undef
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "allworldranks@gmail.com";
 
 /** Canonical site address (sitemap, metadata). The environment variable overrides the default. */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.allranks.world").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://allranks.world").replace(/\/+$/, "");

@@ -23,7 +23,7 @@
 | M3 | 랭킹 확장: 세계 36개, 국가 한정(scope) 랭킹 구조, US 20개 | ✅ 완료 | |
 | M4 | 국가 상세 페이지 + 로고 지원 | ✅ 완료 | |
 | M5 | 정리·품질: 수동 랭킹 4종 검증, 메타데이터/SEO 점검, 테스트 | ⬜ 예정 | 다음 작업 후보 |
-| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | 🚧 진행 | Vercel, `www.allranks.world` 접속 가능. AdSense 준비물(ads.txt·정보 페이지·스크립트·메타 태그)은 배포되어 `/ads.txt`와 스크립트가 라이브에서 확인됨. AdSense 사이트 확인·심사와 Search Console 등록은 남음 |
+| M6 | 배포: 호스팅 선택, 도메인, `NEXT_PUBLIC_SITE_URL` 설정 | 🚧 진행 | Vercel, 기준 도메인은 `allranks.world`(`www`는 308로 apex로 리다이렉트). AdSense 준비물(ads.txt·정보 페이지·스크립트·메타 태그)은 배포되어 `/ads.txt`와 스크립트가 라이브에서 확인됨. AdSense 사이트 확인·심사와 Search Console 등록은 남음 |
 | M10 | 빈 카테고리 채우기: AI, Markets, Energy, Money, Demographics, Mining, Autos, Green 주제에 자동 수집 랭킹 39개(이후 7개 카테고리로 통합) | ✅ 완료 | `scripts/topics.mts`. 수집 대상은 모두 어댑터(재현 가능). 금 생산국은 출처 표 결측 때문에 제외 |
 | M7 | 자동화: 정기 데이터 갱신(CI/cron), 데이터 신선도 알림 | 🚧 진행 | 주간 워크플로 작성됨(미실행). 신선도 알림은 미구현 |
 | M9 | AI 데이터 수집 에이전트: 없는 랭킹 발굴(discover) + 기존 랭킹 최신화(refresh) | 🚧 v0 구현 | 도구·루프·가드·CLI 완료, 모의 클라이언트로 검증. **실제 API 실행 미검증** |
@@ -69,6 +69,7 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-14 | 기준 도메인을 apex `allranks.world` 로 변경(Vercel에서 `www` → apex 308 리다이렉트). 리다이렉트 때문에 AdSense 사이트 확인이 실패해서이며, `SITE_URL` 기본값·README·문서를 apex 로 갱신 |
 | 2026-10-14 | 랭킹마다 다른 시각화: `lib/viz.ts`(`pickViz`)와 트리맵·분포 스트립·발산 막대·버블맵·롤리팝 컴포넌트 추가, 지도는 비율 랭킹 전용으로 축소. 선택·검증 절차를 프로젝트 스킬 `.claude/skills/ranking-viz` 와 `npm run viz:report` 로 정리하고 CLAUDE.md 에 매번 사용 규칙 추가 |
 | 2026-10-14 | AdSense 배포 상태 반영: 라이브 사이트에서 `/ads.txt`(pub-8335444243080631)와 AdSense 스크립트·메타 태그 확인. M6 비고와 백로그의 AdSense 단계(배포·ads.txt 확인 완료분 제외) 갱신 |
 | 2026-10-14 | 랭킹 페이지에 국가별 색상 세계지도 추가(`RankingMap`, `lib/map.ts`, `scripts/map-codes.mts`, `data/map-codes.json`): 순위 5등분 색, 범례, 클릭 시 국가 페이지, 서버 렌더링 SVG |
