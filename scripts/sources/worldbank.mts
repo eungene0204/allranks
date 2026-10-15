@@ -3,12 +3,16 @@ import type { Ctx, Fetched, Item } from "../lib/types.mts";
 
 type Row = { indicator: { value: string }; countryiso3code: string; date: string; value: number | null };
 
+/** The newest year with at least this many countries is shown, however many older years are fuller. */
+export const MIN_COUNTRIES_FOR_LATEST = 10;
+
 /**
  * World Bank Open Data indicator. Uses the single most recent year that has enough countries, so every
  * row of the ranking is from the same year (the API's "latest value" would mix years).
  */
 export function worldBank(opts: { indicator: string; scale?: number; minCountries?: number }) {
-  const { indicator, scale = 1, minCountries = 150 } = opts;
+  const { indicator, scale = 1 } = opts;
+  const minCountries = MIN_COUNTRIES_FOR_LATEST; // newest year wins; a per-ranking `minCountries` no longer raises the bar
   return async ({ countries }: Ctx): Promise<Fetched> => {
     const now = new Date().getFullYear();
     const url = `https://api.worldbank.org/v2/country/all/indicator/${indicator}?format=json&per_page=20000&date=${now - 6}:${now}`;

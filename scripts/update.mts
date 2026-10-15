@@ -39,11 +39,12 @@ async function run(p: (typeof PIPELINES)[number]) {
       seen.add(key);
       if (p.meta.scope && i.country !== p.meta.scope) throw new Error(`${i.name}: country must be ${p.meta.scope}`);
     }
-    const minItems = p.minItems ?? (p.meta.scope ? 5 : 20);
+    const minItems = p.minItems ?? (p.meta.scope ? 5 : 10);
     if (got.items.length < minItems) throw new Error(`only ${got.items.length} items (< ${minItems}) — source layout probably changed`);
 
     const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
-    if (prev && got.items.length < prev.items.length * 0.7)
+    // A newer data year may be thinner than the older one (latest data has priority), so only same-year drops are suspicious.
+    if (prev && got.year <= prev.year && got.items.length < prev.items.length * 0.7)
       throw new Error(`item count dropped ${prev.items.length} → ${got.items.length} (>30%); keeping the old file`);
 
     const next: RankingFile = {

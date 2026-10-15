@@ -1,5 +1,6 @@
 import { parseCsv } from "../lib/csv.mts";
 import { getText } from "../lib/http.mts";
+import { MIN_COUNTRIES_FOR_LATEST } from "./worldbank.mts";
 import type { Ctx, Fetched, Item, Source } from "../lib/types.mts";
 
 /**
@@ -8,7 +9,8 @@ import type { Ctx, Fetched, Item, Source } from "../lib/types.mts";
  * enough countries, so all rows are from the same year. `code` is ISO-3; OWID's aggregates ("OWID_WRL", regions) have none.
  */
 export function owid(opts: { slug: string; name: string; column?: string; exclude?: string[]; scale?: number; minCountries?: number; note?: string; license?: string }) {
-  const { slug, scale = 1, minCountries = 20 } = opts;
+  const { slug, scale = 1 } = opts;
+  const minCountries = MIN_COUNTRIES_FOR_LATEST; // newest year wins; a per-ranking `minCountries` no longer raises the bar
   return async ({ countries }: Ctx): Promise<Fetched> => {
     const rows = parseCsv(await getText(`https://ourworldindata.org/grapher/${slug}.csv?useColumnShortNames=true`));
     if (!rows.length) throw new Error(`OWID chart ${slug} came back empty`);
