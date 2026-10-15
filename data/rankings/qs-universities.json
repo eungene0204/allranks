@@ -9,14 +9,15 @@
   "suffix": "",
   "decimals": 0,
   "order": "asc",
-  "year": 2025,
+  "year": 2026,
   "source": {
     "kind": "manual",
-    "name": "QS World University Rankings 2025",
+    "name": "QS World University Rankings 2027",
+    "url": "https://www.topuniversities.com/world-university-rankings",
     "verified": false,
-    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+    "note": "Top 10 of the edition released June 2026, read from press coverage of the QS release; ties (Imperial/Stanford, ETH/UCL) are listed in score order. Check against topuniversities.com before publishing."
   },
-  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "items": [
     {
       "name": "MIT",
@@ -55,16 +56,16 @@
       "logo": "cam.ac.uk"
     },
     {
-      "name": "ETH Zurich",
-      "country": "CH",
+      "name": "Caltech",
+      "country": "US",
       "value": 7,
-      "logo": "ethz.ch"
+      "logo": "caltech.edu"
     },
     {
-      "name": "National University of Singapore",
-      "country": "SG",
+      "name": "ETH Zurich",
+      "country": "CH",
       "value": 8,
-      "logo": "nus.edu.sg"
+      "logo": "ethz.ch"
     },
     {
       "name": "UCL",
@@ -73,10 +74,11 @@
       "logo": "ucl.ac.uk"
     },
     {
-      "name": "Caltech",
-      "country": "US",
+      "name": "National University of Singapore",
+      "country": "SG",
       "value": 10,
-      "logo": "caltech.edu"
+      "logo": "nus.edu.sg"
     }
-  ]
+  ],
+  "asOf": "2026-06"
 }

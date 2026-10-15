@@ -11,6 +11,7 @@
     "data:map": "node scripts/map-codes.mts",
     "viz:report": "NODE_NO_WARNINGS=1 node scripts/viz-report.mts",
     "data:update": "node scripts/update.mts",
+    "data:freshness": "node scripts/freshness.mts",
     "data:validate": "node scripts/validate.mts",
     "agent": "node scripts/agent/index.mts",
     "agent:plan": "node scripts/agent/index.mts plan",

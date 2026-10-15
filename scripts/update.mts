@@ -1,5 +1,5 @@
-// Usage:  node scripts/update.mts [ranking-id ...] [--dry]
-//   no ids → every pipeline in registry.mts;  --dry → fetch and report, write nothing.
+// Usage:  node scripts/update.mts [ranking-id ...] [--dry] [--jobs N]
+//   no ids → every pipeline in registry.mts;  --dry → fetch and report, write nothing;  --jobs → pipelines fetched in parallel (default 3).
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { loadCountries } from "./lib/countries.mts";
 import { PIPELINES } from "./registry.mts";
@@ -7,7 +7,9 @@ import type { Item, RankingFile } from "./lib/types.mts";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
-const ids = args.filter((a) => !a.startsWith("--"));
+const jobsAt = args.indexOf("--jobs");
+const jobs = jobsAt >= 0 ? Math.max(1, Number(args[jobsAt + 1]) || 3) : 3;
+const ids = args.filter((a, i) => !a.startsWith("--") && args[i - 1] !== "--jobs");
 const unknown = ids.filter((id) => !PIPELINES.some((p) => p.meta.id === id));
 if (unknown.length) {
   console.error(`Unknown ranking id(s): ${unknown.join(", ")}\nAvailable: ${PIPELINES.map((p) => p.meta.id).join(", ")}`);
@@ -20,7 +22,7 @@ const sortItems = (items: Item[], order: "asc" | "desc") =>
   [...items].sort((a, b) => (order === "asc" ? a.value - b.value : b.value - a.value) || a.name.localeCompare(b.name));
 
 let failed = 0;
-for (const p of PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id))) {
+async function run(p: (typeof PIPELINES)[number]) {
   const { id } = p.meta;
   try {
     const got = await p.fetch(ctx);
@@ -67,6 +69,9 @@ for (const p of PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id)))
     console.error(`✗ ${id.padEnd(22)} ${(err as Error).message}`);
   }
 }
+// Small worker pool: each pipeline only reads its own source and writes its own file, so they can overlap.
+const queue = PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id));
+await Promise.all(Array.from({ length: Math.min(jobs, queue.length) }, async () => { for (let p; (p = queue.shift()); ) await run(p); }));
 if (failed) {
   console.error(`\n${failed} ranking(s) failed; their existing files were left untouched.`);
   process.exit(1);

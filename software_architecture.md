@@ -41,7 +41,9 @@ data/
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
   rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 648개: 세계 91 + US 24 + 기타 165개국 533)
 scripts/
-  update.mts                랭킹 데이터 갱신 CLI
+  update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
+  freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
+  sources/globalpetrolprices.mts  휘발유 가격 HTML 차트 어댑터
   validate.mts              data/rankings 검증 (prebuild에서 자동 실행)
   countries.mts             countries.json 갱신
   registry.mts              자동 랭킹 등록부 (메타데이터 + 소스 어댑터 연결)
@@ -171,6 +173,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 | 하고 싶은 일 | 수정할 곳 |
 | --- | --- |
+| 전체 최신화 | 스킬 `data-refresh`: `npm run data:update` → `npm run data:freshness` → 수동 랭킹 재조사 |
 | 자동 랭킹 추가 | `scripts/sources/`에 어댑터 → `scripts/registry.mts` 등록 → `npm run data:update -- <id>` |
 | 수동 랭킹 추가 | `data/rankings/<id>.json` 작성 (`RankingFile` 준수) |
 | 카테고리 추가 | `src/lib/categories.ts` |

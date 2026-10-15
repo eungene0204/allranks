@@ -33,7 +33,7 @@
 
 우선순위: 🔴 높음 · 🟡 중간 · 🟢 낮음
 
-- 🔴 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩) 값 검증 → `verified: true`
+- 🔴 남은 수동 랭킹(QS 대학 TOP10 — 휘발유·행복지수는 자동 파이프라인으로 승격, 최고층 빌딩은 대조 완료) 값 검증 → `verified: true`
 - 🟡 페이지별 메타데이터/OG 이미지 점검 (FR-41)
 - 🟡 Google Search Console 등록(도메인 속성, DNS TXT 인증) 후 `sitemap.xml` 제출 — 재배포 뒤에 진행
 - 🟢 시각화 확장: 상위 N 막대 차트(공유용 이미지), 국가 페이지 레이더/비교, 연도별 추이
@@ -107,6 +107,7 @@
 | 2026-10-14 | 문서 3종(project_plan / srs / software_architecture) 및 CLAUDE.md 최초 작성. 현재 코드베이스 기준으로 상태 정리 |
 | 2026-10-15 | 시각화 6종 추가(`regions`·`packed`·`waffle`·`histogram`·`scatter`·`podium`), `d3-hierarchy` 의존성 추가, `VIZ_PAIRS` 로 관련 랭킹 산점도, 대륙 고정색 팔레트 검증, `ranking-viz` 스킬 규칙 표를 순서 있는 12종으로 개정 |
 | 2026-10-15 | 랭킹 페이지가 자기 값만 그리도록 `VIZ_PAIRS`(산점도 짝)를 비움(인터넷 이용률 페이지에 GDP 축이 나오던 문제), 산점도 축 이름 `AXIS_NAMES` 추가, 원 패킹 버블에 즉시 뜨는 툴팁(`data-tip`) 적용 |
+| 2026-10-15 | 전체 최신화: 파이프라인 일괄 갱신(OpenAlex 대학 랭킹 등 153개 갱신, 실패 0), `gasoline`(GlobalPetrolPrices, 162개국, 2026-10)·`happiness`(OWID, WHR 2026 순서와 일치, 146개국)를 샘플 수동값에서 자동 파이프라인으로 승격, QS 2027 TOP10과 최고층 빌딩 재확인. `npm run data:freshness`, `update.mts --jobs`, Wikipedia 429 백오프, 스킬 `.claude/skills/data-refresh` 추가. 기준연도 ≤2024로 남은 224개는 인구조사 주기·지연 발표 지표 등 출처 한계 |
 | 2026-10-15 | PISA 2025 수학 점수 랭킹(`math-scores`, 40개국·지역, Education) 수동 추가: Visual Capitalist 그래픽을 2차 출처로 옮겨 출처 표기만 남김. 시각화는 `strip`. 세계 랭킹 91개 |
 | 2026-10-15 | 시각화 툴팁을 `TipLayer`(즉시 표시)로 통일하고, 버블·지도·산점도의 이름 라벨 겹침을 `src/lib/labels.ts`로 회피 |
 | 2026-10-15 | `co2-per-capita` 시각화를 스트립에서 세계지도(`map`)로 변경(`VIZ_OVERRIDES`). 극단값 1개(팔라우 82.8t)가 점들을 왼쪽 끝에 몰아넣던 문제 |

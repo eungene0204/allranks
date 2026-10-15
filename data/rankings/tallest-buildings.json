@@ -9,14 +9,16 @@
   "suffix": " m",
   "decimals": 0,
   "order": "desc",
-  "year": 2025,
+  "multi": true,
+  "year": 2026,
   "source": {
-    "kind": "manual",
-    "name": "CTBUH",
-    "verified": false,
-    "note": "Hand-entered sample values; replace with figures checked against the source before publishing."
+    "kind": "wikipedia",
+    "name": "Wikipedia, List of tallest buildings (CTBUH heights)",
+    "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings",
+    "verified": true,
+    "note": "Re-checked October 2026: the top 10 is unchanged since 2025 (Merdeka 118, completed 2024, is the newest)."
   },
-  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
   "items": [
     {
       "name": "Burj Khalifa — Dubai",

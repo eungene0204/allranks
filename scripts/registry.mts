@@ -1,4 +1,6 @@
 import { bigMac } from "./sources/bigmac.mts";
+import { owid } from "./sources/owid.mts";
+import { gasoline } from "./sources/globalpetrolprices.mts";
 import { wikipediaSpeed } from "./sources/wikipedia-speed.mts";
 import {
   usAirports, usCities, usCollegeEndowment, usCompanies, usGdp, usGunDeathRate, usGunOwnership, usHomicideRate,
@@ -16,10 +18,26 @@ import type { Pipeline } from "./lib/types.mts";
  * Rankings whose numbers are fetched automatically. To add one: write (or reuse) a source adapter that
  * returns `Fetched`, then register it here with its metadata.
  *
- * Rankings that are NOT listed here (QS universities, gasoline, happiness, tallest buildings) are maintained
+ * Rankings that are NOT listed here (QS universities, tallest buildings) are maintained
  * by hand directly in data/rankings/<id>.json and are only checked by `npm run data:validate`.
  */
 export const PIPELINES: Pipeline[] = [
+  {
+    meta: {
+      id: "gasoline", title: "Gasoline Prices by Country", category: "economy", icon: "⛽",
+      desc: "Average pump price for one liter of gasoline, in US dollars. Highest first.",
+      unit: "USD per liter", prefix: "$", suffix: "", decimals: 2, order: "desc",
+    },
+    fetch: gasoline,
+  },
+  {
+    meta: {
+      id: "happiness", title: "World Happiness Ranking", category: "society", icon: "😊",
+      desc: "Average life evaluation on a 0–10 scale from national surveys.",
+      unit: "score (0–10)", prefix: "", suffix: "", decimals: 2, order: "desc",
+    },
+    fetch: owid({ slug: "happiness-cantril-ladder", name: "World Happiness Report / Gallup World Poll, via Our World in Data", minCountries: 100, note: "Cantril ladder, yearly average; the report's headline ranking uses three-year averages, so close scores can swap places." }),
+  },
   {
     meta: {
       id: "gdp-nominal", title: "Largest Economies by GDP (Nominal)", category: "economy", icon: "💰",
