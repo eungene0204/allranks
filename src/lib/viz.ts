@@ -14,15 +14,17 @@ import type { Ranking } from "./types";
 //   podium     a short list led by a clear winner                      → three big cards
 //   lollipop   a short list without a runaway leader                   → dot-and-stem leaderboard
 export type VizKind =
-  | "map" | "treemap" | "regions" | "packed" | "waffle" | "strip" | "histogram"
+  | "map" | "treemap" | "regions" | "packed" | "waffle" | "strip" | "histogram" | "dots"
   | "scatter" | "diverging" | "bubbles" | "podium" | "lollipop";
 
 export const VIZ_KINDS: VizKind[] = [
-  "map", "treemap", "regions", "packed", "waffle", "strip", "histogram", "scatter", "diverging", "bubbles", "podium", "lollipop",
+  "map", "treemap", "regions", "packed", "waffle", "strip", "histogram", "dots", "scatter", "diverging", "bubbles", "podium", "lollipop",
 ];
 
 /** Hand-picked exceptions to the rules below (ranking id → kind). Prefer fixing the rule if several rankings need the same exception. */
 export const VIZ_OVERRIDES: Record<string, VizKind> = {
+  // A log-scale dot distribution complements the ranked bars in the table below.
+  "us-highest-paid-ceos": "dots",
   // A few Gulf states (Qatar 83 t vs. median 2.6 t, min 0) squash a strip into the left edge; quintile shading on a map holds up.
   "co2-per-capita": "map",
 };
@@ -111,6 +113,7 @@ export const VIZ_LABEL: Record<VizKind, string> = {
   waffle: "Who holds the total",
   strip: "Distribution",
   histogram: "Histogram",
+  dots: "Log-scale dot distribution",
   scatter: "Compared with another ranking",
   diverging: "Above and below zero",
   bubbles: "Where the entries are",

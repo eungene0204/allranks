@@ -1,0 +1,628 @@
+{
+  "id": "us-highest-paid-ceos",
+  "title": "Highest-Paid CEOs in the US",
+  "short": "CEO Pay",
+  "category": "economy",
+  "icon": "💼",
+  "desc": "The 100 highest-paid CEOs in the Equilar / New York Times 2026 study, ranked by fiscal 2025 total awarded compensation. Includes stock and options valued at grant date, rather than realized take-home pay. Company and ticker are shown below each CEO.",
+  "unit": "USD",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "Equilar / The New York Times — 100 Highest-Paid CEOs (2026 edition)",
+    "url": "https://www.equilar.com/reports/129-equilar-new-york-times-top-100-highest-paid-ceos-2026.html",
+    "urls": [
+      "https://www.equilar.com/reports/129-table-equilar-new-york-times-top-100-highest-paid-ceos-2026.html",
+      "https://www.equilar.com/wp-json/api/report/eq-100-2026-nyt"
+    ],
+    "note": "Published June 5, 2026; fiscal 2025 awarded compensation, not realized take-home pay. Includes salary, cash bonuses, stock and options at grant-date value, benefits and perks; excludes pension-value changes and above-market deferred-compensation earnings. Covers U.S.-based or listed companies with revenue over $1 billion and proxy statements filed by April 30, 2026. US scope describes the study's company universe, not CEO nationality."
+  },
+  "updatedAt": "2026-10-15T05:54:19.793Z",
+  "items": [
+    {
+      "name": "Elon R. Musk",
+      "country": "US",
+      "value": 132298849867,
+      "detail": "Tesla, Inc. (TSLA)"
+    },
+    {
+      "name": "Dylan Field",
+      "country": "US",
+      "value": 864358634,
+      "detail": "Figma, Inc. (FIG)"
+    },
+    {
+      "name": "Shankh S. Mitra",
+      "country": "US",
+      "value": 821090355,
+      "detail": "Welltower Inc. (WELL)"
+    },
+    {
+      "name": "Kasra Nejatian",
+      "country": "US",
+      "value": 741137105,
+      "detail": "Opendoor Technologies Inc. (OPEN)"
+    },
+    {
+      "name": "Robert J. Scaringe",
+      "country": "US",
+      "value": 402639080,
+      "detail": "Rivian Automotive, Inc. (RIVN)"
+    },
+    {
+      "name": "Niraj Shah",
+      "country": "US",
+      "value": 280847068,
+      "detail": "Wayfair Inc. (W)"
+    },
+    {
+      "name": "Hock E. Tan",
+      "country": "US",
+      "value": 205278006,
+      "detail": "Broadcom Inc. (AVGO)"
+    },
+    {
+      "name": "David M. Zaslav",
+      "country": "US",
+      "value": 165009366,
+      "detail": "Warner Bros. Discovery, Inc. (WBD)"
+    },
+    {
+      "name": "David M. Solomon",
+      "country": "US",
+      "value": 118891594,
+      "detail": "The Goldman Sachs Group, Inc. (GS)"
+    },
+    {
+      "name": "Nikesh Arora",
+      "country": "US",
+      "value": 99736336,
+      "detail": "Palo Alto Networks, Inc. (PANW)"
+    },
+    {
+      "name": "Christopher R. Britt",
+      "country": "US",
+      "value": 98935542,
+      "detail": "Chime Financial, Inc. (CHYM)"
+    },
+    {
+      "name": "Satya Nadella",
+      "country": "US",
+      "value": 96496790,
+      "detail": "Microsoft Corporation (MSFT)"
+    },
+    {
+      "name": "Jane Nind Fraser",
+      "country": "US",
+      "value": 95757800,
+      "detail": "Citigroup Inc. (C)"
+    },
+    {
+      "name": "Charles W. Scharf",
+      "country": "US",
+      "value": 94522642,
+      "detail": "Wells Fargo & Company (WFC)"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "country": "US",
+      "value": 92990900,
+      "detail": "Intel Corporation (INTC)"
+    },
+    {
+      "name": "Robin A. Vince",
+      "country": "US",
+      "value": 83472970,
+      "detail": "The Bank of New York Mellon Corporation (BK)"
+    },
+    {
+      "name": "Mark D. McClain",
+      "country": "US",
+      "value": 80100892,
+      "detail": "SailPoint, Inc. (SAIL)"
+    },
+    {
+      "name": "Marc N. Casper",
+      "country": "US",
+      "value": 79923350,
+      "detail": "Thermo Fisher Scientific Inc. (TMO)"
+    },
+    {
+      "name": "Ajei S. Gopal",
+      "country": "US",
+      "value": 77416665,
+      "detail": "Procore Technologies, Inc. (PCOR)"
+    },
+    {
+      "name": "Timothy D. Cook",
+      "country": "US",
+      "value": 74294811,
+      "detail": "Apple Inc. (AAPL)"
+    },
+    {
+      "name": "Gregory C. Case",
+      "country": "US",
+      "value": 73742639,
+      "detail": "Aon plc (AON)"
+    },
+    {
+      "name": "John C. Plant",
+      "country": "US",
+      "value": 70547718,
+      "detail": "Howmet Aerospace Inc. (HWM)"
+    },
+    {
+      "name": "Michael P. Lyons",
+      "country": "US",
+      "value": 70341992,
+      "detail": "Fiserv, Inc. (FISV)"
+    },
+    {
+      "name": "John D. Wren",
+      "country": "US",
+      "value": 69865846,
+      "detail": "Omnicom Group Inc. (OMC)"
+    },
+    {
+      "name": "Michael J. Arougheti",
+      "country": "US",
+      "value": 68279532,
+      "detail": "Ares Management Corporation (ARES)"
+    },
+    {
+      "name": "Ariel Z. Emanuel",
+      "country": "US",
+      "value": 67361782,
+      "detail": "TKO Group Holdings, Inc. (TKO)"
+    },
+    {
+      "name": "Richard D. Fairbank",
+      "country": "US",
+      "value": 64960306,
+      "detail": "Capital One Financial Corporation (COF)"
+    },
+    {
+      "name": "David Ferris Ellison",
+      "country": "US",
+      "value": 63211569,
+      "detail": "Paramount Skydance Corporation (PSKY)"
+    },
+    {
+      "name": "Vinayak R. Hegde",
+      "country": "US",
+      "value": 62567647,
+      "detail": "Credit Acceptance Corporation (CACC)"
+    },
+    {
+      "name": "Stephen J. Hemsley",
+      "country": "US",
+      "value": 60938062,
+      "detail": "UnitedHealth Group Incorporated (UNH)"
+    },
+    {
+      "name": "Matthew Prince",
+      "country": "US",
+      "value": 60551052,
+      "detail": "Cloudflare, Inc. (NET)"
+    },
+    {
+      "name": "Anirudh Devgan, Ph.D.",
+      "country": "US",
+      "value": 56683575,
+      "detail": "Cadence Design Systems, Inc. (CDNS)"
+    },
+    {
+      "name": "Lisa T. Su, Ph.D.",
+      "country": "US",
+      "value": 55161779,
+      "detail": "Advanced Micro Devices, Inc. (AMD)"
+    },
+    {
+      "name": "Theodore A. Sarandos",
+      "country": "US",
+      "value": 53905972,
+      "detail": "Netflix, Inc. (NFLX)"
+    },
+    {
+      "name": "Gregory K. Peters",
+      "country": "US",
+      "value": 53187307,
+      "detail": "Netflix, Inc. (NFLX)"
+    },
+    {
+      "name": "Varun Krishna",
+      "country": "US",
+      "value": 52889799,
+      "detail": "Rocket Companies, Inc. (RKT)"
+    },
+    {
+      "name": "Charles H. Robbins",
+      "country": "US",
+      "value": 52838751,
+      "detail": "Cisco Systems, Inc. (CSCO)"
+    },
+    {
+      "name": "William R. McDermott",
+      "country": "US",
+      "value": 51550957,
+      "detail": "ServiceNow, Inc. (NOW)"
+    },
+    {
+      "name": "Shantanu Narayen",
+      "country": "US",
+      "value": 51173935,
+      "detail": "Adobe Inc. (ADBE)"
+    },
+    {
+      "name": "Marc Benioff",
+      "country": "US",
+      "value": 49379252,
+      "detail": "Salesforce, Inc. (CRM)"
+    },
+    {
+      "name": "Spencer M. Rascoff",
+      "country": "US",
+      "value": 47009531,
+      "detail": "Match Group, Inc. (MTCH)"
+    },
+    {
+      "name": "Stephen J. Squeri",
+      "country": "US",
+      "value": 46173627,
+      "detail": "American Express Company (AXP)"
+    },
+    {
+      "name": "Scott L. Thompson",
+      "country": "US",
+      "value": 45872369,
+      "detail": "Somnigroup International Inc. (SGI)"
+    },
+    {
+      "name": "Robert A. Iger",
+      "country": "US",
+      "value": 45842574,
+      "detail": "The Walt Disney Company (DIS)"
+    },
+    {
+      "name": "Saumya Sutaria, M.D.",
+      "country": "US",
+      "value": 43108968,
+      "detail": "Tenet Healthcare Corporation (THC)"
+    },
+    {
+      "name": "Navid Mahmoodzadegan",
+      "country": "US",
+      "value": 42846376,
+      "detail": "Moelis & Company (MC)"
+    },
+    {
+      "name": "H. Lawrence Culp, Jr.",
+      "country": "US",
+      "value": 42402892,
+      "detail": "General Electric Company (GE)"
+    },
+    {
+      "name": "Eric P. Lefkofsky",
+      "country": "US",
+      "value": 41495833,
+      "detail": "Tempus AI, Inc. (TEM)"
+    },
+    {
+      "name": "James Dimon",
+      "country": "US",
+      "value": 40587852,
+      "detail": "JPMorgan Chase & Co. (JPM)"
+    },
+    {
+      "name": "Perry A. Sook",
+      "country": "US",
+      "value": 39509740,
+      "detail": "Nexstar Media Group, Inc. (NXST)"
+    },
+    {
+      "name": "Derek Chang",
+      "country": "US",
+      "value": 39316494,
+      "detail": "Liberty Media Corporation (FWON.K)"
+    },
+    {
+      "name": "William J. Ready",
+      "country": "US",
+      "value": 39312010,
+      "detail": "Pinterest, Inc. (PINS)"
+    },
+    {
+      "name": "Arvind Krishna, Ph.D.",
+      "country": "US",
+      "value": 37946715,
+      "detail": "IBM (IBM)"
+    },
+    {
+      "name": "Laurence D. Fink",
+      "country": "US",
+      "value": 37749569,
+      "detail": "BlackRock, Inc. (BLK)"
+    },
+    {
+      "name": "Edward N. Pick",
+      "country": "US",
+      "value": 37166787,
+      "detail": "Morgan Stanley (MS)"
+    },
+    {
+      "name": "Matthew J. Hawkins",
+      "country": "US",
+      "value": 37124319,
+      "detail": "Waystar Holding Corp. (WAY)"
+    },
+    {
+      "name": "Sasan K. Goodarzi",
+      "country": "US",
+      "value": 36845552,
+      "detail": "Intuit Inc. (INTU)"
+    },
+    {
+      "name": "William J. Fehrman",
+      "country": "US",
+      "value": 36565839,
+      "detail": "American Electric Power Company, Inc. (AEP)"
+    },
+    {
+      "name": "Andrew C. Florance",
+      "country": "US",
+      "value": 36431936,
+      "detail": "CoStar Group, Inc. (CSGP)"
+    },
+    {
+      "name": "William J. Lansing",
+      "country": "US",
+      "value": 36045267,
+      "detail": "Fair Isaac Corporation (FICO)"
+    },
+    {
+      "name": "Dushyant Sharma",
+      "country": "US",
+      "value": 35629806,
+      "detail": "Paymentus Holdings, Inc. (PAY)"
+    },
+    {
+      "name": "Dara Khosrowshahi",
+      "country": "US",
+      "value": 35595827,
+      "detail": "Uber Technologies, Inc. (UBER)"
+    },
+    {
+      "name": "Srinivasan Gopalan",
+      "country": "US",
+      "value": 35439422,
+      "detail": "T-Mobile US, Inc. (TMUS)"
+    },
+    {
+      "name": "Michael Miebach",
+      "country": "US",
+      "value": 35422518,
+      "detail": "Mastercard Incorporated (MA)"
+    },
+    {
+      "name": "Glenn D. Fogel",
+      "country": "US",
+      "value": 35418102,
+      "detail": "Booking Holdings Inc. (BKNG)"
+    },
+    {
+      "name": "Akshay Sudhir Naheta",
+      "country": "US",
+      "value": 35217148,
+      "detail": "Bakkt, Inc. (BKKT)"
+    },
+    {
+      "name": "Brian L. Roberts",
+      "country": "US",
+      "value": 35148413,
+      "detail": "Comcast Corporation (CMCSA)"
+    },
+    {
+      "name": "Donnie D. King",
+      "country": "US",
+      "value": 34469569,
+      "detail": "Tyson Foods, Inc. (TSN)"
+    },
+    {
+      "name": "Gregory Q. Brown",
+      "country": "US",
+      "value": 34443685,
+      "detail": "Motorola Solutions, Inc. (MSI)"
+    },
+    {
+      "name": "Michael Mark Manley",
+      "country": "US",
+      "value": 34391069,
+      "detail": "AutoNation, Inc. (AN)"
+    },
+    {
+      "name": "Daniel Hesse Schulman",
+      "country": "US",
+      "value": 34311016,
+      "detail": "Verizon Communications Inc. (VZ)"
+    },
+    {
+      "name": "Henry A. Fernandez",
+      "country": "US",
+      "value": 33320590,
+      "detail": "MSCI Inc. (MSCI)"
+    },
+    {
+      "name": "Henry L. Schuck",
+      "country": "US",
+      "value": 33297747,
+      "detail": "ZoomInfo Technologies Inc. (GTM)"
+    },
+    {
+      "name": "Michael M. Morrissey, Ph.D.",
+      "country": "US",
+      "value": 33239183,
+      "detail": "Exelixis, Inc. (EXEL)"
+    },
+    {
+      "name": "Evan G. Greenberg",
+      "country": "US",
+      "value": 33180582,
+      "detail": "Chubb Limited (CB)"
+    },
+    {
+      "name": "Darren W. Woods",
+      "country": "US",
+      "value": 32998628,
+      "detail": "Exxon Mobil Corporation (XOM)"
+    },
+    {
+      "name": "Brian T. Moynihan",
+      "country": "US",
+      "value": 32738540,
+      "detail": "Bank of America Corporation (BAC)"
+    },
+    {
+      "name": "Michael Rapino",
+      "country": "US",
+      "value": 32552324,
+      "detail": "Live Nation Entertainment, Inc. (LYV)"
+    },
+    {
+      "name": "Peter Zaffino",
+      "country": "US",
+      "value": 32460049,
+      "detail": "American International Group, Inc. (AIG)"
+    },
+    {
+      "name": "J. Scott Kirby",
+      "country": "US",
+      "value": 32282253,
+      "detail": "United Airlines Holdings, Inc. (UAL)"
+    },
+    {
+      "name": "Harry A. Lawton, III",
+      "country": "US",
+      "value": 32277194,
+      "detail": "Tractor Supply Company (TSCO)"
+    },
+    {
+      "name": "David A. Ricks",
+      "country": "US",
+      "value": 32246701,
+      "detail": "Eli Lilly and Company (LLY)"
+    },
+    {
+      "name": "William J. Meury",
+      "country": "US",
+      "value": 32085952,
+      "detail": "Incyte Corporation (INCY)"
+    },
+    {
+      "name": "Ryan McInerney",
+      "country": "US",
+      "value": 31540028,
+      "detail": "Visa Inc. (V)"
+    },
+    {
+      "name": "Brian R. Niccol",
+      "country": "US",
+      "value": 30992773,
+      "detail": "Starbucks Corporation (SBUX)"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "country": "US",
+      "value": 30940146,
+      "detail": "Micron Technology, Inc. (MU)"
+    },
+    {
+      "name": "Kevin D. Hochman",
+      "country": "US",
+      "value": 30465768,
+      "detail": "Brinker International, Inc. (EAT)"
+    },
+    {
+      "name": "Marcus A. Lemonis",
+      "country": "US",
+      "value": 30404864,
+      "detail": "Camping World Holdings, Inc. (CWH)"
+    },
+    {
+      "name": "Anthony J. Noto",
+      "country": "US",
+      "value": 30275733,
+      "detail": "SoFi Technologies, Inc. (SOFI)"
+    },
+    {
+      "name": "James Quincey",
+      "country": "US",
+      "value": 30099679,
+      "detail": "The Coca-Cola Company (KO)"
+    },
+    {
+      "name": "Jon Winkelried",
+      "country": "US",
+      "value": 29897761,
+      "detail": "TPG Inc. (TPG)"
+    },
+    {
+      "name": "Mary T. Barra",
+      "country": "US",
+      "value": 29895868,
+      "detail": "General Motors Company (GM)"
+    },
+    {
+      "name": "Chris Rogers",
+      "country": "US",
+      "value": 29847540,
+      "detail": "Maplebear Inc. (CART)"
+    },
+    {
+      "name": "Andrew P. Hider",
+      "country": "US",
+      "value": 29805182,
+      "detail": "Baxter International Inc. (BAX)"
+    },
+    {
+      "name": "Cristiano R. Amon",
+      "country": "US",
+      "value": 29701097,
+      "detail": "QUALCOMM Incorporated (QCOM)"
+    },
+    {
+      "name": "Gary E. Dickerson",
+      "country": "US",
+      "value": 29649352,
+      "detail": "Applied Materials, Inc. (AMAT)"
+    },
+    {
+      "name": "Julie Spellman Sweet",
+      "country": "US",
+      "value": 29641903,
+      "detail": "Accenture plc (ACN)"
+    },
+    {
+      "name": "Stuart A. Miller",
+      "country": "US",
+      "value": 29527931,
+      "detail": "Lennar Corporation (LEN)"
+    },
+    {
+      "name": "Douglas I. Ostrover",
+      "country": "US",
+      "value": 29237055,
+      "detail": "Blue Owl Capital Inc. (OWL)"
+    },
+    {
+      "name": "Marc S. Lipschultz",
+      "country": "US",
+      "value": 29219230,
+      "detail": "Blue Owl Capital Inc. (OWL)"
+    }
+  ]
+}

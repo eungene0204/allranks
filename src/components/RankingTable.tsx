@@ -7,6 +7,7 @@ import Mark from "./Mark";
 import RankBadge from "./RankBadge";
 
 const LIMIT = 50;
+const LOG_BAR_FLOOR = 10_000_000;
 
 export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
   const [filter, setFilter] = useState("");
@@ -39,11 +40,19 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
           ⇅ Reverse order
         </button>
       </div>
+      {r.id === "us-highest-paid-ceos" && (
+        <p className="bar-scale-note">Bar lengths use a logarithmic scale from $10 million, so smaller awards remain visible.</p>
+      )}
       <div className="table">
         {rows.length === 0 && <div className="empty">No entries match “{filter}”.</div>}
         {rows.map((x) => {
           // Rank-style rankings (lower is better) show a bar that grows toward #1.
-          const pct = r.unit === "Rank" ? ((all.length + 1 - x.rank) / all.length) * 100 : (x.value / max) * 100;
+          const pct = r.unit === "Rank"
+            ? ((all.length + 1 - x.rank) / all.length) * 100
+            : r.id === "us-highest-paid-ceos"
+              ? ((Math.log10(Math.max(x.value, LOG_BAR_FLOOR)) - Math.log10(LOG_BAR_FLOOR)) /
+                  (Math.log10(max) - Math.log10(LOG_BAR_FLOOR))) * 100
+              : (x.value / max) * 100;
           return (
             <div className="row" key={x.name}>
               <RankBadge rank={x.rank} />

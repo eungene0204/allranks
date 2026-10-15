@@ -36,6 +36,7 @@ description: 랭킹 페이지 상단 시각화(지도·트리맵·대륙별 막�
 | 9 | "per 1,000 / 100,000 / million / woman" 비율 | `histogram` | 구간별 분포 | birth-rate, homicide-rate |
 | 9 | `%`·rate 비율·점유율 | `map` | 이웃 나라와의 지리적 패턴 | unemployment |
 | 9 | 그 밖의 수준 값(1인당·점수·지수·연수) | `strip` | 대륙별 행으로 나눈 분포 + 중앙값 | gdp-per-capita |
+| 예외 | 값의 범위가 여러 자릿수이고 아래 표가 이미 막대를 사용함 | `dots` | 로그 축 점 분포로 표와 다른 방식으로 전체 분포를 보여줌 | us-highest-paid-ceos |
 
 "합산 가능"은 `isAdditive(unit)`: 단위에 billion/million/tonnes/people… 가 있고 `per`·`%`·`rate`·`years`·`index` 등 비율 표지가 없어야 한다
 (`per day`·`per year`는 총량의 기간 표기라 무시). 판정이 틀리면 **단위 문자열 규칙(`TOTAL`/`RATIO`/`MONEY`/`PER_THOUSAND`)을 고친다** — 같은 예외가 여럿이면 규칙, 한 건이면 `VIZ_OVERRIDES`.

@@ -1,6 +1,6 @@
 # AllRanks 소프트웨어 아키텍처
 
-> 마지막 업데이트: 2026-10-15 · 버전 0.2.0
+> 마지막 업데이트: 2026-10-16 · 버전 0.2.0
 
 ## 1. 개요
 
@@ -39,7 +39,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 648개: 세계 91 + US 24 + 기타 165개국 533)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 649개: 세계 91 + US 25 + 기타 165개국 533)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -114,6 +114,8 @@ public/logos/           항목 로고 (<domain>.png)
 3. **안전장치**: 숫자가 아닌 값, 중복 국가, 항목 20개 미만(`Pipeline.minItems` 로 조정 가능, 예: 리튬 생산국 10), 이전 대비 30% 초과 감소 시 **기존 파일 유지 + 비정상 종료**.
 4. `validate.mts`가 스키마·국가 코드·중복·카테고리를 검사한다. 오류면 빌드 실패, 120일 초과 자동 데이터는 경고.
 5. 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
+
+Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표의 JSON API를 읽어 `us-highest-paid-ceos`로 저장한다. 정확히 100행·7열, 달러 정수·내림차순을 검증하며, CEO 이름·회사/티커·2025 회계연도 보상액을 보존한다. `scope: "US"`는 조사 대상 기업의 범위이고 CEO 국적이 아니다. `VIZ_OVERRIDES`에서 로그 축 점 분포를 지정해 CEO별 보상을 전체 범위에서 비교하고 각 점에 hover 정보를 제공한다. 아래 표의 비교 막대도 1천만 달러 기준 로그 축을 사용한다. 갱신 명령: `npm run data:update -- us-highest-paid-ceos`. 랭킹 표의 값 열은 `max-content`까지 늘어나 큰 달러 금액도 잘리지 않는다(모바일은 이름 열이 줄어듦).
 
 ### 5.1 데이터 수집 에이전트
 

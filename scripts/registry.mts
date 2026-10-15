@@ -1,6 +1,7 @@
 import { bigMac } from "./sources/bigmac.mts";
 import { owid } from "./sources/owid.mts";
 import { gasoline } from "./sources/globalpetrolprices.mts";
+import { equilarCeoPay } from "./sources/equilar.mts";
 import { wikipediaSpeed } from "./sources/wikipedia-speed.mts";
 import {
   usAirports, usCities, usCollegeEndowment, usCompanies, usGdp, usGunDeathRate, usGunOwnership, usHomicideRate,
@@ -22,6 +23,15 @@ import type { Pipeline } from "./lib/types.mts";
  * by hand directly in data/rankings/<id>.json and are only checked by `npm run data:validate`.
  */
 export const PIPELINES: Pipeline[] = [
+  {
+    meta: {
+      id: "us-highest-paid-ceos", title: "Highest-Paid CEOs in the US", short: "CEO Pay", category: "economy", icon: "💼",
+      desc: "The 100 highest-paid CEOs in the Equilar / New York Times 2026 study, ranked by fiscal 2025 total awarded compensation. Includes stock and options valued at grant date, rather than realized take-home pay. Company and ticker are shown below each CEO.",
+      unit: "USD", prefix: "$", suffix: "", decimals: 0, order: "desc", scope: "US",
+    },
+    fetch: equilarCeoPay,
+    minItems: 100,
+  },
   {
     meta: {
       id: "gasoline", title: "Gasoline Prices by Country", category: "economy", icon: "⛽",

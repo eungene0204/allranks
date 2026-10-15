@@ -5,6 +5,7 @@ import Bubbles from "./viz/Bubbles";
 import Diverging from "./viz/Diverging";
 import Histogram from "./viz/Histogram";
 import Lollipop from "./viz/Lollipop";
+import DotDistribution from "./viz/DotDistribution";
 import Packed from "./viz/Packed";
 import Podium from "./viz/Podium";
 import RankingMap from "./RankingMap";
@@ -33,6 +34,7 @@ function Picture({ ranking }: { ranking: Ranking }) {
     case "waffle": return <Waffle ranking={ranking} />;
     case "strip": return <Strip ranking={ranking} />;
     case "histogram": return <Histogram ranking={ranking} />;
+    case "dots": return <DotDistribution ranking={ranking} />;
     case "scatter": return <Scatter ranking={ranking} />;
     case "diverging": return <Diverging ranking={ranking} />;
     case "bubbles": return <Bubbles ranking={ranking} />;
