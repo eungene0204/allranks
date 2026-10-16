@@ -161,6 +161,8 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 ## 7. 확장 지점
 
+홈 소개 문구는 `src/app/page.tsx`의 제목 “One planet. A world of rankings.”와 설명 “From economic power to everyday prices — explore the world in a different order.”로 구성한다.
+
 지구본 아래에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
 국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다.
 문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다.

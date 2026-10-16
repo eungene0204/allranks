@@ -23,6 +23,8 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 
 ### 3.1 탐색 (Web)
 
+홈 소개 제목은 “One planet. A world of rankings.”, 설명은 “From economic power to everyday prices — explore the world in a different order.”로 표시한다.
+
 | ID | 요구사항 | 상태 |
 | --- | --- | --- |
 | FR-01 | 홈에서 인터랙티브 지구본을 보여준다 (회전·줌·국가 선택, 국가별 1위 표시) | ✅ |

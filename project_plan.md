@@ -69,6 +69,7 @@
 
 | 날짜 | 변경 |
 | --- | --- |
+| 2026-10-16 | 홈 소개 제목을 “One planet. A world of rankings.”로, 설명을 “From economic power to everyday prices — explore the world in a different order.”로 변경 |
 | 2026-10-14 | 기준 도메인을 apex `allranks.world` 로 변경(Vercel에서 `www` → apex 308 리다이렉트). 리다이렉트 때문에 AdSense 사이트 확인이 실패해서이며, `SITE_URL` 기본값·README·문서를 apex 로 갱신 |
 | 2026-10-14 | 랭킹마다 다른 시각화: `lib/viz.ts`(`pickViz`)와 트리맵·분포 스트립·발산 막대·버블맵·롤리팝 컴포넌트 추가, 지도는 비율 랭킹 전용으로 축소. 선택·검증 절차를 프로젝트 스킬 `.claude/skills/ranking-viz` 와 `npm run viz:report` 로 정리하고 CLAUDE.md 에 매번 사용 규칙 추가 |
 | 2026-10-14 | AdSense 배포 상태 반영: 라이브 사이트에서 `/ads.txt`(pub-8335444243080631)와 AdSense 스크립트·메타 태그 확인. M6 비고와 백로그의 AdSense 단계(배포·ads.txt 확인 완료분 제외) 갱신 |

@@ -14,9 +14,9 @@ export default function HomePage() {
           <b>{rankings.length}</b> rankings · <b>{countries.length}</b> countries
         </span>
         <h1>
-          Every ranking in the world, <em>in one place.</em>
+          One planet. <em>A world of rankings.</em>
         </h1>
-        <p>Universities, GDP, fuel prices, Big Mac prices and more — see which countries lead them all.</p>
+        <p>From economic power to everyday prices — explore the world in a different order.</p>
       </section>
 
       <GlobeExplorer countries={countries} />
