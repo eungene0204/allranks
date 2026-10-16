@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import RankingCard from "@/components/RankingCard";
+import RandomRankingCards from "@/components/RandomRankingCards";
 import { CATEGORIES, getCategory } from "@/lib/categories";
 import { rankingsIn } from "@/lib/data";
 
@@ -38,11 +38,7 @@ export default async function CategoryPage({ params }: Props) {
       </div>
       <h2 className="section">{list.length} rankings</h2>
       {list.length === 0 && <p>Rankings in this category are coming soon.</p>}
-      <div className="cards">
-        {list.map((r) => (
-          <RankingCard key={r.id} ranking={r} />
-        ))}
-      </div>
+      <RandomRankingCards rankings={list} />
     </>
   );
 }

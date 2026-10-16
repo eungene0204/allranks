@@ -1,0 +1,237 @@
+{
+  "id": "arms-exports",
+  "title": "Largest Arms Exporters",
+  "category": "world",
+  "icon": "🛡️",
+  "desc": "SIPRI trend-indicator value of major conventional arms exported; this is a transfer-volume measure, not a dollar price.",
+  "unit": "billion SIPRI TIV",
+  "prefix": "",
+  "suffix": "B TIV",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Arms exports (SIPRI trend indicator values)",
+    "url": "https://data.worldbank.org/indicator/MS.MIL.XPRT.KD",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T10:58:17.920Z",
+  "items": [
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 13.98
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 3.367
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 2.623
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 2.02
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 1.941
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 1.923
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 1.696
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 0.88
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 0.702
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 0.601
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 0.539
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 0.415
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 0.341
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 0.312
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 0.235
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 0.165
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.153
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 0.137
+    },
+    {
+      "name": "Romania",
+      "country": "RO",
+      "value": 0.132
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 0.129
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 0.127
+    },
+    {
+      "name": "Ukraine",
+      "country": "UA",
+      "value": 0.12
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 0.115
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 0.115
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 0.108
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 0.086
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 0.081
+    },
+    {
+      "name": "Iran",
+      "country": "IR",
+      "value": 0.08
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 0.079
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 0.059
+    },
+    {
+      "name": "North Korea",
+      "country": "KP",
+      "value": 0.044
+    },
+    {
+      "name": "Serbia",
+      "country": "RS",
+      "value": 0.039
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 0.034
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 0.033
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 0.028
+    },
+    {
+      "name": "Ireland",
+      "country": "IE",
+      "value": 0.024
+    },
+    {
+      "name": "Slovakia",
+      "country": "SK",
+      "value": 0.009
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 0.002
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 0.002
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 0.001
+    },
+    {
+      "name": "Belarus",
+      "country": "BY",
+      "value": 0.001
+    },
+    {
+      "name": "Latvia",
+      "country": "LV",
+      "value": 0.001
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 0.001
+    }
+  ]
+}

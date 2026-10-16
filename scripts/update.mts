@@ -1,9 +1,10 @@
 // Usage:  node scripts/update.mts [ranking-id ...] [--dry] [--jobs N]
 //   no ids → every pipeline in registry.mts;  --dry → fetch and report, write nothing;  --jobs → pipelines fetched in parallel (default 3).
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { loadCountries } from "./lib/countries.mts";
 import { PIPELINES } from "./registry.mts";
 import type { Item, RankingFile } from "./lib/types.mts";
+import type { Fetched } from "./lib/types.mts";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
@@ -24,8 +25,28 @@ const sortItems = (items: Item[], order: "asc" | "desc") =>
 let failed = 0;
 async function run(p: (typeof PIPELINES)[number]) {
   const { id } = p.meta;
+  const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
   try {
-    const got = await p.fetch(ctx);
+    // Query every registered provider. The newest eligible response wins; provider order breaks ties.
+    const attempts = await Promise.allSettled([p.fetch, ...(p.fallbacks ?? [])].map((fetcher) => fetcher(ctx)));
+    const available = attempts.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
+    const effectiveYear = (got: Fetched) => Number((got.asOf ?? String(got.year)).slice(0, 4)) || got.year;
+    const eligible = available.filter((got) => effectiveYear(got) >= 2025);
+    if (!eligible.length) {
+      const failedSources = attempts.filter((r) => r.status === "rejected").length;
+      if (failedSources === attempts.length && prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) >= 2025) {
+        console.log(`= ${id.padEnd(22)} retained ${prev.asOf ?? prev.year} snapshot · all ${failedSources} sources unavailable`);
+        return;
+      }
+      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < 2025 && !dry) unlinkSync(fileFor(id));
+      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < 2025) {
+        console.log(`${dry ? "~" : "−"} ${id.padEnd(22)} removed · no data from 2025 or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
+      } else {
+        console.log(`= ${id.padEnd(22)} no data from 2025 or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
+      }
+      return;
+    }
+    const got = eligible.reduce((latest, current) => effectiveYear(current) > effectiveYear(latest) ? current : latest);
 
     // Guards: refuse data that looks broken rather than overwrite good data with it.
     const bad = got.items.filter((i) => !Number.isFinite(i.value));
@@ -42,7 +63,6 @@ async function run(p: (typeof PIPELINES)[number]) {
     const minItems = p.minItems ?? (p.meta.scope ? 5 : 10);
     if (got.items.length < minItems) throw new Error(`only ${got.items.length} items (< ${minItems}) — source layout probably changed`);
 
-    const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
     // A newer data year may be thinner than the older one (latest data has priority), so only same-year drops are suspicious.
     if (prev && got.year <= prev.year && got.items.length < prev.items.length * 0.7)
       throw new Error(`item count dropped ${prev.items.length} → ${got.items.length} (>30%); keeping the old file`);
@@ -74,6 +94,6 @@ async function run(p: (typeof PIPELINES)[number]) {
 const queue = PIPELINES.filter((p) => !ids.length || ids.includes(p.meta.id));
 await Promise.all(Array.from({ length: Math.min(jobs, queue.length) }, async () => { for (let p; (p = queue.shift()); ) await run(p); }));
 if (failed) {
-  console.error(`\n${failed} ranking(s) failed; their existing files were left untouched.`);
+  console.error(`\n${failed} ranking(s) failed validation; their existing files were left untouched.`);
   process.exit(1);
 }

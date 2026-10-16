@@ -1,0 +1,327 @@
+{
+  "id": "customs-import-time",
+  "title": "Fastest Import Customs Clearance",
+  "category": "economy",
+  "icon": "🚚",
+  "desc": "Average days firms report needing to clear imports through customs; fewer is faster.",
+  "unit": "days",
+  "prefix": "",
+  "suffix": " days",
+  "decimals": 1,
+  "order": "asc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Average time to clear imports through customs (days)",
+    "url": "https://data.worldbank.org/indicator/IC.CUS.DURS.IM",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T10:57:36.974Z",
+  "items": [
+    {
+      "name": "Albania",
+      "country": "AL",
+      "value": 1.054
+    },
+    {
+      "name": "Lithuania",
+      "country": "LT",
+      "value": 1.453
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 1.881
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 2.072
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 2.118
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 2.204
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 2.463
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 2.553
+    },
+    {
+      "name": "Mauritania",
+      "country": "MR",
+      "value": 2.578
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 2.669
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 2.83
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 2.943
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 3.082
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 3.115
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 3.117
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 3.357
+    },
+    {
+      "name": "Zimbabwe",
+      "country": "ZW",
+      "value": 3.465
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 3.491
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 3.904
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 3.935
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 4.006
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 4.205
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 4.456
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 4.972
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 5.079
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 5.216
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 5.377
+    },
+    {
+      "name": "Brunei",
+      "country": "BN",
+      "value": 5.706
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 6.168
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 6.314
+    },
+    {
+      "name": "Gabon",
+      "country": "GA",
+      "value": 6.428
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country": "GW",
+      "value": 6.475
+    },
+    {
+      "name": "Kiribati",
+      "country": "KI",
+      "value": 6.478
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 6.684
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 6.877
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 6.983
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country": "AG",
+      "value": 7.209
+    },
+    {
+      "name": "Afghanistan",
+      "country": "AF",
+      "value": 7.241
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 8.115
+    },
+    {
+      "name": "Solomon Islands",
+      "country": "SB",
+      "value": 8.728
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 8.98
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 9.13
+    },
+    {
+      "name": "Somalia",
+      "country": "SO",
+      "value": 9.347
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 9.588
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 10.558
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 10.589
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 10.75
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 11.06
+    },
+    {
+      "name": "Maldives",
+      "country": "MV",
+      "value": 11.096
+    },
+    {
+      "name": "Liberia",
+      "country": "LR",
+      "value": 11.139
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 13.197
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 13.201
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 15.156
+    },
+    {
+      "name": "Niger",
+      "country": "NE",
+      "value": 15.364
+    },
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 15.736
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 15.886
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 18.359
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 18.36
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 19.309
+    },
+    {
+      "name": "Fiji",
+      "country": "FJ",
+      "value": 22.397
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country": "TT",
+      "value": 27.595
+    }
+  ]
+}

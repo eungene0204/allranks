@@ -21,7 +21,7 @@ export default async function SearchPage({ searchParams }: Props) {
       <div className="page-head">
         <div className="crumbs"><Link href="/">Home</Link> / Search</div>
         <h1>{q ? `Results for “${q}”` : "Search"}</h1>
-        {q && <p>{countries.length} countries · {rankings.length} rankings · {entries.length} entries found.</p>}
+        {q && <p role="status" aria-live="polite">{countries.length} countries · {rankings.length} rankings · {entries.length} entries found.</p>}
       </div>
       <SearchForm query={q} id="results-search" />
       {countries.length > 0 && (

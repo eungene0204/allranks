@@ -10,10 +10,37 @@ import {
 } from "./sources/wikipedia-us.mts";
 import { scorecard } from "./sources/college-scorecard.mts";
 import { worldBank } from "./sources/worldbank.mts";
+import { rsfPressFreedom } from "./sources/rsf.mts";
+import { corruptionPerceptions } from "./sources/cpi.mts";
 import { billionaires, coffee, largestCities, millionaires, nobelLaureates, oilReserves, topWebsites, wine } from "./sources/wikipedia-world.mts";
 import { REGIONAL } from "./regional/index.mts";
 import { TOPICS } from "./topics.mts";
+import { EXPANDED_WORLDBANK } from "./expanded-worldbank.mts";
+import { WORLD_BANK_500 } from "./worldbank-500.mts";
 import type { Pipeline } from "./lib/types.mts";
+
+// Prefer the newer release across two independently maintained distribution paths.
+// OWID republishes the SDG 7.2.1 series from UNSD/IEA/IRENA; World Bank remains a fallback.
+const renewableEnergyFetchers = [
+  owid({
+    slug: "share-of-final-energy-consumption-from-renewable-sources",
+    column: "_7_2_1__eg_fec_rnew",
+    name: "UNSD / IEA / IRENA, via Our World in Data",
+    note: "SDG indicator 7.2.1; most recent year with at least 10 countries.",
+  }),
+  worldBank({ indicator: "EG.FEC.RNEW.ZS" }),
+];
+
+const renewableEnergyFetch: Pipeline["fetch"] = async (ctx) => {
+  const results = await Promise.allSettled(renewableEnergyFetchers.map((fetcher) => fetcher(ctx)));
+  const available = results.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
+  if (!available.length) {
+    const errors = results.flatMap((result) => result.status === "rejected" ? [(result.reason as Error).message] : []);
+    throw new Error(`All renewable-energy sources failed: ${errors.join("; ")}`);
+  }
+  // Preserve source order on ties, making OWID the preferred publisher for the same year.
+  return available.reduce((latest, current) => current.year > latest.year ? current : latest);
+};
 
 /**
  * Rankings whose numbers are fetched automatically. To add one: write (or reuse) a source adapter that
@@ -23,6 +50,24 @@ import type { Pipeline } from "./lib/types.mts";
  * by hand directly in data/rankings/<id>.json and are only checked by `npm run data:validate`.
  */
 export const PIPELINES: Pipeline[] = [
+  {
+    meta: {
+      id: "press-freedom-index", title: "World Press Freedom", category: "society", icon: "📰",
+      desc: "Reporters Without Borders' assessment of the environment for journalism, combining political, economic, legal, social and safety conditions. Higher scores mean greater press freedom.",
+      unit: "RSF score (0–100)", prefix: "", suffix: "", decimals: 2, order: "desc",
+    },
+    fetch: rsfPressFreedom,
+    minItems: 150,
+  },
+  {
+    meta: {
+      id: "corruption-perceptions", title: "Lowest Perceived Public-Sector Corruption", category: "society", icon: "⚖️",
+      desc: "Transparency International's Corruption Perceptions Index. Scores summarize perceived public-sector corruption among experts and businesspeople; higher means cleaner.",
+      unit: "CPI score (0–100)", prefix: "", suffix: "", decimals: 0, order: "desc",
+    },
+    fetch: corruptionPerceptions,
+    minItems: 170,
+  },
   {
     meta: {
       id: "us-highest-paid-ceos", title: "Highest-Paid CEOs in the US", short: "CEO Pay", category: "economy", icon: "💼",
@@ -98,6 +143,15 @@ export const PIPELINES: Pipeline[] = [
   },
   // More World Bank indicators — topics popular with data-journalism rankings (wealth, tax, tourism, climate…).
   ...worldBankRankings(),
+  ...EXPANDED_WORLDBANK,
+  ...WORLD_BANK_500,
+  {
+    meta: {
+      id: "renewable-energy", title: "Renewable Energy Share", category: "world", icon: "🌱",
+      desc: "Renewables as a share of final energy consumption.", unit: "% of energy", prefix: "", suffix: "%", decimals: 1, order: "desc",
+    },
+    fetch: renewableEnergyFetch,
+  },
   // Wealth, prizes, websites and commodities from Wikipedia's tables.
   {
     meta: { id: "billionaires", title: "Countries With the Most Billionaires", category: "economy", icon: "🤑", desc: "Number of billionaires living in each country, per the Forbes list.", unit: "billionaires", prefix: "", suffix: "", decimals: 0, order: "desc" },
@@ -212,7 +266,6 @@ function worldBankRankings(): Pipeline[] {
     wb("military-spending", "Military Spending", "world", "🎖️", "Military expenditure as a share of GDP.", "% of GDP", "", "%", 1, "MS.MIL.XPND.GD.ZS", { minCountries: 120 }),
     wb("land-area", "Largest Countries by Land Area", "world", "🗺️", "Land area in square kilometres, excluding inland water.", "km²", "", "", 0, "AG.LND.TOTL.K2"),
     wb("forest-area", "Most Forested Countries", "world", "🌲", "Forest as a share of land area.", "% of land", "", "%", 1, "AG.LND.FRST.ZS"),
-    wb("renewable-energy", "Renewable Energy Share", "world", "🌱", "Renewables as a share of final energy consumption.", "% of energy", "", "%", 1, "EG.FEC.RNEW.ZS", { minCountries: 120 }),
     wb("co2-per-capita", "CO₂ Emissions per Person", "world", "🏭", "Carbon dioxide emitted per person per year.", "tonnes per person", "", " t", 1, "EN.GHG.CO2.PC.CE.AR5", { minCountries: 120 }),
     wb("income-inequality", "Most Unequal Countries (Gini)", "society", "⚖️", "Gini index of income inequality: 0 is perfect equality, 100 is perfect inequality.", "Gini index", "", "", 1, "SI.POV.GINI", { minCountries: 40 }),
   ];

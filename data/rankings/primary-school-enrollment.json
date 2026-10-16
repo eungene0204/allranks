@@ -1,0 +1,87 @@
+{
+  "id": "primary-school-enrollment",
+  "title": "Highest Primary-School Enrollment",
+  "category": "education",
+  "icon": "🏫",
+  "desc": "Gross primary-school enrollment, including pupils outside the official age range.",
+  "unit": "% gross enrollment",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — School enrollment, primary (% gross)",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.ENRR",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-15T21:10:54.372Z",
+  "items": [
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 128.559
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 120.864
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 111.034
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 105.481
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 100.728
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 100.628
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 100.429
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 100.371
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 98.954
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 97.661
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 97.333
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 94.401
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 93.144
+    }
+  ]
+}

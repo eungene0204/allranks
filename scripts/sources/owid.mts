@@ -8,11 +8,14 @@ import type { Ctx, Fetched, Item, Source } from "../lib/types.mts";
  * Stanford's AI Index, CSET, etc. under CC BY. Like the World Bank adapter, it uses the single latest year that has
  * enough countries, so all rows are from the same year. `code` is ISO-3; OWID's aggregates ("OWID_WRL", regions) have none.
  */
-export function owid(opts: { slug: string; name: string; column?: string; exclude?: string[]; scale?: number; minCountries?: number; note?: string; license?: string }) {
+export function owid(opts: { slug: string; name: string; column?: string; exclude?: string[]; scale?: number; minCountries?: number; note?: string; license?: string; params?: Record<string, string> }) {
   const { slug, scale = 1 } = opts;
   const minCountries = MIN_COUNTRIES_FOR_LATEST; // newest year wins; a per-ranking `minCountries` no longer raises the bar
   return async ({ countries }: Ctx): Promise<Fetched> => {
-    const rows = parseCsv(await getText(`https://ourworldindata.org/grapher/${slug}.csv?useColumnShortNames=true`));
+    const url = new URL(`https://ourworldindata.org/grapher/${slug}.csv`);
+    url.searchParams.set("useColumnShortNames", "true");
+    for (const [key, value] of Object.entries(opts.params ?? {})) url.searchParams.set(key, value);
+    const rows = parseCsv(await getText(url.toString()));
     if (!rows.length) throw new Error(`OWID chart ${slug} came back empty`);
     const valueKey = opts.column ?? Object.keys(rows[0]).find((k) => !["entity", "code", "year", "day"].includes(k));
     if (!valueKey) throw new Error(`OWID chart ${slug} has no value column`);

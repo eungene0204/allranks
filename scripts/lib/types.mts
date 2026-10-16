@@ -32,6 +32,8 @@ export type Ctx = { countries: CountryIndex };
 export type Pipeline = {
   meta: Meta;
   fetch: (ctx: Ctx) => Promise<Fetched>;
+  /** Independent providers for the same metric, tried when the primary is unavailable or behind. */
+  fallbacks?: Array<(ctx: Ctx) => Promise<Fetched>>;
   /** Fewest rows a fetch must return (default 20 for world rankings, 5 for scoped ones). Lower it for naturally short lists, e.g. gold producers. */
   minItems?: number;
 };

@@ -83,20 +83,26 @@ export const countrySummaries = cache(function countrySummaries(): CountrySummar
 });
 
 const searchText = (value: string) => value.normalize("NFKC").toLowerCase();
+const searchWords = (value: string) => searchText(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+const matchesSearch = (value: string, query: string) => {
+  const normalized = searchText(value);
+  if (query.length !== 3) return normalized.includes(query);
+  return searchWords(normalized).includes(query);
+};
 
 export function searchCountries(query: string): CountrySummary[] {
   const q = searchText(query.trim());
   if (!q) return [];
-  return countrySummaries().filter((c) => searchText(c.name).includes(q) || c.code.toLowerCase() === q);
+  return countrySummaries().filter((c) => matchesSearch(c.name, q) || c.code.toLowerCase() === q);
 }
 
 export function searchRankings(query: string): Ranking[] {
   const q = searchText(query.trim());
   if (!q) return [];
   return allRankings().filter((r) =>
-    [r.title, r.short ?? "", r.desc, getCategory(r.category)?.name ?? "",
+    [r.id, r.title, r.short ?? "", r.desc, r.unit, r.source.name, r.source.note ?? "", getCategory(r.category)?.name ?? "",
       ...r.items.flatMap((i) => [i.name, i.detail ?? "", countries().get(i.country)?.name ?? ""]),
-    ].some((value) => searchText(value).includes(q)) || r.items.some((i) => i.country.toLowerCase() === q),
+    ].some((value) => matchesSearch(value, q)) || r.items.some((i) => i.country.toLowerCase() === q),
   );
 }
 
@@ -105,7 +111,7 @@ export function searchEntries(query: string) {
   const q = searchText(query.trim());
   if (!q) return [];
   return allRankings().flatMap((r) => ranked(r)
-    .filter((e) => [e.name, e.detail ?? ""].some((value) => searchText(value).includes(q)))
+    .filter((e) => [e.name, e.detail ?? ""].some((value) => matchesSearch(value, q)))
     .map((entry) => ({ ranking: r, entry })));
 }
 

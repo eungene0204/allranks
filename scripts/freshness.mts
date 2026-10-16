@@ -13,7 +13,7 @@ const dir = new URL("../data/rankings/", import.meta.url);
 const rows = readdirSync(dir)
   .filter((f) => f.endsWith(".json"))
   .map((f) => JSON.parse(readFileSync(new URL(f, dir), "utf8")) as RankingFile)
-  .map((r) => ({ id: r.id, kind: r.source.kind, year: r.year, asOf: r.asOf, source: r.source.name, verified: r.source.verified, n: r.items.length }))
+  .map((r) => ({ id: r.id, kind: r.source.kind, year: Number((r.asOf ?? String(r.year)).slice(0, 4)) || r.year, asOf: r.asOf, source: r.source.name, verified: r.source.verified, n: r.items.length }))
   .sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 
 const stale = rows.filter((r) => thisYear - r.year > maxAge);
@@ -24,7 +24,7 @@ const hist = new Map<number, number>();
 for (const r of rows) hist.set(r.year, (hist.get(r.year) ?? 0) + 1);
 for (const [y, n] of [...hist].sort()) console.log(`  ${y}  ${"█".repeat(Math.ceil(n / 4))} ${n}`);
 
-console.log(`\nStale (data year ≤ ${thisYear - maxAge - 1}): ${stale.length}`);
+console.log(`\nStale (effective data year ≤ ${thisYear - maxAge - 1}): ${stale.length}`);
 const bySource = new Map<string, typeof stale>();
 for (const r of stale) bySource.set(r.source, [...(bySource.get(r.source) ?? []), r]);
 for (const [src, list] of [...bySource].sort((a, b) => b[1].length - a[1].length))

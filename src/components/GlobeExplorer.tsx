@@ -70,7 +70,16 @@ const angleDiff = (from: number, to: number) => {
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 
-export default function GlobeExplorer({ countries }: { countries: CountrySummary[] }) {
+export type GlobeCountry = Omit<CountrySummary, "appearances" | "regional"> & {
+  appearances: CountrySummary["appearances"];
+  appearanceCount: number;
+  leads: CountrySummary["appearances"];
+  leadCount: number;
+  regionalCount: number;
+  regionalIcons: string[];
+};
+
+export default function GlobeExplorer({ countries }: { countries: GlobeCountry[] }) {
   const router = useRouter();
   const wrapRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -114,32 +123,37 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     };
     resize();
 
-    const projection = geoOrthographic().clipAngle(90).precision(0.4);
+    const projection = geoOrthographic().clipAngle(90).clipExtent([[0, 0], [size, size]]).precision(0.7);
     const path = geoPath(projection, ctx);
     const aim = () => {
       const v = view.current;
       projection.translate([size / 2, size / 2]).scale(size * GLOBE_FILL * v.zoom).rotate([-v.lng / DEG, -v.lat / DEG, -TILT / DEG]);
     };
     const graticule = geoGraticule().step([15, 15])();
-    let land = toShapes(countries110);
-    let landIsDetailed = false;
+    const coarse = toShapes(countries110);
+    let land = coarse;
+    let disposed = false;
     // Sharper borders for when the user zooms in; loaded in the background.
     let detailed: Shape[] | null = null;
     import("world-atlas/countries-50m.json").then((m) => {
+      if (disposed) return;
       detailed = toShapes(m.default);
       view.current.dirty = true;
-    });
+    }).catch(() => { /* Keep the coarse map if the detail chunk fails to load. */ });
 
+    const markerState = countries.map(() => ({ visible: false, hit: 0 }));
+    const labelWidths = new Map<string, number>();
+    const labelOrder = new WeakMap<Shape[], Shape[]>();
     const draw = () => {
       const v = view.current;
       const pal = PALETTES[v.dark ? "dark" : "light"];
       const R = size * GLOBE_FILL * v.zoom;
       const cx = size / 2;
       const cy = size / 2;
-      if (detailed && !landIsDetailed && v.zoom > 1.6) {
-        land = detailed;
-        landIsDetailed = true;
-      }
+      const moving = v.dragging || Math.abs(v.zoomTarget - v.zoom) > 0.001 || !!v.target || (v.spin && !reduceMotion);
+      // Detailed coastlines are useful at rest, but too expensive to reproject during a gesture.
+      land = detailed && v.zoom > 1.6 && !moving ? detailed : coarse;
+      projection.clipExtent([[0, 0], [size, size]]).precision(moving ? 1.2 : 0.5);
       aim();
 
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -216,13 +230,22 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
         ctx.lineWidth = 3.5;
         const taken: [number, number, number, number][] = [];
         const labelFade = clamp((v.zoom - LABEL_ZOOM) / 0.4, 0, 1);
-        const order = land
-          .filter((s) => s.name && geoDistance(s.center, here) < 1.35)
-          .sort((a, b) => b.radius - a.radius);
+        let order = labelOrder.get(land);
+        if (!order) {
+          order = land.filter((s) => s.name).sort((a, b) => b.radius - a.radius);
+          labelOrder.set(land, order);
+        }
         for (const { name, center, radius } of order) {
+          if (geoDistance(center, here) >= 1.35) continue;
           const p = projection(center);
           if (!p || p[0] < 0 || p[0] > size || p[1] < 0 || p[1] > size) continue;
-          const w = ctx.measureText(name).width;
+          const widthKey = `${fontPx.toFixed(1)}:${name}`;
+          let w = labelWidths.get(widthKey);
+          if (w === undefined) {
+            w = ctx.measureText(name).width;
+            if (labelWidths.size > 4000) labelWidths.clear();
+            labelWidths.set(widthKey, w);
+          }
           if (radius * R * 2 < w * 0.7) continue; // country too small on screen to carry its name yet
           const x = p[0];
           const y = p[1] + fontPx * 0.6 + 7 * flagScale; // sits just under the country's flag
@@ -239,7 +262,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
       }
 
       // Markers: each ranked country is drawn as its flag; the hit buttons live in the DOM.
-      type Flag = { c: CountrySummary; x: number; y: number; s: number; prio: number };
+      type Flag = { i: number; c: GlobeCountry; x: number; y: number; s: number; prio: number };
       const flags: Flag[] = [];
       countries.forEach((c, i) => {
         const btn = hitRefs.current[i];
@@ -250,12 +273,11 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
           btn.style.left = `${p![0]}px`;
           btn.style.top = `${p![1]}px`;
         }
-        if (btn) btn.style.setProperty("--vis", "0");
         if (!onCanvas) return;
         const sel = c.flag === v.selected;
         // Podium countries get bigger flags; flags shrink toward the limb like the land they sit on.
         const s = (c.top3 > 0 ? 13 + Math.min(c.top3, 5) * 1.2 : 11) * flagScale * (sel ? 1.5 : 1) * (0.6 + 0.4 * Math.cos(d));
-        flags.push({ c, x: p![0], y: p![1], s, prio: sel ? 3 : c.firsts > 0 ? 2 : c.top3 > 0 ? 1 : 0 });
+        flags.push({ i, c, x: p![0], y: p![1], s, prio: sel ? 3 : c.firsts > 0 ? 2 : c.top3 > 0 ? 1 : 0 });
       });
       // Most important flags claim space first; crowded ones (Europe, Pacific islands) appear as you zoom in.
       flags.sort((a, b) => b.prio - a.prio || b.c.top3 - a.c.top3);
@@ -267,9 +289,22 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
         if (f.prio < 2 && used.some((u) => box[0] < u[2] && box[2] > u[0] && box[1] < u[3] && box[3] > u[1])) continue;
         used.push(box);
         shown.push(f);
-        const btn = hitRefs.current[countries.indexOf(f.c)];
-        btn?.style.setProperty("--vis", "1");
-        btn?.style.setProperty("--hit", `${Math.max(24, f.s * 1.7)}px`);
+
+      }
+      const visible = new Set(shown.map((f) => f.i));
+      countries.forEach((_, i) => {
+        const btn = hitRefs.current[i];
+        if (!btn || markerState[i].visible === visible.has(i)) return;
+        markerState[i].visible = visible.has(i);
+        btn.style.setProperty("--vis", visible.has(i) ? "1" : "0");
+        btn.tabIndex = visible.has(i) ? 0 : -1;
+        btn.setAttribute("aria-hidden", String(!visible.has(i)));
+      });
+      for (const f of shown) {
+        const hit = Math.round(Math.max(24, f.s * 1.7));
+        if (markerState[f.i].hit === hit) continue;
+        markerState[f.i].hit = hit;
+        hitRefs.current[f.i]?.style.setProperty("--hit", `${hit}px`);
       }
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
@@ -302,22 +337,31 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     io.observe(wrap);
 
     let raf = 0;
-    const tick = () => {
+    let previousTime = 0;
+    const tick = (time: number) => {
       raf = requestAnimationFrame(tick);
-      if (!onScreen) return;
+      const dt = previousTime ? Math.min((time - previousTime) / 1000, 0.05) : 1 / 60;
+      previousTime = time;
+      if (!onScreen || document.hidden) return;
+      const turnEase = 1 - Math.exp(-5 * dt);
+      const zoomEase = 1 - Math.exp(-12 * dt);
       const v = view.current;
       if (!v.dragging) {
         if (v.target) {
-          v.lng += angleDiff(v.lng, v.target[0]) * 0.08;
-          v.lat += (v.target[1] - v.lat) * 0.08;
+          v.lng += angleDiff(v.lng, v.target[0]) * turnEase;
+          v.lat += (v.target[1] - v.lat) * turnEase;
+          if (Math.abs(angleDiff(v.lng, v.target[0])) < 0.0001 && Math.abs(v.target[1] - v.lat) < 0.0001) {
+            [v.lng, v.lat] = v.target;
+            v.target = null;
+          }
           v.dirty = true;
         } else if (v.spin && !reduceMotion) {
-          v.lng += 0.0025 / Math.sqrt(v.zoom);
+          v.lng += 0.15 * dt / Math.sqrt(v.zoom);
           v.dirty = true;
         }
       }
       if (Math.abs(v.zoomTarget - v.zoom) > 0.001) {
-        v.zoom += (v.zoomTarget - v.zoom) * 0.35;
+        v.zoom += (v.zoomTarget - v.zoom) * zoomEase;
         v.dirty = true;
         // Zoom around the cursor: turn the globe until the anchored point is back under it.
         if (v.anchor && !v.target && !v.dragging) {
@@ -333,6 +377,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
           }
         }
       } else {
+        if (v.zoom !== v.zoomTarget) v.dirty = true;
         v.zoom = v.zoomTarget;
         v.anchor = null;
       }
@@ -347,6 +392,8 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     // Once fully zoomed out, scrolling down falls through so the page can still be scrolled.
     const onWheel = (e: WheelEvent) => {
       const v = view.current;
+      v.spin = false;
+      v.target = null;
       const px = e.deltaY * (e.deltaMode === 1 ? 33 : e.deltaMode === 2 ? 400 : 1);
       if (px > 0 && v.zoomTarget <= MIN_ZOOM) return;
       e.preventDefault();
@@ -365,6 +412,9 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     let gestureStart = 1;
     const onGestureStart = (e: Event) => {
       e.preventDefault();
+      view.current.spin = false;
+      view.current.target = null;
+      view.current.anchor = null;
       gestureStart = view.current.zoomTarget;
     };
     const onGestureChange = (e: Event) => {
@@ -381,6 +431,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
     mq.addEventListener("change", onTheme);
 
     return () => {
+      disposed = true;
       cancelAnimationFrame(raf);
       io.disconnect();
       ro.disconnect();
@@ -433,6 +484,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
   };
   const onPointerUp = () => {
     view.current.dragging = false;
+    view.current.dirty = true;
   };
 
   return (
@@ -449,7 +501,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
           <canvas ref={canvasRef} aria-label="Interactive globe showing countries that appear in rankings" role="img" />
         </div>
         {countries.map((c, i) => {
-          const leads = c.appearances.filter((a) => a.rank === 1);
+          const leads = c.leads;
           const shown = c.appearances.slice(0, TIP_LINES);
           return (
             <Link
@@ -458,20 +510,20 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
               prefetch={false}
               onMouseEnter={() => router.prefetch(`/country/${c.code}`)}
               onFocus={() => router.prefetch(`/country/${c.code}`)}
-              className={`marker-hit ${c.flag === selected ? "on" : ""} ${leads.length ? "has-lead" : ""}`}
-              aria-label={`${c.name}: ${c.appearances.length} rankings${leads.length ? `, #1 in ${leads.map((l) => l.title).join(", ")}` : ""}. Open details`}
+              className={`marker-hit ${c.flag === selected ? "on" : ""} ${c.firsts ? "has-lead" : ""}`}
+              aria-label={`${c.name}: ${c.appearanceCount} rankings${c.firsts ? `, #1 in ${leads.map((l) => l.title).join(", ")}` : ""}. Open details`}
               ref={(el) => {
                 hitRefs.current[i] = el;
               }}
             >
-              {leads.length > 0 && (
+              {c.firsts > 0 && (
                 <span className="badges">
                   {leads.slice(0, 3).map((l) => (
                     <span className="badge" key={l.id}>
                       <Mark icon={l.icon} logo={l.logo} />
                     </span>
                   ))}
-                  {leads.length > 3 && <span className="badge more">+{leads.length - 3}</span>}
+                  {c.leadCount > 3 && <span className="badge more">+{c.leadCount - 3}</span>}
                 </span>
               )}
               <span className="tip">
@@ -479,7 +531,7 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
                   {c.flag} {c.name}
                 </b>
                 <span className="tip-sub">
-                  {c.firsts} × #1 · {c.top3} × top 3 · {c.appearances.length} ranking{c.appearances.length === 1 ? "" : "s"}
+                  {c.firsts} × #1 · {c.top3} × top 3 · {c.appearanceCount} ranking{c.appearanceCount === 1 ? "" : "s"}
                 </span>
                 {shown.map((a) => (
                   <span className="tip-line" key={a.id}>
@@ -491,11 +543,11 @@ export default function GlobeExplorer({ countries }: { countries: CountrySummary
                     <span className="tip-val">{a.value}</span>
                   </span>
                 ))}
-                {c.appearances.length > shown.length && <span className="tip-sub">+{c.appearances.length - shown.length} more rankings</span>}
-                {c.regional.length > 0 && (
+                {c.appearanceCount > shown.length && <span className="tip-sub">+{c.appearanceCount - shown.length} more rankings</span>}
+                {c.regionalCount > 0 && (
                   <span className="tip-sub">
-                    {c.regional.length} rankings only in {c.name}: {c.regional.slice(0, 8).map((r) => r.icon).join(" ")}
-                    {c.regional.length > 8 && " …"}
+                    {c.regionalCount} rankings only in {c.name}: {c.regionalIcons.join(" ")}
+                    {c.regionalCount > 8 && " …"}
                   </span>
                 )}
                 <span className="tip-cta">Click for full details →</span>

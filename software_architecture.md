@@ -32,6 +32,8 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
+홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
+
 ## 3. 디렉터리 구조
 
 ```
@@ -39,7 +41,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 649개: 세계 91 + US 25 + 기타 165개국 533)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 875개: 세계 500 + 국가 한정 375)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -47,6 +49,8 @@ scripts/
   validate.mts              data/rankings 검증 (prebuild에서 자동 실행)
   countries.mts             countries.json 갱신
   registry.mts              자동 랭킹 등록부 (메타데이터 + 소스 어댑터 연결)
+  expanded-worldbank.mts    2025년 이후 관측치가 확인된 세계 랭킹 92개 정의(지표 코드·설명·단위)
+  worldbank-500.mts          세계 랭킹 500개 목표의 추가 지표 300개 정의(공식 지표 코드·설명·단위)
   topics.mts                AI·Markets·Energy·Money·Demographics·Mining·Autos·Green 랭킹 39개 정의
   regional/geonames.mts      지역 랭킹이 없는 나라의 대도시 순위(GeoNames cities15000 덤프 1회 다운로드·zip 해제, 도시 5개 미만 국가는 `NO_CITIES` 로 제외)
   regional/wikidata.mts      위키피디아 표가 없는 나라의 1차 행정구역 인구(Wikidata SPARQL, 구역별 최신 기준일 값, `WIKIDATA_REGIONS` 목록)
@@ -63,7 +67,7 @@ scripts/
   lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
   viz-report.mts            랭킹별 시각화 선택 보고 (`npm run viz:report [-- <id>…]`)
   map-codes.mts             지도 도형 이름 → ISO 코드 매핑(data/map-codes.json) 생성 (`npm run data:map`)
-  sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
+  sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, cpi(Transparency International CPI CSV mirror), rsf(공식 페이지에서 최신 연판 CSV 발견), wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
 src/
   lib/site.ts                        배포 환경변수(ADSENSE_CLIENT, CONTACT_EMAIL, SITE_URL)
   app/
@@ -78,8 +82,8 @@ src/
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
     RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Regions·Packed·Waffle·Strip·Histogram·Scatter·Diverging·Bubbles·Podium·Lollipop) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
-    CountryRegional.tsx 국가 페이지의 지역(주·도시 등) 랭킹 탭
-    SearchForm.tsx      홈·검색 결과 페이지 공유 GET 검색 폼 (/search?q=…)
+    CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표
+    SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 후 180ms 디바운스로 router.replace(`/search?q=…`)를 호출해 서버 결과 갱신
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
   lib/
     types.ts            웹과 스크립트가 공유하는 타입 (RankingFile 등)
@@ -115,7 +119,13 @@ public/logos/           항목 로고 (<domain>.png)
 4. `validate.mts`가 스키마·국가 코드·중복·카테고리를 검사한다. 오류면 빌드 실패, 120일 초과 자동 데이터는 경고.
 5. 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
 
+WIN 2026 Worldviews Survey의 국가별 반려동물 보유 응답률은 `pet-*-ownership.json` 6개 수동 랭킹으로 저장한다. 44,000건의 설문에서 응답자가 집에 해당 동물이 있다고 답한 비율이며, 국가별 표본 범위 차이와 영국 미포함을 출처 설명에 표시한다.
+
 Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표의 JSON API를 읽어 `us-highest-paid-ceos`로 저장한다. 정확히 100행·7열, 달러 정수·내림차순을 검증하며, CEO 이름·회사/티커·2025 회계연도 보상액을 보존한다. `scope: "US"`는 조사 대상 기업의 범위이고 CEO 국적이 아니다. `VIZ_OVERRIDES`에서 로그 축 점 분포를 지정해 CEO별 보상을 전체 범위에서 비교하고 각 점에 hover 정보를 제공한다. 아래 표의 비교 막대도 1천만 달러 기준 로그 축을 사용한다. 갱신 명령: `npm run data:update -- us-highest-paid-ceos`. 랭킹 표의 값 열은 `max-content`까지 늘어나 큰 달러 금액도 잘리지 않는다(모바일은 이름 열이 줄어듦).
+
+재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
+
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 기준연도 2025 이상인 결과 중 가장 최신 자료를 채택한다. 2025년은 하한이지 조회 대상 연도를 고정하는 값이 아니다. World Bank 어댑터는 현재 연도까지 API를 조회하고, OWID 어댑터는 CSV에서 가장 최근 연도를 선택한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 2025년 이상 스냅샷만 보존하고, 2025년 이상 자료가 확인되지 않으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 이후 자료 공개 때 파일이 다시 생성된다. 오래된 결과만 반환하는 일부 지표는 대체 통계가 없으면 웹 목록에서 빠진다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`와 `worldbank-500.mts`의 추가 392개 지표는 공식 API에서 2025년 이후 국가별 관측치를 확인한 뒤 등록했다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 500개와 국가별 375개로 총 875개 랭킹이다.
 
 ### 5.1 데이터 수집 에이전트
 
@@ -154,19 +164,24 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 - 모든 페이지는 빌드 시 `src/lib/data.ts`가 `data/`를 읽어 정적으로 생성된다 (`generateStaticParams` 사용).
 - `data.ts`는 `server-only`; 프로덕션에서는 랭킹 목록을 메모리에 캐시한다.
-- `GlobeExplorer`만 클라이언트 컴포넌트이며, 서버에서 만든 `CountrySummary[]`를 props로 받는다.
+- `GlobeExplorer`는 서버에서 축약한 `GlobeCountry[]`를 받는 클라이언트 컴포넌트다. 국가별 전체 랭킹 이력 대신 요약 6개·1위 배지 3개·지역 아이콘 8개와 전체 개수만 전달해 랭킹 증가에 따른 직렬화·hydration 비용을 제한한다.
+- 지구본은 Canvas와 d3 orthographic 투영을 유지한다. 회전·드래그·줌 중에는 110m 지도와 완화된 투영 정밀도를 사용하고 확대 정지 상태에서는 비동기로 로드한 50m 지도로 전환한다. 투영은 캔버스 영역으로 클리핑한다.
+- 국기 라벨 정렬·문자 폭을 캐시한다. 국기 링크는 원래의 `left/top` 좌표와 Canvas 이모지 렌더링을 유지하며, 표시·히트 영역 변경만 반영한다. 숨긴 국기 링크는 키보드 탐색에서 제외한다.
+- 회전·줌 보간은 rAF 경과 시간 기준이며 휠/핀치 조작 시 자동 회전을 종료한다. 화면 밖·비활성 탭에서는 그리기를 생략한다. 지구본 영역의 터치 드래그는 브라우저 페이지 스크롤 대신 지구본 회전에 사용한다.
 - 국가 순위 집계: 1위 횟수 → 3위 이내 횟수 → 등장 횟수 → 이름순.
 - 사이트 URL은 `src/lib/site.ts`의 `SITE_URL`(`NEXT_PUBLIC_SITE_URL`, 없으면 `https://allranks.world`)을 사이트맵과 `metadataBase`에서 사용한다. 호스팅은 Vercel.
 - 광고: `src/lib/site.ts`의 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT`로 덮어쓰기, `off`면 비활성)가 유효하면 `layout.tsx`가 `next/script`로 AdSense 스크립트와 `google-adsense-account` 메타를 넣고 `/ads.txt` 가 활성화된다. 연락처는 기본 `allworldranks@gmail.com`이고 `NEXT_PUBLIC_CONTACT_EMAIL`로 바꿀 수 있다. 환경변수는 빌드 때 고정되므로 바꾸면 다시 빌드한다.
 
 ## 7. 확장 지점
 
-홈 소개 문구는 `src/app/page.tsx`의 제목 “One planet. A world of rankings.”와 설명 “From economic power to everyday prices — explore the world in a different order.”로 구성한다.
+홈 및 검색 결과 페이지가 공유하는 `SearchForm`은 입력 상태를 가진 Client Component다. 입력값은 즉시 표시하고 180ms 디바운스 후 `router.replace`로 검색 URL을 갱신한다. 검색 결과 데이터는 기존처럼 서버 전용 JSON 로더에서 검색하며 전체 색인을 클라이언트로 보내지 않는다. 검색 폼에는 입력 중 결과 갱신을 설명하는 보조 문구를 표시하지 않는다.
 
-지구본 아래에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
+홈 소개 문구는 `src/app/page.tsx`의 제목 “No country tops everything.”와 설명 “From universities to GDP, fuel to Big Macs — discover where each country stands.”로 구성한다.
+
+홈 지구본 아래, Popular rankings 위에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
 국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다.
-문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다.
-추가 클라이언트 데이터나 API 없이 서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다.
+문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 3글자 검색어는 단어 경계 기준으로 일치시켜 `cat`이 `education` 내부에서 일치하는 잡음을 줄인다. 랭킹 검색은 ID·단위·출처명·출처 설명도 대상으로 하므로 `pet`이나 `cat`으로 반려동물 랭킹을 찾을 수 있다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다.
+서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다. 검색 입력은 App Router 클라이언트 탐색으로 결과를 갱신하고, 명시적 Search 제출도 계속 지원한다.
 
 홈 지구본 하단의 국가 리더보드, 선택 국가 상세 패널, 국가 선택 칩 목록을 제거했다.
 `GlobeExplorer`는 지구본·국기 툴팁만 렌더링하며, 삭제된 패널과 조작 안내 전용 상태·스타일도 제거했다.
@@ -190,3 +205,6 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 - 배포 대상/호스팅은 아직 정해지지 않음 (`project_plan.md` 참조).
 - 테스트 프레임워크 없음. 현재 품질 게이트는 `tsc --noEmit` + `data:validate`.
 - 데이터가 JSON 파일이므로 랭킹/항목 수가 크게 늘면 빌드 시간·저장소 크기 재검토 필요.
+
+
+`rsf.mts`는 RSF 공식 인덱스에서 최신 연도 CSV 링크를 찾아 ISO-3 코드로 정규화한 뒤 세계 언론자유 점수를 저장한다. `cpi.mts`는 Transparency International의 최신 CPI 연판을 출처·변환 내역이 명시된 Nations Inquiry 데이터 인덱스에서 찾아 CSV로 읽는다. 2026-10-16 현재 새 파이프라인은 각각 2026년 177개국, 2025년 182개국을 수집한다.

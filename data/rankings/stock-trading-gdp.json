@@ -1,0 +1,357 @@
+{
+  "id": "stock-trading-gdp",
+  "title": "Most Stock Trading Relative to GDP",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Value of stocks traded during the year as a share of GDP.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Stocks traded, total value (% of GDP)",
+    "url": "https://data.worldbank.org/indicator/CM.MKT.TRAD.GD.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T10:57:36.270Z",
+  "items": [
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 1372.421
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 303.706
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 187.931
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 180.259
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 176.336
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 125.981
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 85.617
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 72.657
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 66.517
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 61.2
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 61.172
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 52.174
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 50.303
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 45.312
+    },
+    {
+      "name": "Vietnam",
+      "country": "VN",
+      "value": 43.961
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 29.93
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 29.398
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 26.904
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 26.081
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 24.618
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 17.146
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 15.41
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 14.925
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 13.435
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 11.763
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 9.425
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 7.594
+    },
+    {
+      "name": "Morocco",
+      "country": "MA",
+      "value": 7.267
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 6.933
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 6.751
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 6.503
+    },
+    {
+      "name": "Iran",
+      "country": "IR",
+      "value": 6.038
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 5.298
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 5.049
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 4.978
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 4.898
+    },
+    {
+      "name": "Seychelles",
+      "country": "SC",
+      "value": 3.492
+    },
+    {
+      "name": "Bahrain",
+      "country": "BH",
+      "value": 3.306
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 2.892
+    },
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 2.232
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 2.165
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 2.075
+    },
+    {
+      "name": "Jamaica",
+      "country": "JM",
+      "value": 1.86
+    },
+    {
+      "name": "Tunisia",
+      "country": "TN",
+      "value": 1.84
+    },
+    {
+      "name": "Botswana",
+      "country": "BW",
+      "value": 1.811
+    },
+    {
+      "name": "Mauritius",
+      "country": "MU",
+      "value": 1.604
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 1.585
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 1.124
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 1.013
+    },
+    {
+      "name": "Romania",
+      "country": "RO",
+      "value": 0.733
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0.588
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 0.587
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 0.523
+    },
+    {
+      "name": "Cyprus",
+      "country": "CY",
+      "value": 0.408
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 0.399
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 0.307
+    },
+    {
+      "name": "Bulgaria",
+      "country": "BG",
+      "value": 0.243
+    },
+    {
+      "name": "Malta",
+      "country": "MT",
+      "value": 0.208
+    },
+    {
+      "name": "Tanzania",
+      "country": "TZ",
+      "value": 0.195
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 0.192
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 0.076
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 0.036
+    },
+    {
+      "name": "Rwanda",
+      "country": "RW",
+      "value": 0.025
+    },
+    {
+      "name": "Belarus",
+      "country": "BY",
+      "value": 0.014
+    },
+    {
+      "name": "Azerbaijan",
+      "country": "AZ",
+      "value": 0.012
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 0.01
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 0.01
+    }
+  ]
+}
