@@ -2,18 +2,15 @@ import SearchForm from "@/components/SearchForm";
 import GlobeExplorer from "@/components/GlobeExplorer";
 import RandomRankingCards from "@/components/RandomRankingCards";
 import { allRankings, countrySummaries } from "@/lib/data";
+import { latestHomeRankings, popularHomeRankings } from "@/lib/home-rankings";
+import Link from "next/link";
 
 export default function HomePage() {
   const countries = countrySummaries();
   // Country-specific rankings (US states…) live on their country page; the home page shows the world ones.
   const rankings = allRankings().filter((r) => !r.scope);
-  const currentYear = new Date().getFullYear();
-  const latestRankings = rankings
-    .filter((ranking) => ranking.year === currentYear)
-    .sort((a, b) => b.year - a.year || (b.asOf ?? "").localeCompare(a.asOf ?? "") || b.updatedAt.localeCompare(a.updatedAt))
-    .slice(0, 6);
-  const latestIds = new Set(latestRankings.map((ranking) => ranking.id));
-  const popularRankings = rankings.filter((ranking) => !latestIds.has(ranking.id));
+  const latestRankings = latestHomeRankings(rankings);
+  const popularRankings = popularHomeRankings(rankings);
   return (
     <>
       <section className="hero center">
@@ -42,7 +39,12 @@ export default function HomePage() {
       <RandomRankingCards rankings={latestRankings} shuffle={false} />
 
       <h2 className="section">Popular rankings</h2>
-      <RandomRankingCards rankings={popularRankings} />
+      <RandomRankingCards rankings={popularRankings} limit={10} />
+      {popularRankings.length > 10 && (
+        <div className="more-rankings">
+          <Link className="more-rankings-link" href="/popular">More</Link>
+        </div>
+      )}
     </>
   );
 }

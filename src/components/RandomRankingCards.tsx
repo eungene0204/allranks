@@ -13,7 +13,7 @@ function shuffled<T>(items: T[]): T[] {
   return result;
 }
 
-export default function RandomRankingCards({ rankings, shuffle = true }: { rankings: Ranking[]; shuffle?: boolean }) {
+export default function RandomRankingCards({ rankings, shuffle = true, limit }: { rankings: Ranking[]; shuffle?: boolean; limit?: number }) {
   const [ordered, setOrdered] = useState(rankings);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function RandomRankingCards({ rankings, shuffle = true }: { ranki
 
   return (
     <div className="cards">
-      {ordered.map((ranking) => <RankingCard key={ranking.id} ranking={ranking} />)}
+      {(limit === undefined ? ordered : ordered.slice(0, limit)).map((ranking) => <RankingCard key={ranking.id} ranking={ranking} />)}
     </div>
   );
 }

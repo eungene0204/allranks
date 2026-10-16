@@ -32,7 +32,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
-홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
+홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서 무작위 10개를 보여주며 `/popular` 페이지에서 전체 선정 목록을 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
 
 ## 3. 디렉터리 구조
 
@@ -73,6 +73,7 @@ src/
   app/
     layout.tsx, globals.css, not-found.tsx, sitemap.ts, robots.ts(전체 허용·`/search` 제외·사이트맵 위치)
     page.tsx                         홈 (지구본 + 랭킹 카드, 카테고리 탐색은 헤더에서 제공)
+    popular/page.tsx                 전체 인기 세계 랭킹 목록
     ranking/[id]/page.tsx            랭킹 상세
     category/[id]/page.tsx           카테고리별 목록
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)

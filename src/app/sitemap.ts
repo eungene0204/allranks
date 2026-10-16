@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL;
   return [
     { url: base },
+    { url: `${base}/popular` },
     ...["about", "methodology", "privacy"].map((p) => ({ url: `${base}/${p}` })),
     ...CATEGORIES.map((c) => ({ url: `${base}/category/${c.id}` })),
     ...allRankings().map((r) => ({ url: `${base}/ranking/${r.id}` })),
