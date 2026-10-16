@@ -223,7 +223,7 @@ function usRankings(): Pipeline[] {
     us("us-poverty", "US States by Poverty Rate", "economy", "🏚️", "Share of residents living below the federal poverty line.", "% of residents", "", "%", 1, usPoverty),
     us("us-gdp", "US States by GDP", "economy", "💰", "Total value of goods and services produced in each state, in current US dollars.", "USD billion", "$", "B", 0, usGdp("total")),
     us("us-gdp-per-capita", "US States by GDP per Capita", "economy", "💹", "Economic output per resident in each state, in current US dollars.", "USD per person", "$", "", 0, usGdp("per-capita")),
-    us("us-largest-companies", "Largest US Companies by Revenue", "economy", "🏢", "The 100 biggest companies headquartered in the United States, ranked by annual revenue.", "USD billion", "$", "B", 1, usCompanies),
+    us("us-largest-companies", "Largest US Companies by Revenue", "markets", "🏢", "The 100 biggest companies headquartered in the United States, ranked by annual revenue.", "USD billion", "$", "B", 1, usCompanies),
     // Society
     us("us-state-population", "US States by Population", "society", "👥", "Estimated resident population of each state and Washington, D.C.", "million people", "", "M", 2, usStatePopulation),
     us("us-population-density", "US States by Population Density", "society", "🏙️", "People per square mile of land area.", "people per sq mi", "", "", 0, usPopulationDensity),

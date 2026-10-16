@@ -47,7 +47,7 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 | FR-12 | 헤더 카테고리는 World Records를 포함해 한 줄로 가운데 정렬하고, 공간이 부족하면 가로 스크롤로 전체 이름에 접근할 수 있어야 한다 | ✅ |
 | FR-13 | 랭킹 카드의 긴 항목 이름은 말줄임표로 표시하여 값이 카드 밖으로 벗어나지 않도록 하고, 마우스를 올리면 전체 이름을 제공한다 | ✅ |
 | FR-52 | 랭킹 카드의 순위 숫자는 18px, 원형 배지는 32px로 표시하여 순위를 쉽게 읽을 수 있도록 한다 | ✅ |
-| FR-17 | 헤더 메뉴는 7개 카테고리(Economy, Education, Technology, AI, Society & Health, Energy & Industry, World Records)로 통합해 제공한다. 이전의 Prices·Markets·Money는 Economy, AI는 독립 유지, Health·Demographics는 Society & Health, Mining·Autos·Green은 Energy & Industry에 속한다. Maps는 분야 분류에서 제외한다 | ✅ |
+| FR-17 | 헤더 메뉴는 8개 카테고리(Economy, Markets, Education, Technology, AI, Society & Health, Energy & Industry, World Records)를 제공한다. 주식시장·상장사·기업 규모·투자 흐름과 시장 경쟁 랭킹은 Markets에 분류하고, GDP·소득·물가·일반 무역 등은 Economy에 둔다. Maps는 분야 분류에서 제외한다 | ✅ |
 | FR-18 | 등록된 랭킹이 없는 카테고리는 분야 설명과 준비 중 안내를 표시한다 | ✅ |
 | FR-19 | 홈에서 소개 영역, 지구본, 통합 검색창, LATEST 랭킹 그룹, Popular rankings 그룹을 순서대로 표시한다. LATEST에는 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹 중 세부 기준 시점이 최신인 6개를 보여주고 인기 그룹과 중복하지 않는다. Popular rankings는 대중 관심도·국가 간 비교 용이성을 기준으로 편집 선정한 랭킹만 포함하며(페이지뷰 분석 없음), 홈에서 10개만 보여주고 More 버튼으로 전체 목록 페이지에 이동한다. 지구본 하단에 국가 리더보드·선택 국가 상세 패널·국가 선택 버튼 목록·조작 안내 문구는 표시하지 않는다 | ✅ |
 | FR-50 | 검색 결과에서 검색어를 수정할 수 있다. 일치 항목은 전체 랭킹 기준 순위·값·연도를 표시하며 100개 초과 시 표시 한도와 전체 개수를 안내한다 | ✅ |

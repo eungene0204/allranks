@@ -91,11 +91,11 @@ export const TOPICS: Pipeline[] = [
   wb("high-tech-exports", "Largest High-Tech Exporters", "ai", "🛰️", "Exports of products with high research-and-development intensity (computers, electronics, aerospace, pharmaceuticals), in current US dollars.", "USD billion", "$", "B", 0, "TX.VAL.TECH.CD", { scale: 1e-9, minCountries: 100 }),
   wb("ict-services-exports", "Largest IT and Software Services Exporters", "ai", "💻", "Exports of computer, information and telecommunications services, in current US dollars.", "USD billion", "$", "B", 1, "BX.GSR.CCIS.CD", { scale: 1e-9, minCountries: 100 }),
   // ── Markets ────────────────────────────────────────────────────────────────
-  wb("stock-market-cap", "Largest Stock Markets", "economy", "📈", "Combined market value of the companies listed on each country's stock exchanges, in current US dollars.", "USD trillion", "$", "T", 1, "CM.MKT.LCAP.CD", { scale: 1e-12, minCountries: 40 }),
-  wb("stock-market-cap-gdp", "Stock Market Size Relative to GDP", "economy", "⚖️", "Market value of listed domestic companies as a share of the country's GDP.", "% of GDP", "", "%", 0, "CM.MKT.LCAP.GD.ZS", { minCountries: 40 }),
-  wb("listed-companies", "Most Listed Companies", "economy", "🏷️", "Number of domestic companies listed on a country's stock exchanges.", "listed companies", "", "", 0, "CM.MKT.LDOM.NO", { minCountries: 40 }),
+  wb("stock-market-cap", "Largest Stock Markets", "markets", "📈", "Combined market value of the companies listed on each country's stock exchanges, in current US dollars.", "USD trillion", "$", "T", 1, "CM.MKT.LCAP.CD", { scale: 1e-12, minCountries: 40 }),
+  wb("stock-market-cap-gdp", "Stock Market Size Relative to GDP", "markets", "⚖️", "Market value of listed domestic companies as a share of the country's GDP.", "% of GDP", "", "%", 0, "CM.MKT.LCAP.GD.ZS", { minCountries: 40 }),
+  wb("listed-companies", "Most Listed Companies", "markets", "🏷️", "Number of domestic companies listed on a country's stock exchanges.", "listed companies", "", "", 0, "CM.MKT.LDOM.NO", { minCountries: 40 }),
   {
-    meta: meta("largest-companies", "Largest Companies in the World by Revenue", "economy", "🏢", "The 50 biggest companies by annual revenue, shown with the country of their headquarters.", "USD billion", "$", "B", 0, { multi: true }),
+    meta: meta("largest-companies", "Largest Companies in the World by Revenue", "markets", "🏢", "The 50 biggest companies by annual revenue, shown with the country of their headquarters.", "USD billion", "$", "B", 0, { multi: true }),
     fetch: largestCompanies(),
   },
 
@@ -154,9 +154,9 @@ export const TOPICS: Pipeline[] = [
   wb("gdp-ppp", "Largest Economies by Purchasing Power", "economy", "🛒", "Gross domestic product adjusted for differences in local prices, in current international dollars.", "intl. USD trillion", "$", "T", 2, "NY.GDP.MKTP.PP.CD", { scale: 1e-12 }),
   wb("gdp-per-capita-constant", "GDP per Person (Inflation-Adjusted)", "economy", "💹", "Gross domestic product per person in constant 2015 US dollars.", "constant 2015 USD per person", "$", "", 0, "NY.GDP.PCAP.KD"),
   wb("current-account-gdp", "Largest Current-Account Surpluses", "economy", "⚖️", "Current-account balance as a share of GDP. Negative values are deficits.", "% of GDP", "", "%", 1, "BN.CAB.XOKA.GD.ZS"),
-  wb("foreign-investment-gdp", "Foreign Investment Relative to GDP", "economy", "🌐", "Net foreign direct investment inflows as a share of GDP.", "% of GDP", "", "%", 1, "BX.KLT.DINV.WD.GD.ZS"),
+  wb("foreign-investment-gdp", "Foreign Investment Relative to GDP", "markets", "🌐", "Net foreign direct investment inflows as a share of GDP.", "% of GDP", "", "%", 1, "BX.KLT.DINV.WD.GD.ZS"),
   wb("government-consumption", "Largest Government Consumers", "economy", "🏛️", "General-government final consumption expenditure in current US dollars.", "USD billion", "$", "B", 1, "NE.CON.GOVT.CD", { scale: 1e-9 }),
-  wb("household-consumption", "Largest Household Consumer Markets", "economy", "🛍️", "Household and nonprofit final consumption expenditure in current US dollars.", "USD billion", "$", "B", 1, "NE.CON.PRVT.CD", { scale: 1e-9 }),
+  wb("household-consumption", "Largest Household Consumer Markets", "markets", "🛍️", "Household and nonprofit final consumption expenditure in current US dollars.", "USD billion", "$", "B", 1, "NE.CON.PRVT.CD", { scale: 1e-9 }),
   wb("goods-services-exports", "Largest Exporters of Goods and Services", "economy", "🚢", "Exports of goods and services in current US dollars.", "USD billion", "$", "B", 1, "NE.EXP.GNFS.CD", { scale: 1e-9 }),
   wb("goods-services-imports", "Largest Importers of Goods and Services", "economy", "📦", "Imports of goods and services in current US dollars.", "USD billion", "$", "B", 1, "NE.IMP.GNFS.CD", { scale: 1e-9 }),
   wb("external-balance-gdp", "Largest Trade Surpluses Relative to GDP", "economy", "⚖️", "Exports minus imports of goods and services as a share of GDP.", "% of GDP", "", "%", 1, "NE.RSB.GNFS.ZS"),
@@ -192,7 +192,7 @@ export const TOPICS: Pipeline[] = [
   wb("fixed-broadband", "Most Fixed-Broadband Subscriptions", "tech", "🛜", "Fixed-broadband subscriptions per 100 people.", "subscriptions per 100 people", "", "", 1, "IT.NET.BBND.P2"),
   wb("remittances", "Most Remittances Received", "economy", "📨", "Money sent home by workers abroad, per year, in current US dollars.", "USD billion", "$", "B", 1, "BX.TRF.PWKR.CD.DT", { scale: 1e-9, minCountries: 100 }),
   wb("remittances-gdp", "Most Dependent on Remittances", "economy", "💱", "Personal remittances received as a share of GDP.", "% of GDP", "", "%", 1, "BX.TRF.PWKR.DT.GD.ZS", { minCountries: 100 }),
-  wb("fdi-inflows", "Most Foreign Direct Investment", "economy", "🌐", "Net inflows of foreign direct investment, in current US dollars. Negative when investors pulled out more than they put in.", "USD billion", "$", "B", 1, "BX.KLT.DINV.CD.WD", { scale: 1e-9 }),
+  wb("fdi-inflows", "Most Foreign Direct Investment", "markets", "🌐", "Net inflows of foreign direct investment, in current US dollars. Negative when investors pulled out more than they put in.", "USD billion", "$", "B", 1, "BX.KLT.DINV.CD.WD", { scale: 1e-9 }),
   wb("private-credit", "Most Bank Credit to the Private Sector", "economy", "🏧", "Loans and credit that banks extend to businesses and households, as a share of GDP.", "% of GDP", "", "%", 0, "FS.AST.PRVT.GD.ZS", { minCountries: 100 }),
   {
     meta: meta("government-debt", "Highest Government Debt", "economy", "📉", "General government gross debt as a share of GDP.", "% of GDP", "", "%", 1),

@@ -1,7 +1,8 @@
 export type Category = { id: string; name: string; icon: string; blurb: string };
 
 export const CATEGORIES: Category[] = [
-  { id: "economy", name: "Economy", icon: "💰", blurb: "GDP, income, trade, markets, money & prices" },
+  { id: "economy", name: "Economy", icon: "💰", blurb: "GDP, income, trade, money & prices" },
+  { id: "markets", name: "Markets", icon: "📈", blurb: "Stock markets, listed companies & investment flows" },
   { id: "education", name: "Education", icon: "🎓", blurb: "Universities & schools" },
   { id: "tech", name: "Technology", icon: "📡", blurb: "Internet speed & connectivity" },
   { id: "ai", name: "AI", icon: "🤖", blurb: "AI models, adoption & investment" },

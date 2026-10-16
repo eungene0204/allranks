@@ -188,7 +188,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 `GlobeExplorer`는 지구본·국기 툴팁만 렌더링하며, 삭제된 패널과 조작 안내 전용 상태·스타일도 제거했다.
 국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
 
-카테고리 등록부는 헤더 메뉴가 길어지는 것을 막기 위해 7개로 통합했다(ai는 독립 유지). prices·markets·money→`economy`, health·demographics→`society`, mining·autos·green→`energy`(Energy & Industry)로 합쳤고, 각 `data/rankings/*.json`의 `category`와 `scripts/` 파이프라인 정의도 같은 ID로 바꿨다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다.
+현재 카테고리 등록부는 8개 상단 메뉴를 정의한다. Markets는 주식시장 규모·거래, 상장사·기업 매출, 외국인 직접·포트폴리오 투자, 가계 소비시장, 시장 경쟁 지표를 모은다. 이 랭킹들의 JSON과 자동 수집 파이프라인 정의는 모두 `markets` 카테고리를 사용한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다. 과거 분류 변경 내역은 프로젝트 계획 이력에 기록한다.
 데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |
