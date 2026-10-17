@@ -12,13 +12,13 @@ import type { Ranking } from "./types";
 //   diverging  values that go below zero                               → bars on both sides of zero
 //   bubbles    a list of things that each sit in a country             → bubble per country, sized by entries
 //   podium     a short list led by a clear winner                      → three big cards
-//   lollipop   a short list without a runaway leader                   → dot-and-stem leaderboard
+//   radial     a short list without a runaway leader                   → radial leaderboard
 export type VizKind =
   | "map" | "treemap" | "regions" | "packed" | "waffle" | "strip" | "histogram" | "dots"
-  | "scatter" | "diverging" | "bubbles" | "podium" | "lollipop";
+  | "scatter" | "diverging" | "bubbles" | "podium" | "radial";
 
 export const VIZ_KINDS: VizKind[] = [
-  "map", "treemap", "regions", "packed", "waffle", "strip", "histogram", "dots", "scatter", "diverging", "bubbles", "podium", "lollipop",
+  "map", "treemap", "regions", "packed", "waffle", "strip", "histogram", "dots", "scatter", "diverging", "bubbles", "podium", "radial",
 ];
 
 /** Hand-picked exceptions to the rules below (ranking id → kind). Prefer fixing the rule if several rankings need the same exception. */
@@ -84,7 +84,7 @@ export function pickViz(r: Ranking): VizKind | null {
   if (r.items.some((i) => i.value < 0)) return n >= 10 ? "diverging" : null;
   const additive = isAdditive(r);
   if (r.scope) {
-    if (n < 8) return "lollipop";
+    if (n < 8) return null;
     if (!additive) return "strip";
     return n < 25 ? "packed" : "treemap";
   }
@@ -92,7 +92,8 @@ export function pickViz(r: Ranking): VizKind | null {
   if (n < 15) {
     const [a, b] = [...r.items].map((i) => i.value).sort((p, q) => (r.order === "asc" ? p - q : q - p));
     // A clear winner (at least 1.5× the runner-up, on a real quantity) deserves the big-number treatment.
-    return r.unit !== "Rank" && a > 0 && b > 0 && a / b >= 1.5 ? "podium" : "lollipop";
+    if (r.unit !== "Rank" && a > 0 && b > 0 && a / b >= 1.5) return "podium";
+    return "radial";
   }
   if (additive) {
     if (topShare(r) >= 0.65) return "waffle";
@@ -118,5 +119,5 @@ export const VIZ_LABEL: Record<VizKind, string> = {
   diverging: "Above and below zero",
   bubbles: "Where the entries are",
   podium: "Top three",
-  lollipop: "Leaders",
+  radial: "Radial leaderboard",
 };

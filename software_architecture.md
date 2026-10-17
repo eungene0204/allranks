@@ -41,7 +41,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 2,048개: 세계 1,673 + 국가 한정 375)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,287개: 세계 1,673 + 국가 한정 1,614)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -55,6 +55,8 @@ scripts/
   worldbank-2048.mts         추가 세계은행 지표 1,024개 정의 (최소 10개국, 관측 기준연도별 갱신)
   topics.mts                AI·Markets·Energy·Money·Demographics·Mining·Autos·Green 랭킹 39개 정의
   regional/geonames.mts      지역 랭킹이 없는 나라의 대도시 순위(GeoNames cities15000 덤프 1회 다운로드·zip 해제, 도시 5개 미만 국가는 `NO_CITIES` 로 제외)
+  regional/airports.mts      OurAirports 공개 공항·활주로 데이터에서 고도와 최장 활주로 순위(국가별 상위 50개, 최소 5개)
+  regional/openalex.mts      OpenAlex 연구 영향력·논문 수·h-index·i10-index·최근 피인용도(지표별 5개 이상 기관)
   regional/wikidata.mts      위키피디아 표가 없는 나라의 1차 행정구역 인구(Wikidata SPARQL, 구역별 최신 기준일 값, `WIKIDATA_REGIONS` 목록)
   regional/openalex.mts     모든 독립국의 대학 순위(OpenAlex API, 나라당 1회 호출) — index.mts 가 국가 목록으로 자동 생성, 5개 미만 국가는 `NO_UNIVERSITIES` 로 제외
   regional/                 국가별 랭킹 모듈 (<cc>.mts 1국가 1파일) + index.mts. lib.mts 의 `rank()`·`fromTable()` 로 Wikipedia 표 → 랭킹을 선언적으로 정의
@@ -84,7 +86,7 @@ src/
     ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
-    RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Regions·Packed·Waffle·Strip·Histogram·Scatter·Diverging·Bubbles·Podium·Lollipop) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
+    RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Regions·Packed·Waffle·Strip·Histogram·Scatter·Diverging·Bubbles·Podium·Lollipop·Radial) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표
     CountryWorldRankings.tsx 국가의 세계 랭킹을 간략한 데이터로 받아 48개씩 클라이언트에서 페이지 분할
     SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 70ms 뒤 국가·랭킹 자동완성 제공. Enter/Search 제출 시 전체 검색 결과로 이동
@@ -95,7 +97,7 @@ src/
     data.ts             JSON 로더 + 집계 (server-only)
     format.ts           값 포맷, 순위 계산, 국기 이모지
     map.ts              world-atlas(110m)를 Natural Earth 투영의 SVG 경로로 변환(프로세스당 1회), `data/map-codes.json`으로 도형→ISO 코드 연결
-    viz.ts              랭킹 성격(단위·개수·음수·scope·multi)으로 시각화 6종 중 하나를 고르는 `pickViz`, 예외 `VIZ_OVERRIDES`, 산점도 짝 `VIZ_PAIRS`(현재 비어 있음)·축 이름 `AXIS_NAMES`
+    viz.ts              랭킹 성격(단위·개수·음수·scope·multi)으로 시각화 13종 중 하나를 고르는 `pickViz`, 예외 `VIZ_OVERRIDES`, 산점도 짝 `VIZ_PAIRS`(현재 비어 있음)·축 이름 `AXIS_NAMES`
     treemap.ts / scale.ts  squarified 트리맵 배치 / 선형·로그 눈금과 틱
     insights.ts         랭킹 값으로 해설 문장·meta description 생성 (순수 함수, 외부 지식/LLM 없음)
 .claude/skills/ranking-viz/  시각화 선택·검증 절차 프로젝트 스킬 (랭킹 추가·변경 시마다 사용)
@@ -129,7 +131,7 @@ Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표�
 
 재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
 
-`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. `minYear` 기본값은 2025이며 역사적 세계은행 지표는 각 파이프라인에 기준연도를 지정한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,673개와 국가 한정 375개로 총 2,048개 랭킹이다.
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,673개와 국가 한정 1,614개로 총 3,287개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
 
 ### 5.1 데이터 수집 에이전트
 
@@ -150,7 +152,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 ## 6. 렌더링 전략
 
-- 랭킹 상세 상단 시각화는 `RankingViz`가 `pickViz` 결과로 분기한다. 지도·버블맵의 도형만 SVG이고, 글자가 있는 트리맵·스트립·발산 막대·롤리팝은 퍼센트 좌표 HTML로 그려 모바일에서도 글자 크기가 유지된다. 시각화 본체는 서버 컴포넌트이고, 클라이언트 JS는 즉시 툴팁을 띄우는 `TipLayer`(`data-tip` 속성을 읽는 작은 클라이언트 컴포넌트)뿐이다. 이름 라벨 배치(겹침 회피)는 `src/lib/labels.ts`의 `placeLabels`가 맡는다. 색은 `--bar` 단일 색 + 중립 회색(음수만 `--neg`)이며, 대륙 구분은 행(facet)으로 한다. 예외는 `Regions` 누적 막대의 대륙 고정색 `--c1`~`--c5`(dataviz `validate_palette.js` 검증 팔레트)뿐이다. 버블맵은 `lib/map.ts`의 `projectPoint`와 `data.ts`의 `countryCoords`로 국가 좌표를 투영한다.
+- 랭킹 상세 상단 시각화는 `RankingViz`가 `pickViz` 결과로 분기한다. 지도·버블맵의 도형만 SVG이고, 글자가 있는 트리맵·스트립·발산 막대·방사형 리더보드는 SVG 도형과 HTML 범례로 그려 모바일에서도 글자 크기가 유지된다. 시각화 본체는 서버 컴포넌트이고, 클라이언트 JS는 즉시 툴팁을 띄우는 `TipLayer`(`data-tip` 속성을 읽는 작은 클라이언트 컴포넌트)뿐이다. 이름 라벨 배치(겹침 회피)는 `src/lib/labels.ts`의 `placeLabels`가 맡는다. 색은 `--bar` 단일 색 + 중립 회색(음수만 `--neg`)이며, 대륙 구분은 행(facet)으로 한다. 예외는 `Regions` 누적 막대의 대륙 고정색 `--c1`~`--c5`(dataviz `validate_palette.js` 검증 팔레트)뿐이다. 버블맵은 `lib/map.ts`의 `projectPoint`와 `data.ts`의 `countryCoords`로 국가 좌표를 투영한다.
 
 - 카테고리 목록은 세계 랭킹(`scope` 없음)을 먼저, 국가 내부 랭킹을 다음에 표시한다. 각 그룹에서는 기존 sort 값 및 제목 순서를 유지한다.
 

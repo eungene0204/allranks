@@ -229,7 +229,7 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 .map-key i.s0, .map-key i.s1, .map-key i.s2, .map-key i.s3, .map-key i.s4 { background: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
 .map-key i.none { background: color-mix(in srgb, var(--text) 7%, var(--bg)); }
 
-/* Ranking visualizations (treemap, distribution strip, diverging bars, bubbles, lollipop) */
+/* Ranking visualizations (treemap, distribution strip, diverging bars, bubbles, radial leaderboard) */
 :root { --on-bar: #fff; --neg: #2a78d6; }
 @media (prefers-color-scheme: dark) { :root { --on-bar: #1a1a19; --neg: #3987e5; } }
 .viz { margin: 0 0 20px; }
@@ -305,6 +305,19 @@ a.strip-dot:hover, a.strip-dot:focus-visible { outline: 2px solid var(--text); o
 .dot-dist-axis span { position: absolute; top: 6px; translate: -50% 0; white-space: nowrap; }
 
 .bb-plot { position: relative; aspect-ratio: 2 / 1; }
+.radial-wrap { display: grid; grid-template-columns: minmax(260px, 420px) minmax(240px, 1fr); gap: 24px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.radial-chart { display: block; width: 100%; max-width: 420px; margin: auto; overflow: visible; }
+.radial-grid { fill: none; stroke: var(--line); stroke-width: 1; }
+.radial-bar { stroke: var(--bg); stroke-width: 1.5; fill: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
+.radial-core { fill: var(--bg); stroke: var(--line); }
+.radial-count { font-size: 29px; font-weight: 800; fill: var(--text); }
+.radial-label { font-size: 12px; fill: var(--muted); }
+.radial-key { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.radial-key li { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 9px; align-items: center; font-size: 13px; }
+.radial-key li i { width: 12px; height: 12px; border-radius: 3px; background: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
+.radial-key a, .radial-key span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.radial-key a:hover { text-decoration: underline; }
+.radial-key b { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .bb-plot > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 /* Name labels for maps and plots. src/lib/labels.ts picks the side (r/l/t/b) per mark so names do not cover each other. */
 .map-anchor { position: absolute; width: 0; height: 0; }
@@ -322,6 +335,7 @@ a.strip-dot:hover, a.strip-dot:focus-visible { outline: 2px solid var(--text); o
 a.map-key:hover { color: var(--text); text-decoration: underline; }
 
 @media (max-width: 640px) {
+  .radial-wrap { grid-template-columns: 1fr; gap: 12px; padding: 12px; }
   .tm { aspect-ratio: 1 / 1.1; }
   .strip-row { grid-template-columns: 70px 1fr; gap: 8px; }
   .strip-label { font-size: 11px; }

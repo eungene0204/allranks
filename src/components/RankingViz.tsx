@@ -4,10 +4,10 @@ import type { Ranking } from "@/lib/types";
 import Bubbles from "./viz/Bubbles";
 import Diverging from "./viz/Diverging";
 import Histogram from "./viz/Histogram";
-import Lollipop from "./viz/Lollipop";
 import DotDistribution from "./viz/DotDistribution";
 import Packed from "./viz/Packed";
 import Podium from "./viz/Podium";
+import Radial from "./viz/Radial";
 import RankingMap from "./RankingMap";
 import Regions from "./viz/Regions";
 import Scatter from "./viz/Scatter";
@@ -39,7 +39,7 @@ function Picture({ ranking }: { ranking: Ranking }) {
     case "diverging": return <Diverging ranking={ranking} />;
     case "bubbles": return <Bubbles ranking={ranking} />;
     case "podium": return <Podium ranking={ranking} />;
-    case "lollipop": return <Lollipop ranking={ranking} />;
+    case "radial": return <Radial ranking={ranking} />;
     default: return null;
   }
 }
