@@ -10,8 +10,8 @@ export const MIN_COUNTRIES_FOR_LATEST = 10;
  * World Bank Open Data indicator. Uses the single most recent year that has enough countries, so every
  * row of the ranking is from the same year (the API's "latest value" would mix years).
  */
-export function worldBank(opts: { indicator: string; scale?: number; minCountries?: number; fromYear?: number }) {
-  const { indicator, scale = 1, fromYear } = opts;
+export function worldBank(opts: { indicator: string; scale?: number; minCountries?: number; fromYear?: number; sourceName?: string }) {
+  const { indicator, scale = 1, fromYear, sourceName } = opts;
   const minCountries = MIN_COUNTRIES_FOR_LATEST; // newest year wins; a per-ranking `minCountries` no longer raises the bar
   return async ({ countries }: Ctx): Promise<Fetched> => {
     const now = new Date().getFullYear();
@@ -35,7 +35,7 @@ export function worldBank(opts: { indicator: string; scale?: number; minCountrie
       year,
       source: {
         kind: "api",
-        name: `World Bank Open Data — ${rows[0].indicator.value}`,
+        name: sourceName ?? `World Bank Open Data — ${rows[0].indicator.value}`,
         url: `https://data.worldbank.org/indicator/${indicator}`,
         license: "CC BY 4.0",
       },

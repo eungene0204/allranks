@@ -19,7 +19,8 @@ export function ranked(r: Ranking): RankedEntry[] {
     }));
 }
 
-export function formatValue(r: Pick<Ranking, "prefix" | "suffix" | "decimals">, v: number): string {
+export function formatValue(r: Pick<Ranking, "prefix" | "suffix" | "decimals" | "unit">, v: number): string {
+  if (r.unit === "yes/no (1=yes)") return v === 1 ? "Yes" : "No";
   return (
     r.prefix +
     v.toLocaleString("en-US", { minimumFractionDigits: r.decimals, maximumFractionDigits: r.decimals }) +

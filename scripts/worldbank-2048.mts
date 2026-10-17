@@ -1,7 +1,7 @@
 import { worldBank } from "./sources/worldbank.mts";
 import type { Pipeline } from "./lib/types.mts";
 
-type Spec = { id:string; title:string; category:string; icon:string; desc:string; unit:string; prefix:string; suffix:string; decimals:number; indicator:string; scale:number; year:number };
+type Spec = { id:string; title:string; category:string; icon:string; desc:string; unit:string; prefix:string; suffix:string; decimals:number; indicator:string; scale:number; year:number; sourceName?:string };
 
 // Additional World Bank catalog series selected for broad, observed country coverage.
 const SPECS: Spec[] = [
@@ -7763,7 +7763,7 @@ const SPECS: Spec[] = [
   },
   {
     "id": "wbx-has-eid-3",
-    "title": "Have online digital ID, ages 15-24 (% of population ages 15-24)",
+    "title": "People with online digital ID, ages 15-24 (% of population ages 15-24)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample below 25 years of age.",
@@ -7773,11 +7773,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_3",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-4",
-    "title": "Have online digital ID, ages 25+ (% population ages 25+)",
+    "title": "People with online digital ID, ages 25+ (% population ages 25+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample 25 years of age and above.",
@@ -7787,11 +7788,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_4",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-7",
-    "title": "Have online digital ID, poorest 40% (% of population ages 15+ in  the poorest 40%)",
+    "title": "People with online digital ID, poorest 40% (% of population ages 15+ in the poorest 40%)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample lower 40% income category.",
@@ -7801,11 +7803,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_7",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-8",
-    "title": "Have online digital ID, richest 60% (% of population ages 15+ in the richest 60%)",
+    "title": "People with online digital ID, richest 60% (% of population ages 15+ in the richest 60%)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample upper 60% income category.",
@@ -7815,11 +7818,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_8",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-6",
-    "title": "Have online digital ID, secondary (% of population ages 15+ with secondary education)",
+    "title": "People with online digital ID, secondary (% of population ages 15+ with secondary education)",
     "category": "education",
     "icon": "🎓",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample secondary education or more.",
@@ -7829,11 +7833,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_6",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid",
-    "title": "Have online digital ID, total (% of population ages 15+)",
+    "title": "People with online digital ID (% of population ages 15+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, total sample.",
@@ -7843,11 +7848,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-10",
-    "title": "Have online digital ID, urban  (% of urban population ages 15+)",
+    "title": "People with online digital ID, urban (% of urban population ages 15+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample urban.",
@@ -7857,11 +7863,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_10",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-1",
-    "title": "Have online digital ID, female  (% of female population ages 15+)",
+    "title": "People with online digital ID, female (% of female population ages 15+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample women.",
@@ -7871,11 +7878,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_1",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-12",
-    "title": "Have online digital ID, in the workforce (% of population ages 15+ in the workforce)",
+    "title": "People with online digital ID, in the workforce (% of population ages 15+ in the workforce)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample in workforce.",
@@ -7885,11 +7893,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_12",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-2",
-    "title": "Have online digital ID, male (% of male population ages 15+)",
+    "title": "People with online digital ID, male (% of male population ages 15+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample men.",
@@ -7899,11 +7908,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_2",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-11",
-    "title": "Have online digital ID, out of the workforce (% of population ages 15+ out of the workforce)",
+    "title": "People with online digital ID, out of the workforce (% of population ages 15+ out of the workforce)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample out of workforce.",
@@ -7913,11 +7923,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_11",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-9",
-    "title": "Have online digital ID, rural (% of rural population ages 15+)",
+    "title": "People with online digital ID, rural (% of rural population ages 15+)",
     "category": "society",
     "icon": "👥",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample rural.",
@@ -7927,11 +7938,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_9",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-has-eid-5",
-    "title": "Have online digital ID, primary (% of population ages 15+ with primary education)",
+    "title": "People with online digital ID, primary (% of population ages 15+ with primary education)",
     "category": "education",
     "icon": "🎓",
     "desc": "The percentage of adult respondents who report owning an online digital ID. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, sub-sample primary education or less.",
@@ -7941,7 +7953,8 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "has_eid_5",
     "scale": 1,
-    "year": 2024
+    "year": 2024,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-used-eid-s-8",
@@ -9246,20 +9259,6 @@ const SPECS: Spec[] = [
     "year": 2021
   },
   {
-    "id": "wbx-ny-adj-svng-pc-cd",
-    "title": "Adjusted net savings per capita (current US$)",
-    "category": "economy",
-    "icon": "📊",
-    "desc": "Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NY.ADJ.SVNG.PC.CD",
-    "scale": 1e-9,
-    "year": 2021
-  },
-  {
     "id": "wbx-gfdd-dm-12",
     "title": "Syndicated loan issuance volume to GDP (%)",
     "category": "economy",
@@ -10366,20 +10365,6 @@ const SPECS: Spec[] = [
     "year": 2021
   },
   {
-    "id": "wbx-bi-wag-prem-pb-pv",
-    "title": "P-Value: Public sector wage premium (compared to all private employees)",
-    "category": "economy",
-    "icon": "📊",
-    "desc": "P-Value: Public sector wage premium (compared to all private employees), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
-    "unit": "compared to all private employees",
-    "prefix": "",
-    "suffix": "",
-    "decimals": 1,
-    "indicator": "BI.WAG.PREM.PB.PV",
-    "scale": 1,
-    "year": 2021
-  },
-  {
     "id": "wbx-bi-wag-prem-pb-fl",
     "title": "P-Value: Public sector wage premium (compared to formal wage employees)",
     "category": "economy",
@@ -11374,20 +11359,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-agri-pc-cd",
-    "title": "Renewable natural capital per capita, agricultural land (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, agricultural land (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.AGRI.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-agri-pc",
     "title": "Renewable natural capital per capita, agricultural land (real chained 2019 US$)",
     "category": "energy",
@@ -11399,34 +11370,6 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "NW.NCA.AGRI.PC",
     "scale": 1,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-crop-pc-cd",
-    "title": "Renewable natural capital per capita, agricultural land: cropland (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, agricultural land: cropland (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.CROP.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-past-pc-cd",
-    "title": "Renewable natural capital per capita, agricultural land: pastureland (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, agricultural land: pastureland (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.PAST.PC.CD",
-    "scale": 1e-9,
     "year": 2020
   },
   {
@@ -11486,20 +11429,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mang-to-cd",
-    "title": "Renewable natural capital per capita, mangroves (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, mangroves (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MANG.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mang-pc",
     "title": "Renewable natural capital per capita, mangroves (real chained 2019 US$)",
     "category": "energy",
@@ -11525,20 +11454,6 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "NW.NCA.FSTP.PC",
     "scale": 1,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-ftim-pc-cd",
-    "title": "Renewable natural capital per capita, timber (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, timber (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.FTIM.PC.CD",
-    "scale": 1e-9,
     "year": 2020
   },
   {
@@ -11878,20 +11793,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-saco-pc-cd",
-    "title": "Nonrenewable natural capital per capita, coal (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, coal (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.SACO.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-saco-to-cd",
     "title": "Nonrenewable natural capital, coal (current US$)",
     "category": "energy",
@@ -11962,20 +11863,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-fish-pc-cd",
-    "title": "Renewable natural capital per capita, fisheries (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, fisheries (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.FISH.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-fish-to-cd",
     "title": "Renewable natural capital, fisheries (current US$)",
     "category": "energy",
@@ -12015,48 +11902,6 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "NW.NCA.SAGA.TO",
     "scale": 1,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-fstc-pc-cd",
-    "title": "Renewable natural capital per capita, forest recreation, hunting and fishing services (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, forest recreation, hunting and fishing services (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.FSTC.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-fstw-pc-cd",
-    "title": "Renewable natural capital per capita, forest water ecosystem services (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, forest water ecosystem services (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.FSTW.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-fstp-pc-cd",
-    "title": "Renewable natural capital per capita, nonwood forest protection ecosystem services (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, nonwood forest protection ecosystem services (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.FSTP.PC.CD",
-    "scale": 1e-9,
     "year": 2020
   },
   {
@@ -12438,20 +12283,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mtin-pc",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: tin (real chained 2019 US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: tin (real chained 2019 US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "real chained 2019 US$",
-    "prefix": "",
-    "suffix": "",
-    "decimals": 1,
-    "indicator": "NW.NCA.MTIN.PC",
-    "scale": 1,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mlea-to",
     "title": "Nonrenewable natural capital, metals and minerals: lead (real chained 2019 US$)",
     "category": "energy",
@@ -12462,20 +12293,6 @@ const SPECS: Spec[] = [
     "suffix": "",
     "decimals": 1,
     "indicator": "NW.NCA.MLEA.TO",
-    "scale": 1,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mtin-to",
-    "title": "Nonrenewable natural capital, metals and minerals: tin (real chained 2019 US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital, metals and minerals: tin (real chained 2019 US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "real chained 2019 US$",
-    "prefix": "",
-    "suffix": "",
-    "decimals": 1,
-    "indicator": "NW.NCA.MTIN.TO",
     "scale": 1,
     "year": 2020
   },
@@ -12575,20 +12392,6 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "GFDD.DM.06",
     "scale": 1,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-hydr-pc-cd",
-    "title": "Renewable natural capital per capita, hydropower energy (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Renewable natural capital per capita, hydropower energy (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.HYDR.PC.CD",
-    "scale": 1e-9,
     "year": 2020
   },
   {
@@ -12900,20 +12703,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mgol-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: gold (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: gold (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MGOL.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mgol-to-cd",
     "title": "Nonrenewable natural capital, metals and minerals: gold (current US$)",
     "category": "energy",
@@ -13026,20 +12815,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-msil-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: silver (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: silver (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MSIL.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-msil-to-cd",
     "title": "Nonrenewable natural capital, metals and minerals: silver (current US$)",
     "category": "energy",
@@ -13050,20 +12825,6 @@ const SPECS: Spec[] = [
     "suffix": "B",
     "decimals": 2,
     "indicator": "NW.NCA.MSIL.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mcop-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: copper (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: copper (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MCOP.PC.CD",
     "scale": 1e-9,
     "year": 2020
   },
@@ -13082,20 +12843,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mzin-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: zinc (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: zinc (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MZIN.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mzin-to-cd",
     "title": "Nonrenewable natural capital, metals and minerals: zinc (current US$)",
     "category": "energy",
@@ -13106,20 +12853,6 @@ const SPECS: Spec[] = [
     "suffix": "B",
     "decimals": 2,
     "indicator": "NW.NCA.MZIN.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mlea-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: lead (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: lead (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MLEA.PC.CD",
     "scale": 1e-9,
     "year": 2020
   },
@@ -13162,20 +12895,6 @@ const SPECS: Spec[] = [
     "suffix": "B",
     "decimals": 2,
     "indicator": "NW.NCA.MIRO.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mpho-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: phosphate (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: phosphate (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MPHO.PC.CD",
     "scale": 1e-9,
     "year": 2020
   },
@@ -13236,20 +12955,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mbau-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: bauxite (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: bauxite (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MBAU.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mbau-to-cd",
     "title": "Nonrenewable natural capital, metals and minerals: bauxite (current US$)",
     "category": "energy",
@@ -13278,20 +12983,6 @@ const SPECS: Spec[] = [
     "year": 2020
   },
   {
-    "id": "wbx-nw-nca-mnic-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: nickel (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: nickel (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MNIC.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
     "id": "wbx-nw-nca-mnic-to-cd",
     "title": "Nonrenewable natural capital, metals and minerals: nickel (current US$)",
     "category": "energy",
@@ -13302,62 +12993,6 @@ const SPECS: Spec[] = [
     "suffix": "B",
     "decimals": 2,
     "indicator": "NW.NCA.MNIC.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mtin-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: tin (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: tin (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MTIN.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mtin-to-cd",
-    "title": "Nonrenewable natural capital, metals and minerals: tin (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital, metals and minerals: tin (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MTIN.TO.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mcob-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: cobalt (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: cobalt (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MCOB.PC.CD",
-    "scale": 1e-9,
-    "year": 2020
-  },
-  {
-    "id": "wbx-nw-nca-mmol-pc-cd",
-    "title": "Nonrenewable natural capital per capita, metals and minerals: molybdenum (current US$)",
-    "category": "energy",
-    "icon": "🌱",
-    "desc": "Nonrenewable natural capital per capita, metals and minerals: molybdenum (current US$), reported by Wealth Accounts in the World Bank Open Data catalog.",
-    "unit": "USD billion",
-    "prefix": "$",
-    "suffix": "B",
-    "decimals": 2,
-    "indicator": "NW.NCA.MMOL.PC.CD",
     "scale": 1e-9,
     "year": 2020
   },
@@ -13824,22 +13459,8 @@ const SPECS: Spec[] = [
     "year": 2017
   },
   {
-    "id": "wbx-fb-inc-inst-fw-cb",
-    "title": "001_Does a regulatory/supervisory framework exist for commercial banks?_#VGAA_00",
-    "category": "markets",
-    "icon": "💹",
-    "desc": "001_Does a regulatory/supervisory framework exist for commercial banks?_#VGAA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
-    "unit": "indicator value",
-    "prefix": "",
-    "suffix": "",
-    "decimals": 1,
-    "indicator": "FB.INC.INST.FW.CB",
-    "scale": 1,
-    "year": 2017
-  },
-  {
     "id": "wbx-fb-inc-inst-fw-ob",
-    "title": "002_Does a regulatory/supervisory framework exist for other banks?_#VGAA_01",
+    "title": "Countries with a regulatory framework for other banks",
     "category": "markets",
     "icon": "💹",
     "desc": "002_Does a regulatory/supervisory framework exist for other banks?_#VGAA_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13849,11 +13470,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.FW.OB",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-fw-fc",
-    "title": "003_Does a regulatory/supervisory framework exist for financial cooperatives?_#VGAA_02",
+    "title": "Countries with a regulatory framework for financial cooperatives",
     "category": "economy",
     "icon": "📊",
     "desc": "003_Does a regulatory/supervisory framework exist for financial cooperatives?_#VGAA_02, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13863,11 +13485,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.FW.FC",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-fw-od",
-    "title": "004_Does a regulatory/supervisory framework exist for other deposit taking institutions (ODTIs)?_#VGAA_03",
+    "title": "Countries with a regulatory framework for other deposit-taking institutions",
     "category": "economy",
     "icon": "📊",
     "desc": "004_Does a regulatory/supervisory framework exist for other deposit taking institutions (ODTIs)?_#VGAA_03, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13877,11 +13500,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.FW.OD",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-fw-mc",
-    "title": "005_Does a regulatory/supervisory framework exist for microcredit institutions (MCIs)?_#VGAA_04",
+    "title": "Countries with a regulatory framework for microcredit institutions",
     "category": "markets",
     "icon": "💹",
     "desc": "005_Does a regulatory/supervisory framework exist for microcredit institutions (MCIs)?_#VGAA_04, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13891,11 +13515,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.FW.MC",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-fw-nb",
-    "title": "006_Does a regulatory/supervisory framework exist for non-bank e-money issuers (NBEIs)?_#VGAA_05",
+    "title": "Countries with a regulatory framework for non-bank e-money issuers",
     "category": "markets",
     "icon": "💹",
     "desc": "006_Does a regulatory/supervisory framework exist for non-bank e-money issuers (NBEIs)?_#VGAA_05, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13905,11 +13530,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.FW.NB",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-fi-ln",
-    "title": "008_Has a national financial inclusion strategy (NFIS) already been launched?_#VGAC_00",
+    "title": "Countries with a launched financial inclusion strategy",
     "category": "economy",
     "icon": "📊",
     "desc": "008_Has a national financial inclusion strategy (NFIS) already been launched?_#VGAC_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13919,11 +13545,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.FI.LN",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-fi-dv",
-    "title": "009_Is a national financial inclusion strategy (NFIS) under development?_#VGAC_01",
+    "title": "Countries developing a financial inclusion strategy",
     "category": "economy",
     "icon": "📊",
     "desc": "009_Is a national financial inclusion strategy (NFIS) under development?_#VGAC_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13933,11 +13560,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.FI.DV",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-gf-fi-ln",
-    "title": "011_Has a general financial sector development strategy with a financial inclusion component (GFSDS/FI) already been launched?_#VGAD_00",
+    "title": "Countries with a launched financial sector strategy with an inclusion component",
     "category": "economy",
     "icon": "📊",
     "desc": "011_Has a general financial sector development strategy with a financial inclusion component (GFSDS/FI) already been launched?_#VGAD_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13947,11 +13575,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.GF.FI.LN",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-gf-fi-dv",
-    "title": "012_Is a general financial sector development strategy with a financial inclusion component (GFSDS/FI) under development?_#VGAD_01",
+    "title": "Countries developing a financial sector strategy with an inclusion component",
     "category": "economy",
     "icon": "📊",
     "desc": "012_Is a general financial sector development strategy with a financial inclusion component (GFSDS/FI) under development?_#VGAD_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13961,11 +13590,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.GF.FI.DV",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-nd-fi-ln",
-    "title": "013_Has a national development strategy with a financial inclusion component (NDS/FI) already been launched?_#VGAE_00",
+    "title": "Countries with a launched national development strategy with an inclusion component",
     "category": "economy",
     "icon": "📊",
     "desc": "013_Has a national development strategy with a financial inclusion component (NDS/FI) already been launched?_#VGAE_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13975,11 +13605,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.ND.FI.LN",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-nd-fi-dv",
-    "title": "014_Is a national development strategy with a financial inclusion component (NDS/FI) under development?_#VGAE_01",
+    "title": "Countries developing a national development strategy with an inclusion component",
     "category": "economy",
     "icon": "📊",
     "desc": "014_Is a national development strategy with a financial inclusion component (NDS/FI) under development?_#VGAE_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -13989,11 +13620,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.ND.FI.DV",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-mf-ln",
-    "title": "015_Has a national microfinance strategy (NMS) already been launched?_#VGAF_00",
+    "title": "Countries with a launched microfinance strategy",
     "category": "markets",
     "icon": "💹",
     "desc": "015_Has a national microfinance strategy (NMS) already been launched?_#VGAF_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14003,11 +13635,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.MF.LN",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-mf-dv",
-    "title": "016_Is a national microfinance strategy (NMS) under development?_#VGAF_01",
+    "title": "Countries developing a microfinance strategy",
     "category": "markets",
     "icon": "💹",
     "desc": "016_Is a national microfinance strategy (NMS) under development?_#VGAF_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14017,11 +13650,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.MF.DV",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-fc-ln",
-    "title": "017_Has a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) already been launched?_#VGAG_00",
+    "title": "Countries with a launched financial education strategy",
     "category": "education",
     "icon": "🎓",
     "desc": "017_Has a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) already been launched?_#VGAG_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14031,11 +13665,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.FC.LN",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-nstr-fc-dv",
-    "title": "018_Is a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) under development?_#VGAG_01",
+    "title": "Countries developing a financial education strategy",
     "category": "education",
     "icon": "🎓",
     "desc": "018_Is a national financial capability/literacy/education strategy (NFCS/NFLS/NFES) under development?_#VGAG_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14045,11 +13680,12 @@ const SPECS: Spec[] = [
     "decimals": 2,
     "indicator": "FB.INC.NSTR.FC.DV",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-poli-fi-re",
-    "title": "019_Are requirements, exceptions, tax incentives, or subsidies policies in place to promote financial inclusion?_#VGBA_00",
+    "title": "Countries with policies or incentives promoting financial inclusion",
     "category": "markets",
     "icon": "💹",
     "desc": "019_Are requirements, exceptions, tax incentives, or subsidies policies in place to promote financial inclusion?_#VGBA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14059,11 +13695,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.POLI.FI.RE",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-poli-fi-pl",
-    "title": "020_Are priority lending policies in place to promote financial inclusion?_#VGBA_01",
+    "title": "Countries with priority lending policies for financial inclusion",
     "category": "economy",
     "icon": "📊",
     "desc": "020_Are priority lending policies in place to promote financial inclusion?_#VGBA_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14073,11 +13710,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.POLI.FI.PL",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-poli-fi-ti",
-    "title": "021_Are tax incentive savings schemes in place to promote financial inclusion?_#VGBA_02",
+    "title": "Countries with tax incentives for savings",
     "category": "markets",
     "icon": "💹",
     "desc": "021_Are tax incentive savings schemes in place to promote financial inclusion?_#VGBA_02, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14087,11 +13725,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.POLI.FI.TI",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-poli-fi-dt-bp",
-    "title": "022_Are deposit-taking institutions required to offer basic financial products to promote financial inclusion?_#VGBA_03",
+    "title": "Countries requiring banks to offer basic financial products",
     "category": "economy",
     "icon": "📊",
     "desc": "022_Are deposit-taking institutions required to offer basic financial products to promote financial inclusion?_#VGBA_03, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14101,11 +13740,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.POLI.FI.DT.BP",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-poli-fi-gt-fa",
-    "title": "023_Are recipients of government transfers encouraged or mandated to open an account to receive their funds?_#VGBA_04",
+    "title": "Countries encouraging benefit recipients to open accounts",
     "category": "economy",
     "icon": "📊",
     "desc": "023_Are recipients of government transfers encouraged or mandated to open an account to receive their funds?_#VGBA_04, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14115,11 +13755,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.POLI.FI.GT.FA",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-surv-af-hh",
-    "title": "024_Has a survey of households or individuals including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_00",
+    "title": "Countries surveying households on financial inclusion",
     "category": "markets",
     "icon": "💹",
     "desc": "024_Has a survey of households or individuals including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14129,11 +13770,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.SURV.AF.HH",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-surv-af-fr",
-    "title": "025_Has a survey of firms including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_01",
+    "title": "Countries surveying businesses on financial inclusion",
     "category": "markets",
     "icon": "💹",
     "desc": "025_Has a survey of firms including questions on financial inclusion or access to finance been conducted in the last 3 years?_#VGCA_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14143,11 +13785,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.SURV.AF.FR",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-tp-ra",
-    "title": "080_Are at least some financial service providers permitted to use retail agents as third-party delivery channels?_#VGEA_00",
+    "title": "Countries allowing financial providers to use retail agents",
     "category": "economy",
     "icon": "📊",
     "desc": "080_Are at least some financial service providers permitted to use retail agents as third-party delivery channels?_#VGEA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14157,11 +13800,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.TP.RA",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-inst-cb-crb-cr",
-    "title": "162_Are commercial banks required to check/report to credit bureau for some/all loans?_#VGHA_00",
+    "title": "Countries requiring banks to check credit bureaus for borrowers",
     "category": "markets",
     "icon": "💹",
     "desc": "162_Are commercial banks required to check/report to credit bureau for some/all loans?_#VGHA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14171,11 +13815,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.INST.CB.CRB.CR",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-mx",
-    "title": "286_Is the maximum cost to open a savings/current account regulated in this country?_#VGTA_00",
+    "title": "Countries regulating fees to open savings and current accounts",
     "category": "economy",
     "icon": "📊",
     "desc": "286_Is the maximum cost to open a savings/current account regulated in this country?_#VGTA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14185,11 +13830,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.MX",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-mc",
-    "title": "287_Is the ceiling on the minimum balance for savings/current accounts regulated in this country?_#VGTA_01",
+    "title": "Countries regulating minimum balances for savings and current accounts",
     "category": "economy",
     "icon": "📊",
     "desc": "287_Is the ceiling on the minimum balance for savings/current accounts regulated in this country?_#VGTA_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14199,11 +13845,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.MC",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-mm",
-    "title": "288_Are the maximum maintenance fees for savings/current accounts regulated in this country?_#VGTA_02",
+    "title": "Countries regulating maintenance fees for savings and current accounts",
     "category": "economy",
     "icon": "📊",
     "desc": "288_Are the maximum maintenance fees for savings/current accounts regulated in this country?_#VGTA_02, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14213,11 +13860,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.MM",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-mo",
-    "title": "289_Are the maximum overdraft penalty or below minimum balance penalty regulated in this country?_#VGTA_03",
+    "title": "Countries regulating overdraft and low-balance penalties",
     "category": "economy",
     "icon": "📊",
     "desc": "289_Are the maximum overdraft penalty or below minimum balance penalty regulated in this country?_#VGTA_03, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14227,11 +13875,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.MO",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-of",
-    "title": "290_Are other factors in the cost of customer accounts regulated in this country?_#VGTA_04",
+    "title": "Countries regulating other customer account costs",
     "category": "economy",
     "icon": "📊",
     "desc": "290_Are other factors in the cost of customer accounts regulated in this country?_#VGTA_04, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14241,11 +13890,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.OF",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-nl",
-    "title": "291_Is there no law or regulation regarding the cost of customer accounts in this country?_#VGTA_05",
+    "title": "Countries without rules on customer account costs",
     "category": "economy",
     "icon": "📊",
     "desc": "291_Is there no law or regulation regarding the cost of customer accounts in this country?_#VGTA_05, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14255,11 +13905,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.NL",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-inc-bnkg-ac-sc-nc",
-    "title": "292_Is there no cost for customers to open a savings/current account as per regulation in this country?_#VGTA_06",
+    "title": "Countries with no fee to open savings and current accounts",
     "category": "economy",
     "icon": "📊",
     "desc": "292_Is there no cost for customers to open a savings/current account as per regulation in this country?_#VGTA_06, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14269,11 +13920,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.INC.BNKG.AC.SC.NC",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-fcp-legl-gl-nf-ex",
-    "title": "293_Is there a general consumer protection law without explicit reference to financial services in place?_#VGUA_00",
+    "title": "Countries with consumer protection laws that do not mention financial services",
     "category": "economy",
     "icon": "📊",
     "desc": "293_Is there a general consumer protection law without explicit reference to financial services in place?_#VGUA_00, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14283,11 +13935,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.FCP.LEGL.GL.NF.EX",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-fcp-legl-gl-ef-ex",
-    "title": "294_Is there a general consumer protection law with explicit reference to financial services in place?_#VGUA_01",
+    "title": "Countries with consumer protection laws covering financial services",
     "category": "economy",
     "icon": "📊",
     "desc": "294_Is there a general consumer protection law with explicit reference to financial services in place?_#VGUA_01, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14297,11 +13950,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.FCP.LEGL.GL.EF.EX",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-fcp-legl-fl-sa-ex",
-    "title": "295_Is there a stand-alone financial consumer protection law in place?_#VGUA_02",
+    "title": "Countries with a stand-alone financial consumer protection law",
     "category": "economy",
     "icon": "📊",
     "desc": "295_Is there a stand-alone financial consumer protection law in place?_#VGUA_02, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14311,11 +13965,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.FCP.LEGL.FL.SA.EX",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-fcp-legl-sl-pp-ex",
-    "title": "296_Are there consumer protection provisions in place within broader financial sector laws?_#VGUA_03",
+    "title": "Countries with consumer protection provisions in broader financial laws",
     "category": "economy",
     "icon": "📊",
     "desc": "296_Are there consumer protection provisions in place within broader financial sector laws?_#VGUA_03, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14325,11 +13980,12 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.FCP.LEGL.SL.PP.EX",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   },
   {
     "id": "wbx-fb-fcp-legl-np-nf-ne",
-    "title": "297_Is there no legal framework for financial consumer protection in this country?_#VGUA_04",
+    "title": "Countries without a financial consumer protection framework",
     "category": "economy",
     "icon": "📊",
     "desc": "297_Is there no legal framework for financial consumer protection in this country?_#VGUA_04, reported by Global Financial Inclusion and Consumer Protection Survey in the World Bank Open Data catalog.",
@@ -14339,12 +13995,433 @@ const SPECS: Spec[] = [
     "decimals": 1,
     "indicator": "FB.FCP.LEGL.NP.NF.NE",
     "scale": 1,
-    "year": 2017
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-legl-pr-sa-ex",
+    "title": "Countries with stand-alone financial consumer protection regulations",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.LEGL.PR.SA.EX",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-legl-fr-cp-ex",
+    "title": "Countries with consumer protection rules in broader financial regulations",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.LEGL.FR.CP.EX",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-inst-cb-sf-as",
+    "title": "Countries requiring banks to standardize product information",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.INST.CB.SF.AS",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-inst-si-sf-as",
+    "title": "Countries requiring financial institutions to standardize product information",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.INST.SI.SF.AS",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-ap",
+    "title": "Countries requiring consumer-facing financial staff to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.AP",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-cr",
+    "title": "Countries requiring credit officers to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.CR",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-ro",
+    "title": "Countries requiring recovery officers to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.RO",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-ms",
+    "title": "Countries requiring financial marketing staff to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.MS",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-co",
+    "title": "Countries requiring complaints officers to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.CO",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-ag",
+    "title": "Countries requiring financial agents to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.AG",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ml-pc-cs",
+    "title": "Countries requiring customer service staff to meet training standards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.ML.PC.CS",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-ip",
+    "title": "Countries requiring formal procedures for resolving customer complaints",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.IP",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-du",
+    "title": "Countries requiring a dedicated office for customer complaints",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.DU",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-tr",
+    "title": "Countries setting response-time standards for customer complaints",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.TR",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-ac",
+    "title": "Countries setting accessibility standards for complaint resolution",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.AC",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-rk",
+    "title": "Countries requiring records of customer complaints",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.RK",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-rg",
+    "title": "Countries requiring complaint data to be reported to government",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.RG",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-ch-em",
+    "title": "Countries requiring disclosure of external dispute resolution options",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.CH.EM",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-inc-inst-pa-cb-pc",
+    "title": "Countries allowing commercial banks to issue payment cards",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.INC.INST.PA.CB.PC",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-inc-legl-df-mc",
+    "title": "Countries defining microcredit in law or regulation",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.INC.LEGL.DF.MC",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-ms-dc",
+    "title": "Countries setting minimum standards for debt collection",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.MS.DC",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-disr-as-rt",
+    "title": "Countries with independent dispute resolution for financial consumers",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.DISR.AS.RT",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-inc-legl-df-mf",
+    "title": "Countries defining microfinance in law or regulation",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.INC.LEGL.DF.MF",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-inc-legl-df-ms",
+    "title": "Countries defining microsavings in law or regulation",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.INC.LEGL.DF.MS",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-inc-inst-cb-lt-nf",
+    "title": "Countries allowing remote customer checks for bank accounts",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.INC.INST.CB.LT.NF",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-eb-el",
+    "title": "Countries setting limits on excessive borrowing",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.EB.EL",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-eb-ar",
+    "title": "Countries requiring lenders to assess borrowers’ ability to repay",
+    "category": "society",
+    "icon": "👥",
+    "desc": "Binary indicator: 1 indicates yes; 0 indicates no. World Bank indicator.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.EB.AR",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
+  },
+  {
+    "id": "wbx-fb-fcp-breg-eb-or",
+    "title": "Countries with other restrictions on excessive borrowing",
+    "category": "markets",
+    "icon": "💹",
+    "desc": "World Bank financial consumer protection indicator. Binary indicator: 1 indicates yes; 0 indicates no.",
+    "unit": "yes/no (1=yes)",
+    "prefix": "",
+    "suffix": "",
+    "decimals": 0,
+    "indicator": "FB.FCP.BREG.EB.OR",
+    "scale": 1,
+    "year": 2017,
+    "sourceName": "World Bank Open Data"
   }
 ];
 
 export const WORLD_BANK_2048: Pipeline[] = SPECS.map((s) => ({
   meta: { id:s.id, title:s.title, category:s.category, icon:s.icon, desc:s.desc, unit:s.unit, prefix:s.prefix, suffix:s.suffix, decimals:s.decimals, order:/rank/i.test(s.title) ? "asc" : "desc", indicator:s.indicator },
-  fetch: worldBank({ indicator:s.indicator, scale:s.scale, fromYear:s.year }),
+  fetch: worldBank({ indicator:s.indicator, scale:s.scale, fromYear:s.year, sourceName:s.sourceName }),
   minItems: 10, minYear: s.year,
 }));
