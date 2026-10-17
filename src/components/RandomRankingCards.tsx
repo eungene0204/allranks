@@ -18,11 +18,13 @@ export default function RandomRankingCards({
   shuffle = true,
   limit,
   rerollOnRestore = false,
+  className,
 }: {
   rankings: Ranking[];
   shuffle?: boolean;
   limit?: number;
   rerollOnRestore?: boolean;
+  className?: string;
 }) {
   const [ordered, setOrdered] = useState(rankings);
 
@@ -39,7 +41,7 @@ export default function RandomRankingCards({
   }, [rankings, shuffle, rerollOnRestore]);
 
   return (
-    <div className="cards">
+    <div className={`cards${className ? ` ${className}` : ""}`}>
       {(limit === undefined ? ordered : ordered.slice(0, limit)).map((ranking) => <RankingCard key={ranking.id} ranking={ranking} />)}
     </div>
   );

@@ -32,7 +32,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
-홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 10개를 보여주며 `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
+홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 15개를 보여주며 넓은 화면에서 한 줄에 5개, 좁은 화면에서 3·2·1개로 배치한다. `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
 
 ## 3. 디렉터리 구조
 
