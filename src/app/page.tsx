@@ -40,7 +40,7 @@ export default function HomePage() {
       <RandomRankingCards rankings={latestRankings} shuffle={false} />
 
       <h2 className="section">Popular rankings</h2>
-      <RandomRankingCards rankings={popularRankings} limit={10} />
+      <RandomRankingCards rankings={popularRankings} limit={10} rerollOnRestore />
       {popularRankings.length > 10 && (
         <div className="more-rankings">
           <Link className="more-rankings-link" href="/popular">More</Link>

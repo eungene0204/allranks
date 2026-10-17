@@ -13,12 +13,30 @@ function shuffled<T>(items: T[]): T[] {
   return result;
 }
 
-export default function RandomRankingCards({ rankings, shuffle = true, limit }: { rankings: Ranking[]; shuffle?: boolean; limit?: number }) {
+export default function RandomRankingCards({
+  rankings,
+  shuffle = true,
+  limit,
+  rerollOnRestore = false,
+}: {
+  rankings: Ranking[];
+  shuffle?: boolean;
+  limit?: number;
+  rerollOnRestore?: boolean;
+}) {
   const [ordered, setOrdered] = useState(rankings);
 
   useEffect(() => {
-    if (shuffle) setOrdered(shuffled(rankings));
-  }, [rankings, shuffle]);
+    if (!shuffle) return;
+    const reroll = () => setOrdered(shuffled(rankings));
+    reroll();
+    if (!rerollOnRestore) return;
+    const handlePageShow = (event: PageTransitionEvent) => {
+      if (event.persisted) reroll();
+    };
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
+  }, [rankings, shuffle, rerollOnRestore]);
 
   return (
     <div className="cards">

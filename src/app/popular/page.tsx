@@ -20,7 +20,7 @@ export default function PopularRankingsPage() {
         <p>Selected for broad public interest and clear comparisons across countries.</p>
       </div>
       <h2 className="section">{rankings.length} rankings</h2>
-      <RandomRankingCards rankings={rankings} />
+      <RandomRankingCards rankings={rankings} rerollOnRestore />
     </>
   );
 }
