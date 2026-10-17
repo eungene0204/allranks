@@ -1,6 +1,6 @@
 # AllRanks 소프트웨어 아키텍처
 
-> 마지막 업데이트: 2026-10-17 · 버전 0.2.0
+> 마지막 업데이트: 2026-10-18 · 버전 0.2.0
 
 ## 1. 개요
 
@@ -191,7 +191,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 홈 소개 문구는 `src/app/page.tsx`의 제목 “No country tops everything.”와 설명 “From universities to GDP, fuel to Big Macs — discover where each country stands.”로 구성한다.
 홈 상단 배지는 `allRankings()` 전체 개수를 표시하고, 최신·인기 카드 입력은 `scope`가 없는 세계 랭킹만 사용한다. 따라서 전체 랭킹 수에는 국가 내 지역 랭킹도 포함된다.
 
-홈 지구본 아래, Popular rankings 위에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
+헤더 오른쪽에는 돋보기 버튼을 제공하며, 누르면 기존 `SearchForm`이 작은 패널로 열린다. 홈 지구본 아래, Popular rankings 위, 검색 결과 페이지에는 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
 국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다. 전체 검색도 정규화 필드·항목 순위·국가별 랭킹 개수를 서버 메모리에 색인해 재사용한다. 국가 상세 집계(`countrySummaries`)를 검색 요청에서 호출하지 않는다. 개발에서는 5초 후 색인을 다시 만들어 JSON 변경을 반영하고, 프로덕션에서는 프로세스 수명 동안 재사용한다.
 문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 검색어는 필드 내부 부분 일치와 단어 시작 부분 일치를 모두 허용해 짧은 단어 조각으로도 결과를 찾는다. 랭킹 검색은 ID·단위·출처명·출처 설명도 대상으로 하므로 `pet`이나 `cat`으로 반려동물 랭킹을 찾을 수 있다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다. 랭킹 카드는 `page` 쿼리로 48개씩 표시하고 전체 개수·현재 범위·이전/다음 링크를 제공한다.
 서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다. `/api/search-suggestions`는 간략한 국가·랭킹 링크와 일치 맥락만 반환하며, 전체 색인을 브라우저에 보내지 않는다. 전체 결과는 명시적 제출 시 App Router 탐색으로 표시한다.
@@ -201,7 +201,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
 
 현재 카테고리 등록부는 8개 상단 메뉴를 정의한다. Markets는 주식시장 규모·거래, 상장사·기업 매출, 외국인 직접·포트폴리오 투자, 가계 소비시장, 시장 경쟁 지표를 모은다. 이 랭킹들의 JSON과 자동 수집 파이프라인 정의는 모두 `markets` 카테고리를 사용한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다. 과거 분류 변경 내역은 프로젝트 계획 이력에 기록한다.
-World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른 분야의 국가 간 규모·최고 기록 랭킹 43개도 함께 보여준다. 원래 카테고리 소속은 유지하며, `rankingsIn("world")`에서만 추가 ID를 합친다. 현재 고유 세계 랭킹 7개와 합쳐 페이지에 50개를 표시한다.
+World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른 분야의 국가 간 규모·최고 기록 랭킹을 함께 보여준다. 원래 카테고리 소속은 유지하며 `rankingsIn("world")`에서만 기존 세계 기준 항목과 합친다. 현재 World Records 고유 랭킹 8개와 다른 분야에서 고른 62개(일부는 중복)를 합쳐 고유 랭킹 65개를 표시한다. 국가 한정 랭킹과 카탈로그에 없는 ID는 제외한다.
 데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |

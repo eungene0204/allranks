@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 type Suggestion = { href: string; title: string; detail: string };
 type SearchResponse = { query: string; suggestions: Suggestion[]; error?: boolean };
 
-export default function SearchForm({ query = "", id = "explore-search" }: { query?: string; id?: string }) {
+export default function SearchForm({ query = "", id = "explore-search", compact = false }: { query?: string; id?: string; compact?: boolean }) {
   const router = useRouter();
   const [value, setValue] = useState(query);
   const [open, setOpen] = useState(false);
@@ -56,7 +56,7 @@ export default function SearchForm({ query = "", id = "explore-search" }: { quer
   }, [q]);
 
   return (
-    <form ref={form} action="/search" className="explore-search" role="search"
+    <form ref={form} action="/search" className={`explore-search${compact ? " header-search" : ""}`} role="search"
       onSubmit={(event) => {
         event.preventDefault();
         setOpen(false);

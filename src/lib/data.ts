@@ -2,7 +2,7 @@ import "server-only";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
-import { CATEGORIES, getCategory } from "./categories";
+import { CATEGORIES, getCategory, WORLD_RECORD_RANKING_IDS } from "./categories";
 import { flagEmoji, formatValue, ranked } from "./format";
 import type { CountrySummary, RankedEntry, Ranking } from "./types";
 
@@ -50,7 +50,19 @@ export const countryCoords = (code: string) => {
 };
 
 export const getRanking = (id: string) => allRankings().find((r) => r.id === id);
-export const rankingsIn = (categoryId: string) => allRankings().filter((r) => r.category === categoryId);
+export function rankingsIn(categoryId: string): Ranking[] {
+  const rankings = allRankings();
+  if (categoryId !== "world") return rankings.filter((ranking) => ranking.category === categoryId);
+
+  const byId = new Map(rankings.map((ranking) => [ranking.id, ranking]));
+  const worldRecords = WORLD_RECORD_RANKING_IDS
+    .map((id) => byId.get(id))
+    .filter((ranking): ranking is Ranking => Boolean(ranking && !ranking.scope));
+  return [...new Map([
+    ...rankings.filter((ranking) => ranking.category === "world" && !ranking.scope),
+    ...worldRecords,
+  ].map((ranking) => [ranking.id, ranking])).values()];
+}
 
 const summariesCache = new WeakMap<Ranking[], CountrySummary[]>();
 
