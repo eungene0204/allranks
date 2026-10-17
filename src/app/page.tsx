@@ -7,15 +7,16 @@ import Link from "next/link";
 
 export default function HomePage() {
   const countries = countrySummaries();
+  const all = allRankings();
   // Country-specific rankings (US states…) live on their country page; the home page shows the world ones.
-  const rankings = allRankings().filter((r) => !r.scope);
+  const rankings = all.filter((r) => !r.scope);
   const latestRankings = latestHomeRankings(rankings);
   const popularRankings = popularHomeRankings(rankings);
   return (
     <>
       <section className="hero center">
         <span className="pill">
-          <b>{rankings.length}</b> rankings · <b>{countries.length}</b> countries
+          <b>{all.length}</b> total rankings · <b>{countries.length}</b> countries
         </span>
         <h1>
           No country tops everything.

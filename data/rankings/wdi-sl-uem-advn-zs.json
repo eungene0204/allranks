@@ -1,0 +1,108 @@
+{
+  "id": "wdi-sl-uem-advn-zs",
+  "title": "Unemployment with advanced education (% of total labor force with advanced education)",
+  "category": "society",
+  "icon": "🌍",
+  "desc": "The percentage of the labor force with an advanced level of education who are unemployed. Advanced education comprises short-cycle tertiary education, a bachelor’s degree or equivalent education level, a master’s degree or equivalent education level, or doctoral degree or equivalent education level according to the International Standard Classification of Education 2011 (ISCED 2011).",
+  "unit": "% of total labor force with advanced education",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SL.UEM.ADVN.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Unemployment with advanced education (% of total labor force with advanced education)",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.ADVN.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:58.628Z",
+  "items": [
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 25.563
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 11.116
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 9.022
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 7.711
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 6.364
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 5.687
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 5.388
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 5.276
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 4.804
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 4.71
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 4.444
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 4.396
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 4.125
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 3.367
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 3.215
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 2.927
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 2.743
+    }
+  ]
+}

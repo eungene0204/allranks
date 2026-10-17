@@ -1,0 +1,93 @@
+{
+  "id": "wdi-se-prm-tchr-fe-zs",
+  "title": "Primary education, teachers (% female)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.",
+  "unit": "% female",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SE.PRM.TCHR.FE.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Primary education, teachers (% female)",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.TCHR.FE.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:58.417Z",
+  "items": [
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 98.871
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 93.213
+    },
+    {
+      "name": "Tuvalu",
+      "country": "TV",
+      "value": 92.523
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 91.443
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 87.106
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 81.818
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 72.369
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 70.117
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 68.289
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 58.598
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 55.245
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 54.891
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 54.699
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 46.484
+    }
+  ]
+}

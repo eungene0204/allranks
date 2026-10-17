@@ -1,0 +1,103 @@
+{
+  "id": "wbx-sl-isv-ifrm-ag-zs",
+  "title": "Informal employment (% of total agricultural employment)",
+  "category": "society",
+  "icon": "👥",
+  "desc": "This indicator shows the share of workers at working age in informal employment in agricultural activities out of total employment in agricultural activities, expressed as a percentage. Informal employment comprises persons whose main or secondary jobs are informal. For own-account workers and employers, informality is determined by enterprise characteristics (unincorporated, market-based, and unregistered); for contributing family workers, it is determined by the absence of written contracts and lack of coverage under labor legislation; and for employees, it is determined by whether the employment relationship is not subject to national labor legislation, income taxation, or social protecti",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "SL.ISV.IFRM.AG.ZS",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Informal employment (% of total agricultural employment)",
+    "url": "https://data.worldbank.org/indicator/SL.ISV.IFRM.AG.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:24.923Z",
+  "items": [
+    {
+      "name": "Angola",
+      "country": "AO",
+      "value": 99.532
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 98.857
+    },
+    {
+      "name": "Rwanda",
+      "country": "RW",
+      "value": 98.857
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 97.757
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 95.616
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 92.153
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 92.147
+    },
+    {
+      "name": "Vanuatu",
+      "country": "VU",
+      "value": 87.726
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 74.036
+    },
+    {
+      "name": "Moldova",
+      "country": "MD",
+      "value": 62.034
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 55.602
+    },
+    {
+      "name": "Serbia",
+      "country": "RS",
+      "value": 49.718
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 47.083
+    },
+    {
+      "name": "Uruguay",
+      "country": "UY",
+      "value": 46.304
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 40.965
+    },
+    {
+      "name": "Seychelles",
+      "country": "SC",
+      "value": 34.73
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "wbx-gfdd-am-01",
+  "title": "Value traded excluding top 10 traded companies to total value traded (%)",
+  "category": "markets",
+  "icon": "💹",
+  "desc": "Value of all traded shares outside of the top ten largest traded companies as a share of total value of all traded shares in a stock market exchange. WFE provides data on the exchange level. This variable is aggregated up to the country level by taking a simple average over exchanges.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "GFDD.AM.01",
+  "year": 2020,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Value traded excluding top 10 traded companies to total value traded (%)",
+    "url": "https://data.worldbank.org/indicator/GFDD.AM.01",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:26.509Z",
+  "items": [
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 99.15
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 83.08
+    },
+    {
+      "name": "Iran",
+      "country": "IR",
+      "value": 73
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 68.82
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 68.8
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 68.17
+    },
+    {
+      "name": "Cyprus",
+      "country": "CY",
+      "value": 67.33
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 66
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 65.54
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 65.03
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 62.94
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 53.53
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 51.75
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 47.5
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 46.82
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 42
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 39.07
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 39
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 36.08
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 35.79
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 28.56
+    },
+    {
+      "name": "Mauritius",
+      "country": "MU",
+      "value": 23
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 20.81
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 10.67
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 7
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 3.55
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 2
+    }
+  ]
+}

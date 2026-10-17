@@ -1,0 +1,73 @@
+{
+  "id": "wbx-bi-wag-prem-pb-gp",
+  "title": "Public sector wage premium (compared to all private employees)",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Public sector wage premium (compared to all private employees), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "compared to all private employees",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.WAG.PREM.PB.GP",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Public sector wage premium (compared to all private employees)",
+    "url": "https://data.worldbank.org/indicator/BI.WAG.PREM.PB.GP",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.823Z",
+  "items": [
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 0.591
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 0.55
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0.478
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.364
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.293
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 0.29
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 0.216
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 0.147
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": -0.114
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": -0.154
+    }
+  ]
+}

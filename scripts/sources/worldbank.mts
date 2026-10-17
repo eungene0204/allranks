@@ -10,12 +10,12 @@ export const MIN_COUNTRIES_FOR_LATEST = 10;
  * World Bank Open Data indicator. Uses the single most recent year that has enough countries, so every
  * row of the ranking is from the same year (the API's "latest value" would mix years).
  */
-export function worldBank(opts: { indicator: string; scale?: number; minCountries?: number }) {
-  const { indicator, scale = 1 } = opts;
+export function worldBank(opts: { indicator: string; scale?: number; minCountries?: number; fromYear?: number }) {
+  const { indicator, scale = 1, fromYear } = opts;
   const minCountries = MIN_COUNTRIES_FOR_LATEST; // newest year wins; a per-ranking `minCountries` no longer raises the bar
   return async ({ countries }: Ctx): Promise<Fetched> => {
     const now = new Date().getFullYear();
-    const url = `https://api.worldbank.org/v2/country/all/indicator/${indicator}?format=json&per_page=20000&date=${now - 6}:${now}`;
+    const url = `https://api.worldbank.org/v2/country/all/indicator/${indicator}?format=json&per_page=20000&date=${Math.min(now - 6, fromYear ?? now - 6)}:${now}`;
     const [meta, rows] = await getJson<[{ pages: number }, Row[] | null]>(url);
     if (!rows) throw new Error(`World Bank returned no rows for ${indicator}`);
     if (meta.pages > 1) throw new Error(`World Bank response was paginated (${meta.pages} pages); raise per_page`);

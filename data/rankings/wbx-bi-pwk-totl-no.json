@@ -1,0 +1,78 @@
+{
+  "id": "wbx-bi-pwk-totl-no",
+  "title": "Number of paid employees",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Number of paid employees, reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.PWK.TOTL.NO",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Number of paid employees",
+    "url": "https://data.worldbank.org/indicator/BI.PWK.TOTL.NO",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.711Z",
+  "items": [
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 71679
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 50994
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 44107
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 38224
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 20856
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 13924
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 11661
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 9548
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 8668
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 7669
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 5493
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "wdi-se-prm-enrr-fe",
+  "title": "School enrollment, primary, female (% gross)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and mathematics skills along with an elementary understanding of such subjects as history, geography, natural science, social science, art, and music.",
+  "unit": "% gross",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SE.PRM.ENRR.FE",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — School enrollment, primary, female (% gross)",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.ENRR.FE",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:50.842Z",
+  "items": [
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 126.376
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 118.449
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 110.613
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 108.232
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 105.726
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 101.597
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 99.96
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 99.065
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 99.063
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 97.913
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 96.54
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 96.197
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 92.637
+    }
+  ]
+}

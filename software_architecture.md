@@ -1,6 +1,6 @@
 # AllRanks 소프트웨어 아키텍처
 
-> 마지막 업데이트: 2026-10-16 · 버전 0.2.0
+> 마지막 업데이트: 2026-10-17 · 버전 0.2.0
 
 ## 1. 개요
 
@@ -41,7 +41,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 875개: 세계 500 + 국가 한정 375)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 2,048개: 세계 1,673 + 국가 한정 375)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -51,6 +51,8 @@ scripts/
   registry.mts              자동 랭킹 등록부 (메타데이터 + 소스 어댑터 연결)
   expanded-worldbank.mts    2025년 이후 관측치가 확인된 세계 랭킹 92개 정의(지표 코드·설명·단위)
   worldbank-500.mts          세계 랭킹 500개 목표의 추가 지표 300개 정의(공식 지표 코드·설명·단위)
+  worldbank-1024.mts         2025년 이후 국가별 관측치가 10개 이상인 지표 149개 정의
+  worldbank-2048.mts         추가 세계은행 지표 1,024개 정의 (최소 10개국, 관측 기준연도별 갱신)
   topics.mts                AI·Markets·Energy·Money·Demographics·Mining·Autos·Green 랭킹 39개 정의
   regional/geonames.mts      지역 랭킹이 없는 나라의 대도시 순위(GeoNames cities15000 덤프 1회 다운로드·zip 해제, 도시 5개 미만 국가는 `NO_CITIES` 로 제외)
   regional/wikidata.mts      위키피디아 표가 없는 나라의 1차 행정구역 인구(Wikidata SPARQL, 구역별 최신 기준일 값, `WIKIDATA_REGIONS` 목록)
@@ -126,7 +128,7 @@ Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표�
 
 재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
 
-`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 기준연도 2025 이상인 결과 중 가장 최신 자료를 채택한다. 2025년은 하한이지 조회 대상 연도를 고정하는 값이 아니다. World Bank 어댑터는 현재 연도까지 API를 조회하고, OWID 어댑터는 CSV에서 가장 최근 연도를 선택한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 2025년 이상 스냅샷만 보존하고, 2025년 이상 자료가 확인되지 않으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 이후 자료 공개 때 파일이 다시 생성된다. 오래된 결과만 반환하는 일부 지표는 대체 통계가 없으면 웹 목록에서 빠진다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`와 `worldbank-500.mts`의 추가 392개 지표는 공식 API에서 2025년 이후 국가별 관측치를 확인한 뒤 등록했다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 500개와 국가별 375개로 총 875개 랭킹이다.
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. `minYear` 기본값은 2025이며 역사적 세계은행 지표는 각 파이프라인에 기준연도를 지정한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,673개와 국가 한정 375개로 총 2,048개 랭킹이다.
 
 ### 5.1 데이터 수집 에이전트
 

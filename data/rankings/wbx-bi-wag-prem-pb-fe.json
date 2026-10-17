@@ -1,0 +1,78 @@
+{
+  "id": "wbx-bi-wag-prem-pb-fe",
+  "title": "Public sector wage premium, by gender: Female (compared to all private employees)",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Public sector wage premium, by gender: Female (compared to all private employees), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "compared to all private employees",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.WAG.PREM.PB.FE",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Public sector wage premium, by gender: Female (compared to all private employees)",
+    "url": "https://data.worldbank.org/indicator/BI.WAG.PREM.PB.FE",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.764Z",
+  "items": [
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 0.69
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 0.662
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 0.579
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 0.566
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.553
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 0.502
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0.409
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 0.349
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.276
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": -0.107
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": -0.155
+    }
+  ]
+}

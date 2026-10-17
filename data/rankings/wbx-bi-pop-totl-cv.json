@@ -1,0 +1,78 @@
+{
+  "id": "wbx-bi-pop-totl-cv",
+  "title": "Sample size",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Sample size, reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.POP.TOTL.CV",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Sample size",
+    "url": "https://data.worldbank.org/indicator/BI.POP.TOTL.CV",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.769Z",
+  "items": [
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 253755
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 172855
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 148455
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 107500
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 103296
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 63829
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 60100
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 36477
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 29323
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 27930
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 23328
+    }
+  ]
+}

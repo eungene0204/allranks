@@ -1,0 +1,83 @@
+{
+  "id": "wdi-se-prm-uner",
+  "title": "Children out of school, primary",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.",
+  "unit": "children",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "indicator": "SE.PRM.UNER",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Children out of school, primary",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.UNER",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:14:42.355Z",
+  "items": [
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 661724
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 250574.85
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 134967.05
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 128155
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 82273
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 78683.24
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 74577
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 36067
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 21146
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 18854
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 18501.35
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 119
+    }
+  ]
+}

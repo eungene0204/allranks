@@ -17,6 +17,8 @@ import { REGIONAL } from "./regional/index.mts";
 import { TOPICS } from "./topics.mts";
 import { EXPANDED_WORLDBANK } from "./expanded-worldbank.mts";
 import { WORLD_BANK_500 } from "./worldbank-500.mts";
+import { WORLD_BANK_1024 } from "./worldbank-1024.mts";
+import { WORLD_BANK_2048 } from "./worldbank-2048.mts";
 import type { Pipeline } from "./lib/types.mts";
 
 // Prefer the newer release across two independently maintained distribution paths.
@@ -145,6 +147,8 @@ export const PIPELINES: Pipeline[] = [
   ...worldBankRankings(),
   ...EXPANDED_WORLDBANK,
   ...WORLD_BANK_500,
+  ...WORLD_BANK_1024,
+  ...WORLD_BANK_2048,
   {
     meta: {
       id: "renewable-energy", title: "Renewable Energy Share", category: "world", icon: "🌱",

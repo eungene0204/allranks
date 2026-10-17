@@ -1,0 +1,108 @@
+{
+  "id": "wdi-sl-tlf-intm-fe-zs",
+  "title": "Labor force with intermediate education, female (% of female working-age population with intermediate education)",
+  "category": "society",
+  "icon": "🌍",
+  "desc": "The ratio of the labor force with intermediate education to the working-age population with intermediate education. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).",
+  "unit": "% of female working-age population with intermediate education",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SL.TLF.INTM.FE.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Labor force with intermediate education, female (% of female working-age population with intermediate education)",
+    "url": "https://data.worldbank.org/indicator/SL.TLF.INTM.FE.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:57.262Z",
+  "items": [
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 72.286
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 66.959
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 63.938
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 63.254
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 60.288
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 58.693
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 57.724
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 57.002
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 56.498
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 54.183
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 53.929
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 51.806
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 51.185
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 49.374
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 46.824
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 22.158
+    },
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 11.241
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "wbx-se-sec-uner-lo-fe-zs",
+  "title": "Adolescents out of school, female (% of female lower secondary school age)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "SE.SEC.UNER.LO.FE.ZS",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Adolescents out of school, female (% of female lower secondary school age)",
+    "url": "https://data.worldbank.org/indicator/SE.SEC.UNER.LO.FE.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:24.969Z",
+  "items": [
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 77.7244
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 35.9368
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 34.9617
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 12.9313
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 4.4689
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 4.2215
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 2.5558
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 1.8728
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 0.3407
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 0.0953
+    }
+  ]
+}

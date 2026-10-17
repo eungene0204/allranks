@@ -36,4 +36,6 @@ export type Pipeline = {
   fallbacks?: Array<(ctx: Ctx) => Promise<Fetched>>;
   /** Fewest rows a fetch must return (default 20 for world rankings, 5 for scoped ones). Lower it for naturally short lists, e.g. gold producers. */
   minItems?: number;
+  /** Accept older first-party datasets for selected historical series; defaults to 2025. */
+  minYear?: number;
 };

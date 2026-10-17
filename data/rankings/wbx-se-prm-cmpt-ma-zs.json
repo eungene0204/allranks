@@ -1,0 +1,78 @@
+{
+  "id": "wbx-se-prm-cmpt-ma-zs",
+  "title": "Primary completion rate, male (% of relevant age group)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entrance age for the last grade of primary education. Data limitations preclude adjusting for students who drop out during the final year of primary education.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "SE.PRM.CMPT.MA.ZS",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Primary completion rate, male (% of relevant age group)",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.MA.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:24.958Z",
+  "items": [
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 109.9649
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 107.8638
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 99.1171
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 98.8258
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 94.9804
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 92.2892
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 89.5828
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 84.9586
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 84.0571
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 80.5032
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 75.3679
+    }
+  ]
+}

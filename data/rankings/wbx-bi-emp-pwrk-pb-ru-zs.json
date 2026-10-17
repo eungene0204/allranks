@@ -1,0 +1,83 @@
+{
+  "id": "wbx-bi-emp-pwrk-pb-ru-zs",
+  "title": "Public sector employment, as a share of paid employment by location: Rural",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Public sector employment, as a share of paid employment by location: Rural, reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "BI.EMP.PWRK.PB.RU.ZS",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Public sector employment, as a share of paid employment by location: rural",
+    "url": "https://data.worldbank.org/indicator/BI.EMP.PWRK.PB.RU.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.608Z",
+  "items": [
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 0.5685
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 0.482
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 0.4565
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.3396
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0.264
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 0.21
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 0.2083
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 0.1558
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.1523
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 0.1517
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 0.15
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 0.1018
+    }
+  ]
+}

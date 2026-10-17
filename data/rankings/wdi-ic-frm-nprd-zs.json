@@ -1,0 +1,83 @@
+{
+  "id": "wdi-ic-frm-nprd-zs",
+  "title": "Firms that introduced a new product/service and process, and spent on R&D",
+  "category": "economy",
+  "icon": "🏭",
+  "desc": "Percentage of medium and large firms that introduced a new product/service and process over last 3 years, and spent on R&D over last fiscal year (excluding small firms).",
+  "unit": "% of medium and large firms",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "IC.FRM.NPRD.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Firms that introduced a new product/service and process, and spent on R&D",
+    "url": "https://data.worldbank.org/indicator/IC.FRM.NPRD.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:14:42.360Z",
+  "items": [
+    {
+      "name": "Brunei",
+      "country": "BN",
+      "value": 9.709
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country": "TT",
+      "value": 8.452
+    },
+    {
+      "name": "Liberia",
+      "country": "LR",
+      "value": 4.959
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 3.925
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 3.576
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country": "GW",
+      "value": 2.313
+    },
+    {
+      "name": "Somalia",
+      "country": "SO",
+      "value": 1.666
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 0.485
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 0
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 0
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 0
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 0
+    }
+  ]
+}

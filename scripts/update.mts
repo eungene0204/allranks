@@ -26,23 +26,24 @@ let failed = 0;
 async function run(p: (typeof PIPELINES)[number]) {
   const { id } = p.meta;
   const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
+  const minYear = p.minYear ?? 2025;
   try {
     // Query every registered provider. The newest eligible response wins; provider order breaks ties.
     const attempts = await Promise.allSettled([p.fetch, ...(p.fallbacks ?? [])].map((fetcher) => fetcher(ctx)));
     const available = attempts.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
     const effectiveYear = (got: Fetched) => Number((got.asOf ?? String(got.year)).slice(0, 4)) || got.year;
-    const eligible = available.filter((got) => effectiveYear(got) >= 2025);
+    const eligible = available.filter((got) => effectiveYear(got) >= minYear);
     if (!eligible.length) {
       const failedSources = attempts.filter((r) => r.status === "rejected").length;
-      if (failedSources === attempts.length && prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) >= 2025) {
+      if (failedSources === attempts.length && prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) >= minYear) {
         console.log(`= ${id.padEnd(22)} retained ${prev.asOf ?? prev.year} snapshot · all ${failedSources} sources unavailable`);
         return;
       }
-      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < 2025 && !dry) unlinkSync(fileFor(id));
-      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < 2025) {
-        console.log(`${dry ? "~" : "−"} ${id.padEnd(22)} removed · no data from 2025 or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
+      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < minYear && !dry) unlinkSync(fileFor(id));
+      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < minYear) {
+        console.log(`${dry ? "~" : "−"} ${id.padEnd(22)} removed · no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
       } else {
-        console.log(`= ${id.padEnd(22)} no data from 2025 or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
+        console.log(`= ${id.padEnd(22)} no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
       }
       return;
     }
