@@ -123,6 +123,8 @@ QS universities, gasoline prices, happiness and tallest buildings have no stable
 `data/rankings/<id>.json` with `"source": { "kind": "manual", "verified": false }`. The site labels them **Sample data**
 until someone checks the values against the source and flips `verified` to `true`.
 
+The IMF credit rankings (`imf-credit-outstanding`, `imf-credit-gdp`) are manual snapshots from [Visual Capitalist's October 2026 ranking](https://www.visualcapitalist.com/countries-owe-the-most-money-to-imf/), based on IMF credit data. They show the article's 26 largest borrowers (about $1 billion or more), with USD debt and GDP-share values rounded to one decimal; they are not a complete list of every borrower.
+
 ### Adding a ranking
 
 1. **Automated:** add a source adapter in `scripts/sources/` (returns `{ year, source, items }` with ISO-2 `country` codes — use

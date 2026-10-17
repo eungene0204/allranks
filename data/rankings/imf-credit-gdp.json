@@ -1,0 +1,158 @@
+{
+  "id": "imf-credit-gdp",
+  "title": "IMF Credit as a Share of GDP",
+  "short": "IMF Credit / GDP",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Outstanding IMF credit as a percentage of estimated 2026 GDP. This ranks the same 26 largest borrowers shown in the source table; it does not include countries with smaller IMF balances.",
+  "unit": "% of GDP",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "items": [
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 8.2
+    },
+    {
+      "name": "Ukraine",
+      "country": "UA",
+      "value": 6.4
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 2.4
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 2.5
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 6.8
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "country": "CI",
+      "value": 5.0
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 3.4
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 0.8
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 2.6
+    },
+    {
+      "name": "DR Congo",
+      "country": "CD",
+      "value": 2.7
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 2.7
+    },
+    {
+      "name": "Angola",
+      "country": "AO",
+      "value": 1.9
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 2.3
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 2.1
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 3.6
+    },
+    {
+      "name": "Tanzania",
+      "country": "TZ",
+      "value": 2.4
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 4.2
+    },
+    {
+      "name": "Cameroon",
+      "country": "CM",
+      "value": 2.3
+    },
+    {
+      "name": "Sudan",
+      "country": "SD",
+      "value": 3.0
+    },
+    {
+      "name": "Papua New Guinea",
+      "country": "PG",
+      "value": 3.7
+    },
+    {
+      "name": "Morocco",
+      "country": "MA",
+      "value": 0.7
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 1.7
+    },
+    {
+      "name": "Jamaica",
+      "country": "JM",
+      "value": 5.2
+    },
+    {
+      "name": "Benin",
+      "country": "BJ",
+      "value": 3.8
+    },
+    {
+      "name": "Senegal",
+      "country": "SN",
+      "value": 2.6
+    },
+    {
+      "name": "Madagascar",
+      "country": "MG",
+      "value": 4.8
+    }
+  ],
+  "year": 2026,
+  "asOf": "2026-10",
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist, based on IMF credit data (early October 2026)",
+    "url": "https://www.visualcapitalist.com/countries-owe-the-most-money-to-imf/",
+    "urls": [
+      "https://www.imf.org/external/np/fin/tad/extcred2.aspx"
+    ],
+    "verified": true,
+    "note": "The source table lists 26 largest borrowers (approximately USD 1 billion and above), not every IMF borrower. USD debt and GDP-share values are rounded to one decimal."
+  },
+  "updatedAt": "2026-10-18T00:00:00.000Z"
+}
