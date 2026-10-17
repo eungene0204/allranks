@@ -5,16 +5,21 @@ import SearchForm from "@/components/SearchForm";
 import { searchCountries, searchEntries, searchRankings } from "@/lib/data";
 import { formatValue } from "@/lib/format";
 
-type Props = { searchParams: Promise<{ q?: string | string[] }> };
+type Props = { searchParams: Promise<{ q?: string | string[]; page?: string }> };
 
 export const metadata: Metadata = { title: "Search", robots: { index: false } };
 
 export default async function SearchPage({ searchParams }: Props) {
-  const raw = (await searchParams).q;
+  const params = await searchParams;
+  const raw = params.q;
   const q = (Array.isArray(raw) ? raw[0] ?? "" : raw ?? "").trim();
   const countries = searchCountries(q);
   const rankings = searchRankings(q);
   const entries = searchEntries(q);
+  const pageSize = 48;
+  const pageCount = Math.max(1, Math.ceil(rankings.length / pageSize));
+  const page = Math.min(pageCount, Math.max(1, Math.floor(Number(params.page)) || 1));
+  const visibleRankings = rankings.slice((page - 1) * pageSize, page * pageSize);
   const count = countries.length + rankings.length + entries.length;
   return (
     <>
@@ -31,7 +36,7 @@ export default async function SearchPage({ searchParams }: Props) {
             {countries.map((c) => (
               <Link className="card" key={c.code} href={`/country/${c.code}`}>
                 <h3>{c.flag} {c.name}</h3>
-                <span className="more">{c.appearances.length} world rankings · {c.regional.length} regional rankings →</span>
+                <span className="more">{c.worldCount} world rankings · {c.regionalCount} regional rankings →</span>
               </Link>
             ))}
           </div>
@@ -40,7 +45,13 @@ export default async function SearchPage({ searchParams }: Props) {
       {rankings.length > 0 && (
         <section>
           <h2 className="section">Rankings</h2>
-          <div className="cards">{rankings.map((r) => <RankingCard key={r.id} ranking={r} />)}</div>
+          {pageCount > 1 && <p className="muted">Showing {(page - 1) * pageSize + 1}–{Math.min(page * pageSize, rankings.length)} of {rankings.length} rankings.</p>}
+          <div className="cards">{visibleRankings.map((r) => <RankingCard key={r.id} ranking={r} />)}</div>
+          {pageCount > 1 && <nav className="search-pagination" aria-label="Ranking results pages">
+            {page > 1 && <Link href={`/search?q=${encodeURIComponent(q)}&page=${page - 1}`}>← Previous</Link>}
+            <span>Page {page} of {pageCount}</span>
+            {page < pageCount && <Link href={`/search?q=${encodeURIComponent(q)}&page=${page + 1}`}>Next →</Link>}
+          </nav>}
         </section>
       )}
       {entries.length > 0 && (
@@ -50,7 +61,7 @@ export default async function SearchPage({ searchParams }: Props) {
           <div className="cards">
             {entries.slice(0, 100).map(({ ranking: r, entry: e }) => (
               <Link className="card" key={`${r.id}-${e.name}`} href={`/ranking/${r.id}`}>
-                <span className="tag">{r.icon} {r.title}</span>
+                <span className="tag">{r.title}</span>
                 <h3>{e.flag} {e.name}</h3>
                 {e.detail && <p>{e.detail}</p>}
                 <span className="more">#{e.rank} · {formatValue(r, e.value)} · {r.year} →</span>

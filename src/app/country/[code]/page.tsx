@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CountryRegional from "@/components/CountryRegional";
-import Mark from "@/components/Mark";
-import RankBadge from "@/components/RankBadge";
+import CountryWorldRankings from "@/components/CountryWorldRankings";
+import { flagEmoji } from "@/lib/format";
 import { getCategory } from "@/lib/categories";
-import { countryCodes, countryDetail } from "@/lib/data";
+import { countryCodes, countryDetail, countryInfo } from "@/lib/data";
 
 type Props = { params: Promise<{ code: string }> };
 
@@ -16,11 +16,12 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const d = countryDetail((await params).code);
-  if (!d) return {};
+  const code = (await params).code;
+  const info = countryInfo(code);
+  if (!info) return {};
   return {
-    title: `${d.summary.flag} ${d.summary.name} — rankings`,
-    description: `Every ranking ${d.summary.name} appears in: ${d.world.map((w) => w.ranking.title).join(", ")}.`,
+    title: `${flagEmoji(code)} ${info.name} — rankings`,
+    description: `Explore ${info.name} in world rankings, plus its cities, universities and other rankings within the country.`,
   };
 }
 
@@ -77,33 +78,11 @@ export default async function CountryPage({ params }: Props) {
       )}
 
       <h2 className="section">{c.name} in world rankings</h2>
-      <div className="cards">
-        {world.map(({ ranking: r, entries, total }) => (
-          <div className="card" key={r.id}>
-            <span className="tag">
-              {r.icon} {getCategory(r.category)?.name}
-            </span>
-            <h3>
-              <Link href={`/ranking/${r.id}`}>{r.title}</Link>
-            </h3>
-            <ol>
-              {entries.slice(0, ENTRY_LIMIT).map((e) => (
-                <li key={e.name}>
-                  <RankBadge rank={e.rank} />
-                  <span className="entry">
-                    {e.logo && <Mark icon="" logo={e.logo} />} {e.name}
-                  </span>
-                  <span className="v">{e.formatted}</span>
-                </li>
-              ))}
-            </ol>
-            <Link className="more" href={`/ranking/${r.id}`}>
-              {entries.length > ENTRY_LIMIT && `+${entries.length - ENTRY_LIMIT} more · `}
-              {entries.length > 1 ? `${entries.length} of ${total} entries` : `1 of ${total} entries`} · full ranking →
-            </Link>
-          </div>
-        ))}
-      </div>
+      <CountryWorldRankings rows={world.map(({ ranking: r, entries, total }) => ({
+        id: r.id, title: r.title, icon: r.icon, category: getCategory(r.category)?.name ?? "",
+        total, entryCount: entries.length,
+        entries: entries.slice(0, ENTRY_LIMIT).map(({ name, rank, logo, formatted }) => ({ name, rank, logo, formatted })),
+      }))} />
 
     </>
   );
