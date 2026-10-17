@@ -4,7 +4,7 @@
 
 ## 1. 개요
 
-AllRanks는 **정적 사이트 생성(SSG)** 방식의 Next.js 앱이다. 서버 DB도, 런타임 API도 없다.
+AllRanks는 **정적 사이트 생성(SSG)** 중심의 Next.js 앱이다. 서버 DB 없이 JSON을 사용하며, 전체 검색 결과는 동적으로 렌더링하고 검색 미리보기는 런타임 API로 제공한다.
 모든 데이터는 저장소 안의 JSON 파일이며, 빌드 시점에 읽어 페이지를 생성한다.
 데이터 갱신은 별도의 Node 스크립트 파이프라인이 담당한다.
 
@@ -79,14 +79,15 @@ src/
     ranking/[id]/page.tsx            랭킹 상세
     category/[id]/page.tsx           카테고리별 목록
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)
-    search/page.tsx                  검색
+    search/page.tsx, loading.tsx     검색 결과(랭킹 48개씩 페이지 분할) 및 즉시 전환용 로딩 화면
     about / methodology / privacy    정보 페이지 (methodology는 데이터에서 출처 표 생성)
     ads.txt/route.ts                 AdSense ads.txt (환경변수 설정 시에만 200, 정적)
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
     RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Regions·Packed·Waffle·Strip·Histogram·Scatter·Diverging·Bubbles·Podium·Lollipop) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
     CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표
-    SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 후 180ms 디바운스로 router.replace(`/search?q=…`)를 호출해 서버 결과 갱신
+    CountryWorldRankings.tsx 국가의 세계 랭킹을 간략한 데이터로 받아 48개씩 클라이언트에서 페이지 분할
+    SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 70ms 뒤 국가·랭킹 자동완성 제공. Enter/Search 제출 시 전체 검색 결과로 이동
     Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
   lib/
     types.ts            웹과 스크립트가 공유하는 타입 (RankingFile 등)
@@ -155,7 +156,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 - World Records 카테고리 페이지는 `scope`가 없는 세계 기준 랭킹만 표시한다. 국가 내부 기록은 국가 상세페이지에서 제공한다.
 
-- 국가 요약 집계는 한 번 읽은 랭킹 목록을 재사용하여 국가 수에 비례한 JSON 재읽기를 방지한다. `countrySummaries`와 `countryDetail`은 React `cache`로 요청 안에서 중복 계산을 제거하며, 다음 요청에는 개발 중 데이터 변경을 반영한다.
+- 랭킹 JSON은 프로세스 캐시를 사용한다. 개발에서는 1초 간격으로 파일명·mtime·크기를 확인하고 변경 시 새 랭킹 배열을 만든다. `countrySummaries`와 `countryDetail`은 React 요청 캐시와 랭킹 배열을 키로 하는 WeakMap 캐시를 함께 사용해 요청 간 집계도 재사용한다. 국가별 랭킹 중복 집계는 랭킹별 Map으로 처리한다. `ranked`는 랭킹 객체별 정렬 결과를 WeakMap에 보관하고, `formatValue`는 소수 자릿수별 Intl.NumberFormat 인스턴스를 재사용한다.
 - 지구본 국기의 hover/focus 및 국가 선택 시 `router.prefetch`로 해당 상세페이지를 미리 불러온다. 전체 국기 링크의 일괄 prefetch는 비활성화한다.
 
 - 지구본 배경에서 포인터 조작을 시작하면 국가 선택과 국기 포커스를 해제하여 고정된 버블을 닫는다. 국기 및 버블 내부 조작은 상세 페이지 링크로 유지한다.
@@ -173,24 +174,29 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 - 회전·줌 보간은 rAF 경과 시간 기준이며 휠/핀치 조작 시 자동 회전을 종료한다. 화면 밖·비활성 탭에서는 그리기를 생략한다. 지구본 영역의 터치 드래그는 브라우저 페이지 스크롤 대신 지구본 회전에 사용한다.
 - 국가 순위 집계: 1위 횟수 → 3위 이내 횟수 → 등장 횟수 → 이름순.
 - 사이트 URL은 `src/lib/site.ts`의 `SITE_URL`(`NEXT_PUBLIC_SITE_URL`, 없으면 `https://allranks.world`)을 사이트맵과 `metadataBase`에서 사용한다. 호스팅은 Vercel.
+- 서비스 브랜드 마크는 `public/brand/logo-r-c-512.png` 한 자산을 헤더와 `src/app/icon.png` 앱 아이콘에서 공유한다. 헤더는 마크 옆에 서비스명을 표시한다.
+- 랭킹 제목 렌더링에서는 `Ranking.icon`을 제목 앞에 표시하지 않는다. 상세 페이지, 검색 결과 항목, 국가 내부 랭킹 탭 제목이 이 규칙을 따른다. 카테고리 메뉴와 카드의 분류 태그는 기존 아이콘을 유지한다.
+- 프로덕션 배포는 Vercel CLI로 수행한다. 2026-10-17 기준 구형 CLI 59.15.1은 `Not authorized`를 반환했고 최신 CLI 64.5.0은 같은 계정/프로젝트에서 성공했다. 재현 가능한 명령은 README에 기록한다.
 - 광고: `src/lib/site.ts`의 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT`로 덮어쓰기, `off`면 비활성)가 유효하면 `layout.tsx`가 `next/script`로 AdSense 스크립트와 `google-adsense-account` 메타를 넣고 `/ads.txt` 가 활성화된다. 연락처는 기본 `allworldranks@gmail.com`이고 `NEXT_PUBLIC_CONTACT_EMAIL`로 바꿀 수 있다. 환경변수는 빌드 때 고정되므로 바꾸면 다시 빌드한다.
 
 ## 7. 확장 지점
 
-홈 및 검색 결과 페이지가 공유하는 `SearchForm`은 입력 상태를 가진 Client Component다. 입력값은 즉시 표시하고 180ms 디바운스 후 `router.replace`로 검색 URL을 갱신한다. 검색 결과 데이터는 기존처럼 서버 전용 JSON 로더에서 검색하며 전체 색인을 클라이언트로 보내지 않는다. 검색 폼에는 입력 중 결과 갱신을 설명하는 보조 문구를 표시하지 않는다.
+홈 및 검색 결과 페이지가 공유하는 `SearchForm`은 입력 상태를 가진 Client Component다. 2글자부터 70ms 디바운스 API 요청으로 국가 최대 4개와 관련 랭킹 최대 6개를 검색창 아래에 표시한다. 입력 중에는 페이지를 이동하지 않으며 Enter/Search 또는 전체 결과 링크를 통해 `/search?q=…`로 이동한다. 미리보기는 국가명·랭킹 제목·소속 국가·항목 이름·분류·ID를 부분 검색하고, 일치한 항목/국가와 분류를 함께 표시한다. 서버는 정규화된 검색 필드를 메모리에 한 번 색인하고, 클라이언트는 최근 검색 응답을 재사용한다. 이전 요청은 AbortController로 취소하고 검색어가 다른 응답은 표시하지 않는다. 포커스를 벗어나거나 Escape를 누르면 미리보기를 닫고 재포커스 시 다시 연다.
 
 홈 소개 문구는 `src/app/page.tsx`의 제목 “No country tops everything.”와 설명 “From universities to GDP, fuel to Big Macs — discover where each country stands.”로 구성한다.
+홈 상단 배지는 `allRankings()` 전체 개수를 표시하고, 최신·인기 카드 입력은 `scope`가 없는 세계 랭킹만 사용한다. 따라서 전체 랭킹 수에는 국가 내 지역 랭킹도 포함된다.
 
 홈 지구본 아래, Popular rankings 위에 통합 검색 폼을 제공한다. 검색 결과 페이지는 `searchCountries`, `searchRankings`, `searchEntries`로
-국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다.
-문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 3글자 검색어는 단어 경계 기준으로 일치시켜 `cat`이 `education` 내부에서 일치하는 잡음을 줄인다. 랭킹 검색은 ID·단위·출처명·출처 설명도 대상으로 하므로 `pet`이나 `cat`으로 반려동물 랭킹을 찾을 수 있다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다.
-서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다. 검색 입력은 App Router 클라이언트 탐색으로 결과를 갱신하고, 명시적 Search 제출도 계속 지원한다.
+국가·랭킹·항목을 구분한다. 국가명·ISO-2 코드로 관련 랭킹도 찾으며 항목 상세 설명을 검색 대상에 포함한다. 전체 검색도 정규화 필드·항목 순위·국가별 랭킹 개수를 서버 메모리에 색인해 재사용한다. 국가 상세 집계(`countrySummaries`)를 검색 요청에서 호출하지 않는다. 개발에서는 5초 후 색인을 다시 만들어 JSON 변경을 반영하고, 프로덕션에서는 프로세스 수명 동안 재사용한다.
+문자열은 NFKC 정규화 후 대소문자 구분 없이 비교한다. 검색어는 필드 내부 부분 일치와 단어 시작 부분 일치를 모두 허용해 짧은 단어 조각으로도 결과를 찾는다. 랭킹 검색은 ID·단위·출처명·출처 설명도 대상으로 하므로 `pet`이나 `cat`으로 반려동물 랭킹을 찾을 수 있다. 항목 순위는 전체 랭킹에서 계산하며 표시 한도는 100개다. 랭킹 카드는 `page` 쿼리로 48개씩 표시하고 전체 개수·현재 범위·이전/다음 링크를 제공한다.
+서버의 기존 JSON 로더를 사용하며 `/search`는 쿼리별 서버 렌더링된다. `/api/search-suggestions`는 간략한 국가·랭킹 링크와 일치 맥락만 반환하며, 전체 색인을 브라우저에 보내지 않는다. 전체 결과는 명시적 제출 시 App Router 탐색으로 표시한다.
 
 홈 지구본 하단의 국가 리더보드, 선택 국가 상세 패널, 국가 선택 칩 목록을 제거했다.
 `GlobeExplorer`는 지구본·국기 툴팁만 렌더링하며, 삭제된 패널과 조작 안내 전용 상태·스타일도 제거했다.
 국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
 
 현재 카테고리 등록부는 8개 상단 메뉴를 정의한다. Markets는 주식시장 규모·거래, 상장사·기업 매출, 외국인 직접·포트폴리오 투자, 가계 소비시장, 시장 경쟁 지표를 모은다. 이 랭킹들의 JSON과 자동 수집 파이프라인 정의는 모두 `markets` 카테고리를 사용한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다. 과거 분류 변경 내역은 프로젝트 계획 이력에 기록한다.
+World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른 분야의 국가 간 규모·최고 기록 랭킹 43개도 함께 보여준다. 원래 카테고리 소속은 유지하며, `rankingsIn("world")`에서만 추가 ID를 합친다. 현재 고유 세계 랭킹 7개와 합쳐 페이지에 50개를 표시한다.
 데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |
@@ -211,3 +217,7 @@ npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → P
 
 
 `rsf.mts`는 RSF 공식 인덱스에서 최신 연도 CSV 링크를 찾아 ISO-3 코드로 정규화한 뒤 세계 언론자유 점수를 저장한다. `cpi.mts`는 Transparency International의 최신 CPI 연판을 출처·변환 내역이 명시된 Nations Inquiry 데이터 인덱스에서 찾아 CSV로 읽는다. 2026-10-16 현재 새 파이프라인은 각각 2026년 177개국, 2025년 182개국을 수집한다.
+
+검색 이동 지연 개선: `SearchForm`은 포커스 시 `/search` 로딩 화면을, 입력이 200ms 멈추면 해당 쿼리의 결과 경로를 `router.prefetch`로 준비한다. Enter/Search 제출에는 디바운스를 적용하지 않는다. `search/loading.tsx`가 결과 준비 중 즉시 표시할 화면을 제공한다.
+
+국가 페이지 전환 개선: 국가 메타데이터는 `countryInfo`의 이름만으로 짧은 설명을 만들며 상세 집계를 호출하거나 전체 랭킹 제목을 나열하지 않는다. 국가의 세계 랭킹은 간략한 카드 데이터만 Client Component에 전달하고 한 화면에 48개씩 표시한다. 국가·랭킹 경로에 `loading.tsx`를 두어 전환 상태를 제공한다. 검색 후보 링크는 기본 prefetch를 사용한다. 포커스 이동의 relatedTarget이 null일 때 자동완성을 닫지 않으며, 외부 pointerdown·명확한 외부 포커스·Escape에서 닫아 클릭 전에 링크가 사라지는 문제를 막는다.

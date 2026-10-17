@@ -5,7 +5,10 @@ Every ranking in the world, in one place. Next.js (App Router) + React + TypeScr
 ```bash
 npm run dev            # http://localhost:3100
 npm run build          # validates data first (prebuild), then builds
+npx --yes vercel@latest deploy --prod --yes  # deploy to allranks.world
 ```
+
+Use the current Vercel CLI for production deploys. The machine's older global CLI (`59.15.1`) returned `Not authorized`; `64.5.0` deployed successfully with the same account and project.
 
 ## Data pipeline
 
@@ -127,3 +130,5 @@ New category? Add it to `src/lib/categories.ts`.
 ### Logos
 
 An item may carry `"logo": "mit.edu"`; the site then shows `public/logos/mit.edu.png` instead of the ranking's emoji icon.
+
+The AllRanks brand mark is `public/brand/logo-r-c-512.png`; the header and browser app icon use this asset.

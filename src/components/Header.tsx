@@ -18,6 +18,8 @@ export default function Header({ rankingCategories }: { rankingCategories: Recor
     <header className="site-header">
       <div className="wrap header-row">
         <Link className="logo" href="/" aria-label="AllRanks home">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/brand/logo-r-c-512.png" alt="" width={36} height={36} />
           All<span>Ranks</span>
         </Link>
         <nav className="nav" aria-label="Categories">

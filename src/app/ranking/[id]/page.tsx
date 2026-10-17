@@ -37,9 +37,7 @@ export default async function RankingPage({ params }: Props) {
         <div className="crumbs">
           <Link href="/">Home</Link> / <Link href={`/category/${c.id}`}>{c.name}</Link>
         </div>
-        <h1>
-          {r.icon} {r.title}
-        </h1>
+        <h1>{r.title}</h1>
         <p>{r.desc}</p>
       </div>
       <div className="meta">

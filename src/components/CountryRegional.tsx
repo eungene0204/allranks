@@ -36,7 +36,7 @@ export default function CountryRegional({ rankings }: { rankings: Ranking[] }) {
                 className={`tab ${x.id === r.id ? "on" : ""}`}
                 onClick={() => setActive(x.id)}
               >
-                {x.icon} {x.short ?? x.title}
+                {x.short ?? x.title}
               </button>
             ))}
           </div>
@@ -44,7 +44,7 @@ export default function CountryRegional({ rankings }: { rankings: Ranking[] }) {
       </div>
       <h3 className="regional-title">
         <Link href={`/ranking/${r.id}`}>
-          {r.icon} {r.title}
+          {r.title}
         </Link>
       </h3>
       <p className="muted regional-desc">{r.desc}</p>
