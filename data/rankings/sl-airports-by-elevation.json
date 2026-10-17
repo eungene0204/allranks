@@ -1,0 +1,74 @@
+{
+  "id": "sl-airports-by-elevation",
+  "title": "Highest Airports in Sierra Leone",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Sierra Leone ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.547Z",
+  "items": [
+    {
+      "name": "Yengema Airport",
+      "country": "SL",
+      "value": 396.24,
+      "detail": "Yengema · 1,300 ft above sea level"
+    },
+    {
+      "name": "Kabala Airport",
+      "country": "SL",
+      "value": 308.46,
+      "detail": "Kabala · 1,012 ft above sea level"
+    },
+    {
+      "name": "Tongo Airport",
+      "country": "SL",
+      "value": 228.6,
+      "detail": "Tongo · 750 ft above sea level"
+    },
+    {
+      "name": "Kenema Airport",
+      "country": "SL",
+      "value": 147.83,
+      "detail": "Kenema · 485 ft above sea level"
+    },
+    {
+      "name": "Bo Airport",
+      "country": "SL",
+      "value": 99.97,
+      "detail": "Bo · 328 ft above sea level"
+    },
+    {
+      "name": "Lungi International Airport",
+      "country": "SL",
+      "value": 25.6,
+      "detail": "Freetown (Lungi-Town) · 84 ft above sea level"
+    },
+    {
+      "name": "Gbangbatok Airport",
+      "country": "SL",
+      "value": 22.86,
+      "detail": "Gbangbatok · 75 ft above sea level"
+    },
+    {
+      "name": "Hastings Airport",
+      "country": "SL",
+      "value": 18.29,
+      "detail": "Freetown · 60 ft above sea level"
+    }
+  ]
+}

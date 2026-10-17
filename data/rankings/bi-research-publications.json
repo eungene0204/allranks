@@ -1,0 +1,110 @@
+{
+  "id": "bi-research-publications",
+  "title": "Universities by Research Publications in Burundi",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:28.857Z",
+  "items": [
+    {
+      "name": "Université du Burundi",
+      "country": "BI",
+      "value": 2146,
+      "detail": "24,691 citations"
+    },
+    {
+      "name": "École Normale Supérieure",
+      "country": "BI",
+      "value": 631,
+      "detail": "4,466 citations"
+    },
+    {
+      "name": "Institut National de sante publique",
+      "country": "BI",
+      "value": 151,
+      "detail": "2,468 citations"
+    },
+    {
+      "name": "Hope Africa University",
+      "country": "BI",
+      "value": 134,
+      "detail": "1,058 citations"
+    },
+    {
+      "name": "University of Ngozi",
+      "country": "BI",
+      "value": 80,
+      "detail": "264 citations"
+    },
+    {
+      "name": "Light University of Bujumbur",
+      "country": "BI",
+      "value": 68,
+      "detail": "1,388 citations"
+    },
+    {
+      "name": "Université du Lac Tanganyika",
+      "country": "BI",
+      "value": 25,
+      "detail": "81 citations"
+    },
+    {
+      "name": "Université des Grands Lacs",
+      "country": "BI",
+      "value": 15,
+      "detail": "24 citations"
+    },
+    {
+      "name": "École Normale d'Administration",
+      "country": "BI",
+      "value": 13,
+      "detail": "8 citations"
+    },
+    {
+      "name": "Institut de Statistiques et d’Études Économiques du Burundi",
+      "country": "BI",
+      "value": 7,
+      "detail": "94 citations"
+    },
+    {
+      "name": "Université Polytechnique de Gitega",
+      "country": "BI",
+      "value": 5,
+      "detail": "144 citations"
+    },
+    {
+      "name": "Bujumbura Christian University",
+      "country": "BI",
+      "value": 3,
+      "detail": "1 citations"
+    },
+    {
+      "name": "Université Polytechnique Intégrée",
+      "country": "BI",
+      "value": 3,
+      "detail": "24 citations"
+    },
+    {
+      "name": "Institut Supérieur de Gestion des Entreprises",
+      "country": "BI",
+      "value": 1,
+      "detail": "46 citations"
+    }
+  ]
+}

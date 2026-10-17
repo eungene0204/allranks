@@ -1,0 +1,74 @@
+{
+  "id": "kp-research-publications",
+  "title": "Universities by Research Publications in North Korea",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:00.722Z",
+  "items": [
+    {
+      "name": "Kim Il-sung University",
+      "country": "KP",
+      "value": 1913,
+      "detail": "45,207 citations"
+    },
+    {
+      "name": "Kim Chaek University of Technology",
+      "country": "KP",
+      "value": 1116,
+      "detail": "21,586 citations"
+    },
+    {
+      "name": "Pyongyang University of Science and Technology",
+      "country": "KP",
+      "value": 213,
+      "detail": "4,230 citations"
+    },
+    {
+      "name": "Pyongyang Medical University",
+      "country": "KP",
+      "value": 201,
+      "detail": "908 citations"
+    },
+    {
+      "name": "Institute of Natural Science",
+      "country": "KP",
+      "value": 122,
+      "detail": "716 citations"
+    },
+    {
+      "name": "Hamhŭng University of Chemical Industry",
+      "country": "KP",
+      "value": 25,
+      "detail": "368 citations"
+    },
+    {
+      "name": "Rajin University of Marine Transport",
+      "country": "KP",
+      "value": 10,
+      "detail": "6 citations"
+    },
+    {
+      "name": "Huichon University of Telecommunications",
+      "country": "KP",
+      "value": 1,
+      "detail": "7 citations"
+    }
+  ]
+}

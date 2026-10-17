@@ -1,0 +1,326 @@
+{
+  "id": "se-research-publications",
+  "title": "Universities by Research Publications in Sweden",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:31.103Z",
+  "items": [
+    {
+      "name": "Lund University",
+      "country": "SE",
+      "value": 235288,
+      "detail": "23,590,856 citations"
+    },
+    {
+      "name": "Karolinska Institutet",
+      "country": "SE",
+      "value": 233201,
+      "detail": "32,759,284 citations"
+    },
+    {
+      "name": "Uppsala University",
+      "country": "SE",
+      "value": 210641,
+      "detail": "20,425,875 citations"
+    },
+    {
+      "name": "University of Gothenburg",
+      "country": "SE",
+      "value": 155713,
+      "detail": "15,142,266 citations"
+    },
+    {
+      "name": "Stockholm University",
+      "country": "SE",
+      "value": 129840,
+      "detail": "13,058,697 citations"
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "country": "SE",
+      "value": 118512,
+      "detail": "8,841,674 citations"
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "country": "SE",
+      "value": 88581,
+      "detail": "5,770,578 citations"
+    },
+    {
+      "name": "Linköping University",
+      "country": "SE",
+      "value": 88179,
+      "detail": "6,546,351 citations"
+    },
+    {
+      "name": "Umeå University",
+      "country": "SE",
+      "value": 81665,
+      "detail": "8,112,248 citations"
+    },
+    {
+      "name": "Swedish University of Agricultural Sciences",
+      "country": "SE",
+      "value": 63772,
+      "detail": "5,648,210 citations"
+    },
+    {
+      "name": "Luleå University of Technology",
+      "country": "SE",
+      "value": 27214,
+      "detail": "1,442,846 citations"
+    },
+    {
+      "name": "Örebro University",
+      "country": "SE",
+      "value": 21696,
+      "detail": "1,158,120 citations"
+    },
+    {
+      "name": "Linnaeus University",
+      "country": "SE",
+      "value": 16511,
+      "detail": "987,813 citations"
+    },
+    {
+      "name": "Malmö University",
+      "country": "SE",
+      "value": 13857,
+      "detail": "549,099 citations"
+    },
+    {
+      "name": "Mälardalen University",
+      "country": "SE",
+      "value": 11595,
+      "detail": "400,562 citations"
+    },
+    {
+      "name": "Karlstad University",
+      "country": "SE",
+      "value": 11153,
+      "detail": "468,437 citations"
+    },
+    {
+      "name": "Jönköping University",
+      "country": "SE",
+      "value": 11101,
+      "detail": "476,793 citations"
+    },
+    {
+      "name": "Mid Sweden University",
+      "country": "SE",
+      "value": 10271,
+      "detail": "438,451 citations"
+    },
+    {
+      "name": "Stockholm School of Economics",
+      "country": "SE",
+      "value": 8264,
+      "detail": "581,160 citations"
+    },
+    {
+      "name": "Blekinge Institute of Technology",
+      "country": "SE",
+      "value": 6747,
+      "detail": "258,232 citations"
+    },
+    {
+      "name": "Halmstad University",
+      "country": "SE",
+      "value": 6520,
+      "detail": "227,636 citations"
+    },
+    {
+      "name": "University of Skövde",
+      "country": "SE",
+      "value": 5953,
+      "detail": "201,678 citations"
+    },
+    {
+      "name": "University of Gävle",
+      "country": "SE",
+      "value": 5905,
+      "detail": "217,726 citations"
+    },
+    {
+      "name": "Dalarna University",
+      "country": "SE",
+      "value": 5819,
+      "detail": "206,558 citations"
+    },
+    {
+      "name": "University of Borås",
+      "country": "SE",
+      "value": 5595,
+      "detail": "284,233 citations"
+    },
+    {
+      "name": "Södertörn University",
+      "country": "SE",
+      "value": 5450,
+      "detail": "157,245 citations"
+    },
+    {
+      "name": "Swedish University of Agricultural Sciences, Alnarp",
+      "country": "SE",
+      "value": 5118,
+      "detail": "388,588 citations"
+    },
+    {
+      "name": "Swedish Institute of Space Physics",
+      "country": "SE",
+      "value": 4783,
+      "detail": "306,193 citations"
+    },
+    {
+      "name": "University West",
+      "country": "SE",
+      "value": 4017,
+      "detail": "128,811 citations"
+    },
+    {
+      "name": "Stockholm Resilience Centre",
+      "country": "SE",
+      "value": 3697,
+      "detail": "1,045,518 citations"
+    },
+    {
+      "name": "Kristianstad University",
+      "country": "SE",
+      "value": 3611,
+      "detail": "134,069 citations"
+    },
+    {
+      "name": "Swedish School of Sport and Health Sciences",
+      "country": "SE",
+      "value": 2015,
+      "detail": "157,535 citations"
+    },
+    {
+      "name": "World Maritime University",
+      "country": "SE",
+      "value": 1864,
+      "detail": "31,126 citations"
+    },
+    {
+      "name": "Swedish Defence University",
+      "country": "SE",
+      "value": 1783,
+      "detail": "28,064 citations"
+    },
+    {
+      "name": "Nordic School of Public Health",
+      "country": "SE",
+      "value": 1601,
+      "detail": "167,060 citations"
+    },
+    {
+      "name": "Marie Cederschiöld University",
+      "country": "SE",
+      "value": 1518,
+      "detail": "44,816 citations"
+    },
+    {
+      "name": "Sophiahemmet University College",
+      "country": "SE",
+      "value": 1148,
+      "detail": "31,265 citations"
+    },
+    {
+      "name": "Röda Korsets Högskola",
+      "country": "SE",
+      "value": 650,
+      "detail": "22,725 citations"
+    },
+    {
+      "name": "Swedish Collegium for Advanced Study",
+      "country": "SE",
+      "value": 635,
+      "detail": "14,318 citations"
+    },
+    {
+      "name": "University College Stockholm",
+      "country": "SE",
+      "value": 263,
+      "detail": "818 citations"
+    },
+    {
+      "name": "Raoul Wallenberg Institute of Human Rights and Humanitarian Law",
+      "country": "SE",
+      "value": 244,
+      "detail": "1,816 citations"
+    },
+    {
+      "name": "University College of Arts Crafts and Design",
+      "country": "SE",
+      "value": 191,
+      "detail": "2,186 citations"
+    },
+    {
+      "name": "Royal College of Music in Stockholm",
+      "country": "SE",
+      "value": 155,
+      "detail": "1,541 citations"
+    },
+    {
+      "name": "Skandinaviska Naprapathögskolan AB",
+      "country": "SE",
+      "value": 90,
+      "detail": "3,272 citations"
+    },
+    {
+      "name": "Royal Swedish Academy of Engineering Sciences",
+      "country": "SE",
+      "value": 81,
+      "detail": "5,340 citations"
+    },
+    {
+      "name": "Stockholm University of the Arts",
+      "country": "SE",
+      "value": 76,
+      "detail": "165 citations"
+    },
+    {
+      "name": "ALT School of Theology",
+      "country": "SE",
+      "value": 69,
+      "detail": "30 citations"
+    },
+    {
+      "name": "Stockholm University College of Music Education",
+      "country": "SE",
+      "value": 63,
+      "detail": "1,382 citations"
+    },
+    {
+      "name": "Studieförbundet Näringsliv och Samhälle",
+      "country": "SE",
+      "value": 52,
+      "detail": "710 citations"
+    },
+    {
+      "name": "Royal Institute of Art",
+      "country": "SE",
+      "value": 41,
+      "detail": "198 citations"
+    }
+  ]
+}

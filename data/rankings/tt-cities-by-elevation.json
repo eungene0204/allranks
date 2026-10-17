@@ -1,0 +1,110 @@
+{
+  "id": "tt-cities-by-elevation",
+  "title": "Highest Major Cities in Trinidad and Tobago",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Trinidad and Tobago with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.567Z",
+  "items": [
+    {
+      "name": "Paradise",
+      "country": "TT",
+      "value": 77,
+      "detail": "15,067 people · Tunapuna/Piarco"
+    },
+    {
+      "name": "Arima",
+      "country": "TT",
+      "value": 62,
+      "detail": "35,000 people · Borough of Arima"
+    },
+    {
+      "name": "Diego Martin",
+      "country": "TT",
+      "value": 61,
+      "detail": "25,370 people · Diego Martin Regional Corporation"
+    },
+    {
+      "name": "Tunapuna",
+      "country": "TT",
+      "value": 55,
+      "detail": "17,758 people · Tunapuna/Piarco"
+    },
+    {
+      "name": "Rio Claro",
+      "country": "TT",
+      "value": 45,
+      "detail": "35,650 people · Mayaro"
+    },
+    {
+      "name": "Mon Repos",
+      "country": "TT",
+      "value": 37,
+      "detail": "56,380 people · San Fernando"
+    },
+    {
+      "name": "Laventille",
+      "country": "TT",
+      "value": 28,
+      "detail": "21,000 people · San Juan/Laventille"
+    },
+    {
+      "name": "San Fernando",
+      "country": "TT",
+      "value": 28,
+      "detail": "55,419 people · San Fernando"
+    },
+    {
+      "name": "Port of Spain",
+      "country": "TT",
+      "value": 21,
+      "detail": "49,031 people · Port of Spain"
+    },
+    {
+      "name": "Chaguanas",
+      "country": "TT",
+      "value": 18,
+      "detail": "67,433 people · Chaguanas"
+    },
+    {
+      "name": "Sangre Grande",
+      "country": "TT",
+      "value": 17,
+      "detail": "15,968 people · Sangre Grande Regional Corporation"
+    },
+    {
+      "name": "Point Fortin",
+      "country": "TT",
+      "value": 12,
+      "detail": "19,056 people · Point Fortin"
+    },
+    {
+      "name": "Scarborough",
+      "country": "TT",
+      "value": 9,
+      "detail": "17,000 people · Tobago"
+    },
+    {
+      "name": "Marabella",
+      "country": "TT",
+      "value": 7,
+      "detail": "26,700 people · San Fernando"
+    }
+  ]
+}

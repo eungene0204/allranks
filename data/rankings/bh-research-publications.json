@@ -1,0 +1,110 @@
+{
+  "id": "bh-research-publications",
+  "title": "Universities by Research Publications in Bahrain",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:28.107Z",
+  "items": [
+    {
+      "name": "University of Bahrain",
+      "country": "BH",
+      "value": 9661,
+      "detail": "213,489 citations"
+    },
+    {
+      "name": "Arabian Gulf University",
+      "country": "BH",
+      "value": 4521,
+      "detail": "151,782 citations"
+    },
+    {
+      "name": "Ahlia University",
+      "country": "BH",
+      "value": 2013,
+      "detail": "33,147 citations"
+    },
+    {
+      "name": "Royal College of Surgeons in Ireland - Bahrain",
+      "country": "BH",
+      "value": 1882,
+      "detail": "47,913 citations"
+    },
+    {
+      "name": "Applied Science University",
+      "country": "BH",
+      "value": 1727,
+      "detail": "21,365 citations"
+    },
+    {
+      "name": "Bahrain Polytechnic",
+      "country": "BH",
+      "value": 907,
+      "detail": "4,934 citations"
+    },
+    {
+      "name": "University of Technology Bahrain",
+      "country": "BH",
+      "value": 885,
+      "detail": "10,152 citations"
+    },
+    {
+      "name": "Kingdom University",
+      "country": "BH",
+      "value": 826,
+      "detail": "12,138 citations"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "BH",
+      "value": 769,
+      "detail": "7,023 citations"
+    },
+    {
+      "name": "University College of Bahrain",
+      "country": "BH",
+      "value": 369,
+      "detail": "3,516 citations"
+    },
+    {
+      "name": "Royal University for Women",
+      "country": "BH",
+      "value": 283,
+      "detail": "1,409 citations"
+    },
+    {
+      "name": "American University of Bahrain",
+      "country": "BH",
+      "value": 217,
+      "detail": "682 citations"
+    },
+    {
+      "name": "Delmon University for Science & Technology",
+      "country": "BH",
+      "value": 15,
+      "detail": "64 citations"
+    },
+    {
+      "name": "Euro University of Bahrain",
+      "country": "BH",
+      "value": 11,
+      "detail": "37 citations"
+    }
+  ]
+}

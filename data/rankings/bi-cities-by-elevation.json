@@ -1,0 +1,110 @@
+{
+  "id": "bi-cities-by-elevation",
+  "title": "Highest Major Cities in Burundi",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Burundi with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.513Z",
+  "items": [
+    {
+      "name": "Kayanza",
+      "country": "BI",
+      "value": 1918,
+      "detail": "33,682 people · Kayanza"
+    },
+    {
+      "name": "Vyanda",
+      "country": "BI",
+      "value": 1859,
+      "detail": "29,685 people · Bururi"
+    },
+    {
+      "name": "Ngozi",
+      "country": "BI",
+      "value": 1824,
+      "detail": "61,716 people · Ngozi"
+    },
+    {
+      "name": "Gitega",
+      "country": "BI",
+      "value": 1684,
+      "detail": "64,904 people · Gitega"
+    },
+    {
+      "name": "Karusi",
+      "country": "BI",
+      "value": 1627,
+      "detail": "15,964 people · Gitega"
+    },
+    {
+      "name": "Zanandore",
+      "country": "BI",
+      "value": 1543,
+      "detail": "27,867 people · Gitega"
+    },
+    {
+      "name": "Kirundo",
+      "country": "BI",
+      "value": 1403,
+      "detail": "15,511 people · Kirundo"
+    },
+    {
+      "name": "Cendajuru",
+      "country": "BI",
+      "value": 1369,
+      "detail": "32,458 people · Cankuzo"
+    },
+    {
+      "name": "Bubanza",
+      "country": "BI",
+      "value": 1079,
+      "detail": "30,996 people · Bubanza"
+    },
+    {
+      "name": "Cibitoke",
+      "country": "BI",
+      "value": 937,
+      "detail": "36,959 people · Cibitoke"
+    },
+    {
+      "name": "Mpanda",
+      "country": "BI",
+      "value": 876,
+      "detail": "58,913 people · Bubanza"
+    },
+    {
+      "name": "Bujumbura",
+      "country": "BI",
+      "value": 807,
+      "detail": "769,317 people · Bujumbura Mairie"
+    },
+    {
+      "name": "Rumonge",
+      "country": "BI",
+      "value": 790,
+      "detail": "55,599 people · Rumonge"
+    },
+    {
+      "name": "Gatumba",
+      "country": "BI",
+      "value": 780,
+      "detail": "18,104 people · Bujumbura Rural"
+    }
+  ]
+}

@@ -153,6 +153,8 @@ export type RankOpts = Partial<Pick<Meta, "short" | "category" | "icon" | "sort"
   prefix?: string;
   suffix?: string;
   decimals?: number;
+  /** Regional reference series can be useful even when the latest national release predates the global 2025 cutoff. */
+  minYear?: number;
 };
 
 /** Declare one regional ranking: id is `<cc>-<slug>`, scoped to the country. */
@@ -175,6 +177,7 @@ export function rank(country: string, slug: string, o: RankOpts, fetch: Pipeline
       scope: country,
     },
     fetch,
+    minYear: o.minYear ?? 2020,
   };
 }
 

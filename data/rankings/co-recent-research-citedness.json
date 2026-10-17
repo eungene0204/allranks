@@ -1,0 +1,326 @@
+{
+  "id": "co-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Colombia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:37.631Z",
+  "items": [
+    {
+      "name": "Fundación Escuela Tecnológica de Neiva",
+      "country": "CO",
+      "value": 12.8889,
+      "detail": "29 works"
+    },
+    {
+      "name": "University of the Coast",
+      "country": "CO",
+      "value": 5.702,
+      "detail": "6,395 works"
+    },
+    {
+      "name": "Escuela de Administración y Mercadotecnia del Quindío",
+      "country": "CO",
+      "value": 5.5,
+      "detail": "52 works"
+    },
+    {
+      "name": "Colegio de Estudios Superiores de Administración",
+      "country": "CO",
+      "value": 4.6947,
+      "detail": "515 works"
+    },
+    {
+      "name": "Centro Interdisciplinario de Estudios sobre Desarrollo",
+      "country": "CO",
+      "value": 4,
+      "detail": "119 works"
+    },
+    {
+      "name": "Universidad de Los Andes",
+      "country": "CO",
+      "value": 2.9061,
+      "detail": "36,874 works"
+    },
+    {
+      "name": "Icesi University",
+      "country": "CO",
+      "value": 2.8549,
+      "detail": "6,581 works"
+    },
+    {
+      "name": "Universidad Autonoma de Manizales",
+      "country": "CO",
+      "value": 2.84,
+      "detail": "2,044 works"
+    },
+    {
+      "name": "Universidad Santiago de Cali",
+      "country": "CO",
+      "value": 2.8038,
+      "detail": "4,022 works"
+    },
+    {
+      "name": "Institución Universitaria Escolme",
+      "country": "CO",
+      "value": 2.598,
+      "detail": "280 works"
+    },
+    {
+      "name": "Universidad de La Sabana",
+      "country": "CO",
+      "value": 2.5878,
+      "detail": "10,296 works"
+    },
+    {
+      "name": "Universidad Antonio Nariño",
+      "country": "CO",
+      "value": 2.5678,
+      "detail": "4,599 works"
+    },
+    {
+      "name": "Institución Universitaria ITM",
+      "country": "CO",
+      "value": 2.553,
+      "detail": "4,031 works"
+    },
+    {
+      "name": "Universidad de Medellín",
+      "country": "CO",
+      "value": 2.5526,
+      "detail": "4,628 works"
+    },
+    {
+      "name": "Universidad del Norte",
+      "country": "CO",
+      "value": 2.5176,
+      "detail": "10,796 works"
+    },
+    {
+      "name": "Institución Universitaria Visión de las Américas",
+      "country": "CO",
+      "value": 2.4851,
+      "detail": "1,386 works"
+    },
+    {
+      "name": "Fundación Universitaria Los Libertadores",
+      "country": "CO",
+      "value": 2.4173,
+      "detail": "1,446 works"
+    },
+    {
+      "name": "Corporación Unificada Nacional de Educación Superior",
+      "country": "CO",
+      "value": 2.4076,
+      "detail": "1,029 works"
+    },
+    {
+      "name": "Universidad Simón Bolívar",
+      "country": "CO",
+      "value": 2.3968,
+      "detail": "7,109 works"
+    },
+    {
+      "name": "Universidad Católica de Oriente",
+      "country": "CO",
+      "value": 2.3394,
+      "detail": "894 works"
+    },
+    {
+      "name": "Universidad de Antioquia",
+      "country": "CO",
+      "value": 2.3019,
+      "detail": "61,014 works"
+    },
+    {
+      "name": "Universidad del Rosario",
+      "country": "CO",
+      "value": 2.1654,
+      "detail": "16,782 works"
+    },
+    {
+      "name": "Institución Universitaria Pascual Bravo",
+      "country": "CO",
+      "value": 2.1172,
+      "detail": "1,162 works"
+    },
+    {
+      "name": "Universidad EAN",
+      "country": "CO",
+      "value": 2.0761,
+      "detail": "1,468 works"
+    },
+    {
+      "name": "Universidad Nacional de Colombia",
+      "country": "CO",
+      "value": 2.0495,
+      "detail": "98,735 works"
+    },
+    {
+      "name": "University of Cartagena",
+      "country": "CO",
+      "value": 2.0441,
+      "detail": "11,522 works"
+    },
+    {
+      "name": "Fundación Universitaria Konrad Lorenz",
+      "country": "CO",
+      "value": 2.0044,
+      "detail": "1,309 works"
+    },
+    {
+      "name": "Escuela Colombiana de Carreras Industriales",
+      "country": "CO",
+      "value": 1.9981,
+      "detail": "1,056 works"
+    },
+    {
+      "name": "Corporación Universitaria de Asturias",
+      "country": "CO",
+      "value": 1.989,
+      "detail": "280 works"
+    },
+    {
+      "name": "Pontificia Universidad Javeriana",
+      "country": "CO",
+      "value": 1.9828,
+      "detail": "34,150 works"
+    },
+    {
+      "name": "Universidad EAFIT",
+      "country": "CO",
+      "value": 1.9489,
+      "detail": "10,323 works"
+    },
+    {
+      "name": "EIA University",
+      "country": "CO",
+      "value": 1.9485,
+      "detail": "1,312 works"
+    },
+    {
+      "name": "Instituto de Investigaciones Ambientales del Pacífico",
+      "country": "CO",
+      "value": 1.8958,
+      "detail": "515 works"
+    },
+    {
+      "name": "Institución Universitaria Esumer",
+      "country": "CO",
+      "value": 1.8667,
+      "detail": "266 works"
+    },
+    {
+      "name": "Universidad de Bogotá Jorge Tadeo Lozano",
+      "country": "CO",
+      "value": 1.8272,
+      "detail": "3,570 works"
+    },
+    {
+      "name": "Institución Universitaria Colegio Mayor de Antioquia",
+      "country": "CO",
+      "value": 1.6432,
+      "detail": "698 works"
+    },
+    {
+      "name": "Universitaria de Investigación y Desarrollo",
+      "country": "CO",
+      "value": 1.6222,
+      "detail": "621 works"
+    },
+    {
+      "name": "University of Cauca",
+      "country": "CO",
+      "value": 1.6045,
+      "detail": "8,830 works"
+    },
+    {
+      "name": "Universidad del Valle",
+      "country": "CO",
+      "value": 1.6,
+      "detail": "34,026 works"
+    },
+    {
+      "name": "Fundación Universitaria Cafam",
+      "country": "CO",
+      "value": 1.5942,
+      "detail": "222 works"
+    },
+    {
+      "name": "University of Sucre",
+      "country": "CO",
+      "value": 1.5798,
+      "detail": "2,966 works"
+    },
+    {
+      "name": "Universidad Pontificia Bolivariana",
+      "country": "CO",
+      "value": 1.5591,
+      "detail": "15,385 works"
+    },
+    {
+      "name": "Escuela Colombiana de Rehabilitación",
+      "country": "CO",
+      "value": 1.5568,
+      "detail": "270 works"
+    },
+    {
+      "name": "Technological University of Pereira",
+      "country": "CO",
+      "value": 1.555,
+      "detail": "7,731 works"
+    },
+    {
+      "name": "Universidad de América",
+      "country": "CO",
+      "value": 1.5521,
+      "detail": "758 works"
+    },
+    {
+      "name": "Universidad Industrial de Santander",
+      "country": "CO",
+      "value": 1.5326,
+      "detail": "18,012 works"
+    },
+    {
+      "name": "Institución Universitaria Colegios de Colombia",
+      "country": "CO",
+      "value": 1.5309,
+      "detail": "378 works"
+    },
+    {
+      "name": "Ceipa University Foundation",
+      "country": "CO",
+      "value": 1.5119,
+      "detail": "391 works"
+    },
+    {
+      "name": "Asociación Colombiana de Facultades de Psicología",
+      "country": "CO",
+      "value": 1.5,
+      "detail": "15 works"
+    },
+    {
+      "name": "Politécnico Colombiano Jaime Isaza Cadavid",
+      "country": "CO",
+      "value": 1.4811,
+      "detail": "1,561 works"
+    }
+  ]
+}

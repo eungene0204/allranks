@@ -1,0 +1,128 @@
+{
+  "id": "ye-longest-runways",
+  "title": "Longest Airport Runways in Yemen",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Yemen ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "YE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.581Z",
+  "items": [
+    {
+      "name": "Sadah Airport",
+      "country": "YE",
+      "value": 3500.02,
+      "detail": "Sa'dah · 11,483 ft · UNK"
+    },
+    {
+      "name": "Socotra Airport",
+      "country": "YE",
+      "value": 3300.07,
+      "detail": "Mori · 10,827 ft · ASP"
+    },
+    {
+      "name": "Sanaa International Airport",
+      "country": "YE",
+      "value": 3251.91,
+      "detail": "Sanaa · 10,669 ft · ASP"
+    },
+    {
+      "name": "Aden International Airport",
+      "country": "YE",
+      "value": 3100.12,
+      "detail": "Aden · 10,171 ft · ASP"
+    },
+    {
+      "name": "Taiz International Airport",
+      "country": "YE",
+      "value": 3060.19,
+      "detail": "Taiz · 10,040 ft · ASP"
+    },
+    {
+      "name": "Al Badie Airport",
+      "country": "YE",
+      "value": 3036.42,
+      "detail": "Dhula' · 9,962 ft · ASP"
+    },
+    {
+      "name": "Marib Airport",
+      "country": "YE",
+      "value": 3000.15,
+      "detail": "Marib · 9,843 ft · UNK"
+    },
+    {
+      "name": "Riyan International Airport",
+      "country": "YE",
+      "value": 3000.15,
+      "detail": "Mukalla(Riyan) · 9,843 ft · ASP"
+    },
+    {
+      "name": "Seiyun Hadhramaut International Airport",
+      "country": "YE",
+      "value": 3000.15,
+      "detail": "Seiyun · 9,843 ft · ASP"
+    },
+    {
+      "name": "Ataq Airport",
+      "country": "YE",
+      "value": 2890.11,
+      "detail": "Ataq · 9,482 ft · ASP"
+    },
+    {
+      "name": "Al Anad Air Base",
+      "country": "YE",
+      "value": 2819.4,
+      "detail": "Al Anad · 9,250 ft · ASP"
+    },
+    {
+      "name": "Al Ghaydah International Airport",
+      "country": "YE",
+      "value": 2699.92,
+      "detail": "Al Ghaydah · 8,858 ft · ASP"
+    },
+    {
+      "name": "Canoxy Airport",
+      "country": "YE",
+      "value": 2578.61,
+      "detail": "Heru · 8,460 ft · ASP"
+    },
+    {
+      "name": "Abs Airport",
+      "country": "YE",
+      "value": 2499.97,
+      "detail": "Abs · 8,202 ft · Dirt"
+    },
+    {
+      "name": "Al-Hazm Airport",
+      "country": "YE",
+      "value": 2495.09,
+      "detail": "Al-Hazm · 8,186 ft · UNK"
+    },
+    {
+      "name": "Kamaran Airport",
+      "country": "YE",
+      "value": 1800.15,
+      "detail": "Kamaran · 5,906 ft · UNK"
+    },
+    {
+      "name": "Beihan Airport",
+      "country": "YE",
+      "value": 1670.3,
+      "detail": "Beihan · 5,480 ft · ASP"
+    }
+  ]
+}

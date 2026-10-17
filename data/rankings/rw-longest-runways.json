@@ -1,0 +1,56 @@
+{
+  "id": "rw-longest-runways",
+  "title": "Longest Airport Runways in Rwanda",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Rwanda ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.543Z",
+  "items": [
+    {
+      "name": "Kigali International Airport",
+      "country": "RW",
+      "value": 3500.02,
+      "detail": "Kigali · 11,483 ft · ASP"
+    },
+    {
+      "name": "Kamembe Airport",
+      "country": "RW",
+      "value": 1499.92,
+      "detail": "Kamembe · 4,921 ft · ASP"
+    },
+    {
+      "name": "Butare Airport",
+      "country": "RW",
+      "value": 1219.2,
+      "detail": "Butare · 4,000 ft · ASP"
+    },
+    {
+      "name": "Ruhengeri Airport",
+      "country": "RW",
+      "value": 1219.2,
+      "detail": "Ruhengeri · 4,000 ft · grass"
+    },
+    {
+      "name": "Gisenyi Airport",
+      "country": "RW",
+      "value": 1014.98,
+      "detail": "Gisenyi · 3,330 ft · ASP"
+    }
+  ]
+}

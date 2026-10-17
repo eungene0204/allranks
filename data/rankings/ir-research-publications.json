@@ -1,0 +1,326 @@
+{
+  "id": "ir-research-publications",
+  "title": "Universities by Research Publications in Iran",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:55.718Z",
+  "items": [
+    {
+      "name": "University of Tehran",
+      "country": "IR",
+      "value": 164372,
+      "detail": "4,746,450 citations"
+    },
+    {
+      "name": "Islamic Azad University, Tehran",
+      "country": "IR",
+      "value": 130351,
+      "detail": "2,424,630 citations"
+    },
+    {
+      "name": "Tehran University of Medical Sciences",
+      "country": "IR",
+      "value": 121999,
+      "detail": "7,022,414 citations"
+    },
+    {
+      "name": "Shahid Beheshti University",
+      "country": "IR",
+      "value": 106049,
+      "detail": "3,260,969 citations"
+    },
+    {
+      "name": "Shahid Beheshti University of Medical Sciences",
+      "country": "IR",
+      "value": 78740,
+      "detail": "2,934,573 citations"
+    },
+    {
+      "name": "Tarbiat Modares University",
+      "country": "IR",
+      "value": 75760,
+      "detail": "2,357,298 citations"
+    },
+    {
+      "name": "Shiraz University",
+      "country": "IR",
+      "value": 58460,
+      "detail": "1,867,296 citations"
+    },
+    {
+      "name": "Ferdowsi University of Mashhad",
+      "country": "IR",
+      "value": 52925,
+      "detail": "1,335,486 citations"
+    },
+    {
+      "name": "Iran University of Medical Sciences",
+      "country": "IR",
+      "value": 51429,
+      "detail": "1,785,169 citations"
+    },
+    {
+      "name": "Islamic Azad University, Science and Research Branch",
+      "country": "IR",
+      "value": 50925,
+      "detail": "966,059 citations"
+    },
+    {
+      "name": "Amirkabir University of Technology",
+      "country": "IR",
+      "value": 50234,
+      "detail": "2,020,205 citations"
+    },
+    {
+      "name": "Sharif University of Technology",
+      "country": "IR",
+      "value": 47828,
+      "detail": "1,969,472 citations"
+    },
+    {
+      "name": "University of Tabriz",
+      "country": "IR",
+      "value": 46676,
+      "detail": "1,554,582 citations"
+    },
+    {
+      "name": "Iran University of Science and Technology",
+      "country": "IR",
+      "value": 45304,
+      "detail": "1,790,543 citations"
+    },
+    {
+      "name": "Shiraz University of Medical Sciences",
+      "country": "IR",
+      "value": 44194,
+      "detail": "1,796,171 citations"
+    },
+    {
+      "name": "Payame Noor University",
+      "country": "IR",
+      "value": 42827,
+      "detail": "488,712 citations"
+    },
+    {
+      "name": "Mashhad University of Medical Sciences",
+      "country": "IR",
+      "value": 42234,
+      "detail": "1,911,677 citations"
+    },
+    {
+      "name": "Isfahan University of Medical Sciences",
+      "country": "IR",
+      "value": 41931,
+      "detail": "1,619,242 citations"
+    },
+    {
+      "name": "Tabriz University of Medical Sciences",
+      "country": "IR",
+      "value": 39165,
+      "detail": "2,339,547 citations"
+    },
+    {
+      "name": "University of Isfahan",
+      "country": "IR",
+      "value": 37587,
+      "detail": "705,175 citations"
+    },
+    {
+      "name": "Isfahan University of Technology",
+      "country": "IR",
+      "value": 33278,
+      "detail": "1,541,315 citations"
+    },
+    {
+      "name": "University of Guilan",
+      "country": "IR",
+      "value": 26986,
+      "detail": "653,739 citations"
+    },
+    {
+      "name": "Urmia University",
+      "country": "IR",
+      "value": 26169,
+      "detail": "646,767 citations"
+    },
+    {
+      "name": "Allameh Tabataba'i University",
+      "country": "IR",
+      "value": 25117,
+      "detail": "122,725 citations"
+    },
+    {
+      "name": "K. N. Toosi University of Technology",
+      "country": "IR",
+      "value": 24146,
+      "detail": "735,267 citations"
+    },
+    {
+      "name": "Kharazmi University",
+      "country": "IR",
+      "value": 23248,
+      "detail": "336,583 citations"
+    },
+    {
+      "name": "Islamic Azad University Central Tehran Branch",
+      "country": "IR",
+      "value": 21873,
+      "detail": "265,418 citations"
+    },
+    {
+      "name": "Shahid Chamran University of Ahvaz",
+      "country": "IR",
+      "value": 21743,
+      "detail": "367,480 citations"
+    },
+    {
+      "name": "Shahid Bahonar University of Kerman",
+      "country": "IR",
+      "value": 20813,
+      "detail": "521,471 citations"
+    },
+    {
+      "name": "Bu-Ali Sina University",
+      "country": "IR",
+      "value": 20262,
+      "detail": "559,450 citations"
+    },
+    {
+      "name": "Ahvaz Jundishapur University of Medical Sciences",
+      "country": "IR",
+      "value": 20224,
+      "detail": "650,772 citations"
+    },
+    {
+      "name": "Razi University",
+      "country": "IR",
+      "value": 19575,
+      "detail": "541,771 citations"
+    },
+    {
+      "name": "Kerman University of Medical Sciences",
+      "country": "IR",
+      "value": 19124,
+      "detail": "656,628 citations"
+    },
+    {
+      "name": "Yazd University",
+      "country": "IR",
+      "value": 18453,
+      "detail": "340,869 citations"
+    },
+    {
+      "name": "Semnan University",
+      "country": "IR",
+      "value": 18231,
+      "detail": "465,416 citations"
+    },
+    {
+      "name": "University of Mohaghegh Ardabili",
+      "country": "IR",
+      "value": 17552,
+      "detail": "357,806 citations"
+    },
+    {
+      "name": "University of Mazandaran",
+      "country": "IR",
+      "value": 17512,
+      "detail": "344,199 citations"
+    },
+    {
+      "name": "Kermanshah University of Medical Sciences",
+      "country": "IR",
+      "value": 17157,
+      "detail": "800,300 citations"
+    },
+    {
+      "name": "Mazandaran University of Medical Sciences",
+      "country": "IR",
+      "value": 16786,
+      "detail": "566,029 citations"
+    },
+    {
+      "name": "Hamedan University of Medical Sciences",
+      "country": "IR",
+      "value": 16530,
+      "detail": "528,848 citations"
+    },
+    {
+      "name": "Alzahra University",
+      "country": "IR",
+      "value": 15941,
+      "detail": "240,470 citations"
+    },
+    {
+      "name": "Shahid Sadoughi University of Medical Sciences and Health Services",
+      "country": "IR",
+      "value": 15264,
+      "detail": "375,686 citations"
+    },
+    {
+      "name": "University of Zanjan",
+      "country": "IR",
+      "value": 13924,
+      "detail": "297,088 citations"
+    },
+    {
+      "name": "Islamic Azad University, Isfahan",
+      "country": "IR",
+      "value": 13635,
+      "detail": "214,157 citations"
+    },
+    {
+      "name": "University of Shahrood",
+      "country": "IR",
+      "value": 13280,
+      "detail": "322,523 citations"
+    },
+    {
+      "name": "Baqiyatallah University of Medical Sciences",
+      "country": "IR",
+      "value": 12848,
+      "detail": "543,266 citations"
+    },
+    {
+      "name": "Shahrekord University",
+      "country": "IR",
+      "value": 12693,
+      "detail": "259,973 citations"
+    },
+    {
+      "name": "University of Kashan",
+      "country": "IR",
+      "value": 12598,
+      "detail": "549,926 citations"
+    },
+    {
+      "name": "Shahed University",
+      "country": "IR",
+      "value": 12528,
+      "detail": "212,297 citations"
+    },
+    {
+      "name": "University of Kurdistan",
+      "country": "IR",
+      "value": 12325,
+      "detail": "341,145 citations"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "lc-research-h-index",
+  "title": "Universities by Research h-index in Saint Lucia",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LC",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:04.428Z",
+  "items": [
+    {
+      "name": "Spartan Health Sciences University",
+      "country": "LC",
+      "value": 25,
+      "detail": "148 works"
+    },
+    {
+      "name": "American International Medical University",
+      "country": "LC",
+      "value": 16,
+      "detail": "100 works"
+    },
+    {
+      "name": "International American University",
+      "country": "LC",
+      "value": 15,
+      "detail": "235 works"
+    },
+    {
+      "name": "Sir Arthur Lewis Community College",
+      "country": "LC",
+      "value": 8,
+      "detail": "44 works"
+    },
+    {
+      "name": "Commonwealth University College of Medicine",
+      "country": "LC",
+      "value": 1,
+      "detail": "16 works"
+    }
+  ]
+}

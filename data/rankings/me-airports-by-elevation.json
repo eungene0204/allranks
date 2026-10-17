@@ -1,0 +1,56 @@
+{
+  "id": "me-airports-by-elevation",
+  "title": "Highest Airports in Montenegro",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Montenegro ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ME",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.521Z",
+  "items": [
+    {
+      "name": "Berane Airport",
+      "country": "ME",
+      "value": 697.08,
+      "detail": "Berane · 2,287 ft above sea level"
+    },
+    {
+      "name": "Nikšić Airfield",
+      "country": "ME",
+      "value": 612.04,
+      "detail": "Nikšić · 2,008 ft above sea level"
+    },
+    {
+      "name": "Ćemovsko Polje / Špiro Mugoša Airfield",
+      "country": "ME",
+      "value": 60.05,
+      "detail": "Podgorica · 197 ft above sea level"
+    },
+    {
+      "name": "Podgorica Airport / Podgorica Golubovci Airbase",
+      "country": "ME",
+      "value": 42.98,
+      "detail": "Podgorica · 141 ft above sea level"
+    },
+    {
+      "name": "Tivat Airport",
+      "country": "ME",
+      "value": 6.1,
+      "detail": "Tivat · 20 ft above sea level"
+    }
+  ]
+}

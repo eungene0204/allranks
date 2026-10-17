@@ -1,0 +1,128 @@
+{
+  "id": "lv-airports-by-elevation",
+  "title": "Highest Airports in Latvia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Latvia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.520Z",
+  "items": [
+    {
+      "name": "Taurene Airfield",
+      "country": "LV",
+      "value": 197.51,
+      "detail": "Taurene · 648 ft above sea level"
+    },
+    {
+      "name": "Cēsis Airfield",
+      "country": "LV",
+      "value": 111.86,
+      "detail": "Cesis · 367 ft above sea level"
+    },
+    {
+      "name": "Cēsis Airfield (old)",
+      "country": "LV",
+      "value": 107.9,
+      "detail": "Cesis · 354 ft above sea level"
+    },
+    {
+      "name": "Lejasciems airfield",
+      "country": "LV",
+      "value": 94.18,
+      "detail": "\"Jaunkalmes\", Lejasciema pag., LV4412 · 309 ft above sea level"
+    },
+    {
+      "name": "Griva Airfield",
+      "country": "LV",
+      "value": 92.96,
+      "detail": "Daugavpils · 305 ft above sea level"
+    },
+    {
+      "name": "Jēkabpils Air Base",
+      "country": "LV",
+      "value": 88.09,
+      "detail": "Jēkabpils · 289 ft above sea level"
+    },
+    {
+      "name": "Jūrmala Airport",
+      "country": "LV",
+      "value": 67.06,
+      "detail": "Tukums · 220 ft above sea level"
+    },
+    {
+      "name": "Limbaži Airfield",
+      "country": "LV",
+      "value": 64.31,
+      "detail": "Limbaži · 211 ft above sea level"
+    },
+    {
+      "name": "Lielvarde Air Base",
+      "country": "LV",
+      "value": 60.96,
+      "detail": "Lielvarde · 200 ft above sea level"
+    },
+    {
+      "name": "Valmiera Airfield",
+      "country": "LV",
+      "value": 57.91,
+      "detail": "Valmiera · 190 ft above sea level"
+    },
+    {
+      "name": "Cīrava Airfield",
+      "country": "LV",
+      "value": 22.86,
+      "detail": "Cīrava · 75 ft above sea level"
+    },
+    {
+      "name": "Ikshkile Airfield",
+      "country": "LV",
+      "value": 19.51,
+      "detail": "Ikshkile · 64 ft above sea level"
+    },
+    {
+      "name": "Riga International Airport",
+      "country": "LV",
+      "value": 10.97,
+      "detail": "Riga · 36 ft above sea level"
+    },
+    {
+      "name": "Ventspils International Airport",
+      "country": "LV",
+      "value": 5.79,
+      "detail": "Ventspils · 19 ft above sea level"
+    },
+    {
+      "name": "Liepāja International Airport",
+      "country": "LV",
+      "value": 4.88,
+      "detail": "Liepāja · 16 ft above sea level"
+    },
+    {
+      "name": "Ādaži Airfield",
+      "country": "LV",
+      "value": 2.44,
+      "detail": "Ādaži · 8 ft above sea level"
+    },
+    {
+      "name": "Spilve Aerodrome",
+      "country": "LV",
+      "value": 0.91,
+      "detail": "Riga · 3 ft above sea level"
+    }
+  ]
+}

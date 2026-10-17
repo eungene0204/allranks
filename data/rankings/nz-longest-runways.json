@@ -1,0 +1,326 @@
+{
+  "id": "nz-longest-runways",
+  "title": "Longest Airport Runways in New Zealand",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in New Zealand ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:54.041Z",
+  "items": [
+    {
+      "name": "Auckland International Airport",
+      "country": "NZ",
+      "value": 3635.04,
+      "detail": "Auckland · 11,926 ft · CON"
+    },
+    {
+      "name": "Christchurch International Airport",
+      "country": "NZ",
+      "value": 3287.88,
+      "detail": "Christchurch · 10,787 ft · ASP"
+    },
+    {
+      "name": "RNZAF Base Ohakea",
+      "country": "NZ",
+      "value": 2446.93,
+      "detail": "8,028 ft · ASP"
+    },
+    {
+      "name": "Invercargill Airport",
+      "country": "NZ",
+      "value": 2210.1,
+      "detail": "Invercargill · 7,251 ft · ASP"
+    },
+    {
+      "name": "Hamilton International Airport",
+      "country": "NZ",
+      "value": 2058.92,
+      "detail": "Hamilton · 6,755 ft · ASP"
+    },
+    {
+      "name": "RNZAF Base Auckland-Whenuapai",
+      "country": "NZ",
+      "value": 2031.49,
+      "detail": "6,665 ft · ASP"
+    },
+    {
+      "name": "Wellington International Airport",
+      "country": "NZ",
+      "value": 1936.09,
+      "detail": "Wellington · 6,352 ft · ASP"
+    },
+    {
+      "name": "Palmerston North Airport",
+      "country": "NZ",
+      "value": 1901.95,
+      "detail": "Palmerston North · 6,240 ft · UNK"
+    },
+    {
+      "name": "Dunedin International Airport",
+      "country": "NZ",
+      "value": 1900.12,
+      "detail": "Dunedin · 6,234 ft · ASP"
+    },
+    {
+      "name": "Queenstown Airport",
+      "country": "NZ",
+      "value": 1890.98,
+      "detail": "Queenstown · 6,204 ft · ASP"
+    },
+    {
+      "name": "Tauranga Airport",
+      "country": "NZ",
+      "value": 1825.14,
+      "detail": "Tauranga · 5,988 ft · ASP"
+    },
+    {
+      "name": "Hawke's Bay Airport",
+      "country": "NZ",
+      "value": 1749.86,
+      "detail": "Napier · 5,741 ft · ASPH"
+    },
+    {
+      "name": "Rotorua Regional Airport",
+      "country": "NZ",
+      "value": 1621.84,
+      "detail": "Rotorua · 5,321 ft · ASP"
+    },
+    {
+      "name": "Mount Cook Airport",
+      "country": "NZ",
+      "value": 1571.85,
+      "detail": "5,157 ft · ASP"
+    },
+    {
+      "name": "Cromwell/Louburn Airport",
+      "country": "NZ",
+      "value": 1548.38,
+      "detail": "Cromwell · 5,080 ft · GRE"
+    },
+    {
+      "name": "Rangitaiki Airfield",
+      "country": "NZ",
+      "value": 1503.88,
+      "detail": "4,934 ft · Grass"
+    },
+    {
+      "name": "Whitianga Airport",
+      "country": "NZ",
+      "value": 1445.97,
+      "detail": "Whitianga · 4,744 ft · GRASS"
+    },
+    {
+      "name": "Woodbourne Airport",
+      "country": "NZ",
+      "value": 1424.94,
+      "detail": "Blenheim · 4,675 ft · GRE"
+    },
+    {
+      "name": "Ardmore Airport",
+      "country": "NZ",
+      "value": 1411.22,
+      "detail": "Manurewa · 4,630 ft · ASP"
+    },
+    {
+      "name": "Kaitaia Airport",
+      "country": "NZ",
+      "value": 1402.08,
+      "detail": "Awanui · 4,600 ft · ASP"
+    },
+    {
+      "name": "Ashburton Airport",
+      "country": "NZ",
+      "value": 1388.06,
+      "detail": "Ashburton · 4,554 ft · GRS"
+    },
+    {
+      "name": "Taupo Airport",
+      "country": "NZ",
+      "value": 1385.93,
+      "detail": "Taupo · 4,547 ft · ASP"
+    },
+    {
+      "name": "Wanganui Airport",
+      "country": "NZ",
+      "value": 1378,
+      "detail": "Wanganui · 4,521 ft · ASP"
+    },
+    {
+      "name": "Inia William Tuuta Memorial Airport",
+      "country": "NZ",
+      "value": 1360.02,
+      "detail": "Te One · 4,462 ft · ASP"
+    },
+    {
+      "name": "Paraparaumu Airport",
+      "country": "NZ",
+      "value": 1349.96,
+      "detail": "4,429 ft · ASP"
+    },
+    {
+      "name": "Nelson Airport",
+      "country": "NZ",
+      "value": 1347.22,
+      "detail": "Nelson · 4,420 ft · ASP"
+    },
+    {
+      "name": "Hokitika Airfield",
+      "country": "NZ",
+      "value": 1313.99,
+      "detail": "4,311 ft · ASP"
+    },
+    {
+      "name": "Gisborne Airport",
+      "country": "NZ",
+      "value": 1310.03,
+      "detail": "Gisborne · 4,298 ft · ASP"
+    },
+    {
+      "name": "New Plymouth Airport",
+      "country": "NZ",
+      "value": 1310.03,
+      "detail": "New Plymouth · 4,298 ft · ASP"
+    },
+    {
+      "name": "Oamaru Airport",
+      "country": "NZ",
+      "value": 1283.21,
+      "detail": "4,210 ft · ASP"
+    },
+    {
+      "name": "Timaru Airport",
+      "country": "NZ",
+      "value": 1280.16,
+      "detail": "4,200 ft · ASP"
+    },
+    {
+      "name": "Westport Airport",
+      "country": "NZ",
+      "value": 1280.16,
+      "detail": "Westport · 4,200 ft · ASP"
+    },
+    {
+      "name": "Whakatāne Airport",
+      "country": "NZ",
+      "value": 1280.16,
+      "detail": "Whakatāne · 4,200 ft · ASP"
+    },
+    {
+      "name": "Hood Airport",
+      "country": "NZ",
+      "value": 1249.98,
+      "detail": "Masterton · 4,101 ft · ASP"
+    },
+    {
+      "name": "Galatea Airfield",
+      "country": "NZ",
+      "value": 1204.87,
+      "detail": "3,953 ft · Grass"
+    },
+    {
+      "name": "Alexandra Aerodrome",
+      "country": "NZ",
+      "value": 1200,
+      "detail": "Alexandra · 3,937 ft · GRS"
+    },
+    {
+      "name": "Dannevirke Aerodrome",
+      "country": "NZ",
+      "value": 1200,
+      "detail": "3,937 ft · GRS"
+    },
+    {
+      "name": "Wanaka Airport",
+      "country": "NZ",
+      "value": 1200,
+      "detail": "Wanaka · 3,937 ft · ASP"
+    },
+    {
+      "name": "Waiouru Airport",
+      "country": "NZ",
+      "value": 1193.9,
+      "detail": "3,917 ft · ASP"
+    },
+    {
+      "name": "Kerikeri Airport",
+      "country": "NZ",
+      "value": 1189.94,
+      "detail": "Kerikeri · 3,904 ft · ASP"
+    },
+    {
+      "name": "Rangiora Airfield",
+      "country": "NZ",
+      "value": 1179.88,
+      "detail": "Rangiora · 3,871 ft · Grass"
+    },
+    {
+      "name": "Whangarei Airport",
+      "country": "NZ",
+      "value": 1096.98,
+      "detail": "Whangarei · 3,599 ft · ASP"
+    },
+    {
+      "name": "Greymouth Airport",
+      "country": "NZ",
+      "value": 1090.88,
+      "detail": "3,579 ft · concrete"
+    },
+    {
+      "name": "Matamata Glider Airport",
+      "country": "NZ",
+      "value": 1088.75,
+      "detail": "3,572 ft · GRS"
+    },
+    {
+      "name": "Pukaki Airport",
+      "country": "NZ",
+      "value": 1082.04,
+      "detail": "Twitzel · 3,550 ft · ASP"
+    },
+    {
+      "name": "Manapouri Airport",
+      "country": "NZ",
+      "value": 1081.13,
+      "detail": "3,547 ft · ASP"
+    },
+    {
+      "name": "Hastings Aerodrome",
+      "country": "NZ",
+      "value": 1074.42,
+      "detail": "Bridge Pa · 3,525 ft · B"
+    },
+    {
+      "name": "Waipukurau Airport",
+      "country": "NZ",
+      "value": 1054.91,
+      "detail": "3,461 ft · Gr"
+    },
+    {
+      "name": "Rangitata Island Airport",
+      "country": "NZ",
+      "value": 1039.98,
+      "detail": "Rangitata Island · 3,412 ft · GRS"
+    },
+    {
+      "name": "Feilding Airport",
+      "country": "NZ",
+      "value": 1029,
+      "detail": "Feilding · 3,376 ft · BIT"
+    }
+  ]
+}

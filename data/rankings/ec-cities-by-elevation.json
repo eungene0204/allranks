@@ -1,0 +1,326 @@
+{
+  "id": "ec-cities-by-elevation",
+  "title": "Highest Major Cities in Ecuador",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Ecuador with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EC",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.526Z",
+  "items": [
+    {
+      "name": "Tulcán",
+      "country": "EC",
+      "value": 2962,
+      "detail": "86,498 people · Carchi"
+    },
+    {
+      "name": "Pujilí",
+      "country": "EC",
+      "value": 2944,
+      "detail": "16,168 people · Cotopaxi"
+    },
+    {
+      "name": "Cayambe",
+      "country": "EC",
+      "value": 2911,
+      "detail": "26,582 people · Pichincha"
+    },
+    {
+      "name": "Machachi",
+      "country": "EC",
+      "value": 2905,
+      "detail": "25,742 people · Pichincha"
+    },
+    {
+      "name": "Quito",
+      "country": "EC",
+      "value": 2854,
+      "detail": "2,781,641 people · Pichincha"
+    },
+    {
+      "name": "Guaranda",
+      "country": "EC",
+      "value": 2806,
+      "detail": "22,199 people · Bolívar"
+    },
+    {
+      "name": "Riobamba",
+      "country": "EC",
+      "value": 2777,
+      "detail": "264,048 people · Chimborazo Province"
+    },
+    {
+      "name": "Latacunga",
+      "country": "EC",
+      "value": 2770,
+      "detail": "205,624 people · Cotopaxi"
+    },
+    {
+      "name": "Azogues",
+      "country": "EC",
+      "value": 2720,
+      "detail": "34,877 people · Canar"
+    },
+    {
+      "name": "Ambato",
+      "country": "EC",
+      "value": 2597,
+      "detail": "387,309 people · Tungurahua Province"
+    },
+    {
+      "name": "Otavalo",
+      "country": "EC",
+      "value": 2532,
+      "detail": "32,330 people · Imbabura"
+    },
+    {
+      "name": "Pelileo",
+      "country": "EC",
+      "value": 2515,
+      "detail": "16,572 people · Tungurahua Province"
+    },
+    {
+      "name": "Cuenca",
+      "country": "EC",
+      "value": 2484,
+      "detail": "636,996 people · Azuay"
+    },
+    {
+      "name": "Pomasqui",
+      "country": "EC",
+      "value": 2457,
+      "detail": "28,724 people · Pichincha"
+    },
+    {
+      "name": "Gualaceo",
+      "country": "EC",
+      "value": 2429,
+      "detail": "17,122 people · Azuay"
+    },
+    {
+      "name": "Atuntaqui",
+      "country": "EC",
+      "value": 2391,
+      "detail": "17,456 people · Imbabura"
+    },
+    {
+      "name": "Ibarra",
+      "country": "EC",
+      "value": 2192,
+      "detail": "221,149 people · Imbabura"
+    },
+    {
+      "name": "Cariamanga",
+      "country": "EC",
+      "value": 2185,
+      "detail": "16,862 people · Loja"
+    },
+    {
+      "name": "Loja",
+      "country": "EC",
+      "value": 2060,
+      "detail": "274,112 people · Loja"
+    },
+    {
+      "name": "Catamayo",
+      "country": "EC",
+      "value": 1452,
+      "detail": "18,565 people · Loja"
+    },
+    {
+      "name": "Macas",
+      "country": "EC",
+      "value": 1315,
+      "detail": "23,687 people · Morona-Santiago Province"
+    },
+    {
+      "name": "Piñas",
+      "country": "EC",
+      "value": 1196,
+      "detail": "16,981 people · El Oro"
+    },
+    {
+      "name": "Puyo",
+      "country": "EC",
+      "value": 1058,
+      "detail": "24,881 people · Pastaza Province"
+    },
+    {
+      "name": "Zamora",
+      "country": "EC",
+      "value": 979,
+      "detail": "15,276 people · Zamora Chinchipe"
+    },
+    {
+      "name": "La Maná",
+      "country": "EC",
+      "value": 742,
+      "detail": "16,450 people · Cotopaxi"
+    },
+    {
+      "name": "Tena",
+      "country": "EC",
+      "value": 610,
+      "detail": "17,172 people · Napo"
+    },
+    {
+      "name": "Santo Domingo de los Colorados",
+      "country": "EC",
+      "value": 555,
+      "detail": "458,580 people · Santo Domingo de los Tsáchilas"
+    },
+    {
+      "name": "La Troncal",
+      "country": "EC",
+      "value": 480,
+      "detail": "36,353 people · Canar"
+    },
+    {
+      "name": "Ventanas",
+      "country": "EC",
+      "value": 371,
+      "detail": "38,168 people · Los Ríos"
+    },
+    {
+      "name": "Nueva Loja",
+      "country": "EC",
+      "value": 303,
+      "detail": "24,211 people · Sucumbíos"
+    },
+    {
+      "name": "Puerto Francisco de Orellana",
+      "country": "EC",
+      "value": 300,
+      "detail": "48,144 people · Orellana Province"
+    },
+    {
+      "name": "Jipijapa",
+      "country": "EC",
+      "value": 287,
+      "detail": "35,901 people · Manabí"
+    },
+    {
+      "name": "Boca Suno",
+      "country": "EC",
+      "value": 280,
+      "detail": "20,313 people · Orellana Province"
+    },
+    {
+      "name": "Naranjito",
+      "country": "EC",
+      "value": 166,
+      "detail": "34,206 people · Guayas"
+    },
+    {
+      "name": "Valencia",
+      "country": "EC",
+      "value": 163,
+      "detail": "18,841 people · Los Ríos"
+    },
+    {
+      "name": "Sucre",
+      "country": "EC",
+      "value": 152,
+      "detail": "15,286 people · Manabí"
+    },
+    {
+      "name": "Montecristi",
+      "country": "EC",
+      "value": 135,
+      "detail": "18,351 people · Manabí"
+    },
+    {
+      "name": "El Empalme",
+      "country": "EC",
+      "value": 106,
+      "detail": "48,754 people · Guayas"
+    },
+    {
+      "name": "Pedro Carbo",
+      "country": "EC",
+      "value": 103,
+      "detail": "23,372 people · Guayas"
+    },
+    {
+      "name": "Chone",
+      "country": "EC",
+      "value": 102,
+      "detail": "44,751 people · Manabí"
+    },
+    {
+      "name": "Portoviejo",
+      "country": "EC",
+      "value": 90,
+      "detail": "321,800 people · Manabí"
+    },
+    {
+      "name": "Rosa Zarate",
+      "country": "EC",
+      "value": 88,
+      "detail": "42,121 people · Esmeraldas"
+    },
+    {
+      "name": "Santa Rosa",
+      "country": "EC",
+      "value": 81,
+      "detail": "41,816 people · El Oro"
+    },
+    {
+      "name": "Montalvo",
+      "country": "EC",
+      "value": 65,
+      "detail": "15,547 people · Los Ríos"
+    },
+    {
+      "name": "Naranjal",
+      "country": "EC",
+      "value": 60,
+      "detail": "32,045 people · Guayas"
+    },
+    {
+      "name": "Babahoyo",
+      "country": "EC",
+      "value": 51,
+      "detail": "76,279 people · Los Ríos"
+    },
+    {
+      "name": "Quevedo",
+      "country": "EC",
+      "value": 51,
+      "detail": "213,842 people · Los Ríos"
+    },
+    {
+      "name": "Santa Elena",
+      "country": "EC",
+      "value": 43,
+      "detail": "42,214 people · Santa Elena"
+    },
+    {
+      "name": "Arenillas",
+      "country": "EC",
+      "value": 41,
+      "detail": "26,000 people · El Oro"
+    },
+    {
+      "name": "Balzar",
+      "country": "EC",
+      "value": 41,
+      "detail": "40,115 people · Guayas"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "mn-cities-by-elevation",
+  "title": "Highest Major Cities in Mongolia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Mongolia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.551Z",
+  "items": [
+    {
+      "name": "Altai",
+      "country": "MN",
+      "value": 2156,
+      "detail": "17,617 people · Govi-Altai Province"
+    },
+    {
+      "name": "Bayanhongor",
+      "country": "MN",
+      "value": 1873,
+      "detail": "30,931 people · Bayankhongor"
+    },
+    {
+      "name": "Arvayheer",
+      "country": "MN",
+      "value": 1838,
+      "detail": "29,420 people · Övörhangay"
+    },
+    {
+      "name": "Uliastay",
+      "country": "MN",
+      "value": 1755,
+      "detail": "16,265 people · Dzabkhan"
+    },
+    {
+      "name": "Ölgii",
+      "country": "MN",
+      "value": 1715,
+      "detail": "28,400 people · Bayan-Ölgii Province"
+    },
+    {
+      "name": "Tsetserleg",
+      "country": "MN",
+      "value": 1705,
+      "detail": "21,620 people · Arkhangai Province"
+    },
+    {
+      "name": "Bogd",
+      "country": "MN",
+      "value": 1525,
+      "detail": "27,924 people · Övörhangay"
+    },
+    {
+      "name": "Dzuunmod",
+      "country": "MN",
+      "value": 1514,
+      "detail": "16,953 people · Central Aimak"
+    },
+    {
+      "name": "Zuunmod",
+      "country": "MN",
+      "value": 1514,
+      "detail": "16,953 people · Central Aimak"
+    },
+    {
+      "name": "Dalandzadgad",
+      "country": "MN",
+      "value": 1470,
+      "detail": "24,863 people · Ömnögovĭ"
+    },
+    {
+      "name": "Nalayh",
+      "country": "MN",
+      "value": 1434,
+      "detail": "39,579 people · Ulaanbaatar"
+    },
+    {
+      "name": "Khovd",
+      "country": "MN",
+      "value": 1395,
+      "detail": "29,800 people · Hovd"
+    },
+    {
+      "name": "Erdenet",
+      "country": "MN",
+      "value": 1307,
+      "detail": "97,814 people · Orhon"
+    },
+    {
+      "name": "Ulan Bator",
+      "country": "MN",
+      "value": 1284,
+      "detail": "844,818 people · Ulaanbaatar"
+    },
+    {
+      "name": "Mörön",
+      "country": "MN",
+      "value": 1280,
+      "detail": "39,404 people · Khövsgöl Province"
+    },
+    {
+      "name": "Bulgan",
+      "country": "MN",
+      "value": 1204,
+      "detail": "17,348 people · Bulgan"
+    },
+    {
+      "name": "Undurkhaan",
+      "country": "MN",
+      "value": 1030,
+      "detail": "22,741 people · Hentiy"
+    },
+    {
+      "name": "Baruun-Urt",
+      "country": "MN",
+      "value": 991,
+      "detail": "18,190 people · Sühbaatar"
+    },
+    {
+      "name": "Saynshand",
+      "country": "MN",
+      "value": 947,
+      "detail": "19,891 people · East Gobi Aymag"
+    },
+    {
+      "name": "Ulaangom",
+      "country": "MN",
+      "value": 935,
+      "detail": "30,092 people · Uvs Province"
+    },
+    {
+      "name": "Dzüünharaa",
+      "country": "MN",
+      "value": 867,
+      "detail": "18,830 people · Selenge Province"
+    },
+    {
+      "name": "Choibalsan",
+      "country": "MN",
+      "value": 741,
+      "detail": "44,835 people · East Aimak"
+    },
+    {
+      "name": "Darhan",
+      "country": "MN",
+      "value": 683,
+      "detail": "83,883 people · Darhan Uul"
+    },
+    {
+      "name": "Sühbaatar",
+      "country": "MN",
+      "value": 619,
+      "detail": "22,741 people · Selenge Province"
+    }
+  ]
+}

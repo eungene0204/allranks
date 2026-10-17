@@ -1,0 +1,109 @@
+{
+  "id": "la-province-population",
+  "title": "Lao Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Estimated population of each province and Vientiane Prefecture (mid-2023).",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Lao Statistics Bureau (2023 estimate) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Provinces_of_Laos",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:23:30.642Z",
+  "items": [
+    {
+      "name": "Savannakhet",
+      "country": "LA",
+      "value": 1.1175
+    },
+    {
+      "name": "Champasak",
+      "country": "LA",
+      "value": 0.7812
+    },
+    {
+      "name": "Vientiane",
+      "country": "LA",
+      "value": 0.4794
+    },
+    {
+      "name": "Luang Prabang",
+      "country": "LA",
+      "value": 0.4777
+    },
+    {
+      "name": "Salavan",
+      "country": "LA",
+      "value": 0.4648
+    },
+    {
+      "name": "Khammouane",
+      "country": "LA",
+      "value": 0.4513
+    },
+    {
+      "name": "Sainyabuli",
+      "country": "LA",
+      "value": 0.4394
+    },
+    {
+      "name": "Oudomxay",
+      "country": "LA",
+      "value": 0.3608
+    },
+    {
+      "name": "Bolikhamxai",
+      "country": "LA",
+      "value": 0.3307
+    },
+    {
+      "name": "Houaphanh",
+      "country": "LA",
+      "value": 0.3171
+    },
+    {
+      "name": "Xiangkhouang",
+      "country": "LA",
+      "value": 0.2744
+    },
+    {
+      "name": "Bokeo",
+      "country": "LA",
+      "value": 0.2133
+    },
+    {
+      "name": "Luang Namtha",
+      "country": "LA",
+      "value": 0.2089
+    },
+    {
+      "name": "Phongsaly",
+      "country": "LA",
+      "value": 0.1976
+    },
+    {
+      "name": "Attapeu",
+      "country": "LA",
+      "value": 0.167
+    },
+    {
+      "name": "Sekong",
+      "country": "LA",
+      "value": 0.1367
+    },
+    {
+      "name": "Xaisomboun",
+      "country": "LA",
+      "value": 0.1168
+    }
+  ]
+}

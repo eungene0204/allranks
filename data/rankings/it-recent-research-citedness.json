@@ -1,0 +1,326 @@
+{
+  "id": "it-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Italy",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "IT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:57.428Z",
+  "items": [
+    {
+      "name": "Centro Universitario Internazionale",
+      "country": "IT",
+      "value": 11.1875,
+      "detail": "115 works"
+    },
+    {
+      "name": "Gran Sasso Science Institute",
+      "country": "IT",
+      "value": 8.768,
+      "detail": "5,891 works"
+    },
+    {
+      "name": "University of Ragusa",
+      "country": "IT",
+      "value": 7.35,
+      "detail": "295 works"
+    },
+    {
+      "name": "Studio Associato Gaia",
+      "country": "IT",
+      "value": 7,
+      "detail": "37 works"
+    },
+    {
+      "name": "San Raffaele University of Rome",
+      "country": "IT",
+      "value": 6.995,
+      "detail": "2,930 works"
+    },
+    {
+      "name": "National Interuniversity Consortium of Materials Science and Technology",
+      "country": "IT",
+      "value": 6.6565,
+      "detail": "15,207 works"
+    },
+    {
+      "name": "Università di Camerino",
+      "country": "IT",
+      "value": 6.3878,
+      "detail": "20,251 works"
+    },
+    {
+      "name": "Università degli Studi Internazionali di Roma",
+      "country": "IT",
+      "value": 6.3186,
+      "detail": "768 works"
+    },
+    {
+      "name": "Scuola Normale Superiore",
+      "country": "IT",
+      "value": 6.2058,
+      "detail": "20,943 works"
+    },
+    {
+      "name": "University of Campania \"Luigi Vanvitelli\"",
+      "country": "IT",
+      "value": 6.0763,
+      "detail": "56,900 works"
+    },
+    {
+      "name": "University of Sannio",
+      "country": "IT",
+      "value": 6.0078,
+      "detail": "11,006 works"
+    },
+    {
+      "name": "Collegio Ghislieri",
+      "country": "IT",
+      "value": 5.9,
+      "detail": "26 works"
+    },
+    {
+      "name": "Vita-Salute San Raffaele University",
+      "country": "IT",
+      "value": 5.6878,
+      "detail": "32,633 works"
+    },
+    {
+      "name": "Abiogen Pharma (Italy)",
+      "country": "IT",
+      "value": 5.6053,
+      "detail": "49 works"
+    },
+    {
+      "name": "Unitelma Sapienza University",
+      "country": "IT",
+      "value": 5.5752,
+      "detail": "1,080 works"
+    },
+    {
+      "name": "University of Milano-Bicocca",
+      "country": "IT",
+      "value": 5.5021,
+      "detail": "77,144 works"
+    },
+    {
+      "name": "Johns Hopkins University SAIS Bologna Center",
+      "country": "IT",
+      "value": 5.3438,
+      "detail": "679 works"
+    },
+    {
+      "name": "Giustino Fortunato University",
+      "country": "IT",
+      "value": 5.2034,
+      "detail": "909 works"
+    },
+    {
+      "name": "University of Rome Tor Vergata",
+      "country": "IT",
+      "value": 5.2033,
+      "detail": "100,119 works"
+    },
+    {
+      "name": "University of Urbino",
+      "country": "IT",
+      "value": 5.1611,
+      "detail": "17,361 works"
+    },
+    {
+      "name": "Consorzio Interuniversitario per le Biotecnologie",
+      "country": "IT",
+      "value": 5.0385,
+      "detail": "443 works"
+    },
+    {
+      "name": "Scuola Internazionale Superiore di Studi Avanzati",
+      "country": "IT",
+      "value": 5,
+      "detail": "21,584 works"
+    },
+    {
+      "name": "UniNettuno University",
+      "country": "IT",
+      "value": 4.9872,
+      "detail": "2,372 works"
+    },
+    {
+      "name": "Humanitas University",
+      "country": "IT",
+      "value": 4.9612,
+      "detail": "16,821 works"
+    },
+    {
+      "name": "Magna Graecia University",
+      "country": "IT",
+      "value": 4.9395,
+      "detail": "20,274 works"
+    },
+    {
+      "name": "Sigmund Freud Privatuniversität - Standort Mailand",
+      "country": "IT",
+      "value": 4.9111,
+      "detail": "339 works"
+    },
+    {
+      "name": "University of Basilicata",
+      "country": "IT",
+      "value": 4.9052,
+      "detail": "16,537 works"
+    },
+    {
+      "name": "Università Cattolica del Sacro Cuore",
+      "country": "IT",
+      "value": 4.8775,
+      "detail": "84,475 works"
+    },
+    {
+      "name": "University of Trento",
+      "country": "IT",
+      "value": 4.8549,
+      "detail": "61,192 works"
+    },
+    {
+      "name": "University of Brescia",
+      "country": "IT",
+      "value": 4.8302,
+      "detail": "48,807 works"
+    },
+    {
+      "name": "University of Catania",
+      "country": "IT",
+      "value": 4.8226,
+      "detail": "80,292 works"
+    },
+    {
+      "name": "Scuola Nazionale dell'Amministrazione",
+      "country": "IT",
+      "value": 4.7407,
+      "detail": "78 works"
+    },
+    {
+      "name": "University of Sassari",
+      "country": "IT",
+      "value": 4.6568,
+      "detail": "29,878 works"
+    },
+    {
+      "name": "University of Pisa",
+      "country": "IT",
+      "value": 4.615,
+      "detail": "141,716 works"
+    },
+    {
+      "name": "University of Siena",
+      "country": "IT",
+      "value": 4.6149,
+      "detail": "60,674 works"
+    },
+    {
+      "name": "University of Udine",
+      "country": "IT",
+      "value": 4.6088,
+      "detail": "41,754 works"
+    },
+    {
+      "name": "University of Salento",
+      "country": "IT",
+      "value": 4.5998,
+      "detail": "32,392 works"
+    },
+    {
+      "name": "University of Salerno",
+      "country": "IT",
+      "value": 4.5922,
+      "detail": "56,650 works"
+    },
+    {
+      "name": "Saint Camillus International University of Health and Medical Sciences",
+      "country": "IT",
+      "value": 4.5462,
+      "detail": "3,394 works"
+    },
+    {
+      "name": "University of Naples Federico II",
+      "country": "IT",
+      "value": 4.5013,
+      "detail": "179,762 works"
+    },
+    {
+      "name": "University of Verona",
+      "country": "IT",
+      "value": 4.4895,
+      "detail": "63,130 works"
+    },
+    {
+      "name": "Polytechnic University of Bari",
+      "country": "IT",
+      "value": 4.4514,
+      "detail": "21,243 works"
+    },
+    {
+      "name": "University of Bari Aldo Moro",
+      "country": "IT",
+      "value": 4.4392,
+      "detail": "85,929 works"
+    },
+    {
+      "name": "Scuola Superiore Meridionale",
+      "country": "IT",
+      "value": 4.4166,
+      "detail": "1,992 works"
+    },
+    {
+      "name": "University of Trieste",
+      "country": "IT",
+      "value": 4.3871,
+      "detail": "59,782 works"
+    },
+    {
+      "name": "University of Perugia",
+      "country": "IT",
+      "value": 4.3222,
+      "detail": "70,274 works"
+    },
+    {
+      "name": "University of Pavia",
+      "country": "IT",
+      "value": 4.3192,
+      "detail": "96,687 works"
+    },
+    {
+      "name": "Università degli Studi del Piemonte Orientale “Amedeo Avogadro”",
+      "country": "IT",
+      "value": 4.2826,
+      "detail": "25,326 works"
+    },
+    {
+      "name": "Foro Italico University of Rome",
+      "country": "IT",
+      "value": 4.2807,
+      "detail": "3,691 works"
+    },
+    {
+      "name": "Università Campus Bio-Medico",
+      "country": "IT",
+      "value": 4.2688,
+      "detail": "19,914 works"
+    }
+  ]
+}

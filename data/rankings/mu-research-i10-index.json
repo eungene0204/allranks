@@ -1,0 +1,62 @@
+{
+  "id": "mu-research-i10-index",
+  "title": "Universities by Research i10-index in Mauritius",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:13.773Z",
+  "items": [
+    {
+      "name": "University of Mauritius",
+      "country": "MU",
+      "value": 4080,
+      "detail": "6,369 works"
+    },
+    {
+      "name": "University of Technology, Mauritius",
+      "country": "MU",
+      "value": 227,
+      "detail": "763 works"
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "country": "MU",
+      "value": 89,
+      "detail": "213 works"
+    },
+    {
+      "name": "Mauritius Institute of Education",
+      "country": "MU",
+      "value": 53,
+      "detail": "262 works"
+    },
+    {
+      "name": "Open University of Mauritius",
+      "country": "MU",
+      "value": 35,
+      "detail": "209 works"
+    },
+    {
+      "name": "Mahatma Gandhi Institute",
+      "country": "MU",
+      "value": 6,
+      "detail": "77 works"
+    }
+  ]
+}

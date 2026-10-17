@@ -1,0 +1,326 @@
+{
+  "id": "jp-research-publications",
+  "title": "Universities by Research Publications in Japan",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:58.538Z",
+  "items": [
+    {
+      "name": "The University of Tokyo",
+      "country": "JP",
+      "value": 601130,
+      "detail": "51,309,402 citations"
+    },
+    {
+      "name": "Kyoto University",
+      "country": "JP",
+      "value": 402272,
+      "detail": "31,210,257 citations"
+    },
+    {
+      "name": "The University of Osaka",
+      "country": "JP",
+      "value": 329104,
+      "detail": "27,578,167 citations"
+    },
+    {
+      "name": "Nagoya University",
+      "country": "JP",
+      "value": 318350,
+      "detail": "15,773,082 citations"
+    },
+    {
+      "name": "Tohoku University",
+      "country": "JP",
+      "value": 305246,
+      "detail": "19,544,927 citations"
+    },
+    {
+      "name": "Hokkaido University",
+      "country": "JP",
+      "value": 275579,
+      "detail": "12,266,604 citations"
+    },
+    {
+      "name": "Kyushu University",
+      "country": "JP",
+      "value": 255546,
+      "detail": "14,906,354 citations"
+    },
+    {
+      "name": "Tokyo Institute of Technology",
+      "country": "JP",
+      "value": 180329,
+      "detail": "10,055,706 citations"
+    },
+    {
+      "name": "University of Tsukuba",
+      "country": "JP",
+      "value": 150063,
+      "detail": "9,665,847 citations"
+    },
+    {
+      "name": "Keio University",
+      "country": "JP",
+      "value": 137895,
+      "detail": "8,586,687 citations"
+    },
+    {
+      "name": "Hiroshima University",
+      "country": "JP",
+      "value": 128503,
+      "detail": "7,420,627 citations"
+    },
+    {
+      "name": "Kobe University",
+      "country": "JP",
+      "value": 104240,
+      "detail": "7,174,815 citations"
+    },
+    {
+      "name": "Okayama University",
+      "country": "JP",
+      "value": 103126,
+      "detail": "6,055,545 citations"
+    },
+    {
+      "name": "Waseda University",
+      "country": "JP",
+      "value": 100262,
+      "detail": "3,544,191 citations"
+    },
+    {
+      "name": "Chiba University",
+      "country": "JP",
+      "value": 99351,
+      "detail": "6,315,043 citations"
+    },
+    {
+      "name": "Nihon University",
+      "country": "JP",
+      "value": 78331,
+      "detail": "2,660,185 citations"
+    },
+    {
+      "name": "Kanazawa University",
+      "country": "JP",
+      "value": 76435,
+      "detail": "4,806,344 citations"
+    },
+    {
+      "name": "Niigata University",
+      "country": "JP",
+      "value": 65782,
+      "detail": "3,930,355 citations"
+    },
+    {
+      "name": "Tokyo University of Science",
+      "country": "JP",
+      "value": 65523,
+      "detail": "2,750,292 citations"
+    },
+    {
+      "name": "Kumamoto University",
+      "country": "JP",
+      "value": 64355,
+      "detail": "4,793,599 citations"
+    },
+    {
+      "name": "Tokyo Medical and Dental University",
+      "country": "JP",
+      "value": 61992,
+      "detail": "5,014,664 citations"
+    },
+    {
+      "name": "Osaka City University",
+      "country": "JP",
+      "value": 60528,
+      "detail": "3,575,165 citations"
+    },
+    {
+      "name": "Nagasaki University",
+      "country": "JP",
+      "value": 58446,
+      "detail": "3,393,967 citations"
+    },
+    {
+      "name": "Shinshu University",
+      "country": "JP",
+      "value": 58135,
+      "detail": "3,223,392 citations"
+    },
+    {
+      "name": "Kindai University",
+      "country": "JP",
+      "value": 55906,
+      "detail": "2,652,644 citations"
+    },
+    {
+      "name": "Tokyo Metropolitan University",
+      "country": "JP",
+      "value": 53814,
+      "detail": "2,367,782 citations"
+    },
+    {
+      "name": "Tokushima University",
+      "country": "JP",
+      "value": 53060,
+      "detail": "3,317,487 citations"
+    },
+    {
+      "name": "Gunma University",
+      "country": "JP",
+      "value": 52488,
+      "detail": "2,812,416 citations"
+    },
+    {
+      "name": "Tokai University",
+      "country": "JP",
+      "value": 51476,
+      "detail": "2,161,234 citations"
+    },
+    {
+      "name": "Gifu University",
+      "country": "JP",
+      "value": 50993,
+      "detail": "2,587,388 citations"
+    },
+    {
+      "name": "Juntendo University",
+      "country": "JP",
+      "value": 50639,
+      "detail": "3,522,199 citations"
+    },
+    {
+      "name": "Yamaguchi University",
+      "country": "JP",
+      "value": 50418,
+      "detail": "2,152,861 citations"
+    },
+    {
+      "name": "Kagoshima University",
+      "country": "JP",
+      "value": 50099,
+      "detail": "2,462,289 citations"
+    },
+    {
+      "name": "Shizuoka University",
+      "country": "JP",
+      "value": 47631,
+      "detail": "1,974,213 citations"
+    },
+    {
+      "name": "Tokyo University of Agriculture and Technology",
+      "country": "JP",
+      "value": 44575,
+      "detail": "1,997,900 citations"
+    },
+    {
+      "name": "Osaka Prefecture University",
+      "country": "JP",
+      "value": 44444,
+      "detail": "1,980,021 citations"
+    },
+    {
+      "name": "Ehime University",
+      "country": "JP",
+      "value": 44387,
+      "detail": "2,285,508 citations"
+    },
+    {
+      "name": "University of Toyama",
+      "country": "JP",
+      "value": 44093,
+      "detail": "2,323,098 citations"
+    },
+    {
+      "name": "Kitasato University",
+      "country": "JP",
+      "value": 42398,
+      "detail": "2,340,866 citations"
+    },
+    {
+      "name": "Yokohama National University",
+      "country": "JP",
+      "value": 41097,
+      "detail": "1,188,597 citations"
+    },
+    {
+      "name": "Tokyo Women's Medical University",
+      "country": "JP",
+      "value": 39947,
+      "detail": "2,589,174 citations"
+    },
+    {
+      "name": "Yamagata University",
+      "country": "JP",
+      "value": 39327,
+      "detail": "1,722,841 citations"
+    },
+    {
+      "name": "Mie University",
+      "country": "JP",
+      "value": 38973,
+      "detail": "2,152,086 citations"
+    },
+    {
+      "name": "Yokohama City University",
+      "country": "JP",
+      "value": 38756,
+      "detail": "2,776,979 citations"
+    },
+    {
+      "name": "Ritsumeikan University",
+      "country": "JP",
+      "value": 37567,
+      "detail": "931,582 citations"
+    },
+    {
+      "name": "Nagoya Institute of Technology",
+      "country": "JP",
+      "value": 37219,
+      "detail": "1,123,814 citations"
+    },
+    {
+      "name": "Tottori University",
+      "country": "JP",
+      "value": 36147,
+      "detail": "1,688,605 citations"
+    },
+    {
+      "name": "Nippon Medical School",
+      "country": "JP",
+      "value": 34855,
+      "detail": "1,763,127 citations"
+    },
+    {
+      "name": "Kyushu Institute of Technology",
+      "country": "JP",
+      "value": 33786,
+      "detail": "829,502 citations"
+    },
+    {
+      "name": "Kyoto Prefectural University of Medicine",
+      "country": "JP",
+      "value": 33744,
+      "detail": "2,725,384 citations"
+    }
+  ]
+}

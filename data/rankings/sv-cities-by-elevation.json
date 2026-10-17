@@ -1,0 +1,236 @@
+{
+  "id": "sv-cities-by-elevation",
+  "title": "Highest Major Cities in El Salvador",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in El Salvador with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.564Z",
+  "items": [
+    {
+      "name": "Santa Tecla",
+      "country": "SV",
+      "value": 965,
+      "detail": "124,694 people · La Libertad Department"
+    },
+    {
+      "name": "Santiago de María",
+      "country": "SV",
+      "value": 896,
+      "detail": "15,032 people · Usulutan"
+    },
+    {
+      "name": "Antiguo Cuscatlán",
+      "country": "SV",
+      "value": 891,
+      "detail": "33,767 people · La Libertad Department"
+    },
+    {
+      "name": "Cojutepeque",
+      "country": "SV",
+      "value": 836,
+      "detail": "48,411 people · Cuscatlan"
+    },
+    {
+      "name": "Ahuachapán",
+      "country": "SV",
+      "value": 770,
+      "detail": "34,102 people · Ahuachapan"
+    },
+    {
+      "name": "San Marcos",
+      "country": "SV",
+      "value": 733,
+      "detail": "54,615 people · San Salvador Department"
+    },
+    {
+      "name": "Ayutuxtepeque",
+      "country": "SV",
+      "value": 711,
+      "detail": "25,426 people · San Salvador Department"
+    },
+    {
+      "name": "Chalchuapa",
+      "country": "SV",
+      "value": 710,
+      "detail": "32,282 people · Santa Ana Department"
+    },
+    {
+      "name": "Sensuntepeque",
+      "country": "SV",
+      "value": 702,
+      "detail": "20,386 people · Cabanas"
+    },
+    {
+      "name": "Cuscatancingo",
+      "country": "SV",
+      "value": 655,
+      "detail": "44,369 people · San Salvador Department"
+    },
+    {
+      "name": "San Salvador",
+      "country": "SV",
+      "value": 653,
+      "detail": "525,990 people · San Salvador Department"
+    },
+    {
+      "name": "Mejicanos",
+      "country": "SV",
+      "value": 652,
+      "detail": "160,317 people · San Salvador Department"
+    },
+    {
+      "name": "Santa Ana",
+      "country": "SV",
+      "value": 645,
+      "detail": "176,661 people · Santa Ana Department"
+    },
+    {
+      "name": "Delgado",
+      "country": "SV",
+      "value": 644,
+      "detail": "71,594 people · San Salvador Department"
+    },
+    {
+      "name": "Soyapango",
+      "country": "SV",
+      "value": 634,
+      "detail": "329,708 people · San Salvador Department"
+    },
+    {
+      "name": "San Martín",
+      "country": "SV",
+      "value": 622,
+      "detail": "39,361 people · Cuscatlan"
+    },
+    {
+      "name": "Ilopango",
+      "country": "SV",
+      "value": 620,
+      "detail": "38,890 people · San Salvador Department"
+    },
+    {
+      "name": "Metapán",
+      "country": "SV",
+      "value": 471,
+      "detail": "19,143 people · Santa Ana Department"
+    },
+    {
+      "name": "Quezaltepeque",
+      "country": "SV",
+      "value": 443,
+      "detail": "28,886 people · La Libertad Department"
+    },
+    {
+      "name": "Apopa",
+      "country": "SV",
+      "value": 434,
+      "detail": "112,158 people · San Salvador Department"
+    },
+    {
+      "name": "Izalco",
+      "country": "SV",
+      "value": 422,
+      "detail": "19,197 people · Sonsonate Department"
+    },
+    {
+      "name": "San Vicente",
+      "country": "SV",
+      "value": 405,
+      "detail": "41,504 people · San Vicente Department"
+    },
+    {
+      "name": "Chalatenango",
+      "country": "SV",
+      "value": 400,
+      "detail": "19,364 people · Chalatenango Department"
+    },
+    {
+      "name": "Aguilares",
+      "country": "SV",
+      "value": 304,
+      "detail": "21,445 people · San Salvador Department"
+    },
+    {
+      "name": "Sonzacate",
+      "country": "SV",
+      "value": 275,
+      "detail": "15,446 people · Sonsonate Department"
+    },
+    {
+      "name": "San Francisco",
+      "country": "SV",
+      "value": 249,
+      "detail": "16,152 people · Morazan"
+    },
+    {
+      "name": "Sonsonate",
+      "country": "SV",
+      "value": 245,
+      "detail": "59,468 people · Sonsonate Department"
+    },
+    {
+      "name": "Zacatecoluca",
+      "country": "SV",
+      "value": 220,
+      "detail": "39,613 people · La Paz Department"
+    },
+    {
+      "name": "San Rafael Oriente",
+      "country": "SV",
+      "value": 212,
+      "detail": "19,095 people · San Miguel Department"
+    },
+    {
+      "name": "San Miguel",
+      "country": "SV",
+      "value": 130,
+      "detail": "247,126 people · San Miguel Department"
+    },
+    {
+      "name": "Usulután",
+      "country": "SV",
+      "value": 100,
+      "detail": "51,910 people · Usulutan"
+    },
+    {
+      "name": "Acajutla",
+      "country": "SV",
+      "value": 26,
+      "detail": "22,763 people · Sonsonate Department"
+    },
+    {
+      "name": "Puerto El Triunfo",
+      "country": "SV",
+      "value": 15,
+      "detail": "19,074 people · Usulutan"
+    },
+    {
+      "name": "La Libertad",
+      "country": "SV",
+      "value": 13,
+      "detail": "16,855 people · La Libertad Department"
+    },
+    {
+      "name": "La Unión",
+      "country": "SV",
+      "value": 10,
+      "detail": "26,807 people · La Union"
+    }
+  ]
+}

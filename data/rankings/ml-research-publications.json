@@ -1,0 +1,80 @@
+{
+  "id": "ml-research-publications",
+  "title": "Universities by Research Publications in Mali",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:10.875Z",
+  "items": [
+    {
+      "name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+      "country": "ML",
+      "value": 3998,
+      "detail": "171,579 citations"
+    },
+    {
+      "name": "University of Bamako",
+      "country": "ML",
+      "value": 2376,
+      "detail": "191,182 citations"
+    },
+    {
+      "name": "Institut Polytechnique Rural de Formation et de Recherche Appliquée",
+      "country": "ML",
+      "value": 390,
+      "detail": "4,327 citations"
+    },
+    {
+      "name": "Université des Lettres et des Sciences Humaines de Bamako",
+      "country": "ML",
+      "value": 205,
+      "detail": "461 citations"
+    },
+    {
+      "name": "Ecole Nationale d’Ingénieurs – Abderhamane Baba Touré",
+      "country": "ML",
+      "value": 135,
+      "detail": "1,685 citations"
+    },
+    {
+      "name": "Université des Sciences Juridiques et Politiques de Bamako",
+      "country": "ML",
+      "value": 93,
+      "detail": "132 citations"
+    },
+    {
+      "name": "École normale d'Enseignement technique et professionnel",
+      "country": "ML",
+      "value": 25,
+      "detail": "28 citations"
+    },
+    {
+      "name": "Centre d'Intelligence Artificielle et de Robotique du Mali",
+      "country": "ML",
+      "value": 13,
+      "detail": "68 citations"
+    },
+    {
+      "name": "University of Timbuktu",
+      "country": "ML",
+      "value": 3,
+      "detail": "14 citations"
+    }
+  ]
+}

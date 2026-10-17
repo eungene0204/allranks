@@ -1,0 +1,74 @@
+{
+  "id": "tl-research-i10-index",
+  "title": "Universities by Research i10-index in Timor-Leste",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:39.288Z",
+  "items": [
+    {
+      "name": "National University of East Timor",
+      "country": "TL",
+      "value": 96,
+      "detail": "1,001 works"
+    },
+    {
+      "name": "Dili Institute of Technology",
+      "country": "TL",
+      "value": 26,
+      "detail": "224 works"
+    },
+    {
+      "name": "Universidade da Paz",
+      "country": "TL",
+      "value": 16,
+      "detail": "495 works"
+    },
+    {
+      "name": "Instituto Superior Cristal",
+      "country": "TL",
+      "value": 13,
+      "detail": "296 works"
+    },
+    {
+      "name": "Instituto da Ciências da Saúde",
+      "country": "TL",
+      "value": 8,
+      "detail": "47 works"
+    },
+    {
+      "name": "Institute of Business",
+      "country": "TL",
+      "value": 6,
+      "detail": "94 works"
+    },
+    {
+      "name": "Universidade Oriental Timor Lorosa'e",
+      "country": "TL",
+      "value": 2,
+      "detail": "201 works"
+    },
+    {
+      "name": "Instituto Superior de Filosofia e de Teologia Dom Jaime Garcia Goulart",
+      "country": "TL",
+      "value": 1,
+      "detail": "26 works"
+    }
+  ]
+}

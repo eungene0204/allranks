@@ -1,0 +1,80 @@
+{
+  "id": "la-research-h-index",
+  "title": "Universities by Research h-index in Laos",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:03.710Z",
+  "items": [
+    {
+      "name": "National University of Laos",
+      "country": "LA",
+      "value": 89,
+      "detail": "2,819 works"
+    },
+    {
+      "name": "University of Health Sciences Vientiane",
+      "country": "LA",
+      "value": 67,
+      "detail": "631 works"
+    },
+    {
+      "name": "Souphanouvong University",
+      "country": "LA",
+      "value": 17,
+      "detail": "703 works"
+    },
+    {
+      "name": "Savannakhet University",
+      "country": "LA",
+      "value": 14,
+      "detail": "194 works"
+    },
+    {
+      "name": "Champasack University",
+      "country": "LA",
+      "value": 9,
+      "detail": "159 works"
+    },
+    {
+      "name": "Luangnamtha Teacher Training College",
+      "country": "LA",
+      "value": 5,
+      "detail": "19 works"
+    },
+    {
+      "name": "Pakse Teacher Training College",
+      "country": "LA",
+      "value": 4,
+      "detail": "20 works"
+    },
+    {
+      "name": "Savannakhet Teacher Training College",
+      "country": "LA",
+      "value": 3,
+      "detail": "16 works"
+    },
+    {
+      "name": "Rattana Institute of Business Administration",
+      "country": "LA",
+      "value": 1,
+      "detail": "5 works"
+    }
+  ]
+}

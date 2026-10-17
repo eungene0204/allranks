@@ -1,0 +1,86 @@
+{
+  "id": "mt-research-publications",
+  "title": "Universities by Research Publications in Malta",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:12.917Z",
+  "items": [
+    {
+      "name": "University of Malta",
+      "country": "MT",
+      "value": 30111,
+      "detail": "584,816 citations"
+    },
+    {
+      "name": "Malta College of Arts, Science and Technology",
+      "country": "MT",
+      "value": 805,
+      "detail": "12,481 citations"
+    },
+    {
+      "name": "Middlesex University Malta",
+      "country": "MT",
+      "value": 61,
+      "detail": "482 citations"
+    },
+    {
+      "name": "EIM - European Institute of Management",
+      "country": "MT",
+      "value": 56,
+      "detail": "353 citations"
+    },
+    {
+      "name": "IDEA College, Malta",
+      "country": "MT",
+      "value": 32,
+      "detail": "50 citations"
+    },
+    {
+      "name": "IMO International Maritime Law Institute",
+      "country": "MT",
+      "value": 29,
+      "detail": "198 citations"
+    },
+    {
+      "name": "College of Remote and Offshore Medicine",
+      "country": "MT",
+      "value": 28,
+      "detail": "53 citations"
+    },
+    {
+      "name": "Open Institute of Technology",
+      "country": "MT",
+      "value": 14,
+      "detail": "13 citations"
+    },
+    {
+      "name": "GIOYA Higher Education Institution",
+      "country": "MT",
+      "value": 4,
+      "detail": "17 citations"
+    },
+    {
+      "name": "Malta Leadership Institute",
+      "country": "MT",
+      "value": 2,
+      "detail": "50 citations"
+    }
+  ]
+}

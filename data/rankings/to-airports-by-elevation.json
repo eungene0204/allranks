@@ -1,0 +1,62 @@
+{
+  "id": "to-airports-by-elevation",
+  "title": "Highest Airports in Tonga",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tonga ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Kaufana Airport",
+      "country": "TO",
+      "value": 99.06,
+      "detail": "Eua Island · 325 ft above sea level"
+    },
+    {
+      "name": "Vava'u International Airport",
+      "country": "TO",
+      "value": 71.93,
+      "detail": "Vava'u Island · 236 ft above sea level"
+    },
+    {
+      "name": "Mata'aho Airport",
+      "country": "TO",
+      "value": 48.77,
+      "detail": "Angaha, Niuafo'ou Island · 160 ft above sea level"
+    },
+    {
+      "name": "Fua'amotu International Airport",
+      "country": "TO",
+      "value": 38.4,
+      "detail": "Nuku'alofa · 126 ft above sea level"
+    },
+    {
+      "name": "Lifuka Island Airport",
+      "country": "TO",
+      "value": 9.45,
+      "detail": "Lifuka · 31 ft above sea level"
+    },
+    {
+      "name": "Kuini Lavenia Airport",
+      "country": "TO",
+      "value": 9.14,
+      "detail": "Niuatoputapu · 30 ft above sea level"
+    }
+  ]
+}

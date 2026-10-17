@@ -1,0 +1,122 @@
+{
+  "id": "bd-airports-by-elevation",
+  "title": "Highest Airports in Bangladesh",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Bangladesh ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.454Z",
+  "items": [
+    {
+      "name": "Thakurgaon Airport",
+      "country": "BD",
+      "value": 53.64,
+      "detail": "Thakurgaon · 176 ft above sea level"
+    },
+    {
+      "name": "Saidpur Airport",
+      "country": "BD",
+      "value": 38.1,
+      "detail": "Saidpur · 125 ft above sea level"
+    },
+    {
+      "name": "Lalmonirhat Airport",
+      "country": "BD",
+      "value": 32.31,
+      "detail": "Lalmonirhat · 106 ft above sea level"
+    },
+    {
+      "name": "Bogra Airport",
+      "country": "BD",
+      "value": 21.03,
+      "detail": "Bogra · 69 ft above sea level"
+    },
+    {
+      "name": "Shah Makhdum Airport",
+      "country": "BD",
+      "value": 19.51,
+      "detail": "Rajshahi · 64 ft above sea level"
+    },
+    {
+      "name": "Shamshernagar Airport",
+      "country": "BD",
+      "value": 17.07,
+      "detail": "Shamshernagar · 56 ft above sea level"
+    },
+    {
+      "name": "Osmany International Airport",
+      "country": "BD",
+      "value": 15.24,
+      "detail": "Sylhet · 50 ft above sea level"
+    },
+    {
+      "name": "Ishurdi Airport",
+      "country": "BD",
+      "value": 13.72,
+      "detail": "Ishurdi · 45 ft above sea level"
+    },
+    {
+      "name": "Hazrat Shahjalal International Airport",
+      "country": "BD",
+      "value": 9.14,
+      "detail": "Dhaka · 30 ft above sea level"
+    },
+    {
+      "name": "Noakhali Airport",
+      "country": "BD",
+      "value": 7.92,
+      "detail": "Noakhali · 26 ft above sea level"
+    },
+    {
+      "name": "Comilla Airport",
+      "country": "BD",
+      "value": 7.62,
+      "detail": "Comilla · 25 ft above sea level"
+    },
+    {
+      "name": "Tejgaon Airport",
+      "country": "BD",
+      "value": 7.32,
+      "detail": "Dhaka · 24 ft above sea level"
+    },
+    {
+      "name": "Barisal Airport",
+      "country": "BD",
+      "value": 7.01,
+      "detail": "Barisal · 23 ft above sea level"
+    },
+    {
+      "name": "Jessore Airport",
+      "country": "BD",
+      "value": 6.1,
+      "detail": "Jashore (Jessore) · 20 ft above sea level"
+    },
+    {
+      "name": "Cox's Bazar Airport",
+      "country": "BD",
+      "value": 3.66,
+      "detail": "Cox's Bazar · 12 ft above sea level"
+    },
+    {
+      "name": "Shah Amanat International Airport",
+      "country": "BD",
+      "value": 3.66,
+      "detail": "Chattogram (Chittagong) · 12 ft above sea level"
+    }
+  ]
+}

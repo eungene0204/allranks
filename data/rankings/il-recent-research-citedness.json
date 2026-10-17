@@ -1,0 +1,326 @@
+{
+  "id": "il-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Israel",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "IL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:54.263Z",
+  "items": [
+    {
+      "name": "Weizmann Institute of Science",
+      "country": "IL",
+      "value": 6.5281,
+      "detail": "77,712 works"
+    },
+    {
+      "name": "Holon Institute of Technology",
+      "country": "IL",
+      "value": 4.7303,
+      "detail": "4,099 works"
+    },
+    {
+      "name": "Ruppin Academic Center",
+      "country": "IL",
+      "value": 4.2841,
+      "detail": "2,328 works"
+    },
+    {
+      "name": "Technion – Israel Institute of Technology",
+      "country": "IL",
+      "value": 4.2519,
+      "detail": "122,353 works"
+    },
+    {
+      "name": "Shenkar College of Engineering and Design",
+      "country": "IL",
+      "value": 3.9073,
+      "detail": "941 works"
+    },
+    {
+      "name": "Tel Aviv University",
+      "country": "IL",
+      "value": 3.9043,
+      "detail": "209,303 works"
+    },
+    {
+      "name": "Jerusalem Multidisciplinary College",
+      "country": "IL",
+      "value": 3.8347,
+      "detail": "886 works"
+    },
+    {
+      "name": "The Max Stern Yezreel Valley College",
+      "country": "IL",
+      "value": 3.5467,
+      "detail": "2,324 works"
+    },
+    {
+      "name": "Oranim Academic College of Education",
+      "country": "IL",
+      "value": 3.4682,
+      "detail": "1,814 works"
+    },
+    {
+      "name": "Ben-Gurion University of the Negev",
+      "country": "IL",
+      "value": 3.3438,
+      "detail": "96,598 works"
+    },
+    {
+      "name": "Bar-Ilan University",
+      "country": "IL",
+      "value": 3.2612,
+      "detail": "60,092 works"
+    },
+    {
+      "name": "Reichman University",
+      "country": "IL",
+      "value": 3.2497,
+      "detail": "7,123 works"
+    },
+    {
+      "name": "Al-Qasemi Academic College of Education",
+      "country": "IL",
+      "value": 3.1639,
+      "detail": "754 works"
+    },
+    {
+      "name": "Zefat Academic College",
+      "country": "IL",
+      "value": 3.1633,
+      "detail": "1,165 works"
+    },
+    {
+      "name": "Tel Hai Academic College",
+      "country": "IL",
+      "value": 3.1382,
+      "detail": "3,679 works"
+    },
+    {
+      "name": "Interuniversity Institute for Marine Sciences in Eilat",
+      "country": "IL",
+      "value": 3.0929,
+      "detail": "1,053 works"
+    },
+    {
+      "name": "Hebrew University of Jerusalem",
+      "country": "IL",
+      "value": 3.0547,
+      "detail": "163,915 works"
+    },
+    {
+      "name": "Ashkelon Academic College",
+      "country": "IL",
+      "value": 2.9794,
+      "detail": "1,363 works"
+    },
+    {
+      "name": "Ariel University",
+      "country": "IL",
+      "value": 2.9254,
+      "detail": "15,380 works"
+    },
+    {
+      "name": "The Mofet Institute",
+      "country": "IL",
+      "value": 2.8857,
+      "detail": "262 works"
+    },
+    {
+      "name": "Open University of Israel",
+      "country": "IL",
+      "value": 2.8499,
+      "detail": "5,443 works"
+    },
+    {
+      "name": "University of Haifa",
+      "country": "IL",
+      "value": 2.7912,
+      "detail": "48,888 works"
+    },
+    {
+      "name": "Azrieli College of Engineering Jerusalem",
+      "country": "IL",
+      "value": 2.6044,
+      "detail": "863 works"
+    },
+    {
+      "name": "Academic College of Tel Aviv-Yafo",
+      "country": "IL",
+      "value": 2.569,
+      "detail": "2,478 works"
+    },
+    {
+      "name": "Braude College of Engineering Karmiel",
+      "country": "IL",
+      "value": 2.4388,
+      "detail": "2,142 works"
+    },
+    {
+      "name": "Kaye Academic College of Education",
+      "country": "IL",
+      "value": 2.3655,
+      "detail": "571 works"
+    },
+    {
+      "name": "Achva Academic College",
+      "country": "IL",
+      "value": 2.3483,
+      "detail": "1,288 works"
+    },
+    {
+      "name": "Peres Academic Center",
+      "country": "IL",
+      "value": 2.335,
+      "detail": "562 works"
+    },
+    {
+      "name": "College of Management Academic Studies",
+      "country": "IL",
+      "value": 2.3196,
+      "detail": "1,377 works"
+    },
+    {
+      "name": "Ono Academic College",
+      "country": "IL",
+      "value": 2.2875,
+      "detail": "1,851 works"
+    },
+    {
+      "name": "Academic College at Wingate",
+      "country": "IL",
+      "value": 2.2231,
+      "detail": "406 works"
+    },
+    {
+      "name": "Levinsky-Wingate Academic College",
+      "country": "IL",
+      "value": 2.2068,
+      "detail": "415 works"
+    },
+    {
+      "name": "Sami Shamoon College of Engineering",
+      "country": "IL",
+      "value": 2.0919,
+      "detail": "2,346 works"
+    },
+    {
+      "name": "Gordon Academic College of Education",
+      "country": "IL",
+      "value": 2.037,
+      "detail": "721 works"
+    },
+    {
+      "name": "Sapir College",
+      "country": "IL",
+      "value": 2.0346,
+      "detail": "1,689 works"
+    },
+    {
+      "name": "Kibbutzim College of Education, Technology and the Arts",
+      "country": "IL",
+      "value": 1.9544,
+      "detail": "1,045 works"
+    },
+    {
+      "name": "David Yellin College of Education",
+      "country": "IL",
+      "value": 1.828,
+      "detail": "523 works"
+    },
+    {
+      "name": "Israel Sports Center for the Disabled",
+      "country": "IL",
+      "value": 1.8,
+      "detail": "44 works"
+    },
+    {
+      "name": "Jerusalem College of Technology",
+      "country": "IL",
+      "value": 1.7869,
+      "detail": "2,816 works"
+    },
+    {
+      "name": "Afeka College of Engineering",
+      "country": "IL",
+      "value": 1.7028,
+      "detail": "946 works"
+    },
+    {
+      "name": "Kinneret College on the Sea of Galilee",
+      "country": "IL",
+      "value": 1.6557,
+      "detail": "791 works"
+    },
+    {
+      "name": "The Arab Academic College for Education in Israel",
+      "country": "IL",
+      "value": 1.6244,
+      "detail": "443 works"
+    },
+    {
+      "name": "Michlalah Jerusalem College",
+      "country": "IL",
+      "value": 1.6075,
+      "detail": "163 works"
+    },
+    {
+      "name": "Talpiot College of Education",
+      "country": "IL",
+      "value": 1.5882,
+      "detail": "180 works"
+    },
+    {
+      "name": "Beit Berl College",
+      "country": "IL",
+      "value": 1.5586,
+      "detail": "1,630 works"
+    },
+    {
+      "name": "Sakhnin College",
+      "country": "IL",
+      "value": 1.5164,
+      "detail": "482 works"
+    },
+    {
+      "name": "Western Galilee College",
+      "country": "IL",
+      "value": 1.4529,
+      "detail": "1,262 works"
+    },
+    {
+      "name": "Herzog College",
+      "country": "IL",
+      "value": 1.2439,
+      "detail": "177 works"
+    },
+    {
+      "name": "Levinsky College of Education",
+      "country": "IL",
+      "value": 1.1739,
+      "detail": "514 works"
+    },
+    {
+      "name": "Schechter Institute of Jewish Studies",
+      "country": "IL",
+      "value": 0.9355,
+      "detail": "138 works"
+    }
+  ]
+}

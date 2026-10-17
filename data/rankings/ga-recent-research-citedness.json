@@ -1,0 +1,56 @@
+{
+  "id": "ga-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Gabon",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:46.708Z",
+  "items": [
+    {
+      "name": "Université des Sciences et Techniques de Masuku",
+      "country": "GA",
+      "value": 1.0083,
+      "detail": "1,493 works"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "GA",
+      "value": 1,
+      "detail": "15 works"
+    },
+    {
+      "name": "Université des Sciences de la Santé",
+      "country": "GA",
+      "value": 0.6575,
+      "detail": "942 works"
+    },
+    {
+      "name": "Omar Bongo University",
+      "country": "GA",
+      "value": 0.386,
+      "detail": "784 works"
+    },
+    {
+      "name": "Institut Africain d'Informatique",
+      "country": "GA",
+      "value": 0.2727,
+      "detail": "53 works"
+    }
+  ]
+}

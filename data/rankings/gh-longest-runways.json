@@ -1,0 +1,68 @@
+{
+  "id": "gh-longest-runways",
+  "title": "Longest Airport Runways in Ghana",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Ghana ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Kotoka International Airport",
+      "country": "GH",
+      "value": 3403.09,
+      "detail": "Accra · 11,165 ft · ASP"
+    },
+    {
+      "name": "Yakubu Tali International Airport",
+      "country": "GH",
+      "value": 2438.1,
+      "detail": "Tamale · 7,999 ft · ASP"
+    },
+    {
+      "name": "Prempeh I International Airport",
+      "country": "GH",
+      "value": 2320.14,
+      "detail": "Kumasi · 7,612 ft · ASP"
+    },
+    {
+      "name": "Wa Airport",
+      "country": "GH",
+      "value": 2015.34,
+      "detail": "Wa · 6,612 ft · ASP"
+    },
+    {
+      "name": "Takoradi Airport",
+      "country": "GH",
+      "value": 1751.08,
+      "detail": "Sekondi-Takoradi · 5,745 ft · ASP"
+    },
+    {
+      "name": "Ho Airport",
+      "country": "GH",
+      "value": 1605.08,
+      "detail": "Ho · 5,266 ft · Asphalt"
+    },
+    {
+      "name": "Sunyani Airport",
+      "country": "GH",
+      "value": 1400.25,
+      "detail": "Sunyani · 4,594 ft · ASP"
+    }
+  ]
+}

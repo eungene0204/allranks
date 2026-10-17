@@ -1,0 +1,326 @@
+{
+  "id": "by-cities-by-elevation",
+  "title": "Highest Major Cities in Belarus",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Belarus with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.515Z",
+  "items": [
+    {
+      "name": "Novogrudok",
+      "country": "BY",
+      "value": 309,
+      "detail": "27,624 people · Grodnenskaya"
+    },
+    {
+      "name": "Kalodzishchy",
+      "country": "BY",
+      "value": 242,
+      "detail": "17,000 people · Minsk"
+    },
+    {
+      "name": "Zaslawye",
+      "country": "BY",
+      "value": 226,
+      "detail": "17,166 people · Minsk"
+    },
+    {
+      "name": "Minsk",
+      "country": "BY",
+      "value": 222,
+      "detail": "1,742,124 people · Minsk City"
+    },
+    {
+      "name": "Fanipol",
+      "country": "BY",
+      "value": 220,
+      "detail": "19,006 people · Minsk"
+    },
+    {
+      "name": "Oshmyany",
+      "country": "BY",
+      "value": 211,
+      "detail": "16,804 people · Grodnenskaya"
+    },
+    {
+      "name": "Dzyarzhynsk",
+      "country": "BY",
+      "value": 198,
+      "detail": "29,607 people · Minsk"
+    },
+    {
+      "name": "Baranovichi",
+      "country": "BY",
+      "value": 195,
+      "detail": "170,039 people · Brest"
+    },
+    {
+      "name": "Logoysk",
+      "country": "BY",
+      "value": 192,
+      "detail": "15,543 people · Minsk"
+    },
+    {
+      "name": "Mahilyow",
+      "country": "BY",
+      "value": 187,
+      "detail": "352,896 people · Mogilev"
+    },
+    {
+      "name": "Mazyr",
+      "country": "BY",
+      "value": 186,
+      "detail": "104,517 people · Homyel’ Voblasc’"
+    },
+    {
+      "name": "Horki",
+      "country": "BY",
+      "value": 182,
+      "detail": "28,626 people · Mogilev"
+    },
+    {
+      "name": "Krychaw",
+      "country": "BY",
+      "value": 182,
+      "detail": "22,973 people · Mogilev"
+    },
+    {
+      "name": "Mar’ina Gorka",
+      "country": "BY",
+      "value": 178,
+      "detail": "19,892 people · Minsk"
+    },
+    {
+      "name": "Nesvizh",
+      "country": "BY",
+      "value": 178,
+      "detail": "15,897 people · Minsk"
+    },
+    {
+      "name": "Ivatsevichi",
+      "country": "BY",
+      "value": 176,
+      "detail": "22,189 people · Brest"
+    },
+    {
+      "name": "Shchuchyn",
+      "country": "BY",
+      "value": 176,
+      "detail": "15,127 people · Grodnenskaya"
+    },
+    {
+      "name": "Smaliavičy",
+      "country": "BY",
+      "value": 175,
+      "detail": "24,402 people · Minsk"
+    },
+    {
+      "name": "Orsha",
+      "country": "BY",
+      "value": 174,
+      "detail": "101,662 people · Vitebsk"
+    },
+    {
+      "name": "Barysaw",
+      "country": "BY",
+      "value": 172,
+      "detail": "133,700 people · Minsk"
+    },
+    {
+      "name": "Horad Zhodzina",
+      "country": "BY",
+      "value": 171,
+      "detail": "62,983 people · Minsk"
+    },
+    {
+      "name": "Lyepyel’",
+      "country": "BY",
+      "value": 165,
+      "detail": "17,400 people · Vitebsk"
+    },
+    {
+      "name": "Astraviec",
+      "country": "BY",
+      "value": 161,
+      "detail": "15,265 people · Grodnenskaya"
+    },
+    {
+      "name": "Maladziečna",
+      "country": "BY",
+      "value": 161,
+      "detail": "87,339 people · Minsk"
+    },
+    {
+      "name": "Pruzhany",
+      "country": "BY",
+      "value": 161,
+      "detail": "18,994 people · Brest"
+    },
+    {
+      "name": "Bykhov",
+      "country": "BY",
+      "value": 160,
+      "detail": "16,296 people · Mogilev"
+    },
+    {
+      "name": "Hlybokaye",
+      "country": "BY",
+      "value": 157,
+      "detail": "17,807 people · Vitebsk"
+    },
+    {
+      "name": "Vileyka",
+      "country": "BY",
+      "value": 157,
+      "detail": "26,015 people · Minsk"
+    },
+    {
+      "name": "Bobruysk",
+      "country": "BY",
+      "value": 153,
+      "detail": "205,502 people · Mogilev"
+    },
+    {
+      "name": "Smarhoń",
+      "country": "BY",
+      "value": 153,
+      "detail": "35,072 people · Grodnenskaya"
+    },
+    {
+      "name": "Soligorsk",
+      "country": "BY",
+      "value": 152,
+      "detail": "96,418 people · Minsk"
+    },
+    {
+      "name": "Byaroza",
+      "country": "BY",
+      "value": 150,
+      "detail": "27,986 people · Brest"
+    },
+    {
+      "name": "Vitebsk",
+      "country": "BY",
+      "value": 150,
+      "detail": "358,927 people · Vitebsk"
+    },
+    {
+      "name": "Slonim",
+      "country": "BY",
+      "value": 149,
+      "detail": "48,402 people · Grodnenskaya"
+    },
+    {
+      "name": "Pinsk",
+      "country": "BY",
+      "value": 148,
+      "detail": "123,283 people · Brest"
+    },
+    {
+      "name": "Kobryn",
+      "country": "BY",
+      "value": 147,
+      "detail": "52,235 people · Brest"
+    },
+    {
+      "name": "Stowbtsy",
+      "country": "BY",
+      "value": 146,
+      "detail": "17,603 people · Minsk"
+    },
+    {
+      "name": "Vaukavysk",
+      "country": "BY",
+      "value": 146,
+      "detail": "41,020 people · Grodnenskaya"
+    },
+    {
+      "name": "Brest",
+      "country": "BY",
+      "value": 144,
+      "detail": "347,138 people · Brest"
+    },
+    {
+      "name": "Lida",
+      "country": "BY",
+      "value": 144,
+      "detail": "103,262 people · Grodnenskaya"
+    },
+    {
+      "name": "Hrodna",
+      "country": "BY",
+      "value": 142,
+      "detail": "363,718 people · Grodnenskaya"
+    },
+    {
+      "name": "Ivanovo",
+      "country": "BY",
+      "value": 142,
+      "detail": "15,833 people · Brest"
+    },
+    {
+      "name": "Svetlogorsk",
+      "country": "BY",
+      "value": 142,
+      "detail": "61,812 people · Homyel’ Voblasc’"
+    },
+    {
+      "name": "Slutsk",
+      "country": "BY",
+      "value": 141,
+      "detail": "58,995 people · Minsk"
+    },
+    {
+      "name": "Pastavy",
+      "country": "BY",
+      "value": 140,
+      "detail": "18,450 people · Vitebsk"
+    },
+    {
+      "name": "Osipovichi",
+      "country": "BY",
+      "value": 139,
+      "detail": "28,745 people · Mogilev"
+    },
+    {
+      "name": "Zhlobin",
+      "country": "BY",
+      "value": 139,
+      "detail": "76,304 people · Homyel’ Voblasc’"
+    },
+    {
+      "name": "Homyel'",
+      "country": "BY",
+      "value": 138,
+      "detail": "501,193 people · Homyel’ Voblasc’"
+    },
+    {
+      "name": "Žytkavičy",
+      "country": "BY",
+      "value": 137,
+      "detail": "15,788 people · Homyel’ Voblasc’"
+    },
+    {
+      "name": "Novopolotsk",
+      "country": "BY",
+      "value": 135,
+      "detail": "95,370 people · Vitebsk"
+    }
+  ]
+}

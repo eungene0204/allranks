@@ -1,0 +1,56 @@
+{
+  "id": "gq-longest-runways",
+  "title": "Longest Airport Runways in Equatorial Guinea",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Equatorial Guinea ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GQ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.503Z",
+  "items": [
+    {
+      "name": "Bata International Airport",
+      "country": "GQ",
+      "value": 3310.13,
+      "detail": "Bata · 10,860 ft · ASP"
+    },
+    {
+      "name": "Corisco International Airport",
+      "country": "GQ",
+      "value": 3115.06,
+      "detail": "Corisco Island · 10,220 ft · Concrete"
+    },
+    {
+      "name": "President Obiang Nguema International Airport",
+      "country": "GQ",
+      "value": 3000.15,
+      "detail": "Mengomeyén · 9,843 ft · ASP"
+    },
+    {
+      "name": "Malabo International Airport",
+      "country": "GQ",
+      "value": 2940.41,
+      "detail": "Malabo · 9,647 ft · CON"
+    },
+    {
+      "name": "Annobón Airport",
+      "country": "GQ",
+      "value": 1882.75,
+      "detail": "San Antonio de Palé · 6,177 ft · CON"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "jm-research-publications",
+  "title": "Universities by Research Publications in Jamaica",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:57.391Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "JM",
+      "value": 16653,
+      "detail": "813,100 citations"
+    },
+    {
+      "name": "University of the West Indies System",
+      "country": "JM",
+      "value": 1839,
+      "detail": "78,885 citations"
+    },
+    {
+      "name": "University of Technology, Jamaica",
+      "country": "JM",
+      "value": 774,
+      "detail": "10,867 citations"
+    },
+    {
+      "name": "Northern Caribbean University",
+      "country": "JM",
+      "value": 262,
+      "detail": "1,577 citations"
+    },
+    {
+      "name": "University of the Commonwealth Caribbean",
+      "country": "JM",
+      "value": 99,
+      "detail": "421 citations"
+    },
+    {
+      "name": "Mico University College",
+      "country": "JM",
+      "value": 66,
+      "detail": "467 citations"
+    },
+    {
+      "name": "International University of the Caribbean",
+      "country": "JM",
+      "value": 19,
+      "detail": "111 citations"
+    },
+    {
+      "name": "Edna Manley College of the Visual and Performing Arts",
+      "country": "JM",
+      "value": 11,
+      "detail": "18 citations"
+    }
+  ]
+}

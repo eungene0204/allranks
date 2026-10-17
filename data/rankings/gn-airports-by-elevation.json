@@ -1,0 +1,128 @@
+{
+  "id": "gn-airports-by-elevation",
+  "title": "Highest Airports in Guinea",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Guinea ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Tata Airport",
+      "country": "GN",
+      "value": 1035.1,
+      "detail": "Labé · 3,396 ft above sea level"
+    },
+    {
+      "name": "Beyla Airport",
+      "country": "GN",
+      "value": 667.51,
+      "detail": "Beyla · 2,190 ft above sea level"
+    },
+    {
+      "name": "Gbenko Airport",
+      "country": "GN",
+      "value": 650.14,
+      "detail": "Banankoro · 2,133 ft above sea level"
+    },
+    {
+      "name": "Kissidougou Airport",
+      "country": "GN",
+      "value": 551.08,
+      "detail": "Kissidougou · 1,808 ft above sea level"
+    },
+    {
+      "name": "Macenta Airport",
+      "country": "GN",
+      "value": 515.11,
+      "detail": "Macenta · 1,690 ft above sea level"
+    },
+    {
+      "name": "Nzérékoré Airport",
+      "country": "GN",
+      "value": 505.05,
+      "detail": "Nzérékoré · 1,657 ft above sea level"
+    },
+    {
+      "name": "Faranah Airport",
+      "country": "GN",
+      "value": 449.88,
+      "detail": "Faranah · 1,476 ft above sea level"
+    },
+    {
+      "name": "Kiniéro Airport",
+      "country": "GN",
+      "value": 419.1,
+      "detail": "Kiniéro · 1,375 ft above sea level"
+    },
+    {
+      "name": "Siguiri Airport",
+      "country": "GN",
+      "value": 395.02,
+      "detail": "Siguiri · 1,296 ft above sea level"
+    },
+    {
+      "name": "Loila Airport",
+      "country": "GN",
+      "value": 378.56,
+      "detail": "Loila · 1,242 ft above sea level"
+    },
+    {
+      "name": "Kankan Airport",
+      "country": "GN",
+      "value": 376.12,
+      "detail": "Kankan · 1,234 ft above sea level"
+    },
+    {
+      "name": "Sangarédi Airport",
+      "country": "GN",
+      "value": 209.09,
+      "detail": "Sangarédi · 686 ft above sea level"
+    },
+    {
+      "name": "Fria Airport",
+      "country": "GN",
+      "value": 152.1,
+      "detail": "Fria · 499 ft above sea level"
+    },
+    {
+      "name": "Sambailo Airport",
+      "country": "GN",
+      "value": 89.92,
+      "detail": "Koundara · 295 ft above sea level"
+    },
+    {
+      "name": "Boké Baralande Airport",
+      "country": "GN",
+      "value": 49.99,
+      "detail": "Boké · 164 ft above sea level"
+    },
+    {
+      "name": "Ahmed Sékou Touré International Airport",
+      "country": "GN",
+      "value": 21.95,
+      "detail": "Conakry · 72 ft above sea level"
+    },
+    {
+      "name": "Kawass Airport",
+      "country": "GN",
+      "value": 10.97,
+      "detail": "Port Kamsar · 36 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "sn-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Senegal",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:34.522Z",
+  "items": [
+    {
+      "name": "Université Alioune Diop de Bambey",
+      "country": "SN",
+      "value": 4.6933,
+      "detail": "1,698 works"
+    },
+    {
+      "name": "Ecole Supérieure d’Economie Appliquée",
+      "country": "SN",
+      "value": 1.6667,
+      "detail": "35 works"
+    },
+    {
+      "name": "Université du Sine Saloum El-Hâdj Ibrahima NIASS",
+      "country": "SN",
+      "value": 1.3886,
+      "detail": "225 works"
+    },
+    {
+      "name": "Cheikh Anta Diop University",
+      "country": "SN",
+      "value": 1.0812,
+      "detail": "18,988 works"
+    },
+    {
+      "name": "Université Amadou Mahtar Mbow",
+      "country": "SN",
+      "value": 1.0777,
+      "detail": "247 works"
+    },
+    {
+      "name": "Université Gaston Berger",
+      "country": "SN",
+      "value": 1.0081,
+      "detail": "5,094 works"
+    },
+    {
+      "name": "Groupe École Supérieure de Commerce de Dakar",
+      "country": "SN",
+      "value": 0.9412,
+      "detail": "28 works"
+    },
+    {
+      "name": "École Nationale Supérieure d'Agriculture",
+      "country": "SN",
+      "value": 0.9245,
+      "detail": "258 works"
+    },
+    {
+      "name": "Centre Africain d'Études Supérieures en Gestion",
+      "country": "SN",
+      "value": 0.8276,
+      "detail": "63 works"
+    },
+    {
+      "name": "École Supérieure Multinationale des Télécommunications",
+      "country": "SN",
+      "value": 0.7143,
+      "detail": "136 works"
+    },
+    {
+      "name": "Université de Thiès",
+      "country": "SN",
+      "value": 0.695,
+      "detail": "1,651 works"
+    },
+    {
+      "name": "Ziguinchor University",
+      "country": "SN",
+      "value": 0.6815,
+      "detail": "1,971 works"
+    },
+    {
+      "name": "École Polytechnique de Thiès",
+      "country": "SN",
+      "value": 0.6238,
+      "detail": "406 works"
+    },
+    {
+      "name": "École Inter-États des Sciences et Médecine Vétérinaires de Dakar",
+      "country": "SN",
+      "value": 0.4726,
+      "detail": "418 works"
+    },
+    {
+      "name": "Institut International des Sciences et de Technologie",
+      "country": "SN",
+      "value": 0.3333,
+      "detail": "9 works"
+    },
+    {
+      "name": "Université Amadou Hampaté Ba",
+      "country": "SN",
+      "value": 0.25,
+      "detail": "13 works"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "SN",
+      "value": 0.1667,
+      "detail": "24 works"
+    },
+    {
+      "name": "St. Christopher Iba Mar Diop College of Medicine",
+      "country": "SN",
+      "value": 0.0833,
+      "detail": "30 works"
+    }
+  ]
+}

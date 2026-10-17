@@ -1,0 +1,127 @@
+{
+  "id": "cf-region-population",
+  "title": "Central African Republic Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Central African Republic ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CF",
+  "year": 2020,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-17T13:26:22.706Z",
+  "items": [
+    {
+      "name": "Bangui",
+      "country": "CF",
+      "value": 889231,
+      "detail": "2020"
+    },
+    {
+      "name": "Ouham-Pendé",
+      "country": "CF",
+      "value": 430506,
+      "detail": "2003"
+    },
+    {
+      "name": "Ouham",
+      "country": "CF",
+      "value": 369220,
+      "detail": "2003"
+    },
+    {
+      "name": "Mambéré-Kadéï",
+      "country": "CF",
+      "value": 364795,
+      "detail": "2003"
+    },
+    {
+      "name": "Ombella-M'Poko",
+      "country": "CF",
+      "value": 356725,
+      "detail": "2003"
+    },
+    {
+      "name": "Ouaka",
+      "country": "CF",
+      "value": 276710,
+      "detail": "2003"
+    },
+    {
+      "name": "Basse-Kotto",
+      "country": "CF",
+      "value": 249150,
+      "detail": "2003"
+    },
+    {
+      "name": "Lobaye",
+      "country": "CF",
+      "value": 246875,
+      "detail": "2003"
+    },
+    {
+      "name": "Nana-Mambéré",
+      "country": "CF",
+      "value": 233666,
+      "detail": "2003"
+    },
+    {
+      "name": "Mbomou",
+      "country": "CF",
+      "value": 164009,
+      "detail": "2003"
+    },
+    {
+      "name": "Kémo",
+      "country": "CF",
+      "value": 118420,
+      "detail": "2003"
+    },
+    {
+      "name": "Nana-Grébizi Economic",
+      "country": "CF",
+      "value": 117816,
+      "detail": "2003"
+    },
+    {
+      "name": "Sangha-Mbaéré",
+      "country": "CF",
+      "value": 101074,
+      "detail": "2003"
+    },
+    {
+      "name": "Haute-Kotto",
+      "country": "CF",
+      "value": 90316,
+      "detail": "2003"
+    },
+    {
+      "name": "Haut-Mbomou",
+      "country": "CF",
+      "value": 57602,
+      "detail": "2003"
+    },
+    {
+      "name": "Vakaga",
+      "country": "CF",
+      "value": 52255,
+      "detail": "2003"
+    },
+    {
+      "name": "Bamingui-Bangoran",
+      "country": "CF",
+      "value": 43229,
+      "detail": "2003"
+    }
+  ]
+}

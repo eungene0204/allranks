@@ -1,0 +1,188 @@
+{
+  "id": "sv-airports-by-elevation",
+  "title": "Highest Airports in El Salvador",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in El Salvador ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.549Z",
+  "items": [
+    {
+      "name": "El Palmer Airport",
+      "country": "SV",
+      "value": 679.4,
+      "detail": "Santa Ana · 2,229 ft above sea level"
+    },
+    {
+      "name": "Ilopango International Airport",
+      "country": "SV",
+      "value": 617.83,
+      "detail": "San Salvador · 2,027 ft above sea level"
+    },
+    {
+      "name": "Rio Sucio Highway Airstrip",
+      "country": "SV",
+      "value": 485.85,
+      "detail": "El Botoncillal · 1,594 ft above sea level"
+    },
+    {
+      "name": "El Ronco Airport",
+      "country": "SV",
+      "value": 445.01,
+      "detail": "Metapán · 1,460 ft above sea level"
+    },
+    {
+      "name": "El Platanar Airport",
+      "country": "SV",
+      "value": 412.7,
+      "detail": "Suchitoto · 1,354 ft above sea level"
+    },
+    {
+      "name": "Los Comandos Airport",
+      "country": "SV",
+      "value": 280.11,
+      "detail": "San Francisco Gotera · 919 ft above sea level"
+    },
+    {
+      "name": "La Cabaña Airport",
+      "country": "SV",
+      "value": 269.75,
+      "detail": "La Cabaña · 885 ft above sea level"
+    },
+    {
+      "name": "La Aramuaca Airport",
+      "country": "SV",
+      "value": 86.87,
+      "detail": "San Miguel · 285 ft above sea level"
+    },
+    {
+      "name": "Usulutan Private Airport",
+      "country": "SV",
+      "value": 86.87,
+      "detail": "Usulutan · 285 ft above sea level"
+    },
+    {
+      "name": "El Papalon Airport",
+      "country": "SV",
+      "value": 86.26,
+      "detail": "San Miguel · 283 ft above sea level"
+    },
+    {
+      "name": "La Carrera Airport",
+      "country": "SV",
+      "value": 77.42,
+      "detail": "Jiquilisco · 254 ft above sea level"
+    },
+    {
+      "name": "Santa Rosa de Lima Airport",
+      "country": "SV",
+      "value": 72.85,
+      "detail": "Santa Rosa de Lima · 239 ft above sea level"
+    },
+    {
+      "name": "Las Mesas Airport",
+      "country": "SV",
+      "value": 57,
+      "detail": "Las Mesas · 187 ft above sea level"
+    },
+    {
+      "name": "Casas Nuevas Airport",
+      "country": "SV",
+      "value": 47.85,
+      "detail": "Jiquilisco · 157 ft above sea level"
+    },
+    {
+      "name": "El Jocotillo Airport",
+      "country": "SV",
+      "value": 38.71,
+      "detail": "El Jocotillo · 127 ft above sea level"
+    },
+    {
+      "name": "Puerto El Triunfo Airport",
+      "country": "SV",
+      "value": 35.97,
+      "detail": "Puerto El Triunfo · 118 ft above sea level"
+    },
+    {
+      "name": "El Salvador International Airport Saint Óscar Arnulfo Romero y Galdámez",
+      "country": "SV",
+      "value": 30.78,
+      "detail": "San Salvador (San Luis Talpa) · 101 ft above sea level"
+    },
+    {
+      "name": "Las Cachas Airport",
+      "country": "SV",
+      "value": 15.54,
+      "detail": "Cangrejera · 51 ft above sea level"
+    },
+    {
+      "name": "San Ramon Airport",
+      "country": "SV",
+      "value": 11.28,
+      "detail": "San Ramón · 37 ft above sea level"
+    },
+    {
+      "name": "Barillas Airport",
+      "country": "SV",
+      "value": 9.75,
+      "detail": "Barrillas · 32 ft above sea level"
+    },
+    {
+      "name": "Corral De Mulas Airport",
+      "country": "SV",
+      "value": 7.92,
+      "detail": "Corral de Mulas · 26 ft above sea level"
+    },
+    {
+      "name": "La Chepona Airport",
+      "country": "SV",
+      "value": 3.96,
+      "detail": "La Chepona · 13 ft above sea level"
+    },
+    {
+      "name": "Ceiba Doblada Airport",
+      "country": "SV",
+      "value": 3.05,
+      "detail": "Ceiba Doblada · 10 ft above sea level"
+    },
+    {
+      "name": "El Tamarindo Airport",
+      "country": "SV",
+      "value": 3.05,
+      "detail": "Canoguero · 10 ft above sea level"
+    },
+    {
+      "name": "El Zapote Airport",
+      "country": "SV",
+      "value": 1.83,
+      "detail": "Barra de Santiago · 6 ft above sea level"
+    },
+    {
+      "name": "Punta San Juan Airport",
+      "country": "SV",
+      "value": 0.91,
+      "detail": "Corral de Mulas · 3 ft above sea level"
+    },
+    {
+      "name": "Espiritu Santo Airport",
+      "country": "SV",
+      "value": 0.3,
+      "detail": "Espíritu Santo · 1 ft above sea level"
+    }
+  ]
+}

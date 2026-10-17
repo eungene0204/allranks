@@ -1,0 +1,326 @@
+{
+  "id": "ch-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Switzerland",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:34.544Z",
+  "items": [
+    {
+      "name": "Graduate Institute of International Studies",
+      "country": "CH",
+      "value": 81.2,
+      "detail": "1,178 works"
+    },
+    {
+      "name": "Kantonsschule Enge",
+      "country": "CH",
+      "value": 24,
+      "detail": "7 works"
+    },
+    {
+      "name": "Interstate University of Applied Sciences of Technology Buchs",
+      "country": "CH",
+      "value": 12,
+      "detail": "340 works"
+    },
+    {
+      "name": "Landwirtschaftliches Zentrum Liebegg",
+      "country": "CH",
+      "value": 11,
+      "detail": "2 works"
+    },
+    {
+      "name": "Life Science Zurich",
+      "country": "CH",
+      "value": 10.1484,
+      "detail": "495 works"
+    },
+    {
+      "name": "Institut Schule und Profession",
+      "country": "CH",
+      "value": 10,
+      "detail": "7 works"
+    },
+    {
+      "name": "Kalaidos University of Applied Sciences",
+      "country": "CH",
+      "value": 9.2429,
+      "detail": "409 works"
+    },
+    {
+      "name": "University of Zurich",
+      "country": "CH",
+      "value": 8.1215,
+      "detail": "214,514 works"
+    },
+    {
+      "name": "BFF Bern",
+      "country": "CH",
+      "value": 6.4,
+      "detail": "18 works"
+    },
+    {
+      "name": "Franklin University Switzerland",
+      "country": "CH",
+      "value": 6.0308,
+      "detail": "293 works"
+    },
+    {
+      "name": "École Polytechnique Fédérale de Lausanne",
+      "country": "CH",
+      "value": 5.8982,
+      "detail": "147,768 works"
+    },
+    {
+      "name": "Università della Svizzera italiana",
+      "country": "CH",
+      "value": 5.751,
+      "detail": "17,621 works"
+    },
+    {
+      "name": "University of Basel",
+      "country": "CH",
+      "value": 5.5784,
+      "detail": "118,810 works"
+    },
+    {
+      "name": "Swiss Finance Institute",
+      "country": "CH",
+      "value": 5.372,
+      "detail": "4,598 works"
+    },
+    {
+      "name": "Kantonsschule Olten",
+      "country": "CH",
+      "value": 5.2,
+      "detail": "32 works"
+    },
+    {
+      "name": "International Institute for Management Development",
+      "country": "CH",
+      "value": 5.1447,
+      "detail": "1,695 works"
+    },
+    {
+      "name": "University of Geneva",
+      "country": "CH",
+      "value": 4.9398,
+      "detail": "143,538 works"
+    },
+    {
+      "name": "University of Lausanne",
+      "country": "CH",
+      "value": 4.7613,
+      "detail": "99,756 works"
+    },
+    {
+      "name": "International Centre for Sports Studies",
+      "country": "CH",
+      "value": 4.5,
+      "detail": "38 works"
+    },
+    {
+      "name": "ETH Zurich",
+      "country": "CH",
+      "value": 4.4762,
+      "detail": "286,884 works"
+    },
+    {
+      "name": "César Ritz Colleges",
+      "country": "CH",
+      "value": 4.2727,
+      "detail": "95 works"
+    },
+    {
+      "name": "Pädagogische Hochschule Graubünden",
+      "country": "CH",
+      "value": 4,
+      "detail": "77 works"
+    },
+    {
+      "name": "University of Applied Sciences St. Gallen",
+      "country": "CH",
+      "value": 3.8971,
+      "detail": "964 works"
+    },
+    {
+      "name": "University Centre of Legal Medicine",
+      "country": "CH",
+      "value": 3.3469,
+      "detail": "1,184 works"
+    },
+    {
+      "name": "Allgemeine Gewerbeschule Basel",
+      "country": "CH",
+      "value": 3.3158,
+      "detail": "288 works"
+    },
+    {
+      "name": "University of St.Gallen",
+      "country": "CH",
+      "value": 3.271,
+      "detail": "19,143 works"
+    },
+    {
+      "name": "HES-SO Valais-Wallis",
+      "country": "CH",
+      "value": 3.2512,
+      "detail": "2,932 works"
+    },
+    {
+      "name": "Haute Ecole Arc Ingénierie",
+      "country": "CH",
+      "value": 3.1019,
+      "detail": "244 works"
+    },
+    {
+      "name": "Zürcher Fachhochschule",
+      "country": "CH",
+      "value": 3.0556,
+      "detail": "32 works"
+    },
+    {
+      "name": "School of Engineering and Architecture of Fribourg",
+      "country": "CH",
+      "value": 3.0477,
+      "detail": "681 works"
+    },
+    {
+      "name": "HES-SO University of Applied Sciences and Arts Western Switzerland",
+      "country": "CH",
+      "value": 2.9889,
+      "detail": "9,720 works"
+    },
+    {
+      "name": "HES-SO Arc",
+      "country": "CH",
+      "value": 2.9474,
+      "detail": "370 works"
+    },
+    {
+      "name": "Bern University of Applied Sciences",
+      "country": "CH",
+      "value": 2.9367,
+      "detail": "9,174 works"
+    },
+    {
+      "name": "School of Health Sciences - HES-SO Valais-Wallis",
+      "country": "CH",
+      "value": 2.9237,
+      "detail": "412 works"
+    },
+    {
+      "name": "ZHAW Zurich University of Applied Sciences",
+      "country": "CH",
+      "value": 2.9103,
+      "detail": "12,301 works"
+    },
+    {
+      "name": "Haute école d'ingénierie et de gestion du canton de Vaud, HES-SO Haute Ecole Spécialisée de Suisse Occidentale",
+      "country": "CH",
+      "value": 2.8736,
+      "detail": "497 works"
+    },
+    {
+      "name": "Swiss Distance University of Applied Sciences",
+      "country": "CH",
+      "value": 2.84,
+      "detail": "450 works"
+    },
+    {
+      "name": "UniDistance Suisse",
+      "country": "CH",
+      "value": 2.6238,
+      "detail": "909 works"
+    },
+    {
+      "name": "La Source School of Nursing, HES-SO University of Applied Sciences and Arts Western Switzerland",
+      "country": "CH",
+      "value": 2.5961,
+      "detail": "480 works"
+    },
+    {
+      "name": "Institut Bewegung, Sport und Gesundheit",
+      "country": "CH",
+      "value": 2.5385,
+      "detail": "8 works"
+    },
+    {
+      "name": "Swiss Data Science Center",
+      "country": "CH",
+      "value": 2.5086,
+      "detail": "677 works"
+    },
+    {
+      "name": "University of Applied Sciences and Arts of Southern Switzerland",
+      "country": "CH",
+      "value": 2.5039,
+      "detail": "5,834 works"
+    },
+    {
+      "name": "HES-SO Fribourg",
+      "country": "CH",
+      "value": 2.4928,
+      "detail": "1,533 works"
+    },
+    {
+      "name": "University of Fribourg",
+      "country": "CH",
+      "value": 2.4874,
+      "detail": "39,748 works"
+    },
+    {
+      "name": "Hochschulinstitut Schaffhausen",
+      "country": "CH",
+      "value": 2.4848,
+      "detail": "32 works"
+    },
+    {
+      "name": "Geneva College of Longevity Science",
+      "country": "CH",
+      "value": 2.4643,
+      "detail": "14 works"
+    },
+    {
+      "name": "FHNW University of Applied Sciences and Arts Northwestern Switzerland",
+      "country": "CH",
+      "value": 2.4195,
+      "detail": "8,595 works"
+    },
+    {
+      "name": "Thurgau University of Teacher Education",
+      "country": "CH",
+      "value": 2.3806,
+      "detail": "481 works"
+    },
+    {
+      "name": "Graduate Institute of Development Studies",
+      "country": "CH",
+      "value": 2.375,
+      "detail": "703 works"
+    },
+    {
+      "name": "THIM van der Laan University College Physiotherapy",
+      "country": "CH",
+      "value": 2.3333,
+      "detail": "129 works"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "tj-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Tajikistan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TJ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:38.889Z",
+  "items": [
+    {
+      "name": "Academy of Sciences of the Republic of Tajikistan",
+      "country": "TJ",
+      "value": 2.2126,
+      "detail": "2,614 works"
+    },
+    {
+      "name": "Technological University of Tajikistan",
+      "country": "TJ",
+      "value": 1.0606,
+      "detail": "831 works"
+    },
+    {
+      "name": "Tajik Technical University named after academic M.S.Osimi",
+      "country": "TJ",
+      "value": 0.6921,
+      "detail": "693 works"
+    },
+    {
+      "name": "Finance and Economics Institute of Tajikistan",
+      "country": "TJ",
+      "value": 0.6364,
+      "detail": "64 works"
+    },
+    {
+      "name": "Tajik National University",
+      "country": "TJ",
+      "value": 0.4724,
+      "detail": "1,114 works"
+    },
+    {
+      "name": "Tajik Agrarian University Shirinsho Shotemur",
+      "country": "TJ",
+      "value": 0.4643,
+      "detail": "234 works"
+    },
+    {
+      "name": "Tajik State University of Commerce",
+      "country": "TJ",
+      "value": 0.4615,
+      "detail": "113 works"
+    },
+    {
+      "name": "Tajik State Pedagogical University",
+      "country": "TJ",
+      "value": 0.3896,
+      "detail": "210 works"
+    },
+    {
+      "name": "Tajik State Medical University",
+      "country": "TJ",
+      "value": 0.2597,
+      "detail": "1,227 works"
+    },
+    {
+      "name": "Kulyab State University named after Abuabdullo Rudaki",
+      "country": "TJ",
+      "value": 0.1333,
+      "detail": "20 works"
+    },
+    {
+      "name": "Khujand State University",
+      "country": "TJ",
+      "value": 0.1291,
+      "detail": "459 works"
+    },
+    {
+      "name": "Khatlon State Medical University",
+      "country": "TJ",
+      "value": 0.12,
+      "detail": "28 works"
+    },
+    {
+      "name": "Russian-Tajik Slavonic University",
+      "country": "TJ",
+      "value": 0.1146,
+      "detail": "224 works"
+    },
+    {
+      "name": "Tajik State University of Law Business and Politics",
+      "country": "TJ",
+      "value": 0.1111,
+      "detail": "87 works"
+    },
+    {
+      "name": "Moscow State University",
+      "country": "TJ",
+      "value": 0.0784,
+      "detail": "277 works"
+    }
+  ]
+}

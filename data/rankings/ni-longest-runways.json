@@ -1,0 +1,92 @@
+{
+  "id": "ni-longest-runways",
+  "title": "Longest Airport Runways in Nicaragua",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Nicaragua ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.530Z",
+  "items": [
+    {
+      "name": "Punta Huete (Panchito) Airport",
+      "country": "NI",
+      "value": 3005.94,
+      "detail": "Punta Huete · 9,862 ft · CON"
+    },
+    {
+      "name": "Puerto Cabezas Airport",
+      "country": "NI",
+      "value": 2478.02,
+      "detail": "Puerto Cabezas · 8,130 ft · ASP"
+    },
+    {
+      "name": "Augusto C. Sandino (Managua) International Airport",
+      "country": "NI",
+      "value": 2442.06,
+      "detail": "Managua · 8,012 ft · ASP"
+    },
+    {
+      "name": "Montelimar Airport",
+      "country": "NI",
+      "value": 2036.06,
+      "detail": "Montelimar · 6,680 ft · ASP"
+    },
+    {
+      "name": "Bluefields Airport",
+      "country": "NI",
+      "value": 2019.3,
+      "detail": "Bluefields · 6,625 ft · ASP"
+    },
+    {
+      "name": "Corn Island Airport",
+      "country": "NI",
+      "value": 1900.12,
+      "detail": "Corn Island · 6,234 ft · ASPHALT"
+    },
+    {
+      "name": "Costa Esmeralda Airport",
+      "country": "NI",
+      "value": 1524.91,
+      "detail": "Tola · 5,003 ft · Asphalt"
+    },
+    {
+      "name": "San Pedro Airport",
+      "country": "NI",
+      "value": 1396.9,
+      "detail": "Bonanza · 4,583 ft · dirt"
+    },
+    {
+      "name": "Los Brasiles Airport",
+      "country": "NI",
+      "value": 932.99,
+      "detail": "Los Brasiles · 3,061 ft · ASP"
+    },
+    {
+      "name": "Leon (Fanor Urroz) Airport",
+      "country": "NI",
+      "value": 929.03,
+      "detail": "León · 3,048 ft · ASP"
+    },
+    {
+      "name": "La Cumplida Airport",
+      "country": "NI",
+      "value": 740.05,
+      "detail": "La Cumplida · 2,428 ft · GRS"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "dj-airports-by-elevation",
+  "title": "Highest Airports in Djibouti",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Djibouti ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.488Z",
+  "items": [
+    {
+      "name": "Ali-Sabieh Airport",
+      "country": "DJ",
+      "value": 705,
+      "detail": "Ali-Sabieh · 2,313 ft above sea level"
+    },
+    {
+      "name": "Assa-Gueyla Airport",
+      "country": "DJ",
+      "value": 624.84,
+      "detail": "Assa-Gueyla · 2,050 ft above sea level"
+    },
+    {
+      "name": "Dikhil Airport",
+      "country": "DJ",
+      "value": 463.3,
+      "detail": "Dikhil · 1,520 ft above sea level"
+    },
+    {
+      "name": "Chabelley Airport",
+      "country": "DJ",
+      "value": 85.04,
+      "detail": "Chabelley · 279 ft above sea level"
+    },
+    {
+      "name": "Tadjoura Airport",
+      "country": "DJ",
+      "value": 74.98,
+      "detail": "Tadjoura · 246 ft above sea level"
+    },
+    {
+      "name": "Obock Airport",
+      "country": "DJ",
+      "value": 21.03,
+      "detail": "Obock · 69 ft above sea level"
+    },
+    {
+      "name": "Djibouti-Ambouli Airport",
+      "country": "DJ",
+      "value": 14.94,
+      "detail": "Djibouti City · 49 ft above sea level"
+    },
+    {
+      "name": "Herkale Airport",
+      "country": "DJ",
+      "value": 11.58,
+      "detail": "Herkale · 38 ft above sea level"
+    }
+  ]
+}

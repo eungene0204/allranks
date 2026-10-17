@@ -1,0 +1,116 @@
+{
+  "id": "mv-airports-by-elevation",
+  "title": "Highest Airports in Maldives",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Maldives ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.524Z",
+  "items": [
+    {
+      "name": "Kooddoo Airport",
+      "country": "MV",
+      "value": 8.84,
+      "detail": "Huvadhu Atoll · 29 ft above sea level"
+    },
+    {
+      "name": "Maavaarulaa Airport",
+      "country": "MV",
+      "value": 8.53,
+      "detail": "Maavaarulu · 28 ft above sea level"
+    },
+    {
+      "name": "Ifuru Airport",
+      "country": "MV",
+      "value": 6.1,
+      "detail": "Ifuru Island · 20 ft above sea level"
+    },
+    {
+      "name": "Fuvahmulah Airport",
+      "country": "MV",
+      "value": 5.18,
+      "detail": "Fuvahmulah Island · 17 ft above sea level"
+    },
+    {
+      "name": "Dhaalu Atoll Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Kudahuvadhoo · 6 ft above sea level"
+    },
+    {
+      "name": "Dharavandhoo Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Baa Atoll · 6 ft above sea level"
+    },
+    {
+      "name": "Gan International Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Gan · 6 ft above sea level"
+    },
+    {
+      "name": "Maafaru International Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Noonu Atoll · 6 ft above sea level"
+    },
+    {
+      "name": "Madivaru Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Naifaru · 6 ft above sea level"
+    },
+    {
+      "name": "Thimarafushi Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Thimarafushi · 6 ft above sea level"
+    },
+    {
+      "name": "Velana International Airport",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Malé · 6 ft above sea level"
+    },
+    {
+      "name": "Villa International Airport Maamigili",
+      "country": "MV",
+      "value": 1.83,
+      "detail": "Maamigili · 6 ft above sea level"
+    },
+    {
+      "name": "Hanimaadhoo International Airport",
+      "country": "MV",
+      "value": 1.22,
+      "detail": "Haa Dhaalu Atoll · 4 ft above sea level"
+    },
+    {
+      "name": "Kadhdhoo Airport",
+      "country": "MV",
+      "value": 1.22,
+      "detail": "Kadhdhoo · 4 ft above sea level"
+    },
+    {
+      "name": "Kaadedhdhoo Airport",
+      "country": "MV",
+      "value": 0.61,
+      "detail": "Huvadhu Atoll · 2 ft above sea level"
+    }
+  ]
+}

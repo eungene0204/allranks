@@ -1,0 +1,122 @@
+{
+  "id": "tm-longest-runways",
+  "title": "Longest Airport Runways in Turkmenistan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Turkmenistan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Ashgabat International Airport",
+      "country": "TM",
+      "value": 3799.94,
+      "detail": "Ashgabat · 12,467 ft · CON"
+    },
+    {
+      "name": "Dashoguz International Airport",
+      "country": "TM",
+      "value": 3799.94,
+      "detail": "Daşoguz · 12,467 ft · CON"
+    },
+    {
+      "name": "Mary International Airport",
+      "country": "TM",
+      "value": 3799.94,
+      "detail": "Mary · 12,467 ft · CON"
+    },
+    {
+      "name": "Türkmenabat International Airport",
+      "country": "TM",
+      "value": 3799.94,
+      "detail": "Türkmenabat · 12,467 ft · CON"
+    },
+    {
+      "name": "Turkmenbaşy International Airport",
+      "country": "TM",
+      "value": 3500.02,
+      "detail": "Turkmenbaşy · 11,483 ft · CON"
+    },
+    {
+      "name": "Balkanabat International Airport",
+      "country": "TM",
+      "value": 3200.1,
+      "detail": "Balkanabat · 10,499 ft · ASP"
+    },
+    {
+      "name": "Mary North Airport",
+      "country": "TM",
+      "value": 3003.8,
+      "detail": "Mary · 9,855 ft · CON"
+    },
+    {
+      "name": "Kerki Airport",
+      "country": "TM",
+      "value": 2699.92,
+      "detail": "Kerki · 8,858 ft · ASP"
+    },
+    {
+      "name": "Ashgabat Bezmein Air Base",
+      "country": "TM",
+      "value": 2641.09,
+      "detail": "Ashgabat · 8,665 ft · CON"
+    },
+    {
+      "name": "Kala-I-Mor Airport",
+      "country": "TM",
+      "value": 2519.48,
+      "detail": "Turkmenkarakul · 8,266 ft · CON"
+    },
+    {
+      "name": "Kizyl-Arvat Airport",
+      "country": "TM",
+      "value": 2399.08,
+      "detail": "Kizyl-Arvat · 7,871 ft · CON"
+    },
+    {
+      "name": "Yangadzha Airport",
+      "country": "TM",
+      "value": 2011.68,
+      "detail": "Yangadzha · 6,600 ft · CON"
+    },
+    {
+      "name": "Serakhs Airport",
+      "country": "TM",
+      "value": 1993.39,
+      "detail": "Serakhs · 6,540 ft · ASP"
+    },
+    {
+      "name": "Gazadzhak Airport",
+      "country": "TM",
+      "value": 1699.56,
+      "detail": "Gazadzhak · 5,576 ft · CON"
+    },
+    {
+      "name": "Cheleken East Airport",
+      "country": "TM",
+      "value": 1590.14,
+      "detail": "Cheleken · 5,217 ft · ASP"
+    },
+    {
+      "name": "Gaurdak Airport",
+      "country": "TM",
+      "value": 1477.98,
+      "detail": "Gaurdak · 4,849 ft · ASP"
+    }
+  ]
+}

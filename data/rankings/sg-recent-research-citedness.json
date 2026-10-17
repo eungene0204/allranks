@@ -1,0 +1,326 @@
+{
+  "id": "sg-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Singapore",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:32.132Z",
+  "items": [
+    {
+      "name": "Republic Polytechnic",
+      "country": "SG",
+      "value": 10.1584,
+      "detail": "591 works"
+    },
+    {
+      "name": "DigiPen Institute of Technology Singapore",
+      "country": "SG",
+      "value": 7.875,
+      "detail": "79 works"
+    },
+    {
+      "name": "National University of Singapore",
+      "country": "SG",
+      "value": 7.8621,
+      "detail": "290,054 works"
+    },
+    {
+      "name": "Nanyang Centre for Public Administration",
+      "country": "SG",
+      "value": 7.7381,
+      "detail": "124 works"
+    },
+    {
+      "name": "Nanyang Technological University",
+      "country": "SG",
+      "value": 7.6622,
+      "detail": "199,603 works"
+    },
+    {
+      "name": "Newcastle University Singapore",
+      "country": "SG",
+      "value": 7.3219,
+      "detail": "986 works"
+    },
+    {
+      "name": "National University Health System",
+      "country": "SG",
+      "value": 7.2238,
+      "detail": "20,292 works"
+    },
+    {
+      "name": "Singapore-MIT Alliance for Research and Technology",
+      "country": "SG",
+      "value": 7.185,
+      "detail": "3,924 works"
+    },
+    {
+      "name": "Centre for Information Integrity and the Internet",
+      "country": "SG",
+      "value": 7,
+      "detail": "4 works"
+    },
+    {
+      "name": "Singapore University of Technology and Design",
+      "country": "SG",
+      "value": 6.7615,
+      "detail": "14,635 works"
+    },
+    {
+      "name": "Duke-NUS Medical School",
+      "country": "SG",
+      "value": 6.4716,
+      "detail": "27,672 works"
+    },
+    {
+      "name": "Yale-NUS College",
+      "country": "SG",
+      "value": 5.6024,
+      "detail": "2,164 works"
+    },
+    {
+      "name": "Singapore Polytechnic",
+      "country": "SG",
+      "value": 5.1604,
+      "detail": "1,411 works"
+    },
+    {
+      "name": "National University Cancer Institute, Singapore",
+      "country": "SG",
+      "value": 4.7137,
+      "detail": "3,464 works"
+    },
+    {
+      "name": "Temasek Polytechnic",
+      "country": "SG",
+      "value": 4.3418,
+      "detail": "799 works"
+    },
+    {
+      "name": "Academies Australasia College",
+      "country": "SG",
+      "value": 4.3,
+      "detail": "13 works"
+    },
+    {
+      "name": "TMC Academy",
+      "country": "SG",
+      "value": 4.2857,
+      "detail": "43 works"
+    },
+    {
+      "name": "James Cook University Singapore",
+      "country": "SG",
+      "value": 4.0988,
+      "detail": "1,693 works"
+    },
+    {
+      "name": "Singapore Management University",
+      "country": "SG",
+      "value": 4.0724,
+      "detail": "19,514 works"
+    },
+    {
+      "name": "SEAMEO Regional Language Centre",
+      "country": "SG",
+      "value": 3.8966,
+      "detail": "382 works"
+    },
+    {
+      "name": "Nanyang Polytechnic",
+      "country": "SG",
+      "value": 3.806,
+      "detail": "802 works"
+    },
+    {
+      "name": "TUM CREATE",
+      "country": "SG",
+      "value": 3.3668,
+      "detail": "914 works"
+    },
+    {
+      "name": "Ngee Ann Polytechnic",
+      "country": "SG",
+      "value": 3.3364,
+      "detail": "1,850 works"
+    },
+    {
+      "name": "Singapore University of Social Sciences",
+      "country": "SG",
+      "value": 3.1942,
+      "detail": "3,499 works"
+    },
+    {
+      "name": "Global Indian International School",
+      "country": "SG",
+      "value": 3.0769,
+      "detail": "21 works"
+    },
+    {
+      "name": "International Management School",
+      "country": "SG",
+      "value": 3,
+      "detail": "1 works"
+    },
+    {
+      "name": "Institute for Adult Learning",
+      "country": "SG",
+      "value": 2.9737,
+      "detail": "132 works"
+    },
+    {
+      "name": "INSEAD",
+      "country": "SG",
+      "value": 2.9526,
+      "detail": "5,069 works"
+    },
+    {
+      "name": "Singapore College of Traditional Chinese Medicine",
+      "country": "SG",
+      "value": 2.9167,
+      "detail": "27 works"
+    },
+    {
+      "name": "Curtin Singapore",
+      "country": "SG",
+      "value": 2.8015,
+      "detail": "163 works"
+    },
+    {
+      "name": "Hwa Chong Institution",
+      "country": "SG",
+      "value": 2.6369,
+      "detail": "315 works"
+    },
+    {
+      "name": "Newcastle Australia Institute of Higher Education",
+      "country": "SG",
+      "value": 2.6081,
+      "detail": "287 works"
+    },
+    {
+      "name": "Kaplan Higher Education Academy",
+      "country": "SG",
+      "value": 2.35,
+      "detail": "102 works"
+    },
+    {
+      "name": "Singapore Institute of Technology",
+      "country": "SG",
+      "value": 2.2521,
+      "detail": "4,646 works"
+    },
+    {
+      "name": "SHRM College",
+      "country": "SG",
+      "value": 2.25,
+      "detail": "5 works"
+    },
+    {
+      "name": "University of Glasgow Singapore",
+      "country": "SG",
+      "value": 2.1379,
+      "detail": "285 works"
+    },
+    {
+      "name": "Raffles Institution",
+      "country": "SG",
+      "value": 2.1328,
+      "detail": "249 works"
+    },
+    {
+      "name": "Assas International School",
+      "country": "SG",
+      "value": 2,
+      "detail": "2 works"
+    },
+    {
+      "name": "Academy of Medicine",
+      "country": "SG",
+      "value": 1.9091,
+      "detail": "141 works"
+    },
+    {
+      "name": "Ageing Research Institute for Society and Education",
+      "country": "SG",
+      "value": 1.6667,
+      "detail": "42 works"
+    },
+    {
+      "name": "ESSEC Business School",
+      "country": "SG",
+      "value": 1.3975,
+      "detail": "2,377 works"
+    },
+    {
+      "name": "Canadian International School",
+      "country": "SG",
+      "value": 1.3333,
+      "detail": "40 works"
+    },
+    {
+      "name": "College of Family Physicians Singapore",
+      "country": "SG",
+      "value": 1.25,
+      "detail": "23 works"
+    },
+    {
+      "name": "PSB Academy",
+      "country": "SG",
+      "value": 1.2436,
+      "detail": "134 works"
+    },
+    {
+      "name": "Dulwich College (Singapore)",
+      "country": "SG",
+      "value": 1.175,
+      "detail": "87 works"
+    },
+    {
+      "name": "Institute of Technical Education",
+      "country": "SG",
+      "value": 1.1429,
+      "detail": "201 works"
+    },
+    {
+      "name": "Amity Global Institute",
+      "country": "SG",
+      "value": 1.1364,
+      "detail": "71 works"
+    },
+    {
+      "name": "LASALLE College of the Arts",
+      "country": "SG",
+      "value": 1.0482,
+      "detail": "300 works"
+    },
+    {
+      "name": "Nexus International School (Singapore)",
+      "country": "SG",
+      "value": 1,
+      "detail": "8 works"
+    },
+    {
+      "name": "Raffles College of Higher Education",
+      "country": "SG",
+      "value": 1,
+      "detail": "22 works"
+    }
+  ]
+}

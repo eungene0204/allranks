@@ -1,0 +1,56 @@
+{
+  "id": "bz-cities-by-elevation",
+  "title": "Highest Major Cities in Belize",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Belize with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.516Z",
+  "items": [
+    {
+      "name": "San Ignacio",
+      "country": "BZ",
+      "value": 60,
+      "detail": "21,229 people · Cayo District"
+    },
+    {
+      "name": "Belmopan",
+      "country": "BZ",
+      "value": 56,
+      "detail": "13,381 people · Cayo District"
+    },
+    {
+      "name": "Orange Walk",
+      "country": "BZ",
+      "value": 16,
+      "detail": "15,298 people · Orange Walk District"
+    },
+    {
+      "name": "Belize City",
+      "country": "BZ",
+      "value": 6,
+      "detail": "65,222 people · Belize District"
+    },
+    {
+      "name": "San Pedro",
+      "country": "BZ",
+      "value": 4,
+      "detail": "17,429 people · Belize District"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "kw-research-h-index",
+  "title": "Universities by Research h-index in Kuwait",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:02.041Z",
+  "items": [
+    {
+      "name": "Kuwait University",
+      "country": "KW",
+      "value": 308,
+      "detail": "30,840 works"
+    },
+    {
+      "name": "Public Authority for Applied Education and Training",
+      "country": "KW",
+      "value": 133,
+      "detail": "4,902 works"
+    },
+    {
+      "name": "American University of the Middle East",
+      "country": "KW",
+      "value": 126,
+      "detail": "6,221 works"
+    },
+    {
+      "name": "Dasman Diabetes Institute",
+      "country": "KW",
+      "value": 119,
+      "detail": "1,502 works"
+    },
+    {
+      "name": "Gulf University for Science & Technology",
+      "country": "KW",
+      "value": 101,
+      "detail": "4,298 works"
+    },
+    {
+      "name": "Kuwait College of Science and Technology",
+      "country": "KW",
+      "value": 82,
+      "detail": "1,657 works"
+    },
+    {
+      "name": "Australian University, Kuwait",
+      "country": "KW",
+      "value": 67,
+      "detail": "1,393 works"
+    },
+    {
+      "name": "American University of Kuwait",
+      "country": "KW",
+      "value": 53,
+      "detail": "1,161 works"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "KW",
+      "value": 38,
+      "detail": "479 works"
+    },
+    {
+      "name": "American International University Kuwait",
+      "country": "KW",
+      "value": 17,
+      "detail": "229 works"
+    },
+    {
+      "name": "Kuwait Technical College",
+      "country": "KW",
+      "value": 17,
+      "detail": "161 works"
+    },
+    {
+      "name": "American School of Kuwait",
+      "country": "KW",
+      "value": 13,
+      "detail": "31 works"
+    },
+    {
+      "name": "Kuwait International Law School",
+      "country": "KW",
+      "value": 6,
+      "detail": "270 works"
+    }
+  ]
+}

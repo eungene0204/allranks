@@ -1,0 +1,326 @@
+{
+  "id": "ro-research-publications",
+  "title": "Universities by Research Publications in Romania",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:27.678Z",
+  "items": [
+    {
+      "name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "country": "RO",
+      "value": 41967,
+      "detail": "1,116,824 citations"
+    },
+    {
+      "name": "Babeș-Bolyai University",
+      "country": "RO",
+      "value": 36410,
+      "detail": "908,013 citations"
+    },
+    {
+      "name": "University of Bucharest",
+      "country": "RO",
+      "value": 35143,
+      "detail": "878,013 citations"
+    },
+    {
+      "name": "Carol Davila University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 27419,
+      "detail": "1,052,987 citations"
+    },
+    {
+      "name": "Alexandru Ioan Cuza University",
+      "country": "RO",
+      "value": 22550,
+      "detail": "453,271 citations"
+    },
+    {
+      "name": "Technical University of Cluj-Napoca",
+      "country": "RO",
+      "value": 18803,
+      "detail": "345,351 citations"
+    },
+    {
+      "name": "Grigore T. Popa University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 17485,
+      "detail": "507,201 citations"
+    },
+    {
+      "name": "Transylvania University of Brașov",
+      "country": "RO",
+      "value": 16992,
+      "detail": "344,802 citations"
+    },
+    {
+      "name": "Iuliu Hațieganu University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 16491,
+      "detail": "925,382 citations"
+    },
+    {
+      "name": "Bucharest University of Economic Studies",
+      "country": "RO",
+      "value": 16136,
+      "detail": "245,423 citations"
+    },
+    {
+      "name": "Gheorghe Asachi Technical University of Iași",
+      "country": "RO",
+      "value": 15893,
+      "detail": "364,500 citations"
+    },
+    {
+      "name": "University of Craiova",
+      "country": "RO",
+      "value": 14635,
+      "detail": "192,340 citations"
+    },
+    {
+      "name": "Politehnica University of Timisoara",
+      "country": "RO",
+      "value": 14405,
+      "detail": "336,302 citations"
+    },
+    {
+      "name": "\"Dunarea de Jos\" University of Galati",
+      "country": "RO",
+      "value": 12645,
+      "detail": "232,953 citations"
+    },
+    {
+      "name": "West University of Timişoara",
+      "country": "RO",
+      "value": 11716,
+      "detail": "294,228 citations"
+    },
+    {
+      "name": "Victor Babeș University of Medicine and Pharmacy Timișoara",
+      "country": "RO",
+      "value": 11325,
+      "detail": "463,821 citations"
+    },
+    {
+      "name": "University of Oradea",
+      "country": "RO",
+      "value": 10312,
+      "detail": "215,343 citations"
+    },
+    {
+      "name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+      "country": "RO",
+      "value": 9663,
+      "detail": "320,583 citations"
+    },
+    {
+      "name": "Lucian Blaga University of Sibiu",
+      "country": "RO",
+      "value": 9178,
+      "detail": "124,251 citations"
+    },
+    {
+      "name": "Universitatea de Medicină, Farmacie, Științe și Tehnologie „George Emil Palade” din Târgu Mureș",
+      "country": "RO",
+      "value": 8979,
+      "detail": "212,081 citations"
+    },
+    {
+      "name": "Ştefan cel Mare University of Suceava",
+      "country": "RO",
+      "value": 8900,
+      "detail": "146,260 citations"
+    },
+    {
+      "name": "Ovidius University",
+      "country": "RO",
+      "value": 8000,
+      "detail": "95,815 citations"
+    },
+    {
+      "name": "University of Medicine and Pharmacy of Craiova",
+      "country": "RO",
+      "value": 6900,
+      "detail": "253,698 citations"
+    },
+    {
+      "name": "Univesity of Life Science \"King Mihai I\" from Timisoara",
+      "country": "RO",
+      "value": 5742,
+      "detail": "94,657 citations"
+    },
+    {
+      "name": "IMAR - Institutul de Matematică „Simion Stoilow” al Academiei Române",
+      "country": "RO",
+      "value": 4684,
+      "detail": "89,359 citations"
+    },
+    {
+      "name": "Valahia University of Targoviste",
+      "country": "RO",
+      "value": 4475,
+      "detail": "53,936 citations"
+    },
+    {
+      "name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "country": "RO",
+      "value": 4255,
+      "detail": "90,422 citations"
+    },
+    {
+      "name": "University of Pitesti",
+      "country": "RO",
+      "value": 4036,
+      "detail": "45,447 citations"
+    },
+    {
+      "name": "Aurel Vlaicu University of Arad",
+      "country": "RO",
+      "value": 3467,
+      "detail": "42,636 citations"
+    },
+    {
+      "name": "Titu Maiorescu University",
+      "country": "RO",
+      "value": 3367,
+      "detail": "37,744 citations"
+    },
+    {
+      "name": "National School of Political Science and Public Administration",
+      "country": "RO",
+      "value": 3190,
+      "detail": "25,296 citations"
+    },
+    {
+      "name": "1 Decembrie 1918 University",
+      "country": "RO",
+      "value": 2908,
+      "detail": "17,544 citations"
+    },
+    {
+      "name": "University of Bacău",
+      "country": "RO",
+      "value": 2898,
+      "detail": "34,108 citations"
+    },
+    {
+      "name": "\"Ion Ionescu de la Brad\" Iasi University of Life Sciences",
+      "country": "RO",
+      "value": 2813,
+      "detail": "63,023 citations"
+    },
+    {
+      "name": "Petroleum & Gas University of Ploieşti",
+      "country": "RO",
+      "value": 2772,
+      "detail": "41,382 citations"
+    },
+    {
+      "name": "Technical University of Civil Engineering of Bucharest",
+      "country": "RO",
+      "value": 2742,
+      "detail": "32,666 citations"
+    },
+    {
+      "name": "Sapientia Hungarian University of Transylvania",
+      "country": "RO",
+      "value": 2441,
+      "detail": "37,790 citations"
+    },
+    {
+      "name": "Vasile Goldis Western University of Arad",
+      "country": "RO",
+      "value": 2440,
+      "detail": "43,984 citations"
+    },
+    {
+      "name": "Spiru Haret University",
+      "country": "RO",
+      "value": 2057,
+      "detail": "27,694 citations"
+    },
+    {
+      "name": "Universitatea Din Petrosani",
+      "country": "RO",
+      "value": 2028,
+      "detail": "13,739 citations"
+    },
+    {
+      "name": "Military Technical Academy",
+      "country": "RO",
+      "value": 1964,
+      "detail": "16,726 citations"
+    },
+    {
+      "name": "Constantin Brâncuși University of Targu Jiu",
+      "country": "RO",
+      "value": 1895,
+      "detail": "12,316 citations"
+    },
+    {
+      "name": "Nicolae Bălcescu Land Forces Academy",
+      "country": "RO",
+      "value": 1467,
+      "detail": "10,418 citations"
+    },
+    {
+      "name": "Constanta Maritime University",
+      "country": "RO",
+      "value": 1268,
+      "detail": "7,931 citations"
+    },
+    {
+      "name": "Universitatea Nicolae Titulescu din București",
+      "country": "RO",
+      "value": 1036,
+      "detail": "989 citations"
+    },
+    {
+      "name": "Romanian-American University",
+      "country": "RO",
+      "value": 983,
+      "detail": "9,136 citations"
+    },
+    {
+      "name": "Danubius International University",
+      "country": "RO",
+      "value": 939,
+      "detail": "3,409 citations"
+    },
+    {
+      "name": "Universitatea Petru Maior din Tîrgu Mureş",
+      "country": "RO",
+      "value": 921,
+      "detail": "12,485 citations"
+    },
+    {
+      "name": "Carol I National Defence University",
+      "country": "RO",
+      "value": 901,
+      "detail": "1,668 citations"
+    },
+    {
+      "name": "Apollonia University",
+      "country": "RO",
+      "value": 885,
+      "detail": "14,259 citations"
+    }
+  ]
+}

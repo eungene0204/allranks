@@ -1,0 +1,68 @@
+{
+  "id": "sc-longest-runways",
+  "title": "Longest Airport Runways in Seychelles",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Seychelles ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SC",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.544Z",
+  "items": [
+    {
+      "name": "Seychelles International Airport",
+      "country": "SC",
+      "value": 2987.04,
+      "detail": "Victoria · 9,800 ft · CON"
+    },
+    {
+      "name": "Desroches Airport",
+      "country": "SC",
+      "value": 1381.05,
+      "detail": "Desroches Island · 4,531 ft · CON"
+    },
+    {
+      "name": "Praslin Island Airport",
+      "country": "SC",
+      "value": 1316.13,
+      "detail": "Praslin Island · 4,318 ft · ASP"
+    },
+    {
+      "name": "Providence Island Airport",
+      "country": "SC",
+      "value": 1307.9,
+      "detail": "4,291 ft · concrete"
+    },
+    {
+      "name": "Alphonse Airport",
+      "country": "SC",
+      "value": 1214.02,
+      "detail": "Alphonse Island · 3,983 ft · CON"
+    },
+    {
+      "name": "Farquhar Airport",
+      "country": "SC",
+      "value": 925.07,
+      "detail": "Farquhar Group · 3,035 ft · CON"
+    },
+    {
+      "name": "Assomption Airport",
+      "country": "SC",
+      "value": 368.81,
+      "detail": "Assomption Island · 1,210 ft · concrete"
+    }
+  ]
+}

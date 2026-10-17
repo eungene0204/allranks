@@ -1,0 +1,110 @@
+{
+  "id": "bf-research-publications",
+  "title": "Universities by Research Publications in Burkina Faso",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BF",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:26.905Z",
+  "items": [
+    {
+      "name": "Université Joseph Ki-Zerbo",
+      "country": "BF",
+      "value": 11009,
+      "detail": "232,126 citations"
+    },
+    {
+      "name": "Nazi Boni University",
+      "country": "BF",
+      "value": 3725,
+      "detail": "38,045 citations"
+    },
+    {
+      "name": "University of Koudougou",
+      "country": "BF",
+      "value": 1389,
+      "detail": "5,985 citations"
+    },
+    {
+      "name": "Université Daniel Ouezzin Coulibaly",
+      "country": "BF",
+      "value": 1069,
+      "detail": "5,632 citations"
+    },
+    {
+      "name": "International Institute for Water and Environmental Engineering",
+      "country": "BF",
+      "value": 872,
+      "detail": "44,556 citations"
+    },
+    {
+      "name": "Université Ouaga II",
+      "country": "BF",
+      "value": 359,
+      "detail": "2,915 citations"
+    },
+    {
+      "name": "Université Aube Nouvelle",
+      "country": "BF",
+      "value": 239,
+      "detail": "949 citations"
+    },
+    {
+      "name": "Université Catholique de l'Afrique de l'Ouest - Unité Universitaire de Bobo Dioulasso",
+      "country": "BF",
+      "value": 64,
+      "detail": "385 citations"
+    },
+    {
+      "name": "Institut Supérieur de l'Informatique et de Gestion",
+      "country": "BF",
+      "value": 13,
+      "detail": "434 citations"
+    },
+    {
+      "name": "Institut Supérieur Privé Polytechnique",
+      "country": "BF",
+      "value": 7,
+      "detail": "26 citations"
+    },
+    {
+      "name": "École Nationale d'Administration et de Magistrature",
+      "country": "BF",
+      "value": 6,
+      "detail": "7 citations"
+    },
+    {
+      "name": "Université du Faso",
+      "country": "BF",
+      "value": 5,
+      "detail": "102 citations"
+    },
+    {
+      "name": "Université Libre du Burkina",
+      "country": "BF",
+      "value": 2,
+      "detail": "2 citations"
+    },
+    {
+      "name": "Université Privée de Ouagadougou",
+      "country": "BF",
+      "value": 2,
+      "detail": "1 citations"
+    }
+  ]
+}

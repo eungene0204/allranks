@@ -1,0 +1,68 @@
+{
+  "id": "gq-airports-by-elevation",
+  "title": "Highest Airports in Equatorial Guinea",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Equatorial Guinea ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GQ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "President Obiang Nguema International Airport",
+      "country": "GQ",
+      "value": 659.89,
+      "detail": "Mengomeyén · 2,165 ft above sea level"
+    },
+    {
+      "name": "Mongomo Airport",
+      "country": "GQ",
+      "value": 648,
+      "detail": "Mongomo · 2,126 ft above sea level"
+    },
+    {
+      "name": "Médouneu Airport",
+      "country": "GQ",
+      "value": 640.08,
+      "detail": "Médouneu, Gabon · 2,100 ft above sea level"
+    },
+    {
+      "name": "Annobón Airport",
+      "country": "GQ",
+      "value": 24.99,
+      "detail": "San Antonio de Palé · 82 ft above sea level"
+    },
+    {
+      "name": "Malabo International Airport",
+      "country": "GQ",
+      "value": 23.16,
+      "detail": "Malabo · 76 ft above sea level"
+    },
+    {
+      "name": "Corisco International Airport",
+      "country": "GQ",
+      "value": 16.76,
+      "detail": "Corisco Island · 55 ft above sea level"
+    },
+    {
+      "name": "Bata International Airport",
+      "country": "GQ",
+      "value": 3.96,
+      "detail": "Bata · 13 ft above sea level"
+    }
+  ]
+}

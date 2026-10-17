@@ -1,0 +1,326 @@
+{
+  "id": "th-cities-by-elevation",
+  "title": "Highest Major Cities in Thailand",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Thailand with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.566Z",
+  "items": [
+    {
+      "name": "Mae Sai",
+      "country": "TH",
+      "value": 437,
+      "detail": "27,520 people · Chiang Rai"
+    },
+    {
+      "name": "Mae Chan",
+      "country": "TH",
+      "value": 416,
+      "detail": "37,672 people · Chiang Rai"
+    },
+    {
+      "name": "Phayao",
+      "country": "TH",
+      "value": 409,
+      "detail": "21,058 people · Phayao"
+    },
+    {
+      "name": "Chiang Rai",
+      "country": "TH",
+      "value": 401,
+      "detail": "78,756 people · Chiang Rai"
+    },
+    {
+      "name": "Dok Kham Tai",
+      "country": "TH",
+      "value": 394,
+      "detail": "23,824 people · Phayao"
+    },
+    {
+      "name": "Erawan",
+      "country": "TH",
+      "value": 358,
+      "detail": "15,137 people · Loei"
+    },
+    {
+      "name": "Chiang Mai",
+      "country": "TH",
+      "value": 313,
+      "detail": "127,240 people · Chiang Mai"
+    },
+    {
+      "name": "Hang Dong",
+      "country": "TH",
+      "value": 311,
+      "detail": "17,931 people · Chiang Mai"
+    },
+    {
+      "name": "San Kamphaeng",
+      "country": "TH",
+      "value": 311,
+      "detail": "32,950 people · Chiang Mai"
+    },
+    {
+      "name": "Pak Chong",
+      "country": "TH",
+      "value": 307,
+      "detail": "48,999 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "San Pa Tong",
+      "country": "TH",
+      "value": 300,
+      "detail": "17,773 people · Chiang Mai"
+    },
+    {
+      "name": "Lamphun",
+      "country": "TH",
+      "value": 296,
+      "detail": "43,196 people · Lamphun"
+    },
+    {
+      "name": "Pa Sang",
+      "country": "TH",
+      "value": 295,
+      "detail": "15,607 people · Lamphun"
+    },
+    {
+      "name": "Betong",
+      "country": "TH",
+      "value": 269,
+      "detail": "29,604 people · Yala"
+    },
+    {
+      "name": "Phu Kradueng",
+      "country": "TH",
+      "value": 268,
+      "detail": "16,079 people · Loei"
+    },
+    {
+      "name": "Wang Saphung",
+      "country": "TH",
+      "value": 254,
+      "detail": "15,747 people · Loei"
+    },
+    {
+      "name": "Na Klang",
+      "country": "TH",
+      "value": 253,
+      "detail": "31,024 people · Nong Bua Lamphu"
+    },
+    {
+      "name": "Loei",
+      "country": "TH",
+      "value": 244,
+      "detail": "35,273 people · Loei"
+    },
+    {
+      "name": "Lampang",
+      "country": "TH",
+      "value": 238,
+      "detail": "156,139 people · Lampang"
+    },
+    {
+      "name": "Kaset Sombun",
+      "country": "TH",
+      "value": 234,
+      "detail": "16,996 people · Chaiyaphum"
+    },
+    {
+      "name": "Amphoe Sikhiu",
+      "country": "TH",
+      "value": 232,
+      "detail": "28,681 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Nam Som",
+      "country": "TH",
+      "value": 231,
+      "detail": "19,324 people · Udon Thani"
+    },
+    {
+      "name": "Chum Phae",
+      "country": "TH",
+      "value": 227,
+      "detail": "46,335 people · Khon Kaen"
+    },
+    {
+      "name": "Khon Buri",
+      "country": "TH",
+      "value": 218,
+      "detail": "18,596 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Nong Bua Lamphu",
+      "country": "TH",
+      "value": 217,
+      "detail": "34,401 people · Nong Bua Lamphu"
+    },
+    {
+      "name": "Dan Khun Thot",
+      "country": "TH",
+      "value": 214,
+      "detail": "15,580 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Mae Sot",
+      "country": "TH",
+      "value": 213,
+      "detail": "44,563 people · Tak"
+    },
+    {
+      "name": "Phu Khiao",
+      "country": "TH",
+      "value": 213,
+      "detail": "17,122 people · Chaiyaphum"
+    },
+    {
+      "name": "Kaeng Khro",
+      "country": "TH",
+      "value": 205,
+      "detail": "29,056 people · Chaiyaphum"
+    },
+    {
+      "name": "Nan",
+      "country": "TH",
+      "value": 205,
+      "detail": "24,670 people · Nan"
+    },
+    {
+      "name": "Kut Chap",
+      "country": "TH",
+      "value": 197,
+      "detail": "24,696 people · Udon Thani"
+    },
+    {
+      "name": "Ban Huai Thalaeng",
+      "country": "TH",
+      "value": 195,
+      "detail": "15,352 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Chok Chai",
+      "country": "TH",
+      "value": 195,
+      "detail": "23,337 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Khao Wong",
+      "country": "TH",
+      "value": 194,
+      "detail": "15,184 people · Kalasin"
+    },
+    {
+      "name": "Nang Rong",
+      "country": "TH",
+      "value": 192,
+      "detail": "21,961 people · Buriram"
+    },
+    {
+      "name": "Chaiyaphum",
+      "country": "TH",
+      "value": 188,
+      "detail": "58,350 people · Chaiyaphum"
+    },
+    {
+      "name": "Nakhon Ratchasima",
+      "country": "TH",
+      "value": 187,
+      "detail": "126,391 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Mae Ramat",
+      "country": "TH",
+      "value": 184,
+      "detail": "17,316 people · Tak"
+    },
+    {
+      "name": "Nong Kung Si",
+      "country": "TH",
+      "value": 183,
+      "detail": "17,001 people · Kalasin"
+    },
+    {
+      "name": "Tha Bo",
+      "country": "TH",
+      "value": 182,
+      "detail": "35,292 people · Nong Khai"
+    },
+    {
+      "name": "Ban Nong Wua So",
+      "country": "TH",
+      "value": 181,
+      "detail": "21,722 people · Udon Thani"
+    },
+    {
+      "name": "Warichaphum",
+      "country": "TH",
+      "value": 181,
+      "detail": "15,760 people · Sakon Nakhon"
+    },
+    {
+      "name": "Ban Phan Don",
+      "country": "TH",
+      "value": 180,
+      "detail": "29,211 people · Udon Thani"
+    },
+    {
+      "name": "Ban Dung",
+      "country": "TH",
+      "value": 178,
+      "detail": "19,479 people · Udon Thani"
+    },
+    {
+      "name": "Bua Yai",
+      "country": "TH",
+      "value": 177,
+      "detail": "16,832 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Udon Thani",
+      "country": "TH",
+      "value": 177,
+      "detail": "130,531 people · Udon Thani"
+    },
+    {
+      "name": "Ban Phai",
+      "country": "TH",
+      "value": 174,
+      "detail": "35,583 people · Khon Kaen"
+    },
+    {
+      "name": "Non Sung",
+      "country": "TH",
+      "value": 170,
+      "detail": "18,399 people · Nakhon Ratchasima"
+    },
+    {
+      "name": "Phon Charoen",
+      "country": "TH",
+      "value": 170,
+      "detail": "15,208 people · Nong Khai"
+    },
+    {
+      "name": "Thoen",
+      "country": "TH",
+      "value": 170,
+      "detail": "18,459 people · Lampang"
+    }
+  ]
+}

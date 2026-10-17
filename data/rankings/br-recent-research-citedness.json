@@ -1,0 +1,326 @@
+{
+  "id": "br-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Brazil",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:31.479Z",
+  "items": [
+    {
+      "name": "Universidade Estadual da Zona Oeste",
+      "country": "BR",
+      "value": 4.9024,
+      "detail": "883 works"
+    },
+    {
+      "name": "Instituto de Tecnologia de Alimentos",
+      "country": "BR",
+      "value": 4.2294,
+      "detail": "1,618 works"
+    },
+    {
+      "name": "Faculdade de Ciências Médicas da Santa Casa de São Paulo",
+      "country": "BR",
+      "value": 3.9323,
+      "detail": "6,648 works"
+    },
+    {
+      "name": "Instituto de Física de São Carlos",
+      "country": "BR",
+      "value": 3.6617,
+      "detail": "12,413 works"
+    },
+    {
+      "name": "Universidade da Região de Joinville",
+      "country": "BR",
+      "value": 3.6041,
+      "detail": "4,389 works"
+    },
+    {
+      "name": "Instituto de Química de São Carlos",
+      "country": "BR",
+      "value": 3.2309,
+      "detail": "8,237 works"
+    },
+    {
+      "name": "Faculdade de Medicina de Marília",
+      "country": "BR",
+      "value": 3.1573,
+      "detail": "2,816 works"
+    },
+    {
+      "name": "Vale Technological Institute",
+      "country": "BR",
+      "value": 2.9494,
+      "detail": "2,674 works"
+    },
+    {
+      "name": "Universidade SENAI CIMATEC",
+      "country": "BR",
+      "value": 2.8495,
+      "detail": "2,536 works"
+    },
+    {
+      "name": "Guarulhos University",
+      "country": "BR",
+      "value": 2.5993,
+      "detail": "3,050 works"
+    },
+    {
+      "name": "Universidade Federal do ABC",
+      "country": "BR",
+      "value": 2.544,
+      "detail": "26,293 works"
+    },
+    {
+      "name": "Santa Marcelina Colégio São Paulo",
+      "country": "BR",
+      "value": 2.5366,
+      "detail": "50 works"
+    },
+    {
+      "name": "Universidade de Marília",
+      "country": "BR",
+      "value": 2.4812,
+      "detail": "3,969 works"
+    },
+    {
+      "name": "Military Institute of Engineering",
+      "country": "BR",
+      "value": 2.4025,
+      "detail": "6,374 works"
+    },
+    {
+      "name": "Universidade de São Paulo",
+      "country": "BR",
+      "value": 2.3622,
+      "detail": "580,213 works"
+    },
+    {
+      "name": "Universidade São Francisco",
+      "country": "BR",
+      "value": 2.3114,
+      "detail": "6,005 works"
+    },
+    {
+      "name": "Universidade Católica Dom Bosco",
+      "country": "BR",
+      "value": 2.2943,
+      "detail": "4,862 works"
+    },
+    {
+      "name": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "country": "BR",
+      "value": 2.2597,
+      "detail": "44,328 works"
+    },
+    {
+      "name": "Universidade Federal de São Paulo",
+      "country": "BR",
+      "value": 2.2298,
+      "detail": "97,071 works"
+    },
+    {
+      "name": "Universidade Federal de Minas Gerais",
+      "country": "BR",
+      "value": 2.1405,
+      "detail": "158,747 works"
+    },
+    {
+      "name": "Centro Universitário Paulistano",
+      "country": "BR",
+      "value": 2.1167,
+      "detail": "165 works"
+    },
+    {
+      "name": "Universidade Estadual de Campinas (UNICAMP)",
+      "country": "BR",
+      "value": 2.0782,
+      "detail": "221,116 works"
+    },
+    {
+      "name": "Universidade Federal de São Carlos",
+      "country": "BR",
+      "value": 2.0595,
+      "detail": "73,669 works"
+    },
+    {
+      "name": "Universidade Federal de Viçosa",
+      "country": "BR",
+      "value": 2.0414,
+      "detail": "60,514 works"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande do Sul",
+      "country": "BR",
+      "value": 2.0314,
+      "detail": "177,386 works"
+    },
+    {
+      "name": "Faculdade de Administração Ciências Educação e Letras",
+      "country": "BR",
+      "value": 2.0267,
+      "detail": "128 works"
+    },
+    {
+      "name": "Universidade Federal do Rio de Janeiro",
+      "country": "BR",
+      "value": 2.0143,
+      "detail": "194,728 works"
+    },
+    {
+      "name": "Universidade Federal de Itajubá",
+      "country": "BR",
+      "value": 1.9764,
+      "detail": "11,209 works"
+    },
+    {
+      "name": "Escola Bahiana de Medicina e Saúde Pública",
+      "country": "BR",
+      "value": 1.9127,
+      "detail": "5,480 works"
+    },
+    {
+      "name": "Universidade Estadual Paulista (Unesp)",
+      "country": "BR",
+      "value": 1.8956,
+      "detail": "218,422 works"
+    },
+    {
+      "name": "Centro Universitário FEI",
+      "country": "BR",
+      "value": 1.8869,
+      "detail": "3,387 works"
+    },
+    {
+      "name": "Universidade Federal de Lavras",
+      "country": "BR",
+      "value": 1.8815,
+      "detail": "35,190 works"
+    },
+    {
+      "name": "Faculdade ESEG - Grupo Etapa",
+      "country": "BR",
+      "value": 1.875,
+      "detail": "28 works"
+    },
+    {
+      "name": "Anhembi Morumbi University",
+      "country": "BR",
+      "value": 1.8629,
+      "detail": "4,946 works"
+    },
+    {
+      "name": "Universidade Federal de Santa Catarina",
+      "country": "BR",
+      "value": 1.8399,
+      "detail": "124,546 works"
+    },
+    {
+      "name": "State University of Norte Fluminense",
+      "country": "BR",
+      "value": 1.8106,
+      "detail": "12,476 works"
+    },
+    {
+      "name": "Escola Brasileira de Economia e Finanças",
+      "country": "BR",
+      "value": 1.8102,
+      "detail": "1,119 works"
+    },
+    {
+      "name": "Escola de Administração de Empresas de São Paulo",
+      "country": "BR",
+      "value": 1.7999,
+      "detail": "4,890 works"
+    },
+    {
+      "name": "Universidade Federal de Pelotas",
+      "country": "BR",
+      "value": 1.7592,
+      "detail": "47,059 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Aeronáutica",
+      "country": "BR",
+      "value": 1.7372,
+      "detail": "12,433 works"
+    },
+    {
+      "name": "Instituto Cuiabano de Educação",
+      "country": "BR",
+      "value": 1.7368,
+      "detail": "62 works"
+    },
+    {
+      "name": "Insper",
+      "country": "BR",
+      "value": 1.7303,
+      "detail": "2,232 works"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande do Norte",
+      "country": "BR",
+      "value": 1.7211,
+      "detail": "66,491 works"
+    },
+    {
+      "name": "University for International Integration of the Afro-Brazilian Lusophony",
+      "country": "BR",
+      "value": 1.7198,
+      "detail": "5,475 works"
+    },
+    {
+      "name": "Universidade do Estado do Rio de Janeiro",
+      "country": "BR",
+      "value": 1.7116,
+      "detail": "78,137 works"
+    },
+    {
+      "name": "Universidade Federal do Rio Grande",
+      "country": "BR",
+      "value": 1.6995,
+      "detail": "25,473 works"
+    },
+    {
+      "name": "Escola Nacional de Saúde Pública",
+      "country": "BR",
+      "value": 1.6824,
+      "detail": "7,508 works"
+    },
+    {
+      "name": "Universidade Federal da Bahia",
+      "country": "BR",
+      "value": 1.6796,
+      "detail": "73,044 works"
+    },
+    {
+      "name": "Universidade Federal de Ciências da Saúde de Porto Alegre",
+      "country": "BR",
+      "value": 1.6303,
+      "detail": "11,320 works"
+    },
+    {
+      "name": "Universidade de Sorocaba",
+      "country": "BR",
+      "value": 1.6059,
+      "detail": "3,519 works"
+    }
+  ]
+}

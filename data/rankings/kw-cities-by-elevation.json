@@ -1,0 +1,134 @@
+{
+  "id": "kw-cities-by-elevation",
+  "title": "Highest Major Cities in Kuwait",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Kuwait with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.544Z",
+  "items": [
+    {
+      "name": "Al Aḩmadī",
+      "country": "KW",
+      "value": 70,
+      "detail": "637,411 people · Al Aḩmadī"
+    },
+    {
+      "name": "Janūb as Surrah",
+      "country": "KW",
+      "value": 49,
+      "detail": "18,496 people · Al Farwaniyah"
+    },
+    {
+      "name": "Ar Riqqah",
+      "country": "KW",
+      "value": 45,
+      "detail": "52,068 people · Al Aḩmadī"
+    },
+    {
+      "name": "Al Farwānīyah",
+      "country": "KW",
+      "value": 44,
+      "detail": "86,525 people · Al Farwaniyah"
+    },
+    {
+      "name": "Al Jahrā’",
+      "country": "KW",
+      "value": 40,
+      "detail": "24,281 people · Al Jahra Governorate"
+    },
+    {
+      "name": "Şabāḩ as Sālim",
+      "country": "KW",
+      "value": 32,
+      "detail": "139,163 people · Mubārak al Kabīr"
+    },
+    {
+      "name": "Ar Rābiyah",
+      "country": "KW",
+      "value": 24,
+      "detail": "36,447 people · Al Asimah"
+    },
+    {
+      "name": "Bayān",
+      "country": "KW",
+      "value": 20,
+      "detail": "30,635 people · Hawalli"
+    },
+    {
+      "name": "Ḩawallī",
+      "country": "KW",
+      "value": 19,
+      "detail": "164,212 people · Hawalli"
+    },
+    {
+      "name": "Al Faḩāḩīl",
+      "country": "KW",
+      "value": 18,
+      "detail": "68,290 people · Al Aḩmadī"
+    },
+    {
+      "name": "Salwá",
+      "country": "KW",
+      "value": 15,
+      "detail": "40,945 people · Hawalli"
+    },
+    {
+      "name": "Al Manqaf",
+      "country": "KW",
+      "value": 14,
+      "detail": "39,025 people · Al Aḩmadī"
+    },
+    {
+      "name": "As Sālimīyah",
+      "country": "KW",
+      "value": 11,
+      "detail": "147,649 people · Hawalli"
+    },
+    {
+      "name": "Kuwait City",
+      "country": "KW",
+      "value": 11,
+      "detail": "60,064 people · Al Asimah"
+    },
+    {
+      "name": "Ad Dasmah",
+      "country": "KW",
+      "value": 9,
+      "detail": "17,585 people · Al Asimah"
+    },
+    {
+      "name": "Ar Rumaythīyah",
+      "country": "KW",
+      "value": 9,
+      "detail": "58,135 people · Hawalli"
+    },
+    {
+      "name": "Al Finţās",
+      "country": "KW",
+      "value": 8,
+      "detail": "23,071 people · Al Aḩmadī"
+    },
+    {
+      "name": "Al Mahbūlah",
+      "country": "KW",
+      "value": 7,
+      "detail": "18,178 people · Al Aḩmadī"
+    }
+  ]
+}

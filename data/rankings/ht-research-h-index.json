@@ -1,0 +1,98 @@
+{
+  "id": "ht-research-h-index",
+  "title": "Universities by Research h-index in Haiti",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:51.614Z",
+  "items": [
+    {
+      "name": "University of Haiti",
+      "country": "HT",
+      "value": 56,
+      "detail": "1,156 works"
+    },
+    {
+      "name": "Quisqueya University",
+      "country": "HT",
+      "value": 30,
+      "detail": "430 works"
+    },
+    {
+      "name": "Université Notre Dame d'Haïti",
+      "country": "HT",
+      "value": 20,
+      "detail": "132 works"
+    },
+    {
+      "name": "American University of the Caribbean",
+      "country": "HT",
+      "value": 18,
+      "detail": "99 works"
+    },
+    {
+      "name": "L'Hôpital Universitaire Justinien",
+      "country": "HT",
+      "value": 11,
+      "detail": "21 works"
+    },
+    {
+      "name": "Université Épiscopale d'Haiti",
+      "country": "HT",
+      "value": 6,
+      "detail": "8 works"
+    },
+    {
+      "name": "Adventist University of Haiti",
+      "country": "HT",
+      "value": 5,
+      "detail": "22 works"
+    },
+    {
+      "name": "Caribbean University",
+      "country": "HT",
+      "value": 4,
+      "detail": "13 works"
+    },
+    {
+      "name": "ISTEAH",
+      "country": "HT",
+      "value": 4,
+      "detail": "62 works"
+    },
+    {
+      "name": "Institut Universitaire Quisqueya-Amérique",
+      "country": "HT",
+      "value": 2,
+      "detail": "2 works"
+    },
+    {
+      "name": "Université Chrétienne du Nord d’Haïti",
+      "country": "HT",
+      "value": 2,
+      "detail": "12 works"
+    },
+    {
+      "name": "Université Franco-haïtienne du Cap-Haïtien",
+      "country": "HT",
+      "value": 1,
+      "detail": "17 works"
+    }
+  ]
+}

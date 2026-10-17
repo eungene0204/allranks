@@ -1,0 +1,158 @@
+{
+  "id": "md-cities-by-elevation",
+  "title": "Highest Major Cities in Moldova",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Moldova with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.549Z",
+  "items": [
+    {
+      "name": "Drochia",
+      "country": "MD",
+      "value": 226,
+      "detail": "16,080 people · Drochia"
+    },
+    {
+      "name": "Edineţ",
+      "country": "MD",
+      "value": 209,
+      "detail": "22,872 people · Raionul Edineţ"
+    },
+    {
+      "name": "Soroca",
+      "country": "MD",
+      "value": 191,
+      "detail": "27,423 people · Soroca District"
+    },
+    {
+      "name": "Durleşti",
+      "country": "MD",
+      "value": 150,
+      "detail": "26,308 people · Chișinău Municipality"
+    },
+    {
+      "name": "Codru",
+      "country": "MD",
+      "value": 132,
+      "detail": "15,934 people · Chișinău Municipality"
+    },
+    {
+      "name": "Hînceşti",
+      "country": "MD",
+      "value": 127,
+      "detail": "16,900 people · Hînceşti"
+    },
+    {
+      "name": "Bilicenii Vechi",
+      "country": "MD",
+      "value": 121,
+      "detail": "15,479 people · Sîngerei"
+    },
+    {
+      "name": "Floreşti",
+      "country": "MD",
+      "value": 120,
+      "detail": "16,759 people · Floreşti"
+    },
+    {
+      "name": "Bălţi",
+      "country": "MD",
+      "value": 110,
+      "detail": "125,000 people · Bălţi"
+    },
+    {
+      "name": "Strășeni",
+      "country": "MD",
+      "value": 107,
+      "detail": "19,225 people · Strășeni"
+    },
+    {
+      "name": "Rîbniţa",
+      "country": "MD",
+      "value": 96,
+      "detail": "55,455 people · Transnistria"
+    },
+    {
+      "name": "Orhei",
+      "country": "MD",
+      "value": 86,
+      "detail": "24,918 people · Orhei"
+    },
+    {
+      "name": "Ungheni",
+      "country": "MD",
+      "value": 66,
+      "detail": "34,422 people · Ungheni"
+    },
+    {
+      "name": "Comrat",
+      "country": "MD",
+      "value": 62,
+      "detail": "22,911 people · Gagauzia"
+    },
+    {
+      "name": "Ceadîr-Lunga",
+      "country": "MD",
+      "value": 45,
+      "detail": "22,700 people · Gagauzia"
+    },
+    {
+      "name": "Dubăsari",
+      "country": "MD",
+      "value": 39,
+      "detail": "23,254 people · Transnistria"
+    },
+    {
+      "name": "Bender",
+      "country": "MD",
+      "value": 33,
+      "detail": "110,175 people · Bender Municipality"
+    },
+    {
+      "name": "Căuşeni",
+      "country": "MD",
+      "value": 32,
+      "detail": "21,690 people · Căuşeni"
+    },
+    {
+      "name": "Tiraspol",
+      "country": "MD",
+      "value": 30,
+      "detail": "157,000 people · Transnistria"
+    },
+    {
+      "name": "Cahul",
+      "country": "MD",
+      "value": 27,
+      "detail": "34,492 people · Cahul"
+    },
+    {
+      "name": "Chisinau",
+      "country": "MD",
+      "value": 24,
+      "detail": "635,994 people · Chișinău Municipality"
+    },
+    {
+      "name": "Slobozia",
+      "country": "MD",
+      "value": 24,
+      "detail": "15,356 people · Transnistria"
+    }
+  ]
+}

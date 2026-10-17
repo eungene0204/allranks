@@ -1,0 +1,74 @@
+{
+  "id": "jm-research-h-index",
+  "title": "Universities by Research h-index in Jamaica",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:57.472Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "JM",
+      "value": 248,
+      "detail": "16,653 works"
+    },
+    {
+      "name": "University of the West Indies System",
+      "country": "JM",
+      "value": 123,
+      "detail": "1,839 works"
+    },
+    {
+      "name": "University of Technology, Jamaica",
+      "country": "JM",
+      "value": 51,
+      "detail": "774 works"
+    },
+    {
+      "name": "Northern Caribbean University",
+      "country": "JM",
+      "value": 21,
+      "detail": "262 works"
+    },
+    {
+      "name": "University of the Commonwealth Caribbean",
+      "country": "JM",
+      "value": 10,
+      "detail": "99 works"
+    },
+    {
+      "name": "Mico University College",
+      "country": "JM",
+      "value": 8,
+      "detail": "66 works"
+    },
+    {
+      "name": "International University of the Caribbean",
+      "country": "JM",
+      "value": 6,
+      "detail": "19 works"
+    },
+    {
+      "name": "Edna Manley College of the Visual and Performing Arts",
+      "country": "JM",
+      "value": 1,
+      "detail": "11 works"
+    }
+  ]
+}

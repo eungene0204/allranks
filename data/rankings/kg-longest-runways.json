@@ -1,0 +1,104 @@
+{
+  "id": "kg-longest-runways",
+  "title": "Longest Airport Runways in Kyrgyzstan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Kyrgyzstan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.515Z",
+  "items": [
+    {
+      "name": "Manas International Airport",
+      "country": "KG",
+      "value": 4200.14,
+      "detail": "Bishkek · 13,780 ft · CON"
+    },
+    {
+      "name": "Issyk-Kul International Airport",
+      "country": "KG",
+      "value": 3799.94,
+      "detail": "Tamchy · 12,467 ft · ASP"
+    },
+    {
+      "name": "Osh International Airport",
+      "country": "KG",
+      "value": 3211.98,
+      "detail": "Osh · 10,538 ft · ASP"
+    },
+    {
+      "name": "Kant Air Base",
+      "country": "KG",
+      "value": 2700.22,
+      "detail": "Kant · 8,859 ft · CON"
+    },
+    {
+      "name": "Karakol International Airport",
+      "country": "KG",
+      "value": 2499.97,
+      "detail": "Karakol · 8,202 ft · ASP"
+    },
+    {
+      "name": "Naryn Airport",
+      "country": "KG",
+      "value": 2144.88,
+      "detail": "Naryn · 7,037 ft · concrete"
+    },
+    {
+      "name": "Batken Airport",
+      "country": "KG",
+      "value": 1799.84,
+      "detail": "Batken · 5,905 ft · ASP"
+    },
+    {
+      "name": "Jalal-Abad Airport",
+      "country": "KG",
+      "value": 1739.8,
+      "detail": "Jalal-Abad · 5,708 ft · concrete"
+    },
+    {
+      "name": "Kerben Airport",
+      "country": "KG",
+      "value": 1739.8,
+      "detail": "Kerben · 5,708 ft · ASB"
+    },
+    {
+      "name": "Razzakov Airport",
+      "country": "KG",
+      "value": 1699.87,
+      "detail": "Isfana · 5,577 ft · ASB"
+    },
+    {
+      "name": "Talas Airport",
+      "country": "KG",
+      "value": 1699.87,
+      "detail": "Talas · 5,577 ft · concrete"
+    },
+    {
+      "name": "Kyzyl-Kiya Airport",
+      "country": "KG",
+      "value": 1599.9,
+      "detail": "Kyzyl-Kiya · 5,249 ft · concrete"
+    },
+    {
+      "name": "Tamga Airport",
+      "country": "KG",
+      "value": 849.78,
+      "detail": "Tamga · 2,788 ft · asphalt"
+    }
+  ]
+}

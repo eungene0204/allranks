@@ -1,0 +1,122 @@
+{
+  "id": "ht-research-publications",
+  "title": "Universities by Research Publications in Haiti",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:51.559Z",
+  "items": [
+    {
+      "name": "University of Haiti",
+      "country": "HT",
+      "value": 1156,
+      "detail": "16,002 citations"
+    },
+    {
+      "name": "Quisqueya University",
+      "country": "HT",
+      "value": 430,
+      "detail": "3,854 citations"
+    },
+    {
+      "name": "Université Notre Dame d'Haïti",
+      "country": "HT",
+      "value": 132,
+      "detail": "1,522 citations"
+    },
+    {
+      "name": "American University of the Caribbean",
+      "country": "HT",
+      "value": 99,
+      "detail": "923 citations"
+    },
+    {
+      "name": "ISTEAH",
+      "country": "HT",
+      "value": 62,
+      "detail": "76 citations"
+    },
+    {
+      "name": "Adventist University of Haiti",
+      "country": "HT",
+      "value": 22,
+      "detail": "70 citations"
+    },
+    {
+      "name": "L'Hôpital Universitaire Justinien",
+      "country": "HT",
+      "value": 21,
+      "detail": "452 citations"
+    },
+    {
+      "name": "Université Franco-haïtienne du Cap-Haïtien",
+      "country": "HT",
+      "value": 17,
+      "detail": "1 citations"
+    },
+    {
+      "name": "Caribbean University",
+      "country": "HT",
+      "value": 13,
+      "detail": "74 citations"
+    },
+    {
+      "name": "Université Publique du Sud'Est",
+      "country": "HT",
+      "value": 13,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Université Chrétienne du Nord d’Haïti",
+      "country": "HT",
+      "value": 12,
+      "detail": "11 citations"
+    },
+    {
+      "name": "Université Épiscopale d'Haiti",
+      "country": "HT",
+      "value": 8,
+      "detail": "140 citations"
+    },
+    {
+      "name": "Institut Universitaire Quisqueya-Amérique",
+      "country": "HT",
+      "value": 2,
+      "detail": "72 citations"
+    },
+    {
+      "name": "IPES Business School",
+      "country": "HT",
+      "value": 2,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Institut des Hautes Études Commerciales et Économiques",
+      "country": "HT",
+      "value": 1,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Université Roi Henri Christophe",
+      "country": "HT",
+      "value": 1,
+      "detail": "0 citations"
+    }
+  ]
+}

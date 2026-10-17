@@ -1,0 +1,122 @@
+{
+  "id": "lr-cities-by-elevation",
+  "title": "Highest Major Cities in Liberia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Liberia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.547Z",
+  "items": [
+    {
+      "name": "Voinjama",
+      "country": "LR",
+      "value": 550,
+      "detail": "23,051 people · Lofa County"
+    },
+    {
+      "name": "New Yekepa",
+      "country": "LR",
+      "value": 510,
+      "detail": "24,695 people · Nimba"
+    },
+    {
+      "name": "Foya Kamara",
+      "country": "LR",
+      "value": 484,
+      "detail": "31,052 people · Lofa County"
+    },
+    {
+      "name": "Sanniquellie",
+      "country": "LR",
+      "value": 430,
+      "detail": "17,895 people · Nimba"
+    },
+    {
+      "name": "Ganta",
+      "country": "LR",
+      "value": 282,
+      "detail": "63,523 people · Nimba"
+    },
+    {
+      "name": "Gbarnga",
+      "country": "LR",
+      "value": 253,
+      "detail": "86,031 people · Bong County"
+    },
+    {
+      "name": "Saclepea",
+      "country": "LR",
+      "value": 245,
+      "detail": "20,818 people · Nimba"
+    },
+    {
+      "name": "Zwedru",
+      "country": "LR",
+      "value": 221,
+      "detail": "38,269 people · Grand Gedeh County"
+    },
+    {
+      "name": "Kakata",
+      "country": "LR",
+      "value": 97,
+      "detail": "52,247 people · Margibi County"
+    },
+    {
+      "name": "Tubmanburg",
+      "country": "LR",
+      "value": 71,
+      "detail": "22,005 people · Bomi County"
+    },
+    {
+      "name": "Pleebo City",
+      "country": "LR",
+      "value": 57,
+      "detail": "35,423 people · Maryland County"
+    },
+    {
+      "name": "Monrovia",
+      "country": "LR",
+      "value": 32,
+      "detail": "1,542,549 people · Montserrado County"
+    },
+    {
+      "name": "Harper",
+      "country": "LR",
+      "value": 14,
+      "detail": "35,503 people · Maryland County"
+    },
+    {
+      "name": "Buchanan",
+      "country": "LR",
+      "value": 11,
+      "detail": "75,854 people · Grand Bassa County"
+    },
+    {
+      "name": "Greenville",
+      "country": "LR",
+      "value": 10,
+      "detail": "20,184 people · Sinoe County"
+    },
+    {
+      "name": "Harbel",
+      "country": "LR",
+      "value": 10,
+      "detail": "38,208 people · Margibi County"
+    }
+  ]
+}

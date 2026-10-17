@@ -1,0 +1,56 @@
+{
+  "id": "qa-airports-by-elevation",
+  "title": "Highest Airports in Qatar",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Qatar ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "QA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.540Z",
+  "items": [
+    {
+      "name": "Al Udeid Air Base",
+      "country": "QA",
+      "value": 39.62,
+      "detail": "Ar Rayyan · 130 ft above sea level"
+    },
+    {
+      "name": "Umm Garn Airport",
+      "country": "QA",
+      "value": 34.14,
+      "detail": "Rawdat Hawtan · 112 ft above sea level"
+    },
+    {
+      "name": "Umm Al-Shokhot Airport",
+      "country": "QA",
+      "value": 12.19,
+      "detail": "Al-Shahaniya · 40 ft above sea level"
+    },
+    {
+      "name": "Doha International Airport",
+      "country": "QA",
+      "value": 10.67,
+      "detail": "Doha · 35 ft above sea level"
+    },
+    {
+      "name": "Hamad International Airport",
+      "country": "QA",
+      "value": 3.96,
+      "detail": "Doha · 13 ft above sea level"
+    }
+  ]
+}

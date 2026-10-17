@@ -1,0 +1,164 @@
+{
+  "id": "zw-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Zimbabwe",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ZW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:48.769Z",
+  "items": [
+    {
+      "name": "National University of Science and Technology",
+      "country": "ZW",
+      "value": 1.7859,
+      "detail": "4,051 works"
+    },
+    {
+      "name": "University of Zimbabwe",
+      "country": "ZW",
+      "value": 1.7783,
+      "detail": "15,232 works"
+    },
+    {
+      "name": "Bindura University of Science Education",
+      "country": "ZW",
+      "value": 1.7585,
+      "detail": "1,934 works"
+    },
+    {
+      "name": "Africa University",
+      "country": "ZW",
+      "value": 1.6164,
+      "detail": "1,040 works"
+    },
+    {
+      "name": "Marondera University of Agricultural Sciences and Technology",
+      "country": "ZW",
+      "value": 1.5714,
+      "detail": "501 works"
+    },
+    {
+      "name": "Chinhoyi University of Technology",
+      "country": "ZW",
+      "value": 1.5524,
+      "detail": "1,909 works"
+    },
+    {
+      "name": "Hillside Teachers' College",
+      "country": "ZW",
+      "value": 1.5385,
+      "detail": "18 works"
+    },
+    {
+      "name": "Midlands State University",
+      "country": "ZW",
+      "value": 1.4754,
+      "detail": "3,995 works"
+    },
+    {
+      "name": "Lupane State University",
+      "country": "ZW",
+      "value": 1.4367,
+      "detail": "662 works"
+    },
+    {
+      "name": "Great Zimbabwe University",
+      "country": "ZW",
+      "value": 1.1945,
+      "detail": "2,200 works"
+    },
+    {
+      "name": "Harare Institute of Technology",
+      "country": "ZW",
+      "value": 1.1906,
+      "detail": "693 works"
+    },
+    {
+      "name": "Manicaland State University of Applied Sciences",
+      "country": "ZW",
+      "value": 0.9409,
+      "detail": "325 works"
+    },
+    {
+      "name": "Solusi University",
+      "country": "ZW",
+      "value": 0.8667,
+      "detail": "105 works"
+    },
+    {
+      "name": "Women's University in Africa",
+      "country": "ZW",
+      "value": 0.7883,
+      "detail": "465 works"
+    },
+    {
+      "name": "Zimbabwe National Defence University",
+      "country": "ZW",
+      "value": 0.7273,
+      "detail": "24 works"
+    },
+    {
+      "name": "Reformed Church University",
+      "country": "ZW",
+      "value": 0.6931,
+      "detail": "173 works"
+    },
+    {
+      "name": "Joshua Mqabuko Nkomo Polytechnic",
+      "country": "ZW",
+      "value": 0.6667,
+      "detail": "17 works"
+    },
+    {
+      "name": "Zimbabwe Open University",
+      "country": "ZW",
+      "value": 0.6579,
+      "detail": "2,343 works"
+    },
+    {
+      "name": "Catholic University of Zimbabwe",
+      "country": "ZW",
+      "value": 0.525,
+      "detail": "201 works"
+    },
+    {
+      "name": "Arrupe Jesuit University",
+      "country": "ZW",
+      "value": 0.4286,
+      "detail": "81 works"
+    },
+    {
+      "name": "Zimbabwe Ezekiel Guti University",
+      "country": "ZW",
+      "value": 0.3536,
+      "detail": "396 works"
+    },
+    {
+      "name": "Mutare Polytechnic",
+      "country": "ZW",
+      "value": 0.3333,
+      "detail": "17 works"
+    },
+    {
+      "name": "Gwanda State University",
+      "country": "ZW",
+      "value": 0.2727,
+      "detail": "127 works"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "pe-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Peru",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "PE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:22.140Z",
+  "items": [
+    {
+      "name": "Digital Health Research Center",
+      "country": "PE",
+      "value": 45.875,
+      "detail": "22 works"
+    },
+    {
+      "name": "Universidad Nacional José María Arguedas",
+      "country": "PE",
+      "value": 4.5932,
+      "detail": "577 works"
+    },
+    {
+      "name": "Universidad San Ignacio de Loyola",
+      "country": "PE",
+      "value": 3.0506,
+      "detail": "5,380 works"
+    },
+    {
+      "name": "Universidad Señor de Sipán",
+      "country": "PE",
+      "value": 2.7837,
+      "detail": "2,642 works"
+    },
+    {
+      "name": "University of Sciences and Arts of Latin America",
+      "country": "PE",
+      "value": 2.7419,
+      "detail": "126 works"
+    },
+    {
+      "name": "Universidad Peruana Cayetano Heredia",
+      "country": "PE",
+      "value": 2.7082,
+      "detail": "17,837 works"
+    },
+    {
+      "name": "National University Toribio Rodríguez de Mendoza",
+      "country": "PE",
+      "value": 2.6493,
+      "detail": "2,822 works"
+    },
+    {
+      "name": "Escuela Nacional Superior de Ballet",
+      "country": "PE",
+      "value": 2.5455,
+      "detail": "13 works"
+    },
+    {
+      "name": "Esan University",
+      "country": "PE",
+      "value": 2.4274,
+      "detail": "1,460 works"
+    },
+    {
+      "name": "National University of Saint Anthony the Abbot in Cuzco",
+      "country": "PE",
+      "value": 2.3429,
+      "detail": "3,626 works"
+    },
+    {
+      "name": "Universidad Nacional de San Martín",
+      "country": "PE",
+      "value": 2.1724,
+      "detail": "4,693 works"
+    },
+    {
+      "name": "Universidad Científica del Sur",
+      "country": "PE",
+      "value": 1.9827,
+      "detail": "8,036 works"
+    },
+    {
+      "name": "National University of Engineering",
+      "country": "PE",
+      "value": 1.972,
+      "detail": "4,715 works"
+    },
+    {
+      "name": "Universidad Nacional Agraria La Molina",
+      "country": "PE",
+      "value": 1.9303,
+      "detail": "6,549 works"
+    },
+    {
+      "name": "Universidad Nacional de Moquegua",
+      "country": "PE",
+      "value": 1.9204,
+      "detail": "897 works"
+    },
+    {
+      "name": "Universidad Ricardo Palma",
+      "country": "PE",
+      "value": 1.8022,
+      "detail": "4,533 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Perú",
+      "country": "PE",
+      "value": 1.7561,
+      "detail": "29,519 works"
+    },
+    {
+      "name": "Universidad Peruana Unión",
+      "country": "PE",
+      "value": 1.7074,
+      "detail": "3,569 works"
+    },
+    {
+      "name": "Universidad de San Martín de Porres",
+      "country": "PE",
+      "value": 1.623,
+      "detail": "6,286 works"
+    },
+    {
+      "name": "Amazon National University of Madre de Dios",
+      "country": "PE",
+      "value": 1.5703,
+      "detail": "1,102 works"
+    },
+    {
+      "name": "Universidad Nacional de San Agustin de Arequipa",
+      "country": "PE",
+      "value": 1.5442,
+      "detail": "5,514 works"
+    },
+    {
+      "name": "Universidad Nacional de la Amazonía Peruana",
+      "country": "PE",
+      "value": 1.5376,
+      "detail": "1,832 works"
+    },
+    {
+      "name": "Universidad de Ingeniería y Tecnología",
+      "country": "PE",
+      "value": 1.4821,
+      "detail": "1,203 works"
+    },
+    {
+      "name": "Catholic University of Santa María",
+      "country": "PE",
+      "value": 1.4803,
+      "detail": "2,452 works"
+    },
+    {
+      "name": "Universidad Nacional del Callao",
+      "country": "PE",
+      "value": 1.4248,
+      "detail": "1,075 works"
+    },
+    {
+      "name": "Universidad Privada San Juan Bautista",
+      "country": "PE",
+      "value": 1.3694,
+      "detail": "1,958 works"
+    },
+    {
+      "name": "Universidad Marcelino Champagnat",
+      "country": "PE",
+      "value": 1.3333,
+      "detail": "214 works"
+    },
+    {
+      "name": "Universidad Tecnológica del Perú",
+      "country": "PE",
+      "value": 1.3086,
+      "detail": "4,870 works"
+    },
+    {
+      "name": "Universidad Católica San Pablo",
+      "country": "PE",
+      "value": 1.2714,
+      "detail": "1,744 works"
+    },
+    {
+      "name": "National University of Trujillo",
+      "country": "PE",
+      "value": 1.2648,
+      "detail": "6,322 works"
+    },
+    {
+      "name": "Universidad Nacional Tecnológica de Lima Sur",
+      "country": "PE",
+      "value": 1.2388,
+      "detail": "680 works"
+    },
+    {
+      "name": "Universidad Inca Garcilaso de la Vega",
+      "country": "PE",
+      "value": 1.2115,
+      "detail": "740 works"
+    },
+    {
+      "name": "Universidad Andina Néstor Cáceres Velásquez",
+      "country": "PE",
+      "value": 1.1715,
+      "detail": "457 works"
+    },
+    {
+      "name": "Universidad Nacional Pedro Ruíz Gallo",
+      "country": "PE",
+      "value": 1.1663,
+      "detail": "2,155 works"
+    },
+    {
+      "name": "Los Andes Peruvian University",
+      "country": "PE",
+      "value": 1.1514,
+      "detail": "832 works"
+    },
+    {
+      "name": "Universidad Privada de Tacna",
+      "country": "PE",
+      "value": 1.1451,
+      "detail": "1,160 works"
+    },
+    {
+      "name": "Catholic University Los Angeles of Chimbote",
+      "country": "PE",
+      "value": 1.1429,
+      "detail": "795 works"
+    },
+    {
+      "name": "Universidad Femenina del Sagrado Corazón",
+      "country": "PE",
+      "value": 1.0968,
+      "detail": "1,476 works"
+    },
+    {
+      "name": "Jorge Basadre Grohmann National University",
+      "country": "PE",
+      "value": 1.0741,
+      "detail": "2,444 works"
+    },
+    {
+      "name": "Universidad Continental",
+      "country": "PE",
+      "value": 1.0713,
+      "detail": "4,374 works"
+    },
+    {
+      "name": "Universidad Nacional del Santa",
+      "country": "PE",
+      "value": 1.0461,
+      "detail": "866 works"
+    },
+    {
+      "name": "Universidad César Vallejo",
+      "country": "PE",
+      "value": 1.0436,
+      "detail": "16,725 works"
+    },
+    {
+      "name": "University of Piura",
+      "country": "PE",
+      "value": 1.0347,
+      "detail": "2,012 works"
+    },
+    {
+      "name": "Escuela de Negocios Zegel",
+      "country": "PE",
+      "value": 1,
+      "detail": "39 works"
+    },
+    {
+      "name": "University of the Pacific",
+      "country": "PE",
+      "value": 0.9902,
+      "detail": "3,383 works"
+    },
+    {
+      "name": "National University of San Marcos",
+      "country": "PE",
+      "value": 0.9727,
+      "detail": "38,765 works"
+    },
+    {
+      "name": "Peruvian University of Applied Sciences",
+      "country": "PE",
+      "value": 0.9403,
+      "detail": "8,652 works"
+    },
+    {
+      "name": "Universidad Andina del Cusco",
+      "country": "PE",
+      "value": 0.8797,
+      "detail": "970 works"
+    },
+    {
+      "name": "Universidad Nacional San Luis Gonzaga",
+      "country": "PE",
+      "value": 0.8696,
+      "detail": "1,675 works"
+    },
+    {
+      "name": "Private University of the North",
+      "country": "PE",
+      "value": 0.868,
+      "detail": "4,572 works"
+    }
+  ]
+}

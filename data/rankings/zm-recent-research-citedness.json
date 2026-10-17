@@ -1,0 +1,176 @@
+{
+  "id": "zm-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Zambia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ZM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:47.952Z",
+  "items": [
+    {
+      "name": "Chalimbana University",
+      "country": "ZM",
+      "value": 12.5072,
+      "detail": "82 works"
+    },
+    {
+      "name": "Kapasa Makasa University",
+      "country": "ZM",
+      "value": 4.811,
+      "detail": "81 works"
+    },
+    {
+      "name": "Copperbelt University",
+      "country": "ZM",
+      "value": 3.058,
+      "detail": "2,553 works"
+    },
+    {
+      "name": "Mukuba University",
+      "country": "ZM",
+      "value": 2.8926,
+      "detail": "206 works"
+    },
+    {
+      "name": "Lusaka Apex Medical University",
+      "country": "ZM",
+      "value": 1.8087,
+      "detail": "339 works"
+    },
+    {
+      "name": "University of Zambia",
+      "country": "ZM",
+      "value": 1.776,
+      "detail": "15,486 works"
+    },
+    {
+      "name": "Levy Mwanawasa Medical University",
+      "country": "ZM",
+      "value": 1.5082,
+      "detail": "476 works"
+    },
+    {
+      "name": "Unicaf University Zambia",
+      "country": "ZM",
+      "value": 1.382,
+      "detail": "203 works"
+    },
+    {
+      "name": "Kwame Nkrumah University",
+      "country": "ZM",
+      "value": 1.3246,
+      "detail": "430 works"
+    },
+    {
+      "name": "Mulungushi University",
+      "country": "ZM",
+      "value": 1.2464,
+      "detail": "1,084 works"
+    },
+    {
+      "name": "DMI St. Eugene University",
+      "country": "ZM",
+      "value": 1.122,
+      "detail": "416 works"
+    },
+    {
+      "name": "Texila American University Zambia",
+      "country": "ZM",
+      "value": 1.1196,
+      "detail": "132 works"
+    },
+    {
+      "name": "South Valley University",
+      "country": "ZM",
+      "value": 1.1149,
+      "detail": "427 works"
+    },
+    {
+      "name": "Eden University",
+      "country": "ZM",
+      "value": 1.0133,
+      "detail": "215 works"
+    },
+    {
+      "name": "Cavendish University Zambia",
+      "country": "ZM",
+      "value": 0.9919,
+      "detail": "118 works"
+    },
+    {
+      "name": "University of Lusaka",
+      "country": "ZM",
+      "value": 0.727,
+      "detail": "566 works"
+    },
+    {
+      "name": "Zambia Centre for Accountancy Studies",
+      "country": "ZM",
+      "value": 0.6855,
+      "detail": "288 works"
+    },
+    {
+      "name": "National Institute of Public Administration",
+      "country": "ZM",
+      "value": 0.6575,
+      "detail": "216 works"
+    },
+    {
+      "name": "Evelyn Hone College",
+      "country": "ZM",
+      "value": 0.6061,
+      "detail": "48 works"
+    },
+    {
+      "name": "Zambia Forestry College",
+      "country": "ZM",
+      "value": 0.5641,
+      "detail": "58 works"
+    },
+    {
+      "name": "Northrise University",
+      "country": "ZM",
+      "value": 0.4384,
+      "detail": "61 works"
+    },
+    {
+      "name": "Zambian Open University",
+      "country": "ZM",
+      "value": 0.434,
+      "detail": "99 works"
+    },
+    {
+      "name": "Rusangu University",
+      "country": "ZM",
+      "value": 0.3111,
+      "detail": "139 works"
+    },
+    {
+      "name": "Information and Communications University",
+      "country": "ZM",
+      "value": 0.3082,
+      "detail": "721 works"
+    },
+    {
+      "name": "University of Africa",
+      "country": "ZM",
+      "value": 0.2976,
+      "detail": "290 works"
+    }
+  ]
+}

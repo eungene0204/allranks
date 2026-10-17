@@ -1,0 +1,80 @@
+{
+  "id": "bi-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Burundi",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:29.256Z",
+  "items": [
+    {
+      "name": "Institut National de sante publique",
+      "country": "BI",
+      "value": 3.9286,
+      "detail": "151 works"
+    },
+    {
+      "name": "Light University of Bujumbur",
+      "country": "BI",
+      "value": 1.2083,
+      "detail": "68 works"
+    },
+    {
+      "name": "Hope Africa University",
+      "country": "BI",
+      "value": 1.1364,
+      "detail": "134 works"
+    },
+    {
+      "name": "Université du Burundi",
+      "country": "BI",
+      "value": 1.1212,
+      "detail": "2,146 works"
+    },
+    {
+      "name": "Université Polytechnique de Gitega",
+      "country": "BI",
+      "value": 1,
+      "detail": "5 works"
+    },
+    {
+      "name": "Université Polytechnique Intégrée",
+      "country": "BI",
+      "value": 1,
+      "detail": "3 works"
+    },
+    {
+      "name": "Université du Lac Tanganyika",
+      "country": "BI",
+      "value": 0.4545,
+      "detail": "25 works"
+    },
+    {
+      "name": "University of Ngozi",
+      "country": "BI",
+      "value": 0.3778,
+      "detail": "80 works"
+    },
+    {
+      "name": "École Normale Supérieure",
+      "country": "BI",
+      "value": 0.2959,
+      "detail": "631 works"
+    }
+  ]
+}

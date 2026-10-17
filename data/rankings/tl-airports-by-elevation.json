@@ -1,0 +1,74 @@
+{
+  "id": "tl-airports-by-elevation",
+  "title": "Highest Airports in Timor-Leste",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Timor-Leste ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.551Z",
+  "items": [
+    {
+      "name": "Baucau Airport",
+      "country": "TL",
+      "value": 539.8,
+      "detail": "Baucau · 1,771 ft above sea level"
+    },
+    {
+      "name": "Fuiloro Airfield",
+      "country": "TL",
+      "value": 416.36,
+      "detail": "Fuiloro · 1,366 ft above sea level"
+    },
+    {
+      "name": "Same Airport",
+      "country": "TL",
+      "value": 335.28,
+      "detail": "1,100 ft above sea level"
+    },
+    {
+      "name": "Viqueque Airport",
+      "country": "TL",
+      "value": 152.4,
+      "detail": "Viqueque · 500 ft above sea level"
+    },
+    {
+      "name": "Presidente Nicolau Lobato International Airport",
+      "country": "TL",
+      "value": 46.94,
+      "detail": "Dili · 154 ft above sea level"
+    },
+    {
+      "name": "Com Airport",
+      "country": "TL",
+      "value": 45.72,
+      "detail": "Com · 150 ft above sea level"
+    },
+    {
+      "name": "Commander in Chief of FALINTIL, Kay Rala Xanana Gusmão, International Airport",
+      "country": "TL",
+      "value": 29.26,
+      "detail": "Suai · 96 ft above sea level"
+    },
+    {
+      "name": "Atauro Airport",
+      "country": "TL",
+      "value": 8.84,
+      "detail": "Vila · 29 ft above sea level"
+    }
+  ]
+}

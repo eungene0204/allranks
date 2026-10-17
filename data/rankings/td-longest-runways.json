@@ -1,0 +1,80 @@
+{
+  "id": "td-longest-runways",
+  "title": "Longest Airport Runways in Chad",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Chad ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.550Z",
+  "items": [
+    {
+      "name": "Amdjarass Airport",
+      "country": "TD",
+      "value": 3048,
+      "detail": "Amdjarass · 10,000 ft · ASP"
+    },
+    {
+      "name": "Abeche Airport",
+      "country": "TD",
+      "value": 2799.89,
+      "detail": "Abeche · 9,186 ft · ASP"
+    },
+    {
+      "name": "Faya-Largeau Airport",
+      "country": "TD",
+      "value": 2799.89,
+      "detail": "Faya-Largeau · 9,186 ft · ASP"
+    },
+    {
+      "name": "N'Djamena International Airport",
+      "country": "TD",
+      "value": 2799.89,
+      "detail": "N'Djamena · 9,186 ft · ASP"
+    },
+    {
+      "name": "Kouba Olanga Airstrip",
+      "country": "TD",
+      "value": 2225.04,
+      "detail": "Kouba Olanga · 7,300 ft · Dirt"
+    },
+    {
+      "name": "Ati Airport",
+      "country": "TD",
+      "value": 1836.42,
+      "detail": "Ati · 6,025 ft · PER"
+    },
+    {
+      "name": "Moundou Airport",
+      "country": "TD",
+      "value": 1800.15,
+      "detail": "Moundou · 5,906 ft · ASP"
+    },
+    {
+      "name": "Sarh Airport",
+      "country": "TD",
+      "value": 1800.15,
+      "detail": "Sarh · 5,906 ft · UNK"
+    },
+    {
+      "name": "Adré Airport",
+      "country": "TD",
+      "value": 1307.59,
+      "detail": "Adré · 4,290 ft · Dirt"
+    }
+  ]
+}

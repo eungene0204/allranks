@@ -1,0 +1,122 @@
+{
+  "id": "lr-airports-by-elevation",
+  "title": "Highest Airports in Liberia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Liberia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.519Z",
+  "items": [
+    {
+      "name": "Nimba Airport",
+      "country": "LR",
+      "value": 497.43,
+      "detail": "Nimba · 1,632 ft above sea level"
+    },
+    {
+      "name": "Foya Airport",
+      "country": "LR",
+      "value": 451.1,
+      "detail": "Foya · 1,480 ft above sea level"
+    },
+    {
+      "name": "Voinjama Airport",
+      "country": "LR",
+      "value": 426.72,
+      "detail": "Voinjama · 1,400 ft above sea level"
+    },
+    {
+      "name": "Tapeta Airport",
+      "country": "LR",
+      "value": 265.18,
+      "detail": "Tapeta · 870 ft above sea level"
+    },
+    {
+      "name": "Tchien Airport",
+      "country": "LR",
+      "value": 240.79,
+      "detail": "Zwedru · 790 ft above sea level"
+    },
+    {
+      "name": "Bella Yella Airport",
+      "country": "LR",
+      "value": 210.31,
+      "detail": "Beliyela · 690 ft above sea level"
+    },
+    {
+      "name": "Gozohn Camp Airport",
+      "country": "LR",
+      "value": 131.06,
+      "detail": "Gozohn Camp · 430 ft above sea level"
+    },
+    {
+      "name": "Buchanan Airport",
+      "country": "LR",
+      "value": 12.5,
+      "detail": "Buchanan · 41 ft above sea level"
+    },
+    {
+      "name": "Roberts International Airport",
+      "country": "LR",
+      "value": 9.45,
+      "detail": "Monrovia · 31 ft above sea level"
+    },
+    {
+      "name": "Lamco Airport",
+      "country": "LR",
+      "value": 9.14,
+      "detail": "Buchanan · 30 ft above sea level"
+    },
+    {
+      "name": "Grand Cess Airport",
+      "country": "LR",
+      "value": 8.53,
+      "detail": "Grand Cess · 28 ft above sea level"
+    },
+    {
+      "name": "River Cess Airport and Heliport",
+      "country": "LR",
+      "value": 8.23,
+      "detail": "River Cess · 27 ft above sea level"
+    },
+    {
+      "name": "Spriggs Payne Airport",
+      "country": "LR",
+      "value": 7.62,
+      "detail": "Monrovia · 25 ft above sea level"
+    },
+    {
+      "name": "Cape Palmas Airport",
+      "country": "LR",
+      "value": 6.1,
+      "detail": "Harper · 20 ft above sea level"
+    },
+    {
+      "name": "Greenville/Sinoe Airport",
+      "country": "LR",
+      "value": 3.05,
+      "detail": "Greenville · 10 ft above sea level"
+    },
+    {
+      "name": "Sasstown Airport",
+      "country": "LR",
+      "value": 1.83,
+      "detail": "Sasstown · 6 ft above sea level"
+    }
+  ]
+}

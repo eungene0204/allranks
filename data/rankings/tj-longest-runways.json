@@ -1,0 +1,92 @@
+{
+  "id": "tj-longest-runways",
+  "title": "Longest Airport Runways in Tajikistan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tajikistan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.551Z",
+  "items": [
+    {
+      "name": "Khujand International Airport",
+      "country": "TJ",
+      "value": 3179.98,
+      "detail": "Khujand · 10,433 ft · ASP"
+    },
+    {
+      "name": "Dushanbe International Airport",
+      "country": "TJ",
+      "value": 3099.82,
+      "detail": "Dushanbe · 10,170 ft · ASP"
+    },
+    {
+      "name": "Kulob International Airport",
+      "country": "TJ",
+      "value": 3000.15,
+      "detail": "Kulob · 9,843 ft · ASP"
+    },
+    {
+      "name": "Isfara Airport",
+      "country": "TJ",
+      "value": 2903.22,
+      "detail": "Isfara · 9,525 ft · ASP"
+    },
+    {
+      "name": "Gissar Air Base",
+      "country": "TJ",
+      "value": 2520.7,
+      "detail": "Dushanbe · 8,270 ft · CON"
+    },
+    {
+      "name": "Murghab Airport",
+      "country": "TJ",
+      "value": 2501.8,
+      "detail": "Murghab · 8,208 ft · ASP"
+    },
+    {
+      "name": "Bokhtar International Airport",
+      "country": "TJ",
+      "value": 2285.09,
+      "detail": "Bokhtar · 7,497 ft · ASP"
+    },
+    {
+      "name": "Khorog Airport",
+      "country": "TJ",
+      "value": 1839.77,
+      "detail": "Khorog · 6,036 ft · ASP"
+    },
+    {
+      "name": "Moskovskiy Pyandzh Airport",
+      "country": "TJ",
+      "value": 1527.66,
+      "detail": "Ak-Mazar · 5,012 ft · ASP"
+    },
+    {
+      "name": "Khovaling Airport",
+      "country": "TJ",
+      "value": 1200,
+      "detail": "Khovilling · 3,937 ft · ASP"
+    },
+    {
+      "name": "Farkhor Air Base",
+      "country": "TJ",
+      "value": 787.91,
+      "detail": "Parkhar · 2,585 ft · ASP"
+    }
+  ]
+}

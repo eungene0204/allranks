@@ -1,0 +1,62 @@
+{
+  "id": "gy-longest-runways",
+  "title": "Longest Airport Runways in Guyana",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Guyana ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.504Z",
+  "items": [
+    {
+      "name": "Cheddi Jagan International Airport",
+      "country": "GY",
+      "value": 3359.81,
+      "detail": "Georgetown · 11,023 ft · ASP"
+    },
+    {
+      "name": "Lethem Airport",
+      "country": "GY",
+      "value": 1824.23,
+      "detail": "Lethem · 5,985 ft · ASP"
+    },
+    {
+      "name": "Linden Airport",
+      "country": "GY",
+      "value": 1524,
+      "detail": "Linden · 5,000 ft · ASP"
+    },
+    {
+      "name": "Karanambo Airport",
+      "country": "GY",
+      "value": 1371.9,
+      "detail": "Karanambo · 4,501 ft · Dirt"
+    },
+    {
+      "name": "Eugene F. Correia International Airport",
+      "country": "GY",
+      "value": 1280.46,
+      "detail": "Ogle · 4,201 ft · concrete"
+    },
+    {
+      "name": "Kaieteur Airport",
+      "country": "GY",
+      "value": 615.09,
+      "detail": "Kaieteur Falls · 2,018 ft · asp"
+    }
+  ]
+}

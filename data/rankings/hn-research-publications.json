@@ -1,0 +1,98 @@
+{
+  "id": "hn-research-publications",
+  "title": "Universities by Research Publications in Honduras",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:50.511Z",
+  "items": [
+    {
+      "name": "National Autonomous University of Honduras",
+      "country": "HN",
+      "value": 4971,
+      "detail": "57,524 citations"
+    },
+    {
+      "name": "Zamorano Pan-American Agricultural School",
+      "country": "HN",
+      "value": 2344,
+      "detail": "16,860 citations"
+    },
+    {
+      "name": "Central American Technological University",
+      "country": "HN",
+      "value": 1223,
+      "detail": "6,634 citations"
+    },
+    {
+      "name": "Universidad Pedagógica Nacional Francisco Morazán",
+      "country": "HN",
+      "value": 452,
+      "detail": "1,842 citations"
+    },
+    {
+      "name": "Universidad Católica de Honduras Nuestra Señora Reina de la Paz",
+      "country": "HN",
+      "value": 371,
+      "detail": "5,681 citations"
+    },
+    {
+      "name": "Universidad Nacional de Agricultura",
+      "country": "HN",
+      "value": 222,
+      "detail": "2,402 citations"
+    },
+    {
+      "name": "Universidad Tecnológica de Honduras",
+      "country": "HN",
+      "value": 114,
+      "detail": "194 citations"
+    },
+    {
+      "name": "Universidad Nacional de Ciencias Forestales",
+      "country": "HN",
+      "value": 94,
+      "detail": "797 citations"
+    },
+    {
+      "name": "Universidad Metropolitana de Honduras",
+      "country": "HN",
+      "value": 43,
+      "detail": "33 citations"
+    },
+    {
+      "name": "Universidad de San Pedro Sula",
+      "country": "HN",
+      "value": 11,
+      "detail": "37 citations"
+    },
+    {
+      "name": "Centro de Diseño, Arquitectura y Construcción",
+      "country": "HN",
+      "value": 9,
+      "detail": "14 citations"
+    },
+    {
+      "name": "Universidad José Cecilio del Valle",
+      "country": "HN",
+      "value": 6,
+      "detail": "13 citations"
+    }
+  ]
+}

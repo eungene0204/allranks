@@ -1,0 +1,326 @@
+{
+  "id": "sk-cities-by-elevation",
+  "title": "Highest Major Cities in Slovakia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Slovakia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.563Z",
+  "items": [
+    {
+      "name": "Poprad",
+      "country": "SK",
+      "value": 668,
+      "detail": "49,091 people · Prešov Region"
+    },
+    {
+      "name": "Kežmarok",
+      "country": "SK",
+      "value": 615,
+      "detail": "15,271 people · Prešov Region"
+    },
+    {
+      "name": "Liptovský Mikuláš",
+      "country": "SK",
+      "value": 582,
+      "detail": "30,162 people · Žilina Region"
+    },
+    {
+      "name": "Stará Ľubovňa",
+      "country": "SK",
+      "value": 548,
+      "detail": "15,667 people · Prešov Region"
+    },
+    {
+      "name": "Dolný Kubín",
+      "country": "SK",
+      "value": 520,
+      "detail": "17,660 people · Žilina Region"
+    },
+    {
+      "name": "Brezno",
+      "country": "SK",
+      "value": 492,
+      "detail": "19,866 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Ružomberok",
+      "country": "SK",
+      "value": 481,
+      "detail": "26,671 people · Žilina Region"
+    },
+    {
+      "name": "Spišská Nová Ves",
+      "country": "SK",
+      "value": 459,
+      "detail": "34,855 people · Košice Region"
+    },
+    {
+      "name": "Čadca",
+      "country": "SK",
+      "value": 428,
+      "detail": "22,655 people · Žilina Region"
+    },
+    {
+      "name": "Handlová",
+      "country": "SK",
+      "value": 424,
+      "detail": "15,694 people · Trenčín Region"
+    },
+    {
+      "name": "Martin",
+      "country": "SK",
+      "value": 396,
+      "detail": "51,139 people · Žilina Region"
+    },
+    {
+      "name": "Žilina",
+      "country": "SK",
+      "value": 347,
+      "detail": "81,219 people · Žilina Region"
+    },
+    {
+      "name": "Banská Bystrica",
+      "country": "SK",
+      "value": 329,
+      "detail": "74,590 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Rožňava",
+      "country": "SK",
+      "value": 318,
+      "detail": "17,122 people · Košice Region"
+    },
+    {
+      "name": "Zvolen",
+      "country": "SK",
+      "value": 297,
+      "detail": "39,844 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Prievidza",
+      "country": "SK",
+      "value": 295,
+      "detail": "43,645 people · Trenčín Region"
+    },
+    {
+      "name": "Trenčín",
+      "country": "SK",
+      "value": 284,
+      "detail": "58,278 people · Trenčín Region"
+    },
+    {
+      "name": "Bardejov",
+      "country": "SK",
+      "value": 283,
+      "detail": "30,267 people · Prešov Region"
+    },
+    {
+      "name": "Považská Bystrica",
+      "country": "SK",
+      "value": 280,
+      "detail": "37,483 people · Trenčín Region"
+    },
+    {
+      "name": "Žiar nad Hronom",
+      "country": "SK",
+      "value": 279,
+      "detail": "16,955 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Púchov",
+      "country": "SK",
+      "value": 264,
+      "detail": "16,995 people · Trenčín Region"
+    },
+    {
+      "name": "Prešov",
+      "country": "SK",
+      "value": 253,
+      "detail": "82,927 people · Prešov Region"
+    },
+    {
+      "name": "Staré Mesto",
+      "country": "SK",
+      "value": 248,
+      "detail": "46,080 people · Bratislava Region"
+    },
+    {
+      "name": "Dubnica nad Váhom",
+      "country": "SK",
+      "value": 246,
+      "detail": "21,914 people · Trenčín Region"
+    },
+    {
+      "name": "Dúbravka",
+      "country": "SK",
+      "value": 237,
+      "detail": "35,518 people · Bratislava Region"
+    },
+    {
+      "name": "Bánovce nad Bebravou",
+      "country": "SK",
+      "value": 217,
+      "detail": "16,486 people · Trenčín Region"
+    },
+    {
+      "name": "Snina",
+      "country": "SK",
+      "value": 215,
+      "detail": "22,221 people · Prešov Region"
+    },
+    {
+      "name": "Senica",
+      "country": "SK",
+      "value": 209,
+      "detail": "19,355 people · Trnava Region"
+    },
+    {
+      "name": "Rimavská Sobota",
+      "country": "SK",
+      "value": 208,
+      "detail": "21,434 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Košice",
+      "country": "SK",
+      "value": 205,
+      "detail": "225,044 people · Košice Region"
+    },
+    {
+      "name": "Nové Mesto nad Váhom",
+      "country": "SK",
+      "value": 195,
+      "detail": "19,325 people · Trenčín Region"
+    },
+    {
+      "name": "Partizánske",
+      "country": "SK",
+      "value": 192,
+      "detail": "20,739 people · Trenčín Region"
+    },
+    {
+      "name": "Lučenec",
+      "country": "SK",
+      "value": 187,
+      "detail": "25,191 people · Banská Bystrica Region"
+    },
+    {
+      "name": "Skalica",
+      "country": "SK",
+      "value": 179,
+      "detail": "15,466 people · Trnava Region"
+    },
+    {
+      "name": "Karlova Ves",
+      "country": "SK",
+      "value": 178,
+      "detail": "35,644 people · Bratislava Region"
+    },
+    {
+      "name": "Dlhé diely",
+      "country": "SK",
+      "value": 175,
+      "detail": "30,000 people · Bratislava Region"
+    },
+    {
+      "name": "Topoľčany",
+      "country": "SK",
+      "value": 174,
+      "detail": "24,086 people · Nitra Region"
+    },
+    {
+      "name": "Malacky",
+      "country": "SK",
+      "value": 164,
+      "detail": "18,804 people · Bratislava Region"
+    },
+    {
+      "name": "Devínska Nová Ves",
+      "country": "SK",
+      "value": 163,
+      "detail": "17,153 people · Bratislava Region"
+    },
+    {
+      "name": "Levice",
+      "country": "SK",
+      "value": 162,
+      "detail": "30,556 people · Nitra Region"
+    },
+    {
+      "name": "Pezinok",
+      "country": "SK",
+      "value": 162,
+      "detail": "24,443 people · Bratislava Region"
+    },
+    {
+      "name": "Piešťany",
+      "country": "SK",
+      "value": 161,
+      "detail": "26,862 people · Trnava Region"
+    },
+    {
+      "name": "Komárno",
+      "country": "SK",
+      "value": 160,
+      "detail": "32,287 people · Nitra Region"
+    },
+    {
+      "name": "Bratislava",
+      "country": "SK",
+      "value": 157,
+      "detail": "423,737 people · Bratislava Region"
+    },
+    {
+      "name": "Humenné",
+      "country": "SK",
+      "value": 152,
+      "detail": "30,450 people · Prešov Region"
+    },
+    {
+      "name": "Trnava",
+      "country": "SK",
+      "value": 147,
+      "detail": "62,806 people · Trnava Region"
+    },
+    {
+      "name": "Hlohovec",
+      "country": "SK",
+      "value": 144,
+      "detail": "19,883 people · Trnava Region"
+    },
+    {
+      "name": "Nitra",
+      "country": "SK",
+      "value": 144,
+      "detail": "86,329 people · Nitra Region"
+    },
+    {
+      "name": "Petržalka",
+      "country": "SK",
+      "value": 141,
+      "detail": "112,380 people · Bratislava Region"
+    },
+    {
+      "name": "Vrakuňa",
+      "country": "SK",
+      "value": 134,
+      "detail": "20,711 people · Bratislava Region"
+    }
+  ]
+}

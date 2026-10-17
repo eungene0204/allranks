@@ -1,0 +1,176 @@
+{
+  "id": "do-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Dominican Republic",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "DO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:41.800Z",
+  "items": [
+    {
+      "name": "Universidad Eugenio María de Hostos",
+      "country": "DO",
+      "value": 12.5,
+      "detail": "14 works"
+    },
+    {
+      "name": "Universidad Dominicana Organización & Métodos",
+      "country": "DO",
+      "value": 9.5333,
+      "detail": "37 works"
+    },
+    {
+      "name": "Universidad Federico Henríquez y Carvajal",
+      "country": "DO",
+      "value": 2.38,
+      "detail": "103 works"
+    },
+    {
+      "name": "Universidad de la Tercera Edad",
+      "country": "DO",
+      "value": 1.9259,
+      "detail": "30 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica Madre y Maestra",
+      "country": "DO",
+      "value": 1.5404,
+      "detail": "1,582 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Santo Domingo",
+      "country": "DO",
+      "value": 1.437,
+      "detail": "2,041 works"
+    },
+    {
+      "name": "Universidad Acción Pro-Educación y Cultura",
+      "country": "DO",
+      "value": 1.3409,
+      "detail": "118 works"
+    },
+    {
+      "name": "Universidad Tecnológica de Santiago",
+      "country": "DO",
+      "value": 1.3065,
+      "detail": "226 works"
+    },
+    {
+      "name": "Universidad Nacional Pedro Henríquez Ureña",
+      "country": "DO",
+      "value": 1.2697,
+      "detail": "790 works"
+    },
+    {
+      "name": "Universidad Iberoamericana",
+      "country": "DO",
+      "value": 1.2685,
+      "detail": "851 works"
+    },
+    {
+      "name": "Universidad Católica Nordestana",
+      "country": "DO",
+      "value": 1.018,
+      "detail": "163 works"
+    },
+    {
+      "name": "Universidad Autónoma de Santo Domingo",
+      "country": "DO",
+      "value": 0.9722,
+      "detail": "1,886 works"
+    },
+    {
+      "name": "Universidad del Caribe (UNICARIBE)",
+      "country": "DO",
+      "value": 0.75,
+      "detail": "84 works"
+    },
+    {
+      "name": "Instituto Superior de Formación Docente Salomé Ureña",
+      "country": "DO",
+      "value": 0.5913,
+      "detail": "721 works"
+    },
+    {
+      "name": "Universidad Agroforestal Fernando Arturo de Meriño",
+      "country": "DO",
+      "value": 0.5333,
+      "detail": "45 works"
+    },
+    {
+      "name": "Universidad Instituto Nacional de Ciencias Exactas",
+      "country": "DO",
+      "value": 0.5,
+      "detail": "10 works"
+    },
+    {
+      "name": "Universidad Central del Este",
+      "country": "DO",
+      "value": 0.4379,
+      "detail": "422 works"
+    },
+    {
+      "name": "Universidad ISA",
+      "country": "DO",
+      "value": 0.4375,
+      "detail": "158 works"
+    },
+    {
+      "name": "Universidad Católica del Cibao",
+      "country": "DO",
+      "value": 0.3731,
+      "detail": "173 works"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales República Dominicana",
+      "country": "DO",
+      "value": 0.3333,
+      "detail": "101 works"
+    },
+    {
+      "name": "Universidad Nacional Evangelica",
+      "country": "DO",
+      "value": 0.2727,
+      "detail": "43 works"
+    },
+    {
+      "name": "Universidad Católica Santo Domingo",
+      "country": "DO",
+      "value": 0.1667,
+      "detail": "132 works"
+    },
+    {
+      "name": "Universidad Abierta Para Adultos",
+      "country": "DO",
+      "value": 0.1579,
+      "detail": "234 works"
+    },
+    {
+      "name": "Universidad Católica Tecnológica de Barahona",
+      "country": "DO",
+      "value": 0.1053,
+      "detail": "15 works"
+    },
+    {
+      "name": "Universidad Tecnológica del Sur",
+      "country": "DO",
+      "value": 0.0929,
+      "detail": "142 works"
+    }
+  ]
+}

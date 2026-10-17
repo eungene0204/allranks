@@ -1,0 +1,56 @@
+{
+  "id": "am-longest-runways",
+  "title": "Longest Airport Runways in Armenia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Armenia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.449Z",
+  "items": [
+    {
+      "name": "Zvartnots International Airport",
+      "country": "AM",
+      "value": 3849.93,
+      "detail": "Yerevan · 12,631 ft · ASP"
+    },
+    {
+      "name": "Shirak International Airport",
+      "country": "AM",
+      "value": 3219.91,
+      "detail": "Gyumri · 10,564 ft · ASP"
+    },
+    {
+      "name": "Erebuni Airport",
+      "country": "AM",
+      "value": 2784.04,
+      "detail": "Yerevan · 9,134 ft · ASP"
+    },
+    {
+      "name": "Stepanavan Airport",
+      "country": "AM",
+      "value": 1997.96,
+      "detail": "Stepanavan · 6,555 ft · ASP"
+    },
+    {
+      "name": "Arzni Airport",
+      "country": "AM",
+      "value": 1000.05,
+      "detail": "Nor Hachn · 3,281 ft · CON"
+    }
+  ]
+}

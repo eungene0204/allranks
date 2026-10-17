@@ -1,0 +1,86 @@
+{
+  "id": "tl-research-h-index",
+  "title": "Universities by Research h-index in Timor-Leste",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:39.330Z",
+  "items": [
+    {
+      "name": "National University of East Timor",
+      "country": "TL",
+      "value": 32,
+      "detail": "1,001 works"
+    },
+    {
+      "name": "Dili Institute of Technology",
+      "country": "TL",
+      "value": 15,
+      "detail": "224 works"
+    },
+    {
+      "name": "Universidade da Paz",
+      "country": "TL",
+      "value": 12,
+      "detail": "495 works"
+    },
+    {
+      "name": "Instituto Superior Cristal",
+      "country": "TL",
+      "value": 11,
+      "detail": "296 works"
+    },
+    {
+      "name": "Instituto da Ciências da Saúde",
+      "country": "TL",
+      "value": 9,
+      "detail": "47 works"
+    },
+    {
+      "name": "Institute of Business",
+      "country": "TL",
+      "value": 6,
+      "detail": "94 works"
+    },
+    {
+      "name": "Universidade Oriental Timor Lorosa'e",
+      "country": "TL",
+      "value": 5,
+      "detail": "201 works"
+    },
+    {
+      "name": "Instituto Católico para a Formação de Professores",
+      "country": "TL",
+      "value": 4,
+      "detail": "116 works"
+    },
+    {
+      "name": "Instituto Superior de Filosofia e de Teologia Dom Jaime Garcia Goulart",
+      "country": "TL",
+      "value": 2,
+      "detail": "26 works"
+    },
+    {
+      "name": "East Timor Coffee Institute",
+      "country": "TL",
+      "value": 1,
+      "detail": "17 works"
+    }
+  ]
+}

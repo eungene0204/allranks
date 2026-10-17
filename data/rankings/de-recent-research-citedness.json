@@ -1,0 +1,326 @@
+{
+  "id": "de-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Germany",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "DE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:40.544Z",
+  "items": [
+    {
+      "name": "Institute of Computational Biology",
+      "country": "DE",
+      "value": 18.6454,
+      "detail": "1,779 works"
+    },
+    {
+      "name": "German Graduate School of Management and Law",
+      "country": "DE",
+      "value": 17.75,
+      "detail": "235 works"
+    },
+    {
+      "name": "Hanseatic University Rostock",
+      "country": "DE",
+      "value": 16.6,
+      "detail": "67 works"
+    },
+    {
+      "name": "Institut für Immunologie",
+      "country": "DE",
+      "value": 15.7282,
+      "detail": "1,389 works"
+    },
+    {
+      "name": "Physiologisches Institut",
+      "country": "DE",
+      "value": 14.66,
+      "detail": "2,034 works"
+    },
+    {
+      "name": "Institut für Schlaganfall- und Demenzforschung",
+      "country": "DE",
+      "value": 12.5644,
+      "detail": "2,132 works"
+    },
+    {
+      "name": "DBU Digital Business University of Applied Sciences",
+      "country": "DE",
+      "value": 12.25,
+      "detail": "28 works"
+    },
+    {
+      "name": "Else Kröner Fresenius Center for Digital Health",
+      "country": "DE",
+      "value": 11.7958,
+      "detail": "773 works"
+    },
+    {
+      "name": "Institute of Functional Epigenetics",
+      "country": "DE",
+      "value": 9.8449,
+      "detail": "176 works"
+    },
+    {
+      "name": "Forschungsinstitut für Kinderernährung",
+      "country": "DE",
+      "value": 8.5,
+      "detail": "708 works"
+    },
+    {
+      "name": "HHL Leipzig Graduate School of Management",
+      "country": "DE",
+      "value": 8.3654,
+      "detail": "1,732 works"
+    },
+    {
+      "name": "Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten",
+      "country": "DE",
+      "value": 8.2979,
+      "detail": "1,079 works"
+    },
+    {
+      "name": "Institut für Medizinische Informationsverarbeitung, Biometrie und Epidemiologie",
+      "country": "DE",
+      "value": 8.1622,
+      "detail": "4,006 works"
+    },
+    {
+      "name": "Interdisziplinäres Zentrum für Nanostrukturierte Filme",
+      "country": "DE",
+      "value": 8.0969,
+      "detail": "315 works"
+    },
+    {
+      "name": "Institut für Neuropathologie",
+      "country": "DE",
+      "value": 8.0348,
+      "detail": "1,476 works"
+    },
+    {
+      "name": "ICN Business School - Berlin",
+      "country": "DE",
+      "value": 8,
+      "detail": "14 works"
+    },
+    {
+      "name": "Institute of Epigenetics and Stem Cells",
+      "country": "DE",
+      "value": 7.9423,
+      "detail": "175 works"
+    },
+    {
+      "name": "Max-von-Pettenkofer-Institut für Hygiene und Medizinische Mikrobiologie",
+      "country": "DE",
+      "value": 7.4362,
+      "detail": "3,426 works"
+    },
+    {
+      "name": "Aachen Institute for Advanced Study in Computational Engineering Science",
+      "country": "DE",
+      "value": 7.2143,
+      "detail": "590 works"
+    },
+    {
+      "name": "Campus-Institut Data Science (CIDAS)",
+      "country": "DE",
+      "value": 7.0247,
+      "detail": "670 works"
+    },
+    {
+      "name": "Else Kröner Fresenius Center for Optogenetic Therapies",
+      "country": "DE",
+      "value": 7.0101,
+      "detail": "34 works"
+    },
+    {
+      "name": "Hochschule für Politik München",
+      "country": "DE",
+      "value": 6.7959,
+      "detail": "251 works"
+    },
+    {
+      "name": "Albstadt-Sigmaringen University",
+      "country": "DE",
+      "value": 6.6757,
+      "detail": "726 works"
+    },
+    {
+      "name": "Hertie School",
+      "country": "DE",
+      "value": 6.564,
+      "detail": "2,894 works"
+    },
+    {
+      "name": "Munich Center for Quantum Science and Technology",
+      "country": "DE",
+      "value": 6.5246,
+      "detail": "2,566 works"
+    },
+    {
+      "name": "Institute for Integrated Management of Material Fluxes and of Resources",
+      "country": "DE",
+      "value": 6.3178,
+      "detail": "424 works"
+    },
+    {
+      "name": "Institut für Experimentelle Pneumologie",
+      "country": "DE",
+      "value": 6.2883,
+      "detail": "107 works"
+    },
+    {
+      "name": "Bucerius Law School",
+      "country": "DE",
+      "value": 6.12,
+      "detail": "984 works"
+    },
+    {
+      "name": "Munich Center for Neurosciences – Brain and Mind",
+      "country": "DE",
+      "value": 5.9623,
+      "detail": "115 works"
+    },
+    {
+      "name": "HMU Health and Medical University Erfurt",
+      "country": "DE",
+      "value": 5.9509,
+      "detail": "246 works"
+    },
+    {
+      "name": "Walther-Straub-Institut für Pharmakologie und Toxikologie",
+      "country": "DE",
+      "value": 5.7893,
+      "detail": "1,465 works"
+    },
+    {
+      "name": "Max Planck School of Photonics",
+      "country": "DE",
+      "value": 5.7133,
+      "detail": "164 works"
+    },
+    {
+      "name": "Institut für Kardiovaskuläre Physiologie und Pathophysiologie",
+      "country": "DE",
+      "value": 5.5785,
+      "detail": "239 works"
+    },
+    {
+      "name": "German Adult Education Association",
+      "country": "DE",
+      "value": 5.5,
+      "detail": "30 works"
+    },
+    {
+      "name": "UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training",
+      "country": "DE",
+      "value": 5.5,
+      "detail": "36 works"
+    },
+    {
+      "name": "Pathologisches Institut",
+      "country": "DE",
+      "value": 5.4382,
+      "detail": "4,374 works"
+    },
+    {
+      "name": "Loewe Center for Synthetic Microbiology",
+      "country": "DE",
+      "value": 5.3891,
+      "detail": "1,640 works"
+    },
+    {
+      "name": "Universities of Giessen and Marburg Lung Center",
+      "country": "DE",
+      "value": 5.3347,
+      "detail": "2,769 works"
+    },
+    {
+      "name": "Max Planck Institute for Multidisciplinary Sciences",
+      "country": "DE",
+      "value": 5.1957,
+      "detail": "4,392 works"
+    },
+    {
+      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "country": "DE",
+      "value": 5.1895,
+      "detail": "164,379 works"
+    },
+    {
+      "name": "Johannes Gutenberg University Mainz",
+      "country": "DE",
+      "value": 4.9413,
+      "detail": "127,291 works"
+    },
+    {
+      "name": "Hamburg Media School",
+      "country": "DE",
+      "value": 4.8947,
+      "detail": "132 works"
+    },
+    {
+      "name": "Institut für Laboratoriumsmedizin",
+      "country": "DE",
+      "value": 4.8929,
+      "detail": "1,161 works"
+    },
+    {
+      "name": "Hessische Hochschule für Polizei und Verwaltung",
+      "country": "DE",
+      "value": 4.8667,
+      "detail": "108 works"
+    },
+    {
+      "name": "Evangelische Stiftung Volmarstein",
+      "country": "DE",
+      "value": 4.8621,
+      "detail": "145 works"
+    },
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "value": 4.8388,
+      "detail": "252,698 works"
+    },
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "value": 4.8161,
+      "detail": "135,070 works"
+    },
+    {
+      "name": "Otto-von-Guericke-Universität Magdeburg",
+      "country": "DE",
+      "value": 4.7937,
+      "detail": "55,073 works"
+    },
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "value": 4.7491,
+      "detail": "272,242 works"
+    },
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "value": 4.7092,
+      "detail": "175,036 works"
+    }
+  ]
+}

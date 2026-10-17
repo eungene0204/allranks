@@ -1,0 +1,116 @@
+{
+  "id": "sn-longest-runways",
+  "title": "Longest Airport Runways in Senegal",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Senegal ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.548Z",
+  "items": [
+    {
+      "name": "Blaise Diagne International Airport",
+      "country": "SN",
+      "value": 3500.02,
+      "detail": "Dakar · 11,483 ft · ASP"
+    },
+    {
+      "name": "Léopold Sédar Senghor International Airport",
+      "country": "SN",
+      "value": 3489.96,
+      "detail": "Dakar · 11,450 ft · ASP"
+    },
+    {
+      "name": "Cap Skirring Airport",
+      "country": "SN",
+      "value": 2003.45,
+      "detail": "Cap Skirring · 6,573 ft · ASP"
+    },
+    {
+      "name": "Tambacounda Airport",
+      "country": "SN",
+      "value": 2000.1,
+      "detail": "Tambacounda · 6,562 ft · ASP"
+    },
+    {
+      "name": "Ouro Sogui Airport",
+      "country": "SN",
+      "value": 1919.94,
+      "detail": "Ouro Sogui · 6,299 ft · GVL"
+    },
+    {
+      "name": "Saint Louis Airport",
+      "country": "SN",
+      "value": 1898.9,
+      "detail": "Saint Louis · 6,230 ft · ASP"
+    },
+    {
+      "name": "Thiès Airport",
+      "country": "SN",
+      "value": 1889.76,
+      "detail": "Thiès · 6,200 ft · concrete"
+    },
+    {
+      "name": "Kédougou Airport",
+      "country": "SN",
+      "value": 1800.15,
+      "detail": "Kédougou · 5,906 ft · ASP"
+    },
+    {
+      "name": "Bakel Airport",
+      "country": "SN",
+      "value": 1749.86,
+      "detail": "Bakel · 5,741 ft · MAC"
+    },
+    {
+      "name": "Kaolack Airport",
+      "country": "SN",
+      "value": 1599.9,
+      "detail": "Kaolack · 5,249 ft · ASP"
+    },
+    {
+      "name": "Dodji Airport",
+      "country": "SN",
+      "value": 1594.1,
+      "detail": "Dodji · 5,230 ft · SAN"
+    },
+    {
+      "name": "Richard Toll Airport",
+      "country": "SN",
+      "value": 1549.91,
+      "detail": "Richard Toll · 5,085 ft"
+    },
+    {
+      "name": "Ziguinchor Airport",
+      "country": "SN",
+      "value": 1545.03,
+      "detail": "Ziguinchor · 5,069 ft · ASP"
+    },
+    {
+      "name": "Kolda Airport",
+      "country": "SN",
+      "value": 1501.75,
+      "detail": "Kolda · 4,927 ft · ASP"
+    },
+    {
+      "name": "Niokolo-Koba Airport",
+      "country": "SN",
+      "value": 1450.85,
+      "detail": "Niokolo-Koba National Park · 4,760 ft · Dirt"
+    }
+  ]
+}

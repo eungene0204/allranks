@@ -1,0 +1,326 @@
+{
+  "id": "au-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Australia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:23.909Z",
+  "items": [
+    {
+      "name": "Box Hill Institute",
+      "country": "AU",
+      "value": 30.4444,
+      "detail": "62 works"
+    },
+    {
+      "name": "Royal Australian and New Zealand College of Obstetricians and Gynaecologists",
+      "country": "AU",
+      "value": 24,
+      "detail": "120 works"
+    },
+    {
+      "name": "Chiropractic Australia",
+      "country": "AU",
+      "value": 16,
+      "detail": "3 works"
+    },
+    {
+      "name": "Australian and New Zealand Intensive Care Society",
+      "country": "AU",
+      "value": 13.7491,
+      "detail": "607 works"
+    },
+    {
+      "name": "Australian College of Optometry",
+      "country": "AU",
+      "value": 10.3077,
+      "detail": "251 works"
+    },
+    {
+      "name": "Torrens University Australia",
+      "country": "AU",
+      "value": 9.7845,
+      "detail": "3,323 works"
+    },
+    {
+      "name": "Mount Stromlo Observatory",
+      "country": "AU",
+      "value": 9.75,
+      "detail": "3,152 works"
+    },
+    {
+      "name": "Carnegie Mellon University Australia",
+      "country": "AU",
+      "value": 7.9091,
+      "detail": "102 works"
+    },
+    {
+      "name": "Australian Maritime College",
+      "country": "AU",
+      "value": 7.2752,
+      "detail": "1,679 works"
+    },
+    {
+      "name": "Australian College of Environmental Studies",
+      "country": "AU",
+      "value": 7,
+      "detail": "1 works"
+    },
+    {
+      "name": "University of Southern Queensland",
+      "country": "AU",
+      "value": 6.5615,
+      "detail": "24,938 works"
+    },
+    {
+      "name": "Chisholm Institute",
+      "country": "AU",
+      "value": 6.4138,
+      "detail": "306 works"
+    },
+    {
+      "name": "New South Wales Institute of Psychiatry",
+      "country": "AU",
+      "value": 6.4,
+      "detail": "177 works"
+    },
+    {
+      "name": "UNSW Sydney",
+      "country": "AU",
+      "value": 6.3681,
+      "detail": "274,994 works"
+    },
+    {
+      "name": "University of Technology Sydney",
+      "country": "AU",
+      "value": 6.3145,
+      "detail": "93,625 works"
+    },
+    {
+      "name": "University of South Australia",
+      "country": "AU",
+      "value": 6.2928,
+      "detail": "55,605 works"
+    },
+    {
+      "name": "Federation University",
+      "country": "AU",
+      "value": 6.179,
+      "detail": "10,719 works"
+    },
+    {
+      "name": "Queensland University of Technology",
+      "country": "AU",
+      "value": 6.0955,
+      "detail": "91,950 works"
+    },
+    {
+      "name": "Swinburne University of Technology",
+      "country": "AU",
+      "value": 6.0025,
+      "detail": "59,219 works"
+    },
+    {
+      "name": "The University of Adelaide",
+      "country": "AU",
+      "value": 5.9357,
+      "detail": "149,346 works"
+    },
+    {
+      "name": "The University of Sydney",
+      "country": "AU",
+      "value": 5.93,
+      "detail": "337,996 works"
+    },
+    {
+      "name": "University of Wollongong",
+      "country": "AU",
+      "value": 5.7386,
+      "detail": "83,199 works"
+    },
+    {
+      "name": "International Education Specialist College",
+      "country": "AU",
+      "value": 5.7,
+      "detail": "13 works"
+    },
+    {
+      "name": "The University of Queensland",
+      "country": "AU",
+      "value": 5.6663,
+      "detail": "277,693 works"
+    },
+    {
+      "name": "The University of Melbourne",
+      "country": "AU",
+      "value": 5.6602,
+      "detail": "347,441 works"
+    },
+    {
+      "name": "Deakin University",
+      "country": "AU",
+      "value": 5.6177,
+      "detail": "93,337 works"
+    },
+    {
+      "name": "Monash University",
+      "country": "AU",
+      "value": 5.4967,
+      "detail": "284,760 works"
+    },
+    {
+      "name": "The University of Western Australia",
+      "country": "AU",
+      "value": 5.476,
+      "detail": "165,079 works"
+    },
+    {
+      "name": "RMIT University",
+      "country": "AU",
+      "value": 5.4363,
+      "detail": "84,993 works"
+    },
+    {
+      "name": "Curtin University",
+      "country": "AU",
+      "value": 5.3749,
+      "detail": "95,735 works"
+    },
+    {
+      "name": "Australian Catholic University",
+      "country": "AU",
+      "value": 5.3392,
+      "detail": "22,787 works"
+    },
+    {
+      "name": "Royal Australasian College of Medical Administrators",
+      "country": "AU",
+      "value": 5.3333,
+      "detail": "25 works"
+    },
+    {
+      "name": "Edith Cowan University",
+      "country": "AU",
+      "value": 5.325,
+      "detail": "32,266 works"
+    },
+    {
+      "name": "ACAP University College",
+      "country": "AU",
+      "value": 5.2857,
+      "detail": "482 works"
+    },
+    {
+      "name": "Australasian College of Dermatologists",
+      "country": "AU",
+      "value": 5.2857,
+      "detail": "54 works"
+    },
+    {
+      "name": "Australian National University",
+      "country": "AU",
+      "value": 5.2431,
+      "detail": "191,781 works"
+    },
+    {
+      "name": "Griffith University",
+      "country": "AU",
+      "value": 5.2148,
+      "detail": "96,055 works"
+    },
+    {
+      "name": "Victoria University",
+      "country": "AU",
+      "value": 5.1708,
+      "detail": "25,793 works"
+    },
+    {
+      "name": "UCL Australia",
+      "country": "AU",
+      "value": 5.1519,
+      "detail": "381 works"
+    },
+    {
+      "name": "Royal Australian and New Zealand College of Radiologists",
+      "country": "AU",
+      "value": 5.0645,
+      "detail": "179 works"
+    },
+    {
+      "name": "University of Newcastle Australia",
+      "country": "AU",
+      "value": 5.0175,
+      "detail": "84,427 works"
+    },
+    {
+      "name": "Flinders University",
+      "country": "AU",
+      "value": 4.9251,
+      "detail": "67,928 works"
+    },
+    {
+      "name": "Avondale University",
+      "country": "AU",
+      "value": 4.9004,
+      "detail": "975 works"
+    },
+    {
+      "name": "Murdoch University",
+      "country": "AU",
+      "value": 4.8748,
+      "detail": "35,686 works"
+    },
+    {
+      "name": "James Cook University",
+      "country": "AU",
+      "value": 4.8745,
+      "detail": "50,604 works"
+    },
+    {
+      "name": "Melbourne Bioinformatics",
+      "country": "AU",
+      "value": 4.7798,
+      "detail": "511 works"
+    },
+    {
+      "name": "Australian Institute of Business",
+      "country": "AU",
+      "value": 4.7617,
+      "detail": "397 works"
+    },
+    {
+      "name": "Australian College of Nursing",
+      "country": "AU",
+      "value": 4.7059,
+      "detail": "218 works"
+    },
+    {
+      "name": "Charles Sturt University",
+      "country": "AU",
+      "value": 4.6623,
+      "detail": "27,599 works"
+    },
+    {
+      "name": "Nursing Research Institute",
+      "country": "AU",
+      "value": 4.6303,
+      "detail": "385 works"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "md-airports-by-elevation",
+  "title": "Highest Airports in Moldova",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Moldova ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.521Z",
+  "items": [
+    {
+      "name": "Bălți-Leadoveni International Airport",
+      "country": "MD",
+      "value": 231.04,
+      "detail": "Bălți · 758 ft above sea level"
+    },
+    {
+      "name": "Cahul International Airport",
+      "country": "MD",
+      "value": 198.73,
+      "detail": "Cahul · 652 ft above sea level"
+    },
+    {
+      "name": "Vadul lui Voda Airfield",
+      "country": "MD",
+      "value": 166.42,
+      "detail": "546 ft above sea level"
+    },
+    {
+      "name": "Vinaria Et Cetera Airstrip",
+      "country": "MD",
+      "value": 137.46,
+      "detail": "451 ft above sea level"
+    },
+    {
+      "name": "Chişinău International Airport",
+      "country": "MD",
+      "value": 121.62,
+      "detail": "Chişinău · 399 ft above sea level"
+    },
+    {
+      "name": "Mărculești Air Base",
+      "country": "MD",
+      "value": 95.1,
+      "detail": "Mărculeşti · 312 ft above sea level"
+    },
+    {
+      "name": "Tiraspol Airfield",
+      "country": "MD",
+      "value": 42.98,
+      "detail": "Tiraspol · 141 ft above sea level"
+    }
+  ]
+}

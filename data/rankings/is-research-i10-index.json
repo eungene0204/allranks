@@ -1,0 +1,86 @@
+{
+  "id": "is-research-i10-index",
+  "title": "Universities by Research i10-index in Iceland",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:56.503Z",
+  "items": [
+    {
+      "name": "University of Iceland",
+      "country": "IS",
+      "value": 31537,
+      "detail": "32,666 works"
+    },
+    {
+      "name": "Reykjavík University",
+      "country": "IS",
+      "value": 3765,
+      "detail": "6,542 works"
+    },
+    {
+      "name": "Institute of Earth Sciences",
+      "country": "IS",
+      "value": 2509,
+      "detail": "2,302 works"
+    },
+    {
+      "name": "University of Akureyri",
+      "country": "IS",
+      "value": 982,
+      "detail": "1,862 works"
+    },
+    {
+      "name": "Agricultural University of Iceland",
+      "country": "IS",
+      "value": 509,
+      "detail": "879 works"
+    },
+    {
+      "name": "Hólar University College",
+      "country": "IS",
+      "value": 338,
+      "detail": "502 works"
+    },
+    {
+      "name": "University Centre of the Westfjords",
+      "country": "IS",
+      "value": 56,
+      "detail": "138 works"
+    },
+    {
+      "name": "Bifröst University",
+      "country": "IS",
+      "value": 46,
+      "detail": "222 works"
+    },
+    {
+      "name": "Árni Magnússon Institute for Icelandic Studies",
+      "country": "IS",
+      "value": 17,
+      "detail": "241 works"
+    },
+    {
+      "name": "Iceland University of the Arts",
+      "country": "IS",
+      "value": 3,
+      "detail": "47 works"
+    }
+  ]
+}

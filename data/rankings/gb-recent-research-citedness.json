@@ -1,0 +1,326 @@
+{
+  "id": "gb-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in United Kingdom",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:47.335Z",
+  "items": [
+    {
+      "name": "City of Liverpool College",
+      "country": "GB",
+      "value": 43.3333,
+      "detail": "76 works"
+    },
+    {
+      "name": "City, University of London",
+      "country": "GB",
+      "value": 32.3958,
+      "detail": "38,563 works"
+    },
+    {
+      "name": "Barts Cancer Institute",
+      "country": "GB",
+      "value": 17.551,
+      "detail": "5,799 works"
+    },
+    {
+      "name": "Royal Society of Medicine",
+      "country": "GB",
+      "value": 16.2963,
+      "detail": "1,219 works"
+    },
+    {
+      "name": "Molecular Immunity Unit",
+      "country": "GB",
+      "value": 15.4053,
+      "detail": "383 works"
+    },
+    {
+      "name": "Bowel Cancer UK",
+      "country": "GB",
+      "value": 12.5455,
+      "detail": "44 works"
+    },
+    {
+      "name": "Manchester College",
+      "country": "GB",
+      "value": 12.4474,
+      "detail": "415 works"
+    },
+    {
+      "name": "Scottish Universities Physics Alliance",
+      "country": "GB",
+      "value": 12.0914,
+      "detail": "4,292 works"
+    },
+    {
+      "name": "Brooklands College",
+      "country": "GB",
+      "value": 11,
+      "detail": "37 works"
+    },
+    {
+      "name": "St Patrick's College",
+      "country": "GB",
+      "value": 10,
+      "detail": "400 works"
+    },
+    {
+      "name": "Bridgwater College",
+      "country": "GB",
+      "value": 9.2857,
+      "detail": "56 works"
+    },
+    {
+      "name": "Blackpool and The Fylde College",
+      "country": "GB",
+      "value": 9.2,
+      "detail": "101 works"
+    },
+    {
+      "name": "Cambridge University Health Partners",
+      "country": "GB",
+      "value": 9.2,
+      "detail": "156 works"
+    },
+    {
+      "name": "Doncaster College",
+      "country": "GB",
+      "value": 8.8,
+      "detail": "61 works"
+    },
+    {
+      "name": "Royal College of Anaesthetists",
+      "country": "GB",
+      "value": 8.7687,
+      "detail": "331 works"
+    },
+    {
+      "name": "Kennedy Institute of Rheumatology",
+      "country": "GB",
+      "value": 8.5759,
+      "detail": "3,930 works"
+    },
+    {
+      "name": "Institute of Cancer Research",
+      "country": "GB",
+      "value": 8.5656,
+      "detail": "29,021 works"
+    },
+    {
+      "name": "University of Portsmouth",
+      "country": "GB",
+      "value": 8.2561,
+      "detail": "36,690 works"
+    },
+    {
+      "name": "UCL Queen Square Institute of Neurology",
+      "country": "GB",
+      "value": 8.1271,
+      "detail": "37,382 works"
+    },
+    {
+      "name": "Belfast Metropolitan College",
+      "country": "GB",
+      "value": 8.1111,
+      "detail": "71 works"
+    },
+    {
+      "name": "Liverpool John Moores University",
+      "country": "GB",
+      "value": 8.0497,
+      "detail": "37,823 works"
+    },
+    {
+      "name": "Sutherland Cranial College of Osteopathy",
+      "country": "GB",
+      "value": 8,
+      "detail": "4 works"
+    },
+    {
+      "name": "Imperial College London",
+      "country": "GB",
+      "value": 7.6528,
+      "detail": "401,909 works"
+    },
+    {
+      "name": "Bristol and Bath Science Park",
+      "country": "GB",
+      "value": 7.4419,
+      "detail": "65 works"
+    },
+    {
+      "name": "Henry Royce Institute",
+      "country": "GB",
+      "value": 7.3443,
+      "detail": "1,396 works"
+    },
+    {
+      "name": "University Alliance",
+      "country": "GB",
+      "value": 7.3333,
+      "detail": "26 works"
+    },
+    {
+      "name": "MRC Centre for Neurodevelopmental Disorders",
+      "country": "GB",
+      "value": 7.2506,
+      "detail": "720 works"
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "GB",
+      "value": 7.2305,
+      "detail": "508,254 works"
+    },
+    {
+      "name": "UCL School of Pharmacy",
+      "country": "GB",
+      "value": 7.1976,
+      "detail": "10,109 works"
+    },
+    {
+      "name": "Institute for Research in Schools",
+      "country": "GB",
+      "value": 7,
+      "detail": "30 works"
+    },
+    {
+      "name": "Scottish School of Primary Care",
+      "country": "GB",
+      "value": 7,
+      "detail": "44 works"
+    },
+    {
+      "name": "University of Glasgow",
+      "country": "GB",
+      "value": 6.9268,
+      "detail": "199,990 works"
+    },
+    {
+      "name": "Furness College",
+      "country": "GB",
+      "value": 6.8125,
+      "detail": "205 works"
+    },
+    {
+      "name": "University of Leicester",
+      "country": "GB",
+      "value": 6.7839,
+      "detail": "104,489 works"
+    },
+    {
+      "name": "University of Birmingham",
+      "country": "GB",
+      "value": 6.6153,
+      "detail": "221,015 works"
+    },
+    {
+      "name": "University College London",
+      "country": "GB",
+      "value": 6.5907,
+      "detail": "498,578 works"
+    },
+    {
+      "name": "Queen Mary University of London",
+      "country": "GB",
+      "value": 6.5333,
+      "detail": "144,648 works"
+    },
+    {
+      "name": "University of the Built Environment",
+      "country": "GB",
+      "value": 6.5077,
+      "detail": "195 works"
+    },
+    {
+      "name": "The Loke Centre for Trophoblast Research",
+      "country": "GB",
+      "value": 6.2326,
+      "detail": "376 works"
+    },
+    {
+      "name": "Blizard Institute",
+      "country": "GB",
+      "value": 6.2011,
+      "detail": "8,373 works"
+    },
+    {
+      "name": "University of Oxford",
+      "country": "GB",
+      "value": 6.067,
+      "detail": "625,854 works"
+    },
+    {
+      "name": "University of Essex",
+      "country": "GB",
+      "value": 5.9333,
+      "detail": "48,867 works"
+    },
+    {
+      "name": "Durham University",
+      "country": "GB",
+      "value": 5.8954,
+      "detail": "109,732 works"
+    },
+    {
+      "name": "Medway School of Pharmacy",
+      "country": "GB",
+      "value": 5.7273,
+      "detail": "967 works"
+    },
+    {
+      "name": "St George's, University of London",
+      "country": "GB",
+      "value": 5.6461,
+      "detail": "41,707 works"
+    },
+    {
+      "name": "Sheffield Hallam University",
+      "country": "GB",
+      "value": 5.6407,
+      "detail": "24,082 works"
+    },
+    {
+      "name": "Cardiff University",
+      "country": "GB",
+      "value": 5.6071,
+      "detail": "137,368 works"
+    },
+    {
+      "name": "Cranfield University",
+      "country": "GB",
+      "value": 5.5174,
+      "detail": "35,638 works"
+    },
+    {
+      "name": "Royal College of Radiologists",
+      "country": "GB",
+      "value": 5.5102,
+      "detail": "285 works"
+    },
+    {
+      "name": "London Studio Centre",
+      "country": "GB",
+      "value": 5.5,
+      "detail": "31 works"
+    }
+  ]
+}

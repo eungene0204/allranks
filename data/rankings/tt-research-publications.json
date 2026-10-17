@@ -1,0 +1,56 @@
+{
+  "id": "tt-research-publications",
+  "title": "Universities by Research Publications in Trinidad and Tobago",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:41.272Z",
+  "items": [
+    {
+      "name": "University of the West Indies",
+      "country": "TT",
+      "value": 16345,
+      "detail": "512,991 citations"
+    },
+    {
+      "name": "University of Trinidad and Tobago",
+      "country": "TT",
+      "value": 1195,
+      "detail": "14,857 citations"
+    },
+    {
+      "name": "University of the Southern Caribbean",
+      "country": "TT",
+      "value": 144,
+      "detail": "2,926 citations"
+    },
+    {
+      "name": "College of Science, Technology and Applied Arts of Trinidad and Tobago",
+      "country": "TT",
+      "value": 36,
+      "detail": "288 citations"
+    },
+    {
+      "name": "Hugh Wooding Law School",
+      "country": "TT",
+      "value": 15,
+      "detail": "127 citations"
+    }
+  ]
+}

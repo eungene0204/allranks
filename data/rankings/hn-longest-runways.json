@@ -1,0 +1,134 @@
+{
+  "id": "hn-longest-runways",
+  "title": "Longest Airport Runways in Honduras",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Honduras ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.504Z",
+  "items": [
+    {
+      "name": "Golosón International Airport",
+      "country": "HN",
+      "value": 3009.9,
+      "detail": "La Ceiba · 9,875 ft · ASP"
+    },
+    {
+      "name": "Ramón Villeda Morales International Airport",
+      "country": "HN",
+      "value": 2805.07,
+      "detail": "San Pedro Sula · 9,203 ft · CON"
+    },
+    {
+      "name": "Palmerola International Airport",
+      "country": "HN",
+      "value": 2457.91,
+      "detail": "Palmerola · 8,064 ft · ASP"
+    },
+    {
+      "name": "Juan Manuel Gálvez International Airport",
+      "country": "HN",
+      "value": 2239.98,
+      "detail": "Coxen Hole · 7,349 ft · ASP"
+    },
+    {
+      "name": "Toncontín Airport",
+      "country": "HN",
+      "value": 1862.94,
+      "detail": "Tegucigalpa · 6,112 ft · ASP"
+    },
+    {
+      "name": "Catacamas Airport",
+      "country": "HN",
+      "value": 1546.86,
+      "detail": "Catacamas · 5,075 ft · ASPH"
+    },
+    {
+      "name": "El Aguacate Airport",
+      "country": "HN",
+      "value": 1539.85,
+      "detail": "El Aguacate · 5,052 ft · ASP"
+    },
+    {
+      "name": "Tela Airport",
+      "country": "HN",
+      "value": 1345.69,
+      "detail": "Tela · 4,415 ft · ASP"
+    },
+    {
+      "name": "La Laguna Airport",
+      "country": "HN",
+      "value": 1216.15,
+      "detail": "Guanaja · 3,990 ft · ASP"
+    },
+    {
+      "name": "Trujillo Airport",
+      "country": "HN",
+      "value": 1071.37,
+      "detail": "Trujillo · 3,515 ft · ASP"
+    },
+    {
+      "name": "Choluteca Airport",
+      "country": "HN",
+      "value": 1057.35,
+      "detail": "Choluteca · 3,469 ft · GRVL"
+    },
+    {
+      "name": "Monica Airport",
+      "country": "HN",
+      "value": 999.74,
+      "detail": "Monica · 3,280 ft · GRASS"
+    },
+    {
+      "name": "Acensa Airport",
+      "country": "HN",
+      "value": 799.8,
+      "detail": "Acensa · 2,624 ft · GRVL"
+    },
+    {
+      "name": "Ministerios Cristo Te Quiere Airport",
+      "country": "HN",
+      "value": 762,
+      "detail": "Danli · 2,500 ft · Grass"
+    },
+    {
+      "name": "Agropecuaria Piedra De Agua Azul Airport",
+      "country": "HN",
+      "value": 699.82,
+      "detail": "Buena Vista · 2,296 ft · GRVL"
+    },
+    {
+      "name": "La Grecia Airport",
+      "country": "HN",
+      "value": 699.82,
+      "detail": "Monjarás · 2,296 ft · GRVL-GRASS"
+    },
+    {
+      "name": "Monte Libano Airport",
+      "country": "HN",
+      "value": 699.82,
+      "detail": "Monte Líbano · 2,296 ft · GRASS"
+    },
+    {
+      "name": "Sur Agropecuaria Airport",
+      "country": "HN",
+      "value": 213.36,
+      "detail": "Buena Vista · 700 ft · GRVL"
+    }
+  ]
+}

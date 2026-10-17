@@ -15,7 +15,7 @@ const countries = loadCountries();
 const MIN = 5;
 const LIMIT = 50;
 
-type Row = { name: string; cc: string; admin1: string; pop: number; date: string };
+type Row = { name: string; cc: string; admin1: string; pop: number; elevation: number; date: string };
 
 /** Contents of the single file in a zip archive (central directory first: local headers may omit sizes). */
 function unzipOnly(buf: Buffer): string {
@@ -45,7 +45,7 @@ function load() {
       const pop = Number(c[14]);
       if (!(pop > 0)) continue;
       const list = rows.get(c[8]) ?? [];
-      list.push({ name: c[1], cc: c[8], admin1: c[10], pop, date: c[18] });
+      list.push({ name: c[1], cc: c[8], admin1: c[10], pop, elevation: Number(c[16]), date: c[18] });
       rows.set(c[8], list);
     }
     const admin1 = new Map<string, string>();
@@ -93,6 +93,50 @@ export function largestCities(codes: string[]): Pipeline[] {
       "cities",
       { kind: "cities", title: `Largest Cities in ${name}`, desc: `Cities of ${name} with more than 15,000 inhabitants, ranked by population (GeoNames).`, unit: "people" },
       fetchFor(cc),
+    );
+  });
+}
+
+/** A second, distinct view of the same major-city dataset: settled places ranked by elevation (GeoNames DEM). */
+export function citiesByElevation(codes: string[]): Pipeline[] {
+  return codes.map((cc) => {
+    const name = countries.byCode2.get(cc)?.name ?? cc;
+    return rank(
+      cc,
+      "cities-by-elevation",
+      {
+        kind: "other", short: "City elevation", category: "world", icon: "⛰️", sort: 8,
+        title: `Highest Major Cities in ${name}`,
+        desc: `Cities in ${name} with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).`,
+        unit: "metres", suffix: " m",
+      },
+      async () => {
+        const { rows, admin1 } = await load();
+        const top = (rows.get(cc) ?? []).filter((r) => Number.isFinite(r.elevation) && r.elevation > 0)
+          .sort((a, b) => b.elevation - a.elevation).slice(0, LIMIT);
+        if (top.length < MIN) throw new Error(`only ${top.length} cities with elevation for ${cc}`);
+        const seen = new Map<string, number>();
+        const items: Item[] = top.map((r) => {
+          const region = admin1.get(`${cc}.${r.admin1}`);
+          const n = (seen.get(r.name) ?? 0) + 1;
+          seen.set(r.name, n);
+          return {
+            name: n === 1 ? r.name : `${r.name} (${region ?? n})`, country: cc, value: r.elevation,
+            detail: `${r.pop.toLocaleString("en-US")} people${region ? ` · ${region}` : ""}`,
+          };
+        });
+        return {
+          year: new Date().getFullYear(),
+          source: {
+            kind: "csv",
+            name: "GeoNames, cities with more than 15,000 inhabitants",
+            url: "https://www.geonames.org/",
+            license: "CC BY 4.0 (GeoNames)",
+            note: "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context.",
+          },
+          items,
+        };
+      },
     );
   });
 }

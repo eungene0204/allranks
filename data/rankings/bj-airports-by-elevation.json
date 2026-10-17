@@ -1,0 +1,86 @@
+{
+  "id": "bj-airports-by-elevation",
+  "title": "Highest Airports in Benin",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Benin ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.456Z",
+  "items": [
+    {
+      "name": "Natitingou Airport",
+      "country": "BJ",
+      "value": 460.86,
+      "detail": "Natitingou · 1,512 ft above sea level"
+    },
+    {
+      "name": "Djougou Airport",
+      "country": "BJ",
+      "value": 451.1,
+      "detail": "Djougou · 1,480 ft above sea level"
+    },
+    {
+      "name": "Parakou Airport",
+      "country": "BJ",
+      "value": 385.88,
+      "detail": "Parakou · 1,266 ft above sea level"
+    },
+    {
+      "name": "Tourou International Airport",
+      "country": "BJ",
+      "value": 364.85,
+      "detail": "Parakou · 1,197 ft above sea level"
+    },
+    {
+      "name": "Bembereke Airport",
+      "country": "BJ",
+      "value": 362.1,
+      "detail": "Bembereke · 1,188 ft above sea level"
+    },
+    {
+      "name": "Kandi Airport",
+      "country": "BJ",
+      "value": 289.86,
+      "detail": "Kandi · 951 ft above sea level"
+    },
+    {
+      "name": "Savé Airport",
+      "country": "BJ",
+      "value": 181.97,
+      "detail": "Savé · 597 ft above sea level"
+    },
+    {
+      "name": "Bohicon/Cana Airport",
+      "country": "BJ",
+      "value": 167.03,
+      "detail": "Bohicon · 548 ft above sea level"
+    },
+    {
+      "name": "Porga Airport",
+      "country": "BJ",
+      "value": 161.85,
+      "detail": "Porga · 531 ft above sea level"
+    },
+    {
+      "name": "Cotonou Cadjehoun International Airport",
+      "country": "BJ",
+      "value": 5.79,
+      "detail": "Cotonou · 19 ft above sea level"
+    }
+  ]
+}

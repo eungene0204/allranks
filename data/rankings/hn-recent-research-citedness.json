@@ -1,0 +1,80 @@
+{
+  "id": "hn-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Honduras",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "HN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:50.849Z",
+  "items": [
+    {
+      "name": "Universidad Nacional de Agricultura",
+      "country": "HN",
+      "value": 2.5827,
+      "detail": "222 works"
+    },
+    {
+      "name": "Universidad Católica de Honduras Nuestra Señora Reina de la Paz",
+      "country": "HN",
+      "value": 2.5705,
+      "detail": "371 works"
+    },
+    {
+      "name": "National Autonomous University of Honduras",
+      "country": "HN",
+      "value": 1.1691,
+      "detail": "4,971 works"
+    },
+    {
+      "name": "Universidad Nacional de Ciencias Forestales",
+      "country": "HN",
+      "value": 0.8409,
+      "detail": "94 works"
+    },
+    {
+      "name": "Central American Technological University",
+      "country": "HN",
+      "value": 0.7523,
+      "detail": "1,223 works"
+    },
+    {
+      "name": "Universidad Tecnológica de Honduras",
+      "country": "HN",
+      "value": 0.6822,
+      "detail": "114 works"
+    },
+    {
+      "name": "Zamorano Pan-American Agricultural School",
+      "country": "HN",
+      "value": 0.6605,
+      "detail": "2,344 works"
+    },
+    {
+      "name": "Universidad Pedagógica Nacional Francisco Morazán",
+      "country": "HN",
+      "value": 0.633,
+      "detail": "452 works"
+    },
+    {
+      "name": "Universidad Metropolitana de Honduras",
+      "country": "HN",
+      "value": 0.0556,
+      "detail": "43 works"
+    }
+  ]
+}

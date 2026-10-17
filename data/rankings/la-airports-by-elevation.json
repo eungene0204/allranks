@@ -1,0 +1,140 @@
+{
+  "id": "la-airports-by-elevation",
+  "title": "Highest Airports in Laos",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Laos ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.518Z",
+  "items": [
+    {
+      "name": "Phonesavanh Airport",
+      "country": "LA",
+      "value": 1105.81,
+      "detail": "3,628 ft above sea level"
+    },
+    {
+      "name": "Nongkhang airport",
+      "country": "LA",
+      "value": 1067.71,
+      "detail": "3,503 ft above sea level"
+    },
+    {
+      "name": "Xieng Khouang Airport",
+      "country": "LA",
+      "value": 1050.04,
+      "detail": "Xieng Khouang · 3,445 ft above sea level"
+    },
+    {
+      "name": "Sam Neua Airport",
+      "country": "LA",
+      "value": 1000.05,
+      "detail": "3,281 ft above sea level"
+    },
+    {
+      "name": "Boun Neau Airport",
+      "country": "LA",
+      "value": 929.64,
+      "detail": "Phongsaly · 3,050 ft above sea level"
+    },
+    {
+      "name": "Luang Namtha Airport",
+      "country": "LA",
+      "value": 599.85,
+      "detail": "Luang Namtha · 1,968 ft above sea level"
+    },
+    {
+      "name": "Xienglom Airport",
+      "country": "LA",
+      "value": 557.78,
+      "detail": "Xienglom · 1,830 ft above sea level"
+    },
+    {
+      "name": "Oudomsay Airport",
+      "country": "LA",
+      "value": 549.86,
+      "detail": "Oudomsay · 1,804 ft above sea level"
+    },
+    {
+      "name": "Ban Huoeisay Airport",
+      "country": "LA",
+      "value": 420.62,
+      "detail": "Huay Xai · 1,380 ft above sea level"
+    },
+    {
+      "name": "Bokeo International Airport",
+      "country": "LA",
+      "value": 358.14,
+      "detail": "Ton Phueng · 1,175 ft above sea level"
+    },
+    {
+      "name": "Sayaboury Airport",
+      "country": "LA",
+      "value": 293.22,
+      "detail": "Sainyabuli · 962 ft above sea level"
+    },
+    {
+      "name": "Luang Phabang International Airport",
+      "country": "LA",
+      "value": 291.08,
+      "detail": "Luang Phabang · 955 ft above sea level"
+    },
+    {
+      "name": "Sepon Airport",
+      "country": "LA",
+      "value": 213.97,
+      "detail": "702 ft above sea level"
+    },
+    {
+      "name": "Salavan Airport",
+      "country": "LA",
+      "value": 174.96,
+      "detail": "Salavan · 574 ft above sea level"
+    },
+    {
+      "name": "Wattay International Airport",
+      "country": "LA",
+      "value": 171.91,
+      "detail": "Vientiane · 564 ft above sea level"
+    },
+    {
+      "name": "Savannakhet Airport",
+      "country": "LA",
+      "value": 155.14,
+      "detail": "509 ft above sea level"
+    },
+    {
+      "name": "Thakhek Airport",
+      "country": "LA",
+      "value": 136.86,
+      "detail": "Thakhek · 449 ft above sea level"
+    },
+    {
+      "name": "Pakse International Airport",
+      "country": "LA",
+      "value": 106.98,
+      "detail": "Pakse · 351 ft above sea level"
+    },
+    {
+      "name": "Attopeu Airport",
+      "country": "LA",
+      "value": 104.85,
+      "detail": "Attopeu · 344 ft above sea level"
+    }
+  ]
+}

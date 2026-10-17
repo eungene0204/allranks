@@ -1,0 +1,326 @@
+{
+  "id": "nz-cities-by-elevation",
+  "title": "Highest Major Cities in New Zealand",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in New Zealand with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.555Z",
+  "items": [
+    {
+      "name": "Taupo",
+      "country": "NZ",
+      "value": 405,
+      "detail": "27,000 people · Waikato Region"
+    },
+    {
+      "name": "Rotorua",
+      "country": "NZ",
+      "value": 287,
+      "detail": "65,901 people · Bay of Plenty"
+    },
+    {
+      "name": "Karori",
+      "country": "NZ",
+      "value": 184,
+      "detail": "15,380 people · Wellington Region"
+    },
+    {
+      "name": "Titirangi",
+      "country": "NZ",
+      "value": 162,
+      "detail": "15,490 people · Auckland"
+    },
+    {
+      "name": "Pukekohe East",
+      "country": "NZ",
+      "value": 115,
+      "detail": "21,438 people · Auckland"
+    },
+    {
+      "name": "Ashburton",
+      "country": "NZ",
+      "value": 106,
+      "detail": "21,600 people · Canterbury"
+    },
+    {
+      "name": "Masterton",
+      "country": "NZ",
+      "value": 103,
+      "detail": "28,900 people · Wellington Region"
+    },
+    {
+      "name": "Mount Eden",
+      "country": "NZ",
+      "value": 100,
+      "detail": "15,650 people · Auckland"
+    },
+    {
+      "name": "Wainuiomata",
+      "country": "NZ",
+      "value": 93,
+      "detail": "20,450 people · Wellington Region"
+    },
+    {
+      "name": "Remuera",
+      "country": "NZ",
+      "value": 88,
+      "detail": "27,810 people · Auckland"
+    },
+    {
+      "name": "Epsom",
+      "country": "NZ",
+      "value": 79,
+      "detail": "20,200 people · Auckland"
+    },
+    {
+      "name": "Paraparaumu",
+      "country": "NZ",
+      "value": 77,
+      "detail": "29,900 people · Wellington Region"
+    },
+    {
+      "name": "Cambridge",
+      "country": "NZ",
+      "value": 67,
+      "detail": "15,192 people · Waikato Region"
+    },
+    {
+      "name": "New Plymouth",
+      "country": "NZ",
+      "value": 64,
+      "detail": "90,100 people · Taranaki Region"
+    },
+    {
+      "name": "Rolleston",
+      "country": "NZ",
+      "value": 60,
+      "detail": "34,100 people · Canterbury"
+    },
+    {
+      "name": "Upper Hutt",
+      "country": "NZ",
+      "value": 60,
+      "detail": "47,400 people · Wellington Region"
+    },
+    {
+      "name": "Porirua",
+      "country": "NZ",
+      "value": 58,
+      "detail": "61,500 people · Wellington Region"
+    },
+    {
+      "name": "Massey East",
+      "country": "NZ",
+      "value": 46,
+      "detail": "22,210 people · Auckland"
+    },
+    {
+      "name": "Te Atatu South",
+      "country": "NZ",
+      "value": 44,
+      "detail": "17,240 people · Auckland"
+    },
+    {
+      "name": "Auckland",
+      "country": "NZ",
+      "value": 43,
+      "detail": "1,547,200 people · Auckland"
+    },
+    {
+      "name": "Hamilton East",
+      "country": "NZ",
+      "value": 43,
+      "detail": "15,300 people · Waikato Region"
+    },
+    {
+      "name": "Manukau City",
+      "country": "NZ",
+      "value": 43,
+      "detail": "362,000 people · Auckland"
+    },
+    {
+      "name": "Avondale",
+      "country": "NZ",
+      "value": 41,
+      "detail": "26,450 people · Auckland"
+    },
+    {
+      "name": "Massey",
+      "country": "NZ",
+      "value": 41,
+      "detail": "22,210 people · Auckland"
+    },
+    {
+      "name": "Hamilton",
+      "country": "NZ",
+      "value": 39,
+      "detail": "192,100 people · Waikato Region"
+    },
+    {
+      "name": "Levin",
+      "country": "NZ",
+      "value": 38,
+      "detail": "19,789 people · Manawatu-Wanganui"
+    },
+    {
+      "name": "Manurewa",
+      "country": "NZ",
+      "value": 38,
+      "detail": "40,820 people · Auckland"
+    },
+    {
+      "name": "Rangiora",
+      "country": "NZ",
+      "value": 36,
+      "detail": "19,300 people · Canterbury"
+    },
+    {
+      "name": "Palmerston North",
+      "country": "NZ",
+      "value": 34,
+      "detail": "90,500 people · Manawatu-Wanganui"
+    },
+    {
+      "name": "Stoke",
+      "country": "NZ",
+      "value": 31,
+      "detail": "20,260 people · Nelson Region"
+    },
+    {
+      "name": "Wellington",
+      "country": "NZ",
+      "value": 31,
+      "detail": "381,900 people · Wellington Region"
+    },
+    {
+      "name": "North Shore",
+      "country": "NZ",
+      "value": 30,
+      "detail": "258,697 people · Auckland"
+    },
+    {
+      "name": "Te Atatu Peninsula",
+      "country": "NZ",
+      "value": 25,
+      "detail": "15,200 people · Auckland"
+    },
+    {
+      "name": "Takanini",
+      "country": "NZ",
+      "value": 24,
+      "detail": "17,060 people · Auckland"
+    },
+    {
+      "name": "Dunedin",
+      "country": "NZ",
+      "value": 21,
+      "detail": "132,800 people · Otago"
+    },
+    {
+      "name": "Mangere East",
+      "country": "NZ",
+      "value": 21,
+      "detail": "28,540 people · Auckland"
+    },
+    {
+      "name": "New Lynn",
+      "country": "NZ",
+      "value": 21,
+      "detail": "23,800 people · Auckland"
+    },
+    {
+      "name": "Hastings",
+      "country": "NZ",
+      "value": 19,
+      "detail": "88,300 people · Hawke's Bay Region"
+    },
+    {
+      "name": "Papatoetoe",
+      "country": "NZ",
+      "value": 19,
+      "detail": "56,010 people · Auckland"
+    },
+    {
+      "name": "Tauranga",
+      "country": "NZ",
+      "value": 18,
+      "detail": "161,000 people · Bay of Plenty"
+    },
+    {
+      "name": "Whanganui",
+      "country": "NZ",
+      "value": 18,
+      "detail": "49,200 people · Manawatu-Wanganui"
+    },
+    {
+      "name": "Otahuhu",
+      "country": "NZ",
+      "value": 17,
+      "detail": "17,780 people · Auckland"
+    },
+    {
+      "name": "Mangere",
+      "country": "NZ",
+      "value": 15,
+      "detail": "23,310 people · Auckland"
+    },
+    {
+      "name": "Christchurch",
+      "country": "NZ",
+      "value": 14,
+      "detail": "419,200 people · Canterbury"
+    },
+    {
+      "name": "Papakura",
+      "country": "NZ",
+      "value": 14,
+      "detail": "37,720 people · Auckland"
+    },
+    {
+      "name": "Timaru",
+      "country": "NZ",
+      "value": 14,
+      "detail": "29,300 people · Canterbury"
+    },
+    {
+      "name": "Henderson",
+      "country": "NZ",
+      "value": 13,
+      "detail": "18,770 people · Auckland"
+    },
+    {
+      "name": "Lincoln",
+      "country": "NZ",
+      "value": 11,
+      "detail": "17,240 people · Auckland"
+    },
+    {
+      "name": "Nelson",
+      "country": "NZ",
+      "value": 11,
+      "detail": "54,400 people · Nelson Region"
+    },
+    {
+      "name": "Whakatane",
+      "country": "NZ",
+      "value": 11,
+      "detail": "18,602 people · Bay of Plenty"
+    }
+  ]
+}

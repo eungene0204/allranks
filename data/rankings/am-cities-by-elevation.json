@@ -1,0 +1,200 @@
+{
+  "id": "am-cities-by-elevation",
+  "title": "Highest Major Cities in Armenia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Armenia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.508Z",
+  "items": [
+    {
+      "name": "Gavar",
+      "country": "AM",
+      "value": 1953,
+      "detail": "18,900 people · Gegharkunik"
+    },
+    {
+      "name": "Sevan",
+      "country": "AM",
+      "value": 1892,
+      "detail": "19,652 people · Gegharkunik"
+    },
+    {
+      "name": "Artik",
+      "country": "AM",
+      "value": 1782,
+      "detail": "18,145 people · Shirak"
+    },
+    {
+      "name": "Hrazdan",
+      "country": "AM",
+      "value": 1702,
+      "detail": "49,500 people · Kotayk"
+    },
+    {
+      "name": "Charentsavan",
+      "country": "AM",
+      "value": 1661,
+      "detail": "22,071 people · Kotayk"
+    },
+    {
+      "name": "Gyumri",
+      "country": "AM",
+      "value": 1553,
+      "detail": "114,667 people · Shirak"
+    },
+    {
+      "name": "Abovyan",
+      "country": "AM",
+      "value": 1450,
+      "detail": "50,556 people · Kotayk"
+    },
+    {
+      "name": "Vanadzor",
+      "country": "AM",
+      "value": 1368,
+      "detail": "78,100 people · Lori"
+    },
+    {
+      "name": "Goris",
+      "country": "AM",
+      "value": 1351,
+      "detail": "17,592 people · Syunik"
+    },
+    {
+      "name": "Dilijan",
+      "country": "AM",
+      "value": 1345,
+      "detail": "15,914 people · Tavush"
+    },
+    {
+      "name": "Nor Nork",
+      "country": "AM",
+      "value": 1302,
+      "detail": "137,300 people · Yerevan"
+    },
+    {
+      "name": "Kanaker-Zeytun",
+      "country": "AM",
+      "value": 1280,
+      "detail": "75,500 people · Yerevan"
+    },
+    {
+      "name": "Avan",
+      "country": "AM",
+      "value": 1276,
+      "detail": "58,800 people · Yerevan"
+    },
+    {
+      "name": "Arabkir",
+      "country": "AM",
+      "value": 1157,
+      "detail": "119,300 people · Yerevan"
+    },
+    {
+      "name": "Ashtarak",
+      "country": "AM",
+      "value": 1140,
+      "detail": "17,600 people · Aragatsotn"
+    },
+    {
+      "name": "Davtashen",
+      "country": "AM",
+      "value": 1118,
+      "detail": "52,100 people · Yerevan"
+    },
+    {
+      "name": "Ajapnyak",
+      "country": "AM",
+      "value": 1061,
+      "detail": "122,800 people · Yerevan"
+    },
+    {
+      "name": "Erebuni",
+      "country": "AM",
+      "value": 1005,
+      "detail": "129,700 people · Yerevan"
+    },
+    {
+      "name": "Yerevan",
+      "country": "AM",
+      "value": 1002,
+      "detail": "1,144,700 people · Yerevan"
+    },
+    {
+      "name": "Kentron",
+      "country": "AM",
+      "value": 997,
+      "detail": "133,000 people · Yerevan"
+    },
+    {
+      "name": "Malatia-Sebastia",
+      "country": "AM",
+      "value": 943,
+      "detail": "150,500 people · Yerevan"
+    },
+    {
+      "name": "Shengavit",
+      "country": "AM",
+      "value": 930,
+      "detail": "140,600 people · Yerevan"
+    },
+    {
+      "name": "Armavir",
+      "country": "AM",
+      "value": 878,
+      "detail": "29,700 people · Armavir"
+    },
+    {
+      "name": "Vagharshapat",
+      "country": "AM",
+      "value": 877,
+      "detail": "47,989 people · Armavir"
+    },
+    {
+      "name": "Ararat",
+      "country": "AM",
+      "value": 844,
+      "detail": "17,598 people · Ararat"
+    },
+    {
+      "name": "Masis",
+      "country": "AM",
+      "value": 838,
+      "detail": "23,136 people · Ararat"
+    },
+    {
+      "name": "Artashat",
+      "country": "AM",
+      "value": 834,
+      "detail": "22,800 people · Ararat"
+    },
+    {
+      "name": "Kapan",
+      "country": "AM",
+      "value": 774,
+      "detail": "32,900 people · Syunik"
+    },
+    {
+      "name": "Ijevan",
+      "country": "AM",
+      "value": 755,
+      "detail": "19,500 people · Tavush"
+    }
+  ]
+}

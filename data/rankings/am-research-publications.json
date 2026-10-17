@@ -1,0 +1,152 @@
+{
+  "id": "am-research-publications",
+  "title": "Universities by Research Publications in Armenia",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:20.868Z",
+  "items": [
+    {
+      "name": "Yerevan State University",
+      "country": "AM",
+      "value": 12586,
+      "detail": "161,566 citations"
+    },
+    {
+      "name": "Yerevan State Medical University",
+      "country": "AM",
+      "value": 3303,
+      "detail": "55,549 citations"
+    },
+    {
+      "name": "Russian-Armenian University",
+      "country": "AM",
+      "value": 2217,
+      "detail": "22,478 citations"
+    },
+    {
+      "name": "National Polytechnic University of Armenia",
+      "country": "AM",
+      "value": 1900,
+      "detail": "11,021 citations"
+    },
+    {
+      "name": "Armenian State University of Economics",
+      "country": "AM",
+      "value": 1836,
+      "detail": "2,543 citations"
+    },
+    {
+      "name": "Armenian State Pedagogical University after Khachatur Abovian",
+      "country": "AM",
+      "value": 1543,
+      "detail": "3,138 citations"
+    },
+    {
+      "name": "Armenian National Agrarian University",
+      "country": "AM",
+      "value": 1124,
+      "detail": "6,272 citations"
+    },
+    {
+      "name": "American University of Armenia",
+      "country": "AM",
+      "value": 1061,
+      "detail": "16,509 citations"
+    },
+    {
+      "name": "National University of Architecture and Construction of Armenia",
+      "country": "AM",
+      "value": 802,
+      "detail": "2,985 citations"
+    },
+    {
+      "name": "L. A. Orbeli Institute of Physiology NAS RA",
+      "country": "AM",
+      "value": 567,
+      "detail": "7,283 citations"
+    },
+    {
+      "name": "Shirak State University",
+      "country": "AM",
+      "value": 507,
+      "detail": "719 citations"
+    },
+    {
+      "name": "Vanadzor State University",
+      "country": "AM",
+      "value": 342,
+      "detail": "54 citations"
+    },
+    {
+      "name": "Brusov State University",
+      "country": "AM",
+      "value": 236,
+      "detail": "110 citations"
+    },
+    {
+      "name": "Eurasia International University",
+      "country": "AM",
+      "value": 204,
+      "detail": "68 citations"
+    },
+    {
+      "name": "Yerevan Haybusak University",
+      "country": "AM",
+      "value": 75,
+      "detail": "237 citations"
+    },
+    {
+      "name": "Fondation Université Française en Arménie",
+      "country": "AM",
+      "value": 38,
+      "detail": "24 citations"
+    },
+    {
+      "name": "State Academy of Fine Arts of Armenia",
+      "country": "AM",
+      "value": 34,
+      "detail": "2 citations"
+    },
+    {
+      "name": "Gavar State University",
+      "country": "AM",
+      "value": 33,
+      "detail": "8 citations"
+    },
+    {
+      "name": "Northern University",
+      "country": "AM",
+      "value": 28,
+      "detail": "94 citations"
+    },
+    {
+      "name": "Anania Shirakatsi University of International Relations",
+      "country": "AM",
+      "value": 10,
+      "detail": "0 citations"
+    },
+    {
+      "name": "St. Theresa's Medical University of Yerevan",
+      "country": "AM",
+      "value": 3,
+      "detail": "2 citations"
+    }
+  ]
+}

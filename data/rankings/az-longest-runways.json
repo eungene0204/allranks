@@ -1,0 +1,110 @@
+{
+  "id": "az-longest-runways",
+  "title": "Longest Airport Runways in Azerbaijan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Azerbaijan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.454Z",
+  "items": [
+    {
+      "name": "Heydar Aliyev International Airport",
+      "country": "AZ",
+      "value": 3999.89,
+      "detail": "Baku · 13,123 ft · ASP"
+    },
+    {
+      "name": "Gabala International Airport",
+      "country": "AZ",
+      "value": 3599.99,
+      "detail": "Gabala · 11,811 ft · Asphalt/Concrete"
+    },
+    {
+      "name": "Lankaran International Airport",
+      "country": "AZ",
+      "value": 3303.12,
+      "detail": "Lankaran · 10,837 ft · ASP"
+    },
+    {
+      "name": "Ganja International Airport",
+      "country": "AZ",
+      "value": 3300.07,
+      "detail": "Ganja · 10,827 ft · CON"
+    },
+    {
+      "name": "Nakhchivan International Airport",
+      "country": "AZ",
+      "value": 3299.76,
+      "detail": "Nakhchivan · 10,826 ft · ASP"
+    },
+    {
+      "name": "Fuzuli International Airport",
+      "country": "AZ",
+      "value": 3000.15,
+      "detail": "Fuzuli · 9,843 ft · ASP"
+    },
+    {
+      "name": "Zangilan International Airport",
+      "country": "AZ",
+      "value": 3000.15,
+      "detail": "Zangilan · 9,843 ft · ASPH"
+    },
+    {
+      "name": "Zaqatala International Airport",
+      "country": "AZ",
+      "value": 3000.15,
+      "detail": "Zaqatala · 9,843 ft · Asphalt"
+    },
+    {
+      "name": "Baku Kala Air Base",
+      "country": "AZ",
+      "value": 2642.62,
+      "detail": "Baku · 8,670 ft · CON"
+    },
+    {
+      "name": "Nasosnaya Air Base",
+      "country": "AZ",
+      "value": 2504.85,
+      "detail": "Sumqayit · 8,218 ft · CON"
+    },
+    {
+      "name": "Kyurdamir Air Base",
+      "country": "AZ",
+      "value": 2499.36,
+      "detail": "Kyurdamir · 8,200 ft · CON"
+    },
+    {
+      "name": "Dollyar Air Base",
+      "country": "AZ",
+      "value": 2493.87,
+      "detail": "Dollyar · 8,182 ft · CON"
+    },
+    {
+      "name": "Khojaly Airport",
+      "country": "AZ",
+      "value": 2177.8,
+      "detail": "Khojaly · 7,145 ft · ASP"
+    },
+    {
+      "name": "Balakan Airport",
+      "country": "AZ",
+      "value": 1208.84,
+      "detail": "Balakan · 3,966 ft · ASP"
+    }
+  ]
+}

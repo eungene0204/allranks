@@ -1,0 +1,80 @@
+{
+  "id": "mk-longest-runways",
+  "title": "Longest Airport Runways in North Macedonia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in North Macedonia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.522Z",
+  "items": [
+    {
+      "name": "Skopje International Airport",
+      "country": "MK",
+      "value": 2949.85,
+      "detail": "Ilinden · 9,678 ft · ASP"
+    },
+    {
+      "name": "Ohrid St. Paul the Apostle Airport",
+      "country": "MK",
+      "value": 2549.96,
+      "detail": "Ohrid · 8,366 ft · ASP"
+    },
+    {
+      "name": "Stenkovec Brazda Airfield",
+      "country": "MK",
+      "value": 1204.57,
+      "detail": "Brazda, Čučer-Sandevo · 3,952 ft · GRE"
+    },
+    {
+      "name": "Logovardi Sport Aerodrome",
+      "country": "MK",
+      "value": 1200,
+      "detail": "Logovardi · 3,937 ft · GRS"
+    },
+    {
+      "name": "Malo Konjari Sport Airfield",
+      "country": "MK",
+      "value": 1060.09,
+      "detail": "Malo Konjari · 3,478 ft · GRE"
+    },
+    {
+      "name": "Kumanovo Airfield",
+      "country": "MK",
+      "value": 916.23,
+      "detail": "Kumanovo · 3,006 ft · GRS"
+    },
+    {
+      "name": "Peshirovo Sveti Nikole Airfield",
+      "country": "MK",
+      "value": 303.89,
+      "detail": "Peshirovo · 997 ft · CON"
+    },
+    {
+      "name": "Štip Airstrip",
+      "country": "MK",
+      "value": 298.7,
+      "detail": "Krivi Dol · 980 ft · CON"
+    },
+    {
+      "name": "Veles Airfield",
+      "country": "MK",
+      "value": 298.7,
+      "detail": "Karatmanovo · 980 ft · CON"
+    }
+  ]
+}

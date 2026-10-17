@@ -1,0 +1,326 @@
+{
+  "id": "nl-cities-by-elevation",
+  "title": "Highest Major Cities in Netherlands",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Netherlands with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.554Z",
+  "items": [
+    {
+      "name": "Kerkrade",
+      "country": "NL",
+      "value": 157,
+      "detail": "49,777 people · Limburg"
+    },
+    {
+      "name": "Heerlen",
+      "country": "NL",
+      "value": 114,
+      "detail": "93,084 people · Limburg"
+    },
+    {
+      "name": "Hoensbroek",
+      "country": "NL",
+      "value": 85,
+      "detail": "25,000 people · Limburg"
+    },
+    {
+      "name": "Brunssum",
+      "country": "NL",
+      "value": 79,
+      "detail": "29,254 people · Limburg"
+    },
+    {
+      "name": "Geleen",
+      "country": "NL",
+      "value": 66,
+      "detail": "32,790 people · Limburg"
+    },
+    {
+      "name": "Maastricht",
+      "country": "NL",
+      "value": 56,
+      "detail": "122,378 people · Limburg"
+    },
+    {
+      "name": "Oldenzaal",
+      "country": "NL",
+      "value": 48,
+      "detail": "31,410 people · Overijssel"
+    },
+    {
+      "name": "Sittard",
+      "country": "NL",
+      "value": 48,
+      "detail": "48,400 people · Limburg"
+    },
+    {
+      "name": "Enschede",
+      "country": "NL",
+      "value": 45,
+      "detail": "153,655 people · Overijssel"
+    },
+    {
+      "name": "Glanerbrug",
+      "country": "NL",
+      "value": 41,
+      "detail": "17,260 people · Overijssel"
+    },
+    {
+      "name": "Groesbeek",
+      "country": "NL",
+      "value": 39,
+      "detail": "18,741 people · Gelderland"
+    },
+    {
+      "name": "Weert",
+      "country": "NL",
+      "value": 38,
+      "detail": "48,662 people · Limburg"
+    },
+    {
+      "name": "Winterswijk",
+      "country": "NL",
+      "value": 38,
+      "detail": "29,623 people · Gelderland"
+    },
+    {
+      "name": "Losser",
+      "country": "NL",
+      "value": 37,
+      "detail": "22,431 people · Overijssel"
+    },
+    {
+      "name": "Bergeijk",
+      "country": "NL",
+      "value": 33,
+      "detail": "18,181 people · North Brabant"
+    },
+    {
+      "name": "Cranendonck",
+      "country": "NL",
+      "value": 31,
+      "detail": "19,966 people · North Brabant"
+    },
+    {
+      "name": "Rhenen",
+      "country": "NL",
+      "value": 31,
+      "detail": "18,061 people · Utrecht"
+    },
+    {
+      "name": "Roermond",
+      "country": "NL",
+      "value": 31,
+      "detail": "44,975 people · Limburg"
+    },
+    {
+      "name": "Eersel",
+      "country": "NL",
+      "value": 30,
+      "detail": "18,185 people · North Brabant"
+    },
+    {
+      "name": "Venray",
+      "country": "NL",
+      "value": 29,
+      "detail": "39,047 people · Limburg"
+    },
+    {
+      "name": "Aalten",
+      "country": "NL",
+      "value": 27,
+      "detail": "19,141 people · Gelderland"
+    },
+    {
+      "name": "Haaksbergen",
+      "country": "NL",
+      "value": 27,
+      "detail": "24,137 people · Overijssel"
+    },
+    {
+      "name": "Valkenswaard",
+      "country": "NL",
+      "value": 27,
+      "detail": "31,071 people · North Brabant"
+    },
+    {
+      "name": "Eibergen",
+      "country": "NL",
+      "value": 26,
+      "detail": "16,493 people · Gelderland"
+    },
+    {
+      "name": "Nijmegen",
+      "country": "NL",
+      "value": 25,
+      "detail": "177,359 people · Gelderland"
+    },
+    {
+      "name": "Tubbergen",
+      "country": "NL",
+      "value": 25,
+      "detail": "20,334 people · Overijssel"
+    },
+    {
+      "name": "Venlo",
+      "country": "NL",
+      "value": 24,
+      "detail": "101,988 people · Limburg"
+    },
+    {
+      "name": "Eindhoven",
+      "country": "NL",
+      "value": 22,
+      "detail": "235,691 people · North Brabant"
+    },
+    {
+      "name": "Lichtenvoorde",
+      "country": "NL",
+      "value": 22,
+      "detail": "19,590 people · Gelderland"
+    },
+    {
+      "name": "Geldrop",
+      "country": "NL",
+      "value": 21,
+      "detail": "27,900 people · North Brabant"
+    },
+    {
+      "name": "Ede",
+      "country": "NL",
+      "value": 20,
+      "detail": "67,670 people · Gelderland"
+    },
+    {
+      "name": "Tegelen",
+      "country": "NL",
+      "value": 20,
+      "detail": "20,190 people · Limburg"
+    },
+    {
+      "name": "Velp",
+      "country": "NL",
+      "value": 20,
+      "detail": "17,669 people · Gelderland"
+    },
+    {
+      "name": "Bennekom",
+      "country": "NL",
+      "value": 19,
+      "detail": "15,160 people · Gelderland"
+    },
+    {
+      "name": "Blerick",
+      "country": "NL",
+      "value": 19,
+      "detail": "15,820 people · Limburg"
+    },
+    {
+      "name": "Emmen",
+      "country": "NL",
+      "value": 19,
+      "detail": "57,010 people · Drenthe"
+    },
+    {
+      "name": "Helmond",
+      "country": "NL",
+      "value": 19,
+      "detail": "74,740 people · North Brabant"
+    },
+    {
+      "name": "Nuenen",
+      "country": "NL",
+      "value": 19,
+      "detail": "23,223 people · North Brabant"
+    },
+    {
+      "name": "Apeldoorn",
+      "country": "NL",
+      "value": 18,
+      "detail": "136,670 people · Gelderland"
+    },
+    {
+      "name": "Borne",
+      "country": "NL",
+      "value": 18,
+      "detail": "23,877 people · Overijssel"
+    },
+    {
+      "name": "Gemert",
+      "country": "NL",
+      "value": 18,
+      "detail": "15,995 people · North Brabant"
+    },
+    {
+      "name": "Hengelo",
+      "country": "NL",
+      "value": 18,
+      "detail": "82,311 people · Overijssel"
+    },
+    {
+      "name": "Putten",
+      "country": "NL",
+      "value": 18,
+      "detail": "23,168 people · Gelderland"
+    },
+    {
+      "name": "Tongelre",
+      "country": "NL",
+      "value": 18,
+      "detail": "19,680 people · North Brabant"
+    },
+    {
+      "name": "Uden",
+      "country": "NL",
+      "value": 18,
+      "detail": "34,601 people · North Brabant"
+    },
+    {
+      "name": "Best",
+      "country": "NL",
+      "value": 17,
+      "detail": "29,074 people · North Brabant"
+    },
+    {
+      "name": "Doetinchem",
+      "country": "NL",
+      "value": 17,
+      "detail": "49,906 people · Gelderland"
+    },
+    {
+      "name": "Goirle",
+      "country": "NL",
+      "value": 17,
+      "detail": "22,646 people · North Brabant"
+    },
+    {
+      "name": "Rijssen",
+      "country": "NL",
+      "value": 16,
+      "detail": "27,740 people · Overijssel"
+    },
+    {
+      "name": "Tilburg",
+      "country": "NL",
+      "value": 16,
+      "detail": "221,947 people · North Brabant"
+    }
+  ]
+}

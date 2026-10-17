@@ -1,0 +1,134 @@
+{
+  "id": "tj-research-h-index",
+  "title": "Universities by Research h-index in Tajikistan",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TJ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:38.493Z",
+  "items": [
+    {
+      "name": "Academy of Sciences of the Republic of Tajikistan",
+      "country": "TJ",
+      "value": 88,
+      "detail": "2,614 works"
+    },
+    {
+      "name": "Tajik State Medical University",
+      "country": "TJ",
+      "value": 46,
+      "detail": "1,227 works"
+    },
+    {
+      "name": "Technological University of Tajikistan",
+      "country": "TJ",
+      "value": 27,
+      "detail": "831 works"
+    },
+    {
+      "name": "Tajik Technical University named after academic M.S.Osimi",
+      "country": "TJ",
+      "value": 23,
+      "detail": "693 works"
+    },
+    {
+      "name": "Tajik National University",
+      "country": "TJ",
+      "value": 22,
+      "detail": "1,114 works"
+    },
+    {
+      "name": "Tajik Agrarian University Shirinsho Shotemur",
+      "country": "TJ",
+      "value": 20,
+      "detail": "234 works"
+    },
+    {
+      "name": "Moscow State University",
+      "country": "TJ",
+      "value": 19,
+      "detail": "277 works"
+    },
+    {
+      "name": "Finance and Economics Institute of Tajikistan",
+      "country": "TJ",
+      "value": 11,
+      "detail": "64 works"
+    },
+    {
+      "name": "Khujand State University",
+      "country": "TJ",
+      "value": 11,
+      "detail": "459 works"
+    },
+    {
+      "name": "Tajik State Pedagogical University",
+      "country": "TJ",
+      "value": 10,
+      "detail": "210 works"
+    },
+    {
+      "name": "Russian-Tajik Slavonic University",
+      "country": "TJ",
+      "value": 8,
+      "detail": "224 works"
+    },
+    {
+      "name": "Tajik State University of Commerce",
+      "country": "TJ",
+      "value": 7,
+      "detail": "113 works"
+    },
+    {
+      "name": "Khatlon State Medical University",
+      "country": "TJ",
+      "value": 3,
+      "detail": "28 works"
+    },
+    {
+      "name": "Tajik State University of Law Business and Politics",
+      "country": "TJ",
+      "value": 2,
+      "detail": "87 works"
+    },
+    {
+      "name": "Kulyab State University named after Abuabdullo Rudaki",
+      "country": "TJ",
+      "value": 1,
+      "detail": "20 works"
+    },
+    {
+      "name": "Tajik National Conservatory",
+      "country": "TJ",
+      "value": 1,
+      "detail": "5 works"
+    },
+    {
+      "name": "Tajik Pedagogical Institute in the Rasht District",
+      "country": "TJ",
+      "value": 1,
+      "detail": "4 works"
+    },
+    {
+      "name": "Tajik State Institute of Languages",
+      "country": "TJ",
+      "value": 1,
+      "detail": "15 works"
+    }
+  ]
+}

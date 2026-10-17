@@ -1,0 +1,122 @@
+{
+  "id": "gn-longest-runways",
+  "title": "Longest Airport Runways in Guinea",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Guinea ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Ahmed Sékou Touré International Airport",
+      "country": "GN",
+      "value": 3299.76,
+      "detail": "Conakry · 10,826 ft · ASP"
+    },
+    {
+      "name": "Kankan Airport",
+      "country": "GN",
+      "value": 3000.15,
+      "detail": "Kankan · 9,843 ft · ASP/GVL"
+    },
+    {
+      "name": "Tata Airport",
+      "country": "GN",
+      "value": 3000.15,
+      "detail": "Labé · 9,843 ft · dirt"
+    },
+    {
+      "name": "Faranah Airport",
+      "country": "GN",
+      "value": 2314.96,
+      "detail": "Faranah · 7,595 ft · ASP"
+    },
+    {
+      "name": "Beyla Airport",
+      "country": "GN",
+      "value": 1828.8,
+      "detail": "Beyla · 6,000 ft · asphalt"
+    },
+    {
+      "name": "Kissidougou Airport",
+      "country": "GN",
+      "value": 1805.03,
+      "detail": "Kissidougou · 5,922 ft · dirt"
+    },
+    {
+      "name": "Fria Airport",
+      "country": "GN",
+      "value": 1599.9,
+      "detail": "Fria · 5,249 ft · ASP"
+    },
+    {
+      "name": "Gbenko Airport",
+      "country": "GN",
+      "value": 1599.9,
+      "detail": "Banankoro · 5,249 ft · dirt"
+    },
+    {
+      "name": "Kawass Airport",
+      "country": "GN",
+      "value": 1559.97,
+      "detail": "Port Kamsar · 5,118 ft · ASP"
+    },
+    {
+      "name": "Boké Baralande Airport",
+      "country": "GN",
+      "value": 1539.85,
+      "detail": "Boké · 5,052 ft · dirt"
+    },
+    {
+      "name": "Macenta Airport",
+      "country": "GN",
+      "value": 1499.92,
+      "detail": "Macenta · 4,921 ft · GRS"
+    },
+    {
+      "name": "Nzérékoré Airport",
+      "country": "GN",
+      "value": 1499.92,
+      "detail": "Nzérékoré · 4,921 ft · dirt"
+    },
+    {
+      "name": "Sambailo Airport",
+      "country": "GN",
+      "value": 1499.92,
+      "detail": "Koundara · 4,921 ft · dirt"
+    },
+    {
+      "name": "Siguiri Airport",
+      "country": "GN",
+      "value": 1495.04,
+      "detail": "Siguiri · 4,905 ft · GVL"
+    },
+    {
+      "name": "Loila Airport",
+      "country": "GN",
+      "value": 1414.88,
+      "detail": "Loila · 4,642 ft · ASP"
+    },
+    {
+      "name": "Sangarédi Airport",
+      "country": "GN",
+      "value": 1150.01,
+      "detail": "Sangarédi · 3,773 ft · dirt"
+    }
+  ]
+}

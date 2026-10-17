@@ -1,0 +1,326 @@
+{
+  "id": "it-airports-by-elevation",
+  "title": "Highest Airports in Italy",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Italy ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:33.612Z",
+  "items": [
+    {
+      "name": "Rutor Glacier Altiport",
+      "country": "IT",
+      "value": 3300.98,
+      "detail": "La Thuile (AO) · 10,830 ft above sea level"
+    },
+    {
+      "name": "Passo del Tonale Airfield",
+      "country": "IT",
+      "value": 1996.44,
+      "detail": "Vermiglio (TN) · 6,550 ft above sea level"
+    },
+    {
+      "name": "Casera Razzo Altiport",
+      "country": "IT",
+      "value": 1757.48,
+      "detail": "Vigo di Cadore (BL) · 5,766 ft above sea level"
+    },
+    {
+      "name": "Chamois Altiport",
+      "country": "IT",
+      "value": 1706.88,
+      "detail": "Chamois (AO) · 5,600 ft above sea level"
+    },
+    {
+      "name": "Meggiana Altiport",
+      "country": "IT",
+      "value": 1628.85,
+      "detail": "Piode (VC) · 5,344 ft above sea level"
+    },
+    {
+      "name": "campo di volo Pian Mune'",
+      "country": "IT",
+      "value": 1495.04,
+      "detail": "paesana · 4,905 ft above sea level"
+    },
+    {
+      "name": "Franca Airfield",
+      "country": "IT",
+      "value": 1338.99,
+      "detail": "Cotronei (KR) · 4,393 ft above sea level"
+    },
+    {
+      "name": "San Genesio Airfield",
+      "country": "IT",
+      "value": 1298.14,
+      "detail": "San Genesio · 4,259 ft above sea level"
+    },
+    {
+      "name": "Piana Cinque Miglia Airfield",
+      "country": "IT",
+      "value": 1257.91,
+      "detail": "Rocca Pia (AQ) · 4,127 ft above sea level"
+    },
+    {
+      "name": "Dobbiaco-Toblach Airstrip",
+      "country": "IT",
+      "value": 1239.93,
+      "detail": "Toblach (Dobbiaco) (BZ) · 4,068 ft above sea level"
+    },
+    {
+      "name": "Asiago Romeo Sartori Airfield",
+      "country": "IT",
+      "value": 1039.06,
+      "detail": "Asiago (VI) · 3,409 ft above sea level"
+    },
+    {
+      "name": "Zampieri Airfield",
+      "country": "IT",
+      "value": 1000.05,
+      "detail": "Enemonzo (UD) · 3,281 ft above sea level"
+    },
+    {
+      "name": "Sterzing / Vipiteno Airfield",
+      "country": "IT",
+      "value": 949.76,
+      "detail": "Vipiteno (BZ) · 3,116 ft above sea level"
+    },
+    {
+      "name": "Vervò Airfield",
+      "country": "IT",
+      "value": 938.78,
+      "detail": "Vervò (TN) · 3,080 ft above sea level"
+    },
+    {
+      "name": "Pianon Altiport",
+      "country": "IT",
+      "value": 914.7,
+      "detail": "Alpago (BL) · 3,001 ft above sea level"
+    },
+    {
+      "name": "Locher Field",
+      "country": "IT",
+      "value": 914.4,
+      "detail": "Sarentino (BZ) · 3,000 ft above sea level"
+    },
+    {
+      "name": "Santa Rita Airfield",
+      "country": "IT",
+      "value": 883.92,
+      "detail": "Cascia (PG) · 2,900 ft above sea level"
+    },
+    {
+      "name": "VolAvisio Airfield",
+      "country": "IT",
+      "value": 859.54,
+      "detail": "Cavalese (TN) · 2,820 ft above sea level"
+    },
+    {
+      "name": "Aviosuperficie Maletto Fly",
+      "country": "IT",
+      "value": 840.03,
+      "detail": "Maletto (CT) · 2,756 ft above sea level"
+    },
+    {
+      "name": "Pantano Airfield",
+      "country": "IT",
+      "value": 800.1,
+      "detail": "Pignola (PZ) · 2,625 ft above sea level"
+    },
+    {
+      "name": "Aviosuperficie Loelle",
+      "country": "IT",
+      "value": 791.87,
+      "detail": "Buddusò (SS) · 2,598 ft above sea level"
+    },
+    {
+      "name": "Campo di Volo Pietralunga",
+      "country": "IT",
+      "value": 689.76,
+      "detail": "Pietralunga (PG) · 2,263 ft above sea level"
+    },
+    {
+      "name": "Pavullo Airfield",
+      "country": "IT",
+      "value": 683.97,
+      "detail": "Pavullo (MO) · 2,244 ft above sea level"
+    },
+    {
+      "name": "Celano Airfield",
+      "country": "IT",
+      "value": 680.92,
+      "detail": "Celano (AQ) · 2,234 ft above sea level"
+    },
+    {
+      "name": "Termon Altiport",
+      "country": "IT",
+      "value": 680.01,
+      "detail": "Campodenno (TN) · 2,231 ft above sea level"
+    },
+    {
+      "name": "L'Aquila–Preturo Airport",
+      "country": "IT",
+      "value": 673.91,
+      "detail": "L'Aquila · 2,211 ft above sea level"
+    },
+    {
+      "name": "Conca del Re Airfield",
+      "country": "IT",
+      "value": 667.51,
+      "detail": "Castrovillari (CS) · 2,190 ft above sea level"
+    },
+    {
+      "name": "Balbido Ultralight Airfield",
+      "country": "IT",
+      "value": 663.24,
+      "detail": "Fiavè (TN) · 2,176 ft above sea level"
+    },
+    {
+      "name": "Grumentum Airfield",
+      "country": "IT",
+      "value": 611.73,
+      "detail": "Grumento Nova (PZ) · 2,007 ft above sea level"
+    },
+    {
+      "name": "Aviosuperficie \"Il Pratone\"",
+      "country": "IT",
+      "value": 576.99,
+      "detail": "Carsoli (AQ) · 1,893 ft above sea level"
+    },
+    {
+      "name": "Aliquirra Airfield",
+      "country": "IT",
+      "value": 573.94,
+      "detail": "Perdasdefogu (OG) · 1,883 ft above sea level"
+    },
+    {
+      "name": "L'Aquila Airfield",
+      "country": "IT",
+      "value": 570.89,
+      "detail": "Poggio Picenze (AQ) · 1,873 ft above sea level"
+    },
+    {
+      "name": "Ali Calabria Airfield",
+      "country": "IT",
+      "value": 569.98,
+      "detail": "Rombiolo (VV) · 1,870 ft above sea level"
+    },
+    {
+      "name": "San Dalmazio Airfield",
+      "country": "IT",
+      "value": 569.98,
+      "detail": "Serramazzoni  (MO) · 1,870 ft above sea level"
+    },
+    {
+      "name": "Alfina Airfield",
+      "country": "IT",
+      "value": 551.99,
+      "detail": "Torre Alfina (TR) · 1,811 ft above sea level"
+    },
+    {
+      "name": "Aosta Corrado Gex Airport",
+      "country": "IT",
+      "value": 545.9,
+      "detail": "Saint-Christophe (AO) · 1,791 ft above sea level"
+    },
+    {
+      "name": "Campo di Volo Cavola",
+      "country": "IT",
+      "value": 538.89,
+      "detail": "Toano (RE) · 1,768 ft above sea level"
+    },
+    {
+      "name": "Volo Molise",
+      "country": "IT",
+      "value": 529.74,
+      "detail": "Campochiaro (CB) · 1,738 ft above sea level"
+    },
+    {
+      "name": "Alino Airfield",
+      "country": "IT",
+      "value": 527,
+      "detail": "Faedo (TN) · 1,729 ft above sea level"
+    },
+    {
+      "name": "San Terenziano Airfield",
+      "country": "IT",
+      "value": 511.76,
+      "detail": "Gualdo Cattaneo (PG) · 1,679 ft above sea level"
+    },
+    {
+      "name": "Tignes Airfield",
+      "country": "IT",
+      "value": 510.84,
+      "detail": "Alpago (BL) · 1,676 ft above sea level"
+    },
+    {
+      "name": "Base Aerea Molise",
+      "country": "IT",
+      "value": 508.71,
+      "detail": "Campochiaro (CB) · 1,669 ft above sea level"
+    },
+    {
+      "name": "Ceraso Airfield/Aero Club I Templari",
+      "country": "IT",
+      "value": 494.08,
+      "detail": "Altamura (BA) · 1,621 ft above sea level"
+    },
+    {
+      "name": "Bosio Guido Airfield",
+      "country": "IT",
+      "value": 457.2,
+      "detail": "Castelletto Stura (CN) · 1,500 ft above sea level"
+    },
+    {
+      "name": "Chatelair Airfield",
+      "country": "IT",
+      "value": 457.2,
+      "detail": "Nus (AO) · 1,500 ft above sea level"
+    },
+    {
+      "name": "Avioclub Ereo Airfield",
+      "country": "IT",
+      "value": 452.02,
+      "detail": "Grammichele (CT) · 1,483 ft above sea level"
+    },
+    {
+      "name": "Alpi Marittime Airfield",
+      "country": "IT",
+      "value": 444.09,
+      "detail": "Pianfei (CN) · 1,457 ft above sea level"
+    },
+    {
+      "name": "Campo di Volo Borgotaro Albareto",
+      "country": "IT",
+      "value": 441.96,
+      "detail": "Albareto (PR) · 1,450 ft above sea level"
+    },
+    {
+      "name": "Giancarlo Filippi Airfield",
+      "country": "IT",
+      "value": 430.07,
+      "detail": "Mondovì (CN) · 1,411 ft above sea level"
+    },
+    {
+      "name": "Marc Ingegno Airfield",
+      "country": "IT",
+      "value": 430.07,
+      "detail": "Varallo (VC) · 1,411 ft above sea level"
+    }
+  ]
+}

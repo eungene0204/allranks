@@ -1,0 +1,326 @@
+{
+  "id": "be-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Belgium",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:26.867Z",
+  "items": [
+    {
+      "name": "ECAM Institut Supérieur Industriel",
+      "country": "BE",
+      "value": 12,
+      "detail": "90 works"
+    },
+    {
+      "name": "University of Antwerp",
+      "country": "BE",
+      "value": 9.1787,
+      "detail": "96,318 works"
+    },
+    {
+      "name": "Leuven Stem Cell Institute",
+      "country": "BE",
+      "value": 6.3174,
+      "detail": "424 works"
+    },
+    {
+      "name": "University College West Flanders",
+      "country": "BE",
+      "value": 5.6957,
+      "detail": "275 works"
+    },
+    {
+      "name": "Gembloux Agro-Bio Tech",
+      "country": "BE",
+      "value": 5.0367,
+      "detail": "12,812 works"
+    },
+    {
+      "name": "Haute École Provinciale de Hainaut Condorcet",
+      "country": "BE",
+      "value": 4.7016,
+      "detail": "257 works"
+    },
+    {
+      "name": "KU Leuven",
+      "country": "BE",
+      "value": 4.6779,
+      "detail": "314,095 works"
+    },
+    {
+      "name": "Antwerp Maritime Academy",
+      "country": "BE",
+      "value": 4.6742,
+      "detail": "291 works"
+    },
+    {
+      "name": "Stichting tegen Kanker",
+      "country": "BE",
+      "value": 4.5556,
+      "detail": "29 works"
+    },
+    {
+      "name": "Université Libre de Bruxelles",
+      "country": "BE",
+      "value": 4.2997,
+      "detail": "113,601 works"
+    },
+    {
+      "name": "Brussels School of Governance",
+      "country": "BE",
+      "value": 4.2798,
+      "detail": "286 works"
+    },
+    {
+      "name": "UCLouvain",
+      "country": "BE",
+      "value": 4.2574,
+      "detail": "141,779 works"
+    },
+    {
+      "name": "Hogeschool PXL",
+      "country": "BE",
+      "value": 4.254,
+      "detail": "295 works"
+    },
+    {
+      "name": "Ghent University",
+      "country": "BE",
+      "value": 4.1992,
+      "detail": "215,451 works"
+    },
+    {
+      "name": "Vrije Universiteit Brussel",
+      "country": "BE",
+      "value": 4.0695,
+      "detail": "100,626 works"
+    },
+    {
+      "name": "Thomas More Kempen",
+      "country": "BE",
+      "value": 3.7168,
+      "detail": "610 works"
+    },
+    {
+      "name": "Hasselt University",
+      "country": "BE",
+      "value": 3.561,
+      "detail": "23,066 works"
+    },
+    {
+      "name": "ORSI Academy",
+      "country": "BE",
+      "value": 3.3638,
+      "detail": "500 works"
+    },
+    {
+      "name": "University of Namur",
+      "country": "BE",
+      "value": 3.0675,
+      "detail": "18,979 works"
+    },
+    {
+      "name": "Royal Conservatory of Brussels",
+      "country": "BE",
+      "value": 3.0417,
+      "detail": "267 works"
+    },
+    {
+      "name": "Haute École de Bruxelles",
+      "country": "BE",
+      "value": 3.0319,
+      "detail": "306 works"
+    },
+    {
+      "name": "Vlerick Business School",
+      "country": "BE",
+      "value": 2.9491,
+      "detail": "1,627 works"
+    },
+    {
+      "name": "Artevelde University College Ghent",
+      "country": "BE",
+      "value": 2.7063,
+      "detail": "469 works"
+    },
+    {
+      "name": "Haute École Léonard de Vinci",
+      "country": "BE",
+      "value": 2.622,
+      "detail": "254 works"
+    },
+    {
+      "name": "Royal Military Academy",
+      "country": "BE",
+      "value": 2.4291,
+      "detail": "3,272 works"
+    },
+    {
+      "name": "University of Liège",
+      "country": "BE",
+      "value": 2.2752,
+      "detail": "281,354 works"
+    },
+    {
+      "name": "Katholieke Hogeschool Vives",
+      "country": "BE",
+      "value": 2.0135,
+      "detail": "417 works"
+    },
+    {
+      "name": "Haute École Galilée",
+      "country": "BE",
+      "value": 2,
+      "detail": "45 works"
+    },
+    {
+      "name": "Antwerp Management School",
+      "country": "BE",
+      "value": 1.9956,
+      "detail": "877 works"
+    },
+    {
+      "name": "HOGENT University of Applied Sciences and Arts",
+      "country": "BE",
+      "value": 1.9418,
+      "detail": "2,597 works"
+    },
+    {
+      "name": "Artesis Plantijn Hogeschool Antwerpen",
+      "country": "BE",
+      "value": 1.9286,
+      "detail": "297 works"
+    },
+    {
+      "name": "Karel de Grote Hogeschool",
+      "country": "BE",
+      "value": 1.9099,
+      "detail": "358 works"
+    },
+    {
+      "name": "Haute École Charlemagne",
+      "country": "BE",
+      "value": 1.8,
+      "detail": "66 works"
+    },
+    {
+      "name": "PharmaTrain Federation",
+      "country": "BE",
+      "value": 1.75,
+      "detail": "6 works"
+    },
+    {
+      "name": "École de Recherche Graphique",
+      "country": "BE",
+      "value": 1.6667,
+      "detail": "13 works"
+    },
+    {
+      "name": "Transnational University Limburg",
+      "country": "BE",
+      "value": 1.6316,
+      "detail": "1,587 works"
+    },
+    {
+      "name": "Erasmus Brussels University of Applied Sciences and Arts",
+      "country": "BE",
+      "value": 1.6279,
+      "detail": "1,099 works"
+    },
+    {
+      "name": "Odisee, University of Applied Sciences",
+      "country": "BE",
+      "value": 1.5825,
+      "detail": "671 works"
+    },
+    {
+      "name": "University Colleges Leuven-Limburg",
+      "country": "BE",
+      "value": 1.5133,
+      "detail": "350 works"
+    },
+    {
+      "name": "Brussels Management School",
+      "country": "BE",
+      "value": 1.3889,
+      "detail": "206 works"
+    },
+    {
+      "name": "College of Europe",
+      "country": "BE",
+      "value": 1.3333,
+      "detail": "1,415 works"
+    },
+    {
+      "name": "Haute École de la Province de Liège",
+      "country": "BE",
+      "value": 1.3,
+      "detail": "146 works"
+    },
+    {
+      "name": "Centre d’Economie rurale",
+      "country": "BE",
+      "value": 1.25,
+      "detail": "167 works"
+    },
+    {
+      "name": "Technopolis",
+      "country": "BE",
+      "value": 1.1923,
+      "detail": "53 works"
+    },
+    {
+      "name": "Vesalius College",
+      "country": "BE",
+      "value": 1.1429,
+      "detail": "343 works"
+    },
+    {
+      "name": "University of Mons",
+      "country": "BE",
+      "value": 0.9756,
+      "detail": "53,733 works"
+    },
+    {
+      "name": "LUCA School of Arts",
+      "country": "BE",
+      "value": 0.9545,
+      "detail": "295 works"
+    },
+    {
+      "name": "Haute École de la Province de Namur",
+      "country": "BE",
+      "value": 0.9091,
+      "detail": "18 works"
+    },
+    {
+      "name": "Haute École Libre de Bruxelles Ilya Prigogine",
+      "country": "BE",
+      "value": 0.9048,
+      "detail": "90 works"
+    },
+    {
+      "name": "St John Berchmans University College",
+      "country": "BE",
+      "value": 0.8889,
+      "detail": "93 works"
+    }
+  ]
+}

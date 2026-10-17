@@ -1,0 +1,116 @@
+{
+  "id": "zm-longest-runways",
+  "title": "Longest Airport Runways in Zambia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Zambia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ZM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.583Z",
+  "items": [
+    {
+      "name": "Kenneth Kaunda International Airport",
+      "country": "ZM",
+      "value": 3961.79,
+      "detail": "Lusaka · 12,998 ft · ASP"
+    },
+    {
+      "name": "Simon Mwansa Kapwepwe International Airport",
+      "country": "ZM",
+      "value": 3500.02,
+      "detail": "Ndola · 11,483 ft · ASP"
+    },
+    {
+      "name": "Harry Mwanga Nkumbula International Airport",
+      "country": "ZM",
+      "value": 3000.15,
+      "detail": "Livingstone · 9,843 ft · ASP"
+    },
+    {
+      "name": "Solwesi Airport",
+      "country": "ZM",
+      "value": 2699.92,
+      "detail": "Solwesi · 8,858 ft · ASP"
+    },
+    {
+      "name": "Peter Zuze Air Force Base",
+      "country": "ZM",
+      "value": 2514.6,
+      "detail": "Ndola · 8,250 ft · CON"
+    },
+    {
+      "name": "Mfuwe International Airport",
+      "country": "ZM",
+      "value": 2239.98,
+      "detail": "Mfuwe · 7,349 ft · ASP"
+    },
+    {
+      "name": "Lusaka City Airport",
+      "country": "ZM",
+      "value": 2009.85,
+      "detail": "Lusaka · 6,594 ft · ASP"
+    },
+    {
+      "name": "Southdowns Airport",
+      "country": "ZM",
+      "value": 2000.1,
+      "detail": "Kitwe · 6,562 ft · ASP"
+    },
+    {
+      "name": "Kasama Airport",
+      "country": "ZM",
+      "value": 1873.91,
+      "detail": "Kasama · 6,148 ft · Gravel"
+    },
+    {
+      "name": "Royal Zambezi Lodge Airstrip",
+      "country": "ZM",
+      "value": 1698.96,
+      "detail": "Lower Zambezi River · 5,574 ft"
+    },
+    {
+      "name": "Chipata Airport",
+      "country": "ZM",
+      "value": 1470.05,
+      "detail": "Chipata · 4,823 ft · UNK"
+    },
+    {
+      "name": "Mongu Airport",
+      "country": "ZM",
+      "value": 1463.04,
+      "detail": "Mongu · 4,800 ft · BRI"
+    },
+    {
+      "name": "Kasompe Airport",
+      "country": "ZM",
+      "value": 1431.95,
+      "detail": "Chingola · 4,698 ft · ASP"
+    },
+    {
+      "name": "Isoka Airport",
+      "country": "ZM",
+      "value": 1341.12,
+      "detail": "Isoka · 4,400 ft · Dirt"
+    },
+    {
+      "name": "Jeki Airport",
+      "country": "ZM",
+      "value": 985.11,
+      "detail": "Jeki · 3,232 ft"
+    }
+  ]
+}

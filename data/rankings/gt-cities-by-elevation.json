@@ -1,0 +1,326 @@
+{
+  "id": "gt-cities-by-elevation",
+  "title": "Highest Major Cities in Guatemala",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Guatemala with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.535Z",
+  "items": [
+    {
+      "name": "San Francisco El Alto",
+      "country": "GT",
+      "value": 2642,
+      "detail": "57,894 people · Totonicapán"
+    },
+    {
+      "name": "Cabricán",
+      "country": "GT",
+      "value": 2617,
+      "detail": "23,033 people · Quetzaltenango"
+    },
+    {
+      "name": "Ostuncalco",
+      "country": "GT",
+      "value": 2506,
+      "detail": "51,828 people · Quetzaltenango"
+    },
+    {
+      "name": "Totonicapán",
+      "country": "GT",
+      "value": 2499,
+      "detail": "103,952 people · Totonicapán"
+    },
+    {
+      "name": "Nahualá",
+      "country": "GT",
+      "value": 2467,
+      "detail": "27,690 people · Sololá"
+    },
+    {
+      "name": "La Esperanza",
+      "country": "GT",
+      "value": 2465,
+      "detail": "16,461 people · Quetzaltenango"
+    },
+    {
+      "name": "San Andrés Xecul",
+      "country": "GT",
+      "value": 2437,
+      "detail": "15,074 people · Totonicapán"
+    },
+    {
+      "name": "San Marcos",
+      "country": "GT",
+      "value": 2380,
+      "detail": "47,063 people · San Marcos"
+    },
+    {
+      "name": "Cantel",
+      "country": "GT",
+      "value": 2364,
+      "detail": "42,142 people · Quetzaltenango"
+    },
+    {
+      "name": "Quetzaltenango",
+      "country": "GT",
+      "value": 2351,
+      "detail": "180,706 people · Quetzaltenango"
+    },
+    {
+      "name": "Salcajá",
+      "country": "GT",
+      "value": 2322,
+      "detail": "19,434 people · Quetzaltenango"
+    },
+    {
+      "name": "San Pedro Sacatepéquez",
+      "country": "GT",
+      "value": 2321,
+      "detail": "40,021 people · San Marcos"
+    },
+    {
+      "name": "Tecpán Guatemala",
+      "country": "GT",
+      "value": 2292,
+      "detail": "34,519 people · Chimaltenango"
+    },
+    {
+      "name": "Comitancillo",
+      "country": "GT",
+      "value": 2271,
+      "detail": "59,489 people · San Marcos"
+    },
+    {
+      "name": "Soloma",
+      "country": "GT",
+      "value": 2270,
+      "detail": "49,030 people · Huehuetenango"
+    },
+    {
+      "name": "Patzún",
+      "country": "GT",
+      "value": 2229,
+      "detail": "58,240 people · Chimaltenango"
+    },
+    {
+      "name": "Momostenango",
+      "country": "GT",
+      "value": 2215,
+      "detail": "31,739 people · Totonicapán"
+    },
+    {
+      "name": "Patzicía",
+      "country": "GT",
+      "value": 2129,
+      "detail": "21,249 people · Chimaltenango"
+    },
+    {
+      "name": "Comalapa",
+      "country": "GT",
+      "value": 2115,
+      "detail": "32,312 people · Chimaltenango"
+    },
+    {
+      "name": "San Lucas Sacatepéquez",
+      "country": "GT",
+      "value": 2082,
+      "detail": "20,723 people · Sacatepéquez"
+    },
+    {
+      "name": "Chichicastenango",
+      "country": "GT",
+      "value": 2077,
+      "detail": "141,567 people · Quiché"
+    },
+    {
+      "name": "Santa María de Jesús",
+      "country": "GT",
+      "value": 2063,
+      "detail": "21,795 people · Sacatepéquez"
+    },
+    {
+      "name": "Zaragoza",
+      "country": "GT",
+      "value": 2062,
+      "detail": "24,022 people · Chimaltenango"
+    },
+    {
+      "name": "Sololá",
+      "country": "GT",
+      "value": 2044,
+      "detail": "45,373 people · Sololá"
+    },
+    {
+      "name": "Santiago Sacatepéquez",
+      "country": "GT",
+      "value": 2033,
+      "detail": "29,238 people · Sacatepéquez"
+    },
+    {
+      "name": "Santa Cruz del Quiché",
+      "country": "GT",
+      "value": 1979,
+      "detail": "78,279 people · Quiché"
+    },
+    {
+      "name": "Nebaj",
+      "country": "GT",
+      "value": 1909,
+      "detail": "23,301 people · Quiché"
+    },
+    {
+      "name": "Huehuetenango",
+      "country": "GT",
+      "value": 1907,
+      "detail": "79,426 people · Huehuetenango"
+    },
+    {
+      "name": "Sumpango",
+      "country": "GT",
+      "value": 1900,
+      "detail": "28,488 people · Sacatepéquez"
+    },
+    {
+      "name": "San Andrés Itzapa",
+      "country": "GT",
+      "value": 1842,
+      "detail": "24,992 people · Chimaltenango"
+    },
+    {
+      "name": "San Juan Sacatepéquez",
+      "country": "GT",
+      "value": 1842,
+      "detail": "136,886 people · Guatemala"
+    },
+    {
+      "name": "Chimaltenango",
+      "country": "GT",
+      "value": 1795,
+      "detail": "96,985 people · Chimaltenango"
+    },
+    {
+      "name": "El Tejar",
+      "country": "GT",
+      "value": 1766,
+      "detail": "15,639 people · Chimaltenango"
+    },
+    {
+      "name": "San José Pinula",
+      "country": "GT",
+      "value": 1752,
+      "detail": "79,844 people · Guatemala"
+    },
+    {
+      "name": "Mixco",
+      "country": "GT",
+      "value": 1726,
+      "detail": "465,773 people · Guatemala"
+    },
+    {
+      "name": "Fraijanes",
+      "country": "GT",
+      "value": 1641,
+      "detail": "58,922 people · Guatemala"
+    },
+    {
+      "name": "Santiago Atitlán",
+      "country": "GT",
+      "value": 1603,
+      "detail": "33,309 people · Sololá"
+    },
+    {
+      "name": "Antigua Guatemala",
+      "country": "GT",
+      "value": 1583,
+      "detail": "46,054 people · Sacatepéquez"
+    },
+    {
+      "name": "Jocotenango",
+      "country": "GT",
+      "value": 1542,
+      "detail": "17,918 people · Sacatepéquez"
+    },
+    {
+      "name": "Santa Catarina Pinula",
+      "country": "GT",
+      "value": 1538,
+      "detail": "80,582 people · Guatemala"
+    },
+    {
+      "name": "Ciudad Vieja",
+      "country": "GT",
+      "value": 1529,
+      "detail": "33,405 people · Sacatepéquez"
+    },
+    {
+      "name": "Guatemala City",
+      "country": "GT",
+      "value": 1508,
+      "detail": "994,938 people · Guatemala"
+    },
+    {
+      "name": "Jacaltenango",
+      "country": "GT",
+      "value": 1459,
+      "detail": "37,171 people · Huehuetenango"
+    },
+    {
+      "name": "Alotenango",
+      "country": "GT",
+      "value": 1405,
+      "detail": "23,986 people · Sacatepéquez"
+    },
+    {
+      "name": "San Cristóbal Verapaz",
+      "country": "GT",
+      "value": 1395,
+      "detail": "19,664 people · Alta Verapaz"
+    },
+    {
+      "name": "Yepocapa",
+      "country": "GT",
+      "value": 1394,
+      "detail": "34,948 people · Chimaltenango"
+    },
+    {
+      "name": "Palencia",
+      "country": "GT",
+      "value": 1368,
+      "detail": "18,574 people · Guatemala"
+    },
+    {
+      "name": "Jalapa",
+      "country": "GT",
+      "value": 1360,
+      "detail": "159,840 people · Jalapa"
+    },
+    {
+      "name": "Villa Nueva",
+      "country": "GT",
+      "value": 1331,
+      "detail": "618,397 people · Guatemala"
+    },
+    {
+      "name": "Cobán",
+      "country": "GT",
+      "value": 1326,
+      "detail": "212,047 people · Alta Verapaz"
+    }
+  ]
+}

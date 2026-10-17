@@ -1,0 +1,74 @@
+{
+  "id": "er-cities-by-elevation",
+  "title": "Highest Major Cities in Eritrea",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Eritrea with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ER",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.528Z",
+  "items": [
+    {
+      "name": "Asmara",
+      "country": "ER",
+      "value": 2334,
+      "detail": "563,930 people · Maekel"
+    },
+    {
+      "name": "Mendefera",
+      "country": "ER",
+      "value": 1977,
+      "detail": "17,781 people · Debub"
+    },
+    {
+      "name": "Keren",
+      "country": "ER",
+      "value": 1399,
+      "detail": "74,800 people · Anseba"
+    },
+    {
+      "name": "Barentu",
+      "country": "ER",
+      "value": 1009,
+      "detail": "15,891 people · Gash-Barka"
+    },
+    {
+      "name": "Af’abet",
+      "country": "ER",
+      "value": 977,
+      "detail": "35,673 people · Debub"
+    },
+    {
+      "name": "Himora",
+      "country": "ER",
+      "value": 585,
+      "detail": "46,100 people · Gash-Barka"
+    },
+    {
+      "name": "Assab",
+      "country": "ER",
+      "value": 22,
+      "detail": "21,300 people · Southern Red Sea"
+    },
+    {
+      "name": "Massawa",
+      "country": "ER",
+      "value": 9,
+      "detail": "23,100 people · Northern Red Sea"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "vc-airports-by-elevation",
+  "title": "Highest Airports in Saint Vincent and the Grenadines",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Saint Vincent and the Grenadines ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "VC",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.578Z",
+  "items": [
+    {
+      "name": "Argyle International Airport",
+      "country": "VC",
+      "value": 41.45,
+      "detail": "Kingstown · 136 ft above sea level"
+    },
+    {
+      "name": "Union Island International Airport",
+      "country": "VC",
+      "value": 4.88,
+      "detail": "Union Island · 16 ft above sea level"
+    },
+    {
+      "name": "J F Mitchell Airport",
+      "country": "VC",
+      "value": 4.57,
+      "detail": "Bequia · 15 ft above sea level"
+    },
+    {
+      "name": "Canouan Airport",
+      "country": "VC",
+      "value": 3.35,
+      "detail": "Canouan · 11 ft above sea level"
+    },
+    {
+      "name": "Mustique Airport",
+      "country": "VC",
+      "value": 2.44,
+      "detail": "Lovell · 8 ft above sea level"
+    }
+  ]
+}

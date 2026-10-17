@@ -1,0 +1,104 @@
+{
+  "id": "mu-cities-by-elevation",
+  "title": "Highest Major Cities in Mauritius",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Mauritius with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MU",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.551Z",
+  "items": [
+    {
+      "name": "Curepipe",
+      "country": "MU",
+      "value": 559,
+      "detail": "78,618 people · Plaines Wilhems"
+    },
+    {
+      "name": "Saint Pierre",
+      "country": "MU",
+      "value": 392,
+      "detail": "16,704 people · Moka"
+    },
+    {
+      "name": "Vacoas",
+      "country": "MU",
+      "value": 390,
+      "detail": "115,289 people · Plaines Wilhems"
+    },
+    {
+      "name": "Quatre Bornes",
+      "country": "MU",
+      "value": 335,
+      "detail": "77,308 people · Plaines Wilhems"
+    },
+    {
+      "name": "Beau Bassin-Rose Hill",
+      "country": "MU",
+      "value": 249,
+      "detail": "111,355 people · Plaines Wilhems"
+    },
+    {
+      "name": "Bambous",
+      "country": "MU",
+      "value": 122,
+      "detail": "17,818 people · Black River"
+    },
+    {
+      "name": "Bel Air Rivière Sèche",
+      "country": "MU",
+      "value": 78,
+      "detail": "18,036 people · Flacq"
+    },
+    {
+      "name": "Centre de Flacq",
+      "country": "MU",
+      "value": 53,
+      "detail": "17,710 people · Flacq"
+    },
+    {
+      "name": "Goodlands",
+      "country": "MU",
+      "value": 45,
+      "detail": "21,063 people · Rivière du Rempart"
+    },
+    {
+      "name": "Le Hochet",
+      "country": "MU",
+      "value": 35,
+      "detail": "15,662 people · Pamplemousses"
+    },
+    {
+      "name": "Triolet",
+      "country": "MU",
+      "value": 34,
+      "detail": "24,361 people · Pamplemousses"
+    },
+    {
+      "name": "Mahébourg",
+      "country": "MU",
+      "value": 26,
+      "detail": "17,042 people · Grand Port"
+    },
+    {
+      "name": "Port Louis",
+      "country": "MU",
+      "value": 3,
+      "detail": "155,226 people · Port Louis"
+    }
+  ]
+}

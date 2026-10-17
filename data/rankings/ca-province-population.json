@@ -1,0 +1,89 @@
+{
+  "id": "ca-province-population",
+  "title": "Canadian Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of the provinces and territories at the 2021 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2021,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Statistics Canada, 2021 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Population_of_Canada_by_province_and_territory",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:16:21.066Z",
+  "items": [
+    {
+      "name": "Ontario",
+      "country": "CA",
+      "value": 14.2239
+    },
+    {
+      "name": "Quebec",
+      "country": "CA",
+      "value": 8.5018
+    },
+    {
+      "name": "British Columbia",
+      "country": "CA",
+      "value": 5.0009
+    },
+    {
+      "name": "Alberta",
+      "country": "CA",
+      "value": 4.2626
+    },
+    {
+      "name": "Manitoba",
+      "country": "CA",
+      "value": 1.3422
+    },
+    {
+      "name": "Saskatchewan",
+      "country": "CA",
+      "value": 1.1325
+    },
+    {
+      "name": "Nova Scotia",
+      "country": "CA",
+      "value": 0.9694
+    },
+    {
+      "name": "New Brunswick",
+      "country": "CA",
+      "value": 0.7756
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "country": "CA",
+      "value": 0.5105
+    },
+    {
+      "name": "Prince Edward Island",
+      "country": "CA",
+      "value": 0.1543
+    },
+    {
+      "name": "Northwest Territories",
+      "country": "CA",
+      "value": 0.0411
+    },
+    {
+      "name": "Yukon",
+      "country": "CA",
+      "value": 0.0402
+    },
+    {
+      "name": "Nunavut",
+      "country": "CA",
+      "value": 0.0369
+    }
+  ]
+}

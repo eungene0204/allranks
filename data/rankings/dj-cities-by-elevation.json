@@ -1,0 +1,68 @@
+{
+  "id": "dj-cities-by-elevation",
+  "title": "Highest Major Cities in Djibouti",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Djibouti with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.524Z",
+  "items": [
+    {
+      "name": "Ali Sabih",
+      "country": "DJ",
+      "value": 699,
+      "detail": "50,006 people · Ali Sabieh"
+    },
+    {
+      "name": "Arta",
+      "country": "DJ",
+      "value": 684,
+      "detail": "17,477 people · Arta"
+    },
+    {
+      "name": "Dikhil",
+      "country": "DJ",
+      "value": 479,
+      "detail": "32,801 people · Dikhil"
+    },
+    {
+      "name": "Balbala",
+      "country": "DJ",
+      "value": 56,
+      "detail": "554,350 people · Djibouti"
+    },
+    {
+      "name": "Obock",
+      "country": "DJ",
+      "value": 13,
+      "detail": "15,429 people · Obock"
+    },
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 6,
+      "detail": "626,512 people · Djibouti"
+    },
+    {
+      "name": "Tadjoura",
+      "country": "DJ",
+      "value": 3,
+      "detail": "19,533 people · Tadjourah"
+    }
+  ]
+}

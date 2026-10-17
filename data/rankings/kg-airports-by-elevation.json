@@ -1,0 +1,134 @@
+{
+  "id": "kg-airports-by-elevation",
+  "title": "Highest Airports in Kyrgyzstan",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Kyrgyzstan ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.515Z",
+  "items": [
+    {
+      "name": "Naryn Airport",
+      "country": "KG",
+      "value": 2132.99,
+      "detail": "Naryn · 6,998 ft above sea level"
+    },
+    {
+      "name": "Tamga Airport",
+      "country": "KG",
+      "value": 1723.64,
+      "detail": "Tamga · 5,655 ft above sea level"
+    },
+    {
+      "name": "Karakol International Airport",
+      "country": "KG",
+      "value": 1703.83,
+      "detail": "Karakol · 5,590 ft above sea level"
+    },
+    {
+      "name": "Issyk-Kul International Airport",
+      "country": "KG",
+      "value": 1653.54,
+      "detail": "Tamchy · 5,425 ft above sea level"
+    },
+    {
+      "name": "Razzakov Airport",
+      "country": "KG",
+      "value": 1475.23,
+      "detail": "Isfana · 4,840 ft above sea level"
+    },
+    {
+      "name": "Kazarman Airport",
+      "country": "KG",
+      "value": 1310.03,
+      "detail": "Kazarman · 4,298 ft above sea level"
+    },
+    {
+      "name": "Kerben Airport",
+      "country": "KG",
+      "value": 1279.86,
+      "detail": "Kerben · 4,199 ft above sea level"
+    },
+    {
+      "name": "Talas Airport",
+      "country": "KG",
+      "value": 1265.83,
+      "detail": "Talas · 4,153 ft above sea level"
+    },
+    {
+      "name": "Baytik Airport",
+      "country": "KG",
+      "value": 1196.34,
+      "detail": "Baytik · 3,925 ft above sea level"
+    },
+    {
+      "name": "Batken Airport",
+      "country": "KG",
+      "value": 1097.89,
+      "detail": "Batken · 3,602 ft above sea level"
+    },
+    {
+      "name": "Toktogul Airport",
+      "country": "KG",
+      "value": 962.25,
+      "detail": "Toktogul · 3,157 ft above sea level"
+    },
+    {
+      "name": "Kyzyl-Kiya Airport",
+      "country": "KG",
+      "value": 892.45,
+      "detail": "Kyzyl-Kiya · 2,928 ft above sea level"
+    },
+    {
+      "name": "Osh International Airport",
+      "country": "KG",
+      "value": 892.15,
+      "detail": "Osh · 2,927 ft above sea level"
+    },
+    {
+      "name": "Tokmok Airport",
+      "country": "KG",
+      "value": 844.3,
+      "detail": "Tokmok · 2,770 ft above sea level"
+    },
+    {
+      "name": "Jalal-Abad Airport",
+      "country": "KG",
+      "value": 789.74,
+      "detail": "Jalal-Abad · 2,591 ft above sea level"
+    },
+    {
+      "name": "Kant Air Base",
+      "country": "KG",
+      "value": 776.94,
+      "detail": "Kant · 2,549 ft above sea level"
+    },
+    {
+      "name": "Chat-Kol Aerodrome",
+      "country": "KG",
+      "value": 648,
+      "detail": "Chat-Kol · 2,126 ft above sea level"
+    },
+    {
+      "name": "Manas International Airport",
+      "country": "KG",
+      "value": 627.28,
+      "detail": "Bishkek · 2,058 ft above sea level"
+    }
+  ]
+}

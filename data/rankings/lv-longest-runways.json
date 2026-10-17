@@ -1,0 +1,98 @@
+{
+  "id": "lv-longest-runways",
+  "title": "Longest Airport Runways in Latvia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Latvia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.520Z",
+  "items": [
+    {
+      "name": "Riga International Airport",
+      "country": "LV",
+      "value": 3200.1,
+      "detail": "Riga · 10,499 ft · ASP"
+    },
+    {
+      "name": "Lielvarde Air Base",
+      "country": "LV",
+      "value": 2499.97,
+      "detail": "Lielvarde · 8,202 ft · ASP"
+    },
+    {
+      "name": "Jūrmala Airport",
+      "country": "LV",
+      "value": 2498.45,
+      "detail": "Tukums · 8,197 ft · ASP"
+    },
+    {
+      "name": "Liepāja International Airport",
+      "country": "LV",
+      "value": 2001.93,
+      "detail": "Liepāja · 6,568 ft · ASP"
+    },
+    {
+      "name": "Ventspils International Airport",
+      "country": "LV",
+      "value": 1298.14,
+      "detail": "Ventspils · 4,259 ft · PEM"
+    },
+    {
+      "name": "Spilve Aerodrome",
+      "country": "LV",
+      "value": 1000.05,
+      "detail": "Riga · 3,281 ft · ASP"
+    },
+    {
+      "name": "Jēkabpils Air Base",
+      "country": "LV",
+      "value": 719.63,
+      "detail": "Jēkabpils · 2,361 ft · CON"
+    },
+    {
+      "name": "Ādaži Airfield",
+      "country": "LV",
+      "value": 649.22,
+      "detail": "Ādaži · 2,130 ft · A"
+    },
+    {
+      "name": "Lejasciems airfield",
+      "country": "LV",
+      "value": 510.24,
+      "detail": "\"Jaunkalmes\", Lejasciema pag., LV4412 · 1,674 ft · grass"
+    },
+    {
+      "name": "Talsi Airfield",
+      "country": "LV",
+      "value": 384.66,
+      "detail": "Talsi · 1,262 ft · ASP"
+    },
+    {
+      "name": "Limbaži Airfield",
+      "country": "LV",
+      "value": 381,
+      "detail": "Limbaži · 1,250 ft · ASP"
+    },
+    {
+      "name": "Grotūžis Airstrip",
+      "country": "LV",
+      "value": 349.91,
+      "detail": "Grotūžis · 1,148 ft · G"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "fi-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Finland",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "FI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:45.570Z",
+  "items": [
+    {
+      "name": "Haaga-Helia University of Applied Sciences",
+      "country": "FI",
+      "value": 5.3443,
+      "detail": "697 works"
+    },
+    {
+      "name": "University of Vaasa",
+      "country": "FI",
+      "value": 5.1307,
+      "detail": "7,960 works"
+    },
+    {
+      "name": "Aalto University",
+      "country": "FI",
+      "value": 4.555,
+      "detail": "65,774 works"
+    },
+    {
+      "name": "University of Oulu",
+      "country": "FI",
+      "value": 4.2846,
+      "detail": "73,630 works"
+    },
+    {
+      "name": "Hanken School of Economics",
+      "country": "FI",
+      "value": 3.9759,
+      "detail": "3,925 works"
+    },
+    {
+      "name": "University of Eastern Finland",
+      "country": "FI",
+      "value": 3.8986,
+      "detail": "59,107 works"
+    },
+    {
+      "name": "Åbo Akademi University",
+      "country": "FI",
+      "value": 3.8562,
+      "detail": "25,869 works"
+    },
+    {
+      "name": "Lappeenranta-Lahti University of Technology",
+      "country": "FI",
+      "value": 3.7731,
+      "detail": "22,145 works"
+    },
+    {
+      "name": "University of Helsinki",
+      "country": "FI",
+      "value": 3.6938,
+      "detail": "222,045 works"
+    },
+    {
+      "name": "University of Tampere",
+      "country": "FI",
+      "value": 3.6517,
+      "detail": "51,223 works"
+    },
+    {
+      "name": "Satakunta University of Applied Sciences",
+      "country": "FI",
+      "value": 3.616,
+      "detail": "3,398 works"
+    },
+    {
+      "name": "University of Turku",
+      "country": "FI",
+      "value": 3.2581,
+      "detail": "94,412 works"
+    },
+    {
+      "name": "Tampere University",
+      "country": "FI",
+      "value": 2.9419,
+      "detail": "49,790 works"
+    },
+    {
+      "name": "South Eastern Finland University of Applied Sciences",
+      "country": "FI",
+      "value": 2.7467,
+      "detail": "1,064 works"
+    },
+    {
+      "name": "University of Jyväskylä",
+      "country": "FI",
+      "value": 2.6828,
+      "detail": "56,542 works"
+    },
+    {
+      "name": "Teatterikorkeakoulu",
+      "country": "FI",
+      "value": 2.5385,
+      "detail": "97 works"
+    },
+    {
+      "name": "University of Lapland",
+      "country": "FI",
+      "value": 2.2704,
+      "detail": "5,273 works"
+    },
+    {
+      "name": "Novia University of Applied Sciences",
+      "country": "FI",
+      "value": 2.0335,
+      "detail": "822 works"
+    },
+    {
+      "name": "Häme University of Applied Sciences",
+      "country": "FI",
+      "value": 1.8764,
+      "detail": "1,098 works"
+    },
+    {
+      "name": "Tampere University of Technology",
+      "country": "FI",
+      "value": 1.6154,
+      "detail": "22,753 works"
+    },
+    {
+      "name": "Police University College",
+      "country": "FI",
+      "value": 1.5854,
+      "detail": "222 works"
+    },
+    {
+      "name": "Vaasa University of Applied Sciences",
+      "country": "FI",
+      "value": 1.5078,
+      "detail": "727 works"
+    },
+    {
+      "name": "Kajaani University of Applied Sciences",
+      "country": "FI",
+      "value": 1.4865,
+      "detail": "680 works"
+    },
+    {
+      "name": "Bank of Finland",
+      "country": "FI",
+      "value": 1.2068,
+      "detail": "2,275 works"
+    },
+    {
+      "name": "University of the Arts Helsinki",
+      "country": "FI",
+      "value": 1.026,
+      "detail": "945 works"
+    },
+    {
+      "name": "National Defence University",
+      "country": "FI",
+      "value": 1.0019,
+      "detail": "1,174 works"
+    },
+    {
+      "name": "Seinäjoki University of Applied Sciences",
+      "country": "FI",
+      "value": 0.9429,
+      "detail": "1,839 works"
+    },
+    {
+      "name": "LAB University of Applied Sciences",
+      "country": "FI",
+      "value": 0.7573,
+      "detail": "1,899 works"
+    },
+    {
+      "name": "Emergency Services College",
+      "country": "FI",
+      "value": 0.7353,
+      "detail": "90 works"
+    },
+    {
+      "name": "TTS Työtehoseura",
+      "country": "FI",
+      "value": 0.7333,
+      "detail": "38 works"
+    },
+    {
+      "name": "Lapland University of Applied Sciences",
+      "country": "FI",
+      "value": 0.7227,
+      "detail": "907 works"
+    },
+    {
+      "name": "Arcada University of Applied Sciences",
+      "country": "FI",
+      "value": 0.7164,
+      "detail": "1,599 works"
+    },
+    {
+      "name": "Karelia University of Applied Sciences",
+      "country": "FI",
+      "value": 0.6225,
+      "detail": "439 works"
+    },
+    {
+      "name": "Sibelius Academy",
+      "country": "FI",
+      "value": 0.6218,
+      "detail": "529 works"
+    },
+    {
+      "name": "Centria University of Applied Sciences",
+      "country": "FI",
+      "value": 0.4729,
+      "detail": "2,380 works"
+    },
+    {
+      "name": "JAMK University of Applied Sciences",
+      "country": "FI",
+      "value": 0.4367,
+      "detail": "3,538 works"
+    },
+    {
+      "name": "Oulu University of Applied Sciences",
+      "country": "FI",
+      "value": 0.3918,
+      "detail": "4,152 works"
+    },
+    {
+      "name": "Turku University of Applied Sciences",
+      "country": "FI",
+      "value": 0.3733,
+      "detail": "6,751 works"
+    },
+    {
+      "name": "Tampere University of Applied Sciences",
+      "country": "FI",
+      "value": 0.3667,
+      "detail": "7,191 works"
+    },
+    {
+      "name": "Savonia University of Applied Sciences",
+      "country": "FI",
+      "value": 0.2652,
+      "detail": "2,327 works"
+    },
+    {
+      "name": "Helsinki Metropolia University of Applied Sciences",
+      "country": "FI",
+      "value": 0.2454,
+      "detail": "5,897 works"
+    },
+    {
+      "name": "University Consortium of Pori",
+      "country": "FI",
+      "value": 0.2222,
+      "detail": "53 works"
+    },
+    {
+      "name": "Laurea University of Applied Sciences",
+      "country": "FI",
+      "value": 0.1793,
+      "detail": "9,247 works"
+    },
+    {
+      "name": "Diaconia University of Applied Sciences",
+      "country": "FI",
+      "value": 0.1709,
+      "detail": "1,622 works"
+    },
+    {
+      "name": "Kuvataideakatemia",
+      "country": "FI",
+      "value": 0.1429,
+      "detail": "36 works"
+    },
+    {
+      "name": "Humak University of Applied Sciences",
+      "country": "FI",
+      "value": 0.0863,
+      "detail": "625 works"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "si-cities-by-elevation",
+  "title": "Highest Major Cities in Slovenia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Slovenia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.563Z",
+  "items": [
+    {
+      "name": "Velenje",
+      "country": "SI",
+      "value": 428,
+      "detail": "24,327 people · Urban Municipality of Velenje"
+    },
+    {
+      "name": "Trbovlje",
+      "country": "SI",
+      "value": 409,
+      "detail": "15,163 people · Municipality of Trbovlje"
+    },
+    {
+      "name": "Kranj",
+      "country": "SI",
+      "value": 387,
+      "detail": "37,966 people · Urban Municipality of Kranj"
+    },
+    {
+      "name": "Ljubljana",
+      "country": "SI",
+      "value": 295,
+      "detail": "272,220 people · Ljubljana"
+    },
+    {
+      "name": "Maribor",
+      "country": "SI",
+      "value": 262,
+      "detail": "96,209 people · Urban Municipality of Maribor"
+    },
+    {
+      "name": "Celje",
+      "country": "SI",
+      "value": 240,
+      "detail": "38,059 people · Urban Municipality of Celje"
+    },
+    {
+      "name": "Ptuj",
+      "country": "SI",
+      "value": 237,
+      "detail": "17,984 people · Urban Municipality of Ptuj"
+    },
+    {
+      "name": "Novo Mesto",
+      "country": "SI",
+      "value": 187,
+      "detail": "24,446 people · Urban Municipality of Novo Mesto"
+    },
+    {
+      "name": "Koper",
+      "country": "SI",
+      "value": 12,
+      "detail": "25,753 people · Urban Municipality of Koper"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "ca-airports-by-elevation",
+  "title": "Highest Airports in Canada",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Canada ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:33.580Z",
+  "items": [
+    {
+      "name": "Ram Falls Airstrip",
+      "country": "CA",
+      "value": 1630.68,
+      "detail": "Clearwater · 5,350 ft above sea level"
+    },
+    {
+      "name": "Red Deer Forestry Airport",
+      "country": "CA",
+      "value": 1416.1,
+      "detail": "Clearwater · 4,646 ft above sea level"
+    },
+    {
+      "name": "Banff Airport",
+      "country": "CA",
+      "value": 1396.9,
+      "detail": "Banff · 4,583 ft above sea level"
+    },
+    {
+      "name": "Del Bonita / Whetstone International Airport",
+      "country": "CA",
+      "value": 1321.31,
+      "detail": "Del Bonita · 4,335 ft above sea level"
+    },
+    {
+      "name": "Anchor 9 Ranch Airport",
+      "country": "CA",
+      "value": 1300.28,
+      "detail": "Bottrel · 4,266 ft above sea level"
+    },
+    {
+      "name": "Turner Valley Bar N Ranch Airport",
+      "country": "CA",
+      "value": 1283.21,
+      "detail": "Turner Valley Bar N Ranch · 4,210 ft above sea level"
+    },
+    {
+      "name": "Kemess Creek Airport",
+      "country": "CA",
+      "value": 1277.42,
+      "detail": "Kemess Creek · 4,191 ft above sea level"
+    },
+    {
+      "name": "Clearwater River Airport",
+      "country": "CA",
+      "value": 1249.68,
+      "detail": "Caroline · 4,100 ft above sea level"
+    },
+    {
+      "name": "Elkin Creek Guest Ranch Airport",
+      "country": "CA",
+      "value": 1243.58,
+      "detail": "Elkin Creek · 4,080 ft above sea level"
+    },
+    {
+      "name": "Black Diamond/Flying R Ranch Airport",
+      "country": "CA",
+      "value": 1237.49,
+      "detail": "4,060 ft above sea level"
+    },
+    {
+      "name": "Jasper-Hinton Airport",
+      "country": "CA",
+      "value": 1221.03,
+      "detail": "Hinton · 4,006 ft above sea level"
+    },
+    {
+      "name": "Arkayla Springs Airport",
+      "country": "CA",
+      "value": 1219.2,
+      "detail": "Cochrane · 4,000 ft above sea level"
+    },
+    {
+      "name": "Tsuniah Lake Lodge Airport",
+      "country": "CA",
+      "value": 1219.2,
+      "detail": "Cariboo · 4,000 ft above sea level"
+    },
+    {
+      "name": "Scum Lake Airport",
+      "country": "CA",
+      "value": 1203.96,
+      "detail": "Scum Lake · 3,950 ft above sea level"
+    },
+    {
+      "name": "Calgary / Springbank Airport",
+      "country": "CA",
+      "value": 1200.91,
+      "detail": "Calgary · 3,940 ft above sea level"
+    },
+    {
+      "name": "Pincher Creek Airport",
+      "country": "CA",
+      "value": 1189.63,
+      "detail": "Pincher Creek · 3,903 ft above sea level"
+    },
+    {
+      "name": "Cardston Airport",
+      "country": "CA",
+      "value": 1184.76,
+      "detail": "Cardston · 3,887 ft above sea level"
+    },
+    {
+      "name": "Cowley Airport",
+      "country": "CA",
+      "value": 1181.4,
+      "detail": "Cowley · 3,876 ft above sea level"
+    },
+    {
+      "name": "Chilko Lake (Tsylos Park Lodge) Airport",
+      "country": "CA",
+      "value": 1173.48,
+      "detail": "Chilko Lake · 3,850 ft above sea level"
+    },
+    {
+      "name": "Calgary / Christiansen Field",
+      "country": "CA",
+      "value": 1164.34,
+      "detail": "Calgary · 3,820 ft above sea level"
+    },
+    {
+      "name": "Macmillan Pass Airport",
+      "country": "CA",
+      "value": 1161.29,
+      "detail": "Macmillan Pass · 3,810 ft above sea level"
+    },
+    {
+      "name": "Calgary / Okotoks (Rowland Field)",
+      "country": "CA",
+      "value": 1158.24,
+      "detail": "Calgary · 3,800 ft above sea level"
+    },
+    {
+      "name": "Sparwood Elk Valley Airport",
+      "country": "CA",
+      "value": 1158.24,
+      "detail": "Sparwood · 3,800 ft above sea level"
+    },
+    {
+      "name": "Nimpo Lake Resort Airport",
+      "country": "CA",
+      "value": 1140.87,
+      "detail": "Nimpo Lake · 3,743 ft above sea level"
+    },
+    {
+      "name": "Cu Nim Airport",
+      "country": "CA",
+      "value": 1127.76,
+      "detail": "Black Diamond · 3,700 ft above sea level"
+    },
+    {
+      "name": "Sundre / Goodwins Farm Airport",
+      "country": "CA",
+      "value": 1127.76,
+      "detail": "Sundre · 3,700 ft above sea level"
+    },
+    {
+      "name": "Beck Farm Airport",
+      "country": "CA",
+      "value": 1126.24,
+      "detail": "Hillspring · 3,695 ft above sea level"
+    },
+    {
+      "name": "Clinton/Bleibler Ranch Aerodrome",
+      "country": "CA",
+      "value": 1126.24,
+      "detail": "Clinton · 3,695 ft above sea level"
+    },
+    {
+      "name": "Sundre Airport",
+      "country": "CA",
+      "value": 1114.35,
+      "detail": "Sundre · 3,656 ft above sea level"
+    },
+    {
+      "name": "Echo Valley Airport",
+      "country": "CA",
+      "value": 1112.52,
+      "detail": "Clinton · 3,650 ft above sea level"
+    },
+    {
+      "name": "Airdrie Aerodrome",
+      "country": "CA",
+      "value": 1111.91,
+      "detail": "Airdrie · 3,648 ft above sea level"
+    },
+    {
+      "name": "Penfold Airstrip",
+      "country": "CA",
+      "value": 1110.08,
+      "detail": "3,642 ft above sea level"
+    },
+    {
+      "name": "Anahim Lake Airport",
+      "country": "CA",
+      "value": 1107.95,
+      "detail": "Anahim Lake · 3,635 ft above sea level"
+    },
+    {
+      "name": "Cassiar Aerodrome",
+      "country": "CA",
+      "value": 1102.77,
+      "detail": "Cassiar · 3,618 ft above sea level"
+    },
+    {
+      "name": "Calgary / Okotoks Air Park",
+      "country": "CA",
+      "value": 1097.58,
+      "detail": "Calgary · 3,601 ft above sea level"
+    },
+    {
+      "name": "Calgary International Airport",
+      "country": "CA",
+      "value": 1084.17,
+      "detail": "Calgary · 3,557 ft above sea level"
+    },
+    {
+      "name": "Green Lake Airport",
+      "country": "CA",
+      "value": 1082.04,
+      "detail": "Green Lake · 3,550 ft above sea level"
+    },
+    {
+      "name": "Ross International Airport",
+      "country": "CA",
+      "value": 1082.04,
+      "detail": "Coutts · 3,550 ft above sea level"
+    },
+    {
+      "name": "Tsetzi Lake (Pan Phillips) Airport",
+      "country": "CA",
+      "value": 1082.04,
+      "detail": "Tsetzi Lake · 3,550 ft above sea level"
+    },
+    {
+      "name": "Ojay Airport",
+      "country": "CA",
+      "value": 1081.13,
+      "detail": "Peace River · 3,547 ft above sea level"
+    },
+    {
+      "name": "Doig Airport",
+      "country": "CA",
+      "value": 1066.8,
+      "detail": "Doig · 3,500 ft above sea level"
+    },
+    {
+      "name": "Moose Lake Lodge Airport",
+      "country": "CA",
+      "value": 1066.8,
+      "detail": "Anahim Lake · 3,500 ft above sea level"
+    },
+    {
+      "name": "Tungsten (Cantung) Airport",
+      "country": "CA",
+      "value": 1066.8,
+      "detail": "Tungsten · 3,500 ft above sea level"
+    },
+    {
+      "name": "Didsbury/Minty Field",
+      "country": "CA",
+      "value": 1060.7,
+      "detail": "Didsbury · 3,480 ft above sea level"
+    },
+    {
+      "name": "Wild Rose Airport",
+      "country": "CA",
+      "value": 1059.18,
+      "detail": "Vulcan · 3,475 ft above sea level"
+    },
+    {
+      "name": "Swan Hills Airport",
+      "country": "CA",
+      "value": 1058.57,
+      "detail": "Swan Hills · 3,473 ft above sea level"
+    },
+    {
+      "name": "A J Flying Ranch Airport",
+      "country": "CA",
+      "value": 1051.56,
+      "detail": "Cayley · 3,450 ft above sea level"
+    },
+    {
+      "name": "Highwood Airport",
+      "country": "CA",
+      "value": 1051.56,
+      "detail": "De Winton · 3,450 ft above sea level"
+    },
+    {
+      "name": "Hinton / Entrance Airport",
+      "country": "CA",
+      "value": 1051.56,
+      "detail": "Hinton · 3,450 ft above sea level"
+    },
+    {
+      "name": "Milk River Airport",
+      "country": "CA",
+      "value": 1051.26,
+      "detail": "Milk River · 3,449 ft above sea level"
+    }
+  ]
+}

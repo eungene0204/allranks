@@ -1,0 +1,110 @@
+{
+  "id": "mk-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in North Macedonia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "MK",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:10.796Z",
+  "items": [
+    {
+      "name": "Macedonian Academy of Sciences and Arts",
+      "country": "MK",
+      "value": 5.0469,
+      "detail": "1,899 works"
+    },
+    {
+      "name": "South East European University",
+      "country": "MK",
+      "value": 1.6025,
+      "detail": "2,410 works"
+    },
+    {
+      "name": "Ss. Cyril and Methodius University in Skopje",
+      "country": "MK",
+      "value": 1.5475,
+      "detail": "22,908 works"
+    },
+    {
+      "name": "State University of Tetova",
+      "country": "MK",
+      "value": 1.1565,
+      "detail": "1,875 works"
+    },
+    {
+      "name": "University \"St. Kliment Ohridski\" - Bitola",
+      "country": "MK",
+      "value": 1.0026,
+      "detail": "2,572 works"
+    },
+    {
+      "name": "University of Information Science and Technology St. Paul The Apostle",
+      "country": "MK",
+      "value": 0.9912,
+      "detail": "400 works"
+    },
+    {
+      "name": "University American College Skopje",
+      "country": "MK",
+      "value": 0.8943,
+      "detail": "692 works"
+    },
+    {
+      "name": "International Balkan University",
+      "country": "MK",
+      "value": 0.8616,
+      "detail": "682 works"
+    },
+    {
+      "name": "European University",
+      "country": "MK",
+      "value": 0.8158,
+      "detail": "227 works"
+    },
+    {
+      "name": "Goce Delcev University",
+      "country": "MK",
+      "value": 0.5933,
+      "detail": "6,859 works"
+    },
+    {
+      "name": "University Clinic for Radiotherapy and Oncology",
+      "country": "MK",
+      "value": 0.5275,
+      "detail": "183 works"
+    },
+    {
+      "name": "American University of Europe",
+      "country": "MK",
+      "value": 0.4483,
+      "detail": "311 works"
+    },
+    {
+      "name": "MIT University",
+      "country": "MK",
+      "value": 0.4306,
+      "detail": "328 works"
+    },
+    {
+      "name": "Institute of Communication Studies",
+      "country": "MK",
+      "value": 0.125,
+      "detail": "19 works"
+    }
+  ]
+}

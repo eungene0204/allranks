@@ -1,0 +1,326 @@
+{
+  "id": "hu-cities-by-elevation",
+  "title": "Highest Major Cities in Hungary",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Hungary with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HU",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.536Z",
+  "items": [
+    {
+      "name": "Veszprém",
+      "country": "HU",
+      "value": 265,
+      "detail": "56,927 people · Veszprém"
+    },
+    {
+      "name": "Komló",
+      "country": "HU",
+      "value": 246,
+      "detail": "26,924 people · Baranya"
+    },
+    {
+      "name": "Salgótarján",
+      "country": "HU",
+      "value": 242,
+      "detail": "34,627 people · Nógrád"
+    },
+    {
+      "name": "Ajka",
+      "country": "HU",
+      "value": 225,
+      "detail": "31,407 people · Veszprém"
+    },
+    {
+      "name": "Sopron",
+      "country": "HU",
+      "value": 217,
+      "detail": "62,246 people · Győr-Moson-Sopron"
+    },
+    {
+      "name": "Szombathely",
+      "country": "HU",
+      "value": 215,
+      "detail": "78,025 people · Vas County"
+    },
+    {
+      "name": "Gödöllő",
+      "country": "HU",
+      "value": 210,
+      "detail": "32,374 people · Pest County"
+    },
+    {
+      "name": "Budapest II. kerület",
+      "country": "HU",
+      "value": 202,
+      "detail": "88,729 people · Budapest"
+    },
+    {
+      "name": "Diósgyőr",
+      "country": "HU",
+      "value": 186,
+      "detail": "18,065 people · Borsod-Abaúj-Zemplén"
+    },
+    {
+      "name": "Kazincbarcika",
+      "country": "HU",
+      "value": 185,
+      "detail": "32,396 people · Borsod-Abaúj-Zemplén"
+    },
+    {
+      "name": "Oroszlány",
+      "country": "HU",
+      "value": 182,
+      "detail": "20,271 people · Komárom-Esztergom"
+    },
+    {
+      "name": "Ózd",
+      "country": "HU",
+      "value": 175,
+      "detail": "30,056 people · Borsod-Abaúj-Zemplén"
+    },
+    {
+      "name": "Veresegyház",
+      "country": "HU",
+      "value": 175,
+      "detail": "18,122 people · Pest County"
+    },
+    {
+      "name": "Budapest XII. kerület",
+      "country": "HU",
+      "value": 168,
+      "detail": "56,544 people · Budapest"
+    },
+    {
+      "name": "Eger",
+      "country": "HU",
+      "value": 168,
+      "detail": "53,876 people · Heves County"
+    },
+    {
+      "name": "Gyöngyös",
+      "country": "HU",
+      "value": 168,
+      "detail": "32,938 people · Heves County"
+    },
+    {
+      "name": "Zalaegerszeg",
+      "country": "HU",
+      "value": 167,
+      "detail": "61,898 people · Zala County"
+    },
+    {
+      "name": "Buda",
+      "country": "HU",
+      "value": 165,
+      "detail": "510,108 people · Budapest"
+    },
+    {
+      "name": "Sárvár",
+      "country": "HU",
+      "value": 158,
+      "detail": "15,343 people · Vas County"
+    },
+    {
+      "name": "Várpalota",
+      "country": "HU",
+      "value": 158,
+      "detail": "21,299 people · Veszprém"
+    },
+    {
+      "name": "Pécs",
+      "country": "HU",
+      "value": 155,
+      "detail": "145,347 people · Baranya"
+    },
+    {
+      "name": "Rákoskeresztúr",
+      "country": "HU",
+      "value": 155,
+      "detail": "24,971 people · Pest County"
+    },
+    {
+      "name": "Pápa",
+      "country": "HU",
+      "value": 154,
+      "detail": "32,990 people · Veszprém"
+    },
+    {
+      "name": "Nagykanizsa",
+      "country": "HU",
+      "value": 152,
+      "detail": "47,349 people · Zala County"
+    },
+    {
+      "name": "Budapest I. kerület",
+      "country": "HU",
+      "value": 150,
+      "detail": "24,728 people · Budapest"
+    },
+    {
+      "name": "Érd",
+      "country": "HU",
+      "value": 150,
+      "detail": "62,408 people · Pest County"
+    },
+    {
+      "name": "Budapest XVI. kerület",
+      "country": "HU",
+      "value": 146,
+      "detail": "68,484 people · Budapest"
+    },
+    {
+      "name": "Dunaújváros",
+      "country": "HU",
+      "value": 146,
+      "detail": "50,084 people · Fejér"
+    },
+    {
+      "name": "Sashalom",
+      "country": "HU",
+      "value": 146,
+      "detail": "15,288 people · Budapest"
+    },
+    {
+      "name": "Fót",
+      "country": "HU",
+      "value": 145,
+      "detail": "16,770 people · Pest County"
+    },
+    {
+      "name": "Kaposvár",
+      "country": "HU",
+      "value": 144,
+      "detail": "64,280 people · Somogy County"
+    },
+    {
+      "name": "Mátyásföld",
+      "country": "HU",
+      "value": 144,
+      "detail": "19,869 people · Budapest"
+    },
+    {
+      "name": "Budaörs",
+      "country": "HU",
+      "value": 139,
+      "detail": "25,089 people · Pest County"
+    },
+    {
+      "name": "Kőbánya",
+      "country": "HU",
+      "value": 139,
+      "detail": "78,414 people · Budapest"
+    },
+    {
+      "name": "Budapest XVII. kerület",
+      "country": "HU",
+      "value": 137,
+      "detail": "78,250 people · Budapest"
+    },
+    {
+      "name": "Monor",
+      "country": "HU",
+      "value": 137,
+      "detail": "21,720 people · Pest County"
+    },
+    {
+      "name": "Naphegy",
+      "country": "HU",
+      "value": 135,
+      "detail": "24,728 people · Pest County"
+    },
+    {
+      "name": "Pestlőrinc",
+      "country": "HU",
+      "value": 133,
+      "detail": "58,722 people · Budapest"
+    },
+    {
+      "name": "Tatabánya",
+      "country": "HU",
+      "value": 132,
+      "detail": "65,849 people · Komárom-Esztergom"
+    },
+    {
+      "name": "Budafok",
+      "country": "HU",
+      "value": 131,
+      "detail": "26,782 people · Budapest"
+    },
+    {
+      "name": "Dombóvár",
+      "country": "HU",
+      "value": 131,
+      "detail": "20,748 people · Tolna County"
+    },
+    {
+      "name": "Dunakeszi",
+      "country": "HU",
+      "value": 129,
+      "detail": "30,246 people · Pest County"
+    },
+    {
+      "name": "Óhegy",
+      "country": "HU",
+      "value": 129,
+      "detail": "25,842 people · Budapest"
+    },
+    {
+      "name": "Hajdúböszörmény",
+      "country": "HU",
+      "value": 128,
+      "detail": "31,957 people · Hajdú-Bihar"
+    },
+    {
+      "name": "Keszthely",
+      "country": "HU",
+      "value": 128,
+      "detail": "19,652 people · Zala County"
+    },
+    {
+      "name": "Budapest XVIII. kerület",
+      "country": "HU",
+      "value": 127,
+      "detail": "93,225 people · Budapest"
+    },
+    {
+      "name": "Kiskunhalas",
+      "country": "HU",
+      "value": 127,
+      "detail": "29,354 people · Bács-Kiskun"
+    },
+    {
+      "name": "Miskolc",
+      "country": "HU",
+      "value": 127,
+      "detail": "154,521 people · Borsod-Abaúj-Zemplén"
+    },
+    {
+      "name": "Debrecen",
+      "country": "HU",
+      "value": 124,
+      "detail": "202,402 people · Hajdú-Bihar"
+    },
+    {
+      "name": "Mátészalka",
+      "country": "HU",
+      "value": 124,
+      "detail": "18,718 people · Szabolcs-Szatmár-Bereg"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "ni-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Nicaragua",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "NI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:18.209Z",
+  "items": [
+    {
+      "name": "Central University of Nicaragua",
+      "country": "NI",
+      "value": 7.2523,
+      "detail": "249 works"
+    },
+    {
+      "name": "Universidad de Managua",
+      "country": "NI",
+      "value": 3.55,
+      "detail": "53 works"
+    },
+    {
+      "name": "Central American University",
+      "country": "NI",
+      "value": 2.7083,
+      "detail": "832 works"
+    },
+    {
+      "name": "Universidad Tecnológica La Salle",
+      "country": "NI",
+      "value": 1.7692,
+      "detail": "15 works"
+    },
+    {
+      "name": "Universidad de las Américas",
+      "country": "NI",
+      "value": 1.5483,
+      "detail": "458 works"
+    },
+    {
+      "name": "Universidad Nacional Autónoma de Nicaragua-León",
+      "country": "NI",
+      "value": 1.4387,
+      "detail": "1,396 works"
+    },
+    {
+      "name": "Catholic University of Dry Tropic Farming and Livestock",
+      "country": "NI",
+      "value": 1.3333,
+      "detail": "30 works"
+    },
+    {
+      "name": "Universidad Hispanoamericana",
+      "country": "NI",
+      "value": 1.3251,
+      "detail": "196 works"
+    },
+    {
+      "name": "Universidad del Valle",
+      "country": "NI",
+      "value": 0.5451,
+      "detail": "1,251 works"
+    },
+    {
+      "name": "National Agrarian University",
+      "country": "NI",
+      "value": 0.5238,
+      "detail": "1,123 works"
+    },
+    {
+      "name": "National Autonomous University of Nicaragua",
+      "country": "NI",
+      "value": 0.4106,
+      "detail": "3,751 works"
+    },
+    {
+      "name": "Universidad Internacional de la Integración de América Latina",
+      "country": "NI",
+      "value": 0.4,
+      "detail": "14 works"
+    },
+    {
+      "name": "National University of Engineering",
+      "country": "NI",
+      "value": 0.3768,
+      "detail": "987 works"
+    },
+    {
+      "name": "Universidad Americana",
+      "country": "NI",
+      "value": 0.336,
+      "detail": "834 works"
+    },
+    {
+      "name": "Universidad del Norte de Nicaragua",
+      "country": "NI",
+      "value": 0.3333,
+      "detail": "25 works"
+    },
+    {
+      "name": "Universidad Jean-Jacques Rousseau",
+      "country": "NI",
+      "value": 0.3333,
+      "detail": "9 works"
+    },
+    {
+      "name": "University of the Autonomous Regions of the Nicaraguan Caribbean Coast",
+      "country": "NI",
+      "value": 0.2819,
+      "detail": "792 works"
+    },
+    {
+      "name": "Bluefields Indian and Caribbean University",
+      "country": "NI",
+      "value": 0.18,
+      "detail": "214 works"
+    },
+    {
+      "name": "Universidad de Tecnología y Comercio",
+      "country": "NI",
+      "value": 0.1667,
+      "detail": "305 works"
+    },
+    {
+      "name": "Universidad Católica Redemptoris Mater",
+      "country": "NI",
+      "value": 0.1304,
+      "detail": "82 works"
+    },
+    {
+      "name": "Polytechnic University of Nicaragua",
+      "country": "NI",
+      "value": 0.0952,
+      "detail": "380 works"
+    },
+    {
+      "name": "Universidad Iberoamericana de Ciencias y Tecnología",
+      "country": "NI",
+      "value": 0.0435,
+      "detail": "17 works"
+    },
+    {
+      "name": "Universidad Metropolitana",
+      "country": "NI",
+      "value": 0.02,
+      "detail": "38 works"
+    }
+  ]
+}

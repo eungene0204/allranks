@@ -1,0 +1,164 @@
+{
+  "id": "sn-research-publications",
+  "title": "Universities by Research Publications in Senegal",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:34.162Z",
+  "items": [
+    {
+      "name": "Cheikh Anta Diop University",
+      "country": "SN",
+      "value": 18988,
+      "detail": "441,359 citations"
+    },
+    {
+      "name": "Université Gaston Berger",
+      "country": "SN",
+      "value": 5094,
+      "detail": "35,520 citations"
+    },
+    {
+      "name": "Ziguinchor University",
+      "country": "SN",
+      "value": 1971,
+      "detail": "15,947 citations"
+    },
+    {
+      "name": "Université Alioune Diop de Bambey",
+      "country": "SN",
+      "value": 1698,
+      "detail": "9,578 citations"
+    },
+    {
+      "name": "Université de Thiès",
+      "country": "SN",
+      "value": 1651,
+      "detail": "11,237 citations"
+    },
+    {
+      "name": "École Inter-États des Sciences et Médecine Vétérinaires de Dakar",
+      "country": "SN",
+      "value": 418,
+      "detail": "7,737 citations"
+    },
+    {
+      "name": "École Polytechnique de Thiès",
+      "country": "SN",
+      "value": 406,
+      "detail": "4,351 citations"
+    },
+    {
+      "name": "École Nationale Supérieure d'Agriculture",
+      "country": "SN",
+      "value": 258,
+      "detail": "2,981 citations"
+    },
+    {
+      "name": "Université Amadou Mahtar Mbow",
+      "country": "SN",
+      "value": 247,
+      "detail": "600 citations"
+    },
+    {
+      "name": "Université du Sine Saloum El-Hâdj Ibrahima NIASS",
+      "country": "SN",
+      "value": 225,
+      "detail": "885 citations"
+    },
+    {
+      "name": "École Supérieure Multinationale des Télécommunications",
+      "country": "SN",
+      "value": 136,
+      "detail": "958 citations"
+    },
+    {
+      "name": "Centre Africain d'Études Supérieures en Gestion",
+      "country": "SN",
+      "value": 63,
+      "detail": "132 citations"
+    },
+    {
+      "name": "Ecole Supérieure d’Economie Appliquée",
+      "country": "SN",
+      "value": 35,
+      "detail": "673 citations"
+    },
+    {
+      "name": "St. Christopher Iba Mar Diop College of Medicine",
+      "country": "SN",
+      "value": 30,
+      "detail": "51 citations"
+    },
+    {
+      "name": "Groupe École Supérieure de Commerce de Dakar",
+      "country": "SN",
+      "value": 28,
+      "detail": "38 citations"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "SN",
+      "value": 24,
+      "detail": "39 citations"
+    },
+    {
+      "name": "International School of Dakar",
+      "country": "SN",
+      "value": 21,
+      "detail": "70 citations"
+    },
+    {
+      "name": "Université Amadou Hampaté Ba",
+      "country": "SN",
+      "value": 13,
+      "detail": "61 citations"
+    },
+    {
+      "name": "Groupe AFI",
+      "country": "SN",
+      "value": 12,
+      "detail": "72 citations"
+    },
+    {
+      "name": "Institut International des Sciences et de Technologie",
+      "country": "SN",
+      "value": 9,
+      "detail": "59 citations"
+    },
+    {
+      "name": "National Archives of Senegal",
+      "country": "SN",
+      "value": 8,
+      "detail": "6 citations"
+    },
+    {
+      "name": "Université du Sahel",
+      "country": "SN",
+      "value": 6,
+      "detail": "5 citations"
+    },
+    {
+      "name": "Université Dakar-Bourguiba",
+      "country": "SN",
+      "value": 4,
+      "detail": "12 citations"
+    }
+  ]
+}

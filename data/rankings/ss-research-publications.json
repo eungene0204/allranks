@@ -1,0 +1,74 @@
+{
+  "id": "ss-research-publications",
+  "title": "Universities by Research Publications in South Sudan",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:35.254Z",
+  "items": [
+    {
+      "name": "University of Juba",
+      "country": "SS",
+      "value": 1556,
+      "detail": "12,452 citations"
+    },
+    {
+      "name": "Bridge University",
+      "country": "SS",
+      "value": 446,
+      "detail": "11,362 citations"
+    },
+    {
+      "name": "University of Bahr El-Ghazal",
+      "country": "SS",
+      "value": 248,
+      "detail": "1,538 citations"
+    },
+    {
+      "name": "Upper Nile University",
+      "country": "SS",
+      "value": 235,
+      "detail": "531 citations"
+    },
+    {
+      "name": "Catholic University of South Sudan",
+      "country": "SS",
+      "value": 116,
+      "detail": "1 citations"
+    },
+    {
+      "name": "Rumbek University",
+      "country": "SS",
+      "value": 38,
+      "detail": "273 citations"
+    },
+    {
+      "name": "John Garang Memorial University of Science and Technology",
+      "country": "SS",
+      "value": 35,
+      "detail": "105 citations"
+    },
+    {
+      "name": "Akobo Heritage and Memorial University",
+      "country": "SS",
+      "value": 2,
+      "detail": "1 citations"
+    }
+  ]
+}

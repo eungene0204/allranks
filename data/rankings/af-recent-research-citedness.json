@@ -1,0 +1,326 @@
+{
+  "id": "af-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Afghanistan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AF",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:20.049Z",
+  "items": [
+    {
+      "name": "Laghman University",
+      "country": "AF",
+      "value": 5.2611,
+      "detail": "228 works"
+    },
+    {
+      "name": "Khurasan University",
+      "country": "AF",
+      "value": 4.871,
+      "detail": "121 works"
+    },
+    {
+      "name": "Kardan University",
+      "country": "AF",
+      "value": 4.6119,
+      "detail": "713 works"
+    },
+    {
+      "name": "Kandahar University",
+      "country": "AF",
+      "value": 4.3124,
+      "detail": "749 works"
+    },
+    {
+      "name": "Afghanistan National Agricultural Sciences and Technology University",
+      "country": "AF",
+      "value": 4.3116,
+      "detail": "192 works"
+    },
+    {
+      "name": "American University of Afghanistan",
+      "country": "AF",
+      "value": 3.7255,
+      "detail": "217 works"
+    },
+    {
+      "name": "Wadie Helmand University",
+      "country": "AF",
+      "value": 3.2805,
+      "detail": "43 works"
+    },
+    {
+      "name": "Logar University",
+      "country": "AF",
+      "value": 2.963,
+      "detail": "40 works"
+    },
+    {
+      "name": "Mirwais Khan Nika Zabul University",
+      "country": "AF",
+      "value": 2.9615,
+      "detail": "43 works"
+    },
+    {
+      "name": "Parwan University",
+      "country": "AF",
+      "value": 2.585,
+      "detail": "178 works"
+    },
+    {
+      "name": "Alberoni University",
+      "country": "AF",
+      "value": 2.4977,
+      "detail": "214 works"
+    },
+    {
+      "name": "Polytechnical University of Kabul",
+      "country": "AF",
+      "value": 1.9925,
+      "detail": "508 works"
+    },
+    {
+      "name": "Nangarhar University",
+      "country": "AF",
+      "value": 1.9413,
+      "detail": "1,181 works"
+    },
+    {
+      "name": "Bakhtar University",
+      "country": "AF",
+      "value": 1.9236,
+      "detail": "235 works"
+    },
+    {
+      "name": "Khost University",
+      "country": "AF",
+      "value": 1.6167,
+      "detail": "341 works"
+    },
+    {
+      "name": "Balkh University",
+      "country": "AF",
+      "value": 1.4115,
+      "detail": "471 works"
+    },
+    {
+      "name": "Ghazni University",
+      "country": "AF",
+      "value": 1.3956,
+      "detail": "589 works"
+    },
+    {
+      "name": "Bost University",
+      "country": "AF",
+      "value": 1.3182,
+      "detail": "44 works"
+    },
+    {
+      "name": "Faryab University",
+      "country": "AF",
+      "value": 1.2917,
+      "detail": "227 works"
+    },
+    {
+      "name": "Takhar University",
+      "country": "AF",
+      "value": 1.1905,
+      "detail": "257 works"
+    },
+    {
+      "name": "Afghan International Islamic University",
+      "country": "AF",
+      "value": 1.1818,
+      "detail": "146 works"
+    },
+    {
+      "name": "Khatam Al-Nabieen University",
+      "country": "AF",
+      "value": 1.1523,
+      "detail": "288 works"
+    },
+    {
+      "name": "Kabul University",
+      "country": "AF",
+      "value": 1.1398,
+      "detail": "3,362 works"
+    },
+    {
+      "name": "Badakhshan University",
+      "country": "AF",
+      "value": 1.1313,
+      "detail": "325 works"
+    },
+    {
+      "name": "Kunduz University",
+      "country": "AF",
+      "value": 1.0388,
+      "detail": "270 works"
+    },
+    {
+      "name": "Herat University",
+      "country": "AF",
+      "value": 1.0358,
+      "detail": "771 works"
+    },
+    {
+      "name": "Spinghar Institute of Higher Education, Nangarhar",
+      "country": "AF",
+      "value": 0.987,
+      "detail": "49 works"
+    },
+    {
+      "name": "Kabul University of Medical Sciences Abu Ali Ibn Sina",
+      "country": "AF",
+      "value": 0.952,
+      "detail": "1,300 works"
+    },
+    {
+      "name": "Bamyan University",
+      "country": "AF",
+      "value": 0.8897,
+      "detail": "287 works"
+    },
+    {
+      "name": "Kabul Education University",
+      "country": "AF",
+      "value": 0.8762,
+      "detail": "461 works"
+    },
+    {
+      "name": "Paktia University",
+      "country": "AF",
+      "value": 0.8675,
+      "detail": "312 works"
+    },
+    {
+      "name": "Ghalib University",
+      "country": "AF",
+      "value": 0.8422,
+      "detail": "327 works"
+    },
+    {
+      "name": "Jami University",
+      "country": "AF",
+      "value": 0.8341,
+      "detail": "283 works"
+    },
+    {
+      "name": "Cheragh Medical University",
+      "country": "AF",
+      "value": 0.8214,
+      "detail": "28 works"
+    },
+    {
+      "name": "Jawzjan University",
+      "country": "AF",
+      "value": 0.7178,
+      "detail": "268 works"
+    },
+    {
+      "name": "Noman Sadat Institute of Higher Education",
+      "country": "AF",
+      "value": 0.7143,
+      "detail": "6 works"
+    },
+    {
+      "name": "Muslim University",
+      "country": "AF",
+      "value": 0.625,
+      "detail": "34 works"
+    },
+    {
+      "name": "Sayed Jamaluddin Afghani University",
+      "country": "AF",
+      "value": 0.5714,
+      "detail": "162 works"
+    },
+    {
+      "name": "Spinghar Institute of Higher Education, Kabul",
+      "country": "AF",
+      "value": 0.55,
+      "detail": "87 works"
+    },
+    {
+      "name": "Shifa University",
+      "country": "AF",
+      "value": 0.4545,
+      "detail": "10 works"
+    },
+    {
+      "name": "Baghlan University",
+      "country": "AF",
+      "value": 0.4277,
+      "detail": "186 works"
+    },
+    {
+      "name": "Pamir University",
+      "country": "AF",
+      "value": 0.4167,
+      "detail": "12 works"
+    },
+    {
+      "name": "Tabesh University",
+      "country": "AF",
+      "value": 0.4167,
+      "detail": "24 works"
+    },
+    {
+      "name": "Mili University",
+      "country": "AF",
+      "value": 0.3429,
+      "detail": "20 works"
+    },
+    {
+      "name": "Rozgan University",
+      "country": "AF",
+      "value": 0.2308,
+      "detail": "11 works"
+    },
+    {
+      "name": "Salam University",
+      "country": "AF",
+      "value": 0.1893,
+      "detail": "224 works"
+    },
+    {
+      "name": "Rokhan University",
+      "country": "AF",
+      "value": 0.1238,
+      "detail": "91 works"
+    },
+    {
+      "name": "Dawat University",
+      "country": "AF",
+      "value": 0.1154,
+      "detail": "49 works"
+    },
+    {
+      "name": "Farah University",
+      "country": "AF",
+      "value": 0.0952,
+      "detail": "107 works"
+    },
+    {
+      "name": "Bayazid Rokhan Institute of Higher Education",
+      "country": "AF",
+      "value": 0.087,
+      "detail": "15 works"
+    }
+  ]
+}

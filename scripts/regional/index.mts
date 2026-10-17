@@ -85,8 +85,9 @@ import mz from "./mz.mts";
 import sd from "./sd.mts";
 import cd from "./cd.mts";
 import { loadCountries } from "../lib/countries.mts";
-import { researchUniversities } from "./openalex.mts";
-import { largestCities } from "./geonames.mts";
+import { researchUniversities, researchUniversityMetrics } from "./openalex.mts";
+import { citiesByElevation, largestCities } from "./geonames.mts";
+import { airportMetrics } from "./airports.mts";
 import { regionPopulation } from "./wikidata.mts";
 import type { Pipeline } from "../lib/types.mts";
 
@@ -101,6 +102,10 @@ const NO_UNIVERSITIES = new Set<string>(["AD","AG","BS","BT","BZ","CF","CG","CV"
 const UNIVERSITY_COUNTRIES = loadCountries()
   .all.filter((c) => c.independent && c.code !== "US" && !NO_UNIVERSITIES.has(c.code))
   .map((c) => c.code);
+/** OpenAlex has enough institutions to build these additional bibliometric lists for the US too. */
+const METRIC_UNIVERSITY_COUNTRIES = loadCountries()
+  .all.filter((c) => c.independent && !NO_UNIVERSITIES.has(c.code))
+  .map((c) => c.code);
 
 /** Countries where GeoNames knows fewer than five cities of 15,000+ people. */
 const NO_CITIES = new Set<string>(["AD","AG","BB","BS","BT","CV","DM","FM","GD","GY","KI","KM","KN","LC","LI","MC","MH","MV","NR","PW","SC","SM","ST","SZ","TO","TV","VA","VC","VU","WS"]);
@@ -109,6 +114,7 @@ const hasCities = new Set(WITH_PAGES.filter((p) => p.meta.short === "Cities").ma
 const CITY_COUNTRIES = loadCountries()
   .all.filter((c) => c.independent && c.code !== "US" && !NO_CITIES.has(c.code) && !hasCities.has(c.code))
   .map((c) => c.code);
+const ELEVATION_CITY_COUNTRIES = loadCountries().all.filter((c) => c.independent).map((c) => c.code);
 
 /** Countries whose Wikipedia articles have no regional table but where Wikidata has at least five populated divisions. */
 const WIKIDATA_REGIONS = ["BW", "CF", "TD", "CG", "LS", "LR", "MU", "NA", "NE", "ML", "MR", "SS", "GA", "RW", "SL", "TG"];
@@ -116,6 +122,9 @@ const WIKIDATA_REGIONS = ["BW", "CF", "TD", "CG", "LS", "LR", "MU", "NA", "NE", 
 export const REGIONAL: Pipeline[] = [
   ...WITH_PAGES,
   ...largestCities(CITY_COUNTRIES),
+  ...citiesByElevation(ELEVATION_CITY_COUNTRIES),
+  ...airportMetrics(ELEVATION_CITY_COUNTRIES),
   ...regionPopulation(WIKIDATA_REGIONS),
   ...researchUniversities(UNIVERSITY_COUNTRIES),
+  ...researchUniversityMetrics(METRIC_UNIVERSITY_COUNTRIES),
 ];

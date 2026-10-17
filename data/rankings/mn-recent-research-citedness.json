@@ -1,0 +1,164 @@
+{
+  "id": "mn-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Mongolia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "MN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:12.410Z",
+  "items": [
+    {
+      "name": "New Mongol Institute of Technology",
+      "country": "MN",
+      "value": 5.0833,
+      "detail": "46 works"
+    },
+    {
+      "name": "Mongolian National University of Medical Sciences",
+      "country": "MN",
+      "value": 1.8131,
+      "detail": "2,276 works"
+    },
+    {
+      "name": "Mongolian University of Life Sciences",
+      "country": "MN",
+      "value": 1.7127,
+      "detail": "1,168 works"
+    },
+    {
+      "name": "Mongolian National University",
+      "country": "MN",
+      "value": 1.6088,
+      "detail": "549 works"
+    },
+    {
+      "name": "National University of Mongolia",
+      "country": "MN",
+      "value": 1.5905,
+      "detail": "5,065 works"
+    },
+    {
+      "name": "Mongolian National Institute of Physical Education",
+      "country": "MN",
+      "value": 1.25,
+      "detail": "13 works"
+    },
+    {
+      "name": "Ulaanbaatar International University",
+      "country": "MN",
+      "value": 1.125,
+      "detail": "52 works"
+    },
+    {
+      "name": "Mongolian University of Science and Technology",
+      "country": "MN",
+      "value": 1.0391,
+      "detail": "2,254 works"
+    },
+    {
+      "name": "Mongolia International University",
+      "country": "MN",
+      "value": 0.9677,
+      "detail": "73 works"
+    },
+    {
+      "name": "University of the Humanities",
+      "country": "MN",
+      "value": 0.6277,
+      "detail": "175 works"
+    },
+    {
+      "name": "University of Finance and Economics",
+      "country": "MN",
+      "value": 0.5322,
+      "detail": "194 works"
+    },
+    {
+      "name": "Mongolian National University of Education",
+      "country": "MN",
+      "value": 0.5129,
+      "detail": "858 works"
+    },
+    {
+      "name": "American University of Mongolia",
+      "country": "MN",
+      "value": 0.5,
+      "detail": "16 works"
+    },
+    {
+      "name": "Graduate University of Mongolia",
+      "country": "MN",
+      "value": 0.3848,
+      "detail": "664 works"
+    },
+    {
+      "name": "Mongolian National Institute for Educational Research",
+      "country": "MN",
+      "value": 0.2453,
+      "detail": "112 works"
+    },
+    {
+      "name": "Mandakh University",
+      "country": "MN",
+      "value": 0.2434,
+      "detail": "119 works"
+    },
+    {
+      "name": "Otgontenger University",
+      "country": "MN",
+      "value": 0.2374,
+      "detail": "94 works"
+    },
+    {
+      "name": "Mongolian University of Pharmaceutical Sciences",
+      "country": "MN",
+      "value": 0.2222,
+      "detail": "145 works"
+    },
+    {
+      "name": "National Academy of Governance",
+      "country": "MN",
+      "value": 0.2069,
+      "detail": "74 works"
+    },
+    {
+      "name": "Ikh Zasag International University",
+      "country": "MN",
+      "value": 0.1915,
+      "detail": "49 works"
+    },
+    {
+      "name": "Mongolian National Defense University",
+      "country": "MN",
+      "value": 0.1157,
+      "detail": "151 works"
+    },
+    {
+      "name": "Ider University",
+      "country": "MN",
+      "value": 0.04,
+      "detail": "40 works"
+    },
+    {
+      "name": "University of Internal Affairs of Mongolia",
+      "country": "MN",
+      "value": 0.0342,
+      "detail": "276 works"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "ro-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Romania",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "RO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:28.210Z",
+  "items": [
+    {
+      "name": "Institutul de Cercetari Biologice Cluj-Napoca",
+      "country": "RO",
+      "value": 16.3889,
+      "detail": "153 works"
+    },
+    {
+      "name": "National Institute for Research and Development for Industrial Ecology",
+      "country": "RO",
+      "value": 8.2574,
+      "detail": "789 works"
+    },
+    {
+      "name": "Carol Davila University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 4.8647,
+      "detail": "27,419 works"
+    },
+    {
+      "name": "Spiru Haret University",
+      "country": "RO",
+      "value": 4.8281,
+      "detail": "2,057 works"
+    },
+    {
+      "name": "Sapientia Hungarian University of Transylvania",
+      "country": "RO",
+      "value": 4.5712,
+      "detail": "2,441 works"
+    },
+    {
+      "name": "University of Medicine and Pharmacy of Craiova",
+      "country": "RO",
+      "value": 4.5279,
+      "detail": "6,900 works"
+    },
+    {
+      "name": "Petroleum & Gas University of Ploieşti",
+      "country": "RO",
+      "value": 4.5149,
+      "detail": "2,772 works"
+    },
+    {
+      "name": "Iuliu Hațieganu University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 4.2569,
+      "detail": "16,491 works"
+    },
+    {
+      "name": "\"Ion Ionescu de la Brad\" Iasi University of Life Sciences",
+      "country": "RO",
+      "value": 4.1177,
+      "detail": "2,813 works"
+    },
+    {
+      "name": "University \"Eftimie Murgu\" of Reşiţa",
+      "country": "RO",
+      "value": 4,
+      "detail": "554 works"
+    },
+    {
+      "name": "Victor Babeș University of Medicine and Pharmacy Timișoara",
+      "country": "RO",
+      "value": 3.9537,
+      "detail": "11,325 works"
+    },
+    {
+      "name": "Lucian Blaga University of Sibiu",
+      "country": "RO",
+      "value": 3.9003,
+      "detail": "9,178 works"
+    },
+    {
+      "name": "Apollonia University",
+      "country": "RO",
+      "value": 3.8722,
+      "detail": "885 works"
+    },
+    {
+      "name": "\"Dunarea de Jos\" University of Galati",
+      "country": "RO",
+      "value": 3.7703,
+      "detail": "12,645 works"
+    },
+    {
+      "name": "University of Pitesti",
+      "country": "RO",
+      "value": 3.7481,
+      "detail": "4,036 works"
+    },
+    {
+      "name": "Bucharest University of Economic Studies",
+      "country": "RO",
+      "value": 3.6841,
+      "detail": "16,136 works"
+    },
+    {
+      "name": "University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca",
+      "country": "RO",
+      "value": 3.5701,
+      "detail": "9,663 works"
+    },
+    {
+      "name": "Universitatea de Medicină, Farmacie, Științe și Tehnologie „George Emil Palade” din Târgu Mureș",
+      "country": "RO",
+      "value": 3.5185,
+      "detail": "8,979 works"
+    },
+    {
+      "name": "Vasile Goldis Western University of Arad",
+      "country": "RO",
+      "value": 3.4982,
+      "detail": "2,440 works"
+    },
+    {
+      "name": "Grigore T. Popa University of Medicine and Pharmacy",
+      "country": "RO",
+      "value": 3.498,
+      "detail": "17,485 works"
+    },
+    {
+      "name": "Academy of Agricultural and Forestry Sciences",
+      "country": "RO",
+      "value": 3.4423,
+      "detail": "281 works"
+    },
+    {
+      "name": "Transylvania University of Brașov",
+      "country": "RO",
+      "value": 3.2754,
+      "detail": "16,992 works"
+    },
+    {
+      "name": "University of Oradea",
+      "country": "RO",
+      "value": 3.2285,
+      "detail": "10,312 works"
+    },
+    {
+      "name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+      "country": "RO",
+      "value": 3.1473,
+      "detail": "41,967 works"
+    },
+    {
+      "name": "Ştefan cel Mare University of Suceava",
+      "country": "RO",
+      "value": 3.1073,
+      "detail": "8,900 works"
+    },
+    {
+      "name": "University of Bucharest",
+      "country": "RO",
+      "value": 3.0399,
+      "detail": "35,143 works"
+    },
+    {
+      "name": "Babeș-Bolyai University",
+      "country": "RO",
+      "value": 2.8926,
+      "detail": "36,410 works"
+    },
+    {
+      "name": "Titu Maiorescu University",
+      "country": "RO",
+      "value": 2.786,
+      "detail": "3,367 works"
+    },
+    {
+      "name": "West University of Timişoara",
+      "country": "RO",
+      "value": 2.7759,
+      "detail": "11,716 works"
+    },
+    {
+      "name": "Aurel Vlaicu University of Arad",
+      "country": "RO",
+      "value": 2.7401,
+      "detail": "3,467 works"
+    },
+    {
+      "name": "Ovidius University",
+      "country": "RO",
+      "value": 2.7121,
+      "detail": "8,000 works"
+    },
+    {
+      "name": "University of Agronomic Sciences and Veterinary Medicine of Bucharest",
+      "country": "RO",
+      "value": 2.6387,
+      "detail": "4,255 works"
+    },
+    {
+      "name": "University of Craiova",
+      "country": "RO",
+      "value": 2.5731,
+      "detail": "14,635 works"
+    },
+    {
+      "name": "Institute of Biochemistry",
+      "country": "RO",
+      "value": 2.5509,
+      "detail": "619 works"
+    },
+    {
+      "name": "Dimitrie Cantemir University",
+      "country": "RO",
+      "value": 2.5378,
+      "detail": "380 works"
+    },
+    {
+      "name": "Valahia University of Targoviste",
+      "country": "RO",
+      "value": 2.4967,
+      "detail": "4,475 works"
+    },
+    {
+      "name": "Danubius International University",
+      "country": "RO",
+      "value": 2.4807,
+      "detail": "939 works"
+    },
+    {
+      "name": "Politehnica University of Timisoara",
+      "country": "RO",
+      "value": 2.4586,
+      "detail": "14,405 works"
+    },
+    {
+      "name": "Constantin Brâncoveanu University",
+      "country": "RO",
+      "value": 2.4211,
+      "detail": "211 works"
+    },
+    {
+      "name": "Mircea cel Batran Naval Academy",
+      "country": "RO",
+      "value": 2.3469,
+      "detail": "710 works"
+    },
+    {
+      "name": "University of Bacău",
+      "country": "RO",
+      "value": 2.2734,
+      "detail": "2,898 works"
+    },
+    {
+      "name": "Universitatea George Bacovia Bacau",
+      "country": "RO",
+      "value": 2.2727,
+      "detail": "69 works"
+    },
+    {
+      "name": "Technical University of Cluj-Napoca",
+      "country": "RO",
+      "value": 2.2456,
+      "detail": "18,803 works"
+    },
+    {
+      "name": "Gheorghe Asachi Technical University of Iași",
+      "country": "RO",
+      "value": 2.2135,
+      "detail": "15,893 works"
+    },
+    {
+      "name": "ICMET Craiova",
+      "country": "RO",
+      "value": 2.1697,
+      "detail": "333 works"
+    },
+    {
+      "name": "Institutul Național de Management al Serviciilor de Sănătate",
+      "country": "RO",
+      "value": 2.1667,
+      "detail": "87 works"
+    },
+    {
+      "name": "Alexandru Ioan Cuza University",
+      "country": "RO",
+      "value": 2.1337,
+      "detail": "22,550 works"
+    },
+    {
+      "name": "Bogdan Voda University",
+      "country": "RO",
+      "value": 2.1124,
+      "detail": "146 works"
+    },
+    {
+      "name": "Technical University of Civil Engineering of Bucharest",
+      "country": "RO",
+      "value": 1.9611,
+      "detail": "2,742 works"
+    },
+    {
+      "name": "Dimitrie Cantemir Christian University",
+      "country": "RO",
+      "value": 1.9583,
+      "detail": "807 works"
+    }
+  ]
+}

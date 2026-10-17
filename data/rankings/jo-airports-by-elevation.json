@@ -1,0 +1,86 @@
+{
+  "id": "jo-airports-by-elevation",
+  "title": "Highest Airports in Jordan",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Jordan ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.512Z",
+  "items": [
+    {
+      "name": "King Feisal Air Base",
+      "country": "JO",
+      "value": 879.04,
+      "detail": "Al-Jafr · 2,884 ft above sea level"
+    },
+    {
+      "name": "Al Qatranah Highway Strip",
+      "country": "JO",
+      "value": 850.39,
+      "detail": "2,790 ft above sea level"
+    },
+    {
+      "name": "Marka International (Amman Civil) Airport",
+      "country": "JO",
+      "value": 778.76,
+      "detail": "Amman · 2,555 ft above sea level"
+    },
+    {
+      "name": "Zarqa Airport",
+      "country": "JO",
+      "value": 731.52,
+      "detail": "Zarqa · 2,400 ft above sea level"
+    },
+    {
+      "name": "Queen Alia International Airport",
+      "country": "JO",
+      "value": 730,
+      "detail": "Amman · 2,395 ft above sea level"
+    },
+    {
+      "name": "H4 Air Base",
+      "country": "JO",
+      "value": 685.8,
+      "detail": "2,250 ft above sea level"
+    },
+    {
+      "name": "King Hussein Air College",
+      "country": "JO",
+      "value": 682.75,
+      "detail": "Mafraq · 2,240 ft above sea level"
+    },
+    {
+      "name": "Prince Hassan Air Base",
+      "country": "JO",
+      "value": 676.66,
+      "detail": "2,220 ft above sea level"
+    },
+    {
+      "name": "Muwaffaq Salti Air Base",
+      "country": "JO",
+      "value": 519.99,
+      "detail": "Al Azraq · 1,706 ft above sea level"
+    },
+    {
+      "name": "King Hussein International Airport",
+      "country": "JO",
+      "value": 53.34,
+      "detail": "Aqaba · 175 ft above sea level"
+    }
+  ]
+}

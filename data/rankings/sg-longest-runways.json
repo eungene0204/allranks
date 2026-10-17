@@ -1,0 +1,62 @@
+{
+  "id": "sg-longest-runways",
+  "title": "Longest Airport Runways in Singapore",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Singapore ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.546Z",
+  "items": [
+    {
+      "name": "Singapore Changi Airport",
+      "country": "SG",
+      "value": 3999.89,
+      "detail": "Singapore · 13,123 ft · PEM"
+    },
+    {
+      "name": "Paya Lebar Air Base",
+      "country": "SG",
+      "value": 3779.82,
+      "detail": "Paya Lebar · 12,401 ft · ASP"
+    },
+    {
+      "name": "Tengah Air Base",
+      "country": "SG",
+      "value": 2742.9,
+      "detail": "Western Water Catchment · 8,999 ft · ASP"
+    },
+    {
+      "name": "Pulau Sudong Military Airstrip",
+      "country": "SG",
+      "value": 2438.1,
+      "detail": "Western Islands · 7,999 ft"
+    },
+    {
+      "name": "Sembawang Air Base",
+      "country": "SG",
+      "value": 1906.52,
+      "detail": "Sembawang · 6,255 ft · ASP"
+    },
+    {
+      "name": "Seletar Airport",
+      "country": "SG",
+      "value": 1836.12,
+      "detail": "Seletar · 6,024 ft · ASP"
+    }
+  ]
+}

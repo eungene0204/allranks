@@ -1,0 +1,56 @@
+{
+  "id": "ss-longest-runways",
+  "title": "Longest Airport Runways in South Sudan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in South Sudan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.549Z",
+  "items": [
+    {
+      "name": "Juba International Airport",
+      "country": "SS",
+      "value": 3100.12,
+      "detail": "Juba · 10,171 ft · ASP"
+    },
+    {
+      "name": "Paloich Airport",
+      "country": "SS",
+      "value": 2499.97,
+      "detail": "Higleig · 8,202 ft · Asphalt"
+    },
+    {
+      "name": "Wau Airport",
+      "country": "SS",
+      "value": 2499.97,
+      "detail": "Wau · 8,202 ft · ASP"
+    },
+    {
+      "name": "Malakal International Airport",
+      "country": "SS",
+      "value": 2000.1,
+      "detail": "Malakal · 6,562 ft · ASP"
+    },
+    {
+      "name": "Akobo Airport",
+      "country": "SS",
+      "value": 1066.8,
+      "detail": "Akobo · 3,500 ft"
+    }
+  ]
+}

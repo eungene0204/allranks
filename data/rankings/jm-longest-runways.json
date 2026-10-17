@@ -1,0 +1,74 @@
+{
+  "id": "jm-longest-runways",
+  "title": "Longest Airport Runways in Jamaica",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Jamaica ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.512Z",
+  "items": [
+    {
+      "name": "Sangster International Airport",
+      "country": "JM",
+      "value": 3059.89,
+      "detail": "Montego Bay · 10,039 ft · ASP"
+    },
+    {
+      "name": "Norman Manley International Airport",
+      "country": "JM",
+      "value": 2712.72,
+      "detail": "Kingston · 8,900 ft · ASP"
+    },
+    {
+      "name": "Ian Fleming International Airport",
+      "country": "JM",
+      "value": 1453.59,
+      "detail": "Boscobel · 4,769 ft · ASP"
+    },
+    {
+      "name": "Tinson Pen Airport",
+      "country": "JM",
+      "value": 1310.64,
+      "detail": "Tinson Pen · 4,300 ft · ASP"
+    },
+    {
+      "name": "Eastern Banana Estates Airstrip",
+      "country": "JM",
+      "value": 1219.2,
+      "detail": "Bath · 4,000 ft · Rolled Asphalt"
+    },
+    {
+      "name": "Ken Jones Airport",
+      "country": "JM",
+      "value": 1039.98,
+      "detail": "Ken Jones · 3,412 ft · ASP"
+    },
+    {
+      "name": "Hector’s River Agricultural Airstrip",
+      "country": "JM",
+      "value": 701.04,
+      "detail": "Manchioneal · 2,300 ft · Grass"
+    },
+    {
+      "name": "Negril Airport",
+      "country": "JM",
+      "value": 701.04,
+      "detail": "Negril · 2,300 ft · Asphalt"
+    }
+  ]
+}

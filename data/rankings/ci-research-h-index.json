@@ -1,0 +1,128 @@
+{
+  "id": "ci-research-h-index",
+  "title": "Universities by Research h-index in Ivory Coast",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:34.823Z",
+  "items": [
+    {
+      "name": "Université Félix Houphouët-Boigny",
+      "country": "CI",
+      "value": 137,
+      "detail": "28,035 works"
+    },
+    {
+      "name": "Université Nangui Abrogoua",
+      "country": "CI",
+      "value": 93,
+      "detail": "10,575 works"
+    },
+    {
+      "name": "Institut National Polytechnique Félix Houphouët-Boigny",
+      "country": "CI",
+      "value": 74,
+      "detail": "2,509 works"
+    },
+    {
+      "name": "Université Alassane Ouattara",
+      "country": "CI",
+      "value": 45,
+      "detail": "6,363 works"
+    },
+    {
+      "name": "Université Jean Lorougnon Guédé",
+      "country": "CI",
+      "value": 45,
+      "detail": "3,213 works"
+    },
+    {
+      "name": "Institut National d’Hygiène Publique",
+      "country": "CI",
+      "value": 41,
+      "detail": "450 works"
+    },
+    {
+      "name": "Université Pelefero Gon Coulibaly",
+      "country": "CI",
+      "value": 35,
+      "detail": "2,869 works"
+    },
+    {
+      "name": "École Nationale Supérieure de Statistique et d'Économie Appliquée",
+      "country": "CI",
+      "value": 33,
+      "detail": "521 works"
+    },
+    {
+      "name": "École Normale Supérieure d'Abidjan",
+      "country": "CI",
+      "value": 25,
+      "detail": "605 works"
+    },
+    {
+      "name": "Université Virtuelle de Côte d'Ivoire",
+      "country": "CI",
+      "value": 17,
+      "detail": "689 works"
+    },
+    {
+      "name": "International University of Grand Bassam",
+      "country": "CI",
+      "value": 14,
+      "detail": "103 works"
+    },
+    {
+      "name": "École Supérieure Africaine des TIC",
+      "country": "CI",
+      "value": 13,
+      "detail": "214 works"
+    },
+    {
+      "name": "University of Science and Technology of Ivory Coast",
+      "country": "CI",
+      "value": 7,
+      "detail": "28 works"
+    },
+    {
+      "name": "Institut Universitaire d'Abidjan",
+      "country": "CI",
+      "value": 4,
+      "detail": "68 works"
+    },
+    {
+      "name": "Agitel-Formation",
+      "country": "CI",
+      "value": 1,
+      "detail": "1 works"
+    },
+    {
+      "name": "Université de Bondoukou",
+      "country": "CI",
+      "value": 1,
+      "detail": "45 works"
+    },
+    {
+      "name": "Université Tertiaire et Technologique-Lokko",
+      "country": "CI",
+      "value": 1,
+      "detail": "9 works"
+    }
+  ]
+}

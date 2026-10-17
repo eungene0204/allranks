@@ -1,0 +1,326 @@
+{
+  "id": "bg-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Bulgaria",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:28.335Z",
+  "items": [
+    {
+      "name": "Varna University of Management",
+      "country": "BG",
+      "value": 10.12,
+      "detail": "401 works"
+    },
+    {
+      "name": "University of Security and Economics",
+      "country": "BG",
+      "value": 4.6301,
+      "detail": "156 works"
+    },
+    {
+      "name": "American University in Bulgaria",
+      "country": "BG",
+      "value": 3.5833,
+      "detail": "699 works"
+    },
+    {
+      "name": "New Bulgarian University",
+      "country": "BG",
+      "value": 3.3014,
+      "detail": "2,371 works"
+    },
+    {
+      "name": "Medical University Plovdiv",
+      "country": "BG",
+      "value": 2.7847,
+      "detail": "6,972 works"
+    },
+    {
+      "name": "Sofia University \"St. Kliment Ohridski\"",
+      "country": "BG",
+      "value": 2.6897,
+      "detail": "32,818 works"
+    },
+    {
+      "name": "Medical University Pleven",
+      "country": "BG",
+      "value": 2.4667,
+      "detail": "2,821 works"
+    },
+    {
+      "name": "National Center of Infectious and Parasitic Diseases",
+      "country": "BG",
+      "value": 2.4397,
+      "detail": "1,153 works"
+    },
+    {
+      "name": "Plovdiv University",
+      "country": "BG",
+      "value": 2.3789,
+      "detail": "6,898 works"
+    },
+    {
+      "name": "Medical University of Sofia",
+      "country": "BG",
+      "value": 2.2926,
+      "detail": "12,979 works"
+    },
+    {
+      "name": "University of Food Technologies",
+      "country": "BG",
+      "value": 1.9486,
+      "detail": "2,281 works"
+    },
+    {
+      "name": "University of Chemical Technology and Metallurgy",
+      "country": "BG",
+      "value": 1.899,
+      "detail": "3,969 works"
+    },
+    {
+      "name": "Institute of Mineralogy and Crystallography \"Acad. Ivan Kostov\" Bulgarian Academy of Sciences",
+      "country": "BG",
+      "value": 1.8498,
+      "detail": "328 works"
+    },
+    {
+      "name": "Big Data for Smart Society (GATE) Institute",
+      "country": "BG",
+      "value": 1.8262,
+      "detail": "221 works"
+    },
+    {
+      "name": "Medical University of Varna",
+      "country": "BG",
+      "value": 1.7715,
+      "detail": "7,909 works"
+    },
+    {
+      "name": "University of Forestry",
+      "country": "BG",
+      "value": 1.7604,
+      "detail": "2,449 works"
+    },
+    {
+      "name": "Angel Kanchev University of Ruse",
+      "country": "BG",
+      "value": 1.5098,
+      "detail": "4,548 works"
+    },
+    {
+      "name": "D. A. Tsenov Academy of Economics",
+      "country": "BG",
+      "value": 1.4865,
+      "detail": "750 works"
+    },
+    {
+      "name": "Technical University of Gabrovo",
+      "country": "BG",
+      "value": 1.4601,
+      "detail": "1,329 works"
+    },
+    {
+      "name": "Trakia University",
+      "country": "BG",
+      "value": 1.425,
+      "detail": "5,722 works"
+    },
+    {
+      "name": "University of Structural Engineering and Architecture Lyuben Karavelov",
+      "country": "BG",
+      "value": 1.3889,
+      "detail": "139 works"
+    },
+    {
+      "name": "Technical University of Sofia",
+      "country": "BG",
+      "value": 1.2921,
+      "detail": "12,515 works"
+    },
+    {
+      "name": "University of Architecture, Civil Engineering and Geodesy",
+      "country": "BG",
+      "value": 1.2216,
+      "detail": "1,881 works"
+    },
+    {
+      "name": "Prof. Assen Zlatarov University",
+      "country": "BG",
+      "value": 1.2209,
+      "detail": "2,007 works"
+    },
+    {
+      "name": "University of Telecommunications and Post",
+      "country": "BG",
+      "value": 1.1839,
+      "detail": "407 works"
+    },
+    {
+      "name": "Agricultural University Plovdiv",
+      "country": "BG",
+      "value": 1.1748,
+      "detail": "2,008 works"
+    },
+    {
+      "name": "South-West University \"Neofit Rilski\"",
+      "country": "BG",
+      "value": 1.1693,
+      "detail": "2,888 works"
+    },
+    {
+      "name": "Bulgarian Air Force Academy",
+      "country": "BG",
+      "value": 1.14,
+      "detail": "127 works"
+    },
+    {
+      "name": "University of Mining and Geology \"Saint Ivan Rilski\"",
+      "country": "BG",
+      "value": 1.0483,
+      "detail": "1,060 works"
+    },
+    {
+      "name": "International Business School",
+      "country": "BG",
+      "value": 1,
+      "detail": "89 works"
+    },
+    {
+      "name": "Todor Kableshkov University of Transport",
+      "country": "BG",
+      "value": 0.9234,
+      "detail": "574 works"
+    },
+    {
+      "name": "Varna Free University",
+      "country": "BG",
+      "value": 0.8929,
+      "detail": "472 works"
+    },
+    {
+      "name": "Bulgarian Defence Institute \"Professor Tsvetan Lazarov\"",
+      "country": "BG",
+      "value": 0.8852,
+      "detail": "55 works"
+    },
+    {
+      "name": "Technical University of Varna",
+      "country": "BG",
+      "value": 0.8554,
+      "detail": "2,665 works"
+    },
+    {
+      "name": "University of National and World Economy",
+      "country": "BG",
+      "value": 0.7655,
+      "detail": "3,502 works"
+    },
+    {
+      "name": "Shumen University",
+      "country": "BG",
+      "value": 0.7625,
+      "detail": "2,230 works"
+    },
+    {
+      "name": "National Academy of Arts",
+      "country": "BG",
+      "value": 0.75,
+      "detail": "58 works"
+    },
+    {
+      "name": "University of Library Studies and Information Technologies",
+      "country": "BG",
+      "value": 0.7493,
+      "detail": "1,029 works"
+    },
+    {
+      "name": "Plant Protection Institute",
+      "country": "BG",
+      "value": 0.6667,
+      "detail": "161 works"
+    },
+    {
+      "name": "St. Cyril and St. Methodius University of Veliko Tarnovo",
+      "country": "BG",
+      "value": 0.5675,
+      "detail": "1,561 works"
+    },
+    {
+      "name": "University of Agribusiness and Rural Development",
+      "country": "BG",
+      "value": 0.5407,
+      "detail": "672 works"
+    },
+    {
+      "name": "University of Economics Varna",
+      "country": "BG",
+      "value": 0.5352,
+      "detail": "1,637 works"
+    },
+    {
+      "name": "European Polytechnical University",
+      "country": "BG",
+      "value": 0.4667,
+      "detail": "81 works"
+    },
+    {
+      "name": "Vasil Levski National Military University",
+      "country": "BG",
+      "value": 0.3885,
+      "detail": "1,282 works"
+    },
+    {
+      "name": "G. S. Rakovski National Defence College",
+      "country": "BG",
+      "value": 0.379,
+      "detail": "1,037 works"
+    },
+    {
+      "name": "National Sports Academy Vassil Levski",
+      "country": "BG",
+      "value": 0.3158,
+      "detail": "1,028 works"
+    },
+    {
+      "name": "Academy of Music, Dance and Fine Arts",
+      "country": "BG",
+      "value": 0.3077,
+      "detail": "88 works"
+    },
+    {
+      "name": "Nikola Vaptsarov Naval Academy",
+      "country": "BG",
+      "value": 0.2952,
+      "detail": "737 works"
+    },
+    {
+      "name": "National Academy of Music Prof. Pancho Vladigerov",
+      "country": "BG",
+      "value": 0.25,
+      "detail": "28 works"
+    },
+    {
+      "name": "University of Finance, Business and Entrepreneurship",
+      "country": "BG",
+      "value": 0.25,
+      "detail": "176 works"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "ee-longest-runways",
+  "title": "Longest Airport Runways in Estonia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Estonia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.491Z",
+  "items": [
+    {
+      "name": "Lennart Meri Tallinn Airport",
+      "country": "EE",
+      "value": 3479.9,
+      "detail": "Tallinn · 11,417 ft · ASP"
+    },
+    {
+      "name": "Ämari Air Base",
+      "country": "EE",
+      "value": 2000.1,
+      "detail": "Keila · 6,562 ft · CON"
+    },
+    {
+      "name": "Kuressaare Airport",
+      "country": "EE",
+      "value": 1999.79,
+      "detail": "Kuressaare · 6,561 ft · ASP"
+    },
+    {
+      "name": "Pärnu Airport",
+      "country": "EE",
+      "value": 1969.92,
+      "detail": "Pärnu · 6,463 ft · CON"
+    },
+    {
+      "name": "Tartu Airport",
+      "country": "EE",
+      "value": 1799.84,
+      "detail": "Tartu · 5,905 ft · ASP"
+    },
+    {
+      "name": "Kärdla Airport",
+      "country": "EE",
+      "value": 1520.04,
+      "detail": "Kärdla · 4,987 ft · ASP"
+    },
+    {
+      "name": "Ridali Airfield",
+      "country": "EE",
+      "value": 1200,
+      "detail": "Suurküla · 3,937 ft · GRS"
+    },
+    {
+      "name": "Viljandi Airfield",
+      "country": "EE",
+      "value": 800.1,
+      "detail": "Viljandi · 2,625 ft · GRS"
+    },
+    {
+      "name": "Rakvere Airfield",
+      "country": "EE",
+      "value": 750.11,
+      "detail": "Rakvere · 2,461 ft · G"
+    },
+    {
+      "name": "Karksi Airfield",
+      "country": "EE",
+      "value": 675.13,
+      "detail": "Karksi · 2,215 ft · GRS"
+    },
+    {
+      "name": "Antsla Airfield",
+      "country": "EE",
+      "value": 630.02,
+      "detail": "Antsla · 2,067 ft · GRS"
+    },
+    {
+      "name": "Narva Airfield",
+      "country": "EE",
+      "value": 609.6,
+      "detail": "Narva · 2,000 ft · GRAS TURF"
+    },
+    {
+      "name": "Jõhvi Airfield",
+      "country": "EE",
+      "value": 600.15,
+      "detail": "Jõhvi · 1,969 ft · GRAS TURF"
+    },
+    {
+      "name": "Riidaja Airfield",
+      "country": "EE",
+      "value": 600.15,
+      "detail": "Riidaja · 1,969 ft · GRS"
+    },
+    {
+      "name": "Ruhnu Airfield",
+      "country": "EE",
+      "value": 599.54,
+      "detail": "Ringsu · 1,967 ft · GRAS reinforced"
+    },
+    {
+      "name": "Humala Airfield",
+      "country": "EE",
+      "value": 420.01,
+      "detail": "Humala · 1,378 ft · grass"
+    },
+    {
+      "name": "Lange Airfield (Lennundusmuuseum)",
+      "country": "EE",
+      "value": 409.96,
+      "detail": "Tartu · 1,345 ft · GRS"
+    },
+    {
+      "name": "Varstu Airfield",
+      "country": "EE",
+      "value": 399.9,
+      "detail": "Varstu · 1,312 ft · Hard"
+    }
+  ]
+}

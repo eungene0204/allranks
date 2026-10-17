@@ -1,0 +1,68 @@
+{
+  "id": "cv-longest-runways",
+  "title": "Longest Airport Runways in Cape Verde",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cape Verde ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.483Z",
+  "items": [
+    {
+      "name": "Amílcar Cabral International Airport",
+      "country": "CV",
+      "value": 3279.65,
+      "detail": "Espargos · 10,760 ft · ASP"
+    },
+    {
+      "name": "Aristides Pereira International Airport",
+      "country": "CV",
+      "value": 2100.07,
+      "detail": "Rabil · 6,890 ft · ASP"
+    },
+    {
+      "name": "Nelson Mandela International Airport",
+      "country": "CV",
+      "value": 2100.07,
+      "detail": "Praia · 6,890 ft · ASP"
+    },
+    {
+      "name": "Cesaria Evora International Airport",
+      "country": "CV",
+      "value": 1999.79,
+      "detail": "São Pedro · 6,561 ft · ASP"
+    },
+    {
+      "name": "Preguiça Airport",
+      "country": "CV",
+      "value": 1399.95,
+      "detail": "Preguiça · 4,593 ft · ASP"
+    },
+    {
+      "name": "Maio Airport",
+      "country": "CV",
+      "value": 1200,
+      "detail": "Vila do Maio · 3,937 ft · ASP"
+    },
+    {
+      "name": "São Filipe Airport",
+      "country": "CV",
+      "value": 1200,
+      "detail": "São Filipe · 3,937 ft · UNK"
+    }
+  ]
+}

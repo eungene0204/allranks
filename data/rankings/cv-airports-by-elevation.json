@@ -1,0 +1,74 @@
+{
+  "id": "cv-airports-by-elevation",
+  "title": "Highest Airports in Cape Verde",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cape Verde ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.483Z",
+  "items": [
+    {
+      "name": "Preguiça Airport",
+      "country": "CV",
+      "value": 203.91,
+      "detail": "Preguiça · 669 ft above sea level"
+    },
+    {
+      "name": "São Filipe Airport",
+      "country": "CV",
+      "value": 188.06,
+      "detail": "São Filipe · 617 ft above sea level"
+    },
+    {
+      "name": "Nelson Mandela International Airport",
+      "country": "CV",
+      "value": 70.1,
+      "detail": "Praia · 230 ft above sea level"
+    },
+    {
+      "name": "Amílcar Cabral International Airport",
+      "country": "CV",
+      "value": 53.95,
+      "detail": "Espargos · 177 ft above sea level"
+    },
+    {
+      "name": "Aristides Pereira International Airport",
+      "country": "CV",
+      "value": 21.03,
+      "detail": "Rabil · 69 ft above sea level"
+    },
+    {
+      "name": "Cesaria Evora International Airport",
+      "country": "CV",
+      "value": 20.12,
+      "detail": "São Pedro · 66 ft above sea level"
+    },
+    {
+      "name": "Mosteiros Airport",
+      "country": "CV",
+      "value": 20.12,
+      "detail": "Vila do Mosteiros · 66 ft above sea level"
+    },
+    {
+      "name": "Maio Airport",
+      "country": "CV",
+      "value": 10.97,
+      "detail": "Vila do Maio · 36 ft above sea level"
+    }
+  ]
+}

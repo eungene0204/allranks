@@ -1,0 +1,152 @@
+{
+  "id": "ao-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Angola",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:22.022Z",
+  "items": [
+    {
+      "name": "Universidade Katyavala Bwila",
+      "country": "AO",
+      "value": 3.062,
+      "detail": "254 works"
+    },
+    {
+      "name": "Instituto Superior Técnico Militar",
+      "country": "AO",
+      "value": 1.4583,
+      "detail": "41 works"
+    },
+    {
+      "name": "Instituto Superior de Administração e Finanças",
+      "country": "AO",
+      "value": 1.25,
+      "detail": "8 works"
+    },
+    {
+      "name": "Universidade Mandume Ya Ndemufayo",
+      "country": "AO",
+      "value": 1.2422,
+      "detail": "240 works"
+    },
+    {
+      "name": "Instituto Superior Politécnico de Tecnologia e Ciências",
+      "country": "AO",
+      "value": 0.8378,
+      "detail": "155 works"
+    },
+    {
+      "name": "Agostinho Neto University",
+      "country": "AO",
+      "value": 0.7803,
+      "detail": "2,240 works"
+    },
+    {
+      "name": "Instituto Superior Politécnico Tundavala",
+      "country": "AO",
+      "value": 0.6905,
+      "detail": "109 works"
+    },
+    {
+      "name": "Universidade Kimpa Vita",
+      "country": "AO",
+      "value": 0.5887,
+      "detail": "236 works"
+    },
+    {
+      "name": "Universidade José Eduardo dos Santos",
+      "country": "AO",
+      "value": 0.5608,
+      "detail": "367 works"
+    },
+    {
+      "name": "Catholic University of Angola",
+      "country": "AO",
+      "value": 0.3869,
+      "detail": "214 works"
+    },
+    {
+      "name": "Private University of Angola",
+      "country": "AO",
+      "value": 0.3214,
+      "detail": "71 works"
+    },
+    {
+      "name": "Jean Piaget University of Angola",
+      "country": "AO",
+      "value": 0.3129,
+      "detail": "190 works"
+    },
+    {
+      "name": "Universidade Óscar Ribas",
+      "country": "AO",
+      "value": 0.3067,
+      "detail": "118 works"
+    },
+    {
+      "name": "Instituto Superior de Ciências da Educação de Benguela",
+      "country": "AO",
+      "value": 0.3043,
+      "detail": "182 works"
+    },
+    {
+      "name": "Universidade Rainha Njinga a Mbande",
+      "country": "AO",
+      "value": 0.2584,
+      "detail": "77 works"
+    },
+    {
+      "name": "Universidade de Belas",
+      "country": "AO",
+      "value": 0.2,
+      "detail": "11 works"
+    },
+    {
+      "name": "Universidade Independente de Angola",
+      "country": "AO",
+      "value": 0.1667,
+      "detail": "43 works"
+    },
+    {
+      "name": "Methodist University of Angola",
+      "country": "AO",
+      "value": 0.1471,
+      "detail": "90 works"
+    },
+    {
+      "name": "Instituto Superior Politécnico do Bengo",
+      "country": "AO",
+      "value": 0.0909,
+      "detail": "18 works"
+    },
+    {
+      "name": "Universidade Lusíada de Angola",
+      "country": "AO",
+      "value": 0.0727,
+      "detail": "75 works"
+    },
+    {
+      "name": "Universidade Gregório Semedo",
+      "country": "AO",
+      "value": 0.0323,
+      "detail": "79 works"
+    }
+  ]
+}

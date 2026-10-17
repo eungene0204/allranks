@@ -1,0 +1,86 @@
+{
+  "id": "is-research-publications",
+  "title": "Universities by Research Publications in Iceland",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:56.290Z",
+  "items": [
+    {
+      "name": "University of Iceland",
+      "country": "IS",
+      "value": 32666,
+      "detail": "2,964,832 citations"
+    },
+    {
+      "name": "Reykjavík University",
+      "country": "IS",
+      "value": 6542,
+      "detail": "295,901 citations"
+    },
+    {
+      "name": "Institute of Earth Sciences",
+      "country": "IS",
+      "value": 2302,
+      "detail": "182,699 citations"
+    },
+    {
+      "name": "University of Akureyri",
+      "country": "IS",
+      "value": 1862,
+      "detail": "71,135 citations"
+    },
+    {
+      "name": "Agricultural University of Iceland",
+      "country": "IS",
+      "value": 879,
+      "detail": "37,122 citations"
+    },
+    {
+      "name": "Hólar University College",
+      "country": "IS",
+      "value": 502,
+      "detail": "12,239 citations"
+    },
+    {
+      "name": "Árni Magnússon Institute for Icelandic Studies",
+      "country": "IS",
+      "value": 241,
+      "detail": "788 citations"
+    },
+    {
+      "name": "Bifröst University",
+      "country": "IS",
+      "value": 222,
+      "detail": "2,129 citations"
+    },
+    {
+      "name": "University Centre of the Westfjords",
+      "country": "IS",
+      "value": 138,
+      "detail": "2,655 citations"
+    },
+    {
+      "name": "Iceland University of the Arts",
+      "country": "IS",
+      "value": 47,
+      "detail": "123 citations"
+    }
+  ]
+}

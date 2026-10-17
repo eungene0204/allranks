@@ -1,0 +1,326 @@
+{
+  "id": "ke-cities-by-elevation",
+  "title": "Highest Major Cities in Kenya",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Kenya with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.542Z",
+  "items": [
+    {
+      "name": "Upper Gilgil",
+      "country": "KE",
+      "value": 2710,
+      "detail": "60,711 people · Nyandarua County"
+    },
+    {
+      "name": "Molo",
+      "country": "KE",
+      "value": 2451,
+      "detail": "48,356 people · Nakuru County"
+    },
+    {
+      "name": "Elburgon",
+      "country": "KE",
+      "value": 2412,
+      "detail": "28,359 people · Nakuru County"
+    },
+    {
+      "name": "Nyahururu",
+      "country": "KE",
+      "value": 2373,
+      "detail": "37,650 people · Laikipia"
+    },
+    {
+      "name": "Iten",
+      "country": "KE",
+      "value": 2355,
+      "detail": "42,000 people · Elegeyo-Marakwet"
+    },
+    {
+      "name": "Ol Kalou",
+      "country": "KE",
+      "value": 2348,
+      "detail": "47,795 people · Nyandarua County"
+    },
+    {
+      "name": "Mairo Inya",
+      "country": "KE",
+      "value": 2294,
+      "detail": "30,527 people · Nyandarua County"
+    },
+    {
+      "name": "Limuru",
+      "country": "KE",
+      "value": 2251,
+      "detail": "159,314 people · Kiambu County"
+    },
+    {
+      "name": "Njoro",
+      "country": "KE",
+      "value": 2169,
+      "detail": "42,173 people · Nakuru County"
+    },
+    {
+      "name": "Eldama Ravine",
+      "country": "KE",
+      "value": 2142,
+      "detail": "21,385 people · Baringo"
+    },
+    {
+      "name": "Eldoret",
+      "country": "KE",
+      "value": 2095,
+      "detail": "475,716 people · Uasin Gishu County"
+    },
+    {
+      "name": "Makutano",
+      "country": "KE",
+      "value": 2081,
+      "detail": "28,469 people · West Pokot County"
+    },
+    {
+      "name": "Kabarnet",
+      "country": "KE",
+      "value": 2048,
+      "detail": "24,661 people · Baringo"
+    },
+    {
+      "name": "Kikuyu",
+      "country": "KE",
+      "value": 2047,
+      "detail": "323,881 people · Kiambu County"
+    },
+    {
+      "name": "Kapenguria",
+      "country": "KE",
+      "value": 2020,
+      "detail": "56,000 people · West Pokot County"
+    },
+    {
+      "name": "Gilgil",
+      "country": "KE",
+      "value": 2009,
+      "detail": "60,711 people · Nakuru County"
+    },
+    {
+      "name": "Kericho",
+      "country": "KE",
+      "value": 2002,
+      "detail": "53,804 people · Kericho County"
+    },
+    {
+      "name": "Nyamira",
+      "country": "KE",
+      "value": 2000,
+      "detail": "24,483 people · Nyamira county"
+    },
+    {
+      "name": "Kapsabet",
+      "country": "KE",
+      "value": 1998,
+      "detail": "41,997 people · Nandi"
+    },
+    {
+      "name": "Githunguri",
+      "country": "KE",
+      "value": 1971,
+      "detail": "63,319 people · Kiambu County"
+    },
+    {
+      "name": "Nanyuki",
+      "country": "KE",
+      "value": 1951,
+      "detail": "72,813 people · Laikipia"
+    },
+    {
+      "name": "Maralal",
+      "country": "KE",
+      "value": 1941,
+      "detail": "31,350 people · Samburu County"
+    },
+    {
+      "name": "Tetu",
+      "country": "KE",
+      "value": 1937,
+      "detail": "39,293 people · Nyeri County"
+    },
+    {
+      "name": "Ngong",
+      "country": "KE",
+      "value": 1924,
+      "detail": "102,323 people · Kajiado County"
+    },
+    {
+      "name": "Naivasha",
+      "country": "KE",
+      "value": 1902,
+      "detail": "198,444 people · Nakuru County"
+    },
+    {
+      "name": "Kitale",
+      "country": "KE",
+      "value": 1900,
+      "detail": "162,174 people · Trans Nzoia"
+    },
+    {
+      "name": "Karuri",
+      "country": "KE",
+      "value": 1897,
+      "detail": "194,342 people · Kiambu County"
+    },
+    {
+      "name": "Mai",
+      "country": "KE",
+      "value": 1891,
+      "detail": "20,823 people · Nakuru County"
+    },
+    {
+      "name": "Narok",
+      "country": "KE",
+      "value": 1881,
+      "detail": "65,430 people · Narok County"
+    },
+    {
+      "name": "Rongai",
+      "country": "KE",
+      "value": 1875,
+      "detail": "30,471 people · Nakuru County"
+    },
+    {
+      "name": "Kiserian",
+      "country": "KE",
+      "value": 1840,
+      "detail": "76,903 people · Kajiado County"
+    },
+    {
+      "name": "Maai Mahiu",
+      "country": "KE",
+      "value": 1832,
+      "detail": "20,823 people · Nakuru County"
+    },
+    {
+      "name": "Moi‘s Bridge",
+      "country": "KE",
+      "value": 1828,
+      "detail": "16,355 people · Uasin Gishu County"
+    },
+    {
+      "name": "Lang'ata",
+      "country": "KE",
+      "value": 1819,
+      "detail": "172,569 people · Nairobi County"
+    },
+    {
+      "name": "Nyeri",
+      "country": "KE",
+      "value": 1812,
+      "detail": "80,081 people · Nyeri County"
+    },
+    {
+      "name": "Nakuru",
+      "country": "KE",
+      "value": 1802,
+      "detail": "570,674 people · Nakuru County"
+    },
+    {
+      "name": "Kiminini",
+      "country": "KE",
+      "value": 1788,
+      "detail": "16,560 people · Trans Nzoia"
+    },
+    {
+      "name": "Karatina",
+      "country": "KE",
+      "value": 1766,
+      "detail": "23,552 people · Nyeri County"
+    },
+    {
+      "name": "Kinoi",
+      "country": "KE",
+      "value": 1751,
+      "detail": "44,086 people · Machakos County"
+    },
+    {
+      "name": "Ongata Rongai",
+      "country": "KE",
+      "value": 1731,
+      "detail": "172,569 people · Kajiado County"
+    },
+    {
+      "name": "Kajiado",
+      "country": "KE",
+      "value": 1725,
+      "detail": "24,678 people · Kajiado County"
+    },
+    {
+      "name": "Pumwani",
+      "country": "KE",
+      "value": 1701,
+      "detail": "29,616 people · Nairobi County"
+    },
+    {
+      "name": "Kimilili",
+      "country": "KE",
+      "value": 1697,
+      "detail": "56,050 people · Bungoma County"
+    },
+    {
+      "name": "Kisii",
+      "country": "KE",
+      "value": 1686,
+      "detail": "112,417 people · Kisii County"
+    },
+    {
+      "name": "Nairobi",
+      "country": "KE",
+      "value": 1684,
+      "detail": "4,397,073 people · Nairobi County"
+    },
+    {
+      "name": "Kiambu",
+      "country": "KE",
+      "value": 1683,
+      "detail": "147,870 people · Kiambu County"
+    },
+    {
+      "name": "Maua",
+      "country": "KE",
+      "value": 1629,
+      "detail": "22,121 people · Meru County"
+    },
+    {
+      "name": "Mbale",
+      "country": "KE",
+      "value": 1628,
+      "detail": "60,000 people · Vihiga County"
+    },
+    {
+      "name": "Imara Daima Estate",
+      "country": "KE",
+      "value": 1627,
+      "detail": "52,837 people · Nairobi County"
+    },
+    {
+      "name": "Machakos",
+      "country": "KE",
+      "value": 1619,
+      "detail": "63,767 people · Machakos County"
+    }
+  ]
+}

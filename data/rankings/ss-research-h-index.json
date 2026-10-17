@@ -1,0 +1,74 @@
+{
+  "id": "ss-research-h-index",
+  "title": "Universities by Research h-index in South Sudan",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:35.232Z",
+  "items": [
+    {
+      "name": "University of Juba",
+      "country": "SS",
+      "value": 44,
+      "detail": "1,556 works"
+    },
+    {
+      "name": "Bridge University",
+      "country": "SS",
+      "value": 36,
+      "detail": "446 works"
+    },
+    {
+      "name": "University of Bahr El-Ghazal",
+      "country": "SS",
+      "value": 21,
+      "detail": "248 works"
+    },
+    {
+      "name": "Upper Nile University",
+      "country": "SS",
+      "value": 13,
+      "detail": "235 works"
+    },
+    {
+      "name": "Rumbek University",
+      "country": "SS",
+      "value": 10,
+      "detail": "38 works"
+    },
+    {
+      "name": "John Garang Memorial University of Science and Technology",
+      "country": "SS",
+      "value": 6,
+      "detail": "35 works"
+    },
+    {
+      "name": "Akobo Heritage and Memorial University",
+      "country": "SS",
+      "value": 1,
+      "detail": "2 works"
+    },
+    {
+      "name": "Catholic University of South Sudan",
+      "country": "SS",
+      "value": 1,
+      "detail": "116 works"
+    }
+  ]
+}

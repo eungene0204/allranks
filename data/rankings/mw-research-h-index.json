@@ -1,0 +1,98 @@
+{
+  "id": "mw-research-h-index",
+  "title": "Universities by Research h-index in Malawi",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:14.150Z",
+  "items": [
+    {
+      "name": "University of Malawi",
+      "country": "MW",
+      "value": 237,
+      "detail": "8,589 works"
+    },
+    {
+      "name": "Lilongwe University of Agriculture and Natural Resources",
+      "country": "MW",
+      "value": 82,
+      "detail": "2,058 works"
+    },
+    {
+      "name": "Kamuzu University of Health Sciences",
+      "country": "MW",
+      "value": 73,
+      "detail": "2,464 works"
+    },
+    {
+      "name": "Mzuzu University",
+      "country": "MW",
+      "value": 66,
+      "detail": "1,422 works"
+    },
+    {
+      "name": "Malawi University of Science and Technology",
+      "country": "MW",
+      "value": 50,
+      "detail": "1,053 works"
+    },
+    {
+      "name": "University of Livingstonia",
+      "country": "MW",
+      "value": 18,
+      "detail": "190 works"
+    },
+    {
+      "name": "The Catholic University of Malawi",
+      "country": "MW",
+      "value": 14,
+      "detail": "134 works"
+    },
+    {
+      "name": "DMI-St. John the Baptist University",
+      "country": "MW",
+      "value": 13,
+      "detail": "280 works"
+    },
+    {
+      "name": "Malawi School of Government",
+      "country": "MW",
+      "value": 10,
+      "detail": "19 works"
+    },
+    {
+      "name": "Malawi Adventist University",
+      "country": "MW",
+      "value": 8,
+      "detail": "48 works"
+    },
+    {
+      "name": "Unicaf University",
+      "country": "MW",
+      "value": 8,
+      "detail": "164 works"
+    },
+    {
+      "name": "Nalikule College of Education",
+      "country": "MW",
+      "value": 7,
+      "detail": "35 works"
+    }
+  ]
+}

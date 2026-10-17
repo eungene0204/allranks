@@ -1,0 +1,56 @@
+{
+  "id": "cf-longest-runways",
+  "title": "Longest Airport Runways in Central African Republic",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Central African Republic ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CF",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.474Z",
+  "items": [
+    {
+      "name": "Bangui M'Poko International Airport",
+      "country": "CF",
+      "value": 2599.94,
+      "detail": "Bangui · 8,530 ft · ASP"
+    },
+    {
+      "name": "Bria Airport",
+      "country": "CF",
+      "value": 1800.15,
+      "detail": "Bria · 5,906 ft · UNK"
+    },
+    {
+      "name": "Berbérati Airport",
+      "country": "CF",
+      "value": 1659.94,
+      "detail": "Berbérati · 5,446 ft · ASP"
+    },
+    {
+      "name": "N'Délé Airport",
+      "country": "CF",
+      "value": 1499.92,
+      "detail": "N'Délé · 4,921 ft · UNK"
+    },
+    {
+      "name": "Yalinga Airport",
+      "country": "CF",
+      "value": 1194.82,
+      "detail": "Yalinga · 3,920 ft · GRS"
+    }
+  ]
+}

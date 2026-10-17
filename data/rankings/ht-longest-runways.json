@@ -1,0 +1,62 @@
+{
+  "id": "ht-longest-runways",
+  "title": "Longest Airport Runways in Haiti",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Haiti ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.505Z",
+  "items": [
+    {
+      "name": "Toussaint Louverture International Airport",
+      "country": "HT",
+      "value": 3040.08,
+      "detail": "Port-au-Prince · 9,974 ft · ASP"
+    },
+    {
+      "name": "Cap Haitien International Airport",
+      "country": "HT",
+      "value": 2652.06,
+      "detail": "Cap Haitien · 8,701 ft · ASP"
+    },
+    {
+      "name": "Jacmel Airport",
+      "country": "HT",
+      "value": 1005.84,
+      "detail": "Jacmel · 3,300 ft · ASP"
+    },
+    {
+      "name": "Antoine-Simon International Airport",
+      "country": "HT",
+      "value": 981.46,
+      "detail": "Les Cayes · 3,220 ft · ASP"
+    },
+    {
+      "name": "Port-de-Paix Airport",
+      "country": "HT",
+      "value": 640.08,
+      "detail": "Port-de-Paix · 2,100 ft · GVL"
+    },
+    {
+      "name": "Anse-Rouge Airport",
+      "country": "HT",
+      "value": 590.09,
+      "detail": "Anse-Rouge · 1,936 ft · GVL"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "pe-cities-by-elevation",
+  "title": "Highest Major Cities in Peru",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Peru with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.556Z",
+  "items": [
+    {
+      "name": "La Rinconada",
+      "country": "PE",
+      "value": 5022,
+      "detail": "29,678 people · Puno"
+    },
+    {
+      "name": "Cerro de Pasco",
+      "country": "PE",
+      "value": 4457,
+      "detail": "58,899 people · Pasco"
+    },
+    {
+      "name": "Yanacancha",
+      "country": "PE",
+      "value": 4348,
+      "detail": "24,105 people · Pasco"
+    },
+    {
+      "name": "Junín",
+      "country": "PE",
+      "value": 4117,
+      "detail": "15,320 people · Junin"
+    },
+    {
+      "name": "Yanacancha (Huánuco Department)",
+      "country": "PE",
+      "value": 3997,
+      "detail": "23,175 people · Huánuco Department"
+    },
+    {
+      "name": "Huancavelica",
+      "country": "PE",
+      "value": 3990,
+      "detail": "49,570 people · Huancavelica"
+    },
+    {
+      "name": "Yauri",
+      "country": "PE",
+      "value": 3911,
+      "detail": "23,867 people · Cuzco Department"
+    },
+    {
+      "name": "Ayaviri",
+      "country": "PE",
+      "value": 3898,
+      "detail": "22,247 people · Puno"
+    },
+    {
+      "name": "San Miguel",
+      "country": "PE",
+      "value": 3859,
+      "detail": "60,850 people · Puno"
+    },
+    {
+      "name": "Ilave",
+      "country": "PE",
+      "value": 3841,
+      "detail": "22,200 people · Puno"
+    },
+    {
+      "name": "Juliaca",
+      "country": "PE",
+      "value": 3834,
+      "detail": "245,675 people · Puno"
+    },
+    {
+      "name": "Puno",
+      "country": "PE",
+      "value": 3792,
+      "detail": "128,637 people · Puno"
+    },
+    {
+      "name": "La Oroya",
+      "country": "PE",
+      "value": 3765,
+      "detail": "33,345 people · Junin"
+    },
+    {
+      "name": "Huancayo",
+      "country": "PE",
+      "value": 3596,
+      "detail": "456,250 people · Junin"
+    },
+    {
+      "name": "Sicuani",
+      "country": "PE",
+      "value": 3551,
+      "detail": "33,575 people · Cuzco Department"
+    },
+    {
+      "name": "Chilca",
+      "country": "PE",
+      "value": 3534,
+      "detail": "73,371 people · Junin"
+    },
+    {
+      "name": "Chaupimarca",
+      "country": "PE",
+      "value": 3446,
+      "detail": "28,666 people · Pasco"
+    },
+    {
+      "name": "Santiago",
+      "country": "PE",
+      "value": 3420,
+      "detail": "64,075 people · Cuzco Department"
+    },
+    {
+      "name": "Jauja",
+      "country": "PE",
+      "value": 3380,
+      "detail": "21,057 people · Junin"
+    },
+    {
+      "name": "Wanchaq",
+      "country": "PE",
+      "value": 3358,
+      "detail": "59,134 people · Cuzco Department"
+    },
+    {
+      "name": "Huamachuco",
+      "country": "PE",
+      "value": 3341,
+      "detail": "21,768 people · La Libertad"
+    },
+    {
+      "name": "Cusco",
+      "country": "PE",
+      "value": 3312,
+      "detail": "428,450 people · Cuzco Department"
+    },
+    {
+      "name": "Tarma",
+      "country": "PE",
+      "value": 3055,
+      "detail": "51,350 people · Junin"
+    },
+    {
+      "name": "Centenario",
+      "country": "PE",
+      "value": 3039,
+      "detail": "47,581 people · Ancash"
+    },
+    {
+      "name": "Andahuaylas",
+      "country": "PE",
+      "value": 2902,
+      "detail": "17,444 people · Apurímac Department"
+    },
+    {
+      "name": "Huaraz",
+      "country": "PE",
+      "value": 2829,
+      "detail": "118,836 people · Ancash"
+    },
+    {
+      "name": "Ayacucho",
+      "country": "PE",
+      "value": 2805,
+      "detail": "140,033 people · Ayacucho"
+    },
+    {
+      "name": "Cajamarca",
+      "country": "PE",
+      "value": 2684,
+      "detail": "201,329 people · Cajamarca Department"
+    },
+    {
+      "name": "Huanta",
+      "country": "PE",
+      "value": 2659,
+      "detail": "18,627 people · Ayacucho"
+    },
+    {
+      "name": "Abancay",
+      "country": "PE",
+      "value": 2629,
+      "detail": "72,277 people · Apurímac Department"
+    },
+    {
+      "name": "Cono Norte",
+      "country": "PE",
+      "value": 2593,
+      "detail": "47,347 people · Arequipa"
+    },
+    {
+      "name": "Selva Alegre",
+      "country": "PE",
+      "value": 2455,
+      "detail": "72,696 people · Arequipa"
+    },
+    {
+      "name": "Arequipa",
+      "country": "PE",
+      "value": 2397,
+      "detail": "1,195,700 people · Arequipa"
+    },
+    {
+      "name": "Chachapoyas",
+      "country": "PE",
+      "value": 2360,
+      "detail": "32,026 people · Amazonas"
+    },
+    {
+      "name": "Ciudad Satelite",
+      "country": "PE",
+      "value": 2336,
+      "detail": "76,410 people · Arequipa"
+    },
+    {
+      "name": "Jacobo Hunter",
+      "country": "PE",
+      "value": 2282,
+      "detail": "46,092 people · Arequipa"
+    },
+    {
+      "name": "Huánuco",
+      "country": "PE",
+      "value": 1795,
+      "detail": "196,627 people · Huánuco Department"
+    },
+    {
+      "name": "Santa Ana",
+      "country": "PE",
+      "value": 1646,
+      "detail": "25,145 people · Cuzco Department"
+    },
+    {
+      "name": "San Antonio",
+      "country": "PE",
+      "value": 1455,
+      "detail": "15,633 people · Moquegua Department"
+    },
+    {
+      "name": "Moquegua",
+      "country": "PE",
+      "value": 1445,
+      "detail": "69,882 people · Moquegua Department"
+    },
+    {
+      "name": "El Pedregal",
+      "country": "PE",
+      "value": 1400,
+      "detail": "20,063 people · Arequipa"
+    },
+    {
+      "name": "Quillabamba",
+      "country": "PE",
+      "value": 1054,
+      "detail": "25,300 people · Cuzco Department"
+    },
+    {
+      "name": "La Peca",
+      "country": "PE",
+      "value": 897,
+      "detail": "27,045 people · Amazonas"
+    },
+    {
+      "name": "Chosica",
+      "country": "PE",
+      "value": 831,
+      "detail": "88,606 people · Lima region"
+    },
+    {
+      "name": "Rioja",
+      "country": "PE",
+      "value": 831,
+      "detail": "25,057 people · San Martín Department"
+    },
+    {
+      "name": "Minas de Marcona",
+      "country": "PE",
+      "value": 776,
+      "detail": "15,478 people · Ica"
+    },
+    {
+      "name": "San Martín de Pangoa",
+      "country": "PE",
+      "value": 775,
+      "detail": "16,262 people · Junin"
+    },
+    {
+      "name": "Moyobamba",
+      "country": "PE",
+      "value": 741,
+      "detail": "50,073 people · San Martín Department"
+    },
+    {
+      "name": "Jaén",
+      "country": "PE",
+      "value": 730,
+      "detail": "52,493 people · Cajamarca Department"
+    },
+    {
+      "name": "Tingo María",
+      "country": "PE",
+      "value": 647,
+      "detail": "53,177 people · Huánuco Department"
+    }
+  ]
+}

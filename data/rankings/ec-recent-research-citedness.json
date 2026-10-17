@@ -1,0 +1,326 @@
+{
+  "id": "ec-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Ecuador",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "EC",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:42.870Z",
+  "items": [
+    {
+      "name": "Universidad UTE",
+      "country": "EC",
+      "value": 4.9187,
+      "detail": "3,733 works"
+    },
+    {
+      "name": "Universidad de Las Américas",
+      "country": "EC",
+      "value": 4.5345,
+      "detail": "6,262 works"
+    },
+    {
+      "name": "Universidad Espíritu Santo",
+      "country": "EC",
+      "value": 3.6833,
+      "detail": "5,530 works"
+    },
+    {
+      "name": "Escuela Superior Politecnica del Litoral",
+      "country": "EC",
+      "value": 3.3068,
+      "detail": "8,071 works"
+    },
+    {
+      "name": "Universidad Yachay Tech",
+      "country": "EC",
+      "value": 3.0424,
+      "detail": "2,253 works"
+    },
+    {
+      "name": "National Polytechnic School",
+      "country": "EC",
+      "value": 2.2099,
+      "detail": "8,168 works"
+    },
+    {
+      "name": "Universidad Ecotec",
+      "country": "EC",
+      "value": 2.154,
+      "detail": "1,753 works"
+    },
+    {
+      "name": "Universidad San Francisco de Quito",
+      "country": "EC",
+      "value": 2.1501,
+      "detail": "12,173 works"
+    },
+    {
+      "name": "University of Cuenca",
+      "country": "EC",
+      "value": 1.9413,
+      "detail": "8,269 works"
+    },
+    {
+      "name": "Universidad Regional Amazónica IKIAM",
+      "country": "EC",
+      "value": 1.8674,
+      "detail": "1,301 works"
+    },
+    {
+      "name": "Universidad de las Fuerzas Armadas ESPE",
+      "country": "EC",
+      "value": 1.8432,
+      "detail": "7,627 works"
+    },
+    {
+      "name": "Universidad Internacional SEK",
+      "country": "EC",
+      "value": 1.7742,
+      "detail": "1,041 works"
+    },
+    {
+      "name": "Universidad Técnica del Norte",
+      "country": "EC",
+      "value": 1.75,
+      "detail": "2,554 works"
+    },
+    {
+      "name": "Universidad Técnica \"Luis Vargas Torres\"",
+      "country": "EC",
+      "value": 1.7309,
+      "detail": "1,832 works"
+    },
+    {
+      "name": "Instituto Geofísico de la Escuela Politécnica Nacional",
+      "country": "EC",
+      "value": 1.7114,
+      "detail": "568 works"
+    },
+    {
+      "name": "Universidad Técnica Particular de Loja",
+      "country": "EC",
+      "value": 1.637,
+      "detail": "6,887 works"
+    },
+    {
+      "name": "Universidad del Azuay",
+      "country": "EC",
+      "value": 1.6324,
+      "detail": "3,070 works"
+    },
+    {
+      "name": "Universidad Internacional del Ecuador",
+      "country": "EC",
+      "value": 1.4846,
+      "detail": "2,497 works"
+    },
+    {
+      "name": "Universidad Del Pacífico Ecuador",
+      "country": "EC",
+      "value": 1.4571,
+      "detail": "192 works"
+    },
+    {
+      "name": "Escuela Superior Politécnica del Chimborazo",
+      "country": "EC",
+      "value": 1.4191,
+      "detail": "8,013 works"
+    },
+    {
+      "name": "Universidad Indoamérica, Sede Quito",
+      "country": "EC",
+      "value": 1.3602,
+      "detail": "737 works"
+    },
+    {
+      "name": "Instituto Superior Tecnológico Japón",
+      "country": "EC",
+      "value": 1.3204,
+      "detail": "258 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador",
+      "country": "EC",
+      "value": 1.2635,
+      "detail": "11,567 works"
+    },
+    {
+      "name": "Politecnica Salesiana University",
+      "country": "EC",
+      "value": 1.1722,
+      "detail": "7,022 works"
+    },
+    {
+      "name": "Universidad Técnica Federico Santa María",
+      "country": "EC",
+      "value": 1.1335,
+      "detail": "875 works"
+    },
+    {
+      "name": "Instituto Superior Tecnológico ITCA",
+      "country": "EC",
+      "value": 1.1106,
+      "detail": "123 works"
+    },
+    {
+      "name": "Instituto Tecnológico Superior ARGOS",
+      "country": "EC",
+      "value": 1.0825,
+      "detail": "139 works"
+    },
+    {
+      "name": "Universidad Indoamérica",
+      "country": "EC",
+      "value": 1.0645,
+      "detail": "4,084 works"
+    },
+    {
+      "name": "Universidad Estatal Amazónica",
+      "country": "EC",
+      "value": 1.0323,
+      "detail": "2,472 works"
+    },
+    {
+      "name": "Universitario de Formación",
+      "country": "EC",
+      "value": 1.0265,
+      "detail": "322 works"
+    },
+    {
+      "name": "Instituto Superior Tecnológico Rumiñahui",
+      "country": "EC",
+      "value": 0.9363,
+      "detail": "327 works"
+    },
+    {
+      "name": "Universidad Técnica de Manabí",
+      "country": "EC",
+      "value": 0.9346,
+      "detail": "9,868 works"
+    },
+    {
+      "name": "Universidad Nacional de Chimborazo",
+      "country": "EC",
+      "value": 0.9266,
+      "detail": "5,680 works"
+    },
+    {
+      "name": "Central University of Ecuador",
+      "country": "EC",
+      "value": 0.9028,
+      "detail": "11,776 works"
+    },
+    {
+      "name": "Universidad Técnica de Ambato",
+      "country": "EC",
+      "value": 0.8759,
+      "detail": "8,852 works"
+    },
+    {
+      "name": "Instituto Superior Tecnológico Daniel Álvarez Burneo",
+      "country": "EC",
+      "value": 0.871,
+      "detail": "33 works"
+    },
+    {
+      "name": "Universidad Católica de Santiago de Guayaquil",
+      "country": "EC",
+      "value": 0.8637,
+      "detail": "4,212 works"
+    },
+    {
+      "name": "Instituto de Altos Estudios Nacionales",
+      "country": "EC",
+      "value": 0.8398,
+      "detail": "684 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador sede Santo Domingo",
+      "country": "EC",
+      "value": 0.8333,
+      "detail": "422 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador Sede Manabí",
+      "country": "EC",
+      "value": 0.8279,
+      "detail": "765 works"
+    },
+    {
+      "name": "Pontificia Universidad Católica del Ecuador Sede Ambato",
+      "country": "EC",
+      "value": 0.8245,
+      "detail": "781 works"
+    },
+    {
+      "name": "Universidad de los Hemisferios",
+      "country": "EC",
+      "value": 0.8206,
+      "detail": "818 works"
+    },
+    {
+      "name": "Universidad Nacional de Loja",
+      "country": "EC",
+      "value": 0.7836,
+      "detail": "4,447 works"
+    },
+    {
+      "name": "Instituto Tecnológico Superior Jubones",
+      "country": "EC",
+      "value": 0.7736,
+      "detail": "89 works"
+    },
+    {
+      "name": "Universidad Tecnológica Empresarial de Guayaquil",
+      "country": "EC",
+      "value": 0.672,
+      "detail": "572 works"
+    },
+    {
+      "name": "Universidad Agraria del Ecuador",
+      "country": "EC",
+      "value": 0.6599,
+      "detail": "1,417 works"
+    },
+    {
+      "name": "Instituto Superior Tecnologico Compu Sur",
+      "country": "EC",
+      "value": 0.6484,
+      "detail": "121 works"
+    },
+    {
+      "name": "Universidad Técnica Estatal de Quevedo",
+      "country": "EC",
+      "value": 0.6394,
+      "detail": "5,084 works"
+    },
+    {
+      "name": "Universidad de Otavalo",
+      "country": "EC",
+      "value": 0.6109,
+      "detail": "450 works"
+    },
+    {
+      "name": "Universidad Casa Grande",
+      "country": "EC",
+      "value": 0.5901,
+      "detail": "346 works"
+    }
+  ]
+}

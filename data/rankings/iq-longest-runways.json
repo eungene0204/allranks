@@ -1,0 +1,128 @@
+{
+  "id": "iq-longest-runways",
+  "title": "Longest Airport Runways in Iraq",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Iraq ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IQ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.510Z",
+  "items": [
+    {
+      "name": "Erbil International Airport",
+      "country": "IQ",
+      "value": 4799.99,
+      "detail": "Arbil · 15,748 ft · Concrete"
+    },
+    {
+      "name": "Al Taqaddum Air Base",
+      "country": "IQ",
+      "value": 4019.09,
+      "detail": "Al Habbaniyah · 13,186 ft · CON"
+    },
+    {
+      "name": "Al Asad Air Base",
+      "country": "IQ",
+      "value": 4000.2,
+      "detail": "Hīt · 13,124 ft · ASP"
+    },
+    {
+      "name": "Baghdad International Airport / New Al Muthana Air Base",
+      "country": "IQ",
+      "value": 4000.2,
+      "detail": "Baghdad · 13,124 ft · CON"
+    },
+    {
+      "name": "Basra International Airport",
+      "country": "IQ",
+      "value": 4000.2,
+      "detail": "Basra · 13,124 ft · CON"
+    },
+    {
+      "name": "Ubaydah Bin Al Jarrah Airport",
+      "country": "IQ",
+      "value": 3555.8,
+      "detail": "Al Kut · 11,666 ft · ASP"
+    },
+    {
+      "name": "Balad Southeast Airport / Joint Base Balad",
+      "country": "IQ",
+      "value": 3503.68,
+      "detail": "Al Bakr · 11,495 ft · PEM"
+    },
+    {
+      "name": "Qayyarah West Airport",
+      "country": "IQ",
+      "value": 3500.93,
+      "detail": "Qayyarah · 11,486 ft · CON"
+    },
+    {
+      "name": "Jalal Talabani International Airport",
+      "country": "IQ",
+      "value": 3499.41,
+      "detail": "Sulaymaniyah · 11,481 ft · CON"
+    },
+    {
+      "name": "Ali Air Base",
+      "country": "IQ",
+      "value": 3332.99,
+      "detail": "Nasiriyah · 10,935 ft · CON"
+    },
+    {
+      "name": "Al Sahra Army Air Field",
+      "country": "IQ",
+      "value": 3116.58,
+      "detail": "Tikrit · 10,225 ft · CON"
+    },
+    {
+      "name": "Al Najaf International Airport",
+      "country": "IQ",
+      "value": 2999.84,
+      "detail": "Najaf · 9,842 ft · ASP"
+    },
+    {
+      "name": "Tall Afar Army Air Field",
+      "country": "IQ",
+      "value": 2999.84,
+      "detail": "Tall Afar · 9,842 ft · PEM"
+    },
+    {
+      "name": "Kirkuk International Airport",
+      "country": "IQ",
+      "value": 2989.78,
+      "detail": "Kirkuk · 9,809 ft · CON"
+    },
+    {
+      "name": "Mosul International Airport",
+      "country": "IQ",
+      "value": 2650.24,
+      "detail": "Mosul · 8,695 ft · CON"
+    },
+    {
+      "name": "Bashur Airfield",
+      "country": "IQ",
+      "value": 2235.1,
+      "detail": "Bashur · 7,333 ft · ASP"
+    },
+    {
+      "name": "Al Taji Army Air Field",
+      "country": "IQ",
+      "value": 1758.7,
+      "detail": "Taji · 5,770 ft · PEM"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "lk-airports-by-elevation",
+  "title": "Highest Airports in Sri Lanka",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Sri Lanka ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.518Z",
+  "items": [
+    {
+      "name": "Sigiriya Air Force Base",
+      "country": "LK",
+      "value": 192.02,
+      "detail": "Sigiriya · 630 ft above sea level"
+    },
+    {
+      "name": "Anuradhapura Airport",
+      "country": "LK",
+      "value": 98.76,
+      "detail": "Anuradhapura · 324 ft above sea level"
+    },
+    {
+      "name": "Vavuniya Airport",
+      "country": "LK",
+      "value": 91.14,
+      "detail": "Vavuniya · 299 ft above sea level"
+    },
+    {
+      "name": "Iranamadu Airport",
+      "country": "LK",
+      "value": 55.78,
+      "detail": "Kilinochchi · 183 ft above sea level"
+    },
+    {
+      "name": "Hingurakgoda Air Force Base",
+      "country": "LK",
+      "value": 51.82,
+      "detail": "Polonnaruwa Town · 170 ft above sea level"
+    },
+    {
+      "name": "Mattala Rajapaksa International Airport",
+      "country": "LK",
+      "value": 47.85,
+      "detail": "Mattala · 157 ft above sea level"
+    },
+    {
+      "name": "Ampara Airport",
+      "country": "LK",
+      "value": 45.72,
+      "detail": "Ampara · 150 ft above sea level"
+    },
+    {
+      "name": "Palaviya Airport",
+      "country": "LK",
+      "value": 28.04,
+      "detail": "Puttalam · 92 ft above sea level"
+    },
+    {
+      "name": "Sri Lanka Air Force Station Mullaitivu",
+      "country": "LK",
+      "value": 19.2,
+      "detail": "Keppapulavu · 63 ft above sea level"
+    },
+    {
+      "name": "Weerawila Airport",
+      "country": "LK",
+      "value": 15.24,
+      "detail": "Weerawila · 50 ft above sea level"
+    },
+    {
+      "name": "Jaffna International Airport",
+      "country": "LK",
+      "value": 10.06,
+      "detail": "Jaffna · 33 ft above sea level"
+    },
+    {
+      "name": "Bandaranaike International Colombo Airport",
+      "country": "LK",
+      "value": 9.14,
+      "detail": "Colombo · 30 ft above sea level"
+    },
+    {
+      "name": "Colombo Ratmalana International Airport",
+      "country": "LK",
+      "value": 6.71,
+      "detail": "Colombo · 22 ft above sea level"
+    },
+    {
+      "name": "Batticaloa International Airport",
+      "country": "LK",
+      "value": 6.1,
+      "detail": "Batticaloa · 20 ft above sea level"
+    },
+    {
+      "name": "Thalladi Airfield",
+      "country": "LK",
+      "value": 4.27,
+      "detail": "Thiruketheeswaram · 14 ft above sea level"
+    },
+    {
+      "name": "Katukurunda Air Force Base",
+      "country": "LK",
+      "value": 3.05,
+      "detail": "Kalutara · 10 ft above sea level"
+    },
+    {
+      "name": "Koggala Airport",
+      "country": "LK",
+      "value": 3.05,
+      "detail": "Galle · 10 ft above sea level"
+    },
+    {
+      "name": "China Bay Airport",
+      "country": "LK",
+      "value": 1.83,
+      "detail": "Trincomalee · 6 ft above sea level"
+    }
+  ]
+}

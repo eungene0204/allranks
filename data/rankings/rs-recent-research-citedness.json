@@ -1,0 +1,248 @@
+{
+  "id": "rs-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Serbia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "RS",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:28.844Z",
+  "items": [
+    {
+      "name": "Singidunum University",
+      "country": "RS",
+      "value": 4.9219,
+      "detail": "4,426 works"
+    },
+    {
+      "name": "Institute of Food Technology",
+      "country": "RS",
+      "value": 4.7356,
+      "detail": "1,522 works"
+    },
+    {
+      "name": "Gulf University",
+      "country": "RS",
+      "value": 4.521,
+      "detail": "973 works"
+    },
+    {
+      "name": "ITS - Visoka škola strukovnih studija za informacione tehnologije",
+      "country": "RS",
+      "value": 4.2593,
+      "detail": "89 works"
+    },
+    {
+      "name": "University of Kragujevac",
+      "country": "RS",
+      "value": 3.1427,
+      "detail": "19,162 works"
+    },
+    {
+      "name": "University of Belgrade",
+      "country": "RS",
+      "value": 3.0214,
+      "detail": "128,039 works"
+    },
+    {
+      "name": "University of Defence",
+      "country": "RS",
+      "value": 2.9599,
+      "detail": "3,721 works"
+    },
+    {
+      "name": "Academy of Applied Studies Belgrade",
+      "country": "RS",
+      "value": 2.9007,
+      "detail": "439 works"
+    },
+    {
+      "name": "Institute of Public Health of Vojvodina",
+      "country": "RS",
+      "value": 2.755,
+      "detail": "670 works"
+    },
+    {
+      "name": "University of Novi Sad",
+      "country": "RS",
+      "value": 2.5283,
+      "detail": "53,251 works"
+    },
+    {
+      "name": "Institute of Forestry",
+      "country": "RS",
+      "value": 2.4375,
+      "detail": "674 works"
+    },
+    {
+      "name": "European University",
+      "country": "RS",
+      "value": 2.1875,
+      "detail": "159 works"
+    },
+    {
+      "name": "Univerzitet Union Nikola Tesla",
+      "country": "RS",
+      "value": 2.1556,
+      "detail": "2,364 works"
+    },
+    {
+      "name": "Educons University",
+      "country": "RS",
+      "value": 2.0763,
+      "detail": "1,106 works"
+    },
+    {
+      "name": "Academy of Applied Studies Šabac",
+      "country": "RS",
+      "value": 1.878,
+      "detail": "354 works"
+    },
+    {
+      "name": "Academy of Applied Studies Southern Serbia",
+      "country": "RS",
+      "value": 1.7338,
+      "detail": "197 works"
+    },
+    {
+      "name": "State University of Novi Pazar",
+      "country": "RS",
+      "value": 1.6515,
+      "detail": "1,764 works"
+    },
+    {
+      "name": "University of Nis",
+      "country": "RS",
+      "value": 1.4974,
+      "detail": "28,271 works"
+    },
+    {
+      "name": "Metropolitan University",
+      "country": "RS",
+      "value": 1.486,
+      "detail": "887 works"
+    },
+    {
+      "name": "Union University",
+      "country": "RS",
+      "value": 1.4313,
+      "detail": "1,299 works"
+    },
+    {
+      "name": "Kriminalističko-policijski univerzitet",
+      "country": "RS",
+      "value": 1.4278,
+      "detail": "732 works"
+    },
+    {
+      "name": "Academy of Technical and Art Applied Studies",
+      "country": "RS",
+      "value": 1.4253,
+      "detail": "372 works"
+    },
+    {
+      "name": "Belgrade Business and Arts Academy of Applied Studies",
+      "country": "RS",
+      "value": 1.2953,
+      "detail": "274 works"
+    },
+    {
+      "name": "Univerzitet u Novom Pazaru",
+      "country": "RS",
+      "value": 1,
+      "detail": "903 works"
+    },
+    {
+      "name": "Akademija strukovnih studija Politehnika",
+      "country": "RS",
+      "value": 0.8855,
+      "detail": "179 works"
+    },
+    {
+      "name": "Megatrend University",
+      "country": "RS",
+      "value": 0.8261,
+      "detail": "1,178 works"
+    },
+    {
+      "name": "Beopolis University",
+      "country": "RS",
+      "value": 0.8148,
+      "detail": "20 works"
+    },
+    {
+      "name": "Western Serbia Academy of Applied Studies",
+      "country": "RS",
+      "value": 0.4928,
+      "detail": "101 works"
+    },
+    {
+      "name": "Technical College of Applied Sciences",
+      "country": "RS",
+      "value": 0.4607,
+      "detail": "172 works"
+    },
+    {
+      "name": "Belgrade Open School",
+      "country": "RS",
+      "value": 0.4348,
+      "detail": "221 works"
+    },
+    {
+      "name": "University of Arts in Belgrade",
+      "country": "RS",
+      "value": 0.3043,
+      "detail": "861 works"
+    },
+    {
+      "name": "Institute for Recent History of Serbia",
+      "country": "RS",
+      "value": 0.2097,
+      "detail": "402 works"
+    },
+    {
+      "name": "Visoka strukovna vaspitačka i medicinska škola u Vršcu",
+      "country": "RS",
+      "value": 0.2,
+      "detail": "77 works"
+    },
+    {
+      "name": "Novi Sad Open University",
+      "country": "RS",
+      "value": 0.1667,
+      "detail": "6 works"
+    },
+    {
+      "name": "Institut za Reumatologiju",
+      "country": "RS",
+      "value": 0.1538,
+      "detail": "62 works"
+    },
+    {
+      "name": "Visoka škola za komunikacije",
+      "country": "RS",
+      "value": 0.0769,
+      "detail": "21 works"
+    },
+    {
+      "name": "Sportska Akademija Beograd",
+      "country": "RS",
+      "value": 0.069,
+      "detail": "94 works"
+    }
+  ]
+}

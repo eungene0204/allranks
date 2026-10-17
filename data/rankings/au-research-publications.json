@@ -1,0 +1,326 @@
+{
+  "id": "au-research-publications",
+  "title": "Universities by Research Publications in Australia",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:23.534Z",
+  "items": [
+    {
+      "name": "The University of Melbourne",
+      "country": "AU",
+      "value": 347441,
+      "detail": "34,446,717 citations"
+    },
+    {
+      "name": "The University of Sydney",
+      "country": "AU",
+      "value": 337996,
+      "detail": "31,253,219 citations"
+    },
+    {
+      "name": "Monash University",
+      "country": "AU",
+      "value": 284760,
+      "detail": "23,510,695 citations"
+    },
+    {
+      "name": "The University of Queensland",
+      "country": "AU",
+      "value": 277693,
+      "detail": "29,151,977 citations"
+    },
+    {
+      "name": "UNSW Sydney",
+      "country": "AU",
+      "value": 274994,
+      "detail": "22,088,430 citations"
+    },
+    {
+      "name": "Australian National University",
+      "country": "AU",
+      "value": 191781,
+      "detail": "15,110,347 citations"
+    },
+    {
+      "name": "The University of Western Australia",
+      "country": "AU",
+      "value": 165079,
+      "detail": "14,210,977 citations"
+    },
+    {
+      "name": "The University of Adelaide",
+      "country": "AU",
+      "value": 149346,
+      "detail": "30,595,940 citations"
+    },
+    {
+      "name": "Macquarie University",
+      "country": "AU",
+      "value": 98304,
+      "detail": "5,778,333 citations"
+    },
+    {
+      "name": "Griffith University",
+      "country": "AU",
+      "value": 96055,
+      "detail": "5,669,966 citations"
+    },
+    {
+      "name": "Curtin University",
+      "country": "AU",
+      "value": 95735,
+      "detail": "5,704,458 citations"
+    },
+    {
+      "name": "University of Technology Sydney",
+      "country": "AU",
+      "value": 93625,
+      "detail": "5,289,434 citations"
+    },
+    {
+      "name": "Deakin University",
+      "country": "AU",
+      "value": 93337,
+      "detail": "6,048,474 citations"
+    },
+    {
+      "name": "Queensland University of Technology",
+      "country": "AU",
+      "value": 91950,
+      "detail": "5,969,728 citations"
+    },
+    {
+      "name": "RMIT University",
+      "country": "AU",
+      "value": 84993,
+      "detail": "4,336,744 citations"
+    },
+    {
+      "name": "University of Newcastle Australia",
+      "country": "AU",
+      "value": 84427,
+      "detail": "6,195,200 citations"
+    },
+    {
+      "name": "La Trobe University",
+      "country": "AU",
+      "value": 83547,
+      "detail": "4,551,773 citations"
+    },
+    {
+      "name": "University of Wollongong",
+      "country": "AU",
+      "value": 83199,
+      "detail": "5,328,580 citations"
+    },
+    {
+      "name": "University of Tasmania",
+      "country": "AU",
+      "value": 73163,
+      "detail": "4,493,844 citations"
+    },
+    {
+      "name": "Flinders University",
+      "country": "AU",
+      "value": 67928,
+      "detail": "3,859,263 citations"
+    },
+    {
+      "name": "Western Sydney University",
+      "country": "AU",
+      "value": 62637,
+      "detail": "3,037,810 citations"
+    },
+    {
+      "name": "Swinburne University of Technology",
+      "country": "AU",
+      "value": 59219,
+      "detail": "3,069,580 citations"
+    },
+    {
+      "name": "University of South Australia",
+      "country": "AU",
+      "value": 55605,
+      "detail": "3,698,117 citations"
+    },
+    {
+      "name": "James Cook University",
+      "country": "AU",
+      "value": 50604,
+      "detail": "3,857,563 citations"
+    },
+    {
+      "name": "Murdoch University",
+      "country": "AU",
+      "value": 35686,
+      "detail": "2,033,706 citations"
+    },
+    {
+      "name": "University of New England",
+      "country": "AU",
+      "value": 32482,
+      "detail": "1,468,788 citations"
+    },
+    {
+      "name": "Edith Cowan University",
+      "country": "AU",
+      "value": 32266,
+      "detail": "1,657,590 citations"
+    },
+    {
+      "name": "University of Canberra",
+      "country": "AU",
+      "value": 27918,
+      "detail": "862,879 citations"
+    },
+    {
+      "name": "Charles Sturt University",
+      "country": "AU",
+      "value": 27599,
+      "detail": "1,103,161 citations"
+    },
+    {
+      "name": "Victoria University",
+      "country": "AU",
+      "value": 25793,
+      "detail": "1,151,240 citations"
+    },
+    {
+      "name": "University of Southern Queensland",
+      "country": "AU",
+      "value": 24938,
+      "detail": "1,141,745 citations"
+    },
+    {
+      "name": "Australian Catholic University",
+      "country": "AU",
+      "value": 22787,
+      "detail": "982,532 citations"
+    },
+    {
+      "name": "Central Queensland University",
+      "country": "AU",
+      "value": 20146,
+      "detail": "1,279,981 citations"
+    },
+    {
+      "name": "Charles Darwin University",
+      "country": "AU",
+      "value": 17441,
+      "detail": "868,378 citations"
+    },
+    {
+      "name": "University of the Sunshine Coast",
+      "country": "AU",
+      "value": 17171,
+      "detail": "670,858 citations"
+    },
+    {
+      "name": "Southern Cross University",
+      "country": "AU",
+      "value": 16176,
+      "detail": "740,422 citations"
+    },
+    {
+      "name": "Bond University",
+      "country": "AU",
+      "value": 14369,
+      "detail": "751,663 citations"
+    },
+    {
+      "name": "Federation University",
+      "country": "AU",
+      "value": 10719,
+      "detail": "337,987 citations"
+    },
+    {
+      "name": "The University of Notre Dame Australia",
+      "country": "AU",
+      "value": 10239,
+      "detail": "270,271 citations"
+    },
+    {
+      "name": "Adelaide University",
+      "country": "AU",
+      "value": 7592,
+      "detail": "240,563 citations"
+    },
+    {
+      "name": "Australian Defence Force Academy",
+      "country": "AU",
+      "value": 6989,
+      "detail": "323,579 citations"
+    },
+    {
+      "name": "Torrens University Australia",
+      "country": "AU",
+      "value": 3323,
+      "detail": "117,437 citations"
+    },
+    {
+      "name": "Mount Stromlo Observatory",
+      "country": "AU",
+      "value": 3152,
+      "detail": "286,376 citations"
+    },
+    {
+      "name": "Australian Maritime College",
+      "country": "AU",
+      "value": 1679,
+      "detail": "93,667 citations"
+    },
+    {
+      "name": "Australian Council for Educational Research",
+      "country": "AU",
+      "value": 1530,
+      "detail": "51,019 citations"
+    },
+    {
+      "name": "Royal Australasian College of Surgeons",
+      "country": "AU",
+      "value": 1011,
+      "detail": "70,587 citations"
+    },
+    {
+      "name": "Avondale University",
+      "country": "AU",
+      "value": 975,
+      "detail": "21,279 citations"
+    },
+    {
+      "name": "University of Divinity",
+      "country": "AU",
+      "value": 773,
+      "detail": "1,586 citations"
+    },
+    {
+      "name": "Melbourne Institute of Technology",
+      "country": "AU",
+      "value": 733,
+      "detail": "15,741 citations"
+    },
+    {
+      "name": "Royal Australian College of General Practitioners",
+      "country": "AU",
+      "value": 681,
+      "detail": "15,346 citations"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "cr-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Costa Rica",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:38.249Z",
+  "items": [
+    {
+      "name": "Quetzal Education and Research Center",
+      "country": "CR",
+      "value": 9,
+      "detail": "18 works"
+    },
+    {
+      "name": "Universidad de San Jose",
+      "country": "CR",
+      "value": 7,
+      "detail": "53 works"
+    },
+    {
+      "name": "Centro Agronomico Tropical de Investigacion y Ensenanza Catie",
+      "country": "CR",
+      "value": 3.7599,
+      "detail": "2,739 works"
+    },
+    {
+      "name": "Universidad Internacional de las Américas",
+      "country": "CR",
+      "value": 2.918,
+      "detail": "119 works"
+    },
+    {
+      "name": "Instituto Centroamericano de Administración de Empresas",
+      "country": "CR",
+      "value": 2.7647,
+      "detail": "532 works"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Costa Rica",
+      "country": "CR",
+      "value": 2.6852,
+      "detail": "705 works"
+    },
+    {
+      "name": "Iberoamerican University",
+      "country": "CR",
+      "value": 2.6541,
+      "detail": "293 works"
+    },
+    {
+      "name": "International Christian University",
+      "country": "CR",
+      "value": 2.4444,
+      "detail": "170 works"
+    },
+    {
+      "name": "Universidad de Costa Rica",
+      "country": "CR",
+      "value": 1.5285,
+      "detail": "43,043 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Costa Rica",
+      "country": "CR",
+      "value": 1.5151,
+      "detail": "5,240 works"
+    },
+    {
+      "name": "Latin University of Costa Rica",
+      "country": "CR",
+      "value": 1.3865,
+      "detail": "564 works"
+    },
+    {
+      "name": "Central American Adventist University",
+      "country": "CR",
+      "value": 1.3,
+      "detail": "14 works"
+    },
+    {
+      "name": "Universidad Veritas",
+      "country": "CR",
+      "value": 1.1786,
+      "detail": "93 works"
+    },
+    {
+      "name": "Universidad Hispanoamerica",
+      "country": "CR",
+      "value": 1.1609,
+      "detail": "471 works"
+    },
+    {
+      "name": "Universidad Nacional",
+      "country": "CR",
+      "value": 1.1368,
+      "detail": "9,786 works"
+    },
+    {
+      "name": "Universidad Autónoma de Centro América",
+      "country": "CR",
+      "value": 1.0213,
+      "detail": "240 works"
+    },
+    {
+      "name": "Universidad Creativa",
+      "country": "CR",
+      "value": 1,
+      "detail": "6 works"
+    },
+    {
+      "name": "Earth University",
+      "country": "CR",
+      "value": 0.9634,
+      "detail": "361 works"
+    },
+    {
+      "name": "Distance State University",
+      "country": "CR",
+      "value": 0.7293,
+      "detail": "3,769 works"
+    },
+    {
+      "name": "University for Peace",
+      "country": "CR",
+      "value": 0.7015,
+      "detail": "289 works"
+    },
+    {
+      "name": "Universidad La Salle Costa Rica",
+      "country": "CR",
+      "value": 0.6667,
+      "detail": "111 works"
+    },
+    {
+      "name": "Universidad para la Cooperación Internacional",
+      "country": "CR",
+      "value": 0.5789,
+      "detail": "81 works"
+    },
+    {
+      "name": "Universidad del Valle",
+      "country": "CR",
+      "value": 0.5581,
+      "detail": "6,312 works"
+    },
+    {
+      "name": "Universidad de las Ciencias y el Arte de Costa Rica",
+      "country": "CR",
+      "value": 0.5,
+      "detail": "8 works"
+    },
+    {
+      "name": "Universidad Latinoamericana de Ciencia y Tecnología",
+      "country": "CR",
+      "value": 0.4667,
+      "detail": "453 works"
+    },
+    {
+      "name": "Universidad de Ciencias Medicas",
+      "country": "CR",
+      "value": 0.4478,
+      "detail": "1,750 works"
+    },
+    {
+      "name": "Universidad Santa Paula",
+      "country": "CR",
+      "value": 0.3649,
+      "detail": "96 works"
+    },
+    {
+      "name": "Universidad Juan Pablo II",
+      "country": "CR",
+      "value": 0.3333,
+      "detail": "12 works"
+    },
+    {
+      "name": "Universidad Braulio Carrillo",
+      "country": "CR",
+      "value": 0.2857,
+      "detail": "10 works"
+    },
+    {
+      "name": "Universidad Católica de Costa Rica",
+      "country": "CR",
+      "value": 0.2609,
+      "detail": "139 works"
+    },
+    {
+      "name": "Fidélitas University",
+      "country": "CR",
+      "value": 0.2429,
+      "detail": "165 works"
+    },
+    {
+      "name": "Universidad San Marcos",
+      "country": "CR",
+      "value": 0.1964,
+      "detail": "243 works"
+    },
+    {
+      "name": "Business University of Costa Rica",
+      "country": "CR",
+      "value": 0.1852,
+      "detail": "54 works"
+    },
+    {
+      "name": "University of Tourism",
+      "country": "CR",
+      "value": 0.1429,
+      "detail": "56 works"
+    },
+    {
+      "name": "Universidad Americana",
+      "country": "CR",
+      "value": 0.125,
+      "detail": "19 works"
+    },
+    {
+      "name": "Instituto Centroamericano de Administración Pública",
+      "country": "CR",
+      "value": 0.0909,
+      "detail": "163 works"
+    },
+    {
+      "name": "Universidad Internacional San Isidro Labrador",
+      "country": "CR",
+      "value": 0.0816,
+      "detail": "50 works"
+    },
+    {
+      "name": "Universidad Florencio del Castillo",
+      "country": "CR",
+      "value": 0.0563,
+      "detail": "206 works"
+    },
+    {
+      "name": "Universidad Central",
+      "country": "CR",
+      "value": 0.0536,
+      "detail": "235 works"
+    },
+    {
+      "name": "Universidad Independiente",
+      "country": "CR",
+      "value": 0.0138,
+      "detail": "266 works"
+    }
+  ]
+}

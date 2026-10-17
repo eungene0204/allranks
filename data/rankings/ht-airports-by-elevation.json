@@ -1,0 +1,74 @@
+{
+  "id": "ht-airports-by-elevation",
+  "title": "Highest Airports in Haiti",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Haiti ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.505Z",
+  "items": [
+    {
+      "name": "Antoine-Simon International Airport",
+      "country": "HT",
+      "value": 61.87,
+      "detail": "Les Cayes · 203 ft above sea level"
+    },
+    {
+      "name": "Jacmel Airport",
+      "country": "HT",
+      "value": 50.9,
+      "detail": "Jacmel · 167 ft above sea level"
+    },
+    {
+      "name": "Jérémie Airport",
+      "country": "HT",
+      "value": 44.81,
+      "detail": "Carrefour Sanon · 147 ft above sea level"
+    },
+    {
+      "name": "Toussaint Louverture International Airport",
+      "country": "HT",
+      "value": 37.19,
+      "detail": "Port-au-Prince · 122 ft above sea level"
+    },
+    {
+      "name": "Môle-Saint-Nicolas Airport",
+      "country": "HT",
+      "value": 21.03,
+      "detail": "Môle-Saint-Nicolas · 69 ft above sea level"
+    },
+    {
+      "name": "Anse-a-Galets Airport",
+      "country": "HT",
+      "value": 4.88,
+      "detail": "Anse-a-Galets · 16 ft above sea level"
+    },
+    {
+      "name": "Cap Haitien International Airport",
+      "country": "HT",
+      "value": 3.05,
+      "detail": "Cap Haitien · 10 ft above sea level"
+    },
+    {
+      "name": "Port-de-Paix Airport",
+      "country": "HT",
+      "value": 2.74,
+      "detail": "Port-de-Paix · 9 ft above sea level"
+    }
+  ]
+}

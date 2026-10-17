@@ -1,0 +1,170 @@
+{
+  "id": "al-cities-by-elevation",
+  "title": "Highest Major Cities in Albania",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Albania with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.507Z",
+  "items": [
+    {
+      "name": "Korçë",
+      "country": "AL",
+      "value": 869,
+      "detail": "58,259 people · Korçë County"
+    },
+    {
+      "name": "Bulqizë",
+      "country": "AL",
+      "value": 775,
+      "detail": "26,826 people · Dibër County"
+    },
+    {
+      "name": "Pogradec",
+      "country": "AL",
+      "value": 702,
+      "detail": "46,070 people · Korçë County"
+    },
+    {
+      "name": "Krujë",
+      "country": "AL",
+      "value": 509,
+      "detail": "51,191 people · Durrës County"
+    },
+    {
+      "name": "Kukës",
+      "country": "AL",
+      "value": 351,
+      "detail": "36,125 people · Kukës County"
+    },
+    {
+      "name": "Gjirokastër",
+      "country": "AL",
+      "value": 286,
+      "detail": "23,437 people · Gjirokastër County"
+    },
+    {
+      "name": "Librazhd",
+      "country": "AL",
+      "value": 251,
+      "detail": "23,312 people · Elbasan County"
+    },
+    {
+      "name": "Patos Fshat",
+      "country": "AL",
+      "value": 157,
+      "detail": "22,679 people · Fier County"
+    },
+    {
+      "name": "Elbasan",
+      "country": "AL",
+      "value": 126,
+      "detail": "100,903 people · Elbasan County"
+    },
+    {
+      "name": "Tirana",
+      "country": "AL",
+      "value": 113,
+      "detail": "418,495 people · Tirana"
+    },
+    {
+      "name": "Berat",
+      "country": "AL",
+      "value": 66,
+      "detail": "62,232 people · Berat County"
+    },
+    {
+      "name": "Patos",
+      "country": "AL",
+      "value": 61,
+      "detail": "16,000 people · Fier County"
+    },
+    {
+      "name": "Kuçovë",
+      "country": "AL",
+      "value": 58,
+      "detail": "31,077 people · Berat County"
+    },
+    {
+      "name": "Vlorë",
+      "country": "AL",
+      "value": 58,
+      "detail": "115,261 people · Vlorë County"
+    },
+    {
+      "name": "Peqin",
+      "country": "AL",
+      "value": 52,
+      "detail": "16,580 people · Elbasan County"
+    },
+    {
+      "name": "Rrashbull",
+      "country": "AL",
+      "value": 31,
+      "detail": "20,099 people · Durrës County"
+    },
+    {
+      "name": "Fier",
+      "country": "AL",
+      "value": 28,
+      "detail": "56,297 people · Fier County"
+    },
+    {
+      "name": "Fushë-Krujë",
+      "country": "AL",
+      "value": 24,
+      "detail": "17,877 people · Durrës County"
+    },
+    {
+      "name": "Sarandë",
+      "country": "AL",
+      "value": 23,
+      "detail": "22,613 people · Vlorë County"
+    },
+    {
+      "name": "Lushnjë",
+      "country": "AL",
+      "value": 22,
+      "detail": "63,135 people · Fier County"
+    },
+    {
+      "name": "Kavajë",
+      "country": "AL",
+      "value": 19,
+      "detail": "30,012 people · Tirana"
+    },
+    {
+      "name": "Fier-Çifçi",
+      "country": "AL",
+      "value": 17,
+      "detail": "60,995 people · Fier County"
+    },
+    {
+      "name": "Shkodër",
+      "country": "AL",
+      "value": 12,
+      "detail": "95,553 people · Shkodër County"
+    },
+    {
+      "name": "Lezhë",
+      "country": "AL",
+      "value": 7,
+      "detail": "18,695 people · Lezhë County"
+    }
+  ]
+}

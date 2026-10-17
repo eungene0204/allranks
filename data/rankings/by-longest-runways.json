@@ -1,0 +1,134 @@
+{
+  "id": "by-longest-runways",
+  "title": "Longest Airport Runways in Belarus",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Belarus ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.470Z",
+  "items": [
+    {
+      "name": "Minsk National Airport",
+      "country": "BY",
+      "value": 3699.97,
+      "detail": "Minsk · 12,139 ft · CONC"
+    },
+    {
+      "name": "Orsha Airport - Balbasovo Air Base",
+      "country": "BY",
+      "value": 3000.76,
+      "detail": "Orsha · 9,845 ft · CON"
+    },
+    {
+      "name": "Babruisk Air Base",
+      "country": "BY",
+      "value": 2998.01,
+      "detail": "Babruisk · 9,836 ft · CON"
+    },
+    {
+      "name": "Baranavichi Air Base",
+      "country": "BY",
+      "value": 2998.01,
+      "detail": "Baranavichi · 9,836 ft · CON"
+    },
+    {
+      "name": "Minsk Machulishchy Air Base",
+      "country": "BY",
+      "value": 2998.01,
+      "detail": "Minsk · 9,836 ft · CON"
+    },
+    {
+      "name": "Brest International Airport",
+      "country": "BY",
+      "value": 2620.06,
+      "detail": "Brest · 8,596 ft · ASP"
+    },
+    {
+      "name": "Vitebsk Vostochny Airport",
+      "country": "BY",
+      "value": 2606.04,
+      "detail": "Vitebsk · 8,550 ft · ASP"
+    },
+    {
+      "name": "Gomel Airport",
+      "country": "BY",
+      "value": 2568.85,
+      "detail": "Gomel · 8,428 ft · ASP"
+    },
+    {
+      "name": "Mogilev Airport",
+      "country": "BY",
+      "value": 2567.03,
+      "detail": "Mogilev · 8,422 ft · ASP"
+    },
+    {
+      "name": "Hrodna Airport",
+      "country": "BY",
+      "value": 2560.02,
+      "detail": "Hrodna · 8,399 ft · CON"
+    },
+    {
+      "name": "Lida Air Base",
+      "country": "BY",
+      "value": 2499.97,
+      "detail": "Lida · 8,202 ft · CON"
+    },
+    {
+      "name": "Pruzhany Air Base",
+      "country": "BY",
+      "value": 2499.97,
+      "detail": "Pruzhany · 8,202 ft · CON"
+    },
+    {
+      "name": "Luninets Air Base",
+      "country": "BY",
+      "value": 2473.15,
+      "detail": "Luninets · 8,114 ft · CON"
+    },
+    {
+      "name": "Dzerzhinsky Highway Strip",
+      "country": "BY",
+      "value": 2359.76,
+      "detail": "Dzerzhinsky · 7,742 ft · CON"
+    },
+    {
+      "name": "Lipki Air Base",
+      "country": "BY",
+      "value": 749.5,
+      "detail": "2,459 ft · CON"
+    },
+    {
+      "name": "Shchuchyn Airport",
+      "country": "BY",
+      "value": 725.12,
+      "detail": "Shchuchyn · 2,379 ft · C"
+    },
+    {
+      "name": "Novo-Pashkovo Airfield",
+      "country": "BY",
+      "value": 600.15,
+      "detail": "Mahiylow / Mogilev · 1,969 ft · ground"
+    },
+    {
+      "name": "Borisovo Air Base",
+      "country": "BY",
+      "value": 499.87,
+      "detail": "Barysava · 1,640 ft · A"
+    }
+  ]
+}

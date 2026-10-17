@@ -1,0 +1,326 @@
+{
+  "id": "cu-cities-by-elevation",
+  "title": "Highest Major Cities in Cuba",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Cuba with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CU",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.521Z",
+  "items": [
+    {
+      "name": "Río Guayabal de Yateras",
+      "country": "CU",
+      "value": 438,
+      "detail": "25,753 people · Guantánamo Province"
+    },
+    {
+      "name": "Guisa",
+      "country": "CU",
+      "value": 247,
+      "detail": "18,408 people · Granma Province"
+    },
+    {
+      "name": "San Luis",
+      "country": "CU",
+      "value": 201,
+      "detail": "67,293 people · Santiago de Cuba Province"
+    },
+    {
+      "name": "Placetas",
+      "country": "CU",
+      "value": 197,
+      "detail": "55,408 people · Villa Clara Province"
+    },
+    {
+      "name": "Palma Soriano",
+      "country": "CU",
+      "value": 152,
+      "detail": "102,826 people · Santiago de Cuba Province"
+    },
+    {
+      "name": "Madruga",
+      "country": "CU",
+      "value": 150,
+      "detail": "33,798 people · Mayabeque"
+    },
+    {
+      "name": "Holguín",
+      "country": "CU",
+      "value": 146,
+      "detail": "319,102 people · Holguín Province"
+    },
+    {
+      "name": "Manicaragua",
+      "country": "CU",
+      "value": 144,
+      "detail": "41,532 people · Villa Clara Province"
+    },
+    {
+      "name": "Viñales",
+      "country": "CU",
+      "value": 144,
+      "detail": "27,129 people · Pinar del Río"
+    },
+    {
+      "name": "San José de las Lajas",
+      "country": "CU",
+      "value": 138,
+      "detail": "54,847 people · Mayabeque"
+    },
+    {
+      "name": "Jiguaní",
+      "country": "CU",
+      "value": 137,
+      "detail": "41,106 people · Granma Province"
+    },
+    {
+      "name": "Jaruco",
+      "country": "CU",
+      "value": 134,
+      "detail": "20,207 people · Mayabeque"
+    },
+    {
+      "name": "Cabaiguán",
+      "country": "CU",
+      "value": 133,
+      "detail": "44,515 people · Sancti Spíritus Province"
+    },
+    {
+      "name": "Minas de Matahambre",
+      "country": "CU",
+      "value": 133,
+      "detail": "34,419 people · Pinar del Río"
+    },
+    {
+      "name": "Santa Clara",
+      "country": "CU",
+      "value": 132,
+      "detail": "250,512 people · Villa Clara Province"
+    },
+    {
+      "name": "Fomento",
+      "country": "CU",
+      "value": 122,
+      "detail": "19,991 people · Sancti Spíritus Province"
+    },
+    {
+      "name": "Jimaguayú",
+      "country": "CU",
+      "value": 117,
+      "detail": "21,169 people · Camagüey"
+    },
+    {
+      "name": "Contramaestre",
+      "country": "CU",
+      "value": 114,
+      "detail": "70,438 people · Santiago de Cuba Province"
+    },
+    {
+      "name": "Bejucal",
+      "country": "CU",
+      "value": 110,
+      "detail": "18,123 people · Mayabeque"
+    },
+    {
+      "name": "Guanajay",
+      "country": "CU",
+      "value": 109,
+      "detail": "25,258 people · Artemisa"
+    },
+    {
+      "name": "Vedado del Cotorro",
+      "country": "CU",
+      "value": 109,
+      "detail": "74,650 people · Havana"
+    },
+    {
+      "name": "Ranchuelo",
+      "country": "CU",
+      "value": 108,
+      "detail": "43,695 people · Villa Clara Province"
+    },
+    {
+      "name": "Camagüey",
+      "country": "CU",
+      "value": 102,
+      "detail": "347,562 people · Camagüey"
+    },
+    {
+      "name": "Florencia",
+      "country": "CU",
+      "value": 100,
+      "detail": "19,811 people · Ciego de Ávila Province"
+    },
+    {
+      "name": "Cruces",
+      "country": "CU",
+      "value": 98,
+      "detail": "24,906 people · Cienfuegos Province"
+    },
+    {
+      "name": "Santiago de las Vegas",
+      "country": "CU",
+      "value": 95,
+      "detail": "35,241 people · Havana"
+    },
+    {
+      "name": "Jatibonico",
+      "country": "CU",
+      "value": 94,
+      "detail": "19,644 people · Sancti Spíritus Province"
+    },
+    {
+      "name": "Jobabo",
+      "country": "CU",
+      "value": 93,
+      "detail": "17,804 people · Holguín Province"
+    },
+    {
+      "name": "Sibanicú",
+      "country": "CU",
+      "value": 92,
+      "detail": "16,856 people · Camagüey"
+    },
+    {
+      "name": "Las Tunas",
+      "country": "CU",
+      "value": 91,
+      "detail": "203,684 people · Las Tunas Province"
+    },
+    {
+      "name": "San Germán",
+      "country": "CU",
+      "value": 88,
+      "detail": "43,892 people · Holguín Province"
+    },
+    {
+      "name": "Arroyo Naranjo",
+      "country": "CU",
+      "value": 85,
+      "detail": "210,053 people · Havana"
+    },
+    {
+      "name": "Camajuaní",
+      "country": "CU",
+      "value": 81,
+      "detail": "35,515 people · Villa Clara Province"
+    },
+    {
+      "name": "Guáimaro",
+      "country": "CU",
+      "value": 78,
+      "detail": "39,358 people · Camagüey"
+    },
+    {
+      "name": "Lajas",
+      "country": "CU",
+      "value": 78,
+      "detail": "22,602 people · Cienfuegos Province"
+    },
+    {
+      "name": "Mantilla",
+      "country": "CU",
+      "value": 73,
+      "detail": "206,918 people · Havana"
+    },
+    {
+      "name": "Limonar",
+      "country": "CU",
+      "value": 71,
+      "detail": "25,421 people · Matanzas Province"
+    },
+    {
+      "name": "Vertientes",
+      "country": "CU",
+      "value": 71,
+      "detail": "29,704 people · Camagüey"
+    },
+    {
+      "name": "Bauta",
+      "country": "CU",
+      "value": 70,
+      "detail": "45,768 people · Artemisa"
+    },
+    {
+      "name": "Cacocum",
+      "country": "CU",
+      "value": 69,
+      "detail": "42,623 people · Holguín Province"
+    },
+    {
+      "name": "Florida",
+      "country": "CU",
+      "value": 68,
+      "detail": "63,007 people · Camagüey"
+    },
+    {
+      "name": "Fontanar",
+      "country": "CU",
+      "value": 67,
+      "detail": "178,601 people · Havana"
+    },
+    {
+      "name": "Boyeros",
+      "country": "CU",
+      "value": 66,
+      "detail": "188,593 people · Havana"
+    },
+    {
+      "name": "Palmira",
+      "country": "CU",
+      "value": 65,
+      "detail": "23,078 people · Cienfuegos Province"
+    },
+    {
+      "name": "Consolación del Sur",
+      "country": "CU",
+      "value": 64,
+      "detail": "69,857 people · Pinar del Río"
+    },
+    {
+      "name": "Bartolomé Masó",
+      "country": "CU",
+      "value": 63,
+      "detail": "53,024 people · Granma Province"
+    },
+    {
+      "name": "Cifuentes",
+      "country": "CU",
+      "value": 63,
+      "detail": "40,142 people · Villa Clara Province"
+    },
+    {
+      "name": "Diez de Octubre",
+      "country": "CU",
+      "value": 63,
+      "detail": "227,293 people · Havana"
+    },
+    {
+      "name": "La Salud",
+      "country": "CU",
+      "value": 63,
+      "detail": "28,796 people · Mayabeque"
+    },
+    {
+      "name": "San Cristobal",
+      "country": "CU",
+      "value": 63,
+      "detail": "59,579 people · Artemisa"
+    }
+  ]
+}

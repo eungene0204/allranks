@@ -1,0 +1,80 @@
+{
+  "id": "td-research-publications",
+  "title": "Universities by Research Publications in Chad",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:36.760Z",
+  "items": [
+    {
+      "name": "University of N'Djamena",
+      "country": "TD",
+      "value": 2229,
+      "detail": "23,654 citations"
+    },
+    {
+      "name": "Institut National Supérieur des Sciences et Techniques d'Abéché",
+      "country": "TD",
+      "value": 313,
+      "detail": "1,671 citations"
+    },
+    {
+      "name": "Université Adam Barka d'Abéché",
+      "country": "TD",
+      "value": 252,
+      "detail": "1,553 citations"
+    },
+    {
+      "name": "Université de Moundou",
+      "country": "TD",
+      "value": 183,
+      "detail": "956 citations"
+    },
+    {
+      "name": "Université de Sarh",
+      "country": "TD",
+      "value": 182,
+      "detail": "484 citations"
+    },
+    {
+      "name": "Institut Universitaire Polytechnique de Mongo",
+      "country": "TD",
+      "value": 125,
+      "detail": "539 citations"
+    },
+    {
+      "name": "King Faisal University of N'Djamena",
+      "country": "TD",
+      "value": 93,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Université des Sciences et de Technologie d'Ati",
+      "country": "TD",
+      "value": 52,
+      "detail": "136 citations"
+    },
+    {
+      "name": "Université Saint Charles Lwanga",
+      "country": "TD",
+      "value": 7,
+      "detail": "7 citations"
+    }
+  ]
+}

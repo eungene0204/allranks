@@ -1,0 +1,110 @@
+{
+  "id": "sz-airports-by-elevation",
+  "title": "Highest Airports in Eswatini",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Eswatini ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.550Z",
+  "items": [
+    {
+      "name": "Nhlangano Airport",
+      "country": "SZ",
+      "value": 1073.51,
+      "detail": "Nhlangano · 3,522 ft above sea level"
+    },
+    {
+      "name": "Siteki Airport",
+      "country": "SZ",
+      "value": 676.66,
+      "detail": "Siteki · 2,220 ft above sea level"
+    },
+    {
+      "name": "Matsapha International Airport",
+      "country": "SZ",
+      "value": 632.46,
+      "detail": "Manzini · 2,075 ft above sea level"
+    },
+    {
+      "name": "Kubuta Airport",
+      "country": "SZ",
+      "value": 473.96,
+      "detail": "Kubuta B · 1,555 ft above sea level"
+    },
+    {
+      "name": "Piggs Peak Airport",
+      "country": "SZ",
+      "value": 429.77,
+      "detail": "Ngonini · 1,410 ft above sea level"
+    },
+    {
+      "name": "King Mswati III International Airport",
+      "country": "SZ",
+      "value": 332.84,
+      "detail": "Mpaka · 1,092 ft above sea level"
+    },
+    {
+      "name": "Tshaneni Airport",
+      "country": "SZ",
+      "value": 310.9,
+      "detail": "Tshaneni · 1,020 ft above sea level"
+    },
+    {
+      "name": "Mhlume Airport",
+      "country": "SZ",
+      "value": 282.24,
+      "detail": "Mhlume · 926 ft above sea level"
+    },
+    {
+      "name": "Tambankulu Airport",
+      "country": "SZ",
+      "value": 247.19,
+      "detail": "Tambankulu · 811 ft above sea level"
+    },
+    {
+      "name": "Simunye Airport",
+      "country": "SZ",
+      "value": 205.13,
+      "detail": "Simunye · 673 ft above sea level"
+    },
+    {
+      "name": "Nsoko Airport",
+      "country": "SZ",
+      "value": 187.15,
+      "detail": "Nsoko · 614 ft above sea level"
+    },
+    {
+      "name": "Tambuti Airport",
+      "country": "SZ",
+      "value": 181.36,
+      "detail": "Big Bend · 595 ft above sea level"
+    },
+    {
+      "name": "Big Bend Sugar E Airport",
+      "country": "SZ",
+      "value": 164.9,
+      "detail": "Big Bend · 541 ft above sea level"
+    },
+    {
+      "name": "Matata Airport",
+      "country": "SZ",
+      "value": 152.4,
+      "detail": "Big Bend · 500 ft above sea level"
+    }
+  ]
+}

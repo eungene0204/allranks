@@ -1,0 +1,98 @@
+{
+  "id": "gn-research-h-index",
+  "title": "Universities by Research h-index in Guinea",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:48.758Z",
+  "items": [
+    {
+      "name": "Gamal Abdel Nasser University of Conakry",
+      "country": "GN",
+      "value": 104,
+      "detail": "2,476 works"
+    },
+    {
+      "name": "Centre d’excellence africain pour la prévention et le contrôle des maladies transmissibles",
+      "country": "GN",
+      "value": 26,
+      "detail": "173 works"
+    },
+    {
+      "name": "Institut Supérieur des Sciences et de Médecine Vétérinaire",
+      "country": "GN",
+      "value": 25,
+      "detail": "259 works"
+    },
+    {
+      "name": "Institut Supérieur Agronomique et Vétérinaire Valéry Giscard d'Estaing",
+      "country": "GN",
+      "value": 22,
+      "detail": "136 works"
+    },
+    {
+      "name": "Julius Nyerere University of Kankan",
+      "country": "GN",
+      "value": 20,
+      "detail": "168 works"
+    },
+    {
+      "name": "Université Général Lansana Conté",
+      "country": "GN",
+      "value": 12,
+      "detail": "115 works"
+    },
+    {
+      "name": "Université Kofi Annan de Guinée",
+      "country": "GN",
+      "value": 10,
+      "detail": "53 works"
+    },
+    {
+      "name": "Université de Kindia",
+      "country": "GN",
+      "value": 9,
+      "detail": "122 works"
+    },
+    {
+      "name": "Institut Supérieur de Technologie de Mamou",
+      "country": "GN",
+      "value": 4,
+      "detail": "55 works"
+    },
+    {
+      "name": "Centre Universitaire de Labé",
+      "country": "GN",
+      "value": 3,
+      "detail": "33 works"
+    },
+    {
+      "name": "Institut Supérieur des Sciences de l'Éducation de Guinée",
+      "country": "GN",
+      "value": 3,
+      "detail": "42 works"
+    },
+    {
+      "name": "Institut Supérieur de Formation à Distance",
+      "country": "GN",
+      "value": 2,
+      "detail": "10 works"
+    }
+  ]
+}

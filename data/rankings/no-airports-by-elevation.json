@@ -1,0 +1,326 @@
+{
+  "id": "no-airports-by-elevation",
+  "title": "Highest Airports in Norway",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Norway ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:54.039Z",
+  "items": [
+    {
+      "name": "Wadahl",
+      "country": "NO",
+      "value": 960.12,
+      "detail": "Sør-Fron · 3,150 ft above sea level"
+    },
+    {
+      "name": "Gol Airport",
+      "country": "NO",
+      "value": 844.3,
+      "detail": "Klanten flyplass · 2,770 ft above sea level"
+    },
+    {
+      "name": "Fagernes Airport, Leirin",
+      "country": "NO",
+      "value": 822.05,
+      "detail": "Fagernes · 2,697 ft above sea level"
+    },
+    {
+      "name": "Geilo Airport Dagali",
+      "country": "NO",
+      "value": 797.97,
+      "detail": "Dagali · 2,618 ft above sea level"
+    },
+    {
+      "name": "Folldal Grimsmoe Airfield",
+      "country": "NO",
+      "value": 688.85,
+      "detail": "Folldal · 2,260 ft above sea level"
+    },
+    {
+      "name": "Røros Airport",
+      "country": "NO",
+      "value": 626.06,
+      "detail": "Røros · 2,054 ft above sea level"
+    },
+    {
+      "name": "Bjorli Airfield",
+      "country": "NO",
+      "value": 583.69,
+      "detail": "Lesja · 1,915 ft above sea level"
+    },
+    {
+      "name": "Sølenstua Airfield",
+      "country": "NO",
+      "value": 579.12,
+      "detail": "Rendalen · 1,900 ft above sea level"
+    },
+    {
+      "name": "Trysil Sæteråsen Airfield",
+      "country": "NO",
+      "value": 579.12,
+      "detail": "1,900 ft above sea level"
+    },
+    {
+      "name": "Mesnali Airfield",
+      "country": "NO",
+      "value": 558.09,
+      "detail": "Ringsaker · 1,831 ft above sea level"
+    },
+    {
+      "name": "Fagerhaug Airfield",
+      "country": "NO",
+      "value": 557.78,
+      "detail": "1,830 ft above sea level"
+    },
+    {
+      "name": "Sogndal Airport, Haukåsen",
+      "country": "NO",
+      "value": 497.74,
+      "detail": "Sogndal · 1,633 ft above sea level"
+    },
+    {
+      "name": "Æra Airfield",
+      "country": "NO",
+      "value": 494.08,
+      "detail": "Åmot · 1,621 ft above sea level"
+    },
+    {
+      "name": "Tynset Airfield",
+      "country": "NO",
+      "value": 481.89,
+      "detail": "Tynset · 1,581 ft above sea level"
+    },
+    {
+      "name": "Graundalen",
+      "country": "NO",
+      "value": 476.1,
+      "detail": "Snåsa · 1,562 ft above sea level"
+    },
+    {
+      "name": "Reinsvoll Airfield",
+      "country": "NO",
+      "value": 420.93,
+      "detail": "Reinsvoll · 1,381 ft above sea level"
+    },
+    {
+      "name": "Bøverbru Airfield",
+      "country": "NO",
+      "value": 410.87,
+      "detail": "1,348 ft above sea level"
+    },
+    {
+      "name": "Atna",
+      "country": "NO",
+      "value": 356.62,
+      "detail": "Stor-Elvdal · 1,170 ft above sea level"
+    },
+    {
+      "name": "Kautokeino Airfield",
+      "country": "NO",
+      "value": 355.09,
+      "detail": "Kautokeino · 1,165 ft above sea level"
+    },
+    {
+      "name": "Ravnastua Airstrip",
+      "country": "NO",
+      "value": 332.54,
+      "detail": "Karasjok · 1,091 ft above sea level"
+    },
+    {
+      "name": "Førde Airport, Bringeland",
+      "country": "NO",
+      "value": 318.82,
+      "detail": "Førde · 1,046 ft above sea level"
+    },
+    {
+      "name": "Meråker Airfield Øian",
+      "country": "NO",
+      "value": 307.85,
+      "detail": "Meråker · 1,010 ft above sea level"
+    },
+    {
+      "name": "Fyresdal Airfield",
+      "country": "NO",
+      "value": 300.53,
+      "detail": "Fyresdal · 986 ft above sea level"
+    },
+    {
+      "name": "Rena Airfield Landsørkje",
+      "country": "NO",
+      "value": 252.37,
+      "detail": "Åmot · 828 ft above sea level"
+    },
+    {
+      "name": "Valle Airfield Åraksøyne",
+      "country": "NO",
+      "value": 235,
+      "detail": "Valle · 771 ft above sea level"
+    },
+    {
+      "name": "Veslemoen Airstrip",
+      "country": "NO",
+      "value": 223.72,
+      "detail": "Hammerfest · 734 ft above sea level"
+    },
+    {
+      "name": "Hamar Lufthavn, Stavsberg",
+      "country": "NO",
+      "value": 222.2,
+      "detail": "Hamar · 729 ft above sea level"
+    },
+    {
+      "name": "Elverum Starmoen Airfield",
+      "country": "NO",
+      "value": 216.41,
+      "detail": "Elverum · 710 ft above sea level"
+    },
+    {
+      "name": "Vermundsjøen Ice Runway",
+      "country": "NO",
+      "value": 213.36,
+      "detail": "700 ft above sea level"
+    },
+    {
+      "name": "Hattfjelldal Airfield",
+      "country": "NO",
+      "value": 210.01,
+      "detail": "Hattfjelldal · 689 ft above sea level"
+    },
+    {
+      "name": "Oslo-Gardermoen International Airport",
+      "country": "NO",
+      "value": 207.57,
+      "detail": "Oslo (Gardermoen) · 681 ft above sea level"
+    },
+    {
+      "name": "Ose Airfield",
+      "country": "NO",
+      "value": 205.13,
+      "detail": "Bygland · 673 ft above sea level"
+    },
+    {
+      "name": "Hønefoss Airfield, Eggemoen",
+      "country": "NO",
+      "value": 199.95,
+      "detail": "Hønefoss · 656 ft above sea level"
+    },
+    {
+      "name": "Evje Airfield",
+      "country": "NO",
+      "value": 183.49,
+      "detail": "Evje og Hornnes · 602 ft above sea level"
+    },
+    {
+      "name": "Haslemoen Flyplass",
+      "country": "NO",
+      "value": 175.26,
+      "detail": "Våler · 575 ft above sea level"
+    },
+    {
+      "name": "Ringebu Airfield Frya",
+      "country": "NO",
+      "value": 174.04,
+      "detail": "Frya · 571 ft above sea level"
+    },
+    {
+      "name": "Grong/Bjørgan Airfield",
+      "country": "NO",
+      "value": 167.64,
+      "detail": "Grong · 550 ft above sea level"
+    },
+    {
+      "name": "Askestad Airstrip",
+      "country": "NO",
+      "value": 156.97,
+      "detail": "515 ft above sea level"
+    },
+    {
+      "name": "Dokka Thomlevold Airfield",
+      "country": "NO",
+      "value": 156.06,
+      "detail": "Dokka · 512 ft above sea level"
+    },
+    {
+      "name": "Gulli Airstrip",
+      "country": "NO",
+      "value": 152.4,
+      "detail": "Nes · 500 ft above sea level"
+    },
+    {
+      "name": "Spydeberg Airstrip",
+      "country": "NO",
+      "value": 152.4,
+      "detail": "Spydeberg · 500 ft above sea level"
+    },
+    {
+      "name": "Gjølstad Airfield",
+      "country": "NO",
+      "value": 150.88,
+      "detail": "Kongsvinger · 495 ft above sea level"
+    },
+    {
+      "name": "Båtsfjord Airport",
+      "country": "NO",
+      "value": 149.35,
+      "detail": "Båtsfjord · 490 ft above sea level"
+    },
+    {
+      "name": "Haga Airfield",
+      "country": "NO",
+      "value": 149.05,
+      "detail": "Nes · 489 ft above sea level"
+    },
+    {
+      "name": "Skien Airport",
+      "country": "NO",
+      "value": 141.12,
+      "detail": "Geiteryggen · 463 ft above sea level"
+    },
+    {
+      "name": "Feiring Airfield",
+      "country": "NO",
+      "value": 134.11,
+      "detail": "Feiring · 440 ft above sea level"
+    },
+    {
+      "name": "Husodden Airfield",
+      "country": "NO",
+      "value": 134.11,
+      "detail": "Søndre Land · 440 ft above sea level"
+    },
+    {
+      "name": "Storsjøen Ice",
+      "country": "NO",
+      "value": 131.98,
+      "detail": "Nord-Odal · 433 ft above sea level"
+    },
+    {
+      "name": "Maarud",
+      "country": "NO",
+      "value": 131.06,
+      "detail": "430 ft above sea level"
+    },
+    {
+      "name": "Maggi Beach Airstrip",
+      "country": "NO",
+      "value": 127.1,
+      "detail": "417 ft above sea level"
+    }
+  ]
+}

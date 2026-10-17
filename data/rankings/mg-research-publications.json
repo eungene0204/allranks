@@ -1,0 +1,134 @@
+{
+  "id": "mg-research-publications",
+  "title": "Universities by Research Publications in Madagascar",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:09.670Z",
+  "items": [
+    {
+      "name": "University of Antananarivo",
+      "country": "MG",
+      "value": 7494,
+      "detail": "154,998 citations"
+    },
+    {
+      "name": "University of Toliara",
+      "country": "MG",
+      "value": 900,
+      "detail": "10,038 citations"
+    },
+    {
+      "name": "Université de Fianarantsoa",
+      "country": "MG",
+      "value": 844,
+      "detail": "4,682 citations"
+    },
+    {
+      "name": "Université de Mahajanga",
+      "country": "MG",
+      "value": 750,
+      "detail": "10,710 citations"
+    },
+    {
+      "name": "University of Toamasina",
+      "country": "MG",
+      "value": 477,
+      "detail": "1,626 citations"
+    },
+    {
+      "name": "Université d’Antsiranana",
+      "country": "MG",
+      "value": 355,
+      "detail": "3,135 citations"
+    },
+    {
+      "name": "École supérieure polytechnique d'Antananarivo",
+      "country": "MG",
+      "value": 302,
+      "detail": "1,382 citations"
+    },
+    {
+      "name": "Catholic University of Madagascar",
+      "country": "MG",
+      "value": 166,
+      "detail": "1,501 citations"
+    },
+    {
+      "name": "Institute and Observatory of Geophysics of Antananarivo",
+      "country": "MG",
+      "value": 116,
+      "detail": "1,996 citations"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antananarivo",
+      "country": "MG",
+      "value": 96,
+      "detail": "454 citations"
+    },
+    {
+      "name": "École Supérieure Polytechnique d'Antsiranana",
+      "country": "MG",
+      "value": 89,
+      "detail": "724 citations"
+    },
+    {
+      "name": "Institut National des Sciences et Techniques Nucléaires - Madagascar",
+      "country": "MG",
+      "value": 89,
+      "detail": "823 citations"
+    },
+    {
+      "name": "Institut Supérieur de la Communication, des Affaires et du Management",
+      "country": "MG",
+      "value": 63,
+      "detail": "90 citations"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antsiranana",
+      "country": "MG",
+      "value": 41,
+      "detail": "326 citations"
+    },
+    {
+      "name": "Institut National des Sciences Comptables et de l’Administration d’Entreprises",
+      "country": "MG",
+      "value": 28,
+      "detail": "55 citations"
+    },
+    {
+      "name": "Unité de Recherche en Génie des Procédés et en Génie de l’Environnement",
+      "country": "MG",
+      "value": 17,
+      "detail": "816 citations"
+    },
+    {
+      "name": "École Nationale d'Administration de Madagascar",
+      "country": "MG",
+      "value": 16,
+      "detail": "228 citations"
+    },
+    {
+      "name": "Hautes Études Chrétiennes de Management et de Mathématiques Appliquées",
+      "country": "MG",
+      "value": 1,
+      "detail": "1 citations"
+    }
+  ]
+}

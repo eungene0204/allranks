@@ -1,0 +1,164 @@
+{
+  "id": "ba-cities-by-elevation",
+  "title": "Highest Major Cities in Bosnia and Herzegovina",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Bosnia and Herzegovina with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.510Z",
+  "items": [
+    {
+      "name": "Bugojno",
+      "country": "BA",
+      "value": 565,
+      "detail": "41,378 people · Federation of B&H"
+    },
+    {
+      "name": "Sarajevo",
+      "country": "BA",
+      "value": 509,
+      "detail": "696,731 people · Federation of B&H"
+    },
+    {
+      "name": "Travnik",
+      "country": "BA",
+      "value": 507,
+      "detail": "31,127 people · Federation of B&H"
+    },
+    {
+      "name": "Ilidža",
+      "country": "BA",
+      "value": 495,
+      "detail": "71,277 people · Federation of B&H"
+    },
+    {
+      "name": "Visoko",
+      "country": "BA",
+      "value": 423,
+      "detail": "17,890 people · Federation of B&H"
+    },
+    {
+      "name": "Goražde",
+      "country": "BA",
+      "value": 348,
+      "detail": "17,650 people · Federation of B&H"
+    },
+    {
+      "name": "Cazin",
+      "country": "BA",
+      "value": 325,
+      "detail": "21,741 people · Federation of B&H"
+    },
+    {
+      "name": "Zenica",
+      "country": "BA",
+      "value": 325,
+      "detail": "164,423 people · Federation of B&H"
+    },
+    {
+      "name": "Konjic",
+      "country": "BA",
+      "value": 286,
+      "detail": "15,950 people · Federation of B&H"
+    },
+    {
+      "name": "Trebinje",
+      "country": "BA",
+      "value": 278,
+      "detail": "33,178 people · Srpska"
+    },
+    {
+      "name": "Tuzla",
+      "country": "BA",
+      "value": 225,
+      "detail": "142,486 people · Federation of B&H"
+    },
+    {
+      "name": "Bihać",
+      "country": "BA",
+      "value": 223,
+      "detail": "75,641 people · Federation of B&H"
+    },
+    {
+      "name": "Lukavac",
+      "country": "BA",
+      "value": 194,
+      "detail": "44,520 people · Federation of B&H"
+    },
+    {
+      "name": "Gračanica",
+      "country": "BA",
+      "value": 188,
+      "detail": "15,758 people · Federation of B&H"
+    },
+    {
+      "name": "Velika Kladuša",
+      "country": "BA",
+      "value": 160,
+      "detail": "19,330 people · Federation of B&H"
+    },
+    {
+      "name": "Bosanska Krupa",
+      "country": "BA",
+      "value": 153,
+      "detail": "15,193 people · Federation of B&H"
+    },
+    {
+      "name": "Banja Luka",
+      "country": "BA",
+      "value": 151,
+      "detail": "221,106 people · Srpska"
+    },
+    {
+      "name": "Doboj",
+      "country": "BA",
+      "value": 144,
+      "detail": "27,235 people · Srpska"
+    },
+    {
+      "name": "Prijedor",
+      "country": "BA",
+      "value": 140,
+      "detail": "36,347 people · Srpska"
+    },
+    {
+      "name": "Gradačac",
+      "country": "BA",
+      "value": 139,
+      "detail": "15,659 people · Federation of B&H"
+    },
+    {
+      "name": "Brčko",
+      "country": "BA",
+      "value": 92,
+      "detail": "38,968 people · Brčko"
+    },
+    {
+      "name": "Bijeljina",
+      "country": "BA",
+      "value": 91,
+      "detail": "37,692 people · Srpska"
+    },
+    {
+      "name": "Mostar",
+      "country": "BA",
+      "value": 66,
+      "detail": "104,518 people · Federation of B&H"
+    }
+  ]
+}

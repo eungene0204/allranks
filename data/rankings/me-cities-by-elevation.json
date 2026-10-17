@@ -1,0 +1,74 @@
+{
+  "id": "me-cities-by-elevation",
+  "title": "Highest Major Cities in Montenegro",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Montenegro with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ME",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.549Z",
+  "items": [
+    {
+      "name": "Pljevlja",
+      "country": "ME",
+      "value": 772,
+      "detail": "19,489 people · Pljevlja"
+    },
+    {
+      "name": "Cetinje",
+      "country": "ME",
+      "value": 686,
+      "detail": "15,137 people · Cetinje"
+    },
+    {
+      "name": "Nikšić",
+      "country": "ME",
+      "value": 630,
+      "detail": "58,212 people · Opština Nikšić"
+    },
+    {
+      "name": "Bijelo Polje",
+      "country": "ME",
+      "value": 623,
+      "detail": "15,400 people · Bijelo Polje"
+    },
+    {
+      "name": "Herceg Novi",
+      "country": "ME",
+      "value": 87,
+      "detail": "19,536 people · Herceg Novi"
+    },
+    {
+      "name": "Podgorica",
+      "country": "ME",
+      "value": 49,
+      "detail": "236,852 people · Podgorica"
+    },
+    {
+      "name": "Bar",
+      "country": "ME",
+      "value": 5,
+      "detail": "15,868 people · Bar"
+    },
+    {
+      "name": "Budva",
+      "country": "ME",
+      "value": 4,
+      "detail": "18,000 people · Budva"
+    }
+  ]
+}

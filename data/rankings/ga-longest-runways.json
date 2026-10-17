@@ -1,0 +1,116 @@
+{
+  "id": "ga-longest-runways",
+  "title": "Longest Airport Runways in Gabon",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Gabon ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.500Z",
+  "items": [
+    {
+      "name": "M'Vengue El Hadj Omar Bongo Ondimba International Airport",
+      "country": "GA",
+      "value": 3080,
+      "detail": "Franceville · 10,105 ft · ASP"
+    },
+    {
+      "name": "Libreville Leon M'ba International Airport",
+      "country": "GA",
+      "value": 3000.45,
+      "detail": "Libreville · 9,844 ft · ASP"
+    },
+    {
+      "name": "Lambarene Airport",
+      "country": "GA",
+      "value": 2302.76,
+      "detail": "Lambarene · 7,555 ft · LAT"
+    },
+    {
+      "name": "Moanda Airport",
+      "country": "GA",
+      "value": 1900.12,
+      "detail": "Moanda · 6,234 ft · ASP"
+    },
+    {
+      "name": "Port Gentil International Airport",
+      "country": "GA",
+      "value": 1900.12,
+      "detail": "Port Gentil · 6,234 ft · ASP"
+    },
+    {
+      "name": "Gamba Airport",
+      "country": "GA",
+      "value": 1800.15,
+      "detail": "Gamba · 5,906 ft · ASP"
+    },
+    {
+      "name": "Oyem Airport",
+      "country": "GA",
+      "value": 1800.15,
+      "detail": "Oyem · 5,906 ft · ASP"
+    },
+    {
+      "name": "Tchibanga Airport",
+      "country": "GA",
+      "value": 1800.15,
+      "detail": "Tchibanga · 5,906 ft · UNK"
+    },
+    {
+      "name": "Makokou Airport",
+      "country": "GA",
+      "value": 1795.88,
+      "detail": "Makokou · 5,892 ft · ASP"
+    },
+    {
+      "name": "Mouilla Ville Airport",
+      "country": "GA",
+      "value": 1795.58,
+      "detail": "Mouila · 5,891 ft · ASP"
+    },
+    {
+      "name": "Koulamoutou Mabimbi Airport",
+      "country": "GA",
+      "value": 1780.34,
+      "detail": "Koulamoutou · 5,841 ft · ASP"
+    },
+    {
+      "name": "Bitam Airport",
+      "country": "GA",
+      "value": 1745.28,
+      "detail": "Bitam · 5,726 ft · LAT"
+    },
+    {
+      "name": "Omboue Hospital Airport",
+      "country": "GA",
+      "value": 1610.87,
+      "detail": "Omboue · 5,285 ft · ASP"
+    },
+    {
+      "name": "Okondja Airport",
+      "country": "GA",
+      "value": 1499.92,
+      "detail": "Okondja · 4,921 ft · ASP"
+    },
+    {
+      "name": "Bidoungui Airport",
+      "country": "GA",
+      "value": 1402.08,
+      "detail": "Mipoundi · 4,600 ft · Earth"
+    }
+  ]
+}

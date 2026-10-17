@@ -1,0 +1,80 @@
+{
+  "id": "tl-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Timor-Leste",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:39.347Z",
+  "items": [
+    {
+      "name": "Instituto Superior Cristal",
+      "country": "TL",
+      "value": 0.5048,
+      "detail": "296 works"
+    },
+    {
+      "name": "Institute of Business",
+      "country": "TL",
+      "value": 0.4681,
+      "detail": "94 works"
+    },
+    {
+      "name": "Dili Institute of Technology",
+      "country": "TL",
+      "value": 0.4362,
+      "detail": "224 works"
+    },
+    {
+      "name": "Universidade da Paz",
+      "country": "TL",
+      "value": 0.314,
+      "detail": "495 works"
+    },
+    {
+      "name": "National University of East Timor",
+      "country": "TL",
+      "value": 0.267,
+      "detail": "1,001 works"
+    },
+    {
+      "name": "Instituto Católico para a Formação de Professores",
+      "country": "TL",
+      "value": 0.2453,
+      "detail": "116 works"
+    },
+    {
+      "name": "Universidade Oriental Timor Lorosa'e",
+      "country": "TL",
+      "value": 0.1637,
+      "detail": "201 works"
+    },
+    {
+      "name": "East Timor Coffee Institute",
+      "country": "TL",
+      "value": 0.125,
+      "detail": "17 works"
+    },
+    {
+      "name": "Instituto da Ciências da Saúde",
+      "country": "TL",
+      "value": 0.0769,
+      "detail": "47 works"
+    }
+  ]
+}

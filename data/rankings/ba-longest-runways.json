@@ -1,0 +1,74 @@
+{
+  "id": "ba-longest-runways",
+  "title": "Longest Airport Runways in Bosnia and Herzegovina",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Bosnia and Herzegovina ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.454Z",
+  "items": [
+    {
+      "name": "Sarajevo International Airport",
+      "country": "BA",
+      "value": 2641.4,
+      "detail": "Sarajevo · 8,666 ft · ASP"
+    },
+    {
+      "name": "Banja Luka International Airport",
+      "country": "BA",
+      "value": 2499.97,
+      "detail": "Mahovljani · 8,202 ft · ASP"
+    },
+    {
+      "name": "Tuzla International Airport",
+      "country": "BA",
+      "value": 2484.73,
+      "detail": "Dubrave Gornje · 8,152 ft · ASP"
+    },
+    {
+      "name": "Mostar International Airport",
+      "country": "BA",
+      "value": 2400,
+      "detail": "Mostar · 7,874 ft · ASP"
+    },
+    {
+      "name": "Tuzla Jegin Lug Sport Airfield",
+      "country": "BA",
+      "value": 1200.91,
+      "detail": "Rainci Gornji · 3,940 ft · Grass"
+    },
+    {
+      "name": "Bihać Golubić Airfield",
+      "country": "BA",
+      "value": 1097.28,
+      "detail": "Bihać · 3,600 ft · GRASS"
+    },
+    {
+      "name": "Visoko Kenan Jusufbasic Airfield",
+      "country": "BA",
+      "value": 719.94,
+      "detail": "Visoko · 2,362 ft · Grass"
+    },
+    {
+      "name": "Brčko-Brod Airfield",
+      "country": "BA",
+      "value": 582.47,
+      "detail": "Brod · 1,911 ft · asphalt"
+    }
+  ]
+}

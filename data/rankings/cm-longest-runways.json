@@ -1,0 +1,104 @@
+{
+  "id": "cm-longest-runways",
+  "title": "Longest Airport Runways in Cameroon",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cameroon ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.477Z",
+  "items": [
+    {
+      "name": "Yaoundé Nsimalen International Airport",
+      "country": "CM",
+      "value": 3400.04,
+      "detail": "Yaoundé · 11,155 ft · ASP"
+    },
+    {
+      "name": "Garoua International Airport",
+      "country": "CM",
+      "value": 3362.55,
+      "detail": "Garoua · 11,032 ft · ASP"
+    },
+    {
+      "name": "Douala International Airport",
+      "country": "CM",
+      "value": 2849.88,
+      "detail": "Douala · 9,350 ft · ASP"
+    },
+    {
+      "name": "N'Gaoundéré Airport",
+      "country": "CM",
+      "value": 2699.92,
+      "detail": "N'Gaoundéré · 8,858 ft · ASP"
+    },
+    {
+      "name": "Bafoussam Airport",
+      "country": "CM",
+      "value": 2500.27,
+      "detail": "Bafoussam · 8,203 ft · ASP"
+    },
+    {
+      "name": "Bamenda Airport",
+      "country": "CM",
+      "value": 2499.97,
+      "detail": "Bamenda · 8,202 ft · ASP"
+    },
+    {
+      "name": "Salak Airport",
+      "country": "CM",
+      "value": 2100.07,
+      "detail": "Maroua · 6,890 ft · ASP"
+    },
+    {
+      "name": "Foumban Nkounja Airport",
+      "country": "CM",
+      "value": 2099.77,
+      "detail": "Foumban · 6,889 ft · ASP"
+    },
+    {
+      "name": "Yaoundé Ville Airport",
+      "country": "CM",
+      "value": 1986.99,
+      "detail": "Yaoundé · 6,519 ft · ASP"
+    },
+    {
+      "name": "Batouri Airport",
+      "country": "CM",
+      "value": 1900.12,
+      "detail": "Batouri · 6,234 ft · UNK"
+    },
+    {
+      "name": "Kribi Airport",
+      "country": "CM",
+      "value": 1800.15,
+      "detail": "Kribi · 5,906 ft · UNK"
+    },
+    {
+      "name": "Tiko Airport",
+      "country": "CM",
+      "value": 1375.26,
+      "detail": "Tiko · 4,512 ft · ASP"
+    },
+    {
+      "name": "Mamfe Airport",
+      "country": "CM",
+      "value": 1370.08,
+      "detail": "Mamfe · 4,495 ft · UNK"
+    }
+  ]
+}

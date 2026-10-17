@@ -1,0 +1,326 @@
+{
+  "id": "bg-cities-by-elevation",
+  "title": "Highest Major Cities in Bulgaria",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Bulgaria with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.512Z",
+  "items": [
+    {
+      "name": "Samokov",
+      "country": "BG",
+      "value": 956,
+      "detail": "26,765 people · Sofia"
+    },
+    {
+      "name": "Smolyan",
+      "country": "BG",
+      "value": 907,
+      "detail": "30,689 people · Smolyan"
+    },
+    {
+      "name": "Pernik",
+      "country": "BG",
+      "value": 751,
+      "detail": "82,467 people · Pernik"
+    },
+    {
+      "name": "Velingrad",
+      "country": "BG",
+      "value": 750,
+      "detail": "20,286 people · Pazardzhik"
+    },
+    {
+      "name": "Sofia",
+      "country": "BG",
+      "value": 562,
+      "detail": "1,152,556 people · Sofia-Capital"
+    },
+    {
+      "name": "Dupnitsa",
+      "country": "BG",
+      "value": 536,
+      "detail": "34,764 people · Kyustendil"
+    },
+    {
+      "name": "Gabrovo",
+      "country": "BG",
+      "value": 536,
+      "detail": "48,133 people · Gabrovo"
+    },
+    {
+      "name": "Gotse Delchev",
+      "country": "BG",
+      "value": 535,
+      "detail": "20,522 people · Blagoevgrad"
+    },
+    {
+      "name": "Panagyurishte",
+      "country": "BG",
+      "value": 518,
+      "detail": "19,389 people · Pazardzhik"
+    },
+    {
+      "name": "Kyustendil",
+      "country": "BG",
+      "value": 514,
+      "detail": "46,856 people · Kyustendil"
+    },
+    {
+      "name": "Peshtera",
+      "country": "BG",
+      "value": 440,
+      "detail": "18,676 people · Pazardzhik"
+    },
+    {
+      "name": "Blagoevgrad",
+      "country": "BG",
+      "value": 408,
+      "detail": "67,810 people · Blagoevgrad"
+    },
+    {
+      "name": "Karlovo",
+      "country": "BG",
+      "value": 406,
+      "detail": "30,340 people · Plovdiv"
+    },
+    {
+      "name": "Troyan",
+      "country": "BG",
+      "value": 389,
+      "detail": "21,162 people · Lovech"
+    },
+    {
+      "name": "Botevgrad",
+      "country": "BG",
+      "value": 385,
+      "detail": "20,909 people · Sofia"
+    },
+    {
+      "name": "Berkovitsa",
+      "country": "BG",
+      "value": 369,
+      "detail": "15,027 people · Montana"
+    },
+    {
+      "name": "Kazanlak",
+      "country": "BG",
+      "value": 366,
+      "detail": "47,918 people · Stara Zagora"
+    },
+    {
+      "name": "Vratsa",
+      "country": "BG",
+      "value": 352,
+      "detail": "49,569 people · Vratsa"
+    },
+    {
+      "name": "Sliven",
+      "country": "BG",
+      "value": 281,
+      "detail": "83,740 people · Sliven"
+    },
+    {
+      "name": "Kardzhali",
+      "country": "BG",
+      "value": 248,
+      "detail": "44,071 people · Kardzhali"
+    },
+    {
+      "name": "Sandanski",
+      "country": "BG",
+      "value": 246,
+      "detail": "28,510 people · Blagoevgrad"
+    },
+    {
+      "name": "Shumen",
+      "country": "BG",
+      "value": 237,
+      "detail": "72,342 people · Shumen"
+    },
+    {
+      "name": "Asenovgrad",
+      "country": "BG",
+      "value": 226,
+      "detail": "54,778 people · Plovdiv"
+    },
+    {
+      "name": "Dobrich",
+      "country": "BG",
+      "value": 215,
+      "detail": "69,434 people · Dobrich"
+    },
+    {
+      "name": "Pazardzhik",
+      "country": "BG",
+      "value": 213,
+      "detail": "55,220 people · Pazardzhik"
+    },
+    {
+      "name": "Sevlievo",
+      "country": "BG",
+      "value": 210,
+      "detail": "24,582 people · Gabrovo"
+    },
+    {
+      "name": "Karnobat",
+      "country": "BG",
+      "value": 208,
+      "detail": "19,709 people · Burgas"
+    },
+    {
+      "name": "Veliko Tŭrnovo",
+      "country": "BG",
+      "value": 207,
+      "detail": "59,166 people · Veliko Tarnovo"
+    },
+    {
+      "name": "Stara Zagora",
+      "country": "BG",
+      "value": 205,
+      "detail": "121,582 people · Stara Zagora"
+    },
+    {
+      "name": "Lovech",
+      "country": "BG",
+      "value": 201,
+      "detail": "27,910 people · Lovech"
+    },
+    {
+      "name": "Chirpan",
+      "country": "BG",
+      "value": 195,
+      "detail": "15,109 people · Stara Zagora"
+    },
+    {
+      "name": "Haskovo",
+      "country": "BG",
+      "value": 195,
+      "detail": "64,564 people · Haskovo"
+    },
+    {
+      "name": "Popovo",
+      "country": "BG",
+      "value": 190,
+      "detail": "16,571 people · Targovishte"
+    },
+    {
+      "name": "Razgrad",
+      "country": "BG",
+      "value": 190,
+      "detail": "28,931 people · Razgrad"
+    },
+    {
+      "name": "Targovishte",
+      "country": "BG",
+      "value": 186,
+      "detail": "34,793 people · Targovishte"
+    },
+    {
+      "name": "Petrich",
+      "country": "BG",
+      "value": 185,
+      "detail": "30,722 people · Blagoevgrad"
+    },
+    {
+      "name": "Rakovski",
+      "country": "BG",
+      "value": 174,
+      "detail": "15,782 people · Plovdiv"
+    },
+    {
+      "name": "Plovdiv",
+      "country": "BG",
+      "value": 163,
+      "detail": "329,489 people · Plovdiv"
+    },
+    {
+      "name": "Montana",
+      "country": "BG",
+      "value": 151,
+      "detail": "47,445 people · Montana"
+    },
+    {
+      "name": "Aytos",
+      "country": "BG",
+      "value": 149,
+      "detail": "20,986 people · Burgas"
+    },
+    {
+      "name": "Gorna Oryahovitsa",
+      "country": "BG",
+      "value": 146,
+      "detail": "32,792 people · Veliko Tarnovo"
+    },
+    {
+      "name": "Parvomay",
+      "country": "BG",
+      "value": 134,
+      "detail": "17,000 people · Plovdiv"
+    },
+    {
+      "name": "Nova Zagora",
+      "country": "BG",
+      "value": 130,
+      "detail": "23,625 people · Sliven"
+    },
+    {
+      "name": "Yambol",
+      "country": "BG",
+      "value": 115,
+      "detail": "63,656 people · Yambol"
+    },
+    {
+      "name": "Dimitrovgrad",
+      "country": "BG",
+      "value": 111,
+      "detail": "38,015 people · Haskovo"
+    },
+    {
+      "name": "Pleven",
+      "country": "BG",
+      "value": 89,
+      "detail": "90,209 people · Pleven"
+    },
+    {
+      "name": "Varna",
+      "country": "BG",
+      "value": 83,
+      "detail": "318,737 people · Varna"
+    },
+    {
+      "name": "Svishtov",
+      "country": "BG",
+      "value": 74,
+      "detail": "30,157 people · Veliko Tarnovo"
+    },
+    {
+      "name": "Harmanli",
+      "country": "BG",
+      "value": 61,
+      "detail": "18,931 people · Haskovo"
+    },
+    {
+      "name": "Svilengrad",
+      "country": "BG",
+      "value": 53,
+      "detail": "16,959 people · Haskovo"
+    }
+  ]
+}

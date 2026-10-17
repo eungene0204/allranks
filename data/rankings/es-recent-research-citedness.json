@@ -1,0 +1,326 @@
+{
+  "id": "es-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Spain",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ES",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:44.653Z",
+  "items": [
+    {
+      "name": "Escuela Nacional de Sanidad",
+      "country": "ES",
+      "value": 13.942,
+      "detail": "1,491 works"
+    },
+    {
+      "name": "Barcelona Institute of Science and Technology",
+      "country": "ES",
+      "value": 9.5643,
+      "detail": "16,146 works"
+    },
+    {
+      "name": "Escola Superior de Comerç Internacional",
+      "country": "ES",
+      "value": 9.2562,
+      "detail": "261 works"
+    },
+    {
+      "name": "Universidad Europea de Madrid",
+      "country": "ES",
+      "value": 6.5369,
+      "detail": "11,993 works"
+    },
+    {
+      "name": "EU Business School, Barcelona",
+      "country": "ES",
+      "value": 6.2667,
+      "detail": "47 works"
+    },
+    {
+      "name": "Institut de Ciències del Cosmos",
+      "country": "ES",
+      "value": 5.9225,
+      "detail": "5,247 works"
+    },
+    {
+      "name": "Santander Financial Institute",
+      "country": "ES",
+      "value": 5.6098,
+      "detail": "57 works"
+    },
+    {
+      "name": "Navarre Institute of Health Research",
+      "country": "ES",
+      "value": 5.5605,
+      "detail": "7,579 works"
+    },
+    {
+      "name": "Universidad Europea de Valencia",
+      "country": "ES",
+      "value": 5.2155,
+      "detail": "1,362 works"
+    },
+    {
+      "name": "Centre for Omic Sciences",
+      "country": "ES",
+      "value": 4.9886,
+      "detail": "196 works"
+    },
+    {
+      "name": "Barcelona School of Economics",
+      "country": "ES",
+      "value": 4.9432,
+      "detail": "2,849 works"
+    },
+    {
+      "name": "Madrid Institute for Advanced Studies",
+      "country": "ES",
+      "value": 4.8723,
+      "detail": "5,365 works"
+    },
+    {
+      "name": "Instituto Nacional de Silicosis",
+      "country": "ES",
+      "value": 4.7838,
+      "detail": "277 works"
+    },
+    {
+      "name": "Achucarro Basque Center for Neuroscience",
+      "country": "ES",
+      "value": 4.6905,
+      "detail": "1,080 works"
+    },
+    {
+      "name": "Universitat de les Illes Balears",
+      "country": "ES",
+      "value": 4.6077,
+      "detail": "31,156 works"
+    },
+    {
+      "name": "Universitat Pompeu Fabra",
+      "country": "ES",
+      "value": 4.5832,
+      "detail": "52,596 works"
+    },
+    {
+      "name": "EUNCET Business School",
+      "country": "ES",
+      "value": 4.5733,
+      "detail": "154 works"
+    },
+    {
+      "name": "Universitat de València",
+      "country": "ES",
+      "value": 4.3567,
+      "detail": "137,378 works"
+    },
+    {
+      "name": "Centro Universitario de la Defensa en la Escuela Naval Militar",
+      "country": "ES",
+      "value": 4.3261,
+      "detail": "398 works"
+    },
+    {
+      "name": "Universitat de Barcelona",
+      "country": "ES",
+      "value": 4.3106,
+      "detail": "204,131 works"
+    },
+    {
+      "name": "Instituto de Investigación, Desarrollo e Innovación en Biotecnología Sanitaria de Elche (IDiBE)",
+      "country": "ES",
+      "value": 4.2926,
+      "detail": "493 works"
+    },
+    {
+      "name": "Universitat Internacional de Catalunya",
+      "country": "ES",
+      "value": 4.2459,
+      "detail": "8,536 works"
+    },
+    {
+      "name": "Universitat Autònoma de Barcelona",
+      "country": "ES",
+      "value": 4.2335,
+      "detail": "171,534 works"
+    },
+    {
+      "name": "Esade",
+      "country": "ES",
+      "value": 4.2206,
+      "detail": "3,627 works"
+    },
+    {
+      "name": "Escuela Naval Militar",
+      "country": "ES",
+      "value": 4.1839,
+      "detail": "368 works"
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "country": "ES",
+      "value": 4.164,
+      "detail": "123,600 works"
+    },
+    {
+      "name": "Instituto de Investigación Multidisciplinar en Biología Aplicada",
+      "country": "ES",
+      "value": 4.0833,
+      "detail": "276 works"
+    },
+    {
+      "name": "Parc Científic de la Universitat de València",
+      "country": "ES",
+      "value": 3.981,
+      "detail": "1,447 works"
+    },
+    {
+      "name": "UPF Barcelona School of Management",
+      "country": "ES",
+      "value": 3.9595,
+      "detail": "613 works"
+    },
+    {
+      "name": "EADA Business School",
+      "country": "ES",
+      "value": 3.9481,
+      "detail": "437 works"
+    },
+    {
+      "name": "Instituto de Investigación Avanzada en Empresa y Economía",
+      "country": "ES",
+      "value": 3.9281,
+      "detail": "385 works"
+    },
+    {
+      "name": "Fundació Blanquerna",
+      "country": "ES",
+      "value": 3.927,
+      "detail": "395 works"
+    },
+    {
+      "name": "Universidad de Navarra",
+      "country": "ES",
+      "value": 3.9127,
+      "detail": "48,926 works"
+    },
+    {
+      "name": "Catholic University of Ávila",
+      "country": "ES",
+      "value": 3.8409,
+      "detail": "1,392 works"
+    },
+    {
+      "name": "Universidad de Cantabria",
+      "country": "ES",
+      "value": 3.8399,
+      "detail": "34,116 works"
+    },
+    {
+      "name": "Universidade de Santiago de Compostela",
+      "country": "ES",
+      "value": 3.8326,
+      "detail": "77,375 works"
+    },
+    {
+      "name": "Institut Químic de Sarrià",
+      "country": "ES",
+      "value": 3.7314,
+      "detail": "2,521 works"
+    },
+    {
+      "name": "Basque Culinary Center",
+      "country": "ES",
+      "value": 3.7265,
+      "detail": "257 works"
+    },
+    {
+      "name": "Universitat Ramon Llull",
+      "country": "ES",
+      "value": 3.7138,
+      "detail": "12,394 works"
+    },
+    {
+      "name": "Universitat de Girona",
+      "country": "ES",
+      "value": 3.708,
+      "detail": "28,578 works"
+    },
+    {
+      "name": "Escola Superior d'Infermeria del Mar",
+      "country": "ES",
+      "value": 3.6538,
+      "detail": "138 works"
+    },
+    {
+      "name": "Universidad de Jaén",
+      "country": "ES",
+      "value": 3.634,
+      "detail": "25,902 works"
+    },
+    {
+      "name": "University of the Basque Country",
+      "country": "ES",
+      "value": 3.6187,
+      "detail": "103,116 works"
+    },
+    {
+      "name": "Instituto Tecnico Agronómico Provincial",
+      "country": "ES",
+      "value": 3.6,
+      "detail": "194 works"
+    },
+    {
+      "name": "La Salle Centro Universitario",
+      "country": "ES",
+      "value": 3.5669,
+      "detail": "721 works"
+    },
+    {
+      "name": "Universidad de La Laguna",
+      "country": "ES",
+      "value": 3.5624,
+      "detail": "43,761 works"
+    },
+    {
+      "name": "Universidad Católica de Murcia",
+      "country": "ES",
+      "value": 3.5359,
+      "detail": "9,184 works"
+    },
+    {
+      "name": "Universidad de Alcalá",
+      "country": "ES",
+      "value": 3.5281,
+      "detail": "46,534 works"
+    },
+    {
+      "name": "Centro de Estudios Monetarios y Financieros",
+      "country": "ES",
+      "value": 3.5026,
+      "detail": "944 works"
+    },
+    {
+      "name": "Universitat de Vic - Universitat Central de Catalunya",
+      "country": "ES",
+      "value": 3.4907,
+      "detail": "9,535 works"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "ml-airports-by-elevation",
+  "title": "Highest Airports in Mali",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Mali ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.522Z",
+  "items": [
+    {
+      "name": "Tessalit Airport",
+      "country": "ML",
+      "value": 494.08,
+      "detail": "1,621 ft above sea level"
+    },
+    {
+      "name": "Kidal Airport",
+      "country": "ML",
+      "value": 455.98,
+      "detail": "Kidal · 1,496 ft above sea level"
+    },
+    {
+      "name": "Kolokani Airport",
+      "country": "ML",
+      "value": 444.09,
+      "detail": "Kolokani · 1,457 ft above sea level"
+    },
+    {
+      "name": "Sikasso Airport",
+      "country": "ML",
+      "value": 420.01,
+      "detail": "Sikasso · 1,378 ft above sea level"
+    },
+    {
+      "name": "Bandiagara Airport",
+      "country": "ML",
+      "value": 399.9,
+      "detail": "Bandiagara · 1,312 ft above sea level"
+    },
+    {
+      "name": "Sikasso (Dignangan) Airport",
+      "country": "ML",
+      "value": 396.54,
+      "detail": "Sikasso · 1,301 ft above sea level"
+    },
+    {
+      "name": "Syama Airport",
+      "country": "ML",
+      "value": 383.13,
+      "detail": "Syama · 1,257 ft above sea level"
+    },
+    {
+      "name": "Modibo Keita International Airport",
+      "country": "ML",
+      "value": 380.09,
+      "detail": "Bamako · 1,247 ft above sea level"
+    },
+    {
+      "name": "Bougouni Airport",
+      "country": "ML",
+      "value": 347.17,
+      "detail": "Bougouni · 1,139 ft above sea level"
+    },
+    {
+      "name": "Faladie Airport",
+      "country": "ML",
+      "value": 339.85,
+      "detail": "Faladie · 1,115 ft above sea level"
+    },
+    {
+      "name": "Dioila Airport",
+      "country": "ML",
+      "value": 320.04,
+      "detail": "Dioila · 1,050 ft above sea level"
+    },
+    {
+      "name": "Douentza Airport",
+      "country": "ML",
+      "value": 299.92,
+      "detail": "Douentza · 984 ft above sea level"
+    },
+    {
+      "name": "Bourem Airport",
+      "country": "ML",
+      "value": 286.82,
+      "detail": "Bourem · 941 ft above sea level"
+    },
+    {
+      "name": "Mopti Airport",
+      "country": "ML",
+      "value": 276.15,
+      "detail": "Sévaré · 906 ft above sea level"
+    },
+    {
+      "name": "Menaka Airport",
+      "country": "ML",
+      "value": 274.02,
+      "detail": "Menaka · 899 ft above sea level"
+    },
+    {
+      "name": "Nara Airport",
+      "country": "ML",
+      "value": 270.97,
+      "detail": "Keibane · 889 ft above sea level"
+    },
+    {
+      "name": "Gao International Airport",
+      "country": "ML",
+      "value": 265.18,
+      "detail": "Gao · 870 ft above sea level"
+    },
+    {
+      "name": "Goundam Airport",
+      "country": "ML",
+      "value": 263.96,
+      "detail": "Goundam · 866 ft above sea level"
+    },
+    {
+      "name": "Niafunke Airport",
+      "country": "ML",
+      "value": 263.96,
+      "detail": "Niafunke · 866 ft above sea level"
+    },
+    {
+      "name": "Tombouktou Airport",
+      "country": "ML",
+      "value": 263.04,
+      "detail": "Timbuktu · 863 ft above sea level"
+    },
+    {
+      "name": "Ansongo Airport",
+      "country": "ML",
+      "value": 259.99,
+      "detail": "Ansongo · 853 ft above sea level"
+    },
+    {
+      "name": "Nioro du Sahel Airport",
+      "country": "ML",
+      "value": 237.13,
+      "detail": "Nioro du Sahel · 778 ft above sea level"
+    },
+    {
+      "name": "Manantali Bengassi Airport",
+      "country": "ML",
+      "value": 163.98,
+      "detail": "Manantali · 538 ft above sea level"
+    },
+    {
+      "name": "Sadiola Airport",
+      "country": "ML",
+      "value": 147.52,
+      "detail": "Sadiola · 484 ft above sea level"
+    },
+    {
+      "name": "Kenieba Airport",
+      "country": "ML",
+      "value": 136.86,
+      "detail": "Kenieba · 449 ft above sea level"
+    },
+    {
+      "name": "Bafoulabé Airport",
+      "country": "ML",
+      "value": 115.82,
+      "detail": "Bafoulabé · 380 ft above sea level"
+    },
+    {
+      "name": "Yélimané Airport",
+      "country": "ML",
+      "value": 99.06,
+      "detail": "Yélimané · 325 ft above sea level"
+    },
+    {
+      "name": "Kayes Dag Dag Airport",
+      "country": "ML",
+      "value": 49.99,
+      "detail": "Kayes · 164 ft above sea level"
+    }
+  ]
+}

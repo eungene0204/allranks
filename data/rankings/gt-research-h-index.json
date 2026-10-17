@@ -1,0 +1,104 @@
+{
+  "id": "gt-research-h-index",
+  "title": "Universities by Research h-index in Guatemala",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:49.988Z",
+  "items": [
+    {
+      "name": "Universidad del Valle de Guatemala",
+      "country": "GT",
+      "value": 103,
+      "detail": "1,916 works"
+    },
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "country": "GT",
+      "value": 102,
+      "detail": "6,667 works"
+    },
+    {
+      "name": "Universidad Francisco Marroquín",
+      "country": "GT",
+      "value": 64,
+      "detail": "1,085 works"
+    },
+    {
+      "name": "Galileo University",
+      "country": "GT",
+      "value": 33,
+      "detail": "339 works"
+    },
+    {
+      "name": "Universidad Rafael Landívar",
+      "country": "GT",
+      "value": 26,
+      "detail": "599 works"
+    },
+    {
+      "name": "Universidad Mariano Galvez",
+      "country": "GT",
+      "value": 24,
+      "detail": "210 works"
+    },
+    {
+      "name": "Universidad del Istmo",
+      "country": "GT",
+      "value": 17,
+      "detail": "385 works"
+    },
+    {
+      "name": "Mesoamerican University",
+      "country": "GT",
+      "value": 15,
+      "detail": "41 works"
+    },
+    {
+      "name": "Centro Universitario de Occidente",
+      "country": "GT",
+      "value": 14,
+      "detail": "97 works"
+    },
+    {
+      "name": "Universidad Panamericana",
+      "country": "GT",
+      "value": 14,
+      "detail": "396 works"
+    },
+    {
+      "name": "Consejo Superior Universitario Centroamericano",
+      "country": "GT",
+      "value": 4,
+      "detail": "12 works"
+    },
+    {
+      "name": "Probigua",
+      "country": "GT",
+      "value": 3,
+      "detail": "6 works"
+    },
+    {
+      "name": "Universidad Rural de Guatemala",
+      "country": "GT",
+      "value": 1,
+      "detail": "7 works"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tj-airports-by-elevation",
+  "title": "Highest Airports in Tajikistan",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tajikistan ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.551Z",
+  "items": [
+    {
+      "name": "Murghab Airport",
+      "country": "TJ",
+      "value": 3646.02,
+      "detail": "Murghab · 11,962 ft above sea level"
+    },
+    {
+      "name": "Khorog Airport",
+      "country": "TJ",
+      "value": 2042.16,
+      "detail": "Khorog · 6,700 ft above sea level"
+    },
+    {
+      "name": "Ayni Airport",
+      "country": "TJ",
+      "value": 1418.84,
+      "detail": "Ayni · 4,655 ft above sea level"
+    },
+    {
+      "name": "Garm Airport",
+      "country": "TJ",
+      "value": 1304.54,
+      "detail": "Garm · 4,280 ft above sea level"
+    },
+    {
+      "name": "Penjikent Airport",
+      "country": "TJ",
+      "value": 1036.32,
+      "detail": "Panjakent · 3,400 ft above sea level"
+    },
+    {
+      "name": "Isfara Airport",
+      "country": "TJ",
+      "value": 857.71,
+      "detail": "Isfara · 2,814 ft above sea level"
+    },
+    {
+      "name": "Dushanbe International Airport",
+      "country": "TJ",
+      "value": 784.86,
+      "detail": "Dushanbe · 2,575 ft above sea level"
+    },
+    {
+      "name": "Gissar Air Base",
+      "country": "TJ",
+      "value": 725.12,
+      "detail": "Dushanbe · 2,379 ft above sea level"
+    },
+    {
+      "name": "Kulob International Airport",
+      "country": "TJ",
+      "value": 698.91,
+      "detail": "Kulob · 2,293 ft above sea level"
+    },
+    {
+      "name": "Danghara Airport",
+      "country": "TJ",
+      "value": 636.73,
+      "detail": "Danghara · 2,089 ft above sea level"
+    },
+    {
+      "name": "Moskovskiy Pyandzh Airport",
+      "country": "TJ",
+      "value": 495,
+      "detail": "Ak-Mazar · 1,624 ft above sea level"
+    },
+    {
+      "name": "Kanibadam Airport",
+      "country": "TJ",
+      "value": 485.85,
+      "detail": "Kanibadam · 1,594 ft above sea level"
+    },
+    {
+      "name": "Bokhtar International Airport",
+      "country": "TJ",
+      "value": 448.97,
+      "detail": "Bokhtar · 1,473 ft above sea level"
+    },
+    {
+      "name": "Farkhor Air Base",
+      "country": "TJ",
+      "value": 441.96,
+      "detail": "Parkhar · 1,450 ft above sea level"
+    },
+    {
+      "name": "Khujand International Airport",
+      "country": "TJ",
+      "value": 441.96,
+      "detail": "Khujand · 1,450 ft above sea level"
+    },
+    {
+      "name": "Panj Airport",
+      "country": "TJ",
+      "value": 377.04,
+      "detail": "Panj · 1,237 ft above sea level"
+    }
+  ]
+}

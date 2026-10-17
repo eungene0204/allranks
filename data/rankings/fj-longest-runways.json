@@ -1,0 +1,74 @@
+{
+  "id": "fj-longest-runways",
+  "title": "Longest Airport Runways in Fiji",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Fiji ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.495Z",
+  "items": [
+    {
+      "name": "Nadi International Airport",
+      "country": "FJ",
+      "value": 3273.25,
+      "detail": "Nadi · 10,739 ft · ASP"
+    },
+    {
+      "name": "Nausori International Airport",
+      "country": "FJ",
+      "value": 2147.93,
+      "detail": "Nausori · 7,047 ft · ASP"
+    },
+    {
+      "name": "Rotuma Airport",
+      "country": "FJ",
+      "value": 1464.87,
+      "detail": "Rotuma · 4,806 ft · UNK"
+    },
+    {
+      "name": "Labasa Airport",
+      "country": "FJ",
+      "value": 1068.93,
+      "detail": "Labasa · 3,507 ft · ASP"
+    },
+    {
+      "name": "Matei Airport",
+      "country": "FJ",
+      "value": 985.11,
+      "detail": "Matei · 3,232 ft · UNK"
+    },
+    {
+      "name": "Savusavu Airport",
+      "country": "FJ",
+      "value": 863.5,
+      "detail": "Savusavu · 2,833 ft"
+    },
+    {
+      "name": "Nanuku Airport",
+      "country": "FJ",
+      "value": 730,
+      "detail": "Nanuku Auberge Resort · 2,395 ft · ASP"
+    },
+    {
+      "name": "Yasawa Island Airport",
+      "country": "FJ",
+      "value": 594.36,
+      "detail": "Yasawa Island · 1,950 ft · Dirt"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "ga-cities-by-elevation",
+  "title": "Highest Major Cities in Gabon",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Gabon with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.531Z",
+  "items": [
+    {
+      "name": "Oyem",
+      "country": "GA",
+      "value": 656,
+      "detail": "72,939 people · Woleu-Ntem"
+    },
+    {
+      "name": "Bitam",
+      "country": "GA",
+      "value": 575,
+      "detail": "33,561 people · Woleu-Ntem"
+    },
+    {
+      "name": "Makokou",
+      "country": "GA",
+      "value": 489,
+      "detail": "24,823 people · Ogooué-Ivindo"
+    },
+    {
+      "name": "Moanda",
+      "country": "GA",
+      "value": 416,
+      "detail": "71,099 people · Haut-Ogooué"
+    },
+    {
+      "name": "Franceville",
+      "country": "GA",
+      "value": 405,
+      "detail": "132,895 people · Haut-Ogooué"
+    },
+    {
+      "name": "Akanda",
+      "country": "GA",
+      "value": 291,
+      "detail": "41,524 people · Estuaire"
+    },
+    {
+      "name": "Koulamoutou",
+      "country": "GA",
+      "value": 282,
+      "detail": "30,830 people · Ogooué-Lolo"
+    },
+    {
+      "name": "Mouila",
+      "country": "GA",
+      "value": 92,
+      "detail": "43,342 people · Ngouni"
+    },
+    {
+      "name": "Oyam",
+      "country": "GA",
+      "value": 72,
+      "detail": "30,100 people · Moyen-Ogooué"
+    },
+    {
+      "name": "Tchibanga",
+      "country": "GA",
+      "value": 49,
+      "detail": "36,108 people · Nyanga"
+    },
+    {
+      "name": "Lambaréné",
+      "country": "GA",
+      "value": 26,
+      "detail": "46,605 people · Moyen-Ogooué"
+    },
+    {
+      "name": "Ntoum",
+      "country": "GA",
+      "value": 11,
+      "detail": "62,445 people · Estuaire"
+    },
+    {
+      "name": "Libreville",
+      "country": "GA",
+      "value": 8,
+      "detail": "846,090 people · Estuaire"
+    },
+    {
+      "name": "Owendo",
+      "country": "GA",
+      "value": 6,
+      "detail": "95,313 people · Estuaire"
+    },
+    {
+      "name": "Port-Gentil",
+      "country": "GA",
+      "value": 4,
+      "detail": "164,018 people · Ogooué-Maritime"
+    }
+  ]
+}

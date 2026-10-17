@@ -1,0 +1,146 @@
+{
+  "id": "am-research-h-index",
+  "title": "Universities by Research h-index in Armenia",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:20.976Z",
+  "items": [
+    {
+      "name": "Yerevan State University",
+      "country": "AM",
+      "value": 112,
+      "detail": "12,586 works"
+    },
+    {
+      "name": "Yerevan State Medical University",
+      "country": "AM",
+      "value": 82,
+      "detail": "3,303 works"
+    },
+    {
+      "name": "American University of Armenia",
+      "country": "AM",
+      "value": 55,
+      "detail": "1,061 works"
+    },
+    {
+      "name": "Russian-Armenian University",
+      "country": "AM",
+      "value": 53,
+      "detail": "2,217 works"
+    },
+    {
+      "name": "L. A. Orbeli Institute of Physiology NAS RA",
+      "country": "AM",
+      "value": 33,
+      "detail": "567 works"
+    },
+    {
+      "name": "National Polytechnic University of Armenia",
+      "country": "AM",
+      "value": 33,
+      "detail": "1,900 works"
+    },
+    {
+      "name": "Armenian National Agrarian University",
+      "country": "AM",
+      "value": 31,
+      "detail": "1,124 works"
+    },
+    {
+      "name": "National University of Architecture and Construction of Armenia",
+      "country": "AM",
+      "value": 23,
+      "detail": "802 works"
+    },
+    {
+      "name": "Armenian State Pedagogical University after Khachatur Abovian",
+      "country": "AM",
+      "value": 21,
+      "detail": "1,543 works"
+    },
+    {
+      "name": "Armenian State University of Economics",
+      "country": "AM",
+      "value": 17,
+      "detail": "1,836 works"
+    },
+    {
+      "name": "Shirak State University",
+      "country": "AM",
+      "value": 13,
+      "detail": "507 works"
+    },
+    {
+      "name": "Northern University",
+      "country": "AM",
+      "value": 6,
+      "detail": "28 works"
+    },
+    {
+      "name": "Yerevan Haybusak University",
+      "country": "AM",
+      "value": 6,
+      "detail": "75 works"
+    },
+    {
+      "name": "Brusov State University",
+      "country": "AM",
+      "value": 5,
+      "detail": "236 works"
+    },
+    {
+      "name": "Eurasia International University",
+      "country": "AM",
+      "value": 5,
+      "detail": "204 works"
+    },
+    {
+      "name": "Fondation Université Française en Arménie",
+      "country": "AM",
+      "value": 4,
+      "detail": "38 works"
+    },
+    {
+      "name": "Vanadzor State University",
+      "country": "AM",
+      "value": 3,
+      "detail": "342 works"
+    },
+    {
+      "name": "Gavar State University",
+      "country": "AM",
+      "value": 2,
+      "detail": "33 works"
+    },
+    {
+      "name": "St. Theresa's Medical University of Yerevan",
+      "country": "AM",
+      "value": 1,
+      "detail": "3 works"
+    },
+    {
+      "name": "State Academy of Fine Arts of Armenia",
+      "country": "AM",
+      "value": 1,
+      "detail": "34 works"
+    }
+  ]
+}

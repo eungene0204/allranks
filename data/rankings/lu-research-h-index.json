@@ -1,0 +1,86 @@
+{
+  "id": "lu-research-h-index",
+  "title": "Universities by Research h-index in Luxembourg",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:06.575Z",
+  "items": [
+    {
+      "name": "University of Luxembourg",
+      "country": "LU",
+      "value": 399,
+      "detail": "70,194 works"
+    },
+    {
+      "name": "Luxembourg Centre for Systems Biomedicine",
+      "country": "LU",
+      "value": 289,
+      "detail": "3,433 works"
+    },
+    {
+      "name": "Interdisciplinary Centre for Security, Reliability and Trust",
+      "country": "LU",
+      "value": 178,
+      "detail": "6,047 works"
+    },
+    {
+      "name": "LUNEX",
+      "country": "LU",
+      "value": 45,
+      "detail": "477 works"
+    },
+    {
+      "name": "Luxembourg School of Business",
+      "country": "LU",
+      "value": 22,
+      "detail": "158 works"
+    },
+    {
+      "name": "Luxembourg Centre for Contemporary and Digital History",
+      "country": "LU",
+      "value": 21,
+      "detail": "2,804 works"
+    },
+    {
+      "name": "Sacred Heart University",
+      "country": "LU",
+      "value": 15,
+      "detail": "58 works"
+    },
+    {
+      "name": "Luxembourg Centre for European Law",
+      "country": "LU",
+      "value": 6,
+      "detail": "144 works"
+    },
+    {
+      "name": "Luxembourg Centre for Socio-Environmental Systems",
+      "country": "LU",
+      "value": 3,
+      "detail": "16 works"
+    },
+    {
+      "name": "Miami University Dolibois European Center",
+      "country": "LU",
+      "value": 2,
+      "detail": "9 works"
+    }
+  ]
+}

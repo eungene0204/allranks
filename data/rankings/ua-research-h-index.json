@@ -1,0 +1,326 @@
+{
+  "id": "ua-research-h-index",
+  "title": "Universities by Research h-index in Ukraine",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:42.699Z",
+  "items": [
+    {
+      "name": "Taras Shevchenko National University of Kyiv",
+      "country": "UA",
+      "value": 186,
+      "detail": "55,419 works"
+    },
+    {
+      "name": "Sumy State University",
+      "country": "UA",
+      "value": 134,
+      "detail": "14,376 works"
+    },
+    {
+      "name": "V. N. Karazin Kharkiv National University",
+      "country": "UA",
+      "value": 115,
+      "detail": "29,125 works"
+    },
+    {
+      "name": "Lviv University",
+      "country": "UA",
+      "value": 113,
+      "detail": "34,435 works"
+    },
+    {
+      "name": "Vasyl Stefanyk Carpathian National University",
+      "country": "UA",
+      "value": 109,
+      "detail": "11,794 works"
+    },
+    {
+      "name": "Danylo Halytsky Lviv National Medical University",
+      "country": "UA",
+      "value": 107,
+      "detail": "9,585 works"
+    },
+    {
+      "name": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+      "country": "UA",
+      "value": 107,
+      "detail": "40,018 works"
+    },
+    {
+      "name": "Odesa I. I. Mechnikov National University",
+      "country": "UA",
+      "value": 99,
+      "detail": "14,572 works"
+    },
+    {
+      "name": "Lviv Polytechnic National University",
+      "country": "UA",
+      "value": 95,
+      "detail": "36,118 works"
+    },
+    {
+      "name": "Bogomolets National Medical University",
+      "country": "UA",
+      "value": 89,
+      "detail": "14,279 works"
+    },
+    {
+      "name": "Ukrainian State University of Chemical Technology",
+      "country": "UA",
+      "value": 80,
+      "detail": "2,856 works"
+    },
+    {
+      "name": "National Technical University \"Kharkiv Polytechnic Institute\"",
+      "country": "UA",
+      "value": 79,
+      "detail": "20,923 works"
+    },
+    {
+      "name": "National University of Life and Environmental Sciences of Ukraine",
+      "country": "UA",
+      "value": 79,
+      "detail": "18,963 works"
+    },
+    {
+      "name": "Yuriy Fedkovych Chernivtsi National University",
+      "country": "UA",
+      "value": 75,
+      "detail": "13,819 works"
+    },
+    {
+      "name": "Donetsk National Medical University",
+      "country": "UA",
+      "value": 74,
+      "detail": "3,840 works"
+    },
+    {
+      "name": "Uzhhorod National University",
+      "country": "UA",
+      "value": 71,
+      "detail": "14,531 works"
+    },
+    {
+      "name": "Oles Honchar Dnipro National University",
+      "country": "UA",
+      "value": 70,
+      "detail": "14,532 works"
+    },
+    {
+      "name": "Cherkasy National University",
+      "country": "UA",
+      "value": 67,
+      "detail": "4,670 works"
+    },
+    {
+      "name": "National University of Kyiv-Mohyla Academy",
+      "country": "UA",
+      "value": 66,
+      "detail": "5,300 works"
+    },
+    {
+      "name": "I.Horbachevsky Ternopil National Medical University",
+      "country": "UA",
+      "value": 63,
+      "detail": "10,720 works"
+    },
+    {
+      "name": "V.I. Vernadsky Crimean Federal University",
+      "country": "UA",
+      "value": 63,
+      "detail": "7,958 works"
+    },
+    {
+      "name": "National Aerospace University – Kharkiv Aviation Institute",
+      "country": "UA",
+      "value": 62,
+      "detail": "6,573 works"
+    },
+    {
+      "name": "Sumy National Agrarian University",
+      "country": "UA",
+      "value": 60,
+      "detail": "5,813 works"
+    },
+    {
+      "name": "Ivano-Frankivsk National Medical University",
+      "country": "UA",
+      "value": 59,
+      "detail": "6,203 works"
+    },
+    {
+      "name": "Kharkiv National Medical University",
+      "country": "UA",
+      "value": 59,
+      "detail": "8,644 works"
+    },
+    {
+      "name": "Kharkiv National University of Radio Electronics",
+      "country": "UA",
+      "value": 58,
+      "detail": "10,703 works"
+    },
+    {
+      "name": "Kryvyi Rih State Pedagogical University",
+      "country": "UA",
+      "value": 58,
+      "detail": "4,199 works"
+    },
+    {
+      "name": "National University \"Kyiv Aviation Institute\"",
+      "country": "UA",
+      "value": 58,
+      "detail": "19,140 works"
+    },
+    {
+      "name": "West Ukrainian National University",
+      "country": "UA",
+      "value": 58,
+      "detail": "10,420 works"
+    },
+    {
+      "name": "Shupyk National Healthcare University of Ukraine",
+      "country": "UA",
+      "value": 57,
+      "detail": "7,898 works"
+    },
+    {
+      "name": "Kryvyi Rih National University",
+      "country": "UA",
+      "value": 56,
+      "detail": "3,300 works"
+    },
+    {
+      "name": "Zaporizhzhia State Medical and Pharmaceutical University",
+      "country": "UA",
+      "value": 56,
+      "detail": "6,681 works"
+    },
+    {
+      "name": "Dnipro University of Technology",
+      "country": "UA",
+      "value": 54,
+      "detail": "6,197 works"
+    },
+    {
+      "name": "National University of Pharmacy",
+      "country": "UA",
+      "value": 54,
+      "detail": "5,538 works"
+    },
+    {
+      "name": "National University of Water and Environmental Engineering",
+      "country": "UA",
+      "value": 54,
+      "detail": "6,363 works"
+    },
+    {
+      "name": "Ukrainian National Forestry University",
+      "country": "UA",
+      "value": 54,
+      "detail": "2,928 works"
+    },
+    {
+      "name": "Kyiv National University of Construction and Architecture",
+      "country": "UA",
+      "value": 53,
+      "detail": "9,708 works"
+    },
+    {
+      "name": "Odessa National Medical University",
+      "country": "UA",
+      "value": 53,
+      "detail": "5,086 works"
+    },
+    {
+      "name": "Taurida National V.I. Vernadsky University",
+      "country": "UA",
+      "value": 53,
+      "detail": "3,055 works"
+    },
+    {
+      "name": "Ukrainian Medical Stomatological Academy",
+      "country": "UA",
+      "value": 53,
+      "detail": "2,803 works"
+    },
+    {
+      "name": "Lesya Ukrainka Volyn National University",
+      "country": "UA",
+      "value": 52,
+      "detail": "7,741 works"
+    },
+    {
+      "name": "National Pirogov Memorial Medical University, Vinnytsya",
+      "country": "UA",
+      "value": 52,
+      "detail": "6,456 works"
+    },
+    {
+      "name": "National University of Food Technologies",
+      "country": "UA",
+      "value": 52,
+      "detail": "6,944 works"
+    },
+    {
+      "name": "Interregional Academy of Personnel Management",
+      "country": "UA",
+      "value": 51,
+      "detail": "5,382 works"
+    },
+    {
+      "name": "Ternopil Volodymyr Hnatiuk National Pedagogical University",
+      "country": "UA",
+      "value": 51,
+      "detail": "4,664 works"
+    },
+    {
+      "name": "National University of Civil Protection of Ukraine",
+      "country": "UA",
+      "value": 50,
+      "detail": "3,297 works"
+    },
+    {
+      "name": "Ivano-Frankivsk National Technical University of Oil and Gas",
+      "country": "UA",
+      "value": 49,
+      "detail": "6,200 works"
+    },
+    {
+      "name": "Bukovinian State Medical University",
+      "country": "UA",
+      "value": 48,
+      "detail": "7,913 works"
+    },
+    {
+      "name": "Stepan Gzhytskyi National University of Veterinary Medicine and Biotechnologies Lviv",
+      "country": "UA",
+      "value": 48,
+      "detail": "3,935 works"
+    },
+    {
+      "name": "State University of Trade and Economics",
+      "country": "UA",
+      "value": 47,
+      "detail": "9,665 works"
+    }
+  ]
+}

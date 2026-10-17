@@ -1,0 +1,128 @@
+{
+  "id": "sd-longest-runways",
+  "title": "Longest Airport Runways in Sudan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Sudan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.545Z",
+  "items": [
+    {
+      "name": "Merowe Airport",
+      "country": "SD",
+      "value": 4019.09,
+      "detail": "Merowe · 13,186 ft · Asphalt"
+    },
+    {
+      "name": "Nyala Airport",
+      "country": "SD",
+      "value": 3011.42,
+      "detail": "Nyala · 9,880 ft · ASP"
+    },
+    {
+      "name": "Dongola Airport",
+      "country": "SD",
+      "value": 3000.15,
+      "detail": "Dongola · 9,843 ft · ASP"
+    },
+    {
+      "name": "El-Obeid Airport",
+      "country": "SD",
+      "value": 3000.15,
+      "detail": "El-Obeid · 9,843 ft · ASP"
+    },
+    {
+      "name": "Sabera Geneina Airport",
+      "country": "SD",
+      "value": 2995.88,
+      "detail": "Geneina · 9,829 ft · asphalt"
+    },
+    {
+      "name": "Khartoum International Airport",
+      "country": "SD",
+      "value": 2972.1,
+      "detail": "Khartoum · 9,751 ft · Asphalt"
+    },
+    {
+      "name": "El Fasher Airport",
+      "country": "SD",
+      "value": 2969.97,
+      "detail": "El Fasher · 9,744 ft · ASP"
+    },
+    {
+      "name": "Damazin Airport",
+      "country": "SD",
+      "value": 2749.3,
+      "detail": "Ad Damazin · 9,020 ft · ASP"
+    },
+    {
+      "name": "Atbara Airport",
+      "country": "SD",
+      "value": 2580.13,
+      "detail": "Atbara · 8,465 ft · ASP"
+    },
+    {
+      "name": "Kadugli Airport",
+      "country": "SD",
+      "value": 2552.7,
+      "detail": "Kadugli · 8,375 ft · ASP"
+    },
+    {
+      "name": "Kassala Airport",
+      "country": "SD",
+      "value": 2499.97,
+      "detail": "Kassala · 8,202 ft · ASP"
+    },
+    {
+      "name": "Port Sudan New International Airport",
+      "country": "SD",
+      "value": 2499.97,
+      "detail": "Port Sudan · 8,202 ft · ASP"
+    },
+    {
+      "name": "Wadi Halfa Airport",
+      "country": "SD",
+      "value": 2000.1,
+      "detail": "Wadi Halfa · 6,562 ft · gravel"
+    },
+    {
+      "name": "Geneina Airport",
+      "country": "SD",
+      "value": 1887.93,
+      "detail": "Geneina · 6,194 ft · UNK"
+    },
+    {
+      "name": "Carthago Airport",
+      "country": "SD",
+      "value": 1694.99,
+      "detail": "Carthago · 5,561 ft · sand"
+    },
+    {
+      "name": "Merowe Town Airport",
+      "country": "SD",
+      "value": 1499.92,
+      "detail": "Merowe · 4,921 ft · UNK"
+    },
+    {
+      "name": "Al Dabbah Airport",
+      "country": "SD",
+      "value": 1400.56,
+      "detail": "Al Dabbah · 4,595 ft · graded earth"
+    }
+  ]
+}

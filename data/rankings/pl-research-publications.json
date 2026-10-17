@@ -1,0 +1,326 @@
+{
+  "id": "pl-research-publications",
+  "title": "Universities by Research Publications in Poland",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:23.916Z",
+  "items": [
+    {
+      "name": "Jagiellonian University",
+      "country": "PL",
+      "value": 126508,
+      "detail": "5,270,216 citations"
+    },
+    {
+      "name": "University of Warsaw",
+      "country": "PL",
+      "value": 110092,
+      "detail": "4,714,187 citations"
+    },
+    {
+      "name": "Adam Mickiewicz University in Poznań",
+      "country": "PL",
+      "value": 68087,
+      "detail": "1,518,240 citations"
+    },
+    {
+      "name": "University of Wrocław",
+      "country": "PL",
+      "value": 67887,
+      "detail": "1,621,702 citations"
+    },
+    {
+      "name": "Warsaw University of Technology",
+      "country": "PL",
+      "value": 61915,
+      "detail": "2,379,722 citations"
+    },
+    {
+      "name": "AGH University of Krakow",
+      "country": "PL",
+      "value": 61607,
+      "detail": "4,509,782 citations"
+    },
+    {
+      "name": "Wrocław University of Science and Technology",
+      "country": "PL",
+      "value": 53152,
+      "detail": "1,415,649 citations"
+    },
+    {
+      "name": "Nicolaus Copernicus University",
+      "country": "PL",
+      "value": 50932,
+      "detail": "1,343,359 citations"
+    },
+    {
+      "name": "University of Łódź",
+      "country": "PL",
+      "value": 49991,
+      "detail": "1,025,249 citations"
+    },
+    {
+      "name": "Silesian University of Technology",
+      "country": "PL",
+      "value": 44514,
+      "detail": "978,722 citations"
+    },
+    {
+      "name": "Medical University of Warsaw",
+      "country": "PL",
+      "value": 42333,
+      "detail": "1,817,883 citations"
+    },
+    {
+      "name": "Warsaw University of Life Sciences",
+      "country": "PL",
+      "value": 41127,
+      "detail": "877,774 citations"
+    },
+    {
+      "name": "University of Silesia in Katowice",
+      "country": "PL",
+      "value": 39141,
+      "detail": "934,365 citations"
+    },
+    {
+      "name": "Lodz University of Technology",
+      "country": "PL",
+      "value": 38972,
+      "detail": "954,963 citations"
+    },
+    {
+      "name": "University of Gdańsk",
+      "country": "PL",
+      "value": 36920,
+      "detail": "1,102,069 citations"
+    },
+    {
+      "name": "Maria Curie-Skłodowska University",
+      "country": "PL",
+      "value": 34195,
+      "detail": "711,556 citations"
+    },
+    {
+      "name": "Gdańsk University of Technology",
+      "country": "PL",
+      "value": 34070,
+      "detail": "1,155,293 citations"
+    },
+    {
+      "name": "University of Warmia and Mazury in Olsztyn",
+      "country": "PL",
+      "value": 33942,
+      "detail": "735,463 citations"
+    },
+    {
+      "name": "Poznan University of Medical Sciences",
+      "country": "PL",
+      "value": 33641,
+      "detail": "1,498,926 citations"
+    },
+    {
+      "name": "Medical University of Silesia",
+      "country": "PL",
+      "value": 33043,
+      "detail": "1,259,203 citations"
+    },
+    {
+      "name": "Medical University of Lodz",
+      "country": "PL",
+      "value": 33010,
+      "detail": "1,521,594 citations"
+    },
+    {
+      "name": "Poznań University of Technology",
+      "country": "PL",
+      "value": 30259,
+      "detail": "867,977 citations"
+    },
+    {
+      "name": "Medical University of Lublin",
+      "country": "PL",
+      "value": 29272,
+      "detail": "1,127,317 citations"
+    },
+    {
+      "name": "Wroclaw Medical University",
+      "country": "PL",
+      "value": 28922,
+      "detail": "1,404,477 citations"
+    },
+    {
+      "name": "Gdańsk Medical University",
+      "country": "PL",
+      "value": 28763,
+      "detail": "1,420,832 citations"
+    },
+    {
+      "name": "University of Szczecin",
+      "country": "PL",
+      "value": 25963,
+      "detail": "285,101 citations"
+    },
+    {
+      "name": "Poznań University of Life Sciences",
+      "country": "PL",
+      "value": 22544,
+      "detail": "619,986 citations"
+    },
+    {
+      "name": "University of Agriculture in Krakow",
+      "country": "PL",
+      "value": 21290,
+      "detail": "484,842 citations"
+    },
+    {
+      "name": "University of Rzeszów",
+      "country": "PL",
+      "value": 21052,
+      "detail": "358,632 citations"
+    },
+    {
+      "name": "Cracow University of Technology",
+      "country": "PL",
+      "value": 20875,
+      "detail": "423,817 citations"
+    },
+    {
+      "name": "John Paul II Catholic University of Lublin",
+      "country": "PL",
+      "value": 19677,
+      "detail": "123,655 citations"
+    },
+    {
+      "name": "Medical University of Białystok",
+      "country": "PL",
+      "value": 19082,
+      "detail": "942,136 citations"
+    },
+    {
+      "name": "Częstochowa University of Technology",
+      "country": "PL",
+      "value": 18004,
+      "detail": "270,249 citations"
+    },
+    {
+      "name": "University of Life Sciences in Lublin",
+      "country": "PL",
+      "value": 17564,
+      "detail": "427,570 citations"
+    },
+    {
+      "name": "Wrocław University of Environmental and Life Sciences",
+      "country": "PL",
+      "value": 17158,
+      "detail": "451,709 citations"
+    },
+    {
+      "name": "Wroclaw University of Economics and Business",
+      "country": "PL",
+      "value": 17135,
+      "detail": "93,075 citations"
+    },
+    {
+      "name": "West Pomeranian University of Technology in Szczecin",
+      "country": "PL",
+      "value": 16388,
+      "detail": "422,668 citations"
+    },
+    {
+      "name": "Military University of Technology in Warsaw",
+      "country": "PL",
+      "value": 16115,
+      "detail": "344,946 citations"
+    },
+    {
+      "name": "Pomeranian Medical University",
+      "country": "PL",
+      "value": 15351,
+      "detail": "973,771 citations"
+    },
+    {
+      "name": "Rzeszów University of Technology",
+      "country": "PL",
+      "value": 15117,
+      "detail": "251,277 citations"
+    },
+    {
+      "name": "Cardinal Stefan Wyszynski University in Warsaw",
+      "country": "PL",
+      "value": 15045,
+      "detail": "95,977 citations"
+    },
+    {
+      "name": "University of Zielona Góra",
+      "country": "PL",
+      "value": 15021,
+      "detail": "319,383 citations"
+    },
+    {
+      "name": "Lublin University of Technology",
+      "country": "PL",
+      "value": 14655,
+      "detail": "259,001 citations"
+    },
+    {
+      "name": "Uniwersytet Komisji Edukacji Narodowej w Krakowie",
+      "country": "PL",
+      "value": 14584,
+      "detail": "149,057 citations"
+    },
+    {
+      "name": "SGH Warsaw School of Economics",
+      "country": "PL",
+      "value": 14506,
+      "detail": "83,596 citations"
+    },
+    {
+      "name": "Bialystok University of Technology",
+      "country": "PL",
+      "value": 14206,
+      "detail": "193,796 citations"
+    },
+    {
+      "name": "University of Białystok",
+      "country": "PL",
+      "value": 13720,
+      "detail": "325,012 citations"
+    },
+    {
+      "name": "Poznań University of Economics and Business",
+      "country": "PL",
+      "value": 13289,
+      "detail": "129,372 citations"
+    },
+    {
+      "name": "Jan Kochanowski University",
+      "country": "PL",
+      "value": 13213,
+      "detail": "243,037 citations"
+    },
+    {
+      "name": "University of Opole",
+      "country": "PL",
+      "value": 12801,
+      "detail": "174,758 citations"
+    }
+  ]
+}

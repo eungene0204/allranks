@@ -1,0 +1,68 @@
+{
+  "id": "sg-airports-by-elevation",
+  "title": "Highest Airports in Singapore",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Singapore ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.546Z",
+  "items": [
+    {
+      "name": "Sembawang Air Base",
+      "country": "SG",
+      "value": 26.21,
+      "detail": "Sembawang · 86 ft above sea level"
+    },
+    {
+      "name": "Murai Airfield",
+      "country": "SG",
+      "value": 21.95,
+      "detail": "Western Water Catchment · 72 ft above sea level"
+    },
+    {
+      "name": "Paya Lebar Air Base",
+      "country": "SG",
+      "value": 19.81,
+      "detail": "Paya Lebar · 65 ft above sea level"
+    },
+    {
+      "name": "Tengah Air Base",
+      "country": "SG",
+      "value": 15.24,
+      "detail": "Western Water Catchment · 50 ft above sea level"
+    },
+    {
+      "name": "Seletar Airport",
+      "country": "SG",
+      "value": 10.97,
+      "detail": "Seletar · 36 ft above sea level"
+    },
+    {
+      "name": "Changi Air Base (East)",
+      "country": "SG",
+      "value": 6.71,
+      "detail": "Singapore · 22 ft above sea level"
+    },
+    {
+      "name": "Singapore Changi Airport",
+      "country": "SG",
+      "value": 6.71,
+      "detail": "Singapore · 22 ft above sea level"
+    }
+  ]
+}

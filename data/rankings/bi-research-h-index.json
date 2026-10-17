@@ -1,0 +1,110 @@
+{
+  "id": "bi-research-h-index",
+  "title": "Universities by Research h-index in Burundi",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:28.972Z",
+  "items": [
+    {
+      "name": "Université du Burundi",
+      "country": "BI",
+      "value": 63,
+      "detail": "2,146 works"
+    },
+    {
+      "name": "École Normale Supérieure",
+      "country": "BI",
+      "value": 33,
+      "detail": "631 works"
+    },
+    {
+      "name": "Institut National de sante publique",
+      "country": "BI",
+      "value": 23,
+      "detail": "151 works"
+    },
+    {
+      "name": "Light University of Bujumbur",
+      "country": "BI",
+      "value": 23,
+      "detail": "68 works"
+    },
+    {
+      "name": "Hope Africa University",
+      "country": "BI",
+      "value": 18,
+      "detail": "134 works"
+    },
+    {
+      "name": "University of Ngozi",
+      "country": "BI",
+      "value": 7,
+      "detail": "80 works"
+    },
+    {
+      "name": "Institut de Statistiques et d’Études Économiques du Burundi",
+      "country": "BI",
+      "value": 5,
+      "detail": "7 works"
+    },
+    {
+      "name": "Université du Lac Tanganyika",
+      "country": "BI",
+      "value": 5,
+      "detail": "25 works"
+    },
+    {
+      "name": "Université Polytechnique de Gitega",
+      "country": "BI",
+      "value": 3,
+      "detail": "5 works"
+    },
+    {
+      "name": "École Normale d'Administration",
+      "country": "BI",
+      "value": 2,
+      "detail": "13 works"
+    },
+    {
+      "name": "Université des Grands Lacs",
+      "country": "BI",
+      "value": 2,
+      "detail": "15 works"
+    },
+    {
+      "name": "Bujumbura Christian University",
+      "country": "BI",
+      "value": 1,
+      "detail": "3 works"
+    },
+    {
+      "name": "Institut Supérieur de Gestion des Entreprises",
+      "country": "BI",
+      "value": 1,
+      "detail": "1 works"
+    },
+    {
+      "name": "Université Polytechnique Intégrée",
+      "country": "BI",
+      "value": 1,
+      "detail": "3 works"
+    }
+  ]
+}

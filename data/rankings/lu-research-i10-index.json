@@ -1,0 +1,74 @@
+{
+  "id": "lu-research-i10-index",
+  "title": "Universities by Research i10-index in Luxembourg",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:06.595Z",
+  "items": [
+    {
+      "name": "University of Luxembourg",
+      "country": "LU",
+      "value": 25286,
+      "detail": "70,194 works"
+    },
+    {
+      "name": "Interdisciplinary Centre for Security, Reliability and Trust",
+      "country": "LU",
+      "value": 4632,
+      "detail": "6,047 works"
+    },
+    {
+      "name": "Luxembourg Centre for Systems Biomedicine",
+      "country": "LU",
+      "value": 4457,
+      "detail": "3,433 works"
+    },
+    {
+      "name": "LUNEX",
+      "country": "LU",
+      "value": 244,
+      "detail": "477 works"
+    },
+    {
+      "name": "Luxembourg Centre for Contemporary and Digital History",
+      "country": "LU",
+      "value": 47,
+      "detail": "2,804 works"
+    },
+    {
+      "name": "Luxembourg School of Business",
+      "country": "LU",
+      "value": 42,
+      "detail": "158 works"
+    },
+    {
+      "name": "Sacred Heart University",
+      "country": "LU",
+      "value": 20,
+      "detail": "58 works"
+    },
+    {
+      "name": "Luxembourg Centre for European Law",
+      "country": "LU",
+      "value": 6,
+      "detail": "144 works"
+    }
+  ]
+}

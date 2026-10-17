@@ -1,0 +1,326 @@
+{
+  "id": "ca-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Canada",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:33.498Z",
+  "items": [
+    {
+      "name": "Clean Technologies Research Institute",
+      "country": "CA",
+      "value": 30.8571,
+      "detail": "51 works"
+    },
+    {
+      "name": "Upper Canada College",
+      "country": "CA",
+      "value": 23.7778,
+      "detail": "70 works"
+    },
+    {
+      "name": "Cegep de Sept Iles",
+      "country": "CA",
+      "value": 18.1579,
+      "detail": "89 works"
+    },
+    {
+      "name": "Dr. Jack McKenzie Limerick Pulp & Paper Research & Education Centre",
+      "country": "CA",
+      "value": 17.8077,
+      "detail": "315 works"
+    },
+    {
+      "name": "International Business University",
+      "country": "CA",
+      "value": 14.9247,
+      "detail": "103 works"
+    },
+    {
+      "name": "Royal College of Physicians and Surgeons of Canada",
+      "country": "CA",
+      "value": 13.5106,
+      "detail": "727 works"
+    },
+    {
+      "name": "Michener Institute",
+      "country": "CA",
+      "value": 10.5155,
+      "detail": "282 works"
+    },
+    {
+      "name": "Institute for Comparative Genomics",
+      "country": "CA",
+      "value": 10.1805,
+      "detail": "121 works"
+    },
+    {
+      "name": "Hotchkiss Brain Institute",
+      "country": "CA",
+      "value": 9.5388,
+      "detail": "9,728 works"
+    },
+    {
+      "name": "Centre for Research in Sustainable Supply Chain Analytics",
+      "country": "CA",
+      "value": 9.1714,
+      "detail": "30 works"
+    },
+    {
+      "name": "Institut sur le vieillissement et la participation sociale des ainés de l’Université Laval",
+      "country": "CA",
+      "value": 8.8333,
+      "detail": "24 works"
+    },
+    {
+      "name": "Canadian Memorial Chiropractic College",
+      "country": "CA",
+      "value": 8.8198,
+      "detail": "1,551 works"
+    },
+    {
+      "name": "Lethbridge Polytechnic",
+      "country": "CA",
+      "value": 7.8302,
+      "detail": "253 works"
+    },
+    {
+      "name": "Cégep de Sorel-Tracy",
+      "country": "CA",
+      "value": 7.8,
+      "detail": "23 works"
+    },
+    {
+      "name": "Centre for Water Resources Studies",
+      "country": "CA",
+      "value": 7.6972,
+      "detail": "305 works"
+    },
+    {
+      "name": "MacEachen Institute for Public Policy and Governance",
+      "country": "CA",
+      "value": 7.5,
+      "detail": "14 works"
+    },
+    {
+      "name": "Marine Additive Manufacturing Centre of Excellence",
+      "country": "CA",
+      "value": 7.4842,
+      "detail": "263 works"
+    },
+    {
+      "name": "Canadian Centre for Vaccinology",
+      "country": "CA",
+      "value": 6.7372,
+      "detail": "769 works"
+    },
+    {
+      "name": "Programs for Assessment of Technology in Health Research Institute",
+      "country": "CA",
+      "value": 6.2963,
+      "detail": "328 works"
+    },
+    {
+      "name": "Nova Scotia Community College",
+      "country": "CA",
+      "value": 6.1556,
+      "detail": "219 works"
+    },
+    {
+      "name": "Quest University Canada",
+      "country": "CA",
+      "value": 6.1481,
+      "detail": "292 works"
+    },
+    {
+      "name": "Cégep de l'Abitibi Témiscamingue",
+      "country": "CA",
+      "value": 5.9167,
+      "detail": "70 works"
+    },
+    {
+      "name": "St. Boniface Hospital",
+      "country": "CA",
+      "value": 5.8133,
+      "detail": "5,062 works"
+    },
+    {
+      "name": "University of British Columbia, Okanagan Campus",
+      "country": "CA",
+      "value": 5.7307,
+      "detail": "16,735 works"
+    },
+    {
+      "name": "CIRAIG",
+      "country": "CA",
+      "value": 5.7149,
+      "detail": "459 works"
+    },
+    {
+      "name": "McGill University and Génome Québec Innovation Centre",
+      "country": "CA",
+      "value": 5.7097,
+      "detail": "1,398 works"
+    },
+    {
+      "name": "Lady Davis Institute for Medical Research",
+      "country": "CA",
+      "value": 5.6934,
+      "detail": "10,144 works"
+    },
+    {
+      "name": "McMaster University",
+      "country": "CA",
+      "value": 5.6519,
+      "detail": "185,880 works"
+    },
+    {
+      "name": "University of Toronto",
+      "country": "CA",
+      "value": 5.4666,
+      "detail": "580,519 works"
+    },
+    {
+      "name": "Humber Polytechnic",
+      "country": "CA",
+      "value": 5.375,
+      "detail": "889 works"
+    },
+    {
+      "name": "Centre for Transformative Nursing and Health Research",
+      "country": "CA",
+      "value": 5.3333,
+      "detail": "11 works"
+    },
+    {
+      "name": "Institut universitaire de cardiologie et de pneumologie de Québec",
+      "country": "CA",
+      "value": 5.3056,
+      "detail": "9,108 works"
+    },
+    {
+      "name": "Collège MacDonald",
+      "country": "CA",
+      "value": 5.1278,
+      "detail": "6,221 works"
+    },
+    {
+      "name": "Brescia University College",
+      "country": "CA",
+      "value": 5.0213,
+      "detail": "503 works"
+    },
+    {
+      "name": "Centre de la science de la biodiversité du Québec",
+      "country": "CA",
+      "value": 5.021,
+      "detail": "522 works"
+    },
+    {
+      "name": "Brain Repair Centre",
+      "country": "CA",
+      "value": 5,
+      "detail": "283 works"
+    },
+    {
+      "name": "Rocky Mountain College",
+      "country": "CA",
+      "value": 5,
+      "detail": "9 works"
+    },
+    {
+      "name": "Royal Roads University",
+      "country": "CA",
+      "value": 4.9168,
+      "detail": "2,045 works"
+    },
+    {
+      "name": "University of Waterloo",
+      "country": "CA",
+      "value": 4.9076,
+      "detail": "157,348 works"
+    },
+    {
+      "name": "McGill University",
+      "country": "CA",
+      "value": 4.8398,
+      "detail": "304,067 works"
+    },
+    {
+      "name": "University of the Fraser Valley",
+      "country": "CA",
+      "value": 4.7977,
+      "detail": "2,478 works"
+    },
+    {
+      "name": "University of Calgary",
+      "country": "CA",
+      "value": 4.7513,
+      "detail": "198,660 works"
+    },
+    {
+      "name": "University of Victoria",
+      "country": "CA",
+      "value": 4.7476,
+      "detail": "74,133 works"
+    },
+    {
+      "name": "University of Alberta",
+      "country": "CA",
+      "value": 4.6437,
+      "detail": "267,051 works"
+    },
+    {
+      "name": "Institut National de la Recherche Scientifique",
+      "country": "CA",
+      "value": 4.6162,
+      "detail": "25,717 works"
+    },
+    {
+      "name": "Northern Lakes College",
+      "country": "CA",
+      "value": 4.5,
+      "detail": "11 works"
+    },
+    {
+      "name": "Pacific Institute on Pathogens, Pandemics and Society",
+      "country": "CA",
+      "value": 4.4815,
+      "detail": "29 works"
+    },
+    {
+      "name": "Western University",
+      "country": "CA",
+      "value": 4.3338,
+      "detail": "174,380 works"
+    },
+    {
+      "name": "Cegep de Saint Jerome",
+      "country": "CA",
+      "value": 4.3333,
+      "detail": "91 works"
+    },
+    {
+      "name": "Vancouver Island University",
+      "country": "CA",
+      "value": 4.2707,
+      "detail": "1,921 works"
+    }
+  ]
+}

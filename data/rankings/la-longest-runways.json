@@ -1,0 +1,92 @@
+{
+  "id": "la-longest-runways",
+  "title": "Longest Airport Runways in Laos",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Laos ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.518Z",
+  "items": [
+    {
+      "name": "Wattay International Airport",
+      "country": "LA",
+      "value": 3000.15,
+      "detail": "Vientiane · 9,843 ft · ASP"
+    },
+    {
+      "name": "Bokeo International Airport",
+      "country": "LA",
+      "value": 2699.92,
+      "detail": "Ton Phueng · 8,858 ft · ASP"
+    },
+    {
+      "name": "Xieng Khouang Airport",
+      "country": "LA",
+      "value": 2607.56,
+      "detail": "Xieng Khouang · 8,555 ft · ASP"
+    },
+    {
+      "name": "Luang Phabang International Airport",
+      "country": "LA",
+      "value": 2499.97,
+      "detail": "Luang Phabang · 8,202 ft · ASP"
+    },
+    {
+      "name": "Pakse International Airport",
+      "country": "LA",
+      "value": 2400,
+      "detail": "Pakse · 7,874 ft · CON"
+    },
+    {
+      "name": "Savannakhet Airport",
+      "country": "LA",
+      "value": 1633.12,
+      "detail": "5,358 ft · CON"
+    },
+    {
+      "name": "Luang Namtha Airport",
+      "country": "LA",
+      "value": 1599.9,
+      "detail": "Luang Namtha · 5,249 ft · Asphalt"
+    },
+    {
+      "name": "Ban Huoeisay Airport",
+      "country": "LA",
+      "value": 1500.23,
+      "detail": "Huay Xai · 4,922 ft · ASP"
+    },
+    {
+      "name": "Sam Neua Airport",
+      "country": "LA",
+      "value": 1132.33,
+      "detail": "3,715 ft · ASP"
+    },
+    {
+      "name": "Phonesavanh Airport",
+      "country": "LA",
+      "value": 941.83,
+      "detail": "3,090 ft · COP"
+    },
+    {
+      "name": "Khoksa Airfield",
+      "country": "LA",
+      "value": 670.56,
+      "detail": "2,200 ft"
+    }
+  ]
+}

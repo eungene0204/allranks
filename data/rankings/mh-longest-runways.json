@@ -1,0 +1,116 @@
+{
+  "id": "mh-longest-runways",
+  "title": "Longest Airport Runways in Marshall Islands",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Marshall Islands ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.522Z",
+  "items": [
+    {
+      "name": "Marshall Islands International Airport",
+      "country": "MH",
+      "value": 2407.01,
+      "detail": "Majuro Atoll · 7,897 ft · ASP"
+    },
+    {
+      "name": "Eniwetok Airport",
+      "country": "MH",
+      "value": 2346.96,
+      "detail": "Eniwetok Atoll · 7,700 ft · ASP"
+    },
+    {
+      "name": "Bucholz Army Air Field",
+      "country": "MH",
+      "value": 2032.41,
+      "detail": "Kwajalein · 6,668 ft · ASP"
+    },
+    {
+      "name": "Jaluit Airport",
+      "country": "MH",
+      "value": 1524,
+      "detail": "Jabor Jaluit Atoll · 5,000 ft · COR"
+    },
+    {
+      "name": "Dyess Army Air Field",
+      "country": "MH",
+      "value": 1371.6,
+      "detail": "Roi-Namur · 4,500 ft · ASP"
+    },
+    {
+      "name": "Kili Airport",
+      "country": "MH",
+      "value": 1341.12,
+      "detail": "Kili Island · 4,400 ft · COR"
+    },
+    {
+      "name": "Wotje Airport",
+      "country": "MH",
+      "value": 1303.02,
+      "detail": "Wotje · 4,275 ft · Turf"
+    },
+    {
+      "name": "Maloelap Island Airport",
+      "country": "MH",
+      "value": 1066.8,
+      "detail": "Maloelap Island · 3,500 ft · Turf"
+    },
+    {
+      "name": "Mejit Atoll Airport",
+      "country": "MH",
+      "value": 914.4,
+      "detail": "Mejit Atoll · 3,000 ft · COR"
+    },
+    {
+      "name": "Namorik Airport",
+      "country": "MH",
+      "value": 883.92,
+      "detail": "Namorik Atoll · 2,900 ft · COR"
+    },
+    {
+      "name": "Mili Island Airport",
+      "country": "MH",
+      "value": 868.68,
+      "detail": "Mili Island · 2,850 ft · Turf"
+    },
+    {
+      "name": "Tinak Airport",
+      "country": "MH",
+      "value": 868.68,
+      "detail": "Arno Atoll · 2,850 ft · COR"
+    },
+    {
+      "name": "Kaben Airport",
+      "country": "MH",
+      "value": 854.05,
+      "detail": "Kaben · 2,802 ft · grass/gravel"
+    },
+    {
+      "name": "Ine Airport",
+      "country": "MH",
+      "value": 746.76,
+      "detail": "Arno Atoll · 2,450 ft · COR"
+    },
+    {
+      "name": "Utirik Airport",
+      "country": "MH",
+      "value": 731.52,
+      "detail": "Utirik Island · 2,400 ft · DIRT"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "fm-airports-by-elevation",
+  "title": "Highest Airports in Micronesia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Micronesia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.495Z",
+  "items": [
+    {
+      "name": "Yap International Airport",
+      "country": "FM",
+      "value": 27.74,
+      "detail": "Yap Island · 91 ft above sea level"
+    },
+    {
+      "name": "Chuuk International Airport",
+      "country": "FM",
+      "value": 3.35,
+      "detail": "Weno Island · 11 ft above sea level"
+    },
+    {
+      "name": "Kosrae International Airport",
+      "country": "FM",
+      "value": 3.35,
+      "detail": "Okat · 11 ft above sea level"
+    },
+    {
+      "name": "Pohnpei International Airport",
+      "country": "FM",
+      "value": 3.05,
+      "detail": "Pohnpei Island · 10 ft above sea level"
+    },
+    {
+      "name": "Ulithi Airport",
+      "country": "FM",
+      "value": 1.83,
+      "detail": "Falalop Island · 6 ft above sea level"
+    }
+  ]
+}

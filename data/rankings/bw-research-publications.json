@@ -1,0 +1,98 @@
+{
+  "id": "bw-research-publications",
+  "title": "Universities by Research Publications in Botswana",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:31.534Z",
+  "items": [
+    {
+      "name": "University of Botswana",
+      "country": "BW",
+      "value": 12872,
+      "detail": "316,679 citations"
+    },
+    {
+      "name": "Botswana International University of Science and Technology",
+      "country": "BW",
+      "value": 3819,
+      "detail": "94,800 citations"
+    },
+    {
+      "name": "Botswana University of Agriculture and Natural Resources",
+      "country": "BW",
+      "value": 980,
+      "detail": "11,793 citations"
+    },
+    {
+      "name": "Botho University",
+      "country": "BW",
+      "value": 610,
+      "detail": "7,396 citations"
+    },
+    {
+      "name": "Boitekanelo College",
+      "country": "BW",
+      "value": 257,
+      "detail": "1,924 citations"
+    },
+    {
+      "name": "Ba Isago University",
+      "country": "BW",
+      "value": 244,
+      "detail": "1,080 citations"
+    },
+    {
+      "name": "Botswana Open University",
+      "country": "BW",
+      "value": 199,
+      "detail": "1,243 citations"
+    },
+    {
+      "name": "Botswana Accountancy College",
+      "country": "BW",
+      "value": 163,
+      "detail": "779 citations"
+    },
+    {
+      "name": "New Era College",
+      "country": "BW",
+      "value": 51,
+      "detail": "136 citations"
+    },
+    {
+      "name": "Gaborone University College Of Law and Professional Studies",
+      "country": "BW",
+      "value": 37,
+      "detail": "217 citations"
+    },
+    {
+      "name": "Institute of Development Management",
+      "country": "BW",
+      "value": 37,
+      "detail": "583 citations"
+    },
+    {
+      "name": "ABM University College",
+      "country": "BW",
+      "value": 3,
+      "detail": "30 citations"
+    }
+  ]
+}

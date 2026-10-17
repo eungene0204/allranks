@@ -1,0 +1,326 @@
+{
+  "id": "uz-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Uzbekistan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "UZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:45.163Z",
+  "items": [
+    {
+      "name": "New Uzbekistan University",
+      "country": "UZ",
+      "value": 6.1447,
+      "detail": "1,984 works"
+    },
+    {
+      "name": "British Management University in Tashkent",
+      "country": "UZ",
+      "value": 4.7391,
+      "detail": "40 works"
+    },
+    {
+      "name": "Institute of Polymer Chemistry and Physics",
+      "country": "UZ",
+      "value": 3.2423,
+      "detail": "415 works"
+    },
+    {
+      "name": "Central Asian University",
+      "country": "UZ",
+      "value": 2.6814,
+      "detail": "1,221 works"
+    },
+    {
+      "name": "Institute of Genetics and Plant Experimental Biology of the Academy Sciences of Uzbekistan",
+      "country": "UZ",
+      "value": 2.3303,
+      "detail": "387 works"
+    },
+    {
+      "name": "Turin Polytechnic University",
+      "country": "UZ",
+      "value": 2.2093,
+      "detail": "1,150 works"
+    },
+    {
+      "name": "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers",
+      "country": "UZ",
+      "value": 2.0268,
+      "detail": "7,460 works"
+    },
+    {
+      "name": "University of Tashkent for Applied Sciences",
+      "country": "UZ",
+      "value": 1.9794,
+      "detail": "3,336 works"
+    },
+    {
+      "name": "Tashkent International University of Education",
+      "country": "UZ",
+      "value": 1.865,
+      "detail": "358 works"
+    },
+    {
+      "name": "Inha University in Tashkent",
+      "country": "UZ",
+      "value": 1.6941,
+      "detail": "344 works"
+    },
+    {
+      "name": "National Pedagogical University of Uzbekistan named after Nizami",
+      "country": "UZ",
+      "value": 1.677,
+      "detail": "6,556 works"
+    },
+    {
+      "name": "Ferghana Polytechnical Institute",
+      "country": "UZ",
+      "value": 1.6724,
+      "detail": "4,004 works"
+    },
+    {
+      "name": "Mamun University",
+      "country": "UZ",
+      "value": 1.5838,
+      "detail": "2,423 works"
+    },
+    {
+      "name": "Tashkent Automobile and Road Construction Institute",
+      "country": "UZ",
+      "value": 1.5,
+      "detail": "75 works"
+    },
+    {
+      "name": "Shakhrisabz State Pedagogical Institute",
+      "country": "UZ",
+      "value": 1.4001,
+      "detail": "1,405 works"
+    },
+    {
+      "name": "Urgench State University",
+      "country": "UZ",
+      "value": 1.3849,
+      "detail": "7,016 works"
+    },
+    {
+      "name": "Tashkent State Technical University named after Islam Karimov",
+      "country": "UZ",
+      "value": 1.3267,
+      "detail": "6,899 works"
+    },
+    {
+      "name": "Tashkent University of Information Technology",
+      "country": "UZ",
+      "value": 1.3193,
+      "detail": "5,876 works"
+    },
+    {
+      "name": "Buxoro tabiiy resurslarni boshqarish instituti",
+      "country": "UZ",
+      "value": 1.1569,
+      "detail": "289 works"
+    },
+    {
+      "name": "Tashkent State University of Economics",
+      "country": "UZ",
+      "value": 1.135,
+      "detail": "13,485 works"
+    },
+    {
+      "name": "Westminster International University in Tashkent",
+      "country": "UZ",
+      "value": 1.1289,
+      "detail": "1,261 works"
+    },
+    {
+      "name": "Samarkand State University named after Sharof Rashidov",
+      "country": "UZ",
+      "value": 1.0172,
+      "detail": "9,482 works"
+    },
+    {
+      "name": "National University of Uzbekistan",
+      "country": "UZ",
+      "value": 0.929,
+      "detail": "16,073 works"
+    },
+    {
+      "name": "Alfraganus University",
+      "country": "UZ",
+      "value": 0.8382,
+      "detail": "2,534 works"
+    },
+    {
+      "name": "Tashkent Chemical-Technological Institute",
+      "country": "UZ",
+      "value": 0.8011,
+      "detail": "2,757 works"
+    },
+    {
+      "name": "Buxoro davlat pedagogika instituti",
+      "country": "UZ",
+      "value": 0.7564,
+      "detail": "1,877 works"
+    },
+    {
+      "name": "\"Silk Road\" International University of Tourism and Cultural Heritage",
+      "country": "UZ",
+      "value": 0.7255,
+      "detail": "479 works"
+    },
+    {
+      "name": "Tashkent Financial Institute",
+      "country": "UZ",
+      "value": 0.7047,
+      "detail": "1,941 works"
+    },
+    {
+      "name": "Tashkent State Agrarian University",
+      "country": "UZ",
+      "value": 0.7026,
+      "detail": "3,738 works"
+    },
+    {
+      "name": "Tashkent State University of Law",
+      "country": "UZ",
+      "value": 0.6971,
+      "detail": "5,377 works"
+    },
+    {
+      "name": "Tashkent Pharmaceutical Institute",
+      "country": "UZ",
+      "value": 0.6851,
+      "detail": "924 works"
+    },
+    {
+      "name": "Navoi State University of Mining and Technologies",
+      "country": "UZ",
+      "value": 0.6653,
+      "detail": "1,859 works"
+    },
+    {
+      "name": "Buxoro muhandislik-texnologiya instituti",
+      "country": "UZ",
+      "value": 0.6319,
+      "detail": "1,359 works"
+    },
+    {
+      "name": "Tashkent State Transport University",
+      "country": "UZ",
+      "value": 0.6202,
+      "detail": "5,818 works"
+    },
+    {
+      "name": "Andijan Machine-building Institute",
+      "country": "UZ",
+      "value": 0.609,
+      "detail": "1,029 works"
+    },
+    {
+      "name": "Namangan Institute of Engineering and Technology",
+      "country": "UZ",
+      "value": 0.5773,
+      "detail": "2,084 works"
+    },
+    {
+      "name": "Andijan State University",
+      "country": "UZ",
+      "value": 0.5728,
+      "detail": "4,121 works"
+    },
+    {
+      "name": "Karshi State Technical University",
+      "country": "UZ",
+      "value": 0.5415,
+      "detail": "3,574 works"
+    },
+    {
+      "name": "Bukhara State University",
+      "country": "UZ",
+      "value": 0.4854,
+      "detail": "9,347 works"
+    },
+    {
+      "name": "Institute of Pharmaceutical Education and Research",
+      "country": "UZ",
+      "value": 0.4663,
+      "detail": "152 works"
+    },
+    {
+      "name": "Tashkent International University",
+      "country": "UZ",
+      "value": 0.4415,
+      "detail": "354 works"
+    },
+    {
+      "name": "Jizzakh Polytechnic Institute",
+      "country": "UZ",
+      "value": 0.4209,
+      "detail": "2,203 works"
+    },
+    {
+      "name": "Turan International University",
+      "country": "UZ",
+      "value": 0.4111,
+      "detail": "594 works"
+    },
+    {
+      "name": "Tashkent Institute of Textile and Light Industry",
+      "country": "UZ",
+      "value": 0.3963,
+      "detail": "1,594 works"
+    },
+    {
+      "name": "Tashkent Medical Academy",
+      "country": "UZ",
+      "value": 0.385,
+      "detail": "5,980 works"
+    },
+    {
+      "name": "Karakalpak State University",
+      "country": "UZ",
+      "value": 0.3807,
+      "detail": "4,116 works"
+    },
+    {
+      "name": "International Institute of Food Technology and Engineering",
+      "country": "UZ",
+      "value": 0.3714,
+      "detail": "91 works"
+    },
+    {
+      "name": "International Islamic Academy of Uzbekistan",
+      "country": "UZ",
+      "value": 0.3495,
+      "detail": "1,667 works"
+    },
+    {
+      "name": "Karshi State University",
+      "country": "UZ",
+      "value": 0.3417,
+      "detail": "5,429 works"
+    },
+    {
+      "name": "Uzbek State University of Physical Culture and Sport",
+      "country": "UZ",
+      "value": 0.303,
+      "detail": "1,016 works"
+    }
+  ]
+}

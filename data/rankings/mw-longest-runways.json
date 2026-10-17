@@ -1,0 +1,86 @@
+{
+  "id": "mw-longest-runways",
+  "title": "Longest Airport Runways in Malawi",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Malawi ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.526Z",
+  "items": [
+    {
+      "name": "Kamuzu International Airport",
+      "country": "MW",
+      "value": 3539.95,
+      "detail": "Lumbadzi · 11,614 ft · ASP"
+    },
+    {
+      "name": "Chileka International Airport",
+      "country": "MW",
+      "value": 2325.01,
+      "detail": "Blantyre · 7,628 ft · ASP"
+    },
+    {
+      "name": "Old Lilongwe Airport",
+      "country": "MW",
+      "value": 1360.02,
+      "detail": "Lilongwe · 4,462 ft · ASP"
+    },
+    {
+      "name": "Mzuzu Airport",
+      "country": "MW",
+      "value": 1307.9,
+      "detail": "Mzuzu · 4,291 ft · BIT"
+    },
+    {
+      "name": "Karonga Airport",
+      "country": "MW",
+      "value": 1280.16,
+      "detail": "Karonga · 4,200 ft · ASP"
+    },
+    {
+      "name": "Nchalo Sucoma Airport",
+      "country": "MW",
+      "value": 1249.68,
+      "detail": "Nchalo · 4,100 ft · Asphalt"
+    },
+    {
+      "name": "Zomba Airport",
+      "country": "MW",
+      "value": 1249.68,
+      "detail": "Zomba · 4,100 ft · ASP"
+    },
+    {
+      "name": "Dwangwa Airport",
+      "country": "MW",
+      "value": 1213.1,
+      "detail": "Dwangwa · 3,980 ft"
+    },
+    {
+      "name": "Kasungu Airport",
+      "country": "MW",
+      "value": 1200,
+      "detail": "Kasungu · 3,937 ft · ASP"
+    },
+    {
+      "name": "Club Makokola Airport",
+      "country": "MW",
+      "value": 1158.24,
+      "detail": "Club Makokola · 3,800 ft"
+    }
+  ]
+}

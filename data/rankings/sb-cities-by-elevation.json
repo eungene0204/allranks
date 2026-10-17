@@ -1,0 +1,68 @@
+{
+  "id": "sb-cities-by-elevation",
+  "title": "Highest Major Cities in Solomon Islands",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Solomon Islands with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.561Z",
+  "items": [
+    {
+      "name": "Vura",
+      "country": "SB",
+      "value": 114,
+      "detail": "18,753 people · Honiara"
+    },
+    {
+      "name": "Tandai",
+      "country": "SB",
+      "value": 65,
+      "detail": "24,592 people · Guadalcanal Province"
+    },
+    {
+      "name": "Honiara",
+      "country": "SB",
+      "value": 49,
+      "detail": "56,298 people · Honiara"
+    },
+    {
+      "name": "Kola'a",
+      "country": "SB",
+      "value": 45,
+      "detail": "20,783 people · Honiara"
+    },
+    {
+      "name": "Nggosi",
+      "country": "SB",
+      "value": 27,
+      "detail": "26,009 people · Guadalcanal Province"
+    },
+    {
+      "name": "Panatina",
+      "country": "SB",
+      "value": 15,
+      "detail": "32,712 people · Honiara"
+    },
+    {
+      "name": "Malango",
+      "country": "SB",
+      "value": 1,
+      "detail": "15,560 people · Guadalcanal Province"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "py-longest-runways",
+  "title": "Longest Airport Runways in Paraguay",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Paraguay ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.540Z",
+  "items": [
+    {
+      "name": "Dr. Luis María Argaña International Airport",
+      "country": "PY",
+      "value": 3500.02,
+      "detail": "Mariscal Estigarribia · 11,483 ft · CON"
+    },
+    {
+      "name": "Guaraní International Airport",
+      "country": "PY",
+      "value": 3399.74,
+      "detail": "Ciudad del Este · 11,154 ft · ASP"
+    },
+    {
+      "name": "Silvio Pettirossi International Airport",
+      "country": "PY",
+      "value": 3351.89,
+      "detail": "Asunción · 10,997 ft · ASP"
+    },
+    {
+      "name": "Teniente Ramon A. Ayub Gonzalez International Airport",
+      "country": "PY",
+      "value": 2200.05,
+      "detail": "Encarnación · 7,218 ft · ASP"
+    },
+    {
+      "name": "Juan de Ayolas National Airport",
+      "country": "PY",
+      "value": 1850.14,
+      "detail": "Ayolas · 6,070 ft · ASP"
+    },
+    {
+      "name": "Lieutenant Colonel Carmelo Peralta National Airport",
+      "country": "PY",
+      "value": 1850.14,
+      "detail": "Concepción · 6,070 ft · ASP"
+    },
+    {
+      "name": "Dr. Augusto Roberto Fuster International Airport",
+      "country": "PY",
+      "value": 1800.76,
+      "detail": "Pedro Juan Caballero · 5,908 ft · ASP"
+    },
+    {
+      "name": "Santa Teresa Airport",
+      "country": "PY",
+      "value": 1796.8,
+      "detail": "Santa Teresa · 5,895 ft · ASP"
+    },
+    {
+      "name": "Itaipú Airport",
+      "country": "PY",
+      "value": 1520.04,
+      "detail": "Itaipú · 4,987 ft · ASP"
+    },
+    {
+      "name": "Don Carlos Miguel Gimenez Airport",
+      "country": "PY",
+      "value": 1499.62,
+      "detail": "Pilar · 4,920 ft · CON"
+    },
+    {
+      "name": "Estancia Pai Quara Airport",
+      "country": "PY",
+      "value": 1449.93,
+      "detail": "Estancia Pai Quara · 4,757 ft · ASP"
+    },
+    {
+      "name": "Doctor Juan Plate National Airport",
+      "country": "PY",
+      "value": 1205.48,
+      "detail": "Puerto Vallemi · 3,955 ft · CON"
+    },
+    {
+      "name": "Fuerte Olimpo Airport",
+      "country": "PY",
+      "value": 1000.05,
+      "detail": "Fuerte Olimpo · 3,281 ft · CON"
+    }
+  ]
+}

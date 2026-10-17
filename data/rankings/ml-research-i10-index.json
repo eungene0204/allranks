@@ -1,0 +1,68 @@
+{
+  "id": "ml-research-i10-index",
+  "title": "Universities by Research i10-index in Mali",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:11.185Z",
+  "items": [
+    {
+      "name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+      "country": "ML",
+      "value": 3509,
+      "detail": "3,998 works"
+    },
+    {
+      "name": "University of Bamako",
+      "country": "ML",
+      "value": 2600,
+      "detail": "2,376 works"
+    },
+    {
+      "name": "Institut Polytechnique Rural de Formation et de Recherche Appliquée",
+      "country": "ML",
+      "value": 85,
+      "detail": "390 works"
+    },
+    {
+      "name": "Ecole Nationale d’Ingénieurs – Abderhamane Baba Touré",
+      "country": "ML",
+      "value": 53,
+      "detail": "135 works"
+    },
+    {
+      "name": "Université des Lettres et des Sciences Humaines de Bamako",
+      "country": "ML",
+      "value": 7,
+      "detail": "205 works"
+    },
+    {
+      "name": "Centre d'Intelligence Artificielle et de Robotique du Mali",
+      "country": "ML",
+      "value": 3,
+      "detail": "13 works"
+    },
+    {
+      "name": "Université des Sciences Juridiques et Politiques de Bamako",
+      "country": "ML",
+      "value": 2,
+      "detail": "93 works"
+    }
+  ]
+}

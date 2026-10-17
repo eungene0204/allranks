@@ -1,0 +1,116 @@
+{
+  "id": "lv-cities-by-elevation",
+  "title": "Highest Major Cities in Latvia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Latvia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.548Z",
+  "items": [
+    {
+      "name": "Rēzekne",
+      "country": "LV",
+      "value": 156,
+      "detail": "26,429 people · Rēzekne"
+    },
+    {
+      "name": "Daugavpils",
+      "country": "LV",
+      "value": 103,
+      "detail": "78,126 people · Daugavpils"
+    },
+    {
+      "name": "Cēsis",
+      "country": "LV",
+      "value": 102,
+      "detail": "15,020 people · Cēsis Municipality"
+    },
+    {
+      "name": "Jēkabpils",
+      "country": "LV",
+      "value": 83,
+      "detail": "21,014 people · Jēkabpils Municipality"
+    },
+    {
+      "name": "Tukums",
+      "country": "LV",
+      "value": 62,
+      "detail": "16,182 people · Tukums Municipality"
+    },
+    {
+      "name": "Valmiera",
+      "country": "LV",
+      "value": 43,
+      "detail": "22,812 people · Valmiera"
+    },
+    {
+      "name": "Ogre",
+      "country": "LV",
+      "value": 21,
+      "detail": "22,767 people · Ogre"
+    },
+    {
+      "name": "Salaspils",
+      "country": "LV",
+      "value": 21,
+      "detail": "17,826 people · Salaspils Municipality"
+    },
+    {
+      "name": "Mārupe",
+      "country": "LV",
+      "value": 11,
+      "detail": "19,096 people · Mārupe"
+    },
+    {
+      "name": "Ventspils",
+      "country": "LV",
+      "value": 9,
+      "detail": "32,723 people · Ventspils"
+    },
+    {
+      "name": "Jūrmala",
+      "country": "LV",
+      "value": 6,
+      "detail": "52,001 people · Jūrmala"
+    },
+    {
+      "name": "Liepāja",
+      "country": "LV",
+      "value": 6,
+      "detail": "67,421 people · Liepaja"
+    },
+    {
+      "name": "Riga",
+      "country": "LV",
+      "value": 6,
+      "detail": "742,572 people · Riga"
+    },
+    {
+      "name": "Dārzciems",
+      "country": "LV",
+      "value": 5,
+      "detail": "17,599 people · Riga"
+    },
+    {
+      "name": "Jelgava",
+      "country": "LV",
+      "value": 5,
+      "detail": "54,834 people · Jelgava"
+    }
+  ]
+}

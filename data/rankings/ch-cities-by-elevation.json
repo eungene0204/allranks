@@ -1,0 +1,326 @@
+{
+  "id": "ch-cities-by-elevation",
+  "title": "Highest Major Cities in Switzerland",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Switzerland with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.517Z",
+  "items": [
+    {
+      "name": "La Chaux-de-Fonds",
+      "country": "CH",
+      "value": 995,
+      "detail": "37,942 people · Neuchâtel"
+    },
+    {
+      "name": "Einsiedeln",
+      "country": "CH",
+      "value": 887,
+      "detail": "15,867 people · Schwyz"
+    },
+    {
+      "name": "Herisau",
+      "country": "CH",
+      "value": 780,
+      "detail": "15,744 people · Appenzell Ausserrhoden"
+    },
+    {
+      "name": "Bulle",
+      "country": "CH",
+      "value": 771,
+      "detail": "23,438 people · Fribourg"
+    },
+    {
+      "name": "Sankt Gallen",
+      "country": "CH",
+      "value": 684,
+      "detail": "75,833 people · Saint Gallen"
+    },
+    {
+      "name": "Zürich (Kreis 7)",
+      "country": "CH",
+      "value": 656,
+      "detail": "33,820 people · Zurich"
+    },
+    {
+      "name": "Gossau",
+      "country": "CH",
+      "value": 637,
+      "detail": "17,043 people · Saint Gallen"
+    },
+    {
+      "name": "Fribourg",
+      "country": "CH",
+      "value": 627,
+      "detail": "38,365 people · Fribourg"
+    },
+    {
+      "name": "Chur",
+      "country": "CH",
+      "value": 601,
+      "detail": "35,373 people · Grisons"
+    },
+    {
+      "name": "Steffisburg",
+      "country": "CH",
+      "value": 584,
+      "detail": "15,709 people · Bern"
+    },
+    {
+      "name": "Köniz",
+      "country": "CH",
+      "value": 577,
+      "detail": "41,784 people · Bern"
+    },
+    {
+      "name": "Wil",
+      "country": "CH",
+      "value": 569,
+      "detail": "23,955 people · Saint Gallen"
+    },
+    {
+      "name": "Thun",
+      "country": "CH",
+      "value": 565,
+      "detail": "43,723 people · Bern"
+    },
+    {
+      "name": "Bern",
+      "country": "CH",
+      "value": 549,
+      "detail": "121,631 people · Bern"
+    },
+    {
+      "name": "Wetzikon",
+      "country": "CH",
+      "value": 539,
+      "detail": "24,764 people · Zurich"
+    },
+    {
+      "name": "Burgdorf",
+      "country": "CH",
+      "value": 535,
+      "detail": "16,420 people · Bern"
+    },
+    {
+      "name": "Sierre",
+      "country": "CH",
+      "value": 528,
+      "detail": "16,790 people · Valais"
+    },
+    {
+      "name": "Schwyz",
+      "country": "CH",
+      "value": 521,
+      "detail": "15,181 people · Schwyz"
+    },
+    {
+      "name": "Zürich (Kreis 10)",
+      "country": "CH",
+      "value": 516,
+      "detail": "36,216 people · Zurich"
+    },
+    {
+      "name": "Littau",
+      "country": "CH",
+      "value": 509,
+      "detail": "16,121 people · Lucerne"
+    },
+    {
+      "name": "Zürich (Kreis 3)",
+      "country": "CH",
+      "value": 507,
+      "detail": "46,018 people · Zurich"
+    },
+    {
+      "name": "Sitten",
+      "country": "CH",
+      "value": 487,
+      "detail": "34,708 people · Valais"
+    },
+    {
+      "name": "Zürich (Kreis 6)",
+      "country": "CH",
+      "value": 487,
+      "detail": "29,951 people · Zurich"
+    },
+    {
+      "name": "Seen (Kreis 3)",
+      "country": "CH",
+      "value": 478,
+      "detail": "15,434 people · Zurich"
+    },
+    {
+      "name": "Kriens",
+      "country": "CH",
+      "value": 476,
+      "detail": "25,010 people · Lucerne"
+    },
+    {
+      "name": "Zürich (Kreis 6) / Unterstrass",
+      "country": "CH",
+      "value": 476,
+      "detail": "20,045 people · Zurich"
+    },
+    {
+      "name": "Martigny-Ville",
+      "country": "CH",
+      "value": 475,
+      "detail": "18,301 people · Valais"
+    },
+    {
+      "name": "Uster",
+      "country": "CH",
+      "value": 469,
+      "detail": "34,715 people · Zurich"
+    },
+    {
+      "name": "Zürich (Kreis 10) / Höngg",
+      "country": "CH",
+      "value": 468,
+      "detail": "17,117 people · Zurich"
+    },
+    {
+      "name": "Zürich (Kreis 11) / Affoltern",
+      "country": "CH",
+      "value": 466,
+      "detail": "17,241 people · Zurich"
+    },
+    {
+      "name": "Emmen",
+      "country": "CH",
+      "value": 464,
+      "detail": "30,926 people · Lucerne"
+    },
+    {
+      "name": "Zürich (Kreis 11) / Oerlikon",
+      "country": "CH",
+      "value": 459,
+      "detail": "17,922 people · Zurich"
+    },
+    {
+      "name": "Oberwinterthur (Kreis 2)",
+      "country": "CH",
+      "value": 455,
+      "detail": "16,356 people · Zurich"
+    },
+    {
+      "name": "Grenchen",
+      "country": "CH",
+      "value": 454,
+      "detail": "15,927 people · Solothurn"
+    },
+    {
+      "name": "Lausanne",
+      "country": "CH",
+      "value": 453,
+      "detail": "139,111 people · Vaud"
+    },
+    {
+      "name": "Adliswil",
+      "country": "CH",
+      "value": 450,
+      "detail": "15,230 people · Zurich"
+    },
+    {
+      "name": "Baar",
+      "country": "CH",
+      "value": 447,
+      "detail": "20,546 people · Zug"
+    },
+    {
+      "name": "Zürich (Kreis 2) / Wollishofen",
+      "country": "CH",
+      "value": 447,
+      "detail": "16,073 people · Zurich"
+    },
+    {
+      "name": "Meyrin",
+      "country": "CH",
+      "value": 445,
+      "detail": "19,772 people · Geneva"
+    },
+    {
+      "name": "Zürich (Kreis 11)",
+      "country": "CH",
+      "value": 445,
+      "detail": "54,260 people · Zurich"
+    },
+    {
+      "name": "Neuchâtel",
+      "country": "CH",
+      "value": 441,
+      "detail": "33,475 people · Neuchâtel"
+    },
+    {
+      "name": "Renens",
+      "country": "CH",
+      "value": 441,
+      "detail": "20,927 people · Vaud"
+    },
+    {
+      "name": "Winterthur",
+      "country": "CH",
+      "value": 441,
+      "detail": "111,840 people · Zurich"
+    },
+    {
+      "name": "Solothurn",
+      "country": "CH",
+      "value": 440,
+      "detail": "16,777 people · Solothurn"
+    },
+    {
+      "name": "Vernier",
+      "country": "CH",
+      "value": 440,
+      "detail": "30,086 people · Geneva"
+    },
+    {
+      "name": "Biel/Bienne",
+      "country": "CH",
+      "value": 439,
+      "detail": "55,120 people · Bern"
+    },
+    {
+      "name": "Kloten",
+      "country": "CH",
+      "value": 439,
+      "detail": "16,289 people · Zurich"
+    },
+    {
+      "name": "Stadt Winterthur (Kreis 1)",
+      "country": "CH",
+      "value": 439,
+      "detail": "16,182 people · Zurich"
+    },
+    {
+      "name": "Zürich (Kreis 2)",
+      "country": "CH",
+      "value": 439,
+      "detail": "29,215 people · Zurich"
+    },
+    {
+      "name": "Yverdon-les-Bains",
+      "country": "CH",
+      "value": 438,
+      "detail": "30,157 people · Vaud"
+    }
+  ]
+}

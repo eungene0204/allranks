@@ -1,0 +1,68 @@
+{
+  "id": "tg-airports-by-elevation",
+  "title": "Highest Airports in Togo",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Togo ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.550Z",
+  "items": [
+    {
+      "name": "Niamtougou International Airport",
+      "country": "TG",
+      "value": 461.77,
+      "detail": "Niamtougou · 1,515 ft above sea level"
+    },
+    {
+      "name": "Sokodé Airport",
+      "country": "TG",
+      "value": 370.03,
+      "detail": "Sokodé · 1,214 ft above sea level"
+    },
+    {
+      "name": "Djangou Airport",
+      "country": "TG",
+      "value": 270.05,
+      "detail": "Dapaong · 886 ft above sea level"
+    },
+    {
+      "name": "Akpaka Airport",
+      "country": "TG",
+      "value": 210.01,
+      "detail": "Atakpamé · 689 ft above sea level"
+    },
+    {
+      "name": "Kolokope Airport",
+      "country": "TG",
+      "value": 180.14,
+      "detail": "Anié · 591 ft above sea level"
+    },
+    {
+      "name": "Sansanné-Mango Airport",
+      "country": "TG",
+      "value": 140.21,
+      "detail": "Mango · 460 ft above sea level"
+    },
+    {
+      "name": "Lomé–Tokoin International Airport",
+      "country": "TG",
+      "value": 21.95,
+      "detail": "Lomé · 72 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "sd-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Sudan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:31.122Z",
+  "items": [
+    {
+      "name": "Sudan Childhood Diabetes Association",
+      "country": "SD",
+      "value": 7.1,
+      "detail": "22 works"
+    },
+    {
+      "name": "University of Khartoum",
+      "country": "SD",
+      "value": 4.6805,
+      "detail": "15,682 works"
+    },
+    {
+      "name": "International University of Africa",
+      "country": "SD",
+      "value": 4.0037,
+      "detail": "1,070 works"
+    },
+    {
+      "name": "Al Fashir University",
+      "country": "SD",
+      "value": 3.5,
+      "detail": "250 works"
+    },
+    {
+      "name": "AlMughtaribeen University",
+      "country": "SD",
+      "value": 3.0106,
+      "detail": "180 works"
+    },
+    {
+      "name": "University of Zalingei",
+      "country": "SD",
+      "value": 2.7568,
+      "detail": "200 works"
+    },
+    {
+      "name": "University of Nyala",
+      "country": "SD",
+      "value": 2.5257,
+      "detail": "817 works"
+    },
+    {
+      "name": "Red Sea University",
+      "country": "SD",
+      "value": 2.5146,
+      "detail": "645 works"
+    },
+    {
+      "name": "National University",
+      "country": "SD",
+      "value": 2.4588,
+      "detail": "621 works"
+    },
+    {
+      "name": "University of El Imam El Mahdi",
+      "country": "SD",
+      "value": 2.3255,
+      "detail": "457 works"
+    },
+    {
+      "name": "University of Bakhtalruda",
+      "country": "SD",
+      "value": 2.2901,
+      "detail": "315 works"
+    },
+    {
+      "name": "University of Garden City",
+      "country": "SD",
+      "value": 2.25,
+      "detail": "46 works"
+    },
+    {
+      "name": "University of Gezira",
+      "country": "SD",
+      "value": 2.222,
+      "detail": "3,778 works"
+    },
+    {
+      "name": "Omdurman Islamic University",
+      "country": "SD",
+      "value": 2.0409,
+      "detail": "2,872 works"
+    },
+    {
+      "name": "Alzaiem Alazhari University",
+      "country": "SD",
+      "value": 2.0277,
+      "detail": "1,494 works"
+    },
+    {
+      "name": "The Future University",
+      "country": "SD",
+      "value": 1.9934,
+      "detail": "372 works"
+    },
+    {
+      "name": "University of Bahri",
+      "country": "SD",
+      "value": 1.9466,
+      "detail": "1,604 works"
+    },
+    {
+      "name": "Wad Medani Ahlia University",
+      "country": "SD",
+      "value": 1.9375,
+      "detail": "71 works"
+    },
+    {
+      "name": "Ahfad University for Women",
+      "country": "SD",
+      "value": 1.9101,
+      "detail": "842 works"
+    },
+    {
+      "name": "Zamzam University College",
+      "country": "SD",
+      "value": 1.8395,
+      "detail": "117 works"
+    },
+    {
+      "name": "Sudan University of Science and Technology",
+      "country": "SD",
+      "value": 1.837,
+      "detail": "4,901 works"
+    },
+    {
+      "name": "Open University of Sudan",
+      "country": "SD",
+      "value": 1.7941,
+      "detail": "99 works"
+    },
+    {
+      "name": "Karary University",
+      "country": "SD",
+      "value": 1.7818,
+      "detail": "835 works"
+    },
+    {
+      "name": "Gadarif University",
+      "country": "SD",
+      "value": 1.5933,
+      "detail": "578 works"
+    },
+    {
+      "name": "Blue Nile University",
+      "country": "SD",
+      "value": 1.5783,
+      "detail": "183 works"
+    },
+    {
+      "name": "Kassala University",
+      "country": "SD",
+      "value": 1.5718,
+      "detail": "706 works"
+    },
+    {
+      "name": "University of Medical Sciences and Technology",
+      "country": "SD",
+      "value": 1.5595,
+      "detail": "1,077 works"
+    },
+    {
+      "name": "University of Science and Technology Omdurman",
+      "country": "SD",
+      "value": 1.5543,
+      "detail": "368 works"
+    },
+    {
+      "name": "University of Kordofan",
+      "country": "SD",
+      "value": 1.5344,
+      "detail": "1,037 works"
+    },
+    {
+      "name": "West Kordofan University",
+      "country": "SD",
+      "value": 1.5263,
+      "detail": "210 works"
+    },
+    {
+      "name": "National Ribat University",
+      "country": "SD",
+      "value": 1.5109,
+      "detail": "1,151 works"
+    },
+    {
+      "name": "Nile Valley University",
+      "country": "SD",
+      "value": 1.4977,
+      "detail": "542 works"
+    },
+    {
+      "name": "Nahda College",
+      "country": "SD",
+      "value": 1.4737,
+      "detail": "94 works"
+    },
+    {
+      "name": "Al-Neelain University",
+      "country": "SD",
+      "value": 1.4664,
+      "detail": "3,687 works"
+    },
+    {
+      "name": "University of Dongola",
+      "country": "SD",
+      "value": 1.4167,
+      "detail": "271 works"
+    },
+    {
+      "name": "Sudan International University",
+      "country": "SD",
+      "value": 1.247,
+      "detail": "292 works"
+    },
+    {
+      "name": "Omdurman Ahlia University",
+      "country": "SD",
+      "value": 1.1412,
+      "detail": "219 works"
+    },
+    {
+      "name": "Sudan Medical Specialization Board",
+      "country": "SD",
+      "value": 1.1091,
+      "detail": "623 works"
+    },
+    {
+      "name": "University of Technology",
+      "country": "SD",
+      "value": 0.8361,
+      "detail": "462 works"
+    },
+    {
+      "name": "Sinnar University",
+      "country": "SD",
+      "value": 0.8128,
+      "detail": "358 works"
+    },
+    {
+      "name": "Shendi University",
+      "country": "SD",
+      "value": 0.8057,
+      "detail": "682 works"
+    },
+    {
+      "name": "Sudan Academy of Sciences",
+      "country": "SD",
+      "value": 0.6176,
+      "detail": "162 works"
+    },
+    {
+      "name": "Dalanj University",
+      "country": "SD",
+      "value": 0.5472,
+      "detail": "109 works"
+    },
+    {
+      "name": "University of the Holy Quran and Taseel of Sciences",
+      "country": "SD",
+      "value": 0.5,
+      "detail": "83 works"
+    },
+    {
+      "name": "White Nile University",
+      "country": "SD",
+      "value": 0.4909,
+      "detail": "154 works"
+    },
+    {
+      "name": "Elsheikh Abdallah Elbadri University",
+      "country": "SD",
+      "value": 0.4638,
+      "detail": "180 works"
+    },
+    {
+      "name": "Bayan University",
+      "country": "SD",
+      "value": 0.4167,
+      "detail": "139 works"
+    },
+    {
+      "name": "University of the Holy Quran and Islamic Sciences",
+      "country": "SD",
+      "value": 0.2632,
+      "detail": "363 works"
+    },
+    {
+      "name": "Sudan Academy for Banking and Financial Sciences",
+      "country": "SD",
+      "value": 0.25,
+      "detail": "48 works"
+    },
+    {
+      "name": "University of Al-Butana",
+      "country": "SD",
+      "value": 0.2182,
+      "detail": "208 works"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "td-research-h-index",
+  "title": "Universities by Research h-index in Chad",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:37.301Z",
+  "items": [
+    {
+      "name": "University of N'Djamena",
+      "country": "TD",
+      "value": 57,
+      "detail": "2,229 works"
+    },
+    {
+      "name": "Institut National Supérieur des Sciences et Techniques d'Abéché",
+      "country": "TD",
+      "value": 19,
+      "detail": "313 works"
+    },
+    {
+      "name": "Université Adam Barka d'Abéché",
+      "country": "TD",
+      "value": 15,
+      "detail": "252 works"
+    },
+    {
+      "name": "Université de Moundou",
+      "country": "TD",
+      "value": 15,
+      "detail": "183 works"
+    },
+    {
+      "name": "Université de Sarh",
+      "country": "TD",
+      "value": 12,
+      "detail": "182 works"
+    },
+    {
+      "name": "Institut Universitaire Polytechnique de Mongo",
+      "country": "TD",
+      "value": 10,
+      "detail": "125 works"
+    },
+    {
+      "name": "Université des Sciences et de Technologie d'Ati",
+      "country": "TD",
+      "value": 7,
+      "detail": "52 works"
+    },
+    {
+      "name": "Université Saint Charles Lwanga",
+      "country": "TD",
+      "value": 2,
+      "detail": "7 works"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "mv-longest-runways",
+  "title": "Longest Airport Runways in Maldives",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Maldives ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MV",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.525Z",
+  "items": [
+    {
+      "name": "Gan International Airport",
+      "country": "MV",
+      "value": 3657.6,
+      "detail": "Gan · 12,000 ft · CON"
+    },
+    {
+      "name": "Velana International Airport",
+      "country": "MV",
+      "value": 3400.04,
+      "detail": "Malé · 11,155 ft · ASP"
+    },
+    {
+      "name": "Maafaru International Airport",
+      "country": "MV",
+      "value": 2849.88,
+      "detail": "Noonu Atoll · 9,350 ft · Asphalt"
+    },
+    {
+      "name": "Hanimaadhoo International Airport",
+      "country": "MV",
+      "value": 2464.92,
+      "detail": "Haa Dhaalu Atoll · 8,087 ft · ASP"
+    },
+    {
+      "name": "Dhaalu Atoll Airport",
+      "country": "MV",
+      "value": 1858.98,
+      "detail": "Kudahuvadhoo · 6,099 ft · ASP"
+    },
+    {
+      "name": "Kooddoo Airport",
+      "country": "MV",
+      "value": 1799.84,
+      "detail": "Huvadhu Atoll · 5,905 ft"
+    },
+    {
+      "name": "Villa International Airport Maamigili",
+      "country": "MV",
+      "value": 1799.84,
+      "detail": "Maamigili · 5,905 ft · ASP"
+    },
+    {
+      "name": "Kaadedhdhoo Airport",
+      "country": "MV",
+      "value": 1220.11,
+      "detail": "Huvadhu Atoll · 4,003 ft · BIT"
+    },
+    {
+      "name": "Kadhdhoo Airport",
+      "country": "MV",
+      "value": 1220.11,
+      "detail": "Kadhdhoo · 4,003 ft · BIT"
+    },
+    {
+      "name": "Muli Airport",
+      "country": "MV",
+      "value": 1200,
+      "detail": "Muli · 3,937 ft · ASP"
+    },
+    {
+      "name": "Dharavandhoo Airport",
+      "country": "MV",
+      "value": 1189.02,
+      "detail": "Baa Atoll · 3,901 ft · ASP"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "gq-cities-by-elevation",
+  "title": "Highest Major Cities in Equatorial Guinea",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Equatorial Guinea with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GQ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.534Z",
+  "items": [
+    {
+      "name": "Aconibe",
+      "country": "GQ",
+      "value": 683,
+      "detail": "16,543 people · Wele-Nzas"
+    },
+    {
+      "name": "Ciudad de la Paz",
+      "country": "GQ",
+      "value": 646,
+      "detail": "2,000 people · Djibloho"
+    },
+    {
+      "name": "Añisoc",
+      "country": "GQ",
+      "value": 456,
+      "detail": "16,626 people · Wele-Nzas"
+    },
+    {
+      "name": "Ebebiyin",
+      "country": "GQ",
+      "value": 392,
+      "detail": "24,831 people · Kié-Ntem"
+    },
+    {
+      "name": "Malabo",
+      "country": "GQ",
+      "value": 34,
+      "detail": "155,963 people · Bioko Norte"
+    },
+    {
+      "name": "Bata",
+      "country": "GQ",
+      "value": 13,
+      "detail": "173,046 people · Litoral"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "gr-region-gdp-per-capita",
+  "title": "Greek Regions by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Gross domestic product per resident, in euros.",
+  "unit": "EUR per person",
+  "prefix": "€",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GR",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "ELSTAT, regional accounts (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Greek_subdivisions_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:19:23.002Z",
+  "items": [
+    {
+      "name": "Attica",
+      "country": "GR",
+      "value": 29732
+    },
+    {
+      "name": "South Aegean",
+      "country": "GR",
+      "value": 21610
+    },
+    {
+      "name": "Ionian Islands",
+      "country": "GR",
+      "value": 19502
+    },
+    {
+      "name": "Central Greece",
+      "country": "GR",
+      "value": 18469
+    },
+    {
+      "name": "Crete",
+      "country": "GR",
+      "value": 18345
+    },
+    {
+      "name": "Peloponnese",
+      "country": "GR",
+      "value": 17841
+    },
+    {
+      "name": "Central Macedonia",
+      "country": "GR",
+      "value": 16982
+    },
+    {
+      "name": "Thessaly",
+      "country": "GR",
+      "value": 16286
+    },
+    {
+      "name": "Western Macedonia",
+      "country": "GR",
+      "value": 15543
+    },
+    {
+      "name": "Western Greece",
+      "country": "GR",
+      "value": 15210
+    },
+    {
+      "name": "Eastern Macedonia and Thrace",
+      "country": "GR",
+      "value": 13840
+    },
+    {
+      "name": "Epirus",
+      "country": "GR",
+      "value": 13789
+    },
+    {
+      "name": "North Aegean",
+      "country": "GR",
+      "value": 13136
+    }
+  ]
+}

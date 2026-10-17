@@ -1,0 +1,86 @@
+{
+  "id": "ne-research-publications",
+  "title": "Universities by Research Publications in Niger",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:16.635Z",
+  "items": [
+    {
+      "name": "Université Abdou Moumouni",
+      "country": "NE",
+      "value": 4058,
+      "detail": "51,320 citations"
+    },
+    {
+      "name": "Université de Maradi",
+      "country": "NE",
+      "value": 963,
+      "detail": "7,825 citations"
+    },
+    {
+      "name": "Université André Salifou",
+      "country": "NE",
+      "value": 761,
+      "detail": "2,902 citations"
+    },
+    {
+      "name": "Université de Diffa",
+      "country": "NE",
+      "value": 314,
+      "detail": "1,510 citations"
+    },
+    {
+      "name": "Université Djibo Hamani",
+      "country": "NE",
+      "value": 226,
+      "detail": "294 citations"
+    },
+    {
+      "name": "Maryam Abacha American University of Niger",
+      "country": "NE",
+      "value": 174,
+      "detail": "737 citations"
+    },
+    {
+      "name": "Islamic University of Niger",
+      "country": "NE",
+      "value": 119,
+      "detail": "6 citations"
+    },
+    {
+      "name": "Higher Institute of Mining, Industry and Geology",
+      "country": "NE",
+      "value": 99,
+      "detail": "258 citations"
+    },
+    {
+      "name": "École Africaine de la Météorologie et de l'Aviation Civile",
+      "country": "NE",
+      "value": 21,
+      "detail": "228 citations"
+    },
+    {
+      "name": "École Nationale d'Administration et de Magistrature",
+      "country": "NE",
+      "value": 9,
+      "detail": "9 citations"
+    }
+  ]
+}

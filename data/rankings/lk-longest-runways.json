@@ -1,0 +1,104 @@
+{
+  "id": "lk-longest-runways",
+  "title": "Longest Airport Runways in Sri Lanka",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Sri Lanka ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.518Z",
+  "items": [
+    {
+      "name": "Mattala Rajapaksa International Airport",
+      "country": "LK",
+      "value": 3500.02,
+      "detail": "Mattala · 11,483 ft · Asphalt"
+    },
+    {
+      "name": "Bandaranaike International Colombo Airport",
+      "country": "LK",
+      "value": 3350.06,
+      "detail": "Colombo · 10,991 ft · ASP"
+    },
+    {
+      "name": "China Bay Airport",
+      "country": "LK",
+      "value": 2392.68,
+      "detail": "Trincomalee · 7,850 ft · ASP"
+    },
+    {
+      "name": "Colombo Ratmalana International Airport",
+      "country": "LK",
+      "value": 1832.76,
+      "detail": "Colombo · 6,013 ft · ASP"
+    },
+    {
+      "name": "Sigiriya Air Force Base",
+      "country": "LK",
+      "value": 1805.94,
+      "detail": "Sigiriya · 5,925 ft · ASP"
+    },
+    {
+      "name": "Batticaloa International Airport",
+      "country": "LK",
+      "value": 1559.97,
+      "detail": "Batticaloa · 5,118 ft · ASP"
+    },
+    {
+      "name": "Vavuniya Airport",
+      "country": "LK",
+      "value": 1542.29,
+      "detail": "Vavuniya · 5,060 ft · ASP"
+    },
+    {
+      "name": "Anuradhapura Airport",
+      "country": "LK",
+      "value": 1486.2,
+      "detail": "Anuradhapura · 4,876 ft · ASP"
+    },
+    {
+      "name": "Jaffna International Airport",
+      "country": "LK",
+      "value": 1399.95,
+      "detail": "Jaffna · 4,593 ft · ASP"
+    },
+    {
+      "name": "Weerawila Airport",
+      "country": "LK",
+      "value": 1219.2,
+      "detail": "Weerawila · 4,000 ft · ASP"
+    },
+    {
+      "name": "Ampara Airport",
+      "country": "LK",
+      "value": 1097.28,
+      "detail": "Ampara · 3,600 ft · ASP"
+    },
+    {
+      "name": "Katukurunda Air Force Base",
+      "country": "LK",
+      "value": 975.36,
+      "detail": "Kalutara · 3,200 ft · ASP"
+    },
+    {
+      "name": "Koggala Airport",
+      "country": "LK",
+      "value": 957.68,
+      "detail": "Galle · 3,142 ft · ASP"
+    }
+  ]
+}

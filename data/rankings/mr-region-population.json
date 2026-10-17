@@ -1,0 +1,109 @@
+{
+  "id": "mr-region-population",
+  "title": "Mauritania Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Mauritania ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MR",
+  "year": 2023,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-17T13:26:31.496Z",
+  "items": [
+    {
+      "name": "Nouakchott South",
+      "country": "MR",
+      "value": 627415,
+      "detail": "2023"
+    },
+    {
+      "name": "Hodh Ech Chargui",
+      "country": "MR",
+      "value": 625643,
+      "detail": "2023"
+    },
+    {
+      "name": "Nouakchott-Nord",
+      "country": "MR",
+      "value": 614465,
+      "detail": "2023"
+    },
+    {
+      "name": "Assaba",
+      "country": "MR",
+      "value": 451804,
+      "detail": "2023"
+    },
+    {
+      "name": "Gorgol",
+      "country": "MR",
+      "value": 442490,
+      "detail": "2023"
+    },
+    {
+      "name": "Hodh El Gharbi",
+      "country": "MR",
+      "value": 403091,
+      "detail": "2023"
+    },
+    {
+      "name": "Brakna",
+      "country": "MR",
+      "value": 391310,
+      "detail": "2023"
+    },
+    {
+      "name": "Guidimakha",
+      "country": "MR",
+      "value": 363075,
+      "detail": "2023"
+    },
+    {
+      "name": "Trarza",
+      "country": "MR",
+      "value": 323903,
+      "detail": "2023"
+    },
+    {
+      "name": "Nouakchott West",
+      "country": "MR",
+      "value": 204881,
+      "detail": "2023"
+    },
+    {
+      "name": "Dakhlet Nouadhibou",
+      "country": "MR",
+      "value": 184459,
+      "detail": "2023"
+    },
+    {
+      "name": "Tiris Zemmour",
+      "country": "MR",
+      "value": 79129,
+      "detail": "2023"
+    },
+    {
+      "name": "Adrar",
+      "country": "MR",
+      "value": 71623,
+      "detail": "2023"
+    },
+    {
+      "name": "Inchiri",
+      "country": "MR",
+      "value": 29484,
+      "detail": "2023"
+    }
+  ]
+}

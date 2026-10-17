@@ -1,0 +1,624 @@
+{
+  "id": "es-cities",
+  "title": "Largest Cities in Spain",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "The 100 most populous Spanish municipalities.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ES",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Instituto Nacional de Estadística (INE) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_in_Spain_by_population",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:16:20.859Z",
+  "items": [
+    {
+      "name": "Madrid",
+      "country": "ES",
+      "value": 3477497,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Barcelona",
+      "country": "ES",
+      "value": 1713247,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Valencia",
+      "country": "ES",
+      "value": 841558,
+      "detail": "Valencia"
+    },
+    {
+      "name": "Zaragoza",
+      "country": "ES",
+      "value": 699007,
+      "detail": "Zaragoza"
+    },
+    {
+      "name": "Seville",
+      "country": "ES",
+      "value": 688714,
+      "detail": "Seville"
+    },
+    {
+      "name": "Málaga",
+      "country": "ES",
+      "value": 597173,
+      "detail": "Málaga"
+    },
+    {
+      "name": "Murcia",
+      "country": "ES",
+      "value": 477631,
+      "detail": "Murcia"
+    },
+    {
+      "name": "Palma",
+      "country": "ES",
+      "value": 443196,
+      "detail": "Balearic Islands"
+    },
+    {
+      "name": "Las Palmas de Gran Canaria",
+      "country": "ES",
+      "value": 384023,
+      "detail": "Las Palmas"
+    },
+    {
+      "name": "Alicante",
+      "country": "ES",
+      "value": 365586,
+      "detail": "Alicante"
+    },
+    {
+      "name": "Bilbao",
+      "country": "ES",
+      "value": 350975,
+      "detail": "Biscay"
+    },
+    {
+      "name": "Córdoba",
+      "country": "ES",
+      "value": 324159,
+      "detail": "Córdoba"
+    },
+    {
+      "name": "Valladolid",
+      "country": "ES",
+      "value": 301798,
+      "detail": "Valladolid"
+    },
+    {
+      "name": "Vigo",
+      "country": "ES",
+      "value": 295735,
+      "detail": "Pontevedra"
+    },
+    {
+      "name": "L'Hospitalet de Llobregat",
+      "country": "ES",
+      "value": 292161,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Gijón",
+      "country": "ES",
+      "value": 271259,
+      "detail": "Asturias"
+    },
+    {
+      "name": "Vitoria-Gasteiz",
+      "country": "ES",
+      "value": 260402,
+      "detail": "Álava"
+    },
+    {
+      "name": "A Coruña",
+      "country": "ES",
+      "value": 251277,
+      "detail": "A Coruña"
+    },
+    {
+      "name": "Elche/Elx",
+      "country": "ES",
+      "value": 245575,
+      "detail": "Alicante"
+    },
+    {
+      "name": "Granada",
+      "country": "ES",
+      "value": 235294,
+      "detail": "Granada"
+    },
+    {
+      "name": "Terrassa",
+      "country": "ES",
+      "value": 232676,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Badalona",
+      "country": "ES",
+      "value": 230642,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Sabadell",
+      "country": "ES",
+      "value": 224589,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Oviedo",
+      "country": "ES",
+      "value": 223576,
+      "detail": "Asturias"
+    },
+    {
+      "name": "Cartagena",
+      "country": "ES",
+      "value": 220400,
+      "detail": "Murcia"
+    },
+    {
+      "name": "Jerez de la Frontera",
+      "country": "ES",
+      "value": 215025,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "Móstoles",
+      "country": "ES",
+      "value": 214293,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Santa Cruz de Tenerife",
+      "country": "ES",
+      "value": 211498,
+      "detail": "Santa Cruz de Tenerife"
+    },
+    {
+      "name": "Pamplona",
+      "country": "ES",
+      "value": 209676,
+      "detail": "Navarre"
+    },
+    {
+      "name": "Almería",
+      "country": "ES",
+      "value": 204772,
+      "detail": "Almería"
+    },
+    {
+      "name": "Alcalá de Henares",
+      "country": "ES",
+      "value": 202549,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Leganés",
+      "country": "ES",
+      "value": 195946,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Getafe",
+      "country": "ES",
+      "value": 195628,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Fuenlabrada",
+      "country": "ES",
+      "value": 189814,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Donostia/San Sebastián",
+      "country": "ES",
+      "value": 189507,
+      "detail": "Gipuzkoa"
+    },
+    {
+      "name": "Castellón de la Plana",
+      "country": "ES",
+      "value": 183709,
+      "detail": "Castellón"
+    },
+    {
+      "name": "Burgos",
+      "country": "ES",
+      "value": 178370,
+      "detail": "Burgos"
+    },
+    {
+      "name": "Alcorcón",
+      "country": "ES",
+      "value": 176806,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Santander",
+      "country": "ES",
+      "value": 175082,
+      "detail": "Cantabria"
+    },
+    {
+      "name": "Albacete",
+      "country": "ES",
+      "value": 175068,
+      "detail": "Albacete"
+    },
+    {
+      "name": "San Cristóbal de La Laguna",
+      "country": "ES",
+      "value": 161927,
+      "detail": "Santa Cruz de Tenerife"
+    },
+    {
+      "name": "Marbella",
+      "country": "ES",
+      "value": 160478,
+      "detail": "Málaga"
+    },
+    {
+      "name": "Logroño",
+      "country": "ES",
+      "value": 151681,
+      "detail": "La Rioja"
+    },
+    {
+      "name": "Badajoz",
+      "country": "ES",
+      "value": 150870,
+      "detail": "Badajoz"
+    },
+    {
+      "name": "Lleida",
+      "country": "ES",
+      "value": 147369,
+      "detail": "Lleida"
+    },
+    {
+      "name": "Salamanca",
+      "country": "ES",
+      "value": 145583,
+      "detail": "Salamanca"
+    },
+    {
+      "name": "Torrejón de Ardoz",
+      "country": "ES",
+      "value": 144211,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Huelva",
+      "country": "ES",
+      "value": 143774,
+      "detail": "Huelva"
+    },
+    {
+      "name": "Tarragona",
+      "country": "ES",
+      "value": 143260,
+      "detail": "Tarragona"
+    },
+    {
+      "name": "Dos Hermanas",
+      "country": "ES",
+      "value": 142463,
+      "detail": "Seville"
+    },
+    {
+      "name": "Parla",
+      "country": "ES",
+      "value": 138012,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Mataró",
+      "country": "ES",
+      "value": 131370,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Algeciras",
+      "country": "ES",
+      "value": 126500,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "León",
+      "country": "ES",
+      "value": 124091,
+      "detail": "León"
+    },
+    {
+      "name": "Santa Coloma de Gramenet",
+      "country": "ES",
+      "value": 123250,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Alcobendas",
+      "country": "ES",
+      "value": 123222,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Jaén",
+      "country": "ES",
+      "value": 112119,
+      "detail": "Jaén"
+    },
+    {
+      "name": "Reus",
+      "country": "ES",
+      "value": 111911,
+      "detail": "Tarragona"
+    },
+    {
+      "name": "Cádiz",
+      "country": "ES",
+      "value": 110123,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "Roquetas de Mar",
+      "country": "ES",
+      "value": 110054,
+      "detail": "Almería"
+    },
+    {
+      "name": "Girona",
+      "country": "ES",
+      "value": 108352,
+      "detail": "Girona"
+    },
+    {
+      "name": "Ourense",
+      "country": "ES",
+      "value": 105609,
+      "detail": "Ourense"
+    },
+    {
+      "name": "Telde",
+      "country": "ES",
+      "value": 104933,
+      "detail": "Las Palmas"
+    },
+    {
+      "name": "Rivas-Vaciamadrid",
+      "country": "ES",
+      "value": 103243,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Barakaldo",
+      "country": "ES",
+      "value": 103084,
+      "detail": "Biscay"
+    },
+    {
+      "name": "Santiago de Compostela",
+      "country": "ES",
+      "value": 100842,
+      "detail": "A Coruña"
+    },
+    {
+      "name": "Torrevieja",
+      "country": "ES",
+      "value": 100470,
+      "detail": "Alicante"
+    },
+    {
+      "name": "Lugo",
+      "country": "ES",
+      "value": 100071,
+      "detail": "Lugo"
+    },
+    {
+      "name": "Las Rozas de Madrid",
+      "country": "ES",
+      "value": 99579,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Lorca",
+      "country": "ES",
+      "value": 98613,
+      "detail": "Murcia"
+    },
+    {
+      "name": "Sant Cugat del Vallès",
+      "country": "ES",
+      "value": 97959,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "San Sebastián de los Reyes",
+      "country": "ES",
+      "value": 97330,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Cáceres",
+      "country": "ES",
+      "value": 96598,
+      "detail": "Cáceres"
+    },
+    {
+      "name": "Mijas",
+      "country": "ES",
+      "value": 94320,
+      "detail": "Málaga"
+    },
+    {
+      "name": "San Fernando",
+      "country": "ES",
+      "value": 93490,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "Guadalajara",
+      "country": "ES",
+      "value": 92798,
+      "detail": "Guadalajara"
+    },
+    {
+      "name": "Cornellà de Llobregat",
+      "country": "ES",
+      "value": 92255,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Torrent",
+      "country": "ES",
+      "value": 91353,
+      "detail": "Valencia"
+    },
+    {
+      "name": "Chiclana de la Frontera",
+      "country": "ES",
+      "value": 90997,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "El Ejido",
+      "country": "ES",
+      "value": 90617,
+      "detail": "Almería"
+    },
+    {
+      "name": "El Puerto de Santa María",
+      "country": "ES",
+      "value": 90242,
+      "detail": "Cádiz"
+    },
+    {
+      "name": "Pozuelo de Alarcón",
+      "country": "ES",
+      "value": 89474,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Arona",
+      "country": "ES",
+      "value": 89036,
+      "detail": "Santa Cruz de Tenerife"
+    },
+    {
+      "name": "Vélez-Málaga",
+      "country": "ES",
+      "value": 87798,
+      "detail": "Málaga"
+    },
+    {
+      "name": "Toledo",
+      "country": "ES",
+      "value": 87074,
+      "detail": "Toledo"
+    },
+    {
+      "name": "Melilla",
+      "country": "ES",
+      "value": 87067,
+      "detail": "Melilla"
+    },
+    {
+      "name": "Valdemoro",
+      "country": "ES",
+      "value": 86078,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Sant Boi de Llobregat",
+      "country": "ES",
+      "value": 85317,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Fuengirola",
+      "country": "ES",
+      "value": 84857,
+      "detail": "Málaga"
+    },
+    {
+      "name": "Talavera de la Reina",
+      "country": "ES",
+      "value": 84413,
+      "detail": "Toledo"
+    },
+    {
+      "name": "Orihuela",
+      "country": "ES",
+      "value": 84279,
+      "detail": "Alicante"
+    },
+    {
+      "name": "Ceuta",
+      "country": "ES",
+      "value": 83567,
+      "detail": "Ceuta"
+    },
+    {
+      "name": "Pontevedra",
+      "country": "ES",
+      "value": 83339,
+      "detail": "Pontevedra"
+    },
+    {
+      "name": "Gandia",
+      "country": "ES",
+      "value": 82909,
+      "detail": "Valencia"
+    },
+    {
+      "name": "Rubí",
+      "country": "ES",
+      "value": 82825,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Manresa",
+      "country": "ES",
+      "value": 80692,
+      "detail": "Barcelona"
+    },
+    {
+      "name": "Coslada",
+      "country": "ES",
+      "value": 80365,
+      "detail": "Madrid"
+    },
+    {
+      "name": "Estepona",
+      "country": "ES",
+      "value": 79593,
+      "detail": "Málaga"
+    },
+    {
+      "name": "Santa Lucía de Tirajana",
+      "country": "ES",
+      "value": 79506,
+      "detail": "Las Palmas"
+    },
+    {
+      "name": "Benalmádena",
+      "country": "ES",
+      "value": 78787,
+      "detail": "Málaga"
+    }
+  ]
+}

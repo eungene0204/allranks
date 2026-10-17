@@ -1,0 +1,326 @@
+{
+  "id": "at-airports-by-elevation",
+  "title": "Highest Airports in Austria",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Austria ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:33.562Z",
+  "items": [
+    {
+      "name": "Mauterndorf Airfield",
+      "country": "AT",
+      "value": 1110.08,
+      "detail": "Mauterndorf · 3,642 ft above sea level"
+    },
+    {
+      "name": "Ottenschlag Airfield",
+      "country": "AT",
+      "value": 873.86,
+      "detail": "Ottenschlag · 2,867 ft above sea level"
+    },
+    {
+      "name": "Mariazell Airfield",
+      "country": "AT",
+      "value": 860.15,
+      "detail": "Mariazell · 2,822 ft above sea level"
+    },
+    {
+      "name": "Reutte-Höfen Airfield",
+      "country": "AT",
+      "value": 855.27,
+      "detail": "Reutte · 2,806 ft above sea level"
+    },
+    {
+      "name": "Lanzen-Turnau Airfield",
+      "country": "AT",
+      "value": 784.86,
+      "detail": "Göriach · 2,575 ft above sea level"
+    },
+    {
+      "name": "Zell am See Airfield",
+      "country": "AT",
+      "value": 752.86,
+      "detail": "Zell am See · 2,470 ft above sea level"
+    },
+    {
+      "name": "Trieben Airfield",
+      "country": "AT",
+      "value": 695.86,
+      "detail": "Trieben · 2,283 ft above sea level"
+    },
+    {
+      "name": "Hinterstoisser Air Base",
+      "country": "AT",
+      "value": 690.07,
+      "detail": "Zeltweg · 2,264 ft above sea level"
+    },
+    {
+      "name": "Freistadt Airfield",
+      "country": "AT",
+      "value": 681.84,
+      "detail": "Freistadt · 2,237 ft above sea level"
+    },
+    {
+      "name": "Sankt Johann Airfield",
+      "country": "AT",
+      "value": 669.95,
+      "detail": "Sankt Johann in Tirol · 2,198 ft above sea level"
+    },
+    {
+      "name": "Niederöblarn Airfield",
+      "country": "AT",
+      "value": 652.88,
+      "detail": "Niederöblarn · 2,142 ft above sea level"
+    },
+    {
+      "name": "Mayerhofen Airfield",
+      "country": "AT",
+      "value": 645.87,
+      "detail": "Mayerhofen · 2,119 ft above sea level"
+    },
+    {
+      "name": "Fiala-Fernbrugg Air Base",
+      "country": "AT",
+      "value": 637.95,
+      "detail": "Aigen im Ennstal · 2,093 ft above sea level"
+    },
+    {
+      "name": "Lienz-Nikolsdorf Airfield",
+      "country": "AT",
+      "value": 637.95,
+      "detail": "Lengberg · 2,093 ft above sea level"
+    },
+    {
+      "name": "Leoben/Timmersdorf Airfield",
+      "country": "AT",
+      "value": 627.89,
+      "detail": "Timmersdorf · 2,060 ft above sea level"
+    },
+    {
+      "name": "Friesach/Hirt Airfield",
+      "country": "AT",
+      "value": 615.39,
+      "detail": "Micheldorf · 2,019 ft above sea level"
+    },
+    {
+      "name": "Innsbruck Airport",
+      "country": "AT",
+      "value": 581.25,
+      "detail": "Innsbruck · 1,907 ft above sea level"
+    },
+    {
+      "name": "Nötsch im Gailtal Airfield",
+      "country": "AT",
+      "value": 548.94,
+      "detail": "Nötsch im Gailtal · 1,801 ft above sea level"
+    },
+    {
+      "name": "Tandem Airlebnis Paraglider Field",
+      "country": "AT",
+      "value": 537.06,
+      "detail": "Franzen · 1,762 ft above sea level"
+    },
+    {
+      "name": "Sankt Donat / Mairist Airfield",
+      "country": "AT",
+      "value": 536.14,
+      "detail": "Mairist · 1,759 ft above sea level"
+    },
+    {
+      "name": "Scharnstein Airfield",
+      "country": "AT",
+      "value": 530.96,
+      "detail": "Scharnstein · 1,742 ft above sea level"
+    },
+    {
+      "name": "Dobersberg Airfield",
+      "country": "AT",
+      "value": 524.26,
+      "detail": "Dobersberg · 1,720 ft above sea level"
+    },
+    {
+      "name": "Kapfenberg Airfield",
+      "country": "AT",
+      "value": 523.95,
+      "detail": "Kapfenberg · 1,719 ft above sea level"
+    },
+    {
+      "name": "Feldkirchen Airfield",
+      "country": "AT",
+      "value": 519.99,
+      "detail": "Feldkirchen in Kärnten · 1,706 ft above sea level"
+    },
+    {
+      "name": "Gmunden-Laakirchen Airfield",
+      "country": "AT",
+      "value": 509.02,
+      "detail": "Laakirchen · 1,670 ft above sea level"
+    },
+    {
+      "name": "Ossiacher See Paraglider Landing Field",
+      "country": "AT",
+      "value": 502.01,
+      "detail": "Treffen am Ossiacher See · 1,647 ft above sea level"
+    },
+    {
+      "name": "Kufstein-Langkampfen Airfield",
+      "country": "AT",
+      "value": 484.02,
+      "detail": "Langkampfen · 1,588 ft above sea level"
+    },
+    {
+      "name": "Micheldorf Airfield",
+      "country": "AT",
+      "value": 459.94,
+      "detail": "Micheldorf · 1,509 ft above sea level"
+    },
+    {
+      "name": "Ferlach-Glainach Airfield",
+      "country": "AT",
+      "value": 456.59,
+      "detail": "Ferlach · 1,498 ft above sea level"
+    },
+    {
+      "name": "Klagenfurt Airport",
+      "country": "AT",
+      "value": 448.67,
+      "detail": "Klagenfurt am Wörthersee · 1,472 ft above sea level"
+    },
+    {
+      "name": "Wolfsberg Airfield",
+      "country": "AT",
+      "value": 445.01,
+      "detail": "Wolfsberg · 1,460 ft above sea level"
+    },
+    {
+      "name": "Salzburg Airport",
+      "country": "AT",
+      "value": 430.07,
+      "detail": "Salzburg · 1,411 ft above sea level"
+    },
+    {
+      "name": "Ried-Kirchheim Airfield",
+      "country": "AT",
+      "value": 420.01,
+      "detail": "Kirchheim im Innkreis · 1,378 ft above sea level"
+    },
+    {
+      "name": "Hohenems-Dornbirn Airfield",
+      "country": "AT",
+      "value": 412.09,
+      "detail": "Hohenems · 1,352 ft above sea level"
+    },
+    {
+      "name": "Pinkafeld Airfield",
+      "country": "AT",
+      "value": 408.13,
+      "detail": "Pinkafeld · 1,339 ft above sea level"
+    },
+    {
+      "name": "Weiz-Unterfladnitz Airfield",
+      "country": "AT",
+      "value": 395.02,
+      "detail": "Weiz · 1,296 ft above sea level"
+    },
+    {
+      "name": "Flugplatz Usting",
+      "country": "AT",
+      "value": 384.96,
+      "detail": "Usting · 1,263 ft above sea level"
+    },
+    {
+      "name": "Hofkirchen Airfield",
+      "country": "AT",
+      "value": 358.14,
+      "detail": "Hofkirchen · 1,175 ft above sea level"
+    },
+    {
+      "name": "Ternberg Landing Field",
+      "country": "AT",
+      "value": 355.09,
+      "detail": "Ternberg · 1,165 ft above sea level"
+    },
+    {
+      "name": "Graz Airport",
+      "country": "AT",
+      "value": 339.85,
+      "detail": "Feldkirchen bei Graz · 1,115 ft above sea level"
+    },
+    {
+      "name": "Schärding-Suben Airfield",
+      "country": "AT",
+      "value": 326.14,
+      "detail": "Suben · 1,070 ft above sea level"
+    },
+    {
+      "name": "Völtendorf Airfield",
+      "country": "AT",
+      "value": 324,
+      "detail": "Ober-Grafendorf · 1,063 ft above sea level"
+    },
+    {
+      "name": "Flugplatz Seitenstetten",
+      "country": "AT",
+      "value": 320.04,
+      "detail": "Seitenstetten · 1,050 ft above sea level"
+    },
+    {
+      "name": "Wels Airfield",
+      "country": "AT",
+      "value": 317.91,
+      "detail": "Wels · 1,043 ft above sea level"
+    },
+    {
+      "name": "Krems/Langenlois Airfield",
+      "country": "AT",
+      "value": 309.98,
+      "detail": "Krems an der Donau · 1,017 ft above sea level"
+    },
+    {
+      "name": "Linz-Hörsching Airport",
+      "country": "AT",
+      "value": 298.7,
+      "detail": "Linz · 980 ft above sea level"
+    },
+    {
+      "name": "Herrnbaumgarten Airstrip",
+      "country": "AT",
+      "value": 291.08,
+      "detail": "Poysdorf · 955 ft above sea level"
+    },
+    {
+      "name": "Punitz-Güssing Airfield",
+      "country": "AT",
+      "value": 289.56,
+      "detail": "Punitz · 950 ft above sea level"
+    },
+    {
+      "name": "Wiener Neustadt West Airport",
+      "country": "AT",
+      "value": 284.99,
+      "detail": "Wiener Neustadt · 935 ft above sea level"
+    },
+    {
+      "name": "Wiener Neustadt East Airport",
+      "country": "AT",
+      "value": 273.1,
+      "detail": "Wiener Neustadt · 896 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "fj-cities-by-elevation",
+  "title": "Highest Major Cities in Fiji",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Fiji with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FJ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.530Z",
+  "items": [
+    {
+      "name": "Lautoka",
+      "country": "FJ",
+      "value": 47,
+      "detail": "52,500 people · Western"
+    },
+    {
+      "name": "Nasinu",
+      "country": "FJ",
+      "value": 31,
+      "detail": "92,043 people · Central"
+    },
+    {
+      "name": "Nadi",
+      "country": "FJ",
+      "value": 9,
+      "detail": "42,284 people · Western"
+    },
+    {
+      "name": "Lami",
+      "country": "FJ",
+      "value": 7,
+      "detail": "24,639 people · Central"
+    },
+    {
+      "name": "Sigatoka",
+      "country": "FJ",
+      "value": 6,
+      "detail": "17,622 people · Western"
+    },
+    {
+      "name": "Labasa",
+      "country": "FJ",
+      "value": 5,
+      "detail": "27,949 people · Northern"
+    }
+  ]
+}

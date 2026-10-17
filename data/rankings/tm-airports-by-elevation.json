@@ -1,0 +1,104 @@
+{
+  "id": "tm-airports-by-elevation",
+  "title": "Highest Airports in Turkmenistan",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Turkmenistan ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Kala-I-Mor Airport",
+      "country": "TM",
+      "value": 405.08,
+      "detail": "Turkmenkarakul · 1,329 ft above sea level"
+    },
+    {
+      "name": "Gaurdak Airport",
+      "country": "TM",
+      "value": 330.71,
+      "detail": "Gaurdak · 1,085 ft above sea level"
+    },
+    {
+      "name": "Ashgabat Bezmein Air Base",
+      "country": "TM",
+      "value": 280.42,
+      "detail": "Ashgabat · 920 ft above sea level"
+    },
+    {
+      "name": "Serakhs Airport",
+      "country": "TM",
+      "value": 274.93,
+      "detail": "Serakhs · 902 ft above sea level"
+    },
+    {
+      "name": "Kerki Airport",
+      "country": "TM",
+      "value": 234.7,
+      "detail": "Kerki · 770 ft above sea level"
+    },
+    {
+      "name": "Mary International Airport",
+      "country": "TM",
+      "value": 221.89,
+      "detail": "Mary · 728 ft above sea level"
+    },
+    {
+      "name": "Mary North Airport",
+      "country": "TM",
+      "value": 221.89,
+      "detail": "Mary · 728 ft above sea level"
+    },
+    {
+      "name": "Ashgabat International Airport",
+      "country": "TM",
+      "value": 210.92,
+      "detail": "Ashgabat · 692 ft above sea level"
+    },
+    {
+      "name": "Türkmenabat International Airport",
+      "country": "TM",
+      "value": 197.82,
+      "detail": "Türkmenabat · 649 ft above sea level"
+    },
+    {
+      "name": "Gazadzhak Airport",
+      "country": "TM",
+      "value": 109.12,
+      "detail": "Gazadzhak · 358 ft above sea level"
+    },
+    {
+      "name": "Kizyl-Arvat Airport",
+      "country": "TM",
+      "value": 103.02,
+      "detail": "Kizyl-Arvat · 338 ft above sea level"
+    },
+    {
+      "name": "Turkmenbaşy International Airport",
+      "country": "TM",
+      "value": 85.04,
+      "detail": "Turkmenbaşy · 279 ft above sea level"
+    },
+    {
+      "name": "Dashoguz International Airport",
+      "country": "TM",
+      "value": 82.91,
+      "detail": "Daşoguz · 272 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "gw-cities-by-elevation",
+  "title": "Highest Major Cities in Guinea-Bissau",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Guinea-Bissau with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.535Z",
+  "items": [
+    {
+      "name": "Gabú",
+      "country": "GW",
+      "value": 64,
+      "detail": "49,371 people · Gabú"
+    },
+    {
+      "name": "Belem",
+      "country": "GW",
+      "value": 47,
+      "detail": "17,263 people · Bissau"
+    },
+    {
+      "name": "Missira",
+      "country": "GW",
+      "value": 46,
+      "detail": "38,838 people · Bissau"
+    },
+    {
+      "name": "Quelele",
+      "country": "GW",
+      "value": 39,
+      "detail": "28,898 people · Bissau"
+    },
+    {
+      "name": "Santa-Luzia",
+      "country": "GW",
+      "value": 38,
+      "detail": "17,204 people · Bissau"
+    },
+    {
+      "name": "Plaque",
+      "country": "GW",
+      "value": 33,
+      "detail": "27,633 people · Bissau"
+    },
+    {
+      "name": "Xitole",
+      "country": "GW",
+      "value": 32,
+      "detail": "19,424 people · Bafatá"
+    },
+    {
+      "name": "Reino de Antula",
+      "country": "GW",
+      "value": 31,
+      "detail": "30,778 people · Bissau"
+    },
+    {
+      "name": "Reino de Bandim",
+      "country": "GW",
+      "value": 23,
+      "detail": "44,718 people · Bissau"
+    },
+    {
+      "name": "Bafatá",
+      "country": "GW",
+      "value": 20,
+      "detail": "33,502 people · Bafatá"
+    },
+    {
+      "name": "Contumo",
+      "country": "GW",
+      "value": 17,
+      "detail": "45,482 people · Bissau"
+    },
+    {
+      "name": "Bairro Militar",
+      "country": "GW",
+      "value": 15,
+      "detail": "65,274 people · Bissau"
+    },
+    {
+      "name": "Bissau",
+      "country": "GW",
+      "value": 13,
+      "detail": "439,704 people · Bissau"
+    },
+    {
+      "name": "Sintra-Nema",
+      "country": "GW",
+      "value": 11,
+      "detail": "21,451 people · Bissau"
+    },
+    {
+      "name": "Luanda",
+      "country": "GW",
+      "value": 1,
+      "detail": "25,236 people · Bissau"
+    }
+  ]
+}

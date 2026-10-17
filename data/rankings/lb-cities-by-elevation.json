@@ -1,0 +1,134 @@
+{
+  "id": "lb-cities-by-elevation",
+  "title": "Highest Major Cities in Lebanon",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Lebanon with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.547Z",
+  "items": [
+    {
+      "name": "Bsharri",
+      "country": "LB",
+      "value": 1442,
+      "detail": "20,000 people · North Lebanon"
+    },
+    {
+      "name": "Aarsâl",
+      "country": "LB",
+      "value": 1407,
+      "detail": "50,000 people · Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Baalbek",
+      "country": "LB",
+      "value": 1183,
+      "detail": "30,916 people · Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Chmistâr",
+      "country": "LB",
+      "value": 1137,
+      "detail": "30,000 people · Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Zahlé",
+      "country": "LB",
+      "value": 963,
+      "detail": "78,145 people · Bekaa"
+    },
+    {
+      "name": "Aley",
+      "country": "LB",
+      "value": 878,
+      "detail": "130,000 people · Mount Lebanon"
+    },
+    {
+      "name": "El Hermel",
+      "country": "LB",
+      "value": 743,
+      "detail": "22,250 people · Baalbek-Hermel Governorate"
+    },
+    {
+      "name": "Habboûch",
+      "country": "LB",
+      "value": 457,
+      "detail": "98,433 people · Nabatieh"
+    },
+    {
+      "name": "Nabatîyé et Tahta",
+      "country": "LB",
+      "value": 428,
+      "detail": "120,000 people · Nabatieh"
+    },
+    {
+      "name": "En Nâqoûra",
+      "country": "LB",
+      "value": 71,
+      "detail": "24,910 people · South Governorate"
+    },
+    {
+      "name": "Ghazieh",
+      "country": "LB",
+      "value": 59,
+      "detail": "50,000 people · South Governorate"
+    },
+    {
+      "name": "Tripoli",
+      "country": "LB",
+      "value": 51,
+      "detail": "229,398 people · North Lebanon"
+    },
+    {
+      "name": "Beirut",
+      "country": "LB",
+      "value": 40,
+      "detail": "1,916,100 people · Beirut"
+    },
+    {
+      "name": "Jounieh",
+      "country": "LB",
+      "value": 40,
+      "detail": "96,315 people · Mount Lebanon"
+    },
+    {
+      "name": "Ra’s Bayrūt",
+      "country": "LB",
+      "value": 35,
+      "detail": "1,251,739 people · Beirut"
+    },
+    {
+      "name": "Byblos",
+      "country": "LB",
+      "value": 33,
+      "detail": "20,784 people · Mount Lebanon"
+    },
+    {
+      "name": "Sidon",
+      "country": "LB",
+      "value": 9,
+      "detail": "163,554 people · South Governorate"
+    },
+    {
+      "name": "Tyre",
+      "country": "LB",
+      "value": 7,
+      "detail": "135,204 people · South Governorate"
+    }
+  ]
+}

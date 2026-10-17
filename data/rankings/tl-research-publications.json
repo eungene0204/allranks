@@ -1,0 +1,86 @@
+{
+  "id": "tl-research-publications",
+  "title": "Universities by Research Publications in Timor-Leste",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:38.968Z",
+  "items": [
+    {
+      "name": "National University of East Timor",
+      "country": "TL",
+      "value": 1001,
+      "detail": "5,429 citations"
+    },
+    {
+      "name": "Universidade da Paz",
+      "country": "TL",
+      "value": 495,
+      "detail": "861 citations"
+    },
+    {
+      "name": "Instituto Superior Cristal",
+      "country": "TL",
+      "value": 296,
+      "detail": "604 citations"
+    },
+    {
+      "name": "Dili Institute of Technology",
+      "country": "TL",
+      "value": 224,
+      "detail": "1,355 citations"
+    },
+    {
+      "name": "Universidade Oriental Timor Lorosa'e",
+      "country": "TL",
+      "value": 201,
+      "detail": "121 citations"
+    },
+    {
+      "name": "Instituto Católico para a Formação de Professores",
+      "country": "TL",
+      "value": 116,
+      "detail": "78 citations"
+    },
+    {
+      "name": "Institute of Business",
+      "country": "TL",
+      "value": 94,
+      "detail": "332 citations"
+    },
+    {
+      "name": "Instituto da Ciências da Saúde",
+      "country": "TL",
+      "value": 47,
+      "detail": "653 citations"
+    },
+    {
+      "name": "Instituto Superior de Filosofia e de Teologia Dom Jaime Garcia Goulart",
+      "country": "TL",
+      "value": 26,
+      "detail": "22 citations"
+    },
+    {
+      "name": "East Timor Coffee Institute",
+      "country": "TL",
+      "value": 17,
+      "detail": "4 citations"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "kg-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Kyrgyzstan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "KG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:00.045Z",
+  "items": [
+    {
+      "name": "OSCE Academy",
+      "country": "KG",
+      "value": 3.8378,
+      "detail": "133 works"
+    },
+    {
+      "name": "University of Central Asia",
+      "country": "KG",
+      "value": 2.3722,
+      "detail": "933 works"
+    },
+    {
+      "name": "Central-Asian Institute for Applied Geosciences",
+      "country": "KG",
+      "value": 1.6017,
+      "detail": "233 works"
+    },
+    {
+      "name": "Ala-Too International University",
+      "country": "KG",
+      "value": 1.4954,
+      "detail": "667 works"
+    },
+    {
+      "name": "Kyrgyz-Türkish Manas Üniversity",
+      "country": "KG",
+      "value": 1.3088,
+      "detail": "3,118 works"
+    },
+    {
+      "name": "International University of Central Asia",
+      "country": "KG",
+      "value": 1,
+      "detail": "26 works"
+    },
+    {
+      "name": "Kyrgyz Aviation Institute named after I. Abdraimov",
+      "country": "KG",
+      "value": 0.8409,
+      "detail": "39 works"
+    },
+    {
+      "name": "International University of Kyrgyzstan",
+      "country": "KG",
+      "value": 0.8318,
+      "detail": "802 works"
+    },
+    {
+      "name": "Kyrgyz National Agrarian University named after K.I. Skryabin",
+      "country": "KG",
+      "value": 0.7993,
+      "detail": "490 works"
+    },
+    {
+      "name": "Kyrgyz State Technical University",
+      "country": "KG",
+      "value": 0.7815,
+      "detail": "968 works"
+    },
+    {
+      "name": "American University of Central Asia",
+      "country": "KG",
+      "value": 0.6205,
+      "detail": "513 works"
+    },
+    {
+      "name": "Kyrgyz National University",
+      "country": "KG",
+      "value": 0.5753,
+      "detail": "1,774 works"
+    },
+    {
+      "name": "Osh State University",
+      "country": "KG",
+      "value": 0.5052,
+      "detail": "5,077 works"
+    },
+    {
+      "name": "Issyk-Kul State University",
+      "country": "KG",
+      "value": 0.4747,
+      "detail": "200 works"
+    },
+    {
+      "name": "Bishkek Academy of Finance and Economics",
+      "country": "KG",
+      "value": 0.4681,
+      "detail": "75 works"
+    },
+    {
+      "name": "Kyrgyz Economic University",
+      "country": "KG",
+      "value": 0.465,
+      "detail": "395 works"
+    },
+    {
+      "name": "S. Tentishev Asian Medical Institute",
+      "country": "KG",
+      "value": 0.4568,
+      "detail": "191 works"
+    },
+    {
+      "name": "Naryn State University named after Satybaldy Naamatov",
+      "country": "KG",
+      "value": 0.4407,
+      "detail": "80 works"
+    },
+    {
+      "name": "International University named after K.Sh.Toktomamatov",
+      "country": "KG",
+      "value": 0.4189,
+      "detail": "111 works"
+    },
+    {
+      "name": "Kyrgyz-Russian Slavic University named after B.N. Yeltsin",
+      "country": "KG",
+      "value": 0.4137,
+      "detail": "1,559 works"
+    },
+    {
+      "name": "Jalalabad State University",
+      "country": "KG",
+      "value": 0.3374,
+      "detail": "403 works"
+    },
+    {
+      "name": "Bishkek Humanities University",
+      "country": "KG",
+      "value": 0.2121,
+      "detail": "133 works"
+    },
+    {
+      "name": "Bishkek International Medical Institute",
+      "country": "KG",
+      "value": 0.2083,
+      "detail": "9 works"
+    },
+    {
+      "name": "Kyrgyz-Uzbek International University named after Batyraly Sydykov",
+      "country": "KG",
+      "value": 0.1697,
+      "detail": "381 works"
+    },
+    {
+      "name": "Osh Technological University",
+      "country": "KG",
+      "value": 0.1685,
+      "detail": "830 works"
+    },
+    {
+      "name": "Kyrgyzskaya State Academy of Physical Culture and Sports",
+      "country": "KG",
+      "value": 0.1667,
+      "detail": "35 works"
+    },
+    {
+      "name": "Royal Metropolitan University",
+      "country": "KG",
+      "value": 0.1667,
+      "detail": "14 works"
+    },
+    {
+      "name": "Kyrgyz State National University",
+      "country": "KG",
+      "value": 0.1633,
+      "detail": "2,274 works"
+    },
+    {
+      "name": "Talas State University",
+      "country": "KG",
+      "value": 0.1364,
+      "detail": "39 works"
+    },
+    {
+      "name": "Batken State University",
+      "country": "KG",
+      "value": 0.0867,
+      "detail": "248 works"
+    },
+    {
+      "name": "Academy of Public Administration under the President of the Kyrgyz Republic",
+      "country": "KG",
+      "value": 0.0741,
+      "detail": "78 works"
+    },
+    {
+      "name": "Osh State Pedagogical University named after A. Myrsabekov",
+      "country": "KG",
+      "value": 0.0529,
+      "detail": "392 works"
+    }
+  ]
+}

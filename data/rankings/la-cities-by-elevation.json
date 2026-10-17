@@ -1,0 +1,134 @@
+{
+  "id": "la-cities-by-elevation",
+  "title": "Highest Major Cities in Laos",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Laos with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.547Z",
+  "items": [
+    {
+      "name": "Muang Phônsavan",
+      "country": "LA",
+      "value": 1106,
+      "detail": "37,507 people · Xiangkhoang"
+    },
+    {
+      "name": "Xam Nua",
+      "country": "LA",
+      "value": 957,
+      "detail": "56,900 people · Houaphan"
+    },
+    {
+      "name": "Muang Xay",
+      "country": "LA",
+      "value": 652,
+      "detail": "25,000 people · Oudômxai"
+    },
+    {
+      "name": "Muang Sing",
+      "country": "LA",
+      "value": 639,
+      "detail": "23,500 people · Loungnamtha"
+    },
+    {
+      "name": "Ban Laongam",
+      "country": "LA",
+      "value": 547,
+      "detail": "21,304 people · Salavan Province"
+    },
+    {
+      "name": "Ban Khoan",
+      "country": "LA",
+      "value": 373,
+      "detail": "65,348 people · Bokeo"
+    },
+    {
+      "name": "Ban Houakhoua",
+      "country": "LA",
+      "value": 361,
+      "detail": "15,500 people · Bokeo"
+    },
+    {
+      "name": "Luang Prabang",
+      "country": "LA",
+      "value": 296,
+      "detail": "55,027 people · Luang Prabang Province"
+    },
+    {
+      "name": "Vang Vieng",
+      "country": "LA",
+      "value": 243,
+      "detail": "25,000 people · Vientiane"
+    },
+    {
+      "name": "Ban Xénô",
+      "country": "LA",
+      "value": 197,
+      "detail": "25,135 people · Savannakhet Province"
+    },
+    {
+      "name": "Thakhèk",
+      "country": "LA",
+      "value": 176,
+      "detail": "90,800 people · Khammouane Province"
+    },
+    {
+      "name": "Vientiane",
+      "country": "LA",
+      "value": 174,
+      "detail": "840,940 people · Vientiane Prefecture"
+    },
+    {
+      "name": "Borikhan",
+      "country": "LA",
+      "value": 165,
+      "detail": "18,354 people · Bolikhamsai"
+    },
+    {
+      "name": "Pakxan",
+      "country": "LA",
+      "value": 156,
+      "detail": "21,967 people · Bolikhamsai"
+    },
+    {
+      "name": "Savannakhet",
+      "country": "LA",
+      "value": 154,
+      "detail": "125,760 people · Savannakhet Province"
+    },
+    {
+      "name": "Sekong",
+      "country": "LA",
+      "value": 148,
+      "detail": "20,116 people · Xékong"
+    },
+    {
+      "name": "Ban Kèngkok",
+      "country": "LA",
+      "value": 145,
+      "detail": "15,658 people · Savannakhet Province"
+    },
+    {
+      "name": "Pakse",
+      "country": "LA",
+      "value": 105,
+      "detail": "77,900 people · Champasak Province"
+    }
+  ]
+}

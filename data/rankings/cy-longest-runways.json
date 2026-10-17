@@ -1,0 +1,62 @@
+{
+  "id": "cy-longest-runways",
+  "title": "Longest Airport Runways in Cyprus",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cyprus ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.483Z",
+  "items": [
+    {
+      "name": "Ercan International Airport",
+      "country": "CY",
+      "value": 3199.79,
+      "detail": "Tymbou (Kirklar) · 10,498 ft"
+    },
+    {
+      "name": "Larnaca International Airport",
+      "country": "CY",
+      "value": 2994.05,
+      "detail": "Larnaca · 9,823 ft · ASP"
+    },
+    {
+      "name": "RAF Akrotiri",
+      "country": "CY",
+      "value": 2743.81,
+      "detail": "Akrotiri · 9,002 ft · ASP"
+    },
+    {
+      "name": "Paphos International Airport",
+      "country": "CY",
+      "value": 2699.92,
+      "detail": "Paphos · 8,858 ft · ASP"
+    },
+    {
+      "name": "Mammari Aerial Firefighting Base",
+      "country": "CY",
+      "value": 1200.91,
+      "detail": "Mammari · 3,940 ft · Asphalt"
+    },
+    {
+      "name": "Marki Airfield",
+      "country": "CY",
+      "value": 156.67,
+      "detail": "514 ft · CON"
+    }
+  ]
+}

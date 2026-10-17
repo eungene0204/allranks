@@ -1,0 +1,146 @@
+{
+  "id": "tg-cities-by-elevation",
+  "title": "Highest Major Cities in Togo",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Togo with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.565Z",
+  "items": [
+    {
+      "name": "Bafilo",
+      "country": "TG",
+      "value": 608,
+      "detail": "22,543 people · Kara"
+    },
+    {
+      "name": "Niamtougou",
+      "country": "TG",
+      "value": 469,
+      "detail": "23,261 people · Kara"
+    },
+    {
+      "name": "Sokodé",
+      "country": "TG",
+      "value": 402,
+      "detail": "117,811 people · Centrale"
+    },
+    {
+      "name": "Bassar",
+      "country": "TG",
+      "value": 388,
+      "detail": "61,845 people · Kara"
+    },
+    {
+      "name": "Sotouboua",
+      "country": "TG",
+      "value": 380,
+      "detail": "24,332 people · Centrale"
+    },
+    {
+      "name": "Atakpamé",
+      "country": "TG",
+      "value": 361,
+      "detail": "80,683 people · Plateaux"
+    },
+    {
+      "name": "Tchamba",
+      "country": "TG",
+      "value": 356,
+      "detail": "25,668 people · Centrale"
+    },
+    {
+      "name": "Dapaong",
+      "country": "TG",
+      "value": 323,
+      "detail": "58,071 people · Savanes"
+    },
+    {
+      "name": "Kara",
+      "country": "TG",
+      "value": 291,
+      "detail": "104,207 people · Kara"
+    },
+    {
+      "name": "Badou",
+      "country": "TG",
+      "value": 278,
+      "detail": "24,000 people · Plateaux"
+    },
+    {
+      "name": "Sinkassé",
+      "country": "TG",
+      "value": 264,
+      "detail": "26,926 people · Savanes"
+    },
+    {
+      "name": "Kpalimé",
+      "country": "TG",
+      "value": 225,
+      "detail": "75,084 people · Plateaux"
+    },
+    {
+      "name": "Anié",
+      "country": "TG",
+      "value": 173,
+      "detail": "37,398 people · Plateaux"
+    },
+    {
+      "name": "Mango",
+      "country": "TG",
+      "value": 143,
+      "detail": "37,748 people · Savanes"
+    },
+    {
+      "name": "Notsé",
+      "country": "TG",
+      "value": 142,
+      "detail": "35,039 people · Plateaux"
+    },
+    {
+      "name": "Tsévié",
+      "country": "TG",
+      "value": 97,
+      "detail": "55,775 people · Maritime"
+    },
+    {
+      "name": "Vogan",
+      "country": "TG",
+      "value": 37,
+      "detail": "20,569 people · Maritime"
+    },
+    {
+      "name": "Tabligbo",
+      "country": "TG",
+      "value": 33,
+      "detail": "22,304 people · Maritime"
+    },
+    {
+      "name": "Lomé",
+      "country": "TG",
+      "value": 13,
+      "detail": "2,188,376 people · Maritime"
+    },
+    {
+      "name": "Aného",
+      "country": "TG",
+      "value": 5,
+      "detail": "47,579 people · Maritime"
+    }
+  ]
+}

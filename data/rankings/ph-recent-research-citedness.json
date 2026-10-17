@@ -1,0 +1,326 @@
+{
+  "id": "ph-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Philippines",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "PH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:23.236Z",
+  "items": [
+    {
+      "name": "AMA School of Medicine",
+      "country": "PH",
+      "value": 33,
+      "detail": "90 works"
+    },
+    {
+      "name": "STI College Iligan",
+      "country": "PH",
+      "value": 25.5,
+      "detail": "3 works"
+    },
+    {
+      "name": "Zamboanga Peninsula Polytechnic State University-Vitali",
+      "country": "PH",
+      "value": 15.5,
+      "detail": "2 works"
+    },
+    {
+      "name": "Polytechnic University of the Philippines-Taguig",
+      "country": "PH",
+      "value": 14,
+      "detail": "8 works"
+    },
+    {
+      "name": "Zamboanga Peninsula Polytechnic State University-Malangas",
+      "country": "PH",
+      "value": 11,
+      "detail": "1 works"
+    },
+    {
+      "name": "St. Dominic Savio College",
+      "country": "PH",
+      "value": 10.1429,
+      "detail": "9 works"
+    },
+    {
+      "name": "Colegio de Muntinlupa",
+      "country": "PH",
+      "value": 9.878,
+      "detail": "64 works"
+    },
+    {
+      "name": "Basilan State University",
+      "country": "PH",
+      "value": 9.2769,
+      "detail": "63 works"
+    },
+    {
+      "name": "Technological University of the Philippines",
+      "country": "PH",
+      "value": 8.8787,
+      "detail": "813 works"
+    },
+    {
+      "name": "Sultan Kudarat State University-Lutayan",
+      "country": "PH",
+      "value": 6.8636,
+      "detail": "15 works"
+    },
+    {
+      "name": "International School of Asia and the Pacific",
+      "country": "PH",
+      "value": 5.8333,
+      "detail": "17 works"
+    },
+    {
+      "name": "Jose Rizal Memorial State University-Katipunan Campus",
+      "country": "PH",
+      "value": 4.7692,
+      "detail": "34 works"
+    },
+    {
+      "name": "San Pedro College of Business Administration",
+      "country": "PH",
+      "value": 4.1429,
+      "detail": "19 works"
+    },
+    {
+      "name": "Mary the Queen College of Quezon City",
+      "country": "PH",
+      "value": 4,
+      "detail": "18 works"
+    },
+    {
+      "name": "Polytechnic University of the Philippines-Biñan",
+      "country": "PH",
+      "value": 4,
+      "detail": "3 works"
+    },
+    {
+      "name": "St. Luke's Medical Center College of Medicine-William H. Quasha Memorial",
+      "country": "PH",
+      "value": 3.7377,
+      "detail": "115 works"
+    },
+    {
+      "name": "St. Paul University Iloilo",
+      "country": "PH",
+      "value": 3.6842,
+      "detail": "22 works"
+    },
+    {
+      "name": "De La Salle Medical and Health Sciences Institute",
+      "country": "PH",
+      "value": 3.6398,
+      "detail": "364 works"
+    },
+    {
+      "name": "Cebu Institute of Medicine",
+      "country": "PH",
+      "value": 3.6134,
+      "detail": "218 works"
+    },
+    {
+      "name": "Zamboanga Peninsula Polytechnic State University",
+      "country": "PH",
+      "value": 3.479,
+      "detail": "291 works"
+    },
+    {
+      "name": "Baliwag Polytechnic College",
+      "country": "PH",
+      "value": 3.4211,
+      "detail": "18 works"
+    },
+    {
+      "name": "Southeast Asian Regional Center for Graduate Study and Research in Agriculture",
+      "country": "PH",
+      "value": 3.3529,
+      "detail": "70 works"
+    },
+    {
+      "name": "University of Makati",
+      "country": "PH",
+      "value": 2.9519,
+      "detail": "298 works"
+    },
+    {
+      "name": "University of the Philippines Manila",
+      "country": "PH",
+      "value": 2.948,
+      "detail": "10,430 works"
+    },
+    {
+      "name": "Ateneo de Manila University",
+      "country": "PH",
+      "value": 2.7858,
+      "detail": "6,087 works"
+    },
+    {
+      "name": "NU Fairview",
+      "country": "PH",
+      "value": 2.7368,
+      "detail": "10 works"
+    },
+    {
+      "name": "Zamboanga State College of Marine Sciences and Technology",
+      "country": "PH",
+      "value": 2.7073,
+      "detail": "117 works"
+    },
+    {
+      "name": "Silliman University",
+      "country": "PH",
+      "value": 2.5602,
+      "detail": "636 works"
+    },
+    {
+      "name": "Western Mindanao State University",
+      "country": "PH",
+      "value": 2.5049,
+      "detail": "707 works"
+    },
+    {
+      "name": "Far Eastern University",
+      "country": "PH",
+      "value": 2.4669,
+      "detail": "1,633 works"
+    },
+    {
+      "name": "Occidental Mindoro State University",
+      "country": "PH",
+      "value": 2.4521,
+      "detail": "195 works"
+    },
+    {
+      "name": "Northern Bukidnon State College",
+      "country": "PH",
+      "value": 2.4364,
+      "detail": "51 works"
+    },
+    {
+      "name": "FEU Institute of Technology",
+      "country": "PH",
+      "value": 2.382,
+      "detail": "649 works"
+    },
+    {
+      "name": "Western Philippines University-Puerto Princesa",
+      "country": "PH",
+      "value": 2.3474,
+      "detail": "209 works"
+    },
+    {
+      "name": "Cebu Normal University",
+      "country": "PH",
+      "value": 2.3199,
+      "detail": "1,031 works"
+    },
+    {
+      "name": "Diliman College",
+      "country": "PH",
+      "value": 2.25,
+      "detail": "19 works"
+    },
+    {
+      "name": "AMA Computer University",
+      "country": "PH",
+      "value": 2.2112,
+      "detail": "239 works"
+    },
+    {
+      "name": "Batangas State University-Alangilan",
+      "country": "PH",
+      "value": 2.0857,
+      "detail": "28 works"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "PH",
+      "value": 2.0229,
+      "detail": "4,993 works"
+    },
+    {
+      "name": "Bukidnon State University-Malitbog",
+      "country": "PH",
+      "value": 2,
+      "detail": "4 works"
+    },
+    {
+      "name": "Polytechnic University of the Philippines-Sta. Maria Bulacan",
+      "country": "PH",
+      "value": 2,
+      "detail": "7 works"
+    },
+    {
+      "name": "Saint Tonis College, Inc.",
+      "country": "PH",
+      "value": 2,
+      "detail": "4 works"
+    },
+    {
+      "name": "University of the Philippines Open University",
+      "country": "PH",
+      "value": 1.9945,
+      "detail": "1,049 works"
+    },
+    {
+      "name": "University of the Philippines Diliman",
+      "country": "PH",
+      "value": 1.9861,
+      "detail": "14,820 works"
+    },
+    {
+      "name": "University of the Philippines System",
+      "country": "PH",
+      "value": 1.9598,
+      "detail": "5,499 works"
+    },
+    {
+      "name": "University of St. La Salle",
+      "country": "PH",
+      "value": 1.9429,
+      "detail": "315 works"
+    },
+    {
+      "name": "University of San Agustin",
+      "country": "PH",
+      "value": 1.897,
+      "detail": "316 works"
+    },
+    {
+      "name": "Asian Institute of Management",
+      "country": "PH",
+      "value": 1.8658,
+      "detail": "746 works"
+    },
+    {
+      "name": "University of the Philippines Tacloban College",
+      "country": "PH",
+      "value": 1.811,
+      "detail": "204 works"
+    },
+    {
+      "name": "San Agustin Institute of Technology",
+      "country": "PH",
+      "value": 1.8,
+      "detail": "10 works"
+    }
+  ]
+}

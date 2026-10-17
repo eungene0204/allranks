@@ -1,0 +1,92 @@
+{
+  "id": "gh-airports-by-elevation",
+  "title": "Highest Airports in Ghana",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Ghana ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Yendi Airport",
+      "country": "GH",
+      "value": 733.96,
+      "detail": "Yendi · 2,408 ft above sea level"
+    },
+    {
+      "name": "Wa Airport",
+      "country": "GH",
+      "value": 323.09,
+      "detail": "Wa · 1,060 ft above sea level"
+    },
+    {
+      "name": "Sunyani Airport",
+      "country": "GH",
+      "value": 309.07,
+      "detail": "Sunyani · 1,014 ft above sea level"
+    },
+    {
+      "name": "Prempeh I International Airport",
+      "country": "GH",
+      "value": 287.12,
+      "detail": "Kumasi · 942 ft above sea level"
+    },
+    {
+      "name": "Navrongo Airport",
+      "country": "GH",
+      "value": 206.65,
+      "detail": "Navrongo · 678 ft above sea level"
+    },
+    {
+      "name": "Yakubu Tali International Airport",
+      "country": "GH",
+      "value": 168.55,
+      "detail": "Tamale · 553 ft above sea level"
+    },
+    {
+      "name": "Ajena Airstrip",
+      "country": "GH",
+      "value": 147.83,
+      "detail": "Ajena · 485 ft above sea level"
+    },
+    {
+      "name": "Ho Airport",
+      "country": "GH",
+      "value": 108.51,
+      "detail": "Ho · 356 ft above sea level"
+    },
+    {
+      "name": "Kotoka International Airport",
+      "country": "GH",
+      "value": 62.48,
+      "detail": "Accra · 205 ft above sea level"
+    },
+    {
+      "name": "Kpong Airfield",
+      "country": "GH",
+      "value": 27.13,
+      "detail": "Kpong · 89 ft above sea level"
+    },
+    {
+      "name": "Takoradi Airport",
+      "country": "GH",
+      "value": 6.4,
+      "detail": "Sekondi-Takoradi · 21 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "kw-research-publications",
+  "title": "Universities by Research Publications in Kuwait",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:01.647Z",
+  "items": [
+    {
+      "name": "Kuwait University",
+      "country": "KW",
+      "value": 30840,
+      "detail": "1,110,449 citations"
+    },
+    {
+      "name": "American University of the Middle East",
+      "country": "KW",
+      "value": 6221,
+      "detail": "135,777 citations"
+    },
+    {
+      "name": "Public Authority for Applied Education and Training",
+      "country": "KW",
+      "value": 4902,
+      "detail": "105,426 citations"
+    },
+    {
+      "name": "Gulf University for Science & Technology",
+      "country": "KW",
+      "value": 4298,
+      "detail": "77,825 citations"
+    },
+    {
+      "name": "Kuwait College of Science and Technology",
+      "country": "KW",
+      "value": 1657,
+      "detail": "35,817 citations"
+    },
+    {
+      "name": "Dasman Diabetes Institute",
+      "country": "KW",
+      "value": 1502,
+      "detail": "137,887 citations"
+    },
+    {
+      "name": "Australian University, Kuwait",
+      "country": "KW",
+      "value": 1393,
+      "detail": "27,241 citations"
+    },
+    {
+      "name": "American University of Kuwait",
+      "country": "KW",
+      "value": 1161,
+      "detail": "15,870 citations"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "KW",
+      "value": 479,
+      "detail": "6,726 citations"
+    },
+    {
+      "name": "Kuwait International Law School",
+      "country": "KW",
+      "value": 270,
+      "detail": "182 citations"
+    },
+    {
+      "name": "American International University Kuwait",
+      "country": "KW",
+      "value": 229,
+      "detail": "1,249 citations"
+    },
+    {
+      "name": "Kuwait Technical College",
+      "country": "KW",
+      "value": 161,
+      "detail": "1,142 citations"
+    },
+    {
+      "name": "American School of Kuwait",
+      "country": "KW",
+      "value": 31,
+      "detail": "526 citations"
+    }
+  ]
+}

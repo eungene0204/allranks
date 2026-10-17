@@ -1,0 +1,110 @@
+{
+  "id": "er-airports-by-elevation",
+  "title": "Highest Airports in Eritrea",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Eritrea ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ER",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.492Z",
+  "items": [
+    {
+      "name": "Adi Keyh Airfield",
+      "country": "ER",
+      "value": 2435.66,
+      "detail": "Adi Keyh · 7,991 ft above sea level"
+    },
+    {
+      "name": "Asmara International Airport",
+      "country": "ER",
+      "value": 2335.07,
+      "detail": "Asmara · 7,661 ft above sea level"
+    },
+    {
+      "name": "Gura Airfield",
+      "country": "ER",
+      "value": 1961.39,
+      "detail": "Gura · 6,435 ft above sea level"
+    },
+    {
+      "name": "Nakfa Airfield",
+      "country": "ER",
+      "value": 1725.17,
+      "detail": "Nakfa · 5,660 ft above sea level"
+    },
+    {
+      "name": "Keren Airfield",
+      "country": "ER",
+      "value": 1425.85,
+      "detail": "Keren · 4,678 ft above sea level"
+    },
+    {
+      "name": "Tessenei Airport",
+      "country": "ER",
+      "value": 615.09,
+      "detail": "Tessenei · 2,018 ft above sea level"
+    },
+    {
+      "name": "Omhajer Airport",
+      "country": "ER",
+      "value": 593.14,
+      "detail": "Omhajer · 1,946 ft above sea level"
+    },
+    {
+      "name": "Kerkebet Airfield",
+      "country": "ER",
+      "value": 391.06,
+      "detail": "Kerkebet · 1,283 ft above sea level"
+    },
+    {
+      "name": "Alghena Airfield",
+      "country": "ER",
+      "value": 384.66,
+      "detail": "Alghena · 1,262 ft above sea level"
+    },
+    {
+      "name": "Massawa International Airport",
+      "country": "ER",
+      "value": 59.13,
+      "detail": "Massawa · 194 ft above sea level"
+    },
+    {
+      "name": "Assab International Airport",
+      "country": "ER",
+      "value": 14.02,
+      "detail": "Assab · 46 ft above sea level"
+    },
+    {
+      "name": "Fatuma Airfield",
+      "country": "ER",
+      "value": 13.41,
+      "detail": "Mersa Fatuma · 44 ft above sea level"
+    },
+    {
+      "name": "Beilul Airfield",
+      "country": "ER",
+      "value": 4.57,
+      "detail": "Beilul · 15 ft above sea level"
+    },
+    {
+      "name": "Gulbub Airstrip",
+      "country": "ER",
+      "value": 3.96,
+      "detail": "Mersa Gulbub · 13 ft above sea level"
+    }
+  ]
+}

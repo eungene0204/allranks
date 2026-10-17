@@ -1,0 +1,56 @@
+{
+  "id": "to-longest-runways",
+  "title": "Longest Airport Runways in Tonga",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tonga ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Fua'amotu International Airport",
+      "country": "TO",
+      "value": 2680.72,
+      "detail": "Nuku'alofa · 8,795 ft · ASP"
+    },
+    {
+      "name": "Vava'u International Airport",
+      "country": "TO",
+      "value": 1704.75,
+      "detail": "Vava'u Island · 5,593 ft · BIT"
+    },
+    {
+      "name": "Lifuka Island Airport",
+      "country": "TO",
+      "value": 1200,
+      "detail": "Lifuka · 3,937 ft · BIT"
+    },
+    {
+      "name": "Mata'aho Airport",
+      "country": "TO",
+      "value": 1200,
+      "detail": "Angaha, Niuafo'ou Island · 3,937 ft · UNK"
+    },
+    {
+      "name": "Kaufana Airport",
+      "country": "TO",
+      "value": 807.72,
+      "detail": "Eua Island · 2,650 ft · ASP"
+    }
+  ]
+}

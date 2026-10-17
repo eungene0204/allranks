@@ -1,0 +1,104 @@
+{
+  "id": "jm-cities-by-elevation",
+  "title": "Highest Major Cities in Jamaica",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Jamaica with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.541Z",
+  "items": [
+    {
+      "name": "Mandeville",
+      "country": "JM",
+      "value": 609,
+      "detail": "47,115 people · Manchester"
+    },
+    {
+      "name": "Linstead",
+      "country": "JM",
+      "value": 119,
+      "detail": "20,660 people · Saint Catherine Parish"
+    },
+    {
+      "name": "New Kingston",
+      "country": "JM",
+      "value": 99,
+      "detail": "583,958 people · Saint Andrew Parish"
+    },
+    {
+      "name": "May Pen",
+      "country": "JM",
+      "value": 81,
+      "detail": "44,755 people · Clarendon"
+    },
+    {
+      "name": "Half Way Tree",
+      "country": "JM",
+      "value": 72,
+      "detail": "18,552 people · Saint Andrew Parish"
+    },
+    {
+      "name": "Kingston",
+      "country": "JM",
+      "value": 65,
+      "detail": "937,700 people · Kingston"
+    },
+    {
+      "name": "Barrett Town",
+      "country": "JM",
+      "value": 53,
+      "detail": "17,169 people · Saint James Parish"
+    },
+    {
+      "name": "Spanish Town",
+      "country": "JM",
+      "value": 31,
+      "detail": "145,018 people · Saint Catherine Parish"
+    },
+    {
+      "name": "Old Harbour",
+      "country": "JM",
+      "value": 30,
+      "detail": "26,024 people · Saint Catherine Parish"
+    },
+    {
+      "name": "Montego Bay",
+      "country": "JM",
+      "value": 12,
+      "detail": "82,867 people · Saint James Parish"
+    },
+    {
+      "name": "Portmore",
+      "country": "JM",
+      "value": 7,
+      "detail": "102,861 people · Saint Catherine Parish"
+    },
+    {
+      "name": "Savanna-la-Mar",
+      "country": "JM",
+      "value": 7,
+      "detail": "16,553 people · Westmoreland"
+    },
+    {
+      "name": "Ocho Rios",
+      "country": "JM",
+      "value": 6,
+      "detail": "26,503 people · Saint Ann Parish"
+    }
+  ]
+}

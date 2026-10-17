@@ -1,0 +1,110 @@
+{
+  "id": "sl-cities-by-elevation",
+  "title": "Highest Major Cities in Sierra Leone",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Sierra Leone with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.563Z",
+  "items": [
+    {
+      "name": "Kabala",
+      "country": "SL",
+      "value": 433,
+      "detail": "17,948 people · Northern Province"
+    },
+    {
+      "name": "Koidu",
+      "country": "SL",
+      "value": 381,
+      "detail": "128,030 people · Eastern Province"
+    },
+    {
+      "name": "Kenema",
+      "country": "SL",
+      "value": 182,
+      "detail": "255,110 people · Eastern Province"
+    },
+    {
+      "name": "Segbwema",
+      "country": "SL",
+      "value": 180,
+      "detail": "16,532 people · Eastern Province"
+    },
+    {
+      "name": "Bo",
+      "country": "SL",
+      "value": 104,
+      "detail": "233,684 people · Southern Province"
+    },
+    {
+      "name": "Makeni",
+      "country": "SL",
+      "value": 93,
+      "detail": "85,116 people · Northern Province"
+    },
+    {
+      "name": "Mile 91",
+      "country": "SL",
+      "value": 77,
+      "detail": "15,491 people · Northern Province"
+    },
+    {
+      "name": "Njala",
+      "country": "SL",
+      "value": 67,
+      "detail": "40,000 people · Southern Province"
+    },
+    {
+      "name": "Lunsar",
+      "country": "SL",
+      "value": 64,
+      "detail": "22,461 people · Northern Province"
+    },
+    {
+      "name": "Port Loko",
+      "country": "SL",
+      "value": 51,
+      "detail": "44,900 people · North West"
+    },
+    {
+      "name": "Bumpe",
+      "country": "SL",
+      "value": 38,
+      "detail": "16,123 people · Southern Province"
+    },
+    {
+      "name": "Freetown",
+      "country": "SL",
+      "value": 38,
+      "detail": "802,639 people · Western Area"
+    },
+    {
+      "name": "Waterloo",
+      "country": "SL",
+      "value": 23,
+      "detail": "55,000 people · Western Area"
+    },
+    {
+      "name": "Goderich",
+      "country": "SL",
+      "value": 10,
+      "detail": "19,209 people · Western Area"
+    }
+  ]
+}

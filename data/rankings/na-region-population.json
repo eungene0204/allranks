@@ -1,0 +1,109 @@
+{
+  "id": "na-region-population",
+  "title": "Namibia Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Namibia ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NA",
+  "year": 2023,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-17T13:26:29.987Z",
+  "items": [
+    {
+      "name": "Khomas",
+      "country": "NA",
+      "value": 342141,
+      "detail": "2011"
+    },
+    {
+      "name": "Ohangwena",
+      "country": "NA",
+      "value": 245446,
+      "detail": "2011"
+    },
+    {
+      "name": "Omusati",
+      "country": "NA",
+      "value": 243166,
+      "detail": "2011"
+    },
+    {
+      "name": "Kavango East",
+      "country": "NA",
+      "value": 218421,
+      "detail": "2023"
+    },
+    {
+      "name": "Oshikoto",
+      "country": "NA",
+      "value": 181973,
+      "detail": "2011"
+    },
+    {
+      "name": "Oshana",
+      "country": "NA",
+      "value": 176674,
+      "detail": "2011"
+    },
+    {
+      "name": "Erongo",
+      "country": "NA",
+      "value": 150809,
+      "detail": "2011"
+    },
+    {
+      "name": "Otjozondjupa",
+      "country": "NA",
+      "value": 143903,
+      "detail": "2011"
+    },
+    {
+      "name": "Kavango West",
+      "country": "NA",
+      "value": 123266,
+      "detail": "2023"
+    },
+    {
+      "name": "Karas",
+      "country": "NA",
+      "value": 109893,
+      "detail": "2023"
+    },
+    {
+      "name": "Zambezi",
+      "country": "NA",
+      "value": 90596,
+      "detail": "2011"
+    },
+    {
+      "name": "Kunene",
+      "country": "NA",
+      "value": 86856,
+      "detail": "2011"
+    },
+    {
+      "name": "Hardap",
+      "country": "NA",
+      "value": 79507,
+      "detail": "2011"
+    },
+    {
+      "name": "Omaheke",
+      "country": "NA",
+      "value": 71233,
+      "detail": "2011"
+    }
+  ]
+}

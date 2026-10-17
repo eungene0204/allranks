@@ -1,0 +1,170 @@
+{
+  "id": "ee-research-publications",
+  "title": "Universities by Research Publications in Estonia",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:43.061Z",
+  "items": [
+    {
+      "name": "University of Tartu",
+      "country": "EE",
+      "value": 48313,
+      "detail": "4,606,765 citations"
+    },
+    {
+      "name": "Tallinn University of Technology",
+      "country": "EE",
+      "value": 23524,
+      "detail": "889,156 citations"
+    },
+    {
+      "name": "Estonian University of Life Sciences",
+      "country": "EE",
+      "value": 8249,
+      "detail": "430,795 citations"
+    },
+    {
+      "name": "Tallinn University",
+      "country": "EE",
+      "value": 7061,
+      "detail": "147,001 citations"
+    },
+    {
+      "name": "Estonian Business School",
+      "country": "EE",
+      "value": 673,
+      "detail": "7,946 citations"
+    },
+    {
+      "name": "Estonian Academy of Arts",
+      "country": "EE",
+      "value": 303,
+      "detail": "1,858 citations"
+    },
+    {
+      "name": "Estonian Academy of Security Sciences",
+      "country": "EE",
+      "value": 258,
+      "detail": "664 citations"
+    },
+    {
+      "name": "Estonian Entrepreneurship University of Applied Sciences",
+      "country": "EE",
+      "value": 228,
+      "detail": "2,580 citations"
+    },
+    {
+      "name": "Estonian Academy of Music and Theatre",
+      "country": "EE",
+      "value": 200,
+      "detail": "1,350 citations"
+    },
+    {
+      "name": "Tallinn University of Applied Sciences",
+      "country": "EE",
+      "value": 193,
+      "detail": "1,030 citations"
+    },
+    {
+      "name": "Estonian National Defense College",
+      "country": "EE",
+      "value": 175,
+      "detail": "1,541 citations"
+    },
+    {
+      "name": "Tallinn Health University of Applied Sciences",
+      "country": "EE",
+      "value": 157,
+      "detail": "1,416 citations"
+    },
+    {
+      "name": "Tartu Health Care College",
+      "country": "EE",
+      "value": 132,
+      "detail": "1,826 citations"
+    },
+    {
+      "name": "Estonian Aviation Academy",
+      "country": "EE",
+      "value": 65,
+      "detail": "504 citations"
+    },
+    {
+      "name": "EuroAcademy",
+      "country": "EE",
+      "value": 48,
+      "detail": "325 citations"
+    },
+    {
+      "name": "Estonian Information Technology College",
+      "country": "EE",
+      "value": 28,
+      "detail": "274 citations"
+    },
+    {
+      "name": "Institute of Theology of Estonian Evangelical Lutheran Church",
+      "country": "EE",
+      "value": 17,
+      "detail": "11 citations"
+    },
+    {
+      "name": "Tartu Art College",
+      "country": "EE",
+      "value": 15,
+      "detail": "65 citations"
+    },
+    {
+      "name": "Informaatika ja Arvutustehnika Instituut",
+      "country": "EE",
+      "value": 9,
+      "detail": "10 citations"
+    },
+    {
+      "name": "Baltic Methodist Theological Seminary",
+      "country": "EE",
+      "value": 8,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Tartu Theological Seminary",
+      "country": "EE",
+      "value": 8,
+      "detail": "1 citations"
+    },
+    {
+      "name": "Lääne-Viru College",
+      "country": "EE",
+      "value": 6,
+      "detail": "8 citations"
+    },
+    {
+      "name": "Võru County Vocational Training Centre",
+      "country": "EE",
+      "value": 4,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Tartu Academy of Theology",
+      "country": "EE",
+      "value": 1,
+      "detail": "0 citations"
+    }
+  ]
+}

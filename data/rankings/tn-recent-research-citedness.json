@@ -1,0 +1,326 @@
+{
+  "id": "tn-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Tunisia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:40.476Z",
+  "items": [
+    {
+      "name": "Institut Supérieur des Études Technologiques de Nabeul",
+      "country": "TN",
+      "value": 9.1,
+      "detail": "302 works"
+    },
+    {
+      "name": "Institut Supérieur du Sport et de l’Éducation Physique de Sfax",
+      "country": "TN",
+      "value": 7.1368,
+      "detail": "1,082 works"
+    },
+    {
+      "name": "Université Centrale de Tunis",
+      "country": "TN",
+      "value": 6.8519,
+      "detail": "63 works"
+    },
+    {
+      "name": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
+      "country": "TN",
+      "value": 5.3905,
+      "detail": "553 works"
+    },
+    {
+      "name": "Institut Supérieur de Biotechnologie de Sfax",
+      "country": "TN",
+      "value": 4.1026,
+      "detail": "537 works"
+    },
+    {
+      "name": "École Nationale d'Ingénieurs de Gabès",
+      "country": "TN",
+      "value": 4.0471,
+      "detail": "2,278 works"
+    },
+    {
+      "name": "University of Jendouba",
+      "country": "TN",
+      "value": 4.0433,
+      "detail": "3,525 works"
+    },
+    {
+      "name": "National School of Electronics and Telecommunications of Sfax, Tunisia",
+      "country": "TN",
+      "value": 4.0014,
+      "detail": "1,060 works"
+    },
+    {
+      "name": "École Supérieure des Communications de Tunis",
+      "country": "TN",
+      "value": 3.9448,
+      "detail": "1,914 works"
+    },
+    {
+      "name": "Faculty of Sciences of Sfax",
+      "country": "TN",
+      "value": 3.813,
+      "detail": "11,223 works"
+    },
+    {
+      "name": "Institut Supérieur des Technologies de l'Information et de la Communication",
+      "country": "TN",
+      "value": 3.7844,
+      "detail": "240 works"
+    },
+    {
+      "name": "Institut Supérieur d'Informatique et des Technologies de Communication de Hammam Sousse",
+      "country": "TN",
+      "value": 3.6795,
+      "detail": "1,243 works"
+    },
+    {
+      "name": "University of Gabès",
+      "country": "TN",
+      "value": 3.4037,
+      "detail": "10,129 works"
+    },
+    {
+      "name": "Faculty of Economics and Management of Sfax",
+      "country": "TN",
+      "value": 3.2776,
+      "detail": "3,773 works"
+    },
+    {
+      "name": "University of Gafsa",
+      "country": "TN",
+      "value": 3.1276,
+      "detail": "3,090 works"
+    },
+    {
+      "name": "Institut Supérieur des Études Technologiques de Gafsa",
+      "country": "TN",
+      "value": 3.0435,
+      "detail": "110 works"
+    },
+    {
+      "name": "University of Sfax",
+      "country": "TN",
+      "value": 3.0135,
+      "detail": "43,739 works"
+    },
+    {
+      "name": "Université Tunis Carthage",
+      "country": "TN",
+      "value": 2.9519,
+      "detail": "3,613 works"
+    },
+    {
+      "name": "Institut préparatoire aux études d'ingénieurs de Sfax",
+      "country": "TN",
+      "value": 2.9394,
+      "detail": "419 works"
+    },
+    {
+      "name": "Mediterranean School of Business",
+      "country": "TN",
+      "value": 2.8736,
+      "detail": "119 works"
+    },
+    {
+      "name": "Manouba University",
+      "country": "TN",
+      "value": 2.8089,
+      "detail": "9,373 works"
+    },
+    {
+      "name": "ENSIT",
+      "country": "TN",
+      "value": 2.8018,
+      "detail": "2,347 works"
+    },
+    {
+      "name": "National School of Computer Science",
+      "country": "TN",
+      "value": 2.7695,
+      "detail": "3,064 works"
+    },
+    {
+      "name": "University of Monastir",
+      "country": "TN",
+      "value": 2.6828,
+      "detail": "27,341 works"
+    },
+    {
+      "name": "University of Carthage",
+      "country": "TN",
+      "value": 2.5547,
+      "detail": "21,778 works"
+    },
+    {
+      "name": "Institut Supérieur des Etudes Technologiques de Zaghouan",
+      "country": "TN",
+      "value": 2.5333,
+      "detail": "47 works"
+    },
+    {
+      "name": "National Engineering School of Tunis",
+      "country": "TN",
+      "value": 2.5156,
+      "detail": "10,404 works"
+    },
+    {
+      "name": "University of Kairouan",
+      "country": "TN",
+      "value": 2.504,
+      "detail": "3,209 works"
+    },
+    {
+      "name": "South Mediterranean University",
+      "country": "TN",
+      "value": 2.4272,
+      "detail": "252 works"
+    },
+    {
+      "name": "Tunisia Polytechnic School",
+      "country": "TN",
+      "value": 2.3561,
+      "detail": "1,996 works"
+    },
+    {
+      "name": "Higher Institute of Food Industries of Tunis",
+      "country": "TN",
+      "value": 2.3465,
+      "detail": "419 works"
+    },
+    {
+      "name": "Institut National Agronomique de Tunisie",
+      "country": "TN",
+      "value": 2.0089,
+      "detail": "3,624 works"
+    },
+    {
+      "name": "Institut Supérieur des Études Technologiques en Communications de Tunis",
+      "country": "TN",
+      "value": 2,
+      "detail": "101 works"
+    },
+    {
+      "name": "Institut Supérieur de Gestion de Tunis",
+      "country": "TN",
+      "value": 1.9947,
+      "detail": "1,650 works"
+    },
+    {
+      "name": "Tunis University",
+      "country": "TN",
+      "value": 1.9593,
+      "detail": "33,424 works"
+    },
+    {
+      "name": "Military Academy, Tunisia",
+      "country": "TN",
+      "value": 1.8636,
+      "detail": "241 works"
+    },
+    {
+      "name": "Virtual University of Tunis",
+      "country": "TN",
+      "value": 1.75,
+      "detail": "212 works"
+    },
+    {
+      "name": "University of Sousse",
+      "country": "TN",
+      "value": 1.7396,
+      "detail": "17,532 works"
+    },
+    {
+      "name": "Tunis El Manar University",
+      "country": "TN",
+      "value": 1.6783,
+      "detail": "39,421 works"
+    },
+    {
+      "name": "Institut Supérieur des Métiers du Patrimoine de Tunis",
+      "country": "TN",
+      "value": 1.625,
+      "detail": "24 works"
+    },
+    {
+      "name": "École Supérieure Privée d'Ingénierie et de Technologies",
+      "country": "TN",
+      "value": 1.4846,
+      "detail": "478 works"
+    },
+    {
+      "name": "Mateur Higher School of Agriculture",
+      "country": "TN",
+      "value": 1.4556,
+      "detail": "279 works"
+    },
+    {
+      "name": "Tunisia Private University",
+      "country": "TN",
+      "value": 1.36,
+      "detail": "81 works"
+    },
+    {
+      "name": "Institut des Hautes Études de Tunis",
+      "country": "TN",
+      "value": 1.2222,
+      "detail": "46 works"
+    },
+    {
+      "name": "Université Ibn Khaldoun",
+      "country": "TN",
+      "value": 0.708,
+      "detail": "238 works"
+    },
+    {
+      "name": "Institut Supérieur des Arts et Métiers de Sfax",
+      "country": "TN",
+      "value": 0.6136,
+      "detail": "76 works"
+    },
+    {
+      "name": "Université Arabe des Sciences",
+      "country": "TN",
+      "value": 0.5,
+      "detail": "28 works"
+    },
+    {
+      "name": "Institut Supérieur des Etudes Technologiques de Tozeur",
+      "country": "TN",
+      "value": 0.3333,
+      "detail": "15 works"
+    },
+    {
+      "name": "École Supérieure des Ingénieurs de l'Équipement Rural",
+      "country": "TN",
+      "value": 0.3043,
+      "detail": "120 works"
+    },
+    {
+      "name": "Ez-Zitouna University",
+      "country": "TN",
+      "value": 0.2863,
+      "detail": "494 works"
+    }
+  ]
+}

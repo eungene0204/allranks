@@ -1,0 +1,326 @@
+{
+  "id": "it-research-publications",
+  "title": "Universities by Research Publications in Italy",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:56.912Z",
+  "items": [
+    {
+      "name": "University of Milan",
+      "country": "IT",
+      "value": 406388,
+      "detail": "21,860,329 citations"
+    },
+    {
+      "name": "Sapienza University of Rome",
+      "country": "IT",
+      "value": 281707,
+      "detail": "24,752,905 citations"
+    },
+    {
+      "name": "Politecnico di Milano",
+      "country": "IT",
+      "value": 258224,
+      "detail": "6,164,475 citations"
+    },
+    {
+      "name": "University of Bologna",
+      "country": "IT",
+      "value": 230193,
+      "detail": "21,102,052 citations"
+    },
+    {
+      "name": "University of Padua",
+      "country": "IT",
+      "value": 221110,
+      "detail": "22,042,928 citations"
+    },
+    {
+      "name": "University of Naples Federico II",
+      "country": "IT",
+      "value": 179762,
+      "detail": "16,054,438 citations"
+    },
+    {
+      "name": "University of Turin",
+      "country": "IT",
+      "value": 168002,
+      "detail": "15,186,787 citations"
+    },
+    {
+      "name": "University of Florence",
+      "country": "IT",
+      "value": 154393,
+      "detail": "12,231,492 citations"
+    },
+    {
+      "name": "University of Pisa",
+      "country": "IT",
+      "value": 141716,
+      "detail": "13,762,467 citations"
+    },
+    {
+      "name": "University of Genoa",
+      "country": "IT",
+      "value": 110993,
+      "detail": "9,226,898 citations"
+    },
+    {
+      "name": "University of Rome Tor Vergata",
+      "country": "IT",
+      "value": 100119,
+      "detail": "8,807,158 citations"
+    },
+    {
+      "name": "University of Pavia",
+      "country": "IT",
+      "value": 96687,
+      "detail": "8,885,602 citations"
+    },
+    {
+      "name": "University of Bari Aldo Moro",
+      "country": "IT",
+      "value": 85929,
+      "detail": "7,502,708 citations"
+    },
+    {
+      "name": "University of Palermo",
+      "country": "IT",
+      "value": 85035,
+      "detail": "5,260,274 citations"
+    },
+    {
+      "name": "Università Cattolica del Sacro Cuore",
+      "country": "IT",
+      "value": 84475,
+      "detail": "6,945,026 citations"
+    },
+    {
+      "name": "Politecnico di Torino",
+      "country": "IT",
+      "value": 83860,
+      "detail": "3,801,001 citations"
+    },
+    {
+      "name": "University of Catania",
+      "country": "IT",
+      "value": 80292,
+      "detail": "5,677,579 citations"
+    },
+    {
+      "name": "University of Milano-Bicocca",
+      "country": "IT",
+      "value": 77144,
+      "detail": "6,472,518 citations"
+    },
+    {
+      "name": "University of Perugia",
+      "country": "IT",
+      "value": 70274,
+      "detail": "7,650,235 citations"
+    },
+    {
+      "name": "University of Parma",
+      "country": "IT",
+      "value": 66690,
+      "detail": "5,298,584 citations"
+    },
+    {
+      "name": "University of Modena and Reggio Emilia",
+      "country": "IT",
+      "value": 65634,
+      "detail": "5,264,273 citations"
+    },
+    {
+      "name": "University of Verona",
+      "country": "IT",
+      "value": 63130,
+      "detail": "6,273,365 citations"
+    },
+    {
+      "name": "University of Trento",
+      "country": "IT",
+      "value": 61192,
+      "detail": "4,249,208 citations"
+    },
+    {
+      "name": "University of Siena",
+      "country": "IT",
+      "value": 60674,
+      "detail": "5,660,174 citations"
+    },
+    {
+      "name": "University of Trieste",
+      "country": "IT",
+      "value": 59782,
+      "detail": "5,063,190 citations"
+    },
+    {
+      "name": "University of Ferrara",
+      "country": "IT",
+      "value": 57055,
+      "detail": "5,387,496 citations"
+    },
+    {
+      "name": "University of Messina",
+      "country": "IT",
+      "value": 56929,
+      "detail": "4,058,677 citations"
+    },
+    {
+      "name": "University of Campania \"Luigi Vanvitelli\"",
+      "country": "IT",
+      "value": 56900,
+      "detail": "4,691,392 citations"
+    },
+    {
+      "name": "University of Salerno",
+      "country": "IT",
+      "value": 56650,
+      "detail": "4,196,196 citations"
+    },
+    {
+      "name": "University of Cagliari",
+      "country": "IT",
+      "value": 54681,
+      "detail": "4,026,614 citations"
+    },
+    {
+      "name": "University of Brescia",
+      "country": "IT",
+      "value": 48807,
+      "detail": "4,196,352 citations"
+    },
+    {
+      "name": "University of L'Aquila",
+      "country": "IT",
+      "value": 44262,
+      "detail": "2,551,636 citations"
+    },
+    {
+      "name": "University of Calabria",
+      "country": "IT",
+      "value": 42821,
+      "detail": "3,463,721 citations"
+    },
+    {
+      "name": "University of Udine",
+      "country": "IT",
+      "value": 41754,
+      "detail": "3,371,193 citations"
+    },
+    {
+      "name": "Roma Tre University",
+      "country": "IT",
+      "value": 41263,
+      "detail": "2,371,960 citations"
+    },
+    {
+      "name": "Marche Polytechnic University",
+      "country": "IT",
+      "value": 41017,
+      "detail": "2,888,077 citations"
+    },
+    {
+      "name": "University of Chieti-Pescara",
+      "country": "IT",
+      "value": 37212,
+      "detail": "2,990,528 citations"
+    },
+    {
+      "name": "Ca' Foscari University of Venice",
+      "country": "IT",
+      "value": 32913,
+      "detail": "923,988 citations"
+    },
+    {
+      "name": "Vita-Salute San Raffaele University",
+      "country": "IT",
+      "value": 32633,
+      "detail": "3,328,654 citations"
+    },
+    {
+      "name": "University of Salento",
+      "country": "IT",
+      "value": 32392,
+      "detail": "2,184,556 citations"
+    },
+    {
+      "name": "University of Sassari",
+      "country": "IT",
+      "value": 29878,
+      "detail": "2,122,449 citations"
+    },
+    {
+      "name": "University of Insubria",
+      "country": "IT",
+      "value": 28000,
+      "detail": "1,997,432 citations"
+    },
+    {
+      "name": "Università degli Studi del Piemonte Orientale “Amedeo Avogadro”",
+      "country": "IT",
+      "value": 25326,
+      "detail": "2,102,870 citations"
+    },
+    {
+      "name": "Scuola Internazionale Superiore di Studi Avanzati",
+      "country": "IT",
+      "value": 21584,
+      "detail": "2,404,679 citations"
+    },
+    {
+      "name": "Polytechnic University of Bari",
+      "country": "IT",
+      "value": 21243,
+      "detail": "2,234,783 citations"
+    },
+    {
+      "name": "Scuola Normale Superiore",
+      "country": "IT",
+      "value": 20943,
+      "detail": "3,246,035 citations"
+    },
+    {
+      "name": "Bocconi University",
+      "country": "IT",
+      "value": 20565,
+      "detail": "874,296 citations"
+    },
+    {
+      "name": "Scuola Superiore Sant'Anna",
+      "country": "IT",
+      "value": 20478,
+      "detail": "1,287,318 citations"
+    },
+    {
+      "name": "Magna Graecia University",
+      "country": "IT",
+      "value": 20274,
+      "detail": "1,705,060 citations"
+    },
+    {
+      "name": "Università di Camerino",
+      "country": "IT",
+      "value": 20251,
+      "detail": "1,396,844 citations"
+    }
+  ]
+}

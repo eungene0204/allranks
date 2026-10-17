@@ -1,0 +1,56 @@
+{
+  "id": "bi-airports-by-elevation",
+  "title": "Highest Airports in Burundi",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Burundi ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.456Z",
+  "items": [
+    {
+      "name": "Gitega Airport",
+      "country": "BI",
+      "value": 1749.86,
+      "detail": "Gitega · 5,741 ft above sea level"
+    },
+    {
+      "name": "Ruyigi Airport",
+      "country": "BI",
+      "value": 1583.13,
+      "detail": "Ruyigi · 5,194 ft above sea level"
+    },
+    {
+      "name": "Kirundo Airport",
+      "country": "BI",
+      "value": 1374.95,
+      "detail": "Kirundo · 4,511 ft above sea level"
+    },
+    {
+      "name": "Gihohi Airport",
+      "country": "BI",
+      "value": 1239.01,
+      "detail": "Gihohi · 4,065 ft above sea level"
+    },
+    {
+      "name": "Bujumbura Melchior Ndadaye International Airport",
+      "country": "BI",
+      "value": 786.99,
+      "detail": "Bujumbura · 2,582 ft above sea level"
+    }
+  ]
+}

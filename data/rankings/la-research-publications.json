@@ -1,0 +1,86 @@
+{
+  "id": "la-research-publications",
+  "title": "Universities by Research Publications in Laos",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:03.285Z",
+  "items": [
+    {
+      "name": "National University of Laos",
+      "country": "LA",
+      "value": 2819,
+      "detail": "31,950 citations"
+    },
+    {
+      "name": "Souphanouvong University",
+      "country": "LA",
+      "value": 703,
+      "detail": "1,231 citations"
+    },
+    {
+      "name": "University of Health Sciences Vientiane",
+      "country": "LA",
+      "value": 631,
+      "detail": "22,405 citations"
+    },
+    {
+      "name": "Savannakhet University",
+      "country": "LA",
+      "value": 194,
+      "detail": "1,036 citations"
+    },
+    {
+      "name": "Champasack University",
+      "country": "LA",
+      "value": 159,
+      "detail": "401 citations"
+    },
+    {
+      "name": "Pakse Teacher Training College",
+      "country": "LA",
+      "value": 20,
+      "detail": "59 citations"
+    },
+    {
+      "name": "Luangnamtha Teacher Training College",
+      "country": "LA",
+      "value": 19,
+      "detail": "58 citations"
+    },
+    {
+      "name": "Savannakhet Teacher Training College",
+      "country": "LA",
+      "value": 16,
+      "detail": "387 citations"
+    },
+    {
+      "name": "Banking Institute of Laos",
+      "country": "LA",
+      "value": 6,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Rattana Institute of Business Administration",
+      "country": "LA",
+      "value": 5,
+      "detail": "4 citations"
+    }
+  ]
+}

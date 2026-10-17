@@ -1,0 +1,62 @@
+{
+  "id": "sl-research-publications",
+  "title": "Universities by Research Publications in Sierra Leone",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:33.430Z",
+  "items": [
+    {
+      "name": "University of Sierra Leone",
+      "country": "SL",
+      "value": 2523,
+      "detail": "71,707 citations"
+    },
+    {
+      "name": "Njala University",
+      "country": "SL",
+      "value": 1825,
+      "detail": "31,633 citations"
+    },
+    {
+      "name": "University of Makeni",
+      "country": "SL",
+      "value": 273,
+      "detail": "7,305 citations"
+    },
+    {
+      "name": "Eastern Technical University of Sierra Leone",
+      "country": "SL",
+      "value": 208,
+      "detail": "6,697 citations"
+    },
+    {
+      "name": "University of Management and Technology",
+      "country": "SL",
+      "value": 95,
+      "detail": "313 citations"
+    },
+    {
+      "name": "Freetown Polytechnic",
+      "country": "SL",
+      "value": 31,
+      "detail": "21 citations"
+    }
+  ]
+}

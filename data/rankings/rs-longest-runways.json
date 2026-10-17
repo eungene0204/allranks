@@ -1,0 +1,134 @@
+{
+  "id": "rs-longest-runways",
+  "title": "Longest Airport Runways in Serbia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Serbia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.541Z",
+  "items": [
+    {
+      "name": "Belgrade Nikola Tesla Airport",
+      "country": "RS",
+      "value": 3500.02,
+      "detail": "Belgrade · 11,483 ft · ASPH"
+    },
+    {
+      "name": "Ponikve Airport",
+      "country": "RS",
+      "value": 3087.62,
+      "detail": "Stapari · 10,130 ft · ASP"
+    },
+    {
+      "name": "Niš Constantine the Great Airport",
+      "country": "RS",
+      "value": 2499.97,
+      "detail": "Niš · 8,202 ft · ASP"
+    },
+    {
+      "name": "Batajnica Air Base",
+      "country": "RS",
+      "value": 2493.57,
+      "detail": "Zemun · 8,181 ft · ASP"
+    },
+    {
+      "name": "Morava Airport",
+      "country": "RS",
+      "value": 2264.97,
+      "detail": "Kraljevo · 7,431 ft · asphalt"
+    },
+    {
+      "name": "Kovin Airstrip",
+      "country": "RS",
+      "value": 2183.89,
+      "detail": "Kovin · 7,165 ft · ASP"
+    },
+    {
+      "name": "Valjevo Divci Airfield",
+      "country": "RS",
+      "value": 1249.68,
+      "detail": "Divci, Valjevo · 4,100 ft · Grass"
+    },
+    {
+      "name": "Rosulje Airfield",
+      "country": "RS",
+      "value": 1219.2,
+      "detail": "Kruševac · 4,000 ft"
+    },
+    {
+      "name": "Subotica / Bikovo Sport Aerodrome",
+      "country": "RS",
+      "value": 1199.08,
+      "detail": "Bikovo · 3,934 ft · grass"
+    },
+    {
+      "name": "Sremska Mitrovica / Veliki Radinci Airfield",
+      "country": "RS",
+      "value": 1104.9,
+      "detail": "Veliki Radinci · 3,625 ft · grass"
+    },
+    {
+      "name": "Leskovac / Mira Sport Airfield",
+      "country": "RS",
+      "value": 1100.02,
+      "detail": "Leskovac · 3,609 ft · GRE"
+    },
+    {
+      "name": "Bor Airport",
+      "country": "RS",
+      "value": 1085.7,
+      "detail": "Bor · 3,562 ft · ASP"
+    },
+    {
+      "name": "Lisičji Jarak Airfield",
+      "country": "RS",
+      "value": 1000.05,
+      "detail": "Palilula · 3,281 ft · grass"
+    },
+    {
+      "name": "Vršac Airfield",
+      "country": "RS",
+      "value": 999.74,
+      "detail": "Vršac · 3,280 ft · ASP"
+    },
+    {
+      "name": "Kikinda Airfield",
+      "country": "RS",
+      "value": 900.07,
+      "detail": "Kikinda · 2,953 ft · grass"
+    },
+    {
+      "name": "Zemun Polje 13 May Airfield",
+      "country": "RS",
+      "value": 650.14,
+      "detail": "Zemun Polje · 2,133 ft · grass"
+    },
+    {
+      "name": "Čačak-Preljina Airfield",
+      "country": "RS",
+      "value": 649.22,
+      "detail": "Čačak · 2,130 ft · GRS"
+    },
+    {
+      "name": "Bogatić Airfield",
+      "country": "RS",
+      "value": 399.9,
+      "detail": "Bogatić · 1,312 ft · G"
+    }
+  ]
+}

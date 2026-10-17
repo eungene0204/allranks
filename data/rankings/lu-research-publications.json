@@ -1,0 +1,86 @@
+{
+  "id": "lu-research-publications",
+  "title": "Universities by Research Publications in Luxembourg",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LU",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:06.454Z",
+  "items": [
+    {
+      "name": "University of Luxembourg",
+      "country": "LU",
+      "value": 70194,
+      "detail": "1,626,221 citations"
+    },
+    {
+      "name": "Interdisciplinary Centre for Security, Reliability and Trust",
+      "country": "LU",
+      "value": 6047,
+      "detail": "255,726 citations"
+    },
+    {
+      "name": "Luxembourg Centre for Systems Biomedicine",
+      "country": "LU",
+      "value": 3433,
+      "detail": "433,259 citations"
+    },
+    {
+      "name": "Luxembourg Centre for Contemporary and Digital History",
+      "country": "LU",
+      "value": 2804,
+      "detail": "1,920 citations"
+    },
+    {
+      "name": "LUNEX",
+      "country": "LU",
+      "value": 477,
+      "detail": "7,902 citations"
+    },
+    {
+      "name": "Luxembourg School of Business",
+      "country": "LU",
+      "value": 158,
+      "detail": "2,559 citations"
+    },
+    {
+      "name": "Luxembourg Centre for European Law",
+      "country": "LU",
+      "value": 144,
+      "detail": "337 citations"
+    },
+    {
+      "name": "Sacred Heart University",
+      "country": "LU",
+      "value": 58,
+      "detail": "959 citations"
+    },
+    {
+      "name": "Luxembourg Centre for Socio-Environmental Systems",
+      "country": "LU",
+      "value": 16,
+      "detail": "17 citations"
+    },
+    {
+      "name": "Miami University Dolibois European Center",
+      "country": "LU",
+      "value": 9,
+      "detail": "18 citations"
+    }
+  ]
+}

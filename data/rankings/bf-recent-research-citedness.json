@@ -1,0 +1,74 @@
+{
+  "id": "bf-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Burkina Faso",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BF",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:27.273Z",
+  "items": [
+    {
+      "name": "International Institute for Water and Environmental Engineering",
+      "country": "BF",
+      "value": 3.944,
+      "detail": "872 works"
+    },
+    {
+      "name": "Université Daniel Ouezzin Coulibaly",
+      "country": "BF",
+      "value": 2.7966,
+      "detail": "1,069 works"
+    },
+    {
+      "name": "Nazi Boni University",
+      "country": "BF",
+      "value": 1.0908,
+      "detail": "3,725 works"
+    },
+    {
+      "name": "Université Joseph Ki-Zerbo",
+      "country": "BF",
+      "value": 1.0776,
+      "detail": "11,009 works"
+    },
+    {
+      "name": "Université Catholique de l'Afrique de l'Ouest - Unité Universitaire de Bobo Dioulasso",
+      "country": "BF",
+      "value": 0.7353,
+      "detail": "64 works"
+    },
+    {
+      "name": "University of Koudougou",
+      "country": "BF",
+      "value": 0.6827,
+      "detail": "1,389 works"
+    },
+    {
+      "name": "Université Aube Nouvelle",
+      "country": "BF",
+      "value": 0.5854,
+      "detail": "239 works"
+    },
+    {
+      "name": "Université Ouaga II",
+      "country": "BF",
+      "value": 0.234,
+      "detail": "359 works"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "es-cities-by-elevation",
+  "title": "Highest Major Cities in Spain",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Spain with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ES",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.528Z",
+  "items": [
+    {
+      "name": "Ávila",
+      "country": "ES",
+      "value": 1127,
+      "detail": "57,657 people · Castille and León"
+    },
+    {
+      "name": "Soria",
+      "country": "ES",
+      "value": 1064,
+      "detail": "39,112 people · Castille and León"
+    },
+    {
+      "name": "San Lorenzo de El Escorial",
+      "country": "ES",
+      "value": 1049,
+      "detail": "17,889 people · Madrid"
+    },
+    {
+      "name": "Segovia",
+      "country": "ES",
+      "value": 996,
+      "detail": "51,683 people · Castille and León"
+    },
+    {
+      "name": "Béjar",
+      "country": "ES",
+      "value": 946,
+      "detail": "15,007 people · Castille and León"
+    },
+    {
+      "name": "Cuenca",
+      "country": "ES",
+      "value": 941,
+      "detail": "54,898 people · Castille-La Mancha"
+    },
+    {
+      "name": "Guadix",
+      "country": "ES",
+      "value": 927,
+      "detail": "18,718 people · Andalusia"
+    },
+    {
+      "name": "Alcalá la Real",
+      "country": "ES",
+      "value": 918,
+      "detail": "22,783 people · Andalusia"
+    },
+    {
+      "name": "El Escorial",
+      "country": "ES",
+      "value": 917,
+      "detail": "15,842 people · Madrid"
+    },
+    {
+      "name": "Teruel",
+      "country": "ES",
+      "value": 908,
+      "detail": "36,240 people · Aragon"
+    },
+    {
+      "name": "San Bartolomé de Tirajana",
+      "country": "ES",
+      "value": 902,
+      "detail": "53,588 people · Canary Islands"
+    },
+    {
+      "name": "Villaquilambre",
+      "country": "ES",
+      "value": 893,
+      "detail": "17,013 people · Castille and León"
+    },
+    {
+      "name": "Colmenar Viejo",
+      "country": "ES",
+      "value": 889,
+      "detail": "43,700 people · Madrid"
+    },
+    {
+      "name": "Collado-Villalba",
+      "country": "ES",
+      "value": 884,
+      "detail": "63,074 people · Madrid"
+    },
+    {
+      "name": "Galapagar",
+      "country": "ES",
+      "value": 883,
+      "detail": "31,820 people · Madrid"
+    },
+    {
+      "name": "Gamonal",
+      "country": "ES",
+      "value": 867,
+      "detail": "60,000 people · Castille and León"
+    },
+    {
+      "name": "Burgos",
+      "country": "ES",
+      "value": 863,
+      "detail": "176,418 people · Castille and León"
+    },
+    {
+      "name": "Torrelodones",
+      "country": "ES",
+      "value": 856,
+      "detail": "21,781 people · Madrid"
+    },
+    {
+      "name": "San Andrés del Rabanedo",
+      "country": "ES",
+      "value": 852,
+      "detail": "30,820 people · Castille and León"
+    },
+    {
+      "name": "León",
+      "country": "ES",
+      "value": 844,
+      "detail": "124,772 people · Castille and León"
+    },
+    {
+      "name": "Baza",
+      "country": "ES",
+      "value": 842,
+      "detail": "23,359 people · Andalusia"
+    },
+    {
+      "name": "Tarancón",
+      "country": "ES",
+      "value": 817,
+      "detail": "15,651 people · Castille-La Mancha"
+    },
+    {
+      "name": "Salamanca",
+      "country": "ES",
+      "value": 815,
+      "detail": "144,825 people · Castille and León"
+    },
+    {
+      "name": "Aranda de Duero",
+      "country": "ES",
+      "value": 800,
+      "detail": "33,187 people · Castille and León"
+    },
+    {
+      "name": "Úbeda",
+      "country": "ES",
+      "value": 766,
+      "detail": "34,602 people · Andalusia"
+    },
+    {
+      "name": "La Solana",
+      "country": "ES",
+      "value": 765,
+      "detail": "15,523 people · Castille-La Mancha"
+    },
+    {
+      "name": "Baeza",
+      "country": "ES",
+      "value": 763,
+      "detail": "16,253 people · Andalusia"
+    },
+    {
+      "name": "Zubia",
+      "country": "ES",
+      "value": 755,
+      "detail": "18,995 people · Andalusia"
+    },
+    {
+      "name": "Benavente",
+      "country": "ES",
+      "value": 750,
+      "detail": "19,119 people · Castille and León"
+    },
+    {
+      "name": "Ibi",
+      "country": "ES",
+      "value": 748,
+      "detail": "24,113 people · Valencia"
+    },
+    {
+      "name": "Majadahonda",
+      "country": "ES",
+      "value": 743,
+      "detail": "68,110 people · Madrid"
+    },
+    {
+      "name": "Costillares",
+      "country": "ES",
+      "value": 741,
+      "detail": "21,914 people · Madrid"
+    },
+    {
+      "name": "Palencia",
+      "country": "ES",
+      "value": 739,
+      "detail": "78,629 people · Castille and León"
+    },
+    {
+      "name": "El Goloso",
+      "country": "ES",
+      "value": 737,
+      "detail": "19,036 people · Madrid"
+    },
+    {
+      "name": "Pinar de Chamartín",
+      "country": "ES",
+      "value": 737,
+      "detail": "30,000 people · Madrid"
+    },
+    {
+      "name": "Tres Cantos",
+      "country": "ES",
+      "value": 731,
+      "detail": "41,896 people · Madrid"
+    },
+    {
+      "name": "Alcorcón",
+      "country": "ES",
+      "value": 729,
+      "detail": "172,384 people · Madrid"
+    },
+    {
+      "name": "Castilla",
+      "country": "ES",
+      "value": 729,
+      "detail": "17,046 people · Madrid"
+    },
+    {
+      "name": "Villarrobledo",
+      "country": "ES",
+      "value": 729,
+      "detail": "26,642 people · Castille-La Mancha"
+    },
+    {
+      "name": "Almenara",
+      "country": "ES",
+      "value": 727,
+      "detail": "23,057 people · Madrid"
+    },
+    {
+      "name": "Nueva España",
+      "country": "ES",
+      "value": 726,
+      "detail": "24,476 people · Madrid"
+    },
+    {
+      "name": "Tetuán de las Victorias",
+      "country": "ES",
+      "value": 725,
+      "detail": "155,000 people · Madrid"
+    },
+    {
+      "name": "Hispanoamérica",
+      "country": "ES",
+      "value": 724,
+      "detail": "31,470 people · Madrid"
+    },
+    {
+      "name": "Fuencarral",
+      "country": "ES",
+      "value": 723,
+      "detail": "238,765 people · Madrid"
+    },
+    {
+      "name": "Guadalajara",
+      "country": "ES",
+      "value": 722,
+      "detail": "93,470 people · Castille-La Mancha"
+    },
+    {
+      "name": "La Paz",
+      "country": "ES",
+      "value": 722,
+      "detail": "32,192 people · Madrid"
+    },
+    {
+      "name": "Algete",
+      "country": "ES",
+      "value": 721,
+      "detail": "20,204 people · Madrid"
+    },
+    {
+      "name": "Castillejos",
+      "country": "ES",
+      "value": 721,
+      "detail": "20,570 people · Madrid"
+    },
+    {
+      "name": "Medina del Campo",
+      "country": "ES",
+      "value": 721,
+      "detail": "21,540 people · Castille and León"
+    },
+    {
+      "name": "Valdeacederas",
+      "country": "ES",
+      "value": 721,
+      "detail": "26,573 people · Madrid"
+    }
+  ]
+}

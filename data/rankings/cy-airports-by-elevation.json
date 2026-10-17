@@ -1,0 +1,74 @@
+{
+  "id": "cy-airports-by-elevation",
+  "title": "Highest Airports in Cyprus",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cyprus ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.483Z",
+  "items": [
+    {
+      "name": "Marki Airfield",
+      "country": "CY",
+      "value": 344.12,
+      "detail": "1,129 ft above sea level"
+    },
+    {
+      "name": "(Duplicate)Аэропорт İlker Karter",
+      "country": "CY",
+      "value": 235,
+      "detail": "Кирения · 771 ft above sea level"
+    },
+    {
+      "name": "Ercan International Airport",
+      "country": "CY",
+      "value": 123.14,
+      "detail": "Tymbou (Kirklar) · 404 ft above sea level"
+    },
+    {
+      "name": "Kingsfield Air Base",
+      "country": "CY",
+      "value": 87.78,
+      "detail": "Dhekelia Sovereign Base Area · 288 ft above sea level"
+    },
+    {
+      "name": "Geçitkale Airbase",
+      "country": "CY",
+      "value": 44.5,
+      "detail": "Lefkoniko (Geçitkale) · 146 ft above sea level"
+    },
+    {
+      "name": "RAF Akrotiri",
+      "country": "CY",
+      "value": 23.16,
+      "detail": "Akrotiri · 76 ft above sea level"
+    },
+    {
+      "name": "Paphos International Airport",
+      "country": "CY",
+      "value": 12.5,
+      "detail": "Paphos · 41 ft above sea level"
+    },
+    {
+      "name": "Larnaca International Airport",
+      "country": "CY",
+      "value": 2.44,
+      "detail": "Larnaca · 8 ft above sea level"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "ge-cities-by-elevation",
+  "title": "Highest Major Cities in Georgia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Georgia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.532Z",
+  "items": [
+    {
+      "name": "Akhaltsikhe",
+      "country": "GE",
+      "value": 984,
+      "detail": "17,445 people · Samtskhe-Javakheti"
+    },
+    {
+      "name": "Ts’khinvali",
+      "country": "GE",
+      "value": 874,
+      "detail": "32,180 people · Shida Kartli"
+    },
+    {
+      "name": "Telavi",
+      "country": "GE",
+      "value": 699,
+      "detail": "19,875 people · Kakheti"
+    },
+    {
+      "name": "Khashuri",
+      "country": "GE",
+      "value": 695,
+      "detail": "23,949 people · Shida Kartli"
+    },
+    {
+      "name": "Gori",
+      "country": "GE",
+      "value": 602,
+      "detail": "41,933 people · Shida Kartli"
+    },
+    {
+      "name": "Tbilisi",
+      "country": "GE",
+      "value": 433,
+      "detail": "1,049,498 people · Tbilisi"
+    },
+    {
+      "name": "Marneuli",
+      "country": "GE",
+      "value": 420,
+      "detail": "26,400 people · Kvemo Kartli"
+    },
+    {
+      "name": "Rustavi",
+      "country": "GE",
+      "value": 345,
+      "detail": "128,249 people · Kvemo Kartli"
+    },
+    {
+      "name": "Zestaponi",
+      "country": "GE",
+      "value": 167,
+      "detail": "20,183 people · Imereti"
+    },
+    {
+      "name": "Kutaisi",
+      "country": "GE",
+      "value": 153,
+      "detail": "135,201 people · Imereti"
+    },
+    {
+      "name": "Zugdidi",
+      "country": "GE",
+      "value": 128,
+      "detail": "40,067 people · Samegrelo and Zemo Svaneti"
+    },
+    {
+      "name": "Samtredia",
+      "country": "GE",
+      "value": 23,
+      "detail": "21,063 people · Imereti"
+    },
+    {
+      "name": "Sokhumi",
+      "country": "GE",
+      "value": 21,
+      "detail": "65,439 people · Abkhazia"
+    },
+    {
+      "name": "Batumi",
+      "country": "GE",
+      "value": 8,
+      "detail": "186,949 people · Adjara"
+    },
+    {
+      "name": "Stantsiya Novyy Afon",
+      "country": "GE",
+      "value": 8,
+      "detail": "26,636 people · Abkhazia"
+    },
+    {
+      "name": "Poti",
+      "country": "GE",
+      "value": 6,
+      "detail": "41,175 people · Samegrelo and Zemo Svaneti"
+    },
+    {
+      "name": "Kobuleti",
+      "country": "GE",
+      "value": 2,
+      "detail": "17,538 people · Adjara"
+    }
+  ]
+}

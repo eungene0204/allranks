@@ -1,0 +1,140 @@
+{
+  "id": "na-cities-by-elevation",
+  "title": "Highest Major Cities in Namibia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Namibia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.553Z",
+  "items": [
+    {
+      "name": "Windhoek",
+      "country": "NA",
+      "value": 1656,
+      "detail": "386,219 people · Khomas Region"
+    },
+    {
+      "name": "Katutura",
+      "country": "NA",
+      "value": 1630,
+      "detail": "21,243 people · Khomas Region"
+    },
+    {
+      "name": "Otjiwarongo",
+      "country": "NA",
+      "value": 1475,
+      "detail": "33,481 people · Otjozondjupa Region"
+    },
+    {
+      "name": "Gobabis",
+      "country": "NA",
+      "value": 1442,
+      "detail": "22,639 people · Omaheke Region"
+    },
+    {
+      "name": "Grootfontein",
+      "country": "NA",
+      "value": 1432,
+      "detail": "24,099 people · Otjozondjupa Region"
+    },
+    {
+      "name": "Rehoboth",
+      "country": "NA",
+      "value": 1391,
+      "detail": "34,185 people · Hardap Region"
+    },
+    {
+      "name": "Okahandja",
+      "country": "NA",
+      "value": 1370,
+      "detail": "26,832 people · Otjozondjupa Region"
+    },
+    {
+      "name": "Tsumeb",
+      "country": "NA",
+      "value": 1309,
+      "detail": "22,845 people · Oshikoto Region"
+    },
+    {
+      "name": "Rundu",
+      "country": "NA",
+      "value": 1114,
+      "detail": "75,180 people · Kavango East"
+    },
+    {
+      "name": "Oshakati",
+      "country": "NA",
+      "value": 1103,
+      "detail": "43,309 people · Oshana Region"
+    },
+    {
+      "name": "Helao Nafidi",
+      "country": "NA",
+      "value": 1098,
+      "detail": "22,963 people · Ohangwena Region"
+    },
+    {
+      "name": "Ongwediva",
+      "country": "NA",
+      "value": 1088,
+      "detail": "24,012 people · Oshana Region"
+    },
+    {
+      "name": "Ondangwa",
+      "country": "NA",
+      "value": 1081,
+      "detail": "27,049 people · Oshana Region"
+    },
+    {
+      "name": "Ndiyona",
+      "country": "NA",
+      "value": 1055,
+      "detail": "20,633 people · Kavango East"
+    },
+    {
+      "name": "Keetmanshoop",
+      "country": "NA",
+      "value": 998,
+      "detail": "23,049 people · Karas Region"
+    },
+    {
+      "name": "Katima Mulilo",
+      "country": "NA",
+      "value": 951,
+      "detail": "33,615 people · Zambezi Region"
+    },
+    {
+      "name": "Swakopmund",
+      "country": "NA",
+      "value": 18,
+      "detail": "53,009 people · Erongo Region"
+    },
+    {
+      "name": "Lüderitz",
+      "country": "NA",
+      "value": 16,
+      "detail": "15,137 people · Karas Region"
+    },
+    {
+      "name": "Walvis Bay",
+      "country": "NA",
+      "value": 6,
+      "detail": "73,598 people · Erongo Region"
+    }
+  ]
+}

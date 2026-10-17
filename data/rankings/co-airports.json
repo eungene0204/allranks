@@ -1,0 +1,120 @@
+{
+  "id": "co-airports",
+  "title": "Busiest Airports in Colombia",
+  "short": "Airports",
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Colombian airports ranked by total passengers in 2024.",
+  "unit": "million passengers",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "CO",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Aerocivil, Colombia (2024) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Colombia",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:20:23.807Z",
+  "items": [
+    {
+      "name": "El Dorado International Airport",
+      "country": "CO",
+      "value": 45.802,
+      "detail": "Bogotá"
+    },
+    {
+      "name": "José María Córdova International Airport",
+      "country": "CO",
+      "value": 13.404,
+      "detail": "Medellín"
+    },
+    {
+      "name": "Rafael Núñez International Airport",
+      "country": "CO",
+      "value": 7.435,
+      "detail": "Cartagena"
+    },
+    {
+      "name": "Alfonso Bonilla Aragón International Airport",
+      "country": "CO",
+      "value": 6.717,
+      "detail": "Cali"
+    },
+    {
+      "name": "Simón Bolívar International Airport",
+      "country": "CO",
+      "value": 3.618,
+      "detail": "Santa Marta"
+    },
+    {
+      "name": "Ernesto Cortissoz International Airport",
+      "country": "CO",
+      "value": 3.355,
+      "detail": "Barranquilla"
+    },
+    {
+      "name": "Matecaña International Airport",
+      "country": "CO",
+      "value": 2.781,
+      "detail": "Pereira"
+    },
+    {
+      "name": "Gustavo Rojas Pinilla International Airport",
+      "country": "CO",
+      "value": 2.386,
+      "detail": "San Andrés"
+    },
+    {
+      "name": "Palonegro International Airport",
+      "country": "CO",
+      "value": 2.178,
+      "detail": "Bucaramanga"
+    },
+    {
+      "name": "Camilo Daza International Airport",
+      "country": "CO",
+      "value": 1.613,
+      "detail": "Cúcuta"
+    },
+    {
+      "name": "Los Garzones Airport",
+      "country": "CO",
+      "value": 1.443,
+      "detail": "Montería"
+    },
+    {
+      "name": "Enrique Olaya Herrera Airport",
+      "country": "CO",
+      "value": 1.275,
+      "detail": "Medellín"
+    },
+    {
+      "name": "Antonio Narino Airport",
+      "country": "CO",
+      "value": 0.81,
+      "detail": "Pasto"
+    },
+    {
+      "name": "El Eden Airport",
+      "country": "CO",
+      "value": 0.78,
+      "detail": "Armenia"
+    },
+    {
+      "name": "Almirante Padilla Airport",
+      "country": "CO",
+      "value": 0.619,
+      "detail": "Riohacha"
+    },
+    {
+      "name": "Alfonso Lopez Airport",
+      "country": "CO",
+      "value": 0.468,
+      "detail": "Valledupar"
+    }
+  ]
+}

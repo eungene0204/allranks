@@ -1,0 +1,92 @@
+{
+  "id": "mr-longest-runways",
+  "title": "Longest Airport Runways in Mauritania",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Mauritania ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.524Z",
+  "items": [
+    {
+      "name": "Nouakchott–Oumtounsy International Airport",
+      "country": "MR",
+      "value": 3400.04,
+      "detail": "Nouakchott · 11,155 ft · concrete"
+    },
+    {
+      "name": "Atar International Airport",
+      "country": "MR",
+      "value": 3003.8,
+      "detail": "Atar · 9,855 ft · ASP"
+    },
+    {
+      "name": "Kaédi Airport",
+      "country": "MR",
+      "value": 2499.97,
+      "detail": "Kaédi · 8,202 ft · ASP"
+    },
+    {
+      "name": "Kiffa Airport",
+      "country": "MR",
+      "value": 2499.97,
+      "detail": "Kiffa · 8,202 ft · ASP"
+    },
+    {
+      "name": "Tazadit Airport",
+      "country": "MR",
+      "value": 2499.97,
+      "detail": "Zouérate · 8,202 ft · ASP"
+    },
+    {
+      "name": "Nouadhibou International Airport",
+      "country": "MR",
+      "value": 2426.51,
+      "detail": "Nouadhibou · 7,961 ft · ASP"
+    },
+    {
+      "name": "Bir Moghrein Airport",
+      "country": "MR",
+      "value": 2290.57,
+      "detail": "Bir Moghrein · 7,515 ft · ASP"
+    },
+    {
+      "name": "Néma Airport",
+      "country": "MR",
+      "value": 2100.07,
+      "detail": "Néma · 6,890 ft · ASP"
+    },
+    {
+      "name": "Sélibaby Airport",
+      "country": "MR",
+      "value": 1599.9,
+      "detail": "Sélibaby · 5,249 ft · MAC"
+    },
+    {
+      "name": "Tidjikja Airport",
+      "country": "MR",
+      "value": 1599.9,
+      "detail": "Tidjikja · 5,249 ft · ASP"
+    },
+    {
+      "name": "Aioun el Atrouss Airport",
+      "country": "MR",
+      "value": 1598.68,
+      "detail": "Aioun El Atrouss · 5,245 ft · BIT"
+    }
+  ]
+}

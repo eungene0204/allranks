@@ -1,0 +1,68 @@
+{
+  "id": "me-research-h-index",
+  "title": "Universities by Research h-index in Montenegro",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ME",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:09.318Z",
+  "items": [
+    {
+      "name": "University of Montenegro",
+      "country": "ME",
+      "value": 137,
+      "detail": "12,206 works"
+    },
+    {
+      "name": "University of Donja Gorica",
+      "country": "ME",
+      "value": 38,
+      "detail": "800 works"
+    },
+    {
+      "name": "Mediterranean University",
+      "country": "ME",
+      "value": 24,
+      "detail": "453 works"
+    },
+    {
+      "name": "Fakultet za Poslovni Menadžment u Baru",
+      "country": "ME",
+      "value": 6,
+      "detail": "45 works"
+    },
+    {
+      "name": "Fakultet za menadžment Herceg Novi",
+      "country": "ME",
+      "value": 5,
+      "detail": "52 works"
+    },
+    {
+      "name": "Faculty for State and European Studies",
+      "country": "ME",
+      "value": 1,
+      "detail": "18 works"
+    },
+    {
+      "name": "Fakultet za Mediteranske Poslovne Studije",
+      "country": "ME",
+      "value": 1,
+      "detail": "6 works"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "gw-airports-by-elevation",
+  "title": "Highest Airports in Guinea-Bissau",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Guinea-Bissau ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.504Z",
+  "items": [
+    {
+      "name": "Piche Airport",
+      "country": "GW",
+      "value": 71.93,
+      "detail": "Piche · 236 ft above sea level"
+    },
+    {
+      "name": "Gabu Airport",
+      "country": "GW",
+      "value": 67.97,
+      "detail": "Gabu · 223 ft above sea level"
+    },
+    {
+      "name": "Quebo Airport",
+      "country": "GW",
+      "value": 50.29,
+      "detail": "Quebo · 165 ft above sea level"
+    },
+    {
+      "name": "Bafatá Airport",
+      "country": "GW",
+      "value": 43.89,
+      "detail": "Bafatá · 144 ft above sea level"
+    },
+    {
+      "name": "Osvaldo Vieira International Airport",
+      "country": "GW",
+      "value": 39.32,
+      "detail": "Bissau · 129 ft above sea level"
+    },
+    {
+      "name": "Bolama Airstrip",
+      "country": "GW",
+      "value": 23.47,
+      "detail": "Bolama · 77 ft above sea level"
+    },
+    {
+      "name": "Cufar Airport",
+      "country": "GW",
+      "value": 19.81,
+      "detail": "Cufar · 65 ft above sea level"
+    },
+    {
+      "name": "Bendanda Airstrip",
+      "country": "GW",
+      "value": 8.23,
+      "detail": "Bendanda · 27 ft above sea level"
+    },
+    {
+      "name": "Cacine Airstrip",
+      "country": "GW",
+      "value": 8.23,
+      "detail": "Cacine · 27 ft above sea level"
+    }
+  ]
+}

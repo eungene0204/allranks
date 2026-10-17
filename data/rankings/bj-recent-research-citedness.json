@@ -1,0 +1,86 @@
+{
+  "id": "bj-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Benin",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BJ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:29.688Z",
+  "items": [
+    {
+      "name": "Université Nationale d'Agriculture",
+      "country": "BJ",
+      "value": 2.661,
+      "detail": "1,341 works"
+    },
+    {
+      "name": "Université d'Agriculture de Kétou",
+      "country": "BJ",
+      "value": 2.3981,
+      "detail": "533 works"
+    },
+    {
+      "name": "Université d'Abomey-Calavi",
+      "country": "BJ",
+      "value": 1.6701,
+      "detail": "15,472 works"
+    },
+    {
+      "name": "Université de Parakou",
+      "country": "BJ",
+      "value": 1.3708,
+      "detail": "4,046 works"
+    },
+    {
+      "name": "National University of Sciences, Technologies, Engineering and Mathematics",
+      "country": "BJ",
+      "value": 0.9811,
+      "detail": "1,416 works"
+    },
+    {
+      "name": "Université Africaine de Développement Coopératif",
+      "country": "BJ",
+      "value": 0.5,
+      "detail": "8 works"
+    },
+    {
+      "name": "Catholic University of West Africa",
+      "country": "BJ",
+      "value": 0.3483,
+      "detail": "144 works"
+    },
+    {
+      "name": "Haute École de Commerce et de Management",
+      "country": "BJ",
+      "value": 0.2857,
+      "detail": "14 works"
+    },
+    {
+      "name": "École Supérieure de Génie Civil Véréchaguine AK",
+      "country": "BJ",
+      "value": 0.25,
+      "detail": "8 works"
+    },
+    {
+      "name": "Institut Universitaire du Bénin",
+      "country": "BJ",
+      "value": 0.0769,
+      "detail": "20 works"
+    }
+  ]
+}

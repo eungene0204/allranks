@@ -1,0 +1,86 @@
+{
+  "id": "kh-airports-by-elevation",
+  "title": "Highest Airports in Cambodia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cambodia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.515Z",
+  "items": [
+    {
+      "name": "Mondulkiri Airport",
+      "country": "KH",
+      "value": 700.74,
+      "detail": "Sen Monorom · 2,299 ft above sea level"
+    },
+    {
+      "name": "Preah Vinhear Airport",
+      "country": "KH",
+      "value": 106.68,
+      "detail": "Tbeng Meanchey · 350 ft above sea level"
+    },
+    {
+      "name": "Siem Reap-Angkor International Airport",
+      "country": "KH",
+      "value": 58.22,
+      "detail": "Siem Reap · 191 ft above sea level"
+    },
+    {
+      "name": "Kampong Cham Airport",
+      "country": "KH",
+      "value": 45.11,
+      "detail": "Kompong Cham · 148 ft above sea level"
+    },
+    {
+      "name": "Krakor Airport",
+      "country": "KH",
+      "value": 18.9,
+      "detail": "Krakor · 62 ft above sea level"
+    },
+    {
+      "name": "Dara Sakor International Airport",
+      "country": "KH",
+      "value": 18.29,
+      "detail": "Ta Noun · 60 ft above sea level"
+    },
+    {
+      "name": "Battambang Airport",
+      "country": "KH",
+      "value": 17.98,
+      "detail": "Battambang · 59 ft above sea level"
+    },
+    {
+      "name": "Phnom Penh International Airport",
+      "country": "KH",
+      "value": 12.19,
+      "detail": "Phnom Penh (Pou Senchey) · 40 ft above sea level"
+    },
+    {
+      "name": "Sihanouk International Airport",
+      "country": "KH",
+      "value": 10.06,
+      "detail": "Preah Sihanouk · 33 ft above sea level"
+    },
+    {
+      "name": "Techo International Airport",
+      "country": "KH",
+      "value": 6.1,
+      "detail": "Phnom Penh (Boeng Khyang) · 20 ft above sea level"
+    }
+  ]
+}

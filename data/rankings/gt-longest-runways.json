@@ -1,0 +1,98 @@
+{
+  "id": "gt-longest-runways",
+  "title": "Longest Airport Runways in Guatemala",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Guatemala ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.503Z",
+  "items": [
+    {
+      "name": "Mundo Maya International Airport",
+      "country": "GT",
+      "value": 2999.84,
+      "detail": "San Benito · 9,842 ft · CON"
+    },
+    {
+      "name": "La Aurora International Airport",
+      "country": "GT",
+      "value": 2987.04,
+      "detail": "Guatemala City · 9,800 ft · ASP"
+    },
+    {
+      "name": "Puerto Barrios Airport",
+      "country": "GT",
+      "value": 2706.62,
+      "detail": "Puerto Barrios · 8,880 ft · CON"
+    },
+    {
+      "name": "Poptún Airport",
+      "country": "GT",
+      "value": 2438.4,
+      "detail": "Poptún · 8,000 ft · Dirt/Gravel"
+    },
+    {
+      "name": "Quezaltenango Airport",
+      "country": "GT",
+      "value": 2103.12,
+      "detail": "Quezaltenango · 6,900 ft · Asphalt"
+    },
+    {
+      "name": "San José Airport",
+      "country": "GT",
+      "value": 2010.16,
+      "detail": "Puerto San José · 6,595 ft · ASP"
+    },
+    {
+      "name": "Retalhuleu Airport",
+      "country": "GT",
+      "value": 1543.81,
+      "detail": "Retalhuleu · 5,065 ft · ASP"
+    },
+    {
+      "name": "Rubelsanto Airport",
+      "country": "GT",
+      "value": 1429.51,
+      "detail": "Rubelsanto · 4,690 ft · ASP"
+    },
+    {
+      "name": "Quiché Airport",
+      "country": "GT",
+      "value": 1246.63,
+      "detail": "Santa Cruz del Quiché · 4,090 ft · ASP"
+    },
+    {
+      "name": "Fray Bartolome Airport",
+      "country": "GT",
+      "value": 1194.51,
+      "detail": "El Achiotal · 3,919 ft · ASP"
+    },
+    {
+      "name": "Coban Airport",
+      "country": "GT",
+      "value": 1018.03,
+      "detail": "Coban · 3,340 ft · ASP"
+    },
+    {
+      "name": "Bananera Airport",
+      "country": "GT",
+      "value": 986.33,
+      "detail": "Morales · 3,236 ft · CON"
+    }
+  ]
+}

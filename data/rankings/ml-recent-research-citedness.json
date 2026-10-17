@@ -1,0 +1,74 @@
+{
+  "id": "ml-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Mali",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:11.254Z",
+  "items": [
+    {
+      "name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+      "country": "ML",
+      "value": 2.5463,
+      "detail": "3,998 works"
+    },
+    {
+      "name": "Ecole Nationale d’Ingénieurs – Abderhamane Baba Touré",
+      "country": "ML",
+      "value": 2.2613,
+      "detail": "135 works"
+    },
+    {
+      "name": "Institut Polytechnique Rural de Formation et de Recherche Appliquée",
+      "country": "ML",
+      "value": 1.48,
+      "detail": "390 works"
+    },
+    {
+      "name": "Centre d'Intelligence Artificielle et de Robotique du Mali",
+      "country": "ML",
+      "value": 0.9167,
+      "detail": "13 works"
+    },
+    {
+      "name": "École normale d'Enseignement technique et professionnel",
+      "country": "ML",
+      "value": 0.7,
+      "detail": "25 works"
+    },
+    {
+      "name": "University of Bamako",
+      "country": "ML",
+      "value": 0.592,
+      "detail": "2,376 works"
+    },
+    {
+      "name": "Université des Lettres et des Sciences Humaines de Bamako",
+      "country": "ML",
+      "value": 0.3871,
+      "detail": "205 works"
+    },
+    {
+      "name": "Université des Sciences Juridiques et Politiques de Bamako",
+      "country": "ML",
+      "value": 0.0714,
+      "detail": "93 works"
+    }
+  ]
+}

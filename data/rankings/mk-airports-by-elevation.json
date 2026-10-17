@@ -1,0 +1,92 @@
+{
+  "id": "mk-airports-by-elevation",
+  "title": "Highest Airports in North Macedonia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in North Macedonia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MK",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.522Z",
+  "items": [
+    {
+      "name": "Ponikva Highway Airstrip",
+      "country": "MK",
+      "value": 1571.85,
+      "detail": "Osogovo · 5,157 ft above sea level"
+    },
+    {
+      "name": "Ohrid St. Paul the Apostle Airport",
+      "country": "MK",
+      "value": 705,
+      "detail": "Ohrid · 2,313 ft above sea level"
+    },
+    {
+      "name": "Malo Konjari Sport Airfield",
+      "country": "MK",
+      "value": 619.96,
+      "detail": "Malo Konjari · 2,034 ft above sea level"
+    },
+    {
+      "name": "Logovardi Sport Aerodrome",
+      "country": "MK",
+      "value": 594.36,
+      "detail": "Logovardi · 1,950 ft above sea level"
+    },
+    {
+      "name": "Kumanovo Airfield",
+      "country": "MK",
+      "value": 370.94,
+      "detail": "Kumanovo · 1,217 ft above sea level"
+    },
+    {
+      "name": "Stenkovec Brazda Airfield",
+      "country": "MK",
+      "value": 350.52,
+      "detail": "Brazda, Čučer-Sandevo · 1,150 ft above sea level"
+    },
+    {
+      "name": "Veles Airfield",
+      "country": "MK",
+      "value": 338.94,
+      "detail": "Karatmanovo · 1,112 ft above sea level"
+    },
+    {
+      "name": "Štip Airstrip",
+      "country": "MK",
+      "value": 274.32,
+      "detail": "Krivi Dol · 900 ft above sea level"
+    },
+    {
+      "name": "Peshirovo Sveti Nikole Airfield",
+      "country": "MK",
+      "value": 242.01,
+      "detail": "Peshirovo · 794 ft above sea level"
+    },
+    {
+      "name": "Skopje International Airport",
+      "country": "MK",
+      "value": 238.05,
+      "detail": "Ilinden · 781 ft above sea level"
+    },
+    {
+      "name": "Krivolak Airstrip",
+      "country": "MK",
+      "value": 128.32,
+      "detail": "Crveni Bregovi · 421 ft above sea level"
+    }
+  ]
+}

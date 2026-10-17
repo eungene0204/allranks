@@ -1,0 +1,326 @@
+{
+  "id": "mm-cities-by-elevation",
+  "title": "Highest Major Cities in Myanmar",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Myanmar with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.550Z",
+  "items": [
+    {
+      "name": "Hakha",
+      "country": "MM",
+      "value": 1799,
+      "detail": "24,926 people · Chin State"
+    },
+    {
+      "name": "Taunggyi",
+      "country": "MM",
+      "value": 1396,
+      "detail": "160,115 people · Shan State"
+    },
+    {
+      "name": "Kutkai",
+      "country": "MM",
+      "value": 1341,
+      "detail": "24,963 people · Shan State"
+    },
+    {
+      "name": "Kalaw",
+      "country": "MM",
+      "value": 1323,
+      "detail": "93,032 people · Shan State"
+    },
+    {
+      "name": "Aungban",
+      "country": "MM",
+      "value": 1307,
+      "detail": "30,982 people · Shan State"
+    },
+    {
+      "name": "Pangtara",
+      "country": "MM",
+      "value": 1192,
+      "detail": "17,544 people · Shan State"
+    },
+    {
+      "name": "Heho",
+      "country": "MM",
+      "value": 1170,
+      "detail": "93,041 people · Shan State"
+    },
+    {
+      "name": "Mogok",
+      "country": "MM",
+      "value": 1162,
+      "detail": "89,855 people · Mandalay Region"
+    },
+    {
+      "name": "Pyin Oo Lwin",
+      "country": "MM",
+      "value": 1088,
+      "detail": "117,303 people · Mandalay Region"
+    },
+    {
+      "name": "Nansang",
+      "country": "MM",
+      "value": 956,
+      "detail": "23,792 people · Shan State"
+    },
+    {
+      "name": "Laukkai",
+      "country": "MM",
+      "value": 952,
+      "detail": "23,435 people · Shan State"
+    },
+    {
+      "name": "Tangyan",
+      "country": "MM",
+      "value": 941,
+      "detail": "33,603 people · Shan State"
+    },
+    {
+      "name": "Lawksawk",
+      "country": "MM",
+      "value": 940,
+      "detail": "29,533 people · Shan State"
+    },
+    {
+      "name": "Panglong",
+      "country": "MM",
+      "value": 921,
+      "detail": "27,115 people · Shan State"
+    },
+    {
+      "name": "Möng Yang",
+      "country": "MM",
+      "value": 914,
+      "detail": "117,108 people · Shan State"
+    },
+    {
+      "name": "Pèkon",
+      "country": "MM",
+      "value": 897,
+      "detail": "15,323 people · Shan State"
+    },
+    {
+      "name": "Loikaw",
+      "country": "MM",
+      "value": 893,
+      "detail": "17,293 people · Kayah State"
+    },
+    {
+      "name": "Yawnghwe",
+      "country": "MM",
+      "value": 892,
+      "detail": "188,083 people · Shan State"
+    },
+    {
+      "name": "Lashio",
+      "country": "MM",
+      "value": 845,
+      "detail": "131,000 people · Shan State"
+    },
+    {
+      "name": "Mu-se",
+      "country": "MM",
+      "value": 828,
+      "detail": "165,022 people · Shan State"
+    },
+    {
+      "name": "Kyaukme",
+      "country": "MM",
+      "value": 769,
+      "detail": "39,930 people · Shan State"
+    },
+    {
+      "name": "Namhkam",
+      "country": "MM",
+      "value": 762,
+      "detail": "33,382 people · Shan State"
+    },
+    {
+      "name": "Kēng Tung",
+      "country": "MM",
+      "value": 690,
+      "detail": "171,620 people · Shan State"
+    },
+    {
+      "name": "Möng La",
+      "country": "MM",
+      "value": 639,
+      "detail": "43,000 people · Shan State"
+    },
+    {
+      "name": "Möng Yawng",
+      "country": "MM",
+      "value": 569,
+      "detail": "39,102 people · Shan State"
+    },
+    {
+      "name": "Pangkham",
+      "country": "MM",
+      "value": 536,
+      "detail": "15,936 people · Shan State"
+    },
+    {
+      "name": "Hsipaw",
+      "country": "MM",
+      "value": 425,
+      "detail": "20,897 people · Shan State"
+    },
+    {
+      "name": "Tachilek",
+      "country": "MM",
+      "value": 402,
+      "detail": "51,553 people · Shan State"
+    },
+    {
+      "name": "Kyaukpadaung",
+      "country": "MM",
+      "value": 380,
+      "detail": "42,817 people · Mandalay Region"
+    },
+    {
+      "name": "Lakang",
+      "country": "MM",
+      "value": 320,
+      "detail": "85,423 people · Kachin State"
+    },
+    {
+      "name": "Payathonzu",
+      "country": "MM",
+      "value": 279,
+      "detail": "27,311 people · Kayin State"
+    },
+    {
+      "name": "Hpākān",
+      "country": "MM",
+      "value": 275,
+      "detail": "60,123 people · Kachin State"
+    },
+    {
+      "name": "Meiktila",
+      "country": "MM",
+      "value": 244,
+      "detail": "177,442 people · Mandalay Region"
+    },
+    {
+      "name": "Mohnyin",
+      "country": "MM",
+      "value": 216,
+      "detail": "33,290 people · Kachin State"
+    },
+    {
+      "name": "Danai",
+      "country": "MM",
+      "value": 211,
+      "detail": "31,998 people · Kachin State"
+    },
+    {
+      "name": "Myawaddy",
+      "country": "MM",
+      "value": 206,
+      "detail": "45,000 people · Kayin State"
+    },
+    {
+      "name": "Yamethin",
+      "country": "MM",
+      "value": 203,
+      "detail": "59,867 people · Mandalay Region"
+    },
+    {
+      "name": "Hopin",
+      "country": "MM",
+      "value": 200,
+      "detail": "23,352 people · Kachin State"
+    },
+    {
+      "name": "Pyawbwe",
+      "country": "MM",
+      "value": 198,
+      "detail": "32,214 people · Mandalay Region"
+    },
+    {
+      "name": "Tatkon",
+      "country": "MM",
+      "value": 179,
+      "detail": "41,683 people · Sagaing Region"
+    },
+    {
+      "name": "Tamu",
+      "country": "MM",
+      "value": 178,
+      "detail": "43,737 people · Sagaing Region"
+    },
+    {
+      "name": "Kanbalu",
+      "country": "MM",
+      "value": 177,
+      "detail": "25,022 people · Sagaing Region"
+    },
+    {
+      "name": "Mogaung",
+      "country": "MM",
+      "value": 150,
+      "detail": "25,012 people · Kachin State"
+    },
+    {
+      "name": "Myitkyina",
+      "country": "MM",
+      "value": 147,
+      "detail": "90,894 people · Kachin State"
+    },
+    {
+      "name": "Wundwin",
+      "country": "MM",
+      "value": 145,
+      "detail": "32,558 people · Mandalay Region"
+    },
+    {
+      "name": "Taungdwingyi",
+      "country": "MM",
+      "value": 143,
+      "detail": "70,094 people · Magway"
+    },
+    {
+      "name": "Kyauktan",
+      "country": "MM",
+      "value": 142,
+      "detail": "42,778 people · Sagaing Region"
+    },
+    {
+      "name": "Mawlaik",
+      "country": "MM",
+      "value": 129,
+      "detail": "44,540 people · Sagaing Region"
+    },
+    {
+      "name": "Nay Pyi Taw",
+      "country": "MM",
+      "value": 122,
+      "detail": "925,000 people · Nay Pyi Taw"
+    },
+    {
+      "name": "Shwegu",
+      "country": "MM",
+      "value": 119,
+      "detail": "58,696 people · Kachin State"
+    }
+  ]
+}

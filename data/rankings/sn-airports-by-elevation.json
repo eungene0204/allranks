@@ -1,0 +1,134 @@
+{
+  "id": "sn-airports-by-elevation",
+  "title": "Highest Airports in Senegal",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Senegal ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.548Z",
+  "items": [
+    {
+      "name": "Kédougou Airport",
+      "country": "SN",
+      "value": 178,
+      "detail": "Kédougou · 584 ft above sea level"
+    },
+    {
+      "name": "Blaise Diagne International Airport",
+      "country": "SN",
+      "value": 88.39,
+      "detail": "Dakar · 290 ft above sea level"
+    },
+    {
+      "name": "Niokolo-Koba Airport",
+      "country": "SN",
+      "value": 86.87,
+      "detail": "Niokolo-Koba National Park · 285 ft above sea level"
+    },
+    {
+      "name": "Thiès Airport",
+      "country": "SN",
+      "value": 83.21,
+      "detail": "Thiès · 273 ft above sea level"
+    },
+    {
+      "name": "Simenti Airport",
+      "country": "SN",
+      "value": 52.12,
+      "detail": "Simenti · 171 ft above sea level"
+    },
+    {
+      "name": "Tambacounda Airport",
+      "country": "SN",
+      "value": 49.07,
+      "detail": "Tambacounda · 161 ft above sea level"
+    },
+    {
+      "name": "Kolda Airport",
+      "country": "SN",
+      "value": 36.88,
+      "detail": "Kolda · 121 ft above sea level"
+    },
+    {
+      "name": "Bakel Airport",
+      "country": "SN",
+      "value": 29.87,
+      "detail": "Bakel · 98 ft above sea level"
+    },
+    {
+      "name": "Léopold Sédar Senghor International Airport",
+      "country": "SN",
+      "value": 25.91,
+      "detail": "Dakar · 85 ft above sea level"
+    },
+    {
+      "name": "Ouro Sogui Airport",
+      "country": "SN",
+      "value": 25.91,
+      "detail": "Ouro Sogui · 85 ft above sea level"
+    },
+    {
+      "name": "Ziguinchor Airport",
+      "country": "SN",
+      "value": 22.86,
+      "detail": "Ziguinchor · 75 ft above sea level"
+    },
+    {
+      "name": "Dodji Airport",
+      "country": "SN",
+      "value": 20.12,
+      "detail": "Dodji · 66 ft above sea level"
+    },
+    {
+      "name": "Linguère Airport",
+      "country": "SN",
+      "value": 20.12,
+      "detail": "Linguère · 66 ft above sea level"
+    },
+    {
+      "name": "Cap Skirring Airport",
+      "country": "SN",
+      "value": 15.85,
+      "detail": "Cap Skirring · 52 ft above sea level"
+    },
+    {
+      "name": "Kaolack Airport",
+      "country": "SN",
+      "value": 7.92,
+      "detail": "Kaolack · 26 ft above sea level"
+    },
+    {
+      "name": "Podor Airport",
+      "country": "SN",
+      "value": 6.1,
+      "detail": "Podor · 20 ft above sea level"
+    },
+    {
+      "name": "Richard Toll Airport",
+      "country": "SN",
+      "value": 6.1,
+      "detail": "Richard Toll · 20 ft above sea level"
+    },
+    {
+      "name": "Saint Louis Airport",
+      "country": "SN",
+      "value": 2.74,
+      "detail": "Saint Louis · 9 ft above sea level"
+    }
+  ]
+}

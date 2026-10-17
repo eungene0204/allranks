@@ -1,0 +1,104 @@
+{
+  "id": "pg-cities-by-elevation",
+  "title": "Highest Major Cities in Papua New Guinea",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Papua New Guinea with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.557Z",
+  "items": [
+    {
+      "name": "Mendi",
+      "country": "PG",
+      "value": 1729,
+      "detail": "26,252 people · Southern Highlands Province"
+    },
+    {
+      "name": "Mount Hagen",
+      "country": "PG",
+      "value": 1728,
+      "detail": "33,623 people · Western Highlands Province"
+    },
+    {
+      "name": "Goroka",
+      "country": "PG",
+      "value": 1574,
+      "detail": "18,503 people · Eastern Highlands Province"
+    },
+    {
+      "name": "Bulolo",
+      "country": "PG",
+      "value": 677,
+      "detail": "16,042 people · Morobe Province"
+    },
+    {
+      "name": "Popondetta",
+      "country": "PG",
+      "value": 106,
+      "detail": "28,198 people · Oro Province"
+    },
+    {
+      "name": "Lae",
+      "country": "PG",
+      "value": 44,
+      "detail": "76,255 people · Morobe Province"
+    },
+    {
+      "name": "Wewak",
+      "country": "PG",
+      "value": 44,
+      "detail": "18,230 people · East Sepik Province"
+    },
+    {
+      "name": "Arawa",
+      "country": "PG",
+      "value": 28,
+      "detail": "40,266 people · Bougainville"
+    },
+    {
+      "name": "Kimbe",
+      "country": "PG",
+      "value": 27,
+      "detail": "18,847 people · West New Britain Province"
+    },
+    {
+      "name": "Port Moresby",
+      "country": "PG",
+      "value": 25,
+      "detail": "283,733 people · National Capital"
+    },
+    {
+      "name": "Kokopo",
+      "country": "PG",
+      "value": 22,
+      "detail": "26,273 people · East New Britain Province"
+    },
+    {
+      "name": "Daru",
+      "country": "PG",
+      "value": 11,
+      "detail": "15,214 people · Western Province"
+    },
+    {
+      "name": "Madang",
+      "country": "PG",
+      "value": 4,
+      "detail": "27,419 people · Madang Province"
+    }
+  ]
+}

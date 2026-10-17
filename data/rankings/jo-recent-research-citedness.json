@@ -1,0 +1,212 @@
+{
+  "id": "jo-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Jordan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "JO",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:58.255Z",
+  "items": [
+    {
+      "name": "Middle East University",
+      "country": "JO",
+      "value": 10.3814,
+      "detail": "4,565 works"
+    },
+    {
+      "name": "American University of Madaba",
+      "country": "JO",
+      "value": 9.4651,
+      "detail": "891 works"
+    },
+    {
+      "name": "Al-Ahliyya Amman University",
+      "country": "JO",
+      "value": 8.8129,
+      "detail": "8,301 works"
+    },
+    {
+      "name": "Philadelphia University",
+      "country": "JO",
+      "value": 8.6387,
+      "detail": "2,265 works"
+    },
+    {
+      "name": "Al al-Bayt University",
+      "country": "JO",
+      "value": 8.1924,
+      "detail": "5,716 works"
+    },
+    {
+      "name": "Applied Science Private University",
+      "country": "JO",
+      "value": 7.7759,
+      "detail": "9,443 works"
+    },
+    {
+      "name": "Isra University",
+      "country": "JO",
+      "value": 6.0545,
+      "detail": "4,081 works"
+    },
+    {
+      "name": "Jadara University",
+      "country": "JO",
+      "value": 5.8491,
+      "detail": "4,363 works"
+    },
+    {
+      "name": "Tafila Technical University",
+      "country": "JO",
+      "value": 5.5851,
+      "detail": "2,639 works"
+    },
+    {
+      "name": "Zarqa University",
+      "country": "JO",
+      "value": 5.4717,
+      "detail": "7,527 works"
+    },
+    {
+      "name": "Amman Arab University",
+      "country": "JO",
+      "value": 5.2436,
+      "detail": "2,893 works"
+    },
+    {
+      "name": "German Jordanian University",
+      "country": "JO",
+      "value": 5.2121,
+      "detail": "3,533 works"
+    },
+    {
+      "name": "Al-Hussein Bin Talal University",
+      "country": "JO",
+      "value": 4.7748,
+      "detail": "3,346 works"
+    },
+    {
+      "name": "Petra University",
+      "country": "JO",
+      "value": 4.7482,
+      "detail": "3,761 works"
+    },
+    {
+      "name": "Khawarizmi University Technical College",
+      "country": "JO",
+      "value": 4.661,
+      "detail": "81 works"
+    },
+    {
+      "name": "University of Jordan",
+      "country": "JO",
+      "value": 4.6307,
+      "detail": "38,028 works"
+    },
+    {
+      "name": "Al Hussein Technical University",
+      "country": "JO",
+      "value": 4.5683,
+      "detail": "549 works"
+    },
+    {
+      "name": "Aqaba University of Technology",
+      "country": "JO",
+      "value": 4.5283,
+      "detail": "674 works"
+    },
+    {
+      "name": "Yarmouk University",
+      "country": "JO",
+      "value": 4.4721,
+      "detail": "15,816 works"
+    },
+    {
+      "name": "Al-Zaytoonah University of Jordan",
+      "country": "JO",
+      "value": 4.4012,
+      "detail": "5,545 works"
+    },
+    {
+      "name": "Jordan University of Science and Technology",
+      "country": "JO",
+      "value": 4.1586,
+      "detail": "25,891 works"
+    },
+    {
+      "name": "Hashemite University",
+      "country": "JO",
+      "value": 3.8931,
+      "detail": "13,080 works"
+    },
+    {
+      "name": "Jerash University",
+      "country": "JO",
+      "value": 3.8678,
+      "detail": "2,024 works"
+    },
+    {
+      "name": "Al-Balqa Applied University",
+      "country": "JO",
+      "value": 3.8117,
+      "detail": "13,875 works"
+    },
+    {
+      "name": "Princess Sumaya University for Technology",
+      "country": "JO",
+      "value": 3.7878,
+      "detail": "3,409 works"
+    },
+    {
+      "name": "Mutah University",
+      "country": "JO",
+      "value": 3.4747,
+      "detail": "7,682 works"
+    },
+    {
+      "name": "Ibn Sina University for Medical Sciences",
+      "country": "JO",
+      "value": 3.4182,
+      "detail": "134 works"
+    },
+    {
+      "name": "Arab Open University",
+      "country": "JO",
+      "value": 3.3618,
+      "detail": "462 works"
+    },
+    {
+      "name": "Irbid National University",
+      "country": "JO",
+      "value": 3.2715,
+      "detail": "1,571 works"
+    },
+    {
+      "name": "Ajloun National University",
+      "country": "JO",
+      "value": 1.7772,
+      "detail": "1,204 works"
+    },
+    {
+      "name": "World Islamic Sciences and Education University",
+      "country": "JO",
+      "value": 1.6846,
+      "detail": "2,176 works"
+    }
+  ]
+}

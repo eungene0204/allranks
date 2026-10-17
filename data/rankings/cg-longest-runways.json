@@ -1,0 +1,80 @@
+{
+  "id": "cg-longest-runways",
+  "title": "Longest Airport Runways in Congo",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Congo ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.474Z",
+  "items": [
+    {
+      "name": "Maya-Maya International Airport",
+      "country": "CG",
+      "value": 3300.07,
+      "detail": "Brazzaville · 10,827 ft · ASP"
+    },
+    {
+      "name": "Oyo Ollombo Airport",
+      "country": "CG",
+      "value": 3300.07,
+      "detail": "Oyo · 10,827 ft · CON"
+    },
+    {
+      "name": "Antonio Agostinho-Neto International Airport",
+      "country": "CG",
+      "value": 2599.94,
+      "detail": "Pointe Noire · 8,530 ft · ASP"
+    },
+    {
+      "name": "Ewo Airport",
+      "country": "CG",
+      "value": 2050.08,
+      "detail": "Ewo · 6,726 ft · ASP"
+    },
+    {
+      "name": "Ouesso Airport",
+      "country": "CG",
+      "value": 2050.08,
+      "detail": "6,726 ft · ASP"
+    },
+    {
+      "name": "Djambala Airport",
+      "country": "CG",
+      "value": 2049.78,
+      "detail": "Djambala · 6,725 ft · ASP"
+    },
+    {
+      "name": "Ngot Nzoungou Airport",
+      "country": "CG",
+      "value": 2049.78,
+      "detail": "Dolisie · 6,725 ft · ASP"
+    },
+    {
+      "name": "Makoua Airport",
+      "country": "CG",
+      "value": 1800.15,
+      "detail": "Makoua · 5,906 ft · UNK"
+    },
+    {
+      "name": "Owando Airport",
+      "country": "CG",
+      "value": 1799.84,
+      "detail": "Owando · 5,905 ft · ASP"
+    }
+  ]
+}

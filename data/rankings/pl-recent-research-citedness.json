@@ -1,0 +1,326 @@
+{
+  "id": "pl-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Poland",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "PL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:24.302Z",
+  "items": [
+    {
+      "name": "Wyższa Szkoła Ekonomii i Administracji w Bytomiu",
+      "country": "PL",
+      "value": 20,
+      "detail": "48 works"
+    },
+    {
+      "name": "Warsaw University of Technology",
+      "country": "PL",
+      "value": 7.1889,
+      "detail": "61,915 works"
+    },
+    {
+      "name": "Społeczna Akademia Nauk",
+      "country": "PL",
+      "value": 6.8839,
+      "detail": "2,752 works"
+    },
+    {
+      "name": "Szkoła Główna Mikołaja Kopernika",
+      "country": "PL",
+      "value": 6.7697,
+      "detail": "173 works"
+    },
+    {
+      "name": "Academy of Finance and Management in Białystok",
+      "country": "PL",
+      "value": 6,
+      "detail": "227 works"
+    },
+    {
+      "name": "Academy of Physiotherapy in Wrocław",
+      "country": "PL",
+      "value": 5.2143,
+      "detail": "156 works"
+    },
+    {
+      "name": "Maritime University of Szczecin",
+      "country": "PL",
+      "value": 5.083,
+      "detail": "2,985 works"
+    },
+    {
+      "name": "Warszawska Szkoła Zarządzania - Szkoła Wyższa",
+      "country": "PL",
+      "value": 5,
+      "detail": "24 works"
+    },
+    {
+      "name": "Gdańsk University of Technology",
+      "country": "PL",
+      "value": 4.8044,
+      "detail": "34,070 works"
+    },
+    {
+      "name": "Silesian University of Technology",
+      "country": "PL",
+      "value": 4.7011,
+      "detail": "44,514 works"
+    },
+    {
+      "name": "International Institute of Molecular Mechanisms and Machines Polish Academy of Science",
+      "country": "PL",
+      "value": 4.6878,
+      "detail": "139 works"
+    },
+    {
+      "name": "State Higher Vocational School in Krosno",
+      "country": "PL",
+      "value": 4.6279,
+      "detail": "444 works"
+    },
+    {
+      "name": "VIZJA University",
+      "country": "PL",
+      "value": 4.5798,
+      "detail": "3,239 works"
+    },
+    {
+      "name": "Poznan University of Medical Sciences",
+      "country": "PL",
+      "value": 4.1643,
+      "detail": "33,641 works"
+    },
+    {
+      "name": "Wroclaw Medical University",
+      "country": "PL",
+      "value": 4.0262,
+      "detail": "28,922 works"
+    },
+    {
+      "name": "Wyższa Szkoła Pedagogiczna w Łodzi",
+      "country": "PL",
+      "value": 4,
+      "detail": "60 works"
+    },
+    {
+      "name": "Opole University of Technology",
+      "country": "PL",
+      "value": 3.894,
+      "detail": "9,225 works"
+    },
+    {
+      "name": "Medical University of Lodz",
+      "country": "PL",
+      "value": 3.879,
+      "detail": "33,010 works"
+    },
+    {
+      "name": "AGH University of Krakow",
+      "country": "PL",
+      "value": 3.7776,
+      "detail": "61,607 works"
+    },
+    {
+      "name": "Collegium Medicum in Bydgoszcz",
+      "country": "PL",
+      "value": 3.7575,
+      "detail": "11,251 works"
+    },
+    {
+      "name": "Jan Długosz University",
+      "country": "PL",
+      "value": 3.7146,
+      "detail": "6,271 works"
+    },
+    {
+      "name": "Warsaw University of Life Sciences",
+      "country": "PL",
+      "value": 3.678,
+      "detail": "41,127 works"
+    },
+    {
+      "name": "WSB Merito University in Wroclaw",
+      "country": "PL",
+      "value": 3.6331,
+      "detail": "1,363 works"
+    },
+    {
+      "name": "West Pomeranian University of Technology in Szczecin",
+      "country": "PL",
+      "value": 3.63,
+      "detail": "16,388 works"
+    },
+    {
+      "name": "Cracow University of Technology",
+      "country": "PL",
+      "value": 3.5931,
+      "detail": "20,875 works"
+    },
+    {
+      "name": "Akademia Śląska",
+      "country": "PL",
+      "value": 3.5626,
+      "detail": "1,345 works"
+    },
+    {
+      "name": "Medical University of Lublin",
+      "country": "PL",
+      "value": 3.5166,
+      "detail": "29,272 works"
+    },
+    {
+      "name": "Pomeranian Medical University",
+      "country": "PL",
+      "value": 3.4878,
+      "detail": "15,351 works"
+    },
+    {
+      "name": "The Karkonosze University of Applied Sciences in Jelenia Góra",
+      "country": "PL",
+      "value": 3.4222,
+      "detail": "193 works"
+    },
+    {
+      "name": "Holy Cross University",
+      "country": "PL",
+      "value": 3.4161,
+      "detail": "286 works"
+    },
+    {
+      "name": "WSB Merito University in Gdańsk",
+      "country": "PL",
+      "value": 3.3775,
+      "detail": "1,370 works"
+    },
+    {
+      "name": "Medical University of Białystok",
+      "country": "PL",
+      "value": 3.3593,
+      "detail": "19,082 works"
+    },
+    {
+      "name": "Bydgoszcz University of Science and Technology",
+      "country": "PL",
+      "value": 3.3015,
+      "detail": "10,739 works"
+    },
+    {
+      "name": "Bialystok University of Technology",
+      "country": "PL",
+      "value": 3.2825,
+      "detail": "14,206 works"
+    },
+    {
+      "name": "National Quantum Information Centre in Gdansk",
+      "country": "PL",
+      "value": 3.2778,
+      "detail": "310 works"
+    },
+    {
+      "name": "Poznań University of Life Sciences",
+      "country": "PL",
+      "value": 3.2675,
+      "detail": "22,544 works"
+    },
+    {
+      "name": "WSB University",
+      "country": "PL",
+      "value": 3.2637,
+      "detail": "2,915 works"
+    },
+    {
+      "name": "State Higher Vocational School in Koszalin",
+      "country": "PL",
+      "value": 3.2353,
+      "detail": "82 works"
+    },
+    {
+      "name": "Akademii Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach",
+      "country": "PL",
+      "value": 3.2282,
+      "detail": "2,871 works"
+    },
+    {
+      "name": "WSB Merito University in Warsaw",
+      "country": "PL",
+      "value": 3.1975,
+      "detail": "185 works"
+    },
+    {
+      "name": "State Higher School of Vocational Education in Zamość",
+      "country": "PL",
+      "value": 3.1667,
+      "detail": "112 works"
+    },
+    {
+      "name": "Wrocław University of Environmental and Life Sciences",
+      "country": "PL",
+      "value": 3.1144,
+      "detail": "17,158 works"
+    },
+    {
+      "name": "Kozminski University",
+      "country": "PL",
+      "value": 3.1104,
+      "detail": "4,183 works"
+    },
+    {
+      "name": "Wrocław University of Science and Technology",
+      "country": "PL",
+      "value": 3.0945,
+      "detail": "53,152 works"
+    },
+    {
+      "name": "Wroclaw University of Health and Sport Sciences",
+      "country": "PL",
+      "value": 3.0914,
+      "detail": "3,302 works"
+    },
+    {
+      "name": "University of Life Sciences in Lublin",
+      "country": "PL",
+      "value": 3.0752,
+      "detail": "17,564 works"
+    },
+    {
+      "name": "Gdańsk Medical University",
+      "country": "PL",
+      "value": 3.0358,
+      "detail": "28,763 works"
+    },
+    {
+      "name": "Gdansk University of Physical Education and Sport",
+      "country": "PL",
+      "value": 3.0064,
+      "detail": "2,827 works"
+    },
+    {
+      "name": "Uniwersytet Kaliski im. Prezydenta Stanisława Wojciechowskiego",
+      "country": "PL",
+      "value": 2.9953,
+      "detail": "1,605 works"
+    },
+    {
+      "name": "Rzeszów University of Technology",
+      "country": "PL",
+      "value": 2.9784,
+      "detail": "15,117 works"
+    }
+  ]
+}

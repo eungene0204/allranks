@@ -1,0 +1,56 @@
+{
+  "id": "mr-research-h-index",
+  "title": "Universities by Research h-index in Mauritania",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:12.540Z",
+  "items": [
+    {
+      "name": "Université de Nouakchott",
+      "country": "MR",
+      "value": 59,
+      "detail": "1,652 works"
+    },
+    {
+      "name": "Université des Sciences, de Technologie et de Médecine",
+      "country": "MR",
+      "value": 26,
+      "detail": "104 works"
+    },
+    {
+      "name": "École Normale Supérieure de Nouakchott",
+      "country": "MR",
+      "value": 16,
+      "detail": "119 works"
+    },
+    {
+      "name": "Institut Supérieur de Génie Industriel",
+      "country": "MR",
+      "value": 3,
+      "detail": "19 works"
+    },
+    {
+      "name": "Lebanese International University of Mauritania",
+      "country": "MR",
+      "value": 1,
+      "detail": "3 works"
+    }
+  ]
+}

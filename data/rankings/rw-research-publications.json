@@ -1,0 +1,146 @@
+{
+  "id": "rw-research-publications",
+  "title": "Universities by Research Publications in Rwanda",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RW",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:29.504Z",
+  "items": [
+    {
+      "name": "University of Rwanda",
+      "country": "RW",
+      "value": 10904,
+      "detail": "203,229 citations"
+    },
+    {
+      "name": "College of Science and Technology - University of Rwanda",
+      "country": "RW",
+      "value": 1428,
+      "detail": "29,085 citations"
+    },
+    {
+      "name": "University of Global Health Equity",
+      "country": "RW",
+      "value": 1269,
+      "detail": "29,259 citations"
+    },
+    {
+      "name": "African Leadership University",
+      "country": "RW",
+      "value": 1215,
+      "detail": "1,813 citations"
+    },
+    {
+      "name": "University of Kigali",
+      "country": "RW",
+      "value": 693,
+      "detail": "2,032 citations"
+    },
+    {
+      "name": "African Institute for Mathematical Sciences",
+      "country": "RW",
+      "value": 571,
+      "detail": "8,878 citations"
+    },
+    {
+      "name": "University of Lay Adventists of Kigali",
+      "country": "RW",
+      "value": 568,
+      "detail": "10,237 citations"
+    },
+    {
+      "name": "INES-Ruhengeri",
+      "country": "RW",
+      "value": 508,
+      "detail": "4,319 citations"
+    },
+    {
+      "name": "Carnegie Mellon University Africa",
+      "country": "RW",
+      "value": 476,
+      "detail": "5,353 citations"
+    },
+    {
+      "name": "Rwanda Polytechnic",
+      "country": "RW",
+      "value": 386,
+      "detail": "3,784 citations"
+    },
+    {
+      "name": "Kigali Independent University",
+      "country": "RW",
+      "value": 241,
+      "detail": "521 citations"
+    },
+    {
+      "name": "Mahatma Gandhi University",
+      "country": "RW",
+      "value": 231,
+      "detail": "2,354 citations"
+    },
+    {
+      "name": "AIMS Research and Innovation Centre",
+      "country": "RW",
+      "value": 114,
+      "detail": "757 citations"
+    },
+    {
+      "name": "Africa Health Sciences University",
+      "country": "RW",
+      "value": 112,
+      "detail": "540 citations"
+    },
+    {
+      "name": "Adventist University of Central Africa",
+      "country": "RW",
+      "value": 106,
+      "detail": "701 citations"
+    },
+    {
+      "name": "Catholic University of Kabgayi",
+      "country": "RW",
+      "value": 60,
+      "detail": "217 citations"
+    },
+    {
+      "name": "Institut Supérieur Pédagogique de Gitwe",
+      "country": "RW",
+      "value": 20,
+      "detail": "16 citations"
+    },
+    {
+      "name": "University of Medical Sciences and Technology Rwanda",
+      "country": "RW",
+      "value": 18,
+      "detail": "4 citations"
+    },
+    {
+      "name": "Institute of Legal Practice and Development",
+      "country": "RW",
+      "value": 6,
+      "detail": "9 citations"
+    },
+    {
+      "name": "North Gate University",
+      "country": "RW",
+      "value": 1,
+      "detail": "1 citations"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "tm-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Turkmenistan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TM",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:40.042Z",
+  "items": [
+    {
+      "name": "National Institute of Sports and Tourism of Turkmenistan",
+      "country": "TM",
+      "value": 5,
+      "detail": "6 works"
+    },
+    {
+      "name": "Turkmen State Medical University",
+      "country": "TM",
+      "value": 0.6042,
+      "detail": "100 works"
+    },
+    {
+      "name": "Oguz Han Engineering and Technology University of Turkmenistan",
+      "country": "TM",
+      "value": 0.5896,
+      "detail": "128 works"
+    },
+    {
+      "name": "Turkmen State Institute of Architecture and Construction",
+      "country": "TM",
+      "value": 0.4138,
+      "detail": "73 works"
+    },
+    {
+      "name": "Turkmen State Institute of Economics and Management",
+      "country": "TM",
+      "value": 0.2973,
+      "detail": "41 works"
+    },
+    {
+      "name": "Magtymguly Turkmen State University",
+      "country": "TM",
+      "value": 0.2963,
+      "detail": "119 works"
+    },
+    {
+      "name": "Turkmen National Institute of Foreign Languages named after D. Azadi",
+      "country": "TM",
+      "value": 0.2222,
+      "detail": "20 works"
+    },
+    {
+      "name": "Turkmen Agricultural University Named after S.A. Niyazov",
+      "country": "TM",
+      "value": 0.1905,
+      "detail": "34 works"
+    },
+    {
+      "name": "International Oil and Gas University",
+      "country": "TM",
+      "value": 0.0205,
+      "detail": "122 works"
+    }
+  ]
+}

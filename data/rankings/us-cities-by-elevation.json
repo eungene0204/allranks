@@ -1,0 +1,326 @@
+{
+  "id": "us-cities-by-elevation",
+  "title": "Highest Major Cities in United States",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in United States with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.569Z",
+  "items": [
+    {
+      "name": "Laramie",
+      "country": "US",
+      "value": 2190,
+      "detail": "32,158 people · Wyoming"
+    },
+    {
+      "name": "Santa Fe",
+      "country": "US",
+      "value": 2137,
+      "detail": "87,505 people · New Mexico"
+    },
+    {
+      "name": "Flagstaff",
+      "country": "US",
+      "value": 2108,
+      "detail": "70,320 people · Arizona"
+    },
+    {
+      "name": "Durango",
+      "country": "US",
+      "value": 1998,
+      "detail": "18,006 people · Colorado"
+    },
+    {
+      "name": "Gallup",
+      "country": "US",
+      "value": 1985,
+      "detail": "23,240 people · New Mexico"
+    },
+    {
+      "name": "Cimarron Hills",
+      "country": "US",
+      "value": 1965,
+      "detail": "16,161 people · Colorado"
+    },
+    {
+      "name": "Rock Springs",
+      "country": "US",
+      "value": 1954,
+      "detail": "23,962 people · Wyoming"
+    },
+    {
+      "name": "Castle Rock",
+      "country": "US",
+      "value": 1903,
+      "detail": "55,591 people · Colorado"
+    },
+    {
+      "name": "South Lake Tahoe",
+      "country": "US",
+      "value": 1902,
+      "detail": "21,706 people · California"
+    },
+    {
+      "name": "Conda",
+      "country": "US",
+      "value": 1889,
+      "detail": "21,260 people · Idaho"
+    },
+    {
+      "name": "Cheyenne",
+      "country": "US",
+      "value": 1866,
+      "detail": "65,132 people · Wyoming"
+    },
+    {
+      "name": "Colorado Springs",
+      "country": "US",
+      "value": 1838,
+      "detail": "456,568 people · Colorado"
+    },
+    {
+      "name": "Parker",
+      "country": "US",
+      "value": 1795,
+      "detail": "49,550 people · Colorado"
+    },
+    {
+      "name": "Cedar City",
+      "country": "US",
+      "value": 1784,
+      "detail": "30,184 people · Utah"
+    },
+    {
+      "name": "Security-Widefield",
+      "country": "US",
+      "value": 1783,
+      "detail": "32,882 people · Colorado"
+    },
+    {
+      "name": "Centennial",
+      "country": "US",
+      "value": 1781,
+      "detail": "109,741 people · Colorado"
+    },
+    {
+      "name": "Montrose",
+      "country": "US",
+      "value": 1776,
+      "detail": "19,062 people · Colorado"
+    },
+    {
+      "name": "Truckee",
+      "country": "US",
+      "value": 1774,
+      "detail": "16,299 people · California"
+    },
+    {
+      "name": "Dakota Ridge",
+      "country": "US",
+      "value": 1767,
+      "detail": "33,892 people · Colorado"
+    },
+    {
+      "name": "Ken Caryl",
+      "country": "US",
+      "value": 1761,
+      "detail": "32,438 people · Colorado"
+    },
+    {
+      "name": "Castlewood",
+      "country": "US",
+      "value": 1750,
+      "detail": "25,271 people · Colorado"
+    },
+    {
+      "name": "Highlands Ranch",
+      "country": "US",
+      "value": 1741,
+      "detail": "96,713 people · Colorado"
+    },
+    {
+      "name": "Golden",
+      "country": "US",
+      "value": 1733,
+      "detail": "20,330 people · Colorado"
+    },
+    {
+      "name": "Southglenn",
+      "country": "US",
+      "value": 1710,
+      "detail": "42,268 people · Colorado"
+    },
+    {
+      "name": "Fountain",
+      "country": "US",
+      "value": 1694,
+      "detail": "27,767 people · Colorado"
+    },
+    {
+      "name": "Columbine",
+      "country": "US",
+      "value": 1691,
+      "detail": "24,280 people · Colorado"
+    },
+    {
+      "name": "Butte",
+      "country": "US",
+      "value": 1690,
+      "detail": "34,190 people · Montana"
+    },
+    {
+      "name": "Lakewood",
+      "country": "US",
+      "value": 1682,
+      "detail": "152,597 people · Colorado"
+    },
+    {
+      "name": "Greenwood Village",
+      "country": "US",
+      "value": 1674,
+      "detail": "15,663 people · Colorado"
+    },
+    {
+      "name": "Wheat Ridge",
+      "country": "US",
+      "value": 1669,
+      "detail": "31,192 people · Colorado"
+    },
+    {
+      "name": "Aurora",
+      "country": "US",
+      "value": 1651,
+      "detail": "359,407 people · Colorado"
+    },
+    {
+      "name": "Broomfield",
+      "country": "US",
+      "value": 1649,
+      "detail": "65,065 people · Colorado"
+    },
+    {
+      "name": "Northglenn",
+      "country": "US",
+      "value": 1644,
+      "detail": "39,197 people · Colorado"
+    },
+    {
+      "name": "Westminster",
+      "country": "US",
+      "value": 1644,
+      "detail": "116,317 people · Colorado"
+    },
+    {
+      "name": "Englewood",
+      "country": "US",
+      "value": 1642,
+      "detail": "33,082 people · Colorado"
+    },
+    {
+      "name": "Prescott",
+      "country": "US",
+      "value": 1638,
+      "detail": "41,899 people · Arizona"
+    },
+    {
+      "name": "Arvada",
+      "country": "US",
+      "value": 1637,
+      "detail": "115,368 people · Colorado"
+    },
+    {
+      "name": "Denver",
+      "country": "US",
+      "value": 1636,
+      "detail": "729,019 people · Colorado"
+    },
+    {
+      "name": "Cañon City",
+      "country": "US",
+      "value": 1635,
+      "detail": "16,400 people · Colorado"
+    },
+    {
+      "name": "Littleton",
+      "country": "US",
+      "value": 1635,
+      "detail": "46,368 people · Colorado"
+    },
+    {
+      "name": "Thornton",
+      "country": "US",
+      "value": 1635,
+      "detail": "133,451 people · Colorado"
+    },
+    {
+      "name": "Louisville",
+      "country": "US",
+      "value": 1631,
+      "detail": "20,396 people · Colorado"
+    },
+    {
+      "name": "Boulder",
+      "country": "US",
+      "value": 1630,
+      "detail": "106,803 people · Colorado"
+    },
+    {
+      "name": "Sherrelwood",
+      "country": "US",
+      "value": 1618,
+      "detail": "18,287 people · Colorado"
+    },
+    {
+      "name": "Enchanted Hills",
+      "country": "US",
+      "value": 1616,
+      "detail": "87,521 people · New Mexico"
+    },
+    {
+      "name": "Farmington",
+      "country": "US",
+      "value": 1614,
+      "detail": "42,871 people · New Mexico"
+    },
+    {
+      "name": "Rio Rancho",
+      "country": "US",
+      "value": 1606,
+      "detail": "87,521 people · New Mexico"
+    },
+    {
+      "name": "Lafayette",
+      "country": "US",
+      "value": 1593,
+      "detail": "27,729 people · Colorado"
+    },
+    {
+      "name": "Commerce City",
+      "country": "US",
+      "value": 1574,
+      "detail": "53,696 people · Colorado"
+    },
+    {
+      "name": "Casper",
+      "country": "US",
+      "value": 1560,
+      "detail": "60,285 people · Wyoming"
+    }
+  ]
+}

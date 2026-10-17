@@ -1,0 +1,128 @@
+{
+  "id": "az-airports-by-elevation",
+  "title": "Highest Airports in Azerbaijan",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Azerbaijan ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.454Z",
+  "items": [
+    {
+      "name": "Lachin International Airport",
+      "country": "AZ",
+      "value": 1699.87,
+      "detail": "Lachin · 5,577 ft above sea level"
+    },
+    {
+      "name": "Nakhchivan International Airport",
+      "country": "AZ",
+      "value": 872.64,
+      "detail": "Nakhchivan · 2,863 ft above sea level"
+    },
+    {
+      "name": "Khojaly Airport",
+      "country": "AZ",
+      "value": 609.9,
+      "detail": "Khojaly · 2,001 ft above sea level"
+    },
+    {
+      "name": "Zangilan International Airport",
+      "country": "AZ",
+      "value": 402.34,
+      "detail": "Zangilan · 1,320 ft above sea level"
+    },
+    {
+      "name": "Zaqatala International Airport",
+      "country": "AZ",
+      "value": 389.84,
+      "detail": "Zaqatala · 1,279 ft above sea level"
+    },
+    {
+      "name": "Fuzuli International Airport",
+      "country": "AZ",
+      "value": 380.09,
+      "detail": "Fuzuli · 1,247 ft above sea level"
+    },
+    {
+      "name": "Dollyar Air Base",
+      "country": "AZ",
+      "value": 334.98,
+      "detail": "Dollyar · 1,099 ft above sea level"
+    },
+    {
+      "name": "Akstafa Airport",
+      "country": "AZ",
+      "value": 330.71,
+      "detail": "Akstafa · 1,085 ft above sea level"
+    },
+    {
+      "name": "Ganja International Airport",
+      "country": "AZ",
+      "value": 330.1,
+      "detail": "Ganja · 1,083 ft above sea level"
+    },
+    {
+      "name": "Balakan Airport",
+      "country": "AZ",
+      "value": 284.99,
+      "detail": "Balakan · 935 ft above sea level"
+    },
+    {
+      "name": "Gabala International Airport",
+      "country": "AZ",
+      "value": 284.99,
+      "detail": "Gabala · 935 ft above sea level"
+    },
+    {
+      "name": "Khachmaz Airport",
+      "country": "AZ",
+      "value": 18.9,
+      "detail": "Khachmaz · 62 ft above sea level"
+    },
+    {
+      "name": "Yevlakh Airport",
+      "country": "AZ",
+      "value": 14.94,
+      "detail": "Yevlakh · 49 ft above sea level"
+    },
+    {
+      "name": "Baku Kala Air Base",
+      "country": "AZ",
+      "value": 12.19,
+      "detail": "Baku · 40 ft above sea level"
+    },
+    {
+      "name": "Zabrat Airport",
+      "country": "AZ",
+      "value": 10.97,
+      "detail": "Zabrat · 36 ft above sea level"
+    },
+    {
+      "name": "Lankaran International Airport",
+      "country": "AZ",
+      "value": 9.14,
+      "detail": "Lankaran · 30 ft above sea level"
+    },
+    {
+      "name": "Heydar Aliyev International Airport",
+      "country": "AZ",
+      "value": 3.05,
+      "detail": "Baku · 10 ft above sea level"
+    }
+  ]
+}

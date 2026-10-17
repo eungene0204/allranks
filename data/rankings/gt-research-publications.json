@@ -1,0 +1,110 @@
+{
+  "id": "gt-research-publications",
+  "title": "Universities by Research Publications in Guatemala",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:49.778Z",
+  "items": [
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "country": "GT",
+      "value": 6667,
+      "detail": "58,466 citations"
+    },
+    {
+      "name": "Universidad del Valle de Guatemala",
+      "country": "GT",
+      "value": 1916,
+      "detail": "70,267 citations"
+    },
+    {
+      "name": "Universidad Francisco Marroquín",
+      "country": "GT",
+      "value": 1085,
+      "detail": "17,640 citations"
+    },
+    {
+      "name": "Universidad Rafael Landívar",
+      "country": "GT",
+      "value": 599,
+      "detail": "2,882 citations"
+    },
+    {
+      "name": "Universidad Panamericana",
+      "country": "GT",
+      "value": 396,
+      "detail": "1,418 citations"
+    },
+    {
+      "name": "Universidad del Istmo",
+      "country": "GT",
+      "value": 385,
+      "detail": "1,724 citations"
+    },
+    {
+      "name": "Galileo University",
+      "country": "GT",
+      "value": 339,
+      "detail": "5,015 citations"
+    },
+    {
+      "name": "Universidad Mariano Galvez",
+      "country": "GT",
+      "value": 210,
+      "detail": "2,210 citations"
+    },
+    {
+      "name": "Centro Universitario de Occidente",
+      "country": "GT",
+      "value": 97,
+      "detail": "540 citations"
+    },
+    {
+      "name": "Mesoamerican University",
+      "country": "GT",
+      "value": 41,
+      "detail": "2,429 citations"
+    },
+    {
+      "name": "Consejo Superior Universitario Centroamericano",
+      "country": "GT",
+      "value": 12,
+      "detail": "88 citations"
+    },
+    {
+      "name": "Universidad Rural de Guatemala",
+      "country": "GT",
+      "value": 7,
+      "detail": "71 citations"
+    },
+    {
+      "name": "Probigua",
+      "country": "GT",
+      "value": 6,
+      "detail": "71 citations"
+    },
+    {
+      "name": "Centro Universitario Ciudad Vieja",
+      "country": "GT",
+      "value": 3,
+      "detail": "0 citations"
+    }
+  ]
+}

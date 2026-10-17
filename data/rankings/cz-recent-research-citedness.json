@@ -1,0 +1,326 @@
+{
+  "id": "cz-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Czechia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "CZ",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:40.017Z",
+  "items": [
+    {
+      "name": "University of Hradec Králové",
+      "country": "CZ",
+      "value": 5.5153,
+      "detail": "9,084 works"
+    },
+    {
+      "name": "Central European Institute of Technology",
+      "country": "CZ",
+      "value": 4.757,
+      "detail": "7,053 works"
+    },
+    {
+      "name": "Pan-European University",
+      "country": "CZ",
+      "value": 4.5357,
+      "detail": "330 works"
+    },
+    {
+      "name": "VSB - Technical University of Ostrava",
+      "country": "CZ",
+      "value": 4.1679,
+      "detail": "24,812 works"
+    },
+    {
+      "name": "Czech University of Life Sciences Prague",
+      "country": "CZ",
+      "value": 4.0993,
+      "detail": "24,156 works"
+    },
+    {
+      "name": "Central European Institute of Technology – Masaryk University",
+      "country": "CZ",
+      "value": 3.9453,
+      "detail": "6,037 works"
+    },
+    {
+      "name": "Tomas Bata University in Zlín",
+      "country": "CZ",
+      "value": 3.7998,
+      "detail": "8,871 works"
+    },
+    {
+      "name": "Palacký University Olomouc",
+      "country": "CZ",
+      "value": 3.6949,
+      "detail": "37,460 works"
+    },
+    {
+      "name": "Vysoká škola evropských a regionálních studií, z. ú.",
+      "country": "CZ",
+      "value": 3.6667,
+      "detail": "56 works"
+    },
+    {
+      "name": "University of South Bohemia in České Budějovice",
+      "country": "CZ",
+      "value": 3.5709,
+      "detail": "20,366 works"
+    },
+    {
+      "name": "Czech Technical University in Prague",
+      "country": "CZ",
+      "value": 3.4915,
+      "detail": "51,107 works"
+    },
+    {
+      "name": "Charles University",
+      "country": "CZ",
+      "value": 3.462,
+      "detail": "155,205 works"
+    },
+    {
+      "name": "University of Economics and Management",
+      "country": "CZ",
+      "value": 3.4,
+      "detail": "244 works"
+    },
+    {
+      "name": "Institute of Technology and Business",
+      "country": "CZ",
+      "value": 3.3162,
+      "detail": "2,094 works"
+    },
+    {
+      "name": "Technical University of Liberec",
+      "country": "CZ",
+      "value": 3.2017,
+      "detail": "7,863 works"
+    },
+    {
+      "name": "University of Chemistry and Technology, Prague",
+      "country": "CZ",
+      "value": 3.0823,
+      "detail": "27,750 works"
+    },
+    {
+      "name": "Mendel University in Brno",
+      "country": "CZ",
+      "value": 3.0803,
+      "detail": "16,326 works"
+    },
+    {
+      "name": "Masaryk University",
+      "country": "CZ",
+      "value": 3.038,
+      "detail": "58,972 works"
+    },
+    {
+      "name": "Brno International Business School",
+      "country": "CZ",
+      "value": 2.8889,
+      "detail": "23 works"
+    },
+    {
+      "name": "Výzkumný Ústav Mlékárenský",
+      "country": "CZ",
+      "value": 2.8261,
+      "detail": "256 works"
+    },
+    {
+      "name": "University of Pardubice",
+      "country": "CZ",
+      "value": 2.7269,
+      "detail": "11,623 works"
+    },
+    {
+      "name": "Brno University of Technology",
+      "country": "CZ",
+      "value": 2.7262,
+      "detail": "33,021 works"
+    },
+    {
+      "name": "Prague University of Economics and Business",
+      "country": "CZ",
+      "value": 2.6951,
+      "detail": "7,950 works"
+    },
+    {
+      "name": "Jan Evangelista Purkyně University in Ústí nad Labem",
+      "country": "CZ",
+      "value": 2.6257,
+      "detail": "5,051 works"
+    },
+    {
+      "name": "Silesian University in Opava",
+      "country": "CZ",
+      "value": 2.5261,
+      "detail": "3,484 works"
+    },
+    {
+      "name": "University of Ostrava",
+      "country": "CZ",
+      "value": 2.4967,
+      "detail": "11,252 works"
+    },
+    {
+      "name": "University of Finance and Administration",
+      "country": "CZ",
+      "value": 2.3868,
+      "detail": "612 works"
+    },
+    {
+      "name": "Škoda Auto University",
+      "country": "CZ",
+      "value": 2.2904,
+      "detail": "415 works"
+    },
+    {
+      "name": "University of West Bohemia in Pilsen",
+      "country": "CZ",
+      "value": 2.2683,
+      "detail": "15,141 works"
+    },
+    {
+      "name": "University of Veterinary Sciences Brno",
+      "country": "CZ",
+      "value": 2.2228,
+      "detail": "6,628 works"
+    },
+    {
+      "name": "Military University Hospital Prague",
+      "country": "CZ",
+      "value": 2.209,
+      "detail": "1,619 works"
+    },
+    {
+      "name": "University of International and Public Relations Prague",
+      "country": "CZ",
+      "value": 2,
+      "detail": "37 works"
+    },
+    {
+      "name": "Vysoká Skola Logistiky",
+      "country": "CZ",
+      "value": 1.9375,
+      "detail": "77 works"
+    },
+    {
+      "name": "University of Defence",
+      "country": "CZ",
+      "value": 1.9036,
+      "detail": "5,555 works"
+    },
+    {
+      "name": "Anglo-American University",
+      "country": "CZ",
+      "value": 1.8197,
+      "detail": "248 works"
+    },
+    {
+      "name": "College of Polytechnics Jihlava",
+      "country": "CZ",
+      "value": 1.7248,
+      "detail": "651 works"
+    },
+    {
+      "name": "European Research University",
+      "country": "CZ",
+      "value": 1.6885,
+      "detail": "59 works"
+    },
+    {
+      "name": "University of New York in Prague",
+      "country": "CZ",
+      "value": 1.5572,
+      "detail": "353 works"
+    },
+    {
+      "name": "Sting Academy",
+      "country": "CZ",
+      "value": 1.4444,
+      "detail": "22 works"
+    },
+    {
+      "name": "College of Applied Psychology",
+      "country": "CZ",
+      "value": 1.4,
+      "detail": "34 works"
+    },
+    {
+      "name": "Center for Economic Research and Graduate Education – Economics Institute",
+      "country": "CZ",
+      "value": 1.3018,
+      "detail": "2,210 works"
+    },
+    {
+      "name": "Ambis University",
+      "country": "CZ",
+      "value": 1.2451,
+      "detail": "377 works"
+    },
+    {
+      "name": "Prague College of Psychosocial Studies",
+      "country": "CZ",
+      "value": 1.093,
+      "detail": "112 works"
+    },
+    {
+      "name": "Metropolitan University Prague",
+      "country": "CZ",
+      "value": 1.0507,
+      "detail": "697 works"
+    },
+    {
+      "name": "Evropský Polytechnický Institut",
+      "country": "CZ",
+      "value": 1,
+      "detail": "30 works"
+    },
+    {
+      "name": "Institute of Hospitality Management in Prague",
+      "country": "CZ",
+      "value": 1,
+      "detail": "70 works"
+    },
+    {
+      "name": "Private University College of Economic Studies",
+      "country": "CZ",
+      "value": 1,
+      "detail": "8 works"
+    },
+    {
+      "name": "Police Academy of the Czech Republic in Prague",
+      "country": "CZ",
+      "value": 0.9481,
+      "detail": "195 works"
+    },
+    {
+      "name": "Moravská Vysoká Skola Olomouc",
+      "country": "CZ",
+      "value": 0.92,
+      "detail": "181 works"
+    },
+    {
+      "name": "Laboratoře Behaviorálních Studií",
+      "country": "CZ",
+      "value": 0.9091,
+      "detail": "9 works"
+    }
+  ]
+}

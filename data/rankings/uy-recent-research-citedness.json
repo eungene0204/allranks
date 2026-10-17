@@ -1,0 +1,86 @@
+{
+  "id": "uy-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Uruguay",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "UY",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:44.504Z",
+  "items": [
+    {
+      "name": "Programa de Desarrollo de las Ciencias Básicas",
+      "country": "UY",
+      "value": 2.4646,
+      "detail": "185 works"
+    },
+    {
+      "name": "Universidad Católica del Uruguay",
+      "country": "UY",
+      "value": 1.8328,
+      "detail": "2,736 works"
+    },
+    {
+      "name": "Universidad de Montevideo",
+      "country": "UY",
+      "value": 1.6492,
+      "detail": "3,105 works"
+    },
+    {
+      "name": "Universidad Tecnológica de Uruguay",
+      "country": "UY",
+      "value": 1.523,
+      "detail": "463 works"
+    },
+    {
+      "name": "Universidad ORT Uruguay",
+      "country": "UY",
+      "value": 1.4569,
+      "detail": "1,645 works"
+    },
+    {
+      "name": "Universidad de la República de Uruguay",
+      "country": "UY",
+      "value": 1.0427,
+      "detail": "54,026 works"
+    },
+    {
+      "name": "Consejo de Formación en Educación",
+      "country": "UY",
+      "value": 0.4952,
+      "detail": "433 works"
+    },
+    {
+      "name": "Universidad CLAEH",
+      "country": "UY",
+      "value": 0.4231,
+      "detail": "297 works"
+    },
+    {
+      "name": "Instituto Universitario Asociación Cristiana de Jóvenes",
+      "country": "UY",
+      "value": 0.1667,
+      "detail": "80 works"
+    },
+    {
+      "name": "Universidad de la Empresa",
+      "country": "UY",
+      "value": 0.1595,
+      "detail": "615 works"
+    }
+  ]
+}

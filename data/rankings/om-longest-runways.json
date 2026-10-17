@@ -1,0 +1,86 @@
+{
+  "id": "om-longest-runways",
+  "title": "Longest Airport Runways in Oman",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Oman ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "OM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.533Z",
+  "items": [
+    {
+      "name": "Muscat International Airport",
+      "country": "OM",
+      "value": 4080.05,
+      "detail": "Muscat/Seeb · 13,386 ft · ASP"
+    },
+    {
+      "name": "Suhar International Airport",
+      "country": "OM",
+      "value": 4015.13,
+      "detail": "Suhar · 13,173 ft · ASP"
+    },
+    {
+      "name": "Duqm International Airport",
+      "country": "OM",
+      "value": 3999.89,
+      "detail": "Duqm · 13,123 ft · CON"
+    },
+    {
+      "name": "Salalah International Airport",
+      "country": "OM",
+      "value": 3999.89,
+      "detail": "Salalah · 13,123 ft · ASP"
+    },
+    {
+      "name": "Thumrait Air Base",
+      "country": "OM",
+      "value": 3999.89,
+      "detail": "Thumrait · 13,123 ft · ASP"
+    },
+    {
+      "name": "RAFO Masirah",
+      "country": "OM",
+      "value": 3049.52,
+      "detail": "Masirah · 10,005 ft · ASP"
+    },
+    {
+      "name": "Marmul Airport",
+      "country": "OM",
+      "value": 2631.95,
+      "detail": "Marmul · 8,635 ft · GVL"
+    },
+    {
+      "name": "Fahud Airport",
+      "country": "OM",
+      "value": 2560.02,
+      "detail": "Fahud · 8,399 ft · CON"
+    },
+    {
+      "name": "Khasab Airport",
+      "country": "OM",
+      "value": 2499.97,
+      "detail": "Khasab · 8,202 ft · ASP"
+    },
+    {
+      "name": "Manston Air Base",
+      "country": "OM",
+      "value": 1502.05,
+      "detail": "Manston · 4,928 ft · ASP"
+    }
+  ]
+}

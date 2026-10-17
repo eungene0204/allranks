@@ -1,0 +1,176 @@
+{
+  "id": "ba-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Bosnia and Herzegovina",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:25.057Z",
+  "items": [
+    {
+      "name": "University Sinergija",
+      "country": "BA",
+      "value": 7.4118,
+      "detail": "243 works"
+    },
+    {
+      "name": "Visoka škola \"Logos centar\" Mostaru",
+      "country": "BA",
+      "value": 5.25,
+      "detail": "17 works"
+    },
+    {
+      "name": "International University of Sarajevo",
+      "country": "BA",
+      "value": 2.5307,
+      "detail": "1,908 works"
+    },
+    {
+      "name": "University of Sarajevo",
+      "country": "BA",
+      "value": 1.8921,
+      "detail": "18,477 works"
+    },
+    {
+      "name": "University of Zenica",
+      "country": "BA",
+      "value": 1.8706,
+      "detail": "1,791 works"
+    },
+    {
+      "name": "Sarajevo School of Science and Technology",
+      "country": "BA",
+      "value": 1.7387,
+      "detail": "841 works"
+    },
+    {
+      "name": "University of East Sarajevo",
+      "country": "BA",
+      "value": 1.5419,
+      "detail": "4,474 works"
+    },
+    {
+      "name": "University of Mostar",
+      "country": "BA",
+      "value": 1.4711,
+      "detail": "4,159 works"
+    },
+    {
+      "name": "University of Banja Luka",
+      "country": "BA",
+      "value": 1.4662,
+      "detail": "9,439 works"
+    },
+    {
+      "name": "Independent University Banja Luka",
+      "country": "BA",
+      "value": 1.3692,
+      "detail": "246 works"
+    },
+    {
+      "name": "University of Bijeljina",
+      "country": "BA",
+      "value": 1.1193,
+      "detail": "390 works"
+    },
+    {
+      "name": "University of Business Engineering and Management",
+      "country": "BA",
+      "value": 1.0455,
+      "detail": "131 works"
+    },
+    {
+      "name": "University of Tuzla",
+      "country": "BA",
+      "value": 0.8501,
+      "detail": "5,180 works"
+    },
+    {
+      "name": "Dzemal Bijedic University of Mostar",
+      "country": "BA",
+      "value": 0.8392,
+      "detail": "881 works"
+    },
+    {
+      "name": "International Burch University",
+      "country": "BA",
+      "value": 0.7696,
+      "detail": "1,672 works"
+    },
+    {
+      "name": "University of Bihać",
+      "country": "BA",
+      "value": 0.6992,
+      "detail": "1,245 works"
+    },
+    {
+      "name": "Herzegovina University",
+      "country": "BA",
+      "value": 0.6923,
+      "detail": "142 works"
+    },
+    {
+      "name": "Univerzitet Vitez",
+      "country": "BA",
+      "value": 0.3762,
+      "detail": "254 works"
+    },
+    {
+      "name": "Univerzitet Za Poslovne Studije",
+      "country": "BA",
+      "value": 0.36,
+      "detail": "120 works"
+    },
+    {
+      "name": "Slobomir P University",
+      "country": "BA",
+      "value": 0.2,
+      "detail": "98 works"
+    },
+    {
+      "name": "International University of Travnik",
+      "country": "BA",
+      "value": 0.179,
+      "detail": "297 works"
+    },
+    {
+      "name": "University of Travnik",
+      "country": "BA",
+      "value": 0.1546,
+      "detail": "448 works"
+    },
+    {
+      "name": "\"International business-information academy\" Tuzla (IPI Academy)",
+      "country": "BA",
+      "value": 0.1429,
+      "detail": "27 works"
+    },
+    {
+      "name": "American University in Bosnia and Herzegovina",
+      "country": "BA",
+      "value": 0.1429,
+      "detail": "80 works"
+    },
+    {
+      "name": "Univerzitet \"Privredna Akademija\" Brčko distrikt Bosne i Hercegovine",
+      "country": "BA",
+      "value": 0.0714,
+      "detail": "14 works"
+    }
+  ]
+}

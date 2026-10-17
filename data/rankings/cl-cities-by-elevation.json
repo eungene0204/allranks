@@ -1,0 +1,326 @@
+{
+  "id": "cl-cities-by-elevation",
+  "title": "Highest Major Cities in Chile",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Chile with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.518Z",
+  "items": [
+    {
+      "name": "Calama",
+      "country": "CL",
+      "value": 2275,
+      "detail": "166,334 people · Antofagasta"
+    },
+    {
+      "name": "Pozo Almonte",
+      "country": "CL",
+      "value": 1035,
+      "detail": "16,878 people · Tarapacá"
+    },
+    {
+      "name": "San Esteban",
+      "country": "CL",
+      "value": 841,
+      "detail": "17,090 people · Valparaiso"
+    },
+    {
+      "name": "Los Andes",
+      "country": "CL",
+      "value": 833,
+      "detail": "63,009 people · Valparaiso"
+    },
+    {
+      "name": "Putaendo",
+      "country": "CL",
+      "value": 820,
+      "detail": "15,361 people · Valparaiso"
+    },
+    {
+      "name": "Peñalolén",
+      "country": "CL",
+      "value": 710,
+      "detail": "241,599 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Puente Alto",
+      "country": "CL",
+      "value": 700,
+      "detail": "568,106 people · Santiago Metropolitan"
+    },
+    {
+      "name": "San Felipe",
+      "country": "CL",
+      "value": 654,
+      "detail": "59,294 people · Valparaiso"
+    },
+    {
+      "name": "La Pintana",
+      "country": "CL",
+      "value": 630,
+      "detail": "201,178 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Vicuña",
+      "country": "CL",
+      "value": 616,
+      "detail": "27,771 people · Coquimbo Region"
+    },
+    {
+      "name": "Ñuñoa",
+      "country": "CL",
+      "value": 615,
+      "detail": "255,823 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Colina",
+      "country": "CL",
+      "value": 599,
+      "detail": "146,207 people · Santiago Metropolitan"
+    },
+    {
+      "name": "San Bernardo",
+      "country": "CL",
+      "value": 571,
+      "detail": "249,858 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Machalí",
+      "country": "CL",
+      "value": 568,
+      "detail": "42,572 people · O'Higgins Region"
+    },
+    {
+      "name": "Chicureo",
+      "country": "CL",
+      "value": 563,
+      "detail": "16,520 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Santiago",
+      "country": "CL",
+      "value": 556,
+      "detail": "4,837,295 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Alto Hospicio",
+      "country": "CL",
+      "value": 544,
+      "detail": "142,086 people · Tarapacá"
+    },
+    {
+      "name": "Rancagua",
+      "country": "CL",
+      "value": 520,
+      "detail": "212,695 people · O'Higgins Region"
+    },
+    {
+      "name": "Lo Prado",
+      "country": "CL",
+      "value": 509,
+      "detail": "104,316 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Renca",
+      "country": "CL",
+      "value": 508,
+      "detail": "147,151 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Lampa",
+      "country": "CL",
+      "value": 498,
+      "detail": "102,234 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Quilicura",
+      "country": "CL",
+      "value": 497,
+      "detail": "210,410 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Buin",
+      "country": "CL",
+      "value": 483,
+      "detail": "63,419 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Graneros",
+      "country": "CL",
+      "value": 483,
+      "detail": "23,301 people · O'Higgins Region"
+    },
+    {
+      "name": "Maipú",
+      "country": "CL",
+      "value": 478,
+      "detail": "503,635 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Batuco",
+      "country": "CL",
+      "value": 464,
+      "detail": "16,784 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Padre Hurtado",
+      "country": "CL",
+      "value": 452,
+      "detail": "63,250 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Paine",
+      "country": "CL",
+      "value": 407,
+      "detail": "72,759 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Llaillay",
+      "country": "CL",
+      "value": 395,
+      "detail": "22,659 people · Valparaiso"
+    },
+    {
+      "name": "Peñaflor",
+      "country": "CL",
+      "value": 395,
+      "detail": "85,671 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Vallenar",
+      "country": "CL",
+      "value": 388,
+      "detail": "44,895 people · Atacama"
+    },
+    {
+      "name": "Copiapó",
+      "country": "CL",
+      "value": 381,
+      "detail": "129,280 people · Atacama"
+    },
+    {
+      "name": "Cunco",
+      "country": "CL",
+      "value": 369,
+      "detail": "15,628 people · Araucania"
+    },
+    {
+      "name": "Victoria",
+      "country": "CL",
+      "value": 355,
+      "detail": "32,448 people · Araucania"
+    },
+    {
+      "name": "Talagante",
+      "country": "CL",
+      "value": 344,
+      "detail": "57,323 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Villa Mercedes",
+      "country": "CL",
+      "value": 342,
+      "detail": "131,936 people · Biobio"
+    },
+    {
+      "name": "Placilla",
+      "country": "CL",
+      "value": 335,
+      "detail": "39,344 people · Valparaiso"
+    },
+    {
+      "name": "Rengo",
+      "country": "CL",
+      "value": 326,
+      "detail": "38,100 people · O'Higgins Region"
+    },
+    {
+      "name": "Illapel",
+      "country": "CL",
+      "value": 312,
+      "detail": "22,816 people · Coquimbo Region"
+    },
+    {
+      "name": "Chimbarongo",
+      "country": "CL",
+      "value": 309,
+      "detail": "33,446 people · O'Higgins Region"
+    },
+    {
+      "name": "El Monte",
+      "country": "CL",
+      "value": 300,
+      "detail": "26,459 people · Santiago Metropolitan"
+    },
+    {
+      "name": "Coyhaique",
+      "country": "CL",
+      "value": 299,
+      "detail": "45,787 people · Aysén"
+    },
+    {
+      "name": "Vilcún",
+      "country": "CL",
+      "value": 295,
+      "detail": "22,499 people · Araucania"
+    },
+    {
+      "name": "Antofagasta",
+      "country": "CL",
+      "value": 276,
+      "detail": "401,096 people · Antofagasta"
+    },
+    {
+      "name": "Casablanca",
+      "country": "CL",
+      "value": 268,
+      "detail": "24,537 people · Valparaiso"
+    },
+    {
+      "name": "Colbún",
+      "country": "CL",
+      "value": 260,
+      "detail": "17,619 people · Maule Region"
+    },
+    {
+      "name": "Coihueco",
+      "country": "CL",
+      "value": 257,
+      "detail": "25,159 people · Ñuble"
+    },
+    {
+      "name": "Collipulli",
+      "country": "CL",
+      "value": 257,
+      "detail": "23,321 people · Araucania"
+    },
+    {
+      "name": "Molina",
+      "country": "CL",
+      "value": 253,
+      "detail": "40,329 people · Maule Region"
+    },
+    {
+      "name": "Pucón",
+      "country": "CL",
+      "value": 236,
+      "detail": "26,953 people · Araucania"
+    }
+  ]
+}

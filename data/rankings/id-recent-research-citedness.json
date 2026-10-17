@@ -1,0 +1,326 @@
+{
+  "id": "id-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Indonesia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "ID",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:53.116Z",
+  "items": [
+    {
+      "name": "SEAMEO QITEP in Language",
+      "country": "ID",
+      "value": 7.7143,
+      "detail": "6 works"
+    },
+    {
+      "name": "Sekolah Tinggi Ilmu Ekonomi Pontianak",
+      "country": "ID",
+      "value": 5,
+      "detail": "34 works"
+    },
+    {
+      "name": "Sekolah Tinggi Ilmu Kesehatan Bethesda Yakkum",
+      "country": "ID",
+      "value": 3.2624,
+      "detail": "426 works"
+    },
+    {
+      "name": "Monash University, Indonesia",
+      "country": "ID",
+      "value": 2.949,
+      "detail": "400 works"
+    },
+    {
+      "name": "Sekolah Tinggi Teologi Bandung",
+      "country": "ID",
+      "value": 2.7031,
+      "detail": "167 works"
+    },
+    {
+      "name": "Sekolah Tinggi Teologi Kadesi Bogor",
+      "country": "ID",
+      "value": 2.2675,
+      "detail": "210 works"
+    },
+    {
+      "name": "Indonesia International Institute for Life Sciences",
+      "country": "ID",
+      "value": 2.1088,
+      "detail": "858 works"
+    },
+    {
+      "name": "Universitas Muhammadiyah Tangerang",
+      "country": "ID",
+      "value": 2.0808,
+      "detail": "6,929 works"
+    },
+    {
+      "name": "STMIK Jabar",
+      "country": "ID",
+      "value": 2.0769,
+      "detail": "43 works"
+    },
+    {
+      "name": "WISE Pendidikan Indonesia",
+      "country": "ID",
+      "value": 2,
+      "detail": "20 works"
+    },
+    {
+      "name": "Universitas Raharja",
+      "country": "ID",
+      "value": 1.8384,
+      "detail": "3,374 works"
+    },
+    {
+      "name": "STISIP Imam Bonjol",
+      "country": "ID",
+      "value": 1.699,
+      "detail": "184 works"
+    },
+    {
+      "name": "Sekolah Tinggi Analis Bakti Asih",
+      "country": "ID",
+      "value": 1.6571,
+      "detail": "159 works"
+    },
+    {
+      "name": "Bandung Institute of Technology",
+      "country": "ID",
+      "value": 1.5962,
+      "detail": "50,127 works"
+    },
+    {
+      "name": "Politeknik Sandi Karsa",
+      "country": "ID",
+      "value": 1.5795,
+      "detail": "453 works"
+    },
+    {
+      "name": "Institut Asy-Syukriyyah",
+      "country": "ID",
+      "value": 1.5612,
+      "detail": "378 works"
+    },
+    {
+      "name": "Sekolah Tinggi Ilmu Ekonomi Lhokseumawe",
+      "country": "ID",
+      "value": 1.5513,
+      "detail": "167 works"
+    },
+    {
+      "name": "Institut Agama Islam Hamzanwadi NW Lombok Timur",
+      "country": "ID",
+      "value": 1.4776,
+      "detail": "349 works"
+    },
+    {
+      "name": "Sekolah Tinggi Agama Islam Al Jami Banjarmasin",
+      "country": "ID",
+      "value": 1.4225,
+      "detail": "194 works"
+    },
+    {
+      "name": "Politeknik Bisnis dan Pasar Modal",
+      "country": "ID",
+      "value": 1.4167,
+      "detail": "21 works"
+    },
+    {
+      "name": "University of Indonesia",
+      "country": "ID",
+      "value": 1.3967,
+      "detail": "95,633 works"
+    },
+    {
+      "name": "Padjadjaran University",
+      "country": "ID",
+      "value": 1.338,
+      "detail": "62,419 works"
+    },
+    {
+      "name": "Sekolah Tinggi Teologi Kalimantan",
+      "country": "ID",
+      "value": 1.3333,
+      "detail": "30 works"
+    },
+    {
+      "name": "Sekolah Tinggi Theologi Ebenhaezer",
+      "country": "ID",
+      "value": 1.3284,
+      "detail": "141 works"
+    },
+    {
+      "name": "Universitas Tri Tunggal",
+      "country": "ID",
+      "value": 1.25,
+      "detail": "7 works"
+    },
+    {
+      "name": "Institut Islam Bustanul Ulum Lampung",
+      "country": "ID",
+      "value": 1.2073,
+      "detail": "266 works"
+    },
+    {
+      "name": "Universitas Siber Indonesia",
+      "country": "ID",
+      "value": 1.2035,
+      "detail": "141 works"
+    },
+    {
+      "name": "Universitas Gadjah Mada",
+      "country": "ID",
+      "value": 1.2035,
+      "detail": "86,307 works"
+    },
+    {
+      "name": "Surakarta Christian University",
+      "country": "ID",
+      "value": 1.2,
+      "detail": "38 works"
+    },
+    {
+      "name": "Sampoerna University",
+      "country": "ID",
+      "value": 1.1932,
+      "detail": "1,183 works"
+    },
+    {
+      "name": "Universitas Airlangga",
+      "country": "ID",
+      "value": 1.1699,
+      "detail": "68,274 works"
+    },
+    {
+      "name": "Institut Agama Islam Muhammadiyah Kotamobagu",
+      "country": "ID",
+      "value": 1.1584,
+      "detail": "218 works"
+    },
+    {
+      "name": "Institut Teknologi Sepuluh Nopember",
+      "country": "ID",
+      "value": 1.1513,
+      "detail": "40,042 works"
+    },
+    {
+      "name": "Politeknik Surabaya",
+      "country": "ID",
+      "value": 1.1129,
+      "detail": "527 works"
+    },
+    {
+      "name": "Institut Teknologi Telkom Surabaya",
+      "country": "ID",
+      "value": 1.0833,
+      "detail": "535 works"
+    },
+    {
+      "name": "Akademi Inovasi Indonesia",
+      "country": "ID",
+      "value": 1.0795,
+      "detail": "55 works"
+    },
+    {
+      "name": "Institut Bisnis dan Keuangan Nitro",
+      "country": "ID",
+      "value": 1.0329,
+      "detail": "485 works"
+    },
+    {
+      "name": "Multimedia Nusantara University",
+      "country": "ID",
+      "value": 1.0071,
+      "detail": "3,733 works"
+    },
+    {
+      "name": "Universitas Pelita Bangsa",
+      "country": "ID",
+      "value": 0.9995,
+      "detail": "6,295 works"
+    },
+    {
+      "name": "STKIP PGRI Bandar Lampung",
+      "country": "ID",
+      "value": 0.9893,
+      "detail": "776 works"
+    },
+    {
+      "name": "Sekolah Tinggi Ilmu Manajemen dan Ilmu Komputer ESQ",
+      "country": "ID",
+      "value": 0.9859,
+      "detail": "177 works"
+    },
+    {
+      "name": "Sekolah Tinggi Penerbangan Aviasi",
+      "country": "ID",
+      "value": 0.9767,
+      "detail": "150 works"
+    },
+    {
+      "name": "Institut Teknologi dan Bisnis Sabda Setia",
+      "country": "ID",
+      "value": 0.9759,
+      "detail": "171 works"
+    },
+    {
+      "name": "Sekolah Tinggi Teologi Excelsius",
+      "country": "ID",
+      "value": 0.942,
+      "detail": "152 works"
+    },
+    {
+      "name": "Institut Agama Islam Al-Yasini Pasuruan",
+      "country": "ID",
+      "value": 0.9138,
+      "detail": "289 works"
+    },
+    {
+      "name": "STMIK Bandung",
+      "country": "ID",
+      "value": 0.902,
+      "detail": "341 works"
+    },
+    {
+      "name": "Institut Bisnis dan Teknologi Pelita Indonesia",
+      "country": "ID",
+      "value": 0.9012,
+      "detail": "1,074 works"
+    },
+    {
+      "name": "Sekolah Tinggi Agama Kristen Luwuk Banggai",
+      "country": "ID",
+      "value": 0.8889,
+      "detail": "12 works"
+    },
+    {
+      "name": "Hasanuddin University",
+      "country": "ID",
+      "value": 0.8835,
+      "detail": "44,107 works"
+    },
+    {
+      "name": "Sekolah Tinggi Ilmu Tarbiyah Syekh Muhammad Nafis Tabalong",
+      "country": "ID",
+      "value": 0.8785,
+      "detail": "95 works"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "ci-longest-runways",
+  "title": "Longest Airport Runways in Ivory Coast",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Ivory Coast ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.475Z",
+  "items": [
+    {
+      "name": "Bouaké Airport",
+      "country": "CI",
+      "value": 3300.07,
+      "detail": "Bouaké · 10,827 ft · ASP"
+    },
+    {
+      "name": "Félix-Houphouët-Boigny International Airport",
+      "country": "CI",
+      "value": 3000.15,
+      "detail": "Abidjan · 9,843 ft · ASP"
+    },
+    {
+      "name": "Yamoussoukro International Airport",
+      "country": "CI",
+      "value": 3000.15,
+      "detail": "Yamoussoukro · 9,843 ft · ASP"
+    },
+    {
+      "name": "Korhogo Airport",
+      "country": "CI",
+      "value": 2100.07,
+      "detail": "Korhogo · 6,890 ft · CON"
+    },
+    {
+      "name": "Man Airport",
+      "country": "CI",
+      "value": 2050.08,
+      "detail": "6,726 ft · CON"
+    },
+    {
+      "name": "Daloa Airport",
+      "country": "CI",
+      "value": 2000.1,
+      "detail": "6,562 ft · CON"
+    },
+    {
+      "name": "San Pedro Airport",
+      "country": "CI",
+      "value": 1900.12,
+      "detail": "6,234 ft · ASP"
+    },
+    {
+      "name": "Soko Airport",
+      "country": "CI",
+      "value": 1499.92,
+      "detail": "Bondoukou · 4,921 ft · UNK"
+    }
+  ]
+}

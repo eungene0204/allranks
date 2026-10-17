@@ -1,0 +1,86 @@
+{
+  "id": "tl-cities-by-elevation",
+  "title": "Highest Major Cities in Timor-Leste",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Timor-Leste with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.566Z",
+  "items": [
+    {
+      "name": "Atsabe",
+      "country": "TL",
+      "value": 1248,
+      "detail": "16,304 people · Ermera"
+    },
+    {
+      "name": "Aileu",
+      "country": "TL",
+      "value": 926,
+      "detail": "17,356 people · Aileu"
+    },
+    {
+      "name": "Venilale",
+      "country": "TL",
+      "value": 834,
+      "detail": "16,000 people · Baucau"
+    },
+    {
+      "name": "Baukau",
+      "country": "TL",
+      "value": 442,
+      "detail": "16,000 people · Baucau"
+    },
+    {
+      "name": "Lospalos",
+      "country": "TL",
+      "value": 391,
+      "detail": "17,186 people · Lautém"
+    },
+    {
+      "name": "Maliana",
+      "country": "TL",
+      "value": 253,
+      "detail": "22,000 people · Bobonaro"
+    },
+    {
+      "name": "Suai",
+      "country": "TL",
+      "value": 73,
+      "detail": "21,539 people · Cova Lima"
+    },
+    {
+      "name": "Likisá",
+      "country": "TL",
+      "value": 23,
+      "detail": "19,000 people · Liquiçá"
+    },
+    {
+      "name": "Maubara",
+      "country": "TL",
+      "value": 21,
+      "detail": "16,300 people · Liquiçá"
+    },
+    {
+      "name": "Dili",
+      "country": "TL",
+      "value": 3,
+      "detail": "150,000 people · Dili Municipality"
+    }
+  ]
+}

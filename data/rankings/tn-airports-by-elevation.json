@@ -1,0 +1,110 @@
+{
+  "id": "tn-airports-by-elevation",
+  "title": "Highest Airports in Tunisia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tunisia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Gafsa Ksar International Airport",
+      "country": "TN",
+      "value": 323.09,
+      "detail": "Gafsa · 1,060 ft above sea level"
+    },
+    {
+      "name": "Remada Air Base",
+      "country": "TN",
+      "value": 306.02,
+      "detail": "Remada · 1,004 ft above sea level"
+    },
+    {
+      "name": "El Borma Airport",
+      "country": "TN",
+      "value": 252.07,
+      "detail": "El Borma · 827 ft above sea level"
+    },
+    {
+      "name": "Medenine Airport",
+      "country": "TN",
+      "value": 130.15,
+      "detail": "Medenine · 427 ft above sea level"
+    },
+    {
+      "name": "Gabès Matmata International Airport",
+      "country": "TN",
+      "value": 124.05,
+      "detail": "Gabès · 407 ft above sea level"
+    },
+    {
+      "name": "Tozeur Nefta International Airport",
+      "country": "TN",
+      "value": 87.48,
+      "detail": "Tozeur · 287 ft above sea level"
+    },
+    {
+      "name": "Tabarka-Aïn Draham International Airport",
+      "country": "TN",
+      "value": 70.1,
+      "detail": "Tabarka · 230 ft above sea level"
+    },
+    {
+      "name": "Borj El Amri Airport",
+      "country": "TN",
+      "value": 33.53,
+      "detail": "Burj al Hafsiyah · 110 ft above sea level"
+    },
+    {
+      "name": "Sfax Thyna International Airport",
+      "country": "TN",
+      "value": 25.91,
+      "detail": "Sfax · 85 ft above sea level"
+    },
+    {
+      "name": "Tunis Carthage International Airport",
+      "country": "TN",
+      "value": 6.71,
+      "detail": "Tunis · 22 ft above sea level"
+    },
+    {
+      "name": "Enfidha - Hammamet International Airport",
+      "country": "TN",
+      "value": 6.4,
+      "detail": "Enfidha · 21 ft above sea level"
+    },
+    {
+      "name": "Bizerte Sidi Ahmed Air Base",
+      "country": "TN",
+      "value": 6.1,
+      "detail": "Borj Challouf · 20 ft above sea level"
+    },
+    {
+      "name": "Djerba Zarzis International Airport",
+      "country": "TN",
+      "value": 5.79,
+      "detail": "Mellita · 19 ft above sea level"
+    },
+    {
+      "name": "Monastir Habib Bourguiba International Airport",
+      "country": "TN",
+      "value": 2.74,
+      "detail": "Monastir · 9 ft above sea level"
+    }
+  ]
+}

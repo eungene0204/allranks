@@ -1,0 +1,326 @@
+{
+  "id": "gh-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Ghana",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:48.507Z",
+  "items": [
+    {
+      "name": "Chartered Institute of Marketing Ghana",
+      "country": "GH",
+      "value": 10,
+      "detail": "17 works"
+    },
+    {
+      "name": "University of Health and Allied Sciences",
+      "country": "GH",
+      "value": 6.6192,
+      "detail": "4,705 works"
+    },
+    {
+      "name": "Central University",
+      "country": "GH",
+      "value": 5.8929,
+      "detail": "862 works"
+    },
+    {
+      "name": "Cape Coast Technical University",
+      "country": "GH",
+      "value": 4.9088,
+      "detail": "912 works"
+    },
+    {
+      "name": "University of Applied Management",
+      "country": "GH",
+      "value": 3.56,
+      "detail": "74 works"
+    },
+    {
+      "name": "Academic City College University",
+      "country": "GH",
+      "value": 3.4545,
+      "detail": "181 works"
+    },
+    {
+      "name": "Ho Technical University",
+      "country": "GH",
+      "value": 3.3678,
+      "detail": "1,173 works"
+    },
+    {
+      "name": "Heritage Christian University",
+      "country": "GH",
+      "value": 3.2339,
+      "detail": "140 works"
+    },
+    {
+      "name": "University of Cape Coast",
+      "country": "GH",
+      "value": 3.0988,
+      "detail": "14,881 works"
+    },
+    {
+      "name": "University of Ghana",
+      "country": "GH",
+      "value": 2.815,
+      "detail": "34,706 works"
+    },
+    {
+      "name": "Regentropfen University College",
+      "country": "GH",
+      "value": 2.7813,
+      "detail": "119 works"
+    },
+    {
+      "name": "University of Energy and Natural Resources",
+      "country": "GH",
+      "value": 2.7249,
+      "detail": "3,240 works"
+    },
+    {
+      "name": "UniMAC-GIJ",
+      "country": "GH",
+      "value": 2.6951,
+      "detail": "260 works"
+    },
+    {
+      "name": "Kwame Nkrumah University of Science and Technology",
+      "country": "GH",
+      "value": 2.6926,
+      "detail": "27,596 works"
+    },
+    {
+      "name": "Ghana Communication Technology University",
+      "country": "GH",
+      "value": 2.6164,
+      "detail": "1,255 works"
+    },
+    {
+      "name": "Ghana Institute of Management and Public Administration",
+      "country": "GH",
+      "value": 2.5883,
+      "detail": "2,046 works"
+    },
+    {
+      "name": "University of Technology and Applied Sciences",
+      "country": "GH",
+      "value": 2.5724,
+      "detail": "1,393 works"
+    },
+    {
+      "name": "University of Professional Studies",
+      "country": "GH",
+      "value": 2.5062,
+      "detail": "2,339 works"
+    },
+    {
+      "name": "University of Mines and Technology",
+      "country": "GH",
+      "value": 2.3798,
+      "detail": "1,867 works"
+    },
+    {
+      "name": "Regional Maritime University",
+      "country": "GH",
+      "value": 2.28,
+      "detail": "170 works"
+    },
+    {
+      "name": "Methodist University College Ghana",
+      "country": "GH",
+      "value": 2.2712,
+      "detail": "271 works"
+    },
+    {
+      "name": "All Nations University",
+      "country": "GH",
+      "value": 2.1389,
+      "detail": "182 works"
+    },
+    {
+      "name": "Koforidua Technical University",
+      "country": "GH",
+      "value": 2.0885,
+      "detail": "1,349 works"
+    },
+    {
+      "name": "University for Development Studies",
+      "country": "GH",
+      "value": 2.0836,
+      "detail": "8,781 works"
+    },
+    {
+      "name": "University of Skills Training and Entrepreneurial Development",
+      "country": "GH",
+      "value": 2.0543,
+      "detail": "2,212 works"
+    },
+    {
+      "name": "University of Education, Winneba",
+      "country": "GH",
+      "value": 1.9837,
+      "detail": "5,346 works"
+    },
+    {
+      "name": "Sunyani Technical University",
+      "country": "GH",
+      "value": 1.9665,
+      "detail": "1,236 works"
+    },
+    {
+      "name": "Kumasi Technical University",
+      "country": "GH",
+      "value": 1.9568,
+      "detail": "2,039 works"
+    },
+    {
+      "name": "Takoradi Technical University",
+      "country": "GH",
+      "value": 1.926,
+      "detail": "1,534 works"
+    },
+    {
+      "name": "Accra Technical University",
+      "country": "GH",
+      "value": 1.8908,
+      "detail": "1,571 works"
+    },
+    {
+      "name": "Ghana College of Physicians and Surgeons",
+      "country": "GH",
+      "value": 1.7446,
+      "detail": "271 works"
+    },
+    {
+      "name": "Pentecost University College",
+      "country": "GH",
+      "value": 1.7067,
+      "detail": "464 works"
+    },
+    {
+      "name": "Ghana Christian University College",
+      "country": "GH",
+      "value": 1.6933,
+      "detail": "243 works"
+    },
+    {
+      "name": "KAAF University",
+      "country": "GH",
+      "value": 1.6919,
+      "detail": "177 works"
+    },
+    {
+      "name": "Institute for Educational Planning and Administration",
+      "country": "GH",
+      "value": 1.6579,
+      "detail": "100 works"
+    },
+    {
+      "name": "Dr. Hilla Limann Technical University",
+      "country": "GH",
+      "value": 1.629,
+      "detail": "241 works"
+    },
+    {
+      "name": "University College of Agriculture and Environmental Studies",
+      "country": "GH",
+      "value": 1.5,
+      "detail": "41 works"
+    },
+    {
+      "name": "Garden City University College",
+      "country": "GH",
+      "value": 1.4959,
+      "detail": "356 works"
+    },
+    {
+      "name": "Catholic University College of Ghana",
+      "country": "GH",
+      "value": 1.4958,
+      "detail": "542 works"
+    },
+    {
+      "name": "University of Media, Arts and Communication",
+      "country": "GH",
+      "value": 1.4925,
+      "detail": "216 works"
+    },
+    {
+      "name": "Presbyterian University, Ghana",
+      "country": "GH",
+      "value": 1.4672,
+      "detail": "522 works"
+    },
+    {
+      "name": "Regent University College of Science and Technology",
+      "country": "GH",
+      "value": 1.377,
+      "detail": "241 works"
+    },
+    {
+      "name": "Wisconsin International University College",
+      "country": "GH",
+      "value": 1.3533,
+      "detail": "293 works"
+    },
+    {
+      "name": "Ashesi University",
+      "country": "GH",
+      "value": 1.3433,
+      "detail": "754 works"
+    },
+    {
+      "name": "Anglican University College of Technology",
+      "country": "GH",
+      "value": 1.2973,
+      "detail": "61 works"
+    },
+    {
+      "name": "Lancaster University Ghana",
+      "country": "GH",
+      "value": 1.2459,
+      "detail": "218 works"
+    },
+    {
+      "name": "African University College of Communications",
+      "country": "GH",
+      "value": 1.15,
+      "detail": "62 works"
+    },
+    {
+      "name": "College of Health and Well-Being, Kintampo",
+      "country": "GH",
+      "value": 1.1039,
+      "detail": "98 works"
+    },
+    {
+      "name": "Mfantsiman Girls Secondary School",
+      "country": "GH",
+      "value": 1,
+      "detail": "4 works"
+    },
+    {
+      "name": "Webster University Ghana",
+      "country": "GH",
+      "value": 1,
+      "detail": "8 works"
+    }
+  ]
+}

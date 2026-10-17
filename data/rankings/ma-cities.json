@@ -1,0 +1,384 @@
+{
+  "id": "ma-cities",
+  "title": "Largest Cities in Morocco",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Moroccan cities ranked by population at the 2024 census.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MA",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "High Commission for Planning (HCP), 2024 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_in_Morocco",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:24:21.223Z",
+  "items": [
+    {
+      "name": "Casablanca",
+      "country": "MA",
+      "value": 3218036,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Tangier",
+      "country": "MA",
+      "value": 1275428,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Fez",
+      "country": "MA",
+      "value": 1239315,
+      "detail": "Fès-Meknès"
+    },
+    {
+      "name": "Marrakesh",
+      "country": "MA",
+      "value": 1014813,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "Salé",
+      "country": "MA",
+      "value": 945101,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Meknes",
+      "country": "MA",
+      "value": 695662,
+      "detail": "Fès-Meknès"
+    },
+    {
+      "name": "Rabat",
+      "country": "MA",
+      "value": 515619,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Kenitra",
+      "country": "MA",
+      "value": 507736,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Oujda",
+      "country": "MA",
+      "value": 506224,
+      "detail": "Oriental"
+    },
+    {
+      "name": "Agadir",
+      "country": "MA",
+      "value": 504768,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Tetouan",
+      "country": "MA",
+      "value": 422757,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Safi",
+      "country": "MA",
+      "value": 323888,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "Dar Bouazza (Tamaris)",
+      "country": "MA",
+      "value": 302970,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Temara",
+      "country": "MA",
+      "value": 297098,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "El Jadida",
+      "country": "MA",
+      "value": 237464,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Aït Melloul",
+      "country": "MA",
+      "value": 210870,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Beni Mellal",
+      "country": "MA",
+      "value": 209594,
+      "detail": "Béni Mellal-Khénifra"
+    },
+    {
+      "name": "Bouskoura",
+      "country": "MA",
+      "value": 200359,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Khouribga",
+      "country": "MA",
+      "value": 195931,
+      "detail": "Béni Mellal-Khénifra"
+    },
+    {
+      "name": "Mohammedia",
+      "country": "MA",
+      "value": 194358,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Settat",
+      "country": "MA",
+      "value": 171556,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Berrechid",
+      "country": "MA",
+      "value": 168687,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Nador",
+      "country": "MA",
+      "value": 158202,
+      "detail": "Oriental"
+    },
+    {
+      "name": "Taza",
+      "country": "MA",
+      "value": 150763,
+      "detail": "Fès-Meknès"
+    },
+    {
+      "name": "Inezgane",
+      "country": "MA",
+      "value": 137512,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Larache",
+      "country": "MA",
+      "value": 133731,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Guelmim",
+      "country": "MA",
+      "value": 126729,
+      "detail": "Guelmim-Oued Noun"
+    },
+    {
+      "name": "Khemisset",
+      "country": "MA",
+      "value": 125834,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Ksar El Kebir",
+      "country": "MA",
+      "value": 124701,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Khenifra",
+      "country": "MA",
+      "value": 123738,
+      "detail": "Béni Mellal-Khénifra"
+    },
+    {
+      "name": "Skhirat",
+      "country": "MA",
+      "value": 122705,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Benguerir",
+      "country": "MA",
+      "value": 114872,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "Dcheira El Jihadia",
+      "country": "MA",
+      "value": 113041,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Lqliaa",
+      "country": "MA",
+      "value": 107133,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "El Kelaa Des Sraghna",
+      "country": "MA",
+      "value": 106418,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "Tifelt",
+      "country": "MA",
+      "value": 103850,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Taourirt",
+      "country": "MA",
+      "value": 100402,
+      "detail": "Oriental"
+    },
+    {
+      "name": "Oulad Teima",
+      "country": "MA",
+      "value": 100284,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Berkane",
+      "country": "MA",
+      "value": 99069,
+      "detail": "Oriental"
+    },
+    {
+      "name": "Errachidia",
+      "country": "MA",
+      "value": 97687,
+      "detail": "Drâa-Tafilalet"
+    },
+    {
+      "name": "Fquih Ben Salah",
+      "country": "MA",
+      "value": 97380,
+      "detail": "Béni Mellal-Khénifra"
+    },
+    {
+      "name": "Martil",
+      "country": "MA",
+      "value": 95896,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Sidi Slimane",
+      "country": "MA",
+      "value": 95114,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Oued Zem",
+      "country": "MA",
+      "value": 93776,
+      "detail": "Béni Mellal-Khénifra"
+    },
+    {
+      "name": "Bni Yakhlef",
+      "country": "MA",
+      "value": 89531,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Lahraouyine",
+      "country": "MA",
+      "value": 87977,
+      "detail": "Casablanca-Settat"
+    },
+    {
+      "name": "Sefrou",
+      "country": "MA",
+      "value": 86903,
+      "detail": "Fès-Meknès"
+    },
+    {
+      "name": "Tiznit",
+      "country": "MA",
+      "value": 86595,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Taroudant",
+      "country": "MA",
+      "value": 83496,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Essaouira",
+      "country": "MA",
+      "value": 82962,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "Guercif",
+      "country": "MA",
+      "value": 80703,
+      "detail": "Oriental"
+    },
+    {
+      "name": "Ouarzazate",
+      "country": "MA",
+      "value": 79218,
+      "detail": "Drâa-Tafilalet"
+    },
+    {
+      "name": "Drargua",
+      "country": "MA",
+      "value": 78830,
+      "detail": "Souss-Massa"
+    },
+    {
+      "name": "Fnideq",
+      "country": "MA",
+      "value": 77250,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Tan-Tan",
+      "country": "MA",
+      "value": 76134,
+      "detail": "Guelmim-Oued Noun"
+    },
+    {
+      "name": "Sidi Kacem",
+      "country": "MA",
+      "value": 75037,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Souk El Arbaa",
+      "country": "MA",
+      "value": 70894,
+      "detail": "Rabat-Salé-Kénitra"
+    },
+    {
+      "name": "Tamensourte",
+      "country": "MA",
+      "value": 68285,
+      "detail": "Marrakesh-Safi"
+    },
+    {
+      "name": "M'diq",
+      "country": "MA",
+      "value": 67599,
+      "detail": "Tanger-Tetouan-Al Hoceima"
+    },
+    {
+      "name": "Benslimane",
+      "country": "MA",
+      "value": 67317,
+      "detail": "Casablanca-Settat"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "uy-cities-by-elevation",
+  "title": "Highest Major Cities in Uruguay",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Uruguay with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.569Z",
+  "items": [
+    {
+      "name": "Rivera",
+      "country": "UY",
+      "value": 194,
+      "detail": "84,775 people · Rivera Department"
+    },
+    {
+      "name": "Artigas",
+      "country": "UY",
+      "value": 151,
+      "detail": "43,897 people · Artigas"
+    },
+    {
+      "name": "Trinidad",
+      "country": "UY",
+      "value": 142,
+      "detail": "22,897 people · Flores Department"
+    },
+    {
+      "name": "Minas",
+      "country": "UY",
+      "value": 134,
+      "detail": "38,645 people · Lavalleja"
+    },
+    {
+      "name": "Tacuarembó",
+      "country": "UY",
+      "value": 123,
+      "detail": "60,586 people · Tacuarembó Department"
+    },
+    {
+      "name": "Melo",
+      "country": "UY",
+      "value": 102,
+      "detail": "56,013 people · Cerro Largo"
+    },
+    {
+      "name": "Durazno",
+      "country": "UY",
+      "value": 93,
+      "detail": "40,279 people · Durazno Department"
+    },
+    {
+      "name": "Young",
+      "country": "UY",
+      "value": 86,
+      "detail": "16,756 people · Río Negro Department"
+    },
+    {
+      "name": "Florida",
+      "country": "UY",
+      "value": 79,
+      "detail": "36,471 people · Florida"
+    },
+    {
+      "name": "Las Piedras",
+      "country": "UY",
+      "value": 72,
+      "detail": "69,682 people · Canelones"
+    },
+    {
+      "name": "La Paz",
+      "country": "UY",
+      "value": 57,
+      "detail": "19,913 people · Canelones"
+    },
+    {
+      "name": "Progreso",
+      "country": "UY",
+      "value": 56,
+      "detail": "16,244 people · Canelones"
+    },
+    {
+      "name": "Treinta y Tres",
+      "country": "UY",
+      "value": 55,
+      "detail": "25,890 people · Treinta y Tres Department"
+    },
+    {
+      "name": "San José de Mayo",
+      "country": "UY",
+      "value": 53,
+      "detail": "35,883 people · San José Department"
+    },
+    {
+      "name": "Salto",
+      "country": "UY",
+      "value": 52,
+      "detail": "114,084 people · Salto Department"
+    },
+    {
+      "name": "Paysandú",
+      "country": "UY",
+      "value": 44,
+      "detail": "81,550 people · Paysandú Department"
+    },
+    {
+      "name": "Maldonado",
+      "country": "UY",
+      "value": 41,
+      "detail": "102,000 people · Maldonado"
+    },
+    {
+      "name": "Barros Blancos",
+      "country": "UY",
+      "value": 34,
+      "detail": "31,650 people · Canelones"
+    },
+    {
+      "name": "Montevideo",
+      "country": "UY",
+      "value": 34,
+      "detail": "1,270,737 people · Montevideo Department"
+    },
+    {
+      "name": "Colonia del Sacramento",
+      "country": "UY",
+      "value": 30,
+      "detail": "32,164 people · Colonia"
+    },
+    {
+      "name": "Canelones",
+      "country": "UY",
+      "value": 29,
+      "detail": "24,185 people · Canelones"
+    },
+    {
+      "name": "Mercedes",
+      "country": "UY",
+      "value": 29,
+      "detail": "43,543 people · Soriano"
+    },
+    {
+      "name": "San Carlos",
+      "country": "UY",
+      "value": 28,
+      "detail": "27,471 people · Maldonado"
+    },
+    {
+      "name": "Santa Lucía",
+      "country": "UY",
+      "value": 24,
+      "detail": "16,438 people · Canelones"
+    },
+    {
+      "name": "Pando",
+      "country": "UY",
+      "value": 23,
+      "detail": "24,047 people · Canelones"
+    },
+    {
+      "name": "Dolores",
+      "country": "UY",
+      "value": 22,
+      "detail": "17,174 people · Soriano"
+    },
+    {
+      "name": "Fray Bentos",
+      "country": "UY",
+      "value": 17,
+      "detail": "26,297 people · Río Negro Department"
+    },
+    {
+      "name": "Carmelo",
+      "country": "UY",
+      "value": 13,
+      "detail": "18,041 people · Colonia"
+    },
+    {
+      "name": "Paso de Carrasco",
+      "country": "UY",
+      "value": 9,
+      "detail": "15,393 people · Canelones"
+    },
+    {
+      "name": "Rocha",
+      "country": "UY",
+      "value": 8,
+      "detail": "26,784 people · Rocha Department"
+    },
+    {
+      "name": "Delta del Tigre",
+      "country": "UY",
+      "value": 5,
+      "detail": "17,973 people · San José Department"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "pa-cities-by-elevation",
+  "title": "Highest Major Cities in Panama",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Panama with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.556Z",
+  "items": [
+    {
+      "name": "La Concepción",
+      "country": "PA",
+      "value": 236,
+      "detail": "17,698 people · Chiriquí Province"
+    },
+    {
+      "name": "Alcalde Díaz",
+      "country": "PA",
+      "value": 195,
+      "detail": "20,285 people · Panamá"
+    },
+    {
+      "name": "La Cabima",
+      "country": "PA",
+      "value": 174,
+      "detail": "17,975 people · Panamá"
+    },
+    {
+      "name": "Arraiján",
+      "country": "PA",
+      "value": 123,
+      "detail": "76,815 people · Panamá Oeste Province"
+    },
+    {
+      "name": "Santiago de Veraguas",
+      "country": "PA",
+      "value": 100,
+      "detail": "45,355 people · Veraguas Province"
+    },
+    {
+      "name": "Las Cumbres",
+      "country": "PA",
+      "value": 93,
+      "detail": "69,102 people · Panamá"
+    },
+    {
+      "name": "Penonomé",
+      "country": "PA",
+      "value": 90,
+      "detail": "16,250 people · Coclé"
+    },
+    {
+      "name": "La Chorrera",
+      "country": "PA",
+      "value": 70,
+      "detail": "61,232 people · Panamá Oeste Province"
+    },
+    {
+      "name": "Ancón",
+      "country": "PA",
+      "value": 67,
+      "detail": "20,706 people · Panamá"
+    },
+    {
+      "name": "Chilibre",
+      "country": "PA",
+      "value": 61,
+      "detail": "33,536 people · Panamá"
+    },
+    {
+      "name": "San Miguelito",
+      "country": "PA",
+      "value": 57,
+      "detail": "321,501 people · Panamá"
+    },
+    {
+      "name": "David",
+      "country": "PA",
+      "value": 47,
+      "detail": "82,907 people · Chiriquí Province"
+    },
+    {
+      "name": "Tocumen",
+      "country": "PA",
+      "value": 35,
+      "detail": "50,844 people · Panamá"
+    },
+    {
+      "name": "Nuevo Belén",
+      "country": "PA",
+      "value": 32,
+      "detail": "24,056 people · Panamá"
+    },
+    {
+      "name": "Pedregal",
+      "country": "PA",
+      "value": 30,
+      "detail": "51,641 people · Panamá"
+    },
+    {
+      "name": "Sabanitas",
+      "country": "PA",
+      "value": 27,
+      "detail": "15,577 people · Colón"
+    },
+    {
+      "name": "Veracruz",
+      "country": "PA",
+      "value": 26,
+      "detail": "17,144 people · Panamá Oeste Province"
+    },
+    {
+      "name": "Panama City",
+      "country": "PA",
+      "value": 17,
+      "detail": "408,168 people · Panamá"
+    },
+    {
+      "name": "Río Abajo",
+      "country": "PA",
+      "value": 14,
+      "detail": "26,607 people · Panamá"
+    },
+    {
+      "name": "Cativá",
+      "country": "PA",
+      "value": 12,
+      "detail": "29,607 people · Colón"
+    },
+    {
+      "name": "Changuinola",
+      "country": "PA",
+      "value": 12,
+      "detail": "17,997 people · Bocas del Toro Province"
+    },
+    {
+      "name": "Pedregal (Chiriquí Province)",
+      "country": "PA",
+      "value": 11,
+      "detail": "17,427 people · Chiriquí Province"
+    },
+    {
+      "name": "El Chorrillo",
+      "country": "PA",
+      "value": 10,
+      "detail": "18,302 people · Panamá"
+    },
+    {
+      "name": "Curundú",
+      "country": "PA",
+      "value": 7,
+      "detail": "16,361 people · Panamá"
+    },
+    {
+      "name": "Juan Díaz",
+      "country": "PA",
+      "value": 7,
+      "detail": "100,636 people · Panamá"
+    },
+    {
+      "name": "Parque Lefevre",
+      "country": "PA",
+      "value": 6,
+      "detail": "36,997 people · Panamá"
+    },
+    {
+      "name": "Colón",
+      "country": "PA",
+      "value": 2,
+      "detail": "78,000 people · Colón"
+    }
+  ]
+}

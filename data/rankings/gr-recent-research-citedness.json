@@ -1,0 +1,326 @@
+{
+  "id": "gr-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Greece",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:49.779Z",
+  "items": [
+    {
+      "name": "School of Pedagogical and Technological Education",
+      "country": "GR",
+      "value": 7.4789,
+      "detail": "1,365 works"
+    },
+    {
+      "name": "Technological Educational Institute of Eastern Macedonia and Thrace",
+      "country": "GR",
+      "value": 5.8889,
+      "detail": "1,119 works"
+    },
+    {
+      "name": "University of Crete",
+      "country": "GR",
+      "value": 5.5603,
+      "detail": "39,795 works"
+    },
+    {
+      "name": "International Hellenic University",
+      "country": "GR",
+      "value": 4.7122,
+      "detail": "6,926 works"
+    },
+    {
+      "name": "University of Western Macedonia",
+      "country": "GR",
+      "value": 4.5868,
+      "detail": "6,868 works"
+    },
+    {
+      "name": "Academy of Athens",
+      "country": "GR",
+      "value": 4.5406,
+      "detail": "6,209 works"
+    },
+    {
+      "name": "Mediterranean Agronomic Institute of Chania",
+      "country": "GR",
+      "value": 4.4082,
+      "detail": "833 works"
+    },
+    {
+      "name": "National and Kapodistrian University of Athens",
+      "country": "GR",
+      "value": 4.3351,
+      "detail": "139,917 works"
+    },
+    {
+      "name": "Agricultural University of Athens",
+      "country": "GR",
+      "value": 4.2648,
+      "detail": "13,595 works"
+    },
+    {
+      "name": "University of Patras",
+      "country": "GR",
+      "value": 4.2204,
+      "detail": "58,633 works"
+    },
+    {
+      "name": "Democritus University of Thrace",
+      "country": "GR",
+      "value": 4.1246,
+      "detail": "25,892 works"
+    },
+    {
+      "name": "Institute of Accelerating Systems and Applications",
+      "country": "GR",
+      "value": 4.1124,
+      "detail": "361 works"
+    },
+    {
+      "name": "Alba Graduate Business School, The American College of Greece",
+      "country": "GR",
+      "value": 4.0923,
+      "detail": "457 works"
+    },
+    {
+      "name": "University of Ioannina",
+      "country": "GR",
+      "value": 4.0902,
+      "detail": "38,105 works"
+    },
+    {
+      "name": "National Technical University of Athens",
+      "country": "GR",
+      "value": 4.0599,
+      "detail": "60,806 works"
+    },
+    {
+      "name": "University of Thessaly",
+      "country": "GR",
+      "value": 4.0104,
+      "detail": "32,617 works"
+    },
+    {
+      "name": "Harokopio University of Athens",
+      "country": "GR",
+      "value": 3.9691,
+      "detail": "7,405 works"
+    },
+    {
+      "name": "Aristotle University of Thessaloniki",
+      "country": "GR",
+      "value": 3.9661,
+      "detail": "112,565 works"
+    },
+    {
+      "name": "Ionian University",
+      "country": "GR",
+      "value": 3.9317,
+      "detail": "4,047 works"
+    },
+    {
+      "name": "Hellenic Mediterranean University",
+      "country": "GR",
+      "value": 3.7449,
+      "detail": "7,291 works"
+    },
+    {
+      "name": "University of the Aegean",
+      "country": "GR",
+      "value": 3.5919,
+      "detail": "16,205 works"
+    },
+    {
+      "name": "Hellenic Open University",
+      "country": "GR",
+      "value": 3.5824,
+      "detail": "7,967 works"
+    },
+    {
+      "name": "University of Peloponnese",
+      "country": "GR",
+      "value": 3.4118,
+      "detail": "7,749 works"
+    },
+    {
+      "name": "University of Macedonia",
+      "country": "GR",
+      "value": 3.38,
+      "detail": "8,119 works"
+    },
+    {
+      "name": "University of West Attica",
+      "country": "GR",
+      "value": 3.2514,
+      "detail": "11,105 works"
+    },
+    {
+      "name": "Technical University of Crete",
+      "country": "GR",
+      "value": 3.1841,
+      "detail": "11,324 works"
+    },
+    {
+      "name": "University of Piraeus",
+      "country": "GR",
+      "value": 3.163,
+      "detail": "11,953 works"
+    },
+    {
+      "name": "Western Macedonia University Of Applied Science",
+      "country": "GR",
+      "value": 3.1429,
+      "detail": "1,260 works"
+    },
+    {
+      "name": "Hellenic Mediterranean University Research and Innovation Center",
+      "country": "GR",
+      "value": 2.9043,
+      "detail": "120 works"
+    },
+    {
+      "name": "Technological Educational Institute of Epirus",
+      "country": "GR",
+      "value": 2.6429,
+      "detail": "932 works"
+    },
+    {
+      "name": "Hellenic Military Academy",
+      "country": "GR",
+      "value": 2.5457,
+      "detail": "1,081 works"
+    },
+    {
+      "name": "American Farm School",
+      "country": "GR",
+      "value": 2.3608,
+      "detail": "219 works"
+    },
+    {
+      "name": "Alexander Technological Educational Institute of Thessaloniki",
+      "country": "GR",
+      "value": 2.3429,
+      "detail": "2,780 works"
+    },
+    {
+      "name": "American School of Classical Studies at Athens",
+      "country": "GR",
+      "value": 2.0833,
+      "detail": "388 works"
+    },
+    {
+      "name": "Merchant Marine Academy",
+      "country": "GR",
+      "value": 2.0172,
+      "detail": "130 works"
+    },
+    {
+      "name": "Panteion University",
+      "country": "GR",
+      "value": 1.9757,
+      "detail": "4,330 works"
+    },
+    {
+      "name": "Athens University of Economics and Business",
+      "country": "GR",
+      "value": 1.9356,
+      "detail": "10,959 works"
+    },
+    {
+      "name": "Hellenic Air Force Academy",
+      "country": "GR",
+      "value": 1.881,
+      "detail": "814 works"
+    },
+    {
+      "name": "Metropolitan College",
+      "country": "GR",
+      "value": 1.8251,
+      "detail": "451 works"
+    },
+    {
+      "name": "Anatolia College",
+      "country": "GR",
+      "value": 1.8148,
+      "detail": "236 works"
+    },
+    {
+      "name": "Hellenic Naval Academy",
+      "country": "GR",
+      "value": 1.797,
+      "detail": "989 works"
+    },
+    {
+      "name": "Center for Security Studies",
+      "country": "GR",
+      "value": 1.7727,
+      "detail": "217 works"
+    },
+    {
+      "name": "University Mental Health Research Institute",
+      "country": "GR",
+      "value": 1.765,
+      "detail": "590 works"
+    },
+    {
+      "name": "New York College",
+      "country": "GR",
+      "value": 1.7188,
+      "detail": "229 works"
+    },
+    {
+      "name": "Hellenic Police Academy",
+      "country": "GR",
+      "value": 1.5417,
+      "detail": "65 works"
+    },
+    {
+      "name": "Technological Educational Institute of Thessaly",
+      "country": "GR",
+      "value": 1.1875,
+      "detail": "1,535 works"
+    },
+    {
+      "name": "British School at Athens",
+      "country": "GR",
+      "value": 0.9035,
+      "detail": "519 works"
+    },
+    {
+      "name": "National School of Public Health",
+      "country": "GR",
+      "value": 0.7973,
+      "detail": "1,502 works"
+    },
+    {
+      "name": "Athens School of Fine Arts",
+      "country": "GR",
+      "value": 0.7838,
+      "detail": "267 works"
+    },
+    {
+      "name": "Swedish Institute at Athens",
+      "country": "GR",
+      "value": 0.7333,
+      "detail": "102 works"
+    }
+  ]
+}

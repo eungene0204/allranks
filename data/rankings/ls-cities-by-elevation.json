@@ -1,0 +1,92 @@
+{
+  "id": "ls-cities-by-elevation",
+  "title": "Highest Major Cities in Lesotho",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Lesotho with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.548Z",
+  "items": [
+    {
+      "name": "Thaba-Tseka",
+      "country": "LS",
+      "value": 2230,
+      "detail": "16,765 people · Thaba-Tseka"
+    },
+    {
+      "name": "Qacha’s Nek",
+      "country": "LS",
+      "value": 1974,
+      "detail": "25,573 people · Qacha's Nek District"
+    },
+    {
+      "name": "Butha-Buthe",
+      "country": "LS",
+      "value": 1716,
+      "detail": "40,599 people · Butha-Buthe"
+    },
+    {
+      "name": "Teyateyaneng",
+      "country": "LS",
+      "value": 1693,
+      "detail": "27,272 people · Berea"
+    },
+    {
+      "name": "Mafeteng",
+      "country": "LS",
+      "value": 1669,
+      "detail": "45,287 people · Mafeteng District"
+    },
+    {
+      "name": "Hlotse",
+      "country": "LS",
+      "value": 1645,
+      "detail": "43,967 people · Leribe"
+    },
+    {
+      "name": "Mohale's Hoek",
+      "country": "LS",
+      "value": 1598,
+      "detail": "46,593 people · Mohale's Hoek District"
+    },
+    {
+      "name": "Maputsoe",
+      "country": "LS",
+      "value": 1583,
+      "detail": "61,916 people · Leribe"
+    },
+    {
+      "name": "Maseru",
+      "country": "LS",
+      "value": 1552,
+      "detail": "359,753 people · Maseru District"
+    },
+    {
+      "name": "Quthing",
+      "country": "LS",
+      "value": 1515,
+      "detail": "33,910 people · Quthing"
+    },
+    {
+      "name": "Mabote",
+      "country": "LS",
+      "value": 1507,
+      "detail": "38,047 people · Berea"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": "pt-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Portugal",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "PT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:25.200Z",
+  "items": [
+    {
+      "name": "Molecular Microbiology",
+      "country": "PT",
+      "value": 21,
+      "detail": "38 works"
+    },
+    {
+      "name": "National Statistical Institute of Portugal",
+      "country": "PT",
+      "value": 19.4691,
+      "detail": "289 works"
+    },
+    {
+      "name": "Unidade de Investigacao UFP em Energia Ambiente e Saude",
+      "country": "PT",
+      "value": 18.3636,
+      "detail": "545 works"
+    },
+    {
+      "name": "Centro de Química da Madeira",
+      "country": "PT",
+      "value": 13.0217,
+      "detail": "1,026 works"
+    },
+    {
+      "name": "Centro de Investigação em Organizações Mercados e Gestão Industrial",
+      "country": "PT",
+      "value": 9.1935,
+      "detail": "47 works"
+    },
+    {
+      "name": "Laboratório de Farmacologia Clínica e Terapêutica",
+      "country": "PT",
+      "value": 7.0441,
+      "detail": "325 works"
+    },
+    {
+      "name": "Instituto Gulbenkian de Ciência",
+      "country": "PT",
+      "value": 6.694,
+      "detail": "4,500 works"
+    },
+    {
+      "name": "Universidade Politécnica da Guarda",
+      "country": "PT",
+      "value": 6.5705,
+      "detail": "4,330 works"
+    },
+    {
+      "name": "Escola Superior de Educação de Paula Frassinetti",
+      "country": "PT",
+      "value": 6.4324,
+      "detail": "236 works"
+    },
+    {
+      "name": "Labbels",
+      "country": "PT",
+      "value": 6.1631,
+      "detail": "1,424 works"
+    },
+    {
+      "name": "Instituto de Ciência e Inovação para a Bio-Sustentabilidade",
+      "country": "PT",
+      "value": 6.1072,
+      "detail": "605 works"
+    },
+    {
+      "name": "Universidade Lusófona de Humanidades e Tecnologias",
+      "country": "PT",
+      "value": 6.1018,
+      "detail": "4,408 works"
+    },
+    {
+      "name": "Instituto Pedro Nunes",
+      "country": "PT",
+      "value": 5.7665,
+      "detail": "573 works"
+    },
+    {
+      "name": "Unidade de Investigação em Gestão e Economia",
+      "country": "PT",
+      "value": 5.5217,
+      "detail": "42 works"
+    },
+    {
+      "name": "Nursing Research, Innovation and Development Centre of Lisbon",
+      "country": "PT",
+      "value": 5.4764,
+      "detail": "760 works"
+    },
+    {
+      "name": "Centro de Química Estrutural",
+      "country": "PT",
+      "value": 5.3998,
+      "detail": "6,818 works"
+    },
+    {
+      "name": "Unidade de Investigação em Toxicologia & Uma Só Saúde",
+      "country": "PT",
+      "value": 5.3992,
+      "detail": "948 works"
+    },
+    {
+      "name": "ISCTE Business School",
+      "country": "PT",
+      "value": 5.163,
+      "detail": "849 works"
+    },
+    {
+      "name": "Universidade Católica Portuguesa - Braga",
+      "country": "PT",
+      "value": 5.1472,
+      "detail": "447 works"
+    },
+    {
+      "name": "Laboratório de Instrumentação Engenharia Biomédica e Física da Radiação",
+      "country": "PT",
+      "value": 5.1369,
+      "detail": "465 works"
+    },
+    {
+      "name": "Cooperativa de Ensino Superior Politécnico e Universitário",
+      "country": "PT",
+      "value": 5.1232,
+      "detail": "3,318 works"
+    },
+    {
+      "name": "Centro de Inovação em Biomedicina e Biotecnologia",
+      "country": "PT",
+      "value": 4.9584,
+      "detail": "2,062 works"
+    },
+    {
+      "name": "Universidade Técnica de Lisboa",
+      "country": "PT",
+      "value": 4.8803,
+      "detail": "17,467 works"
+    },
+    {
+      "name": "Universidade Politécnica de Portalegre",
+      "country": "PT",
+      "value": 4.8105,
+      "detail": "2,015 works"
+    },
+    {
+      "name": "Universidade Lusófona do Porto",
+      "country": "PT",
+      "value": 4.7353,
+      "detail": "1,280 works"
+    },
+    {
+      "name": "Unidade de Investigação em Desenvolvimento Empresarial",
+      "country": "PT",
+      "value": 4.5404,
+      "detail": "2,028 works"
+    },
+    {
+      "name": "Chemical Engineering and Renewable Resources for Sustainability",
+      "country": "PT",
+      "value": 4.5102,
+      "detail": "185 works"
+    },
+    {
+      "name": "Instituto Superior Técnico",
+      "country": "PT",
+      "value": 4.4947,
+      "detail": "65,210 works"
+    },
+    {
+      "name": "University of Beira Interior",
+      "country": "PT",
+      "value": 4.3316,
+      "detail": "19,479 works"
+    },
+    {
+      "name": "Laboratório de Paisagens Património e Território",
+      "country": "PT",
+      "value": 4.3194,
+      "detail": "485 works"
+    },
+    {
+      "name": "Centro de Astrofísica da Universidade do Porto",
+      "country": "PT",
+      "value": 4.3145,
+      "detail": "3,432 works"
+    },
+    {
+      "name": "Clínica Universitária de Cardiologia",
+      "country": "PT",
+      "value": 4.2857,
+      "detail": "93 works"
+    },
+    {
+      "name": "Laboratório de Genética",
+      "country": "PT",
+      "value": 4.2143,
+      "detail": "132 works"
+    },
+    {
+      "name": "Instituto de Ciências Biomédicas Albel Salazar",
+      "country": "PT",
+      "value": 4.1858,
+      "detail": "12,944 works"
+    },
+    {
+      "name": "Escola Superior de Saúde Egas Moniz",
+      "country": "PT",
+      "value": 4.171,
+      "detail": "2,041 works"
+    },
+    {
+      "name": "Portuguese Military Academy",
+      "country": "PT",
+      "value": 4.1514,
+      "detail": "677 works"
+    },
+    {
+      "name": "Instituto de Investigação e Tecnologia da Agronomia e Meio Ambiente",
+      "country": "PT",
+      "value": 4.1257,
+      "detail": "199 works"
+    },
+    {
+      "name": "University of Aveiro",
+      "country": "PT",
+      "value": 4.1098,
+      "detail": "69,474 works"
+    },
+    {
+      "name": "United Nations University",
+      "country": "PT",
+      "value": 4,
+      "detail": "335 works"
+    },
+    {
+      "name": "Fernando Pessoa University",
+      "country": "PT",
+      "value": 3.9923,
+      "detail": "5,859 works"
+    },
+    {
+      "name": "Universidade do Porto",
+      "country": "PT",
+      "value": 3.9756,
+      "detail": "156,326 works"
+    },
+    {
+      "name": "University of Minho",
+      "country": "PT",
+      "value": 3.9083,
+      "detail": "71,261 works"
+    },
+    {
+      "name": "Instituto de Histologia e Biologia do Desenvolvimento",
+      "country": "PT",
+      "value": 3.8421,
+      "detail": "134 works"
+    },
+    {
+      "name": "Grupo de Lasers e Plasmas",
+      "country": "PT",
+      "value": 3.8353,
+      "detail": "463 works"
+    },
+    {
+      "name": "Instituto Universitário Militar",
+      "country": "PT",
+      "value": 3.8284,
+      "detail": "249 works"
+    },
+    {
+      "name": "Comprehensive Health Research Centre",
+      "country": "PT",
+      "value": 3.7835,
+      "detail": "2,828 works"
+    },
+    {
+      "name": "University of Lisbon",
+      "country": "PT",
+      "value": 3.7193,
+      "detail": "147,279 works"
+    },
+    {
+      "name": "University of Coimbra",
+      "country": "PT",
+      "value": 3.682,
+      "detail": "96,868 works"
+    },
+    {
+      "name": "Universidade Nova de Lisboa",
+      "country": "PT",
+      "value": 3.6618,
+      "detail": "74,301 works"
+    }
+  ]
+}

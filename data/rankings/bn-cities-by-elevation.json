@@ -1,0 +1,68 @@
+{
+  "id": "bn-cities-by-elevation",
+  "title": "Highest Major Cities in Brunei",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Brunei with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.513Z",
+  "items": [
+    {
+      "name": "Liang",
+      "country": "BN",
+      "value": 14,
+      "detail": "16,813 people · Belait"
+    },
+    {
+      "name": "Sengkurong",
+      "country": "BN",
+      "value": 14,
+      "detail": "40,972 people · Brunei-Muara District"
+    },
+    {
+      "name": "Bandar Seri Begawan",
+      "country": "BN",
+      "value": 10,
+      "detail": "64,409 people · Brunei-Muara District"
+    },
+    {
+      "name": "Mentiri",
+      "country": "BN",
+      "value": 8,
+      "detail": "39,324 people · Brunei-Muara District"
+    },
+    {
+      "name": "Tutong",
+      "country": "BN",
+      "value": 8,
+      "detail": "19,151 people · Tutong"
+    },
+    {
+      "name": "Serasa",
+      "country": "BN",
+      "value": 7,
+      "detail": "18,569 people · Brunei-Muara District"
+    },
+    {
+      "name": "Kuala Belait",
+      "country": "BN",
+      "value": 5,
+      "detail": "31,178 people · Belait"
+    }
+  ]
+}

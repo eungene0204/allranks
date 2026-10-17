@@ -1,0 +1,86 @@
+{
+  "id": "gt-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Guatemala",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:50.150Z",
+  "items": [
+    {
+      "name": "Galileo University",
+      "country": "GT",
+      "value": 4.9531,
+      "detail": "339 works"
+    },
+    {
+      "name": "Universidad del Valle de Guatemala",
+      "country": "GT",
+      "value": 1.5401,
+      "detail": "1,916 works"
+    },
+    {
+      "name": "Centro Universitario de Occidente",
+      "country": "GT",
+      "value": 1.5,
+      "detail": "97 works"
+    },
+    {
+      "name": "Universidad Francisco Marroquín",
+      "country": "GT",
+      "value": 1.2984,
+      "detail": "1,085 works"
+    },
+    {
+      "name": "Universidad Rafael Landívar",
+      "country": "GT",
+      "value": 1.0116,
+      "detail": "599 works"
+    },
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "country": "GT",
+      "value": 0.7336,
+      "detail": "6,667 works"
+    },
+    {
+      "name": "Universidad Mariano Galvez",
+      "country": "GT",
+      "value": 0.575,
+      "detail": "210 works"
+    },
+    {
+      "name": "Mesoamerican University",
+      "country": "GT",
+      "value": 0.381,
+      "detail": "41 works"
+    },
+    {
+      "name": "Universidad del Istmo",
+      "country": "GT",
+      "value": 0.3462,
+      "detail": "385 works"
+    },
+    {
+      "name": "Universidad Panamericana",
+      "country": "GT",
+      "value": 0.3441,
+      "detail": "396 works"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ge-airports-by-elevation",
+  "title": "Highest Airports in Georgia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Georgia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Mestia Queen Tamar Airport",
+      "country": "GE",
+      "value": 1456.33,
+      "detail": "Mestia · 4,778 ft above sea level"
+    },
+    {
+      "name": "Bolshiye Shiraki Air Base",
+      "country": "GE",
+      "value": 547.12,
+      "detail": "Bolshiye Shiraki · 1,795 ft above sea level"
+    },
+    {
+      "name": "Ambrolauri Airport",
+      "country": "GE",
+      "value": 543.76,
+      "detail": "Ambrolauri · 1,784 ft above sea level"
+    },
+    {
+      "name": "Natakhtari Airfield",
+      "country": "GE",
+      "value": 510.24,
+      "detail": "Natakhtari · 1,674 ft above sea level"
+    },
+    {
+      "name": "Tbilisi International Airport",
+      "country": "GE",
+      "value": 495,
+      "detail": "Tbilisi · 1,624 ft above sea level"
+    },
+    {
+      "name": "Telavi Kurdgelauri Airport",
+      "country": "GE",
+      "value": 455.98,
+      "detail": "Telavi · 1,496 ft above sea level"
+    },
+    {
+      "name": "Vaziani Air Base",
+      "country": "GE",
+      "value": 445.01,
+      "detail": "Gamarjveba 1 · 1,460 ft above sea level"
+    },
+    {
+      "name": "Tbilisi Marneuli Air Base",
+      "country": "GE",
+      "value": 397.76,
+      "detail": "Tbilisi · 1,305 ft above sea level"
+    },
+    {
+      "name": "Tbilisi Soganlug Air Base",
+      "country": "GE",
+      "value": 381,
+      "detail": "Tbilisi · 1,250 ft above sea level"
+    },
+    {
+      "name": "David the Builder Kutaisi International Airport",
+      "country": "GE",
+      "value": 67.97,
+      "detail": "Kopitnari · 223 ft above sea level"
+    },
+    {
+      "name": "Alexander Kartveli Batumi International Airport",
+      "country": "GE",
+      "value": 32,
+      "detail": "Batumi · 105 ft above sea level"
+    },
+    {
+      "name": "Gudauta Air Base",
+      "country": "GE",
+      "value": 24.08,
+      "detail": "Gudauta · 79 ft above sea level"
+    },
+    {
+      "name": "Vladislav Ardzinba Sukhum International Airport",
+      "country": "GE",
+      "value": 16.15,
+      "detail": "Sukhumi · 53 ft above sea level"
+    }
+  ]
+}

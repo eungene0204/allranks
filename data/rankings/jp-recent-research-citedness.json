@@ -1,0 +1,326 @@
+{
+  "id": "jp-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Japan",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "JP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:58.921Z",
+  "items": [
+    {
+      "name": "Kobe Rokko Island High School",
+      "country": "JP",
+      "value": 19,
+      "detail": "14 works"
+    },
+    {
+      "name": "Hokkaido Sapporo Kiyota High School",
+      "country": "JP",
+      "value": 16,
+      "detail": "21 works"
+    },
+    {
+      "name": "Kyoto Computer Gakuin",
+      "country": "JP",
+      "value": 14.5,
+      "detail": "29 works"
+    },
+    {
+      "name": "Nagaoka Sutoku University",
+      "country": "JP",
+      "value": 7.64,
+      "detail": "48 works"
+    },
+    {
+      "name": "Senzoku Junior College of Childhood Education",
+      "country": "JP",
+      "value": 7,
+      "detail": "21 works"
+    },
+    {
+      "name": "Center for iPS Cell Research and Application, Kyoto University",
+      "country": "JP",
+      "value": 6.685,
+      "detail": "2,621 works"
+    },
+    {
+      "name": "Ryogoku High School",
+      "country": "JP",
+      "value": 6.25,
+      "detail": "73 works"
+    },
+    {
+      "name": "Hachinohe National College of Technology",
+      "country": "JP",
+      "value": 6,
+      "detail": "995 works"
+    },
+    {
+      "name": "Shizuoka University of Welfare",
+      "country": "JP",
+      "value": 5.9412,
+      "detail": "143 works"
+    },
+    {
+      "name": "Toin University of Yokohama",
+      "country": "JP",
+      "value": 5.8045,
+      "detail": "1,876 works"
+    },
+    {
+      "name": "Medical Institute of Bioregulation, Kyushu University",
+      "country": "JP",
+      "value": 5.5095,
+      "detail": "5,402 works"
+    },
+    {
+      "name": "Tokyo Institute of Technology",
+      "country": "JP",
+      "value": 5.367,
+      "detail": "180,329 works"
+    },
+    {
+      "name": "Osaka City University",
+      "country": "JP",
+      "value": 5.3645,
+      "detail": "60,528 works"
+    },
+    {
+      "name": "Kumamoto Gakuen University",
+      "country": "JP",
+      "value": 5.3,
+      "detail": "491 works"
+    },
+    {
+      "name": "Hiroshima Shudo University",
+      "country": "JP",
+      "value": 5.2775,
+      "detail": "1,307 works"
+    },
+    {
+      "name": "Kochi Technical High School",
+      "country": "JP",
+      "value": 5,
+      "detail": "16 works"
+    },
+    {
+      "name": "St. Luke's International University",
+      "country": "JP",
+      "value": 4.9885,
+      "detail": "2,728 works"
+    },
+    {
+      "name": "Institute for Life and Medical Sciences, Kyoto University",
+      "country": "JP",
+      "value": 4.9565,
+      "detail": "572 works"
+    },
+    {
+      "name": "Nagaoka National College of Technology",
+      "country": "JP",
+      "value": 4.9434,
+      "detail": "1,378 works"
+    },
+    {
+      "name": "Tokyo Medical and Dental University",
+      "country": "JP",
+      "value": 4.8539,
+      "detail": "61,992 works"
+    },
+    {
+      "name": "University of Teacher Education Fukuoka",
+      "country": "JP",
+      "value": 4.6753,
+      "detail": "1,732 works"
+    },
+    {
+      "name": "Nagasaki Institute of Applied Science",
+      "country": "JP",
+      "value": 4.6632,
+      "detail": "2,840 works"
+    },
+    {
+      "name": "University of Aizu",
+      "country": "JP",
+      "value": 4.4861,
+      "detail": "8,586 works"
+    },
+    {
+      "name": "Yamanashi Gakuin University",
+      "country": "JP",
+      "value": 4.458,
+      "detail": "525 works"
+    },
+    {
+      "name": "Gifu Women's University",
+      "country": "JP",
+      "value": 4.4444,
+      "detail": "417 works"
+    },
+    {
+      "name": "The University of Tokyo",
+      "country": "JP",
+      "value": 4.4016,
+      "detail": "601,130 works"
+    },
+    {
+      "name": "The University of Kitakyushu",
+      "country": "JP",
+      "value": 4.2522,
+      "detail": "6,246 works"
+    },
+    {
+      "name": "Fukuoka Institute of Technology Junior College",
+      "country": "JP",
+      "value": 4.1071,
+      "detail": "124 works"
+    },
+    {
+      "name": "The Graduate University for Advanced Studies, SOKENDAI",
+      "country": "JP",
+      "value": 3.9975,
+      "detail": "24,533 works"
+    },
+    {
+      "name": "R Professional University Of Rehabilitation",
+      "country": "JP",
+      "value": 3.9577,
+      "detail": "69 works"
+    },
+    {
+      "name": "National Institute for Environmental Studies",
+      "country": "JP",
+      "value": 3.8678,
+      "detail": "21,531 works"
+    },
+    {
+      "name": "Shibata Gakuen University",
+      "country": "JP",
+      "value": 3.8571,
+      "detail": "70 works"
+    },
+    {
+      "name": "Hokkaido Pharmaceutical University",
+      "country": "JP",
+      "value": 3.8421,
+      "detail": "802 works"
+    },
+    {
+      "name": "Tenshi College",
+      "country": "JP",
+      "value": 3.8056,
+      "detail": "253 works"
+    },
+    {
+      "name": "Okinawa Institute of Science and Technology Graduate University",
+      "country": "JP",
+      "value": 3.7068,
+      "detail": "10,590 works"
+    },
+    {
+      "name": "Takaishi High School",
+      "country": "JP",
+      "value": 3.625,
+      "detail": "55 works"
+    },
+    {
+      "name": "Sendai Shirayuri Women's College",
+      "country": "JP",
+      "value": 3.6,
+      "detail": "194 works"
+    },
+    {
+      "name": "Odawara Women's Junior College",
+      "country": "JP",
+      "value": 3.5556,
+      "detail": "63 works"
+    },
+    {
+      "name": "Tohoku University",
+      "country": "JP",
+      "value": 3.5417,
+      "detail": "305,246 works"
+    },
+    {
+      "name": "University of Toyama",
+      "country": "JP",
+      "value": 3.5021,
+      "detail": "44,093 works"
+    },
+    {
+      "name": "Gifu Kyoritsu University",
+      "country": "JP",
+      "value": 3.4394,
+      "detail": "432 works"
+    },
+    {
+      "name": "Kyoto University",
+      "country": "JP",
+      "value": 3.4177,
+      "detail": "402,272 works"
+    },
+    {
+      "name": "The University of Osaka",
+      "country": "JP",
+      "value": 3.3954,
+      "detail": "329,104 works"
+    },
+    {
+      "name": "Tokyo University of Science",
+      "country": "JP",
+      "value": 3.334,
+      "detail": "65,523 works"
+    },
+    {
+      "name": "Hokkaido University of Science",
+      "country": "JP",
+      "value": 3.2753,
+      "detail": "1,919 works"
+    },
+    {
+      "name": "Aomori University",
+      "country": "JP",
+      "value": 3.275,
+      "detail": "786 works"
+    },
+    {
+      "name": "Japan Advanced Institute of Science and Technology",
+      "country": "JP",
+      "value": 3.2367,
+      "detail": "17,963 works"
+    },
+    {
+      "name": "National Institute of Technology, Miyakonojo College",
+      "country": "JP",
+      "value": 3.2051,
+      "detail": "732 works"
+    },
+    {
+      "name": "Tohoku Seikatsu Bunka University",
+      "country": "JP",
+      "value": 3.1538,
+      "detail": "102 works"
+    },
+    {
+      "name": "Kumamoto University",
+      "country": "JP",
+      "value": 3.1534,
+      "detail": "64,355 works"
+    }
+  ]
+}

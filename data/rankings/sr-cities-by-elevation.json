@@ -1,0 +1,98 @@
+{
+  "id": "sr-cities-by-elevation",
+  "title": "Highest Major Cities in Suriname",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Suriname with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.564Z",
+  "items": [
+    {
+      "name": "Lelydorp",
+      "country": "SR",
+      "value": 8,
+      "detail": "18,223 people · Wanica District"
+    },
+    {
+      "name": "Latour",
+      "country": "SR",
+      "value": 6,
+      "detail": "29,526 people · Paramaribo District"
+    },
+    {
+      "name": "Pontbuiten",
+      "country": "SR",
+      "value": 6,
+      "detail": "23,211 people · Wanica District"
+    },
+    {
+      "name": "Welgelegen",
+      "country": "SR",
+      "value": 6,
+      "detail": "19,304 people · Paramaribo District"
+    },
+    {
+      "name": "Munder Buiten",
+      "country": "SR",
+      "value": 5,
+      "detail": "17,234 people · Paramaribo District"
+    },
+    {
+      "name": "Paramaribo",
+      "country": "SR",
+      "value": 5,
+      "detail": "223,757 people · Paramaribo District"
+    },
+    {
+      "name": "Blauwgrond",
+      "country": "SR",
+      "value": 4,
+      "detail": "31,483 people · Paramaribo District"
+    },
+    {
+      "name": "Rainville",
+      "country": "SR",
+      "value": 4,
+      "detail": "22,747 people · Paramaribo District"
+    },
+    {
+      "name": "Beekhuizen",
+      "country": "SR",
+      "value": 3,
+      "detail": "17,185 people · Paramaribo District"
+    },
+    {
+      "name": "Flora",
+      "country": "SR",
+      "value": 3,
+      "detail": "19,538 people · Paramaribo District"
+    },
+    {
+      "name": "Tammenga",
+      "country": "SR",
+      "value": 3,
+      "detail": "15,819 people · Paramaribo District"
+    },
+    {
+      "name": "Weg naar Zee",
+      "country": "SR",
+      "value": 2,
+      "detail": "16,037 people · Paramaribo District"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "py-cities-by-elevation",
+  "title": "Highest Major Cities in Paraguay",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Paraguay with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.559Z",
+  "items": [
+    {
+      "name": "Pedro Juan Caballero",
+      "country": "PY",
+      "value": 649,
+      "detail": "75,109 people · Amambay Department"
+    },
+    {
+      "name": "Caaguazú",
+      "country": "PY",
+      "value": 336,
+      "detail": "54,808 people · Caaguazú Department"
+    },
+    {
+      "name": "Doctor Juan Eulogio Estigarribia",
+      "country": "PY",
+      "value": 301,
+      "detail": "38,894 people · Caaguazú Department"
+    },
+    {
+      "name": "Presidente Franco",
+      "country": "PY",
+      "value": 206,
+      "detail": "54,292 people · Alto Paraná Department"
+    },
+    {
+      "name": "Ciudad del Este",
+      "country": "PY",
+      "value": 197,
+      "detail": "301,815 people · Alto Paraná Department"
+    },
+    {
+      "name": "Yby Yaú",
+      "country": "PY",
+      "value": 184,
+      "detail": "31,290 people · Concepción"
+    },
+    {
+      "name": "Caacupé",
+      "country": "PY",
+      "value": 180,
+      "detail": "56,864 people · Cordillera Department"
+    },
+    {
+      "name": "Coronel Oviedo",
+      "country": "PY",
+      "value": 161,
+      "detail": "51,286 people · Caaguazú Department"
+    },
+    {
+      "name": "Caazapá",
+      "country": "PY",
+      "value": 150,
+      "detail": "23,996 people · Caazapá"
+    },
+    {
+      "name": "Itá",
+      "country": "PY",
+      "value": 147,
+      "detail": "18,459 people · Central Department"
+    },
+    {
+      "name": "Villarrica",
+      "country": "PY",
+      "value": 143,
+      "detail": "41,157 people · Guairá"
+    },
+    {
+      "name": "Filadelfia",
+      "country": "PY",
+      "value": 140,
+      "detail": "19,927 people · Boquerón Department"
+    },
+    {
+      "name": "Itauguá",
+      "country": "PY",
+      "value": 140,
+      "detail": "64,997 people · Central Department"
+    },
+    {
+      "name": "Loma Plata",
+      "country": "PY",
+      "value": 133,
+      "detail": "16,460 people · Boquerón Department"
+    },
+    {
+      "name": "Fernando de la Mora",
+      "country": "PY",
+      "value": 131,
+      "detail": "120,167 people · Central Department"
+    },
+    {
+      "name": "Capiatá",
+      "country": "PY",
+      "value": 130,
+      "detail": "198,553 people · Central Department"
+    },
+    {
+      "name": "San Antonio",
+      "country": "PY",
+      "value": 123,
+      "detail": "55,754 people · Central Department"
+    },
+    {
+      "name": "Lambaré",
+      "country": "PY",
+      "value": 119,
+      "detail": "126,377 people · Central Department"
+    },
+    {
+      "name": "San Lorenzo",
+      "country": "PY",
+      "value": 119,
+      "detail": "227,876 people · Central Department"
+    },
+    {
+      "name": "Villa Elisa",
+      "country": "PY",
+      "value": 119,
+      "detail": "64,099 people · Central Department"
+    },
+    {
+      "name": "Asunción",
+      "country": "PY",
+      "value": 113,
+      "detail": "1,482,200 people · Asuncion"
+    },
+    {
+      "name": "Nemby",
+      "country": "PY",
+      "value": 109,
+      "detail": "94,641 people · Central Department"
+    },
+    {
+      "name": "San Juan Bautista",
+      "country": "PY",
+      "value": 103,
+      "detail": "16,593 people · Misiones Department"
+    },
+    {
+      "name": "Encarnación",
+      "country": "PY",
+      "value": 99,
+      "detail": "74,983 people · Itapúa"
+    },
+    {
+      "name": "Mariano Roque Alonso",
+      "country": "PY",
+      "value": 80,
+      "detail": "72,008 people · Central Department"
+    },
+    {
+      "name": "Concepción",
+      "country": "PY",
+      "value": 78,
+      "detail": "48,123 people · Concepción"
+    },
+    {
+      "name": "Villeta",
+      "country": "PY",
+      "value": 78,
+      "detail": "36,985 people · Central Department"
+    },
+    {
+      "name": "Limpio",
+      "country": "PY",
+      "value": 74,
+      "detail": "96,143 people · Central Department"
+    },
+    {
+      "name": "Pilar",
+      "country": "PY",
+      "value": 60,
+      "detail": "32,810 people · Ñeembucú Department"
+    },
+    {
+      "name": "Villa Hayes",
+      "country": "PY",
+      "value": 58,
+      "detail": "57,217 people · Presidente Hayes"
+    }
+  ]
+}

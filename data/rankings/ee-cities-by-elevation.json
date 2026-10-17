@@ -1,0 +1,116 @@
+{
+  "id": "ee-cities-by-elevation",
+  "title": "Highest Major Cities in Estonia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Estonia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.527Z",
+  "items": [
+    {
+      "name": "Viljandi",
+      "country": "EE",
+      "value": 84,
+      "detail": "17,407 people · Viljandimaa"
+    },
+    {
+      "name": "Kohtla-Järve",
+      "country": "EE",
+      "value": 66,
+      "detail": "35,395 people · Ida-Virumaa"
+    },
+    {
+      "name": "Nõmme",
+      "country": "EE",
+      "value": 57,
+      "detail": "39,422 people · Harjumaa"
+    },
+    {
+      "name": "Lasnamäe",
+      "country": "EE",
+      "value": 44,
+      "detail": "115,008 people · Harjumaa"
+    },
+    {
+      "name": "Tartu",
+      "country": "EE",
+      "value": 39,
+      "detail": "91,407 people · Tartu"
+    },
+    {
+      "name": "Narva",
+      "country": "EE",
+      "value": 30,
+      "detail": "54,409 people · Ida-Virumaa"
+    },
+    {
+      "name": "Maardu",
+      "country": "EE",
+      "value": 25,
+      "detail": "16,630 people · Harjumaa"
+    },
+    {
+      "name": "Mustamäe",
+      "country": "EE",
+      "value": 22,
+      "detail": "67,968 people · Harjumaa"
+    },
+    {
+      "name": "Pirita",
+      "country": "EE",
+      "value": 21,
+      "detail": "18,310 people · Harjumaa"
+    },
+    {
+      "name": "Haabersti",
+      "country": "EE",
+      "value": 16,
+      "detail": "51,423 people · Harjumaa"
+    },
+    {
+      "name": "Kristiine",
+      "country": "EE",
+      "value": 13,
+      "detail": "34,306 people · Harjumaa"
+    },
+    {
+      "name": "Kesklinn",
+      "country": "EE",
+      "value": 12,
+      "detail": "67,766 people · Harjumaa"
+    },
+    {
+      "name": "Tallinn",
+      "country": "EE",
+      "value": 12,
+      "detail": "394,024 people · Harjumaa"
+    },
+    {
+      "name": "Põhja-Tallinn",
+      "country": "EE",
+      "value": 11,
+      "detail": "63,240 people · Harjumaa"
+    },
+    {
+      "name": "Pärnu",
+      "country": "EE",
+      "value": 6,
+      "detail": "40,228 people · Pärnumaa"
+    }
+  ]
+}

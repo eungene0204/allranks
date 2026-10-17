@@ -1,0 +1,188 @@
+{
+  "id": "sy-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Syria",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SY",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:36.594Z",
+  "items": [
+    {
+      "name": "Mari Private University",
+      "country": "SY",
+      "value": 16.7273,
+      "detail": "9 works"
+    },
+    {
+      "name": "Al-Shamal Private University",
+      "country": "SY",
+      "value": 5.4048,
+      "detail": "42 works"
+    },
+    {
+      "name": "International University for Science and Technology",
+      "country": "SY",
+      "value": 4.2271,
+      "detail": "277 works"
+    },
+    {
+      "name": "University of Tartus",
+      "country": "SY",
+      "value": 3.2052,
+      "detail": "609 works"
+    },
+    {
+      "name": "Al Andalus University",
+      "country": "SY",
+      "value": 2.6517,
+      "detail": "577 works"
+    },
+    {
+      "name": "Al-Sham Private University",
+      "country": "SY",
+      "value": 2.6008,
+      "detail": "406 works"
+    },
+    {
+      "name": "University of Aleppo",
+      "country": "SY",
+      "value": 2.3772,
+      "detail": "3,976 works"
+    },
+    {
+      "name": "Latakia University",
+      "country": "SY",
+      "value": 2.2125,
+      "detail": "3,669 works"
+    },
+    {
+      "name": "Higher Institute for Applied Sciences and Technology",
+      "country": "SY",
+      "value": 2.0407,
+      "detail": "620 works"
+    },
+    {
+      "name": "University of Kalamoon",
+      "country": "SY",
+      "value": 1.5447,
+      "detail": "289 works"
+    },
+    {
+      "name": "Syrian Virtual University",
+      "country": "SY",
+      "value": 1.5338,
+      "detail": "302 works"
+    },
+    {
+      "name": "Damascus University",
+      "country": "SY",
+      "value": 1.5141,
+      "detail": "9,576 works"
+    },
+    {
+      "name": "Homs University",
+      "country": "SY",
+      "value": 1.4651,
+      "detail": "1,464 works"
+    },
+    {
+      "name": "Higher Institute of Business Administration",
+      "country": "SY",
+      "value": 1.4444,
+      "detail": "75 works"
+    },
+    {
+      "name": "Al Furat University",
+      "country": "SY",
+      "value": 1.3333,
+      "detail": "237 works"
+    },
+    {
+      "name": "Arab Board Of Health Specializations",
+      "country": "SY",
+      "value": 1.3265,
+      "detail": "73 works"
+    },
+    {
+      "name": "Al Wataniya Private University",
+      "country": "SY",
+      "value": 1.2923,
+      "detail": "260 works"
+    },
+    {
+      "name": "Syrian Private University",
+      "country": "SY",
+      "value": 1.2852,
+      "detail": "1,058 works"
+    },
+    {
+      "name": "Yarmouk Private University",
+      "country": "SY",
+      "value": 0.9524,
+      "detail": "33 works"
+    },
+    {
+      "name": "Maaref University of Applied Sciences",
+      "country": "SY",
+      "value": 0.8266,
+      "detail": "233 works"
+    },
+    {
+      "name": "Hama University",
+      "country": "SY",
+      "value": 0.7822,
+      "detail": "612 works"
+    },
+    {
+      "name": "Wadi International University",
+      "country": "SY",
+      "value": 0.617,
+      "detail": "60 works"
+    },
+    {
+      "name": "Arab International University",
+      "country": "SY",
+      "value": 0.466,
+      "detail": "1,575 works"
+    },
+    {
+      "name": "National Institute of Public Administration",
+      "country": "SY",
+      "value": 0.425,
+      "detail": "152 works"
+    },
+    {
+      "name": "Cordoba Private University",
+      "country": "SY",
+      "value": 0.358,
+      "detail": "128 works"
+    },
+    {
+      "name": "Al-Shahbaa University",
+      "country": "SY",
+      "value": 0.2667,
+      "detail": "32 works"
+    },
+    {
+      "name": "Ittihad Private University",
+      "country": "SY",
+      "value": 0.0741,
+      "detail": "32 works"
+    }
+  ]
+}

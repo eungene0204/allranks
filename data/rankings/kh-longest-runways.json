@@ -1,0 +1,74 @@
+{
+  "id": "kh-longest-runways",
+  "title": "Longest Airport Runways in Cambodia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Cambodia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.515Z",
+  "items": [
+    {
+      "name": "Techo International Airport",
+      "country": "KH",
+      "value": 3999.89,
+      "detail": "Phnom Penh (Boeng Khyang) · 13,123 ft · CON"
+    },
+    {
+      "name": "Siem Reap-Angkor International Airport",
+      "country": "KH",
+      "value": 3604.87,
+      "detail": "Siem Reap · 11,827 ft · CONC"
+    },
+    {
+      "name": "Dara Sakor International Airport",
+      "country": "KH",
+      "value": 3199.79,
+      "detail": "Ta Noun · 10,498 ft · concrete"
+    },
+    {
+      "name": "Phnom Penh International Airport",
+      "country": "KH",
+      "value": 3000.15,
+      "detail": "Phnom Penh (Pou Senchey) · 9,843 ft · ASP"
+    },
+    {
+      "name": "Sihanouk International Airport",
+      "country": "KH",
+      "value": 2499.97,
+      "detail": "Preah Sihanouk · 8,202 ft · ASP"
+    },
+    {
+      "name": "Battambang Airport",
+      "country": "KH",
+      "value": 1600.2,
+      "detail": "Battambang · 5,250 ft · ASP"
+    },
+    {
+      "name": "Krakor Airport",
+      "country": "KH",
+      "value": 1463.04,
+      "detail": "Krakor · 4,800 ft · GVL"
+    },
+    {
+      "name": "Ratanakiri Airport",
+      "country": "KH",
+      "value": 1200,
+      "detail": "Ratanakiri · 3,937 ft · UNK"
+    }
+  ]
+}

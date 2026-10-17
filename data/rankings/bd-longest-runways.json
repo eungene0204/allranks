@@ -1,0 +1,86 @@
+{
+  "id": "bd-longest-runways",
+  "title": "Longest Airport Runways in Bangladesh",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Bangladesh ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BD",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.455Z",
+  "items": [
+    {
+      "name": "Hazrat Shahjalal International Airport",
+      "country": "BD",
+      "value": 3200.1,
+      "detail": "Dhaka · 10,499 ft · PEM"
+    },
+    {
+      "name": "Shah Amanat International Airport",
+      "country": "BD",
+      "value": 2940.1,
+      "detail": "Chattogram (Chittagong) · 9,646 ft · Concrete"
+    },
+    {
+      "name": "Osmany International Airport",
+      "country": "BD",
+      "value": 2888.89,
+      "detail": "Sylhet · 9,478 ft · ASP"
+    },
+    {
+      "name": "Tejgaon Airport",
+      "country": "BD",
+      "value": 2839.21,
+      "detail": "Dhaka · 9,315 ft · ASP"
+    },
+    {
+      "name": "Jessore Airport",
+      "country": "BD",
+      "value": 2438.4,
+      "detail": "Jashore (Jessore) · 8,000 ft · ASP"
+    },
+    {
+      "name": "Cox's Bazar Airport",
+      "country": "BD",
+      "value": 2069.59,
+      "detail": "Cox's Bazar · 6,790 ft · ASP"
+    },
+    {
+      "name": "Saidpur Airport",
+      "country": "BD",
+      "value": 1828.8,
+      "detail": "Saidpur · 6,000 ft · ASP"
+    },
+    {
+      "name": "Shah Makhdum Airport",
+      "country": "BD",
+      "value": 1828.8,
+      "detail": "Rajshahi · 6,000 ft · ASP"
+    },
+    {
+      "name": "Barisal Airport",
+      "country": "BD",
+      "value": 1827.28,
+      "detail": "Barisal · 5,995 ft · ASP"
+    },
+    {
+      "name": "Ishurdi Airport",
+      "country": "BD",
+      "value": 1432.56,
+      "detail": "Ishurdi · 4,700 ft · CON"
+    }
+  ]
+}

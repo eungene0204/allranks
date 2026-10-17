@@ -1,0 +1,56 @@
+{
+  "id": "is-cities-by-elevation",
+  "title": "Highest Major Cities in Iceland",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Iceland with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "IS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.540Z",
+  "items": [
+    {
+      "name": "Hafnarfjörður",
+      "country": "IS",
+      "value": 39,
+      "detail": "31,525 people · Capital Region"
+    },
+    {
+      "name": "Kópavogur",
+      "country": "IS",
+      "value": 37,
+      "detail": "40,040 people · Capital Region"
+    },
+    {
+      "name": "Reykjavík",
+      "country": "IS",
+      "value": 37,
+      "detail": "118,918 people · Capital Region"
+    },
+    {
+      "name": "Reykjanesbær",
+      "country": "IS",
+      "value": 13,
+      "detail": "19,724 people · Southern Peninsula"
+    },
+    {
+      "name": "Keflavík",
+      "country": "IS",
+      "value": 5,
+      "detail": "15,930 people · Southern Peninsula"
+    }
+  ]
+}

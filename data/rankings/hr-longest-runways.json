@@ -1,0 +1,152 @@
+{
+  "id": "hr-longest-runways",
+  "title": "Longest Airport Runways in Croatia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Croatia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.504Z",
+  "items": [
+    {
+      "name": "Zagreb Franjo Tuđman International Airport",
+      "country": "HR",
+      "value": 3251.91,
+      "detail": "Velika Gorica · 10,669 ft · ASP"
+    },
+    {
+      "name": "Dubrovnik Ruđer Bošković Airport",
+      "country": "HR",
+      "value": 3229.97,
+      "detail": "Dubrovnik · 10,597 ft · ASP"
+    },
+    {
+      "name": "Pula Airport",
+      "country": "HR",
+      "value": 2949.85,
+      "detail": "Pula · 9,678 ft · ASP"
+    },
+    {
+      "name": "Udbina Airfield",
+      "country": "HR",
+      "value": 2749.91,
+      "detail": "Udbina · 9,022 ft · CON"
+    },
+    {
+      "name": "Split Saint Jerome Airport",
+      "country": "HR",
+      "value": 2549.96,
+      "detail": "Split · 8,366 ft · ASP"
+    },
+    {
+      "name": "Osijek Airport",
+      "country": "HR",
+      "value": 2499.97,
+      "detail": "Osijek(Klisa) · 8,202 ft · ASP"
+    },
+    {
+      "name": "Zadar Airport",
+      "country": "HR",
+      "value": 2499.97,
+      "detail": "Zadar · 8,202 ft · ASP"
+    },
+    {
+      "name": "Rijeka Airport",
+      "country": "HR",
+      "value": 2488.39,
+      "detail": "Rijeka(Omišalj) · 8,164 ft · PEM"
+    },
+    {
+      "name": "Grobničko Polje Airfield",
+      "country": "HR",
+      "value": 1861.11,
+      "detail": "Soboli · 6,106 ft · ASP"
+    },
+    {
+      "name": "Brač Airport",
+      "country": "HR",
+      "value": 1759.92,
+      "detail": "Gornji Humac · 5,774 ft · ASP"
+    },
+    {
+      "name": "Varaždin Airfield",
+      "country": "HR",
+      "value": 1730.04,
+      "detail": "Varaždin · 5,676 ft · ASP"
+    },
+    {
+      "name": "Osijek-Čepin Airfield",
+      "country": "HR",
+      "value": 1200,
+      "detail": "Osijek · 3,937 ft · ASP"
+    },
+    {
+      "name": "Čakovec Pribislavec Airfield",
+      "country": "HR",
+      "value": 1100.02,
+      "detail": "Čakovec · 3,609 ft · UNK"
+    },
+    {
+      "name": "Sinj Piket Airfield",
+      "country": "HR",
+      "value": 1100.02,
+      "detail": "Sinj · 3,609 ft · UNK"
+    },
+    {
+      "name": "Lošinj Airport",
+      "country": "HR",
+      "value": 900.07,
+      "detail": "Mali Lošinj · 2,953 ft · Asphalt"
+    },
+    {
+      "name": "Vukovar Borovo Recreational Airfield",
+      "country": "HR",
+      "value": 900.07,
+      "detail": "Vukovar · 2,953 ft · UNK"
+    },
+    {
+      "name": "Unije Airfield",
+      "country": "HR",
+      "value": 850.09,
+      "detail": "Unije Island · 2,789 ft · grass"
+    },
+    {
+      "name": "Vinkovci Sopot Airfield",
+      "country": "HR",
+      "value": 808.02,
+      "detail": "Vinkovci · 2,651 ft · UNK"
+    },
+    {
+      "name": "Hvar Airfield",
+      "country": "HR",
+      "value": 747.98,
+      "detail": "Hvar Island · 2,454 ft · GRE"
+    },
+    {
+      "name": "Zvekovac Airfield",
+      "country": "HR",
+      "value": 634.9,
+      "detail": "Zvekovac · 2,083 ft · Grass"
+    },
+    {
+      "name": "Airfield Ravnice",
+      "country": "HR",
+      "value": 609.6,
+      "detail": "Podravske Sesvete · 2,000 ft · Grass"
+    }
+  ]
+}

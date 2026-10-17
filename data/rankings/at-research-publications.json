@@ -1,0 +1,326 @@
+{
+  "id": "at-research-publications",
+  "title": "Universities by Research Publications in Austria",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:22.694Z",
+  "items": [
+    {
+      "name": "University of Vienna",
+      "country": "AT",
+      "value": 188171,
+      "detail": "12,611,857 citations"
+    },
+    {
+      "name": "TU Wien",
+      "country": "AT",
+      "value": 116985,
+      "detail": "5,604,031 citations"
+    },
+    {
+      "name": "Universität Innsbruck",
+      "country": "AT",
+      "value": 113370,
+      "detail": "9,541,005 citations"
+    },
+    {
+      "name": "Medical University of Vienna",
+      "country": "AT",
+      "value": 103887,
+      "detail": "11,584,126 citations"
+    },
+    {
+      "name": "University of Graz",
+      "country": "AT",
+      "value": 80925,
+      "detail": "4,159,679 citations"
+    },
+    {
+      "name": "Graz University of Technology",
+      "country": "AT",
+      "value": 71298,
+      "detail": "2,872,379 citations"
+    },
+    {
+      "name": "Innsbruck Medical University",
+      "country": "AT",
+      "value": 44011,
+      "detail": "4,863,053 citations"
+    },
+    {
+      "name": "Medical University of Graz",
+      "country": "AT",
+      "value": 43163,
+      "detail": "4,155,368 citations"
+    },
+    {
+      "name": "Johannes Kepler University of Linz",
+      "country": "AT",
+      "value": 41506,
+      "detail": "1,895,737 citations"
+    },
+    {
+      "name": "BOKU University",
+      "country": "AT",
+      "value": 31693,
+      "detail": "2,407,642 citations"
+    },
+    {
+      "name": "University of Salzburg",
+      "country": "AT",
+      "value": 29809,
+      "detail": "1,348,975 citations"
+    },
+    {
+      "name": "Vienna University of Economics and Business",
+      "country": "AT",
+      "value": 18943,
+      "detail": "577,382 citations"
+    },
+    {
+      "name": "Paracelsus Medical University",
+      "country": "AT",
+      "value": 16849,
+      "detail": "1,303,924 citations"
+    },
+    {
+      "name": "University of Veterinary Medicine Vienna",
+      "country": "AT",
+      "value": 16799,
+      "detail": "1,165,338 citations"
+    },
+    {
+      "name": "Montanuniversität Leoben",
+      "country": "AT",
+      "value": 16144,
+      "detail": "693,461 citations"
+    },
+    {
+      "name": "University of Klagenfurt",
+      "country": "AT",
+      "value": 12741,
+      "detail": "445,898 citations"
+    },
+    {
+      "name": "Institute of Science and Technology Austria",
+      "country": "AT",
+      "value": 9102,
+      "detail": "427,151 citations"
+    },
+    {
+      "name": "Central European University",
+      "country": "AT",
+      "value": 8515,
+      "detail": "203,052 citations"
+    },
+    {
+      "name": "Universität für Weiterbildung Krems",
+      "country": "AT",
+      "value": 6104,
+      "detail": "339,792 citations"
+    },
+    {
+      "name": "University of Applied Sciences Upper Austria",
+      "country": "AT",
+      "value": 5065,
+      "detail": "155,403 citations"
+    },
+    {
+      "name": "Sigmund Freud Privatuniversität Wien",
+      "country": "AT",
+      "value": 4876,
+      "detail": "89,538 citations"
+    },
+    {
+      "name": "UMIT TIROL - Private University for Health Sciences and Health Technology",
+      "country": "AT",
+      "value": 4140,
+      "detail": "164,050 citations"
+    },
+    {
+      "name": "Nawi Graz",
+      "country": "AT",
+      "value": 3829,
+      "detail": "319,549 citations"
+    },
+    {
+      "name": "Karl Landsteiner University of Health Sciences",
+      "country": "AT",
+      "value": 2613,
+      "detail": "61,004 citations"
+    },
+    {
+      "name": "University of Music and Performing Arts Vienna",
+      "country": "AT",
+      "value": 2205,
+      "detail": "9,121 citations"
+    },
+    {
+      "name": "FH JOANNEUM University of Applied Sciences",
+      "country": "AT",
+      "value": 2073,
+      "detail": "24,963 citations"
+    },
+    {
+      "name": "University of Applied Sciences Technikum Wien",
+      "country": "AT",
+      "value": 1604,
+      "detail": "32,483 citations"
+    },
+    {
+      "name": "Fachhochschule Salzburg",
+      "country": "AT",
+      "value": 1506,
+      "detail": "49,427 citations"
+    },
+    {
+      "name": "Vienna Center for Quantum Science and Technology",
+      "country": "AT",
+      "value": 1474,
+      "detail": "265,597 citations"
+    },
+    {
+      "name": "Management Center Innsbruck",
+      "country": "AT",
+      "value": 1446,
+      "detail": "35,911 citations"
+    },
+    {
+      "name": "University of Applied Sciences St Pölten",
+      "country": "AT",
+      "value": 1441,
+      "detail": "29,025 citations"
+    },
+    {
+      "name": "FH Kärnten",
+      "country": "AT",
+      "value": 1340,
+      "detail": "21,903 citations"
+    },
+    {
+      "name": "University of Applied Arts Vienna",
+      "country": "AT",
+      "value": 1291,
+      "detail": "8,828 citations"
+    },
+    {
+      "name": "Danube Private University",
+      "country": "AT",
+      "value": 1249,
+      "detail": "32,160 citations"
+    },
+    {
+      "name": "Hochschule Campus Wien",
+      "country": "AT",
+      "value": 1177,
+      "detail": "37,449 citations"
+    },
+    {
+      "name": "University of Arts and Industrial Design Linz",
+      "country": "AT",
+      "value": 1079,
+      "detail": "4,883 citations"
+    },
+    {
+      "name": "Vorarlberg University of Applied Sciences",
+      "country": "AT",
+      "value": 1005,
+      "detail": "24,810 citations"
+    },
+    {
+      "name": "Akademie der bildenden Künste Wien",
+      "country": "AT",
+      "value": 949,
+      "detail": "13,753 citations"
+    },
+    {
+      "name": "MODUL University Vienna",
+      "country": "AT",
+      "value": 945,
+      "detail": "39,889 citations"
+    },
+    {
+      "name": "Fachhochschule Wiener Neustadt",
+      "country": "AT",
+      "value": 880,
+      "detail": "32,777 citations"
+    },
+    {
+      "name": "IMC University of Applied Sciences Krems",
+      "country": "AT",
+      "value": 829,
+      "detail": "13,674 citations"
+    },
+    {
+      "name": "University of Music and Performing Arts Graz",
+      "country": "AT",
+      "value": 704,
+      "detail": "6,766 citations"
+    },
+    {
+      "name": "Pädagogische Hochschule Niederösterreich",
+      "country": "AT",
+      "value": 637,
+      "detail": "431 citations"
+    },
+    {
+      "name": "University of Education Upper Austria",
+      "country": "AT",
+      "value": 630,
+      "detail": "4,591 citations"
+    },
+    {
+      "name": "University of Applied Sciences Kufstein",
+      "country": "AT",
+      "value": 601,
+      "detail": "8,853 citations"
+    },
+    {
+      "name": "University of Applied Sciences Burgenland",
+      "country": "AT",
+      "value": 588,
+      "detail": "6,211 citations"
+    },
+    {
+      "name": "University of Applied Sciences for Business & Society BFI Vienna",
+      "country": "AT",
+      "value": 550,
+      "detail": "2,632 citations"
+    },
+    {
+      "name": "FHWien der WKW",
+      "country": "AT",
+      "value": 543,
+      "detail": "7,534 citations"
+    },
+    {
+      "name": "Webster Vienna Private University",
+      "country": "AT",
+      "value": 510,
+      "detail": "18,417 citations"
+    },
+    {
+      "name": "Pädagogische Hochschule Wien",
+      "country": "AT",
+      "value": 484,
+      "detail": "2,688 citations"
+    }
+  ]
+}

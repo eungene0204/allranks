@@ -1,0 +1,164 @@
+{
+  "id": "cg-cities-by-elevation",
+  "title": "Highest Major Cities in Congo",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Congo with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.517Z",
+  "items": [
+    {
+      "name": "Djambala",
+      "country": "CG",
+      "value": 623,
+      "detail": "15,372 people · Plateaux"
+    },
+    {
+      "name": "Sibiti",
+      "country": "CG",
+      "value": 531,
+      "detail": "33,122 people · Lékoumou"
+    },
+    {
+      "name": "Mouyondzi",
+      "country": "CG",
+      "value": 510,
+      "detail": "18,321 people · Bouenza"
+    },
+    {
+      "name": "Mossendjo",
+      "country": "CG",
+      "value": 448,
+      "detail": "19,104 people · Niari"
+    },
+    {
+      "name": "Mindouli",
+      "country": "CG",
+      "value": 362,
+      "detail": "20,985 people · Likouala"
+    },
+    {
+      "name": "Gamboma",
+      "country": "CG",
+      "value": 356,
+      "detail": "26,718 people · Plateaux"
+    },
+    {
+      "name": "Owando",
+      "country": "CG",
+      "value": 355,
+      "detail": "35,698 people · Cuvette"
+    },
+    {
+      "name": "Ouesso",
+      "country": "CG",
+      "value": 348,
+      "detail": "40,667 people · Sangha"
+    },
+    {
+      "name": "Bétou",
+      "country": "CG",
+      "value": 340,
+      "detail": "16,221 people · Likouala"
+    },
+    {
+      "name": "Dolisie",
+      "country": "CG",
+      "value": 332,
+      "detail": "121,000 people · Niari"
+    },
+    {
+      "name": "Pokola",
+      "country": "CG",
+      "value": 331,
+      "detail": "15,102 people · Sangha"
+    },
+    {
+      "name": "Makoua",
+      "country": "CG",
+      "value": 324,
+      "detail": "20,550 people · Cuvette"
+    },
+    {
+      "name": "Impfondo",
+      "country": "CG",
+      "value": 323,
+      "detail": "48,939 people · Likouala"
+    },
+    {
+      "name": "Oyo",
+      "country": "CG",
+      "value": 320,
+      "detail": "20,630 people · Cuvette"
+    },
+    {
+      "name": "Mossaka",
+      "country": "CG",
+      "value": 288,
+      "detail": "21,809 people · Cuvette"
+    },
+    {
+      "name": "Brazzaville",
+      "country": "CG",
+      "value": 284,
+      "detail": "1,982,000 people · Brazzaville"
+    },
+    {
+      "name": "Loutété",
+      "country": "CG",
+      "value": 215,
+      "detail": "27,726 people · Bouenza"
+    },
+    {
+      "name": "Bouansa",
+      "country": "CG",
+      "value": 199,
+      "detail": "27,512 people · Bouenza"
+    },
+    {
+      "name": "Nkayi",
+      "country": "CG",
+      "value": 181,
+      "detail": "103,000 people · Bouenza"
+    },
+    {
+      "name": "Kayes",
+      "country": "CG",
+      "value": 165,
+      "detail": "58,737 people · Bouenza"
+    },
+    {
+      "name": "Loudima",
+      "country": "CG",
+      "value": 150,
+      "detail": "20,391 people · Bouenza"
+    },
+    {
+      "name": "Pointe-Noire",
+      "country": "CG",
+      "value": 12,
+      "detail": "1,032,000 people · Pointe-Noire"
+    },
+    {
+      "name": "Loandjili",
+      "country": "CG",
+      "value": 7,
+      "detail": "23,204 people · Pointe-Noire"
+    }
+  ]
+}

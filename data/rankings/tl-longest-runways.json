@@ -1,0 +1,56 @@
+{
+  "id": "tl-longest-runways",
+  "title": "Longest Airport Runways in Timor-Leste",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Timor-Leste ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TL",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Baucau Airport",
+      "country": "TL",
+      "value": 2509.42,
+      "detail": "Baucau · 8,233 ft · ASP"
+    },
+    {
+      "name": "Oecusse Route of the Sandalwood International Airport",
+      "country": "TL",
+      "value": 2200.05,
+      "detail": "Oecussi-Ambeno · 7,218 ft · ASP"
+    },
+    {
+      "name": "Presidente Nicolau Lobato International Airport",
+      "country": "TL",
+      "value": 1848.61,
+      "detail": "Dili · 6,065 ft · ASP"
+    },
+    {
+      "name": "Commander in Chief of FALINTIL, Kay Rala Xanana Gusmão, International Airport",
+      "country": "TL",
+      "value": 1499.92,
+      "detail": "Suai · 4,921 ft · ASP"
+    },
+    {
+      "name": "Fuiloro Airfield",
+      "country": "TL",
+      "value": 600.15,
+      "detail": "Fuiloro · 1,969 ft"
+    }
+  ]
+}

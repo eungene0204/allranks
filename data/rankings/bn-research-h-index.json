@@ -1,0 +1,110 @@
+{
+  "id": "bn-research-h-index",
+  "title": "Universities by Research h-index in Brunei",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:30.048Z",
+  "items": [
+    {
+      "name": "Universiti Brunei Darussalam",
+      "country": "BN",
+      "value": 262,
+      "detail": "11,684 works"
+    },
+    {
+      "name": "Universiti Teknologi Brunei",
+      "country": "BN",
+      "value": 109,
+      "detail": "3,341 works"
+    },
+    {
+      "name": "Centre for Advanced Material and Energy Sciences",
+      "country": "BN",
+      "value": 75,
+      "detail": "329 works"
+    },
+    {
+      "name": "Sultan Sharif Ali Islamic University",
+      "country": "BN",
+      "value": 36,
+      "detail": "1,569 works"
+    },
+    {
+      "name": "Institute of Applied Data Analytics",
+      "country": "BN",
+      "value": 26,
+      "detail": "82 works"
+    },
+    {
+      "name": "Institute of Asian Studies",
+      "country": "BN",
+      "value": 23,
+      "detail": "309 works"
+    },
+    {
+      "name": "Brunei Polytechnic",
+      "country": "BN",
+      "value": 10,
+      "detail": "179 works"
+    },
+    {
+      "name": "Sultan Omar 'Ali Saifuddien Centre for Islamic Studies",
+      "country": "BN",
+      "value": 10,
+      "detail": "60 works"
+    },
+    {
+      "name": "Kolej Universiti Perguruan Ugama Seri Begawan",
+      "country": "BN",
+      "value": 8,
+      "detail": "150 works"
+    },
+    {
+      "name": "Institute of Brunei Technical Education",
+      "country": "BN",
+      "value": 7,
+      "detail": "13 works"
+    },
+    {
+      "name": "Laksamana College of Business",
+      "country": "BN",
+      "value": 5,
+      "detail": "27 works"
+    },
+    {
+      "name": "Kolej International Graduate Studies",
+      "country": "BN",
+      "value": 3,
+      "detail": "8 works"
+    },
+    {
+      "name": "Institute for Leadership, Innovation and Advancement",
+      "country": "BN",
+      "value": 2,
+      "detail": "2 works"
+    },
+    {
+      "name": "Institut Tahfiz Al-Quran Sultan Haji Hassanal Bolkiah",
+      "country": "BN",
+      "value": 1,
+      "detail": "2 works"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "us-research-publications",
+  "title": "Universities by Research Publications in United States",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:43.722Z",
+  "items": [
+    {
+      "name": "Harvard University",
+      "country": "US",
+      "value": 1070718,
+      "detail": "191,751,595 citations"
+    },
+    {
+      "name": "University of Michigan",
+      "country": "US",
+      "value": 1004841,
+      "detail": "74,294,497 citations"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "value": 557937,
+      "detail": "97,341,563 citations"
+    },
+    {
+      "name": "University of Washington",
+      "country": "US",
+      "value": 543394,
+      "detail": "106,423,500 citations"
+    },
+    {
+      "name": "University of California, Los Angeles",
+      "country": "US",
+      "value": 532270,
+      "detail": "69,670,755 citations"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "country": "US",
+      "value": 522954,
+      "detail": "82,231,828 citations"
+    },
+    {
+      "name": "University of California, Berkeley",
+      "country": "US",
+      "value": 490094,
+      "detail": "63,242,687 citations"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "value": 457399,
+      "detail": "65,145,894 citations"
+    },
+    {
+      "name": "Yale University",
+      "country": "US",
+      "value": 436819,
+      "detail": "57,710,706 citations"
+    },
+    {
+      "name": "Columbia University",
+      "country": "US",
+      "value": 430344,
+      "detail": "56,539,084 citations"
+    },
+    {
+      "name": "University of Minnesota",
+      "country": "US",
+      "value": 424292,
+      "detail": "44,859,148 citations"
+    },
+    {
+      "name": "The Ohio State University",
+      "country": "US",
+      "value": 412120,
+      "detail": "34,914,306 citations"
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "value": 410937,
+      "detail": "80,449,818 citations"
+    },
+    {
+      "name": "University of California San Diego",
+      "country": "US",
+      "value": 405391,
+      "detail": "57,907,903 citations"
+    },
+    {
+      "name": "University of Wisconsin–Madison",
+      "country": "US",
+      "value": 393760,
+      "detail": "47,010,255 citations"
+    },
+    {
+      "name": "University of Pittsburgh",
+      "country": "US",
+      "value": 377634,
+      "detail": "41,321,372 citations"
+    },
+    {
+      "name": "University of Florida",
+      "country": "US",
+      "value": 376406,
+      "detail": "33,603,625 citations"
+    },
+    {
+      "name": "Cornell University",
+      "country": "US",
+      "value": 365403,
+      "detail": "44,985,092 citations"
+    },
+    {
+      "name": "Michigan State University",
+      "country": "US",
+      "value": 365362,
+      "detail": "21,047,147 citations"
+    },
+    {
+      "name": "The University of Texas at Austin",
+      "country": "US",
+      "value": 358026,
+      "detail": "25,246,185 citations"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "country": "US",
+      "value": 357086,
+      "detail": "34,281,897 citations"
+    },
+    {
+      "name": "Pennsylvania State University",
+      "country": "US",
+      "value": 357071,
+      "detail": "30,561,266 citations"
+    },
+    {
+      "name": "University of North Carolina at Chapel Hill",
+      "country": "US",
+      "value": 350916,
+      "detail": "39,890,260 citations"
+    },
+    {
+      "name": "Northwestern University",
+      "country": "US",
+      "value": 330050,
+      "detail": "40,892,375 citations"
+    },
+    {
+      "name": "University of California, San Francisco",
+      "country": "US",
+      "value": 329466,
+      "detail": "60,087,248 citations"
+    },
+    {
+      "name": "New York University",
+      "country": "US",
+      "value": 323834,
+      "detail": "34,529,386 citations"
+    },
+    {
+      "name": "University of California, Davis",
+      "country": "US",
+      "value": 306666,
+      "detail": "32,657,009 citations"
+    },
+    {
+      "name": "University of Chicago",
+      "country": "US",
+      "value": 301078,
+      "detail": "38,862,876 citations"
+    },
+    {
+      "name": "University of Southern California",
+      "country": "US",
+      "value": 295250,
+      "detail": "31,511,637 citations"
+    },
+    {
+      "name": "Duke University",
+      "country": "US",
+      "value": 294797,
+      "detail": "36,636,447 citations"
+    },
+    {
+      "name": "Purdue University West Lafayette",
+      "country": "US",
+      "value": 290783,
+      "detail": "21,875,668 citations"
+    },
+    {
+      "name": "Washington University in St. Louis",
+      "country": "US",
+      "value": 285954,
+      "detail": "49,667,861 citations"
+    },
+    {
+      "name": "California Institute of Technology",
+      "country": "US",
+      "value": 283095,
+      "detail": "40,161,367 citations"
+    },
+    {
+      "name": "University of Arizona",
+      "country": "US",
+      "value": 278722,
+      "detail": "24,685,425 citations"
+    },
+    {
+      "name": "Texas A&M University",
+      "country": "US",
+      "value": 276783,
+      "detail": "21,533,194 citations"
+    },
+    {
+      "name": "Rutgers, The State University of New Jersey",
+      "country": "US",
+      "value": 255259,
+      "detail": "20,801,515 citations"
+    },
+    {
+      "name": "University of Maryland, College Park",
+      "country": "US",
+      "value": 241876,
+      "detail": "24,597,048 citations"
+    },
+    {
+      "name": "Emory University",
+      "country": "US",
+      "value": 235364,
+      "detail": "28,412,029 citations"
+    },
+    {
+      "name": "University of Utah",
+      "country": "US",
+      "value": 224820,
+      "detail": "23,418,698 citations"
+    },
+    {
+      "name": "Boston University",
+      "country": "US",
+      "value": 224604,
+      "detail": "28,271,677 citations"
+    },
+    {
+      "name": "Princeton University",
+      "country": "US",
+      "value": 213896,
+      "detail": "27,487,074 citations"
+    },
+    {
+      "name": "University of Virginia",
+      "country": "US",
+      "value": 213820,
+      "detail": "19,923,864 citations"
+    },
+    {
+      "name": "University of California, Irvine",
+      "country": "US",
+      "value": 205396,
+      "detail": "22,577,128 citations"
+    },
+    {
+      "name": "University of Iowa",
+      "country": "US",
+      "value": 203874,
+      "detail": "21,245,299 citations"
+    },
+    {
+      "name": "Vanderbilt University",
+      "country": "US",
+      "value": 202502,
+      "detail": "24,915,906 citations"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "country": "US",
+      "value": 200814,
+      "detail": "18,690,960 citations"
+    },
+    {
+      "name": "Arizona State University",
+      "country": "US",
+      "value": 197920,
+      "detail": "14,668,562 citations"
+    },
+    {
+      "name": "Iowa State University",
+      "country": "US",
+      "value": 196238,
+      "detail": "13,059,666 citations"
+    },
+    {
+      "name": "North Carolina State University",
+      "country": "US",
+      "value": 187420,
+      "detail": "12,933,883 citations"
+    },
+    {
+      "name": "University of Illinois Chicago",
+      "country": "US",
+      "value": 186138,
+      "detail": "16,519,313 citations"
+    }
+  ]
+}

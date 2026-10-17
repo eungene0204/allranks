@@ -1,0 +1,110 @@
+{
+  "id": "sc-airports-by-elevation",
+  "title": "Highest Airports in Seychelles",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Seychelles ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SC",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.544Z",
+  "items": [
+    {
+      "name": "Frégate Island Airport (UNUSABLE)",
+      "country": "SC",
+      "value": 185.93,
+      "detail": "Frégate Island · 610 ft above sea level"
+    },
+    {
+      "name": "Alphonse Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Alphonse Island · 10 ft above sea level"
+    },
+    {
+      "name": "Assomption Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Assomption Island · 10 ft above sea level"
+    },
+    {
+      "name": "Coëtivy Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Coëtivy Island · 10 ft above sea level"
+    },
+    {
+      "name": "D'Arros Island Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "D'Arros Island · 10 ft above sea level"
+    },
+    {
+      "name": "Denis Island Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Denis Island · 10 ft above sea level"
+    },
+    {
+      "name": "Desroches Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Desroches Island · 10 ft above sea level"
+    },
+    {
+      "name": "Farquhar Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Farquhar Group · 10 ft above sea level"
+    },
+    {
+      "name": "Praslin Island Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Praslin Island · 10 ft above sea level"
+    },
+    {
+      "name": "Seychelles International Airport",
+      "country": "SC",
+      "value": 3.05,
+      "detail": "Victoria · 10 ft above sea level"
+    },
+    {
+      "name": "Marie-Louise Airport",
+      "country": "SC",
+      "value": 2.74,
+      "detail": "Marie-Louise Island · 9 ft above sea level"
+    },
+    {
+      "name": "Platte Island Airport",
+      "country": "SC",
+      "value": 2.74,
+      "detail": "Platte Island · 9 ft above sea level"
+    },
+    {
+      "name": "Remire Island Airport",
+      "country": "SC",
+      "value": 2.74,
+      "detail": "Remire Island · 9 ft above sea level"
+    },
+    {
+      "name": "Bird Island Airport",
+      "country": "SC",
+      "value": 1.83,
+      "detail": "Bird Island · 6 ft above sea level"
+    }
+  ]
+}

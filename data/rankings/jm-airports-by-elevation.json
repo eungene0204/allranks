@@ -1,0 +1,134 @@
+{
+  "id": "jm-airports-by-elevation",
+  "title": "Highest Airports in Jamaica",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Jamaica ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.512Z",
+  "items": [
+    {
+      "name": "Silent Hill Airstrip",
+      "country": "JM",
+      "value": 896.11,
+      "detail": "Christiana · 2,940 ft above sea level"
+    },
+    {
+      "name": "Kirkvine Airstrip",
+      "country": "JM",
+      "value": 416.97,
+      "detail": "Williamsfield · 1,368 ft above sea level"
+    },
+    {
+      "name": "Worthy Park Airstrip",
+      "country": "JM",
+      "value": 363.93,
+      "detail": "Lluidas Vale · 1,194 ft above sea level"
+    },
+    {
+      "name": "Moneague Training Camp Airfield",
+      "country": "JM",
+      "value": 331.62,
+      "detail": "Moneague · 1,088 ft above sea level"
+    },
+    {
+      "name": "Mafoota Airstrip",
+      "country": "JM",
+      "value": 288.95,
+      "detail": "Mafoota · 948 ft above sea level"
+    },
+    {
+      "name": "Ewarton Airstrip",
+      "country": "JM",
+      "value": 182.88,
+      "detail": "Ewarton · 600 ft above sea level"
+    },
+    {
+      "name": "Nain Airstrip",
+      "country": "JM",
+      "value": 167.64,
+      "detail": "550 ft above sea level"
+    },
+    {
+      "name": "Tulloch Airstrip",
+      "country": "JM",
+      "value": 91.44,
+      "detail": "Bog Walk · 300 ft above sea level"
+    },
+    {
+      "name": "Hector’s River Agricultural Airstrip",
+      "country": "JM",
+      "value": 89,
+      "detail": "Manchioneal · 292 ft above sea level"
+    },
+    {
+      "name": "Ian Fleming International Airport",
+      "country": "JM",
+      "value": 27.43,
+      "detail": "Boscobel · 90 ft above sea level"
+    },
+    {
+      "name": "Eastern Banana Estates Airstrip",
+      "country": "JM",
+      "value": 25.6,
+      "detail": "Bath · 84 ft above sea level"
+    },
+    {
+      "name": "Puerto Seco Airstrip",
+      "country": "JM",
+      "value": 9.14,
+      "detail": "Discovery Bay · 30 ft above sea level"
+    },
+    {
+      "name": "Ken Jones Airport",
+      "country": "JM",
+      "value": 6.1,
+      "detail": "Ken Jones · 20 ft above sea level"
+    },
+    {
+      "name": "Tinson Pen Airport",
+      "country": "JM",
+      "value": 4.88,
+      "detail": "Tinson Pen · 16 ft above sea level"
+    },
+    {
+      "name": "Norman Manley International Airport",
+      "country": "JM",
+      "value": 3.05,
+      "detail": "Kingston · 10 ft above sea level"
+    },
+    {
+      "name": "Negril Airport",
+      "country": "JM",
+      "value": 2.74,
+      "detail": "Negril · 9 ft above sea level"
+    },
+    {
+      "name": "Sangster International Airport",
+      "country": "JM",
+      "value": 1.22,
+      "detail": "Montego Bay · 4 ft above sea level"
+    },
+    {
+      "name": "Port Esquivel Airstrip",
+      "country": "JM",
+      "value": 0.91,
+      "detail": "Port Esquivel · 3 ft above sea level"
+    }
+  ]
+}

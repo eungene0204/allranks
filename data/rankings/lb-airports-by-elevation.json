@@ -1,0 +1,62 @@
+{
+  "id": "lb-airports-by-elevation",
+  "title": "Highest Airports in Lebanon",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Lebanon ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LB",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.518Z",
+  "items": [
+    {
+      "name": "Baadarâne Airport",
+      "country": "LB",
+      "value": 1067.1,
+      "detail": "Baadarâne · 3,501 ft above sea level"
+    },
+    {
+      "name": "Rayak Air Base",
+      "country": "LB",
+      "value": 919.89,
+      "detail": "Rayak · 3,018 ft above sea level"
+    },
+    {
+      "name": "Zboud Airstrip",
+      "country": "LB",
+      "value": 845.82,
+      "detail": "2,775 ft above sea level"
+    },
+    {
+      "name": "Wujah Al Hajar Air Base",
+      "country": "LB",
+      "value": 256.03,
+      "detail": "Hamat · 840 ft above sea level"
+    },
+    {
+      "name": "Beirut Rafic Hariri International Airport",
+      "country": "LB",
+      "value": 26.52,
+      "detail": "Beirut · 87 ft above sea level"
+    },
+    {
+      "name": "Rene Mouawad Air Base",
+      "country": "LB",
+      "value": 22.86,
+      "detail": "Tripoli · 75 ft above sea level"
+    }
+  ]
+}

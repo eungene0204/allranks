@@ -1,0 +1,110 @@
+{
+  "id": "tn-longest-runways",
+  "title": "Longest Airport Runways in Tunisia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Tunisia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TN",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.552Z",
+  "items": [
+    {
+      "name": "Enfidha - Hammamet International Airport",
+      "country": "TN",
+      "value": 3300.07,
+      "detail": "Enfidha · 10,827 ft · ASPH"
+    },
+    {
+      "name": "Tozeur Nefta International Airport",
+      "country": "TN",
+      "value": 3225.09,
+      "detail": "Tozeur · 10,581 ft · ASP"
+    },
+    {
+      "name": "Tunis Carthage International Airport",
+      "country": "TN",
+      "value": 3200.1,
+      "detail": "Tunis · 10,499 ft · ASP"
+    },
+    {
+      "name": "Djerba Zarzis International Airport",
+      "country": "TN",
+      "value": 3100.12,
+      "detail": "Mellita · 10,171 ft · ASP"
+    },
+    {
+      "name": "Bizerte Sidi Ahmed Air Base",
+      "country": "TN",
+      "value": 3000.76,
+      "detail": "Borj Challouf · 9,845 ft · PEM"
+    },
+    {
+      "name": "Sfax Thyna International Airport",
+      "country": "TN",
+      "value": 3000.15,
+      "detail": "Sfax · 9,843 ft · CON"
+    },
+    {
+      "name": "Monastir Habib Bourguiba International Airport",
+      "country": "TN",
+      "value": 2949.85,
+      "detail": "Monastir · 9,678 ft · ASP"
+    },
+    {
+      "name": "Gafsa Ksar International Airport",
+      "country": "TN",
+      "value": 2899.87,
+      "detail": "Gafsa · 9,514 ft · ASP"
+    },
+    {
+      "name": "Tabarka-Aïn Draham International Airport",
+      "country": "TN",
+      "value": 2870,
+      "detail": "Tabarka · 9,416 ft · ASP"
+    },
+    {
+      "name": "El Borma Airport",
+      "country": "TN",
+      "value": 2699.92,
+      "detail": "El Borma · 8,858 ft · ASP"
+    },
+    {
+      "name": "Remada Air Base",
+      "country": "TN",
+      "value": 2381.1,
+      "detail": "Remada · 7,812 ft · ASP"
+    },
+    {
+      "name": "Medenine Airport",
+      "country": "TN",
+      "value": 1204.57,
+      "detail": "Medenine · 3,952 ft · ASP"
+    },
+    {
+      "name": "Gabès Matmata International Airport",
+      "country": "TN",
+      "value": 1128.37,
+      "detail": "Gabès · 3,702 ft · ASP"
+    },
+    {
+      "name": "Borj El Amri Airport",
+      "country": "TN",
+      "value": 1038.45,
+      "detail": "Burj al Hafsiyah · 3,407 ft · ASP"
+    }
+  ]
+}

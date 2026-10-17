@@ -1,0 +1,74 @@
+{
+  "id": "bh-cities-by-elevation",
+  "title": "Highest Major Cities in Bahrain",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Bahrain with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BH",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.512Z",
+  "items": [
+    {
+      "name": "Ar Rifā‘",
+      "country": "BH",
+      "value": 43,
+      "detail": "115,495 people · Southern Governorate"
+    },
+    {
+      "name": "Madīnat Ḩamad",
+      "country": "BH",
+      "value": 35,
+      "detail": "133,550 people · Northern"
+    },
+    {
+      "name": "Manama",
+      "country": "BH",
+      "value": 12,
+      "detail": "147,074 people · Manama"
+    },
+    {
+      "name": "Dār Kulayb",
+      "country": "BH",
+      "value": 10,
+      "detail": "65,466 people · Southern Governorate"
+    },
+    {
+      "name": "Al Muharraq",
+      "country": "BH",
+      "value": 7,
+      "detail": "176,583 people · Muharraq"
+    },
+    {
+      "name": "Madīnat ‘Īsá",
+      "country": "BH",
+      "value": 7,
+      "detail": "38,090 people · Southern Governorate"
+    },
+    {
+      "name": "Jidd Ḩafş",
+      "country": "BH",
+      "value": 6,
+      "detail": "66,588 people · Manama"
+    },
+    {
+      "name": "Sitrah",
+      "country": "BH",
+      "value": 5,
+      "detail": "72,601 people · Manama"
+    }
+  ]
+}

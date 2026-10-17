@@ -1,0 +1,326 @@
+{
+  "id": "ch-research-publications",
+  "title": "Universities by Research Publications in Switzerland",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CH",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:34.160Z",
+  "items": [
+    {
+      "name": "University of Bern",
+      "country": "CH",
+      "value": 294140,
+      "detail": "15,821,544 citations"
+    },
+    {
+      "name": "ETH Zurich",
+      "country": "CH",
+      "value": 286884,
+      "detail": "33,416,782 citations"
+    },
+    {
+      "name": "University of Zurich",
+      "country": "CH",
+      "value": 214514,
+      "detail": "25,900,189 citations"
+    },
+    {
+      "name": "École Polytechnique Fédérale de Lausanne",
+      "country": "CH",
+      "value": 147768,
+      "detail": "17,788,962 citations"
+    },
+    {
+      "name": "University of Geneva",
+      "country": "CH",
+      "value": 143538,
+      "detail": "17,505,107 citations"
+    },
+    {
+      "name": "University of Basel",
+      "country": "CH",
+      "value": 118810,
+      "detail": "12,367,307 citations"
+    },
+    {
+      "name": "University of Lausanne",
+      "country": "CH",
+      "value": 99756,
+      "detail": "9,799,696 citations"
+    },
+    {
+      "name": "University of Fribourg",
+      "country": "CH",
+      "value": 39748,
+      "detail": "2,143,523 citations"
+    },
+    {
+      "name": "University of Neuchâtel",
+      "country": "CH",
+      "value": 27255,
+      "detail": "1,359,185 citations"
+    },
+    {
+      "name": "University of St.Gallen",
+      "country": "CH",
+      "value": 19143,
+      "detail": "706,930 citations"
+    },
+    {
+      "name": "Università della Svizzera italiana",
+      "country": "CH",
+      "value": 17621,
+      "detail": "1,131,611 citations"
+    },
+    {
+      "name": "ZHAW Zurich University of Applied Sciences",
+      "country": "CH",
+      "value": 12301,
+      "detail": "348,929 citations"
+    },
+    {
+      "name": "HES-SO University of Applied Sciences and Arts Western Switzerland",
+      "country": "CH",
+      "value": 9720,
+      "detail": "231,446 citations"
+    },
+    {
+      "name": "Bern University of Applied Sciences",
+      "country": "CH",
+      "value": 9174,
+      "detail": "162,634 citations"
+    },
+    {
+      "name": "FHNW University of Applied Sciences and Arts Northwestern Switzerland",
+      "country": "CH",
+      "value": 8595,
+      "detail": "257,417 citations"
+    },
+    {
+      "name": "University of Lucerne",
+      "country": "CH",
+      "value": 7251,
+      "detail": "107,046 citations"
+    },
+    {
+      "name": "Graduate Institute of International and Development Studies",
+      "country": "CH",
+      "value": 6860,
+      "detail": "131,717 citations"
+    },
+    {
+      "name": "Lucerne University of Applied Sciences and Arts",
+      "country": "CH",
+      "value": 6785,
+      "detail": "104,430 citations"
+    },
+    {
+      "name": "University of Applied Sciences and Arts of Southern Switzerland",
+      "country": "CH",
+      "value": 5834,
+      "detail": "280,633 citations"
+    },
+    {
+      "name": "Swiss Finance Institute",
+      "country": "CH",
+      "value": 4598,
+      "detail": "137,133 citations"
+    },
+    {
+      "name": "HES-SO Genève",
+      "country": "CH",
+      "value": 3248,
+      "detail": "55,945 citations"
+    },
+    {
+      "name": "HES-SO Valais-Wallis",
+      "country": "CH",
+      "value": 2932,
+      "detail": "76,197 citations"
+    },
+    {
+      "name": "Zurich University of Teacher Education",
+      "country": "CH",
+      "value": 1919,
+      "detail": "10,989 citations"
+    },
+    {
+      "name": "OST - Ostschweizer Fachhochschule",
+      "country": "CH",
+      "value": 1773,
+      "detail": "14,268 citations"
+    },
+    {
+      "name": "International Institute for Management Development",
+      "country": "CH",
+      "value": 1695,
+      "detail": "77,669 citations"
+    },
+    {
+      "name": "Zurich University of the Arts",
+      "country": "CH",
+      "value": 1612,
+      "detail": "8,850 citations"
+    },
+    {
+      "name": "HES-SO Fribourg",
+      "country": "CH",
+      "value": 1533,
+      "detail": "36,176 citations"
+    },
+    {
+      "name": "Haute École Pédagogique du Canton de Vaud",
+      "country": "CH",
+      "value": 1305,
+      "detail": "7,312 citations"
+    },
+    {
+      "name": "University Centre of Legal Medicine",
+      "country": "CH",
+      "value": 1184,
+      "detail": "73,836 citations"
+    },
+    {
+      "name": "Graduate Institute of International Studies",
+      "country": "CH",
+      "value": 1178,
+      "detail": "44,624 citations"
+    },
+    {
+      "name": "University of Applied Sciences of the Grisons",
+      "country": "CH",
+      "value": 973,
+      "detail": "8,177 citations"
+    },
+    {
+      "name": "University of Applied Sciences St. Gallen",
+      "country": "CH",
+      "value": 964,
+      "detail": "23,886 citations"
+    },
+    {
+      "name": "UniDistance Suisse",
+      "country": "CH",
+      "value": 909,
+      "detail": "15,458 citations"
+    },
+    {
+      "name": "University of Teacher Education Lucerne",
+      "country": "CH",
+      "value": 904,
+      "detail": "5,561 citations"
+    },
+    {
+      "name": "Pädagogische Hochschule Bern",
+      "country": "CH",
+      "value": 824,
+      "detail": "11,105 citations"
+    },
+    {
+      "name": "Pädagogische Hochschule FHNW",
+      "country": "CH",
+      "value": 816,
+      "detail": "4,724 citations"
+    },
+    {
+      "name": "University of Applied Sciences Rapperswil",
+      "country": "CH",
+      "value": 803,
+      "detail": "22,405 citations"
+    },
+    {
+      "name": "Graduate Institute of Development Studies",
+      "country": "CH",
+      "value": 703,
+      "detail": "3,184 citations"
+    },
+    {
+      "name": "School of Engineering and Architecture of Fribourg",
+      "country": "CH",
+      "value": 681,
+      "detail": "13,671 citations"
+    },
+    {
+      "name": "University of Teacher Education in Special Needs",
+      "country": "CH",
+      "value": 680,
+      "detail": "3,451 citations"
+    },
+    {
+      "name": "Swiss Data Science Center",
+      "country": "CH",
+      "value": 677,
+      "detail": "13,213 citations"
+    },
+    {
+      "name": "St.Gallen University of Teacher Education",
+      "country": "CH",
+      "value": 508,
+      "detail": "7,106 citations"
+    },
+    {
+      "name": "Swiss Federal University for Vocational Education and Training SFUVET",
+      "country": "CH",
+      "value": 507,
+      "detail": "8,516 citations"
+    },
+    {
+      "name": "Haute école d'ingénierie et de gestion du canton de Vaud, HES-SO Haute Ecole Spécialisée de Suisse Occidentale",
+      "country": "CH",
+      "value": 497,
+      "detail": "9,111 citations"
+    },
+    {
+      "name": "Life Science Zurich",
+      "country": "CH",
+      "value": 495,
+      "detail": "68,862 citations"
+    },
+    {
+      "name": "Thurgau University of Teacher Education",
+      "country": "CH",
+      "value": 481,
+      "detail": "23,523 citations"
+    },
+    {
+      "name": "La Source School of Nursing, HES-SO University of Applied Sciences and Arts Western Switzerland",
+      "country": "CH",
+      "value": 480,
+      "detail": "12,432 citations"
+    },
+    {
+      "name": "University of Applied Sciences of Eastern Switzerland",
+      "country": "CH",
+      "value": 478,
+      "detail": "6,874 citations"
+    },
+    {
+      "name": "Swiss Distance University of Applied Sciences",
+      "country": "CH",
+      "value": 450,
+      "detail": "7,947 citations"
+    },
+    {
+      "name": "Webster University Geneva",
+      "country": "CH",
+      "value": 436,
+      "detail": "6,567 citations"
+    }
+  ]
+}

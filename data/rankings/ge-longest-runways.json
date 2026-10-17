@@ -1,0 +1,92 @@
+{
+  "id": "ge-longest-runways",
+  "title": "Longest Airport Runways in Georgia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Georgia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.502Z",
+  "items": [
+    {
+      "name": "Vladislav Ardzinba Sukhum International Airport",
+      "country": "GE",
+      "value": 3661.26,
+      "detail": "Sukhumi · 12,012 ft · CON"
+    },
+    {
+      "name": "Tbilisi International Airport",
+      "country": "GE",
+      "value": 3000.15,
+      "detail": "Tbilisi · 9,843 ft · CON"
+    },
+    {
+      "name": "Gudauta Air Base",
+      "country": "GE",
+      "value": 2987.65,
+      "detail": "Gudauta · 9,802 ft · CON"
+    },
+    {
+      "name": "Bolshiye Shiraki Air Base",
+      "country": "GE",
+      "value": 2701.14,
+      "detail": "Bolshiye Shiraki · 8,862 ft · CON"
+    },
+    {
+      "name": "Vaziani Air Base",
+      "country": "GE",
+      "value": 2500.88,
+      "detail": "Gamarjveba 1 · 8,205 ft · CON"
+    },
+    {
+      "name": "Alexander Kartveli Batumi International Airport",
+      "country": "GE",
+      "value": 2499.97,
+      "detail": "Batumi · 8,202 ft · ASP"
+    },
+    {
+      "name": "David the Builder Kutaisi International Airport",
+      "country": "GE",
+      "value": 2499.97,
+      "detail": "Kopitnari · 8,202 ft · CON"
+    },
+    {
+      "name": "Tbilisi Marneuli Air Base",
+      "country": "GE",
+      "value": 2490.22,
+      "detail": "Tbilisi · 8,170 ft · CON"
+    },
+    {
+      "name": "Tbilisi Soganlug Air Base",
+      "country": "GE",
+      "value": 2478.33,
+      "detail": "Tbilisi · 8,131 ft · CON"
+    },
+    {
+      "name": "Telavi Kurdgelauri Airport",
+      "country": "GE",
+      "value": 1691.94,
+      "detail": "Telavi · 5,551 ft · ASP"
+    },
+    {
+      "name": "Ambrolauri Airport",
+      "country": "GE",
+      "value": 1100.02,
+      "detail": "Ambrolauri · 3,609 ft · CONC"
+    }
+  ]
+}

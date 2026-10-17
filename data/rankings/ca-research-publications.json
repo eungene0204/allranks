@@ -1,0 +1,326 @@
+{
+  "id": "ca-research-publications",
+  "title": "Universities by Research Publications in Canada",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:32.772Z",
+  "items": [
+    {
+      "name": "University of Toronto",
+      "country": "CA",
+      "value": 580519,
+      "detail": "67,600,632 citations"
+    },
+    {
+      "name": "University of British Columbia",
+      "country": "CA",
+      "value": 383849,
+      "detail": "35,498,893 citations"
+    },
+    {
+      "name": "McGill University",
+      "country": "CA",
+      "value": 304067,
+      "detail": "31,798,332 citations"
+    },
+    {
+      "name": "University of Alberta",
+      "country": "CA",
+      "value": 267051,
+      "detail": "23,099,446 citations"
+    },
+    {
+      "name": "University of Calgary",
+      "country": "CA",
+      "value": 198660,
+      "detail": "16,174,962 citations"
+    },
+    {
+      "name": "Université de Montréal",
+      "country": "CA",
+      "value": 191480,
+      "detail": "17,259,723 citations"
+    },
+    {
+      "name": "McMaster University",
+      "country": "CA",
+      "value": 185880,
+      "detail": "21,848,005 citations"
+    },
+    {
+      "name": "Western University",
+      "country": "CA",
+      "value": 174380,
+      "detail": "13,486,981 citations"
+    },
+    {
+      "name": "University of Ottawa",
+      "country": "CA",
+      "value": 167521,
+      "detail": "13,395,849 citations"
+    },
+    {
+      "name": "University of Waterloo",
+      "country": "CA",
+      "value": 157348,
+      "detail": "10,040,037 citations"
+    },
+    {
+      "name": "Université Laval",
+      "country": "CA",
+      "value": 135608,
+      "detail": "10,390,343 citations"
+    },
+    {
+      "name": "Queen's University",
+      "country": "CA",
+      "value": 122113,
+      "detail": "8,694,824 citations"
+    },
+    {
+      "name": "University of Manitoba",
+      "country": "CA",
+      "value": 119472,
+      "detail": "8,217,013 citations"
+    },
+    {
+      "name": "Dalhousie University",
+      "country": "CA",
+      "value": 107820,
+      "detail": "7,910,540 citations"
+    },
+    {
+      "name": "University of Saskatchewan",
+      "country": "CA",
+      "value": 95345,
+      "detail": "5,771,727 citations"
+    },
+    {
+      "name": "University of Guelph",
+      "country": "CA",
+      "value": 93229,
+      "detail": "6,356,164 citations"
+    },
+    {
+      "name": "York University",
+      "country": "CA",
+      "value": 91005,
+      "detail": "4,308,233 citations"
+    },
+    {
+      "name": "Simon Fraser University",
+      "country": "CA",
+      "value": 87227,
+      "detail": "6,357,774 citations"
+    },
+    {
+      "name": "Concordia University",
+      "country": "CA",
+      "value": 77284,
+      "detail": "3,494,560 citations"
+    },
+    {
+      "name": "Carleton University",
+      "country": "CA",
+      "value": 77264,
+      "detail": "4,591,785 citations"
+    },
+    {
+      "name": "University of Victoria",
+      "country": "CA",
+      "value": 74133,
+      "detail": "6,046,479 citations"
+    },
+    {
+      "name": "Université du Québec à Montréal",
+      "country": "CA",
+      "value": 62989,
+      "detail": "2,347,913 citations"
+    },
+    {
+      "name": "Université de Sherbrooke",
+      "country": "CA",
+      "value": 58864,
+      "detail": "3,767,303 citations"
+    },
+    {
+      "name": "Memorial University of Newfoundland",
+      "country": "CA",
+      "value": 58341,
+      "detail": "2,946,206 citations"
+    },
+    {
+      "name": "Toronto Metropolitan University",
+      "country": "CA",
+      "value": 53284,
+      "detail": "1,471,600 citations"
+    },
+    {
+      "name": "University of Windsor",
+      "country": "CA",
+      "value": 38924,
+      "detail": "1,459,105 citations"
+    },
+    {
+      "name": "Polytechnique Montréal",
+      "country": "CA",
+      "value": 38495,
+      "detail": "2,120,909 citations"
+    },
+    {
+      "name": "University of New Brunswick",
+      "country": "CA",
+      "value": 34956,
+      "detail": "1,500,919 citations"
+    },
+    {
+      "name": "Institut National de la Recherche Scientifique",
+      "country": "CA",
+      "value": 25717,
+      "detail": "1,965,327 citations"
+    },
+    {
+      "name": "University of Regina",
+      "country": "CA",
+      "value": 24569,
+      "detail": "1,226,528 citations"
+    },
+    {
+      "name": "Brock University",
+      "country": "CA",
+      "value": 23875,
+      "detail": "966,969 citations"
+    },
+    {
+      "name": "Wilfrid Laurier University",
+      "country": "CA",
+      "value": 22189,
+      "detail": "688,906 citations"
+    },
+    {
+      "name": "Université du Québec à Trois-Rivières",
+      "country": "CA",
+      "value": 19918,
+      "detail": "698,044 citations"
+    },
+    {
+      "name": "École de Technologie Supérieure",
+      "country": "CA",
+      "value": 17918,
+      "detail": "687,679 citations"
+    },
+    {
+      "name": "University of British Columbia, Okanagan Campus",
+      "country": "CA",
+      "value": 16735,
+      "detail": "1,021,152 citations"
+    },
+    {
+      "name": "Lakehead University",
+      "country": "CA",
+      "value": 16429,
+      "detail": "734,286 citations"
+    },
+    {
+      "name": "Ontario Tech University",
+      "country": "CA",
+      "value": 15886,
+      "detail": "689,098 citations"
+    },
+    {
+      "name": "University of Lethbridge",
+      "country": "CA",
+      "value": 15661,
+      "detail": "770,085 citations"
+    },
+    {
+      "name": "Trent University",
+      "country": "CA",
+      "value": 14088,
+      "detail": "656,869 citations"
+    },
+    {
+      "name": "Université du Québec",
+      "country": "CA",
+      "value": 13941,
+      "detail": "888,355 citations"
+    },
+    {
+      "name": "Laurentian University",
+      "country": "CA",
+      "value": 13201,
+      "detail": "703,451 citations"
+    },
+    {
+      "name": "HEC Montréal",
+      "country": "CA",
+      "value": 12847,
+      "detail": "665,797 citations"
+    },
+    {
+      "name": "University of Northern British Columbia",
+      "country": "CA",
+      "value": 12198,
+      "detail": "363,712 citations"
+    },
+    {
+      "name": "Saint Mary's University",
+      "country": "CA",
+      "value": 11881,
+      "detail": "384,207 citations"
+    },
+    {
+      "name": "University of Toronto Scarborough",
+      "country": "CA",
+      "value": 11229,
+      "detail": "687,268 citations"
+    },
+    {
+      "name": "Université du Québec à Chicoutimi",
+      "country": "CA",
+      "value": 11151,
+      "detail": "415,952 citations"
+    },
+    {
+      "name": "Royal Military College of Canada",
+      "country": "CA",
+      "value": 10650,
+      "detail": "380,584 citations"
+    },
+    {
+      "name": "The University of Winnipeg",
+      "country": "CA",
+      "value": 10324,
+      "detail": "342,034 citations"
+    },
+    {
+      "name": "Lady Davis Institute for Medical Research",
+      "country": "CA",
+      "value": 10144,
+      "detail": "1,744,028 citations"
+    },
+    {
+      "name": "Hotchkiss Brain Institute",
+      "country": "CA",
+      "value": 9728,
+      "detail": "1,268,562 citations"
+    }
+  ]
+}

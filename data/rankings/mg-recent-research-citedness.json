@@ -1,0 +1,116 @@
+{
+  "id": "mg-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Madagascar",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "MG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:10.414Z",
+  "items": [
+    {
+      "name": "University of Antananarivo",
+      "country": "MG",
+      "value": 1.1884,
+      "detail": "7,494 works"
+    },
+    {
+      "name": "École Supérieure Polytechnique d'Antsiranana",
+      "country": "MG",
+      "value": 1.1538,
+      "detail": "89 works"
+    },
+    {
+      "name": "Université de Mahajanga",
+      "country": "MG",
+      "value": 0.9612,
+      "detail": "750 works"
+    },
+    {
+      "name": "Catholic University of Madagascar",
+      "country": "MG",
+      "value": 0.8725,
+      "detail": "166 works"
+    },
+    {
+      "name": "Unité de Recherche en Génie des Procédés et en Génie de l’Environnement",
+      "country": "MG",
+      "value": 0.8235,
+      "detail": "17 works"
+    },
+    {
+      "name": "École supérieure polytechnique d'Antananarivo",
+      "country": "MG",
+      "value": 0.7344,
+      "detail": "302 works"
+    },
+    {
+      "name": "Institute and Observatory of Geophysics of Antananarivo",
+      "country": "MG",
+      "value": 0.6774,
+      "detail": "116 works"
+    },
+    {
+      "name": "Université de Fianarantsoa",
+      "country": "MG",
+      "value": 0.6215,
+      "detail": "844 works"
+    },
+    {
+      "name": "University of Toamasina",
+      "country": "MG",
+      "value": 0.5703,
+      "detail": "477 works"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antananarivo",
+      "country": "MG",
+      "value": 0.5,
+      "detail": "96 works"
+    },
+    {
+      "name": "Institut Supérieur de la Communication, des Affaires et du Management",
+      "country": "MG",
+      "value": 0.4906,
+      "detail": "63 works"
+    },
+    {
+      "name": "Institut Supérieur de Technologie d'Antsiranana",
+      "country": "MG",
+      "value": 0.4667,
+      "detail": "41 works"
+    },
+    {
+      "name": "University of Toliara",
+      "country": "MG",
+      "value": 0.4492,
+      "detail": "900 works"
+    },
+    {
+      "name": "Université d’Antsiranana",
+      "country": "MG",
+      "value": 0.3777,
+      "detail": "355 works"
+    },
+    {
+      "name": "Institut National des Sciences et Techniques Nucléaires - Madagascar",
+      "country": "MG",
+      "value": 0.3205,
+      "detail": "89 works"
+    }
+  ]
+}

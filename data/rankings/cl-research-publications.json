@@ -1,0 +1,326 @@
+{
+  "id": "cl-research-publications",
+  "title": "Universities by Research Publications in Chile",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:35.650Z",
+  "items": [
+    {
+      "name": "University of Chile",
+      "country": "CL",
+      "value": 118406,
+      "detail": "5,092,993 citations"
+    },
+    {
+      "name": "Pontificia Universidad Católica de Chile",
+      "country": "CL",
+      "value": 87262,
+      "detail": "4,245,665 citations"
+    },
+    {
+      "name": "University of Concepción",
+      "country": "CL",
+      "value": 41303,
+      "detail": "1,624,059 citations"
+    },
+    {
+      "name": "Universidad de Santiago de Chile",
+      "country": "CL",
+      "value": 24965,
+      "detail": "722,523 citations"
+    },
+    {
+      "name": "Pontificia Universidad Católica de Valparaíso",
+      "country": "CL",
+      "value": 22583,
+      "detail": "487,352 citations"
+    },
+    {
+      "name": "Austral University of Chile",
+      "country": "CL",
+      "value": 22145,
+      "detail": "747,370 citations"
+    },
+    {
+      "name": "Universidad Andrés Bello",
+      "country": "CL",
+      "value": 20693,
+      "detail": "608,792 citations"
+    },
+    {
+      "name": "Universidad de La Frontera",
+      "country": "CL",
+      "value": 16538,
+      "detail": "630,769 citations"
+    },
+    {
+      "name": "Universidad Técnica Federico Santa María",
+      "country": "CL",
+      "value": 15979,
+      "detail": "1,201,773 citations"
+    },
+    {
+      "name": "University of Valparaíso",
+      "country": "CL",
+      "value": 14728,
+      "detail": "397,472 citations"
+    },
+    {
+      "name": "Universidad Católica del Norte",
+      "country": "CL",
+      "value": 13549,
+      "detail": "374,739 citations"
+    },
+    {
+      "name": "University of Talca",
+      "country": "CL",
+      "value": 12920,
+      "detail": "361,596 citations"
+    },
+    {
+      "name": "Universidad Diego Portales",
+      "country": "CL",
+      "value": 12058,
+      "detail": "261,454 citations"
+    },
+    {
+      "name": "Adolfo Ibáñez University",
+      "country": "CL",
+      "value": 11555,
+      "detail": "176,281 citations"
+    },
+    {
+      "name": "Universidad Autónoma de Chile",
+      "country": "CL",
+      "value": 10798,
+      "detail": "195,442 citations"
+    },
+    {
+      "name": "University of Tarapacá",
+      "country": "CL",
+      "value": 10605,
+      "detail": "200,976 citations"
+    },
+    {
+      "name": "Universidad Santo Tomás",
+      "country": "CL",
+      "value": 10110,
+      "detail": "84,568 citations"
+    },
+    {
+      "name": "Universidad del Desarrollo",
+      "country": "CL",
+      "value": 9381,
+      "detail": "308,602 citations"
+    },
+    {
+      "name": "San Sebastián University",
+      "country": "CL",
+      "value": 9320,
+      "detail": "110,509 citations"
+    },
+    {
+      "name": "Catholic University of the Maule",
+      "country": "CL",
+      "value": 9145,
+      "detail": "113,296 citations"
+    },
+    {
+      "name": "University of Bío-Bío",
+      "country": "CL",
+      "value": 9018,
+      "detail": "148,796 citations"
+    },
+    {
+      "name": "Universidad Católica de la Santísima Concepción",
+      "country": "CL",
+      "value": 7808,
+      "detail": "102,296 citations"
+    },
+    {
+      "name": "Universidad de Los Andes, Chile",
+      "country": "CL",
+      "value": 7575,
+      "detail": "232,208 citations"
+    },
+    {
+      "name": "Universidad Católica de Temuco",
+      "country": "CL",
+      "value": 6773,
+      "detail": "83,788 citations"
+    },
+    {
+      "name": "Universidad Mayor",
+      "country": "CL",
+      "value": 6365,
+      "detail": "160,369 citations"
+    },
+    {
+      "name": "Alberto Hurtado University",
+      "country": "CL",
+      "value": 6343,
+      "detail": "38,263 citations"
+    },
+    {
+      "name": "Universidad de Antofagasta",
+      "country": "CL",
+      "value": 6133,
+      "detail": "279,281 citations"
+    },
+    {
+      "name": "University of La Serena",
+      "country": "CL",
+      "value": 5990,
+      "detail": "237,340 citations"
+    },
+    {
+      "name": "Universidad de Los Lagos",
+      "country": "CL",
+      "value": 5690,
+      "detail": "103,614 citations"
+    },
+    {
+      "name": "University of the Americas",
+      "country": "CL",
+      "value": 5516,
+      "detail": "33,686 citations"
+    },
+    {
+      "name": "Universidad de Magallanes",
+      "country": "CL",
+      "value": 4157,
+      "detail": "99,174 citations"
+    },
+    {
+      "name": "Arturo Prat University",
+      "country": "CL",
+      "value": 4152,
+      "detail": "59,218 citations"
+    },
+    {
+      "name": "Universidad Bernardo O'Higgins",
+      "country": "CL",
+      "value": 4002,
+      "detail": "43,015 citations"
+    },
+    {
+      "name": "Metropolitan University of Technology",
+      "country": "CL",
+      "value": 3723,
+      "detail": "48,154 citations"
+    },
+    {
+      "name": "University of Atacama",
+      "country": "CL",
+      "value": 3355,
+      "detail": "58,760 citations"
+    },
+    {
+      "name": "Metropolitan University of Educational Sciences",
+      "country": "CL",
+      "value": 3309,
+      "detail": "20,865 citations"
+    },
+    {
+      "name": "Finis Terrae University",
+      "country": "CL",
+      "value": 3253,
+      "detail": "33,181 citations"
+    },
+    {
+      "name": "Universidad Central de Chile",
+      "country": "CL",
+      "value": 3225,
+      "detail": "32,652 citations"
+    },
+    {
+      "name": "Universidad de Playa Ancha de Ciencias de la Educación",
+      "country": "CL",
+      "value": 2947,
+      "detail": "22,312 citations"
+    },
+    {
+      "name": "University of O'Higgins",
+      "country": "CL",
+      "value": 2182,
+      "detail": "24,294 citations"
+    },
+    {
+      "name": "Universidad Católica Silva Henríquez",
+      "country": "CL",
+      "value": 2081,
+      "detail": "8,119 citations"
+    },
+    {
+      "name": "ESE Business School",
+      "country": "CL",
+      "value": 1799,
+      "detail": "59,976 citations"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales",
+      "country": "CL",
+      "value": 1591,
+      "detail": "6,759 citations"
+    },
+    {
+      "name": "Viña del Mar University",
+      "country": "CL",
+      "value": 1513,
+      "detail": "10,196 citations"
+    },
+    {
+      "name": "Academy of Christian Humanism University",
+      "country": "CL",
+      "value": 1415,
+      "detail": "5,279 citations"
+    },
+    {
+      "name": "Universidad Adventista de Chile",
+      "country": "CL",
+      "value": 1242,
+      "detail": "8,295 citations"
+    },
+    {
+      "name": "Centro Científico Tecnológico de Valparaíso",
+      "country": "CL",
+      "value": 992,
+      "detail": "30,448 citations"
+    },
+    {
+      "name": "Universidad del Mar",
+      "country": "CL",
+      "value": 650,
+      "detail": "8,633 citations"
+    },
+    {
+      "name": "Millennium Institute for Subatomic Physics at High-Energy Frontier, Saphir",
+      "country": "CL",
+      "value": 590,
+      "detail": "22,712 citations"
+    },
+    {
+      "name": "Universidad del Alba",
+      "country": "CL",
+      "value": 547,
+      "detail": "3,249 citations"
+    }
+  ]
+}

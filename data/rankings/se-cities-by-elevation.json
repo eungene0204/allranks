@@ -1,0 +1,326 @@
+{
+  "id": "se-cities-by-elevation",
+  "title": "Highest Major Cities in Sweden",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Sweden with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.562Z",
+  "items": [
+    {
+      "name": "Kiruna",
+      "country": "SE",
+      "value": 579,
+      "detail": "17,037 people · Norrbotten"
+    },
+    {
+      "name": "Östersund",
+      "country": "SE",
+      "value": 328,
+      "detail": "49,806 people · Jämtland"
+    },
+    {
+      "name": "Nässjö",
+      "country": "SE",
+      "value": 303,
+      "detail": "17,719 people · Jönköping"
+    },
+    {
+      "name": "Falköping",
+      "country": "SE",
+      "value": 217,
+      "detail": "17,170 people · Västra Götaland"
+    },
+    {
+      "name": "Huskvarna",
+      "country": "SE",
+      "value": 217,
+      "detail": "21,500 people · Jönköping"
+    },
+    {
+      "name": "Växjö",
+      "country": "SE",
+      "value": 169,
+      "detail": "71,282 people · Kronoberg"
+    },
+    {
+      "name": "Värnamo",
+      "country": "SE",
+      "value": 156,
+      "detail": "19,061 people · Jönköping"
+    },
+    {
+      "name": "Skövde",
+      "country": "SE",
+      "value": 152,
+      "detail": "36,842 people · Västra Götaland"
+    },
+    {
+      "name": "Borås",
+      "country": "SE",
+      "value": 143,
+      "detail": "71,700 people · Västra Götaland"
+    },
+    {
+      "name": "Ludvika",
+      "country": "SE",
+      "value": 143,
+      "detail": "15,245 people · Dalarna"
+    },
+    {
+      "name": "Ljungby",
+      "country": "SE",
+      "value": 142,
+      "detail": "15,785 people · Kronoberg"
+    },
+    {
+      "name": "Borlänge",
+      "country": "SE",
+      "value": 124,
+      "detail": "41,955 people · Dalarna"
+    },
+    {
+      "name": "Karlskoga",
+      "country": "SE",
+      "value": 119,
+      "detail": "27,490 people · Örebro"
+    },
+    {
+      "name": "Motala",
+      "country": "SE",
+      "value": 107,
+      "detail": "30,944 people · Östergötland"
+    },
+    {
+      "name": "Jönköping",
+      "country": "SE",
+      "value": 100,
+      "detail": "112,766 people · Jönköping"
+    },
+    {
+      "name": "Falun",
+      "country": "SE",
+      "value": 97,
+      "detail": "37,291 people · Dalarna"
+    },
+    {
+      "name": "Eslöv",
+      "country": "SE",
+      "value": 68,
+      "detail": "18,592 people · Skåne"
+    },
+    {
+      "name": "Haninge",
+      "country": "SE",
+      "value": 67,
+      "detail": "74,968 people · Stockholm"
+    },
+    {
+      "name": "Alingsås",
+      "country": "SE",
+      "value": 66,
+      "detail": "26,329 people · Västra Götaland"
+    },
+    {
+      "name": "Sandviken",
+      "country": "SE",
+      "value": 66,
+      "detail": "24,724 people · Gävleborg"
+    },
+    {
+      "name": "Kinna",
+      "country": "SE",
+      "value": 65,
+      "detail": "15,019 people · Västra Götaland"
+    },
+    {
+      "name": "Hässleholm",
+      "country": "SE",
+      "value": 58,
+      "detail": "19,309 people · Skåne"
+    },
+    {
+      "name": "Karlstad",
+      "country": "SE",
+      "value": 58,
+      "detail": "61,492 people · Värmland"
+    },
+    {
+      "name": "Linköping",
+      "country": "SE",
+      "value": 58,
+      "detail": "166,673 people · Östergötland"
+    },
+    {
+      "name": "Tullinge",
+      "country": "SE",
+      "value": 58,
+      "detail": "16,000 people · Stockholm"
+    },
+    {
+      "name": "Kumla",
+      "country": "SE",
+      "value": 57,
+      "detail": "16,663 people · Örebro"
+    },
+    {
+      "name": "Mariestad",
+      "country": "SE",
+      "value": 56,
+      "detail": "16,122 people · Västra Götaland"
+    },
+    {
+      "name": "Kristinehamn",
+      "country": "SE",
+      "value": 55,
+      "detail": "18,557 people · Värmland"
+    },
+    {
+      "name": "Mölnlycke",
+      "country": "SE",
+      "value": 55,
+      "detail": "17,579 people · Västra Götaland"
+    },
+    {
+      "name": "Vänersborg",
+      "country": "SE",
+      "value": 54,
+      "detail": "23,119 people · Västra Götaland"
+    },
+    {
+      "name": "Lidköping",
+      "country": "SE",
+      "value": 52,
+      "detail": "22,988 people · Västra Götaland"
+    },
+    {
+      "name": "Trångsund",
+      "country": "SE",
+      "value": 52,
+      "detail": "23,110 people · Stockholm"
+    },
+    {
+      "name": "Katrineholm",
+      "country": "SE",
+      "value": 51,
+      "detail": "23,283 people · Södermanland"
+    },
+    {
+      "name": "Lund",
+      "country": "SE",
+      "value": 51,
+      "detail": "87,244 people · Skåne"
+    },
+    {
+      "name": "Nacka",
+      "country": "SE",
+      "value": 49,
+      "detail": "25,170 people · Stockholm"
+    },
+    {
+      "name": "Trollhättan",
+      "country": "SE",
+      "value": 49,
+      "detail": "48,573 people · Västra Götaland"
+    },
+    {
+      "name": "Årsta",
+      "country": "SE",
+      "value": 39,
+      "detail": "16,807 people · Stockholm"
+    },
+    {
+      "name": "Södermalm",
+      "country": "SE",
+      "value": 39,
+      "detail": "127,323 people · Stockholm"
+    },
+    {
+      "name": "Boo",
+      "country": "SE",
+      "value": 37,
+      "detail": "24,052 people · Stockholm"
+    },
+    {
+      "name": "Örebro",
+      "country": "SE",
+      "value": 35,
+      "detail": "155,989 people · Örebro"
+    },
+    {
+      "name": "Vasastaden",
+      "country": "SE",
+      "value": 35,
+      "detail": "58,458 people · Stockholm"
+    },
+    {
+      "name": "Gamla Uppsala",
+      "country": "SE",
+      "value": 34,
+      "detail": "17,973 people · Uppsala"
+    },
+    {
+      "name": "Skellefteå",
+      "country": "SE",
+      "value": 34,
+      "detail": "35,516 people · Västerbotten"
+    },
+    {
+      "name": "Huddinge",
+      "country": "SE",
+      "value": 33,
+      "detail": "90,182 people · Stockholm"
+    },
+    {
+      "name": "Tensta",
+      "country": "SE",
+      "value": 32,
+      "detail": "17,083 people · Stockholm"
+    },
+    {
+      "name": "Hässelby Villastad",
+      "country": "SE",
+      "value": 30,
+      "detail": "19,000 people · Stockholm"
+    },
+    {
+      "name": "Lidingö",
+      "country": "SE",
+      "value": 30,
+      "detail": "42,466 people · Stockholm"
+    },
+    {
+      "name": "Östermalm",
+      "country": "SE",
+      "value": 30,
+      "detail": "36,418 people · Stockholm"
+    },
+    {
+      "name": "Södertälje",
+      "country": "SE",
+      "value": 29,
+      "detail": "70,777 people · Stockholm"
+    },
+    {
+      "name": "Kungsholmen",
+      "country": "SE",
+      "value": 28,
+      "detail": "69,363 people · Stockholm"
+    }
+  ]
+}

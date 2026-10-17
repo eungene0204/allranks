@@ -1,0 +1,326 @@
+{
+  "id": "tr-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Türkiye",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "TR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:41.352Z",
+  "items": [
+    {
+      "name": "Naval Academy",
+      "country": "TR",
+      "value": 11.6776,
+      "detail": "1,209 works"
+    },
+    {
+      "name": "Canik Başarı University",
+      "country": "TR",
+      "value": 7.3333,
+      "detail": "167 works"
+    },
+    {
+      "name": "European University of Lefke",
+      "country": "TR",
+      "value": 6.6634,
+      "detail": "2,885 works"
+    },
+    {
+      "name": "Milli Savunma Üniversitesi",
+      "country": "TR",
+      "value": 4.8165,
+      "detail": "3,111 works"
+    },
+    {
+      "name": "Sabancı Üniversitesi",
+      "country": "TR",
+      "value": 4.8007,
+      "detail": "12,564 works"
+    },
+    {
+      "name": "Istinye University",
+      "country": "TR",
+      "value": 4.2708,
+      "detail": "10,991 works"
+    },
+    {
+      "name": "Boğaziçi University",
+      "country": "TR",
+      "value": 4.1326,
+      "detail": "24,457 works"
+    },
+    {
+      "name": "Kadir Has University",
+      "country": "TR",
+      "value": 4.1007,
+      "detail": "4,112 works"
+    },
+    {
+      "name": "Ankara Üniversitesi Deniz Hukuku Ulusal Araştırma Merkezi",
+      "country": "TR",
+      "value": 4.0714,
+      "detail": "11 works"
+    },
+    {
+      "name": "Batman University",
+      "country": "TR",
+      "value": 4.0082,
+      "detail": "5,202 works"
+    },
+    {
+      "name": "Sivas Bilim ve Teknoloji Üniversitesi",
+      "country": "TR",
+      "value": 4.0033,
+      "detail": "1,413 works"
+    },
+    {
+      "name": "Abdullah Gül University",
+      "country": "TR",
+      "value": 3.9503,
+      "detail": "2,693 works"
+    },
+    {
+      "name": "Anadolu University",
+      "country": "TR",
+      "value": 3.8802,
+      "detail": "19,574 works"
+    },
+    {
+      "name": "Osmaniye Korkut Ata University",
+      "country": "TR",
+      "value": 3.8034,
+      "detail": "5,429 works"
+    },
+    {
+      "name": "Iğdır Üniversitesi",
+      "country": "TR",
+      "value": 3.7591,
+      "detail": "5,360 works"
+    },
+    {
+      "name": "Koç University",
+      "country": "TR",
+      "value": 3.688,
+      "detail": "24,555 works"
+    },
+    {
+      "name": "Tarsus University",
+      "country": "TR",
+      "value": 3.6219,
+      "detail": "3,134 works"
+    },
+    {
+      "name": "Istanbul Bilim University",
+      "country": "TR",
+      "value": 3.5747,
+      "detail": "1,854 works"
+    },
+    {
+      "name": "Adana Science and Technology University",
+      "country": "TR",
+      "value": 3.5597,
+      "detail": "3,881 works"
+    },
+    {
+      "name": "Istanbul Technical University",
+      "country": "TR",
+      "value": 3.5085,
+      "detail": "53,396 works"
+    },
+    {
+      "name": "Usak University",
+      "country": "TR",
+      "value": 3.4707,
+      "detail": "11,474 works"
+    },
+    {
+      "name": "Kahramanmaraş İstiklal Üniversitesi",
+      "country": "TR",
+      "value": 3.283,
+      "detail": "897 works"
+    },
+    {
+      "name": "TOBB University of Economics and Technology",
+      "country": "TR",
+      "value": 3.2599,
+      "detail": "6,976 works"
+    },
+    {
+      "name": "İskenderun Technical University",
+      "country": "TR",
+      "value": 3.2538,
+      "detail": "3,821 works"
+    },
+    {
+      "name": "Okan University",
+      "country": "TR",
+      "value": 3.2389,
+      "detail": "5,211 works"
+    },
+    {
+      "name": "Yıldız Technical University",
+      "country": "TR",
+      "value": 3.1879,
+      "detail": "31,098 works"
+    },
+    {
+      "name": "Middle East Technical University",
+      "country": "TR",
+      "value": 3.1647,
+      "detail": "50,066 works"
+    },
+    {
+      "name": "Izmir Institute of Technology",
+      "country": "TR",
+      "value": 3.1533,
+      "detail": "8,251 works"
+    },
+    {
+      "name": "Erzurum Technical University",
+      "country": "TR",
+      "value": 3.1532,
+      "detail": "4,262 works"
+    },
+    {
+      "name": "Recep Tayyip Erdoğan University",
+      "country": "TR",
+      "value": 3.1288,
+      "detail": "14,187 works"
+    },
+    {
+      "name": "Konya Technical University",
+      "country": "TR",
+      "value": 3.1068,
+      "detail": "4,235 works"
+    },
+    {
+      "name": "Gebze Technical University",
+      "country": "TR",
+      "value": 3.1061,
+      "detail": "12,507 works"
+    },
+    {
+      "name": "Bingöl University",
+      "country": "TR",
+      "value": 3.05,
+      "detail": "8,084 works"
+    },
+    {
+      "name": "Sakarya University",
+      "country": "TR",
+      "value": 3.0297,
+      "detail": "28,313 works"
+    },
+    {
+      "name": "Turkish Air Force Academy",
+      "country": "TR",
+      "value": 2.9887,
+      "detail": "1,036 works"
+    },
+    {
+      "name": "Bilkent University",
+      "country": "TR",
+      "value": 2.9887,
+      "detail": "21,389 works"
+    },
+    {
+      "name": "Siirt Üniversitesi",
+      "country": "TR",
+      "value": 2.9802,
+      "detail": "7,441 works"
+    },
+    {
+      "name": "Atatürk University",
+      "country": "TR",
+      "value": 2.9708,
+      "detail": "42,741 works"
+    },
+    {
+      "name": "Ardahan University",
+      "country": "TR",
+      "value": 2.9639,
+      "detail": "2,861 works"
+    },
+    {
+      "name": "Bartin University",
+      "country": "TR",
+      "value": 2.9358,
+      "detail": "8,701 works"
+    },
+    {
+      "name": "Harran University",
+      "country": "TR",
+      "value": 2.9145,
+      "detail": "15,020 works"
+    },
+    {
+      "name": "İstanbul Nişantaşı Üniversitesi",
+      "country": "TR",
+      "value": 2.8763,
+      "detail": "4,390 works"
+    },
+    {
+      "name": "Cukurova University",
+      "country": "TR",
+      "value": 2.8323,
+      "detail": "33,768 works"
+    },
+    {
+      "name": "Altınbaş University",
+      "country": "TR",
+      "value": 2.795,
+      "detail": "4,058 works"
+    },
+    {
+      "name": "Özyeğin University",
+      "country": "TR",
+      "value": 2.7674,
+      "detail": "5,134 works"
+    },
+    {
+      "name": "Piri Reis University",
+      "country": "TR",
+      "value": 2.7384,
+      "detail": "1,584 works"
+    },
+    {
+      "name": "Giresun University",
+      "country": "TR",
+      "value": 2.7306,
+      "detail": "10,176 works"
+    },
+    {
+      "name": "Konya Food and Agriculture University",
+      "country": "TR",
+      "value": 2.7282,
+      "detail": "811 works"
+    },
+    {
+      "name": "Eskisehir Technical University",
+      "country": "TR",
+      "value": 2.6968,
+      "detail": "5,771 works"
+    },
+    {
+      "name": "Karadeniz Technical University",
+      "country": "TR",
+      "value": 2.6912,
+      "detail": "27,513 works"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tg-research-publications",
+  "title": "Universities by Research Publications in Togo",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "TG",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:37.335Z",
+  "items": [
+    {
+      "name": "University of Lomé",
+      "country": "TG",
+      "value": 7770,
+      "detail": "134,628 citations"
+    },
+    {
+      "name": "University of Kara",
+      "country": "TG",
+      "value": 1923,
+      "detail": "6,138 citations"
+    },
+    {
+      "name": "Global Wealth University",
+      "country": "TG",
+      "value": 61,
+      "detail": "106 citations"
+    },
+    {
+      "name": "École Africaine des Métiers de l'Architecture et de l'Urbanisme",
+      "country": "TG",
+      "value": 43,
+      "detail": "40 citations"
+    },
+    {
+      "name": "École Nationale d'Administration",
+      "country": "TG",
+      "value": 13,
+      "detail": "59 citations"
+    },
+    {
+      "name": "University of Science and Technology of Togo",
+      "country": "TG",
+      "value": 12,
+      "detail": "118 citations"
+    },
+    {
+      "name": "École des Cadres",
+      "country": "TG",
+      "value": 2,
+      "detail": "0 citations"
+    }
+  ]
+}

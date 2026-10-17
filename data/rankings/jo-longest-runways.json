@@ -1,0 +1,74 @@
+{
+  "id": "jo-longest-runways",
+  "title": "Longest Airport Runways in Jordan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Jordan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "JO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.513Z",
+  "items": [
+    {
+      "name": "Queen Alia International Airport",
+      "country": "JO",
+      "value": 3660.04,
+      "detail": "Amman · 12,008 ft · ASP"
+    },
+    {
+      "name": "Marka International (Amman Civil) Airport",
+      "country": "JO",
+      "value": 3275.08,
+      "detail": "Amman · 10,745 ft · ASP"
+    },
+    {
+      "name": "King Hussein International Airport",
+      "country": "JO",
+      "value": 3003.8,
+      "detail": "Aqaba · 9,855 ft · ASP"
+    },
+    {
+      "name": "King Hussein Air College",
+      "country": "JO",
+      "value": 2992.83,
+      "detail": "Mafraq · 9,819 ft · ASP"
+    },
+    {
+      "name": "Prince Hassan Air Base",
+      "country": "JO",
+      "value": 2987.65,
+      "detail": "9,802 ft · ASP"
+    },
+    {
+      "name": "Muwaffaq Salti Air Base",
+      "country": "JO",
+      "value": 2980.03,
+      "detail": "Al Azraq · 9,777 ft · ASP"
+    },
+    {
+      "name": "H4 Air Base",
+      "country": "JO",
+      "value": 2503.93,
+      "detail": "8,215 ft · ASP"
+    },
+    {
+      "name": "Zarqa Airport",
+      "country": "JO",
+      "value": 1263.7,
+      "detail": "Zarqa · 4,146 ft · ASP"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "si-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Slovenia",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SI",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:32.907Z",
+  "items": [
+    {
+      "name": "Higher School of Applied Sciences",
+      "country": "SI",
+      "value": 4.4186,
+      "detail": "98 works"
+    },
+    {
+      "name": "College of Environmental Protection",
+      "country": "SI",
+      "value": 4.4094,
+      "detail": "221 works"
+    },
+    {
+      "name": "Fakulteta za zdravstvene in socialne vede Slovenj Gradec",
+      "country": "SI",
+      "value": 4.3125,
+      "detail": "80 works"
+    },
+    {
+      "name": "University of Nova Gorica",
+      "country": "SI",
+      "value": 3.8277,
+      "detail": "4,579 works"
+    },
+    {
+      "name": "Jožef Stefan International Postgraduate School",
+      "country": "SI",
+      "value": 3.7677,
+      "detail": "17,762 works"
+    },
+    {
+      "name": "Faculty of Industrial Engineering Novo Mesto",
+      "country": "SI",
+      "value": 3.7308,
+      "detail": "117 works"
+    },
+    {
+      "name": "Katoliski institut Izredni študij prava in ekonomije na Fakulteti za pravo in ekonomijo",
+      "country": "SI",
+      "value": 3.3,
+      "detail": "6 works"
+    },
+    {
+      "name": "International School for Social and Business Studies",
+      "country": "SI",
+      "value": 3.1918,
+      "detail": "365 works"
+    },
+    {
+      "name": "Sigmund Freud Privatuniversität - Standort Ljubljana",
+      "country": "SI",
+      "value": 3.1818,
+      "detail": "26 works"
+    },
+    {
+      "name": "University of Ljubljana",
+      "country": "SI",
+      "value": 3.0586,
+      "detail": "101,262 works"
+    },
+    {
+      "name": "IEDC-Bled School of Management",
+      "country": "SI",
+      "value": 2.4848,
+      "detail": "132 works"
+    },
+    {
+      "name": "GEA College",
+      "country": "SI",
+      "value": 2.3704,
+      "detail": "85 works"
+    },
+    {
+      "name": "Šolski Center Škofja Loka",
+      "country": "SI",
+      "value": 2.25,
+      "detail": "15 works"
+    },
+    {
+      "name": "University of Maribor",
+      "country": "SI",
+      "value": 2.1996,
+      "detail": "30,919 works"
+    },
+    {
+      "name": "Alma Mater Europaea",
+      "country": "SI",
+      "value": 1.8138,
+      "detail": "1,261 works"
+    },
+    {
+      "name": "University of Primorska",
+      "country": "SI",
+      "value": 1.7755,
+      "detail": "9,668 works"
+    },
+    {
+      "name": "Faculty of Polymer Technology",
+      "country": "SI",
+      "value": 1.7155,
+      "detail": "272 works"
+    },
+    {
+      "name": "School of Business and Management Novo Mesto",
+      "country": "SI",
+      "value": 1.5714,
+      "detail": "78 works"
+    },
+    {
+      "name": "Biotechnical Educational Centre Ljubljana",
+      "country": "SI",
+      "value": 1.5,
+      "detail": "19 works"
+    },
+    {
+      "name": "Celje School of Economics",
+      "country": "SI",
+      "value": 1.5,
+      "detail": "23 works"
+    },
+    {
+      "name": "Univerzitetni Rehabilitacijski Inštitut",
+      "country": "SI",
+      "value": 1.4192,
+      "detail": "716 works"
+    },
+    {
+      "name": "Faculty of Commercial and Business Sciences",
+      "country": "SI",
+      "value": 1.2308,
+      "detail": "142 works"
+    },
+    {
+      "name": "School Centre Celje",
+      "country": "SI",
+      "value": 1.122,
+      "detail": "139 works"
+    },
+    {
+      "name": "European Faculty of Law",
+      "country": "SI",
+      "value": 1.087,
+      "detail": "197 works"
+    },
+    {
+      "name": "School Center Novo mesto",
+      "country": "SI",
+      "value": 0.7647,
+      "detail": "92 works"
+    },
+    {
+      "name": "Biotehniški Center Naklo",
+      "country": "SI",
+      "value": 0.7619,
+      "detail": "41 works"
+    },
+    {
+      "name": "College of Industrial Engineering",
+      "country": "SI",
+      "value": 0.75,
+      "detail": "57 works"
+    },
+    {
+      "name": "Kranj School Centre",
+      "country": "SI",
+      "value": 0.6735,
+      "detail": "85 works"
+    },
+    {
+      "name": "Tehniški Solski Center Maribor",
+      "country": "SI",
+      "value": 0.6667,
+      "detail": "32 works"
+    },
+    {
+      "name": "Euro Mediterranean University",
+      "country": "SI",
+      "value": 0.663,
+      "detail": "134 works"
+    },
+    {
+      "name": "Institute of Information Science",
+      "country": "SI",
+      "value": 0.6154,
+      "detail": "109 works"
+    },
+    {
+      "name": "Faculty of Design",
+      "country": "SI",
+      "value": 0.5747,
+      "detail": "792 works"
+    },
+    {
+      "name": "DOBA Business School",
+      "country": "SI",
+      "value": 0.5567,
+      "detail": "206 works"
+    },
+    {
+      "name": "Graduate School of Government and European Studies",
+      "country": "SI",
+      "value": 0.5556,
+      "detail": "74 works"
+    },
+    {
+      "name": "College of Nursing in Celje",
+      "country": "SI",
+      "value": 0.4444,
+      "detail": "86 works"
+    },
+    {
+      "name": "Chamber of Agriculture and Forestry of Slovenia",
+      "country": "SI",
+      "value": 0.4286,
+      "detail": "93 works"
+    },
+    {
+      "name": "Šolski Center Velenje",
+      "country": "SI",
+      "value": 0.2857,
+      "detail": "13 works"
+    },
+    {
+      "name": "Izobraževalni Center Piramida Maribor",
+      "country": "SI",
+      "value": 0.2,
+      "detail": "21 works"
+    },
+    {
+      "name": "Higher Education Centre Novo Mesto",
+      "country": "SI",
+      "value": 0.0526,
+      "detail": "43 works"
+    },
+    {
+      "name": "Social Protection Institute of the Republic of Slovenia",
+      "country": "SI",
+      "value": 0.04,
+      "detail": "44 works"
+    },
+    {
+      "name": "Faculty of Applied Social Studies in Nova Gorica",
+      "country": "SI",
+      "value": 0.0305,
+      "detail": "374 works"
+    },
+    {
+      "name": "College of Accounting",
+      "country": "SI",
+      "value": 0.0088,
+      "detail": "1,571 works"
+    },
+    {
+      "name": "National Education Institute of the Republic of Slovenia",
+      "country": "SI",
+      "value": 0.0079,
+      "detail": "128 works"
+    }
+  ]
+}

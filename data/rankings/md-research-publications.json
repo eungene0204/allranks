@@ -1,0 +1,158 @@
+{
+  "id": "md-research-publications",
+  "title": "Universities by Research Publications in Moldova",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "MD",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:08.580Z",
+  "items": [
+    {
+      "name": "Moldova State University",
+      "country": "MD",
+      "value": 8606,
+      "detail": "53,422 citations"
+    },
+    {
+      "name": "Nicolae Testemițanu State University of Medicine and Pharmacy",
+      "country": "MD",
+      "value": 5078,
+      "detail": "47,665 citations"
+    },
+    {
+      "name": "Technical University of Moldova",
+      "country": "MD",
+      "value": 3917,
+      "detail": "76,507 citations"
+    },
+    {
+      "name": "Academy of Economic Studies of Moldova",
+      "country": "MD",
+      "value": 2106,
+      "detail": "2,719 citations"
+    },
+    {
+      "name": "Ion Creangă Pedagogical State University",
+      "country": "MD",
+      "value": 1735,
+      "detail": "815 citations"
+    },
+    {
+      "name": "Shevchenko Transnistria State University",
+      "country": "MD",
+      "value": 932,
+      "detail": "4,967 citations"
+    },
+    {
+      "name": "Free International University of Moldova",
+      "country": "MD",
+      "value": 788,
+      "detail": "439 citations"
+    },
+    {
+      "name": "State University of Physical Education and Sport",
+      "country": "MD",
+      "value": 709,
+      "detail": "793 citations"
+    },
+    {
+      "name": "State Agrarian University of Moldova",
+      "country": "MD",
+      "value": 666,
+      "detail": "1,816 citations"
+    },
+    {
+      "name": "Academy of Music Theatre and Fine Arts",
+      "country": "MD",
+      "value": 571,
+      "detail": "38 citations"
+    },
+    {
+      "name": "Alecu Russo State University of Bălți",
+      "country": "MD",
+      "value": 432,
+      "detail": "508 citations"
+    },
+    {
+      "name": "Universitatea de Stat „Bogdan Petriceicu Hasdeu\" din Cahul",
+      "country": "MD",
+      "value": 356,
+      "detail": "399 citations"
+    },
+    {
+      "name": "Comrat State University",
+      "country": "MD",
+      "value": 260,
+      "detail": "519 citations"
+    },
+    {
+      "name": "Universitatea de Stat din Tiraspol",
+      "country": "MD",
+      "value": 235,
+      "detail": "277 citations"
+    },
+    {
+      "name": "Institute of Educational Sciences",
+      "country": "MD",
+      "value": 137,
+      "detail": "62 citations"
+    },
+    {
+      "name": "Academy of Public Administration",
+      "country": "MD",
+      "value": 116,
+      "detail": "31 citations"
+    },
+    {
+      "name": "Trade Co-operative University of Moldova",
+      "country": "MD",
+      "value": 68,
+      "detail": "65 citations"
+    },
+    {
+      "name": "Institute of International Relations of Moldova",
+      "country": "MD",
+      "value": 65,
+      "detail": "21 citations"
+    },
+    {
+      "name": "Universitatea Slavonă din Moldova",
+      "country": "MD",
+      "value": 17,
+      "detail": "35 citations"
+    },
+    {
+      "name": "Professional Association of Kinetotherapists and Manual Therapists \"MEDKINETICA\" from the Republic of Moldova",
+      "country": "MD",
+      "value": 16,
+      "detail": "0 citations"
+    },
+    {
+      "name": "Taraclia State University",
+      "country": "MD",
+      "value": 12,
+      "detail": "3 citations"
+    },
+    {
+      "name": "Univers Moldova",
+      "country": "MD",
+      "value": 7,
+      "detail": "11 citations"
+    }
+  ]
+}

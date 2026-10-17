@@ -1,0 +1,74 @@
+{
+  "id": "la-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Laos",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "LA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:03.658Z",
+  "items": [
+    {
+      "name": "Luangnamtha Teacher Training College",
+      "country": "LA",
+      "value": 3.1176,
+      "detail": "19 works"
+    },
+    {
+      "name": "Pakse Teacher Training College",
+      "country": "LA",
+      "value": 1.3636,
+      "detail": "20 works"
+    },
+    {
+      "name": "University of Health Sciences Vientiane",
+      "country": "LA",
+      "value": 0.9769,
+      "detail": "631 works"
+    },
+    {
+      "name": "National University of Laos",
+      "country": "LA",
+      "value": 0.4066,
+      "detail": "2,819 works"
+    },
+    {
+      "name": "Savannakhet University",
+      "country": "LA",
+      "value": 0.3056,
+      "detail": "194 works"
+    },
+    {
+      "name": "Souphanouvong University",
+      "country": "LA",
+      "value": 0.204,
+      "detail": "703 works"
+    },
+    {
+      "name": "Champasack University",
+      "country": "LA",
+      "value": 0.1667,
+      "detail": "159 works"
+    },
+    {
+      "name": "Savannakhet Teacher Training College",
+      "country": "LA",
+      "value": 0.0625,
+      "detail": "16 works"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bz-longest-runways",
+  "title": "Longest Airport Runways in Belize",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Belize ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BZ",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.471Z",
+  "items": [
+    {
+      "name": "Philip S. W. Goldson International Airport",
+      "country": "BZ",
+      "value": 2949.85,
+      "detail": "Belize City · 9,678 ft · ASP"
+    },
+    {
+      "name": "Manatee Airport",
+      "country": "BZ",
+      "value": 1240.54,
+      "detail": "Spanish Lookout · 4,070 ft · chipseal"
+    },
+    {
+      "name": "Silver Creek Airport",
+      "country": "BZ",
+      "value": 879.96,
+      "detail": "Silver Creek · 2,887 ft · GVL"
+    },
+    {
+      "name": "Sartaneja Airport",
+      "country": "BZ",
+      "value": 765.05,
+      "detail": "Sartaneja · 2,510 ft"
+    },
+    {
+      "name": "Belize Dive Haven Airstrip",
+      "country": "BZ",
+      "value": 731.52,
+      "detail": "Ropewalk Caye, Turnette Atoll · 2,400 ft · ASP"
+    },
+    {
+      "name": "Punta Gorda Airport",
+      "country": "BZ",
+      "value": 722.99,
+      "detail": "Punta Gorda · 2,372 ft · Asphalt"
+    },
+    {
+      "name": "Corozal Airport",
+      "country": "BZ",
+      "value": 669.95,
+      "detail": "Corozal · 2,198 ft · Asphalt"
+    },
+    {
+      "name": "San Ignacio Town (Maya Flats) Airstrip",
+      "country": "BZ",
+      "value": 650.75,
+      "detail": "Maya Flats · 2,135 ft"
+    },
+    {
+      "name": "Placencia Airport",
+      "country": "BZ",
+      "value": 650.14,
+      "detail": "Placencia · 2,133 ft · Asphalt"
+    }
+  ]
+}

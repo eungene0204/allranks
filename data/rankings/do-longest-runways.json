@@ -1,0 +1,128 @@
+{
+  "id": "do-longest-runways",
+  "title": "Longest Airport Runways in Dominican Republic",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Dominican Republic ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "DO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.489Z",
+  "items": [
+    {
+      "name": "Las Américas International Airport",
+      "country": "DO",
+      "value": 3352.8,
+      "detail": "Santo Domingo · 11,000 ft · ASP"
+    },
+    {
+      "name": "Punta Cana International Airport",
+      "country": "DO",
+      "value": 3100.12,
+      "detail": "Punta Cana · 10,171 ft · ASP"
+    },
+    {
+      "name": "Gregorio Luperon International Airport",
+      "country": "DO",
+      "value": 3080.92,
+      "detail": "Puerto Plata · 10,108 ft · ASP"
+    },
+    {
+      "name": "Maria Montez International Airport",
+      "country": "DO",
+      "value": 3000.15,
+      "detail": "Barahona · 9,843 ft · ASP"
+    },
+    {
+      "name": "Samaná El Catey International Airport",
+      "country": "DO",
+      "value": 3000.15,
+      "detail": "Samana · 9,843 ft · asphalt"
+    },
+    {
+      "name": "Casa De Campo International Airport",
+      "country": "DO",
+      "value": 2949.85,
+      "detail": "La Romana · 9,678 ft · CON"
+    },
+    {
+      "name": "Cibao International Airport",
+      "country": "DO",
+      "value": 2619.76,
+      "detail": "Santiago · 8,595 ft · ASP"
+    },
+    {
+      "name": "San Isidro Air Base",
+      "country": "DO",
+      "value": 2133.6,
+      "detail": "San Isidro · 7,000 ft · ASP"
+    },
+    {
+      "name": "Constanza - Expedición 14 de Junio National Airport",
+      "country": "DO",
+      "value": 1900.12,
+      "detail": "Costanza · 6,234 ft · UNK"
+    },
+    {
+      "name": "La Isabela International Airport",
+      "country": "DO",
+      "value": 1649.58,
+      "detail": "La Isabela · 5,412 ft · ASP"
+    },
+    {
+      "name": "Dajabon Airport",
+      "country": "DO",
+      "value": 1599.9,
+      "detail": "Dajabon · 5,249 ft · UNK"
+    },
+    {
+      "name": "Cabo Rojo Airport",
+      "country": "DO",
+      "value": 1508.76,
+      "detail": "Cabo Rojo · 4,950 ft · ASP"
+    },
+    {
+      "name": "Arroyo Barril Airport",
+      "country": "DO",
+      "value": 1167.38,
+      "detail": "Arroyo Barril · 3,830 ft · ASP"
+    },
+    {
+      "name": "La Romana Batey Cacata airport",
+      "country": "DO",
+      "value": 1000.05,
+      "detail": "La Romana · 3,281 ft · UNK"
+    },
+    {
+      "name": "Cotui Angelina Airport",
+      "country": "DO",
+      "value": 900.07,
+      "detail": "Cotui Angelina · 2,953 ft · UNK"
+    },
+    {
+      "name": "Monte Cristi Airport",
+      "country": "DO",
+      "value": 800.1,
+      "detail": "Monte Cristi · 2,625 ft · UNK"
+    },
+    {
+      "name": "Peñuela / Esperanza Field",
+      "country": "DO",
+      "value": 730,
+      "detail": "Esperanza · 2,395 ft · Gravel"
+    }
+  ]
+}

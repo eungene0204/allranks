@@ -1,0 +1,104 @@
+{
+  "id": "ug-longest-runways",
+  "title": "Longest Airport Runways in Uganda",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Uganda ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UG",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.562Z",
+  "items": [
+    {
+      "name": "Entebbe International Airport",
+      "country": "UG",
+      "value": 3657.6,
+      "detail": "Entebbe · 12,000 ft · ASP"
+    },
+    {
+      "name": "Gulu Airport",
+      "country": "UG",
+      "value": 3143.71,
+      "detail": "Gulu · 10,314 ft · ASP"
+    },
+    {
+      "name": "Soroti Airport",
+      "country": "UG",
+      "value": 1859.28,
+      "detail": "Soroti · 6,100 ft · ASP"
+    },
+    {
+      "name": "Savannah Airstrip",
+      "country": "UG",
+      "value": 1830.02,
+      "detail": "Kihihi · 6,004 ft · Dirt"
+    },
+    {
+      "name": "Pakuba Airport",
+      "country": "UG",
+      "value": 1759.92,
+      "detail": "Pakuba · 5,774 ft · Murram"
+    },
+    {
+      "name": "Arua Airport",
+      "country": "UG",
+      "value": 1706.88,
+      "detail": "Arua · 5,600 ft · Unpaved"
+    },
+    {
+      "name": "Mbarara Airport",
+      "country": "UG",
+      "value": 1659.94,
+      "detail": "Mbarara · 5,446 ft · GVL"
+    },
+    {
+      "name": "Kasese Airport",
+      "country": "UG",
+      "value": 1570.02,
+      "detail": "Kasese · 5,151 ft · UNK"
+    },
+    {
+      "name": "Bugungu Airport",
+      "country": "UG",
+      "value": 1540.76,
+      "detail": "Bujenje · 5,055 ft · Gravel"
+    },
+    {
+      "name": "Moyo Airport",
+      "country": "UG",
+      "value": 1298.45,
+      "detail": "Moyo · 4,260 ft · dirt"
+    },
+    {
+      "name": "Kisoro Airport",
+      "country": "UG",
+      "value": 1200,
+      "detail": "Kisoro · 3,937 ft · ASP"
+    },
+    {
+      "name": "Adjumani Airport",
+      "country": "UG",
+      "value": 1130.81,
+      "detail": "Adjumani · 3,710 ft · GRE"
+    },
+    {
+      "name": "Kajjansi Airfield",
+      "country": "UG",
+      "value": 1106.42,
+      "detail": "Kampala · 3,630 ft · dirt"
+    }
+  ]
+}

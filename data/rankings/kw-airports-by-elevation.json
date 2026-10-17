@@ -1,0 +1,68 @@
+{
+  "id": "kw-airports-by-elevation",
+  "title": "Highest Airports in Kuwait",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Kuwait ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.517Z",
+  "items": [
+    {
+      "name": "Ali Al Salem Air Base",
+      "country": "KW",
+      "value": 143.87,
+      "detail": "Al Damaikhi · 472 ft above sea level"
+    },
+    {
+      "name": "Udairi Army Air Field",
+      "country": "KW",
+      "value": 131.06,
+      "detail": "Camp Buehring · 430 ft above sea level"
+    },
+    {
+      "name": "Ahmed Al Jaber Air Base",
+      "country": "KW",
+      "value": 124.66,
+      "detail": "Ahmed Al Jaber AB · 409 ft above sea level"
+    },
+    {
+      "name": "Al Abdaliyah Highway Strip",
+      "country": "KW",
+      "value": 100.58,
+      "detail": "Al Abdaliyah · 330 ft above sea level"
+    },
+    {
+      "name": "Kuwait International Airport",
+      "country": "KW",
+      "value": 62.79,
+      "detail": "Kuwait City · 206 ft above sea level"
+    },
+    {
+      "name": "Skydive Kuwait Airport",
+      "country": "KW",
+      "value": 14.94,
+      "detail": "Al-Khiran · 49 ft above sea level"
+    },
+    {
+      "name": "Kuwait Air Sports Committee Airport",
+      "country": "KW",
+      "value": 13.11,
+      "detail": "Al-Nuwaiseeb · 43 ft above sea level"
+    }
+  ]
+}

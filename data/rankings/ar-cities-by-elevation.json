@@ -1,0 +1,326 @@
+{
+  "id": "ar-cities-by-elevation",
+  "title": "Highest Major Cities in Argentina",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Argentina with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.509Z",
+  "items": [
+    {
+      "name": "Santa María",
+      "country": "AR",
+      "value": 1877,
+      "detail": "16,545 people · Catamarca"
+    },
+    {
+      "name": "Cafayate",
+      "country": "AR",
+      "value": 1625,
+      "detail": "16,836 people · Salta"
+    },
+    {
+      "name": "Malargüe",
+      "country": "AR",
+      "value": 1423,
+      "detail": "27,355 people · Mendoza"
+    },
+    {
+      "name": "Rosario de Lerma",
+      "country": "AR",
+      "value": 1421,
+      "detail": "26,086 people · Salta"
+    },
+    {
+      "name": "San Lorenzo",
+      "country": "AR",
+      "value": 1335,
+      "detail": "31,589 people · Salta"
+    },
+    {
+      "name": "Belén",
+      "country": "AR",
+      "value": 1223,
+      "detail": "15,172 people · Catamarca"
+    },
+    {
+      "name": "San José de los Cerrillos",
+      "country": "AR",
+      "value": 1219,
+      "detail": "37,950 people · Salta"
+    },
+    {
+      "name": "San Salvador de Jujuy",
+      "country": "AR",
+      "value": 1217,
+      "detail": "257,970 people · Jujuy"
+    },
+    {
+      "name": "Chilecito",
+      "country": "AR",
+      "value": 1107,
+      "detail": "42,248 people · La Rioja"
+    },
+    {
+      "name": "Tupungato",
+      "country": "AR",
+      "value": 1060,
+      "detail": "16,893 people · Mendoza"
+    },
+    {
+      "name": "Palpalá",
+      "country": "AR",
+      "value": 1058,
+      "detail": "48,199 people · Jujuy"
+    },
+    {
+      "name": "Salta",
+      "country": "AR",
+      "value": 1054,
+      "detail": "520,683 people · Salta"
+    },
+    {
+      "name": "Zapala",
+      "country": "AR",
+      "value": 1019,
+      "detail": "31,534 people · Neuquen"
+    },
+    {
+      "name": "Perdriel",
+      "country": "AR",
+      "value": 960,
+      "detail": "19,321 people · Mendoza"
+    },
+    {
+      "name": "La Falda",
+      "country": "AR",
+      "value": 932,
+      "detail": "15,112 people · Cordoba"
+    },
+    {
+      "name": "Tunuyán",
+      "country": "AR",
+      "value": 864,
+      "detail": "38,367 people · Mendoza"
+    },
+    {
+      "name": "Mendoza",
+      "country": "AR",
+      "value": 853,
+      "detail": "114,893 people · Mendoza"
+    },
+    {
+      "name": "San Carlos de Bariloche",
+      "country": "AR",
+      "value": 839,
+      "detail": "95,394 people · Rio Negro"
+    },
+    {
+      "name": "Aimogasta",
+      "country": "AR",
+      "value": 828,
+      "detail": "16,625 people · La Rioja"
+    },
+    {
+      "name": "San José de Metán",
+      "country": "AR",
+      "value": 828,
+      "detail": "34,601 people · Salta"
+    },
+    {
+      "name": "Ciudad de Las Heras",
+      "country": "AR",
+      "value": 822,
+      "detail": "189,067 people · Mendoza"
+    },
+    {
+      "name": "Rosario de la Frontera",
+      "country": "AR",
+      "value": 768,
+      "detail": "29,336 people · Salta"
+    },
+    {
+      "name": "San Luis",
+      "country": "AR",
+      "value": 729,
+      "detail": "169,947 people · San Luis"
+    },
+    {
+      "name": "Río Ceballos",
+      "country": "AR",
+      "value": 709,
+      "detail": "16,632 people · Cordoba"
+    },
+    {
+      "name": "Cosquín",
+      "country": "AR",
+      "value": 707,
+      "detail": "19,070 people · Cordoba"
+    },
+    {
+      "name": "Rodeo del Medio",
+      "country": "AR",
+      "value": 705,
+      "detail": "18,574 people · Mendoza"
+    },
+    {
+      "name": "Villa Carlos Paz",
+      "country": "AR",
+      "value": 702,
+      "detail": "69,451 people · Cordoba"
+    },
+    {
+      "name": "General Güemes",
+      "country": "AR",
+      "value": 696,
+      "detail": "38,048 people · Salta"
+    },
+    {
+      "name": "San Rafael",
+      "country": "AR",
+      "value": 690,
+      "detail": "118,009 people · Mendoza"
+    },
+    {
+      "name": "Deán Funes",
+      "country": "AR",
+      "value": 662,
+      "detail": "20,164 people · Cordoba"
+    },
+    {
+      "name": "Rawson",
+      "country": "AR",
+      "value": 660,
+      "detail": "130,258 people · San Juan"
+    },
+    {
+      "name": "San Martín",
+      "country": "AR",
+      "value": 656,
+      "detail": "82,549 people · Mendoza"
+    },
+    {
+      "name": "Rivadavia",
+      "country": "AR",
+      "value": 653,
+      "detail": "34,830 people · Mendoza"
+    },
+    {
+      "name": "San Martín de los Andes",
+      "country": "AR",
+      "value": 651,
+      "detail": "23,519 people · Neuquen"
+    },
+    {
+      "name": "San Juan",
+      "country": "AR",
+      "value": 646,
+      "detail": "109,123 people · San Juan"
+    },
+    {
+      "name": "Villa Paula de Sarmiento",
+      "country": "AR",
+      "value": 646,
+      "detail": "19,092 people · San Juan"
+    },
+    {
+      "name": "Albardón",
+      "country": "AR",
+      "value": 641,
+      "detail": "20,413 people · San Juan"
+    },
+    {
+      "name": "Villa General San Martín",
+      "country": "AR",
+      "value": 640,
+      "detail": "29,789 people · San Juan"
+    },
+    {
+      "name": "Chimbas",
+      "country": "AR",
+      "value": 638,
+      "detail": "73,829 people · San Juan"
+    },
+    {
+      "name": "Santa Lucía",
+      "country": "AR",
+      "value": 628,
+      "detail": "62,697 people · San Juan"
+    },
+    {
+      "name": "Tafí Viejo",
+      "country": "AR",
+      "value": 617,
+      "detail": "48,459 people · Tucuman"
+    },
+    {
+      "name": "Cutral-Có",
+      "country": "AR",
+      "value": 613,
+      "detail": "47,380 people · Neuquen"
+    },
+    {
+      "name": "Pocito",
+      "country": "AR",
+      "value": 608,
+      "detail": "40,969 people · San Juan"
+    },
+    {
+      "name": "San Vicente",
+      "country": "AR",
+      "value": 603,
+      "detail": "38,247 people · Misiones"
+    },
+    {
+      "name": "Profesor Salvador Mazza",
+      "country": "AR",
+      "value": 602,
+      "detail": "25,328 people · Salta"
+    },
+    {
+      "name": "Caucete",
+      "country": "AR",
+      "value": 592,
+      "detail": "32,454 people · San Juan"
+    },
+    {
+      "name": "San Pedro de Jujuy",
+      "country": "AR",
+      "value": 587,
+      "detail": "58,430 people · Jujuy"
+    },
+    {
+      "name": "Esquel",
+      "country": "AR",
+      "value": 577,
+      "detail": "28,486 people · Chubut"
+    },
+    {
+      "name": "Unquillo",
+      "country": "AR",
+      "value": 576,
+      "detail": "15,369 people · Cordoba"
+    },
+    {
+      "name": "San Pedro",
+      "country": "AR",
+      "value": 554,
+      "detail": "23,736 people · Misiones"
+    }
+  ]
+}

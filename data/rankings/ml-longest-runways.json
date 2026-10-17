@@ -1,0 +1,104 @@
+{
+  "id": "ml-longest-runways",
+  "title": "Longest Airport Runways in Mali",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Mali ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.523Z",
+  "items": [
+    {
+      "name": "Modibo Keita International Airport",
+      "country": "ML",
+      "value": 3199.79,
+      "detail": "Bamako · 10,498 ft · ASP"
+    },
+    {
+      "name": "Sikasso Airport",
+      "country": "ML",
+      "value": 2849.88,
+      "detail": "Sikasso · 9,350 ft · Dirt"
+    },
+    {
+      "name": "Kayes Dag Dag Airport",
+      "country": "ML",
+      "value": 2699.92,
+      "detail": "Kayes · 8,858 ft · ASP"
+    },
+    {
+      "name": "Mopti Airport",
+      "country": "ML",
+      "value": 2542.03,
+      "detail": "Sévaré · 8,340 ft · ASP"
+    },
+    {
+      "name": "Gao International Airport",
+      "country": "ML",
+      "value": 2499.97,
+      "detail": "Gao · 8,202 ft · ASP"
+    },
+    {
+      "name": "Tessalit Airport",
+      "country": "ML",
+      "value": 2499.66,
+      "detail": "8,201 ft · ASP"
+    },
+    {
+      "name": "Tombouktou Airport",
+      "country": "ML",
+      "value": 2110.13,
+      "detail": "Timbuktu · 6,923 ft · ASP"
+    },
+    {
+      "name": "Kidal Airport",
+      "country": "ML",
+      "value": 1900.12,
+      "detail": "Kidal · 6,234 ft · TURF"
+    },
+    {
+      "name": "Sikasso (Dignangan) Airport",
+      "country": "ML",
+      "value": 1601.72,
+      "detail": "Sikasso · 5,255 ft · ASP"
+    },
+    {
+      "name": "Manantali Bengassi Airport",
+      "country": "ML",
+      "value": 1507.54,
+      "detail": "Manantali · 4,946 ft · LAT"
+    },
+    {
+      "name": "Goundam Airport",
+      "country": "ML",
+      "value": 1499.92,
+      "detail": "Goundam · 4,921 ft · UNK"
+    },
+    {
+      "name": "Nioro du Sahel Airport",
+      "country": "ML",
+      "value": 1499.92,
+      "detail": "Nioro du Sahel · 4,921 ft · UNK"
+    },
+    {
+      "name": "Nara Airport",
+      "country": "ML",
+      "value": 395.94,
+      "detail": "Keibane · 1,299 ft · Brown clay gravel"
+    }
+  ]
+}

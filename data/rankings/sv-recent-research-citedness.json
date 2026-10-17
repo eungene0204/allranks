@@ -1,0 +1,158 @@
+{
+  "id": "sv-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in El Salvador",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "SV",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:36.027Z",
+  "items": [
+    {
+      "name": "Universidad Politécnica de El Salvador",
+      "country": "SV",
+      "value": 1.7245,
+      "detail": "190 works"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales",
+      "country": "SV",
+      "value": 0.7308,
+      "detail": "306 works"
+    },
+    {
+      "name": "Universidad Centroamericana José Simeón Cañas",
+      "country": "SV",
+      "value": 0.5856,
+      "detail": "6,473 works"
+    },
+    {
+      "name": "Universidad Tecnológica de El Salvador",
+      "country": "SV",
+      "value": 0.5631,
+      "detail": "825 works"
+    },
+    {
+      "name": "University of El Salvador",
+      "country": "SV",
+      "value": 0.5556,
+      "detail": "3,247 works"
+    },
+    {
+      "name": "Universidad Don Bosco",
+      "country": "SV",
+      "value": 0.521,
+      "detail": "754 works"
+    },
+    {
+      "name": "Universidad Modular Abierta",
+      "country": "SV",
+      "value": 0.5,
+      "detail": "15 works"
+    },
+    {
+      "name": "Universidad Monseñor Oscar Arnulfo Romero",
+      "country": "SV",
+      "value": 0.5,
+      "detail": "3 works"
+    },
+    {
+      "name": "Instituto Especializado Hospital El Salvador",
+      "country": "SV",
+      "value": 0.4667,
+      "detail": "14 works"
+    },
+    {
+      "name": "Francisco Gavidia University",
+      "country": "SV",
+      "value": 0.4505,
+      "detail": "315 works"
+    },
+    {
+      "name": "Universidad Dr. Andrés Bello",
+      "country": "SV",
+      "value": 0.375,
+      "detail": "174 works"
+    },
+    {
+      "name": "Universidad Católica de El Salvador",
+      "country": "SV",
+      "value": 0.3607,
+      "detail": "215 works"
+    },
+    {
+      "name": "Universidad Autónoma de Santa Ana",
+      "country": "SV",
+      "value": 0.2977,
+      "detail": "77 works"
+    },
+    {
+      "name": "Universidad Evangelica de El Salvador",
+      "country": "SV",
+      "value": 0.293,
+      "detail": "445 works"
+    },
+    {
+      "name": "Universidad Salvadoreña Alberto Masferrer",
+      "country": "SV",
+      "value": 0.2579,
+      "detail": "135 works"
+    },
+    {
+      "name": "Jose Matias Delgado University",
+      "country": "SV",
+      "value": 0.2553,
+      "detail": "283 works"
+    },
+    {
+      "name": "Universidad de Oriente",
+      "country": "SV",
+      "value": 0.1705,
+      "detail": "611 works"
+    },
+    {
+      "name": "Universidad Gerardo Barrios",
+      "country": "SV",
+      "value": 0.1667,
+      "detail": "91 works"
+    },
+    {
+      "name": "Universidad Luterana Salvadoreña",
+      "country": "SV",
+      "value": 0.1379,
+      "detail": "34 works"
+    },
+    {
+      "name": "Universidad Pedagógica de El Salvador",
+      "country": "SV",
+      "value": 0.1064,
+      "detail": "54 works"
+    },
+    {
+      "name": "Universidad de Sonsonate",
+      "country": "SV",
+      "value": 0.0988,
+      "detail": "81 works"
+    },
+    {
+      "name": "Universidad Técnica Latinoamericana",
+      "country": "SV",
+      "value": 0.075,
+      "detail": "29 works"
+    }
+  ]
+}

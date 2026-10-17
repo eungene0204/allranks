@@ -61,6 +61,11 @@ national parks) are defined in `usRankings()` in `scripts/registry.mts` and read
 `scripts/sources/wikipedia-us.mts` (throttled and cached in `scripts/lib/wikipedia.mts`). To add another country, add rankings with its
 `scope` code; its page picks them up automatically.
 
+Country pages also use shared public datasets where coverage allows: OpenAlex research impact, publication volume, h-index,
+i10-index and recent citedness; GeoNames city population and elevation; and OurAirports airport elevation and longest runway.
+These lists are saved only when at least five comparable institutions, cities or airports are available, and are capped at 50 rows.
+Country-specific reference rankings may use data from 2020 onward; the actual observation year remains visible on the page.
+
 ### Data agent (AI)
 
 `scripts/agent/` is a Claude-powered agent that finds rankings the site lacks and refreshes the hand-entered ones. It researches with
@@ -80,7 +85,7 @@ Needs `ANTHROPIC_API_KEY` (or `ant auth login`). `AGENT_MODEL` / `AGENT_EFFORT` 
 
 ### Other countries
 
-Besides the US, 153 countries have their own rankings. The 100 or so with detailed pages cover every OECD, G20, BRICS, EU and ASEAN member (South Korea, Japan, China, India, Germany, the UK, France, Italy, Spain, Canada,
+Besides the US, 177 other countries currently have at least one country-specific ranking. The 100 or so with detailed pages cover every OECD, G20, BRICS, EU and ASEAN member (South Korea, Japan, China, India, Germany, the UK, France, Italy, Spain, Canada,
 Australia, Brazil, Mexico, Russia, Indonesia, Turkey, the Netherlands, Switzerland, Poland, Sweden, Argentina, South Africa, Thailand,
 Malaysia, Saudi Arabia, Egypt, Pakistan, Austria, Belgium, Norway, Finland, Greece, New Zealand, Ukraine, Chile, Colombia, Costa Rica,
 Czechia, Denmark, Estonia, Hungary, Ireland, Israel, Iceland, Lithuania, Luxembourg, Latvia, Portugal, Slovenia, Slovakia) and every EU and ASEAN member (Romania, Bulgaria, Croatia, Cyprus, Malta, Singapore, the Philippines, Myanmar, Cambodia, Laos, Brunei, Timor-Leste) plus 20 African Union members (Algeria, Morocco, Kenya, Ghana, Tanzania, Uganda, Tunisia, Angola, Côte d'Ivoire, Cameroon, Senegal, Zambia, Zimbabwe, Mozambique, Sudan, DR Congo and the earlier Egypt, Ethiopia, Nigeria, South Africa): regional population and GDP,

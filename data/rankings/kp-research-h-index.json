@@ -1,0 +1,74 @@
+{
+  "id": "kp-research-h-index",
+  "title": "Universities by Research h-index in North Korea",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KP",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:00.843Z",
+  "items": [
+    {
+      "name": "Kim Il-sung University",
+      "country": "KP",
+      "value": 72,
+      "detail": "1,913 works"
+    },
+    {
+      "name": "Kim Chaek University of Technology",
+      "country": "KP",
+      "value": 56,
+      "detail": "1,116 works"
+    },
+    {
+      "name": "Pyongyang University of Science and Technology",
+      "country": "KP",
+      "value": 30,
+      "detail": "213 works"
+    },
+    {
+      "name": "Pyongyang Medical University",
+      "country": "KP",
+      "value": 14,
+      "detail": "201 works"
+    },
+    {
+      "name": "Institute of Natural Science",
+      "country": "KP",
+      "value": 11,
+      "detail": "122 works"
+    },
+    {
+      "name": "Hamhŭng University of Chemical Industry",
+      "country": "KP",
+      "value": 10,
+      "detail": "25 works"
+    },
+    {
+      "name": "Huichon University of Telecommunications",
+      "country": "KP",
+      "value": 1,
+      "detail": "1 works"
+    },
+    {
+      "name": "Rajin University of Marine Transport",
+      "country": "KP",
+      "value": 1,
+      "detail": "10 works"
+    }
+  ]
+}

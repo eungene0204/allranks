@@ -1,0 +1,326 @@
+{
+  "id": "mx-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Mexico",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "MX",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:14.967Z",
+  "items": [
+    {
+      "name": "Universidad de la Sierra Sur",
+      "country": "MX",
+      "value": 10.7939,
+      "detail": "614 works"
+    },
+    {
+      "name": "Universidad México Contemporáneo",
+      "country": "MX",
+      "value": 9.4545,
+      "detail": "15 works"
+    },
+    {
+      "name": "Instituto Tecnológico Superior de San Luis Potosí, Capital",
+      "country": "MX",
+      "value": 8.625,
+      "detail": "19 works"
+    },
+    {
+      "name": "Centro de Estudios Tecnológicos y Universitarios del Golfo",
+      "country": "MX",
+      "value": 8.0909,
+      "detail": "95 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Hermosillo",
+      "country": "MX",
+      "value": 5.5044,
+      "detail": "303 works"
+    },
+    {
+      "name": "Instituto Tecnológico Superior de Tlatlauquitepec",
+      "country": "MX",
+      "value": 5.25,
+      "detail": "54 works"
+    },
+    {
+      "name": "Instituto Tecnológico Superior de Tlaxco",
+      "country": "MX",
+      "value": 4.9048,
+      "detail": "28 works"
+    },
+    {
+      "name": "Universitario Tecnológico Universitam",
+      "country": "MX",
+      "value": 4.5,
+      "detail": "21 works"
+    },
+    {
+      "name": "Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada, Unidad Altamira",
+      "country": "MX",
+      "value": 4.2474,
+      "detail": "612 works"
+    },
+    {
+      "name": "Centro Universitario Americano del Estado de Morelos",
+      "country": "MX",
+      "value": 4,
+      "detail": "4 works"
+    },
+    {
+      "name": "Centro Universitario José Vasconcelos",
+      "country": "MX",
+      "value": 4,
+      "detail": "1 works"
+    },
+    {
+      "name": "Centro Universitario Latinoamericano de Morelos",
+      "country": "MX",
+      "value": 4,
+      "detail": "2 works"
+    },
+    {
+      "name": "Universidad Politécnica del Mar y la Sierra",
+      "country": "MX",
+      "value": 3.9492,
+      "detail": "78 works"
+    },
+    {
+      "name": "Universidad La Salle Victoria",
+      "country": "MX",
+      "value": 3.9333,
+      "detail": "48 works"
+    },
+    {
+      "name": "Facultad Latinoamericana de Ciencias Sociales Sede Académica México",
+      "country": "MX",
+      "value": 3.7957,
+      "detail": "2,286 works"
+    },
+    {
+      "name": "Universidad Panamericana, campus Aguascalientes",
+      "country": "MX",
+      "value": 3.6845,
+      "detail": "533 works"
+    },
+    {
+      "name": "Universidad del Noreste",
+      "country": "MX",
+      "value": 3.6724,
+      "detail": "185 works"
+    },
+    {
+      "name": "Universidad de las Américas Puebla",
+      "country": "MX",
+      "value": 3.4024,
+      "detail": "5,131 works"
+    },
+    {
+      "name": "Instituto Tecnológico Autónomo de México",
+      "country": "MX",
+      "value": 3.343,
+      "detail": "5,443 works"
+    },
+    {
+      "name": "Universidad Potosina",
+      "country": "MX",
+      "value": 3.3269,
+      "detail": "170 works"
+    },
+    {
+      "name": "Tecnológico de Monterrey",
+      "country": "MX",
+      "value": 3.1821,
+      "detail": "37,871 works"
+    },
+    {
+      "name": "Centro de Ciencias Matemáticas",
+      "country": "MX",
+      "value": 3.1726,
+      "detail": "794 works"
+    },
+    {
+      "name": "Universidad Central de México",
+      "country": "MX",
+      "value": 3.0909,
+      "detail": "18 works"
+    },
+    {
+      "name": "Universidad Vasco de Quiroga",
+      "country": "MX",
+      "value": 3.0879,
+      "detail": "156 works"
+    },
+    {
+      "name": "Universidad de Sonora",
+      "country": "MX",
+      "value": 3.0863,
+      "detail": "13,463 works"
+    },
+    {
+      "name": "Universidad de Guanajuato",
+      "country": "MX",
+      "value": 3.0512,
+      "detail": "23,787 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Saltillo",
+      "country": "MX",
+      "value": 3.045,
+      "detail": "597 works"
+    },
+    {
+      "name": "Universidad Tecnológica de Sinaloa",
+      "country": "MX",
+      "value": 3,
+      "detail": "8 works"
+    },
+    {
+      "name": "Centro Universitario CIFE",
+      "country": "MX",
+      "value": 2.9643,
+      "detail": "327 works"
+    },
+    {
+      "name": "Universidad Autónoma de Piedras Negras",
+      "country": "MX",
+      "value": 2.75,
+      "detail": "11 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Toluca",
+      "country": "MX",
+      "value": 2.7103,
+      "detail": "998 works"
+    },
+    {
+      "name": "Universidad Enrique Díaz de León",
+      "country": "MX",
+      "value": 2.703,
+      "detail": "210 works"
+    },
+    {
+      "name": "Universidad de Tijuana",
+      "country": "MX",
+      "value": 2.6667,
+      "detail": "74 works"
+    },
+    {
+      "name": "Universidad ETAC",
+      "country": "MX",
+      "value": 2.6087,
+      "detail": "21 works"
+    },
+    {
+      "name": "Universidad del Tacana",
+      "country": "MX",
+      "value": 2.5333,
+      "detail": "19 works"
+    },
+    {
+      "name": "Universidad del Tepeyac",
+      "country": "MX",
+      "value": 2.5,
+      "detail": "15 works"
+    },
+    {
+      "name": "Universidad Iberoamericana",
+      "country": "MX",
+      "value": 2.4786,
+      "detail": "10,936 works"
+    },
+    {
+      "name": "Universidad Autónoma de Fresnillo",
+      "country": "MX",
+      "value": 2.4677,
+      "detail": "34 works"
+    },
+    {
+      "name": "Universidad Nacional Autónoma de México",
+      "country": "MX",
+      "value": 2.4136,
+      "detail": "274,221 works"
+    },
+    {
+      "name": "Instituto Politécnico Nacional",
+      "country": "MX",
+      "value": 2.3759,
+      "detail": "81,638 works"
+    },
+    {
+      "name": "Universidad Anáhuac",
+      "country": "MX",
+      "value": 2.354,
+      "detail": "5,154 works"
+    },
+    {
+      "name": "Centro de Investigación Científica de Yucatán, A.C",
+      "country": "MX",
+      "value": 2.3321,
+      "detail": "4,648 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Tuxtepec",
+      "country": "MX",
+      "value": 2.3103,
+      "detail": "255 works"
+    },
+    {
+      "name": "Instituto Tecnológico de Tepic",
+      "country": "MX",
+      "value": 2.2882,
+      "detail": "868 works"
+    },
+    {
+      "name": "Universidad del Centro de México",
+      "country": "MX",
+      "value": 2.2353,
+      "detail": "65 works"
+    },
+    {
+      "name": "Universidad de Morelia",
+      "country": "MX",
+      "value": 2.2333,
+      "detail": "218 works"
+    },
+    {
+      "name": "Universidad Panamericana, campus Guadalajara",
+      "country": "MX",
+      "value": 2.2246,
+      "detail": "620 works"
+    },
+    {
+      "name": "Colegio de Postgraduados Campus Córdoba",
+      "country": "MX",
+      "value": 2.2097,
+      "detail": "772 works"
+    },
+    {
+      "name": "Autonomous University of Queretaro",
+      "country": "MX",
+      "value": 2.2033,
+      "detail": "13,052 works"
+    },
+    {
+      "name": "Polytechnic University of Queretaro",
+      "country": "MX",
+      "value": 2.1786,
+      "detail": "289 works"
+    }
+  ]
+}

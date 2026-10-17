@@ -1,0 +1,176 @@
+{
+  "id": "ee-airports-by-elevation",
+  "title": "Highest Airports in Estonia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Estonia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.491Z",
+  "items": [
+    {
+      "name": "Ridali Airfield",
+      "country": "EE",
+      "value": 92.05,
+      "detail": "Suurküla · 302 ft above sea level"
+    },
+    {
+      "name": "Riidaja Airfield",
+      "country": "EE",
+      "value": 89.92,
+      "detail": "Riidaja · 295 ft above sea level"
+    },
+    {
+      "name": "Karksi Airfield",
+      "country": "EE",
+      "value": 88.09,
+      "detail": "Karksi · 289 ft above sea level"
+    },
+    {
+      "name": "Varstu Airfield",
+      "country": "EE",
+      "value": 83.82,
+      "detail": "Varstu · 275 ft above sea level"
+    },
+    {
+      "name": "Antsla Airfield",
+      "country": "EE",
+      "value": 78.64,
+      "detail": "Antsla · 258 ft above sea level"
+    },
+    {
+      "name": "Viljandi Airfield",
+      "country": "EE",
+      "value": 75.9,
+      "detail": "Viljandi · 249 ft above sea level"
+    },
+    {
+      "name": "Jõhvi Airfield",
+      "country": "EE",
+      "value": 74.98,
+      "detail": "Jõhvi · 246 ft above sea level"
+    },
+    {
+      "name": "Rakvere Airfield",
+      "country": "EE",
+      "value": 73.15,
+      "detail": "Rakvere · 240 ft above sea level"
+    },
+    {
+      "name": "Nurmsi Airfield",
+      "country": "EE",
+      "value": 71.02,
+      "detail": "Nurmsi · 233 ft above sea level"
+    },
+    {
+      "name": "Rapla Airfield",
+      "country": "EE",
+      "value": 67.06,
+      "detail": "Rapla · 220 ft above sea level"
+    },
+    {
+      "name": "Tartu Airport",
+      "country": "EE",
+      "value": 67.06,
+      "detail": "Tartu · 220 ft above sea level"
+    },
+    {
+      "name": "Aespa Airfield",
+      "country": "EE",
+      "value": 59.74,
+      "detail": "Aespa · 196 ft above sea level"
+    },
+    {
+      "name": "Lennart Meri Tallinn Airport",
+      "country": "EE",
+      "value": 39.93,
+      "detail": "Tallinn · 131 ft above sea level"
+    },
+    {
+      "name": "Narva Airfield",
+      "country": "EE",
+      "value": 28.04,
+      "detail": "Narva · 92 ft above sea level"
+    },
+    {
+      "name": "Humala Airfield",
+      "country": "EE",
+      "value": 26.82,
+      "detail": "Humala · 88 ft above sea level"
+    },
+    {
+      "name": "Ämari Air Base",
+      "country": "EE",
+      "value": 19.81,
+      "detail": "Keila · 65 ft above sea level"
+    },
+    {
+      "name": "Pärnu Airport",
+      "country": "EE",
+      "value": 14.33,
+      "detail": "Pärnu · 47 ft above sea level"
+    },
+    {
+      "name": "Muhu Airfield",
+      "country": "EE",
+      "value": 13.41,
+      "detail": "Muhu · 44 ft above sea level"
+    },
+    {
+      "name": "Teenuse-Saare Aerodrome",
+      "country": "EE",
+      "value": 9.45,
+      "detail": "Märjamaa · 31 ft above sea level"
+    },
+    {
+      "name": "Vormsi Airfield",
+      "country": "EE",
+      "value": 7.01,
+      "detail": "Vormsi Island · 23 ft above sea level"
+    },
+    {
+      "name": "Lyckholm Airstrip",
+      "country": "EE",
+      "value": 6.1,
+      "detail": "Saare · 20 ft above sea level"
+    },
+    {
+      "name": "Kärdla Airport",
+      "country": "EE",
+      "value": 5.49,
+      "detail": "Kärdla · 18 ft above sea level"
+    },
+    {
+      "name": "Kuressaare Airport",
+      "country": "EE",
+      "value": 4.27,
+      "detail": "Kuressaare · 14 ft above sea level"
+    },
+    {
+      "name": "Kihnu Airfield",
+      "country": "EE",
+      "value": 3.05,
+      "detail": "Saareküla · 10 ft above sea level"
+    },
+    {
+      "name": "Ruhnu Airfield",
+      "country": "EE",
+      "value": 3.05,
+      "detail": "Ringsu · 10 ft above sea level"
+    }
+  ]
+}

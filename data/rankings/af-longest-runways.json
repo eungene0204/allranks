@@ -1,0 +1,146 @@
+{
+  "id": "af-longest-runways",
+  "title": "Longest Airport Runways in Afghanistan",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Afghanistan ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AF",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.448Z",
+  "items": [
+    {
+      "name": "Bagram Airfield",
+      "country": "AF",
+      "value": 3602.74,
+      "detail": "Bagram · 11,820 ft · CON"
+    },
+    {
+      "name": "Kabul International Airport",
+      "country": "AF",
+      "value": 3500.02,
+      "detail": "Kabul · 11,483 ft · ASP"
+    },
+    {
+      "name": "Ahmad Shah Baba International Airport",
+      "country": "AF",
+      "value": 3210.15,
+      "detail": "Kandahar · 10,532 ft · ASP"
+    },
+    {
+      "name": "Herat - Khwaja Abdullah Ansari International Airport",
+      "country": "AF",
+      "value": 3013.86,
+      "detail": "Guzara · 9,888 ft · ASP"
+    },
+    {
+      "name": "Mazar-i-Sharif International Airport",
+      "country": "AF",
+      "value": 3000.15,
+      "detail": "Mazar-i-Sharif · 9,843 ft · ASP"
+    },
+    {
+      "name": "Shindand Air Base",
+      "country": "AF",
+      "value": 2785.87,
+      "detail": "Shindand · 9,140 ft · CON"
+    },
+    {
+      "name": "Khost International Airport",
+      "country": "AF",
+      "value": 2663.95,
+      "detail": "Khost · 8,740 ft · ASP"
+    },
+    {
+      "name": "Bost Airport",
+      "country": "AF",
+      "value": 2300.94,
+      "detail": "Lashkar Gah · 7,549 ft · Asphalt"
+    },
+    {
+      "name": "Tarinkot Airport",
+      "country": "AF",
+      "value": 2225.04,
+      "detail": "Tarinkot · 7,300 ft · Concrete"
+    },
+    {
+      "name": "Jalalabad Airport",
+      "country": "AF",
+      "value": 2213.46,
+      "detail": "Jalalabad · 7,262 ft · ASP"
+    },
+    {
+      "name": "Kunduz Airport",
+      "country": "AF",
+      "value": 1998.88,
+      "detail": "Kunduz · 6,558 ft · ASP"
+    },
+    {
+      "name": "Fayzabad Airport",
+      "country": "AF",
+      "value": 1843.74,
+      "detail": "Fayzabad · 6,049 ft · PSP"
+    },
+    {
+      "name": "Maymana Zahiraddin Faryabi Airport",
+      "country": "AF",
+      "value": 1551.43,
+      "detail": "Maymana · 5,090 ft · GVL"
+    },
+    {
+      "name": "Sheberghan Airport",
+      "country": "AF",
+      "value": 1396.59,
+      "detail": "Sheberghan · 4,582 ft · ASP"
+    },
+    {
+      "name": "Yakawlang (Yakolang) Airport",
+      "country": "AF",
+      "value": 1280.16,
+      "detail": "Yakawlang · 4,200 ft · GVL"
+    },
+    {
+      "name": "Little Pamir Airport",
+      "country": "AF",
+      "value": 1175.92,
+      "detail": "Erghail · 3,858 ft · Dirt"
+    },
+    {
+      "name": "Ishkashim Airport",
+      "country": "AF",
+      "value": 896.11,
+      "detail": "Ishkashim · 2,940 ft · ASP"
+    },
+    {
+      "name": "Andkhoy Airport",
+      "country": "AF",
+      "value": 755.9,
+      "detail": "Andkhoy · 2,480 ft · GRV"
+    },
+    {
+      "name": "Taywarah Airport",
+      "country": "AF",
+      "value": 594.36,
+      "detail": "Taywarah · 1,950 ft · GVL"
+    },
+    {
+      "name": "Panjab Airport",
+      "country": "AF",
+      "value": 365.76,
+      "detail": "Panjab · 1,200 ft · GVL"
+    }
+  ]
+}

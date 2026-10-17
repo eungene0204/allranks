@@ -1,0 +1,194 @@
+{
+  "id": "al-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Albania",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AL",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:20.938Z",
+  "items": [
+    {
+      "name": "University of Vlora \"Ismail Qemali\"",
+      "country": "AL",
+      "value": 3.3576,
+      "detail": "1,413 works"
+    },
+    {
+      "name": "Catholic University Our Lady of Good Counsel",
+      "country": "AL",
+      "value": 3.1898,
+      "detail": "699 works"
+    },
+    {
+      "name": "University of New York Tirana",
+      "country": "AL",
+      "value": 2.64,
+      "detail": "522 works"
+    },
+    {
+      "name": "Agricultural University of Tirana",
+      "country": "AL",
+      "value": 2.428,
+      "detail": "2,050 works"
+    },
+    {
+      "name": "Aldent University",
+      "country": "AL",
+      "value": 2.165,
+      "detail": "294 works"
+    },
+    {
+      "name": "Epoka University",
+      "country": "AL",
+      "value": 2.1421,
+      "detail": "1,042 works"
+    },
+    {
+      "name": "Universiteti Reald",
+      "country": "AL",
+      "value": 1.9583,
+      "detail": "75 works"
+    },
+    {
+      "name": "Fan Noli University",
+      "country": "AL",
+      "value": 1.5665,
+      "detail": "428 works"
+    },
+    {
+      "name": "University of Tirana",
+      "country": "AL",
+      "value": 1.2014,
+      "detail": "5,838 works"
+    },
+    {
+      "name": "Polytechnic University of Tirana",
+      "country": "AL",
+      "value": 1.2002,
+      "detail": "2,480 works"
+    },
+    {
+      "name": "University of Medicine Tirana",
+      "country": "AL",
+      "value": 1.1504,
+      "detail": "2,003 works"
+    },
+    {
+      "name": "Albanian University",
+      "country": "AL",
+      "value": 1.1199,
+      "detail": "786 works"
+    },
+    {
+      "name": "University of Elbasan",
+      "country": "AL",
+      "value": 1.0789,
+      "detail": "1,101 works"
+    },
+    {
+      "name": "Aleksandër Moisiu University",
+      "country": "AL",
+      "value": 1.0622,
+      "detail": "2,124 works"
+    },
+    {
+      "name": "Universiteti Metropolitan Tirana",
+      "country": "AL",
+      "value": 1.0412,
+      "detail": "202 works"
+    },
+    {
+      "name": "Bedër University",
+      "country": "AL",
+      "value": 0.8548,
+      "detail": "176 works"
+    },
+    {
+      "name": "Marin Barleti University",
+      "country": "AL",
+      "value": 0.7007,
+      "detail": "171 works"
+    },
+    {
+      "name": "Canadian Institute of Technology",
+      "country": "AL",
+      "value": 0.6627,
+      "detail": "260 works"
+    },
+    {
+      "name": "European University of Tirana",
+      "country": "AL",
+      "value": 0.6408,
+      "detail": "1,384 works"
+    },
+    {
+      "name": "Sports University of Tirana",
+      "country": "AL",
+      "value": 0.6045,
+      "detail": "409 works"
+    },
+    {
+      "name": "Luarasi University",
+      "country": "AL",
+      "value": 0.5158,
+      "detail": "144 works"
+    },
+    {
+      "name": "University of Shkodra \"Luigj Gurakuqi\"",
+      "country": "AL",
+      "value": 0.5009,
+      "detail": "793 works"
+    },
+    {
+      "name": "LOGOS University College",
+      "country": "AL",
+      "value": 0.4348,
+      "detail": "106 works"
+    },
+    {
+      "name": "Tirana Business University",
+      "country": "AL",
+      "value": 0.4286,
+      "detail": "99 works"
+    },
+    {
+      "name": "Kolegji Universitar Qiriazi",
+      "country": "AL",
+      "value": 0.4225,
+      "detail": "68 works"
+    },
+    {
+      "name": "Polis University",
+      "country": "AL",
+      "value": 0.3504,
+      "detail": "521 works"
+    },
+    {
+      "name": "Eqrem Çabej University",
+      "country": "AL",
+      "value": 0.1429,
+      "detail": "213 works"
+    },
+    {
+      "name": "University of Arts",
+      "country": "AL",
+      "value": 0.1132,
+      "detail": "142 works"
+    }
+  ]
+}

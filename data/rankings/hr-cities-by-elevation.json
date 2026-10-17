@@ -1,0 +1,182 @@
+{
+  "id": "hr-cities-by-elevation",
+  "title": "Highest Major Cities in Croatia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Croatia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "HR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.536Z",
+  "items": [
+    {
+      "name": "Varaždin",
+      "country": "HR",
+      "value": 173,
+      "detail": "36,187 people · Varaždin"
+    },
+    {
+      "name": "Čakovec",
+      "country": "HR",
+      "value": 162,
+      "detail": "15,078 people · Međimurje"
+    },
+    {
+      "name": "Samobor",
+      "country": "HR",
+      "value": 153,
+      "detail": "16,911 people · Zagreb County"
+    },
+    {
+      "name": "Sesvete",
+      "country": "HR",
+      "value": 142,
+      "detail": "55,313 people · Zagreb"
+    },
+    {
+      "name": "Požega",
+      "country": "HR",
+      "value": 140,
+      "detail": "16,867 people · Požega-Slavonia"
+    },
+    {
+      "name": "Zagreb",
+      "country": "HR",
+      "value": 135,
+      "detail": "663,592 people · Zagreb"
+    },
+    {
+      "name": "Centar",
+      "country": "HR",
+      "value": 134,
+      "detail": "37,000 people · Zagreb"
+    },
+    {
+      "name": "Zaprešić",
+      "country": "HR",
+      "value": 129,
+      "detail": "18,768 people · Zagreb County"
+    },
+    {
+      "name": "Koprivnica",
+      "country": "HR",
+      "value": 118,
+      "detail": "22,262 people · Koprivnica-Križevci"
+    },
+    {
+      "name": "Karlovac",
+      "country": "HR",
+      "value": 114,
+      "detail": "41,869 people · Karlovac"
+    },
+    {
+      "name": "Bjelovar",
+      "country": "HR",
+      "value": 113,
+      "detail": "24,392 people · Bjelovar-Bilogora"
+    },
+    {
+      "name": "Sisak",
+      "country": "HR",
+      "value": 108,
+      "detail": "27,859 people · Sisak-Moslavina"
+    },
+    {
+      "name": "Đakovo",
+      "country": "HR",
+      "value": 107,
+      "detail": "16,875 people · County of Osijek-Baranja"
+    },
+    {
+      "name": "Velika Gorica",
+      "country": "HR",
+      "value": 107,
+      "detail": "30,036 people · Zagreb County"
+    },
+    {
+      "name": "Vinkovci",
+      "country": "HR",
+      "value": 91,
+      "detail": "28,111 people · Vukovar-Srijem"
+    },
+    {
+      "name": "Osijek",
+      "country": "HR",
+      "value": 87,
+      "detail": "75,535 people · County of Osijek-Baranja"
+    },
+    {
+      "name": "Slavonski Brod",
+      "country": "HR",
+      "value": 83,
+      "detail": "45,005 people · Brod-Posavina"
+    },
+    {
+      "name": "Vukovar",
+      "country": "HR",
+      "value": 80,
+      "detail": "22,255 people · Vukovar-Srijem"
+    },
+    {
+      "name": "Liberpolis",
+      "country": "HR",
+      "value": 77,
+      "detail": "63 people · County of Osijek-Baranja"
+    },
+    {
+      "name": "Šibenik",
+      "country": "HR",
+      "value": 16,
+      "detail": "31,115 people · Šibenik-Knin"
+    },
+    {
+      "name": "Solin",
+      "country": "HR",
+      "value": 15,
+      "detail": "20,996 people · Split-Dalmatia"
+    },
+    {
+      "name": "Rijeka",
+      "country": "HR",
+      "value": 12,
+      "detail": "107,964 people · Primorje-Gorski Kotar"
+    },
+    {
+      "name": "Split",
+      "country": "HR",
+      "value": 12,
+      "detail": "149,830 people · Split-Dalmatia"
+    },
+    {
+      "name": "Pula",
+      "country": "HR",
+      "value": 11,
+      "detail": "52,220 people · Istria"
+    },
+    {
+      "name": "Dubrovnik",
+      "country": "HR",
+      "value": 9,
+      "detail": "26,922 people · Dubrovnik-Neretva"
+    },
+    {
+      "name": "Zadar",
+      "country": "HR",
+      "value": 2,
+      "detail": "67,309 people · Zadar"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "gn-research-publications",
+  "title": "Universities by Research Publications in Guinea",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GN",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:48.606Z",
+  "items": [
+    {
+      "name": "Gamal Abdel Nasser University of Conakry",
+      "country": "GN",
+      "value": 2476,
+      "detail": "47,319 citations"
+    },
+    {
+      "name": "Institut Supérieur des Sciences et de Médecine Vétérinaire",
+      "country": "GN",
+      "value": 259,
+      "detail": "2,112 citations"
+    },
+    {
+      "name": "Centre d’excellence africain pour la prévention et le contrôle des maladies transmissibles",
+      "country": "GN",
+      "value": 173,
+      "detail": "3,236 citations"
+    },
+    {
+      "name": "Julius Nyerere University of Kankan",
+      "country": "GN",
+      "value": 168,
+      "detail": "1,498 citations"
+    },
+    {
+      "name": "Institut Supérieur Agronomique et Vétérinaire Valéry Giscard d'Estaing",
+      "country": "GN",
+      "value": 136,
+      "detail": "2,878 citations"
+    },
+    {
+      "name": "Université de Kindia",
+      "country": "GN",
+      "value": 122,
+      "detail": "284 citations"
+    },
+    {
+      "name": "Université Général Lansana Conté",
+      "country": "GN",
+      "value": 115,
+      "detail": "713 citations"
+    },
+    {
+      "name": "Institut Supérieur de Technologie de Mamou",
+      "country": "GN",
+      "value": 55,
+      "detail": "57 citations"
+    },
+    {
+      "name": "Université Kofi Annan de Guinée",
+      "country": "GN",
+      "value": 53,
+      "detail": "233 citations"
+    },
+    {
+      "name": "Institut Supérieur des Sciences de l'Éducation de Guinée",
+      "country": "GN",
+      "value": 42,
+      "detail": "44 citations"
+    },
+    {
+      "name": "Centre Universitaire de Labé",
+      "country": "GN",
+      "value": 33,
+      "detail": "21 citations"
+    },
+    {
+      "name": "Institut Supérieur de Formation à Distance",
+      "country": "GN",
+      "value": 10,
+      "detail": "7 citations"
+    }
+  ]
+}

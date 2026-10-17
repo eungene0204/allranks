@@ -1,0 +1,326 @@
+{
+  "id": "cr-airports-by-elevation",
+  "title": "Highest Airports in Costa Rica",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Costa Rica ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CR",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:54.003Z",
+  "items": [
+    {
+      "name": "Carrizal Airport",
+      "country": "CR",
+      "value": 1417.32,
+      "detail": "Carrizal · 4,650 ft above sea level"
+    },
+    {
+      "name": "Tobías Bolaños International Airport",
+      "country": "CR",
+      "value": 1001.88,
+      "detail": "San Jose · 3,287 ft above sea level"
+    },
+    {
+      "name": "San Vito de Java Airport",
+      "country": "CR",
+      "value": 983.89,
+      "detail": "Coto Brus · 3,228 ft above sea level"
+    },
+    {
+      "name": "Altagracia Airport",
+      "country": "CR",
+      "value": 965.61,
+      "detail": "AltaGracia Resort · 3,168 ft above sea level"
+    },
+    {
+      "name": "Juan Santamaría International Airport",
+      "country": "CR",
+      "value": 920.8,
+      "detail": "San José (Alajuela) · 3,021 ft above sea level"
+    },
+    {
+      "name": "Altomonte Airport",
+      "country": "CR",
+      "value": 860.15,
+      "detail": "Trinidad · 2,822 ft above sea level"
+    },
+    {
+      "name": "La Bonita Airport",
+      "country": "CR",
+      "value": 805.59,
+      "detail": "San Isidro · 2,643 ft above sea level"
+    },
+    {
+      "name": "Cajuela/San Isidro Airport",
+      "country": "CR",
+      "value": 784.86,
+      "detail": "San Isidro · 2,575 ft above sea level"
+    },
+    {
+      "name": "El Ron Ron Airport",
+      "country": "CR",
+      "value": 642.82,
+      "detail": "Ron Ron · 2,109 ft above sea level"
+    },
+    {
+      "name": "San Isidro del General Airport",
+      "country": "CR",
+      "value": 640.08,
+      "detail": "Pérez Zeledón · 2,100 ft above sea level"
+    },
+    {
+      "name": "Santa Fe Airport",
+      "country": "CR",
+      "value": 608.08,
+      "detail": "Pérez Zeledón · 1,995 ft above sea level"
+    },
+    {
+      "name": "Atirro Airport",
+      "country": "CR",
+      "value": 590.09,
+      "detail": "Turrialba · 1,936 ft above sea level"
+    },
+    {
+      "name": "Las Lomas Airport",
+      "country": "CR",
+      "value": 403.86,
+      "detail": "Siquirres · 1,325 ft above sea level"
+    },
+    {
+      "name": "Zapotal De Guanacaste Airport",
+      "country": "CR",
+      "value": 397.76,
+      "detail": "Zapotal · 1,305 ft above sea level"
+    },
+    {
+      "name": "Buenos Aires Airport",
+      "country": "CR",
+      "value": 370.03,
+      "detail": "Punta Arenas · 1,214 ft above sea level"
+    },
+    {
+      "name": "Guapiles Airport",
+      "country": "CR",
+      "value": 269.14,
+      "detail": "Pococi · 883 ft above sea level"
+    },
+    {
+      "name": "Dole Venecia Airport",
+      "country": "CR",
+      "value": 233.17,
+      "detail": "Pital · 765 ft above sea level"
+    },
+    {
+      "name": "Frutez - Pital Airport",
+      "country": "CR",
+      "value": 188.06,
+      "detail": "San Carlos · 617 ft above sea level"
+    },
+    {
+      "name": "Babilonia Airport",
+      "country": "CR",
+      "value": 180.14,
+      "detail": "Siquirres · 591 ft above sea level"
+    },
+    {
+      "name": "Potrero Grande Airfield",
+      "country": "CR",
+      "value": 166.42,
+      "detail": "Potrero Grande · 546 ft above sea level"
+    },
+    {
+      "name": "Cóbano Airport",
+      "country": "CR",
+      "value": 153.01,
+      "detail": "Cóbano · 502 ft above sea level"
+    },
+    {
+      "name": "Hacienda La Suerte Airport",
+      "country": "CR",
+      "value": 149.96,
+      "detail": "Pococi · 492 ft above sea level"
+    },
+    {
+      "name": "Santa Marta Airport",
+      "country": "CR",
+      "value": 127.1,
+      "detail": "Orotina · 417 ft above sea level"
+    },
+    {
+      "name": "Guanacaste Airport",
+      "country": "CR",
+      "value": 111.25,
+      "detail": "Nicoya/Guanacate · 365 ft above sea level"
+    },
+    {
+      "name": "Ciruelas Airport",
+      "country": "CR",
+      "value": 110.03,
+      "detail": "Bagaces · 361 ft above sea level"
+    },
+    {
+      "name": "Rio Frio / Progreso Airport",
+      "country": "CR",
+      "value": 106.68,
+      "detail": "Rio Frio / Progreso · 350 ft above sea level"
+    },
+    {
+      "name": "La Fortuna Arenal Airport",
+      "country": "CR",
+      "value": 104.24,
+      "detail": "La Fortuna · 342 ft above sea level"
+    },
+    {
+      "name": "Codela Airport",
+      "country": "CR",
+      "value": 99.97,
+      "detail": "Guapiles · 328 ft above sea level"
+    },
+    {
+      "name": "La Zampoña Airport",
+      "country": "CR",
+      "value": 99.97,
+      "detail": "Guanacaste · 328 ft above sea level"
+    },
+    {
+      "name": "Palo Arco Airport",
+      "country": "CR",
+      "value": 98.76,
+      "detail": "Nandayure · 324 ft above sea level"
+    },
+    {
+      "name": "Roxana Farms Airport",
+      "country": "CR",
+      "value": 95.1,
+      "detail": "Limón · 312 ft above sea level"
+    },
+    {
+      "name": "Amubri Airport",
+      "country": "CR",
+      "value": 91.74,
+      "detail": "Amubri · 301 ft above sea level"
+    },
+    {
+      "name": "La Garroba Airport",
+      "country": "CR",
+      "value": 89.92,
+      "detail": "Upala · 295 ft above sea level"
+    },
+    {
+      "name": "Daniel Oduber Quirós International Airport",
+      "country": "CR",
+      "value": 82.3,
+      "detail": "Liberia · 270 ft above sea level"
+    },
+    {
+      "name": "Flamingo Airport",
+      "country": "CR",
+      "value": 82.3,
+      "detail": "Brasilito · 270 ft above sea level"
+    },
+    {
+      "name": "Coyolar Airport",
+      "country": "CR",
+      "value": 79.86,
+      "detail": "Liberia · 262 ft above sea level"
+    },
+    {
+      "name": "Santa Clara De Guapiles Airport",
+      "country": "CR",
+      "value": 79.86,
+      "detail": "Limón · 262 ft above sea level"
+    },
+    {
+      "name": "San Cristobal Airport",
+      "country": "CR",
+      "value": 78.94,
+      "detail": "San Carlos · 259 ft above sea level"
+    },
+    {
+      "name": "Ticaban Airport",
+      "country": "CR",
+      "value": 74.98,
+      "detail": "Pococi · 246 ft above sea level"
+    },
+    {
+      "name": "Hacienda Homuha Airport",
+      "country": "CR",
+      "value": 70.1,
+      "detail": "San Carlos · 230 ft above sea level"
+    },
+    {
+      "name": "La Cueva Airport",
+      "country": "CR",
+      "value": 70.1,
+      "detail": "Liberia · 230 ft above sea level"
+    },
+    {
+      "name": "San Pedro Airport",
+      "country": "CR",
+      "value": 70.1,
+      "detail": "San Pedro · 230 ft above sea level"
+    },
+    {
+      "name": "Altamira de San Carlos Airport",
+      "country": "CR",
+      "value": 68.88,
+      "detail": "San Carlos · 226 ft above sea level"
+    },
+    {
+      "name": "Laurel Airport",
+      "country": "CR",
+      "value": 64.92,
+      "detail": "Puntarenas · 213 ft above sea level"
+    },
+    {
+      "name": "Portalón Airport",
+      "country": "CR",
+      "value": 62.79,
+      "detail": "Portalón · 206 ft above sea level"
+    },
+    {
+      "name": "Santa Cruz Airport",
+      "country": "CR",
+      "value": 62.79,
+      "detail": "Santa Cruz · 206 ft above sea level"
+    },
+    {
+      "name": "Hacienda Rio Cuarto Airport",
+      "country": "CR",
+      "value": 60.05,
+      "detail": "Sarapiqui · 197 ft above sea level"
+    },
+    {
+      "name": "Quebrada Azul Airport",
+      "country": "CR",
+      "value": 60.05,
+      "detail": "Florencia · 197 ft above sea level"
+    },
+    {
+      "name": "Upala Airport",
+      "country": "CR",
+      "value": 56.08,
+      "detail": "Upala · 184 ft above sea level"
+    },
+    {
+      "name": "La Flor Airport",
+      "country": "CR",
+      "value": 53.95,
+      "detail": "Liberia · 177 ft above sea level"
+    }
+  ]
+}

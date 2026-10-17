@@ -1,0 +1,326 @@
+{
+  "id": "sy-cities-by-elevation",
+  "title": "Highest Major Cities in Syria",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Syria with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.565Z",
+  "items": [
+    {
+      "name": "Yabrūd",
+      "country": "SY",
+      "value": 1382,
+      "detail": "40,502 people · Rif-dimashq"
+    },
+    {
+      "name": "Qārah",
+      "country": "SY",
+      "value": 1287,
+      "detail": "20,656 people · Rif-dimashq"
+    },
+    {
+      "name": "An Nabk",
+      "country": "SY",
+      "value": 1272,
+      "detail": "49,372 people · Rif-dimashq"
+    },
+    {
+      "name": "Az Zabadānī",
+      "country": "SY",
+      "value": 1183,
+      "detail": "29,549 people · Rif-dimashq"
+    },
+    {
+      "name": "As-Suwayda",
+      "country": "SY",
+      "value": 1068,
+      "detail": "59,052 people · Suwayda"
+    },
+    {
+      "name": "At Tall",
+      "country": "SY",
+      "value": 1003,
+      "detail": "55,561 people · Rif-dimashq"
+    },
+    {
+      "name": "Al Qunayţirah",
+      "country": "SY",
+      "value": 942,
+      "detail": "36,143 people · Quneitra"
+    },
+    {
+      "name": "Al Quţayfah",
+      "country": "SY",
+      "value": 934,
+      "detail": "16,118 people · Rif-dimashq"
+    },
+    {
+      "name": "Qaţanā",
+      "country": "SY",
+      "value": 897,
+      "detail": "18,511 people · Rif-dimashq"
+    },
+    {
+      "name": "Jayrūd",
+      "country": "SY",
+      "value": 815,
+      "detail": "32,352 people · Rif-dimashq"
+    },
+    {
+      "name": "Zākīyah",
+      "country": "SY",
+      "value": 766,
+      "detail": "18,553 people · Rif-dimashq"
+    },
+    {
+      "name": "Al Qaryatayn",
+      "country": "SY",
+      "value": 745,
+      "detail": "31,748 people · Homs"
+    },
+    {
+      "name": "Muadamiyat al-Sham",
+      "country": "SY",
+      "value": 740,
+      "detail": "52,738 people · Rif-dimashq"
+    },
+    {
+      "name": "Al Kiswah",
+      "country": "SY",
+      "value": 724,
+      "detail": "23,526 people · Rif-dimashq"
+    },
+    {
+      "name": "Ḩarastā",
+      "country": "SY",
+      "value": 710,
+      "detail": "37,348 people · Rif-dimashq"
+    },
+    {
+      "name": "Şaḩnāyā",
+      "country": "SY",
+      "value": 705,
+      "detail": "30,519 people · Rif-dimashq"
+    },
+    {
+      "name": "Dārayyā",
+      "country": "SY",
+      "value": 703,
+      "detail": "71,596 people · Rif-dimashq"
+    },
+    {
+      "name": "Damascus",
+      "country": "SY",
+      "value": 701,
+      "detail": "1,569,394 people · Damascus Governorate"
+    },
+    {
+      "name": "‘Irbīn",
+      "country": "SY",
+      "value": 688,
+      "detail": "42,474 people · Rif-dimashq"
+    },
+    {
+      "name": "al-Yarmūk",
+      "country": "SY",
+      "value": 684,
+      "detail": "99,999 people · Damascus Governorate"
+    },
+    {
+      "name": "Jaramānā",
+      "country": "SY",
+      "value": 670,
+      "detail": "99,999 people · Rif-dimashq"
+    },
+    {
+      "name": "Babīlā",
+      "country": "SY",
+      "value": 669,
+      "detail": "50,880 people · Rif-dimashq"
+    },
+    {
+      "name": "Dūmā",
+      "country": "SY",
+      "value": 660,
+      "detail": "111,864 people · Rif-dimashq"
+    },
+    {
+      "name": "Jāsim",
+      "country": "SY",
+      "value": 660,
+      "detail": "30,283 people · Daraa"
+    },
+    {
+      "name": "Kafranbel",
+      "country": "SY",
+      "value": 643,
+      "detail": "45,652 people · Idlib"
+    },
+    {
+      "name": "Aş Şanamayn",
+      "country": "SY",
+      "value": 642,
+      "detail": "25,702 people · Daraa"
+    },
+    {
+      "name": "Al Ḩirāk",
+      "country": "SY",
+      "value": 634,
+      "detail": "23,784 people · Daraa"
+    },
+    {
+      "name": "Inkhil",
+      "country": "SY",
+      "value": 623,
+      "detail": "29,076 people · Daraa"
+    },
+    {
+      "name": "Nawá",
+      "country": "SY",
+      "value": 568,
+      "detail": "47,066 people · Daraa"
+    },
+    {
+      "name": "I‘zāz",
+      "country": "SY",
+      "value": 559,
+      "detail": "66,138 people · Aleppo"
+    },
+    {
+      "name": "Al Quşayr",
+      "country": "SY",
+      "value": 541,
+      "detail": "41,062 people · Homs"
+    },
+    {
+      "name": "Shaykh Miskīn",
+      "country": "SY",
+      "value": 530,
+      "detail": "25,920 people · Daraa"
+    },
+    {
+      "name": "Dā‘il",
+      "country": "SY",
+      "value": 525,
+      "detail": "29,408 people · Daraa"
+    },
+    {
+      "name": "‘Ayn al ‘Arab",
+      "country": "SY",
+      "value": 514,
+      "detail": "50,000 people · Aleppo"
+    },
+    {
+      "name": "Homs",
+      "country": "SY",
+      "value": 508,
+      "detail": "775,404 people · Homs"
+    },
+    {
+      "name": "Maşyāf",
+      "country": "SY",
+      "value": 502,
+      "detail": "32,262 people · Hama"
+    },
+    {
+      "name": "Al Mālikīyah",
+      "country": "SY",
+      "value": 490,
+      "detail": "26,311 people · Al-Hasakah"
+    },
+    {
+      "name": "Dar‘ā",
+      "country": "SY",
+      "value": 489,
+      "detail": "97,969 people · Daraa"
+    },
+    {
+      "name": "Ţafas",
+      "country": "SY",
+      "value": 489,
+      "detail": "31,249 people · Daraa"
+    },
+    {
+      "name": "Tall Rif‘at",
+      "country": "SY",
+      "value": 486,
+      "detail": "25,658 people · Aleppo"
+    },
+    {
+      "name": "Ad Darbāsīyah",
+      "country": "SY",
+      "value": 484,
+      "detail": "21,481 people · Al-Hasakah"
+    },
+    {
+      "name": "‘Āmūdā",
+      "country": "SY",
+      "value": 472,
+      "detail": "26,821 people · Al-Hasakah"
+    },
+    {
+      "name": "Kafr Takhārīm",
+      "country": "SY",
+      "value": 469,
+      "detail": "22,436 people · Idlib"
+    },
+    {
+      "name": "Kabbasin",
+      "country": "SY",
+      "value": 468,
+      "detail": "51,230 people · Aleppo"
+    },
+    {
+      "name": "Manbij",
+      "country": "SY",
+      "value": 468,
+      "detail": "99,497 people · Aleppo"
+    },
+    {
+      "name": "As Salamīyah",
+      "country": "SY",
+      "value": 461,
+      "detail": "94,887 people · Hama"
+    },
+    {
+      "name": "Al Bāb",
+      "country": "SY",
+      "value": 460,
+      "detail": "130,745 people · Aleppo"
+    },
+    {
+      "name": "Tallbīsah",
+      "country": "SY",
+      "value": 460,
+      "detail": "38,491 people · Homs"
+    },
+    {
+      "name": "Al Qāmishlī",
+      "country": "SY",
+      "value": 454,
+      "detail": "184,231 people · Al-Hasakah"
+    },
+    {
+      "name": "Idlib",
+      "country": "SY",
+      "value": 442,
+      "detail": "128,840 people · Idlib"
+    }
+  ]
+}

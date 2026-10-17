@@ -1,0 +1,62 @@
+{
+  "id": "am-airports-by-elevation",
+  "title": "Highest Airports in Armenia",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Armenia ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AM",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.449Z",
+  "items": [
+    {
+      "name": "Shirak International Airport",
+      "country": "AM",
+      "value": 1524,
+      "detail": "Gyumri · 5,000 ft above sea level"
+    },
+    {
+      "name": "Stepanavan Airport",
+      "country": "AM",
+      "value": 1474.01,
+      "detail": "Stepanavan · 4,836 ft above sea level"
+    },
+    {
+      "name": "Arzni Airport",
+      "country": "AM",
+      "value": 1346,
+      "detail": "Nor Hachn · 4,416 ft above sea level"
+    },
+    {
+      "name": "Erebuni Airport",
+      "country": "AM",
+      "value": 898.55,
+      "detail": "Yerevan · 2,948 ft above sea level"
+    },
+    {
+      "name": "Zvartnots International Airport",
+      "country": "AM",
+      "value": 865.02,
+      "detail": "Yerevan · 2,838 ft above sea level"
+    },
+    {
+      "name": "Syunik Airport",
+      "country": "AM",
+      "value": 703.48,
+      "detail": "Kapan · 2,308 ft above sea level"
+    }
+  ]
+}

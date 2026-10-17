@@ -1,0 +1,128 @@
+{
+  "id": "ee-research-i10-index",
+  "title": "Universities by Research i10-index in Estonia",
+  "short": "Research i10-index",
+  "sort": 5,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional i10-index, the number of works with at least ten citations. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "i10-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "EE",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research i10-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:43.375Z",
+  "items": [
+    {
+      "name": "University of Tartu",
+      "country": "EE",
+      "value": 53123,
+      "detail": "48,313 works"
+    },
+    {
+      "name": "Tallinn University of Technology",
+      "country": "EE",
+      "value": 18669,
+      "detail": "23,524 works"
+    },
+    {
+      "name": "Estonian University of Life Sciences",
+      "country": "EE",
+      "value": 7724,
+      "detail": "8,249 works"
+    },
+    {
+      "name": "Tallinn University",
+      "country": "EE",
+      "value": 3063,
+      "detail": "7,061 works"
+    },
+    {
+      "name": "Estonian Business School",
+      "country": "EE",
+      "value": 209,
+      "detail": "673 works"
+    },
+    {
+      "name": "Estonian Entrepreneurship University of Applied Sciences",
+      "country": "EE",
+      "value": 71,
+      "detail": "228 works"
+    },
+    {
+      "name": "Estonian National Defense College",
+      "country": "EE",
+      "value": 59,
+      "detail": "175 works"
+    },
+    {
+      "name": "Tartu Health Care College",
+      "country": "EE",
+      "value": 46,
+      "detail": "132 works"
+    },
+    {
+      "name": "Estonian Academy of Arts",
+      "country": "EE",
+      "value": 40,
+      "detail": "303 works"
+    },
+    {
+      "name": "Tallinn Health University of Applied Sciences",
+      "country": "EE",
+      "value": 33,
+      "detail": "157 works"
+    },
+    {
+      "name": "Estonian Academy of Music and Theatre",
+      "country": "EE",
+      "value": 22,
+      "detail": "200 works"
+    },
+    {
+      "name": "Tallinn University of Applied Sciences",
+      "country": "EE",
+      "value": 22,
+      "detail": "193 works"
+    },
+    {
+      "name": "Estonian Academy of Security Sciences",
+      "country": "EE",
+      "value": 17,
+      "detail": "258 works"
+    },
+    {
+      "name": "Estonian Aviation Academy",
+      "country": "EE",
+      "value": 14,
+      "detail": "65 works"
+    },
+    {
+      "name": "Estonian Information Technology College",
+      "country": "EE",
+      "value": 5,
+      "detail": "28 works"
+    },
+    {
+      "name": "EuroAcademy",
+      "country": "EE",
+      "value": 5,
+      "detail": "48 works"
+    },
+    {
+      "name": "Tartu Art College",
+      "country": "EE",
+      "value": 2,
+      "detail": "15 works"
+    }
+  ]
+}

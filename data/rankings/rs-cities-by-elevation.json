@@ -1,0 +1,326 @@
+{
+  "id": "rs-cities-by-elevation",
+  "title": "Highest Major Cities in Serbia",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Serbia with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.559Z",
+  "items": [
+    {
+      "name": "Novi Pazar",
+      "country": "RS",
+      "value": 511,
+      "detail": "85,996 people · Central Serbia"
+    },
+    {
+      "name": "Vranje",
+      "country": "RS",
+      "value": 468,
+      "detail": "56,199 people · Central Serbia"
+    },
+    {
+      "name": "Užice",
+      "country": "RS",
+      "value": 438,
+      "detail": "63,577 people · Central Serbia"
+    },
+    {
+      "name": "Bor",
+      "country": "RS",
+      "value": 405,
+      "detail": "39,387 people · Central Serbia"
+    },
+    {
+      "name": "Pirot",
+      "country": "RS",
+      "value": 371,
+      "detail": "40,678 people · Central Serbia"
+    },
+    {
+      "name": "Gornji Milanovac",
+      "country": "RS",
+      "value": 326,
+      "detail": "23,982 people · Central Serbia"
+    },
+    {
+      "name": "Prokuplje",
+      "country": "RS",
+      "value": 259,
+      "detail": "27,673 people · Central Serbia"
+    },
+    {
+      "name": "Aranđelovac",
+      "country": "RS",
+      "value": 251,
+      "detail": "24,309 people · Central Serbia"
+    },
+    {
+      "name": "Čačak",
+      "country": "RS",
+      "value": 241,
+      "detail": "117,072 people · Central Serbia"
+    },
+    {
+      "name": "Knjazevac",
+      "country": "RS",
+      "value": 232,
+      "detail": "25,000 people · Central Serbia"
+    },
+    {
+      "name": "Leskovac",
+      "country": "RS",
+      "value": 230,
+      "detail": "94,758 people · Central Serbia"
+    },
+    {
+      "name": "Sremčica",
+      "country": "RS",
+      "value": 225,
+      "detail": "23,000 people · Central Serbia"
+    },
+    {
+      "name": "Kraljevo",
+      "country": "RS",
+      "value": 207,
+      "detail": "82,846 people · Central Serbia"
+    },
+    {
+      "name": "Niš",
+      "country": "RS",
+      "value": 194,
+      "detail": "250,000 people · Central Serbia"
+    },
+    {
+      "name": "Kragujevac",
+      "country": "RS",
+      "value": 182,
+      "detail": "147,473 people · Central Serbia"
+    },
+    {
+      "name": "Loznica",
+      "country": "RS",
+      "value": 182,
+      "detail": "19,515 people · Central Serbia"
+    },
+    {
+      "name": "Valjevo",
+      "country": "RS",
+      "value": 180,
+      "detail": "61,035 people · Central Serbia"
+    },
+    {
+      "name": "Trstenik",
+      "country": "RS",
+      "value": 170,
+      "detail": "49,043 people · Central Serbia"
+    },
+    {
+      "name": "Kruševac",
+      "country": "RS",
+      "value": 162,
+      "detail": "75,256 people · Central Serbia"
+    },
+    {
+      "name": "Zaječar",
+      "country": "RS",
+      "value": 130,
+      "detail": "49,800 people · Central Serbia"
+    },
+    {
+      "name": "Ćuprija",
+      "country": "RS",
+      "value": 124,
+      "detail": "20,585 people · Central Serbia"
+    },
+    {
+      "name": "Smederevska Palanka",
+      "country": "RS",
+      "value": 122,
+      "detail": "27,000 people · Central Serbia"
+    },
+    {
+      "name": "Belgrade",
+      "country": "RS",
+      "value": 120,
+      "detail": "1,273,651 people · Central Serbia"
+    },
+    {
+      "name": "Jagodina",
+      "country": "RS",
+      "value": 120,
+      "detail": "35,589 people · Central Serbia"
+    },
+    {
+      "name": "Lazarevac",
+      "country": "RS",
+      "value": 117,
+      "detail": "23,551 people · Central Serbia"
+    },
+    {
+      "name": "Subotica",
+      "country": "RS",
+      "value": 115,
+      "detail": "100,000 people · Vojvodina"
+    },
+    {
+      "name": "Inđija",
+      "country": "RS",
+      "value": 114,
+      "detail": "24,450 people · Vojvodina"
+    },
+    {
+      "name": "Ruma",
+      "country": "RS",
+      "value": 114,
+      "detail": "32,229 people · Vojvodina"
+    },
+    {
+      "name": "Zemun",
+      "country": "RS",
+      "value": 100,
+      "detail": "155,591 people · Central Serbia"
+    },
+    {
+      "name": "Vršac",
+      "country": "RS",
+      "value": 96,
+      "detail": "36,300 people · Vojvodina"
+    },
+    {
+      "name": "Bačka Topola",
+      "country": "RS",
+      "value": 94,
+      "detail": "16,154 people · Vojvodina"
+    },
+    {
+      "name": "Sombor",
+      "country": "RS",
+      "value": 89,
+      "detail": "48,454 people · Vojvodina"
+    },
+    {
+      "name": "Apatin",
+      "country": "RS",
+      "value": 85,
+      "detail": "18,320 people · Vojvodina"
+    },
+    {
+      "name": "Vrbas",
+      "country": "RS",
+      "value": 85,
+      "detail": "25,907 people · Vojvodina"
+    },
+    {
+      "name": "Kikinda",
+      "country": "RS",
+      "value": 84,
+      "detail": "41,935 people · Vojvodina"
+    },
+    {
+      "name": "Sremska Mitrovica",
+      "country": "RS",
+      "value": 84,
+      "detail": "39,084 people · Vojvodina"
+    },
+    {
+      "name": "Pančevo",
+      "country": "RS",
+      "value": 83,
+      "detail": "76,654 people · Vojvodina"
+    },
+    {
+      "name": "Bačka Palanka",
+      "country": "RS",
+      "value": 81,
+      "detail": "29,449 people · Vojvodina"
+    },
+    {
+      "name": "Senta",
+      "country": "RS",
+      "value": 81,
+      "detail": "20,302 people · Vojvodina"
+    },
+    {
+      "name": "Stara Pazova",
+      "country": "RS",
+      "value": 81,
+      "detail": "16,217 people · Vojvodina"
+    },
+    {
+      "name": "Zrenjanin",
+      "country": "RS",
+      "value": 81,
+      "detail": "79,773 people · Vojvodina"
+    },
+    {
+      "name": "Požarevac",
+      "country": "RS",
+      "value": 80,
+      "detail": "41,736 people · Central Serbia"
+    },
+    {
+      "name": "Smederevo",
+      "country": "RS",
+      "value": 80,
+      "detail": "62,000 people · Central Serbia"
+    },
+    {
+      "name": "Novi Sad",
+      "country": "RS",
+      "value": 79,
+      "detail": "215,400 people · Vojvodina"
+    },
+    {
+      "name": "Šabac",
+      "country": "RS",
+      "value": 79,
+      "detail": "55,114 people · Central Serbia"
+    },
+    {
+      "name": "Futog",
+      "country": "RS",
+      "value": 78,
+      "detail": "18,018 people · Vojvodina"
+    },
+    {
+      "name": "Obrenovac",
+      "country": "RS",
+      "value": 78,
+      "detail": "16,821 people · Central Serbia"
+    },
+    {
+      "name": "Bečej",
+      "country": "RS",
+      "value": 77,
+      "detail": "25,774 people · Vojvodina"
+    },
+    {
+      "name": "Nova Pazova",
+      "country": "RS",
+      "value": 76,
+      "detail": "15,488 people · Vojvodina"
+    },
+    {
+      "name": "Novi Beograd",
+      "country": "RS",
+      "value": 71,
+      "detail": "209,763 people · Central Serbia"
+    }
+  ]
+}

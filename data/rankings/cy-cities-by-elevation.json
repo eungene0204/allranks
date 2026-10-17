@@ -1,0 +1,116 @@
+{
+  "id": "cy-cities-by-elevation",
+  "title": "Highest Major Cities in Cyprus",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in Cyprus with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CY",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.522Z",
+  "items": [
+    {
+      "name": "Káto Lakatámeia",
+      "country": "CY",
+      "value": 215,
+      "detail": "40,000 people · Nicosia"
+    },
+    {
+      "name": "Stróvolos",
+      "country": "CY",
+      "value": 182,
+      "detail": "67,904 people · Nicosia"
+    },
+    {
+      "name": "Nicosia",
+      "country": "CY",
+      "value": 155,
+      "detail": "200,452 people · Nicosia"
+    },
+    {
+      "name": "Aglantziá",
+      "country": "CY",
+      "value": 144,
+      "detail": "21,543 people · Nicosia"
+    },
+    {
+      "name": "Paphos",
+      "country": "CY",
+      "value": 81,
+      "detail": "35,961 people · Pafos"
+    },
+    {
+      "name": "Káto Polemídia",
+      "country": "CY",
+      "value": 71,
+      "detail": "23,231 people · Limassol"
+    },
+    {
+      "name": "Aradíppou",
+      "country": "CY",
+      "value": 60,
+      "detail": "22,934 people · Larnaka"
+    },
+    {
+      "name": "Germasógeia",
+      "country": "CY",
+      "value": 59,
+      "detail": "17,325 people · Limassol"
+    },
+    {
+      "name": "Mórfou",
+      "country": "CY",
+      "value": 48,
+      "detail": "24,070 people · Nicosia"
+    },
+    {
+      "name": "Limassol",
+      "country": "CY",
+      "value": 27,
+      "detail": "154,000 people · Limassol"
+    },
+    {
+      "name": "Larnaca",
+      "country": "CY",
+      "value": 24,
+      "detail": "72,000 people · Larnaka"
+    },
+    {
+      "name": "Kyrenia",
+      "country": "CY",
+      "value": 20,
+      "detail": "26,701 people · Keryneia"
+    },
+    {
+      "name": "Égkomi",
+      "country": "CY",
+      "value": 12,
+      "detail": "20,502 people · Ammochostos"
+    },
+    {
+      "name": "Famagusta",
+      "country": "CY",
+      "value": 12,
+      "detail": "42,526 people · Ammochostos"
+    },
+    {
+      "name": "Protaras",
+      "country": "CY",
+      "value": 9,
+      "detail": "20,230 people · Ammochostos"
+    }
+  ]
+}

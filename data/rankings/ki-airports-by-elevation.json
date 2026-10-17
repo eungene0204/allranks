@@ -1,0 +1,116 @@
+{
+  "id": "ki-airports-by-elevation",
+  "title": "Highest Airports in Kiribati",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Kiribati ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "KI",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.515Z",
+  "items": [
+    {
+      "name": "Washington Island Airstrip",
+      "country": "KI",
+      "value": 9.14,
+      "detail": "Teraina · 30 ft above sea level"
+    },
+    {
+      "name": "Abaiang Airport",
+      "country": "KI",
+      "value": 7.92,
+      "detail": "Abaiang · 26 ft above sea level"
+    },
+    {
+      "name": "Marakei Airport",
+      "country": "KI",
+      "value": 3.05,
+      "detail": "Marakei · 10 ft above sea level"
+    },
+    {
+      "name": "Nonouti Airport",
+      "country": "KI",
+      "value": 3.05,
+      "detail": "Nonouti · 10 ft above sea level"
+    },
+    {
+      "name": "Bonriki International Airport",
+      "country": "KI",
+      "value": 2.74,
+      "detail": "South Tarawa · 9 ft above sea level"
+    },
+    {
+      "name": "Canton Island Airport",
+      "country": "KI",
+      "value": 2.74,
+      "detail": "Abariringa · 9 ft above sea level"
+    },
+    {
+      "name": "Abemama Airport",
+      "country": "KI",
+      "value": 2.44,
+      "detail": "Abemama · 8 ft above sea level"
+    },
+    {
+      "name": "Maiana Airport",
+      "country": "KI",
+      "value": 2.44,
+      "detail": "Maiana · 8 ft above sea level"
+    },
+    {
+      "name": "Onotoa Airport",
+      "country": "KI",
+      "value": 2.13,
+      "detail": "Onotoa · 7 ft above sea level"
+    },
+    {
+      "name": "Tabiteuea North Airport",
+      "country": "KI",
+      "value": 2.13,
+      "detail": "7 ft above sea level"
+    },
+    {
+      "name": "Aranuka Airport",
+      "country": "KI",
+      "value": 1.83,
+      "detail": "Buariki · 6 ft above sea level"
+    },
+    {
+      "name": "Beru Airport",
+      "country": "KI",
+      "value": 1.83,
+      "detail": "Beru · 6 ft above sea level"
+    },
+    {
+      "name": "Nikunau Airport",
+      "country": "KI",
+      "value": 1.83,
+      "detail": "Nikunau · 6 ft above sea level"
+    },
+    {
+      "name": "Butaritari Airport",
+      "country": "KI",
+      "value": 1.52,
+      "detail": "Butaritari · 5 ft above sea level"
+    },
+    {
+      "name": "Cassidy International Airport",
+      "country": "KI",
+      "value": 1.52,
+      "detail": "Kiritimati · 5 ft above sea level"
+    }
+  ]
+}

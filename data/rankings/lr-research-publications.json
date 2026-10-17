@@ -1,0 +1,62 @@
+{
+  "id": "lr-research-publications",
+  "title": "Universities by Research Publications in Liberia",
+  "short": "Publications",
+  "sort": 3,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by the number of scholarly works indexed by OpenAlex. This measures research volume, not teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "works",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "LR",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Publications",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:05.335Z",
+  "items": [
+    {
+      "name": "University of Liberia",
+      "country": "LR",
+      "value": 896,
+      "detail": "18,035 citations"
+    },
+    {
+      "name": "William V. S. Tubman University",
+      "country": "LR",
+      "value": 247,
+      "detail": "1,905 citations"
+    },
+    {
+      "name": "Cuttington University",
+      "country": "LR",
+      "value": 168,
+      "detail": "586 citations"
+    },
+    {
+      "name": "Stella Maris Polytechnic",
+      "country": "LR",
+      "value": 80,
+      "detail": "116 citations"
+    },
+    {
+      "name": "African Methodist Episcopal University",
+      "country": "LR",
+      "value": 58,
+      "detail": "161 citations"
+    },
+    {
+      "name": "United Methodist University",
+      "country": "LR",
+      "value": 29,
+      "detail": "165 citations"
+    }
+  ]
+}

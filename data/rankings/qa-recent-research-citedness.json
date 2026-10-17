@@ -1,0 +1,176 @@
+{
+  "id": "qa-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Qatar",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "QA",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:27.613Z",
+  "items": [
+    {
+      "name": "Academic Bridge Program",
+      "country": "QA",
+      "value": 15.4545,
+      "detail": "49 works"
+    },
+    {
+      "name": "Ahmed Bin Mohammed Military College",
+      "country": "QA",
+      "value": 8.8922,
+      "detail": "264 works"
+    },
+    {
+      "name": "Texas A&M University at Qatar",
+      "country": "QA",
+      "value": 6.6177,
+      "detail": "8,684 works"
+    },
+    {
+      "name": "Qatar University",
+      "country": "QA",
+      "value": 6.5421,
+      "detail": "40,635 works"
+    },
+    {
+      "name": "University College London Qatar",
+      "country": "QA",
+      "value": 6,
+      "detail": "217 works"
+    },
+    {
+      "name": "Weill Cornell Medical College in Qatar",
+      "country": "QA",
+      "value": 5.7172,
+      "detail": "8,105 works"
+    },
+    {
+      "name": "Community College of Qatar",
+      "country": "QA",
+      "value": 5.6149,
+      "detail": "442 works"
+    },
+    {
+      "name": "Hamad bin Khalifa University",
+      "country": "QA",
+      "value": 5.4411,
+      "detail": "13,838 works"
+    },
+    {
+      "name": "University of Doha for Science and Technology",
+      "country": "QA",
+      "value": 5.3007,
+      "detail": "1,837 works"
+    },
+    {
+      "name": "Aspire Academy",
+      "country": "QA",
+      "value": 4.4634,
+      "detail": "508 works"
+    },
+    {
+      "name": "University of Calgary in Qatar",
+      "country": "QA",
+      "value": 3.9405,
+      "detail": "292 works"
+    },
+    {
+      "name": "Carnegie Mellon University Qatar",
+      "country": "QA",
+      "value": 2.848,
+      "detail": "1,030 works"
+    },
+    {
+      "name": "Doha Institute for Graduate Studies",
+      "country": "QA",
+      "value": 2.6632,
+      "detail": "936 works"
+    },
+    {
+      "name": "American School of Doha",
+      "country": "QA",
+      "value": 2.3333,
+      "detail": "27 works"
+    },
+    {
+      "name": "Center for International Policy Research",
+      "country": "QA",
+      "value": 1.9737,
+      "detail": "36 works"
+    },
+    {
+      "name": "Joaan Bin Jassim Academy for Defence Studies",
+      "country": "QA",
+      "value": 1.9412,
+      "detail": "86 works"
+    },
+    {
+      "name": "HEC Paris in Qatar",
+      "country": "QA",
+      "value": 1.4375,
+      "detail": "64 works"
+    },
+    {
+      "name": "Georgetown University in Qatar",
+      "country": "QA",
+      "value": 1.3417,
+      "detail": "804 works"
+    },
+    {
+      "name": "VCUQatar",
+      "country": "QA",
+      "value": 1.2466,
+      "detail": "284 works"
+    },
+    {
+      "name": "Gulf English School",
+      "country": "QA",
+      "value": 1.2,
+      "detail": "10 works"
+    },
+    {
+      "name": "Stenden University Qatar",
+      "country": "QA",
+      "value": 1.2,
+      "detail": "58 works"
+    },
+    {
+      "name": "Northwestern University in Qatar",
+      "country": "QA",
+      "value": 1.1333,
+      "detail": "535 works"
+    },
+    {
+      "name": "The National University of Malaysia-Qatar",
+      "country": "QA",
+      "value": 1,
+      "detail": "15 works"
+    },
+    {
+      "name": "Philippine School Doha",
+      "country": "QA",
+      "value": 0.5556,
+      "detail": "80 works"
+    },
+    {
+      "name": "Al Azhar University",
+      "country": "QA",
+      "value": 0.3483,
+      "detail": "12,222 works"
+    }
+  ]
+}

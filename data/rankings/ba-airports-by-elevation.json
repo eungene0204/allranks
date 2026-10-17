@@ -1,0 +1,122 @@
+{
+  "id": "ba-airports-by-elevation",
+  "title": "Highest Airports in Bosnia and Herzegovina",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Bosnia and Herzegovina ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "BA",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.454Z",
+  "items": [
+    {
+      "name": "Nisici Airfield",
+      "country": "BA",
+      "value": 961.64,
+      "detail": "Šabanci · 3,155 ft above sea level"
+    },
+    {
+      "name": "Livno Brda Bosni Airfield",
+      "country": "BA",
+      "value": 715.98,
+      "detail": "Livno · 2,349 ft above sea level"
+    },
+    {
+      "name": "Medeno Polje Airstrip",
+      "country": "BA",
+      "value": 601.07,
+      "detail": "1,972 ft above sea level"
+    },
+    {
+      "name": "Sarajevo International Airport",
+      "country": "BA",
+      "value": 520.6,
+      "detail": "Sarajevo · 1,708 ft above sea level"
+    },
+    {
+      "name": "Visoko Kenan Jusufbasic Airfield",
+      "country": "BA",
+      "value": 448.06,
+      "detail": "Visoko · 1,470 ft above sea level"
+    },
+    {
+      "name": "Tuzla Jegin Lug Sport Airfield",
+      "country": "BA",
+      "value": 264.87,
+      "detail": "Rainci Gornji · 869 ft above sea level"
+    },
+    {
+      "name": "Tuzla International Airport",
+      "country": "BA",
+      "value": 238.96,
+      "detail": "Dubrave Gornje · 784 ft above sea level"
+    },
+    {
+      "name": "Bihać Golubić Airfield",
+      "country": "BA",
+      "value": 231.95,
+      "detail": "Bihać · 761 ft above sea level"
+    },
+    {
+      "name": "Ciljuge Sport Airfield",
+      "country": "BA",
+      "value": 220.98,
+      "detail": "Bašigovci · 725 ft above sea level"
+    },
+    {
+      "name": "Prijedor Urije Airfield",
+      "country": "BA",
+      "value": 180.14,
+      "detail": "Prijedor · 591 ft above sea level"
+    },
+    {
+      "name": "PPG Paragliding Field",
+      "country": "BA",
+      "value": 160.93,
+      "detail": "Sanski Most · 528 ft above sea level"
+    },
+    {
+      "name": "Koprivna Begovac Airfield",
+      "country": "BA",
+      "value": 142.04,
+      "detail": "Modriča · 466 ft above sea level"
+    },
+    {
+      "name": "Banja Luka International Airport",
+      "country": "BA",
+      "value": 121.92,
+      "detail": "Mahovljani · 400 ft above sea level"
+    },
+    {
+      "name": "Brčko-Brod Airfield",
+      "country": "BA",
+      "value": 102.72,
+      "detail": "Brod · 337 ft above sea level"
+    },
+    {
+      "name": "Sport Airfield Popovi",
+      "country": "BA",
+      "value": 94.49,
+      "detail": "310 ft above sea level"
+    },
+    {
+      "name": "Mostar International Airport",
+      "country": "BA",
+      "value": 47.55,
+      "detail": "Mostar · 156 ft above sea level"
+    }
+  ]
+}

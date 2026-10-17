@@ -1,0 +1,86 @@
+{
+  "id": "ne-longest-runways",
+  "title": "Longest Airport Runways in Niger",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Niger ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "NE",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.529Z",
+  "items": [
+    {
+      "name": "Diori Hamani International Airport",
+      "country": "NE",
+      "value": 3200.1,
+      "detail": "Niamey · 10,499 ft · LAT"
+    },
+    {
+      "name": "Mano Dayak International Airport",
+      "country": "NE",
+      "value": 3000.15,
+      "detail": "Agadez · 9,843 ft · ASP"
+    },
+    {
+      "name": "Kourou Arkenné Airfield",
+      "country": "NE",
+      "value": 2913.89,
+      "detail": "Toummo · 9,560 ft · ASP"
+    },
+    {
+      "name": "Tahoua Airport",
+      "country": "NE",
+      "value": 2149.75,
+      "detail": "Tahoua · 7,053 ft · ASP"
+    },
+    {
+      "name": "Maradi Airport",
+      "country": "NE",
+      "value": 1850.14,
+      "detail": "Maradi · 6,070 ft · ASP"
+    },
+    {
+      "name": "Zinder Airport",
+      "country": "NE",
+      "value": 1825.14,
+      "detail": "Zinder · 5,988 ft · ASP"
+    },
+    {
+      "name": "Madama Military Base",
+      "country": "NE",
+      "value": 1805.94,
+      "detail": "Fort Madama · 5,925 ft · ASP"
+    },
+    {
+      "name": "Diffa Airport",
+      "country": "NE",
+      "value": 1800.15,
+      "detail": "Diffa · 5,906 ft · ASP"
+    },
+    {
+      "name": "Dirkou Airport",
+      "country": "NE",
+      "value": 1599.9,
+      "detail": "Dirkou · 5,249 ft · ASP"
+    },
+    {
+      "name": "Iferouane Airport",
+      "country": "NE",
+      "value": 1352.7,
+      "detail": "Iferouane · 4,438 ft"
+    }
+  ]
+}

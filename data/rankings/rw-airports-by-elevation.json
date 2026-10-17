@@ -1,0 +1,74 @@
+{
+  "id": "rw-airports-by-elevation",
+  "title": "Highest Airports in Rwanda",
+  "short": "Airport elevation",
+  "sort": 10,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Rwanda ranked by elevation above sea level.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "RW",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.543Z",
+  "items": [
+    {
+      "name": "Ruhengeri Airport",
+      "country": "RW",
+      "value": 1859.89,
+      "detail": "Ruhengeri · 6,102 ft above sea level"
+    },
+    {
+      "name": "Butare Airport",
+      "country": "RW",
+      "value": 1768.14,
+      "detail": "Butare · 5,801 ft above sea level"
+    },
+    {
+      "name": "Kamembe Airport",
+      "country": "RW",
+      "value": 1582.52,
+      "detail": "Kamembe · 5,192 ft above sea level"
+    },
+    {
+      "name": "Gisenyi Airport",
+      "country": "RW",
+      "value": 1548.99,
+      "detail": "Gisenyi · 5,082 ft above sea level"
+    },
+    {
+      "name": "Nemba Airport",
+      "country": "RW",
+      "value": 1495.04,
+      "detail": "Nemba · 4,905 ft above sea level"
+    },
+    {
+      "name": "Kigali International Airport",
+      "country": "RW",
+      "value": 1481.02,
+      "detail": "Kigali · 4,859 ft above sea level"
+    },
+    {
+      "name": "Gabiro Airport",
+      "country": "RW",
+      "value": 1464.87,
+      "detail": "Gabiro · 4,806 ft above sea level"
+    },
+    {
+      "name": "Gako Airport",
+      "country": "RW",
+      "value": 1453.9,
+      "detail": "Gako · 4,770 ft above sea level"
+    }
+  ]
+}

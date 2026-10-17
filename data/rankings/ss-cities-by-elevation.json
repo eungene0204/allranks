@@ -1,0 +1,122 @@
+{
+  "id": "ss-cities-by-elevation",
+  "title": "Highest Major Cities in South Sudan",
+  "short": "City elevation",
+  "sort": 8,
+  "category": "world",
+  "icon": "⛰️",
+  "desc": "Cities in South Sudan with more than 15,000 inhabitants, ranked by elevation above sea level (GeoNames digital elevation model).",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SS",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "GeoNames, cities with more than 15,000 inhabitants",
+    "url": "https://www.geonames.org/",
+    "license": "CC BY 4.0 (GeoNames)",
+    "note": "Elevation is the GeoNames digital elevation model value at the populated place coordinates; population figures are shown for context."
+  },
+  "updatedAt": "2026-10-17T13:12:34.564Z",
+  "items": [
+    {
+      "name": "Yei",
+      "country": "SS",
+      "value": 836,
+      "detail": "260,720 people · Central Equatoria"
+    },
+    {
+      "name": "Pajok",
+      "country": "SS",
+      "value": 823,
+      "detail": "49,000 people · Eastern Equatoria"
+    },
+    {
+      "name": "Yambio",
+      "country": "SS",
+      "value": 655,
+      "detail": "40,382 people · Western Equatoria"
+    },
+    {
+      "name": "Torit",
+      "country": "SS",
+      "value": 617,
+      "detail": "20,048 people · Eastern Equatoria"
+    },
+    {
+      "name": "Kafia Kingi",
+      "country": "SS",
+      "value": 604,
+      "detail": "16,000 people · Western Bahr al Ghazal"
+    },
+    {
+      "name": "Juba",
+      "country": "SS",
+      "value": 518,
+      "detail": "450,000 people · Central Equatoria"
+    },
+    {
+      "name": "Tonj",
+      "country": "SS",
+      "value": 444,
+      "detail": "17,338 people · Warrap"
+    },
+    {
+      "name": "Wau",
+      "country": "SS",
+      "value": 440,
+      "detail": "127,384 people · Western Bahr al Ghazal"
+    },
+    {
+      "name": "Bor",
+      "country": "SS",
+      "value": 429,
+      "detail": "26,782 people · Jonglei"
+    },
+    {
+      "name": "Kuacjok",
+      "country": "SS",
+      "value": 428,
+      "detail": "78,000 people · Warrap"
+    },
+    {
+      "name": "Rumbek",
+      "country": "SS",
+      "value": 428,
+      "detail": "32,083 people · Lakes"
+    },
+    {
+      "name": "Aweil",
+      "country": "SS",
+      "value": 425,
+      "detail": "38,745 people · Northern Bahr al Ghazal"
+    },
+    {
+      "name": "Winejok",
+      "country": "SS",
+      "value": 419,
+      "detail": "300,000 people · Northern Bahr al Ghazal"
+    },
+    {
+      "name": "Gogrial",
+      "country": "SS",
+      "value": 414,
+      "detail": "44,600 people · Warrap"
+    },
+    {
+      "name": "Malakal",
+      "country": "SS",
+      "value": 400,
+      "detail": "160,765 people · Upper Nile"
+    },
+    {
+      "name": "Leer",
+      "country": "SS",
+      "value": 397,
+      "detail": "17,827 people · Unity"
+    }
+  ]
+}

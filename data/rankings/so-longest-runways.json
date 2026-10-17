@@ -1,0 +1,98 @@
+{
+  "id": "so-longest-runways",
+  "title": "Longest Airport Runways in Somalia",
+  "short": "Runway length",
+  "sort": 9,
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Airports in Somalia ranked by the length of their longest open runway.",
+  "unit": "metres",
+  "prefix": "",
+  "suffix": " m",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "SO",
+  "year": 2026,
+  "source": {
+    "kind": "csv",
+    "name": "OurAirports, airports and runway datasets",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain (OurAirports)",
+    "note": "Airport and runway records are community maintained and released to the public domain; no guarantee of accuracy is made. Only active small, medium, and large airports are included."
+  },
+  "updatedAt": "2026-10-17T13:13:13.548Z",
+  "items": [
+    {
+      "name": "Berbera Airport",
+      "country": "SO",
+      "value": 4139.79,
+      "detail": "Berbera · 13,582 ft · ASP"
+    },
+    {
+      "name": "Egal International Airport",
+      "country": "SO",
+      "value": 3699.97,
+      "detail": "Hargeisa · 12,139 ft · ASP"
+    },
+    {
+      "name": "Kismayo Airport",
+      "country": "SO",
+      "value": 3699.97,
+      "detail": "Kismayo · 12,139 ft · ASP"
+    },
+    {
+      "name": "Aden Adde International Airport",
+      "country": "SO",
+      "value": 3183.94,
+      "detail": "Mogadishu · 10,446 ft · ASP"
+    },
+    {
+      "name": "Galcaio Airport",
+      "country": "SO",
+      "value": 3005.02,
+      "detail": "Galcaio · 9,859 ft · ASP"
+    },
+    {
+      "name": "Burao Airport",
+      "country": "SO",
+      "value": 2400.3,
+      "detail": "Burao · 7,875 ft · dirt"
+    },
+    {
+      "name": "Bender Qassim International Airport",
+      "country": "SO",
+      "value": 2400,
+      "detail": "Bosaso · 7,874 ft · ASP"
+    },
+    {
+      "name": "Beledweyne Airport",
+      "country": "SO",
+      "value": 2200.05,
+      "detail": "Beledweyne · 7,218 ft · Gravel"
+    },
+    {
+      "name": "Garowe Airport",
+      "country": "SO",
+      "value": 2000.1,
+      "detail": "Garowe · 6,562 ft · ASP"
+    },
+    {
+      "name": "Baardheere Airport",
+      "country": "SO",
+      "value": 1224.38,
+      "detail": "Baardheere · 4,017 ft · sand"
+    },
+    {
+      "name": "Candala Airport",
+      "country": "SO",
+      "value": 1100.33,
+      "detail": "Candala · 3,610 ft"
+    },
+    {
+      "name": "Eil Airport",
+      "country": "SO",
+      "value": 1050.04,
+      "detail": "Eyl · 3,445 ft · Graded earth"
+    }
+  ]
+}

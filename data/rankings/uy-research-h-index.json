@@ -1,0 +1,116 @@
+{
+  "id": "uy-research-h-index",
+  "title": "Universities by Research h-index in Uruguay",
+  "short": "Research h-index",
+  "sort": 4,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's institutional h-index, which combines publication volume and citation impact. This is a research metric, not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "h-index",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "UY",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Research h-index",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:11:44.337Z",
+  "items": [
+    {
+      "name": "Universidad de la República de Uruguay",
+      "country": "UY",
+      "value": 309,
+      "detail": "54,026 works"
+    },
+    {
+      "name": "Universidad de Montevideo",
+      "country": "UY",
+      "value": 107,
+      "detail": "3,105 works"
+    },
+    {
+      "name": "Universidad Católica del Uruguay",
+      "country": "UY",
+      "value": 58,
+      "detail": "2,736 works"
+    },
+    {
+      "name": "Universidad ORT Uruguay",
+      "country": "UY",
+      "value": 52,
+      "detail": "1,645 works"
+    },
+    {
+      "name": "Universidad Tecnológica de Uruguay",
+      "country": "UY",
+      "value": 27,
+      "detail": "463 works"
+    },
+    {
+      "name": "Universidad CLAEH",
+      "country": "UY",
+      "value": 23,
+      "detail": "297 works"
+    },
+    {
+      "name": "Programa de Desarrollo de las Ciencias Básicas",
+      "country": "UY",
+      "value": 20,
+      "detail": "185 works"
+    },
+    {
+      "name": "Consejo de Formación en Educación",
+      "country": "UY",
+      "value": 11,
+      "detail": "433 works"
+    },
+    {
+      "name": "Plan Ceibal",
+      "country": "UY",
+      "value": 10,
+      "detail": "76 works"
+    },
+    {
+      "name": "Universidad de la Empresa",
+      "country": "UY",
+      "value": 10,
+      "detail": "615 works"
+    },
+    {
+      "name": "Instituto Universitario Asociación Cristiana de Jóvenes",
+      "country": "UY",
+      "value": 8,
+      "detail": "80 works"
+    },
+    {
+      "name": "Universitario Francisco de Asís",
+      "country": "UY",
+      "value": 3,
+      "detail": "140 works"
+    },
+    {
+      "name": "Instituto Universitario Centro de Estudio y Diagnóstico de las Disgnacias del Uruguay",
+      "country": "UY",
+      "value": 2,
+      "detail": "4 works"
+    },
+    {
+      "name": "Facultad de Teología del Uruguay Monseñor Mariano Soler",
+      "country": "UY",
+      "value": 1,
+      "detail": "14 works"
+    },
+    {
+      "name": "Instituto Universitario BIOS",
+      "country": "UY",
+      "value": 1,
+      "detail": "8 works"
+    }
+  ]
+}

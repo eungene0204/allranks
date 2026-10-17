@@ -1,0 +1,92 @@
+{
+  "id": "ht-recent-research-citedness",
+  "title": "Universities by Recent Research Citedness in Haiti",
+  "short": "Recent citedness",
+  "sort": 6,
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Universities and colleges ranked by OpenAlex's mean citedness for works published in the last two years. Recent citation rates vary by field and are not a measure of teaching quality. OpenAlex is an open scholarly index; larger and older institutions tend to have more indexed research.",
+  "unit": "mean citations per work",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "HT",
+  "year": 2026,
+  "source": {
+    "kind": "api",
+    "name": "OpenAlex, institutional Recent citedness",
+    "url": "https://openalex.org/institutions",
+    "license": "CC0 1.0 (OpenAlex)",
+    "note": "OpenAlex indexes scholarly works and citations. Coverage and citation practices vary by institution and field; this is a research measure, not a ranking of teaching quality."
+  },
+  "updatedAt": "2026-10-17T13:10:51.912Z",
+  "items": [
+    {
+      "name": "Université Notre Dame d'Haïti",
+      "country": "HT",
+      "value": 2.3628,
+      "detail": "132 works"
+    },
+    {
+      "name": "Université Chrétienne du Nord d’Haïti",
+      "country": "HT",
+      "value": 1.1429,
+      "detail": "12 works"
+    },
+    {
+      "name": "University of Haiti",
+      "country": "HT",
+      "value": 1.0846,
+      "detail": "1,156 works"
+    },
+    {
+      "name": "Quisqueya University",
+      "country": "HT",
+      "value": 0.8041,
+      "detail": "430 works"
+    },
+    {
+      "name": "Adventist University of Haiti",
+      "country": "HT",
+      "value": 0.7692,
+      "detail": "22 works"
+    },
+    {
+      "name": "Université Épiscopale d'Haiti",
+      "country": "HT",
+      "value": 0.5,
+      "detail": "8 works"
+    },
+    {
+      "name": "American University of the Caribbean",
+      "country": "HT",
+      "value": 0.3582,
+      "detail": "99 works"
+    },
+    {
+      "name": "L'Hôpital Universitaire Justinien",
+      "country": "HT",
+      "value": 0.2857,
+      "detail": "21 works"
+    },
+    {
+      "name": "Caribbean University",
+      "country": "HT",
+      "value": 0.2222,
+      "detail": "13 works"
+    },
+    {
+      "name": "ISTEAH",
+      "country": "HT",
+      "value": 0.0909,
+      "detail": "62 works"
+    },
+    {
+      "name": "Université Franco-haïtienne du Cap-Haïtien",
+      "country": "HT",
+      "value": 0.0714,
+      "detail": "17 works"
+    }
+  ]
+}
