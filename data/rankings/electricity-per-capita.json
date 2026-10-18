@@ -1,0 +1,222 @@
+{
+  "id": "electricity-per-capita",
+  "title": "Electricity Use per Person",
+  "category": "energy",
+  "icon": "🔌",
+  "desc": "Electric power consumption per person per year.",
+  "unit": "kWh per person",
+  "prefix": "",
+  "suffix": " kWh",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Electric power consumption (kWh per capita)",
+    "url": "https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-15T04:12:45.342Z",
+  "items": [
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 47509.71
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 23699
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 15056.93
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 14654.64
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 13063.56
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 12071.32
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 11974.29
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 10208.6
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 9794.7
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 8050.14
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 7909.55
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 7531.22
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 7202.85
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 7111.19
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 6963.12
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 6536.42
+    },
+    {
+      "name": "Ireland",
+      "country": "IE",
+      "value": 6497.01
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 6446.73
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 6416.75
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 6373.09
+    },
+    {
+      "name": "Estonia",
+      "country": "EE",
+      "value": 6161.11
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 6060.06
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 6041.86
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 5460.04
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 5336.61
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 5177.84
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 4824.66
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 4782.23
+    },
+    {
+      "name": "Slovakia",
+      "country": "SK",
+      "value": 4713.5
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 4565.47
+    },
+    {
+      "name": "Lithuania",
+      "country": "LT",
+      "value": 4397.37
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 4347.8
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 4207.69
+    },
+    {
+      "name": "Latvia",
+      "country": "LV",
+      "value": 4037.81
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 3872.92
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 3138.18
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 2835.03
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 2595.31
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 2381.74
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 1636.48
+    }
+  ]
+}

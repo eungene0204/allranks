@@ -1,0 +1,108 @@
+{
+  "id": "wdi-sl-uem-intm-zs",
+  "title": "Unemployment with intermediate education (% of total labor force with intermediate education)",
+  "category": "society",
+  "icon": "🌍",
+  "desc": "The percentage of the labor force with an intermediate level of education who are unemployed. Intermediate education comprises upper secondary or post-secondary non tertiary education according to the International Standard Classification of Education 2011 (ISCED 2011).",
+  "unit": "% of total labor force with intermediate education",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SL.UEM.INTM.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Unemployment with intermediate education (% of total labor force with intermediate education)",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.INTM.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:58.688Z",
+  "items": [
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 24.639
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 11.529
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 9.889
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 9.814
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 9.755
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 8.753
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 8.507
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 6.73
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 6.679
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 6.505
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 5.756
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 5.703
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 5.677
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 5.078
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 5.064
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 4.652
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 2.65
+    }
+  ]
+}

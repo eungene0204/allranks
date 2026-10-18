@@ -1,0 +1,189 @@
+{
+  "id": "ai-compute-capacity",
+  "title": "Most AI Computing Power",
+  "category": "ai",
+  "icon": "⚙️",
+  "desc": "Combined computing power of each country's known AI supercomputers, in NVIDIA H100-equivalent chips.",
+  "unit": "H100-equivalent chips",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "asOf": "2025-07",
+  "source": {
+    "kind": "csv",
+    "name": "Epoch AI, GPU Clusters",
+    "url": "https://epoch.ai/data/gpu-clusters",
+    "license": "CC BY 4.0 (Epoch AI)",
+    "note": "A census built from public sources, so a lower bound. One H100-equivalent is the performance of an NVIDIA H100 GPU; other chips are converted."
+  },
+  "updatedAt": "2026-10-14T02:33:55.538Z",
+  "items": [
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 940850
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 109411
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 26050
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 20480
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 18156
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 16119
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 11846
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 10807
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 8391
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 8190
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 7972
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 6286
+    },
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 5240
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 4781
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 4480
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 4303
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 3109
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 3032
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 2270
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 2048
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 1772
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 1749
+    },
+    {
+      "name": "Taiwan",
+      "country": "TW",
+      "value": 1710
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 1237
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 1215
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 1135
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 856
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 637
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 400
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 252
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 182
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 76
+    },
+    {
+      "name": "Vietnam",
+      "country": "VN",
+      "value": 50
+    }
+  ]
+}

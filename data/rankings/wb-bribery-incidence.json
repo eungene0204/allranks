@@ -1,0 +1,327 @@
+{
+  "id": "wb-bribery-incidence",
+  "title": "Bribery incidence",
+  "category": "economy",
+  "icon": "🏭",
+  "desc": "The percent of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Bribery incidence (% of firms experiencing at least one bribe payment request)",
+    "url": "https://data.worldbank.org/indicator/IC.FRM.BRIB.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T11:14:41.360Z",
+  "items": [
+    {
+      "name": "Kiribati",
+      "country": "KI",
+      "value": 48.113
+    },
+    {
+      "name": "Zimbabwe",
+      "country": "ZW",
+      "value": 44.462
+    },
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 40.245
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 33.194
+    },
+    {
+      "name": "Mauritania",
+      "country": "MR",
+      "value": 29.44
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country": "GW",
+      "value": 27.635
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 26.235
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 26.031
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country": "TT",
+      "value": 22.551
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 22.395
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 22.097
+    },
+    {
+      "name": "Liberia",
+      "country": "LR",
+      "value": 20.578
+    },
+    {
+      "name": "Gabon",
+      "country": "GA",
+      "value": 20.545
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 20.445
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 19.024
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 17.678
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 16.087
+    },
+    {
+      "name": "Albania",
+      "country": "AL",
+      "value": 15.123
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 14.564
+    },
+    {
+      "name": "Somalia",
+      "country": "SO",
+      "value": 14.441
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 14.015
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 13.632
+    },
+    {
+      "name": "Solomon Islands",
+      "country": "SB",
+      "value": 13.512
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 10.782
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 9.832
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 9.791
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 9.546
+    },
+    {
+      "name": "Afghanistan",
+      "country": "AF",
+      "value": 9.488
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 9.397
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 9.03
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 8.743
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 8.016
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 7.604
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 7.566
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 7.156
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 7.127
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 7.099
+    },
+    {
+      "name": "Fiji",
+      "country": "FJ",
+      "value": 6.894
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 6.313
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 6.146
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 6.133
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 5.719
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country": "AG",
+      "value": 5.501
+    },
+    {
+      "name": "Brunei",
+      "country": "BN",
+      "value": 3.297
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 3.061
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 3.059
+    },
+    {
+      "name": "Niger",
+      "country": "NE",
+      "value": 2.856
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 2.644
+    },
+    {
+      "name": "Maldives",
+      "country": "MV",
+      "value": 2.589
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 2.568
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 2.507
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 2.466
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 1.788
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 0.742
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 0.327
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 0.242
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 0.098
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 0.092
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 0.019
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 0
+    },
+    {
+      "name": "Lithuania",
+      "country": "LT",
+      "value": 0
+    }
+  ]
+}

@@ -43,6 +43,7 @@ export const countryInfo = (code: string) => {
   return c ? { name: c.name, region: c.region ?? "" } : undefined;
 };
 
+
 /** Latitude/longitude of a country's centre point, for placing bubbles on the map. */
 export const countryCoords = (code: string) => {
   const c = countries().get(code);
@@ -244,7 +245,7 @@ export type CountryRankingRow = {
 };
 
 /** One headline figure of a country (population, GDP…) with its place in the matching world ranking. */
-export type KeyStat = { id: string; label: string; icon: string; value: string; rank: number; total: number };
+export type KeyStat = { id: string; label: string; icon: string; value: string; rank: number; total: number; year: number };
 
 /** The world rankings whose figures head every country page, in display order. */
 const KEY_STATS: [id: string, label: string][] = [
@@ -291,7 +292,7 @@ export const countryDetail = cache(function countryDetail(code: string): Country
     if (!r) continue;
     const all = ranked(r);
     const e = all.find((x) => x.country === code);
-    if (e) keyStats.push({ id, label, icon: r.icon, value: formatValue(r, e.value), rank: e.rank, total: all.length });
+    if (e) keyStats.push({ id, label, icon: r.icon, value: formatValue(r, e.value), rank: e.rank, total: all.length, year: r.year });
   }
   const detail: CountryDetail = {
     summary,

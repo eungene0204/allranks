@@ -1,0 +1,168 @@
+{
+  "id": "wbx-diff-finance-s",
+  "title": "Challenge: Using financial services, total (% of population ages 15+ without an ID)",
+  "category": "society",
+  "icon": "👥",
+  "desc": "The percentage of adult respondents without an ID who report that one limitation that they experience because they lack an ID is the inability to open a bank account. If the minimum age for obtaining an ID is above 15, observations below the minimum age are excluded, total sample.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "diff_finance_s",
+  "year": 2024,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Challenge: Using financial services, total (% of population ages 15+ without an ID)",
+    "url": "https://data.worldbank.org/indicator/diff_finance_s",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.198Z",
+  "items": [
+    {
+      "name": "Senegal",
+      "country": "SN",
+      "value": 52.2426
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 49.2885
+    },
+    {
+      "name": "Eswatini",
+      "country": "SZ",
+      "value": 48.5688
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 46.8987
+    },
+    {
+      "name": "Ivory Coast",
+      "country": "CI",
+      "value": 41.5807
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 40.9704
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 40.6515
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 40.5977
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 37.1262
+    },
+    {
+      "name": "DR Congo",
+      "country": "CD",
+      "value": 34.311
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 34.2574
+    },
+    {
+      "name": "Congo",
+      "country": "CG",
+      "value": 32.6987
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 31.3559
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 31.1792
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 30.779
+    },
+    {
+      "name": "Gabon",
+      "country": "GA",
+      "value": 29.916
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 29.861
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 29.5285
+    },
+    {
+      "name": "Niger",
+      "country": "NE",
+      "value": 28.9728
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 28.0492
+    },
+    {
+      "name": "Cameroon",
+      "country": "CM",
+      "value": 26.6561
+    },
+    {
+      "name": "Tanzania",
+      "country": "TZ",
+      "value": 26.1993
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 22.4028
+    },
+    {
+      "name": "Mali",
+      "country": "ML",
+      "value": 20.0415
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 19.553
+    },
+    {
+      "name": "Sierra Leone",
+      "country": "SL",
+      "value": 18.5394
+    },
+    {
+      "name": "Togo",
+      "country": "TG",
+      "value": 18.4266
+    },
+    {
+      "name": "Lesotho",
+      "country": "LS",
+      "value": 17.2818
+    },
+    {
+      "name": "Tajikistan",
+      "country": "TJ",
+      "value": 15.3463
+    }
+  ]
+}

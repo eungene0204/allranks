@@ -1,0 +1,133 @@
+{
+  "id": "ai-job-postings",
+  "title": "Highest Demand for AI Skills",
+  "category": "ai",
+  "icon": "💼",
+  "desc": "Share of all online job postings that ask for artificial intelligence skills.",
+  "unit": "% of job postings",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "csv",
+    "name": "Stanford AI Index (Lightcast), via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings",
+    "license": "CC BY 4.0 (Our World in Data)",
+    "note": "Only about twenty countries with enough online job-posting data are covered."
+  },
+  "updatedAt": "2026-10-14T02:33:25.530Z",
+  "items": [
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 4.6886
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 3.4756
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 3.4337
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 3.3149
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 3.0013
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 2.9167
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 2.8718
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 2.768
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 2.5554
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 2.4124
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 1.928
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 1.776
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 1.594
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 1.3832
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 1.3568
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 1.3286
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 1.1299
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 1.0408
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 0.988
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 0.8417
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 0.8122
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 0.3797
+    }
+  ]
+}

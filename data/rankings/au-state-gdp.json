@@ -1,0 +1,64 @@
+{
+  "id": "au-state-gdp",
+  "title": "Australian States by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross state product in 2024–25, in billions of Australian dollars.",
+  "unit": "AUD billion",
+  "prefix": "A$",
+  "suffix": "B",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "AU",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Australian Bureau of Statistics, Australian National Accounts: State Accounts (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Australian_states_and_territories_by_gross_state_product",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:39:15.290Z",
+  "items": [
+    {
+      "name": "New South Wales",
+      "country": "AU",
+      "value": 829.13
+    },
+    {
+      "name": "Victoria",
+      "country": "AU",
+      "value": 615.41
+    },
+    {
+      "name": "Queensland",
+      "country": "AU",
+      "value": 523.85
+    },
+    {
+      "name": "Western Australia",
+      "country": "AU",
+      "value": 461.66
+    },
+    {
+      "name": "South Australia",
+      "country": "AU",
+      "value": 151.8
+    },
+    {
+      "name": "Australian Capital Territory",
+      "country": "AU",
+      "value": 57.58
+    },
+    {
+      "name": "Tasmania",
+      "country": "AU",
+      "value": 42.82
+    },
+    {
+      "name": "Northern Territory",
+      "country": "AU",
+      "value": 33.96
+    }
+  ]
+}

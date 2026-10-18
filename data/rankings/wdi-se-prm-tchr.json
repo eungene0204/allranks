@@ -1,0 +1,93 @@
+{
+  "id": "wdi-se-prm-tchr",
+  "title": "Primary education, teachers",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Primary education, teachers refers to the total number of teachers at primary level, including full-time and part-time teachers.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "indicator": "SE.PRM.TCHR",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Primary education, teachers",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.TCHR",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:58.385Z",
+  "items": [
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 5190989
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 1509890
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 305368
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 247748
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 157456
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 135357
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 130601
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 113317
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 43226
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 26847
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 21845
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 13495
+    },
+    {
+      "name": "Tuvalu",
+      "country": "TV",
+      "value": 107
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 66
+    }
+  ]
+}

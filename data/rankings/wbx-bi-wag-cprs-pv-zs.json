@@ -1,0 +1,78 @@
+{
+  "id": "wbx-bi-wag-cprs-pv-zs",
+  "title": "Pay compression ratio in private sector (ratio of 90th/10th percentile earners)",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Pay compression ratio in private sector (ratio of 90th/10th percentile earners), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "BI.WAG.CPRS.PV.ZS",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Pay compression ratio in private sector (ratio of 90th/10th percentile earners)",
+    "url": "https://data.worldbank.org/indicator/BI.WAG.CPRS.PV.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.723Z",
+  "items": [
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 10.8625
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 7.5641
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 7.1782
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 6.9299
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 5.9351
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 5.1611
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 4.5415
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 3.8858
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 3.5385
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 3.491
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 3
+    }
+  ]
+}

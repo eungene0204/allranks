@@ -132,6 +132,8 @@ h2.section { font-size: 20px; margin: 40px 0 14px; letter-spacing: -.02em; }
 .card li { display: flex; align-items: center; gap: 10px; font-size: 14px; min-width: 0; }
 .card li .v { flex-shrink: 0; margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .card .more { margin-top: auto; font-size: 13px; color: var(--muted); }
+.freshness-badge { display: inline-flex; align-self: flex-start; padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 700; line-height: 1.5; letter-spacing: 0; text-transform: none; }
+.freshness-historical { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
 
 .rk {
   width: 22px; height: 22px; border-radius: 50%; display: inline-grid; place-items: center;
@@ -208,6 +210,8 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 }
 .ranking-context { margin: 20px 0 24px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .ranking-context h2 { margin: 0 0 16px; font-size: 17px; }
+.ranking-context-heading { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; margin-bottom: 16px; }
+.ranking-context-heading h2 { margin: 0; }
 .ranking-context-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 28px; margin: 0; }
 .ranking-context-grid > div { min-width: 0; }
 .ranking-context-definition { grid-column: 1 / -1; }
@@ -220,6 +224,23 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 .ranking-context-links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 4px; font-size: 12px; }
 .ranking-context-note, .ranking-context-footnote { margin: 16px 0 0; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
 .ranking-context-footnote { padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); }
+.ranking-history { margin: 24px 0; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.ranking-history-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; }
+.ranking-history h2 { margin: 0; font-size: 18px; }
+.ranking-history-heading p, .ranking-history-note, .ranking-history-status { margin: 4px 0 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.ranking-history-heading label { display: grid; gap: 4px; color: var(--muted); font-size: 12px; font-weight: 600; }
+.ranking-history select { max-width: min(300px, 100%); padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; font-size: 14px; }
+.ranking-history-chart { position: relative; height: 160px; margin: 18px 0 8px; border-bottom: 1px solid var(--line); }
+.ranking-history-chart svg { display: block; width: 100%; height: calc(100% - 20px); overflow: visible; }
+.ranking-history-chart polyline { fill: none; stroke: var(--bar); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.ranking-history-chart circle { fill: var(--bar); stroke: var(--surface); stroke-width: .7; }
+.ranking-history-chart-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
+.ranking-history-scroll { overflow-x: auto; }
+.ranking-history table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.ranking-history th, .ranking-history td { padding: 8px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+.ranking-history thead th { color: var(--muted); font-size: 11px; }
+.ranking-history-note { margin-top: 12px; }
+.ranking-history-note a { color: var(--accent); text-decoration: underline; }
 @media (max-width: 600px) {
   .ranking-context { padding: 16px; }
   .ranking-context-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }

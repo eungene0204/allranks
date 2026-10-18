@@ -1,0 +1,123 @@
+{
+  "id": "ai-large-scale-models",
+  "title": "Countries Building the Most Large-Scale AI Models",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "Cumulative number of large-scale AI systems (trained with more than 10²³ FLOP) since 2019, by the country of the developers' main affiliation.",
+  "unit": "AI models",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "csv",
+    "name": "Epoch AI, via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/cumulative-number-of-large-scale-ai-systems-by-country",
+    "license": "CC BY 4.0 (Our World in Data)",
+    "note": "A model with authors in several countries counts for each. Secretive models may be missing."
+  },
+  "updatedAt": "2026-10-13T20:33:22.818Z",
+  "items": [
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 221
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 194
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 20
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 18
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 8
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 8
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 7
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 7
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 4
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 4
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 4
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 4
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 2
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 2
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 2
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 2
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 1
+    },
+    {
+      "name": "Bulgaria",
+      "country": "BG",
+      "value": 1
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 1
+    },
+    {
+      "name": "Ukraine",
+      "country": "UA",
+      "value": 1
+    }
+  ]
+}

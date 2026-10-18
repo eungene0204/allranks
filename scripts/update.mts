@@ -1,11 +1,10 @@
 // Usage:  node scripts/update.mts [ranking-id ...] [--dry] [--jobs N]
 //   no ids → every pipeline in registry.mts;  --dry → fetch and report, write nothing;  --jobs → pipelines fetched in parallel (default 3).
-import { existsSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { loadCountries } from "./lib/countries.mts";
 import { PIPELINES } from "./registry.mts";
 import type { Item, RankingFile } from "./lib/types.mts";
 import type { Fetched } from "./lib/types.mts";
-import { MIN_RANKING_YEAR } from "./lib/ranking-policy.mts";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
@@ -27,29 +26,23 @@ let failed = 0;
 async function run(p: (typeof PIPELINES)[number]) {
   const { id } = p.meta;
   const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
-  const minYear = Math.max(MIN_RANKING_YEAR, p.minYear ?? MIN_RANKING_YEAR);
+  const minYear = p.minYear ?? 2025;
   try {
     // Query every registered provider. The newest eligible response wins; provider order breaks ties.
     const attempts = await Promise.allSettled([p.fetch, ...(p.fallbacks ?? [])].map((fetcher) => fetcher(ctx)));
     const available = attempts.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
-    // `year` is the data's reference year. A newer publication/asOf date cannot rescue 2025 data.
-    const effectiveYear = (got: Fetched) => got.year;
+    const effectiveYear = (got: Fetched) => Number((got.asOf ?? String(got.year)).slice(0, 4)) || got.year;
     const eligible = available.filter((got) => effectiveYear(got) >= minYear);
     if (!eligible.length) {
       const failedSources = attempts.filter((r) => r.status === "rejected").length;
-      if (failedSources === attempts.length && prev && prev.year >= minYear) {
-        console.log(`= ${id.padEnd(22)} retained ${prev.asOf ?? prev.year} snapshot · all ${failedSources} sources unavailable`);
-        return;
-      }
-      if (prev && prev.year < minYear && !dry) unlinkSync(fileFor(id));
-      if (prev && prev.year < minYear) {
-        console.log(`${dry ? "~" : "−"} ${id.padEnd(22)} removed · no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
-      } else {
-        console.log(`= ${id.padEnd(22)} no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
-      }
+      console.log(`= ${id.padEnd(22)} ${prev ? `retained ${prev.asOf ?? prev.year} historical snapshot` : "no eligible snapshot"} · no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
       return;
     }
     const got = eligible.reduce((latest, current) => effectiveYear(current) > effectiveYear(latest) ? current : latest);
+    if (prev && effectiveYear(got) < Number((prev.asOf ?? String(prev.year)).slice(0, 4))) {
+      console.log(`= ${id.padEnd(22)} retained newer ${prev.asOf ?? prev.year} snapshot`);
+      return;
+    }
 
     // Guards: refuse data that looks broken rather than overwrite good data with it.
     const bad = got.items.filter((i) => !Number.isFinite(i.value));

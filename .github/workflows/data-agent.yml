@@ -57,7 +57,7 @@ jobs:
           MODE: ${{ inputs.mode || 'discover' }}
           EXTRA: ${{ inputs.extra }}
         # The pipelines inside "refresh"/"run" may fail on a single source; the agent run itself must still finish.
-        run: npm run agent -- "$MODE" --max-new 3 --focus "Use only data whose reference year is 2026 or later; 2025 and earlier are forbidden even if published in 2026. Check existing rankings to avoid duplicates and state the actual reference year." $EXTRA
+        run: npm run agent -- "$MODE" --max-new 3 --focus "Prioritize the latest available official data; check existing rankings to avoid duplicates and state the actual reference year." $EXTRA
       - name: Validate
         run: npm run data:validate && npm run lint
       - uses: peter-evans/create-pull-request@v7

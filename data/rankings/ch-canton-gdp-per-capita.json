@@ -1,0 +1,154 @@
+{
+  "id": "ch-canton-gdp-per-capita",
+  "title": "Swiss Cantons by GDP per Capita",
+  "short": "GDP per capita",
+  "category": "economy",
+  "icon": "💹",
+  "desc": "Gross regional domestic product per resident, in Swiss francs.",
+  "unit": "CHF per person",
+  "prefix": "CHF ",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "CH",
+  "year": 2022,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Swiss Federal Statistical Office (FSO), cantonal accounts (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_Swiss_cantons_by_GRDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:17:25.179Z",
+  "items": [
+    {
+      "name": "Basel-Stadt",
+      "country": "CH",
+      "value": 209782
+    },
+    {
+      "name": "Zug",
+      "country": "CH",
+      "value": 192958
+    },
+    {
+      "name": "Geneva",
+      "country": "CH",
+      "value": 119644
+    },
+    {
+      "name": "Neuchâtel",
+      "country": "CH",
+      "value": 106165
+    },
+    {
+      "name": "Zürich",
+      "country": "CH",
+      "value": 104620
+    },
+    {
+      "name": "Ticino",
+      "country": "CH",
+      "value": 102190
+    },
+    {
+      "name": "Schaffhausen",
+      "country": "CH",
+      "value": 100959
+    },
+    {
+      "name": "St. Gallen",
+      "country": "CH",
+      "value": 85320
+    },
+    {
+      "name": "Bern",
+      "country": "CH",
+      "value": 85151
+    },
+    {
+      "name": "Grisons",
+      "country": "CH",
+      "value": 82817
+    },
+    {
+      "name": "Jura",
+      "country": "CH",
+      "value": 78546
+    },
+    {
+      "name": "Vaud",
+      "country": "CH",
+      "value": 78021
+    },
+    {
+      "name": "Basel-Landschaft",
+      "country": "CH",
+      "value": 77693
+    },
+    {
+      "name": "Lucerne",
+      "country": "CH",
+      "value": 75544
+    },
+    {
+      "name": "Appenzell Innerrhoden",
+      "country": "CH",
+      "value": 75526
+    },
+    {
+      "name": "Glarus",
+      "country": "CH",
+      "value": 75430
+    },
+    {
+      "name": "Nidwalden",
+      "country": "CH",
+      "value": 74952
+    },
+    {
+      "name": "Obwalden",
+      "country": "CH",
+      "value": 74902
+    },
+    {
+      "name": "Solothurn",
+      "country": "CH",
+      "value": 73803
+    },
+    {
+      "name": "Schwyz",
+      "country": "CH",
+      "value": 70739
+    },
+    {
+      "name": "Thurgau",
+      "country": "CH",
+      "value": 70504
+    },
+    {
+      "name": "Appenzell Ausserrhoden",
+      "country": "CH",
+      "value": 67341
+    },
+    {
+      "name": "Aargau",
+      "country": "CH",
+      "value": 67224
+    },
+    {
+      "name": "Fribourg",
+      "country": "CH",
+      "value": 64502
+    },
+    {
+      "name": "Valais",
+      "country": "CH",
+      "value": 61387
+    },
+    {
+      "name": "Uri",
+      "country": "CH",
+      "value": 58392
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "wbx-sl-emp-undr-ma-zs",
+  "title": "Time-related underemployment, male (% of employment)",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Time-related underemployment refers to all persons in employment who (i) wanted to work additional hours, (ii) had worked less than a specified hours threshold (working time in all jobs), and (iii) were available to work additional hours given an opportunity for more work.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "SL.EMP.UNDR.MA.ZS",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Time-related underemployment, male (% of employment)",
+    "url": "https://data.worldbank.org/indicator/SL.EMP.UNDR.MA.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:24.919Z",
+  "items": [
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 19.027
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 6.049
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 5.166
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 4.206
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 3.947
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 3.751
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 3.724
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 3.453
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 3.184
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 2.403
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 2.21
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 1.995
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 1.728
+    },
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 1.667
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 1.312
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 0.913
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 0.455
+    }
+  ]
+}

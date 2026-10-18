@@ -5,6 +5,7 @@ import type { RankingCardData } from "@/lib/types";
 import Mark from "./Mark";
 import RankBadge from "./RankBadge";
 import CopyRankingLink from "./CopyRankingLink";
+import FreshnessBadge from "./FreshnessBadge";
 
 export default function RankingCard({ ranking: r }: { ranking: RankingCardData }) {
   return (
@@ -15,6 +16,7 @@ export default function RankingCard({ ranking: r }: { ranking: RankingCardData }
         {r.icon} {getCategory(r.category)?.name}
       </span>
       <h3>{r.title}</h3>
+      <FreshnessBadge year={r.year} />
       <ol>
         {r.top.map((t) => (
           <li key={t.name}>
@@ -28,7 +30,7 @@ export default function RankingCard({ ranking: r }: { ranking: RankingCardData }
         ))}
       </ol>
       <span className="more">
-        {r.entryCount} entries · {r.year} →
+        {r.entryCount} entries →
       </span>
     </Link>
       <CopyRankingLink id={r.id} title={r.title} />

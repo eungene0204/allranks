@@ -1,0 +1,118 @@
+{
+  "id": "wdi-nv-fsm-totl-cn",
+  "title": "Financial intermediary services indirectly Measured (FISIM) (current LCU)",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Financial intermediation services which are implicitly charged in the form of either the difference between a reference rate and the interest rate actually paid to depositors, or the difference between the interest rate charged to borrowers and a reference rate. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.",
+  "unit": "FISIM",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "indicator": "NV.FSM.TOTL.CN",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Financial intermediary services indirectly Measured (FISIM) (current LCU)",
+    "url": "https://data.worldbank.org/indicator/NV.FSM.TOTL.CN",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:42.946Z",
+  "items": [
+    {
+      "name": "Iraq",
+      "country": "IQ",
+      "value": 3560383400000
+    },
+    {
+      "name": "DR Congo",
+      "country": "CD",
+      "value": 1211392276000
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 656805155300.34
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 342600000000
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 337881000000
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 146663141787.03
+    },
+    {
+      "name": "Equatorial Guinea",
+      "country": "GQ",
+      "value": 78567000000
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 58852000000
+    },
+    {
+      "name": "Guyana",
+      "country": "GY",
+      "value": 38892000000
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 38630000000
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 4095168000
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 3262377214.21
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 933400000
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 531940700
+    },
+    {
+      "name": "Azerbaijan",
+      "country": "AZ",
+      "value": 437500000
+    },
+    {
+      "name": "Samoa",
+      "country": "WS",
+      "value": 223578100
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "country": "KN",
+      "value": 32850000
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 31072026.16
+    },
+    {
+      "name": "Micronesia",
+      "country": "FM",
+      "value": 8079800
+    }
+  ]
+}

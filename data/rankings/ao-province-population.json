@@ -1,0 +1,150 @@
+{
+  "id": "ao-province-population",
+  "title": "Angolan Provinces by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population of each of Angola's provinces at the 2024 census.",
+  "unit": "million people",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "AO",
+  "year": 2024,
+  "source": {
+    "kind": "wikipedia",
+    "name": "National Institute of Statistics (INE), 2024 census (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Provinces_of_Angola",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:25:19.047Z",
+  "items": [
+    {
+      "name": "Luanda",
+      "country": "AO",
+      "value": 8.8163,
+      "detail": "Luanda"
+    },
+    {
+      "name": "Huíla",
+      "country": "AO",
+      "value": 3.3029,
+      "detail": "Lubango"
+    },
+    {
+      "name": "Huambo",
+      "country": "AO",
+      "value": 2.6919,
+      "detail": "Huambo"
+    },
+    {
+      "name": "Benguela",
+      "country": "AO",
+      "value": 2.5976,
+      "detail": "Benguela"
+    },
+    {
+      "name": "Cuanza Sul",
+      "country": "AO",
+      "value": 2.328,
+      "detail": "Sumbe"
+    },
+    {
+      "name": "Bié",
+      "country": "AO",
+      "value": 2.2649,
+      "detail": "Cuíto"
+    },
+    {
+      "name": "Uíge",
+      "country": "AO",
+      "value": 2.0179,
+      "detail": "Uíge"
+    },
+    {
+      "name": "Cunene",
+      "country": "AO",
+      "value": 1.8064,
+      "detail": "Ondjiva"
+    },
+    {
+      "name": "Lunda Norte",
+      "country": "AO",
+      "value": 1.7422,
+      "detail": "Dundo"
+    },
+    {
+      "name": "Icolo e Bengo",
+      "country": "AO",
+      "value": 1.3727,
+      "detail": "Catete"
+    },
+    {
+      "name": "Malanje",
+      "country": "AO",
+      "value": 1.2982,
+      "detail": "Malanje"
+    },
+    {
+      "name": "Cabinda",
+      "country": "AO",
+      "value": 0.9034,
+      "detail": "Cabinda"
+    },
+    {
+      "name": "Lunda Sul",
+      "country": "AO",
+      "value": 0.8939,
+      "detail": "Saurimo"
+    },
+    {
+      "name": "Namibe",
+      "country": "AO",
+      "value": 0.8157,
+      "detail": "Moçâmedes"
+    },
+    {
+      "name": "Bengo",
+      "country": "AO",
+      "value": 0.7163,
+      "detail": "Caxito"
+    },
+    {
+      "name": "Zaire",
+      "country": "AO",
+      "value": 0.6827,
+      "detail": "M'banza-Kongo"
+    },
+    {
+      "name": "Cuanza Norte",
+      "country": "AO",
+      "value": 0.6591,
+      "detail": "N'dalatando"
+    },
+    {
+      "name": "Moxico",
+      "country": "AO",
+      "value": 0.5743,
+      "detail": "Luena"
+    },
+    {
+      "name": "Cubango",
+      "country": "AO",
+      "value": 0.5704,
+      "detail": "Menongue"
+    },
+    {
+      "name": "Moxico Leste",
+      "country": "AO",
+      "value": 0.4111,
+      "detail": "Cazombo"
+    },
+    {
+      "name": "Cuando",
+      "country": "AO",
+      "value": 0.1388,
+      "detail": "Mavinga"
+    }
+  ]
+}

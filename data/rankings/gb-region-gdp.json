@@ -1,0 +1,84 @@
+{
+  "id": "gb-region-gdp",
+  "title": "UK Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Gross regional domestic product of the nine English regions plus Wales, Scotland and Northern Ireland, in billions of pounds.",
+  "unit": "GBP billion",
+  "prefix": "£",
+  "suffix": "B",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Office for National Statistics, regional gross domestic product (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_regions_of_the_United_Kingdom_by_GRDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:15:30.107Z",
+  "items": [
+    {
+      "name": "London",
+      "country": "GB",
+      "value": 656.29
+    },
+    {
+      "name": "South East",
+      "country": "GB",
+      "value": 416.36
+    },
+    {
+      "name": "North West",
+      "country": "GB",
+      "value": 285.71
+    },
+    {
+      "name": "East of England",
+      "country": "GB",
+      "value": 242.94
+    },
+    {
+      "name": "South West",
+      "country": "GB",
+      "value": 222.44
+    },
+    {
+      "name": "Scotland",
+      "country": "GB",
+      "value": 218.78
+    },
+    {
+      "name": "West Midlands",
+      "country": "GB",
+      "value": 210.17
+    },
+    {
+      "name": "Yorkshire and the Humber",
+      "country": "GB",
+      "value": 193.12
+    },
+    {
+      "name": "East Midlands",
+      "country": "GB",
+      "value": 162.34
+    },
+    {
+      "name": "Wales",
+      "country": "GB",
+      "value": 100.33
+    },
+    {
+      "name": "North East",
+      "country": "GB",
+      "value": 82.7
+    },
+    {
+      "name": "Northern Ireland",
+      "country": "GB",
+      "value": 67.68
+    }
+  ]
+}

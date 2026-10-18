@@ -2,6 +2,7 @@ import Link from "next/link";
 import { countryInfo } from "@/lib/data";
 import { formatValue } from "@/lib/format";
 import type { Ranking } from "@/lib/types";
+import FreshnessBadge from "./FreshnessBadge";
 
 const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
 const DAY = new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" });
@@ -18,7 +19,7 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
 
   return (
     <section className="ranking-context" aria-labelledby="ranking-context-title">
-      <h2 id="ranking-context-title">About this ranking</h2>
+      <div className="ranking-context-heading"><h2 id="ranking-context-title">About this ranking</h2><FreshnessBadge year={r.year} /></div>
       <dl className="ranking-context-grid">
         <div>
           <dt>Source</dt>
@@ -33,7 +34,7 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
         </div>
         <div>
           <dt>Reference period</dt>
-          <dd>{period}<span className="ranking-context-secondary">Dataset updated {DAY.format(new Date(r.updatedAt))}</span></dd>
+          <dd>{period}<span className="ranking-context-secondary">Dataset updated {DAY.format(new Date(r.updatedAt))}. The badge reflects the reference year, not the update date.</span></dd>
         </div>
         <div className="ranking-context-definition">
           <dt>Definition</dt>

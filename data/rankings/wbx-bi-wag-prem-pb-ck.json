@@ -1,0 +1,73 @@
+{
+  "id": "wbx-bi-wag-prem-pb-ck",
+  "title": "Public sector wage premium, by occupational group: Clerks (compared to formal wage employees)",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Public sector wage premium, by occupational group: Clerks (compared to formal wage employees), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "compared to formal wage employees",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.WAG.PREM.PB.CK",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Public sector wage premium, by occupational group: Clerks (compared to formal wage employees)",
+    "url": "https://data.worldbank.org/indicator/BI.WAG.PREM.PB.CK",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.852Z",
+  "items": [
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.211
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 0.199
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 0.18
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 0.145
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.047
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0.046
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 0.013
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": -0.008
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": -0.019
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": -0.165
+    }
+  ]
+}

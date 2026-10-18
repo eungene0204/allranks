@@ -7,6 +7,7 @@ import type { Ranking } from "@/lib/types";
 import RankingTable from "./RankingTable";
 import SourceLine from "./SourceLine";
 import CopyRankingLink from "./CopyRankingLink";
+import FreshnessBadge from "./FreshnessBadge";
 
 const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
 
@@ -50,6 +51,7 @@ export default function CountryRegional({ rankings }: { rankings: Ranking[] }) {
       </h3><CopyRankingLink key={r.id} id={r.id} title={r.title} /></div>
       <p className="muted regional-desc">{r.desc}</p>
       <div className="meta">
+        <FreshnessBadge year={r.year} />
         <span className="chip">📅 {r.asOf ? MONTH.format(new Date(`${r.asOf}-01T00:00:00Z`)) : r.year}</span>
         <span className="chip">📏 {r.unit}</span>
         <span className="chip">{r.items.length} entries</span>

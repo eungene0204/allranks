@@ -1,0 +1,327 @@
+{
+  "id": "firms-with-bank-loans",
+  "title": "Firms with a Bank Loan",
+  "category": "economy",
+  "icon": "🏦",
+  "desc": "Share of surveyed firms holding a bank loan or line of credit.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Firms with a bank loan/line of credit (% of firms)",
+    "url": "https://data.worldbank.org/indicator/IC.FRM.BNKL.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T10:57:37.441Z",
+  "items": [
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 83.214
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 82.72
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 77.415
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 76.451
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 74.766
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 68.716
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 68.257
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 67.663
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 66.359
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 63.008
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 57.574
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 57.556
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 55.137
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 53.856
+    },
+    {
+      "name": "Fiji",
+      "country": "FJ",
+      "value": 53.801
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 53.549
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 52.303
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 49.977
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 46.845
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 46.402
+    },
+    {
+      "name": "Lithuania",
+      "country": "LT",
+      "value": 46.2
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 45.887
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 43.836
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 43.24
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 43.231
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 39.289
+    },
+    {
+      "name": "Solomon Islands",
+      "country": "SB",
+      "value": 38.738
+    },
+    {
+      "name": "Liberia",
+      "country": "LR",
+      "value": 38.396
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 37.717
+    },
+    {
+      "name": "Gabon",
+      "country": "GA",
+      "value": 35.732
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 35.663
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 34.757
+    },
+    {
+      "name": "Maldives",
+      "country": "MV",
+      "value": 34.527
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country": "AG",
+      "value": 33.011
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 31.029
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 30.374
+    },
+    {
+      "name": "Brunei",
+      "country": "BN",
+      "value": 29.257
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country": "TT",
+      "value": 28.635
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 25.97
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 23.722
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 23.451
+    },
+    {
+      "name": "Zimbabwe",
+      "country": "ZW",
+      "value": 23.077
+    },
+    {
+      "name": "Albania",
+      "country": "AL",
+      "value": 22.759
+    },
+    {
+      "name": "Afghanistan",
+      "country": "AF",
+      "value": 21.539
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 21.463
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 20.824
+    },
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 20.529
+    },
+    {
+      "name": "Mauritania",
+      "country": "MR",
+      "value": 18.892
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 17.954
+    },
+    {
+      "name": "Niger",
+      "country": "NE",
+      "value": 16.434
+    },
+    {
+      "name": "Kiribati",
+      "country": "KI",
+      "value": 16.106
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 15.583
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 13.772
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 11.894
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 11.147
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country": "GW",
+      "value": 10.295
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 9.767
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 7.014
+    },
+    {
+      "name": "Somalia",
+      "country": "SO",
+      "value": 5.353
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 4.897
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 3.108
+    }
+  ]
+}

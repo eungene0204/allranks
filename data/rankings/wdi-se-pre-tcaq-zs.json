@@ -1,0 +1,78 @@
+{
+  "id": "wdi-se-pre-tcaq-zs",
+  "title": "Trained teachers in preprimary education (% of total teachers)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.",
+  "unit": "% of total teachers",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "SE.PRE.TCAQ.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Trained teachers in preprimary education (% of total teachers)",
+    "url": "https://data.worldbank.org/indicator/SE.PRE.TCAQ.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:14:42.388Z",
+  "items": [
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 100
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 100
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 100
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 100
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 92.039
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 91.685
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 91.066
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 75.584
+    },
+    {
+      "name": "Tuvalu",
+      "country": "TV",
+      "value": 75
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 37.926
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 12.188
+    }
+  ]
+}

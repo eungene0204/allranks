@@ -1,0 +1,118 @@
+{
+  "id": "wdi-eg-elc-nucl-zs",
+  "title": "Electricity production from nuclear sources (% of total)",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity.",
+  "unit": "% of total",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "indicator": "EG.ELC.NUCL.ZS",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Electricity production from nuclear sources (% of total)",
+    "url": "https://data.worldbank.org/indicator/EG.ELC.NUCL.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:20.262Z",
+  "items": [
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 67.223
+    },
+    {
+      "name": "Slovakia",
+      "country": "SK",
+      "value": 65.623
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 41.987
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 40.526
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 39.733
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 38.849
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 32.627
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 28.717
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 27.83
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 27.193
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 18.003
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 17.393
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 13.222
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 12.338
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 9.982
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 7.549
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 2.967
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 2.541
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 2.041
+    }
+  ]
+}

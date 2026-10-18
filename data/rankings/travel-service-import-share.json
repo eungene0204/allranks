@@ -1,0 +1,697 @@
+{
+  "id": "travel-service-import-share",
+  "title": "Largest Travel Shares in Service Imports",
+  "category": "economy",
+  "icon": "✈️",
+  "desc": "Travel as a share of service imports in the balance of payments.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Travel services (% of service imports, BoP)",
+    "url": "https://data.worldbank.org/indicator/BM.GSR.TRVL.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T10:57:37.679Z",
+  "items": [
+    {
+      "name": "Lesotho",
+      "country": "LS",
+      "value": 76.452
+    },
+    {
+      "name": "Albania",
+      "country": "AL",
+      "value": 75.933
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 65.328
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 64.673
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 54.182
+    },
+    {
+      "name": "Russia",
+      "country": "RU",
+      "value": 51.885
+    },
+    {
+      "name": "Ukraine",
+      "country": "UA",
+      "value": 46.957
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 43.035
+    },
+    {
+      "name": "Timor-Leste",
+      "country": "TL",
+      "value": 42.84
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 41.256
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 41.253
+    },
+    {
+      "name": "China",
+      "country": "CN",
+      "value": 40.784
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 40.32
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 39.503
+    },
+    {
+      "name": "Qatar",
+      "country": "QA",
+      "value": 39.385
+    },
+    {
+      "name": "Moldova",
+      "country": "MD",
+      "value": 39.377
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "country": "BA",
+      "value": 39.335
+    },
+    {
+      "name": "Macau",
+      "country": "MO",
+      "value": 38.906
+    },
+    {
+      "name": "Andorra",
+      "country": "AD",
+      "value": 38.467
+    },
+    {
+      "name": "Tonga",
+      "country": "TO",
+      "value": 38.244
+    },
+    {
+      "name": "Brunei",
+      "country": "BN",
+      "value": 36.408
+    },
+    {
+      "name": "Serbia",
+      "country": "RS",
+      "value": 36.191
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 35.957
+    },
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 35.858
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 34.917
+    },
+    {
+      "name": "Palestine",
+      "country": "PS",
+      "value": 34.221
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 33.293
+    },
+    {
+      "name": "Iraq",
+      "country": "IQ",
+      "value": 32.605
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 32.478
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 31.502
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 31.228
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 30.535
+    },
+    {
+      "name": "Romania",
+      "country": "RO",
+      "value": 30.199
+    },
+    {
+      "name": "Cape Verde",
+      "country": "CV",
+      "value": 28.237
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 27.796
+    },
+    {
+      "name": "Maldives",
+      "country": "MV",
+      "value": 27.675
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 27.456
+    },
+    {
+      "name": "Norway",
+      "country": "NO",
+      "value": 26.534
+    },
+    {
+      "name": "Portugal",
+      "country": "PT",
+      "value": 26.079
+    },
+    {
+      "name": "United Arab Emirates",
+      "country": "AE",
+      "value": 25.809
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 25.548
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 25.074
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 24.786
+    },
+    {
+      "name": "United Kingdom",
+      "country": "GB",
+      "value": 24.729
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 24.716
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 24.672
+    },
+    {
+      "name": "Bulgaria",
+      "country": "BG",
+      "value": 24.672
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 24.659
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 24.565
+    },
+    {
+      "name": "Bermuda",
+      "country": "BM",
+      "value": 24.061
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country": "TT",
+      "value": 24.049
+    },
+    {
+      "name": "Latvia",
+      "country": "LV",
+      "value": 23.604
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 23.391
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 23.037
+    },
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 22.883
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 22.833
+    },
+    {
+      "name": "Tunisia",
+      "country": "TN",
+      "value": 22.72
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 22.628
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 22.487
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 22.397
+    },
+    {
+      "name": "Germany",
+      "country": "DE",
+      "value": 22.25
+    },
+    {
+      "name": "New Zealand",
+      "country": "NZ",
+      "value": 22.003
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 21.793
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 21.421
+    },
+    {
+      "name": "Morocco",
+      "country": "MA",
+      "value": 21.395
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 21.207
+    },
+    {
+      "name": "Uruguay",
+      "country": "UY",
+      "value": 21.074
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 20.925
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 20.494
+    },
+    {
+      "name": "Slovakia",
+      "country": "SK",
+      "value": 20.077
+    },
+    {
+      "name": "North Macedonia",
+      "country": "MK",
+      "value": 20.058
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 20.036
+    },
+    {
+      "name": "Cambodia",
+      "country": "KH",
+      "value": 19.965
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 19.894
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 19.731
+    },
+    {
+      "name": "South Korea",
+      "country": "KR",
+      "value": 19.333
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 19.055
+    },
+    {
+      "name": "Kiribati",
+      "country": "KI",
+      "value": 18.878
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 18.713
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 17.827
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "country": "KN",
+      "value": 17.802
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 17.529
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 17.335
+    },
+    {
+      "name": "France",
+      "country": "FR",
+      "value": 17.202
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 17.074
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 16.772
+    },
+    {
+      "name": "Angola",
+      "country": "AO",
+      "value": 16.307
+    },
+    {
+      "name": "Venezuela",
+      "country": "VE",
+      "value": 16.009
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 15.714
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country": "AG",
+      "value": 15.678
+    },
+    {
+      "name": "Belgium",
+      "country": "BE",
+      "value": 15.275
+    },
+    {
+      "name": "Türkiye",
+      "country": "TR",
+      "value": 15.172
+    },
+    {
+      "name": "Azerbaijan",
+      "country": "AZ",
+      "value": 15.075
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 14.916
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 14.56
+    },
+    {
+      "name": "Egypt",
+      "country": "EG",
+      "value": 14.474
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 14.364
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 14.243
+    },
+    {
+      "name": "Estonia",
+      "country": "EE",
+      "value": 14.086
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 13.783
+    },
+    {
+      "name": "Samoa",
+      "country": "WS",
+      "value": 13.229
+    },
+    {
+      "name": "South Africa",
+      "country": "ZA",
+      "value": 13.011
+    },
+    {
+      "name": "Lithuania",
+      "country": "LT",
+      "value": 12.162
+    },
+    {
+      "name": "Finland",
+      "country": "FI",
+      "value": 12.084
+    },
+    {
+      "name": "Georgia",
+      "country": "GE",
+      "value": 11.928
+    },
+    {
+      "name": "Madagascar",
+      "country": "MG",
+      "value": 11.84
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 11.819
+    },
+    {
+      "name": "Bahrain",
+      "country": "BH",
+      "value": 11.679
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 11.638
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 11.416
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 10.898
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 10.873
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 10.538
+    },
+    {
+      "name": "Denmark",
+      "country": "DK",
+      "value": 10.357
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 10.356
+    },
+    {
+      "name": "Seychelles",
+      "country": "SC",
+      "value": 10.082
+    },
+    {
+      "name": "Botswana",
+      "country": "BW",
+      "value": 9.37
+    },
+    {
+      "name": "Cyprus",
+      "country": "CY",
+      "value": 9.356
+    },
+    {
+      "name": "Eswatini",
+      "country": "SZ",
+      "value": 9.288
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 9.183
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 9.162
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 8.874
+    },
+    {
+      "name": "Singapore",
+      "country": "SG",
+      "value": 8.804
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 8.725
+    },
+    {
+      "name": "Jamaica",
+      "country": "JM",
+      "value": 8.655
+    },
+    {
+      "name": "Montenegro",
+      "country": "ME",
+      "value": 8.316
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 8.139
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 7.264
+    },
+    {
+      "name": "Japan",
+      "country": "JP",
+      "value": 7.233
+    },
+    {
+      "name": "DR Congo",
+      "country": "CD",
+      "value": 5.848
+    },
+    {
+      "name": "Sudan",
+      "country": "SD",
+      "value": 5.483
+    },
+    {
+      "name": "Luxembourg",
+      "country": "LU",
+      "value": 3.642
+    },
+    {
+      "name": "Tajikistan",
+      "country": "TJ",
+      "value": 3.489
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 2.546
+    },
+    {
+      "name": "Ireland",
+      "country": "IE",
+      "value": 2.461
+    }
+  ]
+}

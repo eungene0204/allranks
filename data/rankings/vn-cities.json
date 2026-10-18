@@ -1,0 +1,78 @@
+{
+  "id": "vn-cities",
+  "title": "Largest Cities in Vietnam",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "Vietnam's centrally governed and provincial cities ranked by population (2025).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "VN",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "General Statistics Office of Vietnam (2025) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:42:27.098Z",
+  "items": [
+    {
+      "name": "Ho Chi Minh City",
+      "country": "VN",
+      "value": 14002598,
+      "detail": "Southeast"
+    },
+    {
+      "name": "Hanoi",
+      "country": "VN",
+      "value": 8807523,
+      "detail": "Red River Delta"
+    },
+    {
+      "name": "Haiphong",
+      "country": "VN",
+      "value": 4664124,
+      "detail": "Red River Delta"
+    },
+    {
+      "name": "Dong Nai",
+      "country": "VN",
+      "value": 4491408,
+      "detail": "Southeast"
+    },
+    {
+      "name": "Can Tho",
+      "country": "VN",
+      "value": 4199824,
+      "detail": "Mekong River Delta"
+    },
+    {
+      "name": "Bắc Ninh",
+      "country": "VN",
+      "value": 3989623,
+      "detail": "Red River Delta"
+    },
+    {
+      "name": "Da Nang",
+      "country": "VN",
+      "value": 3065628,
+      "detail": "South Central Coast"
+    },
+    {
+      "name": "Quang Ninh",
+      "country": "VN",
+      "value": 1497447,
+      "detail": "Half Red River Delta, half Northeast"
+    },
+    {
+      "name": "Hue",
+      "country": "VN",
+      "value": 1432986,
+      "detail": "North Central Coast"
+    }
+  ]
+}

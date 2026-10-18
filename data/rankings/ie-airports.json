@@ -1,0 +1,54 @@
+{
+  "id": "ie-airports",
+  "title": "Busiest Airports in Ireland",
+  "short": "Airports",
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Irish airports ranked by total passengers in 2025.",
+  "unit": "million passengers",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "IE",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Irish airport operators (2025) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Ireland",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T20:30:22.879Z",
+  "items": [
+    {
+      "name": "Dublin Airport",
+      "country": "IE",
+      "value": 36.403,
+      "detail": "Dublin"
+    },
+    {
+      "name": "Cork Airport",
+      "country": "IE",
+      "value": 3.461,
+      "detail": "Cork"
+    },
+    {
+      "name": "Shannon Airport",
+      "country": "IE",
+      "value": 2.24,
+      "detail": "Clare"
+    },
+    {
+      "name": "Ireland West Airport",
+      "country": "IE",
+      "value": 0.946,
+      "detail": "Mayo"
+    },
+    {
+      "name": "Kerry Airport",
+      "country": "IE",
+      "value": 0.44,
+      "detail": "Kerry"
+    }
+  ]
+}

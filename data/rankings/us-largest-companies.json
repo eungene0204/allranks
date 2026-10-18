@@ -1,0 +1,624 @@
+{
+  "id": "us-largest-companies",
+  "title": "Largest US Companies by Revenue",
+  "short": "Companies",
+  "category": "markets",
+  "icon": "🏢",
+  "desc": "The 100 biggest companies headquartered in the United States, ranked by annual revenue.",
+  "unit": "USD billion",
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Fortune 500 (2025), revenue of fiscal year 2024 (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited agency"
+  },
+  "updatedAt": "2026-10-13T18:36:22.107Z",
+  "items": [
+    {
+      "name": "Walmart",
+      "country": "US",
+      "value": 680.985,
+      "detail": "Retail"
+    },
+    {
+      "name": "Amazon",
+      "country": "US",
+      "value": 637.959,
+      "detail": "Retail and cloud computing"
+    },
+    {
+      "name": "UnitedHealth Group",
+      "country": "US",
+      "value": 400.278,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Apple",
+      "country": "US",
+      "value": 391.035,
+      "detail": "Technology"
+    },
+    {
+      "name": "CVS Health",
+      "country": "US",
+      "value": 372.809,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "country": "US",
+      "value": 371.433,
+      "detail": "Conglomerate"
+    },
+    {
+      "name": "Alphabet",
+      "country": "US",
+      "value": 350.018,
+      "detail": "Technology and cloud computing"
+    },
+    {
+      "name": "Exxon Mobil",
+      "country": "US",
+      "value": 349.595,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "McKesson Corporation",
+      "country": "US",
+      "value": 308.951,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Cencora",
+      "country": "US",
+      "value": 293.959,
+      "detail": "Pharmacy wholesale"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "country": "US",
+      "value": 278.906,
+      "detail": "Financials"
+    },
+    {
+      "name": "Costco Wholesale",
+      "country": "US",
+      "value": 254.453,
+      "detail": "Retail"
+    },
+    {
+      "name": "Cigna",
+      "country": "US",
+      "value": 247.121,
+      "detail": "Health insurance"
+    },
+    {
+      "name": "Microsoft",
+      "country": "US",
+      "value": 245.122,
+      "detail": "Technology and cloud computing"
+    },
+    {
+      "name": "Cardinal Health",
+      "country": "US",
+      "value": 226.827,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Chevron",
+      "country": "US",
+      "value": 202.792,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "Bank of America",
+      "country": "US",
+      "value": 192.434,
+      "detail": "Financials"
+    },
+    {
+      "name": "General Motors",
+      "country": "US",
+      "value": 187.442,
+      "detail": "Automotive"
+    },
+    {
+      "name": "Ford Motor",
+      "country": "US",
+      "value": 184.992,
+      "detail": "Automotive"
+    },
+    {
+      "name": "Elevance Health",
+      "country": "US",
+      "value": 177.011,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Citigroup",
+      "country": "US",
+      "value": 170.757,
+      "detail": "Financials"
+    },
+    {
+      "name": "Meta Platforms",
+      "country": "US",
+      "value": 164.501,
+      "detail": "Technology"
+    },
+    {
+      "name": "Centene",
+      "country": "US",
+      "value": 163.071,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "The Home Depot",
+      "country": "US",
+      "value": 159.514,
+      "detail": "Retail"
+    },
+    {
+      "name": "Fannie Mae",
+      "country": "US",
+      "value": 152.67,
+      "detail": "Financials"
+    },
+    {
+      "name": "Walgreens Boots Alliance",
+      "country": "US",
+      "value": 147.658,
+      "detail": "Pharmaceutical"
+    },
+    {
+      "name": "Kroger",
+      "country": "US",
+      "value": 147.123,
+      "detail": "Retail"
+    },
+    {
+      "name": "Phillips 66",
+      "country": "US",
+      "value": 145.496,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "Marathon Petroleum",
+      "country": "US",
+      "value": 140.412,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "Verizon Communications",
+      "country": "US",
+      "value": 134.788,
+      "detail": "Telecommunications"
+    },
+    {
+      "name": "Nvidia",
+      "country": "US",
+      "value": 130.497,
+      "detail": "Technology"
+    },
+    {
+      "name": "Goldman Sachs Group",
+      "country": "US",
+      "value": 126.853,
+      "detail": "Financials"
+    },
+    {
+      "name": "Wells Fargo",
+      "country": "US",
+      "value": 125.397,
+      "detail": "Financials"
+    },
+    {
+      "name": "Valero Energy",
+      "country": "US",
+      "value": 123.974,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "Comcast",
+      "country": "US",
+      "value": 123.731,
+      "detail": "Telecommunications"
+    },
+    {
+      "name": "State Farm Insurance",
+      "country": "US",
+      "value": 122.951,
+      "detail": "Financials"
+    },
+    {
+      "name": "AT&T",
+      "country": "US",
+      "value": 122.336,
+      "detail": "Conglomerate and telecommunications"
+    },
+    {
+      "name": "Freddie Mac",
+      "country": "US",
+      "value": 122.052,
+      "detail": "Financials"
+    },
+    {
+      "name": "Humana",
+      "country": "US",
+      "value": 117.761,
+      "detail": "Health insurance"
+    },
+    {
+      "name": "Morgan Stanley",
+      "country": "US",
+      "value": 107.285,
+      "detail": "Financials"
+    },
+    {
+      "name": "Target",
+      "country": "US",
+      "value": 106.566,
+      "detail": "Retail"
+    },
+    {
+      "name": "StoneX Group",
+      "country": "US",
+      "value": 99.888,
+      "detail": "Financials"
+    },
+    {
+      "name": "Tesla",
+      "country": "US",
+      "value": 97.69,
+      "detail": "Automotive and energy"
+    },
+    {
+      "name": "Dell Technologies",
+      "country": "US",
+      "value": 95.567,
+      "detail": "Technology"
+    },
+    {
+      "name": "PepsiCo",
+      "country": "US",
+      "value": 91.854,
+      "detail": "Beverage"
+    },
+    {
+      "name": "Walt Disney",
+      "country": "US",
+      "value": 91.361,
+      "detail": "Media"
+    },
+    {
+      "name": "United Parcel Service",
+      "country": "US",
+      "value": 91.07,
+      "detail": "Transportation"
+    },
+    {
+      "name": "Johnson & Johnson",
+      "country": "US",
+      "value": 88.821,
+      "detail": "Pharmaceutical"
+    },
+    {
+      "name": "FedEx",
+      "country": "US",
+      "value": 87.693,
+      "detail": "Transportation"
+    },
+    {
+      "name": "Archer Daniels Midland",
+      "country": "US",
+      "value": 85.53,
+      "detail": "Food industry"
+    },
+    {
+      "name": "Procter & Gamble",
+      "country": "US",
+      "value": 84.039,
+      "detail": "Consumer products manufacturing"
+    },
+    {
+      "name": "Lowe's",
+      "country": "US",
+      "value": 83.674,
+      "detail": "Retail"
+    },
+    {
+      "name": "Energy Transfer Partners",
+      "country": "US",
+      "value": 82.671,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "RTX",
+      "country": "US",
+      "value": 80.739,
+      "detail": "Aerospace and defense"
+    },
+    {
+      "name": "Albertsons",
+      "country": "US",
+      "value": 79.238,
+      "detail": "Retail"
+    },
+    {
+      "name": "Sysco",
+      "country": "US",
+      "value": 78.844,
+      "detail": "Food processing"
+    },
+    {
+      "name": "Progressive",
+      "country": "US",
+      "value": 75.372,
+      "detail": "Insurance"
+    },
+    {
+      "name": "American Express",
+      "country": "US",
+      "value": 74.201,
+      "detail": "Financials"
+    },
+    {
+      "name": "Lockheed Martin",
+      "country": "US",
+      "value": 71.043,
+      "detail": "Aerospace and defense"
+    },
+    {
+      "name": "MetLife",
+      "country": "US",
+      "value": 70.986,
+      "detail": "Financials"
+    },
+    {
+      "name": "HCA Healthcare",
+      "country": "US",
+      "value": 70.603,
+      "detail": "Healthcare"
+    },
+    {
+      "name": "Prudential Financial",
+      "country": "US",
+      "value": 70.405,
+      "detail": "Financials"
+    },
+    {
+      "name": "Boeing",
+      "country": "US",
+      "value": 66.517,
+      "detail": "Aerospace and defense"
+    },
+    {
+      "name": "Caterpillar",
+      "country": "US",
+      "value": 64.809,
+      "detail": "Machinery"
+    },
+    {
+      "name": "Merck",
+      "country": "US",
+      "value": 64.168,
+      "detail": "Pharmaceutical industry"
+    },
+    {
+      "name": "Allstate",
+      "country": "US",
+      "value": 64.106,
+      "detail": "Insurance"
+    },
+    {
+      "name": "Pfizer",
+      "country": "US",
+      "value": 63.627,
+      "detail": "Pharmaceutical industry"
+    },
+    {
+      "name": "IBM",
+      "country": "US",
+      "value": 62.753,
+      "detail": "Technology and cloud computing"
+    },
+    {
+      "name": "New York Life Insurance Company",
+      "country": "US",
+      "value": 62.639,
+      "detail": "Insurance"
+    },
+    {
+      "name": "Delta Air Lines",
+      "country": "US",
+      "value": 61.643,
+      "detail": "Airline"
+    },
+    {
+      "name": "Publix Super Markets",
+      "country": "US",
+      "value": 60.177,
+      "detail": "Retail"
+    },
+    {
+      "name": "Nationwide Mutual Insurance Company",
+      "country": "US",
+      "value": 58.646,
+      "detail": "Financials"
+    },
+    {
+      "name": "TD Synnex",
+      "country": "US",
+      "value": 58.452,
+      "detail": "Information Technology"
+    },
+    {
+      "name": "United Airlines Holdings",
+      "country": "US",
+      "value": 57.063,
+      "detail": "Airline"
+    },
+    {
+      "name": "ConocoPhillips",
+      "country": "US",
+      "value": 56.953,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "TJX",
+      "country": "US",
+      "value": 56.36,
+      "detail": "Retail"
+    },
+    {
+      "name": "AbbVie",
+      "country": "US",
+      "value": 56.334,
+      "detail": "Pharmaceutical"
+    },
+    {
+      "name": "Enterprise Products Partners",
+      "country": "US",
+      "value": 56.219,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "Charter Communications",
+      "country": "US",
+      "value": 55.085,
+      "detail": "Telecommunications"
+    },
+    {
+      "name": "Performance Food Group",
+      "country": "US",
+      "value": 54.681,
+      "detail": "Food processing"
+    },
+    {
+      "name": "American Airlines Group",
+      "country": "US",
+      "value": 54.211,
+      "detail": "Airline"
+    },
+    {
+      "name": "Capital One Financial",
+      "country": "US",
+      "value": 53.938,
+      "detail": "Financials"
+    },
+    {
+      "name": "Cisco Systems",
+      "country": "US",
+      "value": 53.803,
+      "detail": "Telecom hardware manufacturing"
+    },
+    {
+      "name": "HP",
+      "country": "US",
+      "value": 53.559,
+      "detail": "Technology"
+    },
+    {
+      "name": "Tyson Foods",
+      "country": "US",
+      "value": 53.309,
+      "detail": "Food processing"
+    },
+    {
+      "name": "Intel",
+      "country": "US",
+      "value": 53.101,
+      "detail": "Technology"
+    },
+    {
+      "name": "Oracle",
+      "country": "US",
+      "value": 52.961,
+      "detail": "Technology"
+    },
+    {
+      "name": "Broadcom",
+      "country": "US",
+      "value": 52.432,
+      "detail": "Technology"
+    },
+    {
+      "name": "Deere",
+      "country": "US",
+      "value": 51.716,
+      "detail": "Agriculture manufacturing"
+    },
+    {
+      "name": "Nike",
+      "country": "US",
+      "value": 51.361,
+      "detail": "Apparel"
+    },
+    {
+      "name": "Liberty Mutual Insurance Group",
+      "country": "US",
+      "value": 50.429,
+      "detail": "Insurance"
+    },
+    {
+      "name": "Plains GP Holdings",
+      "country": "US",
+      "value": 50.073,
+      "detail": "Petroleum"
+    },
+    {
+      "name": "USAA",
+      "country": "US",
+      "value": 48.56,
+      "detail": "Insurance"
+    },
+    {
+      "name": "Bristol-Myers Squibb",
+      "country": "US",
+      "value": 48.3,
+      "detail": "Pharmaceutical"
+    },
+    {
+      "name": "Ingram Micro Holding",
+      "country": "US",
+      "value": 47.984,
+      "detail": "Technology"
+    },
+    {
+      "name": "General Dynamics",
+      "country": "US",
+      "value": 47.716,
+      "detail": "Aerospace and defense"
+    },
+    {
+      "name": "Coca-Cola",
+      "country": "US",
+      "value": 47.061,
+      "detail": "Beverage"
+    },
+    {
+      "name": "TIAA",
+      "country": "US",
+      "value": 46.946,
+      "detail": "Financials"
+    },
+    {
+      "name": "Travelers",
+      "country": "US",
+      "value": 46.423,
+      "detail": "Insurance"
+    },
+    {
+      "name": "Eli Lilly",
+      "country": "US",
+      "value": 45.043,
+      "detail": "Pharmaceutical"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import RankingCard from "@/components/RankingCard";
 import CopyRankingLink from "@/components/CopyRankingLink";
+import FreshnessBadge from "@/components/FreshnessBadge";
 import { toRankingCard } from "@/lib/ranking-card";
 import SearchForm from "@/components/SearchForm";
 import { searchCountries, searchEntries, searchRankings } from "@/lib/data";
@@ -65,8 +66,9 @@ export default async function SearchPage({ searchParams }: Props) {
               <div className="ranking-card-shell" key={`${r.id}-${e.name}`}><Link className="card" href={`/ranking/${r.id}`}>
                 <span className="tag">{r.title}</span>
                 <h3>{e.flag} {e.name}</h3>
+                <FreshnessBadge year={r.year} />
                 {e.detail && <p>{e.detail}</p>}
-                <span className="more">#{e.rank} · {formatValue(r, e.value)} · {r.year} →</span>
+                <span className="more">#{e.rank} · {formatValue(r, e.value)} →</span>
               </Link><CopyRankingLink id={r.id} title={r.title} /></div>
             ))}
           </div>

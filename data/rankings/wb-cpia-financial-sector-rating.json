@@ -1,0 +1,407 @@
+{
+  "id": "wb-cpia-financial-sector-rating",
+  "title": "CPIA financial sector rating",
+  "category": "society",
+  "icon": "🏛️",
+  "desc": "CPIA financial sector rating (1=low to 6=high). The World Bank CPIA rates policy and institutions in assessed economies from 1 (low) to 6 (high).",
+  "unit": "rating (1–6)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — CPIA financial sector rating (1=low to 6=high)",
+    "url": "https://data.worldbank.org/indicator/IQ.CPA.FINS.XQ",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-16T11:14:43.894Z",
+  "items": [
+    {
+      "name": "Fiji",
+      "country": "FJ",
+      "value": 4
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 4
+    },
+    {
+      "name": "Rwanda",
+      "country": "RW",
+      "value": 4
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 3.5
+    },
+    {
+      "name": "Cape Verde",
+      "country": "CV",
+      "value": 3.5
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 3.5
+    },
+    {
+      "name": "Eswatini",
+      "country": "SZ",
+      "value": 3.5
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 3.5
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 3.5
+    },
+    {
+      "name": "Guyana",
+      "country": "GY",
+      "value": 3.5
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 3.5
+    },
+    {
+      "name": "Ivory Coast",
+      "country": "CI",
+      "value": 3.5
+    },
+    {
+      "name": "Kenya",
+      "country": "KE",
+      "value": 3.5
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 3.5
+    },
+    {
+      "name": "Malawi",
+      "country": "MW",
+      "value": 3.5
+    },
+    {
+      "name": "Pakistan",
+      "country": "PK",
+      "value": 3.5
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 3.5
+    },
+    {
+      "name": "Samoa",
+      "country": "WS",
+      "value": 3.5
+    },
+    {
+      "name": "Senegal",
+      "country": "SN",
+      "value": 3.5
+    },
+    {
+      "name": "Tanzania",
+      "country": "TZ",
+      "value": 3.5
+    },
+    {
+      "name": "Tonga",
+      "country": "TO",
+      "value": 3.5
+    },
+    {
+      "name": "Uganda",
+      "country": "UG",
+      "value": 3.5
+    },
+    {
+      "name": "Zambia",
+      "country": "ZM",
+      "value": 3.5
+    },
+    {
+      "name": "Benin",
+      "country": "BJ",
+      "value": 3
+    },
+    {
+      "name": "Bhutan",
+      "country": "BT",
+      "value": 3
+    },
+    {
+      "name": "Burkina Faso",
+      "country": "BF",
+      "value": 3
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 3
+    },
+    {
+      "name": "Cambodia",
+      "country": "KH",
+      "value": 3
+    },
+    {
+      "name": "Cameroon",
+      "country": "CM",
+      "value": 3
+    },
+    {
+      "name": "Djibouti",
+      "country": "DJ",
+      "value": 3
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 3
+    },
+    {
+      "name": "Guinea",
+      "country": "GN",
+      "value": 3
+    },
+    {
+      "name": "Lesotho",
+      "country": "LS",
+      "value": 3
+    },
+    {
+      "name": "Liberia",
+      "country": "LR",
+      "value": 3
+    },
+    {
+      "name": "Madagascar",
+      "country": "MG",
+      "value": 3
+    },
+    {
+      "name": "Maldives",
+      "country": "MV",
+      "value": 3
+    },
+    {
+      "name": "Mali",
+      "country": "ML",
+      "value": 3
+    },
+    {
+      "name": "Nigeria",
+      "country": "NG",
+      "value": 3
+    },
+    {
+      "name": "Papua New Guinea",
+      "country": "PG",
+      "value": 3
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 3
+    },
+    {
+      "name": "Solomon Islands",
+      "country": "SB",
+      "value": 3
+    },
+    {
+      "name": "Sri Lanka",
+      "country": "LK",
+      "value": 3
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 3
+    },
+    {
+      "name": "Togo",
+      "country": "TG",
+      "value": 3
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 3
+    },
+    {
+      "name": "Vanuatu",
+      "country": "VU",
+      "value": 3
+    },
+    {
+      "name": "Zimbabwe",
+      "country": "ZW",
+      "value": 3
+    },
+    {
+      "name": "Central African Republic",
+      "country": "CF",
+      "value": 2.5
+    },
+    {
+      "name": "Comoros",
+      "country": "KM",
+      "value": 2.5
+    },
+    {
+      "name": "Congo",
+      "country": "CG",
+      "value": 2.5
+    },
+    {
+      "name": "DR Congo",
+      "country": "CD",
+      "value": 2.5
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 2.5
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 2.5
+    },
+    {
+      "name": "Mauritania",
+      "country": "MR",
+      "value": 2.5
+    },
+    {
+      "name": "Micronesia",
+      "country": "FM",
+      "value": 2.5
+    },
+    {
+      "name": "Mozambique",
+      "country": "MZ",
+      "value": 2.5
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "country": "ST",
+      "value": 2.5
+    },
+    {
+      "name": "Sierra Leone",
+      "country": "SL",
+      "value": 2.5
+    },
+    {
+      "name": "Tajikistan",
+      "country": "TJ",
+      "value": 2.5
+    },
+    {
+      "name": "Timor-Leste",
+      "country": "TL",
+      "value": 2.5
+    },
+    {
+      "name": "Bangladesh",
+      "country": "BD",
+      "value": 2
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country": "GW",
+      "value": 2
+    },
+    {
+      "name": "Haiti",
+      "country": "HT",
+      "value": 2
+    },
+    {
+      "name": "Kiribati",
+      "country": "KI",
+      "value": 2
+    },
+    {
+      "name": "Marshall Islands",
+      "country": "MH",
+      "value": 2
+    },
+    {
+      "name": "Nicaragua",
+      "country": "NI",
+      "value": 2
+    },
+    {
+      "name": "Somalia",
+      "country": "SO",
+      "value": 2
+    },
+    {
+      "name": "South Sudan",
+      "country": "SS",
+      "value": 2
+    },
+    {
+      "name": "Tuvalu",
+      "country": "TV",
+      "value": 2
+    },
+    {
+      "name": "Afghanistan",
+      "country": "AF",
+      "value": 1.5
+    },
+    {
+      "name": "Chad",
+      "country": "TD",
+      "value": 1.5
+    },
+    {
+      "name": "Myanmar",
+      "country": "MM",
+      "value": 1.5
+    },
+    {
+      "name": "Niger",
+      "country": "NE",
+      "value": 1.5
+    },
+    {
+      "name": "Sudan",
+      "country": "SD",
+      "value": 1.5
+    },
+    {
+      "name": "Yemen",
+      "country": "YE",
+      "value": 1.5
+    },
+    {
+      "name": "Eritrea",
+      "country": "ER",
+      "value": 1
+    },
+    {
+      "name": "Syria",
+      "country": "SY",
+      "value": 1
+    }
+  ]
+}

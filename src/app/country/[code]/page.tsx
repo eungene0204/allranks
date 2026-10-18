@@ -5,6 +5,7 @@ import CountryRegional from "@/components/CountryRegional";
 import CountryWorldRankings from "@/components/CountryWorldRankings";
 import CountryDiscoveries from "@/components/CountryDiscoveries";
 import CopyRankingLink from "@/components/CopyRankingLink";
+import FreshnessBadge from "@/components/FreshnessBadge";
 import { countryDiscoveries } from "@/lib/discoveries";
 import { flagEmoji } from "@/lib/format";
 import { getCategory } from "@/lib/categories";
@@ -72,6 +73,7 @@ export default async function CountryPage({ params }: Props) {
                 {k.icon} {k.label}
               </span>
               <b>{k.value}</b>
+              <FreshnessBadge year={k.year} />
               <span className="ks-rank">
                 #{k.rank} of {k.total}
               </span>
@@ -90,7 +92,7 @@ export default async function CountryPage({ params }: Props) {
 
       <h2 className="section">{c.name} in world rankings</h2>
       <CountryWorldRankings rows={world.map(({ ranking: r, entries, total }) => ({
-        id: r.id, title: r.title, icon: r.icon, category: getCategory(r.category)?.name ?? "",
+        id: r.id, title: r.title, icon: r.icon, category: getCategory(r.category)?.name ?? "", year: r.year,
         total, entryCount: entries.length,
         entries: entries.slice(0, ENTRY_LIMIT).map(({ name, rank, logo, formatted }) => ({ name, rank, logo, formatted })),
       }))} />

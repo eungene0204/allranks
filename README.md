@@ -129,8 +129,6 @@ The IMF credit rankings (`imf-credit-outstanding`, `imf-credit-gdp`) are manual 
 
 ### Adding a ranking
 
-Only publish data whose actual reference year (`year`) is **2026 or later**. Data from 2025 or earlier is excluded even when its publication date or `asOf` is in 2026. This applies to automated, manual, regional, and agent-created rankings; `npm run data:validate` rejects older files.
-
 1. **Automated:** add a source adapter in `scripts/sources/` (returns `{ year, source, items }` with ISO-2 `country` codes — use
    `ctx.countries.byName()` / `byCode3` to map names), then register it with its metadata in `scripts/registry.mts`, and run `npm run data:update -- <id>`.
 2. **Manual:** create `data/rankings/<id>.json` following `RankingFile` in `src/lib/types.ts`.

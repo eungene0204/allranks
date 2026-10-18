@@ -1,0 +1,78 @@
+{
+  "id": "wbx-bi-pwk-pubs-no",
+  "title": "Number of public paid employees",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "Number of public paid employees, reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.PWK.PUBS.NO",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Number of public paid employees",
+    "url": "https://data.worldbank.org/indicator/BI.PWK.PUBS.NO",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.714Z",
+  "items": [
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 15543
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 11886
+    },
+    {
+      "name": "Ethiopia",
+      "country": "ET",
+      "value": 10997
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 6798
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 6580
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 3926
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 3670
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 3030
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 2668
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 2209
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 2103
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "wbx-gfdd-ai-01",
+  "title": "Bank accounts per 1,000 adults",
+  "category": "markets",
+  "icon": "💹",
+  "desc": "For each country calculated as: 1,000*reported number of depositors/adult population in the reporting country.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "GFDD.AI.01",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Bank accounts per 1,000 adults",
+    "url": "https://data.worldbank.org/indicator/GFDD.AI.01",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.539Z",
+  "items": [
+    {
+      "name": "Saudi Arabia",
+      "country": "SA",
+      "value": 273253.87
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 1596.103
+    },
+    {
+      "name": "Malta",
+      "country": "MT",
+      "value": 1539.554
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 1474.468
+    },
+    {
+      "name": "Latvia",
+      "country": "LV",
+      "value": 1282.101
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 1274.176
+    },
+    {
+      "name": "Kuwait",
+      "country": "KW",
+      "value": 1256.963
+    },
+    {
+      "name": "North Macedonia",
+      "country": "MK",
+      "value": 1076.593
+    },
+    {
+      "name": "Israel",
+      "country": "IL",
+      "value": 1062.079
+    },
+    {
+      "name": "Belize",
+      "country": "BZ",
+      "value": 796.122
+    },
+    {
+      "name": "Malaysia",
+      "country": "MY",
+      "value": 714.397
+    },
+    {
+      "name": "Lebanon",
+      "country": "LB",
+      "value": 468.925
+    },
+    {
+      "name": "Nicaragua",
+      "country": "NI",
+      "value": 399.673
+    },
+    {
+      "name": "San Marino",
+      "country": "SM",
+      "value": 377.432
+    }
+  ]
+}

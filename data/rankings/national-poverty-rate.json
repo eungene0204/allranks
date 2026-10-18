@@ -1,0 +1,87 @@
+{
+  "id": "national-poverty-rate",
+  "title": "Highest National Poverty Rates",
+  "category": "society",
+  "icon": "📉",
+  "desc": "Population below each country's national poverty line; national thresholds differ and are not directly comparable across countries.",
+  "unit": "% of population",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Poverty headcount ratio at national poverty lines (% of population)",
+    "url": "https://data.worldbank.org/indicator/SI.POV.NAHC",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-15T21:10:54.314Z",
+  "items": [
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 60.1
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 44.7
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 28.2
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 25.7
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 24
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 21.4
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 17.3
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 17.1
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 16
+    },
+    {
+      "name": "Poland",
+      "country": "PL",
+      "value": 13.5
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 9.7
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 8.5
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 5.8
+    }
+  ]
+}

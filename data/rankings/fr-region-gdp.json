@@ -1,0 +1,114 @@
+{
+  "id": "fr-region-gdp",
+  "title": "French Regions by GDP",
+  "short": "GDP",
+  "category": "economy",
+  "icon": "💰",
+  "desc": "Nominal GDP of each region, in billions of euros.",
+  "unit": "EUR billion",
+  "prefix": "€",
+  "suffix": "B",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "FR",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "INSEE, regional accounts (2025) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_French_regions_and_overseas_collectivities_by_GDP",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-13T19:28:18.884Z",
+  "items": [
+    {
+      "name": "Île de France",
+      "country": "FR",
+      "value": 900.1
+    },
+    {
+      "name": "Auvergne-Rhône-Alpes",
+      "country": "FR",
+      "value": 359.43
+    },
+    {
+      "name": "Nouvelle-Aquitaine",
+      "country": "FR",
+      "value": 234.14
+    },
+    {
+      "name": "Occitanie",
+      "country": "FR",
+      "value": 230.11
+    },
+    {
+      "name": "Provence-Alpes-Côte d'Azur",
+      "country": "FR",
+      "value": 228.68
+    },
+    {
+      "name": "Hauts-de-France",
+      "country": "FR",
+      "value": 205.82
+    },
+    {
+      "name": "Grand Est",
+      "country": "FR",
+      "value": 204.13
+    },
+    {
+      "name": "Pays de la Loire",
+      "country": "FR",
+      "value": 153.57
+    },
+    {
+      "name": "Brittany",
+      "country": "FR",
+      "value": 131.1
+    },
+    {
+      "name": "Normandy",
+      "country": "FR",
+      "value": 115.94
+    },
+    {
+      "name": "Bourgogne-Franche-Comté",
+      "country": "FR",
+      "value": 97.77
+    },
+    {
+      "name": "Centre-Val de Loire",
+      "country": "FR",
+      "value": 93.87
+    },
+    {
+      "name": "Réunion",
+      "country": "FR",
+      "value": 25.47
+    },
+    {
+      "name": "Corsica",
+      "country": "FR",
+      "value": 14.04
+    },
+    {
+      "name": "Guadeloupe",
+      "country": "FR",
+      "value": 11.62
+    },
+    {
+      "name": "Martinique",
+      "country": "FR",
+      "value": 10.73
+    },
+    {
+      "name": "French Guiana",
+      "country": "FR",
+      "value": 6.19
+    },
+    {
+      "name": "Mayotte",
+      "country": "FR",
+      "value": 3.61
+    }
+  ]
+}

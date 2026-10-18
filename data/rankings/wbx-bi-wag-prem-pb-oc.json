@@ -1,0 +1,73 @@
+{
+  "id": "wbx-bi-wag-prem-pb-oc",
+  "title": "P-Value: Public sector wage premium, by occupation (compared to formal wage employees)",
+  "category": "economy",
+  "icon": "📊",
+  "desc": "P-Value: Public sector wage premium, by occupation (compared to formal wage employees), reported by Worldwide Bureaucracy Indicators in the World Bank Open Data catalog.",
+  "unit": "compared to formal wage employees",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "indicator": "BI.WAG.PREM.PB.OC",
+  "year": 2021,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — P-Value: Public sector wage premium, by occupation (compared to formal wage employees)",
+    "url": "https://data.worldbank.org/indicator/BI.WAG.PREM.PB.OC",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:25.833Z",
+  "items": [
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 0.946
+    },
+    {
+      "name": "El Salvador",
+      "country": "SV",
+      "value": 0.666
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 0.328
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.312
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 0.03
+    },
+    {
+      "name": "Ghana",
+      "country": "GH",
+      "value": 0.001
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 0
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 0
+    },
+    {
+      "name": "Peru",
+      "country": "PE",
+      "value": 0
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 0
+    }
+  ]
+}

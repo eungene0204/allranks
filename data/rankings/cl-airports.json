@@ -1,0 +1,114 @@
+{
+  "id": "cl-airports",
+  "title": "Busiest Airports in Chile",
+  "short": "Airports",
+  "category": "world",
+  "icon": "✈️",
+  "desc": "Chilean airports ranked by passengers handled.",
+  "unit": "million passengers",
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1,
+  "order": "desc",
+  "scope": "CL",
+  "year": 2023,
+  "source": {
+    "kind": "wikipedia",
+    "name": "Junta de Aeronáutica Civil (JAC), Chile (2023) (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Chile",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+  },
+  "updatedAt": "2026-10-17T13:20:18.577Z",
+  "items": [
+    {
+      "name": "Arturo Merino Benítez International Airport",
+      "country": "CL",
+      "value": 23.504,
+      "detail": "Santiago"
+    },
+    {
+      "name": "El Loa Airport",
+      "country": "CL",
+      "value": 2.446,
+      "detail": "Calama"
+    },
+    {
+      "name": "Andrés Sabella Gálvez International Airport",
+      "country": "CL",
+      "value": 2.414,
+      "detail": "Antofagasta"
+    },
+    {
+      "name": "Carriel Sur International Airport",
+      "country": "CL",
+      "value": 2.07,
+      "detail": "Concepción"
+    },
+    {
+      "name": "El Tepual Airport",
+      "country": "CL",
+      "value": 1.807,
+      "detail": "Puerto Montt"
+    },
+    {
+      "name": "La Florida Airport",
+      "country": "CL",
+      "value": 1.628,
+      "detail": "La Serena"
+    },
+    {
+      "name": "Diego Aracena International Airport",
+      "country": "CL",
+      "value": 1.547,
+      "detail": "Iquique"
+    },
+    {
+      "name": "La Araucanía International Airport",
+      "country": "CL",
+      "value": 1.019,
+      "detail": "Temuco"
+    },
+    {
+      "name": "Presidente Carlos Ibáñez del Campo International Airport",
+      "country": "CL",
+      "value": 0.85,
+      "detail": "Punta Arenas"
+    },
+    {
+      "name": "Desierto de Atacama Airport",
+      "country": "CL",
+      "value": 0.654,
+      "detail": "Copiapo"
+    },
+    {
+      "name": "Chacalluta International Airport",
+      "country": "CL",
+      "value": 0.611,
+      "detail": "Arica"
+    },
+    {
+      "name": "Balmaceda Airport",
+      "country": "CL",
+      "value": 0.562,
+      "detail": "Balmaceda"
+    },
+    {
+      "name": "Pichoy Airport",
+      "country": "CL",
+      "value": 0.393,
+      "detail": "Valdivia"
+    },
+    {
+      "name": "Canal Bajo Airport",
+      "country": "CL",
+      "value": 0.33,
+      "detail": "Osorno"
+    },
+    {
+      "name": "Teniente Julio Gallardo Airport",
+      "country": "CL",
+      "value": 0.211,
+      "detail": "Puerto Natales"
+    }
+  ]
+}

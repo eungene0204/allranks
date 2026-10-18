@@ -1,0 +1,73 @@
+{
+  "id": "ml-region-population",
+  "title": "Mali Regions by Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "First-level administrative divisions of Mali ranked by population (Wikidata).",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "ML",
+  "year": 2023,
+  "source": {
+    "kind": "api",
+    "name": "Wikidata, population of first-level administrative divisions",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0 (Wikidata)",
+    "note": "Latest dated population statement per division; the year is shown on each row and differs between divisions."
+  },
+  "updatedAt": "2026-10-17T13:26:30.400Z",
+  "items": [
+    {
+      "name": "Bamako",
+      "country": "ML",
+      "value": 4227569,
+      "detail": "2023"
+    },
+    {
+      "name": "Sikasso",
+      "country": "ML",
+      "value": 2625919,
+      "detail": "2009"
+    },
+    {
+      "name": "Ségou",
+      "country": "ML",
+      "value": 2336255,
+      "detail": "2009"
+    },
+    {
+      "name": "Mopti",
+      "country": "ML",
+      "value": 2037330,
+      "detail": "2009"
+    },
+    {
+      "name": "Timbuktu",
+      "country": "ML",
+      "value": 681691,
+      "detail": "2009"
+    },
+    {
+      "name": "Gao",
+      "country": "ML",
+      "value": 544120,
+      "detail": "2009"
+    },
+    {
+      "name": "Kidal",
+      "country": "ML",
+      "value": 83192,
+      "detail": "2022"
+    },
+    {
+      "name": "Taoudénit",
+      "country": "ML",
+      "value": 18160,
+      "detail": "2009"
+    }
+  ]
+}

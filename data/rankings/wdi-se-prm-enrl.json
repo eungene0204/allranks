@@ -1,0 +1,93 @@
+{
+  "id": "wdi-se-prm-enrl",
+  "title": "Primary education, pupils",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.",
+  "unit": "indicator value",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "indicator": "SE.PRM.ENRL",
+  "order": "desc",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Primary education, pupils",
+    "url": "https://data.worldbank.org/indicator/SE.PRM.ENRL",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T09:13:58.382Z",
+  "items": [
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 126117112.47
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 28684389
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 13194636
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 5296157
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 4445677
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 3565348
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 3411511
+    },
+    {
+      "name": "Burundi",
+      "country": "BI",
+      "value": 2516040
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 1576627
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 739554
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 630435
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 442901
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 5427
+    },
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 1703
+    }
+  ]
+}

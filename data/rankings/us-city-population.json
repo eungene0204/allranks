@@ -1,0 +1,525 @@
+{
+  "id": "us-city-population",
+  "title": "Largest US Cities by Population",
+  "short": "Cities",
+  "category": "society",
+  "icon": "🌆",
+  "desc": "The 100 most populous incorporated cities in the United States.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "wikipedia",
+    "name": "U.S. Census Bureau, 2025 city population estimates (via Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population",
+    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited agency",
+    "note": "The 100 largest incorporated places."
+  },
+  "updatedAt": "2026-10-13T18:37:16.690Z",
+  "items": [
+    {
+      "name": "New York, NY",
+      "country": "US",
+      "value": 8584629
+    },
+    {
+      "name": "Los Angeles, CA",
+      "country": "US",
+      "value": 3869089
+    },
+    {
+      "name": "Chicago, IL",
+      "country": "US",
+      "value": 2731585
+    },
+    {
+      "name": "Houston, TX",
+      "country": "US",
+      "value": 2397315
+    },
+    {
+      "name": "Phoenix, AZ",
+      "country": "US",
+      "value": 1665481
+    },
+    {
+      "name": "Philadelphia, PA",
+      "country": "US",
+      "value": 1574281
+    },
+    {
+      "name": "San Antonio, TX",
+      "country": "US",
+      "value": 1548422
+    },
+    {
+      "name": "San Diego, CA",
+      "country": "US",
+      "value": 1406106
+    },
+    {
+      "name": "Dallas, TX",
+      "country": "US",
+      "value": 1329491
+    },
+    {
+      "name": "Fort Worth, TX",
+      "country": "US",
+      "value": 1028117
+    },
+    {
+      "name": "Jacksonville, FL",
+      "country": "US",
+      "value": 1017689
+    },
+    {
+      "name": "Austin, TX",
+      "country": "US",
+      "value": 1002632
+    },
+    {
+      "name": "San Jose, CA",
+      "country": "US",
+      "value": 989814
+    },
+    {
+      "name": "Charlotte, NC",
+      "country": "US",
+      "value": 964784
+    },
+    {
+      "name": "Columbus, OH",
+      "country": "US",
+      "value": 938396
+    },
+    {
+      "name": "Indianapolis, IN",
+      "country": "US",
+      "value": 901116
+    },
+    {
+      "name": "San Francisco, CA",
+      "country": "US",
+      "value": 826079
+    },
+    {
+      "name": "Seattle, WA",
+      "country": "US",
+      "value": 784777
+    },
+    {
+      "name": "Denver, CO",
+      "country": "US",
+      "value": 740613
+    },
+    {
+      "name": "Nashville, TN",
+      "country": "US",
+      "value": 721074
+    },
+    {
+      "name": "Oklahoma City, OK",
+      "country": "US",
+      "value": 719849
+    },
+    {
+      "name": "Washington, DC",
+      "country": "US",
+      "value": 693645
+    },
+    {
+      "name": "El Paso, TX",
+      "country": "US",
+      "value": 683012
+    },
+    {
+      "name": "Las Vegas, NV",
+      "country": "US",
+      "value": 679817
+    },
+    {
+      "name": "Boston, MA",
+      "country": "US",
+      "value": 672973
+    },
+    {
+      "name": "Detroit, MI",
+      "country": "US",
+      "value": 649095
+    },
+    {
+      "name": "Louisville, KY",
+      "country": "US",
+      "value": 641962
+    },
+    {
+      "name": "Portland, OR",
+      "country": "US",
+      "value": 635109
+    },
+    {
+      "name": "Memphis, TN",
+      "country": "US",
+      "value": 609647
+    },
+    {
+      "name": "Baltimore, MD",
+      "country": "US",
+      "value": 569997
+    },
+    {
+      "name": "Milwaukee, WI",
+      "country": "US",
+      "value": 562407
+    },
+    {
+      "name": "Albuquerque, NM",
+      "country": "US",
+      "value": 556588
+    },
+    {
+      "name": "Fresno, CA",
+      "country": "US",
+      "value": 555549
+    },
+    {
+      "name": "Tucson, AZ",
+      "country": "US",
+      "value": 548371
+    },
+    {
+      "name": "Sacramento, CA",
+      "country": "US",
+      "value": 536449
+    },
+    {
+      "name": "Atlanta, GA",
+      "country": "US",
+      "value": 529110
+    },
+    {
+      "name": "Kansas City, MO",
+      "country": "US",
+      "value": 521220
+    },
+    {
+      "name": "Mesa, AZ",
+      "country": "US",
+      "value": 513656
+    },
+    {
+      "name": "Raleigh, NC",
+      "country": "US",
+      "value": 506306
+    },
+    {
+      "name": "Colorado Springs, CO",
+      "country": "US",
+      "value": 494743
+    },
+    {
+      "name": "Miami, FL",
+      "country": "US",
+      "value": 489812
+    },
+    {
+      "name": "Omaha, NE",
+      "country": "US",
+      "value": 488797
+    },
+    {
+      "name": "Virginia Beach, VA",
+      "country": "US",
+      "value": 453737
+    },
+    {
+      "name": "Long Beach, CA",
+      "country": "US",
+      "value": 450469
+    },
+    {
+      "name": "Oakland, CA",
+      "country": "US",
+      "value": 440838
+    },
+    {
+      "name": "Minneapolis, MN",
+      "country": "US",
+      "value": 430324
+    },
+    {
+      "name": "Bakersfield, CA",
+      "country": "US",
+      "value": 422165
+    },
+    {
+      "name": "Tulsa, OK",
+      "country": "US",
+      "value": 416209
+    },
+    {
+      "name": "Tampa, FL",
+      "country": "US",
+      "value": 413554
+    },
+    {
+      "name": "Aurora, CO",
+      "country": "US",
+      "value": 410053
+    },
+    {
+      "name": "Arlington, TX",
+      "country": "US",
+      "value": 402134
+    },
+    {
+      "name": "Wichita, KS",
+      "country": "US",
+      "value": 400987
+    },
+    {
+      "name": "Cleveland, OH",
+      "country": "US",
+      "value": 363608
+    },
+    {
+      "name": "New Orleans, LA",
+      "country": "US",
+      "value": 362154
+    },
+    {
+      "name": "Henderson, NV",
+      "country": "US",
+      "value": 353289
+    },
+    {
+      "name": "Honolulu, HI",
+      "country": "US",
+      "value": 341868
+    },
+    {
+      "name": "Anaheim, CA",
+      "country": "US",
+      "value": 341008
+    },
+    {
+      "name": "Orlando, FL",
+      "country": "US",
+      "value": 333888
+    },
+    {
+      "name": "Lexington, KY",
+      "country": "US",
+      "value": 329751
+    },
+    {
+      "name": "Stockton, CA",
+      "country": "US",
+      "value": 324597
+    },
+    {
+      "name": "Newark, NJ",
+      "country": "US",
+      "value": 323808
+    },
+    {
+      "name": "Riverside, CA",
+      "country": "US",
+      "value": 323057
+    },
+    {
+      "name": "Irvine, CA",
+      "country": "US",
+      "value": 318764
+    },
+    {
+      "name": "Corpus Christi, TX",
+      "country": "US",
+      "value": 317247
+    },
+    {
+      "name": "Santa Ana, CA",
+      "country": "US",
+      "value": 315586
+    },
+    {
+      "name": "Cincinnati, OH",
+      "country": "US",
+      "value": 314367
+    },
+    {
+      "name": "Greensboro, NC",
+      "country": "US",
+      "value": 308667
+    },
+    {
+      "name": "Pittsburgh, PA",
+      "country": "US",
+      "value": 307632
+    },
+    {
+      "name": "St. Paul, MN",
+      "country": "US",
+      "value": 306684
+    },
+    {
+      "name": "Durham, NC",
+      "country": "US",
+      "value": 305561
+    },
+    {
+      "name": "Jersey City, NJ",
+      "country": "US",
+      "value": 302013
+    },
+    {
+      "name": "Lincoln, NE",
+      "country": "US",
+      "value": 301522
+    },
+    {
+      "name": "North Las Vegas, NV",
+      "country": "US",
+      "value": 296653
+    },
+    {
+      "name": "Plano, TX",
+      "country": "US",
+      "value": 293028
+    },
+    {
+      "name": "Gilbert, AZ",
+      "country": "US",
+      "value": 287285
+    },
+    {
+      "name": "Anchorage, AK",
+      "country": "US",
+      "value": 287155
+    },
+    {
+      "name": "Madison, WI",
+      "country": "US",
+      "value": 286233
+    },
+    {
+      "name": "Reno, NV",
+      "country": "US",
+      "value": 283621
+    },
+    {
+      "name": "Chandler, AZ",
+      "country": "US",
+      "value": 278748
+    },
+    {
+      "name": "St. Louis, MO",
+      "country": "US",
+      "value": 278144
+    },
+    {
+      "name": "Chula Vista, CA",
+      "country": "US",
+      "value": 275533
+    },
+    {
+      "name": "Fort Wayne, IN",
+      "country": "US",
+      "value": 275203
+    },
+    {
+      "name": "Buffalo, NY",
+      "country": "US",
+      "value": 274613
+    },
+    {
+      "name": "Lubbock, TX",
+      "country": "US",
+      "value": 273071
+    },
+    {
+      "name": "Laredo, TX",
+      "country": "US",
+      "value": 269515
+    },
+    {
+      "name": "Port St. Lucie, FL",
+      "country": "US",
+      "value": 268062
+    },
+    {
+      "name": "St. Petersburg, FL",
+      "country": "US",
+      "value": 264033
+    },
+    {
+      "name": "Toledo, OH",
+      "country": "US",
+      "value": 263423
+    },
+    {
+      "name": "Glendale, AZ",
+      "country": "US",
+      "value": 260572
+    },
+    {
+      "name": "Winston-Salem, NC",
+      "country": "US",
+      "value": 257271
+    },
+    {
+      "name": "Irving, TX",
+      "country": "US",
+      "value": 257076
+    },
+    {
+      "name": "Chesapeake, VA",
+      "country": "US",
+      "value": 255332
+    },
+    {
+      "name": "Garland, TX",
+      "country": "US",
+      "value": 249625
+    },
+    {
+      "name": "Scottsdale, AZ",
+      "country": "US",
+      "value": 243006
+    },
+    {
+      "name": "Boise, ID",
+      "country": "US",
+      "value": 238429
+    },
+    {
+      "name": "Richmond, VA",
+      "country": "US",
+      "value": 237257
+    },
+    {
+      "name": "Frisco, TX",
+      "country": "US",
+      "value": 236955
+    },
+    {
+      "name": "Cape Coral, FL",
+      "country": "US",
+      "value": 236264
+    },
+    {
+      "name": "McKinney, TX",
+      "country": "US",
+      "value": 236001
+    },
+    {
+      "name": "Huntsville, AL",
+      "country": "US",
+      "value": 233627
+    }
+  ]
+}

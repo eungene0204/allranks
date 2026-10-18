@@ -1,0 +1,78 @@
+{
+  "id": "wbx-se-sec-cmpt-lo-fe-zs",
+  "title": "Lower secondary completion rate, female (% of relevant age group)",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary education, regardless of age, divided by the population at the entrance age for the last grade of lower secondary education.",
+  "unit": "%",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "indicator": "SE.SEC.CMPT.LO.FE.ZS",
+  "year": 2025,
+  "source": {
+    "kind": "api",
+    "name": "World Bank Open Data — Lower secondary completion rate, female (% of relevant age group)",
+    "url": "https://data.worldbank.org/indicator/SE.SEC.CMPT.LO.FE.ZS",
+    "license": "CC BY 4.0"
+  },
+  "updatedAt": "2026-10-17T11:50:24.947Z",
+  "items": [
+    {
+      "name": "Nauru",
+      "country": "NR",
+      "value": 104.2857
+    },
+    {
+      "name": "Nepal",
+      "country": "NP",
+      "value": 101.3497
+    },
+    {
+      "name": "Indonesia",
+      "country": "ID",
+      "value": 98.8403
+    },
+    {
+      "name": "Thailand",
+      "country": "TH",
+      "value": 98.4809
+    },
+    {
+      "name": "Uzbekistan",
+      "country": "UZ",
+      "value": 97.5723
+    },
+    {
+      "name": "Kazakhstan",
+      "country": "KZ",
+      "value": 96.5101
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country": "KG",
+      "value": 95.1586
+    },
+    {
+      "name": "India",
+      "country": "IN",
+      "value": 89.1495
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 87.3449
+    },
+    {
+      "name": "Gambia",
+      "country": "GM",
+      "value": 70.3402
+    },
+    {
+      "name": "Laos",
+      "country": "LA",
+      "value": 49.5032
+    }
+  ]
+}
