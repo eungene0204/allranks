@@ -254,3 +254,5 @@ GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매�
 ### 2026-10-18 홈 히어로 디자인
 
 홈 서버 컴포넌트의 제목을 두 줄로 구성하고 `everything`에 테마 강조색을 적용한다. `home-hero` 전용 CSS로 반응형 타이포그래피, 통계 라벨, 지구본으로 이어지는 장식선을 제공하며 추가 클라이언트 코드나 이미지 의존성은 없다. 장식은 접근성 트리에서 제외하고 섹션은 제목과 연결한다.
+
+2026-10-19: 홈 히어로를 포함한 변경을 `main` 커밋 `e4dcd87`로 푸시했으며, Vercel 자동 프로덕션 배포 `dpl_B4w68EWcavcGaibrR1xcftqsUWCx`가 Ready가 된 후 `allranks.world`의 HTML 응답에서 새 제목·안내 문구를 확인했다.
