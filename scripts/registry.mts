@@ -15,6 +15,7 @@ import { corruptionPerceptions } from "./sources/cpi.mts";
 import { billionaires, coffee, largestCities, millionaires, nobelLaureates, oilReserves, topWebsites, wine } from "./sources/wikipedia-world.mts";
 import { REGIONAL } from "./regional/index.mts";
 import { TOPICS } from "./topics.mts";
+import { ODDITIES } from "./oddities.mts";
 import { EXPANDED_WORLDBANK } from "./expanded-worldbank.mts";
 import { WORLD_BANK_500 } from "./worldbank-500.mts";
 import { WORLD_BANK_1024 } from "./worldbank-1024.mts";
@@ -191,6 +192,7 @@ export const PIPELINES: Pipeline[] = [
   },
   // Topics for the categories that started out empty (AI, Markets, Energy, Money, Demographics, Mining, Autos).
   ...TOPICS,
+  ...ODDITIES,
   // Rankings that exist only inside one country. `scope` ties them to that country's page (reached from the
   // globe) instead of the world totals; items carry that country's code and name the state / city / school.
   ...usRankings(),

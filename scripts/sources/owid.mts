@@ -34,10 +34,12 @@ export function owid(opts: { slug: string; name: string; column?: string; exclud
     const latest = [...byYear.keys()].sort().reverse().find((y) => byYear.get(y)!.length >= minCountries);
     if (!latest) throw new Error(`No year of ${slug} has ≥${minCountries} countries`);
 
+    const sourceUrl = new URL(`https://ourworldindata.org/grapher/${slug}`);
+    for (const [key, value] of Object.entries(opts.params ?? {})) sourceUrl.searchParams.set(key, value);
     const source: Source = {
       kind: "csv",
       name: opts.name,
-      url: `https://ourworldindata.org/grapher/${slug}`,
+      url: sourceUrl.toString(),
       license: opts.license ?? "CC BY 4.0 (Our World in Data)",
       ...(opts.note ? { note: opts.note } : {}),
     };

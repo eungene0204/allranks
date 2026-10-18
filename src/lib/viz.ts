@@ -27,6 +27,8 @@ export const VIZ_OVERRIDES: Record<string, VizKind> = {
   "us-highest-paid-ceos": "dots",
   // A few Gulf states (Qatar 83 t vs. median 2.6 t, min 0) squash a strip into the left edge; quintile shading on a map holds up.
   "co2-per-capita": "map",
+  // National registrations omit some objects and count joint missions in each country, so a summed world-share chart is misleading.
+  "space-objects-launched-annual": "map",
 };
 
 /**
