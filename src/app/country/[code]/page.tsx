@@ -3,9 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CountryRegional from "@/components/CountryRegional";
 import CountryWorldRankings from "@/components/CountryWorldRankings";
+import CountryDiscoveries from "@/components/CountryDiscoveries";
+import CopyRankingLink from "@/components/CopyRankingLink";
+import { countryDiscoveries } from "@/lib/discoveries";
 import { flagEmoji } from "@/lib/format";
 import { getCategory } from "@/lib/categories";
-import { countryCodes, countryDetail, countryInfo } from "@/lib/data";
+import { allRankings, countryCodes, countryDetail, countryInfo } from "@/lib/data";
 
 type Props = { params: Promise<{ code: string }> };
 
@@ -19,9 +22,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const code = (await params).code;
   const info = countryInfo(code);
   if (!info) return {};
+  const discoveries = countryDiscoveries(allRankings(), code);
   return {
     title: `${flagEmoji(code)} ${info.name} — rankings`,
     description: `Explore ${info.name} in world rankings, plus its cities, universities and other rankings within the country.`,
+    ...(discoveries.length ? {
+      openGraph: { images: [{ url: `/country/${code}/discoveries/share`, width: 1200, height: 630, alt: `${info.name} — standout strengths with sources and reference periods` }] },
+      twitter: { card: "summary_large_image" as const, images: [`/country/${code}/discoveries/share`] },
+    } : {}),
   };
 }
 
@@ -54,10 +62,12 @@ export default async function CountryPage({ params }: Props) {
         {regional.length > 0 && <span className="chip">🗺️ {regional.length} rankings inside {c.name}</span>}
       </div>
 
+      <CountryDiscoveries code={c.code} name={c.name} discoveries={countryDiscoveries(allRankings(), c.code)} />
+
       {keyStats.length > 0 && (
         <div className="keystats">
           {keyStats.map((k) => (
-            <Link className="keystat" href={`/ranking/${k.id}`} key={k.id}>
+            <div className="ranking-card-shell" key={k.id}><Link className="keystat" href={`/ranking/${k.id}`}>
               <span className="ks-label">
                 {k.icon} {k.label}
               </span>
@@ -66,6 +76,7 @@ export default async function CountryPage({ params }: Props) {
                 #{k.rank} of {k.total}
               </span>
             </Link>
+            <CopyRankingLink id={k.id} title={k.label} /></div>
           ))}
         </div>
       )}

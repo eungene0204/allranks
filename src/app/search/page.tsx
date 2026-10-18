@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RankingCard from "@/components/RankingCard";
+import CopyRankingLink from "@/components/CopyRankingLink";
 import { toRankingCard } from "@/lib/ranking-card";
 import SearchForm from "@/components/SearchForm";
 import { searchCountries, searchEntries, searchRankings } from "@/lib/data";
@@ -61,12 +62,12 @@ export default async function SearchPage({ searchParams }: Props) {
           {entries.length > 100 && <p className="muted">Showing the first 100 of {entries.length} entries. Refine your search to narrow the results.</p>}
           <div className="cards">
             {entries.slice(0, 100).map(({ ranking: r, entry: e }) => (
-              <Link className="card" key={`${r.id}-${e.name}`} href={`/ranking/${r.id}`}>
+              <div className="ranking-card-shell" key={`${r.id}-${e.name}`}><Link className="card" href={`/ranking/${r.id}`}>
                 <span className="tag">{r.title}</span>
                 <h3>{e.flag} {e.name}</h3>
                 {e.detail && <p>{e.detail}</p>}
                 <span className="more">#{e.rank} · {formatValue(r, e.value)} · {r.year} →</span>
-              </Link>
+              </Link><CopyRankingLink id={r.id} title={r.title} /></div>
             ))}
           </div>
         </section>

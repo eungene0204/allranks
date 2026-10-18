@@ -4,10 +4,12 @@ import { flagEmoji } from "@/lib/format";
 import type { RankingCardData } from "@/lib/types";
 import Mark from "./Mark";
 import RankBadge from "./RankBadge";
+import CopyRankingLink from "./CopyRankingLink";
 
 export default function RankingCard({ ranking: r }: { ranking: RankingCardData }) {
   return (
-    <Link className="card" href={`/ranking/${r.id}`}>
+    <div className="ranking-card-shell">
+      <Link className="card" href={`/ranking/${r.id}`}>
       <span className="tag">
         {r.scope && `${flagEmoji(r.scope)} `}
         {r.icon} {getCategory(r.category)?.name}
@@ -29,5 +31,7 @@ export default function RankingCard({ ranking: r }: { ranking: RankingCardData }
         {r.entryCount} entries · {r.year} →
       </span>
     </Link>
+      <CopyRankingLink id={r.id} title={r.title} />
+    </div>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import RankingInsights from "@/components/RankingInsights";
+import RankingContext from "@/components/RankingContext";
 import RankingViz from "@/components/RankingViz";
 import RankingTable from "@/components/RankingTable";
 import SourceLine from "@/components/SourceLine";
@@ -24,8 +25,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: `${r.title} (${r.asOf ?? r.year})`, description: rankingSnippet(r) };
 }
 
-const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
-
 export default async function RankingPage({ params }: Props) {
   const r = getRanking((await params).id);
   if (!r) notFound();
@@ -38,12 +37,8 @@ export default async function RankingPage({ params }: Props) {
           <Link href="/">Home</Link> / <Link href={`/category/${c.id}`}>{c.name}</Link>
         </div>
         <h1>{r.title}</h1>
-        <p>{r.desc}</p>
       </div>
-      <div className="meta">
-        <span className="chip">📅 {r.asOf ? MONTH.format(new Date(`${r.asOf}-01T00:00:00Z`)) : r.year}</span>
-        <span className="chip">📏 {r.unit}</span>
-        <span className="chip">{r.items.length} entries</span>
+      {(r.scope || sample || (r.source.kind === "agent" && r.source.verified === false)) && <div className="meta">
         {r.scope && (
           <Link className="chip" href={`/country/${r.scope}`}>
             {flagEmoji(r.scope)} See all of this country’s rankings →
@@ -51,7 +46,8 @@ export default async function RankingPage({ params }: Props) {
         )}
         {sample && <span className="chip chip-warn">Sample data</span>}
         {r.source.kind === "agent" && r.source.verified === false && <span className="chip chip-warn">AI-collected · unverified</span>}
-      </div>
+      </div>}
+      <RankingContext ranking={r} />
       <RankingViz ranking={r} />
       <RankingTable ranking={r} />
       <RankingInsights ranking={r} />

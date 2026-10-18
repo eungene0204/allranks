@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Mark from "./Mark";
 import RankBadge from "./RankBadge";
+import CopyRankingLink from "./CopyRankingLink";
 
 type Row = {
   id: string; title: string; icon: string; category: string; total: number; entryCount: number;
@@ -24,7 +25,7 @@ export default function CountryWorldRankings({ rows }: { rows: Row[] }) {
     <p className="muted" role="status">Showing {rows.length ? page * PAGE_SIZE + 1 : 0}–{Math.min((page + 1) * PAGE_SIZE, rows.length)} of {rows.length} world rankings.</p>
     {pagination}
     <div className="cards">
-      {rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map((row) => <div className="card" key={row.id}>
+      {rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map((row) => <div className="ranking-card-shell" key={row.id}><div className="card">
         <span className="tag">{row.icon} {row.category}</span>
         <h3><Link href={`/ranking/${row.id}`}>{row.title}</Link></h3>
         <ol>{row.entries.map((entry) => <li key={entry.name}>
@@ -36,7 +37,7 @@ export default function CountryWorldRankings({ rows }: { rows: Row[] }) {
           {row.entryCount > row.entries.length && `+${row.entryCount - row.entries.length} more · `}
           {row.entryCount} of {row.total} entries · full ranking →
         </Link>
-      </div>)}
+      </div><CopyRankingLink id={row.id} title={row.title} /></div>)}
     </div>
     {pagination}
   </>;
