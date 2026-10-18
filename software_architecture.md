@@ -41,7 +41,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,309개: 세계 1,695 + 국가 한정 1,614)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 1,458개: 세계 34 + 국가 한정 1,424)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -49,9 +49,9 @@ scripts/
   validate.mts              data/rankings 검증 (prebuild에서 자동 실행)
   countries.mts             countries.json 갱신
   registry.mts              자동 랭킹 등록부 (메타데이터 + 소스 어댑터 연결)
-  expanded-worldbank.mts    2025년 이후 관측치가 확인된 세계 랭킹 92개 정의(지표 코드·설명·단위)
+  expanded-worldbank.mts    과거 2025년 관측치로 추가한 세계 랭킹 92개 정의(현재는 2026년 이후만 게시)(지표 코드·설명·단위)
   worldbank-500.mts          세계 랭킹 500개 목표의 추가 지표 300개 정의(공식 지표 코드·설명·단위)
-  worldbank-1024.mts         2025년 이후 국가별 관측치가 10개 이상인 지표 149개 정의
+  worldbank-1024.mts         과거 2025년 관측치로 추가한 지표 149개 정의(현재는 2026년 이후만 게시)
   worldbank-2048.mts         추가 세계은행 지표 1,024개 정의 (최소 10개국, 관측 기준연도별 갱신)
   topics.mts                AI·Markets·Energy·Money·Demographics·Mining·Autos·Green 랭킹 39개 정의
   oddities.mts              특이 주제 세계 랭킹 10개 정의(식품 공급·폐기물·우주 발사), OWID CSV 어댑터 사용
@@ -69,7 +69,8 @@ scripts/
     gaps.mts                결정적 갭 분석 (빈 카테고리, 갱신 대상) — LLM 없음
     prompts.mts             시스템 프롬프트(안정, 캐시 대상) + 모드별 작업 프롬프트
     store.mts               랭킹 파일 접근, data/agent/ 상태(notes.json, last-run.json/.md)
-  lib/check.mts             랭킹 1개 구조 검사 (validate.mts와 에이전트가 공유)
+  lib/check.mts             랭킹 1개 구조·기준연도 검사 (validate.mts와 에이전트가 공유)
+  lib/ranking-policy.mts    전체 랭킹 최소 기준연도 2026 상수
   viz-report.mts            랭킹별 시각화 선택 보고 (`npm run viz:report [-- <id>…]`)
   map-codes.mts             지도 도형 이름 → ISO 코드 매핑(data/map-codes.json) 생성 (`npm run data:map`)
   sources/                  소스 어댑터: worldbank, owid(Our World in Data CSV, 연도·분기 `day` 열 지원, `exclude`), epoch(Epoch AI GPU 클러스터 CSV: 국가별 개수·H100 환산 연산력·전력, 대형 클러스터; 'Superseded by' 행은 이중 집계 방지를 위해 제외), bigmac, cpi(Transparency International CPI CSV mirror), rsf(공식 페이지에서 최신 연판 CSV 발견), wikipedia-world, wikipedia-topics(wikiCountries 팩토리), wikipedia-us, wikipedia-speed
@@ -123,20 +124,22 @@ public/logos/           항목 로고 (<domain>.png)
 1. `registry.mts`가 자동 랭킹의 메타데이터와 소스 어댑터를 선언한다 (`worldBankRankings()`, `usRankings()` 등).
 2. `update.mts`가 어댑터를 실행해 `{ year, source, items }`를 받고 JSON을 다시 쓴다. 내용이 바뀐 경우에만 쓴다.
 3. **안전장치**: 숫자가 아닌 값, 중복 국가, 항목 20개 미만(`Pipeline.minItems` 로 조정 가능, 예: 리튬 생산국 10), 이전 대비 30% 초과 감소 시 **기존 파일 유지 + 비정상 종료**.
-4. `validate.mts`가 스키마·국가 코드·중복·카테고리를 검사한다. 오류면 빌드 실패, 120일 초과 자동 데이터는 경고.
-5. 수동 랭킹(QS 대학, 휘발유, 행복지수, 최고층 빌딩 및 출처 기사 기반 표)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
+4. `validate.mts`가 스키마·국가 코드·중복·카테고리·2026년 이상 기준연도를 검사한다. 오류면 빌드 실패, 120일 초과 자동 데이터는 경고.
+5. 수동 랭킹(QS 대학, 최고층 빌딩 및 출처 기사 기반 표)은 JSON을 직접 편집하며 `verified: false`면 사이트에 "Sample data"로 표시.
 
 WIN 2026 Worldviews Survey의 국가별 반려동물 보유 응답률은 `pet-*-ownership.json` 6개 수동 랭킹으로 저장한다. 44,000건의 설문에서 응답자가 집에 해당 동물이 있다고 답한 비율이며, 국가별 표본 범위 차이와 영국 미포함을 출처 설명에 표시한다.
 
 `imf-credit-outstanding.json`과 `imf-credit-gdp.json`은 Visual Capitalist의 2026년 10월 IMF 차입국 표에 실린 상위 26개국을 수동 스냅샷으로 보관한다. 값은 각각 미상환 IMF 신용의 USD 십억 단위와 2026년 GDP 대비 비율이며 소수 첫째 자리로 반올림되어 있다. 출처 표가 약 10억 달러 이상인 최대 차입국만 나열하므로 전체 차입국 순위로 해석하지 않는다.
 
-Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표의 JSON API를 읽어 `us-highest-paid-ceos`로 저장한다. 정확히 100행·7열, 달러 정수·내림차순을 검증하며, CEO 이름·회사/티커·2025 회계연도 보상액을 보존한다. `scope: "US"`는 조사 대상 기업의 범위이고 CEO 국적이 아니다. `VIZ_OVERRIDES`에서 로그 축 점 분포를 지정해 CEO별 보상을 전체 범위에서 비교하고 각 점에 hover 정보를 제공한다. 아래 표의 비교 막대도 1천만 달러 기준 로그 축을 사용한다. 갱신 명령: `npm run data:update -- us-highest-paid-ceos`. 랭킹 표의 값 열은 `max-content`까지 늘어나 큰 달러 금액도 잘리지 않는다(모바일은 이름 열이 줄어듦).
+Equilar CEO 보상 파이프라인은 `scripts/sources/equilar.mts`에서 공식 2026년판 표의 JSON API를 읽지만, 데이터가 2025 회계연도라 현재 `us-highest-paid-ceos` 파일은 게시하지 않는다. 정확히 100행·7열, 달러 정수·내림차순을 검증하며, CEO 이름·회사/티커·2025 회계연도 보상액을 보존한다. `scope: "US"`는 조사 대상 기업의 범위이고 CEO 국적이 아니다. `VIZ_OVERRIDES`에서 로그 축 점 분포를 지정해 CEO별 보상을 전체 범위에서 비교하고 각 점에 hover 정보를 제공한다. 아래 표의 비교 막대도 1천만 달러 기준 로그 축을 사용한다. 갱신 명령: `npm run data:update -- us-highest-paid-ceos`. 랭킹 표의 값 열은 `max-content`까지 늘어나 큰 달러 금액도 잘리지 않는다(모바일은 이름 열이 줄어듦).
 
 재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
 
-`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,695개와 국가 한정 1,614개로 총 3,309개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 모든 자동 파이프라인의 유효 최소 기준연도는 `scripts/lib/ranking-policy.mts`의 2026년이다. 개별 `minYear`가 더 높으면 그 값을 따른다. 국가별 지역 파이프라인도 동일하며, 2025년 이하 자료는 저장하지 않는다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API에서 실제 기준연도 2026년 이후인 국가별 관측치만 게시한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 34개와 국가 한정 1,424개로 총 1,458개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 25개국이 10개 이상을 제공한다.
 
-`oddities.mts`는 FAO 식품 공급 4종(2023), WHO 맥주 순알코올(2022), UNEP 가정·소매 음식물 쓰레기 2종(2022), UN Comtrade 플라스틱 폐기물 수출입 2종(2024), UNOOSA 연간 우주 물체 발사(2025)를 등록한다. 각 랭킹은 해당 시점에 국가별 값이 있는 단일 연도만 저장하고, 서로 다른 국가 수와 관측 한계를 출처 메모에 밝힌다. OWID 어댑터는 파라미터형 차트의 선택 조건도 `source.url`에 보존한다. 우주 발사량은 공동 발사 중복 집계와 미등록 물체 때문에 세계 총량 비중으로 표시하지 않고 `map` 시각화 예외를 사용한다.
+`oddities.mts`는 특이 주제 10개의 수집 정의를 보관하지만 원자료 기준연도가 2022–2025년이므로 현재 게시 파일은 없다. 해당 지표에 2026년 이후 관측치가 나오면 갱신기가 단일 연도로 다시 생성할 수 있다. OWID 어댑터는 파라미터형 차트의 선택 조건도 `source.url`에 보존한다.
+
+기준연도 정책의 단일 값은 `scripts/lib/ranking-policy.mts`의 `MIN_RANKING_YEAR = 2026`이다. `update.mts`는 모든 자동·지역 파이프라인에서 이를 하한으로 적용하고, `asOf` 대신 실제 데이터의 `year`로 판정한다. `check.mts`는 수동 JSON과 AI 에이전트 제출물까지 같은 조건으로 검사하며 `data:validate`(빌드 전 검사)가 2025년 이하 파일을 거부한다. 2025년 이하 파일 1,851개를 삭제했으므로 페이지·검색·사이트맵은 남은 1,458개 파일만 읽는다. 수집 정의는 자료가 갱신될 때 다시 사용할 수 있도록 보존한다.
 
 ### 5.1 데이터 수집 에이전트
 
@@ -213,7 +216,7 @@ npm run agent -- run          (수동 전체 갱신+발굴; 일일 스케줄은 
 국기에서 국가 상세 페이지로 이동하는 탐색과 국가 요약 데이터 집계는 유지한다.
 
 현재 카테고리 등록부는 8개 상단 메뉴를 정의한다. Markets는 주식시장 규모·거래, 상장사·기업 매출, 외국인 직접·포트폴리오 투자, 가계 소비시장, 시장 경쟁 지표를 모은다. 이 랭킹들의 JSON과 자동 수집 파이프라인 정의는 모두 `markets` 카테고리를 사용한다. 헤더, 정적 카테고리 경로, 사이트맵은 등록부를 자동 반영한다. 과거 분류 변경 내역은 프로젝트 계획 이력에 기록한다.
-World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른 분야의 국가 간 규모·최고 기록 랭킹을 함께 보여준다. 원래 카테고리 소속은 유지하며 `rankingsIn("world")`에서만 기존 세계 기준 항목과 합친다. 현재 World Records 고유 랭킹 8개와 다른 분야에서 고른 62개(일부는 중복)를 합쳐 고유 랭킹 65개를 표시한다. 국가 한정 랭킹과 카탈로그에 없는 ID는 제외한다.
+World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른 분야의 국가 간 규모·최고 기록 랭킹을 함께 보여준다. 원래 카테고리 소속은 유지하며 `rankingsIn("world")`에서만 기존 세계 기준 항목과 합친다. 현재 World Records 고유 랭킹 2개와 다른 분야의 7개를 합쳐 9개를 표시한다. 국가 한정 랭킹과 카탈로그에 없는 ID는 제외한다.
 데이터가 없는 카테고리 페이지는 분야 설명과 준비 중 안내를 표시한다. Maps는 지도 탐색 기능이므로 카테고리에서 제외한다.
 
 | 하고 싶은 일 | 수정할 곳 |
@@ -247,7 +250,7 @@ World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른
 배포: `vercel deploy --prod --yes`로 `dpl_57d9BKz9GHofpzT5u9W6n3UtfJFR`를 배포했다. `allranks.world`가 새 READY 배포를 가리키는 것을 확인하고 실제 도메인의 홈·랭킹·카테고리·인기·국가·검색, 자동완성 API, 홈의 Next.js 스크립트 응답을 확인했다. 이전 배포에 남아 있던 `allranks-git-main-eugene204-5519.vercel.app` 별칭도 새 배포로 옮긴 뒤, 이전 배포 `dpl_3YUvcJ1d1xPzVjr8ngYo5tWGuW2y`를 `--safe`로 삭제했다. 배포 목록에는 새 배포 1개만 남았다. 실제 Vercel Storage 갱신값은 별도 확인 대상이다.
 
 
-`rsf.mts`는 RSF 공식 인덱스에서 최신 연도 CSV 링크를 찾아 ISO-3 코드로 정규화한 뒤 세계 언론자유 점수를 저장한다. `cpi.mts`는 Transparency International의 최신 CPI 연판을 출처·변환 내역이 명시된 Nations Inquiry 데이터 인덱스에서 찾아 CSV로 읽는다. 2026-10-16 현재 새 파이프라인은 각각 2026년 177개국, 2025년 182개국을 수집한다.
+`rsf.mts`는 RSF 공식 인덱스에서 최신 연도 CSV 링크를 찾아 ISO-3 코드로 정규화해 2026년 세계 언론자유 점수를 저장한다. `cpi.mts`는 Transparency International의 최신 CPI 연판을 CSV로 읽지만 2025년 자료는 게시하지 않는다.
 
 검색 이동 지연 개선: `SearchForm`은 포커스 시 `/search` 로딩 화면을, 입력이 200ms 멈추면 해당 쿼리의 결과 경로를 `router.prefetch`로 준비한다. Enter/Search 제출에는 디바운스를 적용하지 않는다. `search/loading.tsx`가 결과 준비 중 즉시 표시할 화면을 제공한다.
 

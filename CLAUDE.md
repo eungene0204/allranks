@@ -27,5 +27,6 @@
 - Next.js 16은 기존 지식과 다르다. 코드를 쓰기 전에 `node_modules/next/dist/docs/`의 관련 가이드를 읽는다 (AGENTS.md).
 - 주요 명령: `npm run dev`(포트 3100), `npm run build`(검증 포함), `npm run lint`(`tsc --noEmit`), `npm run data:update`, `npm run data:validate`.
 - 웹사이트가 읽는 데이터는 `data/rankings/<id>.json` 뿐이다. 랭킹 추가 방법은 `README.md`의 "Adding a ranking" 참고.
+- 랭킹의 실제 데이터 기준연도(`year`)가 2025년 이하이면 만들거나 복원하지 않는다. 발행일과 `asOf`가 2026년이어도 `year`가 2025년 이하면 제외한다. 자동·수동·지역·에이전트 랭킹에 모두 적용한다.
 - **랭킹을 추가·삭제·단위 변경하거나 시각화 코드(`src/lib/viz.ts`, `src/components/viz/`, `RankingViz`/`RankingMap`)를 건드릴 때마다 `ranking-viz` 스킬(`.claude/skills/ranking-viz`)을 사용한다.** 랭킹마다 성격에 맞는 시각화가 나오는지 `npm run viz:report -- <id>` 와 스크린샷으로 확인한다.
 - 랭킹/데이터를 바꾼 뒤에는 `npm run data:validate`, 코드를 바꾼 뒤에는 `npm run lint`를 실행한다.

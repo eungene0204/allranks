@@ -5,6 +5,7 @@ import { loadCountries } from "./lib/countries.mts";
 import { PIPELINES } from "./registry.mts";
 import type { Item, RankingFile } from "./lib/types.mts";
 import type { Fetched } from "./lib/types.mts";
+import { MIN_RANKING_YEAR } from "./lib/ranking-policy.mts";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
@@ -26,21 +27,22 @@ let failed = 0;
 async function run(p: (typeof PIPELINES)[number]) {
   const { id } = p.meta;
   const prev: RankingFile | undefined = existsSync(fileFor(id)) ? JSON.parse(readFileSync(fileFor(id), "utf8")) : undefined;
-  const minYear = p.minYear ?? 2025;
+  const minYear = Math.max(MIN_RANKING_YEAR, p.minYear ?? MIN_RANKING_YEAR);
   try {
     // Query every registered provider. The newest eligible response wins; provider order breaks ties.
     const attempts = await Promise.allSettled([p.fetch, ...(p.fallbacks ?? [])].map((fetcher) => fetcher(ctx)));
     const available = attempts.flatMap((result) => result.status === "fulfilled" ? [result.value] : []);
-    const effectiveYear = (got: Fetched) => Number((got.asOf ?? String(got.year)).slice(0, 4)) || got.year;
+    // `year` is the data's reference year. A newer publication/asOf date cannot rescue 2025 data.
+    const effectiveYear = (got: Fetched) => got.year;
     const eligible = available.filter((got) => effectiveYear(got) >= minYear);
     if (!eligible.length) {
       const failedSources = attempts.filter((r) => r.status === "rejected").length;
-      if (failedSources === attempts.length && prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) >= minYear) {
+      if (failedSources === attempts.length && prev && prev.year >= minYear) {
         console.log(`= ${id.padEnd(22)} retained ${prev.asOf ?? prev.year} snapshot · all ${failedSources} sources unavailable`);
         return;
       }
-      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < minYear && !dry) unlinkSync(fileFor(id));
-      if (prev && Number((prev.asOf ?? String(prev.year)).slice(0, 4)) < minYear) {
+      if (prev && prev.year < minYear && !dry) unlinkSync(fileFor(id));
+      if (prev && prev.year < minYear) {
         console.log(`${dry ? "~" : "−"} ${id.padEnd(22)} removed · no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);
       } else {
         console.log(`= ${id.padEnd(22)} no data from ${minYear} or later${failedSources ? ` · ${failedSources}/${attempts.length} sources unavailable` : ""}`);

@@ -1,6 +1,7 @@
 // Structural checks for one ranking file. Shared by `npm run data:validate` and the data-collection agent,
 // so the agent can never write a file that the build would later reject.
 import type { CountryIndex, RankingFile } from "./types.mts";
+import { MIN_RANKING_YEAR } from "./ranking-policy.mts";
 
 export const SOURCE_KINDS = ["api", "csv", "wikipedia", "manual", "agent"];
 
@@ -18,6 +19,7 @@ export function checkRanking(r: RankingFile, { countries, categoryIds }: CheckCt
   need(r.order === "asc" || r.order === "desc", `order must be asc|desc`);
   need(Number.isInteger(r.decimals) && r.decimals >= 0 && r.decimals <= 4, "decimals must be an integer 0–4");
   need(Number.isInteger(r.year) && r.year > 1990 && r.year <= new Date().getFullYear() + 1, `implausible year ${r.year}`);
+  need(r.year >= MIN_RANKING_YEAR, `data year must be ${MIN_RANKING_YEAR} or later (got ${r.year})`);
   need(!!r.source?.name && SOURCE_KINDS.includes(r.source.kind), "source needs a name and a valid kind");
   need(Array.isArray(r.items) && r.items.length >= 5, "needs at least 5 items");
 
