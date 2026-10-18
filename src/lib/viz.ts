@@ -97,6 +97,14 @@ export function pickViz(r: Ranking): VizKind | null {
     if (r.unit !== "Rank" && a > 0 && b > 0 && a / b >= 1.5) return "podium";
     return "radial";
   }
+  // Discrete or highly concentrated country indicators pile up on a strip's few x
+  // positions, making tall swarms instead of a useful distribution. Their country
+  // pattern reads better on a map (regional lists keep their local distribution above).
+  const frequencies = new Map<number, number>();
+  for (const item of r.items) frequencies.set(item.value, (frequencies.get(item.value) ?? 0) + 1);
+  const distinctValues = frequencies.size;
+  const largestPile = Math.max(...frequencies.values()) / n;
+  if (distinctValues <= 8 || largestPile >= 0.3) return "map";
   if (additive) {
     if (topShare(r) >= 0.65) return "waffle";
     if (n < 30) return "packed";

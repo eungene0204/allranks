@@ -12,12 +12,21 @@ export default function RankingMap({ ranking: r }: { ranking: Ranking }) {
   const e = ranked(r);
   if (r.scope || r.multi || e.length < 15) return null;
 
-  // Five groups of equal size, best first; a country's group decides its shade.
+  // Five rank groups, best first. Keep equal values together at group boundaries;
+  // splitting a binary/ordinal category across shades makes its map misleading.
   const per = e.length / GROUPS;
-  const groupOf = (rank: number) => Math.min(GROUPS - 1, Math.floor((rank - 1) / per));
+  const valueCounts = new Map<number, number>();
+  for (const row of e) valueCounts.set(row.value, (valueCounts.get(row.value) ?? 0) + 1);
+  let through = 0;
+  const groupByValue = new Map<number, number>();
+  for (const [value, count] of valueCounts) {
+    groupByValue.set(value, Math.min(GROUPS - 1, Math.floor((through + count / 2) / per)));
+    through += count;
+  }
+  const groupOf = (value: number) => groupByValue.get(value) ?? GROUPS - 1;
   const byCode = new Map(e.map((x) => [x.country, x]));
   const groups = Array.from({ length: GROUPS }, (_, g) => {
-    const rows = e.filter((x) => groupOf(x.rank) === g);
+    const rows = e.filter((x) => groupOf(x.value) === g);
     return { g, from: rows[0]?.value, to: rows.at(-1)?.value, n: rows.length };
   });
   const fmt = (v: number) => formatValue(r, v);
@@ -47,7 +56,7 @@ export default function RankingMap({ ranking: r }: { ranking: Ranking }) {
             const path = (
               <path
                 d={s.d}
-                className={x ? `s${groupOf(x.rank)}` : "none"}
+                className={x ? `s${groupOf(x.value)}` : "none"}
                 data-tip={x ? `${x.name}: ${fmt(x.value)} (#${x.rank})` : undefined}
               />
             );
