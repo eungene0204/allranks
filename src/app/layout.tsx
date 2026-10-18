@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import Header from "@/components/Header";
-import { allRankings } from "@/lib/data";
 import { ADSENSE_CLIENT, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -27,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             strategy="afterInteractive"
           />
         )}
-        <Header rankingCategories={Object.fromEntries(allRankings().map((r) => [r.id, r.category]))} />
+        <Header />
         <main className="wrap">{children}</main>
         <footer className="site-footer">
           <div className="wrap">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RandomRankingCards from "@/components/RandomRankingCards";
 import { allRankings } from "@/lib/data";
 import { popularHomeRankings } from "@/lib/home-rankings";
+import { toRankingCard } from "@/lib/ranking-card";
 
 export const metadata: Metadata = {
   title: "Popular rankings",
@@ -20,7 +21,7 @@ export default function PopularRankingsPage() {
         <p>Selected for broad public interest and clear comparisons across countries.</p>
       </div>
       <h2 className="section">{rankings.length} rankings</h2>
-      <RandomRankingCards rankings={rankings} rerollOnRestore />
+      <RandomRankingCards rankings={rankings.map(toRankingCard)} rerollOnRestore />
     </>
   );
 }

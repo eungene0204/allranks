@@ -4,6 +4,7 @@ import RandomRankingCards from "@/components/RandomRankingCards";
 import { allRankings, countrySummaries } from "@/lib/data";
 import { latestHomeRankings, popularHomeRankings } from "@/lib/home-rankings";
 import Link from "next/link";
+import { toRankingCard } from "@/lib/ranking-card";
 
 export default function HomePage() {
   const countries = countrySummaries();
@@ -14,14 +15,21 @@ export default function HomePage() {
   const popularRankings = popularHomeRankings(rankings);
   return (
     <>
-      <section className="hero center">
-        <span className="pill">
-          <b>{all.length}</b> total rankings · <b>{countries.length}</b> countries
-        </span>
-        <h1>
-          No country tops everything.
+      <section className="hero center home-hero" aria-labelledby="home-headline">
+        <div className="hero-data-label">
+          <span><b>{all.length.toLocaleString("en-US")}</b> total rankings</span>
+          <span className="hero-data-divider" aria-hidden="true" />
+          <span><b>{countries.length}</b> countries</span>
+        </div>
+        <h1 id="home-headline">
+          <span className="hero-headline-line">No country tops</span>{" "}
+          <em>everything<span className="hero-period">.</span></em>
         </h1>
-        <p>From universities to GDP, fuel to Big Macs — discover where each country stands.</p>
+        <p>From universities to GDP, fuel to Big Macs.<br className="hero-copy-break" /> Discover where each country stands.</p>
+        <div className="hero-explore-cue" aria-hidden="true">
+          <span>One world. A thousand perspectives.</span>
+          <span className="hero-cue-line" />
+        </div>
       </section>
 
       <GlobeExplorer countries={countries.map(({ appearances, regional, ...country }) => ({
@@ -37,10 +45,10 @@ export default function HomePage() {
       <SearchForm />
 
       <h2 className="section">LATEST</h2>
-      <RandomRankingCards rankings={latestRankings} shuffle={false} />
+      <RandomRankingCards rankings={latestRankings.map(toRankingCard)} shuffle={false} />
 
       <h2 className="section">Popular rankings</h2>
-      <RandomRankingCards rankings={popularRankings} limit={15} rerollOnRestore className="popular-ranking-cards" />
+      <RandomRankingCards rankings={popularRankings.map(toRankingCard)} limit={15} rerollOnRestore className="popular-ranking-cards" />
       {popularRankings.length > 15 && (
         <div className="more-rankings">
           <Link className="more-rankings-link" href="/popular">More</Link>

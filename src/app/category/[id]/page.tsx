@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import RandomRankingCards from "@/components/RandomRankingCards";
 import { CATEGORIES, getCategory } from "@/lib/categories";
 import { rankingsIn } from "@/lib/data";
+import { toRankingCard } from "@/lib/ranking-card";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -38,7 +39,7 @@ export default async function CategoryPage({ params }: Props) {
       </div>
       <h2 className="section">{list.length} rankings</h2>
       {list.length === 0 && <p>Rankings in this category are coming soon.</p>}
-      <RandomRankingCards rankings={list} />
+      <RandomRankingCards rankings={list.map(toRankingCard)} />
     </>
   );
 }

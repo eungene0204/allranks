@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { CATEGORIES } from "@/lib/categories";
 import SearchForm from "@/components/SearchForm";
+import catalog from "@/generated/ranking-categories.json";
+
+const rankingCategories: Record<string, string> = catalog;
 
 function activeCategory(pathname: string, rankingCategories: Record<string, string>): string | undefined {
   const [, kind, id] = pathname.split("/");
@@ -12,7 +15,7 @@ function activeCategory(pathname: string, rankingCategories: Record<string, stri
   if (kind === "ranking") return rankingCategories[id];
 }
 
-export default function Header({ rankingCategories }: { rankingCategories: Record<string, string> }) {
+export default function Header() {
   const pathname = usePathname();
   const active = activeCategory(pathname, rankingCategories);
   const [searchOpen, setSearchOpen] = useState(false);

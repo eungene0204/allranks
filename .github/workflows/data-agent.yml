@@ -1,4 +1,4 @@
-# Periodic data run: refresh the automatic pipelines, let the AI agent update hand-entered rankings and add new ones,
+# Daily discovery run: let the AI agent research and add new rankings,
 # then open a pull request for a human to review. Nothing reaches main without that review.
 # Setup: add the repository secret ANTHROPIC_API_KEY and allow Actions to create pull requests
 # (Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests").
@@ -6,12 +6,12 @@ name: Data agent
 
 on:
   schedule:
-    - cron: "0 3 * * 1" # Mondays 03:00 UTC
+    - cron: "0 15 * * *" # Every day at 00:00 Asia/Seoul (15:00 UTC on the previous day)
   workflow_dispatch:
     inputs:
       mode:
         description: "plan | discover | refresh | run"
-        default: "run"
+        default: "discover"
       extra:
         description: "Extra CLI options, e.g. --category energy --max-new 2"
         default: ""
@@ -30,25 +30,42 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Continue pending data additions
+        run: |
+          if git show-ref --verify --quiet refs/remotes/origin/agent/data-update; then
+            git switch --create data-agent-work origin/agent/data-update
+          fi
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Check API credentials
+        if: inputs.mode != 'plan'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Set the ANTHROPIC_API_KEY repository secret before running daily ranking discovery."
+            exit 1
+          fi
       - name: Run the agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MODE: ${{ inputs.mode || 'run' }}
+          MODE: ${{ inputs.mode || 'discover' }}
           EXTRA: ${{ inputs.extra }}
         # The pipelines inside "refresh"/"run" may fail on a single source; the agent run itself must still finish.
-        run: npm run agent -- "$MODE" $EXTRA
+        run: npm run agent -- "$MODE" --max-new 3 --focus "Prioritize the latest available official data; check existing rankings to avoid duplicates and state the actual reference year." $EXTRA
       - name: Validate
         run: npm run data:validate && npm run lint
       - uses: peter-evans/create-pull-request@v7
         with:
+          base: ${{ github.event.repository.default_branch }}
           branch: agent/data-update
           delete-branch: true
-          commit-message: "data: weekly agent update"
-          title: "data: weekly agent update"
+          commit-message: "data: daily ranking additions"
+          title: "data: daily ranking additions"
           body-path: data/agent/last-run.md
           labels: data, ai-generated

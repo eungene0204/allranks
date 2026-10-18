@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import RankingCard from "@/components/RankingCard";
-import type { Ranking } from "@/lib/types";
+import type { RankingCardData } from "@/lib/types";
 
 function shuffled<T>(items: T[]): T[] {
   const result = [...items];
@@ -20,7 +20,7 @@ export default function RandomRankingCards({
   rerollOnRestore = false,
   className,
 }: {
-  rankings: Ranking[];
+  rankings: RankingCardData[];
   shuffle?: boolean;
   limit?: number;
   rerollOnRestore?: boolean;

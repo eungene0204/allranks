@@ -37,11 +37,11 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 ## 3. 디렉터리 구조
 
 ```
-.github/workflows/data-agent.yml  주간 스케줄: 파이프라인 + 에이전트 실행 → PR 생성
+.github/workflows/data-agent.yml  매일 KST 00:00: 신규 랭킹 조사 → 검증 → PR 생성/누적
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,289개: 세계 1,675 + 국가 한정 1,614)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,299개: 세계 1,685 + 국가 한정 1,614)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -90,7 +90,7 @@ src/
     CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표
     CountryWorldRankings.tsx 국가의 세계 랭킹을 간략한 데이터로 받아 48개씩 클라이언트에서 페이지 분할
     SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 70ms 뒤 국가·랭킹 자동완성 제공. Enter/Search 제출 시 전체 검색 결과로 이동
-    Header.tsx          로고·카테고리 탐색 (헤더 검색창 제거)
+    Header.tsx          로고·카테고리 탐색·검색 아이콘, 공용 생성 사전으로 활성 카테고리 표시
   lib/
     types.ts            웹과 스크립트가 공유하는 타입 (RankingFile 등)
     categories.ts       카테고리 정의 (7개로 통합: economy, education, tech, ai, society, energy, world)
@@ -133,12 +133,12 @@ Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표�
 
 재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
 
-`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,675개와 국가 한정 1,614개로 총 3,289개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,685개와 국가 한정 1,614개로 총 3,299개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
 
 ### 5.1 데이터 수집 에이전트
 
 ```
-npm run agent -- run          (스케줄: .github/workflows/data-agent.yml → PR)
+npm run agent -- run          (수동 전체 갱신+발굴; 일일 스케줄은 discover)
   1. refresh: scripts/update.mts 실행 (자동 파이프라인, LLM 없음)
   2. refresh: 수동·agent 랭킹 중 갱신 대상(30일 경과, 또는 미검증 manual)을 Claude가 조사 → update_ranking
   3. discover: 커버리지 리포트(빈 카테고리 8개 우선)를 보고 Claude가 새 랭킹 조사 → create_ranking
@@ -216,9 +216,23 @@ World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른
 
 ## 8. 제약과 알려진 사항
 
-- 배포 대상/호스팅은 아직 정해지지 않음 (`project_plan.md` 참조).
+- 배포 대상은 Vercel이며 프로덕션 도메인은 `allranks.world`다 (`project_plan.md` 참조).
 - 테스트 프레임워크 없음. 현재 품질 게이트는 `tsc --noEmit` + `data:validate`.
 - 데이터가 JSON 파일이므로 랭킹/항목 수가 크게 늘면 빌드 시간·저장소 크기 재검토 필요.
+
+### 2026-10-18 배포 저장 공간 조사 및 최적화
+
+- 기존 로컬 `.next/server/app`의 HTML·RSC 논리 파일 크기 합계는 2,871,597,877 bytes(약 2.87 GB)다. `.next` 전체 디스크 사용량이나 Vercel 과금 저장량과는 다른 측정값이며 새 빌드는 실행하지 않았다. 기존 `.vercel/output`은 HTML 1,109개인 이전 산출물이어서 현재 `.next`(HTML 3,523개)와 합산·직접 비교하지 않는다.
+- `RootLayout` → Client `Header`의 `rankingCategories`는 3,289개 ID→카테고리 사전 전체를 직렬화한다. 사전 JSON은 117,497 bytes이며, 로컬 HTML 3,522개와 RSC 10,566개에서 필드가 반복되어 총 1,701,921,972 bytes(위 HTML·RSC의 약 59%)를 차지한다. 우선 개선안은 이 사전을 빌드 시 생성하는 공용 JS/JSON 자산으로 분리해 페이지마다 props로 포함하지 않는 것이다.
+- `RandomRankingCards`는 카드에 상위 3개만 표시하면서 전체 `Ranking[]`를 전달받는다. 카드 전용 요약 모델(ID·제목·카테고리·상위 3개·전체 항목 수·연도 등)로 전환하는 것이 다음 개선안이다. `CountryRegional`은 모든 탭의 전체 데이터, `CountryWorldRankings`는 모든 페이지의 행을 초기 props에 담으므로 비활성 탭·후속 페이지를 요청 시 불러오는 방식도 검토한다.
+- 배포 `dpl_3YUvcJ1d1xPzVjr8ngYo5tWGuW2y`의 `vercel inspect --json` 출력은 lambda 항목 21,145개지만 고유 digest는 2개이며, 고유 번들 크기 합계는 15,015,369 bytes다. CLI의 `λ … (7.41MB)`는 공유 함수 번들 크기이므로 개별 RSC 응답 크기나 출력 개수와 곱해 배포 저장량을 추산하면 안 된다.
+- 조사 시 대시보드의 allranks 필터 값은 17.59 GB다. CLI 청구 데이터 조회는 해당 기간 데이터 없음으로 실패했다. 로컬 파일 합계를 이 값과 동일시하지 않으며 실제 절감량은 최적화 후 동일 조건 빌드와 Vercel 지표로 별도 확인한다.
+
+구현: `scripts/ranking-catalog.mts`가 데이터에서 ID→카테고리 사전을 생성하고, `next.config.ts` 로딩 시와 `npm run lint` 이전에 갱신한다. 생성 파일 `src/generated/ranking-categories.json`은 Git에서 제외하며 `Header`가 공용 클라이언트 모듈로 import한다. `RootLayout`은 더 이상 사전을 props로 전달하지 않는다. `src/lib/ranking-card.ts`의 서버 전용 `toRankingCard`는 `RankingCardData`(표시 메타데이터·전체 항목 수·정렬/포맷이 완료된 상위 3개)만 반환하며 홈·인기·카테고리·검색에서 사용한다. 섞기·개수 제한·복귀 시 재섞기·카테고리 강조 동작은 유지한다. 국가 탭과 국가 목록 데이터 로딩 변경은 후속 후보로 남긴다.
+
+검증: `npm run lint`, `npm run build` 성공(정적 페이지 생성 3,529개, 데이터 검증 3,289개 오류 0·기존 경고 2). 빌드 후 HTML·RSC 합계는 1,104,186,172 bytes로 기존 2,871,597,877 bytes 대비 61.55% 감소했으며, `rankingCategories` props 필드가 남은 HTML·RSC는 0개다. 인구 페이지 RSC는 141,437→24,041 bytes, 교육 카테고리 RSC는 6,537,139→586,277 bytes다. 로컬 프로덕션 서버에서 홈·랭킹·카테고리·인기·국가·검색 HTTP 200, 자동완성 결과, 잘못된 랭킹 404, 서버 렌더의 카테고리 강조와 생성 사전 3,289개 일치를 확인했다. 브라우저 연결이 없어 실제 브라우저 상호작용 검증은 수행하지 않았다.
+
+배포: `vercel deploy --prod --yes`로 `dpl_57d9BKz9GHofpzT5u9W6n3UtfJFR`를 배포했다. `allranks.world`가 새 READY 배포를 가리키는 것을 확인하고 실제 도메인의 홈·랭킹·카테고리·인기·국가·검색, 자동완성 API, 홈의 Next.js 스크립트 응답을 확인했다. 이전 배포에 남아 있던 `allranks-git-main-eugene204-5519.vercel.app` 별칭도 새 배포로 옮긴 뒤, 이전 배포 `dpl_3YUvcJ1d1xPzVjr8ngYo5tWGuW2y`를 `--safe`로 삭제했다. 배포 목록에는 새 배포 1개만 남았다. 실제 Vercel Storage 갱신값은 별도 확인 대상이다.
 
 
 `rsf.mts`는 RSF 공식 인덱스에서 최신 연도 CSV 링크를 찾아 ISO-3 코드로 정규화한 뒤 세계 언론자유 점수를 저장한다. `cpi.mts`는 Transparency International의 최신 CPI 연판을 출처·변환 내역이 명시된 Nations Inquiry 데이터 인덱스에서 찾아 CSV로 읽는다. 2026-10-16 현재 새 파이프라인은 각각 2026년 177개국, 2025년 182개국을 수집한다.
@@ -226,3 +240,17 @@ World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른
 검색 이동 지연 개선: `SearchForm`은 포커스 시 `/search` 로딩 화면을, 입력이 200ms 멈추면 해당 쿼리의 결과 경로를 `router.prefetch`로 준비한다. Enter/Search 제출에는 디바운스를 적용하지 않는다. `search/loading.tsx`가 결과 준비 중 즉시 표시할 화면을 제공한다.
 
 국가 페이지 전환 개선: 국가 메타데이터는 `countryInfo`의 이름만으로 짧은 설명을 만들며 상세 집계를 호출하거나 전체 랭킹 제목을 나열하지 않는다. 국가의 세계 랭킹은 간략한 카드 데이터만 Client Component에 전달하고 한 화면에 48개씩 표시한다. 국가·랭킹 경로에 `loading.tsx`를 두어 전환 상태를 제공한다. 검색 후보 링크는 기본 prefetch를 사용한다. 포커스 이동의 relatedTarget이 null일 때 자동완성을 닫지 않으며, 외부 pointerdown·명확한 외부 포커스·Escape에서 닫아 클릭 전에 링크가 사라지는 문제를 막는다.
+
+### 2026-10-18 WIPO 세계혁신지수 추가
+
+- 공식 GII 2026 엑셀의 `Data` 시트에서 종합·투입·산출 및 7개 pillar 점수를 가져와 10개 JSON 랭킹을 제공한다. 각 목록은 139개 경제권 전체를 포함하며 기존 데이터 로더가 검색·국가·카테고리·사이트맵에 반영한다.
+- `python3 scripts/import-gii.py [공식.xlsx]`로 재수집한다. 경로 생략 시 WIPO 공식 배포 파일을 다운로드한다. Python 표준 ZIP/XML 모듈만 사용하며 외부 의존성이 없다. 139행·국가 매칭·중복·0–100 범위·공식 순위와 점수 정렬·종합 상위 5개국을 확인하고 전체 지표 검증 후 기록한다. 동일 데이터 재실행 시 갱신일을 보존한다.
+- 에디션별 검토 수집으로 `source.kind: manual`, `verified: true`를 사용한다. 정기 Node 갱신 파이프라인에는 등록하지 않았으며 다음 판은 별도 검토가 필요하다. `year: 2026`은 보고서 판 연도이고 하위 통계는 서로 다른 관측연도를 사용함을 출처에 명시한다.
+
+### 2026-10-18 일일 랭킹 추가 스케줄
+
+GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매일 한국시간 00:00이다. `discover`로 최신 공식 자료를 우선 조사해 실행당 최대 3개를 추가하고, 데이터/타입 검증 후 `agent/data-update` PR을 생성·갱신한다. 미병합 브랜치가 있으면 해당 자료를 이어받아 전날 추가분 유실·중복 발굴을 방지한다. 수동 실행에서는 기존 `plan/refresh/run`도 선택 가능하다. API 키 미등록은 명시적 오류로 중단한다. 예약 실행은 기본 브랜치 반영 이후 적용되며 GitHub 부하에 따라 지연될 수 있다. 현재 저장소 API 확인 결과 Actions 시크릿 0개, PR 생성 허용 비활성으로 실제 가동은 미완료다.
+
+### 2026-10-18 홈 히어로 디자인
+
+홈 서버 컴포넌트의 제목을 두 줄로 구성하고 `everything`에 테마 강조색을 적용한다. `home-hero` 전용 CSS로 반응형 타이포그래피, 통계 라벨, 지구본으로 이어지는 장식선을 제공하며 추가 클라이언트 코드나 이미지 의존성은 없다. 장식은 접근성 트리에서 제외하고 섹션은 제목과 연결한다.

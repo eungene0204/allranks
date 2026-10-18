@@ -55,6 +55,12 @@ export type Ranking = RankingFile;
 
 export type RankedEntry = { rank: number; name: string; country: string; flag: string; value: number; logo?: string; detail?: string };
 
+/** Only the values rendered by a ranking preview card. */
+export type RankingCardData = Pick<Ranking, "id" | "title" | "icon" | "category" | "year" | "scope"> & {
+  entryCount: number;
+  top: { name: string; rank: number; flag: string; formatted: string; logo?: string }[];
+};
+
 /** One row per ranking: the country's best position there, who holds it, and how many entries it has in it. */
 export type CountryAppearance = {
   id: string;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RankingCard from "@/components/RankingCard";
+import { toRankingCard } from "@/lib/ranking-card";
 import SearchForm from "@/components/SearchForm";
 import { searchCountries, searchEntries, searchRankings } from "@/lib/data";
 import { formatValue } from "@/lib/format";
@@ -46,7 +47,7 @@ export default async function SearchPage({ searchParams }: Props) {
         <section>
           <h2 className="section">Rankings</h2>
           {pageCount > 1 && <p className="muted">Showing {(page - 1) * pageSize + 1}–{Math.min(page * pageSize, rankings.length)} of {rankings.length} rankings.</p>}
-          <div className="cards">{visibleRankings.map((r) => <RankingCard key={r.id} ranking={r} />)}</div>
+          <div className="cards">{visibleRankings.map((r) => <RankingCard key={r.id} ranking={toRankingCard(r)} />)}</div>
           {pageCount > 1 && <nav className="search-pagination" aria-label="Ranking results pages">
             {page > 1 && <Link href={`/search?q=${encodeURIComponent(q)}&page=${page - 1}`}>← Previous</Link>}
             <span>Page {page} of {pageCount}</span>

@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { getCategory } from "@/lib/categories";
-import { flagEmoji, formatValue, ranked } from "@/lib/format";
-import type { Ranking } from "@/lib/types";
+import { flagEmoji } from "@/lib/format";
+import type { RankingCardData } from "@/lib/types";
 import Mark from "./Mark";
 import RankBadge from "./RankBadge";
 
-export default function RankingCard({ ranking: r }: { ranking: Ranking }) {
-  const top = ranked(r).slice(0, 3);
+export default function RankingCard({ ranking: r }: { ranking: RankingCardData }) {
   return (
     <Link className="card" href={`/ranking/${r.id}`}>
       <span className="tag">
@@ -15,19 +14,19 @@ export default function RankingCard({ ranking: r }: { ranking: Ranking }) {
       </span>
       <h3>{r.title}</h3>
       <ol>
-        {top.map((t) => (
+        {r.top.map((t) => (
           <li key={t.name}>
             <RankBadge rank={t.rank} />
             <span className="entry">
               {t.logo && <Mark icon="" logo={t.logo} />}
               <span className="entry-name" title={t.name}>{!r.scope && t.flag} {t.name}</span>
             </span>
-            <span className="v">{formatValue(r, t.value)}</span>
+            <span className="v">{t.formatted}</span>
           </li>
         ))}
       </ol>
       <span className="more">
-        {r.items.length} entries · {r.year} →
+        {r.entryCount} entries · {r.year} →
       </span>
     </Link>
   );
