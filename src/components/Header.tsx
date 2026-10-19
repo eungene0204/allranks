@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CATEGORIES } from "@/lib/categories";
 import SearchForm from "@/components/SearchForm";
 import catalog from "@/generated/ranking-categories.json";
@@ -19,6 +19,23 @@ export default function Header() {
   const pathname = usePathname();
   const active = activeCategory(pathname, rankingCategories);
   const [searchOpen, setSearchOpen] = useState(false);
+  const searchWrap = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!searchOpen) return;
+    const closeOnOutsidePointer = (event: PointerEvent) => {
+      if (!searchWrap.current?.contains(event.target as Node)) setSearchOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSearchOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOnOutsidePointer);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsidePointer);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [searchOpen]);
 
   return (
     <header className="site-header">
@@ -35,7 +52,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <div className="header-search-wrap">
+        <div className="header-search-wrap" ref={searchWrap}>
           <button className="header-search-toggle" type="button" aria-label={searchOpen ? "Close search" : "Open search"}
             aria-expanded={searchOpen} aria-controls="header-search-panel" onClick={() => setSearchOpen((open) => !open)}>
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
