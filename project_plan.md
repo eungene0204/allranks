@@ -237,3 +237,10 @@
 - 검증: 전체 프로덕션 빌드 통과, 초기 `.next/server/app` 논리 크기 약 1,339MB→27.71MB(97.9% 감소). 대표 국가/요청 시 랭킹 200, 미존재 경로 404, API 48개 분할·scope/페이지 검증, 첫 요청 MISS→재요청 HIT 확인. Safari에서 지도 도형·색상·범례와 국가 초기 화면 확인. 탭/페이지 버튼 조작은 미검증.
 - 구현: `npm run deployments:prune`는 dry run, `npm run deployments:prune -- --apply`는 정상 production보다 오래된 완료 배포 삭제. GitHub Actions는 배포 성공·매시간·수동 실행에 대응한다.
 - 후속: VERCEL_TOKEN 시크릿 등록과 기본 브랜치 반영으로 자동 정리 가동, 코드 프로덕션 배포, SVG·탭·페이지 탐색 브라우저 확인, 두 Vercel Storage 지표 모니터링. 현재 앱 코드는 미커밋·미푸시·미배포이며 기본 Vercel 보존 정책(30일/최근 10개)은 유지 중이다.
+
+### 2026-10-19 프로덕션 배포 및 최신 배포 정리
+
+- 완료: `aa32df3 Reduce Vercel deployment storage`를 `main`에 푸시. Vercel production `dpl_BL5vG5ZZ7gwzZHm878e2AKTfU1ty` READY. `allranks.world` 홈, 176개 공통 도형 SVG, 국가 페이지, 사전 생성 언어 랭킹, 요청 시 생성 총기 살인율 랭킹, 국가 API 모두 HTTP 200.
+- 완료: 이전 production `dpl_2hQBnumHuQHH4CWT7dy7D72cVQhb` 삭제 후 API 목록에 READY production 하나만 남은 것을 확인했다. 기존 프로젝트 보존 정책은 30일/최근 10개라 이번에는 CLI 스크립트로 수동 정리했다.
+- 부분 완료: GitHub Actions 배포 성공 이벤트가 정상 실행됨. `VERCEL_TOKEN` 시크릿이 없어 스크립트는 삭제 없이 skip 됐다. 해당 시크릿을 등록하면 다음 배포부터 workflow가 이전 성공/완료 배포를 정리한다.
+- 검증: `npm run lint`, `npm run build`, `git diff --check`; 실제 도메인 smoke check와 Vercel deployment 목록 확인. 실제 Deployment Storage 청구량 변화는 Usage 대시보드에서 후속 측정한다.

@@ -301,3 +301,8 @@ GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매�
 - `.github/workflows/prune-deployments.yml`은 배포 성공 이벤트·매시간·수동 실행을 지원한다. 기본 브랜치 반영과 GitHub Actions `VERCEL_TOKEN` 시크릿 설정 후 가동된다. API 토큰은 서버 앱이나 브라우저 코드에 넣지 않는다. 현재 코드 변경은 아직 커밋·푸시·배포하지 않았다.
 - 로컬 빌드 검증: 페이지 출력 `.next/server/app` 논리 합계 약 1,339MB → 27.71MB(약 97.9% 감소, 요청 시 생성 전 측정), 정적 생성 53개. `npm run build` 통과(데이터 3,316개 오류 0, 기존 경고 2). 국가 KR 페이지 200, 세계 순위 API page 0/1 각 48개·전체 1,388개, 국내 scope 일치 200/타국 scope 404, 잘못된 페이지 400/404, 없는 국가·랭킹 404를 확인했다. 미리 만들지 않은 국내 랭킹은 MISS 다음 HIT로 캐시된다. 지도 엔드포인트 200·176개 도형 확인. Safari에서 공유 지도 도형·색상·범례와 국가 초기 화면을 확인했다. 탭/페이지 버튼 조작과 툴팁은 미검증.
 - 제한: 첫 방문에 렌더링 지연/함수 실행이 생기고 방문한 페이지의 캐시는 이후 늘어난다. 97.9%는 초기 로컬 페이지 출력 감소이며 실제 Vercel 청구량·함수 저장 공간 감소율이 아니다. 삭제 직후 Usage 수치가 즉시 줄어드는지 확인하지 못했다.
+
+### 프로덕션 반영 결과 (2026-10-19)
+
+- 커밋 `aa32df3`을 `main`에 배포했다. 프로덕션 Vercel 배포 `dpl_BL5vG5ZZ7gwzZHm878e2AKTfU1ty` READY, `allranks.world` 홈·공유 지도 SVG·국가 페이지·지연 생성 랭킹·국가 API 모두 HTTP 200. 새 배포 후 이전 production `dpl_2hQBnumHuQHH4CWT7dy7D72cVQhb`을 삭제했고 API 목록에서 현재 production 하나만 남았음을 확인했다.
+- Actions 자동 정리 workflow가 등록되어 deployment status 이벤트에서 실행됐으나 저장소 `VERCEL_TOKEN` 미설정으로 정리를 건너뛰었다. 이후 자동 정리는 시크릿 등록 후에만 활성화된다. Vercel 프로젝트의 기본 보존 정책(30일, 최근 배포 10개)은 변경하지 않았다. 최신 한 개만 남는 상태는 이번에 수동 API 정리로 적용했다.
