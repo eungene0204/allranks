@@ -7,7 +7,7 @@ import FreshnessBadge from "./FreshnessBadge";
 const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
 const DAY = new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" });
 
-/** Dataset context stays visible directly before the chart and ranking table. */
+/** Dataset context shown at the bottom of a ranking page, after its results and source. */
 export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
   const urls = [...new Set([r.source.url, ...(r.source.urls ?? [])].filter((url): url is string => Boolean(url)))];
   const period = r.asOf ? MONTH.format(new Date(`${r.asOf}-01T00:00:00Z`)) : String(r.year);

@@ -49,12 +49,12 @@ export default async function RankingPage({ params }: Props) {
         {sample && <span className="chip chip-warn">Sample data</span>}
         {r.source.kind === "agent" && r.source.verified === false && <span className="chip chip-warn">AI-collected · unverified</span>}
       </div>}
-      <RankingContext ranking={r} />
       {supportsHistory(r) && <RankingHistory id={r.id} title={r.title} order={r.order} defaultCountry={r.items[0].country} format={{ prefix: r.prefix, suffix: r.suffix, decimals: r.decimals, unit: r.unit }} countries={r.items.map((item) => ({ code: item.country, name: item.name })).sort((a, b) => a.name.localeCompare(b.name))} />}
       <RankingViz ranking={r} />
       <RankingTable ranking={r} />
       <RankingInsights ranking={r} />
       <SourceLine ranking={r} />
+      <RankingContext ranking={r} />
     </>
   );
 }
