@@ -33,11 +33,14 @@ const POPULAR_RANKING_IDS = new Set([
   "gasoline",
 ]);
 
-export function latestHomeRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {
+export function allLatestRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {
   return rankings
-    .filter((ranking) => ranking.year === year)
-    .sort((a, b) => (b.asOf ?? "").localeCompare(a.asOf ?? "") || b.updatedAt.localeCompare(a.updatedAt))
-    .slice(0, 6);
+    .filter((ranking) => (ranking.editionYear ?? ranking.year) === year)
+    .sort((a, b) => Number(Boolean(b.editionYear)) - Number(Boolean(a.editionYear)) || (b.asOf ?? "").localeCompare(a.asOf ?? "") || b.updatedAt.localeCompare(a.updatedAt));
+}
+
+export function latestHomeRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {
+  return allLatestRankings(rankings, year).slice(0, 3);
 }
 
 export function popularHomeRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {

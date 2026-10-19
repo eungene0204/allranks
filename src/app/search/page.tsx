@@ -66,7 +66,7 @@ export default async function SearchPage({ searchParams }: Props) {
               <div className="ranking-card-shell" key={`${r.id}-${e.name}`}><Link className="card" href={`/ranking/${r.id}`}>
                 <span className="tag">{r.title}</span>
                 <h3>{e.flag} {e.name}</h3>
-                <FreshnessBadge year={r.year} />
+                <FreshnessBadge year={r.year} editionYear={r.editionYear} />
                 {e.detail && <p>{e.detail}</p>}
                 <span className="more">#{e.rank} · {formatValue(r, e.value)} →</span>
               </Link><CopyRankingLink id={r.id} title={r.title} /></div>

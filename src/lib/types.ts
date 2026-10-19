@@ -43,9 +43,11 @@ export type RankingFile = {
   scope?: string;
   /** True for lists of things that each belong to a country (cities, websites…), so countries may repeat. */
   multi?: boolean;
-  /** Global entity ranking that is not a ranking of countries (currently languages). */
-  entityType?: "language";
+  /** Global entity ranking that is not a ranking of countries (e.g. languages or ports). */
+  entityType?: "language" | "port";
   year: number;
+  /** Year this ranking edition was published, when it differs from the data reference year. */
+  editionYear?: number;
   /** Finer-grained period than `year`, e.g. "2026-07". */
   asOf?: string;
   source: Source;
@@ -58,7 +60,7 @@ export type Ranking = RankingFile;
 export type RankedEntry = { rank: number; name: string; country: string; flag: string; value: number; logo?: string; detail?: string };
 
 /** Only the values rendered by a ranking preview card. */
-export type RankingCardData = Pick<Ranking, "id" | "title" | "icon" | "category" | "year" | "scope" | "entityType"> & {
+export type RankingCardData = Pick<Ranking, "id" | "title" | "icon" | "category" | "year" | "editionYear" | "scope" | "entityType"> & {
   entryCount: number;
   top: { name: string; rank: number; flag: string; formatted: string; logo?: string }[];
 };

@@ -13,6 +13,7 @@ import { scorecard } from "./sources/college-scorecard.mts";
 import { worldBank } from "./sources/worldbank.mts";
 import { rsfPressFreedom } from "./sources/rsf.mts";
 import { corruptionPerceptions } from "./sources/cpi.mts";
+import { lloydsContainerPorts } from "./sources/ports.mts";
 import { billionaires, coffee, largestCities, millionaires, nobelLaureates, oilReserves, topWebsites, wine } from "./sources/wikipedia-world.mts";
 import { REGIONAL } from "./regional/index.mts";
 import { TOPICS } from "./topics.mts";
@@ -54,6 +55,12 @@ const renewableEnergyFetch: Pipeline["fetch"] = async (ctx) => {
  * by hand directly in data/rankings/<id>.json and are only checked by `npm run data:validate`.
  */
 export const PIPELINES: Pipeline[] = [
+  {
+    meta: { id: "world-busiest-container-ports-latest", title: "Latest Lloyd’s List Container Port Rankings", category: "economy", icon: "⚓", desc: "The official annual order of the world’s 100 busiest container ports. The publisher does not make exact throughput figures public on the free edition page.", unit: "Rank", prefix: "#", suffix: "", decimals: 0, order: "asc", entityType: "port", multi: true },
+    fetch: lloydsContainerPorts,
+    minItems: 80,
+    minYear: 2025,
+  },
   {
     meta: {
       id: "press-freedom-index", title: "World Press Freedom", category: "society", icon: "📰",

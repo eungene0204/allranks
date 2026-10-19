@@ -67,6 +67,7 @@ async function run(p: (typeof PIPELINES)[number]) {
     const next: RankingFile = {
       ...p.meta,
       year: got.year,
+      ...(got.editionYear ? { editionYear: got.editionYear } : {}),
       ...(got.asOf ? { asOf: got.asOf } : {}),
       source: got.source,
       updatedAt: new Date().toISOString(),

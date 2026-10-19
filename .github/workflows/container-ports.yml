@@ -1,0 +1,39 @@
+name: Refresh container port rankings
+
+on:
+  schedule:
+    - cron: "30 15 * * *" # Daily at 00:30 Asia/Seoul
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: container-port-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Fetch the latest Lloyd’s List edition
+        run: node scripts/update.mts world-busiest-container-ports-latest
+      - name: Validate refreshed data and types
+        run: npm run data:validate && npm run lint
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          base: ${{ github.event.repository.default_branch }}
+          branch: agent/container-port-update
+          delete-branch: true
+          commit-message: "data: refresh Lloyd's List container ports"
+          title: "data: refresh Lloyd's List container ports"
+          body: "Updates the annual public Lloyd's List container-port ranking when a new edition is available."
+          labels: data

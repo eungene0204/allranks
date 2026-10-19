@@ -18,17 +18,19 @@ export function checkRanking(r: RankingFile, { countries, categoryIds }: CheckCt
   need(r.order === "asc" || r.order === "desc", `order must be asc|desc`);
   need(Number.isInteger(r.decimals) && r.decimals >= 0 && r.decimals <= 4, "decimals must be an integer 0–4");
   need(Number.isInteger(r.year) && r.year > 1990 && r.year <= new Date().getFullYear() + 1, `implausible year ${r.year}`);
+  if (r.editionYear !== undefined) need(Number.isInteger(r.editionYear) && r.editionYear >= r.year && r.editionYear <= new Date().getFullYear() + 1, `implausible edition year ${r.editionYear}`);
   need(!!r.source?.name && SOURCE_KINDS.includes(r.source.kind), "source needs a name and a valid kind");
   need(Array.isArray(r.items) && r.items.length >= 5, "needs at least 5 items");
-  if (r.entityType) need(r.entityType === "language" && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
+  if (r.entityType) need(["language", "port"].includes(r.entityType) && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
 
   const names = new Set<string>();
   const codes = new Set<string>();
   for (const i of r.items ?? []) {
     need(typeof i.name === "string" && i.name.length > 0, "item without a name");
     need(Number.isFinite(i.value), `${i.name}: value is not a finite number`);
-    if (r.entityType) need(!i.country, `${i.name}: global ${r.entityType} entries must not have a country code`);
-    else need(typeof i.country === "string" && countries.byCode2.has(i.country), `${i.name}: unknown country code "${i.country}"`);
+    if (r.entityType === "language") need(!i.country, `${i.name}: global languages must not have a country code`);
+    else if (r.entityType === "port" && i.country) need(countries.byCode2.has(i.country), `${i.name}: unknown country code "${i.country}"`);
+    else if (!r.entityType) need(typeof i.country === "string" && countries.byCode2.has(i.country), `${i.name}: unknown country code "${i.country}"`);
     need(!names.has(i.name), `duplicate item name "${i.name}"`);
     names.add(i.name);
     if (i.country) codes.add(i.country);

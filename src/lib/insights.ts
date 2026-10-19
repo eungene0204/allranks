@@ -31,6 +31,13 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
       `Source: ${r.source.name}, ${period(r)}.`,
     ];
   }
+  if (r.entityType === "port") {
+    return [
+      `In the ${r.editionYear ?? period(r)} edition, Lloyd’s List ranked ${a.name} first, followed by ${b.name} and ${c.name}.`,
+      `The public edition gives the order of ${e.length} ports; it does not publish their exact throughput figures.`,
+      `Source: ${r.source.name}, ${period(r)}.`,
+    ];
+  }
   const out: string[] = [];
   const where = r.scope ? `Within ${countryOf(r.scope)?.name ?? r.scope}, ` : "";
   const unit = r.entityType === "language" ? "languages" : r.scope || r.multi ? "entries" : "countries and territories";

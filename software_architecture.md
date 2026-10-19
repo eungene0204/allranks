@@ -32,13 +32,17 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
-홈은 현재 연도와 데이터 기준 연도(`year`)가 일치하는 세계 랭킹만 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 6개를 보여주고 해당 항목을 인기 그룹에서 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 15개를 보여주며 넓은 화면에서 한 줄에 5개, 좁은 화면에서 3·2·1개로 배치한다. `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
+홈은 현재 연도와 데이터 기준 연도(`year`) 또는 출판 판본 연도(`editionYear`)가 일치하는 세계 랭킹을 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 3개를 보여준다. 전체 최신 목록은 `/latest`에서 제공한다. 홈 LATEST에는 More 링크를 표시하지 않는다. 홈의 Popular 미리보기는 LATEST에 표시된 3개와만 중복을 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 15개를 보여주며 넓은 화면에서 한 줄에 5개, 좁은 화면에서 3·2·1개로 배치한다. `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
 
 2026-10-19 총기 관련 랭킹 2개를 추가했다. `scripts/topics.mts`의 OWID CSV 어댑터가 UNODC 기반 `homicide-rates-from-firearms` 및 `homicides-by-firearm` 시계열에서 최신 공통 연도 2023 자료를 가져온다. 살인율에는 히스토그램, 건수 합계에는 지역별 누적 시각화를 사용한다. 추가 총기 자료는 `scripts/sources/firearms.mts`에서 가져온다. OAS 지표 페이지에서 2024년 행만 파싱해 미주 29개국의 reported firearm-homicide counts/rates를 별도 세계 목록으로 만든다. CDC Socrata resource `489q-934x`에서는 2025년 분기별 주별 잠정률 가운데 50개 이상 주 자료가 있는 가장 최근의 12개월 기간을 고르며, 연령 보정·비보정 모두 수집한다. CDC 지표는 모든 의도의 총기 사망이며 잠정 수정될 수 있다.
 
 2026-10-19 저장 공간 개선 후 랭킹 상세 경로는 `generateStaticParams()`로 홈 최신·인기 선정 ID만 미리 생성하고 `dynamicParams = true`로 나머지 ID를 첫 요청에 생성·캐시한다. 이렇게 하면 개발 서버가 실행된 뒤 JSON 파일로 추가한 랭킹도 즉시 열리며, 실제 존재 여부는 `getRanking()`과 `notFound()`가 판정한다.
 
-랭킹 데이터는 기본적으로 국가별 수치지만, `entityType: "language"`는 국가 코드가 없는 전 세계 언어 목록을 지원한다. 언어 항목은 랭킹 카드·표·방사형 시각화·검색에 표시하고 국가 요약·국가 상세·지도·연간 국가 추이 집계에서는 제외한다.
+랭킹 데이터는 기본적으로 국가별 수치지만, `entityType`은 국가를 직접 순위화하지 않는 전 세계 엔터티 목록도 지원한다. `language`는 국가 코드 없는 언어 목록이며 `port`는 항목에 국가 코드와 국가명을 보조 정보로 담을 수 있다. 두 엔터티 순위 모두 카드·표·방사형 시각화·검색에 표시하고 국가 요약·국가 상세·지도·연간 국가 추이 집계에서는 제외한다. `editionYear`는 실제 관측연도와 구분되는 출판 판본 연도를 표현하며 LATEST 자동 선정과 freshness 배지에 사용한다.
+
+2026-10-20 세계 컨테이너 항만 순위: Visual Capitalist가 인용한 Lloyd’s List One Hundred Ports 2025 자료에서 2024년 TEU 처리량 상위 20개 항만을 수동 등록했다. 수치는 백만 TEU로 표시하고 항만을 국가 순위·지도·국가별 출현 집계에 포함하지 않는다.
+
+2026-10-20 Lloyd’s List 최신 연판 순위: 공식 아카이브에서 최신판 경로를 찾고 공개 페이지의 상위 100개 항만명·순위·국가를 추출하는 `scripts/sources/ports.mts` 어댑터를 추가했다. 연판 관측연도와 `editionYear`를 별도 기록한다. 정확한 TEU 수치는 유료 구독 콘텐츠여서 공개된 순위 위치만 자동 수집한다. `.github/workflows/container-ports.yml`은 매일 어댑터를 실행하고 변경 시 검증 PR을 만든다.
 
 2026-10-19 공통 `formatValue()`는 설정된 소수점 자리수로 비영(非零) 값이 0으로 반올림될 때만 최대 6자리까지 표시 정밀도를 늘린다. 작은 단위 환산값이 실제 0처럼 보이지 않게 하며 정렬·저장 값은 바꾸지 않는다.
 
@@ -55,7 +59,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
-  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,316개: 세계 1,700 + 국가 한정 1,616)
+  rankings/<id>.json        랭킹 1개 = 파일 1개 (현재 3,318개: 세계 1,702 + 국가 한정 1,616)
 scripts/
   update.mts                랭킹 데이터 갱신 CLI (--jobs N 병렬, 기본 3)
   freshness.mts             기준 연도 신선도 점검 (data:freshness, 네트워크 없음)
@@ -93,6 +97,7 @@ src/
     layout.tsx, globals.css, not-found.tsx, sitemap.ts, robots.ts(전체 허용·`/search` 제외·사이트맵 위치)
     page.tsx                         홈 (지구본 + 랭킹 카드, 카테고리 탐색은 헤더에서 제공)
     popular/page.tsx                 전체 인기 세계 랭킹 목록
+    latest/page.tsx                  전체 최신 세계 랭킹 목록
     ranking/[id]/page.tsx            랭킹 상세
     category/[id]/page.tsx           카테고리별 목록
     country/[code]/page.tsx          국가 상세 (국가 한정 랭킹 + 세계 랭킹 내 순위)
@@ -148,7 +153,7 @@ Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표�
 
 재생에너지 비중(`renewable-energy`)은 OWID의 SDG 7.2.1 CSV와 World Bank API를 병렬 조회하고, 국가 10개 이상인 결과 중 가장 최신 연도의 자료를 저장한다(동일 연도면 OWID 우선). OWID 표기는 UNSD·IEA·IRENA 자료를 재배포하며, World Bank도 IEA 원자료 기반이므로 이중 경로는 제공·갱신 경로의 장애 대응에 쓰고 완전히 독립된 통계 생산원이라고 간주하지 않는다. 갱신 명령: `npm run data:update -- renewable-energy`.
 
-`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,700개와 국가 한정 1,616개로 총 3,316개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
+`Pipeline.fallbacks`는 같은 지표의 독립 제공 경로를 등록하며 `update.mts`는 주 소스와 폴백을 병렬 조회해 파이프라인별 최소 기준연도 이상인 최신 자료를 채택한다. 기본 `minYear`는 2025다. 단, `scripts/regional/lib.mts`의 국가별 통계 파이프라인은 실제 연도를 표시하는 조건으로 2020년 이후 공개된 역사·지역 자료도 보존한다. 국가별 공통 보강 자료는 OpenAlex의 연구량·영향력 지표 네 가지, GeoNames의 도시 고도, OurAirports의 공항 고도·활주로 길이를 사용한다. OpenAlex와 공항 지표는 비교할 기관·공항이 5개 이상인 경우에만, 도시·공항 목록은 상위 50개까지만 저장한다. 모든 목록은 원자료의 출처·라이선스·측정 한계를 노출한다. World Bank 어댑터는 최소 지정연도부터 현재 연도까지 조회하고, 같은 해 국가 관측치가 최소 10개인 가장 최근 연도를 선택한다. 페이지에는 실제 기준연도를 표시한다. 세계은행 확장 카탈로그는 국가별 값이 모두 동일한 시계열을 제외하며, 이진 정책 지표는 1/0을 Yes/No로 표시한다. 모든 자동 랭킹의 저장 JSON은 소스 장애 중 쓸 수 있는 마지막 스냅샷이다. 모든 조회가 실패하면 최소 기준연도에 부합하는 스냅샷만 보존하고, 적합한 자료가 없으면 오래된 랭킹 JSON을 제거한다. 파이프라인 정의는 유지해 새 자료 공개 후 다시 생성한다. `renewable-energy`는 OWID와 World Bank 경로를 함께 조회하며, `renewable-electricity`는 Ember/OWID를 주 경로로 World Bank 지표를 폴백으로 등록한다. 같은 원자료를 재배포하는 경우 독립 통계 생산원으로 간주하지 않는다. `expanded-worldbank.mts`, `worldbank-500.mts`, `worldbank-1024.mts`에 등록한 확장 지표는 공식 API의 2025년 이후 국가별 관측치를 사용한다. `worldbank-2048.mts`에는 세계은행의 다른 공식 통계 카탈로그에서 고른 1,024개 추가 시계열을 등록한다. 값은 단일 기준연도에서 선택하며 각 JSON에 지표 페이지 링크, 기준연도, 갱신 시각을 저장한다. 현재 세계 1,702개와 국가 한정 1,616개로 총 3,318개 랭킹이다. 독립국 194개 중 178개국에 국내 랭킹이 있고, 73개국이 10개 이상을 제공한다.
 
 `oddities.mts`는 FAO 식품 공급 4종(2023), WHO 맥주 순알코올(2022), UNEP 가정·소매 음식물 쓰레기 2종(2022), UN Comtrade 플라스틱 폐기물 수출입 2종(2024), UNOOSA 연간 우주 물체 발사(2025)를 등록한다. 각 랭킹은 해당 시점에 국가별 값이 있는 단일 연도만 저장하고, 서로 다른 국가 수와 관측 한계를 출처 메모에 밝힌다. OWID 어댑터는 파라미터형 차트의 선택 조건도 `source.url`에 보존한다. 우주 발사량은 공동 발사 중복 집계와 미등록 물체 때문에 세계 총량 비중으로 표시하지 않고 `map` 시각화 예외를 사용한다.
 

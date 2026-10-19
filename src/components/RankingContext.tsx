@@ -19,7 +19,7 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
 
   return (
     <section className="ranking-context" aria-labelledby="ranking-context-title">
-      <div className="ranking-context-heading"><h2 id="ranking-context-title">About this ranking</h2><FreshnessBadge year={r.year} /></div>
+      <div className="ranking-context-heading"><h2 id="ranking-context-title">About this ranking</h2><FreshnessBadge year={r.year} editionYear={r.editionYear} /></div>
       <dl className="ranking-context-grid">
         <div>
           <dt>Source</dt>
@@ -47,7 +47,7 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
         <div>
           <dt>Coverage &amp; value range</dt>
           <dd>
-            {scope} · {r.items.length.toLocaleString("en-US")} listed {r.entityType === "language" ? "languages" : r.scope || r.multi ? "entries" : "countries and territories"}
+            {scope} · {r.items.length.toLocaleString("en-US")} listed {r.entityType === "language" ? "languages" : r.entityType === "port" ? "ports" : r.scope || r.multi ? "entries" : "countries and territories"}
             {r.multi && !r.scope && <span className="ranking-context-secondary">Across {countryCount} country/territory labels</span>}
             {r.items.length > 0 && <span className="ranking-context-secondary">Values: {formatValue(r, range.min)} to {formatValue(r, range.max)}</span>}
           </dd>

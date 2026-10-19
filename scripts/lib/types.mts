@@ -4,7 +4,7 @@ import type { RankingFile, Item, Source } from "../../src/lib/types.ts";
 /** What a ranking is, independent of where its numbers come from. */
 export type Meta = Omit<RankingFile, "year" | "asOf" | "source" | "updatedAt" | "items">;
 
-export type Fetched = { year: number; asOf?: string; source: Source; items: Item[] };
+export type Fetched = { year: number; editionYear?: number; asOf?: string; source: Source; items: Item[] };
 
 export type Country = {
   code: string;

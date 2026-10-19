@@ -4,9 +4,9 @@ import type { Ranking, RankingCardData } from "./types";
 
 /** Format previews before crossing the server/client boundary. */
 export function toRankingCard(ranking: Ranking): RankingCardData {
-  const { id, title, icon, category, year, scope, entityType } = ranking;
+  const { id, title, icon, category, year, editionYear, scope, entityType } = ranking;
   return {
-    id, title, icon, category, year, scope, entityType,
+    id, title, icon, category, year, editionYear, scope, entityType,
     entryCount: ranking.items.length,
     top: ranked(ranking).slice(0, 3).map(({ name, rank, flag, logo, value }) => ({
       name, rank, flag, logo, formatted: formatValue(ranking, value),

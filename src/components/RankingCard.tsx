@@ -16,7 +16,7 @@ export default function RankingCard({ ranking: r }: { ranking: RankingCardData }
         {r.icon} {getCategory(r.category)?.name}
       </span>
       <h3>{r.title}</h3>
-      <FreshnessBadge year={r.year} />
+      <FreshnessBadge year={r.year} editionYear={r.editionYear} />
       <ol>
         {r.top.map((t) => (
           <li key={t.name}>
