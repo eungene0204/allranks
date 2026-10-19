@@ -1,0 +1,308 @@
+{
+  "id": "gun-homicide-rate",
+  "title": "Gun Homicide Rates by Country",
+  "category": "society",
+  "icon": "🔫",
+  "desc": "Intentional homicide victims per 100,000 people where the weapon was a firearm. This measures reported firearm homicides, not gun ownership or all firearm deaths.",
+  "unit": "homicides per 100,000 people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2023,
+  "source": {
+    "kind": "csv",
+    "name": "United Nations Office on Drugs and Crime (UNODC), via Our World in Data",
+    "url": "https://ourworldindata.org/grapher/homicide-rates-from-firearms",
+    "license": "CC BY 4.0 (Our World in Data)",
+    "note": "Latest common year with country observations. The United Kingdom rate is calculated from England, Wales, Scotland and Northern Ireland; source methods and reporting coverage vary by country."
+  },
+  "updatedAt": "2026-10-19T05:16:17.723Z",
+  "items": [
+    {
+      "name": "Saint Kitts and Nevis",
+      "country": "KN",
+      "value": 57.7441
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "country": "VC",
+      "value": 42.4387
+    },
+    {
+      "name": "Jamaica",
+      "country": "JM",
+      "value": 41.8693
+    },
+    {
+      "name": "Ecuador",
+      "country": "EC",
+      "value": 39.5326
+    },
+    {
+      "name": "Saint Lucia",
+      "country": "LC",
+      "value": 31.2353
+    },
+    {
+      "name": "Honduras",
+      "country": "HN",
+      "value": 23.1473
+    },
+    {
+      "name": "Colombia",
+      "country": "CO",
+      "value": 17.8513
+    },
+    {
+      "name": "Mexico",
+      "country": "MX",
+      "value": 17.2306
+    },
+    {
+      "name": "Dominica",
+      "country": "DM",
+      "value": 15.0352
+    },
+    {
+      "name": "Costa Rica",
+      "country": "CR",
+      "value": 14.2395
+    },
+    {
+      "name": "Panama",
+      "country": "PA",
+      "value": 10.0028
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country": "AG",
+      "value": 8.5731
+    },
+    {
+      "name": "Uruguay",
+      "country": "UY",
+      "value": 7.0837
+    },
+    {
+      "name": "Dominican Republic",
+      "country": "DO",
+      "value": 6.4865
+    },
+    {
+      "name": "Grenada",
+      "country": "GD",
+      "value": 5.9788
+    },
+    {
+      "name": "Brazil",
+      "country": "BR",
+      "value": 5.8094
+    },
+    {
+      "name": "Barbados",
+      "country": "BB",
+      "value": 4.9586
+    },
+    {
+      "name": "United States",
+      "country": "US",
+      "value": 4.4213
+    },
+    {
+      "name": "Guatemala",
+      "country": "GT",
+      "value": 4.4083
+    },
+    {
+      "name": "Paraguay",
+      "country": "PY",
+      "value": 3.6966
+    },
+    {
+      "name": "Chile",
+      "country": "CL",
+      "value": 3.3217
+    },
+    {
+      "name": "Guyana",
+      "country": "GY",
+      "value": 3.0253
+    },
+    {
+      "name": "Argentina",
+      "country": "AR",
+      "value": 2.6022
+    },
+    {
+      "name": "Philippines",
+      "country": "PH",
+      "value": 2.3413
+    },
+    {
+      "name": "Suriname",
+      "country": "SR",
+      "value": 2.2262
+    },
+    {
+      "name": "Albania",
+      "country": "AL",
+      "value": 0.8892
+    },
+    {
+      "name": "Canada",
+      "country": "CA",
+      "value": 0.7354
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "country": "BA",
+      "value": 0.7221
+    },
+    {
+      "name": "Sweden",
+      "country": "SE",
+      "value": 0.5023
+    },
+    {
+      "name": "Serbia",
+      "country": "RS",
+      "value": 0.3839
+    },
+    {
+      "name": "Armenia",
+      "country": "AM",
+      "value": 0.3737
+    },
+    {
+      "name": "Greece",
+      "country": "GR",
+      "value": 0.3319
+    },
+    {
+      "name": "Montenegro",
+      "country": "ME",
+      "value": 0.3157
+    },
+    {
+      "name": "Cyprus",
+      "country": "CY",
+      "value": 0.2974
+    },
+    {
+      "name": "Jordan",
+      "country": "JO",
+      "value": 0.2972
+    },
+    {
+      "name": "Czechia",
+      "country": "CZ",
+      "value": 0.259
+    },
+    {
+      "name": "Austria",
+      "country": "AT",
+      "value": 0.1862
+    },
+    {
+      "name": "Croatia",
+      "country": "HR",
+      "value": 0.1797
+    },
+    {
+      "name": "Italy",
+      "country": "IT",
+      "value": 0.1697
+    },
+    {
+      "name": "Moldova",
+      "country": "MD",
+      "value": 0.163
+    },
+    {
+      "name": "Netherlands",
+      "country": "NL",
+      "value": 0.1603
+    },
+    {
+      "name": "Myanmar",
+      "country": "MM",
+      "value": 0.1441
+    },
+    {
+      "name": "Switzerland",
+      "country": "CH",
+      "value": 0.1353
+    },
+    {
+      "name": "Spain",
+      "country": "ES",
+      "value": 0.1106
+    },
+    {
+      "name": "Slovakia",
+      "country": "SK",
+      "value": 0.1087
+    },
+    {
+      "name": "Algeria",
+      "country": "DZ",
+      "value": 0.1083
+    },
+    {
+      "name": "Australia",
+      "country": "AU",
+      "value": 0.0945
+    },
+    {
+      "name": "Mongolia",
+      "country": "MN",
+      "value": 0.0583
+    },
+    {
+      "name": "Bolivia",
+      "country": "BO",
+      "value": 0.0572
+    },
+    {
+      "name": "Hungary",
+      "country": "HU",
+      "value": 0.0413
+    },
+    {
+      "name": "Oman",
+      "country": "OM",
+      "value": 0.0198
+    },
+    {
+      "name": "Morocco",
+      "country": "MA",
+      "value": 0.008
+    },
+    {
+      "name": "Hong Kong",
+      "country": "HK",
+      "value": 0
+    },
+    {
+      "name": "Iceland",
+      "country": "IS",
+      "value": 0
+    },
+    {
+      "name": "Malta",
+      "country": "MT",
+      "value": 0
+    },
+    {
+      "name": "Slovenia",
+      "country": "SI",
+      "value": 0
+    },
+    {
+      "name": "Vatican City",
+      "country": "VA",
+      "value": 0
+    }
+  ]
+}

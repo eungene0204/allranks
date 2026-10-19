@@ -1,4 +1,5 @@
 import { bigMac } from "./sources/bigmac.mts";
+import { cdcFirearmDeathRate } from "./sources/firearms.mts";
 import { owid } from "./sources/owid.mts";
 import { gasoline } from "./sources/globalpetrolprices.mts";
 import { equilarCeoPay } from "./sources/equilar.mts";
@@ -206,6 +207,7 @@ function usRankings(): Pipeline[] {
     "us-household-income": "Household income", "us-poverty": "Poverty", "us-gdp": "GDP", "us-gdp-per-capita": "GDP per capita",
     "us-largest-companies": "Companies", "us-state-population": "Population", "us-population-density": "Density",
     "us-city-population": "Cities", "us-gun-ownership": "Gun ownership", "us-gun-homicide-rate": "Gun homicides",
+    "us-gun-death-rate-2025": "2025 gun deaths", "us-gun-death-crude-2025": "2025 gun deaths (crude)",
     "us-gun-suicide-rate": "Gun suicides", "us-homicide-rate": "Homicides", "us-life-expectancy": "Life expectancy",
     "us-tallest-buildings": "Skyscrapers", "us-busiest-airports": "Airports", "us-national-parks": "National parks", "us-state-area": "Area",
   };
@@ -236,6 +238,8 @@ function usRankings(): Pipeline[] {
     us("us-city-population", "Largest US Cities by Population", "society", "🌆", "The 100 most populous incorporated cities in the United States.", "people", "", "", 0, usCities),
     us("us-gun-ownership", "US States by Household Gun Ownership", "society", "🔫", "Estimated share of households with a firearm in each state (RAND, 2016).", "% of households", "", "%", 0, usGunOwnership),
     us("us-gun-homicide-rate", "US States by Gun Homicide Rate", "society", "🚨", "Firearm homicides per 100,000 residents.", "per 100,000 people", "", "", 1, usGunDeathRate("homicide")),
+    us("us-gun-death-rate-2025", "US States by 2025 Firearm Death Rate", "society", "🔫", "Provisional age-adjusted firearm death rate per 100,000 residents, based on the 12 months ending in the latest available 2025 quarter.", "firearm deaths per 100,000 people (age-adjusted)", "", "", 1, cdcFirearmDeathRate("Age-adjusted")),
+    us("us-gun-death-crude-2025", "US States by 2025 Firearm Death Rate (Crude)", "society", "🔫", "Provisional crude firearm death rate per 100,000 residents, based on the 12 months ending in the latest available 2025 quarter.", "firearm deaths per 100,000 people (crude)", "", "", 1, cdcFirearmDeathRate("Crude")),
     us("us-gun-suicide-rate", "US States by Gun Suicide Rate", "society", "🕊️", "Firearm suicides per 100,000 residents.", "per 100,000 people", "", "", 1, usGunDeathRate("suicide")),
     us("us-homicide-rate", "US States by Homicide Rate", "society", "⚖️", "Intentional homicides per 100,000 residents, as reported to the FBI.", "per 100,000 people", "", "", 1, usHomicideRate),
     // Health

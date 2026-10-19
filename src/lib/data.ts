@@ -115,40 +115,66 @@ export const countrySummaries = cache(function countrySummaries(): CountrySummar
 });
 
 const searchText = (value: string) => value.normalize("NFKC").toLowerCase();
-const searchWords = (value: string) => searchText(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
-const matchesSearch = (value: string, query: string) => {
+const searchWords = (value: string) => searchText(value).match(/[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)*/gu) ?? [];
+const wordMatchQuality = (word: string, query: string) => {
+  if (word === query) return 0;
+  if (word === `${query}s` || word === `${query}es`) return 1;
+  if (word.includes("-") && query.length >= 3 && word.startsWith(query)) return 2;
+  if (query.length < 4) return Infinity;
+  return query.length >= 4 && word.startsWith(query) ? 2 : Infinity;
+};
+const searchQuality = (value: string, query: string) => {
   const normalized = searchText(value);
-  return normalized.includes(query) || searchWords(normalized).some((word) => word.startsWith(query));
+  const q = searchText(query.trim());
+  if (!q) return Infinity;
+  if (q.includes(" ") && normalized.includes(q)) return 0;
+  const queryWords = searchWords(q);
+  const words = searchWords(normalized);
+  return queryWords.length > 1
+    ? queryWords.every((part) => words.some((word) => Number.isFinite(wordMatchQuality(word, part)))) ? 1 : Infinity
+    : Math.min(...words.map((word) => wordMatchQuality(word, q)), Infinity);
+};
+const matchesSearch = (value: string, query: string) => Number.isFinite(searchQuality(value, query));
+const matchesCountrySearch = (value: string, query: string) => {
+  const q = searchText(query.trim());
+  return matchesSearch(value, q) || (q.length === 2 && searchWords(value).some((word) => word.startsWith(q)));
 };
 
 type SearchField = { text: string; label: string; priority: number };
 let rankingSearchIndex: { ranking: Ranking; fields: SearchField[] }[] | undefined;
+let rankingSearchIndexSource: Ranking[] | undefined;
 
 /** Country names and matching entries explain why a ranking is suggested. */
 export function suggestRankings(query: string, limit = 6) {
   const q = searchText(query.trim());
   if (!q) return [];
-  rankingSearchIndex ??= allRankings().map((ranking) => {
-    const field = (label: string, priority: number): SearchField => ({ text: searchText(label), label, priority });
-    const countryNames = new Set(ranking.items.map((item) => countries().get(item.country)?.name ?? ""));
-    return {
-      ranking,
-      fields: [
-        field(ranking.title, 0), field(ranking.short ?? "", 1),
-        field(ranking.scope ? countries().get(ranking.scope)?.name ?? "" : "", 1),
-        ...ranking.items.map((item) => field(item.name, 2)),
-        ...[...countryNames].map((name) => field(name, 3)),
-        field(ranking.id, 4), field(getCategory(ranking.category)?.name ?? "", 4),
-      ],
-    };
-  });
+  const rankings = allRankings();
+  if (!rankingSearchIndex || rankingSearchIndexSource !== rankings) {
+    rankingSearchIndexSource = rankings;
+    rankingSearchIndex = rankings.map((ranking) => {
+      const field = (label: string, priority: number): SearchField => ({ text: searchText(label), label, priority });
+      const countryNames = new Set(ranking.items.map((item) => countries().get(item.country)?.name ?? ""));
+      return {
+        ranking,
+        fields: [
+          field(ranking.title, 0), field(ranking.short ?? "", 1),
+          field(ranking.desc, 1),
+          field(ranking.scope ? countries().get(ranking.scope)?.name ?? "" : "", 1),
+          ...ranking.items.map((item) => field(item.name, 2)),
+          ...[...countryNames].map((name) => field(name, 3)),
+          field(ranking.source.name, 3), field(ranking.unit, 3),
+          field(ranking.id, 4), field(getCategory(ranking.category)?.name ?? "", 4),
+        ],
+      };
+    });
+  }
   return rankingSearchIndex
     .map(({ ranking, fields }) => {
       let score = Infinity;
       let match = "";
       for (const field of fields) {
-        if (!field.text.includes(q)) continue;
-        const quality = field.text === q ? 0 : searchWords(field.text).some((word) => word.startsWith(q)) ? 1 : 2;
+        const quality = searchQuality(field.text, q);
+        if (!Number.isFinite(quality)) continue;
         const candidate = quality * 10 + field.priority;
         if (candidate < score) { score = candidate; match = field.label; }
       }
@@ -168,7 +194,7 @@ export function suggestCountries(query: string, limit = 4) {
   const q = searchText(query.trim());
   if (!q) return [];
   return [...countries().values()]
-    .filter((country) => matchesSearch(country.name, q) || searchText(country.code) === q)
+    .filter((country) => matchesCountrySearch(country.name, q) || searchText(country.code) === q)
     .sort((a, b) => Number(searchText(b.name).startsWith(q)) - Number(searchText(a.name).startsWith(q)) || a.name.localeCompare(b.name))
     .slice(0, limit)
     .map((country) => ({ href: `/country/${country.code}`, title: country.name, detail: "Country rankings" }));
@@ -221,20 +247,20 @@ function getCatalogSearchIndex(): CatalogSearchIndex {
 export function searchCountries(query: string): SearchCountry[] {
   const q = searchText(query.trim());
   if (!q) return [];
-  return getCatalogSearchIndex().countries.filter((c) => matchesSearch(c.name, q) || c.code.toLowerCase() === q);
+  return getCatalogSearchIndex().countries.filter((c) => matchesCountrySearch(c.name, q) || c.code.toLowerCase() === q);
 }
 
 export function searchRankings(query: string): Ranking[] {
   const q = searchText(query.trim());
   if (!q) return [];
-  return getCatalogSearchIndex().rankings.filter((row) => row.text.includes(q) || row.codes.has(q)).map((row) => row.ranking);
+  return getCatalogSearchIndex().rankings.filter((row) => matchesSearch(row.text, q) || row.codes.has(q)).map((row) => row.ranking);
 }
 
 /** Matching entries retain their position in the complete ranking. */
 export function searchEntries(query: string) {
   const q = searchText(query.trim());
   if (!q) return [];
-  return getCatalogSearchIndex().entries.filter((row) => row.text.includes(q));
+  return getCatalogSearchIndex().entries.filter((row) => matchesSearch(row.text, q));
 }
 
 /** A world ranking, narrowed to the entries that belong to one country. */

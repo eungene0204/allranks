@@ -2,6 +2,7 @@
 // Same rule as everywhere: numbers come from an open source through an adapter, never typed by hand.
 import { epochByCountry, epochLargestClusters } from "./sources/epoch.mts";
 import { owid } from "./sources/owid.mts";
+import { oasFirearmHomicides } from "./sources/firearms.mts";
 import { worldBank } from "./sources/worldbank.mts";
 import { captionYear, headerYear, largestCompanies, modeYear, monthOfHeader, wikiCountries } from "./sources/wikipedia-topics.mts";
 import type { Pipeline } from "./lib/types.mts";
@@ -200,6 +201,38 @@ export const TOPICS: Pipeline[] = [
   },
 
   // ── Demographics ───────────────────────────────────────────────────────────
+  {
+    meta: meta("gun-homicide-rate", "Gun Homicide Rates by Country", "society", "🔫", "Intentional homicide victims per 100,000 people where the weapon was a firearm. This measures reported firearm homicides, not gun ownership or all firearm deaths.", "homicides per 100,000 people", "", "", 2),
+    fetch: owid({
+      slug: "homicide-rates-from-firearms",
+      name: "United Nations Office on Drugs and Crime (UNODC), via Our World in Data",
+      note: "Latest common year with country observations. The United Kingdom rate is calculated from England, Wales, Scotland and Northern Ireland; source methods and reporting coverage vary by country.",
+    }),
+    minYear: 2023,
+    minItems: 40,
+  },
+  {
+    meta: meta("gun-homicide-count", "Countries with Most Gun Homicides", "society", "🔫", "Number of intentional homicide victims where the weapon was a firearm. This measures reported firearm homicides, not gun ownership or all firearm deaths.", "homicides (people)", "", "", 0),
+    fetch: owid({
+      slug: "homicides-by-firearm",
+      name: "United Nations Office on Drugs and Crime (UNODC), via Our World in Data",
+      note: "Latest common year with country observations. The United Kingdom count is calculated from England, Wales, Scotland and Northern Ireland; source methods and reporting coverage vary by country.",
+    }),
+    minYear: 2023,
+    minItems: 40,
+  },
+  {
+    meta: meta("oas-gun-homicide-rate-2024", "2024 Gun Homicide Rates in the Americas", "society", "🔫", "Reported intentional homicide victims attacked with firearms per 100,000 inhabitants in OAS member countries with 2024 data.", "firearm homicides per 100,000 people", "", "", 2),
+    fetch: oasFirearmHomicides("rate"),
+    minYear: 2024,
+    minItems: 20,
+  },
+  {
+    meta: meta("oas-gun-homicides-2024", "2024 Gun Homicides in the Americas", "society", "🔫", "Reported intentional homicide victims attacked with firearms in OAS member countries with 2024 data.", "firearm homicides (people)", "", "", 0),
+    fetch: oasFirearmHomicides("count"),
+    minYear: 2024,
+    minItems: 20,
+  },
   wb("population-growth", "Fastest Growing Populations", "society", "📈", "Yearly change in the number of people living in the country.", "% per year", "", "%", 1, "SP.POP.GROW"),
   wb("birth-rate", "Highest Birth Rates", "society", "🍼", "Births per 1,000 people in a year.", "births per 1,000 people", "", "", 1, "SP.DYN.CBRT.IN"),
   wb("death-rate", "Highest Death Rates", "society", "🪦", "Deaths per 1,000 people in a year. Old populations score high even when health is good.", "deaths per 1,000 people", "", "", 1, "SP.DYN.CDRT.IN"),

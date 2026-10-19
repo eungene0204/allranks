@@ -15,7 +15,10 @@ import { supportsHistory } from "@/lib/ranking-history";
 
 type Props = { params: Promise<{ id: string }> };
 
-export const dynamicParams = false;
+// Rankings are loaded from JSON files that can be added while the dev server
+// is running. Allow unlisted IDs to resolve on demand, then let getRanking()
+// decide whether the requested ranking exists.
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return allRankings().map((r) => ({ id: r.id }));
