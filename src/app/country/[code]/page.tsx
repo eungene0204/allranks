@@ -8,15 +8,16 @@ import CopyRankingLink from "@/components/CopyRankingLink";
 import FreshnessBadge from "@/components/FreshnessBadge";
 import { countryDiscoveries } from "@/lib/discoveries";
 import { flagEmoji } from "@/lib/format";
-import { getCategory } from "@/lib/categories";
-import { allRankings, countryCodes, countryDetail, countryInfo } from "@/lib/data";
+import { CATEGORIES } from "@/lib/categories";
+import { countryRankingPage } from "@/lib/country-ranking-page";
+import { allRankings, countryDetail, countryInfo } from "@/lib/data";
 
 type Props = { params: Promise<{ code: string }> };
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 export function generateStaticParams() {
-  return countryCodes().map((code) => ({ code }));
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -34,12 +35,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const ENTRY_LIMIT = 8;
-
 export default async function CountryPage({ params }: Props) {
   const d = countryDetail((await params).code);
   if (!d) notFound();
   const { summary: c, world, regional, keyStats } = d;
+  const firstCategory = [...CATEGORIES].sort((a, b) => Number(b.id === "education") - Number(a.id === "education"))
+    .find((category) => regional.some((ranking) => ranking.category === category.id));
+  const initialRegional = regional.find((ranking) => ranking.category === firstCategory?.id);
+  const initialWorld = countryRankingPage(c.code, 0)!;
   return (
     <>
       <div className="page-head">
@@ -86,16 +89,12 @@ export default async function CountryPage({ params }: Props) {
       {regional.length > 0 && (
         <>
           <h2 className="section">Rankings inside {c.name}</h2>
-          <CountryRegional rankings={regional} />
+          <CountryRegional key={c.code} code={c.code} rankings={regional.map(({ id, title, short, category }) => ({ id, title, short, category }))} initialRanking={initialRegional!} />
         </>
       )}
 
       <h2 className="section">{c.name} in world rankings</h2>
-      <CountryWorldRankings rows={world.map(({ ranking: r, entries, total }) => ({
-        id: r.id, title: r.title, icon: r.icon, category: getCategory(r.category)?.name ?? "", year: r.year,
-        total, entryCount: entries.length,
-        entries: entries.slice(0, ENTRY_LIMIT).map(({ name, rank, logo, formatted }) => ({ name, rank, logo, formatted })),
-      }))} />
+      <CountryWorldRankings key={c.code} code={c.code} rows={initialWorld.rows} total={initialWorld.total} />
 
     </>
   );

@@ -11,17 +11,18 @@ import { getCategory } from "@/lib/categories";
 import { allRankings, getRanking } from "@/lib/data";
 import { flagEmoji } from "@/lib/format";
 import { rankingSnippet } from "@/lib/insights";
+import { latestHomeRankings, popularHomeRankings } from "@/lib/home-rankings";
 import { supportsHistory } from "@/lib/ranking-history";
 
 type Props = { params: Promise<{ id: string }> };
 
-// Rankings are loaded from JSON files that can be added while the dev server
-// is running. Allow unlisted IDs to resolve on demand, then let getRanking()
-// decide whether the requested ranking exists.
+// Prebuild home selections; other valid rankings are rendered and cached on first request.
 export const dynamicParams = true;
 
 export function generateStaticParams() {
-  return allRankings().map((r) => ({ id: r.id }));
+  const world = allRankings().filter((ranking) => !ranking.scope);
+  return [...new Set([...latestHomeRankings(world), ...popularHomeRankings(world)].map((ranking) => ranking.id))]
+    .map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -1,4 +1,5 @@
 import "server-only";
+import { createHash } from "node:crypto";
 import { geoNaturalEarth1, geoPath, type GeoProjection } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -36,4 +37,11 @@ export function mapShapes(): MapShape[] {
 export function projectPoint(lat: number, lng: number): [number, number] | null {
   mapShapes();
   return projection?.([lng, lat]) ?? null;
+}
+
+let assetUrl: string | undefined;
+
+/** Change the URL whenever shared geometry changes, so browsers can cache it safely. */
+export function mapAssetUrl(): string {
+  return assetUrl ??= `/maps/world.svg?v=${createHash("sha256").update(JSON.stringify(mapShapes())).digest("hex").slice(0, 16)}`;
 }

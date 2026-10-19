@@ -5,7 +5,7 @@
 ## 1. 개요
 
 AllRanks는 **정적 사이트 생성(SSG)** 중심의 Next.js 앱이다. 서버 DB 없이 JSON을 사용하며, 전체 검색 결과는 동적으로 렌더링하고 검색 미리보기는 런타임 API로 제공한다.
-모든 데이터는 저장소 안의 JSON 파일이며, 빌드 시점에 읽어 페이지를 생성한다.
+모든 데이터는 저장소 안의 JSON 파일이며, 빌드 시점 또는 첫 요청 시점에 읽어 페이지를 생성·캐시한다.
 데이터 갱신은 별도의 Node 스크립트 파이프라인이 담당한다. World Bank/Our World in Data 연도별 변화 조회만 런타임 API를 사용한다.
 
 ```
@@ -36,7 +36,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 
 2026-10-19 총기 관련 랭킹 2개를 추가했다. `scripts/topics.mts`의 OWID CSV 어댑터가 UNODC 기반 `homicide-rates-from-firearms` 및 `homicides-by-firearm` 시계열에서 최신 공통 연도 2023 자료를 가져온다. 살인율에는 히스토그램, 건수 합계에는 지역별 누적 시각화를 사용한다. 추가 총기 자료는 `scripts/sources/firearms.mts`에서 가져온다. OAS 지표 페이지에서 2024년 행만 파싱해 미주 29개국의 reported firearm-homicide counts/rates를 별도 세계 목록으로 만든다. CDC Socrata resource `489q-934x`에서는 2025년 분기별 주별 잠정률 가운데 50개 이상 주 자료가 있는 가장 최근의 12개월 기간을 고르며, 연령 보정·비보정 모두 수집한다. CDC 지표는 모든 의도의 총기 사망이며 잠정 수정될 수 있다.
 
-2026-10-19 랭킹 상세 경로는 `generateStaticParams()`로 기존 데이터 ID를 미리 생성하면서도 `dynamicParams = true`로 요청 시점의 ID를 허용한다. 이렇게 하면 개발 서버가 실행된 뒤 JSON 파일로 추가한 랭킹도 즉시 열리며, 실제 존재 여부는 `getRanking()`과 `notFound()`가 판정한다.
+2026-10-19 저장 공간 개선 후 랭킹 상세 경로는 `generateStaticParams()`로 홈 최신·인기 선정 ID만 미리 생성하고 `dynamicParams = true`로 나머지 ID를 첫 요청에 생성·캐시한다. 이렇게 하면 개발 서버가 실행된 뒤 JSON 파일로 추가한 랭킹도 즉시 열리며, 실제 존재 여부는 `getRanking()`과 `notFound()`가 판정한다.
 
 랭킹 데이터는 기본적으로 국가별 수치지만, `entityType: "language"`는 국가 코드가 없는 전 세계 언어 목록을 지원한다. 언어 항목은 랭킹 카드·표·방사형 시각화·검색에 표시하고 국가 요약·국가 상세·지도·연간 국가 추이 집계에서는 제외한다.
 
@@ -102,8 +102,8 @@ src/
   components/
     GlobeExplorer.tsx   인터랙티브 지구본 (클라이언트 컴포넌트, 국기 툴팁)
     RankingCard / RankingTable / RankingViz(상단 시각화 디스패처) / RankingMap(`map`) / viz/(Treemap·Regions·Packed·Waffle·Strip·Histogram·Scatter·Diverging·Bubbles·Podium·Lollipop·Radial) / RankingInsights(표 아래 자동 해설) / RankBadge / SourceLine / Header / Mark
-    CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표
-    CountryWorldRankings.tsx 국가의 세계 랭킹을 간략한 데이터로 받아 48개씩 클라이언트에서 페이지 분할
+    CountryRegional.tsx 국가 상세의 국내 랭킹 칩 탭과 선택된 순위표(첫 순위만 초기 전달, 탭 선택 시 API 로딩)
+    CountryWorldRankings.tsx 세계 순위 첫 48개만 초기 전달, 이후 페이지는 국가 API에서 조회하고 브라우저 메모리에 캐시
     SearchForm.tsx      홈·검색 결과 페이지 공유 검색 폼(Client Component). 입력 70ms 뒤 국가·랭킹 자동완성 제공. Enter/Search 제출 시 전체 검색 결과로 이동
     Header.tsx          로고·카테고리 탐색·검색 아이콘, 공용 생성 사전으로 활성 카테고리 표시
   lib/
@@ -282,3 +282,22 @@ GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매�
 홈 서버 컴포넌트의 제목을 두 줄로 구성하고 `everything`에 테마 강조색을 적용한다. `home-hero` 전용 CSS로 반응형 타이포그래피, 통계 라벨, 지구본으로 이어지는 장식선을 제공하며 추가 클라이언트 코드나 이미지 의존성은 없다. 장식은 접근성 트리에서 제외하고 섹션은 제목과 연결한다.
 
 2026-10-19: 홈 히어로를 포함한 변경을 `main` 커밋 `e4dcd87`로 푸시했으며, Vercel 자동 프로덕션 배포 `dpl_B4w68EWcavcGaibrR1xcftqsUWCx`가 Ready가 된 후 `allranks.world`의 HTML 응답에서 새 제목·안내 문구를 확인했다.
+
+## 2026-10-19 Vercel Deployment Storage 조사
+
+- `generateStaticParams()`는 랭킹 전체 3,316개와 국가 236개를 사전 생성한다. 기존 로컬 최신 `.next/server/app`의 파일 논리 크기 합은 약 1.34GB이며 HTML 515.54MB, RSC 805.54MB가 대부분이다(디스크 할당 크기와 구별). 랭킹 경로 약 1,000.16MB, 국가 경로 약 309.13MB. 각 페이지는 HTML뿐 아니라 `.rsc` 및 `.segments` 파일을 만든다.
+- `RankingMap`은 공통 지도 SVG 경로를 각 해당 페이지에 인라인 렌더링한다. 랭킹 HTML의 SVG `d` 속성 합계는 약 67.39MB이며 RSC에도 렌더링 내용이 기록된다. `mapShapes()`의 프로세스 메모이제이션은 산출물 간 공유 저장을 의미하지 않는다.
+- 국가 화면은 `CountryWorldRankings`에 모든 세계 순위 요약을 전달하고 `CountryRegional`에 국내 랭킹을 전달한다. 클라이언트 페이지 분할만으로 초기 직렬화 데이터가 줄어들지는 않는다.
+- Vercel API 조회: 보관된 READY 배포 5개, 모두 production 대상(UTC 10월 19일 4개, 17일 1개). 최신 배포 커밋 `9c2c0f91`. 과거 로컬 `.vercel/output`은 10월 16일 자료로 최신 배포 크기의 증거로 사용하지 않는다.
+- Deployment Storage는 보관된 빌드 출력, Functions Storage는 리전별 함수 번들을 별도 집계한다. 로컬 `.next`에는 배포되지 않는 캐시 등이 있으므로 총 디렉터리 크기를 청구량으로 해석하지 않는다. 실제 Usage/청구량·중복 제거·압축 효과·실효 보존 정책은 이번 API 응답으로 확인하지 못했다.
+- 공식 자료: https://vercel.com/docs/deployment-storage 및 https://vercel.com/docs/deployment-retention . 개선 후보는 배포 보존 기간 조정, 공통 지도 자산 공유, 국가 데이터 지연 로딩, 일부 경로 요청 시 생성이다. 아직 구현하거나 운영 설정을 변경하지 않았다.
+
+## 2026-10-19 배포 저장 공간 최적화 구현 (앞선 조사 후속)
+
+- 공통 도형: 정적으로 생성하는 `/maps/world.svg`에 176개 지도 도형을 한 번 저장한다. `RankingMap`·`Bubbles`는 외부 SVG `<use>`로 도형을 참조하고 페이지별 색상·링크·툴팁·라벨을 유지한다. `mapAssetUrl()`의 도형 해시 쿼리로 브라우저 캐시를 구분한다.
+- 국가 페이지: `generateStaticParams()`는 빈 배열, `dynamicParams = true`로 첫 요청에 생성·캐시한다. 세계 순위 첫 48개와 전체 건수, 국내 탭 메타데이터와 교육 우선 첫 순위 하나만 직렬화한다. `/api/country/[code]/rankings?page=N`은 48개씩, `?ranking=ID`는 해당 국가 scope의 국내 순위 하나를 제공한다. 국가·페이지·scope를 검사하고 CDN에 24시간 캐시한다. 클라이언트는 방문한 페이지·탭을 메모리에 보관하고 로딩·실패·재시도를 제공한다.
+- 랭킹 페이지: 홈 최신/인기 선정 31개만 사전 생성하고 나머지는 첫 요청에 생성·캐시한다. 데이터 JSON은 함수 추적에 포함됨(랭킹 및 국가 API 모두 3,316개 확인). 주요 목록의 랭킹 링크 자동 prefetch를 꺼 실제 선택 전에 페이지가 생성되지 않도록 한다. 사이트맵은 전체 경로를 계속 제공한다.
+- 운영 정리: 최신 production `dpl_2hQBnumHuQHH4CWT7dy7D72cVQhb`를 보존하고 이전 배포 4개를 API로 삭제했다. 프로젝트 기본 정책은 30일·최근 10개 보존이며 변경하지 않았다. `scripts/prune-deployments.mts`는 프로젝트·팀을 고정하고 정상 현재 production과 진행 중/더 새 배포를 보호하면서 교체된 완료 배포를 정리한다. 기본 dry run, `--apply`에서만 삭제하며 매 삭제 직전 현재 production을 재확인한다.
+- `.github/workflows/prune-deployments.yml`은 배포 성공 이벤트·매시간·수동 실행을 지원한다. 기본 브랜치 반영과 GitHub Actions `VERCEL_TOKEN` 시크릿 설정 후 가동된다. API 토큰은 서버 앱이나 브라우저 코드에 넣지 않는다. 현재 코드 변경은 아직 커밋·푸시·배포하지 않았다.
+- 로컬 빌드 검증: 페이지 출력 `.next/server/app` 논리 합계 약 1,339MB → 27.71MB(약 97.9% 감소, 요청 시 생성 전 측정), 정적 생성 53개. `npm run build` 통과(데이터 3,316개 오류 0, 기존 경고 2). 국가 KR 페이지 200, 세계 순위 API page 0/1 각 48개·전체 1,388개, 국내 scope 일치 200/타국 scope 404, 잘못된 페이지 400/404, 없는 국가·랭킹 404를 확인했다. 미리 만들지 않은 국내 랭킹은 MISS 다음 HIT로 캐시된다. 지도 엔드포인트 200·176개 도형 확인. Safari에서 공유 지도 도형·색상·범례와 국가 초기 화면을 확인했다. 탭/페이지 버튼 조작과 툴팁은 미검증.
+- 제한: 첫 방문에 렌더링 지연/함수 실행이 생기고 방문한 페이지의 캐시는 이후 늘어난다. 97.9%는 초기 로컬 페이지 출력 감소이며 실제 Vercel 청구량·함수 저장 공간 감소율이 아니다. 삭제 직후 Usage 수치가 즉시 줄어드는지 확인하지 못했다.

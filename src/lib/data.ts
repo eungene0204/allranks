@@ -6,7 +6,7 @@ import { CATEGORIES, getCategory, WORLD_RECORD_RANKING_IDS } from "./categories"
 import { flagEmoji, formatValue, ranked } from "./format";
 import type { CountrySummary, RankedEntry, Ranking } from "./types";
 
-// Everything here reads data/*.json (written by the pipeline in scripts/) at build time.
+// Read deployment JSON snapshots during prerendering or on-demand rendering.
 const DATA_DIR = path.join(process.cwd(), "data");
 const readJson = <T>(...p: string[]) => JSON.parse(readFileSync(path.join(DATA_DIR, ...p), "utf8")) as T;
 

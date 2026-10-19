@@ -2,7 +2,7 @@ import Link from "next/link";
 import { countryInfo, countryCoords } from "@/lib/data";
 import { ranked } from "@/lib/format";
 import { placeLabels } from "@/lib/labels";
-import { mapShapes, MAP_H, MAP_W, projectPoint } from "@/lib/map";
+import { mapAssetUrl, mapShapes, MAP_H, MAP_W, projectPoint } from "@/lib/map";
 import type { Ranking } from "@/lib/types";
 import type { CSSProperties } from "react";
 
@@ -31,8 +31,8 @@ export default function Bubbles({ ranking: r }: { ranking: Ranking }) {
       {/* Dots are HTML (percent-positioned) so names and tooltips stay readable when the map scales down. */}
       <div className="bb-plot" role="img" aria-label={`Map of where the ${e.length} entries of ${r.title} are: ${lead.map((d) => `${d.name} ${d.xs.length}`).join(", ")}.`}>
         <svg viewBox={`0 0 ${MAP_W} ${MAP_H}`} aria-hidden="true">
-          {mapShapes().map((s) => (
-            <path key={s.name} d={s.d} className="none" />
+          {mapShapes().map((s, index) => (
+            <use key={s.name} href={`${mapAssetUrl()}#shape-${index}`} className="none" />
           ))}
         </svg>
         {dots.map((d, i) => {

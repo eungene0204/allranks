@@ -1,0 +1,37 @@
+name: Keep latest production deployment
+
+on:
+  deployment_status:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prune-vercel-deployments
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    if: github.event_name != 'deployment_status' || github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Delete superseded deployments after a healthy production release
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN is not configured; deployment cleanup is skipped."
+            exit 0
+          fi
+          node scripts/prune-deployments.mts --apply

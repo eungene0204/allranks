@@ -2,7 +2,7 @@ import Link from "next/link";
 import { countryCoords } from "@/lib/data";
 import { formatValue, ranked } from "@/lib/format";
 import { placeLabels } from "@/lib/labels";
-import { mapShapes, MAP_H, MAP_W, projectPoint } from "@/lib/map";
+import { mapAssetUrl, mapShapes, MAP_H, MAP_W, projectPoint } from "@/lib/map";
 import type { Ranking } from "@/lib/types";
 
 const GROUPS = 5; // fifths of the list, best first; each gets a shade class s0 (strongest) … s4
@@ -51,11 +51,11 @@ export default function RankingMap({ ranking: r }: { ranking: Ranking }) {
         aria-label={`World map of ${r.title}: ${e[0].name} ranks first, ${e[1].name} second, ${e[2].name} third.`}
       >
         <svg viewBox={`0 0 ${MAP_W} ${MAP_H}`} aria-hidden="true">
-          {mapShapes().map((s) => {
+          {mapShapes().map((s, index) => {
             const x = s.code ? byCode.get(s.code) : undefined;
             const path = (
-              <path
-                d={s.d}
+              <use
+                href={`${mapAssetUrl()}#shape-${index}`}
                 className={x ? `s${groupOf(x.value)}` : "none"}
                 data-tip={x ? `${x.name}: ${fmt(x.value)} (#${x.rank})` : undefined}
               />

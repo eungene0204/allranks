@@ -315,11 +315,11 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); }
 /* World map under the ranking header */
 .rank-map { margin: 0 0 20px; }
 .rank-map svg { display: block; width: 100%; height: auto; }
-.rank-map path { stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
+.rank-map use { stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
 .rank-map .s0, .map-key .s0 { --c: 100%; } .rank-map .s1, .map-key .s1 { --c: 76%; } .rank-map .s2, .map-key .s2 { --c: 56%; } .rank-map .s3, .map-key .s3 { --c: 42%; } .rank-map .s4, .map-key .s4 { --c: 30%; }
-.rank-map path.s0, .rank-map path.s1, .rank-map path.s2, .rank-map path.s3, .rank-map path.s4 { fill: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
-.rank-map path.none { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); }
-.rank-map a:hover path, .rank-map a:focus-visible path { stroke: var(--text); stroke-width: 1.5; }
+.rank-map use.s0, .rank-map use.s1, .rank-map use.s2, .rank-map use.s3, .rank-map use.s4 { fill: color-mix(in srgb, var(--bar) var(--c), var(--surface)); }
+.rank-map use.none { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); }
+.rank-map a:hover use, .rank-map a:focus-visible use { stroke: var(--text); stroke-width: 1.5; }
 .map-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .map-key { display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
 .map-key i { width: 14px; height: 14px; border-radius: 3px; display: inline-block; border: 1px solid var(--line); }
@@ -425,7 +425,7 @@ a.strip-dot:hover, a.strip-dot:focus-visible { outline: 2px solid var(--text); o
 .map-name.b { top: calc(100% + 4px); left: 50%; translate: -50% 0; }
 .rank-map-plot { position: relative; aspect-ratio: 2 / 1; }
 .rank-map-plot > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-.bubbles path { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
+.bubbles use { fill: color-mix(in srgb, var(--text) 7%, var(--bg)); stroke: var(--bg); stroke-width: .5; vector-effect: non-scaling-stroke; }
 .bb-dot { position: absolute; translate: -50% -50%; aspect-ratio: 1 / 1; border-radius: 50%; box-sizing: border-box; background: color-mix(in srgb, var(--bar) 75%, transparent); border: 1.5px solid var(--bar); z-index: var(--z); }
 .bb-dot:hover, .bb-dot:focus-visible { outline: none; border-color: var(--text); border-width: 2.5px; z-index: 50; }
 /* Bubble = a link box sized in % of the map; its name label is placed by src/lib/labels.ts (see .map-name). */

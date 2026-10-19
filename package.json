@@ -15,6 +15,7 @@
     "data:update": "node scripts/update.mts",
     "data:freshness": "node scripts/freshness.mts",
     "data:validate": "node scripts/validate.mts",
+    "deployments:prune": "node scripts/prune-deployments.mts",
     "agent": "node scripts/agent/index.mts",
     "agent:plan": "node scripts/agent/index.mts plan",
     "prebuild": "node scripts/validate.mts"

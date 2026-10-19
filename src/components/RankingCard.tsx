@@ -10,7 +10,7 @@ import FreshnessBadge from "./FreshnessBadge";
 export default function RankingCard({ ranking: r }: { ranking: RankingCardData }) {
   return (
     <div className="ranking-card-shell">
-      <Link className="card" href={`/ranking/${r.id}`}>
+      <Link className="card" href={`/ranking/${r.id}`} prefetch={false}>
       <span className="tag">
         {r.scope && `${flagEmoji(r.scope)} `}
         {r.icon} {getCategory(r.category)?.name}
