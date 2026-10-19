@@ -57,14 +57,14 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
             <div className="row" key={x.name}>
               <RankBadge rank={x.rank} />
               <div className="name">
-                {x.logo ? <Mark icon="" logo={x.logo} /> : !r.scope && <span>{x.flag}</span>}
+                {x.logo ? <Mark icon="" logo={x.logo} /> : !r.scope && !r.entityType && <span>{x.flag}</span>}
                 <span className="name-block">
                   <span className="name-text" title={x.name}>
                     {x.name}
                   </span>
                   {x.detail && <span className="muted row-detail">{x.detail}</span>}
                 </span>
-                {x.logo && !r.scope && <span className="muted">{x.flag}</span>}
+                {x.logo && !r.scope && !r.entityType && <span className="muted">{x.flag}</span>}
               </div>
               <div className="track">
                 <div className="fill" style={{ width: `${pct.toFixed(1)}%` }} />

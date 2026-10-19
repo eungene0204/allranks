@@ -1,0 +1,34 @@
+{
+  "id": "duolingo-most-studied-languages",
+  "title": "Most Studied Languages on Duolingo",
+  "category": "education",
+  "icon": "🦉",
+  "desc": "Duolingo's global order of the 10 most popular languages to study during its 2025 reporting period. The company publishes their order, not learner counts.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "entityType": "language",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Duolingo Language Report 2025",
+    "url": "https://blog.duolingo.com/2025-duolingo-language-report/",
+    "verified": true,
+    "note": "The report covers learners who studied on Duolingo from October 1, 2024 through September 30, 2025. It publishes the top 10 order, not exact learner counts. Country-level rankings omit countries with fewer than 5,000 learners."
+  },
+  "updatedAt": "2026-10-19T00:00:00.000Z",
+  "items": [
+    { "name": "English", "value": 1 },
+    { "name": "Spanish", "value": 2 },
+    { "name": "French", "value": 3 },
+    { "name": "Japanese", "value": 4 },
+    { "name": "German", "value": 5 },
+    { "name": "Korean", "value": 6 },
+    { "name": "Italian", "value": 7 },
+    { "name": "Chinese", "value": 8 },
+    { "name": "Portuguese", "value": 9 },
+    { "name": "Hindi", "value": 10 }
+  ]
+}

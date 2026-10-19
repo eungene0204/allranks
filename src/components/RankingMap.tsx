@@ -10,7 +10,7 @@ const GROUPS = 5; // fifths of the list, best first; each gets a shade class s0 
 /** World map coloured by rank (not by raw value, so one giant like the US cannot wash out everyone else). */
 export default function RankingMap({ ranking: r }: { ranking: Ranking }) {
   const e = ranked(r);
-  if (r.scope || r.multi || e.length < 15) return null;
+  if (r.scope || r.multi || r.entityType || e.length < 15) return null;
 
   // Five rank groups, best first. Keep equal values together at group boundaries;
   // splitting a binary/ordinal category across shades makes its map misleading.

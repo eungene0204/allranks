@@ -14,9 +14,9 @@ export type Source = {
   note?: string;
 };
 
-/** One row of a ranking. `country` is an ISO 3166-1 alpha-2 code; `logo` is a domain whose file lives in public/logos. */
+/** One row of a ranking. Country is omitted for global entity lists such as languages. */
 /** `detail` is a muted second line next to the name, e.g. the state an institution is in. */
-export type Item = { name: string; country: string; value: number; logo?: string; detail?: string };
+export type Item = { name: string; country?: string; value: number; logo?: string; detail?: string };
 
 /** The canonical on-disk shape of data/rankings/<id>.json — the only thing the website reads. */
 export type RankingFile = {
@@ -43,6 +43,8 @@ export type RankingFile = {
   scope?: string;
   /** True for lists of things that each belong to a country (cities, websites…), so countries may repeat. */
   multi?: boolean;
+  /** Global entity ranking that is not a ranking of countries (currently languages). */
+  entityType?: "language";
   year: number;
   /** Finer-grained period than `year`, e.g. "2026-07". */
   asOf?: string;
@@ -56,7 +58,7 @@ export type Ranking = RankingFile;
 export type RankedEntry = { rank: number; name: string; country: string; flag: string; value: number; logo?: string; detail?: string };
 
 /** Only the values rendered by a ranking preview card. */
-export type RankingCardData = Pick<Ranking, "id" | "title" | "icon" | "category" | "year" | "scope"> & {
+export type RankingCardData = Pick<Ranking, "id" | "title" | "icon" | "category" | "year" | "scope" | "entityType"> & {
   entryCount: number;
   top: { name: string; rank: number; flag: string; formatted: string; logo?: string }[];
 };

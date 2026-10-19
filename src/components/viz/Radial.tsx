@@ -33,12 +33,12 @@ export default function Radial({ ranking: r }: { ranking: Ranking }) {
         <ol className="radial-key">
           {entries.map((x, i) => <li key={x.name}>
             <i className={`s${Math.min(i, 4)}`} />
-            {!r.scope ? <Link href={`/country/${x.country}`} prefetch={false}>{x.flag} {x.name}</Link> : <span>{x.name}</span>}
+            {!r.scope && !r.entityType && x.country ? <Link href={`/country/${x.country}`} prefetch={false}>{x.flag} {x.name}</Link> : <span>{x.name}</span>}
             <b>{formatValue(r, x.value)}</b>
           </li>)}
         </ol>
       </div>
-      <figcaption className="viz-cap">Each wedge is one entry; longer wedges indicate higher values.</figcaption>
+      <figcaption className="viz-cap">{r.unit === "Rank" ? "Each wedge is one entry; longer wedges indicate a higher source rank." : "Each wedge is one entry; longer wedges indicate higher values."}</figcaption>
     </figure>
   );
 }

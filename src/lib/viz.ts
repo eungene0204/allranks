@@ -82,6 +82,7 @@ export function pickViz(r: Ranking): VizKind | null {
   if (o) return o;
   const n = r.items.length;
   if (n < 5) return null;
+  if (r.entityType) return "radial";
   if (VIZ_PAIRS[r.id] && !r.scope && !r.multi) return "scatter";
   if (r.items.some((i) => i.value < 0)) return n >= 10 ? "diverging" : null;
   const additive = isAdditive(r);

@@ -24,9 +24,16 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   const asc = r.order === "asc";
   const fmt = (v: number) => formatValue(r, v);
   const [a, b, c] = e;
+  if (r.entityType === "language") {
+    return [
+      `In ${period(r)}, ${a.name} was the most studied language on Duolingo, followed by ${b.name} and ${c.name}.`,
+      "Duolingo publishes the order of the top 10 languages, not learner counts for each language.",
+      `Source: ${r.source.name}, ${period(r)}.`,
+    ];
+  }
   const out: string[] = [];
   const where = r.scope ? `Within ${countryOf(r.scope)?.name ?? r.scope}, ` : "";
-  const unit = r.scope || r.multi ? "entries" : "countries and territories";
+  const unit = r.entityType === "language" ? "languages" : r.scope || r.multi ? "entries" : "countries and territories";
 
   // 1. Who leads.
   out.push(
@@ -35,7 +42,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   );
 
   // 2. How far ahead.
-  if (a.value > 0 && b.value > 0) {
+  if (r.unit !== "Rank" && a.value > 0 && b.value > 0) {
     const ratio = asc ? b.value / a.value : a.value / b.value;
     if (ratio >= 1.5) out.push(`${a.name} is ${times(ratio)} times ${asc ? "lower" : "higher"} than ${b.name}, the runner-up.`);
     else if (ratio <= 1.01) out.push(`The top two are virtually level: ${a.name} and ${b.name} differ by less than 1%.`);
@@ -51,7 +58,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   }
 
   // 4. Which parts of the world dominate the top of a world ranking.
-  if (!r.scope && !r.multi && e.length >= 10) {
+  if (!r.entityType && !r.scope && !r.multi && e.length >= 10) {
     const regions = new Map<string, number>();
     for (const x of e.slice(0, 10)) {
       const region = countryOf(x.country)?.region;

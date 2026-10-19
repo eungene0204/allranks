@@ -75,9 +75,10 @@ export const countrySummaries = cache(function countrySummaries(): CountrySummar
   const map = new Map<string, CountrySummary>();
   for (const r of rankings) {
     // Regional rankings (US states…) are listed on the country's own page and never count toward world totals.
-    if (r.scope) continue;
+    if (r.scope || r.entityType) continue;
     const seenCountries = new Map<string, CountrySummary["appearances"][number]>();
     for (const e of ranked(r)) {
+      if (!e.country) continue;
       const geo = countries().get(e.country);
       if (!geo) continue;
       const s =
@@ -153,7 +154,7 @@ export function suggestRankings(query: string, limit = 6) {
     rankingSearchIndexSource = rankings;
     rankingSearchIndex = rankings.map((ranking) => {
       const field = (label: string, priority: number): SearchField => ({ text: searchText(label), label, priority });
-      const countryNames = new Set(ranking.items.map((item) => countries().get(item.country)?.name ?? ""));
+      const countryNames = new Set(ranking.items.map((item) => item.country ? countries().get(item.country)?.name ?? "" : ""));
       return {
         ranking,
         fields: [
@@ -215,18 +216,20 @@ function getCatalogSearchIndex(): CatalogSearchIndex {
   const index: CatalogSearchIndex = { rankings: [], entries: [], countries: [] };
   const counts = new Map<string, { worldCount: number; regionalCount: number }>();
   for (const ranking of allRankings()) {
-    const codes = new Set(ranking.items.map((item) => item.country.toLowerCase()));
+    const codes = new Set(ranking.entityType ? [] : ranking.items.flatMap((item) => item.country ? [item.country.toLowerCase()] : []));
     index.rankings.push({ ranking, codes, text: searchText([
       ranking.id, ranking.title, ranking.short ?? "", ranking.desc, ranking.unit,
       ranking.source.name, ranking.source.note ?? "", getCategory(ranking.category)?.name ?? "",
-      ...ranking.items.flatMap((item) => [item.name, item.detail ?? "", countries().get(item.country)?.name ?? ""]),
+      ...ranking.items.flatMap((item) => [item.name, item.detail ?? "", item.country ? countries().get(item.country)?.name ?? "" : ""]),
     ].join("\0")) });
-    if (ranking.scope) {
+    if (ranking.entityType) {
+      // Global entities are not country appearances.
+    } else if (ranking.scope) {
       const count = counts.get(ranking.scope) ?? { worldCount: 0, regionalCount: 0 };
       count.regionalCount++;
       counts.set(ranking.scope, count);
     } else {
-      for (const code of new Set(ranking.items.map((item) => item.country))) {
+      for (const code of new Set(ranking.items.flatMap((item) => item.country ? [item.country] : []))) {
         const count = counts.get(code) ?? { worldCount: 0, regionalCount: 0 };
         count.worldCount++;
         counts.set(code, count);
@@ -306,7 +309,7 @@ export const countryDetail = cache(function countryDetail(code: string): Country
   if (!summary) return undefined;
   const world: CountryRankingRow[] = [];
   for (const r of rankings) {
-    if (r.scope) continue;
+    if (r.scope || r.entityType) continue;
     const all = ranked(r);
     const entries = all.filter((e) => e.country === code).map((e) => ({ ...e, formatted: formatValue(r, e.value) }));
     if (entries.length) world.push({ ranking: r, total: all.length, entries });

@@ -23,7 +23,7 @@ export default function RankingCard({ ranking: r }: { ranking: RankingCardData }
             <RankBadge rank={t.rank} />
             <span className="entry">
               {t.logo && <Mark icon="" logo={t.logo} />}
-              <span className="entry-name" title={t.name}>{!r.scope && t.flag} {t.name}</span>
+              <span className="entry-name" title={t.name}>{!r.scope && !r.entityType && t.flag} {t.name}</span>
             </span>
             <span className="v">{t.formatted}</span>
           </li>

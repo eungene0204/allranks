@@ -14,8 +14,8 @@ export function ranked(r: Ranking): RankedEntry[] {
     .map((e, i) => ({
       rank: i + 1,
       name: e.name,
-      country: e.country,
-      flag: flagEmoji(e.country),
+      country: e.country ?? "",
+      flag: e.country ? flagEmoji(e.country) : "",
       value: e.value,
       logo: e.logo ? `/logos/${e.logo}.png` : undefined,
       detail: e.detail,

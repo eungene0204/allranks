@@ -12,7 +12,7 @@ export type HistoryPoint = { year: number; value: number; rank: number; count: n
 export type RankingHistory = { points: HistoryPoint[]; source: string; revised: boolean };
 
 export function supportsHistory(r: Ranking) {
-  if (r.scope || r.multi || !r.source.url) return false;
+  if (r.scope || r.multi || r.entityType || !r.source.url) return false;
   const url = new URL(r.source.url);
   return (url.hostname === "data.worldbank.org" && /^\/indicator\/[A-Za-z0-9.]+$/.test(url.pathname)) ||
     (url.hostname === "ourworldindata.org" && /^\/grapher\/[A-Za-z0-9-]+$/.test(url.pathname));
@@ -20,11 +20,11 @@ export function supportsHistory(r: Ranking) {
 
 /** Infer the registry's unit multiplier against the saved snapshot; refuse ambiguous conversions. */
 function snapshotScale(r: Ranking, values: Map<string, number>) {
-  const matches = r.items.filter((item) => item.value !== 0 && values.has(item.country));
+  const matches = r.items.filter((item) => item.country && item.value !== 0 && values.has(item.country));
   if (matches.length < 3) return undefined;
   const candidates = [1e-12, 1e-9, 1e-6, 1e-3, 1, 100];
   const scored = candidates.map((scale) => {
-    const errors = matches.map((item) => Math.abs(item.value - values.get(item.country)! * scale) / Math.max(Math.abs(item.value), 1e-9)).sort((a, b) => a - b);
+    const errors = matches.map((item) => Math.abs(item.value - values.get(item.country!)! * scale) / Math.max(Math.abs(item.value), 1e-9)).sort((a, b) => a - b);
     return { scale, error: errors[Math.floor(errors.length / 2)] };
   }).sort((a, b) => a.error - b.error);
   return scored[0].error <= 0.15 ? scored[0].scale : undefined;

@@ -50,6 +50,7 @@ async function run(p: (typeof PIPELINES)[number]) {
     // One row per country — or, for a regional ranking (`scope`), one row per region name.
     const seen = new Set<string>();
     for (const i of got.items) {
+      if (!i.country) throw new Error(`${i.name}: automated country ranking is missing a country code`);
       const byName = p.meta.scope || p.meta.multi;
       const key = byName ? i.name : i.country;
       if (seen.has(key)) throw new Error(`duplicate ${byName ? "entry" : "country"} ${key}`);
