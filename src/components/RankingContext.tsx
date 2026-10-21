@@ -11,7 +11,7 @@ const DAY = new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "U
 export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
   const urls = [...new Set([r.source.url, ...(r.source.urls ?? [])].filter((url): url is string => Boolean(url)))];
   const period = r.asOf ? MONTH.format(new Date(`${r.asOf}-01T00:00:00Z`)) : String(r.year);
-  const scope = r.scope ? countryInfo(r.scope)?.name ?? r.scope : r.entityType ? "Global entities" : "Worldwide";
+  const scope = r.scope ? countryInfo(r.scope)?.name ?? r.scope : r.entityType === "product" ? "Product brands" : r.entityType === "bank" ? "Global banks" : r.entityType ? "Global entities" : "Worldwide";
   const countryCount = new Set(r.items.flatMap((item) => item.country ? [item.country] : [])).size;
   const range = r.items.reduce(({ min, max }, item) => ({
     min: Math.min(min, item.value), max: Math.max(max, item.value),
@@ -47,7 +47,7 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
         <div>
           <dt>Coverage &amp; value range</dt>
           <dd>
-            {scope} · {r.items.length.toLocaleString("en-US")} listed {r.entityType === "language" ? "languages" : r.entityType === "port" ? "ports" : r.scope || r.multi ? "entries" : "countries and territories"}
+            {scope} · {r.items.length.toLocaleString("en-US")} listed {r.entityType === "language" ? "languages" : r.entityType === "port" ? "ports" : r.entityType === "product" ? "brands" : r.entityType === "bank" ? "banks" : r.scope || r.multi ? "entries" : "countries and territories"}
             {r.multi && !r.scope && <span className="ranking-context-secondary">Across {countryCount} country/territory labels</span>}
             {r.items.length > 0 && <span className="ranking-context-secondary">Values: {formatValue(r, range.min)} to {formatValue(r, range.max)}</span>}
           </dd>

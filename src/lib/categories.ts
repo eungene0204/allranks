@@ -7,6 +7,8 @@ export const CATEGORIES: Category[] = [
   { id: "tech", name: "Technology", icon: "📡", blurb: "Internet speed & connectivity" },
   { id: "ai", name: "AI", icon: "🤖", blurb: "AI models, adoption & investment" },
   { id: "society", name: "Society & Health", icon: "🌍", blurb: "Population, demographics, happiness & health" },
+  { id: "entertainment", name: "Entertainment", icon: "🎬", blurb: "Movies, music, games & popular culture" },
+  { id: "everyday", name: "Everyday Essentials", icon: "🧼", blurb: "Everyday necessities: personal care, cleaning, paper goods & home basics" },
   { id: "energy", name: "Energy & Industry", icon: "⚡", blurb: "Energy, mining, vehicles & the environment" },
   { id: "world", name: "World Records", icon: "🏙️", blurb: "Tallest, biggest, longest" },
 ];

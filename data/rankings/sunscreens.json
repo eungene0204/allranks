@@ -1,0 +1,48 @@
+{
+  "id": "sunscreens",
+  "title": "Sunscreen: Consumer Reports Test Picks (2026)",
+  "category": "everyday",
+  "sort": 10,
+  "icon": "☀️",
+  "desc": "Ranked product picks transcribed from the named source. The order follows the source’s overall ranking or its labeled category winners; where picks cover different use cases, the list is not a single like-for-like score. Read each product note and source before choosing.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Consumer Reports 2026 sunscreen testing, reported by Quartz",
+    "url": "https://qz.com/best-sunscreens-summer-2026-consumer-reports",
+    "urls": [
+      "https://www.consumerreports.org/health/sunscreens/best-sunscreens-of-the-year-a7763432372/"
+    ],
+    "verified": true,
+    "note": "All listed products, source labels, and supporting descriptions were checked against the linked article by AllRanks on 2026-10-20. For category-specific picks, the article’s order is retained; different formulas and use cases are not directly comparable."
+  },
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Coppertone Water Babies Lotion SPF 50",
+      "detail": "Best lotion; only product in CR tests with a perfect score",
+      "value": 1
+    },
+    {
+      "name": "Eucerin Advanced Hydration Spray SPF 50",
+      "detail": "Best spray",
+      "value": 2
+    },
+    {
+      "name": "Bioré UV Aqua Rich SPF 50 Daily Moisturizer",
+      "detail": "Best face sunscreen; not water resistant",
+      "value": 3
+    },
+    {
+      "name": "Banana Boat Sport Ultra Roll-On SPF 60+",
+      "detail": "Best stick; CR notes stick format performed less strongly overall",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "base": "https://allranks.world",
+  "checkedAt": "2026-10-20T19:35:18.165Z",
+  "unpublishedChecked": 9,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 542912,
+      "milliseconds": 1442
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 68,
+      "milliseconds": 427
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "bytes": 952,
+      "milliseconds": 797
+    },
+    {
+      "path": "/search?q=india",
+      "status": 200,
+      "bytes": 353102,
+      "milliseconds": 3180
+    },
+    {
+      "path": "/ranking/wbx-lp-lpi-trac-rk",
+      "status": 200,
+      "bytes": 151984,
+      "milliseconds": 1062
+    },
+    {
+      "path": "/country/IN",
+      "status": 200,
+      "bytes": 171289,
+      "milliseconds": 1370
+    },
+    {
+      "path": "/country/IN?page=2",
+      "status": 200,
+      "bytes": 176535,
+      "milliseconds": 473
+    },
+    {
+      "path": "/category/economy",
+      "status": 200,
+      "bytes": 118951,
+      "milliseconds": 739
+    },
+    {
+      "path": "/category/economy?page=2",
+      "status": 200,
+      "bytes": 113863,
+      "milliseconds": 2271
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "bytes": 15737,
+      "milliseconds": 472
+    },
+    {
+      "path": "/methodology",
+      "status": 200,
+      "bytes": 32331,
+      "milliseconds": 453
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "bytes": 17366,
+      "milliseconds": 439
+    },
+    {
+      "path": "/latest",
+      "status": 200,
+      "bytes": 94986,
+      "milliseconds": 484
+    },
+    {
+      "path": "/popular",
+      "status": 200,
+      "bytes": 66011,
+      "milliseconds": 463
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 421900,
+      "milliseconds": 2083
+    },
+    {
+      "path": "/ranking/data-centers",
+      "status": 404,
+      "bytes": 11200,
+      "milliseconds": 687
+    },
+    {
+      "path": "/ranking/electric-toothbrushes",
+      "status": 404,
+      "bytes": 11218,
+      "milliseconds": 524
+    },
+    {
+      "path": "/ranking/math-scores",
+      "status": 404,
+      "bytes": 11198,
+      "milliseconds": 527
+    },
+    {
+      "path": "/ranking/motorcycle-helmets",
+      "status": 404,
+      "bytes": 11212,
+      "milliseconds": 433
+    },
+    {
+      "path": "/ranking/qs-universities",
+      "status": 404,
+      "bytes": 11206,
+      "milliseconds": 486
+    },
+    {
+      "path": "/ranking/razors",
+      "status": 404,
+      "bytes": 11188,
+      "milliseconds": 444
+    },
+    {
+      "path": "/ranking/refrigerators",
+      "status": 404,
+      "bytes": 11202,
+      "milliseconds": 440
+    },
+    {
+      "path": "/ranking/vacuum-cleaners",
+      "status": 404,
+      "bytes": 11206,
+      "milliseconds": 433
+    },
+    {
+      "path": "/ranking/washing-machines",
+      "status": 404,
+      "bytes": 11208,
+      "milliseconds": 437
+    },
+    {
+      "path": "/seo-check-nonexistent",
+      "status": 404,
+      "bytes": 10170,
+      "milliseconds": 238
+    }
+  ],
+  "deployment": "https://allranks-o2l7hcghh-eugene204-5519.vercel.app",
+  "sharedImage": "HTTP 200 image/png",
+  "sitemap": {
+    "urls": 3577,
+    "lastModifiedEntries": 3326
+  },
+  "pagespeed": "Public API returned HTTP 429 quota exceeded; no Core Web Vitals claim."
+}

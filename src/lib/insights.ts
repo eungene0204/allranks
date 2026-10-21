@@ -38,9 +38,23 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
       `Source: ${r.source.name}, ${period(r)}.`,
     ];
   }
+  if (r.entityType === "bank") {
+    return [
+      `In the ${r.editionYear ?? period(r)} edition, ${a.name} ranks first by total assets, followed by ${b.name} and ${c.name}.`,
+      `The published table lists ${e.length} banks and rounds assets to ${r.decimals} decimal places in ${r.unit}.`,
+      `Source: ${r.source.name}, ${r.editionYear ?? period(r)}.`,
+    ];
+  }
+  if (r.entityType === "product") {
+    return [
+      `In the ${period(r)} source list, ${a.name} is listed first, followed by ${b.name} and ${c.name}.`,
+      "The order follows the cited source; category-specific picks may not be direct head-to-head comparisons.",
+      `Source: ${r.source.name}.`,
+    ];
+  }
   const out: string[] = [];
   const where = r.scope ? `Within ${countryOf(r.scope)?.name ?? r.scope}, ` : "";
-  const unit = r.entityType === "language" ? "languages" : r.scope || r.multi ? "entries" : "countries and territories";
+  const unit = r.entityType === "product" ? "brands" : r.scope || r.multi ? "entries" : "countries and territories";
 
   // 1. Who leads.
   out.push(
@@ -49,9 +63,11 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   );
 
   // 2. How far ahead.
-  if (r.unit !== "Rank" && a.value > 0 && b.value > 0) {
+  if (!/rank|score|index|rating|performer|celsius|fahrenheit/i.test(`${r.unit} ${r.title}`) && a.value > 0 && b.value > 0) {
     const ratio = asc ? b.value / a.value : a.value / b.value;
-    if (ratio >= 1.5) out.push(`${a.name} is ${times(ratio)} times ${asc ? "lower" : "higher"} than ${b.name}, the runner-up.`);
+    if (ratio >= 1.5) out.push(asc
+      ? `${b.name} has ${times(ratio)} times the value of ${a.name}.`
+      : `${a.name} has ${times(ratio)} times the value of ${b.name}.`);
     else if (ratio <= 1.01) out.push(`The top two are virtually level: ${a.name} and ${b.name} differ by less than 1%.`);
   }
 
@@ -96,10 +112,17 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   return out;
 }
 
-/** One-line snippet for the page's meta description. */
+/** Full answer for the page introduction; the linked source is displayed separately. */
+export function rankingSummary(r: Ranking): string {
+  const first = ranked(r)[0];
+  if (!first) return `${period(r)}: ${r.desc}`;
+  if (r.entityType === "bank") return `${r.editionYear ?? period(r)}: ${first.name} ranks first by total assets at ${formatValue(r, first.value)}. ${r.items.length} banks.`;
+  return `${period(r)}: ${first.name} ${r.entityType === "product" ? "is listed first in the source" : "ranks first"}${r.entityType ? "" : ` at ${formatValue(r, first.value)}`}. ${r.items.length} entries${r.entityType ? "." : `; unit: ${r.unit}.`}`;
+}
+
+/** A concise, topic-specific search snippet without repeating a long source definition. */
 export function rankingSnippet(r: Ranking): string {
-  const e = ranked(r);
-  if (e.length < 3) return r.desc;
-  const fmt = (v: number) => formatValue(r, v);
-  return `${r.desc} ${period(r)}: ${e[0].name} ranks first (${fmt(e[0].value)}), then ${e[1].name} (${fmt(e[1].value)}) and ${e[2].name} (${fmt(e[2].value)}).`;
+  const text = `${r.short ?? r.title}. ${rankingSummary(r)}`;
+  if (text.length <= 200) return text;
+  return `${text.slice(0, 197).replace(/\s+\S*$/, "").replace(/[.,;:]$/, "")}…`;
 }

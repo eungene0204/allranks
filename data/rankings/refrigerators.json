@@ -1,0 +1,53 @@
+{
+  "id": "refrigerators",
+  "title": "Refrigerator Brands to Compare",
+  "category": "everyday",
+  "icon": "🧊",
+  "desc": "Kitchen: an editorial shortlist based on cited expert reviews, public evaluations and practical use. Brand order is a guide, not a universal quality score; exact model, fit, market and price matter.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Consumer Reports — Refrigerator reliability",
+    "url": "https://www.consumerreports.org/appliances/refrigerators/most-and-least-reliable-refrigerator-brands-a8271265835/",
+    "urls": [
+      "https://www.consumerreports.org/appliances/appliance-reliability-guide-a8931129914/"
+    ],
+    "verified": false,
+    "note": "Curated comparison; model-level performance varies. Review the linked source and exact model before buying."
+  },
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "items": [
+    {
+      "name": "LG",
+      "detail": "Strong results in several refrigerator comparisons",
+      "value": 1
+    },
+    {
+      "name": "Whirlpool",
+      "detail": "Broad mainstream range and service availability",
+      "value": 2
+    },
+    {
+      "name": "GE",
+      "detail": "Multiple configurations and repair network",
+      "value": 3
+    },
+    {
+      "name": "Bosch",
+      "detail": "Premium configurations to compare",
+      "value": 4
+    },
+    {
+      "name": "Sub-Zero",
+      "detail": "Premium built-in specialist",
+      "value": 5
+    }
+  ],
+  "sort": 23
+}

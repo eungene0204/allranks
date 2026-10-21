@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbs, pageMetadata, pageNumber } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CountryRegional from "@/components/CountryRegional";
@@ -7,44 +9,36 @@ import CountryDiscoveries from "@/components/CountryDiscoveries";
 import CopyRankingLink from "@/components/CopyRankingLink";
 import FreshnessBadge from "@/components/FreshnessBadge";
 import { countryDiscoveries } from "@/lib/discoveries";
-import { flagEmoji } from "@/lib/format";
 import { CATEGORIES } from "@/lib/categories";
-import { countryRankingPage } from "@/lib/country-ranking-page";
-import { allRankings, countryDetail, countryInfo } from "@/lib/data";
+import { COUNTRY_PAGE_SIZE, countryRankingPage } from "@/lib/country-ranking-page";
+import { allRankings, countryDetail } from "@/lib/data";
 
-type Props = { params: Promise<{ code: string }> };
+type Props = { params: Promise<{ code: string }>; searchParams: Promise<{ page?: string }> };
 
 export const dynamicParams = true;
 
-export function generateStaticParams() {
-  return [];
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const code = (await params).code;
-  const info = countryInfo(code);
-  if (!info) return {};
-  const discoveries = countryDiscoveries(allRankings(), code);
-  return {
-    title: `${flagEmoji(code)} ${info.name} — rankings`,
-    description: `Explore ${info.name} in world rankings, plus its cities, universities and other rankings within the country.`,
-    ...(discoveries.length ? {
-      openGraph: { images: [{ url: `/country/${code}/discoveries/share`, width: 1200, height: 630, alt: `${info.name} — standout strengths with sources and reference periods` }] },
-      twitter: { card: "summary_large_image" as const, images: [`/country/${code}/discoveries/share`] },
-    } : {}),
-  };
+  const detail = countryDetail(code);
+  if (!detail) notFound();
+  const page = pageNumber((await searchParams).page, Math.ceil(detail.world.length / COUNTRY_PAGE_SIZE));
+  const name = detail.summary.name;
+  const image = countryDiscoveries(allRankings(), code).length ? `/country/${code}/discoveries/share` : undefined;
+  return pageMetadata(`${name} rankings${page > 1 ? ` — Page ${page}` : ""}`, `Explore ${name} in world rankings, plus its cities, universities and other rankings within the country.`, `/country/${code}${page > 1 ? `?page=${page}` : ""}`, image);
 }
 
-export default async function CountryPage({ params }: Props) {
+export default async function CountryPage({ params, searchParams }: Props) {
   const d = countryDetail((await params).code);
   if (!d) notFound();
   const { summary: c, world, regional, keyStats } = d;
   const firstCategory = [...CATEGORIES].sort((a, b) => Number(b.id === "education") - Number(a.id === "education"))
     .find((category) => regional.some((ranking) => ranking.category === category.id));
   const initialRegional = regional.find((ranking) => ranking.category === firstCategory?.id);
-  const initialWorld = countryRankingPage(c.code, 0)!;
+  const page = pageNumber((await searchParams).page, Math.ceil(world.length / COUNTRY_PAGE_SIZE));
+  const initialWorld = countryRankingPage(c.code, page - 1)!;
   return (
     <>
+      <JsonLd data={breadcrumbs([{ name: "Home", path: "/" }, { name: c.name, path: `/country/${c.code}` }])} />
       <div className="page-head">
         <div className="crumbs">
           <Link href="/">Home</Link> / Countries
@@ -94,7 +88,7 @@ export default async function CountryPage({ params }: Props) {
       )}
 
       <h2 className="section">{c.name} in world rankings</h2>
-      <CountryWorldRankings key={c.code} code={c.code} rows={initialWorld.rows} total={initialWorld.total} />
+      <CountryWorldRankings key={c.code} code={c.code} rows={initialWorld.rows} total={initialWorld.total} page={page} />
 
     </>
   );

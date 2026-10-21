@@ -1,0 +1,58 @@
+{
+  "id": "soap",
+  "title": "Bar Soap: Consumer Reports Test Picks (2026)",
+  "category": "everyday",
+  "sort": 1,
+  "icon": "🧼",
+  "desc": "Ranked product picks transcribed from the named source. The order follows the source’s overall ranking or its labeled category winners; where picks cover different use cases, the list is not a single like-for-like score. Read each product note and source before choosing.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Consumer Reports testing, reported by Quartz — 6 bar soap picks (2026)",
+    "url": "https://qz.com/best-bar-soaps-consumer-reports",
+    "urls": [
+      "https://www.consumerreports.org/health/best-bar-soaps-a9416208144/"
+    ],
+    "verified": true,
+    "note": "All listed products, source labels, and supporting descriptions were checked against the linked article by AllRanks on 2026-10-20. For category-specific picks, the article’s order is retained; different formulas and use cases are not directly comparable."
+  },
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Kirkland Signature Bar Soap With Shea Butter",
+      "detail": "Top pick; rich lather, stayed firm, good value",
+      "value": 1
+    },
+    {
+      "name": "SheaMoisture African Black Soap Calm & Clearing",
+      "detail": "Long-lasting bar; rich lather, may feel drying",
+      "value": 2
+    },
+    {
+      "name": "Zest Aqua Deodorant Bar Soap with Vitamin E",
+      "detail": "Scented pick; low price, dissolves faster",
+      "value": 3
+    },
+    {
+      "name": "Dr. Bronner’s All-One Pure-Castile Magic Bar Soap, Unscented",
+      "detail": "Unscented pick; firm bar with good lather",
+      "value": 4
+    },
+    {
+      "name": "Malin+Goetz Vitamin B5 Hydrating Bar, Rum",
+      "detail": "Premium scented pick; clean, non-tight skin feel",
+      "value": 5
+    },
+    {
+      "name": "Dove Original Beauty Bar",
+      "detail": "Moisturizing pick; durable in dissolving test",
+      "value": 6
+    }
+  ]
+}

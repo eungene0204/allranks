@@ -30,6 +30,7 @@ export function allRankings(): Ranking[] {
   const order = (r: Ranking) => CATEGORIES.findIndex((c) => c.id === r.category);
   rankingsCache = files
     .map((f) => readJson<Ranking>("rankings", f))
+    .filter((r) => r.source.verified !== false && (!["manual", "agent"].includes(r.source.kind) || r.source.verified === true))
     .sort((a, b) => order(a) - order(b) || (a.sort ?? 99) - (b.sort ?? 99) || a.title.localeCompare(b.title));
   return rankingsCache;
 }

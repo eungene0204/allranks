@@ -1,0 +1,53 @@
+{
+  "id": "kitchen-appliance-brands",
+  "title": "Kitchen Appliance Brand Reliability: Consumer Reports",
+  "category": "everyday",
+  "sort": 23,
+  "icon": "🏠",
+  "desc": "Consumer Reports’ overall kitchen-appliance reliability scores average across the appliance types each brand makes, including refrigerators. This is a broad brand reliability measure, not a refrigerator-only test or a measure of model performance.",
+  "unit": "Overall score",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Consumer Reports — Most Reliable Kitchen Appliance Brands of 2026 (licensed reprint)",
+    "url": "https://reprints.theygsgroup.com/cr/reprints/LG_MostReliableApplianceBrands.pdf",
+    "urls": [
+      "https://www.consumerreports.org/appliances/most-reliable-kitchen-appliances-a3000811083/"
+    ],
+    "verified": true,
+    "note": "All first five brands, their overall predicted-reliability scores, ranking positions, survey years and scope were checked against Consumer Reports’ 2026 licensed reprint by the AllRanks assistant on 2026-10-21. Scores average the reliability of appliance types made by each brand (including refrigerators), adjusted for category mix; they are not refrigerator-only scores or lab performance scores."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "LG",
+      "detail": "Rank 1; Consumer Reports overall kitchen-appliance reliability score.",
+      "value": 74
+    },
+    {
+      "name": "Wolf/Sub-Zero",
+      "detail": "Rank 2; aggregate kitchen-appliance reliability score.",
+      "value": 72
+    },
+    {
+      "name": "Miele",
+      "detail": "Rank 3; aggregate kitchen-appliance reliability score.",
+      "value": 69
+    },
+    {
+      "name": "Bosch",
+      "detail": "Tied rank 4; aggregate kitchen-appliance reliability score.",
+      "value": 67
+    },
+    {
+      "name": "Café",
+      "detail": "Tied rank 4; aggregate kitchen-appliance reliability score.",
+      "value": 67
+    }
+  ]
+}

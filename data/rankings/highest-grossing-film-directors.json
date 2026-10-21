@@ -1,0 +1,124 @@
+{
+  "id": "highest-grossing-film-directors",
+  "title": "Highest-Grossing Film Directors",
+  "category": "entertainment",
+  "icon": "🎥",
+  "desc": "Directors ranked by cumulative worldwide box-office gross across their filmographies, using January 2026 data from Statista as published by Visual Capitalist. The cited example film is each director’s highest-grossing title, not their only contribution.",
+  "unit": "billion USD",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist — Ranked: The Highest-Grossing Directors Ever (data: Statista)",
+    "url": "https://www.visualcapitalist.com/ranked-historys-highest-grossing-film-directors/",
+    "verified": true,
+    "note": "All 20 directors, rank order, rounded cumulative grosses, and cited top-grossing film were checked against the full indexed article table by AllRanks on 2026-10-21. Source uses January 2026 data from Statista, rounds totals to $0.1B, and excludes 2026 releases without final box-office figures."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Steven Spielberg",
+      "value": 10.7,
+      "detail": "Jurassic Park (1993)"
+    },
+    {
+      "name": "James Cameron",
+      "value": 9.8,
+      "detail": "Avatar (2009)"
+    },
+    {
+      "name": "Russo brothers",
+      "value": 6.8,
+      "detail": "Avengers: Endgame (2019)"
+    },
+    {
+      "name": "Peter Jackson",
+      "value": 6.6,
+      "detail": "The Lord of the Rings: The Return of the King (2003)"
+    },
+    {
+      "name": "Michael Bay",
+      "value": 6.5,
+      "detail": "Transformers: Dark of the Moon (2011)"
+    },
+    {
+      "name": "David Yates",
+      "value": 6.4,
+      "detail": "Harry Potter and the Deathly Hallows – Part 2 (2011)"
+    },
+    {
+      "name": "Christopher Nolan",
+      "value": 6.1,
+      "detail": "The Dark Knight Rises (2012)"
+    },
+    {
+      "name": "Ridley Scott",
+      "value": 5.0,
+      "detail": "The Martian (2015)"
+    },
+    {
+      "name": "Tim Burton",
+      "value": 4.9,
+      "detail": "Alice in Wonderland (2010)"
+    },
+    {
+      "name": "J. J. Abrams",
+      "value": 4.6,
+      "detail": "Star Wars: The Force Awakens (2015)"
+    },
+    {
+      "name": "Robert Zemeckis",
+      "value": 4.4,
+      "detail": "Forrest Gump (1994)"
+    },
+    {
+      "name": "Jon Favreau",
+      "value": 4.3,
+      "detail": "The Lion King (2019)"
+    },
+    {
+      "name": "Ron Howard",
+      "value": 4.3,
+      "detail": "The Da Vinci Code (2006)"
+    },
+    {
+      "name": "Sam Raimi",
+      "value": 4.3,
+      "detail": "Doctor Strange in the Multiverse of Madness (2022)"
+    },
+    {
+      "name": "Chris Renaud",
+      "value": 4.2,
+      "detail": "Despicable Me 4 (2024)"
+    },
+    {
+      "name": "James Wan",
+      "value": 4.2,
+      "detail": "Furious 7 (2015)"
+    },
+    {
+      "name": "Chris Columbus",
+      "value": 4.1,
+      "detail": "Harry Potter and the Philosopher’s Stone (2001)"
+    },
+    {
+      "name": "Shawn Levy",
+      "value": 4.1,
+      "detail": "Deadpool & Wolverine (2024)"
+    },
+    {
+      "name": "Roland Emmerich",
+      "value": 4.0,
+      "detail": "Independence Day (1996)"
+    },
+    {
+      "name": "Jon Watts",
+      "value": 3.9,
+      "detail": "Spider-Man: No Way Home (2021)"
+    }
+  ]
+}

@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import RandomRankingCards from "@/components/RandomRankingCards";
 import { allRankings } from "@/lib/data";
 import { popularHomeRankings } from "@/lib/home-rankings";
 import { toRankingCard } from "@/lib/ranking-card";
 
-export const metadata: Metadata = {
-  title: "Popular rankings",
-  description: "Browse selected world rankings on widely followed topics that are easy to compare across countries.",
-};
+export const metadata: Metadata = pageMetadata('Popular rankings', 'Explore selected world rankings on widely followed topics, with sources and reference years.', '/popular');
 
 export default function PopularRankingsPage() {
   const rankings = popularHomeRankings(allRankings().filter((ranking) => !ranking.scope));

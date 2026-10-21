@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { ADSENSE_CLIENT, CONTACT_EMAIL } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "AllRanks does not collect personal data. How advertising cookies work on this site.",
-};
+export const metadata: Metadata = pageMetadata('Privacy Policy', 'AllRanks privacy policy and how advertising cookies work on this site.', '/privacy');
 
 export default function PrivacyPage() {
   return (

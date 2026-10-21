@@ -20,8 +20,9 @@ export function checkRanking(r: RankingFile, { countries, categoryIds }: CheckCt
   need(Number.isInteger(r.year) && r.year > 1990 && r.year <= new Date().getFullYear() + 1, `implausible year ${r.year}`);
   if (r.editionYear !== undefined) need(Number.isInteger(r.editionYear) && r.editionYear >= r.year && r.editionYear <= new Date().getFullYear() + 1, `implausible edition year ${r.editionYear}`);
   need(!!r.source?.name && SOURCE_KINDS.includes(r.source.kind), "source needs a name and a valid kind");
-  need(Array.isArray(r.items) && r.items.length >= 5, "needs at least 5 items");
-  if (r.entityType) need(["language", "port"].includes(r.entityType) && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
+  const minItems = r.entityType === "product" ? 4 : 5;
+  need(Array.isArray(r.items) && r.items.length >= minItems, `needs at least ${minItems} items`);
+  if (r.entityType) need(["language", "port", "product", "bank"].includes(r.entityType) && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
 
   const names = new Set<string>();
   const codes = new Set<string>();
@@ -30,6 +31,7 @@ export function checkRanking(r: RankingFile, { countries, categoryIds }: CheckCt
     need(Number.isFinite(i.value), `${i.name}: value is not a finite number`);
     if (r.entityType === "language") need(!i.country, `${i.name}: global languages must not have a country code`);
     else if (r.entityType === "port" && i.country) need(countries.byCode2.has(i.country), `${i.name}: unknown country code "${i.country}"`);
+    else if (r.entityType === "bank") need(typeof i.country === "string" && countries.byCode2.has(i.country), `${i.name}: unknown or missing country code "${i.country ?? ""}"`);
     else if (!r.entityType) need(typeof i.country === "string" && countries.byCode2.has(i.country), `${i.name}: unknown country code "${i.country}"`);
     need(!names.has(i.name), `duplicate item name "${i.name}"`);
     names.add(i.name);

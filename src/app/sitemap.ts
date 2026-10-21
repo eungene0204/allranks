@@ -1,16 +1,20 @@
 import type { MetadataRoute } from "next";
 import { CATEGORIES } from "@/lib/categories";
 import { allRankings, countryCodes } from "@/lib/data";
+import snapshots from "../../data/seo-snapshots.json";
 import { SITE_URL } from "@/lib/site";
+
+export const dynamic = "force-dynamic";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL;
   return [
     { url: base },
     { url: `${base}/popular` },
+    { url: `${base}/latest` },
     ...["about", "methodology", "privacy"].map((p) => ({ url: `${base}/${p}` })),
     ...CATEGORIES.map((c) => ({ url: `${base}/category/${c.id}` })),
-    ...allRankings().map((r) => ({ url: `${base}/ranking/${r.id}` })),
+    ...allRankings().map((r) => ({ url: `${base}/ranking/${r.id}`, lastModified: (snapshots as Record<string, { lastModified: string }>)[r.id]?.lastModified })),
     ...countryCodes().map((code) => ({ url: `${base}/country/${code}` })),
   ];
 }

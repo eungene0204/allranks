@@ -18,7 +18,9 @@
     "deployments:prune": "node scripts/prune-deployments.mts",
     "agent": "node scripts/agent/index.mts",
     "agent:plan": "node scripts/agent/index.mts plan",
-    "prebuild": "node scripts/validate.mts"
+    "prebuild": "node scripts/validate.mts && node scripts/seo-snapshots.mts",
+    "seo:snapshots": "node scripts/seo-snapshots.mts",
+    "seo:check": "node scripts/seo-check.mts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

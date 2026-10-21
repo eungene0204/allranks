@@ -84,6 +84,7 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
   const wrapRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const hitRefs = useRef<(HTMLAnchorElement | null)[]>([]);
+  const [hovered, setHovered] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [dark, setDark] = useState(false);
 
@@ -508,8 +509,10 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
               key={c.flag}
               href={`/country/${c.code}`}
               prefetch={false}
-              onMouseEnter={() => router.prefetch(`/country/${c.code}`)}
-              onFocus={() => router.prefetch(`/country/${c.code}`)}
+              onMouseEnter={() => { setHovered(c.flag); router.prefetch(`/country/${c.code}`); }}
+              onMouseLeave={() => setHovered(null)}
+              onFocus={() => { setHovered(c.flag); router.prefetch(`/country/${c.code}`); }}
+              onBlur={() => setHovered(null)}
               className={`marker-hit ${c.flag === selected ? "on" : ""} ${c.firsts ? "has-lead" : ""}`}
               aria-label={`${c.name}: ${c.appearanceCount} rankings${c.firsts ? `, #1 in ${leads.map((l) => l.title).join(", ")}` : ""}. Open details`}
               ref={(el) => {
@@ -526,7 +529,7 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
                   {c.leadCount > 3 && <span className="badge more">+{c.leadCount - 3}</span>}
                 </span>
               )}
-              <span className="tip">
+              {(hovered === c.flag || selected === c.flag) && <span className="tip">
                 <b>
                   {c.flag} {c.name}
                 </b>
@@ -551,7 +554,7 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
                   </span>
                 )}
                 <span className="tip-cta">Click for full details →</span>
-              </span>
+              </span>}
             </Link>
           );
         })}

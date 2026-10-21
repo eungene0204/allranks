@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import RandomRankingCards from "@/components/RandomRankingCards";
 import { allRankings } from "@/lib/data";
 import { allLatestRankings } from "@/lib/home-rankings";
 import { toRankingCard } from "@/lib/ranking-card";
 
-export const metadata: Metadata = {
-  title: "Latest published rankings",
-  description: "Browse all world rankings from the latest available publication year.",
-};
+export const metadata: Metadata = pageMetadata('Latest published rankings', 'Browse world rankings from the latest available publication year, with sources and reference periods.', '/latest');
 
 export default function LatestRankingsPage() {
   const rankings = allLatestRankings(allRankings().filter((ranking) => !ranking.scope));

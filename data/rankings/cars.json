@@ -1,0 +1,53 @@
+{
+  "id": "cars",
+  "title": "Car Brands: Consumer Reports 2026 Overall Rankings",
+  "category": "everyday",
+  "icon": "🚘",
+  "desc": "Consumer Reports’ 2026 overall brand order combines road-test performance, predicted reliability, owner satisfaction and safety. This is a U.S.-market brand-level comparison, not a universal measure; model and market differences matter.",
+  "unit": "Rank",
+  "prefix": "#",
+  "suffix": "",
+  "decimals": 0,
+  "order": "asc",
+  "entityType": "product",
+  "year": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Consumer Reports — 2026 Overall Automotive Brand Report Card",
+    "url": "https://www.consumerreports.org/cars-which-car-brands-make-the-best-vehicles/",
+    "urls": [
+      "https://www.consumerreports.org/media-room/press-releases/2025/12/consumer-reports-releases-its-2026-automotive-brand-report-card-the-comprehensive-analysis-of-vehicle-quality-to-help-guide-car-shoppers-amid-steep-prices"
+    ],
+    "verified": true,
+    "note": "All five brand names, order, and ranking context were checked against Consumer Reports’ 2026 report and official press release by AllRanks on 2026-10-20. Brand order is based on road-test performance, predicted reliability, owner satisfaction, and safety; it is not a model-specific buying recommendation."
+  },
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Subaru",
+      "detail": "Overall brand leader",
+      "value": 1
+    },
+    {
+      "name": "BMW",
+      "detail": "Runner-up, less than one point behind Subaru",
+      "value": 2
+    },
+    {
+      "name": "Porsche",
+      "detail": "Third overall",
+      "value": 3
+    },
+    {
+      "name": "Honda",
+      "detail": "Fourth overall",
+      "value": 4
+    },
+    {
+      "name": "Toyota",
+      "detail": "Fifth overall",
+      "value": 5
+    }
+  ],
+  "sort": 90
+}

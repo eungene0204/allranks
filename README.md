@@ -141,3 +141,15 @@ New category? Add it to `src/lib/categories.ts`.
 An item may carry `"logo": "mit.edu"`; the site then shows `public/logos/mit.edu.png` instead of the ranking's emoji icon.
 
 The AllRanks brand mark is `public/brand/logo-r-c-512.png`; the header and browser app icon use this asset.
+
+## SEO verification
+
+`npm run seo:check -- http://localhost:3200` checks actual HTML responses against the canonical production domain. Run `npm run build` and `npx next start -p 3200` first. It checks canonical URLs, all ranking rows, JSON-LD, crawlable pagination, robots, sitemap and private-ranking 404s. A second argument writes JSON results.
+
+`npm run seo:snapshots` maintains content hashes and observed modification times in `data/seo-snapshots.json`; prebuild runs it automatically. Fetch timestamp changes alone do not update sitemap dates. The initial date means first observed publication in this manifest, not the original source publication date. Keep the manifest in version control.
+
+Optional ownership meta tags use `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`, `NEXT_PUBLIC_BING_SITE_VERIFICATION`, and `NEXT_PUBLIC_NAVER_SITE_VERIFICATION`. Set only the values issued by each service. AdSense verification does not substitute for Search Console registration. See `seo_operations.md` for measurement and account-dependent follow-up.
+
+## RSS
+
+Subscribe at `https://allranks.world/feed.xml` (RSS 2.0). The feed includes up to 50 public ranking snapshots, ordered by the content observation dates in `data/seo-snapshots.json`. Ties use ranking IDs for stable ordering. Initial entries share the first observation date; these dates are not original source publication dates. GUIDs combine each ranking URL and its content hash so timestamp-only fetches do not generate new notifications. Source attribution and reference periods appear in item descriptions. The footer and HTML alternate links expose the feed for readers.

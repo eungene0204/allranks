@@ -1,0 +1,37 @@
+{
+  "id": "natural-gas-prices-2026",
+  "title": "Natural Gas Prices by Benchmark (2026 YTD)",
+  "short": "Natural gas prices",
+  "category": "energy",
+  "icon": "🔥",
+  "desc": "Average natural gas prices for four regional benchmarks in January–September 2026, in nominal U.S. dollars per MMBtu, transcribed from a Visual Capitalist graphic sponsored by Shale Crescent USA. Values compare published benchmarks, not delivered business energy bills; transport, utility access, contracts and price assessment methods differ.",
+  "unit": "USD/MMBtu",
+  "prefix": "$",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-09",
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist (sponsored by Shale Crescent USA)",
+    "url": "https://www.visualcapitalist.com/sp/sc02-the-worlds-natural-gas-prices-over-time-2006-2026/",
+    "urls": [
+      "https://www.egov.mn/en/article/the-worlds-natural-gas-prices-over-time-2006-2026",
+      "https://fred.stlouisfed.org/data/PNGASEUUSDA",
+      "https://fred.stlouisfed.org/data/PNGASJPUSDA",
+      "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
+      "https://www.ferc.gov/sites/default/files/2026-03/26_State-of-the-Market_0324_1430.pdf"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-21 by opening the complete Visual Capitalist-attributed syndicated copy at egov.mn (the original article blocks direct access), checking the full annual table and the 2026 YTD (Jan–Sep) chart/table values, labels and descending order: Asia (JKM) $17.75, Europe (TTF) $16.75, U.S. benchmark (Henry Hub) $3.65, Shale Crescent USA (EGTS) $2.85. Cross-checked all 2000–2025 Europe and Asia values against IMF annual FRED series: most match at two decimals; source-rounding/vintage differences are $0.01 for Europe 2004 ($3.76 vs $3.75), Asia 2012 ($18.15 vs $18.14), and Europe 2015 ($7.31 vs $7.30). Limitation: the article is sponsored by Shale Crescent USA, and its EGTS calculation has no independently accessible methodology. FERC's 2025 State of the Markets, based on S&P Platts annual spot hub averages, gives Henry Hub $3.54 and Eastern Gas-S $2.78; the article reports $3.43 and $2.61. EIA monthly averages of daily Henry Hub spot prices average $3.54 for Jan–Sep 2026, compared with the article's $3.65. IMF 2026 monthly observations were available only through July at verification time, so Jan–Sep international values were checked against the complete syndicated article and graphic rather than independently recomputed. This ranking faithfully reproduces the article's published comparison and flags the differences; it does not imply directly interchangeable benchmark methods."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    { "name": "Asia (JKM)", "value": 17.75 },
+    { "name": "Europe (TTF)", "value": 16.75 },
+    { "name": "U.S. (Henry Hub)", "value": 3.65 },
+    { "name": "Shale Crescent USA (EGTS)", "value": 2.85 }
+  ]
+}

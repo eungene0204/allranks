@@ -1,3 +1,7 @@
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata("World rankings", "Compare countries across universities, GDP, prices and more. Explore rankings with original sources and reference years.", "/");
+
 import SearchForm from "@/components/SearchForm";
 import GlobeExplorer from "@/components/GlobeExplorer";
 import RandomRankingCards from "@/components/RandomRankingCards";
@@ -48,7 +52,7 @@ export default function HomePage() {
       <RandomRankingCards rankings={latestRankings.map(toRankingCard)} shuffle={false} />
 
       <h2 className="section">Popular rankings</h2>
-      <RandomRankingCards rankings={popularRankings.map(toRankingCard)} limit={15} rerollOnRestore className="popular-ranking-cards" />
+      <RandomRankingCards rankings={popularRankings.slice(0, 15).map(toRankingCard)} limit={15} rerollOnRestore className="popular-ranking-cards" />
       {popularRankings.length > 15 && (
         <div className="more-rankings">
           <Link className="more-rankings-link" href="/popular">More</Link>

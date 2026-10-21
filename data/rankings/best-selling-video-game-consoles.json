@@ -1,0 +1,65 @@
+{
+  "id": "best-selling-video-game-consoles",
+  "title": "Best-Selling Video Game Consoles",
+  "category": "entertainment",
+  "icon": "🕹️",
+  "desc": "Lifetime console shipments through March 2025, rounded to the nearest 100,000 units. Figures are from Statista and public company disclosures, as compiled by Visual Capitalist.",
+  "unit": "million units",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2025,
+  "asOf": "2025-03",
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist — Ranked: The Best-Selling Video Game Consoles of All Time (data: Statista and public disclosures)",
+    "url": "https://www.visualcapitalist.com/ranked-the-best-selling-video-game-consoles-of-all-time/",
+    "verified": true,
+    "note": "All eight console names, ranks, release dates, and shipment totals were checked against the full indexed article table by AllRanks on 2026-10-21. Snapshot is through March 2025; values are rounded to the nearest 100,000."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "PlayStation 2 — Sony",
+      "value": 160.0,
+      "detail": "Released March 2000"
+    },
+    {
+      "name": "Nintendo Switch — Nintendo",
+      "value": 152.1,
+      "detail": "Released March 2017"
+    },
+    {
+      "name": "PlayStation 4 — Sony",
+      "value": 117.0,
+      "detail": "Released November 2013"
+    },
+    {
+      "name": "PlayStation — Sony",
+      "value": 102.4,
+      "detail": "Released December 1994"
+    },
+    {
+      "name": "Wii — Nintendo",
+      "value": 101.6,
+      "detail": "Released November 2006"
+    },
+    {
+      "name": "PlayStation 3 — Sony",
+      "value": 87.4,
+      "detail": "Released November 2006"
+    },
+    {
+      "name": "Xbox 360 — Microsoft",
+      "value": 85.8,
+      "detail": "Released November 2005"
+    },
+    {
+      "name": "PlayStation 5 — Sony",
+      "value": 77.7,
+      "detail": "Released November 2020"
+    }
+  ]
+}

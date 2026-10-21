@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { allRankings, countryCodes } from "@/lib/data";
 import { CONTACT_EMAIL } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "What AllRanks is, where its numbers come from and how to reach us.",
-};
+export const metadata: Metadata = pageMetadata('About', 'What AllRanks is, where its numbers come from and how to reach us.', '/about');
 
 export default function AboutPage() {
   const all = allRankings();
@@ -28,7 +26,7 @@ export default function AboutPage() {
         <p>
           We do not make up statistics. Each ranking is read from an open source — the World Bank, Our World in Data, Epoch AI, OpenAlex,
           national statistics offices and tables in Wikipedia — and the page shows that source, its licence and the date we fetched it.
-          Most rankings refresh automatically. Read <Link href="/methodology">how we collect and check data</Link>, including what “AI-collected · unverified” means.
+          Most rankings refresh automatically. Read <Link href="/methodology">how we collect and check data</Link>, including the checks required before manually or AI-collected lists can be published.
         </p>
 
         <h2>What AllRanks is not</h2>
@@ -37,6 +35,8 @@ export default function AboutPage() {
           the numbers are shown on every page. Please check the original source before relying on a figure for a decision.
         </p>
 
+        <h2>Who maintains AllRanks</h2>
+        <p>AllRanks maintains this collection and its source links. Automated collectors refresh public datasets; manually and AI-collected lists require source comparison before publication. Original data remain attributed to their publishers.</p>
         <h2>Contact</h2>
         <p>
           Found a wrong number, a broken link or a ranking you would like to see?{" "}

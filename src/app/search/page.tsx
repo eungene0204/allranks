@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata, pageNumber } from "@/lib/seo";
 import Link from "next/link";
 import RankingCard from "@/components/RankingCard";
 import CopyRankingLink from "@/components/CopyRankingLink";
@@ -10,18 +11,27 @@ import { formatValue } from "@/lib/format";
 
 type Props = { searchParams: Promise<{ q?: string | string[]; page?: string }> };
 
-export const metadata: Metadata = { title: "Search", robots: { index: false } };
+function searchQuery(raw: string | string[] | undefined) { return (Array.isArray(raw) ? raw[0] ?? "" : raw ?? "").trim(); }
+
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
+  const params = await searchParams;
+  const q = searchQuery(params.q);
+  const page = pageNumber(params.page, Math.ceil(searchRankings(q).length / 48));
+  const query = new URLSearchParams();
+  if (q) query.set("q", q);
+  if (page > 1) query.set("page", String(page));
+  return { ...pageMetadata(q ? `Search: ${q}${page > 1 ? ` — Page ${page}` : ""}` : "Search rankings", q ? `Find countries, rankings and entries matching “${q}” on AllRanks, with sources and reference years.` : "Search AllRanks by country, topic or entry name to find rankings with sources and reference years.", `/search${query.size ? `?${query}` : ""}`), robots: { index: true, follow: true } };
+}
 
 export default async function SearchPage({ searchParams }: Props) {
   const params = await searchParams;
-  const raw = params.q;
-  const q = (Array.isArray(raw) ? raw[0] ?? "" : raw ?? "").trim();
+  const q = searchQuery(params.q);
   const countries = searchCountries(q);
   const rankings = searchRankings(q);
   const entries = searchEntries(q);
   const pageSize = 48;
   const pageCount = Math.max(1, Math.ceil(rankings.length / pageSize));
-  const page = Math.min(pageCount, Math.max(1, Math.floor(Number(params.page)) || 1));
+  const page = pageNumber(params.page, pageCount);
   const visibleRankings = rankings.slice((page - 1) * pageSize, page * pageSize);
   const count = countries.length + rankings.length + entries.length;
   return (

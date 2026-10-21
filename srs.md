@@ -1,6 +1,6 @@
 # AllRanks 소프트웨어 요구사항 명세서 (SRS)
 
-> 마지막 업데이트: 2026-10-19 · 버전 0.2.0
+> 마지막 업데이트: 2026-10-20 · 버전 0.2.0
 > 상태 표기: ✅ 구현됨 · 🚧 부분 구현 · ⬜ 미구현
 
 ## 1. 목적과 범위
@@ -42,6 +42,8 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 | FR-94 | “Latest published data”와 “Historical data” 신선도 배지는 색상 구분을 유지하면서 작은 라벨 크기로 표시한다 | ✅ |
 | FR-95 | 헤더 검색 패널의 입력창과 버튼을 컴팩트한 높이로 표시하고, 패널 바깥을 누르거나 Escape를 누르면 닫는다 | ✅ |
 | FR-96 | 국가별 수치가 아닌 글로벌 언어 순위는 국가 코드 없이 저장·표시하고 국가별 순위 집계와 혼합하지 않는다 | ✅ |
+| FR-97 | 전역 엔터티 유형 `product`로 비누·샴푸·세제·치약·화장지·생리용품·기초 화장품 등 반복 구매 생활 필수품을 우선 제공하고, 자동차·안전 장비는 후순위로 제공한다. 제품별 출처 링크를 표시하고, 편집 순위가 독립 검증 전이면 그 상태를 “Sample data” 대신 “Editorial shortlist · verification pending”으로 구분한다 | ✅ |
+| FR-98 | 자동차 브랜드 랭킹은 Consumer Reports 2026 미국 시장 Overall Brand Report Card의 상위 5개를 원출처 순서로 표시하고, 종합 브랜드 비교임을 밝혀 개별 모델 추천으로 오해되지 않게 한다 | ✅ |
 | FR-01 | 홈에서 인터랙티브 지구본을 보여준다 (회전·줌·국가 선택, 국가별 1위 표시) | ✅ |
 | FR-02 | 지구본에서 국가에 hover 하면 해당 국가의 상위 랭킹 요약 카드를 보여준다. 긴 랭킹 제목이 있어도 툴팁은 화면 너비 안에 제한하고 내용을 잘라낸다 | ✅ |
 | FR-03 | 국가 국기를 클릭하면 `/country/<code>` 로 이동한다 | ✅ |
@@ -63,7 +65,7 @@ AllRanks는 "세상의 모든 랭킹을 한곳에서" 보여주는 웹사이트�
 | FR-12 | 헤더 카테고리는 World Records를 포함해 한 줄로 가운데 정렬하고, 공간이 부족하면 가로 스크롤로 전체 이름에 접근할 수 있어야 한다 | ✅ |
 | FR-13 | 랭킹 카드의 긴 항목 이름은 말줄임표로 표시하여 값이 카드 밖으로 벗어나지 않도록 하고, 마우스를 올리면 전체 이름을 제공한다 | ✅ |
 | FR-52 | 랭킹 카드의 순위 숫자는 18px, 원형 배지는 32px로 표시하여 순위를 쉽게 읽을 수 있도록 한다 | ✅ |
-| FR-17 | 헤더 메뉴는 8개 카테고리(Economy, Markets, Education, Technology, AI, Society & Health, Energy & Industry, World Records)를 제공한다. 주식시장·상장사·기업 규모·투자 흐름과 시장 경쟁 랭킹은 Markets에 분류하고, GDP·소득·물가·일반 무역 등은 Economy에 둔다. Maps는 분야 분류에서 제외한다 | ✅ |
+| FR-17 | 헤더 메뉴는 9개 카테고리(Economy, Markets, Education, Technology, AI, Society & Health, Energy & Industry, Everyday Essentials, World Records)를 제공한다. 주식시장·상장사·기업 규모·투자 흐름과 시장 경쟁 랭킹은 Markets에 분류하고, GDP·소득·물가·일반 무역 등은 Economy에 둔다. Maps는 분야 분류에서 제외한다 | ✅ |
 | FR-18 | 등록된 랭킹이 없는 카테고리는 분야 설명과 준비 중 안내를 표시한다 | ✅ |
 | FR-19 | 홈에서 소개 영역, 지구본, 통합 검색창, LATEST 랭킹 그룹, Popular rankings 그룹을 순서대로 표시한다. LATEST에는 현재 연도와 데이터 기준 연도(`year`) 또는 출판 판본 연도(`editionYear`)가 일치하는 세계 랭킹 중 세부 기준 시점이 최신인 3개를 보여주며 LATEST More 버튼은 표시하지 않는다. 홈 Popular 미리보기에서는 LATEST에 표시된 3개와 중복하지 않는다. Popular rankings는 대중 관심도·국가 간 비교 용이성을 기준으로 편집 선정한 랭킹만 포함하며(페이지뷰 분석 없음), 방문할 때마다 무작위로 15개를 보여준다. 넓은 화면에서는 한 줄에 5개, 좁은 화면에서는 화면 너비에 맞춰 열 수를 줄인다. Popular의 More 버튼은 `/popular` 전체 목록으로 이동하며 해당 목록도 방문 및 브라우저 뒤로가기 캐시 복원 때마다 순서를 무작위로 바꾼다. 지구본 하단에 국가 리더보드·선택 국가 상세 패널·국가 선택 버튼 목록·조작 안내 문구는 표시하지 않는다 | ✅ |
 | FR-50 | 검색 결과에서 검색어를 수정할 수 있다. 일치 항목은 전체 랭킹 기준 순위·값·연도를 표시하며 100개 초과 시 표시 한도와 전체 개수를 안내한다. 랭킹 카드는 48개씩 페이지를 나누고 전체 개수·현재 범위·이전/다음 탐색을 제공한다 | ✅ |
@@ -105,7 +107,7 @@ Duolingo 학습 언어(2025): ✅ 공식 Language Report의 글로벌 상위 10�
 | FR-85 | Transparency International CPI 공개판을 출처 내역이 명시된 기계 판독 CSV에서 수집해 공공부문 부패 인식 점수를 제공한다 | ✅ |
 | FR-25 | Big Mac, Ookla 속도, Wikipedia 표(세계/US) 기반 랭킹을 자동 수집한다 | ✅ |
 | FR-77 | 미국 최고 보상 CEO 100명(`us-highest-paid-ceos`, Economy)을 Equilar / The New York Times 2026년판 공식 API로 수집한다. 기준 연도는 2025이며 CEO 이름·회사명/티커·달러 단위 총보상액을 표시한다. 부여일 평가 주식·옵션을 포함하는 보상임을 명시하고, 현금 실수령액과 구별한다. 미국 국가 한정 목록으로 분류하고 전체 보상액 분포를 로그 축 점 그래프로 보여주고 CEO별 상세는 hover로 제공하며 아래 순위표 막대도 1천만 달러 기준 로그 축으로 표시한다 | ✅ |
-| FR-26 | 수동 랭킹은 `verified` 플래그로 관리하고 미검증이면 "Sample data"로 표시한다 | ✅ |
+| FR-26 | 수동 랭킹은 `verified` 플래그로 관리한다. 생성·수정한 AllRanks 어시스턴트가 출처 원문에서 항목명·근거·순서·판/연도를 확인하고, 미검증 편집 표본은 “Editorial shortlist · verification pending”으로 표시한다 | ✅ |
 | FR-27 | 현재 세계 1,702개 + 국가 한정 1,616개, 총 3,318개 랭킹을 제공한다 | ✅ |
 | FR-29 | 모든 카테고리에 세계 랭킹이 1개 이상 있고(Markets·Money·Demographics·Mining·Autos·Green 주제는 통합 카테고리 안에서 제공, AI는 독립), 신규 39개와 AI 카테고리 추가 14개(AI 슈퍼컴퓨터 수·연산력·전력, 최대 클러스터, TOP500, 반도체 수출, AI 논문, AI 채용 비중, 생성형 AI 이용률, 로봇 밀도, 연구원, 첨단기술·IT서비스 수출)는 모두 자동 어댑터(World Bank, Our World in Data, Epoch AI, Wikipedia 표)로 수집한다. 국가별 데이터센터 수(`data-centers`, 상위 25개국)는 자동 어댑터가 가능한 공개 출처가 없어 웹 조사로 수집한 `source.kind: "agent"` 랭킹(미검증, 출처 URL 2개 명시)이며, AI 슈퍼컴퓨터 센서스(Epoch AI)와는 별개다. 수동 입력 없음 | ✅ |
 | FR-28 | US 외 다른 국가의 지역 랭킹을 제공한다 — KR·JP·CN·IN·DE·GB·FR·IT·ES·CA·AU·BR·MX·RU·ID·TR·NL·CH·PL·SE·AR·ZA·TH·MY·SA·EG·PK·AT·BE·NO·FI·GR·NZ·UA + 나머지 OECD 16개국(CL·CO·CR·CZ·DK·EE·HU·IE·IL·IS·LT·LU·LV·PT·SI·SK) + BRICS 신규·파트너(AE·ET·IR·NG·VN·KZ·BY·UZ) + EU 잔여(BG·HR·CY·MT·RO) + ASEAN 잔여(SG·PH·MM·KH·LA·BN·TL) + 아프리카연합 주요국(DZ·MA·KE·GH·TZ·UG·TN·AO·CI·CM·SN·ZM·ZW·MZ·SD·CD). OECD 38개국·G20·BRICS·EU 27·ASEAN 11 회원국 전부 포함. 아프리카연합 55개국 중 지역 랭킹은 위키피디아 표가 있는 20개국만(나머지는 FR-70 대학 순위만)(지역 인구·GDP, 도시, 마천루, 공항, 일부 기업) | ✅ |
@@ -146,7 +148,7 @@ Duolingo 학습 언어(2025): ✅ 공식 Language Report의 글로벌 상위 10�
 
 | ID | 요구사항 | 상태 |
 | --- | --- | --- |
-| FR-40 | 사이트맵에 홈·카테고리·랭킹·국가·정보 페이지를 포함하고, `robots.txt` 가 사이트맵 위치를 알려준다(검색 결과 페이지 `/search` 는 크롤링 제외) | ✅ |
+| FR-40 | 사이트맵에 홈·카테고리·랭킹·국가·정보 페이지를 포함하고, `robots.txt` 가 사이트맵 위치를 알려준다(검색 결과 페이지 `/search` 도 크롤링·색인 허용) | ✅ |
 | FR-41 | 페이지별 메타데이터(title/description) 제공 | 🚧 확인 필요 |
 | FR-70 | `/about`, `/methodology`, `/privacy` 정보 페이지를 제공하고 푸터와 사이트맵에서 연결한다. 방법론 페이지는 실제 데이터에서 출처·라이선스·랭킹 수를 집계해 보여준다 | ✅ |
 | FR-71 | AdSense 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT` 로 변경, `off` 면 비활성)가 유효할 때 AdSense 스크립트, `google-adsense-account` 메타 태그, `/ads.txt` 를 내보낸다. 비활성이면 광고 없음, `/ads.txt` 404 | ✅ |
@@ -185,14 +187,14 @@ Duolingo 학습 언어(2025): ✅ 공식 Language Report의 글로벌 상위 10�
 ## 6. 제약 및 가정
 
 - 외부 데이터 소스의 가용성·형식은 통제할 수 없다 (Wikipedia 표 구조 변경 시 어댑터 수정 필요).
-- 수동 데이터는 검증 전까지 샘플로 취급한다.
+- 수동 데이터 검증 책임자는 해당 목록을 생성·수정한 AllRanks 어시스턴트다. 출처에서 전체 항목과 주장, 순서, 판/연도를 확인하기 전에는 `verified:false`를 유지하고 미검증 상태로 표시한다.
 - 호스팅·도메인·분석 도구는 미정 (`project_plan.md` 참조).
 
 ## 7. 미결 사항
 
 - 다국어(한국어 등) 지원 여부
 - 테스트 자동화 범위
-- 남은 수동 랭킹(QS 대학 TOP10)의 검증 계획 (에이전트 `refresh` 가 출처 기반 값으로 교체할지 사람이 검증할지)
+- 남은 수동 랭킹(QS 대학 TOP10)을 AllRanks 어시스턴트가 공식 출처에서 대조하고 검증 상태를 갱신한다.
 - 에이전트 신규 랭킹의 병합 기준 (출처 신뢰도, 최소 국가 수, 라이선스 점검 절차)
 - 에이전트 실행 비용 상한과 모니터링 방법
 
@@ -234,3 +236,101 @@ Duolingo 학습 언어(2025): ✅ 공식 Language Report의 글로벌 상위 10�
 
 - ✅ 커밋 `aa32df3`가 프로덕션 `dpl_BL5vG5ZZ7gwzZHm878e2AKTfU1ty`에 배포됐고 도메인·지도·국가·요청 시 생성 랭킹·국가 API가 200을 반환했다. 이전 배포를 정리해 READY production 하나만 남겼다.
 - 🚧 지속 자동 정리: `.github/workflows/prune-deployments.yml`이 배포 이벤트에 반응한다. 현재 Actions `VERCEL_TOKEN`이 없어서 실행은 안전하게 skip 된다. 토큰 등록 후 자동 정리가 활성화된다. Vercel UI에서 30일/10개 기본 보존 규칙은 여전히 설정되어 있으므로 이전 배포는 배포 이벤트 직후 workflow가 삭제하는 구조다.
+
+### 검증 후 게시 요구사항 (2026-10-20)
+
+- `verified:false`인 랭킹은 절대 공개하지 않는다. 수동·에이전트 자료는 어시스턴트가 작업 중 원출처를 직접 대조한 뒤 `verified:true`로 확정해야 공개된다.
+- 미검증 자료는 홈·검색·카테고리·국가 집계·사이트맵·클라이언트 카탈로그에서 제외하고 직접 상세 경로는 404로 응답한다. 기존 검증 대기 배지를 붙여 공개하던 FR-26·FR-65·FR-97 동작은 이 정책으로 대체한다.
+- 반복 작업은 `allranks-verify-publish` 스킬을 적용하며 검증 주체·확인일·범위·한계를 남긴다.
+
+
+## 개발 환경 지원 (2026-10-20)
+
+✅ 요청한 `mattpocock/skills` 저장소의 38개 스킬을 개인 Codex 스킬 경로에 설치하고 각 `SKILL.md`의 존재를 확인했다. 다음 대화 턴부터 사용할 수 있으며, Claude 전용 도구를 전제로 하는 개별 스킬은 해당 환경이 필요할 수 있다.
+
+### 검색 색인 정책 확인 (2026-10-21)
+
+- FR-40의 검색 결과 크롤링 제외 정책을 운영 응답으로 확인했다. `/search?q=india`의 Search Console “Blocked by robots.txt”는 현재 요구사항과 일치한다. 검색 URL 자체를 색인 대상으로 바꾸려면 `/search` 차단 및 검색 페이지 `noindex`를 함께 변경해야 한다. 이번 조사는 정책 변경을 포함하지 않는다.
+
+### 검색 색인 정책 변경 (2026-10-21)
+
+- 사용자 요청으로 검색 결과 페이지도 검색엔진 노출 대상으로 변경한다. 이전 검색 제외 정책 및 진단 시점의 현행 정책을 대체한다. `/search?q=india`를 포함한 검색 URL의 robots 차단을 제거하고 `index, follow`를 제공한다. 실제 색인 여부와 시점은 검색엔진이 결정한다.
+
+### SEO 지원 개발 환경 (2026-10-21)
+
+- `fire-your-seo-agency` 스킬 설치 및 `SKILL.md`와 참조 문서 존재 확인을 완료했다. 다음 대화 턴부터 사용 가능하며, 이번 요청 범위는 설치로 SEO 진단·구현은 수행하지 않았다.
+
+### SEO 운영 진단 (2026-10-21)
+
+- SEO 진단 완료: 주요 페이지 HTML 본문 및 실제 404는 확인했으나 운영 검색 색인 허용은 아직 미반영 상태다. 구조화 데이터·URL 정규화·전체 목록 접근성은 개선 제안이며 구현 완료가 아니다. 검색 성과와 AI 인용은 계정 지표 없이 미확인이다. 상세 증빙은 `seo_audit_2026-10-21.md` 참조.
+
+### SEO 요구사항 구현 (2026-10-21)
+
+- 사용자 요청한 검색 index/follow 및 robots 전체 허용 정책을 유지하고 검색어별 제목·설명·정규 URL을 제공한다. 빈 결과도 기존 색인 허용 정책을 유지한다. 국가·분류 페이지의 페이지 번호를 정규화하며 서로 다른 페이지를 홈 또는 첫 페이지로 canonical 처리하지 않는다.
+- 전체 랭킹 행은 클릭 없이 HTML에서 읽을 수 있어야 하며 필터와 역순 정렬은 유지한다. 출처·기준기간·집계 요약과 JSON-LD는 공개 데이터에서 생성한다. 점수/순위/지수의 배수 비교를 억제하고 본문 요약은 메타 길이 제한으로 잘리지 않는다.
+- 미검증 비공개 정책은 메타·사이트맵·날짜 매니페스트에도 적용한다. `verified` 플래그와 원자료 값은 이번 SEO 작업에서 변경하지 않았다.
+- 로컬 프로덕션 빌드에서 25개 HTTP 검사, 비공개 9개 상세 주소 404, 표본 전체 135개 행 노출을 확인했다. Google/Bing/네이버 등록·실제 색인·검색 성과·AI 인용·Core Web Vitals는 외부 계정 및 지표 확인 전까지 미완료로 유지한다.
+
+### SEO 운영 반영 및 최종 검증 (2026-10-21)
+
+- 운영 배포 완료: https://allranks.world (Vercel READY, `allranks-o2l7hcghh-eugene204-5519.vercel.app`). 운영 HTTP 검사 25개와 공유 PNG 확인 통과. 검색 index/follow 및 robots 허용, 표본 랭킹 135개 전체 행, 페이지별 canonical/JSON-LD, 사이트맵 3,577 URL 및 lastmod 3,326개 확인. 비공개 랭킹 9개 상세는 모두 404.
+- 최종 검증 기록: `reports/seo-verification-2026-10-21.json`. 신규 SEO CI 파일은 로컬에 추가했으며 GitHub에서 실행하려면 커밋·푸시가 필요하다. 이번 작업은 Vercel 직접 배포이며 Git 커밋·푸시는 하지 않았다.
+- 남은 외부 확인: Search Console/Bing/네이버 계정 등록·사이트맵 제출·성과 지표와 AI 실제 인용은 연결된 계정 없이 미확인. PageSpeed 공개 API는 HTTP 429(쿼터 초과)로 측정 불가했으므로 Core Web Vitals 개선을 주장하지 않는다. 첫 재측정 권장일 2026-11-04.
+
+### 공통 푸터 FAQ (2026-10-21)
+
+- 모든 페이지 푸터에 영어 FAQ 7개를 제공한다. 이용 방법, 원출처, 데이터 기준기간과 수집일의 차이, 1위와 좋은 결과의 구분, 검증·갱신, 서로 다른 지표 비교, 오류·신규 랭킹 제안을 설명한다. About/Methodology/Search 및 문의 링크를 제공하고 미검증 자료 비공개 정책을 유지한다.
+- 검증·배포 완료: 프로덕션 빌드 통과, Safari 접기/펼치기 확인, 운영 홈·소개·랭킹 페이지 HTML에서 공통 FAQ 7개와 답변 확인. https://allranks.world 에 반영했다.
+
+### RSS 피드 (2026-10-21)
+
+- `/feed.xml` 구독으로 최근 관측된 공개 랭킹 스냅샷 최대 50개를 제공한다. 각 항목은 제목·상세 링크·출처·기준기간·범주·관측일을 포함한다. 관측일을 원출처 발행일로 표시하지 않으며 초기 항목은 최초 관측일을 공유할 수 있음을 피드에 설명한다. 내용이 바뀌지 않은 재수집은 GUID·pubDate를 변경하지 않는다. 미검증 false 및 명시적으로 검증되지 않은 manual/agent 초안은 기존 공개 필터로 제외한다.
+- 운영 반영 완료: `allranks-1xcopicp2-eugene204-5519.vercel.app` → https://allranks.world/feed.xml. 실제 응답의 application/rss+xml, XML 파싱, 50개 항목·고유 GUID·스냅샷 날짜, 비공개 9개 제외, 홈/랭킹/국가 3개 경로의 자동 발견 링크를 확인했다. 기존 공개 랭킹만 재사용하며 원자료 값·검증 상태는 변경하지 않았다. 후속 RSS 갱신 점검 권장일 2026-11-04.
+
+### RSS 검색엔진 제출 (2026-10-21)
+
+- Google Search Console의 `sc-domain:allranks.world` 속성에 https://allranks.world/feed.xml 을 제출했다. 화면에서 RSS 형식, 제출/최근 읽기 2026-10-21, Success, 발견 URL 51개 및 제출 성공 메시지를 확인했다. 이는 색인·AI 인용 완료를 의미하지 않는다.
+- Bing Webmaster Tools에는 사이트를 추가했고, 발급받은 공개 소유 확인 값을 Vercel Production의 `NEXT_PUBLIC_BING_SITE_VERIFICATION`에 설정했다. 기존 메타 생성 코드를 이용한 운영 배포와 소유 확인을 완료했다.
+- Bing 소유 확인 성공: 운영 HTML의 msvalidate.01 태그를 직접 확인한 후 Webmaster Tools의 “Site addition successful” 및 도메인 추가 성공 메시지를 확인했다. RSS 제출을 이어서 완료했다.
+- 최종 결과: Bing Sitemaps에 https://allranks.world/feed.xml 을 제출했고 “successfully submitted for processing” 메시지 및 목록의 Processing 상태를 확인했다. Google은 Success, Bing은 접수 후 처리 중이며 실제 색인·인용 완료와 구분한다. Bing 확인 태그 환경변수는 소유 확인 유지를 위해 보존한다. 2026-10-22 이후 Bing 처리 상태를 재확인하고 2026-11-04에 기존 성과 재측정을 진행하는 것이 후속 계획이다.
+
+### SEO 운영 재점검 (2026-10-21)
+
+- 완료: 공개 운영 응답 표본에서 SSR 본문, canonical, JSON-LD, robots, 404, RSS, llms.txt 및 sitemap을 재확인했다. 사이트맵 3,577 URL/lastmod 3,326개, RSS 50항목을 확인했다.
+- 발견/후속: 표본 title 25~85자·description 101~142자이며 FAQPage는 없다. 검색은 기존 정책에 따라 색인 허용되어 실제 색인·중복 여부를 GSC에서 관찰한다. 검색 성과, 네이버 지표 및 실제 AI 인용은 미측정이다. 세부 근거와 권고는 `seo_audit_2026-10-21.md`에 기록한다. 코드 및 배포는 바꾸지 않았다.
+
+### FAQPage 구조화 데이터 (2026-10-21)
+
+- 완료: 공통 푸터 FAQ 7문항을 단일 데이터로 렌더링하고 가시 문구와 동일한 Schema.org FAQPage JSON-LD를 모든 페이지에 출력한다. 답변 내 링크와 환경 설정 연락처도 텍스트가 일치한다.
+- 확인: `npm run lint`, `npm run build`, `git diff --check` 통과. 운영 홈 및 About 응답의 JSON-LD 파싱과 질문·답변 일치 7/7을 확인했다. Vercel READY 배포 `allranks-q91apam3x-eugene204-5519.vercel.app` → https://allranks.world.
+
+### RSS 푸터 링크 제거 (2026-10-21)
+
+- 완료: 사람용 푸터의 RSS 링크를 제거하고 HTML 자동 발견 링크와 `/feed.xml`을 유지했다. `npm run lint`, `npm run build`, `git diff --check` 통과. 운영 HTML에서 푸터 링크 부재·자동 발견 메타 유지, 피드 HTTP 200 및 RSS MIME을 확인했다. 배포 `allranks-lry4q45w4-eugene204-5519.vercel.app` → https://allranks.world.
+
+### 2026 세계 최대 은행 랭킹 (2026-10-21)
+
+- 추가: 2026년 판 세계 상위 30개 은행을 총자산(USD trillion, 소수 둘째 자리 표시)과 국가별로 등록했다. 데이터 기준은 주로 2025년 연말 재무제표다. `entityType: bank`로 전역 기관 목록임을 구분하고 국별 집계에서 제외한다.
+- 검증: Visual Capitalist 원문 페이지 표에서 30개 명칭·순서·국가·반올림 수치를 직접 대조했다. 기사 설명의 S&P Global 데이터 출처와 공개 S&P 요약(Top4 $20.435T, ICBC $6.596T)이 Visual Capitalist 표(Top4 $26.62T, ICBC $7.65T)와 다른 점을 공개 출처 노트에 기록했다. 본 항목은 Visual Capitalist에 게시된 표를 충실히 옮긴 것이며 불일치의 원인은 확인되지 않았다.
+
+### 천연가스 가격 비교 (2026-10-21)
+
+- Visual Capitalist의 2026 YTD 4개 허브 비교를 추가 공개했다. Visual Capitalist 전체 내용을 재게시한 페이지와 그래픽에서 항목·수치·순서를 확인하고, 유럽·아시아 2000–2025 연간 수치를 IMF/FRED 자료와 대조했다. 일부 과거 연간 값의 반올림 차이($0.01), 후원사 제공 EGTS 방법론 미공개, 2025 및 2026 Henry Hub/지역 허브의 비교 자료와 차이가 있다. 이를 상세 페이지에 기록하고 출처 표의 충실 전사임을 명시했다.
+- 운영 URL과 사이트맵 반영을 확인했다. Vercel READY 배포 `dpl_7CiEQKtoxAr3HvhYdwJQC6mLWssG` → https://allranks.world/ranking/natural-gas-prices-2026; SSR에서 4개 값과 한계 설명을 확인했다.
+
+| FR-98 | Everyday Essentials는 반복 구매 생필품뿐 아니라 가정용품의 원문 검증된 제품 추천도 제공하며, 부문별 수상 목록은 전체 성능 비교로 오해하지 않도록 출처 맥락을 표시한다 | ✅ |
+
+2026-10-21 검증 반영: 면도기, 진공청소기, 세탁/건조기 브랜드 신뢰도, SHARP 헬멧 별점과 주방가전 신뢰도 랭킹은 원문과 전체 목록·선정 맥락을 대조해 공개했다. 냉장고 단일 브랜드 순위는 근거가 확인되지 않아 비공개 유지한다.
+
+## 2026-10-21 완료: 미국 연도별 베스트셀러 앨범
+
+- Visual Capitalist 원문 기반으로 2000–2025년 연간 미국 베스트셀러 앨범 26개를 공개 데이터에 추가했다.
+- 항목은 연도순이며 앨범명·아티스트와 원문 판매량을 표시한다.
+- 초기 실판매량과 후대 앨범 등가 단위는 직접 비교할 수 없다는 한계를 설명한다.
+- 검증 완료: 26개 항목의 연도·아티스트·앨범명·판매량을 확인했다. 원문 직접 fetch는 403이었으며 색인된 원문 전문 및 표를 근거로 했다.
+
+## 2026-10-21 완료: Entertainment 카테고리
+
+- Entertainment 카테고리를 신설해 영화·음악·게임 자료를 한 곳에서 탐색할 수 있게 했다.
+- 미국 연도별 베스트셀러 앨범을 새 카테고리로 옮기고 Spotify 앨범·곡 스트리밍, 역대 판매 게임·게임 콘솔, 세계 흥행 영화·감독 랭킹 6개를 추가했다.
+- 수동 자료 6개의 출처 표 전체를 대조해 검증 완료 처리했다. 기준일, 단위 및 원문이 설명한 집계 한계를 각 랭킹에 표시했다.
