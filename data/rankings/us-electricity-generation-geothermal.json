@@ -1,0 +1,68 @@
+{
+  "id": "us-electricity-generation-geothermal",
+  "title": "U.S. States by Geothermal Electricity Generation",
+  "short": "Geothermal",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "U.S. states and the District of Columbia with reported geothermal generation in 2025, ranked by net generation. Values are in megawatt-hours; only reported positive values are shown.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "U.S. Energy Information Administration, Historical State Data: Net Generation by State by Type of Producer by Energy Source (2025 final annual data)",
+    "url": "https://www.eia.gov/electricity/data/state/index.php",
+    "license": "U.S. government data; public domain",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the EIA original “Net Generation by State by Type of Producer by Energy Source” workbook from the Historical State Data page. Used final annual 2025 observations for “Total Electric Power Industry”; checked every included state/DC name, source column, value, MWh unit and descending order. The US total row was excluded. Source categories and boundaries follow EIA; solar combines “Solar Thermal and Photovoltaic”, and biomass uses the EIA “Other Biomass” category only. Lists show the 25 highest reported positive values when 25 or more are available, otherwise all reported positive values; missing source/state rows are not imputed. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "California",
+      "country": "US",
+      "value": 10898667,
+      "detail": "CA"
+    },
+    {
+      "name": "Nevada",
+      "country": "US",
+      "value": 3752707,
+      "detail": "NV"
+    },
+    {
+      "name": "Utah",
+      "country": "US",
+      "value": 469680,
+      "detail": "UT"
+    },
+    {
+      "name": "Hawaii",
+      "country": "US",
+      "value": 207927,
+      "detail": "HI"
+    },
+    {
+      "name": "Oregon",
+      "country": "US",
+      "value": 152267,
+      "detail": "OR"
+    },
+    {
+      "name": "Idaho",
+      "country": "US",
+      "value": 88141,
+      "detail": "ID"
+    },
+    {
+      "name": "New Mexico",
+      "country": "US",
+      "value": 58113,
+      "detail": "NM"
+    }
+  ]
+}

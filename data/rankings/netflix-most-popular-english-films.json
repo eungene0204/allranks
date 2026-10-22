@@ -1,0 +1,75 @@
+{
+  "id": "netflix-most-popular-english-films",
+  "title": "Netflix Most Popular English-Language Films",
+  "category": "entertainment",
+  "icon": "🎬",
+  "desc": "Netflix global English-language film ranking by views during the first 91 days after release.",
+  "unit": "million views",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-10",
+  "source": {
+    "kind": "manual",
+    "name": "Netflix Tudum — Most Popular (Global, all time)",
+    "url": "https://www.netflix.com/tudum/top10/most-popular/movies/english",
+    "verified": true,
+    "note": "All listed titles, ordering, values, and the source methodology/period were checked by the AllRanks assistant against the linked original page on 2026-10-21. Netflix global English-language film ranking by views during the first 91 days after release."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "KPop Demon Hunters",
+      "value": 325.1,
+      "detail": "2025"
+    },
+    {
+      "name": "Red Notice",
+      "value": 230.9,
+      "detail": "2021"
+    },
+    {
+      "name": "Carry-On",
+      "value": 172.1,
+      "detail": "2024"
+    },
+    {
+      "name": "Don’t Look Up",
+      "value": 171.4,
+      "detail": "2021"
+    },
+    {
+      "name": "The Adam Project",
+      "value": 157.6,
+      "detail": "2022"
+    },
+    {
+      "name": "Bird Box",
+      "value": 157.4,
+      "detail": "2018"
+    },
+    {
+      "name": "Back in Action",
+      "value": 147.2,
+      "detail": "2025"
+    },
+    {
+      "name": "Leave the World Behind",
+      "value": 143.4,
+      "detail": "2023"
+    },
+    {
+      "name": "War Machine",
+      "value": 139.9,
+      "detail": "2026"
+    },
+    {
+      "name": "Swapped",
+      "value": 139.8,
+      "detail": "2026"
+    }
+  ]
+}

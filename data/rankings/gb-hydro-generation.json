@@ -1,0 +1,176 @@
+{
+  "id": "gb-hydro-generation",
+  "title": "UK Local Authorities by Hydropower Generation",
+  "short": "Hydropower",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom ranked by hydropower in 2025. The list shows the 25 highest reported values.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Highland",
+      "country": "GB",
+      "value": 2868605.61,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Perth and Kinross",
+      "country": "GB",
+      "value": 680521.86,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Argyll and Bute",
+      "country": "GB",
+      "value": 579168.19,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Dumfries and Galloway",
+      "country": "GB",
+      "value": 374718.73,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Stirling",
+      "country": "GB",
+      "value": 230469.68,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Gwynedd",
+      "country": "GB",
+      "value": 120693.97,
+      "detail": "Wales"
+    },
+    {
+      "name": "Ceredigion",
+      "country": "GB",
+      "value": 101672.69,
+      "detail": "Wales"
+    },
+    {
+      "name": "South Lanarkshire",
+      "country": "GB",
+      "value": 85809.23,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Conwy",
+      "country": "GB",
+      "value": 66735.6,
+      "detail": "Wales"
+    },
+    {
+      "name": "Powys",
+      "country": "GB",
+      "value": 24670.86,
+      "detail": "Wales"
+    },
+    {
+      "name": "Northumberland",
+      "country": "GB",
+      "value": 20620.39,
+      "detail": "North East"
+    },
+    {
+      "name": "Westmorland and Furness",
+      "country": "GB",
+      "value": 17619.84,
+      "detail": "North West"
+    },
+    {
+      "name": "North Ayrshire",
+      "country": "GB",
+      "value": 15197.81,
+      "detail": "Scotland"
+    },
+    {
+      "name": "West Devon",
+      "country": "GB",
+      "value": 10157.05,
+      "detail": "South West"
+    },
+    {
+      "name": "North Yorkshire",
+      "country": "GB",
+      "value": 8820.8,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Aberdeenshire",
+      "country": "GB",
+      "value": 7601.39,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Na H-Eileanan Siar",
+      "country": "GB",
+      "value": 7503.33,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Angus",
+      "country": "GB",
+      "value": 7138.07,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Derry and Strabane",
+      "country": "GB",
+      "value": 6667.37,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Cumberland",
+      "country": "GB",
+      "value": 6600.56,
+      "detail": "North West"
+    },
+    {
+      "name": "Mid and East Antrim",
+      "country": "GB",
+      "value": 6221.99,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "High Peak",
+      "country": "GB",
+      "value": 5464.37,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "Denbighshire / Sir Ddinbych",
+      "country": "GB",
+      "value": 5235.01,
+      "detail": "Wales"
+    },
+    {
+      "name": "County Durham",
+      "country": "GB",
+      "value": 4858.77,
+      "detail": "North East"
+    },
+    {
+      "name": "South Hams",
+      "country": "GB",
+      "value": 4717.56,
+      "detail": "South West"
+    }
+  ]
+}

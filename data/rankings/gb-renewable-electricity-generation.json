@@ -1,0 +1,176 @@
+{
+  "id": "gb-renewable-electricity-generation",
+  "title": "UK Local Authorities by Renewable Electricity Generation",
+  "short": "Total renewable generation",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom ranked by total renewable generation in 2025. The list shows the 25 highest reported values.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "North Yorkshire",
+      "country": "GB",
+      "value": 10981381.61,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Highland",
+      "country": "GB",
+      "value": 7685587.04,
+      "detail": "Scotland"
+    },
+    {
+      "name": "South Lanarkshire",
+      "country": "GB",
+      "value": 3845764.06,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Lancaster",
+      "country": "GB",
+      "value": 3450761.46,
+      "detail": "North West"
+    },
+    {
+      "name": "East Suffolk",
+      "country": "GB",
+      "value": 3311117.89,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Dumfries and Galloway",
+      "country": "GB",
+      "value": 2952864.38,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Argyll and Bute",
+      "country": "GB",
+      "value": 1517632.39,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Scottish Borders",
+      "country": "GB",
+      "value": 1496276.92,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Aberdeenshire",
+      "country": "GB",
+      "value": 1478142.64,
+      "detail": "Scotland"
+    },
+    {
+      "name": "South Ayrshire",
+      "country": "GB",
+      "value": 1454628.11,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Perth and Kinross",
+      "country": "GB",
+      "value": 1362655.28,
+      "detail": "Scotland"
+    },
+    {
+      "name": "East Ayrshire",
+      "country": "GB",
+      "value": 1357463.96,
+      "detail": "Scotland"
+    },
+    {
+      "name": "North Norfolk",
+      "country": "GB",
+      "value": 1201849.91,
+      "detail": "Eastern"
+    },
+    {
+      "name": "East Riding of Yorkshire",
+      "country": "GB",
+      "value": 1154134.76,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Cornwall",
+      "country": "GB",
+      "value": 1012278.14,
+      "detail": "South West"
+    },
+    {
+      "name": "Fermanagh and Omagh",
+      "country": "GB",
+      "value": 935692.53,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Northumberland",
+      "country": "GB",
+      "value": 915322.66,
+      "detail": "North East"
+    },
+    {
+      "name": "Moray",
+      "country": "GB",
+      "value": 889289.54,
+      "detail": "Scotland"
+    },
+    {
+      "name": "North East Lincolnshire",
+      "country": "GB",
+      "value": 889044.35,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Rhondda Cynon Taf",
+      "country": "GB",
+      "value": 865354.83,
+      "detail": "Wales"
+    },
+    {
+      "name": "Causeway Coast and Glens",
+      "country": "GB",
+      "value": 837424.22,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Cumberland",
+      "country": "GB",
+      "value": 815768.67,
+      "detail": "North West"
+    },
+    {
+      "name": "Somerset",
+      "country": "GB",
+      "value": 790516.71,
+      "detail": "South West"
+    },
+    {
+      "name": "Derry and Strabane",
+      "country": "GB",
+      "value": 788884.14,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "East Renfrewshire",
+      "country": "GB",
+      "value": 692430.23,
+      "detail": "Scotland"
+    }
+  ]
+}

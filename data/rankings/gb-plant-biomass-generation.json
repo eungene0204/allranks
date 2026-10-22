@@ -1,0 +1,176 @@
+{
+  "id": "gb-plant-biomass-generation",
+  "title": "UK Local Authorities by Plant Biomass Generation",
+  "short": "Plant biomass",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom ranked by plant biomass in 2025. The list shows the 25 highest reported values.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "North Yorkshire",
+      "country": "GB",
+      "value": 10492702.75,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Sheffield",
+      "country": "GB",
+      "value": 469340.08,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Dumfries and Galloway",
+      "country": "GB",
+      "value": 386164.12,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Fife",
+      "country": "GB",
+      "value": 340541.21,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Cumberland",
+      "country": "GB",
+      "value": 335853.12,
+      "detail": "North West"
+    },
+    {
+      "name": "East Cambridgeshire",
+      "country": "GB",
+      "value": 241059.1,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Newport / Casnewydd",
+      "country": "GB",
+      "value": 222419.09,
+      "detail": "Wales"
+    },
+    {
+      "name": "Dover",
+      "country": "GB",
+      "value": 185808.59,
+      "detail": "South East"
+    },
+    {
+      "name": "Highland",
+      "country": "GB",
+      "value": 175456.76,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Northumberland",
+      "country": "GB",
+      "value": 167048.16,
+      "detail": "North East"
+    },
+    {
+      "name": "Kingston Upon Hull, City of",
+      "country": "GB",
+      "value": 158564.47,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Derry and Strabane",
+      "country": "GB",
+      "value": 129184.96,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Somerset",
+      "country": "GB",
+      "value": 126665.7,
+      "detail": "South West"
+    },
+    {
+      "name": "County Durham",
+      "country": "GB",
+      "value": 125875.1,
+      "detail": "North East"
+    },
+    {
+      "name": "East Riding of Yorkshire",
+      "country": "GB",
+      "value": 121008.8,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "South Lanarkshire",
+      "country": "GB",
+      "value": 43085.68,
+      "detail": "Scotland"
+    },
+    {
+      "name": "South Ayrshire",
+      "country": "GB",
+      "value": 39762.21,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Wakefield",
+      "country": "GB",
+      "value": 38803.13,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Staffordshire Moorlands",
+      "country": "GB",
+      "value": 38082.68,
+      "detail": "West Midlands"
+    },
+    {
+      "name": "Monmouthshire / Sir Fynwy",
+      "country": "GB",
+      "value": 32014.17,
+      "detail": "Wales"
+    },
+    {
+      "name": "West Lindsey",
+      "country": "GB",
+      "value": 30290.37,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "Ceredigion",
+      "country": "GB",
+      "value": 29216.63,
+      "detail": "Wales"
+    },
+    {
+      "name": "Stirling",
+      "country": "GB",
+      "value": 26269.38,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Armagh, Banbridge and Craigavon",
+      "country": "GB",
+      "value": 26174.41,
+      "detail": "Northern Ireland"
+    },
+    {
+      "name": "Manchester",
+      "country": "GB",
+      "value": 23334.71,
+      "detail": "North West"
+    }
+  ]
+}

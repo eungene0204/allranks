@@ -33,14 +33,25 @@ const POPULAR_RANKING_IDS = new Set([
   "gasoline",
 ]);
 
+// Recently added editions may be useful on /latest even when their source data is historical.
+const RECENTLY_ADDED_LATEST_IDS = new Set(["ivy-league-admission-rates-2022"]);
+
 export function allLatestRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {
   return rankings
-    .filter((ranking) => (ranking.editionYear ?? ranking.year) === year)
+    // A ranking for next year's edition can be published during the current year.
+    .filter((ranking) => {
+      const publicationYear = ranking.editionYear ?? ranking.year;
+      return publicationYear === year || (ranking.editionYear === year + 1 && ranking.source.verified) || RECENTLY_ADDED_LATEST_IDS.has(ranking.id);
+    })
     .sort((a, b) => Number(Boolean(b.editionYear)) - Number(Boolean(a.editionYear)) || (b.asOf ?? "").localeCompare(a.asOf ?? "") || b.updatedAt.localeCompare(a.updatedAt));
 }
 
 export function latestHomeRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {
-  return allLatestRankings(rankings, year).slice(0, 3);
+  const mostRecentlyAdded = [...rankings]
+    .filter((ranking) => !ranking.scope)
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+  const currentEditions = allLatestRankings(rankings, year);
+  return [...new Map([...(mostRecentlyAdded ? [mostRecentlyAdded] : []), ...currentEditions].map((ranking) => [ranking.id, ranking])).values()].slice(0, 3);
 }
 
 export function popularHomeRankings(rankings: Ranking[], year = new Date().getFullYear()): Ranking[] {

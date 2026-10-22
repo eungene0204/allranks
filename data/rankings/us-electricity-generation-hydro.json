@@ -1,0 +1,176 @@
+{
+  "id": "us-electricity-generation-hydro",
+  "title": "U.S. States by Hydroelectric Generation",
+  "short": "Hydroelectric",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "The 25 U.S. states and District of Columbia with the highest reported hydroelectric in 2025, ranked by net generation. Values are in megawatt-hours.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "U.S. Energy Information Administration, Historical State Data: Net Generation by State by Type of Producer by Energy Source (2025 final annual data)",
+    "url": "https://www.eia.gov/electricity/data/state/index.php",
+    "license": "U.S. government data; public domain",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the EIA original “Net Generation by State by Type of Producer by Energy Source” workbook from the Historical State Data page. Used final annual 2025 observations for “Total Electric Power Industry”; checked every included state/DC name, source column, value, MWh unit and descending order. The US total row was excluded. Source categories and boundaries follow EIA; solar combines “Solar Thermal and Photovoltaic”, and biomass uses the EIA “Other Biomass” category only. Lists show the 25 highest reported positive values when 25 or more are available, otherwise all reported positive values; missing source/state rows are not imputed. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Washington",
+      "country": "US",
+      "value": 64661722,
+      "detail": "WA"
+    },
+    {
+      "name": "Oregon",
+      "country": "US",
+      "value": 28706260,
+      "detail": "OR"
+    },
+    {
+      "name": "California",
+      "country": "US",
+      "value": 28146480,
+      "detail": "CA"
+    },
+    {
+      "name": "New York",
+      "country": "US",
+      "value": 24935141,
+      "detail": "NY"
+    },
+    {
+      "name": "Idaho",
+      "country": "US",
+      "value": 8850665,
+      "detail": "ID"
+    },
+    {
+      "name": "Tennessee",
+      "country": "US",
+      "value": 8839988,
+      "detail": "TN"
+    },
+    {
+      "name": "Alabama",
+      "country": "US",
+      "value": 8582856,
+      "detail": "AL"
+    },
+    {
+      "name": "Montana",
+      "country": "US",
+      "value": 8441048,
+      "detail": "MT"
+    },
+    {
+      "name": "Arizona",
+      "country": "US",
+      "value": 4782575,
+      "detail": "AZ"
+    },
+    {
+      "name": "Kentucky",
+      "country": "US",
+      "value": 4441157,
+      "detail": "KY"
+    },
+    {
+      "name": "South Dakota",
+      "country": "US",
+      "value": 4194374,
+      "detail": "SD"
+    },
+    {
+      "name": "North Carolina",
+      "country": "US",
+      "value": 4153183,
+      "detail": "NC"
+    },
+    {
+      "name": "Arkansas",
+      "country": "US",
+      "value": 3920304,
+      "detail": "AR"
+    },
+    {
+      "name": "Georgia",
+      "country": "US",
+      "value": 2740446,
+      "detail": "GA"
+    },
+    {
+      "name": "Maine",
+      "country": "US",
+      "value": 2548654,
+      "detail": "ME"
+    },
+    {
+      "name": "Pennsylvania",
+      "country": "US",
+      "value": 2532698,
+      "detail": "PA"
+    },
+    {
+      "name": "Oklahoma",
+      "country": "US",
+      "value": 2455645,
+      "detail": "OK"
+    },
+    {
+      "name": "North Dakota",
+      "country": "US",
+      "value": 2004511,
+      "detail": "ND"
+    },
+    {
+      "name": "Wisconsin",
+      "country": "US",
+      "value": 1898727,
+      "detail": "WI"
+    },
+    {
+      "name": "Nevada",
+      "country": "US",
+      "value": 1880947,
+      "detail": "NV"
+    },
+    {
+      "name": "South Carolina",
+      "country": "US",
+      "value": 1782579,
+      "detail": "SC"
+    },
+    {
+      "name": "Alaska",
+      "country": "US",
+      "value": 1772607,
+      "detail": "AK"
+    },
+    {
+      "name": "Colorado",
+      "country": "US",
+      "value": 1725375,
+      "detail": "CO"
+    },
+    {
+      "name": "Maryland",
+      "country": "US",
+      "value": 1563346,
+      "detail": "MD"
+    },
+    {
+      "name": "West Virginia",
+      "country": "US",
+      "value": 1422753,
+      "detail": "WV"
+    }
+  ]
+}

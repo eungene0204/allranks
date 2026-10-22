@@ -1,0 +1,51 @@
+{
+  "id": "pk-population-2023",
+  "title": "Pakistani Provinces and ICT by Census Population",
+  "short": "Population",
+  "category": "society",
+  "icon": "👥",
+  "desc": "Population recorded by the Pakistan Census 2023.",
+  "unit": "people",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "PK",
+  "year": 2023,
+  "source": {
+    "kind": "manual",
+    "name": "Pakistan Bureau of Statistics — 7th Population and Housing Census 2023, Table 1 (National)",
+    "url": "https://www.pbs.gov.pk/wp-content/uploads/census_tables/tables/table_1_national.pdf",
+    "license": "Pakistan Bureau of Statistics official statistical publication",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the linked PBS original Table 1 PDF, including all five named administrative units and the corresponding columns. Rural/urban subtotal rows and the Pakistan national aggregate are excluded. PBS Table 1 does not include Azad Jammu and Kashmir or Gilgit-Baltistan, so neither is imputed. Population table note: figures include headcounts from restricted areas for which detailed demographic and housing data were not received."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Punjab",
+      "country": "PK",
+      "value": 127688922.0
+    },
+    {
+      "name": "Sindh",
+      "country": "PK",
+      "value": 55696147.0
+    },
+    {
+      "name": "Khyber Pakhtunkhwa",
+      "country": "PK",
+      "value": 40856097.0
+    },
+    {
+      "name": "Balochistan",
+      "country": "PK",
+      "value": 14894402.0
+    },
+    {
+      "name": "Islamabad Capital Territory",
+      "country": "PK",
+      "value": 2363863.0
+    }
+  ]
+}

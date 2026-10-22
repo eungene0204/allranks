@@ -1,0 +1,71 @@
+{
+  "id": "ivy-league-admission-rates-2022",
+  "title": "Ivy League Admission Rates",
+  "short": "Ivy League admission rates",
+  "category": "education",
+  "icon": "🎓",
+  "desc": "The eight Ivy League schools, ordered from lowest to highest admission rate in the Visual Capitalist table. The source reports these figures as of 2022. Each row also shows the median SAT Reading and Writing and Math scores and average annual net cost after federal financial aid; these are separate measures, not components of the admission-rate order.",
+  "unit": "admission rate",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "asc",
+  "entityType": "institution",
+  "year": 2022,
+  "editionYear": 2024,
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist — How Hard Is It to Get Into an Ivy League School? (data: NCES, compiled by 24/7 Wall St.)",
+    "url": "https://www.visualcapitalist.com/how-hard-is-it-to-get-into-each-ivy-league-school/",
+    "urls": [
+      "https://www.voronoiapp.com/other/Harvard-Has-the-Lowest-Admission-Rates-Among-Ivy-League-Schools-947",
+      "https://247wallst.com/special-report/2024/03/14/the-50-hardest-colleges-and-universities-to-get-into-ranked-2/",
+      "https://nces.ed.gov/collegenavigator/"
+    ],
+    "verified": true,
+    "note": "All eight institutions, admission rates, table order, SAT subscores, and average annual cost values were checked against Visual Capitalist’s full indexed article table on 2026-10-21 and cross-checked against the publisher’s Voronoi dataset mirror. The article page itself returned 403 during direct access; the mirror identifies NCES as the source and 24/7 Wall St. as compiler. Figures are reported as of 2022. Costs are after federal financial aid. A lower admission rate indicates greater selectivity in this measure only and is not a measure of teaching quality."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Harvard University",
+      "value": 3.2,
+      "detail": "Median SAT: Reading & Writing 760, Math 790 · Average annual net cost $13,259"
+    },
+    {
+      "name": "Columbia University",
+      "value": 3.9,
+      "detail": "Median SAT: Reading & Writing 750, Math 780 · Average annual net cost $12,836"
+    },
+    {
+      "name": "Yale University",
+      "value": 4.6,
+      "detail": "Median SAT: Reading & Writing 760, Math 780 · Average annual net cost $16,341"
+    },
+    {
+      "name": "Brown University",
+      "value": 5.1,
+      "detail": "Median SAT: Reading & Writing 760, Math 780 · Average annual net cost $26,308"
+    },
+    {
+      "name": "Princeton University",
+      "value": 5.7,
+      "detail": "Median SAT: Reading & Writing 760, Math 780 · Average annual net cost $11,080"
+    },
+    {
+      "name": "Dartmouth College",
+      "value": 6.4,
+      "detail": "Median SAT: Reading & Writing 760, Math 790 · Average annual net cost $33,023"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "value": 6.5,
+      "detail": "Median SAT: Reading & Writing 750, Math 790 · Average annual net cost $14,851"
+    },
+    {
+      "name": "Cornell University",
+      "value": 7.5,
+      "detail": "Median SAT: Reading & Writing 750, Math 780 · Average annual net cost $29,011"
+    }
+  ]
+}

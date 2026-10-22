@@ -6,7 +6,7 @@ import { allRankings } from "@/lib/data";
 import { allLatestRankings } from "@/lib/home-rankings";
 import { toRankingCard } from "@/lib/ranking-card";
 
-export const metadata: Metadata = pageMetadata('Latest published rankings', 'Browse world rankings from the latest available publication year, with sources and reference periods.', '/latest');
+export const metadata: Metadata = pageMetadata('Latest published rankings', 'Browse rankings from the latest publication year and recently added historical editions, with sources and reference periods.', '/latest');
 
 export default function LatestRankingsPage() {
   const rankings = allLatestRankings(allRankings().filter((ranking) => !ranking.scope));
@@ -16,7 +16,7 @@ export default function LatestRankingsPage() {
       <div className="page-head">
         <div className="crumbs"><Link href="/">Home</Link> / Latest rankings</div>
         <h1>Latest rankings</h1>
-        <p>World rankings from the latest publication year, including editions whose data reference an earlier year.</p>
+        <p>World rankings from the latest publication year, plus recently added historical editions. Each ranking shows its own data reference period.</p>
       </div>
       <h2 className="section">{rankings.length} rankings</h2>
       <RandomRankingCards rankings={rankings.map(toRankingCard)} shuffle={false} />

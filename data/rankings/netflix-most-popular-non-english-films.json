@@ -1,0 +1,75 @@
+{
+  "id": "netflix-most-popular-non-english-films",
+  "title": "Netflix Most Popular Non-English Films",
+  "category": "entertainment",
+  "icon": "🎬",
+  "desc": "Netflix global non-English film ranking by views during the first 91 days after release.",
+  "unit": "million views",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 1,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-10",
+  "source": {
+    "kind": "manual",
+    "name": "Netflix Tudum — Most Popular (Global, all time)",
+    "url": "https://www.netflix.com/tudum/top10/most-popular/films-non-english",
+    "verified": true,
+    "note": "All listed titles, ordering, values, and the source methodology/period were checked by the AllRanks assistant against the linked original page on 2026-10-21. Netflix global non-English film ranking by views during the first 91 days after release."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Troll",
+      "value": 103.0,
+      "detail": "Norwegian"
+    },
+    {
+      "name": "Under Paris",
+      "value": 102.3,
+      "detail": "French"
+    },
+    {
+      "name": "Society of the Snow",
+      "value": 98.5,
+      "detail": "Spanish"
+    },
+    {
+      "name": "Exterritorial",
+      "value": 91.7,
+      "detail": "German"
+    },
+    {
+      "name": "The Great Flood",
+      "value": 86.6,
+      "detail": "Korean"
+    },
+    {
+      "name": "Nowhere",
+      "value": 85.7,
+      "detail": "Spanish"
+    },
+    {
+      "name": "The Platform",
+      "value": 82.8,
+      "detail": "Spanish"
+    },
+    {
+      "name": "Counterattack",
+      "value": 66.9,
+      "detail": "Spanish"
+    },
+    {
+      "name": "Ad Vitam",
+      "value": 63.1,
+      "detail": "French"
+    },
+    {
+      "name": "Brick",
+      "value": 61.8,
+      "detail": "German"
+    }
+  ]
+}

@@ -54,8 +54,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   }
   const out: string[] = [];
   const where = r.scope ? `Within ${countryOf(r.scope)?.name ?? r.scope}, ` : "";
-  const unit = r.entityType === "product" ? "brands" : r.scope || r.multi ? "entries" : "countries and territories";
-
+  const unit = r.entityType === "institution" ? "institutions" : r.scope || r.multi ? "entries" : "countries and territories";
   // 1. Who leads.
   out.push(
     `${where}${where ? a.name : `As of ${period(r)}, ${a.name}`} ${where ? `ranks first in ${period(r)}` : "ranks first"}${asc ? " (lowest value)" : ""} with ${fmt(a.value)}, ` +

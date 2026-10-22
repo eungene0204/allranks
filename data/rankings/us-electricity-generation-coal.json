@@ -1,0 +1,176 @@
+{
+  "id": "us-electricity-generation-coal",
+  "title": "U.S. States by Coal Electricity Generation",
+  "short": "Coal",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "The 25 U.S. states and District of Columbia with the highest reported coal in 2025, ranked by net generation. Values are in megawatt-hours.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "U.S. Energy Information Administration, Historical State Data: Net Generation by State by Type of Producer by Energy Source (2025 final annual data)",
+    "url": "https://www.eia.gov/electricity/data/state/index.php",
+    "license": "U.S. government data; public domain",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the EIA original “Net Generation by State by Type of Producer by Energy Source” workbook from the Historical State Data page. Used final annual 2025 observations for “Total Electric Power Industry”; checked every included state/DC name, source column, value, MWh unit and descending order. The US total row was excluded. Source categories and boundaries follow EIA; solar combines “Solar Thermal and Photovoltaic”, and biomass uses the EIA “Other Biomass” category only. Lists show the 25 highest reported positive values when 25 or more are available, otherwise all reported positive values; missing source/state rows are not imputed. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Texas",
+      "country": "US",
+      "value": 68889079,
+      "detail": "TX"
+    },
+    {
+      "name": "Indiana",
+      "country": "US",
+      "value": 49223259,
+      "detail": "IN"
+    },
+    {
+      "name": "Kentucky",
+      "country": "US",
+      "value": 48660318,
+      "detail": "KY"
+    },
+    {
+      "name": "West Virginia",
+      "country": "US",
+      "value": 46271672,
+      "detail": "WV"
+    },
+    {
+      "name": "Missouri",
+      "country": "US",
+      "value": 45993177,
+      "detail": "MO"
+    },
+    {
+      "name": "Ohio",
+      "country": "US",
+      "value": 35748049,
+      "detail": "OH"
+    },
+    {
+      "name": "Illinois",
+      "country": "US",
+      "value": 30891205,
+      "detail": "IL"
+    },
+    {
+      "name": "Michigan",
+      "country": "US",
+      "value": 29291205,
+      "detail": "MI"
+    },
+    {
+      "name": "Wyoming",
+      "country": "US",
+      "value": 26361018,
+      "detail": "WY"
+    },
+    {
+      "name": "Wisconsin",
+      "country": "US",
+      "value": 23317940,
+      "detail": "WI"
+    },
+    {
+      "name": "North Dakota",
+      "country": "US",
+      "value": 22598048,
+      "detail": "ND"
+    },
+    {
+      "name": "Alabama",
+      "country": "US",
+      "value": 21661512,
+      "detail": "AL"
+    },
+    {
+      "name": "Arkansas",
+      "country": "US",
+      "value": 20379592,
+      "detail": "AR"
+    },
+    {
+      "name": "Georgia",
+      "country": "US",
+      "value": 19987318,
+      "detail": "GA"
+    },
+    {
+      "name": "Kansas",
+      "country": "US",
+      "value": 19341910,
+      "detail": "KS"
+    },
+    {
+      "name": "Iowa",
+      "country": "US",
+      "value": 19101694,
+      "detail": "IA"
+    },
+    {
+      "name": "South Carolina",
+      "country": "US",
+      "value": 18177808,
+      "detail": "SC"
+    },
+    {
+      "name": "Nebraska",
+      "country": "US",
+      "value": 18102000,
+      "detail": "NE"
+    },
+    {
+      "name": "Tennessee",
+      "country": "US",
+      "value": 18019354,
+      "detail": "TN"
+    },
+    {
+      "name": "Utah",
+      "country": "US",
+      "value": 18006776,
+      "detail": "UT"
+    },
+    {
+      "name": "North Carolina",
+      "country": "US",
+      "value": 17898860,
+      "detail": "NC"
+    },
+    {
+      "name": "Pennsylvania",
+      "country": "US",
+      "value": 17283134,
+      "detail": "PA"
+    },
+    {
+      "name": "Minnesota",
+      "country": "US",
+      "value": 14153495,
+      "detail": "MN"
+    },
+    {
+      "name": "Colorado",
+      "country": "US",
+      "value": 14018344,
+      "detail": "CO"
+    },
+    {
+      "name": "Florida",
+      "country": "US",
+      "value": 10184627,
+      "detail": "FL"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "gb-solar-pv-generation",
+  "title": "UK Local Authorities by Solar PV Generation",
+  "short": "Solar PV",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom ranked by solar pv in 2025. The list shows the 25 highest reported values.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Cornwall",
+      "country": "GB",
+      "value": 639294.64,
+      "detail": "South West"
+    },
+    {
+      "name": "Wiltshire",
+      "country": "GB",
+      "value": 565450.88,
+      "detail": "South West"
+    },
+    {
+      "name": "Somerset",
+      "country": "GB",
+      "value": 533670.94,
+      "detail": "South West"
+    },
+    {
+      "name": "Dorset",
+      "country": "GB",
+      "value": 424826.58,
+      "detail": "South West"
+    },
+    {
+      "name": "North Yorkshire",
+      "country": "GB",
+      "value": 326904.39,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "East Cambridgeshire",
+      "country": "GB",
+      "value": 323943.33,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Swale",
+      "country": "GB",
+      "value": 317135.43,
+      "detail": "South East"
+    },
+    {
+      "name": "Shropshire",
+      "country": "GB",
+      "value": 308998.92,
+      "detail": "West Midlands"
+    },
+    {
+      "name": "South Cambridgeshire",
+      "country": "GB",
+      "value": 281149.87,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Pembrokeshire / Sir Benfro",
+      "country": "GB",
+      "value": 234002.69,
+      "detail": "Wales"
+    },
+    {
+      "name": "Buckinghamshire",
+      "country": "GB",
+      "value": 227297.67,
+      "detail": "South East"
+    },
+    {
+      "name": "Wychavon",
+      "country": "GB",
+      "value": 224638.16,
+      "detail": "West Midlands"
+    },
+    {
+      "name": "West Northamptonshire",
+      "country": "GB",
+      "value": 213820.8,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "Newark and Sherwood",
+      "country": "GB",
+      "value": 211500.6,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "West Suffolk",
+      "country": "GB",
+      "value": 208564.5,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Bassetlaw",
+      "country": "GB",
+      "value": 207983.81,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "Test Valley",
+      "country": "GB",
+      "value": 203579.13,
+      "detail": "South East"
+    },
+    {
+      "name": "Stratford-On-Avon",
+      "country": "GB",
+      "value": 198921.63,
+      "detail": "West Midlands"
+    },
+    {
+      "name": "East Riding of Yorkshire",
+      "country": "GB",
+      "value": 198482.27,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Swindon",
+      "country": "GB",
+      "value": 198320.98,
+      "detail": "South West"
+    },
+    {
+      "name": "Colchester",
+      "country": "GB",
+      "value": 193656.48,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Carmarthenshire / Sir Gaerfyrddin",
+      "country": "GB",
+      "value": 190218.4,
+      "detail": "Wales"
+    },
+    {
+      "name": "North Norfolk",
+      "country": "GB",
+      "value": 185627.53,
+      "detail": "Eastern"
+    },
+    {
+      "name": "North Northamptonshire",
+      "country": "GB",
+      "value": 177490.03,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "North Kesteven",
+      "country": "GB",
+      "value": 172535.55,
+      "detail": "East Midlands"
+    }
+  ]
+}

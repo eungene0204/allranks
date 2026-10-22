@@ -1,0 +1,176 @@
+{
+  "id": "gb-landfill-gas-generation",
+  "title": "UK Local Authorities by Landfill Gas Generation",
+  "short": "Landfill gas",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom ranked by landfill gas in 2025. The list shows the 25 highest reported values.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Thurrock",
+      "country": "GB",
+      "value": 136863.92,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Buckinghamshire",
+      "country": "GB",
+      "value": 113308.27,
+      "detail": "South East"
+    },
+    {
+      "name": "Havering",
+      "country": "GB",
+      "value": 94614.13,
+      "detail": "London"
+    },
+    {
+      "name": "Central Bedfordshire",
+      "country": "GB",
+      "value": 85526.04,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Warrington",
+      "country": "GB",
+      "value": 76976.43,
+      "detail": "North West"
+    },
+    {
+      "name": "North Lanarkshire",
+      "country": "GB",
+      "value": 62818.89,
+      "detail": "Scotland"
+    },
+    {
+      "name": "Vale of White Horse",
+      "country": "GB",
+      "value": 51856.0,
+      "detail": "South East"
+    },
+    {
+      "name": "Glasgow City",
+      "country": "GB",
+      "value": 50104.51,
+      "detail": "Scotland"
+    },
+    {
+      "name": "North Lincolnshire",
+      "country": "GB",
+      "value": 49685.0,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Somerset",
+      "country": "GB",
+      "value": 42238.99,
+      "detail": "South West"
+    },
+    {
+      "name": "Colchester",
+      "country": "GB",
+      "value": 41531.36,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Leeds",
+      "country": "GB",
+      "value": 38963.5,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "North Northamptonshire",
+      "country": "GB",
+      "value": 38443.0,
+      "detail": "East Midlands"
+    },
+    {
+      "name": "Wiltshire",
+      "country": "GB",
+      "value": 35921.74,
+      "detail": "South West"
+    },
+    {
+      "name": "Cannock Chase",
+      "country": "GB",
+      "value": 35094.07,
+      "detail": "West Midlands"
+    },
+    {
+      "name": "Doncaster",
+      "country": "GB",
+      "value": 31504.35,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Gateshead",
+      "country": "GB",
+      "value": 27182.65,
+      "detail": "North East"
+    },
+    {
+      "name": "South Cambridgeshire",
+      "country": "GB",
+      "value": 26251.08,
+      "detail": "Eastern"
+    },
+    {
+      "name": "New Forest",
+      "country": "GB",
+      "value": 25222.43,
+      "detail": "South East"
+    },
+    {
+      "name": "Peterborough",
+      "country": "GB",
+      "value": 24814.87,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Cornwall",
+      "country": "GB",
+      "value": 24521.46,
+      "detail": "South West"
+    },
+    {
+      "name": "Cheshire West And Chester",
+      "country": "GB",
+      "value": 24301.29,
+      "detail": "North West"
+    },
+    {
+      "name": "Northumberland",
+      "country": "GB",
+      "value": 23786.64,
+      "detail": "North East"
+    },
+    {
+      "name": "Cheshire East",
+      "country": "GB",
+      "value": 23127.77,
+      "detail": "North West"
+    },
+    {
+      "name": "Aberdeenshire",
+      "country": "GB",
+      "value": 22232.13,
+      "detail": "Scotland"
+    }
+  ]
+}

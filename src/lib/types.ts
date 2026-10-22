@@ -44,7 +44,7 @@ export type RankingFile = {
   /** True for lists of things that each belong to a country (cities, websites…), so countries may repeat. */
   multi?: boolean;
   /** Global entity ranking that is not a ranking of countries (e.g. languages or ports). */
-  entityType?: "language" | "port" | "product" | "bank";
+  entityType?: "language" | "port" | "product" | "bank" | "institution";
   year: number;
   /** Year this ranking edition was published, when it differs from the data reference year. */
   editionYear?: number;

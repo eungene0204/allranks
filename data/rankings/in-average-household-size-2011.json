@@ -1,0 +1,201 @@
+{
+  "id": "in-average-household-size-2011",
+  "title": "Indian States and Union Territories by Average Household Size",
+  "short": "People per household",
+  "category": "society",
+  "icon": "🏠",
+  "desc": "Total population divided by households, calculated from Census of India 2011 totals.",
+  "unit": "people per household",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "IN",
+  "year": 2011,
+  "source": {
+    "kind": "manual",
+    "name": "Office of the Registrar General & Census Commissioner, India — Primary Census Abstract (PCA), 2011, State/District level",
+    "url": "https://censusindia.gov.in/nada/index.php/catalog/6191/download/9268/DDW_PCA0000_2011_Indiastatedist.xlsx",
+    "license": "Government of India Census data; public statistical use",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the linked official Census 2011 workbook, Sheet1. Read all 35 state/UT-level “Total” rows (excluded India aggregate, rural/urban subtotals, and district rows); matched the State/UT labels and source columns and re-sorted descending. Derived rates are calculated only from the workbook columns as described. The Census 2011 administrative boundaries are retained; later state/UT reorganizations are not retrofitted."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Jammu and Kashmir",
+      "country": "IN",
+      "value": 6.0
+    },
+    {
+      "name": "Uttar Pradesh",
+      "country": "IN",
+      "value": 6.0
+    },
+    {
+      "name": "Bihar",
+      "country": "IN",
+      "value": 6.0
+    },
+    {
+      "name": "Lakshadweep",
+      "country": "IN",
+      "value": 6.0
+    },
+    {
+      "name": "Himachal Pradesh",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Punjab",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Uttarakhand",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Haryana",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "NCT of Delhi",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Rajasthan",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Sikkim",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Nagaland",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Manipur",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Mizoram",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Meghalaya",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Assam",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Jharkhand",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Chhattisgarh",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Madhya Pradesh",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Gujarat",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Maharashtra",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Karnataka",
+      "country": "IN",
+      "value": 5.0
+    },
+    {
+      "name": "Chandigarh",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Tripura",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "West Bengal",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Odisha",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Daman and Diu",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Dadra and Nagar Haveli",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Andhra Pradesh",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Goa",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Kerala",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Tamil Nadu",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Puducherry",
+      "country": "IN",
+      "value": 4.0
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "country": "IN",
+      "value": 4.0
+    }
+  ]
+}

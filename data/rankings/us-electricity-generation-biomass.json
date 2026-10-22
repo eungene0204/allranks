@@ -1,0 +1,176 @@
+{
+  "id": "us-electricity-generation-biomass",
+  "title": "U.S. States by Biomass Electricity Generation",
+  "short": "Biomass",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "The 25 U.S. states and District of Columbia with the highest reported biomass in 2025, ranked by net generation. Values are in megawatt-hours.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "U.S. Energy Information Administration, Historical State Data: Net Generation by State by Type of Producer by Energy Source (2025 final annual data)",
+    "url": "https://www.eia.gov/electricity/data/state/index.php",
+    "license": "U.S. government data; public domain",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the EIA original “Net Generation by State by Type of Producer by Energy Source” workbook from the Historical State Data page. Used final annual 2025 observations for “Total Electric Power Industry”; checked every included state/DC name, source column, value, MWh unit and descending order. The US total row was excluded. Source categories and boundaries follow EIA; solar combines “Solar Thermal and Photovoltaic”, and biomass uses the EIA “Other Biomass” category only. Lists show the 25 highest reported positive values when 25 or more are available, otherwise all reported positive values; missing source/state rows are not imputed. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "California",
+      "country": "US",
+      "value": 2243633,
+      "detail": "CA"
+    },
+    {
+      "name": "Florida",
+      "country": "US",
+      "value": 1717267,
+      "detail": "FL"
+    },
+    {
+      "name": "New York",
+      "country": "US",
+      "value": 1320613,
+      "detail": "NY"
+    },
+    {
+      "name": "Pennsylvania",
+      "country": "US",
+      "value": 1166003,
+      "detail": "PA"
+    },
+    {
+      "name": "Massachusetts",
+      "country": "US",
+      "value": 790732,
+      "detail": "MA"
+    },
+    {
+      "name": "Virginia",
+      "country": "US",
+      "value": 753650,
+      "detail": "VA"
+    },
+    {
+      "name": "Michigan",
+      "country": "US",
+      "value": 649121,
+      "detail": "MI"
+    },
+    {
+      "name": "New Jersey",
+      "country": "US",
+      "value": 610029,
+      "detail": "NJ"
+    },
+    {
+      "name": "Connecticut",
+      "country": "US",
+      "value": 363215,
+      "detail": "CT"
+    },
+    {
+      "name": "Wisconsin",
+      "country": "US",
+      "value": 358501,
+      "detail": "WI"
+    },
+    {
+      "name": "North Carolina",
+      "country": "US",
+      "value": 349644,
+      "detail": "NC"
+    },
+    {
+      "name": "Maryland",
+      "country": "US",
+      "value": 299761,
+      "detail": "MD"
+    },
+    {
+      "name": "Georgia",
+      "country": "US",
+      "value": 273588,
+      "detail": "GA"
+    },
+    {
+      "name": "Minnesota",
+      "country": "US",
+      "value": 273532,
+      "detail": "MN"
+    },
+    {
+      "name": "Hawaii",
+      "country": "US",
+      "value": 213970,
+      "detail": "HI"
+    },
+    {
+      "name": "Illinois",
+      "country": "US",
+      "value": 206360,
+      "detail": "IL"
+    },
+    {
+      "name": "Iowa",
+      "country": "US",
+      "value": 202219,
+      "detail": "IA"
+    },
+    {
+      "name": "Rhode Island",
+      "country": "US",
+      "value": 185303,
+      "detail": "RI"
+    },
+    {
+      "name": "Oregon",
+      "country": "US",
+      "value": 179797,
+      "detail": "OR"
+    },
+    {
+      "name": "Indiana",
+      "country": "US",
+      "value": 172904,
+      "detail": "IN"
+    },
+    {
+      "name": "Ohio",
+      "country": "US",
+      "value": 142420,
+      "detail": "OH"
+    },
+    {
+      "name": "Texas",
+      "country": "US",
+      "value": 139031,
+      "detail": "TX"
+    },
+    {
+      "name": "New Hampshire",
+      "country": "US",
+      "value": 132581,
+      "detail": "NH"
+    },
+    {
+      "name": "Washington",
+      "country": "US",
+      "value": 116750,
+      "detail": "WA"
+    },
+    {
+      "name": "Idaho",
+      "country": "US",
+      "value": 94183,
+      "detail": "ID"
+    }
+  ]
+}

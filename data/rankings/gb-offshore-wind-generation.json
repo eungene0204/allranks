@@ -1,0 +1,62 @@
+{
+  "id": "gb-offshore-wind-generation",
+  "title": "UK Local Authorities by Offshore Wind Generation",
+  "short": "Offshore wind",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "Local authorities in the United Kingdom with reported offshore wind in 2025, ranked by value. The publisher suppresses some values to protect site confidentiality.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "scope": "GB",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "Department for Energy Security and Net Zero, Renewable electricity by local authority, 2014 to 2025",
+    "url": "https://www.gov.uk/government/statistics/regional-renewable-statistics",
+    "license": "Open Government Licence v3.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the Department for Energy Security and Net Zero original workbook “Renewable electricity by local authority, 2014 to 2025”, worksheets “LA - Generation, 2025” and “LA - Capacity, 2025”. Checked all included local authority names, metric columns, values, units and descending order. Rows for regional/national aggregates were excluded. Values marked [X] by the publisher are suppressed and omitted; only positive, numeric local-authority observations are listed, so rankings may omit areas with suppressed values. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Lancaster",
+      "country": "GB",
+      "value": 3348098.0,
+      "detail": "North West"
+    },
+    {
+      "name": "East Suffolk",
+      "country": "GB",
+      "value": 3087969.54,
+      "detail": "Eastern"
+    },
+    {
+      "name": "North Norfolk",
+      "country": "GB",
+      "value": 995468.5,
+      "detail": "Eastern"
+    },
+    {
+      "name": "North East Lincolnshire",
+      "country": "GB",
+      "value": 824979.5,
+      "detail": "Yorkshire and Humber"
+    },
+    {
+      "name": "Tendring",
+      "country": "GB",
+      "value": 532219.69,
+      "detail": "Eastern"
+    },
+    {
+      "name": "Aberdeenshire",
+      "country": "GB",
+      "value": 366930.44,
+      "detail": "Scotland"
+    }
+  ]
+}

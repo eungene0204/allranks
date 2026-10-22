@@ -1,0 +1,75 @@
+{
+  "id": "steamdb-24-hour-player-peaks-2026",
+  "title": "Steam Games by 24-Hour Peak Concurrent Players",
+  "category": "entertainment",
+  "icon": "🎮",
+  "desc": "SteamDB’s chart of games by the highest concurrent player count recorded in the previous 24 hours at the checked snapshot. Player counts change continuously; this is a Steam-only short-term activity measure, not sales or lifetime popularity.",
+  "unit": "24-hour peak concurrent players",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-10",
+  "source": {
+    "kind": "manual",
+    "name": "SteamDB — Steam Charts (all-time peak column)",
+    "url": "https://steamdb.info/charts/?sort=24h",
+    "verified": true,
+    "note": "All listed game names, chart order, 24-hour peak values, and all-time comparison values were checked against SteamDB’s linked chart by the AllRanks assistant on 2026-10-21. The page is sorted by 24-hour peak; this volatile metric covers Steam concurrent users only."
+  },
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Counter-Strike 2",
+      "value": 1205009,
+      "detail": "Current 660,021; all-time peak 1,862,531"
+    },
+    {
+      "name": "Dota 2",
+      "value": 907089,
+      "detail": "Current 598,891; all-time peak 1,295,114"
+    },
+    {
+      "name": "PUBG: BATTLEGROUNDS",
+      "value": 778436,
+      "detail": "Current 359,517; all-time peak 3,257,248"
+    },
+    {
+      "name": "Deadlock",
+      "value": 279472,
+      "detail": "Current 95,155; all-time peak 303,347"
+    },
+    {
+      "name": "AION 2",
+      "value": 254118,
+      "detail": "Current 9,709; all-time peak 397,905"
+    },
+    {
+      "name": "Apex Legends",
+      "value": 206385,
+      "detail": "Current 82,220; all-time peak 624,473"
+    },
+    {
+      "name": "WARDOGS",
+      "value": 200264,
+      "detail": "Current 85,046; all-time peak 428,666"
+    },
+    {
+      "name": "FiveM",
+      "value": 176404,
+      "detail": "Current 71,026; all-time peak 221,685"
+    },
+    {
+      "name": "Bongo Cat",
+      "value": 149148,
+      "detail": "Current 149,148; all-time peak 194,508"
+    },
+    {
+      "name": "Call of Duty",
+      "value": 112541,
+      "detail": "Current 71,571; all-time peak 491,670"
+    }
+  ]
+}

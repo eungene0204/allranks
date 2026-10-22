@@ -1,0 +1,176 @@
+{
+  "id": "us-electricity-generation-nuclear",
+  "title": "U.S. States by Nuclear Electricity Generation",
+  "short": "Nuclear",
+  "category": "energy",
+  "icon": "⚡",
+  "desc": "The 25 U.S. states and District of Columbia with the highest reported nuclear in 2025, ranked by net generation. Values are in megawatt-hours.",
+  "unit": "MWh",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "scope": "US",
+  "year": 2025,
+  "source": {
+    "kind": "manual",
+    "name": "U.S. Energy Information Administration, Historical State Data: Net Generation by State by Type of Producer by Energy Source (2025 final annual data)",
+    "url": "https://www.eia.gov/electricity/data/state/index.php",
+    "license": "U.S. government data; public domain",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-22 against the EIA original “Net Generation by State by Type of Producer by Energy Source” workbook from the Historical State Data page. Used final annual 2025 observations for “Total Electric Power Industry”; checked every included state/DC name, source column, value, MWh unit and descending order. The US total row was excluded. Source categories and boundaries follow EIA; solar combines “Solar Thermal and Photovoltaic”, and biomass uses the EIA “Other Biomass” category only. Lists show the 25 highest reported positive values when 25 or more are available, otherwise all reported positive values; missing source/state rows are not imputed. This is a source-data check, not independent measurement."
+  },
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Illinois",
+      "country": "US",
+      "value": 97670262,
+      "detail": "IL"
+    },
+    {
+      "name": "Pennsylvania",
+      "country": "US",
+      "value": 75049210,
+      "detail": "PA"
+    },
+    {
+      "name": "South Carolina",
+      "country": "US",
+      "value": 56670524,
+      "detail": "SC"
+    },
+    {
+      "name": "Georgia",
+      "country": "US",
+      "value": 51224793,
+      "detail": "GA"
+    },
+    {
+      "name": "North Carolina",
+      "country": "US",
+      "value": 43046739,
+      "detail": "NC"
+    },
+    {
+      "name": "Alabama",
+      "country": "US",
+      "value": 42672668,
+      "detail": "AL"
+    },
+    {
+      "name": "Texas",
+      "country": "US",
+      "value": 41840814,
+      "detail": "TX"
+    },
+    {
+      "name": "Arizona",
+      "country": "US",
+      "value": 31321808,
+      "detail": "AZ"
+    },
+    {
+      "name": "Florida",
+      "country": "US",
+      "value": 30587612,
+      "detail": "FL"
+    },
+    {
+      "name": "Tennessee",
+      "country": "US",
+      "value": 29333225,
+      "detail": "TN"
+    },
+    {
+      "name": "New York",
+      "country": "US",
+      "value": 28407580,
+      "detail": "NY"
+    },
+    {
+      "name": "Virginia",
+      "country": "US",
+      "value": 28214205,
+      "detail": "VA"
+    },
+    {
+      "name": "New Jersey",
+      "country": "US",
+      "value": 27917718,
+      "detail": "NJ"
+    },
+    {
+      "name": "Michigan",
+      "country": "US",
+      "value": 27533963,
+      "detail": "MI"
+    },
+    {
+      "name": "California",
+      "country": "US",
+      "value": 17558394,
+      "detail": "CA"
+    },
+    {
+      "name": "Ohio",
+      "country": "US",
+      "value": 17141858,
+      "detail": "OH"
+    },
+    {
+      "name": "Connecticut",
+      "country": "US",
+      "value": 16708717,
+      "detail": "CT"
+    },
+    {
+      "name": "Louisiana",
+      "country": "US",
+      "value": 15254572,
+      "detail": "LA"
+    },
+    {
+      "name": "Arkansas",
+      "country": "US",
+      "value": 15193050,
+      "detail": "AR"
+    },
+    {
+      "name": "Maryland",
+      "country": "US",
+      "value": 14795150,
+      "detail": "MD"
+    },
+    {
+      "name": "Minnesota",
+      "country": "US",
+      "value": 13213321,
+      "detail": "MN"
+    },
+    {
+      "name": "Mississippi",
+      "country": "US",
+      "value": 11807221,
+      "detail": "MS"
+    },
+    {
+      "name": "New Hampshire",
+      "country": "US",
+      "value": 10910165,
+      "detail": "NH"
+    },
+    {
+      "name": "Wisconsin",
+      "country": "US",
+      "value": 10175529,
+      "detail": "WI"
+    },
+    {
+      "name": "Kansas",
+      "country": "US",
+      "value": 9269040,
+      "detail": "KS"
+    }
+  ]
+}

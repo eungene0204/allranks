@@ -1,6 +1,6 @@
 # AllRanks 소프트웨어 아키텍처
 
-> 마지막 업데이트: 2026-10-20 · 버전 0.2.0
+> 마지막 업데이트: 2026-10-22 · 버전 0.2.0
 
 ## 1. 개요
 
@@ -32,7 +32,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 | 린트 | `tsc --noEmit` (`npm run lint`) |
 | 포트 | 개발/프로덕션 모두 3100 |
 
-홈은 현재 연도와 데이터 기준 연도(`year`) 또는 출판 판본 연도(`editionYear`)가 일치하는 세계 랭킹을 LATEST 후보로 삼아, 세부 기준 시점(`asOf`)과 파일 갱신일(`updatedAt`) 내림차순으로 최대 3개를 보여준다. 전체 최신 목록은 `/latest`에서 제공한다. 홈 LATEST에는 More 링크를 표시하지 않는다. 홈의 Popular 미리보기는 LATEST에 표시된 3개와만 중복을 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 15개를 보여주며 넓은 화면에서 한 줄에 5개, 좁은 화면에서 3·2·1개로 배치한다. `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
+홈은 가장 최근에 추가·갱신된 세계 랭킹을 `updatedAt` 기준으로 LATEST 첫 카드에 항상 표시하고, 나머지 자리는 현재 연도와 데이터 기준 연도(`year`) 또는 출판 판본 연도(`editionYear`)가 일치하는 랭킹 및 현재 연도에 발표된 검증된 다음 연도 판본으로 채워 최대 3개를 보여준다. 전체 최신 목록은 `/latest`에서 제공한다. `/latest`는 자동 최신 목록에 편집 등록한 최근 추가 역사 자료도 포함할 수 있다. 아이비리그 입학률 2022 랭킹은 `RECENTLY_ADDED_LATEST_IDS`에 등록하며, 실제 데이터 기준연도와 “Historical data” 배지는 유지해 최신 자료와 구분한다. 홈 LATEST에는 More 링크를 표시하지 않는다. 홈의 Popular 미리보기는 LATEST에 표시된 3개와만 중복을 제외한다. Popular rankings는 페이지뷰 분석이 없어 `lib/home-rankings.ts`의 편집 선정 목록(대중 관심도와 국가 간 비교 용이성 기준)만 사용한다. 홈에서는 방문마다 후보 중 무작위 15개를 보여주며 넓은 화면에서 한 줄에 5개, 좁은 화면에서 3·2·1개로 배치한다. `/popular` 페이지에서는 전체 선정 목록을 무작위 순서로 제공한다. 인기 랭킹과 카테고리별 랭킹 카드는 `RandomRankingCards` Client Component가 브라우저 마운트 후 Fisher–Yates 방식으로 섞는다. Popular rankings는 브라우저 뒤로가기 캐시에서 복원될 때도 다시 섞는다. LATEST 그룹은 정렬 순서를 유지한다. 서버 렌더와 hydration의 순서 불일치를 피하기 위해 첫 HTML은 입력 순서로 만들고, 무작위 표시 대상은 hydration 이후 카드 순서를 섞는다.
 
 2026-10-19 총기 관련 랭킹 2개를 추가했다. `scripts/topics.mts`의 OWID CSV 어댑터가 UNODC 기반 `homicide-rates-from-firearms` 및 `homicides-by-firearm` 시계열에서 최신 공통 연도 2023 자료를 가져온다. 살인율에는 히스토그램, 건수 합계에는 지역별 누적 시각화를 사용한다. 추가 총기 자료는 `scripts/sources/firearms.mts`에서 가져온다. OAS 지표 페이지에서 2024년 행만 파싱해 미주 29개국의 reported firearm-homicide counts/rates를 별도 세계 목록으로 만든다. CDC Socrata resource `489q-934x`에서는 2025년 분기별 주별 잠정률 가운데 50개 이상 주 자료가 있는 가장 최근의 12개월 기간을 고르며, 연령 보정·비보정 모두 수집한다. CDC 지표는 모든 의도의 총기 사망이며 잠정 수정될 수 있다.
 
@@ -401,3 +401,32 @@ GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매�
 2026-10-21 미국 연도별 베스트셀러 앨범: Visual Capitalist의 2000–2025년 미국 연간 1위 앨범 26개를 `us-best-selling-albums-by-year.json`에 수동 등록했다. 세계 엔터티 상품 목록으로 처리하고 연도순으로 표시하며, 원문 판매량은 보조 설명에 보존했다. 판매량은 시대별 집계 방식이 달라 직접 비교하지 않는다는 설명을 상세 데이터에 포함한다. 원문 URL은 직접 요청 시 403이었으나 검색 인덱스의 전체 본문과 표에서 아티스트·앨범·연도·판매량을 대조해 검증 완료했다.
 
 2026-10-21 엔터테인먼트 분야 확장: `entertainment` 카테고리를 추가하고 기존 미국 연도별 베스트셀러 앨범 자료를 이 카테고리로 이동했다. Spotify 최다 스트리밍 앨범·곡, 역대 판매 비디오게임·콘솔, 세계 최고 흥행 영화·감독 등 검증된 전역 엔터티 목록 6개를 추가했다. 스트리밍·판매·박스오피스 금액의 기준시점과 원문 비교 한계를 각 데이터 설명에 기록한다.
+
+2026-10-21 엔터테인먼트 데이터 출처 다변화: Visual Capitalist 기반 목록 외에 Netflix Tudum 공식 글로벌 시청 목록(영어/비영어 TV·영화), Billboard Japan 2025 연간 차트(Hot 100·Hot Albums·Streaming Songs·Top Singles Sales), Oricon 주간 만화 단행본 판매, SteamDB 동시 접속 최고 기록을 수동 검증 데이터로 추가했다. 서로 다른 기간과 지표는 각 랭킹의 설명·단위·기준일에 분리해 기록하며, Billboard는 공개된 차트 순위만 저장하고 공개되지 않은 점수를 추정하지 않는다. Netflix는 공개된 첫 91일 조회수 기준이며, SteamDB는 Steam 내 역대 동시 접속자 최고치로 한정한다.
+
+2026-10-21 교육 기관 엔터티: `entityType: "institution"`을 추가해 국가별 집계·지도·국기 표기에서 제외되는 글로벌 대학·교육기관 목록을 표현한다. Visual Capitalist가 NCES 자료로 제시한 2022년 아이비리그 입학률과 SAT 중간 점수·재정보조 후 평균 비용을 별도 속성/설명으로 등록했다.
+
+### Best universities outside the U.S. (2026-10-21)
+
+- Added `data/rankings/best-universities-outside-us-2027.json` with all 101 institutions and THE overall scores from Visual Capitalist's 2027 list. `year` and `editionYear` are 2027, so this ranking is eligible for `/latest`.
+- Visual Capitalist direct access returned HTTP 403. Verified the complete table in a syndicated copy and cross-checked the edition and score/rank context against the official THE World University Rankings page. Tied scores are preserved; the description explains that this is the global list with U.S. institutions removed.
+- Updated `allLatestRankings()` to include a verified next-edition-year ranking published in the current calendar year, while retaining current-year candidates. This makes the 2027 edition visible in 2026 `/latest` and home LATEST.
+- Validation: `npm run data:validate` (3,362 files, 0 errors), `npm run lint`, `npm run build`, and `git diff --check` passed. Vercel production deployment `dpl_7EqygT7SEsSWGkfPFUPkawDGYMUi` is READY at https://allranks.world. Authenticated production requests confirmed the ranking page and `/latest` contain the new title and table entries.
+
+### UK renewable electricity rankings (2026-10-22)
+
+- Added 10 verified GB-scoped rankings from the Department for Energy Security and Net Zero's “Renewable electricity by local authority, 2014 to 2025” workbook: total renewable generation; onshore wind, offshore wind, solar PV, hydro, landfill gas, sewage gas, anaerobic digestion and plant biomass generation; and total renewable installed capacity.
+- The records preserve the 2025 observation year and MWh/MW units. Local-authority rows are used; aggregate rows are excluded. Suppressed `[X]` cells are not imputed, and descriptions/source notes state that lists may omit authorities whose values were suppressed.
+- The AllRanks assistant checked both original workbook tabs used, all included authority names, metric columns, values, units and descending order. Each record links the official statistics page and states OGL v3.0, the verification date and the suppression limitation.
+
+### U.S. state electricity generation rankings (2026-10-22)
+
+- Added 10 verified `US`-scoped rankings from EIA final annual 2025 state data: total, natural gas, coal, nuclear, wind, solar, conventional hydroelectric, petroleum, other biomass and geothermal net electricity generation.
+- The original workbook's “Total Electric Power Industry” rows are used, with state/DC abbreviations retained as item details and the national aggregate excluded. Values are MWh; EIA's combined solar category and “Other Biomass” category are described explicitly. Longer lists show the top 25 reported positive values; short lists show all positive reported values.
+- The AllRanks assistant checked the original workbook's included state names, source categories, values, units, year and descending order. The records cite EIA's official historical data page and EIA's public-domain reuse policy.
+
+### 인도·파키스탄 국내 센서스 랭킹 확장 (2026-10-22)
+
+- 인도 Census 2011 Primary Census Abstract 공식 엑셀에서 주·연방 직할지의 총계 행 35개를 추려 인구·가구·여성 인구·SC/ST 인구·문해 인구·근로자·0–6세 인구 등 14개 랭킹을 수동 등록했다. 파생 지표(성비, 도시 인구 비중, 문해율, 여성 문해율, 가구당 인구, 근로자 비율)는 원자료 열에서 산출식을 명시해 계산한다.
+- 파키스탄 PBS Census 2023 Table 1의 5개 행정 단위에서 인구·면적·성비·인구밀도·도시 비중·평균 가구원 수·2017–23 연평균 인구 증가율 7개 랭킹을 등록했다. 표가 다루지 않는 AJK·Gilgit-Baltistan 값은 보충하지 않았다.
+- 원자료의 지역 행·지표 열·값·연도·정렬을 AllRanks 어시스턴트가 직접 대조하고 모든 신규 자료를 `verified:true`로 기록했다. 센서스 경계와 연도 한계를 각 설명 및 출처 메모에 둔다.
