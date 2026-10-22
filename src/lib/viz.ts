@@ -23,6 +23,8 @@ export const VIZ_KINDS: VizKind[] = [
 
 /** Hand-picked exceptions to the rules below (ranking id → kind). Prefer fixing the rule if several rankings need the same exception. */
 export const VIZ_OVERRIDES: Record<string, VizKind> = {
+  // Industry employment changes include both gains and losses around zero.
+  "us-industry-job-change-2026": "diverging",
   // A log-scale dot distribution complements the ranked bars in the table below.
   "us-highest-paid-ceos": "dots",
   // A few Gulf states (Qatar 83 t vs. median 2.6 t, min 0) squash a strip into the left edge; quintile shading on a map holds up.

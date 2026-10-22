@@ -54,7 +54,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   }
   const out: string[] = [];
   const where = r.scope ? `Within ${countryOf(r.scope)?.name ?? r.scope}, ` : "";
-  const unit = r.entityType === "institution" ? "institutions" : r.scope || r.multi ? "entries" : "countries and territories";
+  const unit = r.entityType === "sector" ? "sectors" : r.entityType === "institution" ? "institutions" : r.scope || r.multi ? "entries" : "countries and territories";
   // 1. Who leads.
   out.push(
     `${where}${where ? a.name : `As of ${period(r)}, ${a.name}`} ${where ? `ranks first in ${period(r)}` : "ranks first"}${asc ? " (lowest value)" : ""} with ${fmt(a.value)}, ` +
@@ -115,6 +115,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
 export function rankingSummary(r: Ranking): string {
   const first = ranked(r)[0];
   if (!first) return `${period(r)}: ${r.desc}`;
+  if (r.entityType === "sector") return `${period(r)}: ${first.name} had the largest net employment change at ${formatValue(r, first.value)}. ${r.items.length} U.S. industry sectors.`;
   if (r.entityType === "bank") return `${r.editionYear ?? period(r)}: ${first.name} ranks first by total assets at ${formatValue(r, first.value)}. ${r.items.length} banks.`;
   return `${period(r)}: ${first.name} ${r.entityType === "product" ? "is listed first in the source" : "ranks first"}${r.entityType ? "" : ` at ${formatValue(r, first.value)}`}. ${r.items.length} entries${r.entityType ? "." : `; unit: ${r.unit}.`}`;
 }

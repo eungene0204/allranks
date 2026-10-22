@@ -1,0 +1,109 @@
+{
+  "id": "us-industry-job-change-2026",
+  "title": "U.S. Industries by Job Change (Sep 2025–Sep 2026)",
+  "short": "U.S. industry job change",
+  "category": "economy",
+  "icon": "💼",
+  "desc": "Net change in U.S. payroll employment by major industry sector from September 2025 to September 2026. Positive values indicate net jobs added; negative values indicate net jobs lost. The source uses seasonally adjusted preliminary estimates, which may be revised. This is an industry ranking, not an occupation ranking or a count of gross hires and separations.",
+  "unit": "jobs",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 0,
+  "order": "desc",
+  "year": 2026,
+  "asOf": "2026-09",
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist (data: U.S. Bureau of Labor Statistics, Current Employment Statistics)",
+    "url": "https://www.visualcapitalist.com/visualized-jobs-gained-and-lost-in-america-in-2026/",
+    "urls": [
+      "https://www.bls.gov/charts/employment-situation/employment-by-industry-monthly-changes.htm"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-10-23. Opened the complete Visual Capitalist article and compared all 16 major-sector rows, values, percent changes, and descending order with the BLS Employment by industry, monthly changes table for September 2026 (12-month net change, seasonally adjusted). Counts and displayed percent changes match; the BLS table reports counts in thousands to one decimal place, corresponding to the article’s nearest 100 jobs. Equal +26,500 values for wholesale and retail trade are preserved. BLS figures are preliminary and revisable. Net change is not gross hiring/separations and does not describe occupations."
+  },
+  "updatedAt": "2026-10-23T00:00:00.000Z",
+  "items": [
+    {
+      "name": "Healthcare",
+      "value": 371800,
+      "detail": "+2.0%"
+    },
+    {
+      "name": "Social assistance",
+      "value": 148600,
+      "detail": "+2.8%"
+    },
+    {
+      "name": "Professional and business services",
+      "value": 123000,
+      "detail": "+0.6%"
+    },
+    {
+      "name": "Construction",
+      "value": 109000,
+      "detail": "+1.3%"
+    },
+    {
+      "name": "Leisure and hospitality",
+      "value": 62000,
+      "detail": "+0.4%"
+    },
+    {
+      "name": "Manufacturing",
+      "value": 40000,
+      "detail": "+0.3%"
+    },
+    {
+      "name": "Other services",
+      "value": 34000,
+      "detail": "+0.6%"
+    },
+    {
+      "name": "Wholesale trade",
+      "value": 26500,
+      "detail": "+0.4%"
+    },
+    {
+      "name": "Retail trade",
+      "value": 26500,
+      "detail": "+0.2%"
+    },
+    {
+      "name": "Utilities",
+      "value": 10100,
+      "detail": "+1.7%"
+    },
+    {
+      "name": "Mining and logging",
+      "value": 2000,
+      "detail": "+0.3%"
+    },
+    {
+      "name": "Private educational services",
+      "value": -3900,
+      "detail": "-0.1%"
+    },
+    {
+      "name": "Transportation and warehousing",
+      "value": -9800,
+      "detail": "-0.1%"
+    },
+    {
+      "name": "Financial activities",
+      "value": -107000,
+      "detail": "-1.2%"
+    },
+    {
+      "name": "Information",
+      "value": -120000,
+      "detail": "-4.2%"
+    },
+    {
+      "name": "Government",
+      "value": -216000,
+      "detail": "-0.9%"
+    }
+  ],
+  "entityType": "sector"
+}

@@ -22,7 +22,7 @@ export function checkRanking(r: RankingFile, { countries, categoryIds }: CheckCt
   need(!!r.source?.name && SOURCE_KINDS.includes(r.source.kind), "source needs a name and a valid kind");
   const minItems = r.entityType === "product" ? 4 : 5;
   need(Array.isArray(r.items) && r.items.length >= minItems, `needs at least ${minItems} items`);
-  if (r.entityType) need(["language", "port", "product", "bank", "institution"].includes(r.entityType) && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
+  if (r.entityType) need(["language", "port", "product", "bank", "institution", "sector"].includes(r.entityType) && !r.scope, "global entity rankings must use a supported entityType and cannot have a country scope");
 
   const names = new Set<string>();
   const codes = new Set<string>();
