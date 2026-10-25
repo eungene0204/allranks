@@ -1,8 +1,6 @@
 name: Refresh container port rankings
 
 on:
-  schedule:
-    - cron: "30 15 * * *" # Daily at 00:30 Asia/Seoul
   workflow_dispatch:
 
 permissions:

@@ -30,6 +30,8 @@ export function allRankings(): Ranking[] {
   const order = (r: Ranking) => CATEGORIES.findIndex((c) => c.id === r.category);
   rankingsCache = files
     .map((f) => readJson<Ranking>("rankings", f))
+    // Describe the metric without implying complete worldwide coverage.
+    .map((r) => r.id === "internet-users" ? { ...r, title: "Internet Use by Country" } : r)
     .filter((r) => r.source.verified !== false && (!["manual", "agent"].includes(r.source.kind) || r.source.verified === true))
     .sort((a, b) => order(a) - order(b) || (a.sort ?? 99) - (b.sort ?? 99) || a.title.localeCompare(b.title));
   return rankingsCache;

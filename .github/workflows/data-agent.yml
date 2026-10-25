@@ -1,12 +1,8 @@
-# Daily discovery run: let the AI agent research and add new rankings,
-# then open a pull request for a human to review. Nothing reaches main without that review.
-# Setup: add the repository secret ANTHROPIC_API_KEY and allow Actions to create pull requests
-# (Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests").
+# Manual discovery run. Daily local collection, verification, and deployment use the
+# allranks-daily-local-deploy skill and its macOS LaunchAgent.
 name: Data agent
 
 on:
-  schedule:
-    - cron: "0 15 * * *" # Every day at 00:00 Asia/Seoul (15:00 UTC on the previous day)
   workflow_dispatch:
     inputs:
       mode:

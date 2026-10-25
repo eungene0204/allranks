@@ -81,9 +81,7 @@ web search/fetch and can only publish through two validated tools, so a bad subm
 
 Needs `ANTHROPIC_API_KEY` (or `ant auth login`). `AGENT_MODEL` / `AGENT_EFFORT` override `claude-sonnet-5-5` / `high`. Agent-collected rankings carry
 `"source": { "kind": "agent", "verified": false }` and show as *AI-collected · unverified*; rejected topics are remembered in `data/agent/notes.json`.
-`.github/workflows/data-agent.yml` runs `discover` daily at **00:00 Asia/Seoul** (`0 15 * * *` UTC), researching up to 3 new rankings using the latest official data. Validated additions accumulate in the `agent/data-update` pull request for review. It does not merge or publish automatically. Manual dispatch also supports `plan`, `refresh`, and `run`.
-
-To activate: commit/push the workflow to the default branch, register the `ANTHROPIC_API_KEY` Actions repository secret, and enable **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests**. GitHub may start scheduled jobs later than the configured minute. The API secret was absent and PR creation permission disabled when checked on 2026-10-18; a live run has not been verified.
+Daily collection, source verification, validation, and Vercel production deployment run locally at midnight through the `allranks-daily-local-deploy` skill and macOS LaunchAgent. GitHub Actions `data-agent.yml` and `container-ports.yml` retain manual dispatch only; they no longer schedule ranking jobs. The local job requires an active logged-in macOS session and a clean production worktree. See `~/Library/Logs/allranks-daily-local-deploy.log` for its run log.
 
 ### Other countries
 

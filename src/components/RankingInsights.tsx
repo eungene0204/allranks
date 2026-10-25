@@ -8,7 +8,8 @@ export default function RankingInsights({ ranking }: { ranking: Ranking }) {
   if (!lines.length) return null;
   return (
     <section className="insights" aria-labelledby="insights-h">
-      <h2 id="insights-h">Highlights</h2>
+      <h2 id="insights-h">Calculated from this table</h2>
+      <p className="comparison-note">AllRanks calculations from the listed observations. These summaries do not establish the causes behind a difference.</p>
       {lines.map((l, i) => (
         <p key={i}>{l}</p>
       ))}

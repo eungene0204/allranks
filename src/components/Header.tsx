@@ -46,6 +46,7 @@ export default function Header() {
           All<span>Ranks</span>
         </Link>
         <nav className="nav" aria-label="Categories">
+          <Link href="/guides" className={pathname.startsWith("/guides") ? "active" : undefined}>Reading guides</Link>
           {CATEGORIES.map((c) => (
             <Link key={c.id} href={`/category/${c.id}`} className={active === c.id ? "active" : undefined}>
               {c.icon} {c.name}

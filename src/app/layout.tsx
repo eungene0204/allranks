@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Script from "next/script";
 import Header from "@/components/Header";
-import FooterFaq from "@/components/FooterFaq";
 import { ADSENSE_CLIENT, CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import JsonLd from "@/components/JsonLd";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,29 +24,23 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   return (
     <html lang="en">
       <body>
+        {gaMeasurementId && /^G-[A-Z0-9]+$/.test(gaMeasurementId) ? <GoogleAnalytics measurementId={gaMeasurementId} /> : null}
         <JsonLd data={{ "@context": "https://schema.org", "@graph": [
           { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: "AllRanks", url: SITE_URL, email: CONTACT_EMAIL },
           { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: "AllRanks", url: SITE_URL, inLanguage: "en", publisher: { "@id": `${SITE_URL}/#organization` } },
         ] }} />
-        {ADSENSE_CLIENT && (
-          <Script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
-        )}
         <Header />
         <main className="wrap">{children}</main>
         <footer className="site-footer">
           <div className="wrap">
-            <FooterFaq />
             <strong>AllRanks</strong> — one place for every ranking in the world.{" "}
-            <span className="muted">Prototype v0.3</span>
             <nav className="footer-links" aria-label="About this site">
+              <Link href="/guides">Reading guides</Link>
+              <Link href="/editorial-policy">Editorial policy</Link>
               <Link href="/about">About</Link>
               <Link href="/methodology">Methodology</Link>
               <Link href="/privacy">Privacy</Link>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { countryInfo } from "@/lib/data";
 import { formatValue } from "@/lib/format";
 import type { Ranking } from "@/lib/types";
+import { usesSnapshotYear } from "@/lib/ranking-content";
 import FreshnessBadge from "./FreshnessBadge";
 
 const MONTH = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
@@ -33,8 +34,8 @@ export default function RankingContext({ ranking: r }: { ranking: Ranking }) {
           </dd>
         </div>
         <div>
-          <dt>Reference period</dt>
-          <dd>{period}<span className="ranking-context-secondary">Dataset updated {DAY.format(new Date(r.updatedAt))}. The badge reflects the reference year, not the update date.</span></dd>
+          <dt>{usesSnapshotYear(r) ? "Snapshot year" : "Reference period"}</dt>
+          <dd>{period}<span className="ranking-context-secondary">Dataset updated {DAY.format(new Date(r.updatedAt))}. {usesSnapshotYear(r) ? "This snapshot can contain observations from different years; it is not a common measurement date." : "The badge reflects the reference year, not the update date."}</span></dd>
         </div>
         <div className="ranking-context-definition">
           <dt>Definition</dt>

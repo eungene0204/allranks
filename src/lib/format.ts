@@ -11,8 +11,9 @@ export function ranked(r: Ranking): RankedEntry[] {
   if (cached) return cached;
   const entries = [...r.items]
     .sort((a, b) => (r.order === "asc" ? a.value - b.value : b.value - a.value) || a.name.localeCompare(b.name))
-    .map((e, i) => ({
-      rank: i + 1,
+    .map((e, i, sorted) => ({
+      // Equal published values share a competition rank (1, 2, 2, 4).
+      rank: i > 0 && e.value === sorted[i - 1].value ? i : i + 1,
       name: e.name,
       country: e.country ?? "",
       flag: e.country ? flagEmoji(e.country) : "",

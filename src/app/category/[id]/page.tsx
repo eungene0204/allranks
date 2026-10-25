@@ -42,6 +42,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
           {c.icon} {c.name}
         </h1>
         <p>{c.blurb}</p>
+        <p>Each list uses its own measure, period and coverage. <Link href="/guides">Read our comparison guides</Link> before interpreting a position.</p>
       </div>
       <h2 className="section">{list.length} rankings</h2>
       {list.length === 0 && <p>Rankings in this category are coming soon.</p>}

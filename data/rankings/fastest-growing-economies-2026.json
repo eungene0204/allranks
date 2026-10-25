@@ -1,0 +1,49 @@
+{
+  "id": "fastest-growing-economies-2026",
+  "title": "World’s Fastest-Growing Economies in 2026",
+  "short": "GDP Growth Forecasts",
+  "sort": 14,
+  "category": "economy",
+  "icon": "📈",
+  "desc": "Projected real GDP growth rates for the 18 economies shown in Visual Capitalist’s October 2026 ranking. These are IMF forecasts for 2026, not observed growth. The source selects 18 economies rather than listing every economy worldwide; equal forecast values retain the source chart’s display order.",
+  "unit": "% real GDP growth forecast",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 1,
+  "order": "desc",
+  "year": 2026,
+  "editionYear": 2026,
+  "source": {
+    "kind": "manual",
+    "name": "Visual Capitalist, based on IMF World Economic Outlook (October 2026)",
+    "url": "https://www.visualcapitalist.com/cp/ranked-the-worlds-fastest-growing-economies-in-2026/",
+    "urls": [
+      "https://www.voronoiapp.com/economy/Ranked-The-Worlds-Fastest-Growing-Economies-9221",
+      "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026",
+      "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD"
+    ],
+    "verified": true,
+    "note": "All 18 economy names, values and chart order were checked by the AllRanks assistant on 2026-10-23 against the linked Visual Capitalist story’s Voronoi data page and its chart image; the IMF October 2026 WEO source and DataMapper were also checked. The supplied Visual Capitalist URL was Cloudflare-blocked in direct retrieval; the Voronoi page is the publisher’s accessible companion record for the same chart. These are forecasts, not observed outcomes. The chart is a selected list, not a comprehensive world ranking. Taiwan is labeled Taiwan in the chart (IMF designation: Taiwan Province of China)."
+  },
+  "updatedAt": "2026-10-23T00:00:00.000Z",
+  "items": [
+    { "name": "Guyana", "country": "GY", "value": 22.3 },
+    { "name": "Taiwan", "country": "TW", "value": 10.7 },
+    { "name": "South Sudan", "country": "SS", "value": 10.5 },
+    { "name": "Ethiopia", "country": "ET", "value": 9.2 },
+    { "name": "Kyrgyzstan", "country": "KG", "value": 9.0 },
+    { "name": "Vietnam", "country": "VN", "value": 8.4 },
+    { "name": "Uzbekistan", "country": "UZ", "value": 7.8 },
+    { "name": "Rwanda", "country": "RW", "value": 7.4 },
+    { "name": "Tajikistan", "country": "TJ", "value": 7.3 },
+    { "name": "Georgia", "country": "GE", "value": 7.2 },
+    { "name": "Guinea", "country": "GN", "value": 7.2 },
+    { "name": "Benin", "country": "BJ", "value": 7.0 },
+    { "name": "Bhutan", "country": "BT", "value": 7.0 },
+    { "name": "India", "country": "IN", "value": 7.0 },
+    { "name": "Niger", "country": "NE", "value": 7.0 },
+    { "name": "Sudan", "country": "SD", "value": 7.0 },
+    { "name": "Mongolia", "country": "MN", "value": 6.2 },
+    { "name": "Uganda", "country": "UG", "value": 6.2 }
+  ]
+}

@@ -2,6 +2,8 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata("World rankings", "Compare countries across universities, GDP, prices and more. Explore rankings with original sources and reference years.", "/");
 
+import FooterFaq from "@/components/FooterFaq";
+import ReadingGuideCards from "@/components/ReadingGuideCards";
 import SearchForm from "@/components/SearchForm";
 import GlobeExplorer from "@/components/GlobeExplorer";
 import RandomRankingCards from "@/components/RandomRankingCards";
@@ -48,6 +50,8 @@ export default function HomePage() {
 
       <SearchForm />
 
+      <ReadingGuideCards limit={3} />
+
       <h2 className="section">LATEST</h2>
       <RandomRankingCards rankings={latestRankings.map(toRankingCard)} shuffle={false} />
 
@@ -58,6 +62,7 @@ export default function HomePage() {
           <Link className="more-rankings-link" href="/popular">More</Link>
         </div>
       )}
+      <FooterFaq />
     </>
   );
 }

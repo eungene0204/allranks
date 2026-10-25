@@ -3,7 +3,7 @@
   "title": "Countries with the Most Data Centers",
   "category": "ai",
   "icon": "🏢",
-  "desc": "Number of data centers (colocation, cloud and enterprise facilities) located in each country.",
+  "desc": "Directory-listed data center facility counts by country in the March 2025 source snapshot. Counts describe listed facilities, not computing capacity, power use, or total national infrastructure.",
   "unit": "data centers",
   "prefix": "",
   "suffix": "",
@@ -12,16 +12,17 @@
   "year": 2025,
   "asOf": "2025-03",
   "source": {
-    "kind": "agent",
-    "name": "Straits Research and Statista (underlying data: Cloudscene), via Mappr",
+    "kind": "manual",
+    "name": "Mappr — Ranked: The Countries With the Most Data Centers (2025), citing Cloudscene/Straits Research/Statista",
     "url": "https://www.mappr.co/countries-with-most-data-centers/",
-    "verified": false,
+    "verified": true,
     "urls": [
-      "https://straitsresearch.com/statistic/countries-with-the-most-data-centers"
+      "https://straitsresearch.com/statistic/countries-with-the-most-data-centers",
+      "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf"
     ],
-    "note": "Top 25 countries only, 2025 data. Figures differ between trackers (Data Center Map and Cloudscene count differently), so treat them as approximate. The top ten were cross-checked against a second page; ranks 11–25 come from one page."
+    "note": "All 25 names, values, order and March 2025 snapshot were checked against the linked Mappr table by the AllRanks assistant on 2026-10-23; its top-ten summary was cross-checked against Straits Research. Counts are directory-listed facilities, not capacity or electricity use. The Stanford HAI 2026 AI Index reports 5,427 U.S. facilities for Cloudscene 2025, one more than Mappr’s 5,426; this page preserves the cited March 2025 Mappr table value and discloses the source discrepancy. Directory definitions and coverage can differ."
   },
-  "updatedAt": "2026-10-14T02:48:10.796Z",
+  "updatedAt": "2026-10-23T00:00:00.000Z",
   "items": [
     {
       "name": "United States",

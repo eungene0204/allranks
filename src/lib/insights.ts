@@ -1,3 +1,4 @@
+import { editorialProfile } from "./editorial-profiles";
 import { formatValue, ranked } from "./format";
 import type { Ranking } from "./types";
 
@@ -57,7 +58,7 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
   const unit = r.entityType === "sector" ? "sectors" : r.entityType === "institution" ? "institutions" : r.scope || r.multi ? "entries" : "countries and territories";
   // 1. Who leads.
   out.push(
-    `${where}${where ? a.name : `As of ${period(r)}, ${a.name}`} ${where ? `ranks first in ${period(r)}` : "ranks first"}${asc ? " (lowest value)" : ""} with ${fmt(a.value)}, ` +
+    `${where}${where ? a.name : `As of ${period(r)}, ${a.name}`} ${where ? `has the ${asc ? "lowest" : "highest"} listed value in ${period(r)}` : `has the ${asc ? "lowest" : "highest"} listed value`}${asc ? " (lowest value)" : ""} with ${fmt(a.value)}, ` +
       `followed by ${b.name} (${fmt(b.value)}) and ${c.name} (${fmt(c.value)}).`,
   );
 
@@ -115,9 +116,14 @@ export function rankingInsights(r: Ranking, countryOf: CountryLookup): string[] 
 export function rankingSummary(r: Ranking): string {
   const first = ranked(r)[0];
   if (!first) return `${period(r)}: ${r.desc}`;
+  const profile = editorialProfile(r).id;
+  if (profile === "local-currency") return `${period(r)}: ${r.items.length} recorded local-currency amounts. Raw amounts in different currencies do not establish a comparable international ranking.`;
+  if (profile === "binary") return `${period(r)}: ${r.items.length} coded observations. Equal codes are groups, not different measured performance levels.`;
+  if (profile === "p-value") return `${period(r)}: ${r.items.length} statistical test results. P-values are not effect sizes or country performance scores.`;
+  if (profile === "projection") return `${period(r)}: ${r.items.length} scenario-based projections. Read the horizon, assumptions and population group before interpreting the ordering.`;
   if (r.entityType === "sector") return `${period(r)}: ${first.name} had the largest net employment change at ${formatValue(r, first.value)}. ${r.items.length} U.S. industry sectors.`;
   if (r.entityType === "bank") return `${r.editionYear ?? period(r)}: ${first.name} ranks first by total assets at ${formatValue(r, first.value)}. ${r.items.length} banks.`;
-  return `${period(r)}: ${first.name} ${r.entityType === "product" ? "is listed first in the source" : "ranks first"}${r.entityType ? "" : ` at ${formatValue(r, first.value)}`}. ${r.items.length} entries${r.entityType ? "." : `; unit: ${r.unit}.`}`;
+  return `${period(r)}: ${first.name} ${r.entityType === "product" ? "is listed first in the source" : `has the ${r.order === "asc" ? "lowest" : "highest"} value among the listed entries`}${r.entityType ? "" : ` at ${formatValue(r, first.value)}`}. ${r.items.length} entries${r.entityType ? "." : `; unit: ${r.unit}.`}`;
 }
 
 /** A concise, topic-specific search snippet without repeating a long source definition. */

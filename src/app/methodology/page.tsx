@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import { allRankings } from "@/lib/data";
@@ -26,15 +27,14 @@ export default function MethodologyPage() {
       <div className="prose">
         <h2>1. Open sources only</h2>
         <p>
-          Every ranking comes from a public source that allows reuse. The source name, a link, the licence and the date we fetched the data
-          appear under each ranking.
+          Rankings link to their public source. Where the publisher provides a reuse licence, we display it with the collection date.
+          Public access does not by itself establish reuse permission; a missing licence field is not a grant of rights. Check the original publisher’s terms before reusing material.
         </p>
 
         <h2>2. Automatic collection</h2>
         <p>
-          Most rankings are filled by small programs that download the numbers from an official data service (for example the World Bank
-          API) or read a published table. Some lists are curated from published source material. The programs use one reference year per ranking, so every row of a
-          list is from the same period.
+          Many rankings are filled by small programs that download the numbers from an official data service (for example the World Bank
+          API) or read a published table. Some lists are curated from published source material. The World Bank collector uses one reference year per ranking: the newest year with at least 10 matched country observations. This avoids mixing years but can leave substantial gaps. Other sources, including GeoNames population records and cumulative research metrics, may combine observations from different periods; their snapshot year is not a claim that all underlying events happened that year.
         </p>
 
         <h2>3. Checks before publishing</h2>
@@ -42,7 +42,7 @@ export default function MethodologyPage() {
           <li>Country names are matched to ISO country codes; anything we cannot match is reported instead of guessed.</li>
           <li>Where a source publishes a world total, we compare it with the sum of the rows.</li>
           <li>A refresh that loses many rows or returns too few is rejected, and the previous version stays online.</li>
-          <li>Rankings with data older than 120 days are flagged for review.</li>
+          <li>The freshness report lists reference years more than one year behind the current year by default. This is a review aid, not a guarantee of review within a fixed number of days.</li>
         </ul>
 
         <h2>4. AI-collected rankings</h2>
@@ -56,6 +56,10 @@ export default function MethodologyPage() {
           Definitions and methods differ between countries, many figures are estimates, and the latest available year is not the same everywhere.
           Several rankings (for example AI supercomputers) are census-style counts that miss what is not public, so they are lower bounds.
         </p>
+
+        <h2>6. Calculations and explanations</h2>
+        <p>The two-entry comparison subtracts the stored values from the same snapshot before rounding. Percentage-valued measures use percentage points for the absolute gap. Table positions follow the selected direction, with equal stored values ordered by name; they are not statistical significance tests. Calculated summaries are labeled separately from publisher observations.</p>
+        <p>Our <Link href="/guides">reading guides</Link> explain the questions a measure can answer, its limitations and related comparisons. Read our <Link href="/editorial-policy">editorial policy</Link> for AI assistance, source checking and corrections.</p>
 
         <h2>Source publishers</h2>
         <p>Grouped by source website and licence. Each ranking links to its specific original source.</p>

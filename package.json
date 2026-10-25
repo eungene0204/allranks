@@ -18,9 +18,13 @@
     "deployments:prune": "node scripts/prune-deployments.mts",
     "agent": "node scripts/agent/index.mts",
     "agent:plan": "node scripts/agent/index.mts plan",
-    "prebuild": "node scripts/validate.mts && node scripts/seo-snapshots.mts",
+    "prebuild": "node scripts/validate.mts && node scripts/editorial-report.mts && node scripts/seo-snapshots.mts",
     "seo:snapshots": "node scripts/seo-snapshots.mts",
-    "seo:check": "node scripts/seo-check.mts"
+    "seo:check": "node scripts/seo-check.mts",
+    "editorial:refresh": "node scripts/editorial-sources.mts",
+    "editorial:check": "node scripts/editorial-report.mts",
+    "editorial:report": "node scripts/editorial-report.mts --write",
+    "editorial:access": "python3 scripts/editorial-access.py"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

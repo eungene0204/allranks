@@ -1,5 +1,11 @@
 # AllRanks 소프트웨어 아키텍처
 
+2026-10-23: 랭킹 상세 JSON-LD는 AllRanks를 편집 해설 작성자로 표시한다. 출처 라이선스가 확인된 자료만 `Dataset`으로 표시하며, 라이선스 미기재 자료는 `Article`에서 원출처를 직접 연결한다. 미기재 라이선스는 추정하지 않는다.
+
+2026-10-23: 모든 랭킹 상세 페이지의 본문 순서를 통일했다. 지원되는 추이 그래프·랭킹 시각화·수치 비교·전체 순위표를 해석 섹션보다 먼저 렌더링하고, 요약·포함 범위·심층 편집 해설을 그 뒤에 둔다. 출처와 방법론 문맥은 페이지 하단에 유지한다.
+
+2026-10-23: Visual Capitalist의 2026년 세계 고성장 경제 목록을 `fastest-growing-economies-2026`로 추가했다. IMF October 2026 WEO 실질 GDP 성장률 전망 18개를 출처 차트의 순서로 저장하며, 같은 전망값의 표기 순서도 유지한다. 기존 상세 페이지의 `RankingCoverage`·`RankingReading` 심층 해설, 비교 그래프, 순위표, 출처·정의 문맥이 그대로 적용된다. 전망치이며 전 세계 모든 경제를 포괄하지 않는 선정 목록임을 데이터 설명과 본문에 표시한다. Visual Capitalist 원 URL은 Cloudflare가 직접 열람을 막아 동일 차트의 Voronoi 게시 페이지 및 그래픽과 IMF 원자료를 교차 확인했다.
+
 > 마지막 업데이트: 2026-10-23 · 버전 0.2.0
 
 ## 1. 개요
@@ -57,7 +63,7 @@ Next.js App Router 페이지 (정적 생성) → 브라우저
 ## 3. 디렉터리 구조
 
 ```
-.github/workflows/data-agent.yml  매일 KST 00:00: 신규 랭킹 조사 → 검증 → PR 생성/누적
+.github/workflows/data-agent.yml  수동 랭킹 조사 (일일 실행은 로컬 LaunchAgent)
 data/
   agent/                    에이전트 상태: notes.json(거절·후보 주제), last-run.json/.md (웹은 읽지 않음)
   countries.json            국가 참조 테이블 (mledoze/countries 기반)
@@ -162,7 +168,7 @@ Equilar CEO 보상은 `scripts/sources/equilar.mts`에서 공식 2026년판 표�
 ### 5.1 데이터 수집 에이전트
 
 ```
-npm run agent -- run          (수동 전체 갱신+발굴; 일일 스케줄은 discover)
+npm run agent -- run          (수동 전체 갱신+발굴; 일일 실행은 로컬 스킬)
   1. refresh: scripts/update.mts 실행 (자동 파이프라인, LLM 없음)
   2. refresh: 수동·agent 랭킹 중 갱신 대상(30일 경과, 또는 미검증 manual)을 Claude가 조사 → update_ranking
   3. discover: 커버리지 리포트(빈 카테고리 8개 우선)를 보고 Claude가 새 랭킹 조사 → create_ranking
@@ -177,6 +183,8 @@ npm run agent -- run          (수동 전체 갱신+발굴; 일일 스케줄은 
 - 환경 변수: `ANTHROPIC_API_KEY`(또는 `ant auth login`), `AGENT_MODEL`, `AGENT_EFFORT`.
 
 ## 6. 렌더링 전략
+
+화면 레이아웃은 `src/app/globals.css`의 공통 breakpoint 규칙으로 대응한다. 640px 이하에서는 헤더 메뉴를 가로 스크롤하고 검색·필터와 2열 요약 레이아웃을 세로로 전환하며, 380px 이하에서는 검색 버튼과 랭킹 행을 더 좁은 폭에 맞춘다. 시계열 및 편집 표는 데이터 열을 보존하면서 내부 가로 스크롤을 사용한다. 주요 터치 입력은 최소 40px 높이를 확보한다. Next.js App Router 기본 viewport 메타 태그(`width=device-width, initial-scale=1`)를 사용한다. 2026-10-23 프로덕션 배포 `dpl_HwheztTxuP7d1pXpocVPg5351EUD`의 운영 HTML/CSS에서 홈페이지 응답 및 모바일 breakpoint 규칙을 확인했다.
 
 랭킹 상세 페이지 하단에는 `RankingContext` 서버 컴포넌트의 “About this ranking” 영역을 렌더링한다. 시각화·표·Highlights·출처 표시 다음에 배치한다. 기존 `Ranking` 데이터의 `source`(기본 URL과 중복 제거한 추가 참고 URL), `asOf`/`year`, `desc`, `unit`, `scope`·`items`, `order`를 사용해 출처·기준 시점·정의·단위·수록 범위·순위 방향을 보여준다. `updatedAt`은 기준 시점과 구분해 데이터 갱신일로 표시한다. 범위에는 수록 항목 수와 실제 값의 최솟값·최댓값, 세계 목록형 랭킹에는 서로 다른 국가 코드 수를 추가한다. 국가 한정 범위의 이름은 `countryInfo`로 조회하며 국적을 추정하지 않는다. 출처 메모와 방법론 링크를 함께 제공하고, 누락이 0을 의미하지 않으며 1위가 반드시 좋은 결과를 뜻하지 않음을 명시한다. 추가 클라이언트 JS와 스키마 변경 없이 서버에서 계산하고, 좁은 화면은 단일 열로 배치한다.
 
@@ -210,6 +218,7 @@ npm run agent -- run          (수동 전체 갱신+발굴; 일일 스케줄은 
 - 랭킹 제목 렌더링에서는 `Ranking.icon`을 제목 앞에 표시하지 않는다. 상세 페이지, 검색 결과 항목, 국가 내부 랭킹 탭 제목이 이 규칙을 따른다. 카테고리 메뉴와 카드의 분류 태그는 기존 아이콘을 유지한다.
 - 프로덕션 배포는 Vercel CLI로 수행한다. 2026-10-17 기준 구형 CLI 59.15.1은 `Not authorized`를 반환했고 최신 CLI 64.5.0은 같은 계정/프로젝트에서 성공했다. 재현 가능한 명령은 README에 기록한다.
 - 광고: `src/lib/site.ts`의 게시자 ID(기본 `ca-pub-8335444243080631`, `NEXT_PUBLIC_ADSENSE_CLIENT`로 덮어쓰기, `off`면 비활성)가 유효하면 `layout.tsx`가 `next/script`로 AdSense 스크립트와 `google-adsense-account` 메타를 넣고 `/ads.txt` 가 활성화된다. 연락처는 기본 `allworldranks@gmail.com`이고 `NEXT_PUBLIC_CONTACT_EMAIL`로 바꿀 수 있다. 환경변수는 빌드 때 고정되므로 바꾸면 다시 빌드한다.
+- 분석: `NEXT_PUBLIC_GA_MEASUREMENT_ID`가 `G-...` 형식으로 설정된 경우에만 `GoogleAnalytics` Client Component가 gtag.js를 `afterInteractive`로 로드한다. 초기 자동 page_view는 끄고 App Router의 pathname/query 변경마다 page_view를 한 번 보낸다. 운영 측정 ID `G-GG8DP7JS8C`를 Vercel Production에 설정해 배포했다. 환경변수 미설정·형식 오류 시 분석 스크립트는 로드되지 않으며, 값을 바꾸면 재빌드가 필요하다.
 
 ## 7. 확장 지점
 
@@ -282,7 +291,7 @@ World Records는 `src/lib/categories.ts`의 `WORLD_RECORD_RANKING_IDS`로 다른
 
 ### 2026-10-18 일일 랭킹 추가 스케줄
 
-GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매일 한국시간 00:00이다. `discover`로 최신 공식 자료를 우선 조사해 실행당 최대 3개를 추가하고, 데이터/타입 검증 후 `agent/data-update` PR을 생성·갱신한다. 미병합 브랜치가 있으면 해당 자료를 이어받아 전날 추가분 유실·중복 발굴을 방지한다. 수동 실행에서는 기존 `plan/refresh/run`도 선택 가능하다. API 키 미등록은 명시적 오류로 중단한다. 예약 실행은 기본 브랜치 반영 이후 적용되며 GitHub 부하에 따라 지연될 수 있다. 현재 저장소 API 확인 결과 Actions 시크릿 0개, PR 생성 허용 비활성으로 실제 가동은 미완료다.
+GitHub Actions `data-agent.yml`과 `container-ports.yml`은 `workflow_dispatch` 수동 실행만 제공한다. 일일 데이터 갱신·랭킹 발굴·원출처 검증·검사·Vercel 배포는 로컬 `allranks-daily-local-deploy` 스킬이 담당하며, `world.allranks.daily-local-deploy` LaunchAgent가 매일 자정 실행한다. 활성 로그인 세션과 깨끗한 production 작업 트리가 필요하다. 실행 로그는 `~/Library/Logs/allranks-daily-local-deploy.log`에 기록한다.
 
 ### 2026-10-18 홈 히어로 디자인
 
@@ -436,3 +445,36 @@ GitHub Actions `data-agent.yml`의 예약 실행은 `0 15 * * *`(UTC), 즉 매�
 
 - `data/rankings/us-industry-job-change-2026.json`에 Visual Capitalist가 BLS 자료로 정리한 2025년 9월~2026년 9월 미국 산업별 12개월 순고용 변화 16개를 추가했다.
 - `entityType: "sector"`로 국가 목록·지도·국가별 집계에서 분리하고, 순고용 변화는 양·음 방향 막대로 표시한다. 정수 고용 변화로 내림차순 정렬하고 변화율을 보조 정보로 표시한다. BLS 공식 CES 차트와 대조했으며 잠정·계절조정 수치와 개정 가능성, 순고용 변화와 총 채용·이직 간 차이를 설명한다.
+
+
+## 2026-10-23 AdSense 콘텐츠 품질 조사
+
+공개 사이트와 저장소를 대조한 원인 조사를 `docs/adsense-content-audit-2026-10-23.md`에 기록했다. 공개 대상 3,401개 중 네 주요 출처 기반 자료가 2,978개이며 공통 해설 템플릿·세계 순위의 표본 범위·편집 책임/운영 문구를 개선 후보로 식별했다. Google 내부 거절 원인은 확정할 수 없다. 후속 작업은 핵심 페이지의 주제별 분석, 비교 범위 명시, 반복 페이지 통합/광고 노출 선별, 실제 운영과 방법론 문서의 일치다. 이번 작업은 조사·문서화 완료이며 제품 코드·랭킹 데이터·배포 변경은 없다.
+
+## 2026-10-23 콘텐츠 해설·동일 스냅샷 비교 구조
+
+`src/lib/reading-guides.ts`에 출처와 검토일이 있는 해설 9편을 정의하고 `/guides`, `/guides/[id]`에서 서버 렌더링한다. 원본 랭킹 JSON과 편집 해설을 분리한다. `RankingReading`은 주요 주제 및 OpenAlex·OurAirports·GeoNames·생활용품 목록에 해설을 연결하고 국내 동일 출처 자료를 묶는다. `EconomicComparison`은 동일 연도 GDP 두 표만 조인한다. `ranking-content.ts`는 포함 범위 설명·snapshot year·수치 비교 적격성을 정의하며, `RankingComparison`은 같은 데이터의 두 저장값 차이만 계산한다. 원본 값·verified 상태와 공개 필터는 유지한다. 인터넷 이용률은 로더의 표시 제목만 중립적으로 바꾼다.
+
+공통 FAQ는 홈에만 렌더링한다. 전역 AdSense 스크립트는 제거하고 소유권 메타태그/ads.txt는 유지해 광고 요청과 계정 식별을 구분한다. `/editorial-policy`와 수정된 Privacy/Methodology가 실제 동작을 설명한다. 신규 해설은 사이트맵·헤더·홈·푸터로 연결한다. 상세 구현·검증·제약은 `docs/adsense-content-improvements-2026-10-23.md`에 기록했다.
+
+## 2026-10-23 전체 랭킹 해설 계층
+
+공개 3,401개 전체에 `buildRankingArticle` 본문을 서버에서 제공한다. `editorial-profiles.ts`의 59개 측정 유형과 `metric-reading.ts`의 지표 조건 설명을 실제 스냅샷 값/단위/정의/메모에 결합한다. `RankingReading`이 선택적 가이드 요약에서 모든 상세의 전체 본문으로 확장되었고, 중복 Highlights 렌더링은 제거했다. 해설은 정의·관측 결과·활용·작성 근거·한계와 출처로 구성되며 전문 심사나 독립 실사로 표시하지 않는다.
+
+`data/editorial/worldbank-definitions.json`은 공식 API에서 받은 공개 지표 1,627개의 메타데이터, `source-access.json`은 나머지 고유 원출처 311개에 대한 접근 관찰, `coverage.json`은 공개 전체 본문 무결성 보고서다. 서버 전용 `editorial-data.ts`가 이 자료를 로드한다. `editorial:refresh`, `editorial:access`, `editorial:check`, `editorial:report`로 갱신/검사한다. 빌드 전 공개 지표 전체의 본문/출처/World Bank 정의 레코드 누락과 완전히 동일한 본문을 검사한다. 원자료 값과 verified 플래그는 바꾸지 않는다.
+
+자국통화·예/아니오·p-value·순위/메타순위·제품 부문 추천·SHARP 등급에는 수치 차이 도구를 노출하지 않는다. 관련 읽기는 같은 국가/출처 또는 같은 주제의 적격 지표를 연결한다. 실제 구현과 한계는 `docs/full-ranking-editorial-rewrite-2026-10-23.md`를 참조한다.
+
+전체 해설 검증: `editorial:check` 공개 3,401/3,401·59개 유형·오류 0, 타입 검사 및 production 빌드 성공, 데이터 검증 오류 0/기존 경고 3. 모든 유형을 포함하는 로컬 HTTP 72개 경로에서 본문/출처/제한 안내와 비공개 초안 차단을 확인했다. 실제 브라우저/모바일 검토 및 프로덕션 배포는 미실행이다.
+
+## 2026-10-23 미검증 편집 초안 검증·공개
+
+4개 초안을 원문 대조했다. 데이터센터 상위 25개는 Mappr 2025 표와 Straits 교차 자료를 대조하고 Stanford HAI의 미국 수치 5,427 대 Mappr 5,426 차이를 데이터 설명과 기록에 공개했다. PISA 수학은 40개 평균 점수 표를 대조했으며 OECD가 통계적 정확 순위를 보장하지 않는다고 안내하므로 제목·설명을 평균 점수 순서로 한정했다. QS 2027 상위 10개는 공식 QS 페이지의 동점 순위(2위·8위)를 데이터에 반영했다. 냉장고 목록은 Consumer Reports 2025 라이선스 원문에서 프렌치도어 점수 상위 5개(LG, GE/Haier 동점, Bosch, Whirlpool)로 재작성했다. 같은 수치에 공동 순위를 표시하도록 공통 순위 계산도 수정했다. 상세 대조표는 `docs/unverified-rankings-verification-2026-10-23.md`에 있다.
+
+## 2026-10-23 프로덕션 배포
+
+E-E-A-T 콘텐츠 개선과 검증된 수동 랭킹 4개를 Vercel deployment `dpl_4Yd3RFUJDb3z2SB9yLjUDrakBokq`에 배포했다. `allranks.world`가 해당 READY 배포를 가리킨다. 라이브 인증 우회 요청으로 랭킹 상세, sitemap, 검색 제안 API의 가용성을 확인했다.
+
+## 2026-10-25 로컬 일일 수집·배포 스킬
+
+사용자 스킬 `allranks-daily-local-deploy`를 추가했다. 로컬 AllRanks 저장소에서 자동 파이프라인 갱신과 에이전트 신규 랭킹 수집 후, 어시스턴트가 원출처를 직접 대조해 수동·에이전트 자료의 검증 책임을 수행한다. 검증된 변경만 검증·빌드 후 Vercel Production에 배포하며, 미검증 자료는 공개하지 않는다. 작업 트리 오염 시 중단하고 기존 변경을 건드리지 않는다. macOS LaunchAgent `world.allranks.daily-local-deploy`를 현지시간 00:00에 등록했다. 실행 로그는 `~/Library/Logs/allranks-daily-local-deploy.log`에 남는다. LaunchAgent는 사용자가 로그인한 세션에서 실행된다.

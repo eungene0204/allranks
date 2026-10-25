@@ -1,9 +1,9 @@
 {
   "id": "qs-universities",
-  "title": "Best Universities in the World",
+  "title": "QS World University Rankings 2027: Top 10",
   "category": "education",
   "icon": "🎓",
-  "desc": "Top universities in the QS World University Rankings. Ranked by overall position, shown with country.",
+  "desc": "The first ten institutions in QS World University Rankings 2027, ordered by QS overall position. Equal positions are ties; QS’s ranking reflects its own published methodology and is not a measure of every subject or every student’s fit.",
   "unit": "Rank",
   "prefix": "#",
   "suffix": "",
@@ -12,12 +12,13 @@
   "year": 2026,
   "source": {
     "kind": "manual",
-    "name": "QS World University Rankings 2027",
-    "url": "https://www.topuniversities.com/world-university-rankings",
-    "verified": false,
-    "note": "Top 10 of the edition released June 2026, read from press coverage of the QS release; ties (Imperial/Stanford, ETH/UCL) are listed in score order. Check against topuniversities.com before publishing."
+    "name": "QS World University Rankings 2027 (official QS table)",
+    "url": "https://www.topuniversities.com/qs-top-uni-wur",
+    "verified": true,
+    "note": "The first ten institutions, locations, edition, published score order and tie positions were checked against QS’s official 2027 table by the AllRanks assistant on 2026-10-23. QS ranks Imperial College London and Stanford jointly at 2, and ETH Zurich and UCL jointly at 8; the list uses the published rank positions rather than inventing scores. This is QS’s overall methodology, not a subject-specific or universal measure of university quality.",
+    "urls": []
   },
-  "updatedAt": "2026-10-15T00:00:00.000Z",
+  "updatedAt": "2026-10-23T00:00:00.000Z",
   "items": [
     {
       "name": "MIT",
@@ -34,7 +35,7 @@
     {
       "name": "Stanford University",
       "country": "US",
-      "value": 3,
+      "value": 2,
       "logo": "stanford.edu"
     },
     {
@@ -70,7 +71,7 @@
     {
       "name": "UCL",
       "country": "GB",
-      "value": 9,
+      "value": 8,
       "logo": "ucl.ac.uk"
     },
     {

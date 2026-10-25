@@ -1,52 +1,52 @@
 {
   "id": "refrigerators",
-  "title": "Refrigerator Brands to Compare",
+  "title": "Top Refrigerator Brand Scores (Consumer Reports, 2025)",
   "category": "everyday",
   "icon": "🧊",
-  "desc": "Kitchen: an editorial shortlist based on cited expert reviews, public evaluations and practical use. Brand order is a guide, not a universal quality score; exact model, fit, market and price matter.",
-  "unit": "Rank",
+  "desc": "Consumer Reports’ 2025 overall brand scores for French-door refrigerators, combining its laboratory testing, member survey data and product-line breadth. This source table ranks brands within this refrigerator style; it is not a reliability-only score or a model-specific recommendation.",
+  "unit": "Overall brand score",
   "prefix": "#",
   "suffix": "",
   "decimals": 0,
-  "order": "asc",
+  "order": "desc",
   "entityType": "product",
-  "year": 2026,
+  "year": 2025,
   "source": {
     "kind": "manual",
-    "name": "Consumer Reports — Refrigerator reliability",
-    "url": "https://www.consumerreports.org/appliances/refrigerators/most-and-least-reliable-refrigerator-brands-a8271265835/",
+    "name": "Consumer Reports — Best Refrigerator Brands of 2025 (licensed reprint)",
+    "url": "https://reprints.theygsgroup.com/cr/reprints/BestRefrigeratorBrands_2025.pdf",
     "urls": [
-      "https://www.consumerreports.org/appliances/appliance-reliability-guide-a8931129914/"
+      "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
     ],
-    "verified": false,
-    "note": "Curated comparison; model-level performance varies. Review the linked source and exact model before buying."
+    "verified": true,
+    "note": "The French-door refrigerator section and first five brands, their overall scores and order were checked against Consumer Reports’ licensed 2025 reprint by the AllRanks assistant on 2026-10-23. The source combines lab tests, member survey results and brand product-line breadth. It states no single brand is best across all refrigerator styles; scores are not model-level guarantees."
   },
-  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "updatedAt": "2026-10-23T00:00:00.000Z",
   "items": [
     {
       "name": "LG",
-      "detail": "Strong results in several refrigerator comparisons",
-      "value": 1
-    },
-    {
-      "name": "Whirlpool",
-      "detail": "Broad mainstream range and service availability",
-      "value": 2
+      "detail": "French-door refrigerator brand score published by Consumer Reports.",
+      "value": 75
     },
     {
       "name": "GE",
-      "detail": "Multiple configurations and repair network",
-      "value": 3
+      "detail": "French-door refrigerator brand score published by Consumer Reports.",
+      "value": 74
+    },
+    {
+      "name": "Haier",
+      "detail": "French-door refrigerator brand score published by Consumer Reports.",
+      "value": 74
     },
     {
       "name": "Bosch",
-      "detail": "Premium configurations to compare",
-      "value": 4
+      "detail": "French-door refrigerator brand score published by Consumer Reports.",
+      "value": 73
     },
     {
-      "name": "Sub-Zero",
-      "detail": "Premium built-in specialist",
-      "value": 5
+      "name": "Whirlpool",
+      "detail": "French-door refrigerator brand score published by Consumer Reports.",
+      "value": 70
     }
   ],
   "sort": 23

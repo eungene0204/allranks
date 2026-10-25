@@ -1,6 +1,6 @@
 /** Deployment settings read from the environment, so no account IDs or addresses live in the repository. */
 
-/** AdSense publisher ID (public by design: it is also served in /ads.txt). The environment variable overrides the default; "off" disables ads. */
+/** Public AdSense ownership identifier, also served in /ads.txt. Advertising scripts are paused; "off" removes the identifier. */
 const PUBLISHER = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-8335444243080631";
 export const ADSENSE_CLIENT = /^ca-pub-\d+$/.test(PUBLISHER) ? PUBLISHER : undefined;
 
