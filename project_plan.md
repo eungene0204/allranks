@@ -453,3 +453,22 @@
 - ✅ `allranks-daily-local-deploy` 사용자 스킬 작성: 로컬 소스 갱신·랭킹 발굴, 어시스턴트 직접 원출처 검증, 전체 검사, 검증된 결과의 Vercel 프로덕션 배포.
 - ✅ macOS LaunchAgent `world.allranks.daily-local-deploy`가 매일 현지시간 00:00에 실행된다. GitHub Actions 랭킹 예약을 대체했다. 로그: `~/Library/Logs/allranks-daily-local-deploy.log`.
 - ⬜ 첫 예약 실행 결과와 Vercel 배포 상태 확인. 현재 작업 트리 변경이 정리되기 전까지 스킬이 안전 가드에서 중단한다.
+
+## 2026-10-28 daily collection — stopped on source blocker
+
+- Completed clean main/origin synchronization, dependency and Vercel authentication checks, catalog coverage planning, and direct review of WIPO 2026 landing/results/cluster pages.
+- Candidate: WIPO innovation clusters 2026; unresolved Seoul rank discrepancy (fifth on landing/cluster pages versus fourth in results text). Full linked chapter inaccessible (browser HTTP 403; curl exit 56).
+- Changed ranking IDs: none. New private drafts: none. No ranking was marked verified.
+- Stopped before validation/build, commit, push, or deployment under the requested blocker policy. Only these required run-documentation entries changed; no production changes exist to deploy.
+- Follow-up: obtain the complete authoritative cluster dataset and resolve the official-source discrepancy before reconsidering this candidate.
+- Sources opened: https://www.wipo.int/en/web/global-innovation-index/2026/index ; https://www.wipo.int/web-publications/global-innovation-index-2026/en/gii-2026-results.html ; https://www.wipo.int/en/web/global-innovation-index/2026/innovation-clusters .
+
+## 2026-10-28 daily collection — continued
+
+- Continued after the WIPO source discrepancy using an independent primary source. Added `top500-fastest-supercomputers-2026-06`, the top ten of the June 2026 TOP500 list, after comparing all names, countries, ranks and HPL Rmax values against TOP500 directly. No WIPO draft was created.
+- Run data validation, lint and build, review the preserved documentation and publication filters, then commit, push and deploy the reviewed result.
+- Data validation passed (3,408 files, no errors or warnings) and lint passed. Build stopped in the editorial report because `top500-fastest-supercomputers-2026-06` has no source accessibility record. The run stopped before commit, push and deployment; resolve the editorial record and rerun all required checks before publishing.
+
+The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.
+
+Validation completed: data validation (3,408 files, zero errors or warnings), lint, and build passed; build passed on its permitted retry after Next.js SecurityFatalError following static generation. The local TOP500 detail and sitemap were checked; no private drafts exist. Next.js recommends a security upgrade.

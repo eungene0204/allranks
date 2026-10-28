@@ -1,0 +1,34 @@
+{
+  "id": "top500-fastest-supercomputers-2026-06",
+  "title": "Fastest Supercomputers: TOP500 June 2026",
+  "category": "ai",
+  "icon": "🖥️",
+  "desc": "The top ten systems in the June 2026 TOP500 list, ranked by measured High Performance Linpack (HPL) performance. The list covers submitted and accepted systems, not every supercomputer worldwide.",
+  "unit": "PFLOP/s (HPL Rmax)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2026,
+  "asOf": "2026-06",
+  "source": {
+    "kind": "manual",
+    "name": "TOP500 — June 2026 list",
+    "url": "https://www.top500.org/lists/top500/list/2026/06/",
+    "verified": true,
+    "note": "Verified by the AllRanks assistant on 2026-10-28 against the linked official June 2026 TOP500 list: compared the names, countries, ranks and Rmax values of all ten listed systems. Rmax is measured HPL performance in PFlop/s. This is the top ten of the 500 listed systems, not a census of all supercomputers; participation depends on TOP500 submissions."
+  },
+  "updatedAt": "2026-10-28T00:00:00.000Z",
+  "items": [
+    { "name": "LineShine", "country": "CN", "value": 2198.4 },
+    { "name": "El Capitan", "country": "US", "value": 1809 },
+    { "name": "Frontier", "country": "US", "value": 1353 },
+    { "name": "Aurora", "country": "US", "value": 1012 },
+    { "name": "JUPITER Booster", "country": "DE", "value": 1000 },
+    { "name": "HPC7", "country": "IT", "value": 571.5 },
+    { "name": "Eagle", "country": "US", "value": 561.2 },
+    { "name": "HPC6", "country": "IT", "value": 477.9 },
+    { "name": "Supercomputer Fugaku", "country": "JP", "value": 442.01 },
+    { "name": "Alps", "country": "CH", "value": 434.9 }
+  ]
+}

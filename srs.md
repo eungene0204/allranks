@@ -418,3 +418,15 @@ E-E-A-T 콘텐츠 개선 및 검증된 초안 4개는 Vercel production에 배�
 - ✅ `allranks-daily-local-deploy` 스킬이 로컬 수집, 어시스턴트의 원출처 직접 검증, 데이터/타입/빌드 검사와 Vercel 프로덕션 배포 절차를 규정한다. 사용자의 별도 검증 단계 없이 어시스턴트가 검증 책임을 완료한다.
 - ✅ `verified:false` 자료의 공개 금지 및 작업 트리 변경 보호를 유지한다.
 - ✅ macOS LaunchAgent `world.allranks.daily-local-deploy`가 매일 현지시간 00:00에 실행된다. 로그인 세션과 깨끗한 작업 트리가 필요하다. GitHub Actions의 `data-agent.yml` 및 `container-ports.yml` 예약 실행은 제거했다.
+
+## 2026-10-28 daily collection — verification gate
+
+The proposed WIPO 2026 innovation-cluster ranking was not created or published. The official landing page lists Seoul fifth, while the GII results text describes Seoul as fourth. The linked complete cluster chapter returned HTTP 403 via the browser; a direct curl request also failed (exit 56). Complete source order could not be established, so the verification gate stopped this run. Existing ranking verification and public filters remain unchanged.
+
+## 2026-10-28 continued collection
+
+The verified TOP500 June 2026 top ten exposes measured HPL Rmax in PFlop/s and identifies the selection as the top ten of submitted systems. The unresolved WIPO cluster candidate remains unpublished.
+
+The continued run remains unpublished: the build's editorial coverage gate requires a source accessibility record for the TOP500 ranking before deployment.
+
+The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.

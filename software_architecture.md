@@ -480,3 +480,15 @@ E-E-A-T 콘텐츠 개선과 검증된 수동 랭킹 4개를 Vercel deployment `d
 ## 2026-10-25 로컬 일일 수집·배포 스킬
 
 사용자 스킬 `allranks-daily-local-deploy`를 추가했다. 로컬 AllRanks 저장소에서 자동 파이프라인 갱신과 에이전트 신규 랭킹 수집 후, 어시스턴트가 원출처를 직접 대조해 수동·에이전트 자료의 검증 책임을 수행한다. 검증된 변경만 검증·빌드 후 Vercel Production에 배포하며, 미검증 자료는 공개하지 않는다. 작업 트리 오염 시 중단하고 기존 변경을 건드리지 않는다. macOS LaunchAgent `world.allranks.daily-local-deploy`를 현지시간 00:00에 등록했다. 실행 로그는 `~/Library/Logs/allranks-daily-local-deploy.log`에 남는다. LaunchAgent는 사용자가 로그인한 세션에서 실행된다.
+
+## 2026-10-28 daily collection — source blocker
+
+No architecture, code, or ranking data changed. The clean automation checkout on main matched origin/main at eb86850835f08e780123bf1b240efe3410e32569; dependencies and authenticated Vercel CLI were available. The current Codex session ran agent:plan without invoking an external model.
+
+## 2026-10-28 continued collection
+
+Added a source-verified manual ranking for the top ten systems in TOP500's June 2026 list. Existing public filtering and data architecture are unchanged.
+
+The build's editorial coverage gate also requires a source accessibility record for the new ranking; this requirement blocked the continued run before deployment.
+
+The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.
