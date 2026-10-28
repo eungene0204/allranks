@@ -492,3 +492,7 @@ Added a source-verified manual ranking for the top ten systems in TOP500's June 
 The build's editorial coverage gate also requires a source accessibility record for the new ranking; this requirement blocked the continued run before deployment.
 
 The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.
+
+## 2026-10-29 daily collection
+
+The 20 October 2026 women’s 100m top-ten snapshot uses the existing verified manual ranking and source-access records; publication filters are unchanged.

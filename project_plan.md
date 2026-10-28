@@ -472,3 +472,7 @@
 The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.
 
 Validation completed: data validation (3,408 files, zero errors or warnings), lint, and build passed; build passed on its permitted retry after Next.js SecurityFatalError following static generation. The local TOP500 detail and sitemap were checked; no private drafts exist. Next.js recommends a security upgrade.
+
+## 2026-10-29 daily collection
+
+Added `world-athletics-womens-100m-2026-10-20` after directly comparing all ten names, countries, places and points with the official table. The men’s candidate was inaccessible; the women’s table provided an independently accessible alternative. No draft was created.

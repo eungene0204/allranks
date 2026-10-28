@@ -430,3 +430,7 @@ The verified TOP500 June 2026 top ten exposes measured HPL Rmax in PFlop/s and i
 The continued run remains unpublished: the build's editorial coverage gate requires a source accessibility record for the TOP500 ranking before deployment.
 
 The resumed run directly rechecked all ten TOP500 entries against the official June 2026 table and recorded the source HTTP 200 accessibility observation; the editorial gate can now assess the ranking. The WIPO candidate remains uncreated pending resolution of its source discrepancy.
+
+## 2026-10-29 daily collection
+
+The women’s 100m ranking displays World Athletics ranking points for the dated top ten, distinguishes points from race times, and identifies the live-source and short-sprint scope.
