@@ -476,3 +476,5 @@ Validation completed: data validation (3,408 files, zero errors or warnings), li
 ## 2026-10-29 daily collection
 
 Added `world-athletics-womens-100m-2026-10-20` after directly comparing all ten names, countries, places and points with the official table. The men’s candidate was inaccessible; the women’s table provided an independently accessible alternative. No draft was created.
+
+- 2026-10-30: Added and source-verified the June 2026 Green500 energy-efficiency top ten; future runs should check for a newer edition.

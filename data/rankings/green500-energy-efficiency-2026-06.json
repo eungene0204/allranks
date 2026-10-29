@@ -1,0 +1,34 @@
+{
+  "id": "green500-energy-efficiency-2026-06",
+  "title": "Most Energy-Efficient Supercomputers: Green500 June 2026",
+  "category": "ai",
+  "icon": "🖥️",
+  "desc": "The top ten systems in the June 2026 Green500 list, ranked by energy efficiency on the High Performance Linpack benchmark. This covers eligible TOP500 submissions, not every supercomputer worldwide; some entries are system partitions.",
+  "unit": "GFLOP/s per watt",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 3,
+  "order": "desc",
+  "year": 2026,
+  "asOf": "2026-06",
+  "source": {
+    "kind": "manual",
+    "name": "TOP500 — Green500 June 2026 list",
+    "url": "https://www.top500.org/lists/green500/list/2026/06/",
+    "verified": true,
+    "note": "Verified by the AllRanks assistant on 2026-10-30 against the linked official June 2026 Green500 table: compared all ten system names, countries, ranks and energy efficiency values in GFlops/watt. The list covers eligible TOP500 submissions rather than all supercomputers; entries can represent partitions, and benchmark efficiency is not a measure of total energy consumption."
+  },
+  "updatedAt": "2026-10-30T00:00:00.000Z",
+  "items": [
+    { "name": "KAIROS", "country": "FR", "value": 73.282 },
+    { "name": "ROMEO-2025", "country": "FR", "value": 70.912 },
+    { "name": "Levante GPU extension", "country": "DE", "value": 69.426 },
+    { "name": "Isambard-AI phase 1", "country": "GB", "value": 68.835 },
+    { "name": "Otus (GPU only)", "country": "DE", "value": 68.177 },
+    { "name": "Capella", "country": "DE", "value": 68.053 },
+    { "name": "SSC-24 Energy Module", "country": "KR", "value": 67.251 },
+    { "name": "Helios GPU", "country": "PL", "value": 66.948 },
+    { "name": "AMD Ouranos", "country": "FR", "value": 66.464 },
+    { "name": "Portage", "country": "US", "value": 66.277 }
+  ]
+}

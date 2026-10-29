@@ -434,3 +434,5 @@ The resumed run directly rechecked all ten TOP500 entries against the official J
 ## 2026-10-29 daily collection
 
 The women’s 100m ranking displays World Athletics ranking points for the dated top ten, distinguishes points from race times, and identifies the live-source and short-sprint scope.
+
+- The catalog includes the verified June 2026 Green500 top ten by HPL energy efficiency, with units and submission/partition limitations shown in its description.

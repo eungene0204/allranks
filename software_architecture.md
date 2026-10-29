@@ -496,3 +496,5 @@ The resumed run directly rechecked all ten TOP500 entries against the official J
 ## 2026-10-29 daily collection
 
 The 20 October 2026 women’s 100m top-ten snapshot uses the existing verified manual ranking and source-access records; publication filters are unchanged.
+
+- The June 2026 Green500 top-ten energy-efficiency snapshot is stored as a source-verified manual ranking alongside the TOP500 performance snapshot; its scope is eligible submitted systems and partitions.
