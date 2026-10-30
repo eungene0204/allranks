@@ -1,5 +1,7 @@
 # AllRanks 소프트웨어 아키텍처
 
+2026-10-31: 공식 TOP500 HPCG June 2026 상위 10개를 기존 JSON 데이터 구조에 추가했다. HPCG TFLOP/s를 저장하며 HPL Rmax 및 Green500 효율과 구분한다. 구조·코드 변경은 없다.
+
 2026-10-25: 공식 WJP Rule of Law Index 2026 CSV의 전체 점수 행을 대조해 143개국·관할구역을 `wjp-rule-of-law-index-2026`에 추가했다. 원점수는 0–1이며 정렬은 내림차순이다. CSV 원본 검증 기록은 ranking JSON에, URL 접근 상태는 `data/editorial/source-access.json`에 둔다. Kosovo는 ISO-3 `XKX`에서 ISO-2 `XK`로 연결했다.
 
 2026-10-23: 랭킹 상세 JSON-LD는 AllRanks를 편집 해설 작성자로 표시한다. 출처 라이선스가 확인된 자료만 `Dataset`으로 표시하며, 라이선스 미기재 자료는 `Article`에서 원출처를 직접 연결한다. 미기재 라이선스는 추정하지 않는다.

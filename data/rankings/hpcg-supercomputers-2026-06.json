@@ -1,0 +1,74 @@
+{
+  "id": "hpcg-supercomputers-2026-06",
+  "title": "HPCG Supercomputer Performance: June 2026",
+  "category": "ai",
+  "icon": "🖥️",
+  "desc": "The top ten systems in the June 2026 High-Performance Conjugate Gradient (HPCG) list. This benchmark emphasizes memory access and communication behavior and differs from HPL. Coverage is limited to submitted HPCG results, not every supercomputer worldwide.",
+  "unit": "TFLOP/s (HPCG)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "year": 2026,
+  "asOf": "2026-06",
+  "source": {
+    "kind": "manual",
+    "name": "TOP500 — HPCG June 2026 list",
+    "url": "https://www.top500.org/lists/hpcg/list/2026/06/",
+    "verified": true,
+    "note": "Verified by the AllRanks assistant on 2026-10-31 against the official June 2026 HPCG full list and its top-ten summary: compared all ten system names, countries, ranks and HPCG values in TFlop/s. Stored values are HPCG results, not the adjacent HPL Rmax column in PFlop/s. This is a top-ten extract of submitted HPCG results, not a census of all supercomputers or an application-independent performance ranking; systems without a submitted HPCG result are excluded."
+  },
+  "updatedAt": "2026-10-31T00:00:00.000Z",
+  "items": [
+    {
+      "name": "LineShine",
+      "country": "CN",
+      "value": 22004.9
+    },
+    {
+      "name": "El Capitan",
+      "country": "US",
+      "value": 17406
+    },
+    {
+      "name": "Supercomputer Fugaku",
+      "country": "JP",
+      "value": 16004.5
+    },
+    {
+      "name": "Frontier",
+      "country": "US",
+      "value": 14054
+    },
+    {
+      "name": "HPC7",
+      "country": "IT",
+      "value": 5949.81
+    },
+    {
+      "name": "Aurora",
+      "country": "US",
+      "value": 5612.6
+    },
+    {
+      "name": "LUMI",
+      "country": "FI",
+      "value": 4586.95
+    },
+    {
+      "name": "CHIE-4",
+      "country": "JP",
+      "value": 3760.55
+    },
+    {
+      "name": "Alps",
+      "country": "CH",
+      "value": 3671.32
+    },
+    {
+      "name": "Leonardo",
+      "country": "IT",
+      "value": 3113.94
+    }
+  ]
+}
