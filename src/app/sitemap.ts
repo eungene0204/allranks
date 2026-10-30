@@ -5,7 +5,9 @@ import snapshots from "../../data/seo-snapshots.json";
 import { READING_GUIDES, GUIDE_REVIEWED_AT } from "@/lib/reading-guides";
 import { SITE_URL } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+// All inputs are deployment snapshots. Generate once instead of running a
+// function and transferring the full XML on every crawler request.
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL;

@@ -500,3 +500,7 @@ The resumed run directly rechecked all ten TOP500 entries against the official J
 The 20 October 2026 women’s 100m top-ten snapshot uses the existing verified manual ranking and source-access records; publication filters are unchanged.
 
 - The June 2026 Green500 top-ten energy-efficiency snapshot is stored as a source-verified manual ranking alongside the TOP500 performance snapshot; its scope is eligible submitted systems and partitions.
+
+## 2026-10-31 Fast Origin Transfer 절감
+
+국가 페이지는 searchParams 기반 페이지네이션으로 동적 렌더링되므로 /country/:code에만 Vercel-CDN-Cache-Control: public, s-maxage=86400을 설정한다. 공개 배포 스냅샷이며 개인정보는 없다. URL별 CDN 캐시를 사용하고 배포 시 갱신한다. 사이트맵은 force-static으로 배포 시 생성한다. API·하위 공유 이미지 경로에는 이 정책을 확장하지 않는다.

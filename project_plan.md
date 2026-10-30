@@ -480,3 +480,7 @@ Validation completed: data validation (3,408 files, zero errors or warnings), li
 Added `world-athletics-womens-100m-2026-10-20` after directly comparing all ten names, countries, places and points with the official table. The men’s candidate was inaccessible; the women’s table provided an independently accessible alternative. No draft was created.
 
 - 2026-10-30: Added and source-verified the June 2026 Green500 energy-efficiency top ten; future runs should check for a newer edition.
+
+## 2026-10-31 Fast Origin Transfer 절감
+
+운영 진단: 최근 1시간 요청 841건 중 크롤러 User-Agent 715건, 국가 페이지 요청 450건은 전부 MISS였다. 반복 HTTP 검사에서도 국가 페이지 no-store, 433,792바이트 사이트맵 MISS를 확인했다. 전체 월간 7.96GB의 경로별 기여도는 확인하지 못했다. 수정: 국가 페이지 URL별 CDN 1일 캐시와 사이트맵 정적 생성. 로컬 프로덕션 빌드와 페이지 1·2 내용/메타데이터, CDN 헤더 범위, 사이트맵 HIT 검사 통과. 기존 Next.js 보안 업데이트 안내가 빌드 첫 시도에 표시됐으며 재실행은 성공했다.
