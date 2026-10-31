@@ -442,3 +442,7 @@ The women’s 100m ranking displays World Athletics ranking points for the dated
 ## 2026-10-31 Fast Origin Transfer 절감
 
 국가 페이지는 ?page=N별 내용·제목을 유지하며 Vercel CDN에서 최대 하루 캐시한다. 사이트맵은 공개 스냅샷으로 정적 생성한다. 개인화·사용자별 콘텐츠를 국가 페이지에 도입하면 이 공유 캐시 정책을 재검토해야 한다.
+
+## 2026-11-01 daily collection
+
+`world-athletics-mens-200m-2026-10-27` exposes ten source-verified athletes and ranking points as of 27 October 2026, with top-ten, live-source and short-track limitations. Public verification filters remain unchanged.

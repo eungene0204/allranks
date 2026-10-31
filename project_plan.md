@@ -484,3 +484,9 @@ Added `world-athletics-womens-100m-2026-10-20` after directly comparing all ten 
 ## 2026-10-31 Fast Origin Transfer 절감
 
 운영 진단: 최근 1시간 요청 841건 중 크롤러 User-Agent 715건, 국가 페이지 요청 450건은 전부 MISS였다. 반복 HTTP 검사에서도 국가 페이지 no-store, 433,792바이트 사이트맵 MISS를 확인했다. 전체 월간 7.96GB의 경로별 기여도는 확인하지 못했다. 수정: 국가 페이지 URL별 CDN 1일 캐시와 사이트맵 정적 생성. 로컬 프로덕션 빌드와 페이지 1·2 내용/메타데이터, CDN 헤더 범위, 사이트맵 HIT 검사 통과. 기존 Next.js 보안 업데이트 안내가 빌드 첫 시도에 표시됐으며 재실행은 성공했다.
+
+## 2026-11-01 daily collection
+
+Clean main checkout; no unfinished local automation files existed. Reviewed and fast-forwarded origin/main (60d17c0). Ran coverage planning and directly verified all ten men’s 200m rows against World Athletics. No candidate was blocked and no private draft was created. Required validation, local page review, commit/push and production deployment follow.
+
+Required checks passed: data validation 3,412 files (0 errors/warnings), lint, editorial coverage 3,412 public / 0 private drafts, production build on the single permitted retry after post-generation SecurityFatalError. Next.js recommends a security upgrade. Local production detail, search and sitemap returned HTTP 200 with the new snapshot; public filters reviewed unchanged. Diff reviewed; commit/push and production READY/domain verification are the remaining release steps.

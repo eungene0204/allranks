@@ -504,3 +504,7 @@ The 20 October 2026 women’s 100m top-ten snapshot uses the existing verified m
 ## 2026-10-31 Fast Origin Transfer 절감
 
 국가 페이지는 searchParams 기반 페이지네이션으로 동적 렌더링되므로 /country/:code에만 Vercel-CDN-Cache-Control: public, s-maxage=86400을 설정한다. 공개 배포 스냅샷이며 개인정보는 없다. URL별 CDN 캐시를 사용하고 배포 시 갱신한다. 사이트맵은 force-static으로 배포 시 생성한다. API·하위 공유 이미지 경로에는 이 정책을 확장하지 않는다.
+
+## 2026-11-01 daily collection
+
+Added the verified men’s 200m top-ten snapshot using the existing ranking JSON and source accessibility record. No application structure or code changes.
