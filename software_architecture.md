@@ -508,3 +508,7 @@ The 20 October 2026 women’s 100m top-ten snapshot uses the existing verified m
 ## 2026-11-01 daily collection
 
 Added the verified men’s 200m top-ten snapshot using the existing ranking JSON and source accessibility record. No application structure or code changes.
+
+## 2026-11-02 daily collection
+
+Added the verified men’s 400m top-ten snapshot and source-access observation using the existing JSON architecture. Public verification filters are unchanged; no application code changes.

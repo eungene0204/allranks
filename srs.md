@@ -446,3 +446,7 @@ The women’s 100m ranking displays World Athletics ranking points for the dated
 ## 2026-11-01 daily collection
 
 `world-athletics-mens-200m-2026-10-27` exposes ten source-verified athletes and ranking points as of 27 October 2026, with top-ten, live-source and short-track limitations. Public verification filters remain unchanged.
+
+## 2026-11-02 daily collection
+
+The 27 October 2026 men’s 400m (300m–500m) snapshot shows ranking points, short-track scope and top-ten limitations. Source places 9/10 share 1326 points; the existing UI displays equal-value ties.
