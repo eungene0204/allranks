@@ -512,3 +512,7 @@ Added the verified men’s 200m top-ten snapshot using the existing ranking JSON
 ## 2026-11-02 daily collection
 
 Added the verified men’s 400m top-ten snapshot and source-access observation using the existing JSON architecture. Public verification filters are unchanged; no application code changes.
+
+## 2026-11-03 daily collection
+
+Added a verified manual men’s 800m snapshot and HTTP 200 source-access observation using the existing JSON architecture; publication filters and application code are unchanged.
