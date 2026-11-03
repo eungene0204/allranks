@@ -454,3 +454,7 @@ The 27 October 2026 men’s 400m (300m–500m) snapshot shows ranking points, sh
 ## 2026-11-03 daily collection
 
 world-athletics-mens-800m-2026-10-27 contains ten verified athletes, countries and ranking points as of 27 October 2026. The description identifies 600m–1000m scope, short-track inclusion and top-ten/live-source limitations.
+
+## 2026-11-04 daily collection
+
+world-athletics-mens-1500m-2026-10-27 contains ten verified athletes, countries and ranking points as of 27 October 2026. Description covers Mile–2000m–Mile Road scope, short-track inclusion, top-ten/live-source limitations and equal-score display for source places 8/9.

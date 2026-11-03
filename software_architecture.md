@@ -516,3 +516,7 @@ Added the verified men’s 400m top-ten snapshot and source-access observation u
 ## 2026-11-03 daily collection
 
 Added a verified manual men’s 800m snapshot and HTTP 200 source-access observation using the existing JSON architecture; publication filters and application code are unchanged.
+
+## 2026-11-04 daily collection
+
+Added the verified manual men’s 1500m snapshot and source-access observation using the existing JSON architecture. Application code and public verification filters are unchanged.
