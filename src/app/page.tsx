@@ -1,6 +1,6 @@
 import { pageMetadata } from "@/lib/seo";
 
-export const metadata = pageMetadata("World rankings", "Compare countries across universities, GDP, prices and more. Explore rankings with original sources and reference years.", "/");
+export const metadata = pageMetadata("World rankings – AllRanks", "Compare countries across universities, GDP, prices and more. Explore rankings with original sources and reference years.", "/");
 
 import FooterFaq from "@/components/FooterFaq";
 import ReadingGuideCards from "@/components/ReadingGuideCards";
@@ -28,10 +28,10 @@ export default function HomePage() {
           <span><b>{countries.length}</b> countries</span>
         </div>
         <h1 id="home-headline">
-          <span className="hero-headline-line">No country tops</span>{" "}
-          <em>everything<span className="hero-period">.</span></em>
+          <span className="hero-headline-line">World rankings.</span>{" "}
+          <em>Compare countries<span className="hero-period">.</span></em>
         </h1>
-        <p>From universities to GDP, fuel to Big Macs.<br className="hero-copy-break" /> Discover where each country stands.</p>
+        <p>Compare countries using rankings with original sources and reference years.<br className="hero-copy-break" /> Discover where each country stands.</p>
         <div className="hero-explore-cue" aria-hidden="true">
           <span>One world. A thousand perspectives.</span>
           <span className="hero-cue-line" />
@@ -43,7 +43,7 @@ export default function HomePage() {
         appearanceCount: appearances.length,
         appearances: appearances.slice(0, 6),
         leadCount: appearances.filter((a) => a.rank === 1).length,
-        leads: appearances.filter((a) => a.rank === 1).slice(0, 3),
+        leads: appearances.filter((a) => a.rank === 1).slice(0, 3).map(({ id, title, icon, logo }) => ({ id, title, icon, logo })),
         regionalCount: regional.length,
         regionalIcons: regional.slice(0, 8).map((r) => r.icon),
       }))} />

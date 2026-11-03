@@ -7,7 +7,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import { feature } from "topojson-client";
-import countries110 from "world-atlas/countries-110m.json";
 import type { CountrySummary } from "@/lib/types";
 import Mark from "./Mark";
 
@@ -73,7 +72,7 @@ const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v
 export type GlobeCountry = Omit<CountrySummary, "appearances" | "regional"> & {
   appearances: CountrySummary["appearances"];
   appearanceCount: number;
-  leads: CountrySummary["appearances"];
+  leads: Pick<CountrySummary["appearances"][number], "id" | "title" | "icon" | "logo">[];
   leadCount: number;
   regionalCount: number;
   regionalIcons: string[];
@@ -131,9 +130,15 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
       projection.translate([size / 2, size / 2]).scale(size * GLOBE_FILL * v.zoom).rotate([-v.lng / DEG, -v.lat / DEG, -TILT / DEG]);
     };
     const graticule = geoGraticule().step([15, 15])();
-    const coarse = toShapes(countries110);
+    let coarse: Shape[] = [];
     let land = coarse;
     let disposed = false;
+    import("world-atlas/countries-110m.json").then((m) => {
+      if (disposed) return;
+      coarse = toShapes(m.default);
+      land = coarse;
+      view.current.dirty = true;
+    }).catch(() => { /* Country links remain available if the map cannot load. */ });
     // Sharper borders for when the user zooms in; loaded in the background.
     let detailed: Shape[] | null = null;
     import("world-atlas/countries-50m.json").then((m) => {

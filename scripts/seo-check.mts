@@ -36,7 +36,7 @@ assert(!feed.includes("Invalid Date"));
 const robots = await get("/robots.txt"); assert(!robots.includes("Disallow: /search"));
 assert((await get("/llms.txt")).includes("not the original author"));
 const search = await get("/search?q=india"); canonical(search, "/search?q=india");
-assert(search.includes('content="index, follow"'), "Search indexable");
+assert(search.includes('content="noindex, follow"'), "Internal search excluded from indexing");
 assert(search.includes("Search: india"), "Query-specific title");
 const source: Ranking = JSON.parse(readFileSync("data/rankings/wbx-lp-lpi-trac-rk.json", "utf8"));
 const ranking = await get(`/ranking/${source.id}`); canonical(ranking, `/ranking/${source.id}`);

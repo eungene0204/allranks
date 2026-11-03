@@ -20,7 +20,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const query = new URLSearchParams();
   if (q) query.set("q", q);
   if (page > 1) query.set("page", String(page));
-  return { ...pageMetadata(q ? `Search: ${q}${page > 1 ? ` — Page ${page}` : ""}` : "Search rankings", q ? `Find countries, rankings and entries matching “${q}” on AllRanks, with sources and reference years.` : "Search AllRanks by country, topic or entry name to find rankings with sources and reference years.", `/search${query.size ? `?${query}` : ""}`), robots: { index: true, follow: true } };
+  return { ...pageMetadata(q ? `Search: ${q}${page > 1 ? ` — Page ${page}` : ""}` : "Search rankings", q ? `Find countries, rankings and entries matching “${q}” on AllRanks, with sources and reference years.` : "Search AllRanks by country, topic or entry name to find rankings with sources and reference years.", `/search${query.size ? `?${query}` : ""}`), robots: { index: false, follow: true } };
 }
 
 export default async function SearchPage({ searchParams }: Props) {

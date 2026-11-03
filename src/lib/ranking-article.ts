@@ -96,7 +96,7 @@ export function buildRankingArticle(r: Ranking, context: ArticleContext): Rankin
   return {
     title: profile.question,
     profile: profile.id,
-    lead: `Read “${r.title}” as a comparison of ${scope} under the stated ${r.unit} measure. ${profile.id === "local-currency" ? "Raw local-currency amounts do not support a common international ranking." : profile.id === "binary" ? "Its yes/no codes form groups rather than a performance ladder." : profile.id === "projection" ? "The result is conditional on projection assumptions." : "The useful conclusion depends on the definition, included entries and reference period."}`,
+    lead: `${findings[0]} Read “${r.title}” as a comparison of ${scope} under the stated ${r.unit} measure. ${profile.id === "local-currency" ? "Raw local-currency amounts do not support a common international ranking." : profile.id === "binary" ? "Its yes/no codes form groups rather than a performance ladder." : profile.id === "projection" ? "The result is conditional on projection assumptions." : "The useful conclusion depends on the definition, included entries and reference period."}`,
     sections: [
       { title: "What question does this measure answer?", paragraphs: measure },
       { title: "What the included observations show", paragraphs: findings },

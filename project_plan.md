@@ -508,3 +508,8 @@ Required checks passed: data validation 3,414 files (0 errors/warnings), lint, e
 Clean main matched origin/main; no unfinished automation changes existed. Ran coverage planning and confirmed dependencies, current Codex session and Vercel authentication. Directly opened the official men’s 1500m source and compared all ten names, countries, places, scores, date and scope. Added world-athletics-mens-1500m-2026-10-27; no blocked candidate or private draft. Required checks and release verification follow.
 
 Required checks passed: data validation 3,415 files (0 errors/warnings), lint, editorial coverage and production build on the single permitted retry after post-generation SecurityFatalError. Next.js still reports a security upgrade recommendation. Local production detail, search suggestions and sitemap returned HTTP 200 with the new snapshot; missing detail returned 404. No private drafts exist. Reviewed all six changed files and unchanged public verification filters; git diff --check passed. Proceeding to commit/push and production READY/domain confirmation.
+
+
+## 2026-11-04 온페이지 SEO·보안 배포
+
+최신 origin/main ef0f7a4 기준 격리 작업 폴더에 SEO 변경과 Next.js 16.4.3을 반영했다. 검색 noindex/follow, 로딩 H1 제거, 홈 주제/제목, 상세 요약·출처 배치와 검색 제목, Dataset 원 제공자/수정일, 해설 직답, 지도 지연 로딩을 포함한다. 작업 중이던 별도 랭킹·상관관계 기능은 제외했다. 기존 원격 랭킹은 유지하며 새 원장 변경은 없다. 배포 전 데이터 검증·타입·빌드·실제 HTML 검사 후 프로덕션 배포한다. 배포 후 같은 응답 검사를 수행하고 11월 18일 검색 노출/클릭/CTR 및 검색 URL 색인 상태를 비교한다.
