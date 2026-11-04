@@ -463,3 +463,7 @@ world-athletics-mens-1500m-2026-10-27 contains ten verified athletes, countries 
 ## 2026-11-04 온페이지 SEO·보안 배포
 
 최신 origin/main ef0f7a4 기준 격리 작업 폴더에 SEO 변경과 Next.js 16.4.3을 반영했다. 검색 noindex/follow, 로딩 H1 제거, 홈 주제/제목, 상세 요약·출처 배치와 검색 제목, Dataset 원 제공자/수정일, 해설 직답, 지도 지연 로딩을 포함한다. 작업 중이던 별도 랭킹·상관관계 기능은 제외했다. 기존 원격 랭킹은 유지하며 새 원장 변경은 없다. 배포 전 데이터 검증·타입·빌드·실제 HTML 검사 후 프로덕션 배포한다. 배포 후 같은 응답 검사를 수행하고 11월 18일 검색 노출/클릭/CTR 및 검색 URL 색인 상태를 비교한다.
+
+## 2026-11-05 daily collection
+
+world-athletics-mens-5000m-2026-11-03 contains ten source-verified athletes, countries and ranking points as of 3 November 2026. Description identifies associated-event scope, short-track/road inclusion, top-ten/live-source limits and ties at source places 5–7.
