@@ -467,3 +467,8 @@ world-athletics-mens-1500m-2026-10-27 contains ten verified athletes, countries 
 ## 2026-11-05 daily collection
 
 world-athletics-mens-5000m-2026-11-03 contains ten source-verified athletes, countries and ranking points as of 3 November 2026. Description identifies associated-event scope, short-track/road inclusion, top-ten/live-source limits and ties at source places 5–7.
+
+
+## 2026-11-05 유럽 법치 지수
+
+Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수 순위를 추가했다. 기사 표의 국가와 순위 및 2026년 점수를 WJP 공식 CSV와 대조했다. 2021 비교값은 기사에서 전사했으며 WJP 원자료와 별도 대조하지 않았다.

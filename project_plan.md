@@ -519,3 +519,8 @@ Required checks passed: data validation 3,415 files (0 errors/warnings), lint, e
 Clean local main had no unfinished automation files. Fast-forwarded origin/main SEO/security update; synchronized dependencies. Ran coverage planning and verified all ten men’s 5000m rows against the directly retrieved official source. Search copy lagged by one edition; direct HTML establishes 3 November 2026. No blocked candidate or private draft. Required checks and release verification follow.
 
 Required checks passed: data validation 3,416 files (0 errors/warnings), lint, editorial coverage 3,416 public / 0 private drafts, and production build on its first attempt with Next.js 16.4.3. Local production detail, search suggestions and sitemap returned HTTP 200 containing the new snapshot; missing detail returned 404. Reviewed all six changed files and unchanged public verification filters; git diff --check passed. Commit/push and production READY/domain confirmation follow.
+
+
+## 2026-11-05 유럽 법치 지수
+
+Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수 순위를 추가했다. 기사 표의 국가와 순위 및 2026년 점수를 WJP 공식 CSV와 대조했다. 2021 비교값은 기사에서 전사했으며 WJP 원자료와 별도 대조하지 않았다.

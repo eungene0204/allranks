@@ -529,3 +529,8 @@ Added the verified manual men’s 1500m snapshot and source-access observation u
 ## 2026-11-05 daily collection
 
 Added a verified manual men’s 5000m snapshot and source-access observation using the existing JSON architecture; public verification filters remain unchanged.
+
+
+## 2026-11-05 유럽 법치 지수
+
+Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수 순위를 추가했다. 기사 표의 국가와 순위 및 2026년 점수를 WJP 공식 CSV와 대조했다. 2021 비교값은 기사에서 전사했으며 WJP 원자료와 별도 대조하지 않았다.
