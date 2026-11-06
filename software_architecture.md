@@ -536,3 +536,8 @@ Added a verified manual men’s 5000m snapshot and source-access observation usi
 Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수 순위를 추가했다. 기사 표의 국가와 순위 및 2026년 점수를 WJP 공식 CSV와 대조했다. 2021 비교값은 기사에서 전사했으며 WJP 원자료와 별도 대조하지 않았다.
 
 - 2026-11-06: Added the source-verified World Athletics men’s 10,000m top-ten snapshot (3 November 2026); equal points are displayed as ties and the live source may change.
+
+
+## 2026-11-07 daily collection
+
+Added a verified manual marathon snapshot using the existing JSON architecture; public verification filters remain unchanged.

@@ -526,3 +526,10 @@ Required checks passed: data validation 3,416 files (0 errors/warnings), lint, e
 Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수 순위를 추가했다. 기사 표의 국가와 순위 및 2026년 점수를 WJP 공식 CSV와 대조했다. 2021 비교값은 기사에서 전사했으며 WJP 원자료와 별도 대조하지 않았다.
 
 - 2026-11-06: Added the source-verified World Athletics men’s 10,000m top-ten snapshot (3 November 2026); equal points are displayed as ties and the live source may change.
+
+
+## 2026-11-07 daily collection
+
+Clean main matched origin/main; no unfinished automation files existed. Ran coverage planning and confirmed dependencies, current Codex session and Vercel authentication. Two candidate steeplechase URL forms returned no results; continued with the original official marathon source (100 page-one rows) and verified its first ten entries. Added world-athletics-mens-marathon-2026-11-03; no private draft created. Required checks and release verification follow.
+
+Required checks passed: 3,419 files, zero errors/warnings; lint; editorial coverage 3,419 public / zero private drafts; production build on first attempt. Local production detail, search, suggestions and sitemap returned HTTP 200 with the new ranking; missing detail returned 404. Port 3100 was occupied, so isolated verification used port 3117. All six changed files and unchanged public verification filters reviewed; diff check passed. Proceeding to commit/push and production READY/domain verification.
