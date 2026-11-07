@@ -1,0 +1,236 @@
+{
+  "verifiedBy": "AllRanks assistant",
+  "verifiedOn": "2026-11-08",
+  "capturedAt": "2026-11-07T20:23:53.877368+00:00",
+  "sources": [
+    {
+      "url": "https://livebench.ai/static/js/main.1e1ce12d.js",
+      "file": "livebench-app.js.gz",
+      "sha256": "b4158e5400886ba821e3c3b284a4a0b36687ffd04faedbe8a0492cf29d79ee8f",
+      "bytes": 386105,
+      "hashScope": "uncompressed bytes"
+    },
+    {
+      "url": "https://livebench.ai/data/20261025/table.csv",
+      "file": "livebench-v2.csv",
+      "sha256": "a790e07b2ed710fbaa90eec799fcdfcbc04e4d37c16f7dc45cb3071717694d02",
+      "bytes": 1678
+    },
+    {
+      "url": "https://livebench.ai/data/20261025/categories.json",
+      "file": "livebench-v2-categories.json",
+      "sha256": "b5366a69719445fa91e970de6f248c666115bbc5d8b8d134f33bb5fcc399a7ce",
+      "bytes": 320
+    },
+    {
+      "url": "https://livebench.ai/v1/table_2026_06_25.csv",
+      "file": "livebench-v1.csv",
+      "sha256": "09d810986777c92b75b40a58a1829e0318e34cb5693ecae970b3145852271ba7",
+      "bytes": 11910
+    },
+    {
+      "url": "https://livebench.ai/v1/categories_2026_06_25.json",
+      "file": "livebench-v1-categories.json",
+      "sha256": "dad300ad18655b69db720e1b88fc5a5eac06c5b2f0e52c2bf50f10ff057674f3",
+      "bytes": 725
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "file": "swe-bench-leaderboards.json.gz",
+      "sha256": "83cd949a9582f4dd68b0a07148cd86ff0eae6a05b0f2d2298a8f3717baf89d2d",
+      "bytes": 4091442,
+      "hashScope": "uncompressed bytes"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "livebench-v2-overall-2026",
+      "items": 32,
+      "top": {
+        "name": "claude-fable-5.1",
+        "value": 85.694444,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-long-agentic-2026",
+      "items": 32,
+      "top": {
+        "name": "claude-fable-5.1",
+        "value": 77.9,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-reasoning-2026",
+      "items": 32,
+      "top": {
+        "name": "gemini-4-argon",
+        "value": 95.1,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-coding-2026",
+      "items": 32,
+      "top": {
+        "name": "claude-fable-5.1",
+        "value": 97.7,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-browser-2026",
+      "items": 32,
+      "top": {
+        "name": "gpt-6.1-sol",
+        "value": 93.3,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-data-analysis-2026",
+      "items": 32,
+      "top": {
+        "name": "gemini-4-argon",
+        "value": 85.2,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-research-2026",
+      "items": 32,
+      "top": {
+        "name": "muse-wonder-1.0",
+        "value": 88.0,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v2-design-2026",
+      "items": 32,
+      "top": {
+        "name": "claude-opus-5.5",
+        "value": 86.9,
+        "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-overall-2026",
+      "items": 71,
+      "top": {
+        "name": "claude-fable-5-1-max-effort",
+        "value": 83.414155,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-reasoning-2026",
+      "items": 71,
+      "top": {
+        "name": "gpt-6-astra-max",
+        "value": 92.65375,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-coding-2026",
+      "items": 71,
+      "top": {
+        "name": "claude-sonnet-5-5-max-effort",
+        "value": 91.366,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-agentic-coding-2026",
+      "items": 71,
+      "top": {
+        "name": "deepseek-v4.1-flash-max",
+        "value": 77.272667,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-mathematics-2026",
+      "items": 71,
+      "top": {
+        "name": "claude-opus-5-5-max-effort",
+        "value": 97.0775,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-data-analysis-2026",
+      "items": 71,
+      "top": {
+        "name": "gpt-6-astra-max",
+        "value": 82.973333,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-language-2026",
+      "items": 71,
+      "top": {
+        "name": "claude-fable-5-max-effort",
+        "value": 90.684,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "livebench-v1-instruction-following-2026",
+      "items": 71,
+      "top": {
+        "name": "gemini-3.8-flash-high",
+        "value": 81.4125,
+        "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+      }
+    },
+    {
+      "id": "swe-bench-multilingual-agents",
+      "items": 13,
+      "top": {
+        "name": "Gemini 3 Flash",
+        "value": 72.7,
+        "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_gemini-3-flash"
+      }
+    },
+    {
+      "id": "swe-bench-test-agents",
+      "items": 24,
+      "top": {
+        "name": "Sonar Foundation Agent + Claude 4.5 Opus",
+        "value": 52.62,
+        "detail": "Submitted 2025-12-19 · agent: Sonar Foundation Agent · publisher checked: false · submission: 20251219_sonar-foundation-agent_claude-opus-4-5"
+      }
+    },
+    {
+      "id": "swe-bench-verified-agents",
+      "items": 180,
+      "top": {
+        "name": "Sonar Foundation Agent + Claude 4.5 Opus",
+        "value": 79.2,
+        "detail": "Submitted 2025-12-05 · agent: Sonar Foundation Agent · publisher checked: false · submission: 20251205_sonar-foundation-agent_claude-opus-4-5"
+      }
+    },
+    {
+      "id": "swe-bench-lite-agents",
+      "items": 84,
+      "top": {
+        "name": "ExpeRepair-v1.0 + Claude 4 Sonnet",
+        "value": 60.33,
+        "detail": "Submitted 2025-06-25 · agent: ExpeRepair-v1.0 · publisher checked: false · submission: 20250625_ExpeRepair-v1_claude-4-sonnet-20250514"
+      }
+    },
+    {
+      "id": "swe-bench-multimodal-agents",
+      "items": 22,
+      "top": {
+        "name": "Codefuse_Pycfuse_SVR",
+        "value": 35.98,
+        "detail": "Submitted 2025-11-17 · agent: Codefuse_Pycfuse_SVR · publisher checked: true · submission: 20251117_codefuse_pycfuse_svr"
+      }
+    }
+  ]
+}

@@ -2910,6 +2910,30 @@
       "contentType": "text/html",
       "title": "World Rankings | Men's Marathon (Half Marathon)",
       "bytesRead": 514901
+    },
+    {
+      "url": "https://livebench.ai/data/20261025/table.csv",
+      "checkedAt": "2026-11-07T20:30:11.088654+00:00",
+      "status": 200,
+      "finalUrl": "https://livebench.ai/data/20261025/table.csv",
+      "contentType": "text/csv; charset=utf-8",
+      "bytesRead": 1678
+    },
+    {
+      "url": "https://livebench.ai/v1/table_2026_06_25.csv",
+      "checkedAt": "2026-11-07T20:30:11.114940+00:00",
+      "status": 200,
+      "finalUrl": "https://livebench.ai/v1/table_2026_06_25.csv",
+      "contentType": "text/csv; charset=utf-8",
+      "bytesRead": 11910
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "checkedAt": "2026-11-07T20:30:11.446784+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "contentType": "text/plain; charset=utf-8",
+      "bytesRead": 4091442
     }
   ]
 }

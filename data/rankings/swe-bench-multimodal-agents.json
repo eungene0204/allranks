@@ -1,0 +1,140 @@
+{
+  "id": "swe-bench-multimodal-agents",
+  "title": "SWE-bench Multimodal: AI Coding Agents",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "Official SWE-bench Multimodal submission results captured 2026-11-08; latest listed submission 2025-11-17. Percentage of benchmark issues resolved, higher is better. Compares complete agent/model configurations with different tools, budgets and attempt counts, not isolated model quality. Every official submission is retained; submission IDs distinguish repeat names. Publisher checked status is shown per row and is separate from AllRanks source verification. This snapshot is not a claim to include every model released by November 2026.",
+  "unit": "issues resolved (%)",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2025,
+  "asOf": "2025-11",
+  "sort": 54,
+  "source": {
+    "kind": "manual",
+    "name": "SWE-bench official Multimodal leaderboard",
+    "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+    "urls": [
+      "https://www.swebench.com/",
+      "https://www.swebench.com/verified"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: all 22 submission names, IDs, resolved percentages, dates, and publisher checked flags directly against the official leaderboard JSON pinned at commit 193160a463a435d05cf44a1fa9dc5eac832113c3. Descending order derived from published resolved percentages. Official unchecked submissions remain included and labeled; AllRanks verification confirms faithful transcription, not independent execution or endorsement of submitted results. Agent scaffolds, versions, budgets and attempts differ. Raw JSON archived compressed with SHA-256 in docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "Codefuse_Pycfuse_SVR",
+      "value": 35.98,
+      "detail": "Submitted 2025-11-17 · agent: Codefuse_Pycfuse_SVR · publisher checked: true · submission: 20251117_codefuse_pycfuse_svr"
+    },
+    {
+      "name": "GUIRepair + o3 (2025-04-16)",
+      "value": 35.98,
+      "detail": "Submitted 2025-07-01 · agent: GUIRepair · publisher checked: true · submission: 20250701_GUIRepair_o3"
+    },
+    {
+      "name": "Refact.ai Agent",
+      "value": 35.59,
+      "detail": "Submitted 2025-06-11 · agent: Refact.ai Agent · publisher checked: false · submission: 20250611_Refact_Agent_claude-4-sonnet"
+    },
+    {
+      "name": "OpenHands-Versa (Claude-Sonnet 4)",
+      "value": 34.43,
+      "detail": "Submitted 2025-05-28 · agent: OpenHands-Versa · publisher checked: true · submission: 20250528_OpenHands-Versa-claude4"
+    },
+    {
+      "name": "GUIRepair + o4-mini (2025-04-16)",
+      "value": 33.85,
+      "detail": "Submitted 2025-05-31 · agent: GUIRepair · publisher checked: true · submission: 20250531_GUIRepair_o4mini"
+    },
+    {
+      "name": "OpenHands-Versa (Claude-3.7 Sonnet)",
+      "value": 31.33,
+      "detail": "Submitted 2025-05-09 · agent: OpenHands-Versa · publisher checked: true · submission: 20250509_OpenHands-Versa_claude3.7"
+    },
+    {
+      "name": "GUIRepair + GPT 4.1 (2025-04-14)",
+      "value": 31.14,
+      "detail": "Submitted 2025-05-31 · agent: GUIRepair · publisher checked: true · submission: 20250531_GUIRepair_gpt41"
+    },
+    {
+      "name": "Zencoder (2025-04-01)",
+      "value": 30.56,
+      "detail": "Submitted 2025-04-01 · agent: Zencoder · publisher checked: true · submission: 20250401_zencoder"
+    },
+    {
+      "name": "GUIRepair + GPT 4o (2024-08-06)",
+      "value": 30.37,
+      "detail": "Submitted 2025-05-31 · agent: GUIRepair · publisher checked: true · submission: 20250531_GUIRepair_gpt4o"
+    },
+    {
+      "name": "Globant Code Fixer Agent",
+      "value": 29.59,
+      "detail": "Submitted 2025-03-25 · agent: Globant Code Fixer Agent · publisher checked: true · submission: 20250325_globant_codefixer_agent"
+    },
+    {
+      "name": "Zencoder (2025-03-10)",
+      "value": 27.08,
+      "detail": "Submitted 2025-03-11 · agent: Zencoder · publisher checked: true · submission: 20250311_zencoder"
+    },
+    {
+      "name": "Agentless Lite + Claude-3.5 Sonnet",
+      "value": 25.34,
+      "detail": "Submitted 2025-02-26 · agent: Agentless Lite · publisher checked: true · submission: 20250226_agentless_lite_claude3.5"
+    },
+    {
+      "name": "SWE-agent + Claude Sonnet 3.5",
+      "value": 12.19,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent · publisher checked: true · submission: 20241006_SWE-agent_claude3.5"
+    },
+    {
+      "name": "SWE-agent Multimodal + GPT 4o (2024-08-06)",
+      "value": 12.19,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent Multimodal · publisher checked: true · submission: 20241006_SWE-agent_M_gpt4o"
+    },
+    {
+      "name": "SWE-agent + GPT 4o (2024-08-06)",
+      "value": 11.99,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent · publisher checked: true · submission: 20241006_SWE-agent_gpt4o"
+    },
+    {
+      "name": "SWE-agent JavaScript + Claude Sonnet 3.5",
+      "value": 11.99,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent JavaScript · publisher checked: true · submission: 20241006_SWE-agent_JS_claude3.5"
+    },
+    {
+      "name": "SWE-agent Multimodal + Claude 3.5 Sonnet",
+      "value": 11.41,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent Multimodal · publisher checked: true · submission: 20241006_SWE-agent_M_claude3.5"
+    },
+    {
+      "name": "SWE-agent JavaScript + GPT 4o (2024-08-06)",
+      "value": 9.28,
+      "detail": "Submitted 2024-10-06 · agent: SWE-agent JavaScript · publisher checked: true · submission: 20241006_SWE-agent_JS_gpt4o"
+    },
+    {
+      "name": "Agentless + Claude 3.5 Sonnet",
+      "value": 6.19,
+      "detail": "Submitted 2024-10-06 · agent: Agentless · publisher checked: true · submission: 20241006_Agentless_claude3.5"
+    },
+    {
+      "name": "RAG + GPT 4o (2024-08-06)",
+      "value": 6.0,
+      "detail": "Submitted 2024-10-06 · agent: RAG · publisher checked: true · submission: 20241006_RAG_gpt4o"
+    },
+    {
+      "name": "RAG + Claude 3.5 Sonnet",
+      "value": 5.03,
+      "detail": "Submitted 2024-10-06 · agent: RAG · publisher checked: true · submission: 20241006_RAG_claude3.5"
+    },
+    {
+      "name": "Agentless + GPT 4o (2024-08-06)",
+      "value": 3.09,
+      "detail": "Submitted 2024-10-06 · agent: Agentless · publisher checked: true · submission: 20241006_Agentless_gpt4o"
+    }
+  ]
+}

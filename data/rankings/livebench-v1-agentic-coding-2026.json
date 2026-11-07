@@ -1,0 +1,385 @@
+{
+  "id": "livebench-v1-agentic-coding-2026",
+  "title": "LiveBench v1: Agentic Coding AI Models (2026-06-25)",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "LiveBench v1 Agentic Coding, release 2026-06-25, captured 2026-11-08. Arithmetic mean of available task scores in the publisher’s category mapping; tasks have equal weight. Higher is better on this benchmark only. Model IDs preserve reasoning-effort and fine-tuning variants; rows are evaluation configurations, not unique model families. Missing scores are excluded, not treated as zero. Different releases and v1/v2 are not directly comparable.",
+  "unit": "benchmark score (0–100)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-06",
+  "sort": 33,
+  "source": {
+    "kind": "manual",
+    "name": "LiveBench v1 — 2026-06-25 release",
+    "url": "https://livebench.ai/v1/table_2026_06_25.csv",
+    "urls": [
+      "https://livebench.ai/v1/categories_2026_06_25.json",
+      "https://livebench.ai/"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: every included model ID and numeric cell against the directly fetched official CSV; category membership, averaging and overall weights against the official categories JSON and deployed application code. Arithmetic mean of available task scores in the publisher’s category mapping; tasks have equal weight. All source rows retained where a score is available, including fine-tunes/effort variants. This is source reconciliation, not an independent model evaluation. Archived raw inputs and SHA-256 hashes: docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "deepseek-v4.1-flash-max",
+      "value": 77.272667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-5-5-max-effort",
+      "value": 71.717,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-fable-5-1-max-effort",
+      "value": 66.060667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-5-5-xhigh-effort",
+      "value": 65.353333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-5-max-effort",
+      "value": 65.202,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4-flash-vision-exp",
+      "value": 65.101,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.8-max",
+      "value": 64.646667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "smaug-agentic",
+      "value": 64.646667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "muse-spark-1.3-xhigh",
+      "value": 64.091,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "muse-wonder-1.0-max",
+      "value": 62.727333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-fable-5-max-effort",
+      "value": 62.171667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "kimi-k3",
+      "value": 62.171667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.8-flash-next",
+      "value": 61.616333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.8-27b",
+      "value": 61.363667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "smaug-flash",
+      "value": 61.060667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "glm-5.3",
+      "value": 60.909,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "smaug-mini",
+      "value": 60.808,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-sonnet-5-xhigh-effort",
+      "value": 59.394,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "muse-spark-1.1-xhigh",
+      "value": 58.535333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.7-flash-high",
+      "value": 58.283,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "muse-spark-1.2-xhigh",
+      "value": 57.575667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-6-astra-max",
+      "value": 57.323,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-haiku-5-5-max-effort",
+      "value": 57.171667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "mistral-large-4-high",
+      "value": 57.171667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "grok-4.6",
+      "value": 57.02,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "glm-5.3-flash",
+      "value": 56.767667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-6.1-sol-xhigh",
+      "value": 56.767667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "grok-4.5",
+      "value": 56.464667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-sonnet-5-5-max-effort",
+      "value": 56.313333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.6-sol-max",
+      "value": 56.212,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4-pro-0813",
+      "value": 54.949667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.6-terra-max",
+      "value": 54.949667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-6.1-sol-max",
+      "value": 54.545333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.8-flash-high",
+      "value": 54.242333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.5-xhigh",
+      "value": 53.989667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "grok-4.7-xhigh",
+      "value": 53.989667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.4-xhigh",
+      "value": 53.838333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-6-sol-max",
+      "value": 52.878667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "ox-alpha-max",
+      "value": 52.626,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "glm-5.2",
+      "value": 51.767667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-haiku-5-5-xhigh-effort",
+      "value": 51.363667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-6-luna-max",
+      "value": 51.212,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-4-7-xhigh-effort",
+      "value": 50.656333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-4-8-max-effort",
+      "value": 50.505,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.2-2025-12-11-high",
+      "value": 50.252667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.2-codex",
+      "value": 49.394,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "inkling-xhigh",
+      "value": 49.394,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-4-6-thinking-auto-high-effort",
+      "value": 48.989667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.5-flash-high",
+      "value": 48.989667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.6-luna-max",
+      "value": 48.434333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "kimi-k2.6-thinking",
+      "value": 46.919333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4-flash-0731",
+      "value": 46.767667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.4-nano-xhigh",
+      "value": 46.767667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "grok-build-0.1",
+      "value": 45.808,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "kimi-k2.7-code",
+      "value": 45.656333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.5-flash-lite-high",
+      "value": 45.252667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.1-pro-preview-high",
+      "value": 44.141333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.7-max",
+      "value": 43.586,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.6-flash-high",
+      "value": 43.434333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-sonnet-4-6-thinking-auto-medium-effort",
+      "value": 42.626,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "value": 42.626,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.4-mini-xhigh",
+      "value": 41.666667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.6-plus",
+      "value": 41.363667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "minimax-m3",
+      "value": 40.656333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-4-5-20251101-thinking-64k-high-effort",
+      "value": 39.697,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "claude-sonnet-5-5-xhigh-effort",
+      "value": 39.343667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "qwen3.6-27b",
+      "value": 39.292667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "nemotron-3-ultra-550b-a55b",
+      "value": 38.737333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "value": 37.626,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "nemotron-3.5-lightning-30b-a3b",
+      "value": 19.949667,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    },
+    {
+      "name": "grok-4.3",
+      "value": 18.535333,
+      "detail": "LiveBench v1 · release 2026-06-25 · source model ID"
+    }
+  ]
+}

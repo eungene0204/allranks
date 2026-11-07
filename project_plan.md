@@ -533,3 +533,13 @@ Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수
 Clean main matched origin/main; no unfinished automation files existed. Ran coverage planning and confirmed dependencies, current Codex session and Vercel authentication. Two candidate steeplechase URL forms returned no results; continued with the original official marathon source (100 page-one rows) and verified its first ten entries. Added world-athletics-mens-marathon-2026-11-03; no private draft created. Required checks and release verification follow.
 
 Required checks passed: 3,419 files, zero errors/warnings; lint; editorial coverage 3,419 public / zero private drafts; production build on first attempt. Local production detail, search, suggestions and sitemap returned HTTP 200 with the new ranking; missing detail returned 404. Port 3100 was occupied, so isolated verification used port 3117. All six changed files and unchanged public verification filters reviewed; diff check passed. Proceeding to commit/push and production READY/domain verification.
+
+
+## 2026-11-08 AI 랭킹 21개 추가
+
+완료: AI 신규 21개 랭킹/1,147개 평가 행 원출처 전수 검증, 공식 입력 아카이브 및 해시 기록, 클라이언트 카탈로그 갱신, 관련 문서 갱신. data:validate 3,430개 파일 오류·경고 0, lint 통과. 별도 임시 복사본에서 21개 상세 제목/1위, 카테고리·검색·사이트맵 및 미검증 fixture 차단을 확인했다. 개발 스트리밍에서는 notFound 404 경계/noindex와 HTTP 200을 확인했으며 운영 HTTP 404 검사는 미수행. 기존 3100 서버가 500을 반환하여 QA용 Turbopack 서버로 확인했다. 운영 배포는 미수행. 후속: 운영 배포 후 HTTP 상태 재확인 및 다음 공식 평가판의 모델 설정/점수 재검증. 상세 증빙: docs/audits/2026-11-08-ai-rankings/README.md.
+
+
+## 2026-11-08 AI 랭킹 배포 검증
+
+최신 origin/main(bb54aa4)에서 분리한 publish/ai-rankings-20261108 체크아웃에 AI 랭킹 21개와 검증 기록만 반영했다. 원 작업 폴더의 미완료 변경은 포함하지 않았다. 공식 원자료 접근 기록 3개, 편집 커버리지와 SEO 스냅샷을 갱신했다. 3,440개 데이터 검증 오류·경고 0, 타입 검사 및 프로덕션 빌드 통과. 프로덕션 로컬 서버에서 상세 21개 HTTP 200, 카테고리·사이트맵 21개 포함, 검색 200, 존재하지 않는 상세 404를 확인했다. Vercel 운영 반영 및 원격 확인을 진행한다. 증빙: docs/audits/2026-11-08-ai-rankings/production-build-checks.json.

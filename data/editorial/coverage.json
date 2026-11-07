@@ -1,11 +1,11 @@
 {
   "note": "Coverage and content integrity only. Not an E-E-A-T score, expert review, or new verification of original observations.",
-  "publicRankings": 3405,
+  "publicRankings": 3440,
   "privateDrafts": [],
   "officialWorldBankDefinitions": 1627,
   "sourceAccessCounts": {
-    "http-response-received": 994,
-    "source-not-retrievable": 784,
+    "http-response-received": 1028,
+    "source-not-retrievable": 785,
     "official-metadata-retrieved": 1627
   },
   "profiles": {
@@ -20,11 +20,11 @@
     "research-publications": 154,
     "research-citations": 153,
     "building-height": 55,
-    "share": 506,
-    "growth": 26,
+    "share": 511,
+    "growth": 27,
     "per-person": 80,
-    "capacity": 6,
-    "score": 152,
+    "capacity": 9,
+    "score": 170,
     "event-count": 11,
     "price": 6,
     "product-picks": 23,
@@ -67,6 +67,7 @@
     "health-rate": 6,
     "capital-valuation": 64,
     "local-currency": 63,
+    "measure": 8,
     "port-throughput": 1
   },
   "failures": [],
@@ -3915,6 +3916,13 @@
       "hash": "1664fdbea960b51f421d1f1c28ce1805e693d067a7dcc01c50641457b3331c74"
     },
     {
+      "id": "fastest-growing-economies-2026",
+      "profile": "growth",
+      "words": 429,
+      "sourceAccess": "http-response-received",
+      "hash": "a0ddfa2670e1b571b072718dc1841abe4ff15374c590ef2a8ae1260a529d7e64"
+    },
+    {
       "id": "fdi-inflows",
       "profile": "net-flow",
       "words": 370,
@@ -4930,6 +4938,13 @@
       "hash": "6ebf066990861bdb334e45aa474705c5ff0696daf3deeb2ebcc8cef1d22dd7cd"
     },
     {
+      "id": "green500-energy-efficiency-2026-06",
+      "profile": "capacity",
+      "words": 355,
+      "sourceAccess": "http-response-received",
+      "hash": "c46640c74339ee82f01fa8d27aad3a199af5d4382b330fe81d84ef3e4e2f4d45"
+    },
+    {
       "id": "gt-airports-by-elevation",
       "profile": "airport-elevation",
       "words": 335,
@@ -5159,6 +5174,13 @@
       "words": 335,
       "sourceAccess": "official-metadata-retrieved",
       "hash": "d11a272b22840480408afa7a08d7fc2b9622d6cfae52c2683a1ff76cf0c678c9"
+    },
+    {
+      "id": "hpcg-supercomputers-2026-06",
+      "profile": "capacity",
+      "words": 374,
+      "sourceAccess": "http-response-received",
+      "hash": "5b8350b7a150c91c9394881f32ec5d6bc18143d3edc5f2c4de7e594e0c478d4d"
     },
     {
       "id": "hr-airports-by-elevation",
@@ -7224,6 +7246,118 @@
       "words": 308,
       "sourceAccess": "official-metadata-retrieved",
       "hash": "bcb48d1bdd979aaae058ffc27d521bf60bc86dcb3c31907f65f54990959acec3"
+    },
+    {
+      "id": "livebench-v1-agentic-coding-2026",
+      "profile": "score",
+      "words": 408,
+      "sourceAccess": "http-response-received",
+      "hash": "f2bac3317767f764f10d07ff89a16ed74ea1168278b3e98276e092f5afa085e1"
+    },
+    {
+      "id": "livebench-v1-coding-2026",
+      "profile": "score",
+      "words": 406,
+      "sourceAccess": "http-response-received",
+      "hash": "81f7da0e0b2d067e255a0cb61c6629b6e4eec6d7614d8690346585425f550e92"
+    },
+    {
+      "id": "livebench-v1-data-analysis-2026",
+      "profile": "score",
+      "words": 408,
+      "sourceAccess": "http-response-received",
+      "hash": "7162614a42180f902f3f7f0f07a76e0eebceb90cc1669548c60d62f441bd1c14"
+    },
+    {
+      "id": "livebench-v1-instruction-following-2026",
+      "profile": "score",
+      "words": 408,
+      "sourceAccess": "http-response-received",
+      "hash": "762c660570821d47a888d543b4e39b357569f510f3c213e6df8d884fe4673e1b"
+    },
+    {
+      "id": "livebench-v1-language-2026",
+      "profile": "score",
+      "words": 439,
+      "sourceAccess": "http-response-received",
+      "hash": "4c35a9721d04181772b551a46d7e9e906d347b1ccac77adacf55defbcc9dffc6"
+    },
+    {
+      "id": "livebench-v1-mathematics-2026",
+      "profile": "score",
+      "words": 406,
+      "sourceAccess": "http-response-received",
+      "hash": "3f02c2817eabd0e525f6e4e88de6517776d71509246ef959342a8bdbc7e9953c"
+    },
+    {
+      "id": "livebench-v1-overall-2026",
+      "profile": "score",
+      "words": 390,
+      "sourceAccess": "http-response-received",
+      "hash": "c9e190149beff244a3a137b508e17e0bfc63ab05033e6325fd2f614976a952a6"
+    },
+    {
+      "id": "livebench-v1-reasoning-2026",
+      "profile": "score",
+      "words": 406,
+      "sourceAccess": "http-response-received",
+      "hash": "dcad2681d0ea3fbab23bd83ec13c6d3af1a99552cc98a73bb12eb51fc4331d3b"
+    },
+    {
+      "id": "livebench-v2-browser-2026",
+      "profile": "score",
+      "words": 382,
+      "sourceAccess": "http-response-received",
+      "hash": "eeee66ad9ad377707d67fff1b1e9fc5a84717672634ce777727ae7d61a8c8ea5"
+    },
+    {
+      "id": "livebench-v2-coding-2026",
+      "profile": "score",
+      "words": 382,
+      "sourceAccess": "http-response-received",
+      "hash": "c5ac6d4b8e4d9b5bcf737bfd5578fe93a60eaef39a05372f4e77c23a47ea9611"
+    },
+    {
+      "id": "livebench-v2-data-analysis-2026",
+      "profile": "score",
+      "words": 384,
+      "sourceAccess": "http-response-received",
+      "hash": "5d49c160cbceb016bba6cc8671b2a630268a1a1e682ec0d041c0ca0569dc5f58"
+    },
+    {
+      "id": "livebench-v2-design-2026",
+      "profile": "score",
+      "words": 382,
+      "sourceAccess": "http-response-received",
+      "hash": "d1a2ac0e81d9a1a029271983e1d25dd21a93bf028424a85769f98da1f51e72ec"
+    },
+    {
+      "id": "livebench-v2-long-agentic-2026",
+      "profile": "score",
+      "words": 384,
+      "sourceAccess": "http-response-received",
+      "hash": "3d2d79a54f30a5227ab7d47592966d51926ed048adab2a67ba7969995b6e652f"
+    },
+    {
+      "id": "livebench-v2-overall-2026",
+      "profile": "score",
+      "words": 408,
+      "sourceAccess": "http-response-received",
+      "hash": "fc673412810bba6d7b28febabac722be2e3271ff50d8b05d9ed4644fa7bf9e75"
+    },
+    {
+      "id": "livebench-v2-reasoning-2026",
+      "profile": "score",
+      "words": 382,
+      "sourceAccess": "http-response-received",
+      "hash": "b56ff781a6e4d71185d4bc970d2eed1107ff4bb87dc43a886f13ecdbad711109"
+    },
+    {
+      "id": "livebench-v2-research-2026",
+      "profile": "score",
+      "words": 382,
+      "sourceAccess": "http-response-received",
+      "hash": "561325f6d32e35a28c38afe1aeeb5de1de9d02bdea4dca3a1f063de2f8016f65"
     },
     {
       "id": "lk-airports-by-elevation",
@@ -11650,6 +11784,41 @@
       "hash": "a4b53fddacbbafe86dd55466b72f273a3cd1a4f58c5d0cfa7d15de7b3106f763"
     },
     {
+      "id": "swe-bench-lite-agents",
+      "profile": "share",
+      "words": 431,
+      "sourceAccess": "http-response-received",
+      "hash": "33a72f099f04cdaa0a9f65c5cb95fa3144e1879e6ebbba185c6f23f494e4046a"
+    },
+    {
+      "id": "swe-bench-multilingual-agents",
+      "profile": "share",
+      "words": 429,
+      "sourceAccess": "http-response-received",
+      "hash": "32f64a4c2f429d9d27ff7bb67842ce197cb53773dcb5e392ed8188871cdd5c12"
+    },
+    {
+      "id": "swe-bench-multimodal-agents",
+      "profile": "share",
+      "words": 432,
+      "sourceAccess": "http-response-received",
+      "hash": "b13cb84fb40f47785c49542c7af8c3d7f0096b62e33c65d5d513ecc6504d000e"
+    },
+    {
+      "id": "swe-bench-test-agents",
+      "profile": "share",
+      "words": 433,
+      "sourceAccess": "http-response-received",
+      "hash": "13324d7769b19e08a816c311bbc22fc89b417d7ded3d97451e8dbcdb5bbce522"
+    },
+    {
+      "id": "swe-bench-verified-agents",
+      "profile": "share",
+      "words": 441,
+      "sourceAccess": "http-response-received",
+      "hash": "ef4524098a79565f55e464a6b8991a9eac881caf1fbc1723816be1ec39c5a54f"
+    },
+    {
       "id": "sy-airports-by-elevation",
       "profile": "airport-elevation",
       "words": 334,
@@ -12250,6 +12419,13 @@
       "words": 270,
       "sourceAccess": "http-response-received",
       "hash": "3fa86ebdd08fde55894f87ef01c953999a884ad3a448d64b68a8898c5bae10f6"
+    },
+    {
+      "id": "top500-fastest-supercomputers-2026-06",
+      "profile": "capacity",
+      "words": 352,
+      "sourceAccess": "http-response-received",
+      "hash": "8037fd3156bfda93cc74d1a1ab5c73c358cc6d8f1016d6ea5d64d1cd0a2ba994"
     },
     {
       "id": "top500-systems",
@@ -13111,6 +13287,13 @@
       "words": 284,
       "sourceAccess": "http-response-received",
       "hash": "d13e442fa0a793dde36ea51270e42bb661024cd7d6338fb940862a75dd68f0f3"
+    },
+    {
+      "id": "visual-capitalist-rule-of-law-europe-2026",
+      "profile": "score",
+      "words": 407,
+      "sourceAccess": "source-not-retrievable",
+      "hash": "f41d3648f341e69c317b4a81af925ea078d87596d9d23044826ec04448adbcba"
     },
     {
       "id": "vn-airports-by-elevation",
@@ -23543,6 +23726,13 @@
       "hash": "7494e1690edab4c060c607c852745e6ec4d9c69e091bc5f7b751478ab9d31d7d"
     },
     {
+      "id": "wjp-rule-of-law-index-2026",
+      "profile": "score",
+      "words": 426,
+      "sourceAccess": "http-response-received",
+      "hash": "44bd87cf8f85abdd4e6862fdba6c485f910a79351dd1a1f3652bbcbbaa86647b"
+    },
+    {
       "id": "women-in-management",
       "profile": "share",
       "words": 381,
@@ -23562,6 +23752,62 @@
       "words": 379,
       "sourceAccess": "official-metadata-retrieved",
       "hash": "12d743269146c9b085de512db58e1c0a00768d6ac9a8d4eb7bbbd23b64e97386"
+    },
+    {
+      "id": "world-athletics-mens-10000m-2026-11-03",
+      "profile": "measure",
+      "words": 452,
+      "sourceAccess": "http-response-received",
+      "hash": "b06afb047943cdf132c31aff8ed01e1779d83f6d0fb8880bb77ae50e02df595e"
+    },
+    {
+      "id": "world-athletics-mens-1500m-2026-10-27",
+      "profile": "measure",
+      "words": 465,
+      "sourceAccess": "http-response-received",
+      "hash": "b494443fc1b481d4121e1d0b4ae8141e5d341627ce190dc0d22234fa02178843"
+    },
+    {
+      "id": "world-athletics-mens-200m-2026-10-27",
+      "profile": "measure",
+      "words": 432,
+      "sourceAccess": "http-response-received",
+      "hash": "0130dc8e926f9522071086369fcf56d15ce94498505237380c8bc7dc93a0d8da"
+    },
+    {
+      "id": "world-athletics-mens-400m-2026-10-27",
+      "profile": "measure",
+      "words": 461,
+      "sourceAccess": "http-response-received",
+      "hash": "6ed7641546feda9810a77bb7c37896417259d22d67cd766d95f53d67c5cea869"
+    },
+    {
+      "id": "world-athletics-mens-5000m-2026-11-03",
+      "profile": "measure",
+      "words": 474,
+      "sourceAccess": "http-response-received",
+      "hash": "086e914f762e42a856287afe91ee9f888abe3a017a797548a6d6066494032d06"
+    },
+    {
+      "id": "world-athletics-mens-800m-2026-10-27",
+      "profile": "measure",
+      "words": 442,
+      "sourceAccess": "http-response-received",
+      "hash": "d39c06f575642bbe274924237299c9072b6a2ec3f29c4699612f083ca0e4ad80"
+    },
+    {
+      "id": "world-athletics-mens-marathon-2026-11-03",
+      "profile": "measure",
+      "words": 447,
+      "sourceAccess": "http-response-received",
+      "hash": "2b78c11d15937422de83b74d9d901801788ba861fe25dd1ba025b0f665b9e0d1"
+    },
+    {
+      "id": "world-athletics-womens-100m-2026-10-20",
+      "profile": "measure",
+      "words": 412,
+      "sourceAccess": "http-response-received",
+      "hash": "4ae8582f0e1049c20a1806599032869e286832ddf622d864b08aa3f988ac3e45"
     },
     {
       "id": "world-busiest-container-ports-latest",

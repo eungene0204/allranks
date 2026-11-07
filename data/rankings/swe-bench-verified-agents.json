@@ -1,0 +1,930 @@
+{
+  "id": "swe-bench-verified-agents",
+  "title": "SWE-bench Verified: AI Coding Agents",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "Official SWE-bench Verified submission results captured 2026-11-08; latest listed submission 2026-02-26. Percentage of benchmark issues resolved, higher is better. Compares complete agent/model configurations with different tools, budgets and attempt counts, not isolated model quality. Every official submission is retained; submission IDs distinguish repeat names. Publisher checked status is shown per row and is separate from AllRanks source verification. This snapshot is not a claim to include every model released by November 2026.",
+  "unit": "issues resolved (%)",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-02",
+  "sort": 52,
+  "source": {
+    "kind": "manual",
+    "name": "SWE-bench official Verified leaderboard",
+    "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+    "urls": [
+      "https://www.swebench.com/",
+      "https://www.swebench.com/verified"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: all 180 submission names, IDs, resolved percentages, dates, and publisher checked flags directly against the official leaderboard JSON pinned at commit 193160a463a435d05cf44a1fa9dc5eac832113c3. Descending order derived from published resolved percentages. Official unchecked submissions remain included and labeled; AllRanks verification confirms faithful transcription, not independent execution or endorsement of submitted results. Agent scaffolds, versions, budgets and attempts differ. Raw JSON archived compressed with SHA-256 in docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "Sonar Foundation Agent + Claude 4.5 Opus",
+      "value": 79.2,
+      "detail": "Submitted 2025-12-05 · agent: Sonar Foundation Agent · publisher checked: false · submission: 20251205_sonar-foundation-agent_claude-opus-4-5"
+    },
+    {
+      "name": "live-SWE-agent + Claude 4.5 Opus medium (20251101)",
+      "value": 79.2,
+      "detail": "Submitted 2025-12-15 · agent: live-SWE-agent · publisher checked: false · submission: 20251215_livesweagent_claude-opus-4-5"
+    },
+    {
+      "name": "TRAE + Doubao-Seed-Code",
+      "value": 78.8,
+      "detail": "Submitted 2025-09-28 · agent: TRAE · publisher checked: false · submission: 20250928_trae_doubao_seed_code"
+    },
+    {
+      "name": "live-SWE-agent + Gemini 3 Pro Preview (2025-11-18)",
+      "value": 77.4,
+      "detail": "Submitted 2025-11-20 · agent: live-SWE-agent · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20251120_livesweagent_gemini-3-pro-preview"
+    },
+    {
+      "name": "Atlassian Rovo Dev (2025-09-02)",
+      "value": 76.8,
+      "detail": "Submitted 2025-09-02 · agent: Atlassian Rovo Dev · publisher checked: false · submission: 20250902_atlassian-rovo-dev"
+    },
+    {
+      "name": "Claude 4.5 Opus (high)",
+      "value": 76.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_claude-4-5-opus-high"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent v20250719 + Claude 4 Sonnet",
+      "value": 76.8,
+      "detail": "Submitted 2025-08-04 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20250804_epam-ai-run-claude-4-sonnet"
+    },
+    {
+      "name": "ACoder",
+      "value": 76.4,
+      "detail": "Submitted 2025-08-19 · agent: ACoder · publisher checked: false · submission: 20250819_ACoder"
+    },
+    {
+      "name": "Gemini 3 Flash (high)",
+      "value": 75.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_gemini-3-flash-high"
+    },
+    {
+      "name": "MiniMax M2.5 (high)",
+      "value": 75.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_minimax-2-5-high"
+    },
+    {
+      "name": "Claude 4.6 Opus",
+      "value": 75.6,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_claude-4-6-opus"
+    },
+    {
+      "name": "Warp [20250901_warp]",
+      "value": 75.6,
+      "detail": "Submitted 2025-09-01 · agent: Warp · publisher checked: false · submission: 20250901_warp"
+    },
+    {
+      "name": "TRAE + Claude Sonnet 4 + Opus 4 + Sonnet 3.7 + Gemini 2.5 Pro",
+      "value": 75.2,
+      "detail": "Submitted 2025-06-12 · agent: TRAE · publisher checked: false · submission: 20250612_trae"
+    },
+    {
+      "name": "Harness AI",
+      "value": 74.8,
+      "detail": "Submitted 2025-07-31 · agent: Harness AI · publisher checked: false · submission: 20250731_harness_ai"
+    },
+    {
+      "name": "Sonar Foundation Agent + Claude 4.5 Sonnet",
+      "value": 74.8,
+      "detail": "Submitted 2025-11-03 · agent: Sonar Foundation Agent · publisher checked: false · submission: 20251103_sonar-foundation-agent_claude-sonnet-4-5"
+    },
+    {
+      "name": "JoyCode + Claude 4 Sonnet + GPT-4.1",
+      "value": 74.6,
+      "detail": "Submitted 2025-09-15 · agent: JoyCode · publisher checked: false · submission: 20250915_JoyCode"
+    },
+    {
+      "name": "Lingxi-v1.5_claude-4-sonnet-20250514",
+      "value": 74.6,
+      "detail": "Submitted 2025-07-20 · agent: Lingxi-v1.5 · publisher checked: false · submission: 20250720_Lingxi-v1.5_claude-4-sonnet-20250514"
+    },
+    {
+      "name": "Claude 4.5 Opus (20251101) (medium)",
+      "value": 74.4,
+      "detail": "Submitted 2025-11-24 · agent: mini-SWE-agent · publisher checked: true · submission: 20251124_mini-v1.16.0_claude-opus-4-5-20251101"
+    },
+    {
+      "name": "Prometheus-v1.2.1 + GPT-5",
+      "value": 74.4,
+      "detail": "Submitted 2025-10-15 · agent: Prometheus-v1.2.1 · publisher checked: false · submission: 20251015_Prometheus_v1.2.1_gpt5"
+    },
+    {
+      "name": "Refact.ai Agent + Claude 4 Sonnet + o4-mini",
+      "value": 74.4,
+      "detail": "Submitted 2025-06-03 · agent: Refact.ai Agent · publisher checked: false · submission: 20250603_Refact_Agent_claude-4-sonnet"
+    },
+    {
+      "name": "Gemini 3 Pro Preview (2025-11-18)",
+      "value": 74.2,
+      "detail": "Submitted 2025-11-18 · agent: mini-SWE-agent · publisher checked: true · submission: 20251118_mini-v1.15.0_gemini-3-pro-preview-20251118"
+    },
+    {
+      "name": "Salesforce AI Research SAGE (OpenHands)",
+      "value": 73.8,
+      "detail": "Submitted 2025-11-03 · agent: Salesforce AI Research SAGE · publisher checked: false · submission: 20251103_SalesforceAIResearch_SAGE_OpenHands"
+    },
+    {
+      "name": "Tools + Claude 4 Opus (2025-05-22)",
+      "value": 73.2,
+      "detail": "Submitted 2025-05-22 · agent: Tools · publisher checked: false · submission: 20250522_tools_claude-4-opus"
+    },
+    {
+      "name": "Salesforce AI Research SAGE (bash-only)",
+      "value": 73.0,
+      "detail": "Submitted 2025-10-21 · agent: Salesforce AI Research SAGE · publisher checked: false · submission: 20251021_SalesforceAIResearch_SAGE_bash_only"
+    },
+    {
+      "name": "GLM 5 (high)",
+      "value": 72.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_glm-5-high"
+    },
+    {
+      "name": "GPT 5.2 (high)",
+      "value": 72.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_gpt-5-2-high"
+    },
+    {
+      "name": "GPT 5.2 Codex",
+      "value": 72.8,
+      "detail": "Submitted 2026-02-19 · agent: mini-SWE-agent · publisher checked: none · submission: 20260219_mini-v2.0.0_gpt-5-2-codex"
+    },
+    {
+      "name": "Tools + Claude 4 Sonnet (2025-05-22)",
+      "value": 72.4,
+      "detail": "Submitted 2025-05-22 · agent: Tools · publisher checked: false · submission: 20250522_tools_claude-4-sonnet"
+    },
+    {
+      "name": "GPT 5.2 (2025-12-11) (high)",
+      "value": 71.8,
+      "detail": "Submitted 2025-12-11 · agent: mini-SWE-agent · publisher checked: none · submission: 20251211_mini-v1.17.2_gpt-5.2-2025-12-11-high"
+    },
+    {
+      "name": "OpenHands + GPT-5",
+      "value": 71.8,
+      "detail": "Submitted 2025-08-07 · agent: OpenHands · publisher checked: true · submission: 20250807_openhands_gpt5"
+    },
+    {
+      "name": "Claude 4.5 Sonnet (high)",
+      "value": 71.4,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_claude-4-5-sonnet-high"
+    },
+    {
+      "name": "Bloop",
+      "value": 71.2,
+      "detail": "Submitted 2025-07-10 · agent: Bloop · publisher checked: false · submission: 20250710_bloop"
+    },
+    {
+      "name": "Lingxi v1.5 x Kimi K2",
+      "value": 71.2,
+      "detail": "Submitted 2025-10-14 · agent: Lingxi v1.5 · publisher checked: false · submission: 20251014_Lingxi_kimi_k2"
+    },
+    {
+      "name": "Prometheus-v1.2 + GPT-5",
+      "value": 71.2,
+      "detail": "Submitted 2025-09-29 · agent: Prometheus-v1.2 · publisher checked: false · submission: 20250929_Prometheus_v1.2_gpt5"
+    },
+    {
+      "name": "Qodo Command",
+      "value": 71.2,
+      "detail": "Submitted 2025-07-15 · agent: Qodo Command · publisher checked: false · submission: 20250715_qodo_command"
+    },
+    {
+      "name": "Warp [20250623_warp]",
+      "value": 71.0,
+      "detail": "Submitted 2025-06-23 · agent: Warp · publisher checked: false · submission: 20250623_warp"
+    },
+    {
+      "name": "Kimi K2.5 (high)",
+      "value": 70.8,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_kimi-k2-5-high"
+    },
+    {
+      "name": "Moatless Tools + Claude 4 Sonnet",
+      "value": 70.8,
+      "detail": "Submitted 2025-06-11 · agent: Moatless Tools · publisher checked: true · submission: 20250611_moatless_claude-4-sonnet-20250514"
+    },
+    {
+      "name": "Claude 4.5 Sonnet (20250929)",
+      "value": 70.6,
+      "detail": "Submitted 2025-09-29 · agent: mini-SWE-agent · publisher checked: true · submission: 20250929_mini-v1.13.3_sonnet-4-5-20250929"
+    },
+    {
+      "name": "TRAE",
+      "value": 70.6,
+      "detail": "Submitted 2025-05-19 · agent: TRAE · publisher checked: false · submission: 20250519_trae"
+    },
+    {
+      "name": "Augment Agent v1",
+      "value": 70.4,
+      "detail": "Submitted 2025-06-10 · agent: Augment Agent v1 · publisher checked: false · submission: 20250610_augment_agent_v1"
+    },
+    {
+      "name": "OpenHands + Claude 4 Sonnet",
+      "value": 70.4,
+      "detail": "Submitted 2025-05-24 · agent: OpenHands · publisher checked: true · submission: 20250524_openhands_claude_4_sonnet"
+    },
+    {
+      "name": "Refact.ai Agent",
+      "value": 70.4,
+      "detail": "Submitted 2025-05-15 · agent: Refact.ai Agent · publisher checked: false · submission: 20250515_Refact_Agent"
+    },
+    {
+      "name": "devlo [20250519_devlo]",
+      "value": 70.2,
+      "detail": "Submitted 2025-05-19 · agent: devlo · publisher checked: false · submission: 20250519_devlo"
+    },
+    {
+      "name": "DeepSeek V3.2 (high)",
+      "value": 70.0,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_deepseek-3-2-high"
+    },
+    {
+      "name": "Zencoder (2025-04-30)",
+      "value": 70.0,
+      "detail": "Submitted 2025-04-30 · agent: Zencoder · publisher checked: false · submission: 20250430_zencoder_ai"
+    },
+    {
+      "name": "Gemini 3 Pro",
+      "value": 69.6,
+      "detail": "Submitted 2026-02-26 · agent: mini-SWE-agent · publisher checked: none · submission: 20260226_mini-v2.0.0_gemini-3-pro-high"
+    },
+    {
+      "name": "OpenHands + Qwen3-Coder-480B-A35B-Instruct",
+      "value": 69.6,
+      "detail": "Submitted 2025-08-05 · agent: OpenHands · publisher checked: false · submission: 20250805_openhands-Qwen3-Coder-480B-A35B-Instruct"
+    },
+    {
+      "name": "GPT 5.2 (2025-12-11)",
+      "value": 69.0,
+      "detail": "Submitted 2025-12-11 · agent: mini-SWE-agent · publisher checked: none · submission: 20251211_mini-v1.17.2_gpt-5.2-2025-12-11"
+    },
+    {
+      "name": "GLM-4.6",
+      "value": 68.2,
+      "detail": "Submitted 2025-09-30 · agent: Undisclosed · publisher checked: false · submission: 20250930_zai_glm4-6"
+    },
+    {
+      "name": "Nemotron-CORTEXA [20250516_cortexa_o3]",
+      "value": 68.2,
+      "detail": "Submitted 2025-05-16 · agent: Nemotron-CORTEXA · publisher checked: false · submission: 20250516_cortexa_o3"
+    },
+    {
+      "name": "Claude 4 Opus (20250514)",
+      "value": 67.6,
+      "detail": "Submitted 2025-08-02 · agent: mini-SWE-agent · publisher checked: true · submission: 20250802_mini-v1.0.0_claude-4-opus-20250514"
+    },
+    {
+      "name": "Claude 4.5 Haiku (high)",
+      "value": 66.6,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_claude-4-5-haiku-high"
+    },
+    {
+      "name": "SWE-agent + Claude 4 Sonnet",
+      "value": 66.6,
+      "detail": "Submitted 2025-05-22 · agent: SWE-agent · publisher checked: true · submission: 20250522_sweagent_claude-4-sonnet-20250514"
+    },
+    {
+      "name": "Aime-coder v1 + Anthopic Claude 3.7 Sonnet",
+      "value": 66.4,
+      "detail": "Submitted 2025-05-14 · agent: Aime-coder v1 · publisher checked: false · submission: 20250514_aime_coder"
+    },
+    {
+      "name": "GPT 5.1 (2025-11-13) (medium)",
+      "value": 66.0,
+      "detail": "Submitted 2025-11-20 · agent: mini-SWE-agent · publisher checked: none · submission: 20251120_mini-v1.15.0_gpt-5.1-2025-11-13"
+    },
+    {
+      "name": "GPT 5.1 Codex (medium)",
+      "value": 66.0,
+      "detail": "Submitted 2025-11-24 · agent: mini-SWE-agent · publisher checked: none · submission: 20251124_mini-v1.16.0_gpt-5.1-codex"
+    },
+    {
+      "name": "OpenHands",
+      "value": 65.8,
+      "detail": "Submitted 2025-04-15 · agent: OpenHands · publisher checked: true · submission: 20250415_openhands"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20250405-dev)",
+      "value": 65.4,
+      "detail": "Submitted 2025-04-05 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20250405_amazon-q-developer-agent-20250405-dev"
+    },
+    {
+      "name": "Augment Agent v0",
+      "value": 65.4,
+      "detail": "Submitted 2025-03-16 · agent: Augment Agent v0 · publisher checked: false · submission: 20250316_augment_agent_v0"
+    },
+    {
+      "name": "OpenHands + Kimi K2",
+      "value": 65.4,
+      "detail": "Submitted 2025-07-16 · agent: OpenHands · publisher checked: true · submission: 20250716_openhands_kimi_k2"
+    },
+    {
+      "name": "GPT 5 (2025-08-07) (medium)",
+      "value": 65.0,
+      "detail": "Submitted 2025-08-07 · agent: mini-SWE-agent · publisher checked: true · submission: 20250807_mini-v1.7.0_gpt-5"
+    },
+    {
+      "name": "Claude 4 Sonnet (20250514)",
+      "value": 64.93,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_claude-sonnet-4-20250514"
+    },
+    {
+      "name": "PatchPilot-v1.1",
+      "value": 64.6,
+      "detail": "Submitted 2025-05-03 · agent: PatchPilot-v1.1 · publisher checked: false · submission: 20250503_patchpilot-v1.1-o4-mini"
+    },
+    {
+      "name": "W&B Programmer O1 crosscheck5",
+      "value": 64.6,
+      "detail": "Submitted 2025-01-17 · agent: W&B Programmer O1 crosscheck5 · publisher checked: false · submission: 20250117_wandb_programmer_o1_crosscheck5"
+    },
+    {
+      "name": "GLM-4.5",
+      "value": 64.2,
+      "detail": "Submitted 2025-07-28 · agent: Undisclosed · publisher checked: false · submission: 20250728_zai_glm4-5"
+    },
+    {
+      "name": "AgentScope",
+      "value": 63.4,
+      "detail": "Submitted 2025-02-06 · agent: AgentScope · publisher checked: false · submission: 20250206_agentscope"
+    },
+    {
+      "name": "Kimi K2 Thinking",
+      "value": 63.4,
+      "detail": "Submitted 2025-12-10 · agent: mini-SWE-agent · publisher checked: true · submission: 20251210_mini-v1.17.2_kimi-k2-thinking"
+    },
+    {
+      "name": "Tools + Claude 3.7 Sonnet (2025-02-24)",
+      "value": 63.2,
+      "detail": "Submitted 2025-02-24 · agent: Tools · publisher checked: false · submission: 20250224_tools_claude-3-7-sonnet"
+    },
+    {
+      "name": "Blackbox AI Agent",
+      "value": 62.8,
+      "detail": "Submitted 2025-01-10 · agent: Blackbox AI Agent · publisher checked: false · submission: 20250110_blackboxai_agent_v1.1"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent v20250219 + Anthopic Claude 3.5 Sonnet",
+      "value": 62.8,
+      "detail": "Submitted 2025-02-28 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20250228_epam-ai-run-claude-3-5-sonnet"
+    },
+    {
+      "name": "SWE-agent + Claude 3.7 Sonnet w/ Review Heavy",
+      "value": 62.4,
+      "detail": "Submitted 2025-02-25 · agent: SWE-agent · publisher checked: true · submission: 20250225_sweagent_claude-3-7-sonnet"
+    },
+    {
+      "name": "CodeStory Midwit Agent + swe-search",
+      "value": 62.2,
+      "detail": "Submitted 2024-12-21 · agent: CodeStory Midwit Agent · publisher checked: false · submission: 20241221_codestory_midwit_claude-3-5-sonnet_swe-search"
+    },
+    {
+      "name": "MiniMax M2",
+      "value": 61.0,
+      "detail": "Submitted 2025-11-24 · agent: mini-SWE-agent · publisher checked: true · submission: 20251124_mini-v1.17.0_minimax-m2"
+    },
+    {
+      "name": "OpenHands + 4x Scaled (2024-02-03)",
+      "value": 60.8,
+      "detail": "Submitted 2025-02-03 · agent: OpenHands · publisher checked: true · submission: 20250203_openhands_4x_scaled"
+    },
+    {
+      "name": "EntroPO + R2E + Qwen3-Coder-30B-A3B-Instruct [20250901_entroPO_R2E_QwenCoder30BA3B_tts]",
+      "value": 60.4,
+      "detail": "Submitted 2025-09-01 · agent: EntroPO + R2E · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20250901_entroPO_R2E_QwenCoder30BA3B_tts"
+    },
+    {
+      "name": "Learn-by-interact",
+      "value": 60.2,
+      "detail": "Submitted 2025-01-10 · agent: Learn-by-interact · publisher checked: false · submission: 20250110_learn_by_interact_claude3.5"
+    },
+    {
+      "name": "DeepSeek V3.2 Reasoner",
+      "value": 60.0,
+      "detail": "Submitted 2025-12-01 · agent: mini-SWE-agent · publisher checked: true · submission: 20251201_mini-v1.17.1_deepseek-v3.2-reasoner"
+    },
+    {
+      "name": "GPT 5 mini (2025-08-07) (medium)",
+      "value": 59.8,
+      "detail": "Submitted 2025-08-07 · agent: mini-SWE-agent · publisher checked: true · submission: 20250807_mini-v1.7.0_gpt-5-mini"
+    },
+    {
+      "name": "DeepSWE-Preview + TTS(Bo16)",
+      "value": 58.8,
+      "detail": "Submitted 2025-06-29 · agent: DeepSWE-Preview · publisher checked: false · submission: 20250629_deepswerl_r2eagent_tts"
+    },
+    {
+      "name": "o3 (2025-04-16)",
+      "value": 58.4,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_o3-2025-04-16"
+    },
+    {
+      "name": "Nemotron-CORTEXA [20250410_cortexa]",
+      "value": 58.2,
+      "detail": "Submitted 2025-04-10 · agent: Nemotron-CORTEXA · publisher checked: true · submission: 20250410_cortexa"
+    },
+    {
+      "name": "devlo [20241213_devlo]",
+      "value": 58.2,
+      "detail": "Submitted 2024-12-13 · agent: devlo · publisher checked: false · submission: 20241213_devlo"
+    },
+    {
+      "name": "Emergent E1 (v2024-12-23)",
+      "value": 57.2,
+      "detail": "Submitted 2024-12-23 · agent: Emergent E1 · publisher checked: false · submission: 20241223_emergent"
+    },
+    {
+      "name": "Artemis Agent v2 (2025-09-24)",
+      "value": 57.0,
+      "detail": "Submitted 2025-09-24 · agent: Artemis Agent v2 · publisher checked: false · submission: 20250924_artemis_agent_v2"
+    },
+    {
+      "name": "Gru(2024-12-08)",
+      "value": 57.0,
+      "detail": "Submitted 2024-12-08 · agent: Gru · publisher checked: false · submission: 20241208_gru"
+    },
+    {
+      "name": "SWE-Rizzo",
+      "value": 56.6,
+      "detail": "Submitted 2025-04-05 · agent: SWE-Rizzo · publisher checked: false · submission: 20250405_swe-rizzo_claude37"
+    },
+    {
+      "name": "Devstral Small (2512)",
+      "value": 56.4,
+      "detail": "Submitted 2025-12-09 · agent: mini-SWE-agent · publisher checked: true · submission: 20251209_mini-v1.17.2_devstral-small-2512"
+    },
+    {
+      "name": "GPT 5 mini",
+      "value": 56.2,
+      "detail": "Submitted 2026-02-17 · agent: mini-SWE-agent · publisher checked: none · submission: 20260217_mini-v2.0.0_gpt-5-mini"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent v20241212 + Anthopic Claude 3.5 Sonnet",
+      "value": 55.4,
+      "detail": "Submitted 2024-12-12 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20241212_epam-ai-run-claude-3-5-sonnet"
+    },
+    {
+      "name": "GLM 4.6 (T=1)",
+      "value": 55.4,
+      "detail": "Submitted 2025-12-01 · agent: mini-SWE-agent · publisher checked: true · submission: 20251201_mini-v1.17.1_glm-4.6"
+    },
+    {
+      "name": "Qwen3-Coder 480B/A35B Instruct",
+      "value": 55.4,
+      "detail": "Submitted 2025-08-02 · agent: mini-SWE-agent · publisher checked: true · submission: 20250802_mini-v1.0.0_qwen3-coder-480b-a35b-instruct"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20241202-dev)",
+      "value": 55.0,
+      "detail": "Submitted 2024-12-02 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20241202_amazon-q-developer-agent-20241202-dev"
+    },
+    {
+      "name": "GLM 4.5 (2025-08-22)",
+      "value": 54.2,
+      "detail": "Submitted 2025-08-22 · agent: mini-SWE-agent · publisher checked: true · submission: 20250822_mini-v1.9.1_glm-4.5"
+    },
+    {
+      "name": "devlo [20241108_devlo]",
+      "value": 54.2,
+      "detail": "Submitted 2024-11-08 · agent: devlo · publisher checked: false · submission: 20241108_devlo"
+    },
+    {
+      "name": "Devstral (2512)",
+      "value": 53.8,
+      "detail": "Submitted 2025-12-09 · agent: mini-SWE-agent · publisher checked: true · submission: 20251209_mini-v1.17.2_devstral-2512"
+    },
+    {
+      "name": "FrogBoss-32B-2510",
+      "value": 53.6,
+      "detail": "Submitted 2025-11-10 · agent: FrogBoss-32B-2510 · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20251110_frogboss-32b"
+    },
+    {
+      "name": "Gemini 2.5 Pro (2025-05-06)",
+      "value": 53.6,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_gemini-2.5-pro"
+    },
+    {
+      "name": "CodeSweep - SWE-agent - Kimi K2 Instruct",
+      "value": 53.4,
+      "detail": "Submitted 2025-08-04 · agent: CodeSweep - SWE-agent · publisher checked: false · submission: 20250804_codesweep_sweagent_kimi_k2_instruct"
+    },
+    {
+      "name": "Bracket.sh",
+      "value": 53.2,
+      "detail": "Submitted 2025-01-20 · agent: Bracket.sh · publisher checked: false · submission: 20250120_Bracket"
+    },
+    {
+      "name": "OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022)",
+      "value": 53.0,
+      "detail": "Submitted 2024-10-29 · agent: OpenHands · publisher checked: true · submission: 20241029_OpenHands-CodeAct-2.1-sonnet-20241022"
+    },
+    {
+      "name": "Claude 3.7 Sonnet (20250219)",
+      "value": 52.8,
+      "detail": "Submitted 2025-07-20 · agent: mini-SWE-agent · publisher checked: true · submission: 20250720_mini-v0.0.0-claude-3-7-sonnet-20250219"
+    },
+    {
+      "name": "EntroPO + R2E + Qwen3-Coder-30B-A3B-Instruct [20250901_entroPO_R2E_QwenCoder30BA3B]",
+      "value": 52.2,
+      "detail": "Submitted 2025-09-01 · agent: EntroPO + R2E · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20250901_entroPO_R2E_QwenCoder30BA3B"
+    },
+    {
+      "name": "Google Jules + Gemini 2.0 Flash (v20241212-experimental)",
+      "value": 52.2,
+      "detail": "Submitted 2024-12-12 · agent: Google Jules · publisher checked: false · submission: 20241212_google_jules_gemini_2.0_flash_experimental"
+    },
+    {
+      "name": "Engine Labs (2024-11-25)",
+      "value": 51.8,
+      "detail": "Submitted 2024-11-25 · agent: Engine Labs · publisher checked: false · submission: 20241125_enginelabs"
+    },
+    {
+      "name": "AutoCodeRover-v2.1 (Claude-3.5-Sonnet-20241022)",
+      "value": 51.6,
+      "detail": "Submitted 2025-01-22 · agent: AutoCodeRover-v2.1 · publisher checked: false · submission: 20250122_autocoderover-v2.1-claude-3-5-sonnet-20241022"
+    },
+    {
+      "name": "OpenHands + Qwen3-Coder-30B-A3B-Instruct",
+      "value": 51.6,
+      "detail": "Submitted 2025-08-05 · agent: OpenHands · publisher checked: false · submission: 20250805_openhands-Qwen3-Coder-30B-A3B-Instruct"
+    },
+    {
+      "name": "Agentless-1.5 + Claude-3.5 Sonnet (20241022)",
+      "value": 50.8,
+      "detail": "Submitted 2024-12-02 · agent: Agentless-1.5 · publisher checked: false · submission: 20241202_agentless-1.5_claude-3.5-sonnet-20241022"
+    },
+    {
+      "name": "Bytedance MarsCode Agent",
+      "value": 50.0,
+      "detail": "Submitted 2024-11-25 · agent: Bytedance MarsCode Agent · publisher checked: false · submission: 20241125_marscode-agent-dev"
+    },
+    {
+      "name": "Solver (2024-10-28)",
+      "value": 50.0,
+      "detail": "Submitted 2024-10-28 · agent: Solver · publisher checked: false · submission: 20241028_solver"
+    },
+    {
+      "name": "nFactorial (2024-11-05)",
+      "value": 49.2,
+      "detail": "Submitted 2024-11-05 · agent: nFactorial · publisher checked: false · submission: 20241105_nfactorial"
+    },
+    {
+      "name": "Tools + Claude 3.5 Sonnet (2024-10-22)",
+      "value": 49.0,
+      "detail": "Submitted 2024-10-22 · agent: Tools · publisher checked: false · submission: 20241022_tools_claude-3-5-sonnet-updated"
+    },
+    {
+      "name": "Composio SWE-Kit (2024-10-25)",
+      "value": 48.6,
+      "detail": "Submitted 2024-10-25 · agent: Composio SWE-Kit · publisher checked: true · submission: 20241025_composio_swekit"
+    },
+    {
+      "name": "AppMap Navie v2",
+      "value": 47.2,
+      "detail": "Submitted 2024-11-06 · agent: AppMap Navie v2 · publisher checked: true · submission: 20241106_navie-2-gpt4o-sonnet"
+    },
+    {
+      "name": "Skywork-SWE-32B + TTS(Bo8)",
+      "value": 47.0,
+      "detail": "Submitted 2025-06-16 · agent: Skywork-SWE-32B · publisher checked: true · submission: 20250616_Skywork-SWE-32B+TTS_Bo8"
+    },
+    {
+      "name": "OpenHands + DevStral Small 2505",
+      "value": 46.8,
+      "detail": "Submitted 2025-05-20 · agent: OpenHands · publisher checked: true · submission: 20250520_openhands_devstral_small"
+    },
+    {
+      "name": "Emergent E1 (v2024-10-12)",
+      "value": 46.6,
+      "detail": "Submitted 2024-10-23 · agent: Emergent E1 · publisher checked: false · submission: 20241023_emergent"
+    },
+    {
+      "name": "AutoCodeRover-v2.0 (Claude-3.5-Sonnet-20241022)",
+      "value": 46.2,
+      "detail": "Submitted 2024-11-08 · agent: AutoCodeRover-v2.0 · publisher checked: false · submission: 20241108_autocoderover-v2.0-claude-3-5-sonnet-20241022"
+    },
+    {
+      "name": "PatchPilot + Co-PatcheR",
+      "value": 46.0,
+      "detail": "Submitted 2025-05-28 · agent: PatchPilot · publisher checked: false · submission: 20250528_patchpilot_Co-PatcheR"
+    },
+    {
+      "name": "Solver (2024-09-12) [20240924_solver]",
+      "value": 45.4,
+      "detail": "Submitted 2024-09-24 · agent: Solver · publisher checked: false · submission: 20240924_solver"
+    },
+    {
+      "name": "Gru(2024-08-24)",
+      "value": 45.2,
+      "detail": "Submitted 2024-08-24 · agent: Gru · publisher checked: false · submission: 20240824_gru"
+    },
+    {
+      "name": "FrogMini-14B-2510",
+      "value": 45.0,
+      "detail": "Submitted 2025-11-10 · agent: FrogMini-14B-2510 · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20251110_frogmini-14b"
+    },
+    {
+      "name": "o4-mini (2025-04-16)",
+      "value": 45.0,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_o4-mini-2025-04-16"
+    },
+    {
+      "name": "CodeShellAgent + Gemini 2.0 Flash (Experimental)",
+      "value": 44.2,
+      "detail": "Submitted 2025-01-18 · agent: CodeShellAgent · publisher checked: false · submission: 20250118_codeshellagent_gemini_2.0_flash_experimental"
+    },
+    {
+      "name": "Kimi K2 Instruct",
+      "value": 43.8,
+      "detail": "Submitted 2025-08-07 · agent: mini-SWE-agent · publisher checked: true · submission: 20250807_mini-v1.7.0_kimi-k2-instruct"
+    },
+    {
+      "name": "Solver (2024-09-12) [20240920_solver]",
+      "value": 43.6,
+      "detail": "Submitted 2024-09-20 · agent: Solver · publisher checked: false · submission: 20240920_solver"
+    },
+    {
+      "name": "Agentless Lite + O3 Mini (20250214)",
+      "value": 42.4,
+      "detail": "Submitted 2025-02-14 · agent: Agentless Lite · publisher checked: true · submission: 20250214_agentless_lite_o3_mini"
+    },
+    {
+      "name": "Amazon Nova Premier 1.0 (2025-04-30)",
+      "value": 42.4,
+      "detail": "Submitted 2025-05-27 · agent: Amazon Nova Premier 1.0 · publisher checked: false · submission: 20250527_amazon.nova-premier-v1.0"
+    },
+    {
+      "name": "DeepSWE-Preview",
+      "value": 42.2,
+      "detail": "Submitted 2025-06-29 · agent: R2E-Gym · publisher checked: false · submission: 20250629_deepswerl_r2eagent"
+    },
+    {
+      "name": "SWE-Exp",
+      "value": 42.0,
+      "detail": "Submitted 2025-08-06 · agent: SWE-Exp · publisher checked: false (see readme.md for info on how to get your results verified) · submission: 20250806_SWE-Exp_DeepSeek-V3"
+    },
+    {
+      "name": "nFactorial (2024-10-30)",
+      "value": 41.6,
+      "detail": "Submitted 2024-10-30 · agent: nFactorial · publisher checked: false · submission: 20241030_nfactorial"
+    },
+    {
+      "name": "ugaiforge",
+      "value": 41.6,
+      "detail": "Submitted 2025-01-12 · agent: ugaiforge · publisher checked: false · submission: 20250112_ugaiforge"
+    },
+    {
+      "name": "SWE-RL (Llama3-SWE-RL-70B + Agentless Mini) (20250226)",
+      "value": 41.2,
+      "detail": "Submitted 2025-02-26 · agent: Agentless Mini · publisher checked: false · submission: 20250226_swerl_llama3_70b"
+    },
+    {
+      "name": "Composio SWEkit + Claude 3.5 Sonnet (2024-10-16)",
+      "value": 40.6,
+      "detail": "Submitted 2024-10-16 · agent: Composio SWEkit · publisher checked: false · submission: 20241016_composio_swekit"
+    },
+    {
+      "name": "Honeycomb",
+      "value": 40.6,
+      "detail": "Submitted 2024-08-20 · agent: Honeycomb · publisher checked: false · submission: 20240820_honeycomb"
+    },
+    {
+      "name": "Nebius AI Qwen 2.5 72B Generator + LLama 3.1 70B Critic",
+      "value": 40.6,
+      "detail": "Submitted 2024-11-13 · agent: Nebius AI · publisher checked: false · submission: 20241113_nebius-search-open-weight-models-11-24"
+    },
+    {
+      "name": "Tools + Claude 3.5 Haiku",
+      "value": 40.6,
+      "detail": "Submitted 2024-10-22 · agent: Tools · publisher checked: false · submission: 20241022_tools_claude-3-5-haiku"
+    },
+    {
+      "name": "SWE-agent + SWE-agent-LM-32B",
+      "value": 40.2,
+      "detail": "Submitted 2025-05-11 · agent: SWE-agent · publisher checked: true · submission: 20250511_sweagent_lm_32b"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent v20241029 + Anthopic Claude 3.5 Sonnet",
+      "value": 39.6,
+      "detail": "Submitted 2024-10-29 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20241029_epam-ai-run-claude-3-5-sonnet"
+    },
+    {
+      "name": "GPT 4.1 (2025-04-14)",
+      "value": 39.58,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_gpt-4.1-2025-04-14"
+    },
+    {
+      "name": "Agentless-1.5 + GPT 4o (2024-05-13)",
+      "value": 38.8,
+      "detail": "Submitted 2024-10-28 · agent: Agentless-1.5 · publisher checked: false · submission: 20241028_agentless-1.5_gpt4o"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20240719-dev)",
+      "value": 38.8,
+      "detail": "Submitted 2024-07-21 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20240721_amazon-q-developer-agent-20240719-dev"
+    },
+    {
+      "name": "AutoCodeRover (v20240620) + GPT 4o (2024-05-13)",
+      "value": 38.4,
+      "detail": "Submitted 2024-06-28 · agent: AutoCodeRover · publisher checked: false · submission: 20240628_autocoderover-v20240620"
+    },
+    {
+      "name": "SWE-agent + DevStral Small 2507",
+      "value": 38.0,
+      "detail": "Submitted 2025-07-25 · agent: SWE-agent · publisher checked: true · submission: 20250725_sweagent_devstral_small_2507"
+    },
+    {
+      "name": "Skywork-SWE-32B",
+      "value": 38.0,
+      "detail": "Submitted 2025-06-16 · agent: Skywork-SWE-32B · publisher checked: true · submission: 20250616_Skywork-SWE-32B"
+    },
+    {
+      "name": "Factory Code Droid",
+      "value": 37.0,
+      "detail": "Submitted 2024-06-17 · agent: Factory Code Droid · publisher checked: false · submission: 20240617_factory_code_droid"
+    },
+    {
+      "name": "GPT 5 nano (2025-08-07) (medium)",
+      "value": 34.8,
+      "detail": "Submitted 2025-08-07 · agent: mini-SWE-agent · publisher checked: true · submission: 20250807_mini-v1.7.0_gpt-5-nano"
+    },
+    {
+      "name": "SWE-agent + Claude 3.5 Sonnet",
+      "value": 33.6,
+      "detail": "Submitted 2024-06-20 · agent: SWE-agent · publisher checked: true · submission: 20240620_sweagent_claude3.5sonnet"
+    },
+    {
+      "name": "SWE-Fixer (Qwen2.5-7b retriever + Qwen2.5-72b editor)",
+      "value": 32.8,
+      "detail": "Submitted 2025-03-06 · agent: SWE-Fixer · publisher checked: true · submission: 20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor"
+    },
+    {
+      "name": "MASAI + GPT 4o (2024-06-12)",
+      "value": 32.6,
+      "detail": "Submitted 2024-06-12 · agent: MASAI · publisher checked: false · submission: 20240612_MASAI_gpt4o"
+    },
+    {
+      "name": "Artemis Agent v1 (2024-11-20)",
+      "value": 32.0,
+      "detail": "Submitted 2024-11-20 · agent: Artemis Agent v1 · publisher checked: false · submission: 20241120_artemis_agent"
+    },
+    {
+      "name": "nFactorial (2024-10-07)",
+      "value": 31.6,
+      "detail": "Submitted 2024-10-07 · agent: nFactorial · publisher checked: false · submission: 20241007_nfactorial"
+    },
+    {
+      "name": "SWE-Fixer (Qwen2.5-7b retriever + Qwen2.5-72b editor) 20241128",
+      "value": 30.2,
+      "detail": "Submitted 2024-11-28 · agent: SWE-Fixer · publisher checked: false · submission: 20241128_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor_20241128"
+    },
+    {
+      "name": "Lingma Agent + Lingma SWE-GPT 72b (v0925)",
+      "value": 28.8,
+      "detail": "Submitted 2024-10-02 · agent: Lingma Agent · publisher checked: false · submission: 20241002_lingma-agent_lingma-swe-gpt-72b"
+    },
+    {
+      "name": "Gemini 2.5 Flash (2025-04-17)",
+      "value": 28.73,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_gemini-2.5-flash"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent + GPT4o [20241016_epam-ai-run-gpt-4o]",
+      "value": 27.0,
+      "detail": "Submitted 2024-10-16 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20241016_epam-ai-run-gpt-4o"
+    },
+    {
+      "name": "AppMap Navie + GPT 4o (2024-05-13)",
+      "value": 26.2,
+      "detail": "Submitted 2024-06-15 · agent: AppMap Navie · publisher checked: true · submission: 20240615_appmap-navie_gpt4o"
+    },
+    {
+      "name": "gpt-oss-120b",
+      "value": 26.0,
+      "detail": "Submitted 2025-08-07 · agent: mini-SWE-agent · publisher checked: true · submission: 20250807_mini-v1.7.0_gpt-oss-120b"
+    },
+    {
+      "name": "nFactorial (2024-10-01)",
+      "value": 25.8,
+      "detail": "Submitted 2024-10-01 · agent: nFactorial · publisher checked: false · submission: 20241001_nfactorial"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20240430-dev)",
+      "value": 25.6,
+      "detail": "Submitted 2024-05-09 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20240509_amazon-q-developer-agent-20240430-dev"
+    },
+    {
+      "name": "Lingma Agent + Lingma SWE-GPT 72b (v0918)",
+      "value": 25.0,
+      "detail": "Submitted 2024-09-18 · agent: Lingma Agent · publisher checked: false · submission: 20240918_lingma-agent_lingma-swe-gpt-72b"
+    },
+    {
+      "name": "EPAM AI/Run Developer Agent + GPT4o [20240820_epam-ai-run-gpt-4o]",
+      "value": 24.0,
+      "detail": "Submitted 2024-08-20 · agent: EPAM AI/Run Developer Agent · publisher checked: false · submission: 20240820_epam-ai-run-gpt-4o"
+    },
+    {
+      "name": "GPT 4.1 mini (2025-04-14)",
+      "value": 23.94,
+      "detail": "Submitted 2025-07-20 · agent: mini-SWE-agent · publisher checked: true · submission: 20250720_mini-v0.0.0_gpt-4.1-mini-2025-04-14"
+    },
+    {
+      "name": "MCTS-Refine-7B",
+      "value": 23.2,
+      "detail": "Submitted 2025-06-27 · agent: MCTS-Refine-7B · publisher checked: false · submission: 20250627_agentless_MCTS-Refine-7B"
+    },
+    {
+      "name": "SWE-agent + GPT 4o (2024-05-13)",
+      "value": 23.2,
+      "detail": "Submitted 2024-07-28 · agent: SWE-agent · publisher checked: true · submission: 20240728_sweagent_gpt4o"
+    },
+    {
+      "name": "SWE-agent + GPT 4 (1106)",
+      "value": 22.4,
+      "detail": "Submitted 2024-04-02 · agent: SWE-agent · publisher checked: true · submission: 20240402_sweagent_gpt4"
+    },
+    {
+      "name": "GPT 4o (2024-11-20)",
+      "value": 21.62,
+      "detail": "Submitted 2025-07-20 · agent: mini-SWE-agent · publisher checked: true · submission: 20250720_mini-v0.0.0-gpt-4o-2024-11-20"
+    },
+    {
+      "name": "Llama 4 Maverick Instruct",
+      "value": 21.04,
+      "detail": "Submitted 2025-07-20 · agent: mini-SWE-agent · publisher checked: true · submission: 20250720_mini-v0.0.0-Llama-4-Maverick-17B-Instruct"
+    },
+    {
+      "name": "Lingma Agent + Lingma SWE-GPT 7b (v0925)",
+      "value": 18.2,
+      "detail": "Submitted 2024-10-02 · agent: Lingma Agent · publisher checked: false · submission: 20241002_lingma-agent_lingma-swe-gpt-7b"
+    },
+    {
+      "name": "SWE-agent + Claude 3 Opus",
+      "value": 15.8,
+      "detail": "Submitted 2024-04-02 · agent: SWE-agent · publisher checked: true · submission: 20240402_sweagent_claude3opus"
+    },
+    {
+      "name": "Gemini 2.0 Flash",
+      "value": 13.52,
+      "detail": "Submitted 2025-07-26 · agent: mini-SWE-agent · publisher checked: true · submission: 20250726_mini-v1.0.0_gemini-2.0-flash"
+    },
+    {
+      "name": "Lingma Agent + Lingma SWE-GPT 7b (v0918)",
+      "value": 10.2,
+      "detail": "Submitted 2024-09-18 · agent: Lingma Agent · publisher checked: false · submission: 20240918_lingma-agent_lingma-swe-gpt-7b"
+    },
+    {
+      "name": "Llama 4 Scout Instruct",
+      "value": 9.06,
+      "detail": "Submitted 2025-07-20 · agent: mini-SWE-agent · publisher checked: true · submission: 20250720_mini-v0.0.0-Llama-4-Scout-17B-Instruct"
+    },
+    {
+      "name": "Qwen2.5-Coder 32B Instruct",
+      "value": 9.0,
+      "detail": "Submitted 2025-08-03 · agent: mini-SWE-agent · publisher checked: true · submission: 20250803_mini-v1.0.0_qwen2-5-coder-32b-instruct"
+    },
+    {
+      "name": "RAG + Claude 3 Opus",
+      "value": 7.0,
+      "detail": "Submitted 2024-04-02 · agent: RAG baseline · publisher checked: true · submission: 20240402_rag_claude3opus"
+    },
+    {
+      "name": "RAG + Claude 2",
+      "value": 4.4,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_claude2"
+    },
+    {
+      "name": "RAG + GPT 4 (1106)",
+      "value": 2.8,
+      "detail": "Submitted 2024-04-02 · agent: RAG baseline · publisher checked: true · submission: 20240402_rag_gpt4"
+    },
+    {
+      "name": "RAG + SWE-Llama 7B",
+      "value": 1.4,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_swellama7b"
+    },
+    {
+      "name": "RAG + SWE-Llama 13B",
+      "value": 1.2,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_swellama13b"
+    },
+    {
+      "name": "RAG + ChatGPT 3.5",
+      "value": 0.4,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_gpt35"
+    }
+  ]
+}

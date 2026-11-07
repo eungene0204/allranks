@@ -541,3 +541,13 @@ Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수
 ## 2026-11-07 daily collection
 
 Added a verified manual marathon snapshot using the existing JSON architecture; public verification filters remain unchanged.
+
+
+## 2026-11-08 AI 랭킹 21개 추가
+
+기존 JSON 스냅샷 구조와 공개 필터를 유지하면서 AI 모델/에이전트 랭킹 21개를 entityType:product로 추가했다. 국가 집계에는 포함하지 않는다. LiveBench v2 가중평균, v1 과제→영역→종합 평균, SWE-bench 공식 제출별 해결률을 저장한다. 공식 원자료·배포 JS·SHA-256·전수 대조 기록은 docs/audits/2026-11-08-ai-rankings/에 보관한다. 클라이언트 카탈로그 재생성 완료. UI/런타임 코드는 수정하지 않았다.
+
+
+## 2026-11-08 AI 랭킹 배포 검증
+
+최신 origin/main(bb54aa4)에서 분리한 publish/ai-rankings-20261108 체크아웃에 AI 랭킹 21개와 검증 기록만 반영했다. 원 작업 폴더의 미완료 변경은 포함하지 않았다. 공식 원자료 접근 기록 3개, 편집 커버리지와 SEO 스냅샷을 갱신했다. 3,440개 데이터 검증 오류·경고 0, 타입 검사 및 프로덕션 빌드 통과. 프로덕션 로컬 서버에서 상세 21개 HTTP 200, 카테고리·사이트맵 21개 포함, 검색 200, 존재하지 않는 상세 404를 확인했다. Vercel 운영 반영 및 원격 확인을 진행한다. 증빙: docs/audits/2026-11-08-ai-rankings/production-build-checks.json.

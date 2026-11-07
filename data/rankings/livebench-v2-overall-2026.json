@@ -1,0 +1,190 @@
+{
+  "id": "livebench-v2-overall-2026",
+  "title": "LiveBench v2: Overall AI Models (2026-10-25)",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "LiveBench v2 Overall, release 2026-10-25, captured 2026-11-08. Weighted mean of available suite scores: Long Agentic ×2, Coding ×1.5, Design ×1.5, other suites ×1. Higher is better on this benchmark only. Model IDs preserve reasoning-effort and fine-tuning variants; rows are evaluation configurations, not unique model families. Missing scores are excluded, not treated as zero. Different releases and v1/v2 are not directly comparable.",
+  "unit": "benchmark score (0–100)",
+  "prefix": "",
+  "suffix": "",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-10",
+  "sort": 10,
+  "source": {
+    "kind": "manual",
+    "name": "LiveBench v2 — 2026-10-25 release",
+    "url": "https://livebench.ai/data/20261025/table.csv",
+    "urls": [
+      "https://livebench.ai/data/20261025/categories.json",
+      "https://livebench.ai/"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: every included model ID and numeric cell against the directly fetched official CSV; category membership, averaging and overall weights against the official categories JSON and deployed application code. Weighted mean of available suite scores: Long Agentic ×2, Coding ×1.5, Design ×1.5, other suites ×1. All source rows retained where a score is available, including fine-tunes/effort variants. This is source reconciliation, not an independent model evaluation. Archived raw inputs and SHA-256 hashes: docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "claude-fable-5.1",
+      "value": 85.694444,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gpt-6-astra",
+      "value": 85.638889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "claude-opus-5.5",
+      "value": 85.144444,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gpt-6.1-sol",
+      "value": 84.072222,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "claude-sonnet-5.5",
+      "value": 80.038889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gemini-4-argon",
+      "value": 79.3,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gpt-6.1-terra",
+      "value": 77.788889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "muse-wonder-1.0",
+      "value": 74.15,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "deepseek-v4.1-flash-1017",
+      "value": 72.866667,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "kimi-k3.1-pro",
+      "value": 71.288889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "grok-4.7",
+      "value": 70.138889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "claude-haiku-5.5",
+      "value": 69.85,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "mimo-v2.6-pro",
+      "value": 68.477778,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gpt-5.6-terra",
+      "value": 67.788889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "grok-4.6",
+      "value": 67.75,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "minimax-m3.1-flash",
+      "value": 66.894444,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gpt-6-luna",
+      "value": 64.588889,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "kimi-k3",
+      "value": 64.572222,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "mistral-large-4-0",
+      "value": 63.494444,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "muse-spark-1.3",
+      "value": 63.033333,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "glm-5.3-flash",
+      "value": 62.066667,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "qwen3.8-max",
+      "value": 61.561111,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gemini-3.8-flash",
+      "value": 59.205556,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "step-5-preview",
+      "value": 58.605556,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "qwen3.8-27b",
+      "value": 58.383333,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "muse-spark-open",
+      "value": 51.627778,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "smaug-nemotron-3.5-nvfp4",
+      "value": 50.305556,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "nemotron-super-vl-3.5",
+      "value": 50.227778,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "inkling",
+      "value": 47.05,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "nemotron-super-vl-3.5-nvfp4",
+      "value": 46.5,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "mistral-large-4",
+      "value": 43.9,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    },
+    {
+      "name": "gemma-4-31b",
+      "value": 38.722222,
+      "detail": "LiveBench v2 · release 2026-10-25 · source model ID"
+    }
+  ]
+}

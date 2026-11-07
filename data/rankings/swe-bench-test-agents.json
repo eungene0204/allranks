@@ -1,0 +1,150 @@
+{
+  "id": "swe-bench-test-agents",
+  "title": "SWE-bench Test: AI Coding Agents",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "Official SWE-bench Test submission results captured 2026-11-08; latest listed submission 2025-12-19. Percentage of benchmark issues resolved, higher is better. Compares complete agent/model configurations with different tools, budgets and attempt counts, not isolated model quality. Every official submission is retained; submission IDs distinguish repeat names. Publisher checked status is shown per row and is separate from AllRanks source verification. This snapshot is not a claim to include every model released by November 2026.",
+  "unit": "issues resolved (%)",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2025,
+  "asOf": "2025-12",
+  "sort": 51,
+  "source": {
+    "kind": "manual",
+    "name": "SWE-bench official Test leaderboard",
+    "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+    "urls": [
+      "https://www.swebench.com/",
+      "https://www.swebench.com/verified"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: all 24 submission names, IDs, resolved percentages, dates, and publisher checked flags directly against the official leaderboard JSON pinned at commit 193160a463a435d05cf44a1fa9dc5eac832113c3. Descending order derived from published resolved percentages. Official unchecked submissions remain included and labeled; AllRanks verification confirms faithful transcription, not independent execution or endorsement of submitted results. Agent scaffolds, versions, budgets and attempts differ. Raw JSON archived compressed with SHA-256 in docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "Sonar Foundation Agent + Claude 4.5 Opus",
+      "value": 52.62,
+      "detail": "Submitted 2025-12-19 · agent: Sonar Foundation Agent · publisher checked: false · submission: 20251219_sonar-foundation-agent_claude-opus-4-5"
+    },
+    {
+      "name": "Salesforce AI Research SAGE (bash-only)",
+      "value": 44.25,
+      "detail": "Submitted 2025-10-27 · agent: Salesforce AI Research SAGE · publisher checked: false · submission: 20251027_salesforce_SAGE"
+    },
+    {
+      "name": "Atlassian Rovo Dev (2025-06-05)",
+      "value": 41.98,
+      "detail": "Submitted 2025-06-05 · agent: Atlassian Rovo Dev · publisher checked: false · submission: 20250605_atlassian-rovo-dev"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20250405-dev)",
+      "value": 37.1,
+      "detail": "Submitted 2025-05-22 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20250522_amazon-q-developer-agent-20250405-dev"
+    },
+    {
+      "name": "SWE-agent 1.0 (Claude 3.7 Sonnet)",
+      "value": 33.83,
+      "detail": "Submitted 2025-02-27 · agent: SWE-agent 1.0 · publisher checked: true · submission: 20250227_sweagent-claude-3-7-20250219"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20241202-dev)",
+      "value": 29.99,
+      "detail": "Submitted 2025-01-31 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20250131_amazon-q-developer-agent-20241202-dev"
+    },
+    {
+      "name": "OpenHands + CodeAct v2.1 (claude-3-5-sonnet-20241022)",
+      "value": 29.38,
+      "detail": "Submitted 2024-11-03 · agent: OpenHands · publisher checked: true · submission: 20241103_OpenHands-CodeAct-2.1-sonnet-20241022"
+    },
+    {
+      "name": "AutoCodeRover-v2.0 (Claude-3.5-Sonnet-20241022)",
+      "value": 24.89,
+      "detail": "Submitted 2024-11-21 · agent: AutoCodeRover-v2.0 · publisher checked: false · submission: 20241121_autocoderover-v2.0-claude-3-5-sonnet-20241022"
+    },
+    {
+      "name": "Honeycomb",
+      "value": 22.06,
+      "detail": "Submitted 2024-08-20 · agent: Honeycomb · publisher checked: false · submission: 20240820_honeycomb"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20240719-dev)",
+      "value": 19.75,
+      "detail": "Submitted 2024-07-21 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20240721_amazon-q-developer-agent-20240719-dev"
+    },
+    {
+      "name": "Factory Code Droid",
+      "value": 19.27,
+      "detail": "Submitted 2024-06-17 · agent: Factory Code Droid · publisher checked: false · submission: 20240617_factory_code_droid"
+    },
+    {
+      "name": "AutoCodeRover (v20240620) + GPT 4o (2024-05-13)",
+      "value": 18.83,
+      "detail": "Submitted 2024-06-28 · agent: AutoCodeRover · publisher checked: false · submission: 20240628_autocoderover-v20240620"
+    },
+    {
+      "name": "SWE-agent + Claude 3.5 Sonnet",
+      "value": 18.13,
+      "detail": "Submitted 2024-06-20 · agent: SWE-agent · publisher checked: true · submission: 20240620_sweagent_claude3.5sonnet"
+    },
+    {
+      "name": "AppMap Navie + GPT 4o (2024-05-13)",
+      "value": 14.6,
+      "detail": "Submitted 2024-06-15 · agent: AppMap Navie · publisher checked: true · submission: 20240615_appmap-navie_gpt4o"
+    },
+    {
+      "name": "Amazon Q Developer Agent (v20240430-dev)",
+      "value": 13.82,
+      "detail": "Submitted 2024-05-09 · agent: Amazon Q Developer Agent · publisher checked: false · submission: 20240509_amazon-q-developer-agent-20240430-dev"
+    },
+    {
+      "name": "SWE-agent + GPT 4 (1106)",
+      "value": 12.47,
+      "detail": "Submitted 2024-04-02 · agent: SWE-agent · publisher checked: true · submission: 20240402_sweagent_gpt4"
+    },
+    {
+      "name": "SWE-agent + GPT 4o (2024-05-13)",
+      "value": 11.99,
+      "detail": "Submitted 2024-07-28 · agent: SWE-agent · publisher checked: true · submission: 20240728_sweagent_gpt4o"
+    },
+    {
+      "name": "SWE-agent + Claude 3 Opus",
+      "value": 10.51,
+      "detail": "Submitted 2024-04-02 · agent: SWE-agent · publisher checked: true · submission: 20240402_sweagent_claude3opus"
+    },
+    {
+      "name": "RAG + Claude 3 Opus",
+      "value": 3.79,
+      "detail": "Submitted 2024-04-02 · agent: RAG baseline · publisher checked: true · submission: 20240402_rag_claude3opus"
+    },
+    {
+      "name": "RAG + Claude 2",
+      "value": 1.96,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_claude2"
+    },
+    {
+      "name": "RAG + GPT 4 (1106)",
+      "value": 1.31,
+      "detail": "Submitted 2024-04-02 · agent: RAG baseline · publisher checked: true · submission: 20240402_rag_gpt4"
+    },
+    {
+      "name": "RAG + SWE-Llama 13B",
+      "value": 0.7,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_swellama13b"
+    },
+    {
+      "name": "RAG + SWE-Llama 7B",
+      "value": 0.7,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_swellama7b"
+    },
+    {
+      "name": "RAG + ChatGPT 3.5",
+      "value": 0.17,
+      "detail": "Submitted 2023-10-10 · agent: RAG baseline · publisher checked: true · submission: 20231010_rag_gpt35"
+    }
+  ]
+}

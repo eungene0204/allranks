@@ -479,3 +479,13 @@ Visual Capitalist와 The European Correspondent의 유럽 41개국 법치 지수
 ## 2026-11-07 daily collection
 
 world-athletics-mens-marathon-2026-11-03 contains ten source-verified athletes, countries and ranking points as of 3 November 2026. Its description states half-marathon scope, top-ten coverage and live-source limitations.
+
+
+## 2026-11-08 AI 랭킹 21개 추가
+
+AI 카테고리는 기존 11개에서 32개로 확장했다. LiveBench v2 종합/장기 에이전트/추론/코딩/브라우저/데이터 분석/리서치/디자인 8개, v1 종합/추론/코딩/에이전트 코딩/수학/데이터 분석/언어/지시 이행 8개, SWE-bench Multilingual/Test/Verified/Lite/Multimodal 5개를 제공한다. 총 1,147개 평가 행을 원문과 대조해 verified:true로 확정했다. 평가판 간 비교 한계, 모델 설정 구분, SWE-bench 제출 조건 및 원 제공자 checked 여부를 설명/행 정보에 명시했다. 미검증 공개 금지는 유지하며 신규 미검증 초안은 없다.
+
+
+## 2026-11-08 AI 랭킹 배포 검증
+
+최신 origin/main(bb54aa4)에서 분리한 publish/ai-rankings-20261108 체크아웃에 AI 랭킹 21개와 검증 기록만 반영했다. 원 작업 폴더의 미완료 변경은 포함하지 않았다. 공식 원자료 접근 기록 3개, 편집 커버리지와 SEO 스냅샷을 갱신했다. 3,440개 데이터 검증 오류·경고 0, 타입 검사 및 프로덕션 빌드 통과. 프로덕션 로컬 서버에서 상세 21개 HTTP 200, 카테고리·사이트맵 21개 포함, 검색 200, 존재하지 않는 상세 404를 확인했다. Vercel 운영 반영 및 원격 확인을 진행한다. 증빙: docs/audits/2026-11-08-ai-rankings/production-build-checks.json.

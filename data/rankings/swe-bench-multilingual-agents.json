@@ -1,0 +1,95 @@
+{
+  "id": "swe-bench-multilingual-agents",
+  "title": "SWE-bench Multilingual: AI Coding Agents",
+  "category": "ai",
+  "icon": "🤖",
+  "desc": "Official SWE-bench Multilingual submission results captured 2026-11-08; latest listed submission 2026-02-20. Percentage of benchmark issues resolved, higher is better. Compares complete agent/model configurations with different tools, budgets and attempt counts, not isolated model quality. Every official submission is retained; submission IDs distinguish repeat names. Publisher checked status is shown per row and is separate from AllRanks source verification. This snapshot is not a claim to include every model released by November 2026.",
+  "unit": "issues resolved (%)",
+  "prefix": "",
+  "suffix": "%",
+  "decimals": 2,
+  "order": "desc",
+  "entityType": "product",
+  "year": 2026,
+  "asOf": "2026-02",
+  "sort": 50,
+  "source": {
+    "kind": "manual",
+    "name": "SWE-bench official Multilingual leaderboard",
+    "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+    "urls": [
+      "https://www.swebench.com/",
+      "https://www.swebench.com/verified"
+    ],
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-08: all 13 submission names, IDs, resolved percentages, dates, and publisher checked flags directly against the official leaderboard JSON pinned at commit 193160a463a435d05cf44a1fa9dc5eac832113c3. Descending order derived from published resolved percentages. Official unchecked submissions remain included and labeled; AllRanks verification confirms faithful transcription, not independent execution or endorsement of submitted results. Agent scaffolds, versions, budgets and attempts differ. Raw JSON archived compressed with SHA-256 in docs/audits/2026-11-08-ai-rankings/."
+  },
+  "updatedAt": "2026-11-07T20:23:53.877368+00:00",
+  "items": [
+    {
+      "name": "Gemini 3 Flash",
+      "value": 72.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_gemini-3-flash"
+    },
+    {
+      "name": "Claude 4.6 Opus",
+      "value": 72.0,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_claude-4-6-opus"
+    },
+    {
+      "name": "Claude 4.5 Opus",
+      "value": 70.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_claude-4-5-opus"
+    },
+    {
+      "name": "GLM 5",
+      "value": 69.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_glm-5"
+    },
+    {
+      "name": "Gemini 3 Pro",
+      "value": 68.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_gemini-3-pro"
+    },
+    {
+      "name": "MiniMax M2.5",
+      "value": 68.3,
+      "detail": "Submitted 2026-02-16 · agent: mini-SWE-agent · publisher checked: true · submission: 20260216_mini-v2.0.0a0_minimax-2-5"
+    },
+    {
+      "name": "Kimi K2.5",
+      "value": 67.3,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_kimi-k2-5"
+    },
+    {
+      "name": "Claude 4.5 Sonnet",
+      "value": 67.0,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_claude-4-5-sonnet"
+    },
+    {
+      "name": "GPT 5.2 (high)",
+      "value": 66.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_gpt-5-2-high"
+    },
+    {
+      "name": "GPT 5.2 Codex",
+      "value": 66.3,
+      "detail": "Submitted 2026-02-20 · agent: mini-SWE-agent · publisher checked: none · submission: 20260220_mini-v2.0.0_gpt-5-2-codex"
+    },
+    {
+      "name": "Claude 4.5 Haiku",
+      "value": 64.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_claude-4-5-haiku"
+    },
+    {
+      "name": "DeepSeek V3.2",
+      "value": 59.0,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_deepseek-3-2"
+    },
+    {
+      "name": "GPT 5 mini",
+      "value": 39.7,
+      "detail": "Submitted 2026-02-13 · agent: mini-SWE-agent · publisher checked: true · submission: 20260213_mini-v2.0.0a0_gpt-5-mini"
+    }
+  ]
+}
