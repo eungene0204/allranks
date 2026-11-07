@@ -543,3 +543,8 @@ Required checks passed: 3,419 files, zero errors/warnings; lint; editorial cover
 ## 2026-11-08 AI 랭킹 배포 검증
 
 최신 origin/main(bb54aa4)에서 분리한 publish/ai-rankings-20261108 체크아웃에 AI 랭킹 21개와 검증 기록만 반영했다. 원 작업 폴더의 미완료 변경은 포함하지 않았다. 공식 원자료 접근 기록 3개, 편집 커버리지와 SEO 스냅샷을 갱신했다. 3,440개 데이터 검증 오류·경고 0, 타입 검사 및 프로덕션 빌드 통과. 프로덕션 로컬 서버에서 상세 21개 HTTP 200, 카테고리·사이트맵 21개 포함, 검색 200, 존재하지 않는 상세 404를 확인했다. Vercel 운영 반영 및 원격 확인을 진행한다. 증빙: docs/audits/2026-11-08-ai-rankings/production-build-checks.json.
+
+
+## 2026-11-08 AI 랭킹 운영 배포 완료
+
+AI 랭킹 21개/1,147개 평가 행 추가 커밋 fcb2bfe를 main에 반영하고 Vercel dpl_2XNfiiVzYdu4bGhYfaLPaLbbUVcW를 운영 배포했다. READY 및 allranks.world의 해당 배포 연결을 확인했다. 최신 main의 기존 AI 자료를 포함해 AI 카테고리는 총 35개다. 운영 신규 상세 21개 HTTP 200, 제목/1위 일치, AI 카테고리·사이트맵의 신규 ID 21개 포함, 검색 HTTP 200 및 존재하지 않는 상세 HTTP 404를 확인했다. 데이터 검증 3,440개 오류·경고 0, 타입 검사/프로덕션 빌드 통과. 이번 추가 자료에 미검증 초안은 없다. 원 작업 폴더의 다른 미완료 변경은 배포에서 제외했다. 증빙: docs/audits/2026-11-08-ai-rankings/production-http-checks.json 및 deployment.json.

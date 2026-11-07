@@ -43,3 +43,8 @@ AllRanks 어시스턴트가 공식 원자료 전체를 직접 내려받아 대�
 - `swe-bench-verified-agents` — 180개 평가 행
 - `swe-bench-lite-agents` — 84개 평가 행
 - `swe-bench-multimodal-agents` — 22개 평가 행
+
+
+## 운영 배포 완료
+
+2026-11-08 커밋 fcb2bfe 배포 완료. Vercel READY 및 allranks.world 연결 확인. 운영 상세 21개 제목/1위, 카테고리·사이트맵 21개 ID, 검색 및 존재하지 않는 상세 HTTP 404 검사 통과. 최신 main 기준 AI 카테고리는 총 35개다. 증빙: production-http-checks.json, deployment.json.
