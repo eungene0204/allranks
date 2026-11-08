@@ -548,3 +548,15 @@ Required checks passed: 3,419 files, zero errors/warnings; lint; editorial cover
 ## 2026-11-08 AI 랭킹 운영 배포 완료
 
 AI 랭킹 21개/1,147개 평가 행 추가 커밋 fcb2bfe를 main에 반영하고 Vercel dpl_2XNfiiVzYdu4bGhYfaLPaLbbUVcW를 운영 배포했다. READY 및 allranks.world의 해당 배포 연결을 확인했다. 최신 main의 기존 AI 자료를 포함해 AI 카테고리는 총 35개다. 운영 신규 상세 21개 HTTP 200, 제목/1위 일치, AI 카테고리·사이트맵의 신규 ID 21개 포함, 검색 HTTP 200 및 존재하지 않는 상세 HTTP 404를 확인했다. 데이터 검증 3,440개 오류·경고 0, 타입 검사/프로덕션 빌드 통과. 이번 추가 자료에 미검증 초안은 없다. 원 작업 폴더의 다른 미완료 변경은 배포에서 제외했다. 증빙: docs/audits/2026-11-08-ai-rankings/production-http-checks.json 및 deployment.json.
+
+
+## 2026-11-08 daily collection
+
+Clean main matched origin/main; no unfinished automation changes existed. Ran coverage planning and confirmed dependencies, current Codex session and Vercel authentication. Official men’s 100m source was accessible; verified all ten rows and 3 November 2026 edition. No blocked candidates or private drafts. Required validation and release checks follow.
+
+Validation passed: 3,420 ranking files, zero errors/warnings; lint passed. Production build stopped in prebuild editorial-report with one error: world-athletics-mens-100m-2026-11-03 source accessibility record missing. Per the daily skill’s mandatory stop rule for failures other than post-generation SecurityFatalError, this run did not commit, push or deploy. All local changes are preserved. Follow-up: add the source accessibility record using the existing editorial workflow, rerun required checks and resume release in a subsequent run.
+
+
+## 2026-11-09 daily collection and recovery
+
+Reconciled two newer origin/main commits by fast-forwarding and retaining both sets of appended documentation; reviewed and preserved the previous run’s 100m data. Reverified all ten entries and repaired the missing source accessibility observation that blocked the earlier build. Ran coverage planning against the reconciled catalog and added the missing women’s 200m top ten (ten additional source-verified entries). Browser retrieval timed out for the women’s source; direct official HTTP retrieval succeeded with the complete table, so no candidate remained blocked. Dependencies, current Codex session and Vercel authentication confirmed. Data validation: 3,442 files, zero errors/warnings; lint and editorial coverage pass (3,442 public, zero private drafts). Production build passed on the first attempt. Local production detail pages, category, search, suggestions and sitemap passed; missing detail returned HTTP 404. Reviewed all preserved/new files and unchanged verification filters; git diff --check passed. Release is ready for commit/push and Vercel production deployment; final READY/domain verification remains. Evidence: docs/audits/2026-11-09-daily/local-http-checks.json.

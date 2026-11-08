@@ -1,0 +1,58 @@
+{
+  "base": "http://localhost:3117",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-mens-100m-2026-11-03",
+      "status": 200,
+      "contains": [
+        "Oblique Seville",
+        "1445"
+      ]
+    },
+    {
+      "path": "/ranking/world-athletics-womens-200m-2026-11-03",
+      "status": 200,
+      "contains": [
+        "Melissa Jefferson-Wooden",
+        "1421"
+      ]
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": [
+        "world-athletics-mens-100m-2026-11-03",
+        "world-athletics-womens-200m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": [
+        "world-athletics-mens-100m-2026-11-03",
+        "world-athletics-womens-200m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/search?q=World%20Rankings",
+      "status": 200,
+      "contains": [
+        "world-athletics-mens-100m-2026-11-03",
+        "world-athletics-womens-200m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/api/search-suggestions?q=200m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-200m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/ranking/allranks-missing-20261109",
+      "status": 404,
+      "contains": []
+    }
+  ],
+  "privateDrafts": []
+}

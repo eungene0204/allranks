@@ -494,3 +494,13 @@ AI 카테고리는 기존 11개에서 32개로 확장했다. LiveBench v2 종합
 ## 2026-11-08 AI 랭킹 운영 배포 완료
 
 AI 랭킹 21개/1,147개 평가 행 추가 커밋 fcb2bfe를 main에 반영하고 Vercel dpl_2XNfiiVzYdu4bGhYfaLPaLbbUVcW를 운영 배포했다. READY 및 allranks.world의 해당 배포 연결을 확인했다. 최신 main의 기존 AI 자료를 포함해 AI 카테고리는 총 35개다. 운영 신규 상세 21개 HTTP 200, 제목/1위 일치, AI 카테고리·사이트맵의 신규 ID 21개 포함, 검색 HTTP 200 및 존재하지 않는 상세 HTTP 404를 확인했다. 데이터 검증 3,440개 오류·경고 0, 타입 검사/프로덕션 빌드 통과. 이번 추가 자료에 미검증 초안은 없다. 원 작업 폴더의 다른 미완료 변경은 배포에서 제외했다. 증빙: docs/audits/2026-11-08-ai-rankings/production-http-checks.json 및 deployment.json.
+
+
+## 2026-11-08 daily collection
+
+world-athletics-mens-100m-2026-11-03 includes ten athletes, countries and ranking points verified against World Athletics. Description states the associated sprint-event scope, top-ten coverage and live-source limitation.
+
+
+## 2026-11-09 daily collection and recovery
+
+world-athletics-mens-100m-2026-11-03 and world-athletics-womens-200m-2026-11-03 each include ten source-verified athletes, ISO-2 countries and ranking points from the official 3 November 2026 edition. All 20 entries and ordering were compared with directly retrieved original HTML; each source table contains 100 page-one athletes. Descriptions disclose top-ten coverage, associated sprint-event scope, points rather than times, and live-source limitations. Both records are verified:true; no private drafts were created.

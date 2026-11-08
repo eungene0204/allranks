@@ -556,3 +556,13 @@ Added a verified manual marathon snapshot using the existing JSON architecture; 
 ## 2026-11-08 AI 랭킹 운영 배포 완료
 
 AI 랭킹 21개/1,147개 평가 행 추가 커밋 fcb2bfe를 main에 반영하고 Vercel dpl_2XNfiiVzYdu4bGhYfaLPaLbbUVcW를 운영 배포했다. READY 및 allranks.world의 해당 배포 연결을 확인했다. 최신 main의 기존 AI 자료를 포함해 AI 카테고리는 총 35개다. 운영 신규 상세 21개 HTTP 200, 제목/1위 일치, AI 카테고리·사이트맵의 신규 ID 21개 포함, 검색 HTTP 200 및 존재하지 않는 상세 HTTP 404를 확인했다. 데이터 검증 3,440개 오류·경고 0, 타입 검사/프로덕션 빌드 통과. 이번 추가 자료에 미검증 초안은 없다. 원 작업 폴더의 다른 미완료 변경은 배포에서 제외했다. 증빙: docs/audits/2026-11-08-ai-rankings/production-http-checks.json 및 deployment.json.
+
+
+## 2026-11-08 daily collection
+
+Added the verified men’s 100m top-ten snapshot using the existing ranking JSON schema and public verification filters. No structural or code changes.
+
+
+## 2026-11-09 daily collection and recovery
+
+Preserved and reconciled the unfinished 8 November automation changes with origin/main (including the 21 already-published AI rankings). Added the women’s 200m snapshot and reverified the preserved men’s 100m snapshot through the existing JSON schema. Added targeted HTTP source-access observations and regenerated editorial coverage; public server/client verification filters are unchanged. Row-level source comparisons and source hashes are recorded in docs/audits/2026-11-09-daily/verification.json. No runtime or structural changes.
