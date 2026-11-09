@@ -566,3 +566,8 @@ Added the verified men’s 100m top-ten snapshot using the existing ranking JSON
 ## 2026-11-09 daily collection and recovery
 
 Preserved and reconciled the unfinished 8 November automation changes with origin/main (including the 21 already-published AI rankings). Added the women’s 200m snapshot and reverified the preserved men’s 100m snapshot through the existing JSON schema. Added targeted HTTP source-access observations and regenerated editorial coverage; public server/client verification filters are unchanged. Row-level source comparisons and source hashes are recorded in docs/audits/2026-11-09-daily/verification.json. No runtime or structural changes.
+
+
+## 2026-11-10 daily collection
+
+Added a verified manual women’s 400m snapshot and targeted source-access observation using the existing JSON schema. Public server/client verification filters are unchanged; no runtime or structural changes. Row-level comparison and source hash: docs/audits/2026-11-10-daily/verification.json.

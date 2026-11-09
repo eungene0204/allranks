@@ -1,0 +1,48 @@
+{
+  "base": "http://localhost:3118",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-womens-400m-2026-11-03",
+      "status": 200,
+      "contains": [
+        "Marileidy Paulino",
+        "1451",
+        "Stacey Ann Williams"
+      ]
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/search?q=400m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/api/search-suggestions?q=400m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/ranking/allranks-missing-20261110",
+      "status": 404,
+      "contains": []
+    }
+  ],
+  "privateDrafts": []
+}

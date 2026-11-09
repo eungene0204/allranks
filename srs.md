@@ -504,3 +504,8 @@ world-athletics-mens-100m-2026-11-03 includes ten athletes, countries and rankin
 ## 2026-11-09 daily collection and recovery
 
 world-athletics-mens-100m-2026-11-03 and world-athletics-womens-200m-2026-11-03 each include ten source-verified athletes, ISO-2 countries and ranking points from the official 3 November 2026 edition. All 20 entries and ordering were compared with directly retrieved original HTML; each source table contains 100 page-one athletes. Descriptions disclose top-ten coverage, associated sprint-event scope, points rather than times, and live-source limitations. Both records are verified:true; no private drafts were created.
+
+
+## 2026-11-10 daily collection
+
+world-athletics-womens-400m-2026-11-03 includes eleven verified athletes from the official 3 November 2026 edition, retaining both 1317-point athletes at the cutoff. Descriptions disclose partial coverage, 300m–500m/short-track scope, ranking points rather than times, and equal-score display differences from official sequential places. No private draft was created.
