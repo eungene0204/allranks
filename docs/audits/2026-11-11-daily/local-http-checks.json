@@ -1,0 +1,48 @@
+{
+  "base": "http://localhost:3119",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-womens-800m-2026-11-03",
+      "status": 200,
+      "contains": [
+        "Audrey Werro",
+        "1434",
+        "Anaïs Bourgoin"
+      ]
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-800m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-800m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/search?q=800m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-800m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/api/search-suggestions?q=800m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-800m-2026-11-03"
+      ]
+    },
+    {
+      "path": "/ranking/allranks-missing-20261111",
+      "status": 404,
+      "contains": []
+    }
+  ],
+  "privateDrafts": []
+}

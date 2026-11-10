@@ -509,3 +509,8 @@ world-athletics-mens-100m-2026-11-03 and world-athletics-womens-200m-2026-11-03 
 ## 2026-11-10 daily collection
 
 world-athletics-womens-400m-2026-11-03 includes eleven verified athletes from the official 3 November 2026 edition, retaining both 1317-point athletes at the cutoff. Descriptions disclose partial coverage, 300m–500m/short-track scope, ranking points rather than times, and equal-score display differences from official sequential places. No private draft was created.
+
+
+## 2026-11-11 daily collection
+
+world-athletics-womens-800m-2026-11-03 contains ten source-verified athletes, countries and ranking points from the official 3 November 2026 edition. Description discloses top-ten coverage, associated 600m–1000m/short-track scope, points rather than times and live-source limitations. The cutoff has no equal-score omission. No private draft was created.
