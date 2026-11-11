@@ -574,3 +574,10 @@ Required checks passed: 3,443 ranking files, zero validation errors/warnings; li
 Clean main matched origin/main; no unfinished automation files existed. Ran coverage planning and confirmed local dependencies, current Codex session and Vercel authentication. Web source retrieval returned 403; continued via direct official HTTP retrieval, verifying the complete top ten and current edition against 100 source rows. Added world-athletics-womens-800m-2026-11-03. No private draft. Required checks and release verification follow.
 
 Required checks passed: 3,444 ranking files, zero data validation errors/warnings; lint, editorial coverage (3,444 public, zero private drafts), and production build on first attempt. Six local HTTP checks passed for detail, category, search, suggestions, sitemap and missing-detail HTTP 404. Reviewed every changed/new file and unchanged public verification filters; git diff --check passed. Proceeding to commit/push and production READY/domain verification. Evidence: docs/audits/2026-11-11-daily/local-http-checks.json.
+
+
+## 2026-11-12 daily collection
+
+Clean main matched origin/main; no unfinished automation files existed. Coverage planning, dependencies, current Codex session and Vercel authentication confirmed. Direct official retrieval establishes the newer 10 November edition despite lagging search indexes. Verified all ten entries and the cutoff against the 100-row table; no blocked candidate or private draft. Required checks and release verification follow.
+
+Required checks passed: 3,445 ranking files, zero data validation errors/warnings; lint, editorial coverage (3,445 public, zero private drafts), and production build on first attempt. Six local HTTP checks passed for detail, category, search, suggestions, sitemap and missing-detail HTTP 404. Reviewed every changed/new file and unchanged public verification filters; git diff --check passed. Proceeding to commit/push and production READY/domain verification. Evidence: docs/audits/2026-11-12-daily/local-http-checks.json.

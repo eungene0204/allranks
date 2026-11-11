@@ -576,3 +576,8 @@ Added a verified manual women’s 400m snapshot and targeted source-access obser
 ## 2026-11-11 daily collection
 
 Added the verified manual women’s 800m snapshot and a targeted source-access observation using the existing JSON schema. Public server/client verification filters are unchanged; no runtime or structural changes. Row-level evidence and source hash: docs/audits/2026-11-11-daily/verification.json.
+
+
+## 2026-11-12 daily collection
+
+Added a verified manual women’s 1500m snapshot and targeted source-access observation using the existing JSON schema. Server/client verification filters remain unchanged; no runtime or structural changes. Row-level evidence and source hash: docs/audits/2026-11-12-daily/verification.json.
