@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-11T15:02:40.649955+00:00",
+  "rankingCommit": "385444f65379c78f78cadeda5c2a8f77ab30aaca",
+  "push": "origin/main synchronized",
+  "command": "npx --yes vercel@latest deploy --prod --yes",
+  "status": "blocked",
+  "reason": "deploy_failed",
+  "message": "Your Team exceeded our fair use limits and has been blocked.",
+  "newDeploymentId": null,
+  "existingProduction": {
+    "id": "dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN",
+    "status": "READY",
+    "url": "https://allranks-iezdyu01w-eugene204-5519.vercel.app",
+    "aliases": [
+      "https://allranks.world",
+      "https://www.allranks.world"
+    ]
+  },
+  "productionHttpCheck": {
+    "url": "https://allranks.world/ranking/world-athletics-womens-1500m-2026-11-10",
+    "status": 402
+  },
+  "nextStep": "Team owner must resolve Vercel fair-use/billing block; rerun required checks and production deploy afterward."
+}
