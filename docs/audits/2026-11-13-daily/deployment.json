@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-12T15:04:08.675141+00:00",
+  "rankingCommit": "d4f583af250357b957af44a1eea1144b2e2edeb4",
+  "push": "origin/main synchronized",
+  "command": "npx --yes vercel@latest deploy --prod --yes",
+  "status": "blocked",
+  "reason": "deploy_failed",
+  "message": "Your Team exceeded our fair use limits and has been blocked.",
+  "newDeploymentId": null,
+  "existingProduction": {
+    "id": "dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN",
+    "status": "READY",
+    "url": "https://allranks-iezdyu01w-eugene204-5519.vercel.app",
+    "aliases": [
+      "https://allranks.world",
+      "https://www.allranks.world"
+    ]
+  },
+  "productionHttpCheck": {
+    "url": "https://allranks.world/ranking/world-athletics-womens-5000m-2026-11-10",
+    "status": 402
+  },
+  "nextStep": "Team owner must resolve Vercel fair-use/billing block; rerun required checks and production deploy afterward."
+}
