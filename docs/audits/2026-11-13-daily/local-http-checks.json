@@ -1,0 +1,48 @@
+{
+  "base": "http://localhost:3121",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-womens-5000m-2026-11-10",
+      "status": 200,
+      "contains": [
+        "Likina Amebaw",
+        "1373",
+        "Medina Eisa"
+      ]
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-5000m-2026-11-10"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-5000m-2026-11-10"
+      ]
+    },
+    {
+      "path": "/search?q=5000m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-5000m-2026-11-10"
+      ]
+    },
+    {
+      "path": "/api/search-suggestions?q=5000m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-5000m-2026-11-10"
+      ]
+    },
+    {
+      "path": "/ranking/allranks-missing-20261113",
+      "status": 404,
+      "contains": []
+    }
+  ],
+  "privateDrafts": []
+}

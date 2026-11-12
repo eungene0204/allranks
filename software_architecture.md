@@ -581,3 +581,8 @@ Added the verified manual women’s 800m snapshot and a targeted source-access o
 ## 2026-11-12 daily collection
 
 Added a verified manual women’s 1500m snapshot and targeted source-access observation using the existing JSON schema. Server/client verification filters remain unchanged; no runtime or structural changes. Row-level evidence and source hash: docs/audits/2026-11-12-daily/verification.json.
+
+
+## 2026-11-13 daily collection
+
+No application architecture changes. Added a manually verified official World Athletics snapshot using the existing public verification filters, with source accessibility and audit evidence.

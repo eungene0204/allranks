@@ -583,3 +583,10 @@ Clean main matched origin/main; no unfinished automation files existed. Coverage
 Required checks passed: 3,445 ranking files, zero data validation errors/warnings; lint, editorial coverage (3,445 public, zero private drafts), and production build on first attempt. Six local HTTP checks passed for detail, category, search, suggestions, sitemap and missing-detail HTTP 404. Reviewed every changed/new file and unchanged public verification filters; git diff --check passed. Proceeding to commit/push and production READY/domain verification. Evidence: docs/audits/2026-11-12-daily/local-http-checks.json.
 
 Release blocked: ranking commit 385444f was pushed successfully to origin/main. Vercel production deploy exited 1: “Your Team exceeded our fair use limits and has been blocked.” No new deployment ID was issued. Domain inspection still points allranks.world at the existing READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (11 November); the new ranking URL returns HTTP 402. This run is not published. Resolve the Vercel team limit/billing restriction, rerun required checks and retry production deployment. Evidence: docs/audits/2026-11-12-daily/deployment.json.
+
+
+## 2026-11-13 daily collection
+
+Clean main matched origin/main; no unfinished automation files. Coverage plan, dependencies, current Codex session and Vercel authentication confirmed. Web tool 403 was resolved by direct official HTTP retrieval of 100 rows; verified all ten entries and cutoff. Added world-athletics-womens-5000m-2026-11-10. Required checks and release verification follow; prior team fair-use blocker will be rechecked.
+
+Required checks passed: 3,446 ranking files, zero validation errors/warnings; lint, editorial coverage (3,446 public, zero private drafts), and production build on first attempt. Six local production HTTP checks passed: detail, category, search, suggestions, sitemap and missing-detail 404. Reviewed all changed/new files and unchanged public verification filters; diff check passed. Proceeding to commit/push and production READY/domain verification. Evidence: docs/audits/2026-11-13-daily/local-http-checks.json.
