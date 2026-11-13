@@ -599,3 +599,5 @@ Release blocked: ranking commit d4f583a was pushed to origin/main. Production de
 Clean main matched origin/main with no unfinished changes. Verified the official 10 November women’s 10,000m top ten and cutoff against the direct 100-row source. No private draft created. Required checks and release verification follow.
 
 Data validation passed (3,447 files, zero errors or warnings), lint passed, and build passed after adding the missing source access record. Editorial coverage: 3,447 public, zero private drafts. Six local detail, category, sitemap, search, suggestion and missing-page checks passed. Evidence: docs/audits/2026-11-14-daily/local-http-checks.json.
+
+Release blocked: ranking commit deb94dd was pushed to origin/main, but Vercel rejected the production deployment because the team exceeded fair-use limits; no new deployment ID was issued. allranks.world remains aliased to READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN from 11 November and the new ranking URL returned HTTP 402. Resolve the team limit before retrying the deployment. Evidence: docs/audits/2026-11-14-daily/deployment.json.
