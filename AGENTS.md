@@ -28,3 +28,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Gotchas
 
 - 2026-11-13 | 실패 원인: 출처 접근 기록의 배열 키를 확인하지 않고 observations로 가정해 추가 스크립트가 실패함 → 재발 방지: JSON 최상위 키를 읽고 기존 sources 스키마로 추가하며 저장 후 URL을 다시 읽어 확인한다. sources로 수정하고 신규 URL 저장을 확인함.
+
+- 2026-11-14 | 실패 원인: 신규 수동 랭킹의 출처 접근성 기록을 누락해 editorial 빌드 검사가 실패함 → 재발 방지: 신규 랭킹 작성 시 원출처 조회와 함께 data/editorial/source-access.json의 sources에 접근 기록을 추가하고 저장된 URL 및 빌드 사전 검사를 확인한다.

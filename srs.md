@@ -524,3 +524,8 @@ world-athletics-womens-1500m-2026-11-10 contains ten source-verified athletes, c
 ## 2026-11-13 daily collection
 
 Added world-athletics-womens-5000m-2026-11-10: ten verified athletes, ranking points and countries from the 10 November edition. Explicitly describes associated events, partial scope and live-source limitations; no private draft added.
+
+
+## 2026-11-14 daily collection
+
+Added world-athletics-womens-10000m-2026-11-10: ten verified athletes, countries and ranking points; scope includes 10km road performances and excludes the rest of the list.

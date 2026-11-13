@@ -586,3 +586,8 @@ Added a verified manual women’s 1500m snapshot and targeted source-access obse
 ## 2026-11-13 daily collection
 
 No application architecture changes. Added a manually verified official World Athletics snapshot using the existing public verification filters, with source accessibility and audit evidence.
+
+
+## 2026-11-14 daily collection
+
+Added a manually verified World Athletics snapshot using existing public verification filters; no structural changes. Source evidence: docs/audits/2026-11-14-daily/verification.json.

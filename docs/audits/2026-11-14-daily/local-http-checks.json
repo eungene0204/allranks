@@ -1,0 +1,42 @@
+{
+  "base": "http://localhost:3107",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-womens-10000m-2026-11-10",
+      "status": 200,
+      "contains": "Agnes Jebet Ngetich",
+      "passed": true
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": "world-athletics-womens-10000m-2026-11-10",
+      "passed": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": "world-athletics-womens-10000m-2026-11-10",
+      "passed": true
+    },
+    {
+      "path": "/search?q=10%2C000m",
+      "status": 200,
+      "contains": "world-athletics-womens-10000m-2026-11-10",
+      "passed": true
+    },
+    {
+      "path": "/api/search-suggestions?q=10%2C000m",
+      "status": 200,
+      "contains": "world-athletics-womens-10000m-2026-11-10",
+      "passed": true
+    },
+    {
+      "path": "/ranking/allranks-missing-20261114",
+      "status": 404,
+      "contains": null,
+      "passed": true
+    }
+  ],
+  "privateDrafts": []
+}

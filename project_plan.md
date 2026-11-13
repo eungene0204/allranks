@@ -592,3 +592,10 @@ Clean main matched origin/main; no unfinished automation files. Coverage plan, d
 Required checks passed: 3,446 ranking files, zero validation errors/warnings; lint, editorial coverage (3,446 public, zero private drafts), and production build on first attempt. Six local production HTTP checks passed: detail, category, search, suggestions, sitemap and missing-detail 404. Reviewed all changed/new files and unchanged public verification filters; diff check passed. Proceeding to commit/push and production READY/domain verification. Evidence: docs/audits/2026-11-13-daily/local-http-checks.json.
 
 Release blocked: ranking commit d4f583a was pushed to origin/main. Production deploy exited 1 because the Vercel team exceeded fair-use limits; no deployment ID was issued. allranks.world still aliases existing READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN from 11 November, and the new ranking URL returns HTTP 402. This run is not published. Resolve the team limit/billing restriction before retrying required checks and production deployment. Evidence: docs/audits/2026-11-13-daily/deployment.json.
+
+
+## 2026-11-14 daily collection
+
+Clean main matched origin/main with no unfinished changes. Verified the official 10 November women’s 10,000m top ten and cutoff against the direct 100-row source. No private draft created. Required checks and release verification follow.
+
+Data validation passed (3,447 files, zero errors or warnings), lint passed, and build passed after adding the missing source access record. Editorial coverage: 3,447 public, zero private drafts. Six local detail, category, sitemap, search, suggestion and missing-page checks passed. Evidence: docs/audits/2026-11-14-daily/local-http-checks.json.
