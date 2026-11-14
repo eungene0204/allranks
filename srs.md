@@ -529,3 +529,8 @@ Added world-athletics-womens-5000m-2026-11-10: ten verified athletes, ranking po
 ## 2026-11-14 daily collection
 
 Added world-athletics-womens-10000m-2026-11-10: ten verified athletes, countries and ranking points; scope includes 10km road performances and excludes the rest of the list.
+
+
+## 2026-11-15 daily collection
+
+No ranking data or public behavior changed. The current official men’s 10,000m top ten matches the existing snapshot; the June 2026 TOP500 edition is already represented.

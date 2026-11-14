@@ -601,3 +601,8 @@ Clean main matched origin/main with no unfinished changes. Verified the official
 Data validation passed (3,447 files, zero errors or warnings), lint passed, and build passed after adding the missing source access record. Editorial coverage: 3,447 public, zero private drafts. Six local detail, category, sitemap, search, suggestion and missing-page checks passed. Evidence: docs/audits/2026-11-14-daily/local-http-checks.json.
 
 Release blocked: ranking commit deb94dd was pushed to origin/main, but Vercel rejected the production deployment because the team exceeded fair-use limits; no new deployment ID was issued. allranks.world remains aliased to READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN from 11 November and the new ranking URL returned HTTP 402. Resolve the team limit before retrying the deployment. Evidence: docs/audits/2026-11-14-daily/deployment.json.
+
+
+## 2026-11-15 daily collection
+
+Clean main matched origin/main; no unfinished automation changes. Planning and source discovery found the official 10 November men’s 10,000m top ten unchanged from the existing 3 November snapshot; the June TOP500 list is already covered. No duplicate ranking or private draft added. Data validation passed for 3,447 files with zero errors or warnings; lint and production build passed, with 3,447 public and zero private drafts. Production deployment and domain verification remain to be attempted after push.
