@@ -534,3 +534,8 @@ Added world-athletics-womens-10000m-2026-11-10: ten verified athletes, countries
 ## 2026-11-15 daily collection
 
 No ranking data or public behavior changed. The current official men’s 10,000m top ten matches the existing snapshot; the June 2026 TOP500 edition is already represented.
+
+
+## 2026-11-16 daily collection
+
+Added world-athletics-womens-marathon-2026-11-10: the official top ten, countries and ranking points, with event scope and live-source limitations.

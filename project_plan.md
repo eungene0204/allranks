@@ -608,3 +608,8 @@ Release blocked: ranking commit deb94dd was pushed to origin/main, but Vercel re
 Clean main matched origin/main; no unfinished automation changes. Planning and source discovery found the official 10 November men’s 10,000m top ten unchanged from the existing 3 November snapshot; the June TOP500 list is already covered. No duplicate ranking or private draft added. Data validation passed for 3,447 files with zero errors or warnings; lint and production build passed, with 3,447 public and zero private drafts. Production deployment and domain verification remain to be attempted after push.
 
 Release blocked: commit 99a1ad6 was pushed to origin/main. Vercel rejected production deployment because the team exceeded fair-use limits; no new deployment ID was issued. allranks.world remains aliased to the 11 November READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN, but the domain returned HTTP 402. A team owner must resolve the account limit before retrying deployment.
+
+
+## 2026-11-16 daily collection
+
+Clean main matched origin/main and had no unfinished changes. Reviewed coverage and verified the official 10 November women’s marathon top ten and cutoff. Added one ranking and source access record. Data validation passed (3,448 files, zero errors or warnings); lint and production build passed, with zero private drafts. Local detail, category, search and sitemap checks passed; an unknown detail returned 404. Production deployment follows push.

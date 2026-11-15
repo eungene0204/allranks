@@ -596,3 +596,8 @@ Added a manually verified World Athletics snapshot using existing public verific
 ## 2026-11-15 daily collection
 
 Reviewed the existing source-verification and public-catalog workflow; no structural or data changes were needed for this collection.
+
+
+## 2026-11-16 daily collection
+
+Added a source-verified manual World Athletics snapshot and source accessibility record using existing publication filters; no structural changes.
