@@ -613,3 +613,5 @@ Release blocked: commit 99a1ad6 was pushed to origin/main. Vercel rejected produ
 ## 2026-11-16 daily collection
 
 Clean main matched origin/main and had no unfinished changes. Reviewed coverage and verified the official 10 November women’s marathon top ten and cutoff. Added one ranking and source access record. Data validation passed (3,448 files, zero errors or warnings); lint and production build passed, with zero private drafts. Local detail, category, search and sitemap checks passed; an unknown detail returned 404. Production deployment follows push.
+
+Release blocked: ranking commit dc3c7c4 was pushed to origin/main. Vercel rejected production deployment because the team exceeded fair-use limits; no new deployment ID was issued. allranks.world remains aliased to READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN from 11 November, while both the home page and new ranking returned HTTP 402. A team owner must resolve the account limit before deployment can be retried.
