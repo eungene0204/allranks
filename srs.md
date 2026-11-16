@@ -539,3 +539,8 @@ No ranking data or public behavior changed. The current official men’s 10,000m
 ## 2026-11-16 daily collection
 
 Added world-athletics-womens-marathon-2026-11-10: the official top ten, countries and ranking points, with event scope and live-source limitations.
+
+
+## 2026-11-17 daily collection
+
+Added world-athletics-womens-100mh-2026-11-10: all ten official athletes, countries and ranking points verified against the 10 November edition; associated short hurdles, equal scores and partial/live-source limitations disclosed. No private draft created.

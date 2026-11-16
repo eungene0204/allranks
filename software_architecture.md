@@ -601,3 +601,8 @@ Reviewed the existing source-verification and public-catalog workflow; no struct
 ## 2026-11-16 daily collection
 
 Added a source-verified manual World Athletics snapshot and source accessibility record using existing publication filters; no structural changes.
+
+
+## 2026-11-17 daily collection
+
+Added a verified manual World Athletics snapshot and source-access observation using existing publication filters; no structural changes. Row-level evidence: docs/audits/2026-11-17-daily/verification.json.
