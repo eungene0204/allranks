@@ -544,3 +544,8 @@ Added world-athletics-womens-marathon-2026-11-10: the official top ten, countrie
 ## 2026-11-17 daily collection
 
 Added world-athletics-womens-100mh-2026-11-10: all ten official athletes, countries and ranking points verified against the 10 November edition; associated short hurdles, equal scores and partial/live-source limitations disclosed. No private draft created.
+
+
+## 2026-11-18 daily collection
+
+Added world-athletics-womens-400mh-2026-11-10: all ten official athletes, countries and ranking points verified against the 10 November edition; equal scores and partial/live-source limitations disclosed. No private draft created.

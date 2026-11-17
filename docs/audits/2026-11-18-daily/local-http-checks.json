@@ -1,0 +1,48 @@
+{
+  "base": "http://localhost:3121",
+  "checks": [
+    {
+      "path": "/ranking/world-athletics-womens-400mh-2026-11-10",
+      "status": 200,
+      "contains": [
+        "Emma Zapletalov\u00e1",
+        "1421",
+        "Kemi Adekoya"
+      ]
+    },
+    {
+      "path": "/category/entertainment",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400mh-2026-11-10"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400mh-2026-11-10"
+      ]
+    },
+    {
+      "path": "/search?q=400m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400mh-2026-11-10"
+      ]
+    },
+    {
+      "path": "/api/search-suggestions?q=400m",
+      "status": 200,
+      "contains": [
+        "world-athletics-womens-400mh-2026-11-10"
+      ]
+    },
+    {
+      "path": "/ranking/allranks-missing-20261118",
+      "status": 404,
+      "contains": []
+    }
+  ],
+  "privateDrafts": []
+}

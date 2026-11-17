@@ -606,3 +606,8 @@ Added a source-verified manual World Athletics snapshot and source accessibility
 ## 2026-11-17 daily collection
 
 Added a verified manual World Athletics snapshot and source-access observation using existing publication filters; no structural changes. Row-level evidence: docs/audits/2026-11-17-daily/verification.json.
+
+
+## 2026-11-18 daily collection
+
+Added a verified manual World Athletics snapshot and source-access observation using existing publication filters; no structural changes. Row-level evidence: docs/audits/2026-11-18-daily/verification.json.
