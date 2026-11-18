@@ -549,3 +549,7 @@ Added world-athletics-womens-100mh-2026-11-10: all ten official athletes, countr
 ## 2026-11-18 daily collection
 
 Added world-athletics-womens-400mh-2026-11-10: all ten official athletes, countries and ranking points verified against the 10 November edition; equal scores and partial/live-source limitations disclosed. No private draft created.
+
+## 2026-11-19 daily collection
+
+Added `world-athletics-mens-400mh-2026-11-10`. The detail page explains the shared fifth place and the source’s fifth and sixth places.
