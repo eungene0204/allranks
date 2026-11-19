@@ -645,3 +645,5 @@ Ranking commit 825718e reached origin/main. Vercel blocked the production deploy
 ## 2026-11-20 daily collection
 
 Added `world-athletics-mens-long-jump-2026-11-17` after checking all ten athletes, places, federations and scores against the dated World Athletics table.
+
+Validation passed for 3,452 files with zero errors or warnings and zero private drafts. Lint, the production build (on the permitted security-advisory retry), and six local HTTP checks passed. Ranking commit ff7c2d3 reached origin/main. Vercel rejected the release because the team exceeded its fair-use limits and issued no deployment ID. The production alias still points to the 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (READY). The homepage and ranking URL returned HTTP 402. Deployment can resume after the team owner resolves the limit.
