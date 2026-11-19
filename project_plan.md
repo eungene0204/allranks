@@ -641,3 +641,7 @@ Reviewed the clean automation checkout and added the men’s 400m hurdles top te
 Validation covered 3,451 ranking files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed. The production build passed on the permitted retry after Next.js reported a known security vulnerability following static generation. Six local HTTP checks passed for detail, category, search, suggestions, sitemap and an unknown ranking’s 404.
 
 Ranking commit 825718e reached origin/main. Vercel blocked the production deployment because the team exceeded its fair-use limits and issued no deployment ID. The allranks.world alias still pointed to READY deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN from 11 November. Both the homepage and ranking URL returned HTTP 402. Deployment can resume after a team owner resolves the limit.
+
+## 2026-11-20 daily collection
+
+Added `world-athletics-mens-long-jump-2026-11-17` after checking all ten athletes, places, federations and scores against the dated World Athletics table.

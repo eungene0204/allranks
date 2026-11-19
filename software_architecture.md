@@ -615,3 +615,7 @@ Added a verified manual World Athletics snapshot and source-access observation u
 ## 2026-11-19 daily collection
 
 The men’s 400m hurdles snapshot uses the existing manual ranking schema and source-access register, with a date-specific World Athletics URL.
+
+## 2026-11-20 daily collection
+
+The men’s long jump snapshot uses the existing manual ranking schema and links its dated source to the editorial access register.

@@ -553,3 +553,7 @@ Added world-athletics-womens-400mh-2026-11-10: all ten official athletes, countr
 ## 2026-11-19 daily collection
 
 Added `world-athletics-mens-400mh-2026-11-10`. The detail page explains the shared fifth place and the source’s fifth and sixth places.
+
+## 2026-11-20 daily collection
+
+The men’s long jump detail page covers the ten highest World Athletics ranking scores on 17 November 2026.
