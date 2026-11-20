@@ -651,3 +651,5 @@ Validation passed for 3,452 files with zero errors or warnings and zero private 
 ## 2026-11-21 women’s pole vault
 
 world-athletics-womens-pole-vault-2026-11-17 — Verified all ten athletes, federation codes, places and scores against World Athletics, including the two-point cutoff between tenth and eleventh.
+
+All 3,453 files passed validation and editorial checks with zero warnings, errors or private drafts. Lint, the permitted build retry after the Next.js security advisory, and six local HTTP checks passed. Ranking commit bb96c75 reached origin/main. Vercel rejected production deployment under the team fair-use limit and issued no deployment ID. The domain still points to the READY 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN, and the new ranking URL returned HTTP 402. A team owner must resolve the block before deployment can resume.
