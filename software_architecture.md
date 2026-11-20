@@ -619,3 +619,7 @@ The men’s 400m hurdles snapshot uses the existing manual ranking schema and so
 ## 2026-11-20 daily collection
 
 The men’s long jump snapshot uses the existing manual ranking schema and links its dated source to the editorial access register.
+
+## 2026-11-21 women’s pole vault
+
+world-athletics-womens-pole-vault-2026-11-17 — The ranking uses the existing manual ranking schema, federation country codes and source-access log.

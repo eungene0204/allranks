@@ -557,3 +557,7 @@ Added `world-athletics-mens-400mh-2026-11-10`. The detail page explains the shar
 ## 2026-11-20 daily collection
 
 The men’s long jump detail page covers the ten highest World Athletics ranking scores on 17 November 2026.
+
+## 2026-11-21 women’s pole vault
+
+world-athletics-womens-pole-vault-2026-11-17 — The public table covers official places 1–10 by ranking points from the 17 November World Athletics edition.
