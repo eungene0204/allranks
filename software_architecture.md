@@ -623,3 +623,7 @@ The men’s long jump snapshot uses the existing manual ranking schema and links
 ## 2026-11-21 women’s pole vault
 
 world-athletics-womens-pole-vault-2026-11-17 — The ranking uses the existing manual ranking schema, federation country codes and source-access log.
+
+## 2026-11-22 women’s triple jump
+
+The verified women’s triple jump snapshot uses the manual ranking schema and links the dated World Athletics table to its editorial source-access record.

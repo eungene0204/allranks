@@ -561,3 +561,7 @@ The men’s long jump detail page covers the ten highest World Athletics ranking
 ## 2026-11-21 women’s pole vault
 
 world-athletics-womens-pole-vault-2026-11-17 — The public table covers official places 1–10 by ranking points from the 17 November World Athletics edition.
+
+## 2026-11-22 women’s triple jump
+
+The women’s triple jump detail page displays places 1–10 from the 17 November 2026 World Athletics edition in ranking points.
