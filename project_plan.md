@@ -659,3 +659,5 @@ All 3,453 files passed validation and editorial checks with zero warnings, error
 Added `world-athletics-womens-triple-jump-2026-11-17` after verifying all ten places, athlete names, federations and scores and confirming the two-point cutoff at place ten.
 
 Data validation and editorial checks covered 3,454 rankings with zero errors, warnings or private drafts. Lint and six local HTTP checks passed. The production build passed on the permitted retry after the Next.js security advisory.
+
+Ranking commit 5067c95 reached origin/main. Vercel rejected the production deployment under the team fair-use limit and issued no new deployment ID. The allranks.world alias still points to the READY 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN. The homepage and new ranking URL both returned HTTP 402.
