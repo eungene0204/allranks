@@ -627,3 +627,7 @@ world-athletics-womens-pole-vault-2026-11-17 — The ranking uses the existing m
 ## 2026-11-22 women’s triple jump
 
 The verified women’s triple jump snapshot uses the manual ranking schema and links the dated World Athletics table to its editorial source-access record.
+
+## 2026-11-23 TOP500 snapshot
+
+The November TOP500 edition uses the existing manual ranking schema and editorial source-access log. Its edition-specific ID preserves the June snapshot.

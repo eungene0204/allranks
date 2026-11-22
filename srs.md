@@ -565,3 +565,7 @@ world-athletics-womens-pole-vault-2026-11-17 — The public table covers officia
 ## 2026-11-22 women’s triple jump
 
 The women’s triple jump detail page displays places 1–10 from the 17 November 2026 World Athletics edition in ranking points.
+
+## 2026-11-23 TOP500 snapshot
+
+The November 2026 TOP500 detail page shows official places 1–10, system names, countries and measured High Performance Linpack Rmax in PFlop/s. The source note documents the submission-based scope of the edition.

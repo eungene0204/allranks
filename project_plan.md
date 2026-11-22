@@ -661,3 +661,9 @@ Added `world-athletics-womens-triple-jump-2026-11-17` after verifying all ten pl
 Data validation and editorial checks covered 3,454 rankings with zero errors, warnings or private drafts. Lint and six local HTTP checks passed. The production build passed on the permitted retry after the Next.js security advisory.
 
 Ranking commit 5067c95 reached origin/main. Vercel rejected the production deployment under the team fair-use limit and issued no new deployment ID. The allranks.world alias still points to the READY 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN. The homepage and new ranking URL both returned HTTP 402.
+
+## 2026-11-23 TOP500 snapshot
+
+Added `top500-fastest-supercomputers-2026-11` after checking the names, countries, places and measured Rmax values of all ten systems against TOP500. The top ten match the June edition. Deferred the women’s long jump snapshot because the current renderer groups equal points, while World Athletics assigns distinct places nine and ten.
+
+Data validation covered 3,455 files with zero errors or warnings. Editorial checks found zero private drafts. Lint and the production build passed, with one permitted build retry after the Next.js security advisory. Local checks covered the ten detail rows, category, search, sitemap, generated catalog and the deferred ranking’s 404.
