@@ -667,3 +667,5 @@ Ranking commit 5067c95 reached origin/main. Vercel rejected the production deplo
 Added `top500-fastest-supercomputers-2026-11` after checking the names, countries, places and measured Rmax values of all ten systems against TOP500. The top ten match the June edition. Deferred the women’s long jump snapshot because the current renderer groups equal points, while World Athletics assigns distinct places nine and ten.
 
 Data validation covered 3,455 files with zero errors or warnings. Editorial checks found zero private drafts. Lint and the production build passed, with one permitted build retry after the Next.js security advisory. Local checks covered the ten detail rows, category, search, sitemap, generated catalog and the deferred ranking’s 404.
+
+Ranking commit 5606c73 reached origin/main. Vercel blocked the production deployment because the team exceeded its fair-use limits and issued no new deployment ID. The allranks.world alias still points to the 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN, which Vercel marks READY. The homepage and the November TOP500 detail URL returned HTTP 402.
