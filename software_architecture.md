@@ -631,3 +631,7 @@ The verified women’s triple jump snapshot uses the manual ranking schema and l
 ## 2026-11-23 TOP500 snapshot
 
 The November TOP500 edition uses the existing manual ranking schema and editorial source-access log. Its edition-specific ID preserves the June snapshot.
+
+## 2026-11-24 HPCG and Green500 snapshots
+
+The November editions use the existing verified manual ranking schema and editorial source-access log. Edition-specific IDs preserve both June snapshots.

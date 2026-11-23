@@ -569,3 +569,7 @@ The women’s triple jump detail page displays places 1–10 from the 17 Novembe
 ## 2026-11-23 TOP500 snapshot
 
 The November 2026 TOP500 detail page shows official places 1–10, system names, countries and measured High Performance Linpack Rmax in PFlop/s. The source note documents the submission-based scope of the edition.
+
+## 2026-11-24 HPCG and Green500 snapshots
+
+The November 2026 HPCG and Green500 rankings each show the official top ten with system names and countries. HPCG shows benchmark throughput in TFLOP/s for systems with submitted HPCG results. Green500 shows HPL throughput per watt for eligible TOP500 submissions, including system partitions.
