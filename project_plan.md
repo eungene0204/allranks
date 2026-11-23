@@ -675,3 +675,5 @@ Ranking commit 5606c73 reached origin/main. Vercel blocked the production deploy
 Started from clean main synchronized with origin/main. Verified places 1–10, system names, countries, metric values and the cutoff at place 11 in both November 2026 official tables. HANGANG enters HPCG at eighth. The Green500 top ten matches June, and the November snapshot records the new edition.
 
 Data validation covered 3,457 files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed. The production build passed on the permitted retry after Next.js reported a security advisory following static generation. Local checks verified all 20 rendered rows, both source links, category, search, suggestions, sitemap, generated catalog and an unknown ranking’s 404.
+
+Ranking commit e1a7c4d reached origin/main. Vercel rejected the production deployment because the team exceeded its fair-use limits. No new deployment ID was issued. The allranks.world alias resolves to the 11 November deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN, which Vercel marks READY. The homepage and both new ranking URLs returned HTTP 402.
