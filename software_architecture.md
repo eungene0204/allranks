@@ -635,3 +635,7 @@ The November TOP500 edition uses the existing manual ranking schema and editoria
 ## 2026-11-24 HPCG and Green500 snapshots
 
 The November editions use the existing verified manual ranking schema and editorial source-access log. Edition-specific IDs preserve both June snapshots.
+
+## 2026-11-25 Winter Paralympic medal standings
+
+The Winter Paralympic snapshot uses the existing manual ranking format. The numeric value stores the official place in ascending order. Each row’s detail field carries the gold, silver, bronze and total counts.

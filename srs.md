@@ -573,3 +573,7 @@ The November 2026 TOP500 detail page shows official places 1–10, system names,
 ## 2026-11-24 HPCG and Green500 snapshots
 
 The November 2026 HPCG and Green500 rankings each show the official top ten with system names and countries. HPCG shows benchmark throughput in TFLOP/s for systems with submitted HPCG results. Green500 shows HPL throughput per watt for eligible TOP500 submissions, including system partitions.
+
+## 2026-11-25 Winter Paralympic medal standings
+
+The Milano Cortina medal standings show the IPC’s top ten National Paralympic Committees, their official places and their medal counts across all sports at the 2026 Winter Games.
