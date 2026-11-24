@@ -683,3 +683,5 @@ Ranking commit e1a7c4d reached origin/main. Vercel rejected the production deplo
 Verified the top ten medal-winning committees and the eleventh-place cutoff against the IPC’s final standings. The automation checkout started clean and synchronized with origin/main.
 
 Validation covered 3,458 files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed and the production build passed on the permitted retry after the Next.js security advisory. Local production checks confirmed all ten rendered places, names and medal counts, the IPC link, category, search, suggestions, sitemap, generated catalog and a 404 for an unknown ranking.
+
+Ranking commit 80047a3 reached origin/main. Vercel rejected the production deploy because the team exceeded its fair-use limits and issued no deployment ID. The allranks.world alias still resolves to the November 11 deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (Ready). Both the homepage and the new ranking URL returned HTTP 402. Production publication is pending resolution of the team block.
