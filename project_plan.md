@@ -689,3 +689,7 @@ Ranking commit 80047a3 reached origin/main. Vercel rejected the production deplo
 ## 2026-11-26 Beijing Winter Paralympic standings
 
 Added the verified Beijing 2022 top ten as a historical companion to Milano Cortina 2026. Deferred Paris 2024 after the IPC summary and detailed table gave different places for the Netherlands.
+
+Validation passed for 3,459 files with zero errors or warnings and zero private drafts. Lint passed. The build passed on the permitted retry after the Next.js security advisory. Local checks confirmed the ten rendered rows, source link, search, suggestions, category, sitemap, generated catalog and unknown-ranking 404.
+
+Ranking commit fea5bbd reached origin/main. Vercel rejected the deployment because the team exceeded its fair-use limits and issued no deployment ID. The production alias still points to the November 11 deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (Ready). The Beijing ranking URL returned HTTP 402. Production publication is pending resolution of the team block.
