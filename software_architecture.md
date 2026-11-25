@@ -639,3 +639,7 @@ The November editions use the existing verified manual ranking schema and editor
 ## 2026-11-25 Winter Paralympic medal standings
 
 The Winter Paralympic snapshot uses the existing manual ranking format. The numeric value stores the official place in ascending order. Each row’s detail field carries the gold, silver, bronze and total counts.
+
+## 2026-11-26 Beijing Winter Paralympic standings
+
+The Beijing 2022 snapshot reuses the Winter Paralympic standings schema and has its own edition-specific ID and source-access record.

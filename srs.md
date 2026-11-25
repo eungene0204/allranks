@@ -577,3 +577,7 @@ The November 2026 HPCG and Green500 rankings each show the official top ten with
 ## 2026-11-25 Winter Paralympic medal standings
 
 The Milano Cortina medal standings show the IPC’s top ten National Paralympic Committees, their official places and their medal counts across all sports at the 2026 Winter Games.
+
+## 2026-11-26 Beijing Winter Paralympic standings
+
+The Beijing 2022 standings display the official top ten committees, their places and their gold, silver, bronze and total medals across all 78 events.
