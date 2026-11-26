@@ -643,3 +643,7 @@ The Winter Paralympic snapshot uses the existing manual ranking format. The nume
 ## 2026-11-26 Beijing Winter Paralympic standings
 
 The Beijing 2022 snapshot reuses the Winter Paralympic standings schema and has its own edition-specific ID and source-access record.
+
+## 2026-11-27 Sochi Winter Paralympic standings
+
+The Sochi 2014 snapshot uses the manual ranking format with an edition-specific ID and an IPC source-access record. It stores official place as the ascending value and medal counts in the row detail.

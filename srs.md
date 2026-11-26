@@ -581,3 +581,7 @@ The Milano Cortina medal standings show the IPC’s top ten National Paralympic 
 ## 2026-11-26 Beijing Winter Paralympic standings
 
 The Beijing 2022 standings display the official top ten committees, their places and their gold, silver, bronze and total medals across all 78 events.
+
+## 2026-11-27 Sochi Winter Paralympic standings
+
+The Sochi 2014 ranking displays the ten highest-placed National Paralympic Committees across all 72 events, with official place and gold, silver, bronze and total counts. It uses the IPC results archive, which reflects the medal forfeitures announced in March 2025.

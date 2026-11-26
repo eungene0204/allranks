@@ -693,3 +693,9 @@ Added the verified Beijing 2022 top ten as a historical companion to Milano Cort
 Validation passed for 3,459 files with zero errors or warnings and zero private drafts. Lint passed. The build passed on the permitted retry after the Next.js security advisory. Local checks confirmed the ten rendered rows, source link, search, suggestions, category, sitemap, generated catalog and unknown-ranking 404.
 
 Ranking commit fea5bbd reached origin/main. Vercel rejected the deployment because the team exceeded its fair-use limits and issued no deployment ID. The production alias still points to the November 11 deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (Ready). The Beijing ranking URL returned HTTP 402. Production publication is pending resolution of the team block.
+
+## 2026-11-27 Sochi Winter Paralympic standings
+
+Added the Sochi 2014 top ten after confirming every row and the shared eleventh-place cutoff in the IPC results archive. The IPC's March 2025 disqualification decision explains the Russian Federation medal count in the archive. Deferred PyeongChang 2018 and Paris 2024 because the IPC summary and detailed table show different places.
+
+Data validation covered 3,460 files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed and the build passed on the permitted retry after the Next.js security advisory. Local production checks confirmed all ten rendered rows, the IPC source link, category, search, suggestions, sitemap, generated catalog and 404 responses for the deferred ranking URLs.
