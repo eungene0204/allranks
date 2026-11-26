@@ -699,3 +699,5 @@ Ranking commit fea5bbd reached origin/main. Vercel rejected the deployment becau
 Added the Sochi 2014 top ten after confirming every row and the shared eleventh-place cutoff in the IPC results archive. The IPC's March 2025 disqualification decision explains the Russian Federation medal count in the archive. Deferred PyeongChang 2018 and Paris 2024 because the IPC summary and detailed table show different places.
 
 Data validation covered 3,460 files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed and the build passed on the permitted retry after the Next.js security advisory. Local production checks confirmed all ten rendered rows, the IPC source link, category, search, suggestions, sitemap, generated catalog and 404 responses for the deferred ranking URLs.
+
+Ranking commit 3c924fb reached origin/main. Vercel rejected the production deployment because the team exceeded its fair-use limits and issued no deployment ID. The allranks.world alias still points to the November 11 deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (Ready). The homepage and the Sochi ranking URL returned HTTP 402.
