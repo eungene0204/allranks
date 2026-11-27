@@ -20,22 +20,6 @@ const rankings: Pipeline[] = [
     page: "Population of Canada by province and territory", find: ["Rank", "Name", "2021 census", "2016 census"], name: 1, value: num(2), scale: 1e-6, drop: /^Canada$/,
     year: 2021, by: "Statistics Canada, 2021 census", min: 10,
   })),
-  rank("CA", "province-gdp", {
-    kind: "gdp", title: "Canadian Provinces by GDP",
-    desc: "Nominal GDP of each province and territory in 2024, in billions of Canadian dollars.",
-    unit: "CAD billion", prefix: "C$", suffix: "B", decimals: 0,
-  }, fromTable("CA", {
-    page: "List of Canadian provinces and territories by gross domestic product", find: ["Province or territory", "GDP (million CAD, 2024)"], name: 0, value: num(1), scale: 1e-3,
-    drop: /^Canada$/, year: 2024, by: "Statistics Canada, 2024", min: 10,
-  })),
-  rank("CA", "province-gdp-per-capita", {
-    kind: "gdp-pc", title: "Canadian Provinces by GDP per Capita",
-    desc: "Nominal GDP per resident in 2024, in Canadian dollars.",
-    unit: "CAD per person", prefix: "C$",
-  }, fromTable("CA", {
-    page: "List of Canadian provinces and territories by gross domestic product", find: ["Province or territory", "GDP (million CAD, 2024)"], name: 0, value: num(4),
-    drop: /^Canada$/, year: 2024, by: "Statistics Canada, 2024", min: 10,
-  })),
   rank("CA", "skyscrapers", {
     kind: "skyscrapers", title: "Tallest Buildings in Canada",
     desc: "The tallest completed buildings and towers in Canada, by height.",

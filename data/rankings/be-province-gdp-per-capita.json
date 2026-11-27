@@ -4,76 +4,77 @@
   "short": "GDP per capita",
   "category": "economy",
   "icon": "💹",
-  "desc": "Nominal GDP per resident in 2021, in euros.",
+  "desc": "Nominal GDP per resident, in euros.",
   "unit": "EUR per person",
   "prefix": "€",
   "suffix": "",
   "decimals": 0,
   "order": "desc",
   "scope": "BE",
-  "year": 2021,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Eurostat, regional accounts (2021) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Belgian_provinces_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 11 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:19:18.298Z",
+  "updatedAt": "2026-11-27T04:28:36.690Z",
   "items": [
     {
       "name": "Brussels",
       "country": "BE",
-      "value": 66200
-    },
-    {
-      "name": "Antwerp",
-      "country": "BE",
-      "value": 46900
+      "value": 85300
     },
     {
       "name": "Walloon Brabant",
       "country": "BE",
-      "value": 46500
+      "value": 69500
+    },
+    {
+      "name": "Antwerp",
+      "country": "BE",
+      "value": 60700
     },
     {
       "name": "Flemish Brabant",
       "country": "BE",
-      "value": 39800
+      "value": 57100
     },
     {
       "name": "West Flanders",
       "country": "BE",
-      "value": 39000
+      "value": 52400
     },
     {
       "name": "East Flanders",
       "country": "BE",
-      "value": 36300
+      "value": 49500
     },
     {
       "name": "Limburg",
       "country": "BE",
-      "value": 32300
+      "value": 42200
     },
     {
       "name": "Liège",
       "country": "BE",
-      "value": 28000
+      "value": 38400
     },
     {
       "name": "Namur",
       "country": "BE",
-      "value": 26300
-    },
-    {
-      "name": "Hainaut",
-      "country": "BE",
-      "value": 24600
+      "value": 35800
     },
     {
       "name": "Luxembourg",
       "country": "BE",
-      "value": 24200
+      "value": 32500
+    },
+    {
+      "name": "Hainaut",
+      "country": "BE",
+      "value": 32300
     }
   ]
 }

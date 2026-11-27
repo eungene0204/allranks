@@ -11,14 +11,15 @@
   "decimals": 1,
   "order": "desc",
   "scope": "PL",
-  "year": 2022,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Eurostat, regional accounts (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_regions_of_Poland_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 17 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:17:31.190Z",
+  "updatedAt": "2026-11-27T04:28:36.674Z",
   "items": [
     {
       "name": "Warsaw metropolitan area",

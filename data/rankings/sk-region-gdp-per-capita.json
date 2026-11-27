@@ -4,61 +4,62 @@
   "short": "GDP per capita",
   "category": "economy",
   "icon": "💹",
-  "desc": "Gross domestic product per resident in 2022, in euros.",
+  "desc": "Gross domestic product per resident, in euros.",
   "unit": "EUR per person",
   "prefix": "€",
   "suffix": "",
   "decimals": 0,
   "order": "desc",
   "scope": "SK",
-  "year": 2022,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "OECD regional statistics (2022) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Slovak_regions_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 3)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_3gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 8 NUTS 3 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:21:26.093Z",
+  "updatedAt": "2026-11-27T04:28:38.853Z",
   "items": [
     {
       "name": "Bratislava Region",
       "country": "SK",
-      "value": 42297
+      "value": 48800
     },
     {
       "name": "Trnava Region",
       "country": "SK",
-      "value": 21403
-    },
-    {
-      "name": "Žilina Region",
-      "country": "SK",
-      "value": 17996
-    },
-    {
-      "name": "Trenčín Region",
-      "country": "SK",
-      "value": 17512
-    },
-    {
-      "name": "Košice Region",
-      "country": "SK",
-      "value": 17040
+      "value": 26300
     },
     {
       "name": "Nitra Region",
       "country": "SK",
-      "value": 16726
+      "value": 21600
+    },
+    {
+      "name": "Žilina Region",
+      "country": "SK",
+      "value": 21300
+    },
+    {
+      "name": "Košice Region",
+      "country": "SK",
+      "value": 19800
+    },
+    {
+      "name": "Trenčín Region",
+      "country": "SK",
+      "value": 19400
     },
     {
       "name": "Banská Bystrica Region",
       "country": "SK",
-      "value": 15971
+      "value": 18100
     },
     {
       "name": "Prešov Region",
       "country": "SK",
-      "value": 12372
+      "value": 14500
     }
   ]
 }

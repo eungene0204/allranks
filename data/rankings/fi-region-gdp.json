@@ -4,116 +4,117 @@
   "short": "GDP",
   "category": "economy",
   "icon": "💰",
-  "desc": "Gross domestic product of each region in 2021, in billions of euros.",
+  "desc": "Gross domestic product of each region, in billions of euros.",
   "unit": "EUR billion",
   "prefix": "€",
   "suffix": "B",
   "decimals": 1,
   "order": "desc",
   "scope": "FI",
-  "year": 2021,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "OECD regional statistics (2021) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Finnish_regions_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 3)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_3gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 19 NUTS 3 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:19:23.068Z",
+  "updatedAt": "2026-11-27T04:28:38.842Z",
   "items": [
     {
       "name": "Helsinki-Uusimaa",
       "country": "FI",
-      "value": 98.663
+      "value": 108.496
     },
     {
       "name": "Pirkanmaa",
       "country": "FI",
-      "value": 22.104
+      "value": 24.702
     },
     {
       "name": "Southwest Finland",
       "country": "FI",
-      "value": 20.009
+      "value": 22.82
     },
     {
       "name": "North Ostrobothnia",
       "country": "FI",
-      "value": 16.323
+      "value": 18.3
     },
     {
       "name": "Central Finland",
       "country": "FI",
-      "value": 10.416
+      "value": 10.933
     },
     {
       "name": "North Savo",
       "country": "FI",
-      "value": 9.404
+      "value": 10.568
     },
     {
       "name": "Satakunta",
       "country": "FI",
-      "value": 8.531
+      "value": 9.763
     },
     {
       "name": "Ostrobothnia",
       "country": "FI",
-      "value": 7.98
-    },
-    {
-      "name": "Kymenlaakso",
-      "country": "FI",
-      "value": 7.221
+      "value": 9.072
     },
     {
       "name": "Lapland",
       "country": "FI",
-      "value": 7.066
-    },
-    {
-      "name": "Päijät-Häme",
-      "country": "FI",
-      "value": 6.993
+      "value": 8.252
     },
     {
       "name": "Southern Ostrobothnia",
       "country": "FI",
-      "value": 6.901
+      "value": 7.709
+    },
+    {
+      "name": "Päijät-Häme",
+      "country": "FI",
+      "value": 7.678
     },
     {
       "name": "Kanta-Häme",
       "country": "FI",
-      "value": 6.532
+      "value": 7.005
+    },
+    {
+      "name": "Kymenlaakso",
+      "country": "FI",
+      "value": 6.861
     },
     {
       "name": "North Karelia",
       "country": "FI",
-      "value": 5.743
+      "value": 6.307
     },
     {
       "name": "South Karelia",
       "country": "FI",
-      "value": 5.298
+      "value": 5.029
     },
     {
       "name": "South Savo",
       "country": "FI",
-      "value": 4.818
+      "value": 4.998
     },
     {
       "name": "Central Ostrobothnia",
       "country": "FI",
-      "value": 2.652
+      "value": 2.974
     },
     {
       "name": "Kainuu",
       "country": "FI",
-      "value": 2.579
+      "value": 2.743
     },
     {
       "name": "Åland",
       "country": "FI",
-      "value": 1.344
+      "value": 1.633
     }
   ]
 }

@@ -14,8 +14,12 @@ export async function gasoline({ countries }: Ctx): Promise<Fetched> {
   if (names.length < 100 || names.length !== values.length) throw new Error(`layout changed: ${names.length} names vs ${values.length} values`);
   if (values.some((v, i) => i && v < values[i - 1])) throw new Error("values are not ascending — name/value pairing is unsafe");
 
-  const date = html.match(/(\d{1,2})-([A-Z][a-z]{2})-(\d{4})/);
-  const month = date ? String(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"].indexOf(date[2]) + 1).padStart(2, "0") : "";
+  const date = html.match(/Gasoline prices, liter,\s*(\d{1,2})-([A-Z][a-z]{2})-(\d{4})/);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const month = date ? months.indexOf(date[2]) + 1 : 0;
+  if (!date || !month) throw new Error("Missing gasoline price reference date");
+  const asOf = `${date[3]}-${String(month).padStart(2, "0")}`;
+  const snapshotDate = `${asOf}-${date[1].padStart(2, "0")}`;
   const alias: Record<string, string> = { USA: "US", UK: "GB", UAE: "AE", "Burma (Myanmar)": "MM", Swaziland: "SZ", "Ivory Coast": "CI", "Cape Verde": "CV", "DR Congo": "CD", "Czech Republic": "CZ", "Dom. Rep.": "DO", "N. Maced.": "MK", "C. Afr. Rep.": "CF", "Bosnia & Herz.": "BA", "Trinidad & Tobago": "TT", Curacao: "CW" };
   const items: Item[] = [];
   names.forEach((n, i) => {
@@ -23,9 +27,9 @@ export async function gasoline({ countries }: Ctx): Promise<Fetched> {
     if (c && c.independent && values[i] > 0) items.push({ name: c.name, country: c.code, value: values[i] });
   });
   return {
-    year: date ? +date[3] : new Date().getFullYear(),
-    ...(date ? { asOf: `${date[3]}-${month}` } : {}),
-    source: { kind: "api", name: "GlobalPetrolPrices.com — Gasoline prices (Octane-95), USD per liter", url: PAGE, note: "Pump prices converted to USD at the publisher's current exchange rates; territories are left out." },
+    year: Number(date[3]),
+    asOf,
+    source: { kind: "api", name: "GlobalPetrolPrices.com — Gasoline prices (Octane-95), USD per liter", url: PAGE, note: `Publisher snapshot dated ${snapshotDate}. Pump prices converted to USD at the publisher's current exchange rates; territories are left out.` },
     items,
   };
 }

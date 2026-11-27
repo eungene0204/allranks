@@ -11,119 +11,120 @@
   "decimals": 0,
   "order": "desc",
   "scope": "SE",
-  "year": 2022,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Statistics Sweden (SCB), regional accounts (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Swedish_counties_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Statistics Sweden, regional accounts (TAB3138)",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0105__NR0105A/NR0105ENS2010T01A/",
+    "license": "CC0 1.0",
+    "note": "Current prices for all 21 counties. Statistics Sweden table updated 2026-06-24. GDP per resident can be affected by commuting."
   },
-  "updatedAt": "2026-10-17T13:17:34.131Z",
+  "updatedAt": "2026-11-27T04:33:13.678Z",
   "items": [
     {
       "name": "Stockholm",
       "country": "SE",
-      "value": 729000
+      "value": 858000
     },
     {
       "name": "Norrbotten",
       "country": "SE",
-      "value": 648000
+      "value": 622000
     },
     {
       "name": "Västra Götaland",
       "country": "SE",
-      "value": 517000
-    },
-    {
-      "name": "Kronoberg",
-      "country": "SE",
-      "value": 508000
+      "value": 611000
     },
     {
       "name": "Uppsala",
       "country": "SE",
-      "value": 482000
+      "value": 579000
     },
     {
-      "name": "Västerbotten",
+      "name": "Kronoberg",
       "country": "SE",
-      "value": 473000
-    },
-    {
-      "name": "Jönköping",
-      "country": "SE",
-      "value": 472000
+      "value": 573000
     },
     {
       "name": "Västernorrland",
       "country": "SE",
-      "value": 468000
-    },
-    {
-      "name": "Östergötland",
-      "country": "SE",
-      "value": 464000
+      "value": 550000
     },
     {
       "name": "Örebro",
       "country": "SE",
-      "value": 456000
+      "value": 524000
+    },
+    {
+      "name": "Västerbotten",
+      "country": "SE",
+      "value": 524000
+    },
+    {
+      "name": "Östergötland",
+      "country": "SE",
+      "value": 521000
     },
     {
       "name": "Skåne",
       "country": "SE",
-      "value": 453000
+      "value": 514000
+    },
+    {
+      "name": "Jönköping",
+      "country": "SE",
+      "value": 504000
     },
     {
       "name": "Blekinge",
       "country": "SE",
-      "value": 433000
-    },
-    {
-      "name": "Värmland",
-      "country": "SE",
-      "value": 426000
+      "value": 500000
     },
     {
       "name": "Dalarna",
       "country": "SE",
-      "value": 425000
+      "value": 487000
     },
     {
       "name": "Jämtland",
       "country": "SE",
-      "value": 422000
-    },
-    {
-      "name": "Västmanland",
-      "country": "SE",
-      "value": 415000
-    },
-    {
-      "name": "Halland",
-      "country": "SE",
-      "value": 409000
-    },
-    {
-      "name": "Gävleborg",
-      "country": "SE",
-      "value": 408000
-    },
-    {
-      "name": "Kalmar",
-      "country": "SE",
-      "value": 406000
+      "value": 476000
     },
     {
       "name": "Gotland",
       "country": "SE",
-      "value": 379000
+      "value": 461000
+    },
+    {
+      "name": "Halland",
+      "country": "SE",
+      "value": 460000
+    },
+    {
+      "name": "Västmanland",
+      "country": "SE",
+      "value": 456000
+    },
+    {
+      "name": "Värmland",
+      "country": "SE",
+      "value": 455000
+    },
+    {
+      "name": "Kalmar",
+      "country": "SE",
+      "value": 447000
+    },
+    {
+      "name": "Gävleborg",
+      "country": "SE",
+      "value": 439000
     },
     {
       "name": "Södermanland",
       "country": "SE",
-      "value": 378000
+      "value": 431000
     }
   ]
 }

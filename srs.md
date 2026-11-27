@@ -585,3 +585,7 @@ The Beijing 2022 standings display the official top ten committees, their places
 ## 2026-11-27 Sochi Winter Paralympic standings
 
 The Sochi 2014 ranking displays the ten highest-placed National Paralympic Committees across all 72 events, with official place and gold, silver, bronze and total counts. It uses the IPC results archive, which reflects the medal forfeitures announced in March 2025.
+
+## 2026-11-27 지역 GDP 및 휘발유 랭킹
+
+지역별 명목 GDP와 1인당 GDP는 동일한 기존 랭킹 주소에서 제공하고, 기준연도와 단위는 출처의 관측 기간과 통화에 맞춘다. 캐나다 1인당 GDP는 같은 해 7월 1일의 추계인구를 사용한다. 뉴질랜드의 지역 GDP는 3월 종료 연도와 원자료 통화인 뉴질랜드달러를 사용하며, Tasman과 Nelson을 합치고 Chatham Islands를 Canterbury에 포함한다. 휘발유는 기준일 2026-11-23의 162개국 가격을 미국 달러/리터로 표시한다.

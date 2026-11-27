@@ -11,64 +11,65 @@
   "decimals": 0,
   "order": "desc",
   "scope": "LT",
-  "year": 2023,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Statistics Lithuania (2023) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/Counties_of_Lithuania",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 3)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_3gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 10 NUTS 3 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:21:21.140Z",
+  "updatedAt": "2026-11-27T04:28:38.848Z",
   "items": [
     {
       "name": "Vilnius",
       "country": "LT",
-      "value": 29800
+      "value": 41500
     },
     {
       "name": "Kaunas",
       "country": "LT",
-      "value": 20400
+      "value": 27000
     },
     {
       "name": "Klaipėda",
       "country": "LT",
-      "value": 18400
+      "value": 23700
     },
     {
       "name": "Šiauliai",
       "country": "LT",
-      "value": 15000
-    },
-    {
-      "name": "Panevėžys",
-      "country": "LT",
-      "value": 14100
+      "value": 19300
     },
     {
       "name": "Telšiai",
       "country": "LT",
-      "value": 13500
+      "value": 18800
     },
     {
-      "name": "Marijampolė",
+      "name": "Panevėžys",
       "country": "LT",
-      "value": 11800
-    },
-    {
-      "name": "Alytus",
-      "country": "LT",
-      "value": 11500
-    },
-    {
-      "name": "Utena",
-      "country": "LT",
-      "value": 11200
+      "value": 18500
     },
     {
       "name": "Tauragė",
       "country": "LT",
-      "value": 10900
+      "value": 16000
+    },
+    {
+      "name": "Marijampolė",
+      "country": "LT",
+      "value": 15600
+    },
+    {
+      "name": "Alytus",
+      "country": "LT",
+      "value": 15000
+    },
+    {
+      "name": "Utena",
+      "country": "LT",
+      "value": 15000
     }
   ]
 }

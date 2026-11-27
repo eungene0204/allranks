@@ -11,79 +11,80 @@
   "decimals": 1,
   "order": "desc",
   "scope": "GR",
-  "year": 2023,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "ELSTAT, regional accounts (2023) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Greek_subdivisions_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 13 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:19:22.999Z",
+  "updatedAt": "2026-11-27T04:28:36.690Z",
   "items": [
     {
       "name": "Attica",
       "country": "GR",
-      "value": 95.758
+      "value": 115.495
     },
     {
       "name": "Central Macedonia",
       "country": "GR",
-      "value": 27.207
+      "value": 32.902
     },
     {
       "name": "Crete",
       "country": "GR",
-      "value": 10.068
+      "value": 12.276
     },
     {
       "name": "Thessaly",
       "country": "GR",
-      "value": 9.963
+      "value": 12.079
     },
     {
       "name": "Central Greece",
       "country": "GR",
-      "value": 8.807
+      "value": 10.718
     },
     {
       "name": "Peloponnese",
       "country": "GR",
-      "value": 8.755
+      "value": 10.483
     },
     {
       "name": "Western Greece",
       "country": "GR",
-      "value": 8.478
+      "value": 10.223
     },
     {
       "name": "Eastern Macedonia and Thrace",
       "country": "GR",
-      "value": 7.097
+      "value": 8.588
     },
     {
       "name": "South Aegean",
       "country": "GR",
-      "value": 6.479
+      "value": 7.857
     },
     {
       "name": "Epirus",
       "country": "GR",
-      "value": 3.934
-    },
-    {
-      "name": "Western Macedonia",
-      "country": "GR",
-      "value": 3.51
+      "value": 4.77
     },
     {
       "name": "Ionian Islands",
       "country": "GR",
-      "value": 3.402
+      "value": 4.151
+    },
+    {
+      "name": "Western Macedonia",
+      "country": "GR",
+      "value": 4.073
     },
     {
       "name": "North Aegean",
       "country": "GR",
-      "value": 2.595
+      "value": 3.121
     }
   ]
 }

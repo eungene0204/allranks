@@ -4,86 +4,88 @@
   "short": "GDP per capita",
   "category": "economy",
   "icon": "💹",
-  "desc": "Nominal GDP per resident in 2024, in Canadian dollars.",
+  "desc": "Nominal GDP per resident of the ten provinces and three territories, in Canadian dollars.",
   "unit": "CAD per person",
   "prefix": "C$",
   "suffix": "",
   "decimals": 0,
   "order": "desc",
   "scope": "CA",
-  "year": 2024,
+  "year": 2025,
   "source": {
-    "kind": "wikipedia",
-    "name": "Statistics Canada, 2024 (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Canadian_provinces_and_territories_by_gross_domestic_product",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "manual",
+    "name": "Statistics Canada, tables 36-10-0222-01 and 17-10-0005-01",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610022201",
+    "license": "Statistics Canada Open Licence",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-27 against all 13 GDP and population rows. AllRanks divides current-price expenditure-based GDP by the July 1, 2025 all-age, all-gender population estimate (table 17-10-0005-01, September 23, 2026 release) and rounds to the nearest dollar. Both inputs may be revised."
   },
-  "updatedAt": "2026-10-17T13:16:23.640Z",
+  "updatedAt": "2026-11-27T04:30:53.864Z",
   "items": [
     {
       "name": "Nunavut",
       "country": "CA",
-      "value": 136763
+      "value": 171036
     },
     {
       "name": "Northwest Territories",
       "country": "CA",
-      "value": 113155
+      "value": 110078
     },
     {
       "name": "Alberta",
       "country": "CA",
-      "value": 96686
+      "value": 96001
     },
     {
       "name": "Yukon",
       "country": "CA",
-      "value": 91207
+      "value": 94934
     },
     {
       "name": "Saskatchewan",
       "country": "CA",
-      "value": 90619
+      "value": 91260
     },
     {
       "name": "Newfoundland and Labrador",
       "country": "CA",
-      "value": 77455
+      "value": 79514
     },
     {
       "name": "British Columbia",
       "country": "CA",
-      "value": 75821
+      "value": 78574
     },
     {
       "name": "Ontario",
       "country": "CA",
-      "value": 74394
+      "value": 77610
     },
     {
       "name": "Quebec",
       "country": "CA",
-      "value": 68665
+      "value": 71426
     },
     {
       "name": "Manitoba",
       "country": "CA",
-      "value": 64602
-    },
-    {
-      "name": "Prince Edward Island",
-      "country": "CA",
-      "value": 60877
+      "value": 66805
     },
     {
       "name": "Nova Scotia",
       "country": "CA",
-      "value": 60481
+      "value": 63853
+    },
+    {
+      "name": "Prince Edward Island",
+      "country": "CA",
+      "value": 63157
     },
     {
       "name": "New Brunswick",
       "country": "CA",
-      "value": 56354
+      "value": 59856
     }
   ]
 }

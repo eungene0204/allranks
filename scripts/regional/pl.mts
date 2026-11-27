@@ -1,25 +1,40 @@
+import { eurostatRegionalGdp } from "../sources/eurostat-regional-gdp.mts";
 import { fromTable, heightLead, num, rank } from "./lib.mts";
 import type { Pipeline } from "../lib/types.mts";
 
 // Poland — regions, cities, skyscrapers, airports.
+
+const GDP_REGIONS = {
+  PL21: "Lesser Poland Voivodeship",
+  PL22: "Silesian Voivodeship",
+  PL41: "Greater Poland Voivodeship",
+  PL42: "West Pomeranian Voivodeship",
+  PL43: "Lubusz Voivodeship",
+  PL51: "Lower Silesian Voivodeship",
+  PL52: "Opole Voivodeship",
+  PL61: "Kuyavian-Pomeranian Voivodeship",
+  PL62: "Warmian-Masurian Voivodeship",
+  PL63: "Pomeranian Voivodeship",
+  PL71: "Łódź Voivodeship",
+  PL72: "Świętokrzyskie Voivodeship",
+  PL81: "Lublin Voivodeship",
+  PL82: "Subcarpathian Voivodeship",
+  PL84: "Podlaskie Voivodeship",
+  PL91: "Warsaw metropolitan area",
+  PL92: "Masovian Regional",
+};
 
 const rankings: Pipeline[] = [
   rank("PL", "region-gdp", {
     kind: "gdp", title: "Polish Regions by GDP",
     desc: "Gross domestic product of the NUTS-2 regions, in billions of euros.",
     unit: "EUR billion", prefix: "€", suffix: "B", decimals: 1,
-  }, fromTable("PL", {
-    page: "List of regions of Poland by GDP", find: ["NUTS-2 region", "GDP (mil. €)", "Population"], name: 0, value: num(1), scale: 1e-3,
-    year: 2022, by: "Eurostat, regional accounts", min: 12,
-  })),
+  }, eurostatRegionalGdp("PL", 2, GDP_REGIONS, "MIO_EUR")),
   rank("PL", "region-gdp-per-capita", {
     kind: "gdp-pc", title: "Polish Regions by GDP per Capita",
     desc: "Gross domestic product per resident of the NUTS-2 regions, in euros.",
     unit: "EUR per person", prefix: "€",
-  }, fromTable("PL", {
-    page: "List of regions of Poland by GDP", find: ["NUTS-2 region", "GDP (mil. €)", "Population"], name: 0, value: num(3),
-    year: 2022, by: "Eurostat, regional accounts", min: 12,
-  })),
+  }, eurostatRegionalGdp("PL", 2, GDP_REGIONS, "EUR_HAB")),
   rank("PL", "cities", {
     kind: "cities", title: "Largest Cities in Poland",
     desc: "The 80 most populous Polish cities and towns (June 2024).",

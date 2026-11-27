@@ -3,19 +3,7 @@ import type { Pipeline } from "../lib/types.mts";
 
 // New Zealand — regions, urban areas, skyscrapers.
 
-const R = { page: "List of regions of New Zealand by GDP", find: ["Region", "GDP (NZ$ billion)", "GDP (US$ billion)"], drop: /^(New Zealand|North Island|South Island)$/, year: 2024, by: "Stats NZ, regional gross domestic product (year to March 2024)", min: 12 } as const;
-
 const rankings: Pipeline[] = [
-  rank("NZ", "region-gdp", {
-    kind: "gdp", title: "New Zealand Regions by GDP",
-    desc: "Gross domestic product of each region in the year to March 2024, in billions of US dollars.",
-    unit: "USD billion", prefix: "$", suffix: "B", decimals: 1,
-  }, fromTable("NZ", { ...R, name: 0, value: num(2) })),
-  rank("NZ", "region-gdp-per-capita", {
-    kind: "gdp-pc", title: "New Zealand Regions by GDP per Capita",
-    desc: "Gross domestic product per resident, in US dollars.",
-    unit: "USD per person", prefix: "$",
-  }, fromTable("NZ", { ...R, name: 0, value: num(4) })),
   rank("NZ", "cities", {
     kind: "cities", title: "Largest Urban Areas in New Zealand",
     desc: "Major and large urban areas ranked by estimated population.",

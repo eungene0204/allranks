@@ -647,3 +647,7 @@ The Beijing 2022 snapshot reuses the Winter Paralympic standings schema and has 
 ## 2026-11-27 Sochi Winter Paralympic standings
 
 The Sochi 2014 snapshot uses the manual ranking format with an edition-specific ID and an IPC source-access record. It stores official place as the ascending value and medal counts in the row detail.
+
+## 2026-11-27 지역 GDP 및 휘발유 가격 갱신
+
+벨기에·폴란드·그리스의 NUTS 2와 핀란드·리투아니아·슬로바키아의 NUTS 3 GDP는 Eurostat API에서 가져온다. 지역 코드 목록을 명시하고, 지표별로 모든 지역의 값이 있는 최신 연도를 선택한다. 영국은 ONS 공식 발표의 ITL1 표, 스웨덴은 Statistics Sweden PxWebApi v2의 21개 주 자료에서 명목 GDP와 1인당 GDP를 가져온다. 캐나다·독일·뉴질랜드의 2025년 자료는 공식 표를 직접 대조한 검증 스냅샷으로 관리한다. 휘발유 가격 수집기는 월 기준 `asOf`와 함께 원출처의 정확한 기준일을 출처 주석에 기록한다.

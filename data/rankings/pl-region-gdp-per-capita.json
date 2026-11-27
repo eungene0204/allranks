@@ -11,99 +11,100 @@
   "decimals": 0,
   "order": "desc",
   "scope": "PL",
-  "year": 2022,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Eurostat, regional accounts (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_regions_of_Poland_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 17 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:17:31.191Z",
+  "updatedAt": "2026-11-27T04:28:36.678Z",
   "items": [
     {
       "name": "Warsaw metropolitan area",
       "country": "PL",
-      "value": 47707
+      "value": 45300
     },
     {
       "name": "Lower Silesian Voivodeship",
       "country": "PL",
-      "value": 25023
+      "value": 24100
     },
     {
       "name": "Greater Poland Voivodeship",
       "country": "PL",
-      "value": 24303
+      "value": 23700
     },
     {
       "name": "Silesian Voivodeship",
       "country": "PL",
-      "value": 23092
+      "value": 22600
     },
     {
       "name": "Pomeranian Voivodeship",
       "country": "PL",
-      "value": 22200
+      "value": 21600
     },
     {
       "name": "Łódź Voivodeship",
       "country": "PL",
-      "value": 21872
+      "value": 21400
     },
     {
       "name": "Masovian Regional",
       "country": "PL",
-      "value": 20962
+      "value": 20600
     },
     {
       "name": "Lesser Poland Voivodeship",
       "country": "PL",
-      "value": 20794
+      "value": 20300
     },
     {
       "name": "West Pomeranian Voivodeship",
       "country": "PL",
-      "value": 19010
-    },
-    {
-      "name": "Lubusz Voivodeship",
-      "country": "PL",
-      "value": 18633
-    },
-    {
-      "name": "Opole Voivodeship",
-      "country": "PL",
-      "value": 18601
+      "value": 18500
     },
     {
       "name": "Kuyavian-Pomeranian Voivodeship",
       "country": "PL",
-      "value": 18491
+      "value": 18200
+    },
+    {
+      "name": "Opole Voivodeship",
+      "country": "PL",
+      "value": 18200
+    },
+    {
+      "name": "Lubusz Voivodeship",
+      "country": "PL",
+      "value": 18100
     },
     {
       "name": "Podlaskie Voivodeship",
       "country": "PL",
-      "value": 17730
+      "value": 17600
     },
     {
       "name": "Świętokrzyskie Voivodeship",
       "country": "PL",
-      "value": 17488
+      "value": 17300
     },
     {
       "name": "Subcarpathian Voivodeship",
       "country": "PL",
-      "value": 16715
+      "value": 16500
     },
     {
       "name": "Warmian-Masurian Voivodeship",
       "country": "PL",
-      "value": 16215
+      "value": 16100
     },
     {
       "name": "Lublin Voivodeship",
       "country": "PL",
-      "value": 16212
+      "value": 16000
     }
   ]
 }

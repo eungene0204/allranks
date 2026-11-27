@@ -1,25 +1,31 @@
+import { eurostatRegionalGdp } from "../sources/eurostat-regional-gdp.mts";
 import { fromTable, num, rank } from "./lib.mts";
 import type { Pipeline } from "../lib/types.mts";
 
 // Slovakia — regions, cities.
 
+const GDP_REGIONS = {
+  SK010: "Bratislava Region",
+  SK021: "Trnava Region",
+  SK022: "Trenčín Region",
+  SK023: "Nitra Region",
+  SK031: "Žilina Region",
+  SK032: "Banská Bystrica Region",
+  SK041: "Prešov Region",
+  SK042: "Košice Region",
+};
+
 const rankings: Pipeline[] = [
   rank("SK", "region-gdp", {
     kind: "gdp", title: "Slovak Regions by GDP",
-    desc: "Gross domestic product of the eight regions in 2022, in billions of euros.",
+    desc: "Gross domestic product of the eight regions, in billions of euros.",
     unit: "EUR billion", prefix: "€", suffix: "B", decimals: 1,
-  }, fromTable("SK", {
-    page: "List of Slovak regions by GDP", find: ["Rank", "Region", "GDP in mil EUR"], name: 1, value: num(2), scale: 1e-3, drop: /^Slovakia$/,
-    year: 2022, by: "OECD regional statistics (2022)", min: 8,
-  })),
+  }, eurostatRegionalGdp("SK", 3, GDP_REGIONS, "MIO_EUR")),
   rank("SK", "region-gdp-per-capita", {
     kind: "gdp-pc", title: "Slovak Regions by GDP per Capita",
-    desc: "Gross domestic product per resident in 2022, in euros.",
+    desc: "Gross domestic product per resident, in euros.",
     unit: "EUR per person", prefix: "€",
-  }, fromTable("SK", {
-    page: "List of Slovak regions by GDP", find: ["Rank", "Region", "GDP per capita in EUR"], name: 1, value: num(2), drop: /^Slovakia$/,
-    year: 2022, by: "OECD regional statistics (2022)", min: 8,
-  })),
+  }, eurostatRegionalGdp("SK", 3, GDP_REGIONS, "EUR_HAB")),
   rank("SK", "cities", {
     kind: "cities", title: "Largest Cities in Slovakia",
     desc: "The 100 most populous Slovak cities and towns (2019).",

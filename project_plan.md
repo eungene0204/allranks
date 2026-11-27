@@ -701,3 +701,10 @@ Added the Sochi 2014 top ten after confirming every row and the shared eleventh-
 Data validation covered 3,460 files with zero errors or warnings. Editorial checks found zero private drafts. Lint passed and the build passed on the permitted retry after the Next.js security advisory. Local production checks confirmed all ten rendered rows, the IPC source link, category, search, suggestions, sitemap, generated catalog and 404 responses for the deferred ranking URLs.
 
 Ranking commit 3c924fb reached origin/main. Vercel rejected the production deployment because the team exceeded its fair-use limits and issued no deployment ID. The allranks.world alias still points to the November 11 deployment dpl_Fhj27YHRqsGkgJXkp6gBL87qsfrN (Ready). The homepage and the Sochi ranking URL returned HTTP 402.
+
+## 2026-11-27 랭킹 갱신 밀린 항목 정리
+
+- 캐나다·독일·뉴질랜드의 지역 GDP와 1인당 GDP 6개를 2025년으로, 벨기에·폴란드·그리스·핀란드·리투아니아·슬로바키아·영국·스웨덴의 16개를 2024년으로 갱신했다. 휘발유 가격은 10월 자료에서 11월 23일 기준으로 갱신했다.
+- 23개 랭킹의 472행을 원자료와 전수 대조했다. 자동 수집 17개의 드라이런이 모두 동일한 스냅샷을 반환했다. 데이터 3,460개 파일에서 오류·경고 0건, 편집 검증에서 비공개 초안 0개를 확인했다. 타입 검사와 프로덕션 빌드를 통과했다. Next.js 보안 알림으로 첫 빌드가 정적 생성 후 종료되어 같은 명령으로 재시도했다.
+- 2024년 이하 기준연도의 자료는 675개에서 669개로 줄었다. 이 집계에는 이번에 2024년 공식 통계로 갱신한 16개와 과거 대회·인구총조사 스냅샷이 포함된다. 갱신 후보 판단에는 각 원출처의 발표 주기를 함께 확인한다.
+- 로컬 운영 빌드에서 23개 상세 페이지의 472행, 국가 랭킹 API, 출처 링크, 검색, 카테고리, 사이트맵, 클라이언트 카탈로그를 확인했다. 임시 비공개 초안으로 상세·국가 API 404와 검색·제안·카테고리·국가 페이지·사이트맵·카탈로그 제외를 확인했다.

@@ -14,22 +14,6 @@ const rankings: Pipeline[] = [
     page: "List of German states by population", find: ["State", "State code", "HDI"], name: 0, value: num(8), scale: 1e-6, tidy: tidyState,
     year: 2023, by: "Federal Statistical Office (Destatis), 31 Dec 2023", min: 15,
   })),
-  rank("DE", "state-gdp", {
-    kind: "gdp", title: "German States by GDP",
-    desc: "Gross domestic product of each state, in billions of euros.",
-    unit: "EUR billion", prefix: "€", suffix: "B", decimals: 0,
-  }, fromTable("DE", {
-    page: "List of German states by GDP", find: ["States", "GDP (mil. €)"], name: 0, value: num(1), scale: 1e-3, drop: /^Germany$/,
-    year: 2023, by: "Federal Statistical Office (Destatis)", min: 15,
-  })),
-  rank("DE", "state-gdp-per-capita", {
-    kind: "gdp-pc", title: "German States by GDP per Capita",
-    desc: "Economic output per resident of each state, in euros.",
-    unit: "EUR per person", prefix: "€",
-  }, fromTable("DE", {
-    page: "List of German states by GDP", find: ["States", "GDP (mil. €)"], name: 0, value: num(2), drop: /^Germany$/,
-    year: 2023, by: "Federal Statistical Office (Destatis)", min: 15,
-  })),
   rank("DE", "cities", {
     kind: "cities", title: "Largest Cities in Germany",
     desc: "The 80 most populous German cities (2021 estimate).",

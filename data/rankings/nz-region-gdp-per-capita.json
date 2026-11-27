@@ -4,96 +4,98 @@
   "short": "GDP per capita",
   "category": "economy",
   "icon": "💹",
-  "desc": "Gross domestic product per resident, in US dollars.",
-  "unit": "USD per person",
-  "prefix": "$",
+  "desc": "Nominal GDP per resident for the year ended March, in New Zealand dollars.",
+  "unit": "NZD per person",
+  "prefix": "NZ$",
   "suffix": "",
   "decimals": 0,
   "order": "desc",
   "scope": "NZ",
-  "year": 2024,
+  "year": 2025,
   "source": {
-    "kind": "wikipedia",
-    "name": "Stats NZ, regional gross domestic product (year to March 2024) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_regions_of_New_Zealand_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "manual",
+    "name": "Stats NZ, regional gross domestic product",
+    "url": "https://www.stats.govt.nz/information-releases/regional-gross-domestic-product-year-ended-march-2025/",
+    "license": "CC BY 4.0",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-27 against all 15 geographic entries in Stats NZ Tables 4 and 5. The March 2025 GDP estimates are provisional. Tasman and Nelson are combined, and Canterbury includes the Chatham Islands. GDP per resident uses the June 2025 population estimates. This work includes Stats NZ’s data which are licensed by Stats NZ for reuse under the Creative Commons Attribution 4.0 International licence."
   },
-  "updatedAt": "2026-10-17T13:19:25.444Z",
+  "updatedAt": "2026-11-27T04:32:40.524Z",
   "items": [
+    {
+      "name": "Southland",
+      "country": "NZ",
+      "value": 95061
+    },
     {
       "name": "Wellington",
       "country": "NZ",
-      "value": 55665
+      "value": 94438
     },
     {
       "name": "Auckland",
       "country": "NZ",
-      "value": 53013
+      "value": 89521
     },
     {
       "name": "Taranaki",
       "country": "NZ",
-      "value": 51217
+      "value": 85095
     },
     {
       "name": "Marlborough",
       "country": "NZ",
-      "value": 50577
-    },
-    {
-      "name": "Southland",
-      "country": "NZ",
-      "value": 50172
-    },
-    {
-      "name": "West Coast",
-      "country": "NZ",
-      "value": 45034
+      "value": 83484
     },
     {
       "name": "Canterbury",
       "country": "NZ",
-      "value": 44863
+      "value": 79852
+    },
+    {
+      "name": "West Coast",
+      "country": "NZ",
+      "value": 77650
     },
     {
       "name": "Otago",
       "country": "NZ",
-      "value": 42667
+      "value": 76101
     },
     {
       "name": "Waikato",
       "country": "NZ",
-      "value": 41158
+      "value": 72330
     },
     {
       "name": "Bay of Plenty",
       "country": "NZ",
-      "value": 40590
-    },
-    {
-      "name": "Tasman / Nelson",
-      "country": "NZ",
-      "value": 39775
+      "value": 71343
     },
     {
       "name": "Hawke's Bay",
       "country": "NZ",
-      "value": 38961
+      "value": 69966
+    },
+    {
+      "name": "Tasman / Nelson",
+      "country": "NZ",
+      "value": 68194
     },
     {
       "name": "Manawatū-Whanganui",
       "country": "NZ",
-      "value": 35900
+      "value": 65844
     },
     {
       "name": "Gisborne",
       "country": "NZ",
-      "value": 33195
+      "value": 58588
     },
     {
       "name": "Northland",
       "country": "NZ",
-      "value": 32877
+      "value": 57992
     }
   ]
 }

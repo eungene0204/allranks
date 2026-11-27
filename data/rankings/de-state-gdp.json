@@ -4,21 +4,23 @@
   "short": "GDP",
   "category": "economy",
   "icon": "💰",
-  "desc": "Gross domestic product of each state, in billions of euros.",
+  "desc": "Nominal GDP of the 16 federal states, in billions of euros.",
   "unit": "EUR billion",
   "prefix": "€",
   "suffix": "B",
   "decimals": 0,
   "order": "desc",
   "scope": "DE",
-  "year": 2023,
+  "year": 2025,
   "source": {
-    "kind": "wikipedia",
-    "name": "Federal Statistical Office (Destatis) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_German_states_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "manual",
+    "name": "Working Group on Regional Accounts (VGR der Länder), Germany",
+    "url": "https://www.statistikportal.de/de/veroeffentlichungen/bruttoinlandsprodukt-bruttowertschoepfung-laenderergebnisse",
+    "license": "Reuse with source attribution",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-27 against the 2025 current-price row for all 16 states in worksheet 1.1, March 2026 edition (February 2026 calculation). Annual results are preliminary and may be revised."
   },
-  "updatedAt": "2026-10-17T13:15:27.305Z",
+  "updatedAt": "2026-11-27T04:30:53.864Z",
   "items": [
     {
       "name": "North Rhine-Westphalia",
@@ -33,7 +35,7 @@
     {
       "name": "Baden-Württemberg",
       "country": "DE",
-      "value": 667.11
+      "value": 667.1
     },
     {
       "name": "Lower Saxony",
@@ -78,7 +80,7 @@
     {
       "name": "Saxony-Anhalt",
       "country": "DE",
-      "value": 81.75
+      "value": 81.76
     },
     {
       "name": "Thuringia",

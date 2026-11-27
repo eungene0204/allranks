@@ -4,101 +4,103 @@
   "short": "GDP per capita",
   "category": "economy",
   "icon": "💹",
-  "desc": "Economic output per resident of each state, in euros.",
+  "desc": "Nominal GDP per resident of the 16 federal states, in euros.",
   "unit": "EUR per person",
   "prefix": "€",
   "suffix": "",
   "decimals": 0,
   "order": "desc",
   "scope": "DE",
-  "year": 2023,
+  "year": 2025,
   "source": {
-    "kind": "wikipedia",
-    "name": "Federal Statistical Office (Destatis) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_German_states_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "manual",
+    "name": "Working Group on Regional Accounts (VGR der Länder), Germany",
+    "url": "https://www.statistikportal.de/de/veroeffentlichungen/bruttoinlandsprodukt-bruttowertschoepfung-laenderergebnisse",
+    "license": "Reuse with source attribution",
+    "verified": true,
+    "note": "AllRanks assistant verified on 2026-11-27 against the 2025 current-price row for all 16 states in worksheet 3.3, March 2026 edition (February 2026 calculation). Annual results are preliminary and may be revised."
   },
-  "updatedAt": "2026-10-17T13:15:27.306Z",
+  "updatedAt": "2026-11-27T04:30:53.864Z",
   "items": [
     {
       "name": "Hamburg",
       "country": "DE",
-      "value": 90359
+      "value": 90208
     },
     {
       "name": "Bavaria",
       "country": "DE",
-      "value": 62212
+      "value": 62200
     },
     {
       "name": "Bremen",
       "country": "DE",
-      "value": 61019
+      "value": 60974
     },
     {
       "name": "Hesse",
       "country": "DE",
-      "value": 60567
+      "value": 60894
     },
     {
       "name": "Baden-Württemberg",
       "country": "DE",
-      "value": 59320
+      "value": 59335
     },
     {
       "name": "Berlin",
       "country": "DE",
-      "value": 59233
+      "value": 59097
     },
     {
       "name": "North Rhine-Westphalia",
       "country": "DE",
-      "value": 49682
+      "value": 50470
     },
     {
       "name": "Lower Saxony",
       "country": "DE",
-      "value": 49646
+      "value": 49907
     },
     {
       "name": "Rhineland-Palatinate",
       "country": "DE",
-      "value": 44864
+      "value": 44915
     },
     {
       "name": "Schleswig-Holstein",
       "country": "DE",
-      "value": 44347
+      "value": 44344
     },
     {
       "name": "Saarland",
       "country": "DE",
-      "value": 42656
+      "value": 42765
     },
     {
       "name": "Saxony",
       "country": "DE",
-      "value": 41553
+      "value": 41693
     },
     {
       "name": "Brandenburg",
       "country": "DE",
-      "value": 40716
+      "value": 40759
     },
     {
       "name": "Mecklenburg-Vorpommern",
       "country": "DE",
-      "value": 40407
+      "value": 40495
     },
     {
       "name": "Thuringia",
       "country": "DE",
-      "value": 38394
+      "value": 38591
     },
     {
       "name": "Saxony-Anhalt",
       "country": "DE",
-      "value": 38282
+      "value": 38452
     }
   ]
 }

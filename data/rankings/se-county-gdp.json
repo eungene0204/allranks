@@ -11,119 +11,120 @@
   "decimals": 0,
   "order": "desc",
   "scope": "SE",
-  "year": 2022,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Statistics Sweden (SCB), regional accounts (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Swedish_counties_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Statistics Sweden, regional accounts (TAB3138)",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__NR__NR0105__NR0105A/NR0105ENS2010T01A/",
+    "license": "CC0 1.0",
+    "note": "Current prices for all 21 counties. Statistics Sweden table updated 2026-06-24. GDP per resident can be affected by commuting."
   },
-  "updatedAt": "2026-10-17T13:17:34.131Z",
+  "updatedAt": "2026-11-27T04:33:13.678Z",
   "items": [
     {
       "name": "Stockholm",
       "country": "SE",
-      "value": 1340.35
+      "value": 2128.29
     },
     {
       "name": "Västra Götaland",
       "country": "SE",
-      "value": 711.22
+      "value": 1088.76
     },
     {
       "name": "Skåne",
       "country": "SE",
-      "value": 478.5
+      "value": 737.73
     },
     {
       "name": "Östergötland",
       "country": "SE",
-      "value": 166.51
+      "value": 247.84
     },
     {
       "name": "Uppsala",
       "country": "SE",
-      "value": 142.13
+      "value": 236.71
     },
     {
       "name": "Jönköping",
       "country": "SE",
-      "value": 128.25
+      "value": 187.41
     },
     {
       "name": "Örebro",
       "country": "SE",
-      "value": 104.34
+      "value": 162.55
     },
     {
       "name": "Halland",
       "country": "SE",
-      "value": 102.15
+      "value": 159.45
     },
     {
       "name": "Norrbotten",
       "country": "SE",
-      "value": 101.84
-    },
-    {
-      "name": "Dalarna",
-      "country": "SE",
-      "value": 99.11
-    },
-    {
-      "name": "Västmanland",
-      "country": "SE",
-      "value": 96.01
+      "value": 155.68
     },
     {
       "name": "Västerbotten",
       "country": "SE",
-      "value": 95.95
+      "value": 147.74
     },
     {
-      "name": "Gävleborg",
+      "name": "Dalarna",
       "country": "SE",
-      "value": 94.89
+      "value": 140.62
     },
     {
       "name": "Västernorrland",
       "country": "SE",
-      "value": 91.31
-    },
-    {
-      "name": "Värmland",
-      "country": "SE",
-      "value": 90.69
+      "value": 133.89
     },
     {
       "name": "Södermanland",
       "country": "SE",
-      "value": 86.76
+      "value": 131.01
     },
     {
-      "name": "Kalmar",
+      "name": "Värmland",
       "country": "SE",
-      "value": 78.36
+      "value": 129.88
+    },
+    {
+      "name": "Västmanland",
+      "country": "SE",
+      "value": 129
+    },
+    {
+      "name": "Gävleborg",
+      "country": "SE",
+      "value": 126.08
     },
     {
       "name": "Kronoberg",
       "country": "SE",
-      "value": 75.8
+      "value": 117.34
+    },
+    {
+      "name": "Kalmar",
+      "country": "SE",
+      "value": 110.88
     },
     {
       "name": "Blekinge",
       "country": "SE",
-      "value": 52.85
+      "value": 79.26
     },
     {
       "name": "Jämtland",
       "country": "SE",
-      "value": 43.07
+      "value": 63.54
     },
     {
       "name": "Gotland",
       "country": "SE",
-      "value": 18.81
+      "value": 28.28
     }
   ]
 }

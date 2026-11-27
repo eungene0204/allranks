@@ -11,79 +11,80 @@
   "decimals": 0,
   "order": "desc",
   "scope": "GR",
-  "year": 2023,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "ELSTAT, regional accounts (2023) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Greek_subdivisions_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 13 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:19:23.002Z",
+  "updatedAt": "2026-11-27T04:28:36.691Z",
   "items": [
     {
       "name": "Attica",
       "country": "GR",
-      "value": 29732
+      "value": 31300
     },
     {
       "name": "South Aegean",
       "country": "GR",
-      "value": 21610
+      "value": 22900
     },
     {
       "name": "Ionian Islands",
       "country": "GR",
-      "value": 19502
+      "value": 20800
     },
     {
       "name": "Central Greece",
       "country": "GR",
-      "value": 18469
+      "value": 19600
     },
     {
       "name": "Crete",
       "country": "GR",
-      "value": 18345
+      "value": 19500
     },
     {
       "name": "Peloponnese",
       "country": "GR",
-      "value": 17841
+      "value": 18700
     },
     {
       "name": "Central Macedonia",
       "country": "GR",
-      "value": 16982
+      "value": 17900
     },
     {
       "name": "Thessaly",
       "country": "GR",
-      "value": 16286
-    },
-    {
-      "name": "Western Macedonia",
-      "country": "GR",
-      "value": 15543
+      "value": 17300
     },
     {
       "name": "Western Greece",
       "country": "GR",
-      "value": 15210
+      "value": 16000
+    },
+    {
+      "name": "Western Macedonia",
+      "country": "GR",
+      "value": 15800
     },
     {
       "name": "Eastern Macedonia and Thrace",
       "country": "GR",
-      "value": 13840
+      "value": 14600
     },
     {
       "name": "Epirus",
       "country": "GR",
-      "value": 13789
+      "value": 14600
     },
     {
       "name": "North Aegean",
       "country": "GR",
-      "value": 13136
+      "value": 13800
     }
   ]
 }

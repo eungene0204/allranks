@@ -1,3 +1,4 @@
+import { scbRegionalGdp } from "../sources/scb-regional-gdp.mts";
 import { fromTable, heightLead, num, rank } from "./lib.mts";
 import type { Pipeline } from "../lib/types.mts";
 
@@ -8,18 +9,12 @@ const rankings: Pipeline[] = [
     kind: "gdp", title: "Swedish Counties by GDP",
     desc: "Gross domestic product of each county, in billions of Swedish kronor.",
     unit: "SEK billion", suffix: " bn SEK", decimals: 0,
-  }, fromTable("SE", {
-    page: "List of Swedish counties by GDP", find: ["Rank", "County", "GDP (mil. SEK)"], name: 1, value: num(2), scale: 1e-3, drop: /^Sweden$/,
-    year: 2022, by: "Statistics Sweden (SCB), regional accounts", min: 18,
-  })),
+  }, scbRegionalGdp("NR0105AH")),
   rank("SE", "county-gdp-per-capita", {
     kind: "gdp-pc", title: "Swedish Counties by GDP per Capita",
     desc: "Gross domestic product per resident of each county, in Swedish kronor.",
     unit: "SEK per person", suffix: " SEK",
-  }, fromTable("SE", {
-    page: "List of Swedish counties by GDP", find: ["Rank", "County", "GDP per capita in SEK"], name: 1, value: num(2), drop: /^Sweden$/,
-    year: 2022, by: "Statistics Sweden (SCB), regional accounts", min: 18,
-  })),
+  }, scbRegionalGdp("NR0105AJ")),
   rank("SE", "cities", {
     kind: "cities", title: "Largest Urban Areas in Sweden",
     desc: "The 100 largest Swedish urban areas (tätorter) by population in 2023.",

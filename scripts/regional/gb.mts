@@ -1,3 +1,4 @@
+import { onsRegionalGdp } from "../sources/ons-regional-gdp.mts";
 import { heightPair, dedupeRomaji, fromTable, num, rank } from "./lib.mts";
 import type { Pipeline } from "../lib/types.mts";
 
@@ -22,18 +23,12 @@ const rankings: Pipeline[] = [
     kind: "gdp", title: "UK Regions by GDP",
     desc: "Gross regional domestic product of the nine English regions plus Wales, Scotland and Northern Ireland, in billions of pounds.",
     unit: "GBP billion", prefix: "£", suffix: "B", decimals: 0,
-  }, fromTable("GB", {
-    page: "List of regions of the United Kingdom by GRDP", find: ["Region", "Population", "GRDP per head"], name: 0, value: num(2), scale: 1e-3, header: 2,
-    drop: /^(United Kingdom|Extra-regio)/, year: 2023, by: "Office for National Statistics, regional gross domestic product", min: 10,
-  })),
+  }, onsRegionalGdp("total")),
   rank("GB", "region-gdp-per-capita", {
     kind: "gdp-pc", title: "UK Regions by GDP per Head",
     desc: "Economic output per resident of each UK region, in pounds.",
     unit: "GBP per person", prefix: "£",
-  }, fromTable("GB", {
-    page: "List of regions of the United Kingdom by GRDP", find: ["Region", "Population", "GRDP per head"], name: 0, value: num(4), header: 2,
-    drop: /^(United Kingdom|Extra-regio)/, year: 2023, by: "Office for National Statistics, regional gross domestic product", min: 10,
-  })),
+  }, onsRegionalGdp("perHead")),
   rank("GB", "skyscrapers", {
     kind: "skyscrapers", title: "Tallest Buildings in the United Kingdom",
     desc: "The tallest completed buildings in the UK, by height.",

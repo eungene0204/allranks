@@ -11,64 +11,65 @@
   "decimals": 1,
   "order": "desc",
   "scope": "LT",
-  "year": 2023,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Statistics Lithuania (2023) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/Counties_of_Lithuania",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 3)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_3gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 10 NUTS 3 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:21:21.140Z",
+  "updatedAt": "2026-11-27T04:28:38.846Z",
   "items": [
     {
       "name": "Vilnius",
       "country": "LT",
-      "value": 24.2
+      "value": 36.174
     },
     {
       "name": "Kaunas",
       "country": "LT",
-      "value": 11.6
+      "value": 15.856
     },
     {
       "name": "Klaipėda",
       "country": "LT",
-      "value": 6
+      "value": 8.111
     },
     {
       "name": "Šiauliai",
       "country": "LT",
-      "value": 3.9
+      "value": 5.144
     },
     {
       "name": "Panevėžys",
       "country": "LT",
-      "value": 3
+      "value": 3.846
     },
     {
       "name": "Telšiai",
       "country": "LT",
-      "value": 1.8
-    },
-    {
-      "name": "Alytus",
-      "country": "LT",
-      "value": 1.6
+      "value": 2.45
     },
     {
       "name": "Marijampolė",
       "country": "LT",
-      "value": 1.6
+      "value": 2.094
+    },
+    {
+      "name": "Alytus",
+      "country": "LT",
+      "value": 2.007
     },
     {
       "name": "Utena",
       "country": "LT",
-      "value": 1.4
+      "value": 1.87
     },
     {
       "name": "Tauragė",
       "country": "LT",
-      "value": 1.1
+      "value": 1.444
     }
   ]
 }

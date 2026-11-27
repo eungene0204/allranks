@@ -4,76 +4,77 @@
   "short": "GDP",
   "category": "economy",
   "icon": "💰",
-  "desc": "Nominal GDP of the ten provinces and the Brussels-Capital Region in 2021, in billions of euros.",
+  "desc": "Nominal GDP of the ten provinces and the Brussels-Capital Region, in billions of euros.",
   "unit": "EUR billion",
   "prefix": "€",
   "suffix": "B",
   "decimals": 1,
   "order": "desc",
   "scope": "BE",
-  "year": 2021,
+  "year": 2024,
   "source": {
-    "kind": "wikipedia",
-    "name": "Eurostat, regional accounts (2021) (via Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/List_of_Belgian_provinces_by_GDP",
-    "license": "CC BY-SA 4.0 (Wikipedia); underlying data © the cited publisher"
+    "kind": "api",
+    "name": "Eurostat, regional accounts (NUTS 2)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10r_2gdp/default/table?lang=en",
+    "license": "Eurostat reuse with attribution",
+    "note": "Current market prices, 11 NUTS 2 regions. Uses the latest year with data for every listed region. Eurostat table updated 2026-02-10. Figures may be revised."
   },
-  "updatedAt": "2026-10-17T13:19:18.297Z",
+  "updatedAt": "2026-11-27T04:28:36.689Z",
   "items": [
     {
       "name": "Antwerp",
       "country": "BE",
-      "value": 98.189
+      "value": 117.767
     },
     {
       "name": "Brussels",
       "country": "BE",
-      "value": 90.459
+      "value": 108.153
     },
     {
       "name": "East Flanders",
       "country": "BE",
-      "value": 62.123
-    },
-    {
-      "name": "West Flanders",
-      "country": "BE",
-      "value": 52.323
+      "value": 78.272
     },
     {
       "name": "Flemish Brabant",
       "country": "BE",
-      "value": 51.731
+      "value": 68.662
+    },
+    {
+      "name": "West Flanders",
+      "country": "BE",
+      "value": 64.564
     },
     {
       "name": "Hainaut",
       "country": "BE",
-      "value": 36.94
+      "value": 44.184
     },
     {
       "name": "Liège",
       "country": "BE",
-      "value": 34.715
+      "value": 43.415
     },
     {
       "name": "Limburg",
       "country": "BE",
-      "value": 31.766
+      "value": 38.231
     },
     {
       "name": "Walloon Brabant",
       "country": "BE",
-      "value": 21.155
+      "value": 28.893
     },
     {
       "name": "Namur",
       "country": "BE",
-      "value": 14.697
+      "value": 18.216
     },
     {
       "name": "Luxembourg",
       "country": "BE",
-      "value": 7.887
+      "value": 9.719
     }
   ]
 }

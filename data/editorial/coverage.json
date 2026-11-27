@@ -1,10 +1,10 @@
 {
   "note": "Coverage and content integrity only. Not an E-E-A-T score, expert review, or new verification of original observations.",
-  "publicRankings": 3446,
+  "publicRankings": 3460,
   "privateDrafts": [],
   "officialWorldBankDefinitions": 1627,
   "sourceAccessCounts": {
-    "http-response-received": 1034,
+    "http-response-received": 1048,
     "source-not-retrievable": 785,
     "official-metadata-retrieved": 1627
   },
@@ -23,7 +23,7 @@
     "share": 511,
     "growth": 27,
     "per-person": 80,
-    "capacity": 9,
+    "capacity": 12,
     "score": 170,
     "event-count": 11,
     "price": 6,
@@ -36,7 +36,7 @@
     "duration": 18,
     "chart": 11,
     "wealth-count": 1,
-    "ordinal": 14,
+    "ordinal": 17,
     "net-flow": 17,
     "flow": 53,
     "population-count": 83,
@@ -67,7 +67,7 @@
     "health-rate": 6,
     "capital-valuation": 64,
     "local-currency": 63,
-    "measure": 14,
+    "measure": 22,
     "port-throughput": 1
   },
   "failures": [],
@@ -1055,16 +1055,16 @@
     {
       "id": "be-province-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 270,
+      "words": 296,
       "sourceAccess": "http-response-received",
-      "hash": "c6d64408ff5d83bba3970d15c9f42273224b3cce3227d815f0b6d67fc57c37f1"
+      "hash": "a5c69c01ae4ce358283c6de29c95752da50c8c8e1446c8e662ca5705df19321b"
     },
     {
       "id": "be-province-gdp",
       "profile": "regional-gdp",
-      "words": 277,
+      "words": 303,
       "sourceAccess": "http-response-received",
-      "hash": "0104c7f98e62233015794d0980a4a33c09302747dabbebd6852ec626ce1b23dd"
+      "hash": "51463d35ac3396bb989a6d9dee871f7c8e50f5313f089cbd9a70c53d42fb9768"
     },
     {
       "id": "be-recent-research-citedness",
@@ -1958,16 +1958,16 @@
     {
       "id": "ca-province-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 271,
+      "words": 325,
       "sourceAccess": "http-response-received",
-      "hash": "c95b63f4e4c7d3bbaf9a430e0198cc8e4506fc9c5134891ce783959162d48308"
+      "hash": "c3d32a8fa49d2fb1d08fa7b5e39b9f4c102b9ba19c06a1db7a51dd3510e751a7"
     },
     {
       "id": "ca-province-gdp",
       "profile": "regional-gdp",
-      "words": 275,
+      "words": 310,
       "sourceAccess": "http-response-received",
-      "hash": "9562f2e228ce0af9e262ec91b3ff88d8e79e8f7ba9601b2d9f19954c5e35cf72"
+      "hash": "6edcc0c4031f31b04e370d4a9119c04e74c2efcd3f9e2e5a36cb1de1431e2ece"
     },
     {
       "id": "ca-province-population",
@@ -3099,16 +3099,16 @@
     {
       "id": "de-state-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 271,
+      "words": 310,
       "sourceAccess": "http-response-received",
-      "hash": "dea525612e2219e68cca5d7229740a0e2ca1018acc61f90fd1e59311ec4357da"
+      "hash": "6834afcb86aecc9fd8bec64e3b4f2d72dd4398f29e390110318dc420e6827083"
     },
     {
       "id": "de-state-gdp",
       "profile": "regional-gdp",
-      "words": 272,
+      "words": 310,
       "sourceAccess": "http-response-received",
-      "hash": "ee7e2a7243b3f650a0752ae7edb262aa2456950f5e28efaa0745f8c91157ba80"
+      "hash": "399b6556fbb3e18847ef8ffca52bc9eb6e76928e6a85a843e3ccf039273c0552"
     },
     {
       "id": "de-state-population",
@@ -4016,16 +4016,16 @@
     {
       "id": "fi-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 271,
+      "words": 297,
       "sourceAccess": "http-response-received",
-      "hash": "db39c6244b5e587f572bbeafd09c0dba4de805713db1e5e345cc8713b1a0a8b7"
+      "hash": "d9b1e25453ad68630e994f34a980b4d2115be61f95e414546adcc0959d8e9196"
     },
     {
       "id": "fi-region-gdp",
       "profile": "regional-gdp",
-      "words": 273,
+      "words": 299,
       "sourceAccess": "http-response-received",
-      "hash": "41e61c2d6c6720495db6c37cad69256996f19d045838edb87c329aae633ce9c0"
+      "hash": "495fba9e700f15ceabb8907af4adf8cdebd69419d5d922483f8a82f85d29db2b"
     },
     {
       "id": "fi-research-h-index",
@@ -4331,9 +4331,9 @@
     {
       "id": "gasoline",
       "profile": "price",
-      "words": 299,
+      "words": 303,
       "sourceAccess": "http-response-received",
-      "hash": "b6fbf370bab6eb4c8a9b404860670c30b08ae138f5eef0e5ca3b1ca107daea4d"
+      "hash": "11f3d01d5884d85a8f708d278af9cc57950acbdf78eee8604d55d02174cf7b8b"
     },
     {
       "id": "gb-airports-by-elevation",
@@ -4422,16 +4422,16 @@
     {
       "id": "gb-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 273,
+      "words": 306,
       "sourceAccess": "http-response-received",
-      "hash": "46af1b7bc0386afad109d84cbf20001437c7433e20fd9f2505a3484293046794"
+      "hash": "ba06ca5ed2ed5236d70a3c57ca2d7c40c29a2cfd01f94b6885a4d6a51034e1aa"
     },
     {
       "id": "gb-region-gdp",
       "profile": "regional-gdp",
-      "words": 281,
+      "words": 314,
       "sourceAccess": "http-response-received",
-      "hash": "5c4af7741f95b984eace1ed23d647f44d8c4069dc7cac3d19d6031093d6f4798"
+      "hash": "d83dc5fef526e37cbc7999bb4dffa21b4befe9809b3e3f4d7aa10ab63f3e6d7b"
     },
     {
       "id": "gb-renewable-electricity-capacity",
@@ -4898,16 +4898,16 @@
     {
       "id": "gr-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 269,
+      "words": 297,
       "sourceAccess": "http-response-received",
-      "hash": "e45072a84f1f4e64d379eb044d2082d94d74cb2c286e9e5e644e5a7ab4817ec6"
+      "hash": "912eaaeb787df828d43e1b5f7ff84273baed786714bdfad4bafed58718a53331"
     },
     {
       "id": "gr-region-gdp",
       "profile": "regional-gdp",
-      "words": 272,
+      "words": 300,
       "sourceAccess": "http-response-received",
-      "hash": "8d34f067db86b7678d7b52edfbedfee4ddff339d757cb6a344da4b3dc62888ee"
+      "hash": "103728d49bfa72529db150f17f6d1fd9f19ce4dad031944daef9db524fc75096"
     },
     {
       "id": "gr-research-h-index",
@@ -4943,6 +4943,13 @@
       "words": 355,
       "sourceAccess": "http-response-received",
       "hash": "c46640c74339ee82f01fa8d27aad3a199af5d4382b330fe81d84ef3e4e2f4d45"
+    },
+    {
+      "id": "green500-energy-efficiency-2026-11",
+      "profile": "capacity",
+      "words": 354,
+      "sourceAccess": "http-response-received",
+      "hash": "b4b91ef37d4cbec2a597aa8e9972da543b8279933e130f725ca088b19a765599"
     },
     {
       "id": "gt-airports-by-elevation",
@@ -5181,6 +5188,13 @@
       "words": 374,
       "sourceAccess": "http-response-received",
       "hash": "5b8350b7a150c91c9394881f32ec5d6bc18143d3edc5f2c4de7e594e0c478d4d"
+    },
+    {
+      "id": "hpcg-supercomputers-2026-11",
+      "profile": "capacity",
+      "words": 355,
+      "sourceAccess": "http-response-received",
+      "hash": "207b9ac8d7b8a91033d7169681a95057bd94149e09cd0859bd56db223c6e22a4"
     },
     {
       "id": "hr-airports-by-elevation",
@@ -7530,16 +7544,16 @@
     {
       "id": "lt-county-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 268,
+      "words": 296,
       "sourceAccess": "http-response-received",
-      "hash": "053e5afb9239da7b2af23c1a18d00a0c5f6c1ac6f90e961f7193c9683baba7ee"
+      "hash": "7aae99bf6044f1af8ba95dea5d8de000c4dcb51b9cb71c8e427901515588d871"
     },
     {
       "id": "lt-county-gdp",
       "profile": "regional-gdp",
-      "words": 270,
+      "words": 298,
       "sourceAccess": "http-response-received",
-      "hash": "27903952b7fe367f84b54a8579cc49e5247ed98eea944bc373c9d10aefcb1402"
+      "hash": "503e312ae2230f32356bcb1695d3c9d92524e6595ad4c3fffcba1bdc4543783c"
     },
     {
       "id": "lt-county-population",
@@ -9476,16 +9490,16 @@
     {
       "id": "nz-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 272,
+      "words": 349,
       "sourceAccess": "http-response-received",
-      "hash": "e1f218d53a70a6c4b8322224eb55c84e680e1828c82c076cebb7d6cf5c6d28b9"
+      "hash": "116f6ed472fdda018784d2f687821639dcdb62fba1f42f81b3495b63f64cc357"
     },
     {
       "id": "nz-region-gdp",
       "profile": "regional-gdp",
-      "words": 280,
+      "words": 339,
       "sourceAccess": "http-response-received",
-      "hash": "3b0b8f9e764d49f3da4bde0debe13c538842bb5bbdd051d7d94d38db3dd498ed"
+      "hash": "3447093150a072350625278415af9bd877cd532946d3f6126e2a85c3972e0cce"
     },
     {
       "id": "nz-research-h-index",
@@ -10134,16 +10148,16 @@
     {
       "id": "pl-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 275,
+      "words": 303,
       "sourceAccess": "http-response-received",
-      "hash": "7d42c4a5d5614ac563e8c3968396fe73a4564bfc1deba591c6208e9022008be3"
+      "hash": "52c4bfa6f01459e1ddb43fe7e3f3cae8377ac0df2b8d5be3a480630d77c7b5b4"
     },
     {
       "id": "pl-region-gdp",
       "profile": "regional-gdp",
-      "words": 274,
+      "words": 302,
       "sourceAccess": "http-response-received",
-      "hash": "3d7010a51ec0cc17170637593cfbb6a0d8d4f9e7007bb6c58da95b0232f14349"
+      "hash": "391e36ba2cd6bd15d120e6ed68b487283314276e201be3ceff9c0504ccf7cbc5"
     },
     {
       "id": "pl-research-h-index",
@@ -11051,16 +11065,16 @@
     {
       "id": "se-county-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 277,
+      "words": 299,
       "sourceAccess": "http-response-received",
-      "hash": "2ed5d0edbcf0afda834fbb0cac2d8f975432aad4b72c7d2f72f124f0a4ea735e"
+      "hash": "9d87db33c8e9342ae7685e7ca66bdecbfc491b6ff16f4740aa66ae87f40ad632"
     },
     {
       "id": "se-county-gdp",
       "profile": "regional-gdp",
-      "words": 280,
+      "words": 302,
       "sourceAccess": "http-response-received",
-      "hash": "55b2879ccfb2db5703e08f0d3ca0b5e6543ae02debb103bce09068f54f4c0bc1"
+      "hash": "a4131bcec0b7801530cd2a508dd6f71a7818a76f03cd54d67c34948ae9bbe9f8"
     },
     {
       "id": "se-longest-runways",
@@ -11345,16 +11359,16 @@
     {
       "id": "sk-region-gdp-per-capita",
       "profile": "regional-gdp-person",
-      "words": 272,
+      "words": 298,
       "sourceAccess": "http-response-received",
-      "hash": "90bd6d68cc7d0cf760caac79c3a37454512421107a0622cc0b5f982f01fcf01b"
+      "hash": "82dcdd4643556c273e38476d50952d9ff0ea602e686890573f16bf9379a25f19"
     },
     {
       "id": "sk-region-gdp",
       "profile": "regional-gdp",
-      "words": 275,
+      "words": 301,
       "sourceAccess": "http-response-received",
-      "hash": "f09eae2745649b67a7d920eb0eef35b4b24c04c34b5374a6fc36d5688e1cc4a2"
+      "hash": "bee6355eb647f89275beae38e0c7f83636470be6886edfcb7582292c44a6a747"
     },
     {
       "id": "sk-research-h-index",
@@ -12426,6 +12440,13 @@
       "words": 352,
       "sourceAccess": "http-response-received",
       "hash": "8037fd3156bfda93cc74d1a1ab5c73c358cc6d8f1016d6ea5d64d1cd0a2ba994"
+    },
+    {
+      "id": "top500-fastest-supercomputers-2026-11",
+      "profile": "capacity",
+      "words": 349,
+      "sourceAccess": "http-response-received",
+      "hash": "9fc1d23eb10041b488b4678a1ffc16c3538c52d15f8f720291430f5040e82a0d"
     },
     {
       "id": "top500-systems",
@@ -23726,6 +23747,27 @@
       "hash": "7494e1690edab4c060c607c852745e6ec4d9c69e091bc5f7b751478ab9d31d7d"
     },
     {
+      "id": "winter-paralympic-medal-standings-2014",
+      "profile": "ordinal",
+      "words": 377,
+      "sourceAccess": "http-response-received",
+      "hash": "6d39d5b0c7e4b9b80be981fb513319df0c7339704cf2e0ae61e33768b1f8224c"
+    },
+    {
+      "id": "winter-paralympic-medal-standings-2022",
+      "profile": "ordinal",
+      "words": 363,
+      "sourceAccess": "http-response-received",
+      "hash": "2ff861b3e0fca5f081a4e95dc9be642cd3b0b737f57b4b60af35ed3bffb18420"
+    },
+    {
+      "id": "winter-paralympic-medal-standings-2026",
+      "profile": "ordinal",
+      "words": 378,
+      "sourceAccess": "http-response-received",
+      "hash": "1cfa393dc161163fb2b75f875d7221ec9c46803c06a77914e1024ce4f700d651"
+    },
+    {
       "id": "wjp-rule-of-law-index-2026",
       "profile": "score",
       "words": 426,
@@ -23789,6 +23831,13 @@
       "hash": "6ed7641546feda9810a77bb7c37896417259d22d67cd766d95f53d67c5cea869"
     },
     {
+      "id": "world-athletics-mens-400mh-2026-11-10",
+      "profile": "measure",
+      "words": 420,
+      "sourceAccess": "http-response-received",
+      "hash": "8ce8ce4eba9ca96c7a19ee969b7ccc3dc6369d4adc658c1e6b76c3cf7fa7f2e8"
+    },
+    {
       "id": "world-athletics-mens-5000m-2026-11-03",
       "profile": "measure",
       "words": 474,
@@ -23803,6 +23852,13 @@
       "hash": "d39c06f575642bbe274924237299c9072b6a2ec3f29c4699612f083ca0e4ad80"
     },
     {
+      "id": "world-athletics-mens-long-jump-2026-11-17",
+      "profile": "measure",
+      "words": 395,
+      "sourceAccess": "http-response-received",
+      "hash": "69acde4c341ef178b712e965c138a5f95b72591b18bc9dbbcf120b2021ab0f3a"
+    },
+    {
       "id": "world-athletics-mens-marathon-2026-11-03",
       "profile": "measure",
       "words": 447,
@@ -23810,11 +23866,25 @@
       "hash": "2b78c11d15937422de83b74d9d901801788ba861fe25dd1ba025b0f665b9e0d1"
     },
     {
+      "id": "world-athletics-womens-10000m-2026-11-10",
+      "profile": "measure",
+      "words": 425,
+      "sourceAccess": "http-response-received",
+      "hash": "9dd58353edbab5fd92198e07a939cb8d8fbc2311b6750a83df75371fc447ba19"
+    },
+    {
       "id": "world-athletics-womens-100m-2026-10-20",
       "profile": "measure",
       "words": 412,
       "sourceAccess": "http-response-received",
       "hash": "4ae8582f0e1049c20a1806599032869e286832ddf622d864b08aa3f988ac3e45"
+    },
+    {
+      "id": "world-athletics-womens-100mh-2026-11-10",
+      "profile": "measure",
+      "words": 452,
+      "sourceAccess": "http-response-received",
+      "hash": "bf8cdb277fa7b80f4f548c8a092043ae03b1386bf041f0f31a4cfadfe665e8a9"
     },
     {
       "id": "world-athletics-womens-1500m-2026-11-10",
@@ -23838,6 +23908,13 @@
       "hash": "5ac5e3a6c9ff936b7000bc7dfeeab52d647d154dd8c9afffebbc68b552008f0d"
     },
     {
+      "id": "world-athletics-womens-400mh-2026-11-10",
+      "profile": "measure",
+      "words": 426,
+      "sourceAccess": "http-response-received",
+      "hash": "df6bf39a1844fa5c5f9d182e35d407f4caa7bab429052a4dd910d390197b639e"
+    },
+    {
       "id": "world-athletics-womens-5000m-2026-11-10",
       "profile": "measure",
       "words": 463,
@@ -23850,6 +23927,27 @@
       "words": 443,
       "sourceAccess": "http-response-received",
       "hash": "61a64f702e62b676b9f9dfb8be012b08a0f0674d9c44e3a60549da722b79d9b1"
+    },
+    {
+      "id": "world-athletics-womens-marathon-2026-11-10",
+      "profile": "measure",
+      "words": 427,
+      "sourceAccess": "http-response-received",
+      "hash": "84a56fb3c6254366b3bfadbbf6536f484250377e827583aa88e0e12e9523ef75"
+    },
+    {
+      "id": "world-athletics-womens-pole-vault-2026-11-17",
+      "profile": "measure",
+      "words": 395,
+      "sourceAccess": "http-response-received",
+      "hash": "9e93cc729fd8773d376ac060e0a9325ab5a894dd60857377083e50266ad6a21f"
+    },
+    {
+      "id": "world-athletics-womens-triple-jump-2026-11-17",
+      "profile": "measure",
+      "words": 402,
+      "sourceAccess": "http-response-received",
+      "hash": "7e6278ec3f8858929389c8d0438c9e895a0774c63e61d9d7aa92e0dae06851ab"
     },
     {
       "id": "world-busiest-container-ports-latest",
