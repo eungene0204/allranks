@@ -2,6 +2,13 @@ import type { NextConfig } from "next";
 import "./scripts/ranking-catalog.mts";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [{
+      source: "/ranking/rule-of-law-index-2026",
+      destination: "/ranking/wjp-rule-of-law-index-2026",
+      permanent: true,
+    }];
+  },
   async headers() {
     return [{
       source: "/country/:code",

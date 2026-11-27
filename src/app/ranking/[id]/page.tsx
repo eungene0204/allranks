@@ -90,6 +90,12 @@ export default async function RankingPage({ params }: Props) {
       {supportsSnapshotComparison(r) && <RankingComparison key={r.id} entries={ranked(r).map((entry) => ({ name: entry.name, value: entry.value, position: entry.rank }))} format={{ prefix: r.prefix, suffix: r.suffix, decimals: r.decimals, unit: r.unit }} period={r.asOf ?? String(r.year)} />}
       <RankingTable ranking={r} />
 
+      {r.id === "rolling-stone-best-rock-songs-21st-century-2026" && (
+        <section className="ranking-summary" aria-labelledby="rock-reading-title">
+          <h2 id="rock-reading-title">How to read this list</h2>
+          <p>The positions follow Rolling Stone’s editorial selections across rock styles. The list includes tracks the publisher dates to 2000, and the table retains its release-year labels.</p>
+        </section>
+      )}
       <RankingCoverage ranking={r} />
       <RankingReading ranking={r} />
       <RankingContext ranking={r} />

@@ -17,6 +17,7 @@ import Waffle from "./viz/Waffle";
 
 /** The picture at the top of a ranking page. Which one is chosen by `pickViz` (src/lib/viz.ts); see .claude/skills/ranking-viz. */
 export default function RankingViz({ ranking }: { ranking: Ranking }) {
+  if (ranking.unit === "rank position") return null;
   return (
     <>
       <Picture ranking={ranking} />

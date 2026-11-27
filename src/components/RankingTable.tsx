@@ -14,8 +14,9 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
   const all = useMemo(() => ranked(r), [r]);
   const max = Math.max(...all.map((x) => x.value));
 
+  const positionOnly = r.unit === "rank position";
   const q = filter.trim().toLowerCase();
-  let rows = all.filter((x) => x.name.toLowerCase().includes(q));
+  let rows = all.filter((x) => x.name.toLowerCase().includes(q) || (positionOnly && x.detail?.toLowerCase().includes(q)));
   if (reversed) rows = [...rows].reverse();
 
   return (
@@ -23,7 +24,7 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
       <div className="toolbar">
         <input
           type="search"
-          placeholder="Filter by name…"
+          placeholder={positionOnly ? "Filter by song or artist…" : "Filter by name…"}
           aria-label="Filter entries"
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
@@ -37,9 +38,9 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
       )}
       <table className="table ranking-data-table">
         <caption className="sr-only">{r.title} — {r.asOf ?? r.year}. Values in {r.unit}.</caption>
-        <thead className="sr-only"><tr><th scope="col">Rank</th><th scope="col">Entry</th><th scope="col">Relative value</th><th scope="col">Value ({r.unit})</th></tr></thead>
+        <thead className="sr-only"><tr><th scope="col">Rank</th><th scope="col">Entry</th>{!positionOnly && <th scope="col">Relative value</th>}<th scope="col">Value ({r.unit})</th></tr></thead>
         <tbody>
-        {rows.length === 0 && <tr><td colSpan={4} className="empty">No entries match “{filter}”.</td></tr>}
+        {rows.length === 0 && <tr><td colSpan={positionOnly ? 3 : 4} className="empty">No entries match “{filter}”.</td></tr>}
         {rows.map((x) => {
           // Rank-style rankings (lower is better) show a bar that grows toward #1.
           const pct = r.unit === "Rank"
@@ -49,7 +50,7 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
                   (Math.log10(max) - Math.log10(LOG_BAR_FLOOR))) * 100
               : (x.value / max) * 100;
           return (
-            <tr className="row" key={x.name}>
+            <tr className={positionOnly ? "row row-position-only" : "row"} key={x.name}>
               <td><RankBadge rank={x.rank} /></td>
               <th scope="row" className="name">
                 {x.logo ? <Mark icon="" logo={x.logo} /> : ((!r.scope && !r.entityType) || r.entityType === "bank") && <span>{x.flag}</span>}
@@ -61,9 +62,9 @@ export default function RankingTable({ ranking: r }: { ranking: Ranking }) {
                 </span>
                 {x.logo && ((!r.scope && !r.entityType) || r.entityType === "bank") && <span className="muted">{x.flag}</span>}
               </th>
-              <td className="track" aria-label="Relative value">
+              {!positionOnly && <td className="track" aria-label="Relative value">
                 <div className="fill" style={{ width: `${pct.toFixed(1)}%` }} />
-              </td>
+              </td>}
               <td className="val">{formatValue(r, x.value)}</td>
             </tr>
           );
