@@ -1,5 +1,6 @@
 // Usage: node scripts/validate.mts   — exits non-zero if any data/rankings/*.json is malformed.
 import { readdirSync, readFileSync } from "node:fs";
+import { validateColumns } from "./validate-columns.mts";
 import { loadCountries } from "./lib/countries.mts";
 import { checkRanking } from "./lib/check.mts";
 import { CATEGORIES } from "../src/lib/categories.ts";
@@ -44,5 +45,8 @@ for (const f of files) {
   }
   for (const w of warns) { warnings++; console.warn(`  ⚠ ${f}: ${w}`); }
 }
-console.log(`\n${files.length} files, ${errors} error(s), ${warnings} warning(s)`);
+const columnErrors = validateColumns();
+for (const error of columnErrors) console.error(`✗ Columns: ${error}`);
+errors += columnErrors.length;
+console.log(`\n${files.length} ranking files + columns, ${errors} error(s), ${warnings} warning(s)`);
 process.exit(errors ? 1 : 0);

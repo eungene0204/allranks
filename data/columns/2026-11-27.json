@@ -1,0 +1,53 @@
+{
+  "id": "denmark-norway-rule-of-law-2026",
+  "title": "What Denmark’s Rule of Law Lead Hides",
+  "summary": "Denmark led Norway by 0.008 index points in the 2026 WJP Rule of Law Index. Norway’s higher scores for open government and civil justice show how much a single rank can compress.",
+  "publishedOn": "2026-11-27",
+  "edition": "World Justice Project Rule of Law Index, 2026 edition",
+  "sourceReview": "On 2026-11-27 the AllRanks assistant checked the official 2026 CSV and release. It matched the 143 overall scores and checked every displayed factor, rank, rounded value and reported difference against the CSV. Survey coverage and cadence were checked against WJP’s methodology FAQ.",
+  "verified": true,
+  "rankingIds": ["wjp-rule-of-law-index-2026", "visual-capitalist-rule-of-law-europe-2026"],
+  "table": {
+    "caption": "Denmark and Norway in the 2026 WJP Rule of Law Index. Scores are rounded to three decimals on a 0–1 scale.",
+    "headers": ["Measure", "Denmark", "Norway"],
+    "rows": [
+      ["Overall score", "0.898", "0.890"],
+      ["Constraints on government powers", "0.948", "0.920"],
+      ["Absence of corruption", "0.951", "0.930"],
+      ["Open government", "0.839", "0.885"],
+      ["Fundamental rights", "0.920", "0.900"],
+      ["Order and security", "0.933", "0.923"],
+      ["Regulatory enforcement", "0.890", "0.880"],
+      ["Civil justice", "0.852", "0.858"],
+      ["Criminal justice", "0.848", "0.820"]
+    ]
+  },
+  "sections": [
+    {
+      "title": "How much does first place tell us?",
+      "paragraphs": [
+        "The World Justice Project ranks Denmark first and Norway second among 143 countries and jurisdictions in its October 2026 release. The gap is 0.00792194 on WJP’s 0–1 scale before rounding. A one-place lead tells us the order of the estimates. The score difference describes how close the two estimates are on that scale.",
+        "The overall score gives equal weight to eight factors. In the 2026 CSV, Norway leads on open government by about 0.047 points, a difference almost six times the size of Denmark’s overall lead. Norway also has a roughly 0.006-point edge in civil justice. Denmark scores higher on the other six factors. For readers concerned with a specific institution, the factor profile gives a more direct comparison than the overall ranking."
+      ]
+    },
+    {
+      "title": "What drives the split on open government?",
+      "paragraphs": [
+        "WJP’s open-government factor covers four areas, including the right to information and whether authorities publish laws and government data. Norway scores higher on all four. The widest gap is on the right-to-information measure, where Norway scores 0.885 and Denmark 0.781 after rounding. That subfactor gives readers a concrete place to investigate why the overall and open-government rankings diverge.",
+        "The direction reverses for constraints on government powers. Denmark leads by roughly 0.028 on that factor. Within it, Denmark scores 0.981 on independent auditing and review against Norway’s 0.841. The contrast is useful for readers comparing how governments share information with the public and how independent bodies scrutinize their use of power. WJP measures those functions separately."
+      ]
+    },
+    {
+      "title": "How much weight should readers put on the gap?",
+      "paragraphs": [
+        "WJP builds the index from surveys of households and local specialists. Its methodology describes expert questionnaires collected annually and household polling conducted every few years. The 2026 edition brings those inputs together. Readers comparing a specific policy change with the index should check when the relevant survey was fielded before attributing a score to that change.",
+        "The published point estimates establish the ordering in the table. A claim that the overall 0.008-point gap reliably separates the two countries would need uncertainty estimates for that comparison. For a cross-country briefing, start with the factor that answers the policy question, report both scores and the edition, and use the overall rank to describe the broader profile."
+      ]
+    }
+  ],
+  "sources": [
+    {"title": "World Justice Project official 2026 data (CSV)", "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv"},
+    {"title": "World Justice Project 2026 global release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2026-global-press-release"},
+    {"title": "World Justice Project methodology FAQ", "url": "https://worldjusticeproject.org/news/understanding-wjp-rule-law-index-faq"}
+  ]
+}

@@ -2,6 +2,8 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata("World rankings – AllRanks", "Compare countries across universities, GDP, prices and more. Explore rankings with original sources and reference years.", "/");
 
+import ColumnCards from "@/components/ColumnCards";
+import { publishedColumns } from "@/lib/columns";
 import FooterFaq from "@/components/FooterFaq";
 import ReadingGuideCards from "@/components/ReadingGuideCards";
 import SearchForm from "@/components/SearchForm";
@@ -62,6 +64,13 @@ export default function HomePage() {
           <Link className="more-rankings-link" href="/popular">More</Link>
         </div>
       )}
+      <section className="reading-guides" aria-labelledby="home-columns-title">
+        <div className="reading-guides-heading columns-heading">
+          <h2 id="home-columns-title">Columns</h2>
+          <Link href="/columns">All columns →</Link>
+        </div>
+        <ColumnCards columns={publishedColumns().slice(0, 3)} heading="h3" />
+      </section>
       <FooterFaq />
     </>
   );

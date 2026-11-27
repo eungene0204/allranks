@@ -688,6 +688,17 @@ a.pd-card:hover { border-color: var(--accent); }
 .guide-card:hover { border-color: var(--accent); }
 .guide-card h3 { margin: 0 0 10px; font-size: 19px; line-height: 1.3; }
 .guide-card p { color: var(--muted); margin: 0 0 18px; }
+.columns-heading { margin-bottom: 16px; }
+.column-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 16px; }
+.column-card { display: flex; flex-direction: column; align-items: flex-start; }
+.column-card time { margin-bottom: 10px; color: var(--muted); font-size: 13px; }
+.column-card h2, .column-card h3 { margin: 0 0 10px; font-size: 20px; line-height: 1.3; }
+.column-card > span { margin-top: auto; }
+.column-table-scroll { overflow-x: auto; margin: 28px 0; }
+.column-table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.column-table caption { margin-bottom: 10px; color: var(--muted); text-align: left; }
+.column-table th, .column-table td { padding: 8px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+.column-table th:not(:first-child), .column-table td { text-align: right; font-variant-numeric: tabular-nums; }
 .reading-article { max-width: 780px; margin: 0 auto; }
 .reading-article .prose { max-width: none; }
 .editorial-byline, .page-head .editorial-byline { font-size: 13px; color: var(--muted); }

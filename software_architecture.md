@@ -1,5 +1,7 @@
 # AllRanks 소프트웨어 아키텍처
 
+2026-11-27: 컬럼은 `data/columns/YYYY-MM-DD.json`의 발행일별 스냅샷으로 관리한다. 공개 목록은 한국 시간 기준 공개일에 도달하고 검증을 통과한 컬럼을 최신순으로 읽는다. 홈 FAQ 바로 위의 최신 3편, `/columns` 아카이브, 정적 상세, RSS와 사이트맵이 같은 목록을 사용한다. 빌드 전 데이터 검사는 날짜·슬러그·내용·출처·표·공개 랭킹 연결을 확인한다. 자정 작업의 집필 및 배포는 [일일 컬럼 절차](docs/daily-columns.md)를 따른다.
+
 2026-10-31: 공식 TOP500 HPCG June 2026 상위 10개를 기존 JSON 데이터 구조에 추가했다. HPCG TFLOP/s를 저장하며 HPL Rmax 및 Green500 효율과 구분한다. 구조·코드 변경은 없다.
 
 2026-10-25: 공식 WJP Rule of Law Index 2026 CSV의 전체 점수 행을 대조해 143개국·관할구역을 `wjp-rule-of-law-index-2026`에 추가했다. 원점수는 0–1이며 정렬은 내림차순이다. CSV 원본 검증 기록은 ranking JSON에, URL 접근 상태는 `data/editorial/source-access.json`에 둔다. Kosovo는 ISO-3 `XKX`에서 ISO-2 `XK`로 연결했다.

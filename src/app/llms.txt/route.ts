@@ -9,11 +9,12 @@ export function GET() {
 ## Explore
 - [Home](${SITE_URL}/): Browse countries and ranking topics.
 - [Latest rankings](${SITE_URL}/latest): Latest available publication years.
+- [Columns](${SITE_URL}/columns): Source-backed analysis of recent rankings.
 - [Popular rankings](${SITE_URL}/popular): Selected topics.
 - [Methodology](${SITE_URL}/methodology): Collection, verification and limitations.
 - [About](${SITE_URL}/about): Purpose and contact details.
 - [RSS feed](${SITE_URL}/feed.xml): Recently observed public ranking snapshots.
-- [Sitemap](${SITE_URL}/sitemap.xml): Public ranking, country and category URLs.
+- [Sitemap](${SITE_URL}/sitemap.xml): Public ranking, column, country and category URLs.
 
 ## Attribution and dates
 AllRanks aggregates external sources; it is not the original author of their statistics.

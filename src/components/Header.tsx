@@ -45,8 +45,9 @@ export default function Header() {
           <img src="/brand/logo-r-c-512.png" alt="" width={36} height={36} />
           All<span>Ranks</span>
         </Link>
-        <nav className="nav" aria-label="Categories">
+        <nav className="nav" aria-label="Main navigation">
           <Link href="/guides" className={pathname.startsWith("/guides") ? "active" : undefined}>Reading guides</Link>
+          <Link href="/columns" className={pathname === "/columns" || pathname.startsWith("/columns/") ? "active" : undefined}>Columns</Link>
           {CATEGORIES.map((c) => (
             <Link key={c.id} href={`/category/${c.id}`} className={active === c.id ? "active" : undefined}>
               {c.icon} {c.name}
