@@ -1,0 +1,41 @@
+{
+  "id": "green500-efficiency-and-speed-november-2026",
+  "title": "What the Green500 Measures Once Speed Is Divided by Power",
+  "summary": "KAIROS led the November 2026 Green500 with about 12% more Linpack performance per watt than HPC7. HPC7 delivered about 187 times as much Linpack throughput, placing sixth on the TOP500.",
+  "publishedOn": "2026-11-28",
+  "edition": "TOP500 and Green500, November 2026 editions",
+  "sourceReview": "On 2026-11-28 the AllRanks assistant checked published system names, places, HPL throughput and efficiency against the official November tables. Ratios use the published decimals. The Linpack description and submission rules establish the benchmark scope and power measurement method.",
+  "verified": true,
+  "rankingIds": ["green500-energy-efficiency-2026-11", "top500-fastest-supercomputers-2026-11"],
+  "table": {
+    "caption": "Selected November 2026 submissions. Throughput is published HPL Rmax in PFLOP/s. Efficiency is in GFLOP/s per watt.",
+    "headers": ["System", "Green500 rank", "TOP500 rank", "HPL Rmax", "Efficiency"],
+    "rows": [
+      ["KAIROS", "1", "472", "3.05", "73.282"],
+      ["Helios GPU", "8", "54", "53.57", "66.948"],
+      ["HPC7", "11", "6", "571.50", "65.426"]
+    ]
+  },
+  "sections": [
+    {
+      "title": "The two lists answer different questions",
+      "paragraphs": [
+        "The TOP500 sorts by the achieved rate of floating-point operations on High Performance Linpack. The Green500 uses benchmark performance per watt. KAIROS ranks first by efficiency and 472nd by throughput. HPC7 ranks sixth by throughput and 11th by efficiency. Helios GPU takes eighth place on the Green500 while reaching 54th on the TOP500.",
+        "KAIROS’s 73.282 GFLOP/s per watt is 12.0% above HPC7’s 65.426, to one decimal place. Dividing the published throughput values, 571.50 by 3.05, gives about 187. The throughput ratio is much larger because it describes the rate of work delivered by each submission at its benchmark scale. The efficiency ratio describes the work delivered per unit of electrical power."
+      ]
+    },
+    {
+      "title": "The workload and the measurement define the result",
+      "paragraphs": [
+        "Linpack solves a dense system of linear equations, and teams can scale and tune the problem for their machine. The figures cover the submitted configurations and that workload. The submission rules also distinguish levels of power measurement that differ in how much of the system and run they cover.",
+        "For a workload that needs a minimum throughput, first check which configurations can supply that throughput. Energy per completed job also depends on how long the job runs and where power is measured. A facility’s electricity use depends on its workload mix, utilization and operating conditions throughout the year."
+      ]
+    }
+  ],
+  "sources": [
+    {"title": "November 2026 Green500 table", "url": "https://www.top500.org/lists/green500/list/2026/11/"},
+    {"title": "November 2026 TOP500 table", "url": "https://www.top500.org/lists/top500/list/2026/11/"},
+    {"title": "TOP500 Linpack benchmark description", "url": "https://www.top500.org/project/linpack/"},
+    {"title": "TOP500 and Green500 submission rules", "url": "https://www.top500.org/project/call-for-participation/"}
+  ]
+}

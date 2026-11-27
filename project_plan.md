@@ -721,3 +721,9 @@ Ranking commit 3c924fb reached origin/main. Vercel rejected the production deplo
 - 운영 사이트맵과 배포 전 main의 공개 카탈로그 3,460개가 일치했다. 사용자 작업 폴더의 랭킹 파일까지 대조해 Rolling Stone 록 곡 목록과 로컬 법치주의 지수 주소를 발견했다.
 - Rolling Stone 원문 네 페이지에서 곡명·아티스트·표기 연도·순위 200행을 재검증해 추가했다. 법치주의 지수는 원자료와 기존 페이지의 전체 143개 점수를 대조하고 로컬 주소를 기존 표준 주소에 연결했다.
 - 로컬 데이터 3,461개 파일과 편집 검사에서 오류·경고 0건, 타입 검사와 재시도한 프로덕션 빌드를 통과했다. 렌더링 200행, 사이트맵 3,461개 ID 전수, 엔터테인먼트·검색·제안, 법치주의 308과 일반 미등록 주소 404를 확인했다. Chromium 모바일에서 곡명·아티스트 필터와 역순 정렬을 확인했다.
+
+## 2026-11-28 daily collection
+
+- Added `ef-english-proficiency-index-2026` after matching the ten names, places and scores and the eleventh-place cutoff in EF’s official chart and report. The 2026 edition uses 2025 tests and earlier published scores. ITU’s ICT Development Index workbook reports scores under a methodology that omits rankings.
+- Filled both Korean publication-date slots. The EF column compares overall, reading and speaking results. The Green500 column compares published Linpack throughput and efficiency. Recomputed the differences from the primary sources.
+- Validation covered 3,462 ranking files and the columns with zero data errors or warnings. Editorial checks reported zero private drafts. Lint passed. The build passed on the permitted retry after the Next.js security advisory. Local HTTP checks confirmed both columns above the FAQ and in the archive, RSS feed and sitemap, all ten ranking rows, the original links, search, catalog and an unknown-ranking 404.
