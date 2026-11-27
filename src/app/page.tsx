@@ -69,7 +69,7 @@ export default function HomePage() {
           <h2 id="home-columns-title">Columns</h2>
           <Link href="/columns">All columns →</Link>
         </div>
-        <ColumnCards columns={publishedColumns().slice(0, 3)} heading="h3" />
+        <ColumnCards columns={publishedColumns().slice(0, 2)} heading="h3" />
       </section>
       <FooterFaq />
     </>

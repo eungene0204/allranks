@@ -4,7 +4,7 @@ import { publishedColumns } from "@/lib/columns";
 import { pageMetadata } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 
-const page = pageMetadata("Columns", "Daily analysis of recent rankings, with original data, methods and comparisons from AllRanks.", "/columns");
+const page = pageMetadata("Columns", "Two daily columns on recent rankings, with original data, methods and comparisons from AllRanks.", "/columns");
 
 export const metadata = {
   ...page,
@@ -17,7 +17,7 @@ export default function ColumnsPage() {
       <header className="page-head">
         <div className="crumbs"><Link href="/">Home</Link> / Columns</div>
         <h1>Columns</h1>
-        <p>Daily analysis of recent rankings, grounded in the original data and methodology.</p>
+        <p>Two daily columns on recent rankings, grounded in the original data and methodology.</p>
         <p><Link href="/columns/feed.xml">Subscribe via RSS</Link></p>
       </header>
       <ColumnCards columns={publishedColumns()} heading="h2" />

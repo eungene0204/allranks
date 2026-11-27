@@ -1,0 +1,47 @@
+{
+  "id": "gasoline-prices-and-affordability-november-2026",
+  "title": "What a 40-Liter Fill-Up Reveals About Gasoline Prices",
+  "summary": "A 40-liter fill-up cost $129.64 in Malawi and $105.80 in Norway in the November 23 snapshot. The $23.84 gap shows how much prices differ at the pump. Measuring the strain on households takes a second calculation.",
+  "publishedOn": "2026-11-27",
+  "edition": "GlobalPetrolPrices, octane-95 gasoline prices, November 23, 2026",
+  "sourceReview": "On 2026-11-27 the AllRanks assistant opened the publisher’s November 23 world price chart, matched each displayed location and per-liter price, and checked the country-only ordering in the AllRanks snapshot. The 40-liter costs and price differences were calculated from the publisher’s three-decimal USD values.",
+  "verified": true,
+  "rankingIds": ["gasoline"],
+  "table": {
+    "caption": "Selected octane-95 gasoline prices on November 23, 2026. The fill-up cost is the published USD price per liter multiplied by 40.",
+    "headers": ["Location", "USD per liter", "USD per 40 liters"],
+    "rows": [
+      ["Hong Kong", "$4.428", "$177.12"],
+      ["Malawi", "$3.241", "$129.64"],
+      ["Norway", "$2.645", "$105.80"],
+      ["Denmark", "$2.507", "$100.28"]
+    ]
+  },
+  "sections": [
+    {
+      "title": "The gap is larger than the ranking makes it look",
+      "paragraphs": [
+        "Malawi and Norway sit next to each other in the November 23 AllRanks country table. Yet Malawi’s quoted pump price was about 22.5% higher. The difference of $0.596 per liter becomes $23.84 for the same 40 liters. At the next step down in the country table, Norway’s gap over Liechtenstein was $0.108 a liter. Adjacent places can therefore represent very different cost differences.",
+        "GlobalPetrolPrices also tracks territories and other jurisdictions. Its broader chart placed Hong Kong above Malawi, at $4.428 per liter. AllRanks excludes territories from this country table, so Malawi leads its published comparison. Hong Kong’s inclusion changes the headline leader without changing either location’s observed price."
+      ]
+    },
+    {
+      "title": "A dollar price combines the pump price and the currency conversion",
+      "paragraphs": [
+        "The ranking compares the same fuel grade, octane 95, at retail prices expressed in US dollars. That is a useful comparison for a fixed purchase in common currency. For a driver paid in local currency, the local pump price is the relevant starting point. An exchange-rate move can shift the dollar ranking even when the local pump price is unchanged.",
+        "A weekly reading also captures a single point in time. A comparison of sustained price levels would use a common observation window and track local-currency and dollar prices separately. A one-week gap has little power on its own to isolate the contribution of taxes, subsidies, wholesale costs or distribution."
+      ]
+    },
+    {
+      "title": "What would it take to rank affordability?",
+      "paragraphs": [
+        "For a fixed fill-up, divide its local-currency cost by a comparable measure of household income over the same period. Median disposable income provides a view of the typical household. A distribution by income group shows who faces the greatest burden. Both calculations use the same numerator, but the denominator determines the question each answers.",
+        "For actual monthly strain, replace the fixed 40 liters with the household’s fuel use. Distance traveled, vehicle efficiency and access to other transport affect that quantity. The November 23 table can answer where a fixed quantity cost more at the pump. A household affordability ranking needs the income and consumption data to make the next comparison."
+      ]
+    }
+  ],
+  "sources": [
+    {"title": "GlobalPetrolPrices world gasoline price chart", "url": "https://www.globalpetrolprices.com/gasoline_prices/"},
+    {"title": "GlobalPetrolPrices fuel price primer", "url": "https://www.globalpetrolprices.com/documents/Global_Fuel_Prices_Primer.pdf"}
+  ]
+}

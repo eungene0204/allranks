@@ -20,7 +20,8 @@ export function validateColumns() {
       const column = readColumn(file);
       if (column.verified === false) continue;
       require(column.verified === true, "set an explicit verified state");
-      require(day(column.publishedOn) && file === `${column.publishedOn}.json`, "use a valid publication day as the filename");
+      require(day(column.publishedOn) && [`${column.publishedOn}.json`, `${column.publishedOn}-2.json`].includes(file),
+        "use YYYY-MM-DD.json or YYYY-MM-DD-2.json for the matching publication day");
       require(slug(column.id) && !ids.has(column.id), "use a unique URL slug");
       ids.add(column.id);
       require([column.title, column.summary, column.edition, column.sourceReview].every(text), "include title, summary, edition and source review");
