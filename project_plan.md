@@ -734,3 +734,4 @@ Ranking commit 3c924fb reached origin/main. Vercel rejected the production deplo
 - 로컬 구현 완료. 국가 soft 404, 페이지 번호 별칭, 중복 검색 제목, 지역 랭킹의 HTML 링크, 출처·편집 정보의 구조화 표현과 홈 접근성·전송량을 개선했다. Next.js는 16.4.6으로 패치했다.
 - 프로덕션 빌드, 타입 검사, HTTP·XML·JSON-LD 회귀 검사와 브라우저 검증 범위는 [SEO·AEO·GEO 보고서](SEO-AEO-GEO-REPORT.md)를 참조한다.
 - 2026-11-28 사용자의 승인에 따라 최신 main으로 배포를 진행한다. 배포 후보의 빌드·타입·단위 테스트 및 HTTP 회귀 검사를 통과했고 운영 사이트맵의 공개 URL 3,730개를 모두 보존했다. 운영 반영 직후 URL 검사·방화벽 로그·캐시를 확인하고, 14일 뒤 검색·인용 표본, 28일 이후 가능한 실사용 Core Web Vitals를 기준선과 비교한다.
+- 2026-11-28 운영 반영 완료. 커밋 `c129d80`과 Vercel 배포 `dpl_3xAuXqfrzq9Wr3WUfHdbLvwxmasU`의 운영 도메인 연결을 확인했다. 공개 주소 3,730개를 보존했고 HTTP 회귀 352개, Googlebot·Yeti 등 크롤러 요청 표본 18개, GitHub SEO CI를 통과했다.

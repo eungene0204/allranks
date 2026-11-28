@@ -51,3 +51,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - 2026-11-27 | 실패 원인: zsh에서 페이지 번호가 있는 URL을 따옴표 없이 전달해 curl이 실행되지 않음 → 재발 방지: 쿼리가 있는 URL은 따옴표로 감싸고 응답 본문에서 canonical을 확인한다. `/category/economy?page=2`의 canonical을 재검증함.
 - 2026-11-27 | 실패 원인: canonical 검사를 문자열 일치로 강화하면서 루트 URL의 동등한 슬래시 표기를 실패로 처리함 → 재발 방지: canonical 중복과 head 위치를 각각 검사하고 URL 식별자는 URL 파서로 정규화해 비교한다. 홈 canonical과 사이트맵 순회 재검증을 통과함. 운영·후보 사이트맵 집합 비교에서도 호스트만 있는 루트의 빈 path를 /로 정규화해 3,730개 경로 일치를 확인함.
 - 2026-11-28 | 실패 원인: jq 객체 필드 값의 파이프 식을 괄호로 감싸지 않아 Vercel 설정 요약이 실패함 → 재발 방지: 객체의 계산된 필드를 괄호로 감싸고 프로젝트명과 설정 키만 출력해 확인한다. 수정한 명령으로 allranks 프로젝트를 확인함.
+
+- 2026-11-28 | 실패 원인: 운영 HTML의 html 태그에서 lang이 첫 번째 속성이라고 가정해 Vercel의 data-dpl-id가 추가된 응답을 실패로 처리함 → 재발 방지: html 태그 범위에서 속성 순서와 무관하게 lang 값을 검사하고 공개 도메인에서 회귀 검사를 실행한다. 수정 후 운영 HTTP 회귀 검사 352건을 통과함.

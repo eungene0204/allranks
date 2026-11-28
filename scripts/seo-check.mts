@@ -25,7 +25,7 @@ function canonical(html: string, path: string) {
   assert.match(head, /<meta name="description" content="[^"]+"/, path);
   assert.match(head, /<meta property="og:title" content="[^"]+"/, path);
   assert.match(head, /<meta name="twitter:card" content="summary_large_image"/, path);
-  assert.match(html, /<html lang="en"/, path);
+  assert(/<html\b[^>]*\slang="en"/.test(html), `${path}: English document language`);
   const body = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, "");
   assert.equal([...body.matchAll(/<h1[\s>]/g)].length, 1, `${path}: one H1`);
   if (!path.startsWith("/search")) assert.match(head, /<meta name="robots" content="index, follow"/, path);
