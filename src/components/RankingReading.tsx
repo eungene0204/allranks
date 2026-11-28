@@ -6,6 +6,8 @@ import { relatedReadings } from "@/lib/related-readings";
 import { guideForRanking } from "@/lib/reading-guides";
 import { collectionNote, usesSnapshotYear } from "@/lib/ranking-content";
 import type { Ranking } from "@/lib/types";
+import { pageSchema } from "@/lib/seo";
+import JsonLd from "./JsonLd";
 
 export function RankingCoverage({ ranking: r }: { ranking: Ranking }) {
   return <aside className="ranking-coverage" aria-labelledby="coverage-title">
@@ -19,7 +21,13 @@ export default function RankingReading({ ranking: r }: { ranking: Ranking }) {
   const article = buildRankingArticle(r, articleContext());
   const guide = guideForRanking(r);
   const related = relatedReadings(r, allRankings());
+  const page = pageSchema(`/ranking/${r.id}`, r.title);
   return <article className="ranking-reading ranking-article" aria-labelledby="reading-title">
+    <JsonLd data={{ "@context": "https://schema.org", "@type": "Article", "@id": `${page.url}#explanation`,
+      headline: article.title, description: article.lead, inLanguage: page.inLanguage,
+      author: page.publisher, publisher: page.publisher, isPartOf: { "@id": page["@id"] },
+      citation: article.references.map(({ url }) => url),
+    }} />
     <header>
       <h2 id="reading-title">{article.title}</h2>
       <p className="guide-answer">{article.lead}</p>

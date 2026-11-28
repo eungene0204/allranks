@@ -3,10 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import EconomicComparison from "@/components/EconomicComparison";
 import JsonLd from "@/components/JsonLd";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { allRankings, getRanking } from "@/lib/data";
 import { GUIDE_REVIEWED_AT, READING_GUIDES, getReadingGuide, guideForRanking } from "@/lib/reading-guides";
-import { breadcrumbs, pageMetadata } from "@/lib/seo";
-import { SITE_URL } from "@/lib/site";
+import { pageMetadata, pageSchema } from "@/lib/seo";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return READING_GUIDES.map(({ id }) => ({ id })); }
@@ -21,17 +21,20 @@ export default async function GuidePage({ params }: Props) {
   if (!guide) notFound();
   const related = guide.rankingIds.map(getRanking).filter((r) => r !== undefined);
   const examples = related.length ? related : allRankings().filter((r) => guideForRanking(r)?.id === guide.id).slice(0, 4);
+  const path = `/guides/${guide.id}`;
+  const page = pageSchema(path, guide.title);
+  const articleId = `${page.url}#article`;
   return <>
-    <JsonLd data={breadcrumbs([{ name: "Home", path: "/" }, { name: "Reading guides", path: "/guides" }, { name: guide.title, path: `/guides/${guide.id}` }])} />
-    <JsonLd data={{ "@context": "https://schema.org", "@type": "Article", headline: guide.title, description: guide.answer,
-      datePublished: GUIDE_REVIEWED_AT, dateModified: GUIDE_REVIEWED_AT, inLanguage: "en",
-      author: { "@type": "Organization", name: "AllRanks", url: `${SITE_URL}/editorial-policy` },
-      publisher: { "@id": `${SITE_URL}/#organization` }, citation: guide.sources.map((source) => source.url),
-      mainEntityOfPage: `${SITE_URL}/guides/${guide.id}` }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@graph": [
+      { ...page, mainEntity: { "@id": articleId } },
+      { "@type": "Article", "@id": articleId, headline: guide.title, description: guide.answer, inLanguage: page.inLanguage,
+        author: page.publisher, publisher: page.publisher, citation: guide.sources.map(({ url }) => url),
+        mainEntityOfPage: { "@id": page["@id"] } },
+    ] }} />
     <article className="reading-article">
-      <header className="page-head"><div className="crumbs"><Link href="/guides">Reading guides</Link></div>
+      <header className="page-head"><Breadcrumbs items={[{ name: "Reading guides", path: "/guides" }, { name: guide.title, path }]} />
         <h1>{guide.title}</h1><p>{guide.question}</p>
-        <p className="editorial-byline">AllRanks assistant · Sources reviewed {GUIDE_REVIEWED_AT} · <Link href="/editorial-policy">Editorial process</Link></p>
+        <p className="editorial-byline">AllRanks assistant · Sources reviewed <time dateTime={GUIDE_REVIEWED_AT}>{GUIDE_REVIEWED_AT}</time> · <Link href="/editorial-policy">Editorial process</Link></p>
       </header>
       <div className="prose"><p className="guide-answer">{guide.answer}</p>
         {guide.sections.map((section) => <section key={section.title}><h2>{section.title}</h2><p>{section.text}</p></section>)}

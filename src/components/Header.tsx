@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="wrap header-row">
-        <Link className="logo" href="/" aria-label="AllRanks home">
+        <Link className="logo" href="/" prefetch={pathname === "/" ? false : undefined} aria-label="AllRanks home">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/brand/logo-r-c-512.png" alt="" width={36} height={36} />
           All<span>Ranks</span>

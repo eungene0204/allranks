@@ -12,8 +12,11 @@ export function GET() {
 - [Columns](${SITE_URL}/columns): Source-backed analysis of recent rankings.
 - [Popular rankings](${SITE_URL}/popular): Selected topics.
 - [Methodology](${SITE_URL}/methodology): Collection, verification and limitations.
+- [Editorial policy](${SITE_URL}/editorial-policy): Authorship, source checks and corrections.
+- [Reading guides](${SITE_URL}/guides): How to interpret and compare ranking metrics.
 - [About](${SITE_URL}/about): Purpose and contact details.
 - [RSS feed](${SITE_URL}/feed.xml): Recently observed public ranking snapshots.
+- [Columns RSS](${SITE_URL}/columns/feed.xml): Published editorial analyses.
 - [Sitemap](${SITE_URL}/sitemap.xml): Public ranking, column, country and category URLs.
 
 ## Attribution and dates

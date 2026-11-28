@@ -17,9 +17,13 @@ function PageView() {
 
   useEffect(() => {
     if (!pathname || !window.gtag) return;
-    const query = searchParams.toString();
+    const location = new URL(window.location.href);
+    location.searchParams.delete("q");
+    location.hash = "";
     window.gtag("event", "page_view", {
-      page_path: query ? `${pathname}?${query}` : pathname,
+      page_path: location.pathname + location.search,
+      page_location: location.href,
+      ...(pathname === "/search" ? { page_title: "Search rankings – AllRanks" } : {}),
     });
   }, [pathname, searchParams]);
 

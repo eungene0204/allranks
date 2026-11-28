@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { columnDateLabel, columnPath, getColumn, publishedColumns } from "@/lib/columns";
 import { getRanking } from "@/lib/data";
-import { breadcrumbs, pageMetadata } from "@/lib/seo";
+import { pageMetadata, pageSchema } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 
 type Props = { params: Promise<{ id: string }> };
@@ -28,20 +29,21 @@ export default async function ColumnPage({ params }: Props) {
   const column = getColumn((await params).id);
   if (!column) notFound();
   const path = columnPath(column.id);
+  const page = pageSchema(path, column.title);
+  const articleId = `${page.url}#article`;
   const rankings = column.rankingIds.map(getRanking).filter((ranking) => ranking !== undefined);
   return (
     <>
-      <JsonLd data={breadcrumbs([{ name: "Home", path: "/" }, { name: "Columns", path: "/columns" }, { name: column.title, path }])} />
-      <JsonLd data={{
-        "@context": "https://schema.org", "@type": "Article", headline: column.title, description: column.summary,
-        datePublished: column.publishedOn, inLanguage: "en",
-        author: { "@type": "Organization", name: "AllRanks", url: `${SITE_URL}/editorial-policy` },
-        publisher: { "@id": `${SITE_URL}/#organization` }, citation: column.sources.map(({ url }) => url),
-        mainEntityOfPage: `${SITE_URL}${path}`,
-      }} />
+      <JsonLd data={{ "@context": "https://schema.org", "@graph": [
+        { ...page, mainEntity: { "@id": articleId } },
+        { "@type": "Article", "@id": articleId, headline: column.title, description: column.summary,
+          datePublished: column.publishedOn, inLanguage: page.inLanguage,
+          author: page.publisher, publisher: page.publisher, citation: column.sources.map(({ url }) => url),
+          mainEntityOfPage: { "@id": page["@id"] } },
+      ] }} />
       <article className="reading-article">
         <header className="page-head">
-          <div className="crumbs"><Link href="/">Home</Link> / <Link href="/columns">Columns</Link></div>
+          <Breadcrumbs items={[{ name: "Columns", path: "/columns" }, { name: column.title, path }]} />
           <h1>{column.title}</h1>
           <p className="editorial-byline">AllRanks assistant · <time dateTime={column.publishedOn}>{columnDateLabel(column.publishedOn)}</time></p>
         </header>

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import JsonLd from "@/components/JsonLd";
 import { CONTACT_EMAIL } from "@/lib/site";
 
 type AnswerPart = { text: string; href?: string };
@@ -71,36 +70,20 @@ function renderAnswerPart(part: AnswerPart, key: number) {
 }
 
 export default function FooterFaq() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map(({ question, answer }) => ({
-      "@type": "Question",
-      name: question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: answer.map(({ text }) => text).join(""),
-      },
-    })),
-  };
-
   return (
-    <>
-      <JsonLd data={jsonLd} />
-      <section className="footer-faq" aria-labelledby="footer-faq-title">
-        <div className="footer-faq-intro">
-          <h2 id="footer-faq-title">Frequently asked questions</h2>
-          <p>Quick answers about exploring and reading AllRanks.</p>
-        </div>
-        <div className="footer-faq-items">
-          {faqs.map(({ question, answer }) => (
-            <details key={question}>
-              <summary>{question}</summary>
-              <p>{answer.map(renderAnswerPart)}</p>
-            </details>
-          ))}
-        </div>
-      </section>
-    </>
+    <section className="footer-faq" aria-labelledby="footer-faq-title">
+      <div className="footer-faq-intro">
+        <h2 id="footer-faq-title">Frequently asked questions</h2>
+        <p>Quick answers about exploring and reading AllRanks.</p>
+      </div>
+      <div className="footer-faq-items">
+        {faqs.map(({ question, answer }) => (
+          <details key={question}>
+            <summary>{question}</summary>
+            <p>{answer.map(renderAnswerPart)}</p>
+          </details>
+        ))}
+      </div>
+    </section>
   );
 }

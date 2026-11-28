@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { pageMetadata } from "@/lib/seo";
+import { ORGANIZATION_ID, pageMetadata, pageSchema } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import Link from "next/link";
 import { allRankings, countryCodes } from "@/lib/data";
 import { CONTACT_EMAIL } from "@/lib/site";
@@ -11,9 +12,11 @@ export default function AboutPage() {
   const world = all.filter((r) => !r.scope).length;
   return (
     <>
+      <JsonLd data={{ "@context": "https://schema.org", ...pageSchema("/about", "About AllRanks", "AboutPage"),
+        about: { "@id": ORGANIZATION_ID } }} />
       <div className="page-head">
         <h1>About AllRanks</h1>
-        <p>One place to see how countries compare on almost anything.</p>
+        <p>AllRanks collects source-linked country and world rankings so you can compare entries within a defined measure and reference period.</p>
       </div>
       <div className="prose">
         <p>

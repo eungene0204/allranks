@@ -49,21 +49,28 @@ export default function HomePage() {
         regionalCount: regional.length,
         regionalIcons: regional.slice(0, 8).map((r) => r.icon),
       }))} />
+      <details className="ranking-directory">
+        <summary>Browse country rankings by name</summary>
+        <ul>{[...countries].sort((a, b) => a.name.localeCompare(b.name, "en")).map(({ code, name }) => (
+          <li key={code}><Link href={`/country/${code}`} prefetch={false}>{name}</Link></li>
+        ))}</ul>
+      </details>
 
       <SearchForm />
 
       <ReadingGuideCards limit={3} />
 
-      <h2 className="section">LATEST</h2>
+      <div className="reading-guides-heading columns-heading">
+        <h2 className="section">Latest rankings</h2>
+        <Link href="/latest">All latest rankings →</Link>
+      </div>
       <RandomRankingCards rankings={latestRankings.map(toRankingCard)} shuffle={false} />
 
       <h2 className="section">Popular rankings</h2>
       <RandomRankingCards rankings={popularRankings.slice(0, 15).map(toRankingCard)} limit={15} rerollOnRestore className="popular-ranking-cards" />
-      {popularRankings.length > 15 && (
-        <div className="more-rankings">
-          <Link className="more-rankings-link" href="/popular">More</Link>
-        </div>
-      )}
+      <div className="more-rankings">
+        <Link className="more-rankings-link" href="/popular">All popular rankings</Link>
+      </div>
       <section className="reading-guides" aria-labelledby="home-columns-title">
         <div className="reading-guides-heading columns-heading">
           <h2 id="home-columns-title">Columns</h2>

@@ -663,3 +663,11 @@ The Sochi 2014 snapshot uses the manual ranking format with an edition-specific 
 ## 2026-11-27 록 곡 랭킹과 법치주의 주소 복구
 
 Rolling Stone 록 곡 200위 목록을 검증된 수동 랭킹으로 main에 포함한다. `rank position` 단위 상세에서는 위치를 나타내는 숫자에 막대와 분포 시각화를 적용하지 않는다. 법치주의 지수의 로컬 주소 `/ranking/rule-of-law-index-2026`는 동일한 143개 점수를 제공하는 표준 주소 `/ranking/wjp-rule-of-law-index-2026`에 308로 연결한다.
+
+## 2026-11-27 검색 발견·콘텐츠 출처 아키텍처
+
+- Next.js App Router를 유지하고 16.4.6으로 패치했다. 홈·가이드·컬럼·사이트맵은 정적으로 생성하고, 일부 랭킹은 빌드 시 생성하며 나머지는 요청 시 생성한다. 국가·카테고리·검색은 페이지 번호 또는 검색어에 따라 서버에서 HTML을 렌더링한다.
+- `src/lib/seo.ts`에서 canonical, 색인 메타, 페이지 번호 검사와 사이트·조직 식별자를 관리한다. `Breadcrumbs`는 같은 링크 목록으로 화면 탐색과 JSON-LD를 만든다. 랭킹은 전체 제목을 메타에 사용하고, 출처 라이선스를 명확히 확인할 수 있는 표만 `Dataset`으로 기술한다.
+- 홈 국가 목록과 국가별 지역 랭킹 목록을 서버 HTML 링크로 제공한다. 유효한 페이지 별칭은 한 번의 308로 정규화한다. 존재하지 않는 국가·목록 페이지는 렌더를 시작하기 전에 404로 처리한다.
+- 사이트맵 날짜는 랭킹 내용 해시와 컬럼 발행일을 기준으로 한다. 가이드의 출처 검토일은 본문에 표시한다. 검색 페이지와 보조 JSON API의 색인은 각각 메타 및 응답 헤더로 제외한다.
+- 공개 응답 회귀 검사는 기존 GitHub Actions에서 실행한다. 전체 canonical URL의 HTTP·제목·설명을 확인할 때는 `SEO_CHECK_ALL=1 npm run seo:check -- <base-url>`을 사용한다. 운영 지표와 검증 범위는 [SEO·AEO·GEO 보고서](SEO-AEO-GEO-REPORT.md)에 기록한다.

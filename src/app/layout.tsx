@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import { ADSENSE_CLIENT, CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import JsonLd from "@/components/JsonLd";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { ORGANIZATION_ID, SITE_LANGUAGE, WEBSITE_ID } from "@/lib/seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -26,15 +27,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   return (
-    <html lang="en">
+    <html lang={SITE_LANGUAGE}>
       <body>
         {gaMeasurementId && /^G-[A-Z0-9]+$/.test(gaMeasurementId) ? <GoogleAnalytics measurementId={gaMeasurementId} /> : null}
         <JsonLd data={{ "@context": "https://schema.org", "@graph": [
-          { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: "AllRanks", url: SITE_URL, email: CONTACT_EMAIL },
-          { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: "AllRanks", url: SITE_URL, inLanguage: "en", publisher: { "@id": `${SITE_URL}/#organization` } },
+          { "@type": "Organization", "@id": ORGANIZATION_ID, name: "AllRanks", url: SITE_URL, email: CONTACT_EMAIL },
+          { "@type": "WebSite", "@id": WEBSITE_ID, name: "AllRanks", url: SITE_URL, inLanguage: SITE_LANGUAGE, publisher: { "@id": ORGANIZATION_ID } },
         ] }} />
+        <a className="skip-link" href="#main-content">Skip to main content</a>
         <Header />
-        <main className="wrap">{children}</main>
+        <main id="main-content" className="wrap" tabIndex={-1}>{children}</main>
         <footer className="site-footer">
           <div className="wrap">
             <strong>AllRanks</strong> — one place for every ranking in the world.{" "}

@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [{
+      source: "/api/:path*",
+      headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+    }, {
       source: "/country/:code",
       // Public deployment snapshots; keep ?page=N server-rendered while caching
       // each URL at Vercel. A separate CDN header outranks Next's private header.

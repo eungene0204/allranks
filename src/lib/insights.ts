@@ -128,7 +128,12 @@ export function rankingSummary(r: Ranking): string {
 
 /** A concise, topic-specific search snippet without repeating a long source definition. */
 export function rankingSnippet(r: Ranking): string {
-  const text = `${r.short ?? r.title}. ${rankingSummary(r)}`;
+  const text = `${rankingSearchTitle(r)}. ${rankingSummary(r)}`;
   if (text.length <= 200) return text;
   return `${text.slice(0, 197).replace(/\s+\S*$/, "").replace(/[.,;:]$/, "")}…`;
+}
+
+/** Use the full metric and geographic scope, with redundant unit notation shortened. */
+export function rankingSearchTitle(r: Ranking): string {
+  return r.title.replace(/,?\s*rank \(1=highest performer\)/i, " ranking");
 }

@@ -139,19 +139,23 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
       land = coarse;
       view.current.dirty = true;
     }).catch(() => { /* Country links remain available if the map cannot load. */ });
-    // Sharper borders for when the user zooms in; loaded in the background.
+    // Fetch sharper borders only when a zoomed view can use them.
     let detailed: Shape[] | null = null;
-    import("world-atlas/countries-50m.json").then((m) => {
-      if (disposed) return;
-      detailed = toShapes(m.default);
-      view.current.dirty = true;
-    }).catch(() => { /* Keep the coarse map if the detail chunk fails to load. */ });
+    let requestedDetailed = false;
 
     const markerState = countries.map(() => ({ visible: false, hit: 0 }));
     const labelWidths = new Map<string, number>();
     const labelOrder = new WeakMap<Shape[], Shape[]>();
     const draw = () => {
       const v = view.current;
+      if (v.zoomTarget > 1.6 && !requestedDetailed) {
+        requestedDetailed = true;
+        import("world-atlas/countries-50m.json").then((m) => {
+          if (disposed) return;
+          detailed = toShapes(m.default);
+          view.current.dirty = true;
+        }).catch(() => { /* Keep the coarse map if the detail chunk fails to load. */ });
+      }
       const pal = PALETTES[v.dark ? "dark" : "light"];
       const R = size * GLOBE_FILL * v.zoom;
       const cx = size / 2;
@@ -344,6 +348,7 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
 
     let raf = 0;
     let previousTime = 0;
+    let previousDraw = 0;
     const tick = (time: number) => {
       raf = requestAnimationFrame(tick);
       const dt = previousTime ? Math.min((time - previousTime) / 1000, 0.05) : 1 / 60;
@@ -387,8 +392,10 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
         v.zoom = v.zoomTarget;
         v.anchor = null;
       }
-      if (v.dirty) {
+      // The idle preview can skip frames. Active pointer and zoom rendering stays responsive.
+      if (v.dirty && (!v.spin || reduceMotion || time - previousDraw >= 66)) {
         v.dirty = false;
+        previousDraw = time;
         draw();
       }
     };
@@ -519,13 +526,13 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
               onFocus={() => { setHovered(c.flag); router.prefetch(`/country/${c.code}`); }}
               onBlur={() => setHovered(null)}
               className={`marker-hit ${c.flag === selected ? "on" : ""} ${c.firsts ? "has-lead" : ""}`}
-              aria-label={`${c.name}: ${c.appearanceCount} rankings${c.firsts ? `, #1 in ${leads.map((l) => l.title).join(", ")}` : ""}. Open details`}
               ref={(el) => {
                 hitRefs.current[i] = el;
               }}
             >
+              <span className="sr-only">{c.name} · {c.appearanceCount} rankings</span>
               {c.firsts > 0 && (
-                <span className="badges">
+                <span className="badges" aria-hidden="true">
                   {leads.slice(0, 3).map((l) => (
                     <span className="badge" key={l.id}>
                       <Mark icon={l.icon} logo={l.logo} />
@@ -534,7 +541,7 @@ export default function GlobeExplorer({ countries }: { countries: GlobeCountry[]
                   {c.leadCount > 3 && <span className="badge more">+{c.leadCount - 3}</span>}
                 </span>
               )}
-              {(hovered === c.flag || selected === c.flag) && <span className="tip">
+              {(hovered === c.flag || selected === c.flag) && <span className="tip" aria-hidden="true">
                 <b>
                   {c.flag} {c.name}
                 </b>

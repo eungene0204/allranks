@@ -74,7 +74,7 @@ export default function SearchForm({ query = "", id = "explore-search", compact 
           onFocus={() => { setOpen(true); router.prefetch("/search"); }}
           onKeyDown={(event) => { if (event.key === "Escape") setOpen(false); }}
           placeholder="Try Korea, GDP or MIT…" autoComplete="off"
-          aria-expanded={showSuggestions} aria-controls={showSuggestions ? `${id}-suggestions` : undefined} />
+          aria-controls={showSuggestions ? `${id}-suggestions` : undefined} />
         <button type="submit">Search</button>
       </div>
       {showSuggestions && <div className="search-suggestions" id={`${id}-suggestions`}>
